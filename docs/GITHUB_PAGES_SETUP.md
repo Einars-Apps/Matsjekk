@@ -12,7 +12,7 @@ En enkel, trygg måte å opprette en GitHub Pages-side fra ditt repo med docs-ma
 
 ### 1. Opprett et nytt repo på GitHub
 
-Gå til [https://github.com/new](https://github.com/new). Velg navn (f.eks. matsjekk), sett det offentligt eller privat etter ønske.
+Gå til [https://github.com/new](https://github.com/new). Velg navn (f.eks. matsjekk), sett det offentlig eller privat etter ønske.
 
 ### 2. Initialiser Git lokalt
 
