@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matsjekk - Scanning av matvarer">
+    <title>Matsjekk - Scanning av matvarer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🍎 Matsjekk</h1>
+            <p class="tagline">Scanning av matvarer</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Velkommen til Matsjekk</h2>
+                <p>Din digitale assistent for matvarescanning og informasjon</p>
+            </div>
+        </section>
+
+        <section class="scanner">
+            <div class="container">
+                <h3>Skann en matvare</h3>
+                <div class="scanner-box">
+                    <input type="text" id="barcode-input" placeholder="Skriv inn strekkode eller skann med kamera">
+                    <button id="scan-btn">Skann</button>
+                </div>
+                <div id="result" class="result-box"></div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h3>Funksjoner</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">📷</span>
+                        <h4>Strekkodeskanning</h4>
+                        <p>Skann strekkoder raskt og enkelt</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">📊</span>
+                        <h4>Næringsinnhold</h4>
+                        <p>Se detaljert næringsinnhold</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🔍</span>
+                        <h4>Produktinformasjon</h4>
+                        <p>Få full oversikt over produkter</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">✅</span>
+                        <h4>Allergener</h4>
+                        <p>Identifiser allergener og ingredienser</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Matsjekk. Alle rettigheter reservert.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
