@@ -50,7 +50,7 @@ GitHub vil bygge og deploye siden din. Dette tar vanligvis 1-2 minutter. Du vil 
 
 ## Viktige merknader
 
-- Repoet må være **public** for gratis GitHub Pages, eller du må ha GitHub Pro/Team/Enterprise for private repos
+- Repoet må være **offentlig** for gratis GitHub Pages, eller du må ha GitHub Pro/Team/Enterprise for private repos
 - Alle filer i `docs`-mappen vil være tilgjengelige på nettstedet ditt
 - Hovedfilen kan være `index.html` eller `README.md`
 - GitHub Pages støtter Jekyll for statiske nettsider
