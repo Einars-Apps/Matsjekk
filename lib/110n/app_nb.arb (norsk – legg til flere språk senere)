@@ -1,0 +1,22 @@
+{
+  "appTitle": "Insektvarsler",
+  "scanInstruction": "Hold strekkoden innenfor rammen",
+  "@scanInstruction": {
+    "description": "Instruksjon for scanning"
+  },
+  "safeProduct": "Trygt – ingen insekter funnet",
+  "warningFound": "ADVARSEL: Insekter oppdaget!",
+  "ok": "OK",
+  "settings": "Innstillinger",
+  "checkInsects": "Sjekk for insekter",
+  "checkBovaer": "Sjekk for Bovaer i fôr",
+  "checkGMO": "Sjekk for GMO",
+  "disclaimer": "Ansvarsfraskrivelse: Appen bruker offentlig data og kan ha unøyaktigheter. Sjekk alltid etikettene.",
+  "productNotFound": "Produkt ikke funnet",
+  "noConnection": "Ingen tilkobling – sjekk internett",
+  "locationOff": "Lokasjonstjenester av",
+  "locationDenied": "Lokasjonstillatelse nektet",
+  "nearbySafeStores": "Nærliggende trygge butikker",
+  "close": "Lukk",
+  "unknownProduct": "Ukjent produkt"
+}
