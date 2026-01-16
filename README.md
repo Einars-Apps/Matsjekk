@@ -6,7 +6,7 @@ Matsjekk er en webapplikasjon for scanning av matvarer og visning av produktinfo
 
 ## 🌐 Live Demo
 Når GitHub Pages er aktivert, vil siden være tilgjengelig på:
-`https://einarborsheim-crypto.github.io/Matsjekk/`
+`https://Einars-Apps.github.io/Matsjekk/`
 
 ## Sette opp GitHub Pages
 
@@ -23,7 +23,7 @@ Når GitHub Pages er aktivert, vil siden være tilgjengelig på:
 - Du får en bekreftelse når siden er live
 
 ### Steg 3: Besøk siden
-- Åpne URL-en: `https://einarborsheim-crypto.github.io/Matsjekk/`
+- Åpne URL-en: `https://Einars-Apps.github.io/Matsjekk/`
 - Siden vil nå være tilgjengelig for alle på internett
 
 ## Hvordan bruke lokalt

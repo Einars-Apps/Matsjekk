@@ -5,7 +5,7 @@
 ### Hvordan sette opp GitHub Pages for Matsjekk
 
 #### Trinn 1: Gå til Repository Settings
-1. Naviger til GitHub repository: `https://github.com/einarborsheim-crypto/Matsjekk`
+1. Naviger til GitHub repository: `https://github.com/Einars-Apps/Matsjekk`
 2. Klikk på **"Settings"** (tannhjul-ikonet) øverst til høyre
 
 #### Trinn 2: Åpne Pages-innstillinger
@@ -25,7 +25,7 @@
 - Etter 1-3 minutter vil boksen bli grønn: "Your site is live at..."
 
 #### Trinn 5: Besøk siden din
-- URL-en vil være: `https://einarborsheim-crypto.github.io/Matsjekk/`
+- URL-en vil være: `https://Einars-Apps.github.io/Matsjekk/`
 - Klikk på **"Visit site"** knappen eller kopier URL-en
 - Siden er nå tilgjengelig for alle på internett! 🎉
 
@@ -56,7 +56,7 @@ Når du gjør endringer i koden:
 ### How to Set Up GitHub Pages for Matsjekk
 
 #### Step 1: Go to Repository Settings
-1. Navigate to GitHub repository: `https://github.com/einarborsheim-crypto/Matsjekk`
+1. Navigate to GitHub repository: `https://github.com/Einars-Apps/Matsjekk`
 2. Click on **"Settings"** (gear icon) in the top right
 
 #### Step 2: Open Pages Settings
@@ -76,7 +76,7 @@ Når du gjør endringer i koden:
 - After 1-3 minutes, the box will turn green: "Your site is live at..."
 
 #### Step 5: Visit Your Site
-- The URL will be: `https://einarborsheim-crypto.github.io/Matsjekk/`
+- The URL will be: `https://Einars-Apps.github.io/Matsjekk/`
 - Click the **"Visit site"** button or copy the URL
 - Your site is now available to everyone on the internet! 🎉
 
@@ -105,16 +105,16 @@ When you make code changes:
 ## Repository URL
 When a script asks for the repository URL, use:
 ```
-https://github.com/einarborsheim-crypto/Matsjekk
+https://github.com/Einars-Apps/Matsjekk
 ```
 
 Or the SSH version:
 ```
-git@github.com:einarborsheim-crypto/Matsjekk.git
+git@github.com:Einars-Apps/Matsjekk.git
 ```
 
 ## GitHub Pages URL
 Once deployed, the live site URL is:
 ```
-https://einarborsheim-crypto.github.io/Matsjekk/
+https://Einars-Apps.github.io/Matsjekk/
 ```
