@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analytics — Matsjekk</title>
+  <meta name="description" content="Analytics / sporingsside for Matsjekk - instruksjoner og status." />
+  <!-- If you need Search Console meta verification for this site, ensure the verification meta tag is present in docs/index.html head. -->
+  <!-- GA4: Replace MEASUREMENT_ID with your Measurement ID (G-XXXXXXXXXX) to enable tracking. -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'MEASUREMENT_ID');
+  </script>
+  -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html">← Tilbake</a>
+      <h1>Analytics</h1>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <h2>Oversikt</h2>
+      <p>Denne siden fungerer som dokumentasjon og hjelpe-side for Google Analytics / verifisering.</p>
+      <h3>1) For å aktivere sporing (GA4)</h3>
+      <ol>
+        <li>Gå til Google Analytics og finn din Measurement ID (format: <code>G-XXXXXXXXXX</code>).</li>
+        <li>Åpne <code>docs/analytics.html</code> eller <code>docs/index.html</code> og lim inn gtag-snippet i <code>&lt;head&gt;</code>, eller fjern kommentarene rundt gtag-blokken ovenfor og erstatt <code>MEASUREMENT_ID</code> med din ID.</li>
+        <li>Commit og push endringene til repo, og la GitHub Pages publisere siden.</li>
+      </ol>
+      <h3>2) Search Console / site verification</h3>
+      <p>Hvis du trenger å verifisere eierskap i Search Console via meta-tag, legg meta-taggen i <code>docs/index.html</code> &lt;head&gt; og push. Eksempel:</p>
+      <pre>&lt;meta name="google-site-verification" content="GV5-nGUT1Sq6DlinAh5DvlnnfyzaKJ5Q7DyjQ38X868" /&gt;</pre>
+
+      <h3>3) Sikkerhet og personvern</h3>
+      <p>Husk at du må oppdatere <a href="privacy.html">Personvern</a>-siden for å beskrive hva som spores og hvorfor. Ads and analytics must be disclosed and consented to via the cookie banner.</p>
+
+      <h3>4) Quick links</h3>
+      <ul>
+        <li><a href="https://analytics.google.com/analytics/web/">Open Google Analytics</a></li>
+        <li><a href="index.html">Tilbake til nettstedet</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="container">© 2026 Matsjekk</div>
+  </footer>
+</body>
+</html>
