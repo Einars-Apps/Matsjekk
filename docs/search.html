@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Søk produkter - Mat Sjekk</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Søk produkt</h1>
+    <p>Søk etter EAN (strekkode) eller produktnavn. Resultatet bruker samme risikologikk som appen (Bovaer, insektmel, GMO-fiskefôr).</p>
+
+    <div class="search-box">
+      <input id="query" placeholder="Skriv EAN eller produktnavn" />
+      <select id="country">
+        <option value="NO">Norge</option>
+        <option value="SE">Sverige</option>
+        <option value="DK">Danmark</option>
+      </select>
+      <button id="search">Søk</button>
+    </div>
+
+    <div id="result"></div>
+  </main>
+
+  <script>
+  async function loadRisk() {
+    const res = await fetch('data/risk.json');
+    return res.json();
+  }
+
+  function classify(product, riskData, country) {
+    const brand = (product.brands || product.brand || '').toLowerCase();
+    const labels = (product.labels || product.labels_tags || []).join(' ').toLowerCase();
+    const ingredients = (product.ingredients_text || product.ingredients_text_en || '').toLowerCase();
+
+    const cdata = riskData[country] || riskData['NO'];
+
+    // Organic check
+    const organicKeywords = cdata.organic_keywords || [];
+    const isOrganic = organicKeywords.some(k => (labels + ' ' + ingredients).includes(k.toLowerCase()));
+
+    // Bovaer brand checks
+    const brandNormalized = brand.replaceAll(/[^a-z0-9åøæäöüéè]/g,'');
+    const bRed = (cdata.bovaer_red || []).map(b=>b.toLowerCase());
+    const bYellow = (cdata.bovaer_yellow || []).map(b=>b.toLowerCase());
+    const isBovaerRed = bRed.some(b => brand.includes(b) || brandNormalized.includes(b.replace(/[^a-z0-9]/g,'')));
+    const isBovaerYellow = bYellow.some(b => brand.includes(b));
+
+    // Insect meal check (simple keywords)
+    const insectKeywords = ['insect','insektsmel','insektsprotein','mealworm','meal worm','black soldier fly','insektsmel'];
+    const hasInsect = insectKeywords.some(k => ingredients.includes(k) || labels.includes(k));
+
+    return {
+      isOrganic, isBovaerRed, isBovaerYellow, hasInsect
+    };
+  }
+
+  async function searchProduct(query, country, riskData) {
+    const resultEl = document.getElementById('result');
+    resultEl.innerHTML = '<p>Laster…</p>';
+    // If query looks like digits (EAN), use product API
+    if (/^\d{8,13}$/.test(query.trim())) {
+      const url = `https://world.openfoodfacts.org/api/v2/product/${query}.json`;
+      try {
+        const r = await fetch(url);
+        const j = await r.json();
+        if (j.status === 1) {
+          const p = j.product;
+          const c = classify(p, riskData, country);
+          resultEl.innerHTML = renderProduct(p, c);
+        } else {
+          resultEl.innerHTML = '<p>Produkt ikke funnet.</p>';
+        }
+      } catch (e) { resultEl.innerHTML = '<p>Feil under forespørsel.</p>'; }
+      return;
+    }
+
+    // Otherwise use search endpoint
+    const params = new URLSearchParams({search_terms: query, search_simple: '1', json: '1', page_size: '10'});
+    const url = `https://world.openfoodfacts.org/cgi/search.pl?${params.toString()}`;
+    try {
+      const r = await fetch(url);
+      const j = await r.json();
+      if (!j.products || j.products.length === 0) { resultEl.innerHTML = '<p>Ingen treff.</p>'; return; }
+      resultEl.innerHTML = j.products.map(p=>{
+        const c = classify(p, riskData, country);
+        return `<div class="search-hit">${renderProduct(p,c)}</div>`;
+      }).join('\n');
+    } catch (e) { resultEl.innerHTML = '<p>Feil under søk.</p>'; }
+  }
+
+  function renderProduct(p, c) {
+    const title = p.product_name || p.generic_name || 'Uten navn';
+    const brand = p.brands || p.brands_tags && p.brands_tags[0] || 'Ukjent';
+    const ean = p.code || '';
+    const labels = p.labels || p.labels_tags && p.labels_tags.join(', ') || '';
+    const notes = [];
+    if (c.isOrganic) notes.push('Økologisk (merking funnet)');
+    if (c.isBovaerRed) notes.push('Bovaer: høy risiko (produsent i rød liste)');
+    else if (c.isBovaerYellow) notes.push('Bovaer: moderat risiko (produsent i gul liste)');
+    if (c.hasInsect) notes.push('Insektmel: indikasjon i ingredienslisten');
+    return `
+      <div class="product">
+        <h3>${escapeHtml(title)}</h3>
+        <p><strong>Merke:</strong> ${escapeHtml(brand)} • <strong>EAN:</strong> ${escapeHtml(ean)}</p>
+        <p><strong>Merkelapper:</strong> ${escapeHtml(labels)}</p>
+        <p><strong>Vurdering:</strong> ${notes.length ? notes.join(' • ') : 'Ingen risiko funnet basert på tilgjengelig data'}</p>
+        <p><a href="https://world.openfoodfacts.org/product/${ean}" target="_blank">Åpne i OpenFoodFacts</a></p>
+      </div>`;
+  }
+
+  function escapeHtml(s){ if(!s) return ''; return s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;'); }
+
+  document.getElementById('search').addEventListener('click', async ()=>{
+    const q = document.getElementById('query').value.trim();
+    const country = document.getElementById('country').value;
+    const riskData = await loadRisk();
+    if (!q) return; await searchProduct(q,country,riskData);
+  });
+  </script>
+</body>
+</html>
