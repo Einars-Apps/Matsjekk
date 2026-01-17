@@ -1,0 +1,20 @@
+{
+  "NO": {
+    "bovaer_red": ["tine","arla","aptina","lerøy","mowi","salmar"],
+    "bovaer_yellow": ["synnøve","fjordland","ostecompagniet","q-meieriene","kavli"],
+    "gmo_fish_red": ["lerøy","mowi","salmar"],
+    "organic_keywords": ["økologisk","organic","biodynamisk","debio"]
+  },
+  "SE": {
+    "bovaer_red": ["arla","arla foods","växa","lurisia"],
+    "bovaer_yellow": ["milko","norrmejerier","gårdsyssan"],
+    "gmo_fish_red": ["lerøy","mowi","salmar"],
+    "organic_keywords": ["ekologisk","organic","biodynamisk","krav"]
+  },
+  "DK": {
+    "bovaer_red": ["arla","arla foods","nørsmølk","thise","dong"],
+    "bovaer_yellow": ["meka","landet","diplom-is"],
+    "gmo_fish_red": ["grønnland","nordic seafood"],
+    "organic_keywords": ["økologisk","organic","demeter","økocertificeret"]
+  }
+}
