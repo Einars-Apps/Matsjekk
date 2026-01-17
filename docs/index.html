@@ -6,6 +6,7 @@
     <meta name="description" content="Mat Sjekk - Skann strekkoder og få umiddelbar informasjon om Bovaer, GMO-fiskefôr og insektmel i matvarene dine. Gratis app for bevisste forbrukere.">
     <meta name="keywords" content="matsjekk, bovaer, gmo, strekkodeskanner, matapp, bevisste forbrukere, norge, økologisk mat">
     <meta name="author" content="Einar's App's">
+    <meta name="google-site-verification" content="GV5-nGUT1Sq6DlinAh5DvlnnfyzaKJ5Q7DyjQ38X868" />
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph / Facebook -->
@@ -26,6 +27,7 @@
     <title>Mat Sjekk - Skann mat, velg bevisst</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link rel="canonical" href="https://sites.google.com/view/einars-apps/">
 </head>
 <body>
@@ -99,6 +101,14 @@
                 </div>
             </div>
         </section>
+
+        <aside class="ad-slot">
+            <!-- Ad placeholder: will load only after user gives cookie consent -->
+                <div class="ad-box" data-ad-slot="">
+                    <p>Reklameplass (vises etter at du godtar informasjonskapsler)</p>
+                    <!-- To enable AdSense: set your client ID in docs/js/ads-adsense.js and optionally put a data-ad-slot value here. -->
+                </div>
+        </aside>
 
         <section class="how-it-works">
             <h2>Slik fungerer det</h2>
@@ -182,11 +192,45 @@
             <p>&copy; 2026 Mat Sjekk / Einar's Apps. Alle rettigheter reservert.</p>
             <p>
                 <a href="privacy.html">Personvern</a> | 
-                <a href="terms.html">Vilkår</a>
+                <a href="terms.html">Vilkår</a> |
+                <a href="analytics.html">Analytics</a>
             </p>
         </div>
     </footer>
-    <script src="lang.js"></script>
-    <script src="news.js"></script>
+        <script src="lang.js"></script>
+        <script src="news.js"></script>
+        <script src="js/ads-loader.js"></script>
+        <script src="consent.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+        <script>
+            // Initialize CookieConsent and connect it to our MatSjekkConsent API
+            window.addEventListener('load', function(){
+                if (!window.cookieconsent) return;
+                window.cookieconsent.initialise({
+                    palette: {popup: {background: "#222"}, button: {background: "#14a7d0"}},
+                    theme: "classic",
+                    position: "bottom-right",
+                    content: {
+                        message: "Vi bruker informasjonskapsler for å vise relevante annonser og forbedre nettstedet.",
+                        dismiss: "Aksepter",
+                        deny: "Avslå",
+                        link: "Les mer",
+                        href: "privacy.html"
+                    },
+                    onInitialise: function(status){
+                        if (this.hasConsented && this.hasConsented()){
+                            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');
+                        }
+                    },
+                    onStatusChange: function(status, chosenBefore){
+                        if (this.hasConsented && this.hasConsented()){
+                            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');
+                        } else {
+                            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('no');
+                        }
+                    }
+                });
+            });
+        </script>
 </body>
 </html>
