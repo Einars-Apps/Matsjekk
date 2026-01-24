@@ -32,10 +32,15 @@ void main() {
         await box.close();
       }
     } catch (_) {}
-    // Small delay to let the OS release file handles on Windows before
-    // the test harness finalizes listener files. This mitigates intermittent
-    // PathNotFoundException errors seen in some environments.
-    await Future.delayed(const Duration(milliseconds: 250));
+    // Ensure all Hive resources are closed and give the OS time to release
+    // file handles on Windows before the test harness finalizes listener
+    // files. This mitigates intermittent PathNotFoundException errors seen
+    // in some environments where the test runner deletes temp listener
+    // files while the OS still holds handles.
+    try {
+      await Hive.close();
+    } catch (_) {}
+    await Future.delayed(const Duration(seconds: 1));
   });
 
   testWidgets('Alert -> Report persists feedback in Hive',
