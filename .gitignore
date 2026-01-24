@@ -43,3 +43,5 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+matvaretabellen.jsonc
+mat_sjekk_logcat.txt
