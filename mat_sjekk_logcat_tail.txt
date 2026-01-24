@@ -1,0 +1,400 @@
+﻿01-22 23:46:39.812 I/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTxThreadRoutine: sending BTTPI data to soc
+01-22 23:46:39.812 D/vendor.qti.hardware.bttpi-impl( 1736): sendFragment: pendingReq(27), nextSeqNum(0), remainingLen(34)
+01-22 23:46:39.812 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController:
+01-22 23:46:39.812 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: sending VS cmd, starting timer
+01-22 23:46:39.812 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStart: is_timer_created=1
+01-22 23:46:39.812 D/vendor.qti.bluetooth@1.0-data_handler( 1736): SendBtTpiData
+01-22 23:46:39.812 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized:
+01-22 23:46:39.812 I/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized: status:1
+01-22 23:46:39.812 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: Command is sent
+01-22 23:46:39.813 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: cmd_opcode: fcda cmd_subopcode: 1b opcode: fcda subopcode: 1b
+01-22 23:46:39.813 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: true
+01-22 23:46:39.813 D/vendor.qti.hardware.bttpi-impl( 1736): operator(): HCI event received. Status(00)
+01-22 23:46:39.813 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStop: is_timer_created= 1
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): setTpiParams: reqType:28, size:24
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): sendFragment: pendingReq(28), nextSeqNum(0), remainingLen(24)
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController:
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: sending VS cmd, starting timer
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStart: is_timer_created=1
+01-22 23:46:39.816 D/vendor.qti.bluetooth@1.0-data_handler( 1736): SendBtTpiData
+01-22 23:46:39.816 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized:
+01-22 23:46:39.816 I/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized: status:1
+01-22 23:46:39.816 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: Command is sent
+01-22 23:46:39.817 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: cmd_opcode: fcda cmd_subopcode: 1c opcode: fcda subopcode: 1c
+01-22 23:46:39.817 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: true
+01-22 23:46:39.817 D/vendor.qti.hardware.bttpi-impl( 1736): operator(): HCI event received. Status(00)
+01-22 23:46:39.817 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStop: is_timer_created= 1
+01-22 23:46:39.820 D/vendor.qti.hardware.bttpi-impl( 1736): setTpiParamsRsp: reqType:43, size:1
+01-22 23:46:39.820 D/vendor.qti.hardware.bttpi-impl( 1736): sendFragment: pendingReq(43), nextSeqNum(0), remainingLen(1)
+01-22 23:46:39.820 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController:
+01-22 23:46:39.820 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: sending VS cmd, starting timer
+01-22 23:46:39.820 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStart: is_timer_created=1
+01-22 23:46:39.820 D/vendor.qti.bluetooth@1.0-data_handler( 1736): SendBtTpiData
+01-22 23:46:39.820 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized:
+01-22 23:46:39.820 I/vendor.qti.bluetooth@1.0-data_handler( 1736): isProtocolInitialized: status:1
+01-22 23:46:39.821 D/vendor.qti.hardware.bttpi-impl( 1736): sendDataToController: Command is sent
+01-22 23:46:39.823 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: cmd_opcode: fcda cmd_subopcode: 2b opcode: fcda subopcode: 2b
+01-22 23:46:39.823 D/vendor.qti.bluetooth@1.0-data_handler( 1736): isBtTpiEvent: true
+01-22 23:46:39.823 D/vendor.qti.hardware.bttpi-impl( 1736): operator(): HCI event received. Status(00)
+01-22 23:46:39.823 D/vendor.qti.hardware.bttpi-impl( 1736): BtTpiTimerStop: is_timer_created= 1
+01-22 23:46:39.823 I/vendor.qti.hardware.bttpi-impl( 1736): operator() len 6
+01-22 23:46:39.837 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:39.838 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.838 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.838 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.729 ms
+01-22 23:46:39.839 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:39.863 I/vendor.qti.bluetooth@1.0-ibs_handler( 1736): ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+01-22 23:46:39.874 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28033, index = 129
+01-22 23:46:39.874 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28033
+01-22 23:46:39.907 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:39.908 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:39.909 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.909 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.941 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28034, index = 130
+01-22 23:46:39.941 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28034
+01-22 23:46:39.967 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:39.970 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:39.973 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.973 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:39.980 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.368 ms
+01-22 23:46:40.007 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28035, index = 131
+01-22 23:46:40.008 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28035
+01-22 23:46:40.036 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.037 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.039 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.039 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.046 D/SensorsFlicker( 1743): Als_common::readEvents, enabled : 1, data : 1.160000, 0.000000, 0.000000, 2.000000, 0.100000, 0.000000, 32768.000000
+01-22 23:46:40.050 I/sensors-hal( 1743): handle_sns_client_event:379, [0][3366047] accel_sample [-0.462,  0.039,  9.678] 743745481677311
+01-22 23:46:40.071 I/vendor.qti.bluetooth@1.0-ibs_handler( 1736): DeviceSleep: TX Awake, Sending SLEEP_IND
+01-22 23:46:40.071 D/vendor.qti.bluetooth@1.0-ibs_handler( 1736): SerialClockVote: vote for UART CLK OFF
+01-22 23:46:40.071 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28036, index = 132
+01-22 23:46:40.071 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28036
+01-22 23:46:40.099 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.099 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.104 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.671 ms
+01-22 23:46:40.105 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.106 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.136 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28037, index = 133
+01-22 23:46:40.136 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28037
+01-22 23:46:40.168 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.169 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.174 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.174 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.193 I/sensors-hal( 1743): handle_sns_std_sensor_event:127, [SSC_LIGHT] A: 4(4),c:69,b:10,m:37,cl:1,l:4,s:3,l0:1280,l1:320,s0:500,s1:0,acl:3,opr:0.57,f(r):101,u(bl):100,if:101,wi:31,si:0,0(N:1)
+01-22 23:46:40.208 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28038, index = 134
+01-22 23:46:40.208 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28038
+01-22 23:46:40.215 I/sensors-hal( 1743): handle_sns_client_event:208, auto_rotation_debug_2 mode,255,last,255, type,3,0 main,-0.479,0.033,9.696 sub,0.388,0.163,-9.844, ar,0, h_ic,1, s,3, ver,12, pedo,1,e,1,i,3
+01-22 23:46:40.221 D/vendor.qti.bluetooth@1.0-wake_lock( 1736): Release wakelock is released 
+01-22 23:46:40.236 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.236 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.239 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.239 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.242 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 4.752 ms
+01-22 23:46:40.274 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28039, index = 135
+01-22 23:46:40.274 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28039
+01-22 23:46:40.307 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.307 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.307 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.308 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.341 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28040, index = 136
+01-22 23:46:40.341 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28040
+01-22 23:46:40.372 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.372 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.375 I/thermal_core( 1833): pivot(AP) : 436, skin : 418
+01-22 23:46:40.375 I/vendor.samsung.hardware.thermal-service( 1833): index = 18.000000
+01-22 23:46:40.375 I/vendor.samsung.hardware.thermal-service( 1833): 2 / 2
+01-22 23:46:40.376 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.376 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.377 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.692 ms
+01-22 23:46:40.390 E/BatteryDump( 1778): !@new_battery_dump : 3972,-147,475,550,59,362,344,429,362,0,420,429,354,Charging,NO_CHARGING,Normal,Good,USB,1,Normal,0,0,10500,0x0,0x10000,0x0,0,0,583,v0004,0,0/0-0-0-0,0000,0000,00000000,3972,3916,0,-64,-83,0,76,0,585,990,0,
+01-22 23:46:40.390 I/seh_thermal_service( 1833): getTemperaturesWithType SehTemperatureType: 3
+01-22 23:46:40.390 V/[SS]SleepChargingTimeController( 2794): [isActivated]mSleepChargingStatus isNowSessionTime False => false
+01-22 23:46:40.391 I/sehhealth-service( 1778): updateLrpSysfs: write: 418
+01-22 23:46:40.405 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28041, index = 137
+01-22 23:46:40.405 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28041
+01-22 23:46:40.411 D/AHAL_ModulePrimary_QTI( 1750): getVendorParameters: id count: 1
+01-22 23:46:40.411 I/PAL: ResourceManager( 1750): getActiveStream_l: 6569: no active streams found for device 3 ret -2
+01-22 23:46:40.411 D/AHAL_SecModulePrimary( 1750): onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+01-22 23:46:40.411 D/AHAL_ModulePrimary_QTI( 1750): getVendorParameters: id count: 1
+01-22 23:46:40.411 I/PAL: ResourceManager( 1750): getActiveStream_l: 6569: no active streams found for device 3 ret -2
+01-22 23:46:40.411 D/AHAL_SecModulePrimary( 1750): onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+01-22 23:46:40.412 I/SDHMS:x ( 7490): SIOP:: AP:436 BAT:362 USB:344 CHG:429 PA:428 CP:432 WIFI:427 CF:435 BLK:0 SUBBAT:353 LRPTHM:403 SKIN:409 SKINF:418 SKINB:414 LRP:409 LRF:418 LRB:414 APT:418 APR:414 RCV:319 SPK:319 CAPR:409 CRCV:324 CSPK:331 CAMT:418 UPSPK:352 DNSPK:352 VAP02:446 VAP05:444 AMB2:270 HIGH:0 AVGCUR:-156 AVGSYS:583 POWER:-621
+01-22 23:46:40.412 I/AudioManager( 7490): setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=33
+01-22 23:46:40.413 D/AudioFlinger( 1846): setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=33
+01-22 23:46:40.413 D/AHAL_HFP_QTI( 1750): hfp_set_parameters enter
+01-22 23:46:40.413 D/AHAL_HFP_QTI( 1750): hfp_set_parameters Exit
+01-22 23:46:40.413 D/AHAL_SecModulePrimary( 1750): processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+01-22 23:46:40.413 D/AHAL_SecModulePrimary( 1750): processSetVendorParameters: handler set on Feature:0
+01-22 23:46:40.413 D/AHAL_SecModulePrimary( 1750): onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 33
+01-22 23:46:40.413 I/PAL: API( 1750): pal_set_param: 1377: Enter: param id 3002
+01-22 23:46:40.413 I/PAL: ResourceManager( 1750): getActiveStream_l: 6569: no active streams found for device 3 ret -2
+01-22 23:46:40.414 E/ConversionHelperAidl( 1846): Function: parseAndSetVendorParameters Line: 94 Failed 
+01-22 23:46:40.414 E/ConversionHelperAidl( 1846): Function: parseAndSetVendorParameters Line: 94 Failed 
+01-22 23:46:40.414 I/AudioManager( 7490): setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=32
+01-22 23:46:40.415 D/AudioFlinger( 1846): setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=32
+01-22 23:46:40.415 D/AHAL_HFP_QTI( 1750): hfp_set_parameters enter
+01-22 23:46:40.415 D/AHAL_HFP_QTI( 1750): hfp_set_parameters Exit
+01-22 23:46:40.415 D/AHAL_SecModulePrimary( 1750): processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+01-22 23:46:40.415 D/AHAL_SecModulePrimary( 1750): processSetVendorParameters: handler set on Feature:0
+01-22 23:46:40.415 D/AHAL_SecModulePrimary( 1750): onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 32
+01-22 23:46:40.415 I/PAL: API( 1750): pal_set_param: 1377: Enter: param id 3001
+01-22 23:46:40.415 I/PAL: ResourceManager( 1750): getActiveStream_l: 6569: no active streams found for device 3 ret -2
+01-22 23:46:40.416 E/ConversionHelperAidl( 1846): Function: parseAndSetVendorParameters Line: 94 Failed 
+01-22 23:46:40.416 E/ConversionHelperAidl( 1846): Function: parseAndSetVendorParameters Line: 94 Failed 
+01-22 23:46:40.436 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.437 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.440 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.440 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.474 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28042, index = 138
+01-22 23:46:40.474 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28042
+01-22 23:46:40.499 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.499 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.505 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.507 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.508 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.911 ms
+01-22 23:46:40.542 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28043, index = 139
+01-22 23:46:40.542 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28043
+01-22 23:46:40.545 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.545 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.546 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.546 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.547 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.548 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.550 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.550 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:40.569 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.569 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.573 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.573 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.605 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28044, index = 140
+01-22 23:46:40.605 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28044
+01-22 23:46:40.617 I/sensors-hal( 1743): handle_sns_std_sensor_event:157, [788075] Pressure 1007.932, cal 0.383, sw_offset 0.000 (lsb(bit) 0xf6 0x77 0x62)
+01-22 23:46:40.633 I/sensors-hal( 1743): handle_sns_client_event:362, [0][1260989] mag_sample_cal(magcal_available:1): ts=743746069953925 ns; cal = [-15.766510, 24.109598, -82.057907], uncal = [-10.546511, 3.529599, -15.217913], bias = [5.220000, -20.580000, 66.839996], status=3, cal_id=1
+01-22 23:46:40.633 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.633 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.635 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.635 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.642 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.730 ms
+01-22 23:46:40.673 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28045, index = 141
+01-22 23:46:40.673 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28045
+01-22 23:46:40.702 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.702 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.708 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.708 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.740 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28046, index = 142
+01-22 23:46:40.740 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28046
+01-22 23:46:40.771 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.772 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.775 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.775 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.777 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.383 ms
+01-22 23:46:40.811 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28047, index = 143
+01-22 23:46:40.811 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28047
+01-22 23:46:40.836 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.838 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.840 I/SDM     ( 1770): DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 69999 us
+01-22 23:46:40.842 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.843 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.873 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28048, index = 144
+01-22 23:46:40.873 D/SensorsFlicker( 1743): Als_common::readEvents, enabled : 1, data : 1.160000, 0.000000, 0.000000, 2.000000, 0.100000, 0.000000, 32768.000000
+01-22 23:46:40.873 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28048
+01-22 23:46:40.901 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.901 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.904 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.904 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.908 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.623 ms
+01-22 23:46:40.936 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28049, index = 145
+01-22 23:46:40.936 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28049
+01-22 23:46:40.971 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:40.971 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:40.973 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:40.973 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.005 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28050, index = 146
+01-22 23:46:41.005 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28050
+01-22 23:46:41.034 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.034 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.038 I/CNSS    ( 2359): /sys/wifi/max_chipset_log_size doesn't exist
+01-22 23:46:41.038 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.038 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.039 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.181 ms
+01-22 23:46:41.064 E/WifiStaIfaceAidlImpl( 2794): getCachedScanData failed with service-specific exception: android.os.ServiceSpecificException:  (code 4)
+01-22 23:46:41.068 D/SemWifiUsabilityStatsMonitor( 2794): onWifiUsabilityStats - seqNum 47350, isSameBssidAndFreq true
+01-22 23:46:41.068 I/EPDG -- SIM1 [SMARTWIFI]( 4235): isProfiling, hash=232274087, started=true
+01-22 23:46:41.068 I/EPDG -- SIM1 [SMARTWIFI]( 4235): isProfiling, hash=232274087, started=true
+01-22 23:46:41.069 I/EPDG -- SIM1 [SMARTWIFI]( 4235): Rssi : -33 highrange : -73 lowrange : -79 mIsRssiInHystersis : false
+01-22 23:46:41.069 I/EPDG -- SIM1 [SMARTWIFI]( 4235): Rssi : -33 highrange : -73 lowrange : -79 mIsRssiInHystersis : false
+01-22 23:46:41.069 I/EPDG -- SIM1 [SMARTWIFI]( 4235): getHandoverThresholdMet: value is: false
+01-22 23:46:41.069 D/InsDataManager( 2794): onOutageCountUpdate() - Outage Data: 0, LQ : N. Outage Triggered: false
+01-22 23:46:41.069 D/SemInsManager( 2794): {"bssid": "097dda0c5200","rssi": -33.0,"latency": 0.0,"outage_count": 0,"lq_callback_triggered": false,"outage_log": "Unreliable statistics: -33.0 / 5 / 184 / 12 / 0 || 097dda0c5200: 0.000 / 0.000 / @ || N N / 0 0 / N 2.0 / N X 0 / 269263852 0 || Invalid""Magnetic Sensor Events size": "0""Pressure Sensor Events size": "0"}
+01-22 23:46:41.069 D/Tile.WifiTile( 4014): handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 2 mStateBeforeClick.value =false enabled =true
+01-22 23:46:41.070 I/HoneySpace.StatusIconTracker( 4731): invokeEvent() called with: event = Wifi(visible=true, resId=2131236006, activityId=2131236031)
+01-22 23:46:41.076 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28051, index = 147
+01-22 23:46:41.076 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28051
+01-22 23:46:41.105 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.105 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.111 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.111 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.140 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28052, index = 148
+01-22 23:46:41.140 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28052
+01-22 23:46:41.170 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.174 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.174 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.174 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.181 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.270 ms
+01-22 23:46:41.214 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28053, index = 149
+01-22 23:46:41.214 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28053
+01-22 23:46:41.238 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.239 I/SDM     ( 1770): DisplayBase::CommitThread: Received idle timeout, panel: cmd, timeout: 70000 us
+01-22 23:46:41.240 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.240 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.241 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.275 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28054, index = 150
+01-22 23:46:41.275 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28054
+01-22 23:46:41.302 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.302 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.304 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.304 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.308 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.601 ms
+01-22 23:46:41.341 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28055, index = 151
+01-22 23:46:41.341 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28055
+01-22 23:46:41.368 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.370 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.373 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.373 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.407 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28056, index = 152
+01-22 23:46:41.407 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28056
+01-22 23:46:41.413 I/thermal_core( 1833): pivot(AP) : 436, skin : 418
+01-22 23:46:41.414 I/vendor.samsung.hardware.thermal-service( 1833): index = 17.800000
+01-22 23:46:41.414 I/vendor.samsung.hardware.thermal-service( 1833): 1 / 2
+01-22 23:46:41.432 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.436 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.437 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.438 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.441 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.887 ms
+01-22 23:46:41.475 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28057, index = 153
+01-22 23:46:41.475 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28057
+01-22 23:46:41.502 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.504 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.507 I/SS_3A   ( 1777):  INFO: AWB: TsAwb_process_preview: 3705: [W][26850]TsAwb_gain=1.661,1.00,1.591,  BV=-8.422, dEV=0.000, lux=514, CT=5203, CT2=5225, TG=5, Ch_g=0.768, I/V=0.000, Flk=0, aR=1
+01-22 23:46:41.509 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.509 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.542 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28058, index = 154
+01-22 23:46:41.542 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28058
+01-22 23:46:41.551 I/sensors-hal( 1743): handle_sns_client_event:435, [0][58208] gyro_sample_cal(cal_available:1)(3) [ 0.000,-0.000, 0.000] bias[-0.002, 0.006,-0.010] 743747015891061
+01-22 23:46:41.569 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.569 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.576 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 5.893 ms
+01-22 23:46:41.579 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.579 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.610 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28059, index = 155
+01-22 23:46:41.610 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28059
+01-22 23:46:41.637 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.637 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.641 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.641 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.644 D/io_stats( 1111): !@   8,0 r 10178709 277367056 w 5938493 157117328 d 1441075 1061012884 f 15374 103222 iot 1626884 0 th 0 0 0 pt 0 inp 0 0 269264.428
+01-22 23:46:41.645 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.645 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.645 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.645 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.646 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.646 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.647 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1804 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.647 E/minksocket( 1716): MinkIPC ERROR: ( 1716:1811 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+01-22 23:46:41.672 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28060, index = 156
+01-22 23:46:41.672 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28060
+01-22 23:46:41.685 D/SensorsFlicker( 1743): Als_common::readEvents, enabled : 1, data : 1.160000, 0.000000, 0.000000, 2.000000, 0.100000, 0.000000, 32768.000000
+01-22 23:46:41.698 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.701 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.703 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.704 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.706 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.205 ms
+01-22 23:46:41.737 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28061, index = 157
+01-22 23:46:41.737 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28061
+01-22 23:46:41.768 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.768 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.771 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.771 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.794 I/Unihal  ( 1777): Camera3Util.h: PrintCurrentStatus: 641: [FWK] ReqStreamBuf(2): 0xb400007a2ef3a998/5) 0xb400007a2ef96018/6) 
+01-22 23:46:41.794 I/Unihal  ( 1777): Camera3Util.h: PrintCurrentStatus: 641: [HAL] ReqStreamBuf(2): 0xb400007a2ef3a998/5) 0xb400007a2ef96018/6) 
+01-22 23:46:41.794 I/Unihal  ( 1777): GlobalMonitor.cpp: PrintInfo: 217: [0-1] S(4) FWK L(  6) 28062/M(S)/R(1)/B(0/2), 28063/M( )/R(1)/B(0/2), 28064/M( )/R(1)/B(0/2), 28065/M( )/R(1)/B(0/2), 28066/M( )/R(0)/B(0/2), 28067/M( )/R(0)/B(0/2)
+01-22 23:46:41.794 I/Unihal  ( 1777): GlobalMonitor.cpp: PrintInfo: 221: [0-1]      HAL L(  6) 28062/M(S)/R(1)/B(0/2), 28063/M( )/R(1)/B(0/2), 28064/M( )/R(1)/B(0/2), 28065/M( )/R(1)/B(0/2), 28066/M( )/R(0)/B(0/2), 28067/M( )/R(0)/B(0/2)
+01-22 23:46:41.807 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28062, index = 158
+01-22 23:46:41.807 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28062
+01-22 23:46:41.832 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.835 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.840 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.841 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.843 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.124 ms
+01-22 23:46:41.873 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28063, index = 159
+01-22 23:46:41.873 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28063
+01-22 23:46:41.906 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.907 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.908 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.908 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.941 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28064, index = 160
+01-22 23:46:41.941 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28064
+01-22 23:46:41.966 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:41.966 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:41.973 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.974 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:41.977 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 4.519 ms
+01-22 23:46:42.010 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28065, index = 161
+01-22 23:46:42.010 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28065
+01-22 23:46:42.037 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.037 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.041 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.041 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.080 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28066, index = 162
+01-22 23:46:42.080 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28066
+01-22 23:46:42.103 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.104 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.106 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.106 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.109 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 1.632 ms
+01-22 23:46:42.110 I/sensors-hal( 1743): handle_sns_client_event:379, [0][3366067] accel_sample [-0.464,  0.038,  9.679] 743747539295644
+01-22 23:46:42.141 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28067, index = 163
+01-22 23:46:42.141 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28067
+01-22 23:46:42.167 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.167 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.178 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.179 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.201 I/EDMNativeHelperService( 2794): isCameraEnabled
+01-22 23:46:42.203 D/EDMNativeHelper( 2794): isCameraEnabled
+01-22 23:46:42.203 D/EDMNativeHelper( 2794): checking for camera in EnterpriseDeviceManagerService
+01-22 23:46:42.203 D/EnterpriseDeviceManagerService( 2794): isCameraEnabledNative
+01-22 23:46:42.203 D/EnterpriseDeviceManagerService( 2794): checking for camera in restriction policy
+01-22 23:46:42.203 D/RestrictionPolicy( 2794): isCameraEnabled ret(true) userId(0) cxtInfo.mCallerUid(10685) cxtInfo.mContainerId(0)
+01-22 23:46:42.211 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28068, index = 164
+01-22 23:46:42.211 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28068
+01-22 23:46:42.212 I/NSLocationMonitor( 2794): getGPSUsingApps() called
+01-22 23:46:42.212 I/NSLocationManager_FLP( 5312): getGPSUsingApps, No change
+01-22 23:46:42.217 D/FreecessHandler( 2794): freeze com.example.mat_sjekk(10685) result : 12
+01-22 23:46:42.234 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.234 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.239 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.239 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.246 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.216 ms
+01-22 23:46:42.260 I/SemWifiServiceDetector( 2794): Service det. resumed: T / T / 14358
+01-22 23:46:42.278 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28069, index = 165
+01-22 23:46:42.278 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28069
+01-22 23:46:42.303 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.304 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.306 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.307 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.342 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28070, index = 166
+01-22 23:46:42.342 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28070
+01-22 23:46:42.364 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.366 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.375 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.375 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.380 I/snap_api::V6( 1777): aiAutoFocus_v1.2.24U.dlc:Session Execute time taken : 2.340 ms
+01-22 23:46:42.403 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13104: result [DYNAMIC_SHOT] requestHint : 0x1, 28071, index = 167
+01-22 23:46:42.403 I/CHI     ( 1777): [SS_LOW ]: [CHI         ]: chxextensionmodule.cpp: ReturnFrameworkResult: 13108: Updated result [DYNAMIC_SHOT] requestHint : 0x0, 28071
+01-22 23:46:42.415 I/thermal_core( 1833): pivot(AP) : 436, skin : 418
+01-22 23:46:42.415 I/vendor.samsung.hardware.thermal-service( 1833): index = 17.800000
+01-22 23:46:42.415 I/vendor.samsung.hardware.thermal-service( 1833): 2 / 2
+01-22 23:46:42.434 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:1522 OnUpdateRecommendedSettings() defaultZoomMasterIndex(1) CAMX:Settings.CurrentCameraId(1)
+01-22 23:46:42.435 E/CHI     ( 1777): [SS_ERR ]: [CHI         ]: chxextensionmodule.cpp: RestoreHighZoomVdisMode: 33157: [HZOOM_DBG] Failure while query originalCropRegionWide custom vendor tag
+01-22 23:46:42.438 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6385 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(-1) recommendedMasterIdFromCamXSettings(0)
+01-22 23:46:42.439 E/ChiX    ( 1777): [ERROR][MCXCore] chimcxmflpolicy.cpp:6402 GetActiveCameraMaskBasedOnOEMMFLPolicy() VendorTag return Invalid recommenedMaster2, recommendedMasterIndex(1) recommendedMasterIndexFromSATOutput(1) rMainCameraIndex(1) recommendedMasterIdFromCamXSettings(0)
