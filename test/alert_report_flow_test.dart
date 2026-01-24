@@ -17,7 +17,8 @@ void main() {
     // initialize temp hive directory for tests
     try {
       // Put a timeout on box opening to fail fast if something blocks
-      await Hive.openBox('alerts_feedback').timeout(const Duration(seconds: 30));
+      await Hive.openBox('alerts_feedback')
+          .timeout(const Duration(seconds: 30));
     } catch (e) {
       rethrow;
     }
@@ -25,15 +26,20 @@ void main() {
 
   tearDownAll(() async {
     try {
-      await Hive.box('alerts_feedback').clear();
-      await Hive.box('alerts_feedback').close();
+      if (Hive.isBoxOpen('alerts_feedback')) {
+        final box = Hive.box('alerts_feedback');
+        await box.clear();
+        await box.close();
+      }
     } catch (_) {}
-    // On some Windows environments the test harness may fail to delete
-    // ephemeral listener files. Avoid deleting the temp dir here to
-    // prevent finalization errors in the test runner.
+    // Small delay to let the OS release file handles on Windows before
+    // the test harness finalizes listener files. This mitigates intermittent
+    // PathNotFoundException errors seen in some environments.
+    await Future.delayed(const Duration(milliseconds: 250));
   });
 
-  testWidgets('Alert -> Report persists feedback in Hive', (WidgetTester tester) async {
+  testWidgets('Alert -> Report persists feedback in Hive',
+      (WidgetTester tester) async {
     // entering widget test
     final box = Hive.box('alerts_feedback');
     try {
@@ -60,7 +66,10 @@ void main() {
     // Avoid localization delegates in tests to prevent asset loading hangs.
     try {
       await tester.pumpWidget(
-        MaterialApp(home: Scaffold(body: ProductInfoDialogContent(info: sampleInfo, onAddItem: (_) {}))),
+        MaterialApp(
+            home: Scaffold(
+                body: ProductInfoDialogContent(
+                    info: sampleInfo, onAddItem: (_) {}))),
       );
       // pumpWidget returned
     } catch (e) {
@@ -96,7 +105,8 @@ void main() {
     // Enter a note if a TextField exists
     final textFieldFinder = find.byType(TextField);
     if (textFieldFinder.evaluate().isNotEmpty) {
-      await tester.enterText(textFieldFinder.first, 'Test report from widget test');
+      await tester.enterText(
+          textFieldFinder.first, 'Test report from widget test');
     }
 
     // Tap the send button

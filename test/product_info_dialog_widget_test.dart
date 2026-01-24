@@ -3,7 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mat_sjekk/widgets.dart';
 
 void main() {
-  testWidgets('ProductInfoDialogContent shows alerts and chips', (WidgetTester tester) async {
+  testWidgets('ProductInfoDialogContent shows alerts and chips',
+      (WidgetTester tester) async {
     final info = {
       'navn': 'Test Produkt',
       'merke': 'Tine',
@@ -13,11 +14,21 @@ void main() {
       'allergener': ['milk'],
       'næringsinnhold': {'energy_kcal': 200},
       'alerts': [
-        {'ruleId': 'bovaer', 'severity': 'red', 'reason': 'Merke i rød-liste', 'confidence': 0.9, 'evidence': [{'brand': 'tine'}]}
+        {
+          'ruleId': 'bovaer',
+          'severity': 'red',
+          'reason': 'Merke i rød-liste',
+          'confidence': 0.9,
+          'evidence': [
+            {'brand': 'tine'}
+          ]
+        }
       ]
     };
 
-    await tester.pumpWidget(MaterialApp(home: Scaffold(body: ProductInfoDialogContent(info: info, onAddItem: (_) {}))));
+    await tester.pumpWidget(MaterialApp(
+        home: Scaffold(
+            body: ProductInfoDialogContent(info: info, onAddItem: (_) {}))));
     await tester.pumpAndSettle();
 
     // Expect Alerts header

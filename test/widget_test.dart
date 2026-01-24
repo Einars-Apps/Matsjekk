@@ -31,7 +31,7 @@ void main() {
 }
 
 class _CounterTestWidget extends StatefulWidget {
-  const _CounterTestWidget({Key? key}) : super(key: key);
+  const _CounterTestWidget();
   @override
   State<_CounterTestWidget> createState() => _CounterTestWidgetState();
 }

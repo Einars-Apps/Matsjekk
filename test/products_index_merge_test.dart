@@ -26,11 +26,15 @@ void main() {
       'additives_tags': ['en:e100']
     };
 
-    final param = {'index': index, 'off_cache': {'111': offProd}};
+    final param = {
+      'index': index,
+      'off_cache': {'111': offProd}
+    };
     final merged = buildProductsIndex(param);
     expect(merged['byGtin'].containsKey('111'), isTrue);
     final entry = merged['byGtin']['111'];
-    final name = (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
+    final name =
+        (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
     expect(name.toString().toLowerCase(), contains('off supername'));
   });
 
@@ -54,11 +58,15 @@ void main() {
       'brands': '',
     };
 
-    final param = {'index': index, 'off_cache': {'222': offProd}};
+    final param = {
+      'index': index,
+      'off_cache': {'222': offProd}
+    };
     final merged = buildProductsIndex(param);
     expect(merged['byGtin'].containsKey('222'), isTrue);
     final entry = merged['byGtin']['222'];
-    final name = (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
+    final name =
+        (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
     expect(name.toString().toLowerCase(), contains('matvare name'));
   });
 }
