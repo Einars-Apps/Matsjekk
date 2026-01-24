@@ -36,7 +36,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get howAppWorks => 'Wie die App Informationen abruft';
 
   @override
-  String get appDescription => 'Die App verwendet Open Food Facts und eine interne Markenübersicht zur Identifikation von Produkten mit Bovaer, Insektenmehl, GVO-Futter und anderen umstrittenen Zutaten.';
+  String get appDescription =>
+      'Die App verwendet Open Food Facts und eine interne Markenübersicht zur Identifikation von Produkten mit Bovaer, Insektenmehl, GVO-Futter und anderen umstrittenen Zutaten.';
 
   @override
   String get alerts => 'Wählen Sie Benachrichtigungen';
@@ -63,13 +64,15 @@ class AppLocalizationsDe extends AppLocalizations {
   String get unknown => 'UNBEKANNT';
 
   @override
-  String get bovaerRiskDesc => 'Der Hersteller ist direkt mit Bovaer verbunden.';
+  String get bovaerRiskDesc =>
+      'Der Hersteller ist direkt mit Bovaer verbunden.';
 
   @override
   String get insectMealRiskDesc => 'Das Produkt kann Insektenmehl enthalten.';
 
   @override
-  String get gmoFishRiskDesc => 'Der Hersteller ist mit der Verwendung von GVO-Futter verbunden.';
+  String get gmoFishRiskDesc =>
+      'Der Hersteller ist mit der Verwendung von GVO-Futter verbunden.';
 
   @override
   String get safeDesc => 'Das Produkt ist als ökologisch zertifiziert.';
@@ -183,19 +186,24 @@ class AppLocalizationsDe extends AppLocalizations {
   String get noAdditionsFound => 'Keine E-Nummern in der Datenbank gefunden.';
 
   @override
-  String get disclaimer => 'Haftungsausschluss: Diese Informationen dienen nur zu Informationszwecken und basieren auf öffentlich verfügbaren Daten. Für 100% genaue Informationen sehen Sie bitte auf der Produktverpackung nach oder kontaktieren Sie den Hersteller.';
+  String get disclaimer =>
+      'Haftungsausschluss: Diese Informationen dienen nur zu Informationszwecken und basieren auf öffentlich verfügbaren Daten. Für 100% genaue Informationen sehen Sie bitte auf der Produktverpackung nach oder kontaktieren Sie den Hersteller.';
 
   @override
-  String get bovaerHighRisk => 'HOHES RISIKO: Der Hersteller ist direkt mit Bovaer verbunden.';
+  String get bovaerHighRisk =>
+      'HOHES RISIKO: Der Hersteller ist direkt mit Bovaer verbunden.';
 
   @override
-  String get gmoHighRisk => 'HOHES RISIKO: Der Hersteller ist mit der Verwendung von GVO-Futter verbunden.';
+  String get gmoHighRisk =>
+      'HOHES RISIKO: Der Hersteller ist mit der Verwendung von GVO-Futter verbunden.';
 
   @override
-  String get bovaerPossibleRisk => 'MÖGLICHES RISIKO: Der Hersteller ist Partner von Unternehmen, die mit Bovaer verbunden sind.';
+  String get bovaerPossibleRisk =>
+      'MÖGLICHES RISIKO: Der Hersteller ist Partner von Unternehmen, die mit Bovaer verbunden sind.';
 
   @override
-  String get safeProduct => 'SICHER: Das Produkt ist als ökologisch zertifiziert.';
+  String get safeProduct =>
+      'SICHER: Das Produkt ist als ökologisch zertifiziert.';
 
   @override
   String get searchHint => 'Search... (e.g. milk)';
@@ -207,7 +215,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';
