@@ -10,6 +10,7 @@ import 'dart:io' show Platform;
 import 'package:wakelock_plus/wakelock_plus.dart';
 import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
+import 'ui_safe.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['tine', 'arla', 'aptina'];
@@ -51,13 +52,12 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
     final box = Hive.box('innstillinger');
     final savedLanguage = box.get('selectedLanguage', defaultValue: 'nb');
     final savedCountry = box.get('selectedCountry', defaultValue: _defaultCountryCode());
-    print('DEBUG: _loadLanguage read savedLanguage=$savedLanguage');
     if (mounted) {
       setState(() {
         _currentLanguage = savedLanguage;
         _currentCountry = savedCountry;
       });
-      print('DEBUG: _loadLanguage set _currentLanguage=$_currentLanguage');
+      // language loaded
     }
   }
 
@@ -72,7 +72,7 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
 
   @override
   Widget build(BuildContext context) {
-    print('DEBUG: MaterialApp build with _currentLanguage=$_currentLanguage');
+    // MaterialApp build
     return MaterialApp(
       title: 'Matvare-sjekk',
       navigatorKey: _navigatorKey,
@@ -99,14 +99,11 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
       theme: ThemeData(useMaterial3: true, colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)),
       home: ScannerScreen(
           onLanguageChanged: (languageCode) {
-        print('DEBUG: Parent received languageCode: $languageCode');
         setState(() {
           _currentLanguage = languageCode;
         });
-        print('DEBUG: Parent setState completed, _currentLanguage=$_currentLanguage');
       },
           onCountryChanged: (countryCode) {
-        print('DEBUG: Parent received countryCode: $countryCode');
         setState(() {
           _currentCountry = countryCode;
         });
@@ -235,6 +232,17 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
     WakelockPlus.toggle(enable: wakeLockOn);
   }
 
+  // Thin wrappers that delegate to top-level safe UI helpers in `lib/ui_safe.dart`.
+  void _safePop([result]) => safePop(context, result);
+
+
+
+  Future<T?> _safeShowDialogBuilder<T>(WidgetBuilder builder, {bool barrierDismissible = true}) {
+    return safeShowDialogBuilder<T>(context, builder, barrierDismissible: barrierDismissible);
+  }
+
+  void _safeSnack(String message, {Duration duration = const Duration(seconds: 2)}) => safeSnack(context, message, duration: duration);
+
   String _defaultCountryCode() {
     final locale = Platform.localeName;
     if (locale.length >= 5) {
@@ -256,13 +264,12 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
   }
   
   void _deleteList(String listName) {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
+    _safeShowDialogBuilder(
+      (_) => AlertDialog(
         title: Text(AppLocalizations.of(context)?.deleteListConfirmTitle ?? 'Slette listen?'),
         content: Text(AppLocalizations.of(context)?.deleteListConfirmMessage ?? 'Er du sikker? Dette vil også slette historikken for listen.'),
         actions: [
-          TextButton(child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt'), onPressed: () => Navigator.pop(context)),
+          TextButton(child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt'), onPressed: () => _safePop()),
           TextButton(
             child: Text(AppLocalizations.of(context)?.delete ?? 'Slett', style: const TextStyle(color: Colors.red)),
             onPressed: () {
@@ -275,7 +282,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                 }
                 _loadListerAndPositions();
               });
-              Navigator.pop(context);
+              _safePop();
             },
           ),
         ],
@@ -312,7 +319,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
           historikkBox.put(histKey, historikk);
         }
       } else {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Produktet ble ikke funnet i databasen.'), backgroundColor: Colors.red));
+        _safeSnack('Produktet ble ikke funnet i databasen.', duration: const Duration(seconds: 2));
       }
     }).whenComplete(() {
       setState(() => _isLoading = false);
@@ -378,15 +385,14 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
         }
       }
     } catch (e) {
-      print('Feil ved henting av produktinfo: $e');
+      debugPrint('Feil ved henting av produktinfo: $e');
     }
     return {};
   }
   
   void _visProduktDialog(Map<String, dynamic> info) {
-    showDialog(
-      context: context,
-      builder: (_) => AlertDialog(
+    _safeShowDialogBuilder(
+      (_) => AlertDialog(
         contentPadding: const EdgeInsets.all(0),
         content: ProductInfoDialogContent(info: info, onAddItem: (itemName) {
             final listToAddTo = activeList == '_global_' ? listBeforeGlobalHistory : activeList;
@@ -395,12 +401,10 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             if (!list.any((item) => item.endsWith(itemName))) {
                 list.insert(0, itemName);
                 box.put(listToAddTo, list);
-                ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('"$itemName" lagt til i $listToAddTo'), duration: const Duration(seconds: 2))
-                );
+                _safeSnack('"$itemName" lagt til i $listToAddTo', duration: const Duration(seconds: 2));
             }
         }),
-        actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))],
+        actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
     );
@@ -416,10 +420,9 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             leading: const Icon(Icons.language),
             title: Text(AppLocalizations.of(context)?.language ?? 'Language'),
             onTap: () {
-              Navigator.pop(context);
-              showDialog(
-                context: context,
-                builder: (_) => StatefulBuilder(
+              _safePop();
+              _safeShowDialogBuilder(
+                (context) => StatefulBuilder(
                   builder: (context, setDialogState) => AlertDialog(
                     title: Text(AppLocalizations.of(context)?.selectLanguage ?? 'Select Language'),
                     content: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -435,7 +438,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                       _languageTile(AppLocalizations.of(context)?.portuguese ?? 'Portuguese', 'pt', setDialogState),
                       _languageTile(AppLocalizations.of(context)?.spanish ?? 'Spanish', 'es', setDialogState),
                     ]),
-                    actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))],
+                    actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
                   ),
                 ),
               ).then((_) => setState((){}));
@@ -445,7 +448,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             leading: const Icon(Icons.flag),
             title: const Text('Land / datakilder'),
             onTap: () {
-              Navigator.pop(context);
+              _safePop();
               _visLandDialog();
             },
           ),
@@ -453,10 +456,9 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             leading: const Icon(Icons.warning),
             title: Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
             onTap: () {
-              Navigator.pop(context);
-              showDialog(
-                context: context,
-                builder: (_) => StatefulBuilder(
+              _safePop();
+              _safeShowDialogBuilder(
+                (context) => StatefulBuilder(
                   builder: (context, setDialogState) => AlertDialog(
                     title: Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
                     content: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -464,7 +466,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                       SwitchListTile(title: Text(AppLocalizations.of(context)?.gmoFishAlert ?? 'GMO Fish Alert'), value: varselGmo, onChanged: (v) { setDialogState(() => varselGmo = v); innstillingerBox.put('varselGmo', v); }),
                       SwitchListTile(title: Text(AppLocalizations.of(context)?.insectMealAlert ?? 'Insect Meal Alert'), value: varselInsekt, onChanged: (v) { setDialogState(() => varselInsekt = v); innstillingerBox.put('varselInsekt', v); }),
                     ]),
-                    actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))],
+                    actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
                   ),
                 ),
               ).then((_) => setState((){}));
@@ -474,16 +476,16 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
             leading: const Icon(Icons.info),
             title: Text(AppLocalizations.of(context)?.howAppWorks ?? 'How the App Works'),
             onTap: () {
-              Navigator.pop(context);
-              showDialog(context: context, builder: (_) => AlertDialog(title: Text(AppLocalizations.of(context)?.howAppWorks ?? 'How the App Works'), content: Text(AppLocalizations.of(context)?.appDescription ?? 'The app uses Open Food Facts....'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))]));
+              _safePop();
+              _safeShowDialogBuilder((_) => AlertDialog(title: Text(AppLocalizations.of(context)?.howAppWorks ?? 'How the App Works'), content: Text(AppLocalizations.of(context)?.appDescription ?? 'The app uses Open Food Facts....'), actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))]));
             },
           ),
           ListTile(
             leading: const Icon(Icons.help),
             title: Text(AppLocalizations.of(context)?.about ?? 'About'),
             onTap: () {
-              Navigator.pop(context);
-              showDialog(context: context, builder: (_) => AlertDialog(title: Text(AppLocalizations.of(context)?.appTitle ?? 'Food Check'), content: const Text('Version 1.8 – Built for honest food info.'), actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))]));
+              _safePop();
+              _safeShowDialogBuilder((_) => AlertDialog(title: Text(AppLocalizations.of(context)?.appTitle ?? 'Food Check'), content: const Text('Version 1.8 – Built for honest food info.'), actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))]));
             },
           ),
         ],
@@ -498,31 +500,16 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       groupValue: selectedLanguage,
       onChanged: (value) async {
         if (value != null) {
-          print('DEBUG: Language tile tapped: $value');
           // Always proceed - store the new language
           innstillingerBox.put('selectedLanguage', value);
           setDialogState(() {
             selectedLanguage = value;
           });
-          print('DEBUG: Dialog state updated to: $value');
-          
           // Close the dialog FIRST
-          if (context.mounted) {
-            print('DEBUG: Closing dialog');
-            Navigator.of(context).pop();
-          }
-          
-          // Wait for dialog to be removed and screen to render
+          if (context.mounted) Navigator.of(context).pop();
+          // Wait briefly then trigger the locale change
           await Future.delayed(const Duration(milliseconds: 300));
-          
-          // NOW trigger the locale change after dialog is completely gone
-          if (mounted) {
-            print('DEBUG: Calling onLanguageChanged with: $value');
-            widget.onLanguageChanged(value);
-            print('DEBUG: onLanguageChanged called');
-          } else {
-            print('DEBUG: Not mounted, skipping callback');
-          }
+          if (mounted) widget.onLanguageChanged(value);
         }
       },
     );
@@ -543,9 +530,8 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       'GB': 'UK',
     };
 
-    showDialog(
-      context: context,
-      builder: (_) => StatefulBuilder(
+    _safeShowDialogBuilder(
+      (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
           title: const Text('Velg land (prioriterer kilder)'),
           content: Column(
@@ -559,14 +545,14 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                         if (value == null) return;
                         innstillingerBox.put('selectedCountry', value);
                         setDialogState(() => selectedCountry = value);
-                        Navigator.of(context).pop();
+                        _safePop();
                         await Future.delayed(const Duration(milliseconds: 200));
                         if (mounted) widget.onCountryChanged(value);
                       },
                     ))
                 .toList(),
           ),
-          actions: [TextButton(onPressed: () => Navigator.pop(context), child: const Text('Lukk'))],
+          actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
         ),
       ),
     ).then((_) => setState(() {}));
@@ -632,13 +618,12 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           final controller = TextEditingController();
-          showDialog(
-            context: context,
-            builder: (_) => AlertDialog(
+          _safeShowDialogBuilder(
+            (_) => AlertDialog(
               title: Text(AppLocalizations.of(context)?.newShoppingList ?? 'Ny handleliste'),
               content: TextField(controller: controller, decoration: InputDecoration(hintText: AppLocalizations.of(context)?.listName ?? 'Navn på liste')),
               actions: [
-                TextButton(onPressed: () => Navigator.pop(context), child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt')),
+                TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt')),
                 TextButton(
                   onPressed: () {
                     final navn = controller.text.trim();
@@ -646,7 +631,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                       handlelisterBox.put(navn, []);
                       _loadListerAndPositions();
                     }
-                    Navigator.pop(context);
+                    _safePop();
                   },
                   child: Text(AppLocalizations.of(context)?.create ?? 'Opprett'),
                 ),
@@ -660,7 +645,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
       body: Stack(
         children: [
           MobileScanner(controller: controller, onDetect: _handleBarcode),
-          if (_isLoading) Container(color: Colors.black.withOpacity(0.5), child: const Center(child: CircularProgressIndicator(color: Colors.white))),
+          if (_isLoading) Container(color: Color.fromRGBO(0,0,0,0.5), child: const Center(child: CircularProgressIndicator(color: Colors.white))),
           ...listPositions.entries.map((entry) {
             final listName = entry.key;
             final position = entry.value;
@@ -711,7 +696,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                 ),
               ),
             );
-          }).toList(),
+          }),
           if (showList || showFullScreenList)
             Align(
               alignment: Alignment.bottomCenter,
@@ -757,9 +742,8 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
     );
   }
   void _visSok() async {
-    showDialog(
-        context: context,
-        builder: (context) {
+    _safeShowDialogBuilder(
+      (context) {
             final searchController = TextEditingController();
             ValueNotifier<List<dynamic>> searchResults = ValueNotifier([]);
             ValueNotifier<bool> isSearching = ValueNotifier(false);
@@ -819,7 +803,7 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                                                         title: Text(productName),
                                                         subtitle: Text(brands),
                                                         onTap: () async {
-                                                            Navigator.pop(context); 
+                                                        _safePop();
                                                             final ean = product['code'] as String?;
                                                             if (ean != null) {
                                                                 setState(() => _isLoading = true);
@@ -838,9 +822,76 @@ class _ScannerScreenState extends State<ScannerScreen> with WidgetsBindingObserv
                         ],
                     ),
                 ),
-                actions: [TextButton(onPressed: () => Navigator.pop(context), child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))],
-            );
-        },
-    );
+                actions: [TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))],
+              );
+            },
+          );
   }
+}
+
+Map<String, dynamic> buildProductsIndex(dynamic payload) {
+  final Map<String, dynamic> index = (payload is Map && payload['index'] is Map)
+      ? Map<String, dynamic>.from(payload['index'])
+      : (payload is Map ? Map<String, dynamic>.from(payload) : {});
+
+  final Map<String, dynamic> offCache = (payload is Map && payload['off_cache'] is Map)
+      ? Map<String, dynamic>.from(payload['off_cache'])
+      : {};
+
+  final Map<String, dynamic> sourceByGtin = {};
+
+  final rawByGtin = index['byGtin'] ?? index;
+  if (rawByGtin is Map) {
+    rawByGtin.forEach((gtin, entry) {
+      final product = <String, dynamic>{};
+      if (entry is Map) {
+        product['navn'] = entry['navn'] ?? entry['name'] ?? entry['product_name'] ?? '';
+        product['matvare'] = Map<String, dynamic>.from(entry);
+      } else {
+        product['navn'] = entry?.toString() ?? '';
+      }
+
+      sourceByGtin[gtin.toString()] = {
+        'product': product,
+        'best_confidence': 0.5,
+        'sources': [
+          {'source': 'matvaretabellen', 'confidence': 0.5}
+        ]
+      };
+    });
+  }
+
+  offCache.forEach((gtin, off) {
+    final offMap = (off is Map) ? off : {};
+    final offName = offMap['product_name'] ?? offMap['productName'] ?? '';
+    final bool hasRich = (offMap['image_front_url'] != null) || (offMap['additives_tags'] != null) || (offMap['ingredients_text'] != null) || (offMap['ingredients_text'] != null);
+    final offConfidence = hasRich ? 0.9 : 0.4;
+
+    final key = gtin.toString();
+    final existing = sourceByGtin[key];
+    if (existing == null) {
+      sourceByGtin[key] = {
+        'product': {'navn': offName, 'openfoodfacts': Map<String, dynamic>.from(offMap)},
+        'best_confidence': offConfidence,
+        'sources': [
+          {'source': 'openfoodfacts', 'confidence': offConfidence}
+        ]
+      };
+    } else {
+      final existingConf = (existing['best_confidence'] as num?)?.toDouble() ?? 0.0;
+      if (offConfidence > existingConf) {
+        existing['product'] = {
+          'navn': (offName ?? '') == '' ? (existing['product']?['navn'] ?? '') : offName,
+          'openfoodfacts': Map<String, dynamic>.from(offMap),
+          'matvare': existing['product']?['matvare']
+        };
+        existing['best_confidence'] = offConfidence;
+        (existing['sources'] as List).insert(0, {'source': 'openfoodfacts', 'confidence': offConfidence});
+      } else {
+        (existing['sources'] as List).add({'source': 'openfoodfacts', 'confidence': offConfidence});
+      }
+    }
+  });
+
+  return {'byGtin': sourceByGtin};
 }
