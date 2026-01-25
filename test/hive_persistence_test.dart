@@ -1,20 +1,14 @@
-import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
+import 'package:hive_test/hive_test.dart';
 
 void main() {
-  late Directory tmpDir;
-
   setUp(() async {
-    tmpDir = await Directory.systemTemp.createTemp('hive_test_');
-    Hive.init(tmpDir.path);
+    await setUpTestHive();
   });
 
   tearDown(() async {
-    await Hive.close();
-    try {
-      await tmpDir.delete(recursive: true);
-    } catch (_) {}
+    await tearDownTestHive();
   });
 
   test('alerts_feedback persistence', () async {
