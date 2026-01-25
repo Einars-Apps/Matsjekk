@@ -1,32 +1,28 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 // localization imports removed for tests
 import 'package:hive/hive.dart';
+import 'package:hive_test/hive_test.dart';
 
 import 'package:mat_sjekk/widgets.dart';
 
 void main() {
-  late Directory tempDir;
-
   setUpAll(() async {
     TestWidgetsFlutterBinding.ensureInitialized();
-    tempDir = await Directory.systemTemp.createTemp('hive_test_');
-    Hive.init(tempDir.path);
-    // initialize temp hive directory for tests
-    try {
-      // Put a timeout on box opening to fail fast if something blocks
-      await Hive.openBox('alerts_feedback')
-          .timeout(const Duration(seconds: 30));
-    } catch (e) {
-      rethrow;
-    }
-  });
 
-  tearDownAll(() async {
-    // Add verbose debug prints to help diagnose teardown hangs.
-    print('tearDownAll: start');
+    // Give flutter test finalizers a short moment before tearing down test hive
+    try {
+      await Future.delayed(const Duration(seconds: 1));
+    } catch (_) {}
+
+    // Tear down in-memory hive
+    try {
+      await tearDownTestHive();
+      print('tearDownAll: tearDownTestHive completed');
+    } catch (e, st) {
+      print('tearDownAll: error in tearDownTestHive: $e');
+      print(st);
+    }
     try {
       if (Hive.isBoxOpen('alerts_feedback')) {
         print('tearDownAll: clearing alerts_feedback');
@@ -40,22 +36,7 @@ void main() {
       print(st);
     }
 
-    // Also attempt to close any other open Hive boxes, defensively.
-    try {
-      for (final name in Hive.boxNames) {
-        try {
-          if (Hive.isBoxOpen(name)) {
-            print('tearDownAll: closing box $name');
-            await Hive.box(name).close();
-          }
-        } catch (e, st) {
-          print('tearDownAll: error closing $name: $e');
-          print(st);
-        }
-      }
-    } catch (e) {
-      print('tearDownAll: error iterating boxNames: $e');
-    }
+    // Rely on `Hive.close()` below to close any remaining open boxes.
 
     try {
       print('tearDownAll: calling Hive.close()');
@@ -65,19 +46,12 @@ void main() {
       print(st);
     }
 
-    // Wait longer to reduce races on Windows file handles.
-    await Future.delayed(const Duration(seconds: 2));
-
-    // Delete the temporary directory used for Hive to avoid leftover files
-    // that the test harness might try to remove concurrently.
+    // Tear down in-memory hive
     try {
-      if (tempDir.existsSync()) {
-        print('tearDownAll: deleting tempDir ${tempDir.path}');
-        await tempDir.delete(recursive: true);
-        print('tearDownAll: tempDir deleted');
-      }
+      await tearDownTestHive();
+      print('tearDownAll: tearDownTestHive completed');
     } catch (e, st) {
-      print('tearDownAll: error deleting tempDir: $e');
+      print('tearDownAll: error in tearDownTestHive: $e');
       print(st);
     }
 
@@ -167,5 +141,30 @@ void main() {
     final entry = list.first as Map;
     expect(entry['product'], anyOf('Test Produkt', 'Test Produkt'));
     expect(entry['ruleId'], 'bovaer_test');
+    // Ensure UI and Hive are cleaned up to avoid platform finalizer races
+    try {
+      await tester.pumpAndSettle(const Duration(milliseconds: 200));
+    } finally {
+      try {
+        if (Hive.isBoxOpen('alerts_feedback')) {
+          final b = Hive.box('alerts_feedback');
+          await b.clear();
+          await b.close();
+        }
+      } catch (e, st) {
+        print('per-test cleanup: error closing alerts_feedback: $e');
+        print(st);
+      }
+
+      try {
+        await Hive.close();
+      } catch (e, st) {
+        print('per-test cleanup: Hive.close() error: $e');
+        print(st);
+      }
+
+      // brief delay to let flutter test finalizers finish their work
+      await Future.delayed(const Duration(milliseconds: 750));
+    }
   });
 }
