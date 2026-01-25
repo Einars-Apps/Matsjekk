@@ -25,22 +25,63 @@ void main() {
   });
 
   tearDownAll(() async {
+    // Add verbose debug prints to help diagnose teardown hangs.
+    print('tearDownAll: start');
     try {
       if (Hive.isBoxOpen('alerts_feedback')) {
+        print('tearDownAll: clearing alerts_feedback');
         final box = Hive.box('alerts_feedback');
         await box.clear();
         await box.close();
+        print('tearDownAll: alerts_feedback closed');
       }
-    } catch (_) {}
-    // Ensure all Hive resources are closed and give the OS time to release
-    // file handles on Windows before the test harness finalizes listener
-    // files. This mitigates intermittent PathNotFoundException errors seen
-    // in some environments where the test runner deletes temp listener
-    // files while the OS still holds handles.
+    } catch (e, st) {
+      print('tearDownAll: error closing alerts_feedback: $e');
+      print(st);
+    }
+
+    // Also attempt to close any other open Hive boxes, defensively.
     try {
+      for (final name in Hive.boxNames) {
+        try {
+          if (Hive.isBoxOpen(name)) {
+            print('tearDownAll: closing box $name');
+            await Hive.box(name).close();
+          }
+        } catch (e, st) {
+          print('tearDownAll: error closing $name: $e');
+          print(st);
+        }
+      }
+    } catch (e) {
+      print('tearDownAll: error iterating boxNames: $e');
+    }
+
+    try {
+      print('tearDownAll: calling Hive.close()');
       await Hive.close();
-    } catch (_) {}
-    await Future.delayed(const Duration(seconds: 1));
+    } catch (e, st) {
+      print('tearDownAll: Hive.close() error: $e');
+      print(st);
+    }
+
+    // Wait longer to reduce races on Windows file handles.
+    await Future.delayed(const Duration(seconds: 2));
+
+    // Delete the temporary directory used for Hive to avoid leftover files
+    // that the test harness might try to remove concurrently.
+    try {
+      if (tempDir.existsSync()) {
+        print('tearDownAll: deleting tempDir ${tempDir.path}');
+        await tempDir.delete(recursive: true);
+        print('tearDownAll: tempDir deleted');
+      }
+    } catch (e, st) {
+      print('tearDownAll: error deleting tempDir: $e');
+      print(st);
+    }
+
+    print('tearDownAll: done');
   });
 
   testWidgets('Alert -> Report persists feedback in Hive',
