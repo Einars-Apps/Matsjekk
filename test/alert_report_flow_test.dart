@@ -61,7 +61,10 @@ void main() {
   testWidgets('Alert -> Report persists feedback in Hive',
       (WidgetTester tester) async {
     // entering widget test
-    final box = Hive.box('alerts_feedback');
+    // Ensure the test box is open (defensive against leaked/early tearDown)
+    var box = Hive.isBoxOpen('alerts_feedback')
+      ? Hive.box('alerts_feedback')
+      : await Hive.openBox('alerts_feedback');
     try {
       // initialize the feedback list
       box.put('feedback_list', <dynamic>[]);
