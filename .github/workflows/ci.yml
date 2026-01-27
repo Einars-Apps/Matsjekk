@@ -22,15 +22,21 @@ jobs:
       uses: actions/cache@v4
       with:
         path: |
-          /opt/hostedtoolcache/flutter
+          ${{ runner.home }}/flutter-${{ matrix.flutter-version }}
         key: ${{ runner.os }}-flutter-${{ matrix.flutter-version }}
         restore-keys: |
           ${{ runner.os }}-flutter-
 
-    - name: Set up Flutter
-      uses: subosito/flutter-action@v2
-      with:
-        flutter-version: ${{ matrix.flutter-version }}
+    - name: Install Flutter SDK (manual)
+      run: |
+        set -e
+        FLUTTER_DIR="${{ runner.home }}/flutter-${{ matrix.flutter-version }}"
+        if [ ! -d "$FLUTTER_DIR" ]; then
+          git clone --depth 1 https://github.com/flutter/flutter.git -b "${{ matrix.flutter-version }}" "$FLUTTER_DIR"
+        fi
+        echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
+        # Pre-download artifacts needed for tests
+        flutter --version
 
     - name: Cache Pub packages
       uses: actions/cache@v4
