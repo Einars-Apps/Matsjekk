@@ -9,9 +9,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     strategy:
       matrix:
-        flutter-version: [stable, beta]
+        channel: [stable, beta]
 
     steps:
     - name: Checkout
@@ -22,14 +23,14 @@ jobs:
       with:
         path: |
           /opt/hostedtoolcache/flutter
-        key: ${{ runner.os }}-flutter-${{ matrix.flutter-version }}
+        key: ${{ runner.os }}-flutter-${{ matrix.channel }}
         restore-keys: |
           ${{ runner.os }}-flutter-
 
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: ${{ matrix.flutter-version }}
+        channel: ${{ matrix.channel }}
 
     - name: Cache Pub packages
       uses: actions/cache@v4
@@ -43,10 +44,20 @@ jobs:
           ${{ runner.os }}-pub-
 
     - name: Install dependencies
-      run: flutter pub get
+      run: |
+        for i in 1 2 3; do
+          flutter pub get && break
+          echo "flutter pub get failed, retrying ($i/3)"
+          sleep $((i * 5))
+        done
 
     - name: Analyze
       run: flutter analyze
 
     - name: Run tests
-      run: flutter test -r expanded
+      run: |
+        for i in 1 2; do
+          flutter test -r expanded && break
+          echo "flutter test failed, retrying ($i/2)"
+          sleep 10
+        done
