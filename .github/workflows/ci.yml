@@ -35,8 +35,10 @@ jobs:
           git clone --depth 1 https://github.com/flutter/flutter.git -b "${{ matrix.flutter-version }}" "$FLUTTER_DIR"
         fi
         echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
-        # Pre-download artifacts needed for tests
+        # Show version, run doctor and precache artifacts to reduce repeated downloads
         flutter --version
+        flutter doctor -v
+        flutter precache
 
     - name: Cache Pub packages
       uses: actions/cache@v4
