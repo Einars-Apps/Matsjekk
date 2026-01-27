@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 30
     strategy:
       matrix:
-        channel: [stable, beta]
+        flutter-version: [stable, beta]
 
     steps:
     - name: Checkout
@@ -23,14 +23,14 @@ jobs:
       with:
         path: |
           /opt/hostedtoolcache/flutter
-        key: ${{ runner.os }}-flutter-${{ matrix.channel }}
+        key: ${{ runner.os }}-flutter-${{ matrix.flutter-version }}
         restore-keys: |
           ${{ runner.os }}-flutter-
 
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        channel: ${{ matrix.channel }}
+        flutter-version: ${{ matrix.flutter-version }}
 
     - name: Cache Pub packages
       uses: actions/cache@v4
