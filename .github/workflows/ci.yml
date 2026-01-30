@@ -22,7 +22,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: |
-          ${{ runner.home }}/flutter-${{ matrix.flutter-version }}
+          $HOME/flutter-${{ matrix.flutter-version }}
         key: ${{ runner.os }}-flutter-${{ matrix.flutter-version }}
         restore-keys: |
           ${{ runner.os }}-flutter-
@@ -30,7 +30,7 @@ jobs:
     - name: Install Flutter SDK (manual)
       run: |
         set -e
-        FLUTTER_DIR="${{ runner.home }}/flutter-${{ matrix.flutter-version }}"
+        FLUTTER_DIR="$HOME/flutter-${{ matrix.flutter-version }}"
         if [ ! -d "$FLUTTER_DIR" ]; then
           git clone --depth 1 https://github.com/flutter/flutter.git -b "${{ matrix.flutter-version }}" "$FLUTTER_DIR"
         fi
