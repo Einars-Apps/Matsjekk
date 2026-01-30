@@ -34,6 +34,8 @@ jobs:
         if [ ! -d "$FLUTTER_DIR" ]; then
           git clone --depth 1 https://github.com/flutter/flutter.git -b "${{ matrix.flutter-version }}" "$FLUTTER_DIR"
         fi
+        # Make flutter available in this shell and for subsequent steps
+        export PATH="$FLUTTER_DIR/bin:$PATH"
         echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
         # Show version, run doctor and precache artifacts to reduce repeated downloads
         flutter --version
