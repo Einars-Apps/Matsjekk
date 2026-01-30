@@ -58,6 +58,11 @@ jobs:
             sleep $((i * 5))
           done
 
+      - name: Ensure assets directory
+        run: |
+          mkdir -p assets
+          touch assets/.gitkeep || true
+
       - name: Run analyzer
         run: flutter analyze
 
