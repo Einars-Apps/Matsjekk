@@ -29,6 +29,8 @@ jobs:
           if [ ! -d "$FLUTTER_DIR" ]; then
             git clone --depth 1 https://github.com/flutter/flutter.git -b stable "$FLUTTER_DIR"
           fi
+          # Make flutter available in this shell and for subsequent steps
+          export PATH="$FLUTTER_DIR/bin:$PATH"
           echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
           flutter --version
           flutter doctor -v
