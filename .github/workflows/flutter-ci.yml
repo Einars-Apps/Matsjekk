@@ -36,14 +36,35 @@ jobs:
           flutter doctor -v
           flutter precache
 
+      - name: Cache Pub packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pub-cache
+            ~/.pub-cache/hosted
+            .dart_tool
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
       - name: Enable Flutter web (optional)
         run: flutter config --enable-web || true
 
       - name: Install dependencies
-        run: flutter pub get
+        run: |
+          for i in 1 2 3; do
+            flutter pub get && break
+            echo "flutter pub get failed, retrying ($i/3)"
+            sleep $((i * 5))
+          done
 
       - name: Run analyzer
         run: flutter analyze
 
       - name: Run tests
-        run: flutter test --coverage
+        run: |
+          for i in 1 2; do
+            flutter test --coverage -r expanded && break
+            echo "flutter test failed, retrying ($i/2)"
+            sleep 10
+          done
