@@ -17,7 +17,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            ${{ runner.home }}/flutter-stable
+            $HOME/flutter-stable
           key: ${{ runner.os }}-flutter-stable
           restore-keys: |
             ${{ runner.os }}-flutter-
@@ -25,7 +25,7 @@ jobs:
       - name: Install Flutter SDK (manual)
         run: |
           set -e
-          FLUTTER_DIR="${{ runner.home }}/flutter-stable"
+          FLUTTER_DIR="$HOME/flutter-stable"
           if [ ! -d "$FLUTTER_DIR" ]; then
             git clone --depth 1 https://github.com/flutter/flutter.git -b stable "$FLUTTER_DIR"
           fi
