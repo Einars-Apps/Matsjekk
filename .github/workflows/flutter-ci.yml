@@ -9,11 +9,13 @@ on:
 jobs:
   analyze-and-test:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Cache Flutter SDK
+        id: cache-flutter
         uses: actions/cache@v4
         with:
           path: |
@@ -34,7 +36,12 @@ jobs:
           echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
           flutter --version
           flutter doctor -v
-          flutter precache
+          if [ "${{ steps.cache-flutter.outputs.cache-hit }}" != 'true' ]; then
+            echo "Flutter SDK not restored from cache; running flutter precache"
+            flutter precache
+          else
+            echo "Flutter SDK restored from cache; skipping flutter precache"
+          fi
 
       - name: Cache Pub packages
         uses: actions/cache@v4
