@@ -36,7 +36,8 @@ class AppLocalizationsNb extends AppLocalizations {
   String get howAppWorks => 'Hvordan appen henter info';
 
   @override
-  String get appDescription => 'Appen bruker Open Food Facts og en intern liste for merkevare-koblinger til Bovaer, insektmel, GMO-fôr og andre kontroversielle ingredienser.';
+  String get appDescription =>
+      'Appen bruker Open Food Facts og en intern liste for merkevare-koblinger til Bovaer, insektmel, GMO-fôr og andre kontroversielle ingredienser.';
 
   @override
   String get alerts => 'Velg varsler';
@@ -183,16 +184,20 @@ class AppLocalizationsNb extends AppLocalizations {
   String get noAdditionsFound => 'Ingen E-stoffer funnet i databasen.';
 
   @override
-  String get disclaimer => 'Ansvarsfraskrivelse: Informasjonen er veiledende og basert på offentlig kjente data. For 100% nøyaktig informasjon, se produktets emballasje eller kontakt produsenten.';
+  String get disclaimer =>
+      'Ansvarsfraskrivelse: Informasjonen er veiledende og basert på offentlig kjente data. For 100% nøyaktig informasjon, se produktets emballasje eller kontakt produsenten.';
 
   @override
-  String get bovaerHighRisk => 'HØY RISIKO: Produsenten er direkte knyttet til Bovaer.';
+  String get bovaerHighRisk =>
+      'HØY RISIKO: Produsenten er direkte knyttet til Bovaer.';
 
   @override
-  String get gmoHighRisk => 'HØY RISIKO: Produsenten er knyttet til bruk av GMO-fôr.';
+  String get gmoHighRisk =>
+      'HØY RISIKO: Produsenten er knyttet til bruk av GMO-fôr.';
 
   @override
-  String get bovaerPossibleRisk => 'MULIG RISIKO: Produsenten er en samarbeidspartner med aktører som er knyttet til Bovaer.';
+  String get bovaerPossibleRisk =>
+      'MULIG RISIKO: Produsenten er en samarbeidspartner med aktører som er knyttet til Bovaer.';
 
   @override
   String get safeProduct => 'TRYGG: Produktet er merket som økologisk.';
@@ -207,7 +212,8 @@ class AppLocalizationsNb extends AppLocalizations {
   String get deleteListConfirmTitle => 'Slette liste?';
 
   @override
-  String get deleteListConfirmMessage => 'Er du sikker? Dette vil også slette historikken for listen.';
+  String get deleteListConfirmMessage =>
+      'Er du sikker? Dette vil også slette historikken for listen.';
 
   @override
   String get unknownProduct => 'Ukjent produkt';

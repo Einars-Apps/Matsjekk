@@ -36,7 +36,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get howAppWorks => 'Sådan henter appen oplysninger';
 
   @override
-  String get appDescription => 'Appen bruger Open Food Facts og en intern mærkeliste til at identificere produkter med Bovaer, insektmel, GMO-foder og andre kontroversielle ingredienser.';
+  String get appDescription =>
+      'Appen bruger Open Food Facts og en intern mærkeliste til at identificere produkter med Bovaer, insektmel, GMO-foder og andre kontroversielle ingredienser.';
 
   @override
   String get alerts => 'Vælg advarsler';
@@ -69,7 +70,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get insectMealRiskDesc => 'Produktet kan indeholde insektmel.';
 
   @override
-  String get gmoFishRiskDesc => 'Producenten er forbundet med brugen af GMO-foder.';
+  String get gmoFishRiskDesc =>
+      'Producenten er forbundet med brugen af GMO-foder.';
 
   @override
   String get safeDesc => 'Produktet er mærket som økologisk.';
@@ -183,16 +185,20 @@ class AppLocalizationsDa extends AppLocalizations {
   String get noAdditionsFound => 'Ingen E-numre fundet i databasen.';
 
   @override
-  String get disclaimer => 'Ansvarsfraskrivelse: Disse oplysninger er kun vejledende og baseret på offentligt tilgængelige data. For 100% nøjagtige oplysninger skal du se produktets emballage eller kontakte producenten.';
+  String get disclaimer =>
+      'Ansvarsfraskrivelse: Disse oplysninger er kun vejledende og baseret på offentligt tilgængelige data. For 100% nøjagtige oplysninger skal du se produktets emballage eller kontakte producenten.';
 
   @override
-  String get bovaerHighRisk => 'HØJ RISIKO: Producenten er direkte forbundet med Bovaer.';
+  String get bovaerHighRisk =>
+      'HØJ RISIKO: Producenten er direkte forbundet med Bovaer.';
 
   @override
-  String get gmoHighRisk => 'HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.';
+  String get gmoHighRisk =>
+      'HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.';
 
   @override
-  String get bovaerPossibleRisk => 'MULIG RISIKO: Producenten er partner med virksomheder forbundet med Bovaer.';
+  String get bovaerPossibleRisk =>
+      'MULIG RISIKO: Producenten er partner med virksomheder forbundet med Bovaer.';
 
   @override
   String get safeProduct => 'SIKKER: Produktet er mærket som økologisk.';
@@ -207,7 +213,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';
