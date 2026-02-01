@@ -1,0 +1,14 @@
+﻿2026-01-27T22:15:14.6905036Z ##[group]Run set -e
+2026-01-27T22:15:14.6906074Z [36;1mset -e[0m
+2026-01-27T22:15:14.6906993Z [36;1mFLUTTER_DIR="/flutter-stable"[0m
+2026-01-27T22:15:14.6908237Z [36;1mif [ ! -d "$FLUTTER_DIR" ]; then[0m
+2026-01-27T22:15:14.6910387Z [36;1m  git clone --depth 1 https://github.com/flutter/flutter.git -b stable "$FLUTTER_DIR"[0m
+2026-01-27T22:15:14.6912330Z [36;1mfi[0m
+2026-01-27T22:15:14.6913257Z [36;1mecho "$FLUTTER_DIR/bin" >> $GITHUB_PATH[0m
+2026-01-27T22:15:14.6914541Z [36;1mflutter --version[0m
+2026-01-27T22:15:14.6915563Z [36;1mflutter doctor -v[0m
+2026-01-27T22:15:14.6916570Z [36;1mflutter precache[0m
+2026-01-27T22:15:14.6952793Z shell: /usr/bin/bash -e {0}
+2026-01-27T22:15:14.6953840Z ##[endgroup]
+2026-01-27T22:15:14.7045303Z fatal: could not create work tree dir '/flutter-stable': Permission denied
+2026-01-27T22:15:14.7066230Z ##[error]Process completed with exit code 128.
