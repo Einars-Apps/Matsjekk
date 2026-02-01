@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 
 // localization imports removed for tests
@@ -180,5 +179,5 @@ void main() {
       // brief delay to let flutter test finalizers finish their work
       await Future.delayed(const Duration(milliseconds: 1000));
     }
-  }, timeout: Timeout(Duration(seconds: 180)));
+  }, timeout: Timeout(const Duration(seconds: 180)));
 }
