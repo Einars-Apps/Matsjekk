@@ -179,5 +179,5 @@ void main() {
       // brief delay to let flutter test finalizers finish their work
       await Future.delayed(const Duration(milliseconds: 1000));
     }
-  }, timeout: Timeout(const Duration(seconds: 180)));
+  }, timeout: const Timeout(const Duration(seconds: 180)));
 }
