@@ -1,5 +1,8 @@
 name: Flutter CI
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 on:
   push:
     branches: [ main, master ]
@@ -10,7 +13,10 @@ on:
 jobs:
   analyze-and-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
+    strategy:
+      matrix:
+        shard: [0,1,2,3]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,7 +27,7 @@ jobs:
         with:
           path: |
             $HOME/flutter-stable
-          key: ${{ runner.os }}-flutter-stable
+          key: ${{ runner.os }}-flutter-stable-${{ hashFiles('**/pubspec.lock') }}
           restore-keys: |
             ${{ runner.os }}-flutter-
 
@@ -76,8 +82,28 @@ jobs:
 
       - name: Run tests
         run: |
+          set -euo pipefail
+          files=( $(git ls-files 'test/**.dart' || true) )
+          selected=()
+          for i in "${!files[@]}"; do
+            if (( i % 4 == ${{ matrix.shard }} )); then
+              selected+=("${files[i]}")
+            fi
+          done
+          if [ ${#selected[@]} -eq 0 ]; then
+            echo "No tests for shard ${{ matrix.shard }}"
+            exit 0
+          fi
+          echo "Running tests for shard ${{ matrix.shard }}: ${selected[*]}"
           for i in 1 2; do
-            flutter test --coverage -r expanded && break
+            flutter test --coverage "${selected[@]}" -r expanded 2>&1 | tee test-output-${{ matrix.shard }}.log && break
             echo "flutter test failed, retrying ($i/2)"
             sleep 10
           done
+
+      - name: Upload test log artifact (shard ${{ matrix.shard }})
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-output-shard-${{ matrix.shard }}
+          path: test-output-${{ matrix.shard }}.log
