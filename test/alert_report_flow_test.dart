@@ -17,16 +17,29 @@ void main() {
     // use in-memory Hive for tests to avoid platform-specific temp-file races
     await setUpTestHive();
     // Pre-open commonly used box to mirror previous behavior
+    // Open all boxes used by the app to prevent 'Box not found' errors
     await Hive.openBox('alerts_feedback');
+    await Hive.openBox('handlelister');
+    await Hive.openBox('historikk');
+    await Hive.openBox('innstillinger');
+    await Hive.openBox('list_positions');
   });
 
   tearDown(() async {
     // Robust per-test cleanup to reduce flakiness on Windows finalizers.
     try {
-      if (Hive.isBoxOpen('alerts_feedback')) {
-        final b = Hive.box('alerts_feedback');
-        await b.clear();
-        await b.close();
+      // Clear and close any boxes we opened for the test
+      final boxes = ['alerts_feedback', 'handlelister', 'historikk', 'innstillinger', 'list_positions'];
+      for (var name in boxes) {
+        if (Hive.isBoxOpen(name)) {
+          final b = Hive.box(name);
+          try {
+            await b.clear();
+          } catch (_) {}
+          try {
+            await b.close();
+          } catch (_) {}
+        }
       }
     } catch (_) {
       // ignore errors during teardown
@@ -46,8 +59,8 @@ void main() {
     } catch (_) {}
   });
 
-      testWidgets('Alert -> Report persists feedback in Hive',
-        (WidgetTester tester) async {
+          testWidgets('Alert -> Report persists feedback in Hive',
+            (WidgetTester tester) async {
     // entering widget test
     // Ensure the test box is open (defensive against leaked/early tearDown)
     var box = Hive.isBoxOpen('alerts_feedback')
@@ -121,8 +134,9 @@ void main() {
     // Tap the send button if present, otherwise simulate storing the report
     if (sendFinder.evaluate().isNotEmpty) {
       await tester.tap(sendFinder.first);
-      // Bound the pumpAndSettle call so it doesn't wait indefinitely
-      await tester.pumpAndSettle(const Duration(seconds: 2));
+      // Use deterministic short pumps instead of pumpAndSettle to avoid hangs
+      await tester.pump(const Duration(milliseconds: 200));
+      await tester.pump(const Duration(milliseconds: 200));
     } else {
       // Simulate the report being sent by writing directly to Hive.
       final simulatedEntry = {
@@ -147,7 +161,9 @@ void main() {
     expect(entry['ruleId'], 'bovaer_test');
     // Ensure UI and Hive are cleaned up to avoid platform finalizer races
     try {
-      await tester.pumpAndSettle(const Duration(milliseconds: 200));
+      // avoid pumpAndSettle; do a couple of short pumps instead
+      await tester.pump(const Duration(milliseconds: 100));
+      await tester.pump(const Duration(milliseconds: 100));
     } finally {
       try {
         if (Hive.isBoxOpen('alerts_feedback')) {
@@ -164,5 +180,5 @@ void main() {
       // brief delay to let flutter test finalizers finish their work
       await Future.delayed(const Duration(milliseconds: 1000));
     }
-  }, skip: Platform.isWindows);
+  }, timeout: Timeout(Duration(seconds: 180)));
 }
