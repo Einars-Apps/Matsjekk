@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // Self-contained counter test that does not depend on app initialization.
-import 'package:mat_sjekk/main.dart'; // This line can be removed if not needed.
+// Removed unused import of main app to avoid analyzer warning.
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
@@ -31,7 +31,7 @@ void main() {
 }
 
 class _CounterTestWidget extends StatefulWidget {
-  const _CounterTestWidget({Key? key}) : super(key: key);
+  const _CounterTestWidget();
   @override
   State<_CounterTestWidget> createState() => _CounterTestWidgetState();
 }
