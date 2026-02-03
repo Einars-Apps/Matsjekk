@@ -88,7 +88,7 @@ jobs:
       - name: Run tests
         run: |
           set -euo pipefail
-          files=( $(git ls-files 'test/**.dart' || true) )
+          files=( $(git ls-files 'test/**/*_test.dart' || true) )
           selected=()
           for i in "${!files[@]}"; do
             if (( i % 4 == ${{ matrix.shard }} )); then
