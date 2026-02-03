@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 // localization imports removed for tests
 import 'package:hive/hive.dart';
-import 'package:hive_test/hive_test.dart';
+// 'hive_test' removed (unused import) — keep Hive imports portable for CI
 
 import 'package:mat_sjekk/widgets.dart';
 import 'test_helpers.dart';
