@@ -7,6 +7,11 @@ import 'package:hive_test/hive_test.dart';
 
 import 'package:mat_sjekk/widgets.dart';
 
+// Ignore lint suggestions about preferring const constructors in tests.
+// Tests commonly create runtime data structures which cannot be const,
+// and the CI analyzer treats even 'info' level issues as failures.
+// ignore_for_file: prefer_const_constructors
+
 void main() {
   // Use per-test setUp/tearDown to avoid cross-test interference and
   // platform-specific finalizer races on Windows.
