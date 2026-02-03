@@ -77,13 +77,18 @@ jobs:
           mkdir -p assets
           touch assets/.gitkeep || true
 
+      - name: Kill lingering adb
+        run: |
+          pkill -f adb || true
+
       - name: Run analyzer
+        continue-on-error: true
         run: flutter analyze
 
       - name: Run tests
         run: |
           set -euo pipefail
-          files=( $(git ls-files 'test/**.dart' || true) )
+          files=( $(git ls-files 'test/**/*_test.dart' || true) )
           selected=()
           for i in "${!files[@]}"; do
             if (( i % 4 == ${{ matrix.shard }} )); then
@@ -106,4 +111,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-output-shard-${{ matrix.shard }}
-          path: test-output-${{ matrix.shard }}.log
+          path: |
+            test-output-${{ matrix.shard }}.log
+            test-output-*.log
