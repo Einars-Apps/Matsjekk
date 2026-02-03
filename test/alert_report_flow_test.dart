@@ -6,6 +6,7 @@ import 'package:hive/hive.dart';
 import 'package:hive_test/hive_test.dart';
 
 import 'package:mat_sjekk/widgets.dart';
+import 'test_helpers.dart';
 
 // Ignore lint suggestions that are noisy for widget tests.
 // Tests commonly use `print`, runtime-built strings and casts; the CI
@@ -18,56 +19,11 @@ void main() {
   // platform-specific finalizer races on Windows.
 
   setUp(() async {
-    TestWidgetsFlutterBinding.ensureInitialized();
-    // use in-memory Hive for tests to avoid platform-specific temp-file races
-    await setUpTestHive();
-    // Pre-open commonly used box to mirror previous behavior
-    // Open all boxes used by the app to prevent 'Box not found' errors
-    await Hive.openBox('alerts_feedback');
-    await Hive.openBox('handlelister');
-    await Hive.openBox('historikk');
-    await Hive.openBox('innstillinger');
-    await Hive.openBox('list_positions');
+    await setUpHiveForTest();
   });
 
   tearDown(() async {
-    // Robust per-test cleanup to reduce flakiness on Windows finalizers.
-    try {
-      // Clear and close any boxes we opened for the test
-      final boxes = ['alerts_feedback', 'handlelister', 'historikk', 'innstillinger', 'list_positions'];
-      for (var name in boxes) {
-        if (Hive.isBoxOpen(name)) {
-          final b = Hive.box(name);
-          try {
-            await b.clear().timeout(const Duration(milliseconds: 250));
-          } catch (_) {}
-          try {
-            await b.close().timeout(const Duration(milliseconds: 250));
-          } catch (_) {}
-        }
-      }
-    } catch (_) {
-      // ignore errors during teardown
-    }
-
-    // Do not call Hive.close() here; let the test harness manage Hive lifecycle
-
-    try {
-      await tearDownTestHive().timeout(const Duration(milliseconds: 250));
-    } catch (_) {
-      // ignore teardownTestHive errors or timeouts
-    }
-
-    // Ensure Hive is fully closed to avoid background isolate handles
-    // keeping the test harness alive on some platforms (Windows).
-    try {
-      await Hive.close().timeout(const Duration(milliseconds: 500));
-    } catch (_) {}
-
-    // Small delay to allow flutter_test finalizers to complete.
-    try {
-      await Future.delayed(const Duration(milliseconds: 50));
-    } catch (_) {}
+    await tearDownHiveForTest();
   });
 
           testWidgets('Alert -> Report persists feedback in Hive',
