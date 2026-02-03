@@ -33,10 +33,10 @@ void main() {
         if (Hive.isBoxOpen(name)) {
           final b = Hive.box(name);
           try {
-            await b.clear();
+            await b.clear().timeout(const Duration(milliseconds: 250));
           } catch (_) {}
           try {
-            await b.close();
+            await b.close().timeout(const Duration(milliseconds: 250));
           } catch (_) {}
         }
       }
@@ -47,14 +47,20 @@ void main() {
     // Do not call Hive.close() here; let the test harness manage Hive lifecycle
 
     try {
-      await tearDownTestHive();
+      await tearDownTestHive().timeout(const Duration(milliseconds: 250));
     } catch (_) {
-      // ignore teardownTestHive errors
+      // ignore teardownTestHive errors or timeouts
     }
+
+    // Ensure Hive is fully closed to avoid background isolate handles
+    // keeping the test harness alive on some platforms (Windows).
+    try {
+      await Hive.close().timeout(const Duration(milliseconds: 500));
+    } catch (_) {}
 
     // Small delay to allow flutter_test finalizers to complete.
     try {
-      await Future.delayed(const Duration(milliseconds: 1000));
+      await Future.delayed(const Duration(milliseconds: 50));
     } catch (_) {}
   });
 
@@ -160,27 +166,24 @@ void main() {
     expect(entry['product'], anyOf('Test Produkt', 'Test Produkt'));
     expect(entry['ruleId'], 'bovaer_test');
     // Ensure UI and Hive are cleaned up to avoid platform finalizer races
-      try {
         // avoid pumpAndSettle; do a couple of short pumps instead
         await tester.pump(const Duration(milliseconds: 50));
         await tester.pump(const Duration(milliseconds: 50));
         print('TEST: finishing pumps');
-      } finally {
-      try {
-        if (Hive.isBoxOpen('alerts_feedback')) {
-          final b = Hive.box('alerts_feedback');
-          await b.clear();
-          await b.close();
-        }
-      } catch (_) {
-        // ignore per-test cleanup errors
-      }
 
-      // Avoid calling Hive.close() here to prevent race with flutter_test finalizers
+        // Unmount the test widget to ensure any timers/animation controllers
+        // created by the widget get disposed. This prevents lingering active
+        // timers that keep the test harness alive and cause timeouts.
+        await tester.pumpWidget(Container());
+        await tester.pump(const Duration(milliseconds: 50));
+        print('TEST: widget removed');
 
-      // brief delay to let flutter test finalizers finish their work
-      await Future.delayed(const Duration(milliseconds: 100));
-      print('TEST: end');
-    }
+        // brief delay to let flutter_test finalizers finish their work.
+        // Use `tester.runAsync` so the real timer can run outside the
+        // fake async zone used by the test harness.
+        await tester.runAsync(() async {
+          await Future.delayed(const Duration(milliseconds: 100));
+        });
+        print('TEST: end');
   }, timeout: const Timeout(Duration(seconds: 300)));
 }

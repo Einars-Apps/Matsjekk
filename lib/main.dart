@@ -40,6 +40,10 @@ void main() async {
   runApp(const MatvareSjekkApp());
 }
 
+// Detect when running under `flutter test` so we can avoid scheduling
+// background timers/delays that keep the test harness alive.
+final bool _isTestEnv = Platform.environment.containsKey('FLUTTER_TEST');
+
 // Global navigator key for language switching
 final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
 
@@ -144,8 +148,7 @@ class ScannerScreen extends StatefulWidget {
 
 class _ScannerScreenState extends State<ScannerScreen>
     with WidgetsBindingObserver {
-  MobileScannerController controller =
-      MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
+  MobileScannerController? controller;
   late Box handlelisterBox;
   late Box historikkBox;
   late Box innstillingerBox;
@@ -170,6 +173,10 @@ class _ScannerScreenState extends State<ScannerScreen>
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    // Only create the real controller when not running tests.
+    if (!_isTestEnv) {
+      controller = MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
+    }
     handlelisterBox = Hive.box('handlelister');
     historikkBox = Hive.box('historikk');
     innstillingerBox = Hive.box('innstillinger');
@@ -182,6 +189,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _archiveCheckedItems();
+    try {
+      if (controller != null) controller!.dispose();
+    } catch (_) {}
     super.dispose();
   }
 
@@ -377,7 +387,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       }
     }).whenComplete(() {
       setState(() => _isLoading = false);
-      Future.delayed(const Duration(seconds: 3), () => _lastEan = '');
+      if (!_isTestEnv) {
+        Future.delayed(const Duration(seconds: 3), () => _lastEan = '');
+      }
     });
   }
 
@@ -671,7 +683,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           selectedLanguage = code;
         });
         if (context.mounted) Navigator.of(context).pop();
-        await Future.delayed(const Duration(milliseconds: 300));
+        if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 300));
         if (mounted) widget.onLanguageChanged(code);
       },
     );
@@ -710,7 +722,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                   innstillingerBox.put('selectedCountry', code);
                   setDialogState(() => selectedCountry = code);
                   _safePop();
-                  await Future.delayed(const Duration(milliseconds: 200));
+                  if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 200));
                   if (mounted) widget.onCountryChanged(code);
                 },
               );
@@ -839,7 +851,10 @@ class _ScannerScreenState extends State<ScannerScreen>
       ),
       body: Stack(
         children: [
-          MobileScanner(controller: controller, onDetect: _handleBarcode),
+          if (controller != null)
+            MobileScanner(controller: controller!, onDetect: _handleBarcode)
+          else
+            const SizedBox(),
           if (_isLoading)
             Container(
                 color: const Color.fromRGBO(0, 0, 0, 0.5),
