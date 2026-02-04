@@ -9,7 +9,12 @@ class Product {
   final String ingredientsText;
   final List<String> eNumbers;
   final List<String> allergens;
+<<<<<<< HEAD
   final Map<String, double> nutrition; // per 100g, keys: energy_kcal, fat, saturated_fat, carbs, sugars, protein, salt
+=======
+  final Map<String, double>
+      nutrition; // per 100g, keys: energy_kcal, fat, saturated_fat, carbs, sugars, protein, salt
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
   final String imageUrl;
   final String nutriscore;
   final double sourceConfidence;
@@ -48,9 +53,19 @@ class Product {
 
   // Helper: extract E-numbers from a free text ingredients string
   static List<String> extractENumbers(String text) {
+<<<<<<< HEAD
     final reg = RegExp(r'e\s*\d{2,4}[a-z]?|E\d{2,4}[a-z]?', caseSensitive: false);
     final matches = reg.allMatches(text);
     return matches.map((m) => m[0]!.toUpperCase().replaceAll(' ', '')).toSet().toList();
+=======
+    final reg =
+        RegExp(r'e\s*\d{2,4}[a-z]?|E\d{2,4}[a-z]?', caseSensitive: false);
+    final matches = reg.allMatches(text);
+    return matches
+        .map((m) => m[0]!.toUpperCase().replaceAll(' ', ''))
+        .toSet()
+        .toList();
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
   }
 
   // Very small allergen extractor from free-text ingredients.
@@ -84,7 +99,12 @@ class Product {
   }
 
   // Extract common nutrition values from OpenFoodFacts 'nutriments' map or similar.
+<<<<<<< HEAD
   static Map<String, double> extractNutrition(Map<String, dynamic>? nutriments) {
+=======
+  static Map<String, double> extractNutrition(
+      Map<String, dynamic>? nutriments) {
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     final result = <String, double>{};
     if (nutriments == null) return result;
     double? tryGet(List<String> keys) {
@@ -101,18 +121,38 @@ class Product {
       return null;
     }
 
+<<<<<<< HEAD
     result['energy_kcal'] = tryGet(['energy-kcal_100g', 'energy-kcal', 'energy_100g', 'energy-kcal_value']) ?? 0.0;
     result['fat'] = tryGet(['fat_100g', 'fat']) ?? 0.0;
     result['saturated_fat'] = tryGet(['saturated-fat_100g', 'saturated_fat_100g', 'saturated-fat']) ?? 0.0;
     result['carbohydrates'] = tryGet(['carbohydrates_100g', 'carbohydrates']) ?? 0.0;
     result['sugars'] = tryGet(['sugars_100g', 'sugars']) ?? 0.0;
     result['protein'] = tryGet(['proteins_100g', 'protein_100g', 'protein']) ?? 0.0;
+=======
+    result['energy_kcal'] = tryGet([
+          'energy-kcal_100g',
+          'energy-kcal',
+          'energy_100g',
+          'energy-kcal_value'
+        ]) ??
+        0.0;
+    result['fat'] = tryGet(['fat_100g', 'fat']) ?? 0.0;
+    result['saturated_fat'] =
+        tryGet(['saturated-fat_100g', 'saturated_fat_100g', 'saturated-fat']) ??
+            0.0;
+    result['carbohydrates'] =
+        tryGet(['carbohydrates_100g', 'carbohydrates']) ?? 0.0;
+    result['sugars'] = tryGet(['sugars_100g', 'sugars']) ?? 0.0;
+    result['protein'] =
+        tryGet(['proteins_100g', 'protein_100g', 'protein']) ?? 0.0;
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     result['salt'] = tryGet(['salt_100g', 'salt']) ?? 0.0;
     return result;
   }
 
   // Map from OpenFoodFacts product JSON to our Product model
   static Product fromOpenFoodFacts(Map<String, dynamic> offProduct) {
+<<<<<<< HEAD
     final productName = (offProduct['product_name'] ?? offProduct['product_name_en'] ?? '') as String? ?? '';
     final brands = (offProduct['brands'] ?? '') as String? ?? '';
     final labelsRaw = (offProduct['labels'] ?? '') as String? ?? '';
@@ -123,6 +163,34 @@ class Product {
     // additives_tags often like ['en:e102']
     final additiveTags = (offProduct['additives_tags'] as List<dynamic>?) ?? <dynamic>[];
     final eFromTags = additiveTags.map((e) => e.toString().replaceAll('en:', '').toUpperCase()).where((s) => s.isNotEmpty).toList();
+=======
+    final productName = (offProduct['product_name'] ??
+            offProduct['product_name_en'] ??
+            '') as String? ??
+        '';
+    final brands = (offProduct['brands'] ?? '') as String? ?? '';
+    final labelsRaw = (offProduct['labels'] ?? '') as String? ?? '';
+    final categoriesRaw = (offProduct['categories'] ?? '') as String? ?? '';
+    final ingredients = (offProduct['ingredients_text_no'] ??
+            offProduct['ingredients_text'] ??
+            '') as String? ??
+        '';
+    final image = (offProduct['image_front_url'] ??
+            offProduct['image_front'] ??
+            '') as String? ??
+        '';
+    final nutri = ((offProduct['nutriscore_grade'] ??
+            offProduct['nutriscore'] ??
+            '') as String)
+        .toString();
+    // additives_tags often like ['en:e102']
+    final additiveTags =
+        (offProduct['additives_tags'] as List<dynamic>?) ?? <dynamic>[];
+    final eFromTags = additiveTags
+        .map((e) => e.toString().replaceAll('en:', '').toUpperCase())
+        .where((s) => s.isNotEmpty)
+        .toList();
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     final eFromText = extractENumbers(ingredients);
     final eNumbers = {...eFromTags, ...eFromText}.toList();
 
@@ -131,7 +199,15 @@ class Product {
     if (offProduct['allergens_tags'] is List) {
       final tags = List<dynamic>.from(offProduct['allergens_tags']);
       for (final t in tags) {
+<<<<<<< HEAD
         final s = t.toString().replaceAll('en:', '').replaceAll('fr:', '').replaceAll('es:', '');
+=======
+        final s = t
+            .toString()
+            .replaceAll('en:', '')
+            .replaceAll('fr:', '')
+            .replaceAll('es:', '');
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
         if (s.isNotEmpty) allergensList.add(s);
       }
     }
@@ -141,11 +217,28 @@ class Product {
     }
 
     // Nutrition
+<<<<<<< HEAD
     final nutriments = (offProduct['nutriments'] as Map<String, dynamic>?) ?? <String, dynamic>{};
     final nutrition = extractNutrition(nutriments);
 
     final labels = labelsRaw.split(',').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
     final categories = categoriesRaw.split(',').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
+=======
+    final nutriments = (offProduct['nutriments'] as Map<String, dynamic>?) ??
+        <String, dynamic>{};
+    final nutrition = extractNutrition(nutriments);
+
+    final labels = labelsRaw
+        .split(',')
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toList();
+    final categories = categoriesRaw
+        .split(',')
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toList();
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
     // Simple confidence heuristic: product_name + either ingredients or image increases confidence
     double confidence = 0.3;
@@ -172,12 +265,37 @@ class Product {
 
   // Map from Matvaretabellen entry (bulk or product) to Product model
   static Product fromMatvare(Map<String, dynamic> entry) {
+<<<<<<< HEAD
     final name = (entry['name'] ?? entry['foodName'] ?? entry['product_name'] ?? entry['navn'] ?? '') as String? ?? '';
     final brand = (entry['brand'] ?? entry['brands'] ?? entry['merke'] ?? '') as String? ?? '';
     final labelsRaw = (entry['labels'] ?? '') as String? ?? '';
     final categoriesRaw = (entry['categories'] ?? entry['kategorier'] ?? '') as String? ?? '';
     final ingredients = (entry['ingredients'] ?? entry['ingredients_text'] ?? entry['ingredienser'] ?? '') as String? ?? '';
     final image = (entry['image'] ?? entry['image_front_url'] ?? entry['image_url'] ?? '') as String? ?? '';
+=======
+    final name = (entry['name'] ??
+            entry['foodName'] ??
+            entry['product_name'] ??
+            entry['navn'] ??
+            '') as String? ??
+        '';
+    final brand = (entry['brand'] ?? entry['brands'] ?? entry['merke'] ?? '')
+            as String? ??
+        '';
+    final labelsRaw = (entry['labels'] ?? '') as String? ?? '';
+    final categoriesRaw =
+        (entry['categories'] ?? entry['kategorier'] ?? '') as String? ?? '';
+    final ingredients = (entry['ingredients'] ??
+            entry['ingredients_text'] ??
+            entry['ingredienser'] ??
+            '') as String? ??
+        '';
+    final image = (entry['image'] ??
+            entry['image_front_url'] ??
+            entry['image_url'] ??
+            '') as String? ??
+        '';
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     final nutri = ((entry['nutriscore'] ?? '') as String).toString();
 
     // GTIN/EAN handling
@@ -185,8 +303,19 @@ class Product {
     for (final k in ['ean', 'gtin', 'code', 'barcode', 'product_code', 'id']) {
       if (entry.containsKey(k)) {
         final v = entry[k];
+<<<<<<< HEAD
         if (v is String && v.trim().isNotEmpty) { gtin = v.trim(); break; }
         if (v is List && v.isNotEmpty) { gtin = v.first.toString().trim(); break; }
+=======
+        if (v is String && v.trim().isNotEmpty) {
+          gtin = v.trim();
+          break;
+        }
+        if (v is List && v.isNotEmpty) {
+          gtin = v.first.toString().trim();
+          break;
+        }
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
       }
     }
 
@@ -196,8 +325,19 @@ class Product {
     final allergensList = <String>[];
     if (entry.containsKey('allergens')) {
       final a = entry['allergens'];
+<<<<<<< HEAD
       if (a is String) allergensList.addAll(a.split(',').map((s) => s.trim()).where((s) => s.isNotEmpty));
       if (a is List) allergensList.addAll(a.map((s) => s.toString()).where((s) => s.isNotEmpty));
+=======
+      if (a is String) {
+        allergensList.addAll(
+            a.split(',').map((s) => s.trim()).where((s) => s.isNotEmpty));
+      }
+      if (a is List) {
+        allergensList
+            .addAll(a.map((s) => s.toString()).where((s) => s.isNotEmpty));
+      }
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     }
     if (allergensList.isEmpty) {
       allergensList.addAll(extractAllergensFromIngredients(ingredients));
@@ -206,11 +346,30 @@ class Product {
     // Nutrition parsing from Matvare fields if present
     Map<String, double> nutrition = {};
     if (entry.containsKey('nutriments') && entry['nutriments'] is Map) {
+<<<<<<< HEAD
       nutrition = extractNutrition(Map<String, dynamic>.from(entry['nutriments']));
     }
 
     final labels = labelsRaw.toString().split(',').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
     final categories = categoriesRaw.toString().split(',').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
+=======
+      nutrition =
+          extractNutrition(Map<String, dynamic>.from(entry['nutriments']));
+    }
+
+    final labels = labelsRaw
+        .toString()
+        .split(',')
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toList();
+    final categories = categoriesRaw
+        .toString()
+        .split(',')
+        .map((s) => s.trim())
+        .where((s) => s.isNotEmpty)
+        .toList();
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
     // Heuristic confidence: Matvaretabellen entry with name and ingredients is high confidence
     double confidence = 0.4;

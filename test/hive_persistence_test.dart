@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
@@ -15,6 +16,19 @@ void main() {
     try {
       await tmpDir.delete(recursive: true);
     } catch (_) {}
+=======
+import 'package:flutter_test/flutter_test.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_test/hive_test.dart';
+
+void main() {
+  setUp(() async {
+    await setUpTestHive();
+  });
+
+  tearDown(() async {
+    await tearDownTestHive();
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
   });
 
   test('alerts_feedback persistence', () async {

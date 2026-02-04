@@ -36,7 +36,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get howAppWorks => 'Hoe de app informatie ophaalt';
 
   @override
-  String get appDescription => 'De app gebruikt Open Food Facts en een interne merklijst om producten met Bovaer, insectenmeel, GMO-voer en andere controversiële ingrediënten te identificeren.';
+  String get appDescription =>
+      'De app gebruikt Open Food Facts en een interne merklijst om producten met Bovaer, insectenmeel, GMO-voer en andere controversiële ingrediënten te identificeren.';
 
   @override
   String get alerts => 'Selecteer waarschuwingen';
@@ -63,13 +64,15 @@ class AppLocalizationsNl extends AppLocalizations {
   String get unknown => 'ONBEKEND';
 
   @override
-  String get bovaerRiskDesc => 'De producent is rechtstreeks gekoppeld aan Bovaer.';
+  String get bovaerRiskDesc =>
+      'De producent is rechtstreeks gekoppeld aan Bovaer.';
 
   @override
   String get insectMealRiskDesc => 'Het product kan insectenmeel bevatten.';
 
   @override
-  String get gmoFishRiskDesc => 'De producent is gekoppeld aan het gebruik van GMO-voer.';
+  String get gmoFishRiskDesc =>
+      'De producent is gekoppeld aan het gebruik van GMO-voer.';
 
   @override
   String get safeDesc => 'Het product is gecertificeerd biologisch.';
@@ -183,16 +186,20 @@ class AppLocalizationsNl extends AppLocalizations {
   String get noAdditionsFound => 'Geen E-nummers in database gevonden.';
 
   @override
-  String get disclaimer => 'Disclaimer: Deze informatie is alleen ter oriëntatie en gebaseerd op openbaar beschikbare gegevens. Voor 100% nauwkeurige informatie raadpleegt u de verpakking van het product of neemt u contact op met de fabrikant.';
+  String get disclaimer =>
+      'Disclaimer: Deze informatie is alleen ter oriëntatie en gebaseerd op openbaar beschikbare gegevens. Voor 100% nauwkeurige informatie raadpleegt u de verpakking van het product of neemt u contact op met de fabrikant.';
 
   @override
-  String get bovaerHighRisk => 'HOOG RISICO: De producent is rechtstreeks gekoppeld aan Bovaer.';
+  String get bovaerHighRisk =>
+      'HOOG RISICO: De producent is rechtstreeks gekoppeld aan Bovaer.';
 
   @override
-  String get gmoHighRisk => 'HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.';
+  String get gmoHighRisk =>
+      'HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.';
 
   @override
-  String get bovaerPossibleRisk => 'MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.';
+  String get bovaerPossibleRisk =>
+      'MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.';
 
   @override
   String get safeProduct => 'VEILIG: Het product is gecertificeerd biologisch.';
@@ -207,7 +214,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';
