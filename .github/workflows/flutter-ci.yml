@@ -1,26 +1,41 @@
 name: Flutter CI
 
+<<<<<<< HEAD
+=======
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+<<<<<<< HEAD
+=======
   workflow_dispatch:
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
 jobs:
   analyze-and-test:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
+=======
     timeout-minutes: 180
     strategy:
       matrix:
         shard: [0,1,2,3]
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+<<<<<<< HEAD
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+=======
       - name: Cache Flutter SDK
         id: cache-flutter
         uses: actions/cache@v4
@@ -60,11 +75,21 @@ jobs:
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
           restore-keys: |
             ${{ runner.os }}-pub-
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
       - name: Enable Flutter web (optional)
         run: flutter config --enable-web || true
 
       - name: Install dependencies
+<<<<<<< HEAD
+        run: flutter pub get
+
+      - name: Run analyzer
+        run: flutter analyze
+
+      - name: Run tests
+        run: flutter test --coverage
+=======
         run: |
           for i in 1 2 3; do
             flutter pub get && break
@@ -114,3 +139,4 @@ jobs:
           path: |
             test-output-${{ matrix.shard }}.log
             test-output-*.log
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
