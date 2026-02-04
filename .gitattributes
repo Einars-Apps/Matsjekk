@@ -1,0 +1,2 @@
+mat_sjekk_logcat.txt filter=lfs diff=lfs merge=lfs -text
+matvaretabellen.jsonc filter=lfs diff=lfs merge=lfs -text
