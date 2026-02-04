@@ -1,0 +1,62 @@
+[
+  {
+    "id": "no-1",
+    "name": "Ost & Gård",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": "Drammen",
+    "products": ["ost","melk","yoghurt"],
+    "website": "https://ostoggard.example",
+    "lat": 59.7439,
+    "lon": 10.2041,
+    "address": "Gårdveien 12"
+  },
+  {
+    "id": "se-1",
+    "name": "Svensk Gårdsmat",
+    "country": "Sweden",
+    "region": "Västra Götaland",
+    "municipality": "Göteborg",
+    "products": ["ost","kjøtt"],
+    "website": "https://svensk.example",
+    "lat": 57.7089,
+    "lon": 11.9746,
+    "address": "Gård 1"
+  },
+  {
+    "id": "dk-1",
+    "name": "Dansk Gårdbutikk",
+    "country": "Denmark",
+    "region": "Hovedstaden",
+    "municipality": "København",
+    "products": ["grønt","ost"],
+    "website": "https://dansk.example",
+    "lat": 55.6761,
+    "lon": 12.5683,
+    "address": "Bygade 5"
+  },
+  {
+    "id": "gb-1",
+    "name": "English Farm Produce",
+    "country": "England",
+    "region": "Greater London",
+    "municipality": "London",
+    "products": ["cheese","milk"],
+    "website": "https://english.example",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "address": "Farm Lane 7"
+  },
+  {
+    "id": "nl-1",
+    "name": "Hollandse Boerderij",
+    "country": "Netherlands",
+    "region": "North Holland",
+    "municipality": "Amsterdam",
+    "products": ["kaas","eieren"],
+    "website": "https://holland.example",
+    "lat": 52.3676,
+    "lon": 4.9041,
+    "address": "Boerderijstraat 3"
+  }
+]
