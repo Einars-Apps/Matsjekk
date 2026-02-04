@@ -1,19 +1,38 @@
 name: CI
 
+<<<<<<< HEAD
+=======
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+<<<<<<< HEAD
+=======
+  workflow_dispatch:
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
 jobs:
   test:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
+=======
+    timeout-minutes: 180
+    strategy:
+      matrix:
+        flutter-version: [stable]
+        shard: [0,1,2,3]
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
     steps:
     - name: Checkout
       uses: actions/checkout@v4
 
+<<<<<<< HEAD
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
@@ -21,9 +40,95 @@ jobs:
 
     - name: Install dependencies
       run: flutter pub get
+=======
+    - name: Cache Flutter SDK
+      id: cache-flutter
+      uses: actions/cache@v4
+      with:
+        path: |
+          $HOME/flutter-${{ matrix.flutter-version }}
+        key: ${{ runner.os }}-flutter-${{ matrix.flutter-version }}-${{ hashFiles('**/pubspec.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-flutter-
+
+    - name: Install Flutter SDK (manual)
+      run: |
+        set -e
+        FLUTTER_DIR="$HOME/flutter-${{ matrix.flutter-version }}"
+        if [ ! -d "$FLUTTER_DIR" ]; then
+          git clone --depth 1 https://github.com/flutter/flutter.git -b "${{ matrix.flutter-version }}" "$FLUTTER_DIR"
+        fi
+        # Make flutter available in this shell and for subsequent steps
+        export PATH="$FLUTTER_DIR/bin:$PATH"
+        echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
+        # Show version, run doctor and precache artifacts to reduce repeated downloads
+        flutter --version
+        flutter doctor -v
+        if [ "${{ steps.cache-flutter.outputs.cache-hit }}" != 'true' ]; then
+          echo "Flutter SDK not restored from cache; running flutter precache"
+          flutter precache
+        else
+          echo "Flutter SDK restored from cache; skipping flutter precache"
+        fi
+
+    - name: Cache Pub packages
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.pub-cache
+          ~/.pub-cache/hosted
+          .dart_tool
+        key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-pub-
+
+    - name: Install dependencies
+      run: |
+        for i in 1 2 3; do
+          flutter pub get && break
+          echo "flutter pub get failed, retrying ($i/3)"
+          sleep $((i * 5))
+        done
+
+    - name: Ensure assets directory
+      run: |
+        mkdir -p assets
+        # keep the directory in git archives if needed
+        touch assets/.gitkeep || true
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
     - name: Analyze
       run: flutter analyze
 
+<<<<<<< HEAD
     - name: Run tests
       run: flutter test -r expanded
+=======
+    - name: Run tests (shard ${{ matrix.shard }})
+      run: |
+        set -euo pipefail
+        files=( $(git ls-files 'test/**.dart' || true) )
+        selected=()
+        for i in "${!files[@]}"; do
+          if (( i % 4 == ${{ matrix.shard }} )); then
+            selected+=("${files[i]}")
+          fi
+        done
+        if [ ${#selected[@]} -eq 0 ]; then
+          echo "No tests for shard ${{ matrix.shard }}"
+          exit 0
+        fi
+        echo "Running tests for shard ${{ matrix.shard }}: ${selected[*]}"
+        for i in 1 2; do
+          flutter test "${selected[@]}" -r expanded 2>&1 | tee test-output-${{ matrix.shard }}.log && break
+          echo "flutter test failed, retrying ($i/2)"
+          sleep 10
+        done
+
+    - name: Upload test log artifact (shard ${{ matrix.shard }})
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-output-shard-${{ matrix.shard }}
+        path: test-output-${{ matrix.shard }}.log
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643

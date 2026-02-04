@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gårdsbutikker — Mat Sjekk</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:0}
+    header{padding:1rem;background:#0a6;border-bottom:1px solid #0a6}
+    .container{padding:1rem}
+    #map{height:400px;border:1px solid #ccc}
+    .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .list{max-height:400px;overflow:auto;border:1px solid #eee;padding:8px}
+    .item{padding:6px;border-bottom:1px solid #f1f1f1}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Gårdsbutikker</h1>
+      <p>Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <select id="countrySelect"><option value="">Velg land</option></select>
+      <select id="regionSelect"><option value="">Velg fylke/region</option></select>
+      <select id="municipalitySelect"><option value="">Velg kommune</option></select>
+      <input id="searchInput" placeholder="Søk butikk eller produkt (f.eks. ost)" style="flex:1" />
+      <input id="routeFrom" placeholder="Fra (adresse eller by)" />
+      <input id="routeTo" placeholder="Til (adresse eller by)" />
+      <button id="routeBtn">Finn langs rute</button>
+      <button id="resetBtn">Tilbakestill</button>
+    </div>
+
+    <div id="map"></div>
+
+    <h2>Resultater</h2>
+    <div style="display:flex;gap:12px">
+      <div class="list" id="list"></div>
+      <div style="flex:1">
+        <h3>Legg til produsent</h3>
+        <p>Produsenter kan registrere seg via skjemaet (ekstern tjeneste).</p>
+        <a class="btn" href="https://forms.gle/" target="_blank">Registrer produsent</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+  <script src="js/gardsbutikker.js"></script>
+</body>
+</html>
