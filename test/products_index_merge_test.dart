@@ -26,13 +26,6 @@ void main() {
       'additives_tags': ['en:e100']
     };
 
-<<<<<<< HEAD
-    final param = {'index': index, 'off_cache': {'111': offProd}};
-    final merged = buildProductsIndex(param);
-    expect(merged['byGtin'].containsKey('111'), isTrue);
-    final entry = merged['byGtin']['111'];
-    final name = (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
-=======
     final param = {
       'index': index,
       'off_cache': {'111': offProd}
@@ -42,7 +35,6 @@ void main() {
     final entry = merged['byGtin']['111'];
     final name =
         (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
->>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     expect(name.toString().toLowerCase(), contains('off supername'));
   });
 
@@ -66,13 +58,6 @@ void main() {
       'brands': '',
     };
 
-<<<<<<< HEAD
-    final param = {'index': index, 'off_cache': {'222': offProd}};
-    final merged = buildProductsIndex(param);
-    expect(merged['byGtin'].containsKey('222'), isTrue);
-    final entry = merged['byGtin']['222'];
-    final name = (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
-=======
     final param = {
       'index': index,
       'off_cache': {'222': offProd}
@@ -82,7 +67,6 @@ void main() {
     final entry = merged['byGtin']['222'];
     final name =
         (entry['product'] ?? {})['navn'] ?? (entry['product'] ?? {})['name'];
->>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     expect(name.toString().toLowerCase(), contains('matvare name'));
   });
 }
