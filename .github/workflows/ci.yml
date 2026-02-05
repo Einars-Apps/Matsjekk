@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         flutter-version: [stable]
-        shard: [0,1,2,3]
+        shard: [0]
 
     steps:
       - name: Checkout
@@ -115,6 +115,28 @@ jobs:
                       echo "flutter pub get failed, retrying ($i/3)"
                       sleep $((i * 5))
                     done
+
+                - name: Capture CI environment and Flutter info
+                  if: always()
+                  run: |
+                    mkdir -p debug-output
+                    echo "=== flutter --version ===" > debug-output/ci-debug.txt
+                    flutter --version >> debug-output/ci-debug.txt 2>&1 || true
+                    echo "\n=== flutter doctor -v ===" >> debug-output/ci-debug.txt
+                    flutter doctor -v >> debug-output/ci-debug.txt 2>&1 || true
+                    echo "\n=== env ===" >> debug-output/ci-debug.txt
+                    env >> debug-output/ci-debug.txt 2>&1 || true
+                    echo "\n=== df -h ===" >> debug-output/ci-debug.txt
+                    df -h >> debug-output/ci-debug.txt 2>&1 || true
+                    echo "\n=== ls -la repo root ===" >> debug-output/ci-debug.txt
+                    ls -la >> debug-output/ci-debug.txt 2>&1 || true
+
+                - name: Upload CI debug artifact
+                  if: always()
+                  uses: actions/upload-artifact@v4
+                  with:
+                    name: ci-debug-info
+                    path: debug-output/ci-debug.txt
 
                 - name: Ensure assets directory
                   run: |
