@@ -1,6 +1,8 @@
 name: CI Debug
 
 on:
+  push:
+    branches: [ pr/gardsbutikker-merged ]
   workflow_dispatch:
 
 jobs:
