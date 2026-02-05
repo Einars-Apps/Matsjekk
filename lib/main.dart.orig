@@ -66,8 +66,12 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
   void _loadLanguage() {
     final box = Hive.box('innstillinger');
     final savedLanguage = box.get('selectedLanguage', defaultValue: 'nb');
+<<<<<<< HEAD
+    final savedCountry = box.get('selectedCountry', defaultValue: _defaultCountryCode());
+=======
     final savedCountry =
         box.get('selectedCountry', defaultValue: _defaultCountryCode());
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     if (mounted) {
       setState(() {
         _currentLanguage = savedLanguage;
@@ -117,6 +121,17 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)),
       home: ScannerScreen(
           onLanguageChanged: (languageCode) {
+<<<<<<< HEAD
+        setState(() {
+          _currentLanguage = languageCode;
+        });
+      },
+          onCountryChanged: (countryCode) {
+        setState(() {
+          _currentCountry = countryCode;
+        });
+      },
+=======
             setState(() {
               _currentLanguage = languageCode;
             });
@@ -126,6 +141,7 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
               _currentCountry = countryCode;
             });
           },
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
           selectedCountry: _currentCountry),
       debugShowCheckedModeBanner: false,
     );
@@ -284,6 +300,15 @@ class _ScannerScreenState extends State<ScannerScreen>
   // Thin wrappers that delegate to top-level safe UI helpers in `lib/ui_safe.dart`.
   void _safePop([result]) => safePop(context, result);
 
+<<<<<<< HEAD
+
+
+  Future<T?> _safeShowDialogBuilder<T>(WidgetBuilder builder, {bool barrierDismissible = true}) {
+    return safeShowDialogBuilder<T>(context, builder, barrierDismissible: barrierDismissible);
+  }
+
+  void _safeSnack(String message, {Duration duration = const Duration(seconds: 2)}) => safeSnack(context, message, duration: duration);
+=======
   Future<T?> _safeShowDialogBuilder<T>(WidgetBuilder builder,
       {bool barrierDismissible = true}) {
     return safeShowDialogBuilder<T>(context, builder,
@@ -293,6 +318,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   void _safeSnack(String message,
           {Duration duration = const Duration(seconds: 2)}) =>
       safeSnack(context, message, duration: duration);
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
   String _defaultCountryCode() {
     final locale = Platform.localeName;
@@ -317,11 +343,18 @@ class _ScannerScreenState extends State<ScannerScreen>
   void _deleteList(String listName) {
     _safeShowDialogBuilder(
       (_) => AlertDialog(
+<<<<<<< HEAD
+        title: Text(AppLocalizations.of(context)?.deleteListConfirmTitle ?? 'Slette listen?'),
+        content: Text(AppLocalizations.of(context)?.deleteListConfirmMessage ?? 'Er du sikker? Dette vil også slette historikken for listen.'),
+        actions: [
+          TextButton(child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt'), onPressed: () => _safePop()),
+=======
         title: Text(AppLocalizations.of(context)?.deleteListConfirmTitle ??
             'Slette listen?'),
         content: Text(AppLocalizations.of(context)?.deleteListConfirmMessage ??
             'Er du sikker? Dette vil også slette historikken for listen.'),
         actions: [
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
           TextButton(
               child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt'),
               onPressed: () => _safePop()),
@@ -382,8 +415,12 @@ class _ScannerScreenState extends State<ScannerScreen>
           historikkBox.put(histKey, historikk);
         }
       } else {
+<<<<<<< HEAD
+        _safeSnack('Produktet ble ikke funnet i databasen.', duration: const Duration(seconds: 2));
+=======
         _safeSnack('Produktet ble ikke funnet i databasen.',
             duration: const Duration(seconds: 2));
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
       }
     }).whenComplete(() {
       setState(() => _isLoading = false);
@@ -486,6 +523,12 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (!list.any((item) => item.endsWith(itemName))) {
                 list.insert(0, itemName);
                 box.put(listToAddTo, list);
+<<<<<<< HEAD
+                _safeSnack('"$itemName" lagt til i $listToAddTo', duration: const Duration(seconds: 2));
+            }
+        }),
+        actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
+=======
                 _safeSnack('"$itemName" lagt til i $listToAddTo',
                     duration: const Duration(seconds: 2));
               }
@@ -493,6 +536,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         actions: [
           TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
         ],
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
     );
@@ -562,11 +606,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                           'es',
                           setDialogState),
                     ]),
+<<<<<<< HEAD
+                    actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
+=======
                     actions: [
                       TextButton(
                           onPressed: () => _safePop(),
                           child: const Text('Lukk'))
                     ],
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
                   ),
                 ),
               ).then((_) => setState(() {}));
@@ -620,11 +668,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                             innstillingerBox.put('varselInsekt', v);
                           }),
                     ]),
+<<<<<<< HEAD
+                    actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
+=======
                     actions: [
                       TextButton(
                           onPressed: () => _safePop(),
                           child: const Text('Lukk'))
                     ],
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
                   ),
                 ),
               ).then((_) => setState(() {}));
@@ -636,6 +688,9 @@ class _ScannerScreenState extends State<ScannerScreen>
                 'How the App Works'),
             onTap: () {
               _safePop();
+<<<<<<< HEAD
+              _safeShowDialogBuilder((_) => AlertDialog(title: Text(AppLocalizations.of(context)?.howAppWorks ?? 'How the App Works'), content: Text(AppLocalizations.of(context)?.appDescription ?? 'The app uses Open Food Facts....'), actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))]));
+=======
               _safeShowDialogBuilder((_) => AlertDialog(
                       title: Text(AppLocalizations.of(context)?.howAppWorks ??
                           'How the App Works'),
@@ -647,6 +702,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                             onPressed: () => _safePop(),
                             child: const Text('Lukk'))
                       ]));
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
             },
           ),
           ListTile(
@@ -654,6 +710,9 @@ class _ScannerScreenState extends State<ScannerScreen>
             title: Text(AppLocalizations.of(context)?.about ?? 'About'),
             onTap: () {
               _safePop();
+<<<<<<< HEAD
+              _safeShowDialogBuilder((_) => AlertDialog(title: Text(AppLocalizations.of(context)?.appTitle ?? 'Food Check'), content: const Text('Version 1.8 – Built for honest food info.'), actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))]));
+=======
               _safeShowDialogBuilder((_) => AlertDialog(
                       title: Text(AppLocalizations.of(context)?.appTitle ??
                           'Food Check'),
@@ -664,6 +723,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                             onPressed: () => _safePop(),
                             child: const Text('Lukk'))
                       ]));
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
             },
           ),
         ],
@@ -676,6 +736,23 @@ class _ScannerScreenState extends State<ScannerScreen>
     return ListTile(
       leading: selected ? const Icon(Icons.radio_button_checked) : const Icon(Icons.radio_button_unchecked),
       title: Text(label),
+<<<<<<< HEAD
+      value: code,
+      groupValue: selectedLanguage,
+      onChanged: (value) async {
+        if (value != null) {
+          // Always proceed - store the new language
+          innstillingerBox.put('selectedLanguage', value);
+          setDialogState(() {
+            selectedLanguage = value;
+          });
+          // Close the dialog FIRST
+          if (context.mounted) Navigator.of(context).pop();
+          // Wait briefly then trigger the locale change
+          await Future.delayed(const Duration(milliseconds: 300));
+          if (mounted) widget.onLanguageChanged(value);
+        }
+=======
       onTap: () async {
         if (selected) return;
         innstillingerBox.put('selectedLanguage', code);
@@ -685,6 +762,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         if (context.mounted) Navigator.of(context).pop();
         if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 300));
         if (mounted) widget.onLanguageChanged(code);
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
       },
     );
   }
@@ -710,6 +788,25 @@ class _ScannerScreenState extends State<ScannerScreen>
           title: const Text('Velg land (prioriterer kilder)'),
           content: Column(
             mainAxisSize: MainAxisSize.min,
+<<<<<<< HEAD
+            children: land.entries
+                .map((entry) => RadioListTile<String>(
+                      title: Text(entry.value),
+                      value: entry.key,
+                      groupValue: selectedCountry,
+                      onChanged: (value) async {
+                        if (value == null) return;
+                        innstillingerBox.put('selectedCountry', value);
+                        setDialogState(() => selectedCountry = value);
+                        _safePop();
+                        await Future.delayed(const Duration(milliseconds: 200));
+                        if (mounted) widget.onCountryChanged(value);
+                      },
+                    ))
+                .toList(),
+          ),
+          actions: [TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))],
+=======
             children: land.entries.map((entry) {
               final code = entry.key;
               final label = entry.value;
@@ -731,6 +828,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           actions: [
             TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
           ],
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
         ),
       ),
     ).then((_) => setState(() {}));
@@ -818,6 +916,12 @@ class _ScannerScreenState extends State<ScannerScreen>
           final controller = TextEditingController();
           _safeShowDialogBuilder(
             (_) => AlertDialog(
+<<<<<<< HEAD
+              title: Text(AppLocalizations.of(context)?.newShoppingList ?? 'Ny handleliste'),
+              content: TextField(controller: controller, decoration: InputDecoration(hintText: AppLocalizations.of(context)?.listName ?? 'Navn på liste')),
+              actions: [
+                TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt')),
+=======
               title: Text(AppLocalizations.of(context)?.newShoppingList ??
                   'Ny handleliste'),
               content: TextField(
@@ -830,6 +934,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                     onPressed: () => _safePop(),
                     child:
                         Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt')),
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
                 TextButton(
                   onPressed: () {
                     final navn = controller.text.trim();
@@ -851,6 +956,10 @@ class _ScannerScreenState extends State<ScannerScreen>
       ),
       body: Stack(
         children: [
+<<<<<<< HEAD
+          MobileScanner(controller: controller, onDetect: _handleBarcode),
+          if (_isLoading) Container(color: Color.fromRGBO(0,0,0,0.5), child: const Center(child: CircularProgressIndicator(color: Colors.white))),
+=======
           if (controller != null)
             MobileScanner(controller: controller!, onDetect: _handleBarcode)
           else
@@ -860,6 +969,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                 color: const Color.fromRGBO(0, 0, 0, 0.5),
                 child: const Center(
                     child: CircularProgressIndicator(color: Colors.white))),
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
           ...listPositions.entries.map((entry) {
             final listName = entry.key;
             final position = entry.value;
@@ -977,6 +1087,84 @@ class _ScannerScreenState extends State<ScannerScreen>
   void _visSok() async {
     _safeShowDialogBuilder(
       (context) {
+<<<<<<< HEAD
+            final searchController = TextEditingController();
+            ValueNotifier<List<dynamic>> searchResults = ValueNotifier([]);
+            ValueNotifier<bool> isSearching = ValueNotifier(false);
+
+            return AlertDialog(
+                title: Text(AppLocalizations.of(context)?.searchProducts ?? 'Søk etter produkt'),
+                content: SizedBox(
+                    width: double.maxFinite,
+                    height: 400,
+                    child: Column(
+                        children: [
+                            TextField(
+                                controller: searchController,
+                                autofocus: true,
+                                decoration: InputDecoration(
+                                  hintText: AppLocalizations.of(context)?.searchHint ?? 'Søk... (f.eks. melk)',
+                                  suffixIcon: IconButton(
+                                    icon: const Icon(Icons.search),
+                                        onPressed: () async {
+                                            if (searchController.text.length < 2) return;
+                                            isSearching.value = true;
+                                            final response = await http.get(Uri.parse('https://world.openfoodfacts.org/cgi/search.pl?search_terms=${searchController.text}&search_simple=1&action=process&json=1&page_size=20'));
+                                            if (response.statusCode == 200) {
+                                                final data = json.decode(response.body);
+                                                searchResults.value = data['products'] ?? [];
+                                            }
+                                            isSearching.value = false;
+                                        },
+                                    ),
+                                ),
+                            ),
+                            const SizedBox(height: 10),
+                            Expanded(child: ValueListenableBuilder<bool>(
+                                valueListenable: isSearching,
+                                builder: (context, searching, child) {
+                                    if (searching) {
+                                        return const Center(child: CircularProgressIndicator());
+                                    }
+                                    return ValueListenableBuilder<List<dynamic>>(
+                                        valueListenable: searchResults,
+                                        builder: (context, results, child) {
+                                            if (results.isEmpty) {
+                                              return Center(child: Text(AppLocalizations.of(context)?.noResults ?? 'Ingen resultater'));
+                                            }
+                                            return ListView.builder(
+                                                itemCount: results.length,
+                                                itemBuilder: (context, index) {
+                                                    final product = results[index];
+                                                    final productName = product['product_name'] ?? (AppLocalizations.of(context)?.unknownProduct ?? 'Ukjent produkt');
+                                                    final brands = product['brands'] ?? '';
+                                                    final imageUrl = product['image_front_thumb_url'] ?? '';
+
+                                                    return ListTile(
+                                                        leading: imageUrl.isNotEmpty 
+                                                            ? Image.network(imageUrl, width: 50, height: 50, fit: BoxFit.cover, errorBuilder: (c,e,s) => const Icon(Icons.help))
+                                                            : const Icon(Icons.shopping_basket),
+                                                        title: Text(productName),
+                                                        subtitle: Text(brands),
+                                                        onTap: () async {
+                                                        _safePop();
+                                                            final ean = product['code'] as String?;
+                                                            if (ean != null) {
+                                                                setState(() => _isLoading = true);
+                                                                final info = await _hentInfo(ean);
+                                                                setState(() => _isLoading = false);
+                                                                if(info.isNotEmpty) _visProduktDialog(info);
+                                                            }
+                                                        },
+                                                    );
+                                                },
+                                            );
+                                        },
+                                    );
+                                },
+                            )),
+                        ],
+=======
         final searchController = TextEditingController();
         ValueNotifier<List<dynamic>> searchResults = ValueNotifier([]);
         ValueNotifier<bool> isSearching = ValueNotifier(false);
@@ -1008,9 +1196,16 @@ class _ScannerScreenState extends State<ScannerScreen>
                         }
                         isSearching.value = false;
                       },
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
                     ),
                   ),
                 ),
+<<<<<<< HEAD
+                actions: [TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))],
+              );
+            },
+          );
+=======
                 const SizedBox(height: 10),
                 Expanded(
                     child: ValueListenableBuilder<bool>(
@@ -1078,6 +1273,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         );
       },
     );
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
   }
 }
 
@@ -1086,10 +1282,16 @@ Map<String, dynamic> buildProductsIndex(dynamic payload) {
       ? Map<String, dynamic>.from(payload['index'])
       : (payload is Map ? Map<String, dynamic>.from(payload) : {});
 
+<<<<<<< HEAD
+  final Map<String, dynamic> offCache = (payload is Map && payload['off_cache'] is Map)
+      ? Map<String, dynamic>.from(payload['off_cache'])
+      : {};
+=======
   final Map<String, dynamic> offCache =
       (payload is Map && payload['off_cache'] is Map)
           ? Map<String, dynamic>.from(payload['off_cache'])
           : {};
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
 
   final Map<String, dynamic> sourceByGtin = {};
 
@@ -1098,8 +1300,12 @@ Map<String, dynamic> buildProductsIndex(dynamic payload) {
     rawByGtin.forEach((gtin, entry) {
       final product = <String, dynamic>{};
       if (entry is Map) {
+<<<<<<< HEAD
+        product['navn'] = entry['navn'] ?? entry['name'] ?? entry['product_name'] ?? '';
+=======
         product['navn'] =
             entry['navn'] ?? entry['name'] ?? entry['product_name'] ?? '';
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
         product['matvare'] = Map<String, dynamic>.from(entry);
       } else {
         product['navn'] = entry?.toString() ?? '';
@@ -1118,26 +1324,40 @@ Map<String, dynamic> buildProductsIndex(dynamic payload) {
   offCache.forEach((gtin, off) {
     final offMap = (off is Map) ? off : {};
     final offName = offMap['product_name'] ?? offMap['productName'] ?? '';
+<<<<<<< HEAD
+    final bool hasRich = (offMap['image_front_url'] != null) || (offMap['additives_tags'] != null) || (offMap['ingredients_text'] != null) || (offMap['ingredients_text'] != null);
+=======
     final bool hasRich = (offMap['image_front_url'] != null) ||
         (offMap['additives_tags'] != null) ||
         (offMap['ingredients_text'] != null) ||
         (offMap['ingredients_text'] != null);
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
     final offConfidence = hasRich ? 0.9 : 0.4;
 
     final key = gtin.toString();
     final existing = sourceByGtin[key];
     if (existing == null) {
       sourceByGtin[key] = {
+<<<<<<< HEAD
+        'product': {'navn': offName, 'openfoodfacts': Map<String, dynamic>.from(offMap)},
+=======
         'product': {
           'navn': offName,
           'openfoodfacts': Map<String, dynamic>.from(offMap)
         },
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
         'best_confidence': offConfidence,
         'sources': [
           {'source': 'openfoodfacts', 'confidence': offConfidence}
         ]
       };
     } else {
+<<<<<<< HEAD
+      final existingConf = (existing['best_confidence'] as num?)?.toDouble() ?? 0.0;
+      if (offConfidence > existingConf) {
+        existing['product'] = {
+          'navn': (offName ?? '') == '' ? (existing['product']?['navn'] ?? '') : offName,
+=======
       final existingConf =
           (existing['best_confidence'] as num?)?.toDouble() ?? 0.0;
       if (offConfidence > existingConf) {
@@ -1145,18 +1365,29 @@ Map<String, dynamic> buildProductsIndex(dynamic payload) {
           'navn': (offName ?? '') == ''
               ? (existing['product']?['navn'] ?? '')
               : offName,
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
           'openfoodfacts': Map<String, dynamic>.from(offMap),
           'matvare': existing['product']?['matvare']
         };
         existing['best_confidence'] = offConfidence;
+<<<<<<< HEAD
+        (existing['sources'] as List).insert(0, {'source': 'openfoodfacts', 'confidence': offConfidence});
+      } else {
+        (existing['sources'] as List).add({'source': 'openfoodfacts', 'confidence': offConfidence});
+=======
         (existing['sources'] as List).insert(
             0, {'source': 'openfoodfacts', 'confidence': offConfidence});
       } else {
         (existing['sources'] as List)
             .add({'source': 'openfoodfacts', 'confidence': offConfidence});
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
       }
     }
   });
 
   return {'byGtin': sourceByGtin};
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1fd8547f7f4a75b9aeb940f067391e11eaa43643
