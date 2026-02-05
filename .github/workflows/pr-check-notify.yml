@@ -19,7 +19,7 @@ jobs:
             const run = github.context.payload.workflow_run;
             const prs = run.pull_requests || [];
             if (!prs.length) {
-              core.info('No PRs associated with this run.');
+              console.log('No PRs associated with this run.');
               return;
             }
             const conclusion = run.conclusion || run.status;
