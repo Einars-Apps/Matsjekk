@@ -1,0 +1,40 @@
+name: CI Debug
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Print environment
+        run: |
+          echo "RUNNING CI DEBUG"
+          date
+          uname -a || ver
+          echo "Python:"
+          python --version || true
+          echo "Node:"
+          node --version || true
+          echo "GH CLI:"
+          gh --version || true
+          echo "Git branch:"
+          git rev-parse --abbrev-ref HEAD || true
+          echo "Files:"
+          ls -la
+          echo "CI workflow file head:"
+          sed -n '1,200p' .github/workflows/ci.yml || true
+
+      - name: Save debug log
+        run: |
+          mkdir -p debug-output
+          { date; echo "ENV"; uname -a || true; python --version || true; gh --version || true; git rev-parse --abbrev-ref HEAD || true; ls -la; sed -n '1,200p' .github/workflows/ci.yml || true; } > debug-output/ci-debug.txt 2>&1
+
+      - name: Upload debug artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ci-debug-log
+          path: debug-output/ci-debug.txt
