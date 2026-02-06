@@ -1,0 +1,16 @@
+﻿Test farmshop submission (automated)
+
+Please use the YAML block below as the structured submission example.
+
+```yaml
+name: Test Farm Shop
+country: Norway
+region: Oslo
+municipality: Oslo
+address: Testveien 1
+lat: 59.9139
+lon: 10.7522
+website: https://example.com
+contact: test@example.com
+notes: Automated test submission
+```

@@ -3,15 +3,15 @@ import 'package:mat_sjekk/rules/rule_engine.dart';
 
 void main() {
   test('preferred source selection and threshold', () {
-    const rules = [
-      RuleTrigger(
-          id: 'bovaer',
-          description: 'bovaer',
-          minConfidence: 0.7,
-          preferredSources: ['Matvaretabellen'],
-          enabled: true),
-    ];
-    final engine = RuleEngine(rules: rules);
+  const rules = [
+    RuleTrigger(
+      id: 'bovaer',
+      description: 'bovaer',
+      minConfidence: 0.7,
+      preferredSources: ['Matvaretabellen'],
+      enabled: true),
+  ];
+  final engine = RuleEngine(rules: rules);
     final product = {
       'merke': 'Tine AS',
       'sources': [
@@ -43,6 +43,6 @@ void main() {
     };
     final results = engine.evaluate(product);
     expect(results.any((r) => r.ruleId == 'insect_meal' && r.confidence >= 0.6),
-        isTrue);
+      isTrue);
   });
 }

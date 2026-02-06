@@ -464,7 +464,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         return Colors.grey;
     }
   }
+
 }
+
 
 class HandlelisteOverlay extends StatefulWidget {
   final String listeNavn;

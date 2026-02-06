@@ -1,0 +1,9 @@
+﻿Adds Gårdsbutikker page, seed data, fetcher, and IssuePR submission workflow.
+
+Includes:
+- docs/gardsbutikker.html
+- docs/js/gardsbutikker.js
+- docs/data/farmshops.example.json
+- tools/fetch_farmshops.py
+- tools/append_issue_to_data.py
+- .github/workflows/issue-to-pr.yml
