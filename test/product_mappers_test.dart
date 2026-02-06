@@ -17,7 +17,7 @@ void main() {
     // returns keys in Norwegian like 'melk' and 'peanøtt' and 'soya'
     expect(allergens.contains('melk') || allergens.contains('milk'), isTrue);
     expect(
-        allergens.contains('peanøtt') || allergens.contains('peanut'), isTrue);
+      allergens.contains('peanøtt') || allergens.contains('peanut'), isTrue);
     expect(allergens.contains('soya') || allergens.contains('soy'), isTrue);
   });
 
@@ -54,7 +54,7 @@ void main() {
     expect(p.brand, equals('TestBrand'));
     expect(p.eNumbers.any((e) => e.toUpperCase().contains('E100')), isTrue);
     expect(
-        p.allergens.contains('milk') || p.allergens.contains('melk'), isTrue);
+      p.allergens.contains('milk') || p.allergens.contains('melk'), isTrue);
     expect(p.nutrition['energy_kcal'], equals(50.0));
     expect(p.imageUrl, contains('example.com'));
   });

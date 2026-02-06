@@ -14,21 +14,21 @@ void main() {
       'allergener': ['milk'],
       'næringsinnhold': {'energy_kcal': 200},
       'alerts': [
-        {
-          'ruleId': 'bovaer',
-          'severity': 'red',
-          'reason': 'Merke i rød-liste',
-          'confidence': 0.9,
-          'evidence': [
-            {'brand': 'tine'}
-          ]
-        }
-      ]
-    };
+          {
+            'ruleId': 'bovaer',
+            'severity': 'red',
+            'reason': 'Merke i rød-liste',
+            'confidence': 0.9,
+            'evidence': [
+              {'brand': 'tine'}
+            ]
+          }
+        ]
+      };
 
-    await tester.pumpWidget(MaterialApp(
-        home: Scaffold(
-            body: ProductInfoDialogContent(info: info, onAddItem: (_) {}))));
+      await tester.pumpWidget(MaterialApp(
+          home: Scaffold(
+              body: ProductInfoDialogContent(info: info, onAddItem: (_) {}))));
     await tester.pumpAndSettle();
 
     // Expect Alerts header
