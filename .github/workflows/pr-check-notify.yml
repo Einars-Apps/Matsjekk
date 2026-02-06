@@ -35,59 +35,27 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const run = github.context.payload.workflow_run;
-            const prs = run.pull_requests || [];
-            if (!prs.length) {
-              console.log('No PRs associated with this run.');
-              return;
-            }
-            const conclusion = run.conclusion || run.status;
-            const name = run.name || run.workflow_id || 'workflow';
-            const url = run.html_url || run.url;
-            const body = `Workflow **${name}** finished with **${conclusion}**. [Details](${url})`;
-            for (const pr of prs) {
-              const num = pr.number;
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: num,
-                body,
-              });
-            }
-name: PR Check Notifier
+            name: PR Check Notifier (diagnose)
 
-on:
-  workflow_run:
+            on:
+              workflow_run:
+                types: [completed]
+
+            permissions:
+              issues: write
+
+            jobs:
+              diag:
+                runs-on: ubuntu-latest
+                steps:
+                  - name: Dump event payload
+                    uses: actions/github-script@v7
+                    with:
+                      github-token: ${{ secrets.GITHUB_TOKEN }}
+                      script: |
+                        try {
+                          console.log('event:', JSON.stringify(github.context.payload, null, 2));
+                        } catch (e) {
+                          console.log('script error:', e);
+                        }
     types: [completed]
-
-permissions:
-  issues: write
-
-jobs:
-  notify_pr:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Notify pull requests about workflow run
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const run = github.context.payload.workflow_run;
-            const prs = run.pull_requests || [];
-            if (!prs.length) {
-              console.log('No PRs associated with this run.');
-              return;
-            }
-            const conclusion = run.conclusion || run.status;
-            const name = run.name || run.workflow_id || 'workflow';
-            const url = run.html_url || run.url;
-            const body = `Workflow **${name}** finished with **${conclusion}**. [Details](${url})`;
-            for (const pr of prs) {
-              const num = pr.number;
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: num,
-                body,
-              });
-            }
