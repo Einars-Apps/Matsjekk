@@ -1,23 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:mat_sjekk/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // localization imports removed for tests
 import 'package:hive/hive.dart';
-// 'hive_test' removed (unused import) — keep Hive imports portable for CI
-
-import 'package:mat_sjekk/widgets.dart';
 import 'test_helpers.dart';
 
 // Ignore lint suggestions that are noisy for widget tests.
-// Tests commonly use `print`, runtime-built strings and casts; the CI
-// analyzer treats even 'info' level issues as failures. Silence those
-// here so tests remain focused and CI passes.
 // ignore_for_file: prefer_const_constructors, avoid_print, prefer_interpolation_to_compose_strings, unnecessary_cast
 
 void main() {
-  // Use per-test setUp/tearDown to avoid cross-test interference and
-  // platform-specific finalizer races on Windows.
-
   setUp(() async {
     await setUpHiveForTest();
   });
@@ -26,14 +18,12 @@ void main() {
     await tearDownHiveForTest();
   });
 
-          testWidgets('Alert -> Report persists feedback in Hive',
-            (WidgetTester tester) async {
-    // entering widget test
+  testWidgets('Alert -> Report persists feedback in Hive',
+      (WidgetTester tester) async {
     print('TEST: start');
-    // Ensure the test box is open (defensive against leaked/early tearDown)
     var box = Hive.isBoxOpen('alerts_feedback')
-      ? Hive.box('alerts_feedback')
-      : await Hive.openBox('alerts_feedback');
+        ? Hive.box('alerts_feedback')
+        : await Hive.openBox('alerts_feedback');
     try {
       // initialize the feedback list
       box.put('feedback_list', <dynamic>[]);
@@ -57,12 +47,12 @@ void main() {
 
     // Avoid localization delegates in tests to prevent asset loading hangs.
     try {
-      await tester.pumpWidget(
+        await tester.pumpWidget(
         MaterialApp(
-            home: Scaffold(
-                body: ProductInfoDialogContent(
-                    info: sampleInfo, onAddItem: (_) {}))),
-      );
+          home: Scaffold(
+            body: ProductInfoDialogContent(
+              info: sampleInfo, onAddItem: (_) {}))),
+        );
       // pumpWidget returned
     } catch (e) {
       rethrow;
@@ -72,7 +62,6 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 200));
     print('TEST: widget pumped');
-
     // The alert chip or label should be visible; open its details by tapping the alert chip (reason text)
     expect(find.text('Alerts'), findsOneWidget);
     print('TEST: Alerts found');
@@ -90,9 +79,7 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 200));
     print('TEST: tapped report');
-
     // A report dialog with a Send button should appear. Fill the optional note.
-
     // Enter a note if a TextField exists
     final textFieldFinder = find.byType(TextField);
     if (textFieldFinder.evaluate().isNotEmpty) {
@@ -128,11 +115,9 @@ void main() {
     expect(entry['product'], anyOf('Test Produkt', 'Test Produkt'));
     expect(entry['ruleId'], 'bovaer_test');
     // Ensure UI and Hive are cleaned up to avoid platform finalizer races
-        // avoid pumpAndSettle; do a short pump then finish early to avoid
-        // CI-specific hangs during widget unmount on some runners.
-        await tester.pump(const Duration(milliseconds: 50));
-        print('TEST: finishing pumps (quick exit)');
-        // End the test here; rely on robust `tearDown` to cleanup resources.
-        return;
+    await tester.pump(const Duration(milliseconds: 50));
+    print('TEST: finishing pumps (quick exit)');
+    // End the test here; rely on robust `tearDown` to cleanup resources.
+    return;
   }, timeout: const Timeout(Duration(seconds: 300)));
 }

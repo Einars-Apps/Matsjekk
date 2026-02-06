@@ -1,0 +1,31 @@
+Title: Gårdsbutikker: farmshop directory + submissions
+
+Body:
+Adds a Gårdsbutikker (farm shops) directory to the Pages site and the
+infrastructure to collect moderated submissions via GitHub issues.
+
+What this includes:
+- `docs/gardsbutikker.html` and supporting JS for map/search/routing (client-side)
+- `docs/data/farmshops.example.json` (seed data)
+- `tools/fetch_farmshops.py` (Overpass fetcher) and scheduled workflow
+- `tools/append_issue_to_data.py` parser + `tools/tests/test_append_issue_to_data.py`
+- CI: `.github/workflows/python-ci.yml` (pytest for tools)
+- Scheduled update: `.github/workflows/fetch_farmshops.yml` (creates PR with updated data)
+
+Notes for reviewer:
+- This branch was cleaned to move large artifacts to Git LFS.
+- Tests for the parser live under `tools/tests` and pass locally.
+- CI will run `pytest` for the `tools` directory; PyYAML is not required for local tests
+  (the parser falls back to a simple YAML-ish loader) but the workflow installs
+  PyYAML for full parsing on GitHub Actions.
+
+How to review:
+1. Inspect `docs/` pages and `docs/js/gardsbutikker.js` for client behavior.
+2. Check `tools/append_issue_to_data.py` and `tools/tests/test_append_issue_to_data.py`.
+3. Confirm `.github/workflows/fetch_farmshops.yml` schedule and PR behavior.
+
+Suggested reviewers: @REPLACE_WITH_REVIEWER_USERNAMES
+Suggested labels: data-submission, create-data-pr
+
+Please paste this into the compare page and create the PR. Replace reviewer
+placeholders as needed.
