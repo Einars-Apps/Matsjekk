@@ -31,13 +31,12 @@ class _ConsentDialogState extends State<ConsentDialog> {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text(AppLocalizations.of(context)?.privacy ?? 'Personvern'),
+      title: const Text('Personvern'),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(AppLocalizations.of(context)?.privacyText ??
-              'We use anonymous analytics to improve the app. You can opt in or out.'),
+          const Text('Vi bruker anonymisert analyse for å forbedre appen. Du kan velge å slå dette på eller av.'),
           const SizedBox(height: 12),
           Row(children: [
             const Text('Samtykke til anonym analyse'),
@@ -46,6 +45,7 @@ class _ConsentDialogState extends State<ConsentDialog> {
           ])
         ],
       ),
+      // Build actions and interactive switch outside of const children
       actions: [
         TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Avbryt')),
         ElevatedButton(onPressed: () => _save(_optIn), child: const Text('Lagre'))
