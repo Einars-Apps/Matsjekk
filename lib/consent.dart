@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'gen_l10n/app_localizations.dart';
 
 class ConsentDialog extends StatefulWidget {
   const ConsentDialog({super.key});

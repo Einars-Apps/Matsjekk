@@ -697,7 +697,7 @@ class _ScannerScreenState extends State<ScannerScreen>
             title: const Text('Personvern'),
             onTap: () {
               _safePop();
-              _safeShowDialogBuilder((_) => ConsentDialog());
+              _safeShowDialogBuilder((_) => const ConsentDialog());
             },
           ),
           ListTile(
