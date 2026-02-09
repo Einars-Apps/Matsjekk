@@ -688,6 +688,14 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
           ),
           ListTile(
+            leading: const Icon(Icons.privacy_tip),
+            title: const Text('Personvern'),
+            onTap: () {
+              _safePop();
+              _safeShowDialogBuilder((_) => const ConsentDialog());
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.help),
             title: Text(AppLocalizations.of(context)?.about ?? 'About'),
             onTap: () {
