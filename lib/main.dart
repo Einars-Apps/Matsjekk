@@ -11,6 +11,7 @@ import 'package:wakelock_plus/wakelock_plus.dart';
 import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
 import 'ui_safe.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['tine', 'arla', 'aptina'];
@@ -642,6 +643,43 @@ class _ScannerScreenState extends State<ScannerScreen>
                       content: Text(
                           AppLocalizations.of(context)?.appDescription ??
                               'The app uses Open Food Facts....'),
+                      actions: [
+                        TextButton(
+                            onPressed: () => _safePop(),
+                            child: const Text('Lukk'))
+                      ]));
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.notification_important),
+            title: const Text('Varsel'),
+            onTap: () {
+              _safePop();
+              _safeShowDialogBuilder((_) => AlertDialog(
+                      title: const Text('Varsel'),
+                      content: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Text('Kilde: Open Food Facts'),
+                          const SizedBox(height: 8),
+                          const Text('Varsel: intern liste for merkevare-koblinger'),
+                          const SizedBox(height: 12),
+                          ElevatedButton.icon(
+                            onPressed: () async {
+                              final uri = Uri.parse('https://matsjekk.com');
+                              if (await canLaunchUrl(uri)) {
+                                await launchUrl(uri, mode: LaunchMode.externalApplication);
+                              } else {
+                                  if (!mounted) return;
+                                  safeSnack(context, 'Kunne ikke åpne lenken');
+                              }
+                            },
+                            icon: const Icon(Icons.open_in_new),
+                            label: const Text('Finn gårdsbutikk'),
+                          )
+                        ],
+                      ),
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
