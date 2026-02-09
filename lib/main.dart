@@ -13,6 +13,7 @@ import 'data/risk_brands_by_country.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
+import 'analytics.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['tine', 'arla', 'aptina'];
@@ -367,6 +368,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     _hentInfo(ean).then((info) {
       if (info.isNotEmpty) {
         _visProduktDialog(info);
+        Analytics.logEvent('scan', {'ean': ean, 'name': info['navn']});
         final histKey = 'historikk_$activeList';
         final historikk =
             List<Map>.from(historikkBox.get(histKey, defaultValue: <Map>[]));
@@ -490,6 +492,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 box.put(listToAddTo, list);
                 _safeSnack('"$itemName" lagt til i $listToAddTo',
                     duration: const Duration(seconds: 2));
+                Analytics.logEvent('add_to_list',
+                    {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
@@ -992,6 +996,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                         if (!list.any((item) => item.endsWith(itemName))) {
                           list.insert(0, itemName);
                           box.put(listBeforeGlobalHistory, list);
+                          Analytics.logEvent('add_to_list',
+                              {'item': itemName, 'list': listBeforeGlobalHistory});
                         }
                       },
                     )
