@@ -12,6 +12,7 @@ import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'consent.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['tine', 'arla', 'aptina'];
