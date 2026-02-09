@@ -51,9 +51,11 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       if (await canLaunchUrl(uri)) {
         await launchUrl(uri, mode: LaunchMode.externalApplication);
       } else {
+        if (!mounted) return;
         safeSnack(context, 'Kunne ikke åpne lenken');
       }
     } catch (e) {
+      if (!mounted) return;
       safeSnack(context, 'Kunne ikke åpne lenken: $e');
     }
   }

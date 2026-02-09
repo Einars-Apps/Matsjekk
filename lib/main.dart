@@ -671,7 +671,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                               if (await canLaunchUrl(uri)) {
                                 await launchUrl(uri, mode: LaunchMode.externalApplication);
                               } else {
-                                safeSnack(context, 'Kunne ikke åpne lenken');
+                                  if (!mounted) return;
+                                  safeSnack(context, 'Kunne ikke åpne lenken');
                               }
                             },
                             icon: const Icon(Icons.open_in_new),
