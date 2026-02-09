@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 // Enum for risikonivå
 enum RiskLevel { green, yellow, red, unknown }
@@ -42,6 +43,21 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     setState(() {
       _reporting[i] = false;
     });
+  }
+
+  Future<void> _openUrl(String url) async {
+    try {
+      final uri = Uri.parse(url);
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } else {
+        if (!mounted) return;
+        safeSnack(context, 'Kunne ikke åpne lenken');
+      }
+    } catch (e) {
+      if (!mounted) return;
+      safeSnack(context, 'Kunne ikke åpne lenken: $e');
+    }
   }
 
   @override
@@ -254,6 +270,20 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                             ...((a['evidence'] as List)
                                                 .map((e) => Text(e.toString()))
                                                 .toList())
+                                          ],
+                                          // Add source and internal list info for red/yellow alerts
+                                          if (sev == 'red' || sev == 'yellow') ...[
+                                            const SizedBox(height: 8),
+                                            const Text('Kilde: Open Food Facts', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            const SizedBox(height: 4),
+                                            const Text('Varsel: intern liste for merkevare-koblinger', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            const SizedBox(height: 8),
+                                            ElevatedButton.icon(
+                                              onPressed: () => _openUrl('https://matsjekk.com'),
+                                              icon: const Icon(Icons.open_in_new),
+                                              label: const Text('Finn gårdsbutikk'),
+                                              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                                            ),
                                           ],
                                           const SizedBox(height: 8),
                                           if (_reporting[i] == true) ...[
@@ -676,6 +706,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               varer.insert(newIndex, item);
                               box.put(widget.listeNavn, varer);
                             },
+                            padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewPadding.bottom + 120),
                             children: varer.asMap().entries.map((entry) {
                               final index = entry.key;
                               final vare = entry.value;
