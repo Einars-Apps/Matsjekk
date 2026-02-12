@@ -1,4 +1,4 @@
-name: Update farmshops data
+﻿name: Update farmshops data
 
 on:
   schedule:
