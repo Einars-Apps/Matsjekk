@@ -1,0 +1,5 @@
+﻿=== mat_sjekk log capture ===
+Started: 2026-02-11T17:08:13.8584599+01:00
+Package: com.example.mat_sjekk
+ErrorsOnly: True
+

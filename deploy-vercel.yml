@@ -1,0 +1,30 @@
+name: Deploy analytics-proxy to Vercel
+
+on:
+  push:
+    paths:
+      - 'analytics-proxy/**'
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Deploy analytics-proxy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          cd analytics-proxy
+          # Use Vercel CLI to deploy. Provide --prod to deploy to production.
+          vercel --token "$VERCEL_TOKEN" --prod --confirm
