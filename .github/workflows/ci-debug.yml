@@ -1,4 +1,4 @@
-name: CI Debug
+﻿name: CI Debug
 
 on:
   push:
