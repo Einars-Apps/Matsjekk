@@ -11,6 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Ensure Git LFS available
+        run: |
+          git lfs install --local || true
+          git lfs pull || true
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
