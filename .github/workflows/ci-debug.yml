@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Ensure Git LFS available
+        run: |
+          git lfs install --local || true
+          git lfs pull || true
 
       - name: Print environment
         run: |
