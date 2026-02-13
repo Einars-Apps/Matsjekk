@@ -1,4 +1,4 @@
-name: Flutter CI
+﻿name: Flutter CI
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
