@@ -2,8 +2,8 @@
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -11,19 +11,22 @@ jobs:
     permissions:
       pages: write
       contents: read
-
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Upload docs folder as Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./docs
 
-  
   deploy-pages:
     needs: deploy
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      contents: read
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
