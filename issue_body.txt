@@ -1,0 +1,21 @@
+Hei  jeg har omskrevet Git-historikken for å fjerne store run-logg-artefakter og force-pushet de rene referansene.
+
+Backup-branches opprettet (sjekk disse hvis du trenger tilgang til gamle objekter):
+- backup-before-rewrite-20260213-120000
+- backup-before-rewrite-20260213-195609
+- backup-before-rewrite-main-20260213195919
+
+Hva du må gjøre (sikkert):
+1) Klon repo på nytt:
+
+   git clone https://github.com/Einars-Apps/Matsjekk.git
+
+Alternativ (avansert, kan overskrive lokale endringer):
+
+   git fetch origin --prune
+   git checkout main
+   git reset --hard origin/main
+
+Advarsel: Jeg brukte force-push på remote; lokale kloner som inneholder commits fra gammel historie kan få konflikter eller miste commits hvis du ikke tar forholdsregler. Kontakt meg hvis du trenger hjelp med å redde lokal arbeid.
+
+Takk  gi beskjed her i issuet hvis noe går galt eller du trenger hjelp.

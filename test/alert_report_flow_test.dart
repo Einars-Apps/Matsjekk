@@ -4,7 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 // localization imports removed for tests
 import 'package:hive/hive.dart';
-import 'test_helpers.dart';
+import 'helpers.dart';
 
 // Ignore lint suggestions that are noisy for widget tests.
 // ignore_for_file: prefer_const_constructors, avoid_print, prefer_interpolation_to_compose_strings, unnecessary_cast
