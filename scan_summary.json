@@ -1,0 +1,78 @@
+{
+  "21982326635": {
+    "downloaded": true,
+    "file": "run-21982326635-logs.zip",
+    "findings": [
+      {
+        "file": "1_deploy.txt",
+        "pattern": "deprecated",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444427Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "1_deploy.txt",
+        "pattern": "ERROR",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444427Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "1_deploy.txt",
+        "pattern": "error",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444427Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "1_deploy.txt",
+        "pattern": "failed",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444427Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "1_deploy.txt",
+        "pattern": "FAIL",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444427Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "deploy/1_Set up job.txt",
+        "pattern": "deprecated",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444361Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "deploy/1_Set up job.txt",
+        "pattern": "ERROR",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444361Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "deploy/1_Set up job.txt",
+        "pattern": "error",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444361Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "deploy/1_Set up job.txt",
+        "pattern": "failed",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444361Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      },
+      {
+        "file": "deploy/1_Set up job.txt",
+        "pattern": "FAIL",
+        "lineno": 33,
+        "line": "2026-02-13T09:50:05.9444361Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/"
+      }
+    ]
+  },
+  "21982326305": {
+    "downloaded": false,
+    "file": null,
+    "findings": []
+  },
+  "21982223439": {
+    "downloaded": false,
+    "file": null,
+    "findings": []
+  }
+}

@@ -1,0 +1,45 @@
+name: Build Analytics Proxy
+
+on:
+  push:
+    paths:
+      - 'analytics-proxy/**'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build image tar
+        run: |
+          docker buildx create --use || true
+          docker buildx build --platform linux/amd64 -t matsjekk-analytics-proxy:latest --output type=tar,dest=image.tar analytics-proxy/
+
+      - name: Upload built image artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: matsjekk-analytics-proxy-image
+          path: image.tar
+
+      - name: Login to GHCR
+        if: ${{ secrets.GHCR_PAT != '' }}
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_PAT }}
+
+      - name: Push image to GHCR
+        if: ${{ secrets.GHCR_PAT != '' }}
+        run: |
+          docker buildx create --use || true
+          docker buildx build --platform linux/amd64 --push -t ghcr.io/${{ github.repository_owner }}/matsjekk-analytics-proxy:latest analytics-proxy/
