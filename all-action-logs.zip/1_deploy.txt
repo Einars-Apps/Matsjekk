@@ -1,0 +1,33 @@
+﻿2026-02-12T20:51:12.7048945Z Current runner version: '2.331.0'
+2026-02-12T20:51:12.7080667Z ##[group]Runner Image Provisioner
+2026-02-12T20:51:12.7081815Z Hosted Compute Agent
+2026-02-12T20:51:12.7082817Z Version: 20260123.484
+2026-02-12T20:51:12.7083639Z Commit: 6bd6555ca37d84114959e1c76d2c01448ff61c5d
+2026-02-12T20:51:12.7084566Z Build Date: 2026-01-23T19:41:17Z
+2026-02-12T20:51:12.7085601Z Worker ID: {e79a0edc-5b12-4f0f-ae13-c23b8f7436d3}
+2026-02-12T20:51:12.7086633Z Azure Region: northcentralus
+2026-02-12T20:51:12.7087498Z ##[endgroup]
+2026-02-12T20:51:12.7089646Z ##[group]Operating System
+2026-02-12T20:51:12.7090490Z Ubuntu
+2026-02-12T20:51:12.7091109Z 24.04.3
+2026-02-12T20:51:12.7091888Z LTS
+2026-02-12T20:51:12.7092716Z ##[endgroup]
+2026-02-12T20:51:12.7093444Z ##[group]Runner Image
+2026-02-12T20:51:12.7094375Z Image: ubuntu-24.04
+2026-02-12T20:51:12.7095119Z Version: 20260209.23.1
+2026-02-12T20:51:12.7096873Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260209.23/images/ubuntu/Ubuntu2404-Readme.md
+2026-02-12T20:51:12.7099062Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260209.23
+2026-02-12T20:51:12.7100393Z ##[endgroup]
+2026-02-12T20:51:12.7101921Z ##[group]GITHUB_TOKEN Permissions
+2026-02-12T20:51:12.7104821Z Contents: read
+2026-02-12T20:51:12.7105648Z Metadata: read
+2026-02-12T20:51:12.7106309Z Pages: write
+2026-02-12T20:51:12.7107020Z ##[endgroup]
+2026-02-12T20:51:12.7110030Z Secret source: Actions
+2026-02-12T20:51:12.7111241Z Prepare workflow directory
+2026-02-12T20:51:12.7473248Z Prepare all required actions
+2026-02-12T20:51:12.7529405Z Getting action download info
+2026-02-12T20:51:13.0849731Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-02-12T20:51:13.2241319Z Download action repository 'actions/upload-pages-artifact@v1' (SHA:84bb4cd4b733d5c320c9c9cfbc354937524f4d64)
+2026-02-12T20:51:13.6397644Z Getting action download info
+2026-02-12T20:51:13.7777938Z ##[error]This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/

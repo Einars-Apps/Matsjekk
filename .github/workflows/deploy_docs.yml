@@ -17,7 +17,7 @@ jobs:
           lfs: true
 
       - name: Upload docs folder as Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs
 

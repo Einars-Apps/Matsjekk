@@ -1,0 +1,144 @@
+=== 0_analyze-and-test (3).txt
+   28: 2026-02-13T10:08:56.1698536Z Prepare all required actions
+   29: 2026-02-13T10:08:56.1754739Z Getting action download info
+   30: 2026-02-13T10:08:56.6459804Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:56.8004921Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:56.8998351Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.1367014Z Complete job name: analyze-and-test (3)
+   34: 2026-02-13T10:08:57.2068493Z ##[group]Run actions/checkout@v4
+   35: 2026-02-13T10:08:57.2069403Z with:
+   36: 2026-02-13T10:08:57.2069820Z   fetch-depth: 0
+
+  485: 2026-02-13T10:10:31.1103214Z [36;1mdone[0m
+  486: 2026-02-13T10:10:31.1172639Z shell: /usr/bin/bash -e {0}
+  487: 2026-02-13T10:10:31.1173031Z ##[endgroup]
+  488: 2026-02-13T10:10:31.1278535Z No tests for shard 3
+  489: 2026-02-13T10:10:31.1324198Z ##[group]Run actions/upload-artifact@v4
+  490: 2026-02-13T10:10:31.1324466Z with:
+  491: 2026-02-13T10:10:31.1324640Z   name: test-output-shard-3
+  492: 2026-02-13T10:10:31.1324882Z   path: test-output-3.log
+  493: test-output-*.log
+
+=== analyze-and-test (3)/1_Set up job.txt
+   28: 2026-02-13T10:08:56.1698500Z Prepare all required actions
+   29: 2026-02-13T10:08:56.1754707Z Getting action download info
+   30: 2026-02-13T10:08:56.6459770Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:56.8004894Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:56.8998317Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.1366953Z Complete job name: analyze-and-test (3)
+
+=== analyze-and-test (3)/13_Upload test log artifact (shard 3).txt
+    1: 2026-02-13T10:10:31.1324190Z ##[group]Run actions/upload-artifact@v4
+    2: 2026-02-13T10:10:31.1324462Z with:
+    3: 2026-02-13T10:10:31.1324638Z   name: test-output-shard-3
+    4: 2026-02-13T10:10:31.1324879Z   path: test-output-3.log
+    5: test-output-*.log
+
+=== 1_analyze-and-test (1).txt
+   28: 2026-02-13T10:08:56.6976382Z Prepare all required actions
+   29: 2026-02-13T10:08:56.7014957Z Getting action download info
+   30: 2026-02-13T10:08:57.1000053Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.2305628Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.3335258Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5806311Z Complete job name: analyze-and-test (1)
+   34: 2026-02-13T10:08:57.6559613Z ##[group]Run actions/checkout@v4
+   35: 2026-02-13T10:08:57.6560538Z with:
+   36: 2026-02-13T10:08:57.6560964Z   fetch-depth: 0
+
+  486: 2026-02-13T10:10:38.5608372Z [36;1mdone[0m
+  487: 2026-02-13T10:10:38.5678943Z shell: /usr/bin/bash -e {0}
+  488: 2026-02-13T10:10:38.5679366Z ##[endgroup]
+  489: 2026-02-13T10:10:38.5786098Z No tests for shard 1
+  490: 2026-02-13T10:10:38.5831895Z ##[group]Run actions/upload-artifact@v4
+  491: 2026-02-13T10:10:38.5832176Z with:
+  492: 2026-02-13T10:10:38.5832616Z   name: test-output-shard-1
+  493: 2026-02-13T10:10:38.5832884Z   path: test-output-1.log
+  494: test-output-*.log
+
+=== analyze-and-test (1)/1_Set up job.txt
+   28: 2026-02-13T10:08:56.6976346Z Prepare all required actions
+   29: 2026-02-13T10:08:56.7014924Z Getting action download info
+   30: 2026-02-13T10:08:57.1000007Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.2305591Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.3335198Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5806218Z Complete job name: analyze-and-test (1)
+
+=== analyze-and-test (1)/13_Upload test log artifact (shard 1).txt
+    1: 2026-02-13T10:10:38.5831887Z ##[group]Run actions/upload-artifact@v4
+    2: 2026-02-13T10:10:38.5832173Z with:
+    3: 2026-02-13T10:10:38.5832612Z   name: test-output-shard-1
+    4: 2026-02-13T10:10:38.5832880Z   path: test-output-1.log
+    5: test-output-*.log
+
+=== 2_analyze-and-test (0).txt
+   28: 2026-02-13T10:08:56.5637438Z Prepare all required actions
+   29: 2026-02-13T10:08:56.5693272Z Getting action download info
+   30: 2026-02-13T10:08:57.0356557Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.1876468Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.2927589Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5239505Z Complete job name: analyze-and-test (0)
+   34: 2026-02-13T10:08:57.5902510Z ##[group]Run actions/checkout@v4
+   35: 2026-02-13T10:08:57.5903313Z with:
+   36: 2026-02-13T10:08:57.5903683Z   fetch-depth: 0
+
+  484: 2026-02-13T10:10:37.3890642Z [36;1mdone[0m
+  485: 2026-02-13T10:10:37.3938241Z shell: /usr/bin/bash -e {0}
+  486: 2026-02-13T10:10:37.3938483Z ##[endgroup]
+  487: 2026-02-13T10:10:37.4032632Z No tests for shard 0
+  488: 2026-02-13T10:10:37.4078305Z ##[group]Run actions/upload-artifact@v4
+  489: 2026-02-13T10:10:37.4078578Z with:
+  490: 2026-02-13T10:10:37.4078840Z   name: test-output-shard-0
+  491: 2026-02-13T10:10:37.4079109Z   path: test-output-0.log
+  492: test-output-*.log
+
+=== analyze-and-test (0)/1_Set up job.txt
+   28: 2026-02-13T10:08:56.5637407Z Prepare all required actions
+   29: 2026-02-13T10:08:56.5693242Z Getting action download info
+   30: 2026-02-13T10:08:57.0356518Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.1876434Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.2927561Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5239455Z Complete job name: analyze-and-test (0)
+
+=== analyze-and-test (0)/13_Upload test log artifact (shard 0).txt
+    1: 2026-02-13T10:10:37.4078297Z ##[group]Run actions/upload-artifact@v4
+    2: 2026-02-13T10:10:37.4078575Z with:
+    3: 2026-02-13T10:10:37.4078836Z   name: test-output-shard-0
+    4: 2026-02-13T10:10:37.4079105Z   path: test-output-0.log
+    5: test-output-*.log
+
+=== 3_analyze-and-test (2).txt
+   28: 2026-02-13T10:08:56.4198693Z Prepare all required actions
+   29: 2026-02-13T10:08:56.4237120Z Getting action download info
+   30: 2026-02-13T10:08:57.0185076Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.1769160Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.2784455Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5110464Z Complete job name: analyze-and-test (2)
+   34: 2026-02-13T10:08:57.5772045Z ##[group]Run actions/checkout@v4
+   35: 2026-02-13T10:08:57.5772881Z with:
+   36: 2026-02-13T10:08:57.5773235Z   fetch-depth: 0
+
+  483: 2026-02-13T10:10:42.4070156Z [36;1mdone[0m
+  484: 2026-02-13T10:10:42.4117831Z shell: /usr/bin/bash -e {0}
+  485: 2026-02-13T10:10:42.4118073Z ##[endgroup]
+  486: 2026-02-13T10:10:42.4212483Z No tests for shard 2
+  487: 2026-02-13T10:10:42.4258782Z ##[group]Run actions/upload-artifact@v4
+  488: 2026-02-13T10:10:42.4259078Z with:
+  489: 2026-02-13T10:10:42.4259276Z   name: test-output-shard-2
+  490: 2026-02-13T10:10:42.4259528Z   path: test-output-2.log
+  491: test-output-*.log
+
+=== analyze-and-test (2)/1_Set up job.txt
+   28: 2026-02-13T10:08:56.4198669Z Prepare all required actions
+   29: 2026-02-13T10:08:56.4237095Z Getting action download info
+   30: 2026-02-13T10:08:57.0185046Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+   31: 2026-02-13T10:08:57.1769134Z Download action repository 'actions/cache@v4' (SHA:0057852bfaa89a56745cba8c7296529d2fc39830)
+   32: 2026-02-13T10:08:57.2784411Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+   33: 2026-02-13T10:08:57.5110435Z Complete job name: analyze-and-test (2)
+
+=== analyze-and-test (2)/13_Upload test log artifact (shard 2).txt
+    1: 2026-02-13T10:10:42.4258770Z ##[group]Run actions/upload-artifact@v4
+    2: 2026-02-13T10:10:42.4259076Z with:
+    3: 2026-02-13T10:10:42.4259273Z   name: test-output-shard-2
+    4: 2026-02-13T10:10:42.4259525Z   path: test-output-2.log
+    5: test-output-*.log
+

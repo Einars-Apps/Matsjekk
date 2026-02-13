@@ -1,0 +1,93 @@
+name: Smoke Test Analytics Proxy
+
+on:
+  workflow_dispatch:
+    inputs:
+      proxy_url:
+        description: 'Proxy URL to test (optional; falls back to secret PROXY_URL)'
+        required: false
+      proxy_key:
+        description: 'Optional proxy key to include as x-proxy-key (optional; falls back to secret PROXY_KEY)'
+        required: false
+  schedule:
+    # Daily at 06:00 UTC
+    - cron: '0 6 * * *'
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run smoke test against proxy
+        id: smoke
+        continue-on-error: true
+        env:
+          INPUT_PROXY_URL: ${{ github.event.inputs.proxy_url }}
+          INPUT_PROXY_KEY: ${{ github.event.inputs.proxy_key }}
+          SECRET_PROXY_URL: ${{ secrets.PROXY_URL }}
+          SECRET_PROXY_KEY: ${{ secrets.PROXY_KEY }}
+        run: |
+          set -euo pipefail
+          PROXY_URL="$INPUT_PROXY_URL"
+          if [ -z "$PROXY_URL" ]; then
+            PROXY_URL="$SECRET_PROXY_URL"
+          fi
+          if [ -z "$PROXY_URL" ]; then
+            echo "No proxy URL provided. Set workflow input 'proxy_url' or repository secret 'PROXY_URL'."
+            exit 1
+          fi
+
+          PROXY_KEY="$INPUT_PROXY_KEY"
+          if [ -z "$PROXY_KEY" ]; then
+            PROXY_KEY="$SECRET_PROXY_KEY"
+          fi
+
+          echo "Testing proxy URL: $PROXY_URL"
+          BODY='{"name":"smoke_test","props":{"ci":"true"},"domain":"example.com"}'
+          if [ -n "$PROXY_KEY" ]; then
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$PROXY_URL" -H "Content-Type: application/json" -H "x-proxy-key: $PROXY_KEY" -d "$BODY")
+          else
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$PROXY_URL" -H "Content-Type: application/json" -d "$BODY")
+          fi
+
+          echo "Proxy responded with HTTP $STATUS"
+          if [ "$STATUS" -ne 200 ]; then
+            echo "Proxy smoke test failed (expected 200)."
+            exit 2
+          fi
+          echo "Proxy smoke test succeeded." 
+      - name: Notify Slack on failure
+        if: ${{ steps.smoke.conclusion == 'failure' }}
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK" ]; then
+            echo "No SLACK_WEBHOOK secret configured; skipping notification.";
+            exit 0;
+          fi
+          MSG="Smoke test failed for $GITHUB_REPOSITORY: $GITHUB_RUN_URL"
+          PAYLOAD=$(printf '{"text":"%s"}' "$MSG")
+          curl -s -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$SLACK_WEBHOOK" || true
+      - name: Notify Teams on failure
+        if: ${{ steps.smoke.conclusion == 'failure' }}
+        env:
+          TEAMS_WEBHOOK: ${{ secrets.TEAMS_WEBHOOK }}
+        run: |
+          if [ -z "$TEAMS_WEBHOOK" ]; then
+            echo "No TEAMS_WEBHOOK secret configured; skipping Teams notification.";
+            exit 0;
+          fi
+          TITLE="Smoke test failed"
+          TEXT="Smoke test failed for $GITHUB_REPOSITORY: $GITHUB_RUN_URL"
+          # Simple Adaptive Card payload for Teams
+          PAYLOAD=$(cat <<EOF
+{
+  "@type": "MessageCard",
+  "@context": "http://schema.org/extensions",
+  "summary": "$TITLE",
+  "themeColor": "FF0000",
+  "title": "$TITLE",
+  "text": "$TEXT"
+}
+EOF
+)
+          curl -s -X POST -H "Content-Type: application/json" -d "$PAYLOAD" "$TEAMS_WEBHOOK" || true
