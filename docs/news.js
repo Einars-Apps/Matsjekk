@@ -1,6 +1,7 @@
 // Client-side news feed stored in localStorage
 const NEWS_KEY = 'matsjekk_news_v1';
 const NEWS_REMOTE_URL = 'data/news.latest.json';
+const NEWS_MAX_ITEMS = 50;
 
 function getNews() {
   try {
@@ -52,8 +53,9 @@ async function renderNews(preferredLang) {
   }
   // Show all articles, newest first
   list.sort((a,b) => new Date(b.pubDate || b.date) - new Date(a.pubDate || a.date));
+  const visible = list.slice(0, NEWS_MAX_ITEMS);
   const targetLang = preferredLang || navigator.language?.substr(0,2) || 'nb';
-  list.forEach(a => {
+  visible.forEach(a => {
     const card = document.createElement('article');
     card.className = 'news-card';
     const title = escapeHtml(a.title);

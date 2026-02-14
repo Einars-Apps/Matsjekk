@@ -38,6 +38,8 @@ TOPIC_KEYWORDS = (
     "feed",
     "fôr",
 )
+PRIMARY_TOPIC = "bovaer"
+MAX_ITEMS = 50
 
 EUROPE_COUNTRIES: dict[str, tuple[str, str]] = {
     "AL": ("sq", "Albania"),
@@ -170,6 +172,11 @@ def _is_relevant(title: str, summary: str) -> bool:
     return any(k in text for k in TOPIC_KEYWORDS)
 
 
+def _is_primary_topic(title: str, summary: str, url: str) -> bool:
+    text = f"{title} {summary} {url}".lower()
+    return PRIMARY_TOPIC in text
+
+
 def fetch_rss(url: str, country: str, language: str) -> list[FeedItem]:
     response = requests.get(url, timeout=25)
     response.raise_for_status()
@@ -245,9 +252,21 @@ def main() -> int:
 
     unique_items = dedupe(collected)
 
+    primary_items = [
+        item
+        for item in unique_items
+        if _is_primary_topic(item.title, item.summary, item.url)
+    ]
+    if primary_items:
+        unique_items = primary_items
+
+    unique_items = sorted(unique_items, key=lambda i: i.pub_date, reverse=True)[:MAX_ITEMS]
+
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "version": 1,
+        "topic": PRIMARY_TOPIC,
+        "maxItems": MAX_ITEMS,
         "total": len(unique_items),
         "errors": errors,
         "items": [item.as_dict() for item in unique_items],
