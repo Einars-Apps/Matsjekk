@@ -14,8 +14,8 @@
   const mapHeightUp=document.getElementById('mapHeightUp');
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
-  let currentMapHeight = isMobile ? 220 : 400;
-  const minMapHeight = 180;
+  let currentMapHeight = isMobile ? 110 : 400;
+  const minMapHeight = 110;
   const maxMapHeight = 600;
   const mapStep = 30;
 
