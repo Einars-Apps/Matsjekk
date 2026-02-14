@@ -5,8 +5,19 @@ import 'package:hive_flutter/hive_flutter.dart';
 /// Currently logs events to debug output when `innstillinger.analytics_opt_in` is true.
 class Analytics {
   static bool get _enabled =>
-      Hive.box('innstillinger').get('analytics_opt_in', defaultValue: false)
-          as bool;
+      // If Hive hasn't been initialized or the box isn't open, treat analytics
+      // as disabled. Accessing `Hive.box` when the box is not open can throw
+      // in tests or early startup, so guard the call.
+      (() {
+        try {
+          if (!Hive.isBoxOpen('innstillinger')) return false;
+          final val = Hive.box('innstillinger')
+              .get('analytics_opt_in', defaultValue: false);
+          return val is bool ? val : false;
+        } catch (_) {
+          return false;
+        }
+      })();
 
   static Future<void> logEvent(String name,
       [Map<String, dynamic>? params]) async {
