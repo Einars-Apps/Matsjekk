@@ -470,6 +470,48 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
   }
 
+  String _farmThemeTitle(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Farm Shops & Local Food';
+      case 'sv':
+        return 'Gårdsbutiker & Lokal Mat';
+      case 'da':
+        return 'Gårdbutikker & Lokal Mad';
+      case 'fi':
+        return 'Tilamyymälät ja Lähiruoka';
+      case 'de':
+        return 'Hofläden & Regionale Lebensmittel';
+      case 'nl':
+        return 'Boerderijwinkels & Lokale Voeding';
+      case 'fr':
+        return 'Fermes-Boutiques & Alimentation Locale';
+      case 'it':
+        return 'Botteghe Agricole e Cibo Locale';
+      case 'pt':
+        return 'Lojas de Quinta e Alimentação Local';
+      case 'es':
+        return 'Tiendas de Granja y Comida Local';
+      case 'nb':
+      default:
+        return 'Gårdsbutikker og lokalmat';
+    }
+  }
+
+  String _farmThemeBody(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Find nearby farm shops, follow regional updates, and see what products people scan most in your area. This feature is beta and improves continuously.';
+      case 'nb':
+      default:
+        return 'Finn gårdsbutikker i nærheten, følg regionale oppdateringer og se hvilke produkter folk scanner mest i ditt område. Denne funksjonen er i beta og forbedres fortløpende.';
+    }
+  }
+
   void _handleBarcode(BarcodeCapture capture) {
     final barcode = capture.barcodes.firstOrNull;
     if (barcode?.rawValue == null || _isLoading) return;
@@ -811,6 +853,31 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
           ),
           ListTile(
+            leading: const Icon(Icons.store_mall_directory),
+            title: Text(_farmThemeTitle(context)),
+            onTap: () {
+              _safePop();
+              _safeShowDialogBuilder(
+                (_) => AlertDialog(
+                  title: Text(_farmThemeTitle(context)),
+                  content: Text(_farmThemeBody(context)),
+                  actions: [
+                    TextButton(
+                        onPressed: () => _safePop(), child: const Text('Lukk')),
+                    ElevatedButton.icon(
+                      onPressed: () {
+                        _safePop();
+                        _openFarmShops();
+                      },
+                      icon: const Icon(Icons.open_in_new),
+                      label: Text(_farmShopsLabel(context)),
+                    )
+                  ],
+                ),
+              );
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.privacy_tip),
             title: const Text('Personvern'),
             onTap: () {
@@ -969,16 +1036,27 @@ class _ScannerScreenState extends State<ScannerScreen>
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         leading: IconButton(icon: const Icon(Icons.menu), onPressed: _visMeny),
-        title: TextButton.icon(
+        title: SizedBox(
+          height: 42,
+          child: ElevatedButton.icon(
           onPressed: _openFarmShops,
-          icon: const Icon(Icons.storefront, color: Colors.white),
+          icon: const Icon(Icons.storefront, size: 20),
           label: Text(
             farmShopsLabel,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: const TextStyle(color: Colors.white),
+            style: const TextStyle(fontWeight: FontWeight.w700),
           ),
-          style: TextButton.styleFrom(foregroundColor: Colors.white),
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.white,
+            foregroundColor: Colors.green.shade900,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
+            elevation: 0,
+          ),
+        ),
         ),
         actions: [
           IconButton(
@@ -1177,6 +1255,19 @@ class _ScannerScreenState extends State<ScannerScreen>
             height: 400,
             child: Column(
               children: [
+                Container(
+                  width: double.infinity,
+                  margin: const EdgeInsets.only(bottom: 8),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.blue.withAlpha((0.08 * 255).round()),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: const Text(
+                    'Beta: Søkefunksjonen er under kontinuerlig forbedring. Dobbeltsjekk alltid produktdetaljer før du tar valg.',
+                    style: TextStyle(fontSize: 12),
+                  ),
+                ),
                 TextField(
                   controller: searchController,
                   autofocus: true,

@@ -154,60 +154,79 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         info['gmoRisk'] as RiskLevel? ?? RiskLevel.unknown),
                     const SizedBox(height: 12),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                                AppLocalizations.of(context)?.nutriScore ??
-                                    'Nutri-Score',
-                                style: const TextStyle(
-                                    fontWeight: FontWeight.bold)),
-                            const SizedBox(height: 4),
-                            Container(
-                              padding: const EdgeInsets.symmetric(
-                                  horizontal: 12, vertical: 6),
-                              decoration: BoxDecoration(
-                                  color: _getNutriScoreColor(nutriscore),
-                                  borderRadius: BorderRadius.circular(8)),
-                              child: Text(nutriscore,
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                  AppLocalizations.of(context)?.nutriScore ??
+                                      'Nutri-Score',
                                   style: const TextStyle(
-                                      color: Colors.white,
                                       fontWeight: FontWeight.bold)),
-                            ),
-                          ],
-                        ),
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                                AppLocalizations.of(context)?.traceability ??
-                                    'Sporbarhet',
-                                style: const TextStyle(
-                                    fontWeight: FontWeight.bold)),
-                            const SizedBox(height: 4),
-                            Container(
-                              padding: const EdgeInsets.all(8),
-                              decoration: BoxDecoration(
-                                  color:
-                                      const Color.fromRGBO(33, 150, 243, 0.1),
-                                  borderRadius: BorderRadius.circular(8)),
-                              child: Row(
-                                children: [
-                                  const Icon(Icons.security,
-                                      color: Colors.blue),
-                                  const SizedBox(width: 8),
-                                  Text(
-                                      AppLocalizations.of(context)?.beta ??
-                                          'Beta',
-                                      style: const TextStyle(
-                                          color: Colors.blue,
-                                          fontWeight: FontWeight.bold)),
-                                ],
+                              const SizedBox(height: 4),
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 12, vertical: 6),
+                                decoration: BoxDecoration(
+                                    color: _getNutriScoreColor(nutriscore),
+                                    borderRadius: BorderRadius.circular(8)),
+                                child: Text(nutriscore,
+                                    style: const TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold)),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                  AppLocalizations.of(context)?.traceability ??
+                                      'Sporbarhet',
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.bold)),
+                              const SizedBox(height: 4),
+                              Container(
+                                padding: const EdgeInsets.all(8),
+                                decoration: BoxDecoration(
+                                    color: const Color.fromRGBO(
+                                        33, 150, 243, 0.1),
+                                    borderRadius: BorderRadius.circular(8)),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        const Icon(Icons.security,
+                                            color: Colors.blue),
+                                        const SizedBox(width: 8),
+                                        Text(
+                                            AppLocalizations.of(context)?.beta ??
+                                                'Beta',
+                                            style: const TextStyle(
+                                                color: Colors.blue,
+                                                fontWeight: FontWeight.bold)),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 4),
+                                    const Text(
+                                      'Viktig: Dette er en beta-funksjon. Verifiser alltid informasjon mot pakning/etikett.',
+                                      style: TextStyle(
+                                        color: Colors.blue,
+                                        fontSize: 11,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ],
                     ),
