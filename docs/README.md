@@ -75,6 +75,24 @@ This folder contains the GitHub Pages website for matsjekk.com.
 - [ ] Update privacy policy and terms (currently placeholder links)
 - [ ] Consider adding Google Analytics or similar
 
+## V2: EU News Automation (Starter)
+
+The project now supports an automated news ingest starter for multiple European countries.
+
+- Feed config: `docs/data/news_feeds.json`
+- Generated output: `docs/data/news.latest.json`
+- Ingest script: `tools/fetch_news.py`
+
+Run manually from repo root:
+
+```powershell
+python tools/fetch_news.py
+```
+
+Suggested automation (daily):
+- GitHub Actions scheduled workflow (`cron`) that runs the script.
+- Commit/publish updated `docs/data/news.latest.json` to Pages.
+
 ## Contact
 
 Email: matsjekk@gmail.com

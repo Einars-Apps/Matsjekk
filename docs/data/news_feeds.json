@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "generated_note": "Feed config for EU-wide automated news ingestion. Add premium media APIs later without changing frontend format.",
+  "countries": {
+    "NO": {
+      "language": "nb",
+      "name": "Norge",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:no&hl=no&gl=NO&ceid=NO:no",
+        "https://www.nrk.no/toppsaker.rss"
+      ]
+    },
+    "SE": {
+      "language": "sv",
+      "name": "Sverige",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l&hl=sv&gl=SE&ceid=SE:sv"
+      ]
+    },
+    "DK": {
+      "language": "da",
+      "name": "Danmark",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel&hl=da&gl=DK&ceid=DK:da"
+      ]
+    },
+    "FI": {
+      "language": "fi",
+      "name": "Finland",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho&hl=fi&gl=FI&ceid=FI:fi"
+      ]
+    },
+    "DE": {
+      "language": "de",
+      "name": "Tyskland",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=DE&ceid=DE:de"
+      ]
+    },
+    "NL": {
+      "language": "nl",
+      "name": "Nederland",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=NL&ceid=NL:nl"
+      ]
+    },
+    "BE": {
+      "language": "nl",
+      "name": "Belgia",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=BE&ceid=BE:nl",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=BE&ceid=BE:fr"
+      ]
+    },
+    "FR": {
+      "language": "fr",
+      "name": "Frankrike",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=FR&ceid=FR:fr"
+      ]
+    },
+    "IT": {
+      "language": "it",
+      "name": "Italia",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farina+di+insetti&hl=it&gl=IT&ceid=IT:it"
+      ]
+    },
+    "PT": {
+      "language": "pt",
+      "name": "Portugal",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farinha+de+inseto&hl=pt-PT&gl=PT&ceid=PT:pt-150"
+      ]
+    },
+    "ES": {
+      "language": "es",
+      "name": "Spania",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+harina+de+insecto&hl=es&gl=ES&ceid=ES:es"
+      ]
+    },
+    "GB": {
+      "language": "en",
+      "name": "Storbritannia",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-GB&gl=GB&ceid=GB:en"
+      ]
+    },
+    "IE": {
+      "language": "en",
+      "name": "Irland",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-IE&gl=IE&ceid=IE:en"
+      ]
+    },
+    "AT": {
+      "language": "de",
+      "name": "Østerrike",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=AT&ceid=AT:de"
+      ]
+    },
+    "CH": {
+      "language": "de",
+      "name": "Sveits",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=CH&ceid=CH:de",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=CH&ceid=CH:fr",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farina+di+insetti&hl=it&gl=CH&ceid=CH:it"
+      ]
+    },
+    "LU": {
+      "language": "fr",
+      "name": "Luxembourg",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=LU&ceid=LU:fr"
+      ]
+    }
+  }
+}

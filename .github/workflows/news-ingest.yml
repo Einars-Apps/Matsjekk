@@ -1,0 +1,36 @@
+name: EU News Ingest
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  ingest-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r tools/requirements.txt
+
+      - name: Fetch latest EU news
+        run: python tools/fetch_news.py
+
+      - name: Commit updated news feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/news.latest.json
+          git diff --cached --quiet || git commit -m "chore(news): update EU news feed"
+
+      - name: Push changes
+        run: git push

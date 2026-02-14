@@ -1,8 +1,18 @@
 // Simple client to load farmshops dataset and display filters, list and map
 (async function(){
-  const dataUrl = 'data/farmshops.example.json';
+  const dataUrl = 'data/farmshops.json';
   let shops = [];
-  try{ const r=await fetch(dataUrl); shops=await r.json(); }catch(e){console.error('Failed to load data',e);}
+  try {
+    const r = await fetch(dataUrl, { cache: 'no-cache' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    shops = await r.json();
+  } catch (e) {
+    console.error('Failed to load data/farmshops.json, falling back to example', e);
+    try {
+      const fallback = await fetch('data/farmshops.example.json', { cache: 'no-cache' });
+      if (fallback.ok) shops = await fallback.json();
+    } catch (_) {}
+  }
 
   const countrySelect=document.getElementById('countrySelect');
   const regionSelect=document.getElementById('regionSelect');
@@ -12,6 +22,7 @@
   const mapEl=document.getElementById('map');
   const mapHeightDown=document.getElementById('mapHeightDown');
   const mapHeightUp=document.getElementById('mapHeightUp');
+  const backBtn=document.getElementById('backBtn');
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   let currentMapHeight = isMobile ? 110 : 400;
@@ -121,6 +132,16 @@
   }
 
   document.getElementById('routeBtn').addEventListener('click',()=>{ const f=document.getElementById('routeFrom').value; const t=document.getElementById('routeTo').value; findAlongRoute(f,t); });
+
+  if (backBtn) {
+    backBtn.addEventListener('click', () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'index.html';
+      }
+    });
+  }
 
   if (mapHeightDown) {
     mapHeightDown.addEventListener('click', () => applyMapHeight(currentMapHeight - mapStep));

@@ -1,5 +1,6 @@
 // Client-side news feed stored in localStorage
 const NEWS_KEY = 'matsjekk_news_v1';
+const NEWS_REMOTE_URL = 'data/news.latest.json';
 
 function getNews() {
   try {
@@ -15,12 +16,38 @@ function saveNews(list) {
   localStorage.setItem(NEWS_KEY, JSON.stringify(list));
 }
 
-function renderNews(preferredLang) {
-  const list = getNews();
+async function fetchRemoteNews() {
+  try {
+    const response = await fetch(NEWS_REMOTE_URL, { cache: 'no-cache' });
+    if (!response.ok) return [];
+    const payload = await response.json();
+    if (payload && Array.isArray(payload.items)) return payload.items;
+    return [];
+  } catch (_) {
+    return [];
+  }
+}
+
+function mergeUniqueByUrl(primary, secondary) {
+  const seen = new Set();
+  const out = [];
+  [...primary, ...secondary].forEach((item) => {
+    const key = (item?.url || '').toLowerCase().trim();
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    out.push(item);
+  });
+  return out;
+}
+
+async function renderNews(preferredLang) {
+  const localNews = getNews();
+  const remoteNews = await fetchRemoteNews();
+  const list = mergeUniqueByUrl(remoteNews, localNews);
   const container = document.getElementById('news-list');
   container.innerHTML = '';
   if (!list || list.length === 0) {
-    container.innerHTML = '<p class="muted">Ingen artikler ennå. Bruk "Legg til artikkel" for å publisere.</p>';
+    container.innerHTML = '<p class="muted">Ingen artikler ennå. Nye artikler lastes inn automatisk når kilder er tilgjengelige.</p>';
     return;
   }
   // Show all articles, newest first
