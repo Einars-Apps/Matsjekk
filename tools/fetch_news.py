@@ -19,6 +19,7 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 import xml.etree.ElementTree as ET
+from urllib.parse import quote_plus
 
 import requests
 
@@ -38,6 +39,88 @@ TOPIC_KEYWORDS = (
     "fôr",
 )
 
+EUROPE_COUNTRIES: dict[str, tuple[str, str]] = {
+    "AL": ("sq", "Albania"),
+    "AD": ("ca", "Andorra"),
+    "AM": ("hy", "Armenia"),
+    "AT": ("de", "Austria"),
+    "AZ": ("az", "Azerbaijan"),
+    "BY": ("ru", "Belarus"),
+    "BE": ("nl", "Belgium"),
+    "BA": ("bs", "Bosnia and Herzegovina"),
+    "BG": ("bg", "Bulgaria"),
+    "HR": ("hr", "Croatia"),
+    "CY": ("el", "Cyprus"),
+    "CZ": ("cs", "Czechia"),
+    "DK": ("da", "Denmark"),
+    "EE": ("et", "Estonia"),
+    "FI": ("fi", "Finland"),
+    "FR": ("fr", "France"),
+    "GE": ("ka", "Georgia"),
+    "DE": ("de", "Germany"),
+    "GR": ("el", "Greece"),
+    "HU": ("hu", "Hungary"),
+    "IS": ("is", "Iceland"),
+    "IE": ("en", "Ireland"),
+    "IT": ("it", "Italy"),
+    "XK": ("sq", "Kosovo"),
+    "LV": ("lv", "Latvia"),
+    "LI": ("de", "Liechtenstein"),
+    "LT": ("lt", "Lithuania"),
+    "LU": ("fr", "Luxembourg"),
+    "MT": ("en", "Malta"),
+    "MD": ("ro", "Moldova"),
+    "MC": ("fr", "Monaco"),
+    "ME": ("sr", "Montenegro"),
+    "NL": ("nl", "Netherlands"),
+    "MK": ("mk", "North Macedonia"),
+    "NO": ("nb", "Norway"),
+    "PL": ("pl", "Poland"),
+    "PT": ("pt", "Portugal"),
+    "RO": ("ro", "Romania"),
+    "SM": ("it", "San Marino"),
+    "RS": ("sr", "Serbia"),
+    "SK": ("sk", "Slovakia"),
+    "SI": ("sl", "Slovenia"),
+    "ES": ("es", "Spain"),
+    "SE": ("sv", "Sweden"),
+    "CH": ("de", "Switzerland"),
+    "TR": ("tr", "Turkey"),
+    "UA": ("uk", "Ukraine"),
+    "GB": ("en", "United Kingdom"),
+    "VA": ("it", "Vatican City"),
+}
+
+
+def default_feed_url(country_code: str, language: str) -> str:
+    query = quote_plus("Bovaer OR GMO OR insect meal OR food traceability")
+    hl = f"{language}-{country_code}" if language != "en" else f"en-{country_code}"
+    return (
+        f"https://news.google.com/rss/search?q={query}"
+        f"&hl={hl}&gl={country_code}&ceid={country_code}:{language}"
+    )
+
+
+def expand_to_all_europe(countries: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(countries)
+    for code, (language, name) in EUROPE_COUNTRIES.items():
+        if code not in merged:
+            merged[code] = {
+                "language": language,
+                "name": name,
+                "feeds": [default_feed_url(code, language)],
+            }
+            continue
+
+        payload = merged[code]
+        payload.setdefault("language", language)
+        payload.setdefault("name", name)
+        feeds = payload.get("feeds", [])
+        if not feeds:
+            payload["feeds"] = [default_feed_url(code, payload["language"])]
+        merged[code] = payload
+    return merged
+
 
 @dataclass
 class FeedItem:
@@ -47,6 +130,7 @@ class FeedItem:
     source: str
     language: str
     country: str
+    source_api: str
     summary: str = ""
 
     def as_dict(self) -> dict[str, Any]:
@@ -57,6 +141,7 @@ class FeedItem:
             "source": self.source,
             "language": self.language,
             "country": self.country,
+            "sourceApi": self.source_api,
             "summary": self.summary,
             "id": hashlib.sha1(f"{self.url}|{self.title}".encode("utf-8")).hexdigest()[:16],
         }
@@ -111,6 +196,7 @@ def fetch_rss(url: str, country: str, language: str) -> list[FeedItem]:
                 source=source,
                 language=language,
                 country=country,
+                source_api=url,
                 summary=summary,
             )
         )
@@ -135,6 +221,8 @@ def main() -> int:
 
     cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
     countries = cfg.get("countries", {})
+    if cfg.get("includeAllEurope", True):
+        countries = expand_to_all_europe(countries)
 
     collected: list[FeedItem] = []
     errors: list[dict[str, str]] = []

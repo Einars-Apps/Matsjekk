@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "includeAllEurope": true,
   "generated_note": "Feed config for EU-wide automated news ingestion. Add premium media APIs later without changing frontend format.",
   "countries": {
     "NO": {

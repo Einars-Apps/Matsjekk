@@ -60,11 +60,15 @@ async function renderNews(preferredLang) {
     const source = escapeHtml(a.source || a.sourceName || 'Ukjent kilde');
     const dateStr = new Date(a.pubDate || a.date).toLocaleDateString();
     const summary = a.shortSummary || a.summary || '';
+    const apiLink = a.sourceApi
+      ? `<p class="meta">Kilde/API: <a href="${a.sourceApi}" target="_blank" rel="noopener">${escapeHtml(a.sourceApi)}</a></p>`
+      : '';
     const eng = a.englishSummary ? `<p class="eng-summary">${escapeHtml(a.englishSummary)}</p>` : '';
     const translateUrl = `https://translate.google.com/translate?sl=auto&tl=${encodeURIComponent(targetLang)}&u=${encodeURIComponent(a.url)}`;
     card.innerHTML = `
       <h4><a href="${a.url}" target="_blank" rel="noopener">${title}</a></h4>
       <p class="meta">${source} • ${dateStr} • ${a.language || 'nb'}</p>
+      ${apiLink}
       ${summary ? `<p class="summary">${escapeHtml(summary)}</p>` : ''}
       ${eng}
       <p class="links"><a href="${a.url}" target="_blank" rel="noopener">Åpne original</a> • <a href="${translateUrl}" target="_blank" rel="noopener">Oversett</a></p>
