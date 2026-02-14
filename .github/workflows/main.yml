@@ -163,7 +163,7 @@ jobs:
           lfs: true
 
       - name: Upload docs folder as Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./docs
 
@@ -178,4 +178,4 @@ jobs:
       actions: read
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
