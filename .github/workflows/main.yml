@@ -1,0 +1,181 @@
+name: Main CI
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  flutter:
+    name: "Flutter: analyze & test"
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      matrix:
+        shard: [0, 1, 2, 3]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Ensure Git LFS
+        run: |
+          git lfs install --local || true
+          git lfs pull || true
+
+      - name: Cache Flutter SDK
+        id: cache-flutter
+        uses: actions/cache@v4
+        with:
+          path: |
+            $HOME/flutter-stable
+          key: ${{ runner.os }}-flutter-stable-${{ hashFiles('**/pubspec.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-flutter-
+
+      - name: Install Flutter SDK (manual)
+        run: |
+          set -e
+          FLUTTER_DIR="$HOME/flutter-stable"
+          if [ ! -d "$FLUTTER_DIR" ]; then
+            git clone --depth 1 https://github.com/flutter/flutter.git -b stable "$FLUTTER_DIR"
+          fi
+          export PATH="$FLUTTER_DIR/bin:$PATH"
+          echo "$FLUTTER_DIR/bin" >> $GITHUB_PATH
+          flutter --version
+          flutter doctor -v
+          if [ "${{ steps.cache-flutter.outputs.cache-hit }}" != 'true' ]; then
+            flutter precache
+          fi
+
+      - name: Cache Pub packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.pub-cache
+            ~/.pub-cache/hosted
+            .dart_tool
+          key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
+      - name: Enable Flutter web (optional)
+        run: flutter config --enable-web || true
+
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            flutter pub get && break
+            echo "flutter pub get failed, retrying ($i/3)"
+            sleep $((i * 5))
+          done
+
+      - name: Ensure assets directory
+        run: |
+          mkdir -p assets
+          touch assets/.gitkeep || true
+
+      - name: Kill lingering adb
+        run: |
+          pkill -f adb || true
+
+      - name: Run analyzer
+        continue-on-error: true
+        run: flutter analyze
+
+      - name: Run tests
+        run: |
+          set -euo pipefail
+          files=( $(git ls-files 'test/**/*_test.dart' || true) )
+          selected=()
+          for i in "${!files[@]}"; do
+            if (( i % 4 == ${{ matrix.shard }} )); then
+              selected+=("${files[i]}")
+            fi
+          done
+          if [ ${#selected[@]} -eq 0 ]; then
+            echo "No tests for shard ${{ matrix.shard }}"
+            exit 0
+          fi
+          echo "Running tests for shard ${{ matrix.shard }}: ${selected[*]}"
+          for i in 1 2; do
+            flutter test --coverage "${selected[@]}" -r expanded 2>&1 | tee test-output-${{ matrix.shard }}.log && break
+            echo "flutter test failed, retrying ($i/2)"
+            sleep 10
+          done
+
+      - name: Upload test log artifact (shard ${{ matrix.shard }})
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-output-shard-${{ matrix.shard }}
+          path: |
+            test-output-${{ matrix.shard }}.log
+            test-output-*.log
+
+  python:
+    name: Python CI
+    runs-on: ubuntu-latest
+    needs: flutter
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Ensure Git LFS
+        run: |
+          git lfs install --local || true
+          git lfs pull || true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/requirements.txt
+
+      - name: Run pytest
+        run: pytest -q
+
+  deploy-docs:
+    name: Deploy docs to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: [flutter, python]
+    permissions:
+      pages: write
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Upload docs folder as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  deploy-pages:
+    name: Deploy Pages
+    needs: deploy-docs
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+      actions: read
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
