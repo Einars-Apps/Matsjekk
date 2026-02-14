@@ -9,9 +9,29 @@
   const muniSelect=document.getElementById('municipalitySelect');
   const searchInput=document.getElementById('searchInput');
   const listEl=document.getElementById('list');
+  const mapEl=document.getElementById('map');
+  const mapHeightDown=document.getElementById('mapHeightDown');
+  const mapHeightUp=document.getElementById('mapHeightUp');
+
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
+  let currentMapHeight = isMobile ? 220 : 400;
+  const minMapHeight = 180;
+  const maxMapHeight = 600;
+  const mapStep = 30;
+
+  function applyMapHeight(nextHeight){
+    currentMapHeight = Math.max(minMapHeight, Math.min(maxMapHeight, nextHeight));
+    mapEl.style.height = `${currentMapHeight}px`;
+    if (window._leafletMap) {
+      window._leafletMap.invalidateSize();
+    }
+  }
+
+  applyMapHeight(currentMapHeight);
 
   // init map
   const map=L.map('map').setView([59.9,10.7],5);
+  window._leafletMap = map;
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(map);
   const markers=L.layerGroup().addTo(map);
 
@@ -101,6 +121,13 @@
   }
 
   document.getElementById('routeBtn').addEventListener('click',()=>{ const f=document.getElementById('routeFrom').value; const t=document.getElementById('routeTo').value; findAlongRoute(f,t); });
+
+  if (mapHeightDown) {
+    mapHeightDown.addEventListener('click', () => applyMapHeight(currentMapHeight - mapStep));
+  }
+  if (mapHeightUp) {
+    mapHeightUp.addEventListener('click', () => applyMapHeight(currentMapHeight + mapStep));
+  }
 
   // init
   populateCountries(); populateRegions(''); populateMunicipalities('','');
