@@ -249,6 +249,22 @@ class _ScannerScreenState extends State<ScannerScreen>
         listeNavn.add(defaultListName);
       }
 
+      // Clean up accidental 'Finn gårdsbutikk' / 'Gårdsbutikker' entries
+      // in shopping lists that may have been added erroneously.
+      for (var navn in listeNavn) {
+        try {
+          final current = List<String>.from(
+              handlelisterBox.get(navn, defaultValue: <String>[]));
+          final cleaned = current.where((item) {
+            final s = item.toString().toLowerCase();
+            return !(s.contains('gårds') || s.contains('gards'));
+          }).toList();
+          if (cleaned.length != current.length) {
+            handlelisterBox.put(navn, cleaned);
+          }
+        } catch (_) {}
+      }
+
       final tempPositions = <String, Offset>{};
       for (var navn in listeNavn) {
         final posData = listPositionsBox.get(navn);
@@ -357,6 +373,103 @@ class _ScannerScreenState extends State<ScannerScreen>
     });
   }
 
+  String _farmShopsLabel(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Find Farm Shops';
+      case 'sv':
+        return 'Hitta Gårdsbutiker';
+      case 'da':
+        return 'Find Gårdbutikker';
+      case 'fi':
+        return 'Löydä Tilamyymälät';
+      case 'de':
+        return 'Hofläden Finden';
+      case 'nl':
+        return 'Vind Boerderijwinkels';
+      case 'fr':
+        return 'Trouver Fermes-Boutiques';
+      case 'it':
+        return 'Trova Botteghe Agricole';
+      case 'pt':
+        return 'Encontrar Lojas de Quinta';
+      case 'es':
+        return 'Encontrar Tiendas de Granja';
+      case 'nb':
+      default:
+        return 'Finn Gårdsbutikker';
+    }
+  }
+
+  Uri _farmShopsUri(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    return Uri.parse('https://matsjekk.com/gardsbutikker.html?lang=$code');
+  }
+
+  Future<void> _openFarmShops() async {
+    final uri = _farmShopsUri(context);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } else {
+      if (!mounted) return;
+      safeSnack(context, 'Kunne ikke åpne lenken');
+    }
+  }
+
+  String _regionalNewsLabel(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'News in Your Area';
+      case 'sv':
+        return 'Nyheter i Ditt Område';
+      case 'da':
+        return 'Nyheder i Dit Område';
+      case 'fi':
+        return 'Uutiset Alueeltasi';
+      case 'de':
+        return 'Nachrichten aus Ihrer Region';
+      case 'nl':
+        return 'Nieuws uit Uw Regio';
+      case 'fr':
+        return 'Actualités de Votre Région';
+      case 'it':
+        return 'Notizie della Tua Zona';
+      case 'pt':
+        return 'Notícias da Sua Região';
+      case 'es':
+        return 'Noticias de Tu Zona';
+      case 'nb':
+      default:
+        return 'Nyheter i ditt område';
+    }
+  }
+
+  Uri _regionalNewsUri(BuildContext context) {
+    final langCode =
+        (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+            .toLowerCase();
+    final countryCode =
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
+    return Uri.parse(
+        'https://matsjekk.com/index.html?lang=$langCode&country=$countryCode#news');
+  }
+
+  Future<void> _openRegionalNews() async {
+    final uri = _regionalNewsUri(context);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } else {
+      if (!mounted) return;
+      safeSnack(context, 'Kunne ikke åpne lenken');
+    }
+  }
+
   void _handleBarcode(BarcodeCapture capture) {
     final barcode = capture.barcodes.firstOrNull;
     if (barcode?.rawValue == null || _isLoading) return;
@@ -425,6 +538,11 @@ class _ScannerScreenState extends State<ScannerScreen>
       'PT': [openFoodFacts],
       'ES': [openFoodFacts],
       'GB': [openFoodFacts],
+      'IE': [openFoodFacts],
+      'BE': [openFoodFacts],
+      'AT': [openFoodFacts],
+      'CH': [openFoodFacts],
+      'LU': [openFoodFacts],
     };
     return prioritized[countryCode] ?? [openFoodFacts];
   }
@@ -666,22 +784,14 @@ class _ScannerScreenState extends State<ScannerScreen>
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('Kilde: Open Food Facts'),
-                          const SizedBox(height: 8),
                           const Text('Varsel: intern liste for merkevare-koblinger'),
+                          const SizedBox(height: 4),
+                          const Text('Varsel: merkevaresporing og offentlig informasjon'),
                           const SizedBox(height: 12),
                           ElevatedButton.icon(
-                            onPressed: () async {
-                              final uri = Uri.parse('https://matsjekk.com');
-                              if (await canLaunchUrl(uri)) {
-                                await launchUrl(uri, mode: LaunchMode.externalApplication);
-                              } else {
-                                  if (!mounted) return;
-                                  safeSnack(context, 'Kunne ikke åpne lenken');
-                              }
-                            },
+                            onPressed: _openFarmShops,
                             icon: const Icon(Icons.open_in_new),
-                            label: const Text('Finn gårdsbutikk'),
+                            label: Text(_farmShopsLabel(context)),
                           )
                         ],
                       ),
@@ -690,6 +800,14 @@ class _ScannerScreenState extends State<ScannerScreen>
                             onPressed: () => _safePop(),
                             child: const Text('Lukk'))
                       ]));
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.newspaper),
+            title: Text(_regionalNewsLabel(context)),
+            onTap: () {
+              _safePop();
+              _openRegionalNews();
             },
           ),
           ListTile(
@@ -748,7 +866,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       'FI': 'Finland',
       'DE': 'Tyskland',
       'NL': 'Nederland',
+      'BE': 'Belgia',
       'FR': 'Frankrike',
+      'CH': 'Sveits',
+      'AT': 'Østerrike',
+      'IE': 'Irland',
+      'LU': 'Luxembourg',
       'IT': 'Italia',
       'PT': 'Portugal',
       'ES': 'Spania',
@@ -840,11 +963,23 @@ class _ScannerScreenState extends State<ScannerScreen>
 
   @override
   Widget build(BuildContext context) {
+    final farmShopsLabel = _farmShopsLabel(context);
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
         leading: IconButton(icon: const Icon(Icons.menu), onPressed: _visMeny),
+        title: TextButton.icon(
+          onPressed: _openFarmShops,
+          icon: const Icon(Icons.storefront, color: Colors.white),
+          label: Text(
+            farmShopsLabel,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(color: Colors.white),
+          ),
+          style: TextButton.styleFrom(foregroundColor: Colors.white),
+        ),
         actions: [
           IconButton(
               icon: const Icon(Icons.history),

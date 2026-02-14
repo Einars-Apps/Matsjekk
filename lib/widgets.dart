@@ -60,6 +60,42 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     }
   }
 
+  String _farmShopsLabel(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Find Farm Shops';
+      case 'sv':
+        return 'Hitta Gårdsbutiker';
+      case 'da':
+        return 'Find Gårdbutikker';
+      case 'fi':
+        return 'Löydä Tilamyymälät';
+      case 'de':
+        return 'Hofläden Finden';
+      case 'nl':
+        return 'Vind Boerderijwinkels';
+      case 'fr':
+        return 'Trouver Fermes-Boutiques';
+      case 'it':
+        return 'Trova Botteghe Agricole';
+      case 'pt':
+        return 'Encontrar Lojas de Quinta';
+      case 'es':
+        return 'Encontrar Tiendas de Granja';
+      case 'nb':
+      default:
+        return 'Finn Gårdsbutikker';
+    }
+  }
+
+  String _farmShopsUrl(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    return 'https://matsjekk.com/gardsbutikker.html?lang=$code';
+  }
+
   @override
   Widget build(BuildContext context) {
     final info = widget.info;
@@ -274,14 +310,16 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                           // Add source and internal list info for red/yellow alerts
                                           if (sev == 'red' || sev == 'yellow') ...[
                                             const SizedBox(height: 8),
-                                            const Text('Kilde: Open Food Facts', style: TextStyle(fontStyle: FontStyle.italic)),
                                             const SizedBox(height: 4),
                                             const Text('Varsel: intern liste for merkevare-koblinger', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            const SizedBox(height: 4),
+                                            const Text('Varsel: merkevaresporing og offentlig informasjon', style: TextStyle(fontStyle: FontStyle.italic)),
                                             const SizedBox(height: 8),
                                             ElevatedButton.icon(
-                                              onPressed: () => _openUrl('https://matsjekk.com'),
+                                              onPressed: () =>
+                                                  _openUrl(_farmShopsUrl(context)),
                                               icon: const Icon(Icons.open_in_new),
-                                              label: const Text('Finn gårdsbutikk'),
+                                              label: Text(_farmShopsLabel(context)),
                                               style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
                                             ),
                                           ],
