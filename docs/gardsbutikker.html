@@ -11,8 +11,19 @@
     .container{padding:1rem}
     #map{height:400px;border:1px solid #ccc}
     .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .map-controls{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin:8px 0}
+    .map-btn{padding:6px 10px;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:6px}
+    .map-btn:hover{background:#f5f5f5}
+    .map-size-label{font-size:0.9rem;color:#555}
     .list{max-height:400px;overflow:auto;border:1px solid #eee;padding:8px}
+    .results-wrap{display:flex;gap:12px}
     .item{padding:6px;border-bottom:1px solid #f1f1f1}
+    @media (max-width: 768px){
+      #map{height:220px}
+      .map-controls{justify-content:flex-start}
+      .results-wrap{flex-direction:column}
+      .list{max-height:240px}
+    }
   </style>
 </head>
 <body>
@@ -35,10 +46,15 @@
       <button id="resetBtn">Tilbakestill</button>
     </div>
 
+    <div class="map-controls" aria-label="Kartstørrelse">
+      <span class="map-size-label">Kart-høyde</span>
+      <button id="mapHeightDown" class="map-btn" type="button" aria-label="Reduser kart-høyde">-</button>
+      <button id="mapHeightUp" class="map-btn" type="button" aria-label="Øk kart-høyde">+</button>
+    </div>
     <div id="map"></div>
 
     <h2>Resultater</h2>
-    <div style="display:flex;gap:12px">
+    <div class="results-wrap">
       <div class="list" id="list"></div>
       <div style="flex:1">
         <h3>Legg til produsent</h3>
