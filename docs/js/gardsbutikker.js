@@ -638,11 +638,26 @@ out center tags 120;
       country,
       '-oppskrift -meny -restaurant -wikipedia',
     ].filter(Boolean).join(' ');
+    const googleActionable = [
+      query || 'gårdsbutikk',
+      '(gårdsbutikk OR gårdsutsalg OR "farm shop")',
+      municipalityQuery,
+      region,
+      country,
+      '(nettside OR åpningstider OR adresse)',
+      '-oppskrift -meny -restaurant -wikipedia',
+    ].filter(Boolean).join(' ');
     const engine = searchEngineSelect ? searchEngineSelect.value : 'google';
     const aiPrompt = `Finn faktiske gårdsbutikker i ${municipalityQuery} ${region} ${country}. Returner en liste med navn, full adresse, kommune og direkte lenke til kilde/kart for hver oppføring. Utelat treff uten verifiserbar lokasjon.`;
-    const url = engine === 'ai'
-      ? `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`
-      : `https://www.google.com/search?q=${encodeURIComponent(composed)}`;
+    if (engine === 'ai') {
+      const aiUrl = `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`;
+      const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(googleActionable)}`;
+      window.open(aiUrl, '_blank', 'noopener');
+      window.open(googleUrl, '_blank', 'noopener');
+      return;
+    }
+
+    const url = `https://www.google.com/search?q=${encodeURIComponent(composed)}`;
     window.open(url, '_blank', 'noopener');
   }
 
