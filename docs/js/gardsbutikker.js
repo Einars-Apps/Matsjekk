@@ -351,7 +351,7 @@
 
     const composed = [
       query || 'gårdsbutikk',
-      '(gårdsbutikk OR gårdsutsalg OR "farm shop")',
+      '(gårdsbutikk OR gårdsutsalg OR "farm shop" OR "farm store" OR "ferme boutique" OR hofladen OR "vente directe" OR "venta directa")',
       municipality,
       region,
       country,
@@ -457,12 +457,18 @@
         try {
           const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
           await chooseBestMunicipality(geo);
+          runAreaWebSearch();
         } catch (_) {
           alert('Fant ikke kommune fra posisjon.');
         }
       }, () => {
         alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
       }, { enableHighAccuracy: true, timeout: 10000 });
+    });
+  } else if (myMunicipalityBtn) {
+    myMunicipalityBtn.addEventListener('click', () => {
+      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
+      runAreaWebSearch();
     });
   }
 
