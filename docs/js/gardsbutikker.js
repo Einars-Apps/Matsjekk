@@ -282,6 +282,7 @@
       outletTerms: ['"farm shop"', '"farm store"', '"local farm"'],
       signalTerms: ['official website', 'address', 'opening hours', 'contact'],
       negativeTerms: ['-recipe', '-restaurant', '-hotel', '-wikipedia'],
+      domainExclusions: [],
     };
 
     const lexiconByCountry = {
@@ -290,6 +291,10 @@
         outletTerms: ['"gårdsbutikk"', '"gårdsutsalg"', '"gårdsmat"', '"bondens marked"'],
         signalTerms: ['offisiell nettside', 'adresse', 'åpningstider', 'kontakt', 'bestilling'],
         negativeTerms: ['-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia', '-rapport'],
+        domainExclusions: [
+          '-site:statsforvalteren.no', '-site:regjeringen.no', '-site:ssb.no',
+          '-site:mattilsynet.no', '-site:landbruksdirektoratet.no', '-site:lovdata.no',
+        ],
       },
       SE: {
         baseTerm: 'gårdsbutik gårdsförsäljning',
@@ -380,6 +385,7 @@
         outletTerms: ['"ferme boutique"', 'hofladen', '"farm shop"'],
         signalTerms: ['site officiel', 'adresse', 'horaires', 'contact'],
         negativeTerms: ['-recette', '-restaurant', '-hotel', '-wikipedia'],
+        domainExclusions: [],
       },
     };
 
@@ -1443,10 +1449,7 @@ out center tags 150;
     const region = selectedText(regionSelect);
     const municipality = selectedText(muniSelect);
     const query = searchInput.value.trim();
-    const municipalityTerms = municipalityVariants(countryCode, municipality);
-    const municipalityQuery = municipalityTerms.length > 1
-      ? `(${municipalityTerms.join(' OR ')})`
-      : municipality;
+    const municipalityQuery = municipality;
 
     const composed = [
       query || lexicon.baseTerm,
@@ -1463,6 +1466,7 @@ out center tags 150;
       '-site:tiktok.com', '-site:youtube.com', '-site:pinterest.com',
       '-site:yellowpages.com', '-site:yelp.com', '-site:1881.no',
       '-site:gulesider.no',
+      ...(lexicon.domainExclusions || []),
     ].join(' ');
     const googleActionable = [
       query || lexicon.baseTerm,
