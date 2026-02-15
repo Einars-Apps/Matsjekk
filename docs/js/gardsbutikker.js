@@ -1468,6 +1468,16 @@ out center tags 150;
       '-site:gulesider.no',
       ...(lexicon.domainExclusions || []),
     ].join(' ');
+    const norwayFocusedQuery = [
+      query || 'gårdsbutikk',
+      '("gårdsbutikk" OR "gårdsutsalg" OR "gårdsmat")',
+      municipalityQuery,
+      region,
+      'Norge',
+      'site:.no',
+      '(åpningstider OR adresse OR kontakt)',
+      strictNoiseExclusions,
+    ].filter(Boolean).join(' ');
     const googleActionable = [
       query || lexicon.baseTerm,
       `(${lexicon.outletTerms.join(' OR ')})`,
@@ -1487,8 +1497,14 @@ out center tags 150;
       `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
+    const effectiveGoogleQuery = countryCode === 'NO' ? norwayFocusedQuery : googleActionable;
+    const effectiveAiQuery = countryCode === 'NO' ? norwayFocusedQuery : aiQualityQuery;
+
+    const buildGoogleUrl = (text) =>
+      `https://www.google.com/search?q=${encodeURIComponent(text)}&tbs=li:1`;
+
     if (engine === 'ai') {
-      const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(aiQualityQuery)}`;
+      const googleUrl = buildGoogleUrl(effectiveAiQuery);
       const mapsQuery = [query || 'gårdsbutikk', municipality || municipalityQuery, region, country].filter(Boolean).join(' ');
       const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
       window.open(googleUrl, '_blank', 'noopener');
@@ -1496,7 +1512,7 @@ out center tags 150;
       return;
     }
 
-    const url = `https://www.google.com/search?q=${encodeURIComponent(googleActionable)}`;
+    const url = buildGoogleUrl(effectiveGoogleQuery);
     window.open(url, '_blank', 'noopener');
   }
 
