@@ -56,7 +56,9 @@
 
   function applyMapHeight(nextHeight){
     currentMapHeight = Math.max(minMapHeight, Math.min(maxMapHeight, nextHeight));
-    mapEl.style.height = `${currentMapHeight}px`;
+    if (mapEl) {
+      mapEl.style.height = `${currentMapHeight}px`;
+    }
     if (window._leafletMap) {
       window._leafletMap.invalidateSize();
     }
@@ -64,7 +66,6 @@
 
   applyMapHeight(currentMapHeight);
 
-  // init map
   const map=L.map('map').setView([59.9,10.7],5);
   window._leafletMap = map;
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(map);
@@ -86,7 +87,7 @@
     const regions=unique(shops.filter(s=>!country||s.country===country).map(s=>s.region));
     const source = regions.length ? regions : defaultRegions;
     regionSelect.innerHTML='<option value="">Velg fylke/region</option>' + source.map(r=>`<option>${r}</option>`).join('');
-    muniSelect.innerHTML='<option value="">Velg kommune</option>'
+    muniSelect.innerHTML='<option value="">Velg kommune</option>';
   }
 
   function populateMunicipalities(country,region){
@@ -121,7 +122,8 @@
     const ordered = sortShops(filtered);
     ordered.forEach(s=>{
       const div=document.createElement('div'); div.className='item';
-      div.innerHTML=`<strong>${s.name}</strong><br>${s.address||''} ${s.municipality||''}, ${s.region||''}<br>Produkter: ${s.products.join(', ')}<br><a href='${s.website}' target='_blank'>Nettside</a>`;
+      const products = (s.products || []).join(', ');
+      div.innerHTML=`<strong>${s.name}</strong><br>${s.address||''} ${s.municipality||''}, ${s.region||''}<br>Produkter: ${products}<br><a href='${s.website}' target='_blank'>Nettside</a>`;
       listEl.appendChild(div);
       if(s.lat && s.lon){
         const m=L.marker([s.lat,s.lon]).bindPopup(`<strong>${s.name}</strong><br>${s.address||''}`);
@@ -137,7 +139,7 @@
     const muni=muniSelect.value;
     const q=searchInput.value.trim().toLowerCase();
     let filtered=shops.filter(s=>(!country||s.country===country)&&(!region||s.region===region)&&(!muni||s.municipality===muni));
-    if(q){ filtered=filtered.filter(s=>s.name.toLowerCase().includes(q) || s.products.join(' ').toLowerCase().includes(q)); }
+    if(q){ filtered=filtered.filter(s=>(s.name || '').toLowerCase().includes(q) || (s.products || []).join(' ').toLowerCase().includes(q)); }
     renderList(filtered);
     return filtered;
   }
@@ -202,9 +204,8 @@
   if (sortSelect) sortSelect.addEventListener('change', filterShops);
   searchInput.addEventListener('input',()=>{ filterShops(); });
 
-  document.getElementById('resetBtn').addEventListener('click',()=>{ countrySelect.value=''; regionSelect.value=''; muniSelect.value=''; searchInput.value=''; populateRegions(''); populateMunicipalities('',''); filterShops(); });
+  document.getElementById('resetBtn').addEventListener('click',()=>{ countrySelect.value=''; regionSelect.value=''; muniSelect.value=''; searchInput.value=''; if (sortSelect) sortSelect.value='name_asc'; populateRegions(''); populateMunicipalities('',''); filterShops(); });
 
-  // route functionality: geocode start/end with Nominatim, compute simple route via OSRM public demo (best effort) or approximate polyline between points
   async function geocode(q){
     const url=`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}`;
     const res=await fetch(url); const js=await res.json(); return js[0];
@@ -214,23 +215,19 @@
     if(!from||!to) return;
     const f=await geocode(from); const t=await geocode(to);
     if(!f||!t){ alert('Kunne ikke finne adresser'); return; }
-    // try OSRM route
     const osrmUrl=`https://router.project-osrm.org/route/v1/driving/${f.lon},${f.lat};${t.lon},${t.lat}?overview=full&geometries=geojson`;
     let routeGeom=null;
     try{ const r=await fetch(osrmUrl); const j=await r.json(); if(j.routes && j.routes[0]) routeGeom=j.routes[0].geometry; }
     catch(e){ console.warn('OSRM failed',e); }
     if(!routeGeom){ routeGeom={type:'LineString',coordinates:[[+f.lon,+f.lat],[+t.lon,+t.lat]]}; }
-    // build turf line and buffer
     const line=turf.lineString(routeGeom.coordinates);
     const buffer=turf.buffer(line,25, {units:'kilometers'});
-    // filter shops within buffer
     const filtered=shops.filter(s=>{
       if(!s.lat||!s.lon) return false;
       const pt=turf.point([s.lon,s.lat]);
       return turf.booleanPointInPolygon(pt,buffer);
     });
     renderList(filtered);
-    // draw route on map
     if(window._routeLayer) map.removeLayer(window._routeLayer);
     window._routeLayer=L.geoJSON(routeGeom,{style:{color:'blue',weight:3}}).addTo(map);
     const bufLayer=L.geoJSON(buffer,{style:{color:'#00f',weight:1,opacity:0.15}}).addTo(map);
@@ -276,7 +273,6 @@
     mapHeightUp.addEventListener('click', () => applyMapHeight(currentMapHeight + mapStep));
   }
 
-  // init
   populateCountries(); populateRegions(''); populateMunicipalities('','');
   renderList(shops);
 
