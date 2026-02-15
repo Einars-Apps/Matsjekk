@@ -133,6 +133,8 @@
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   let currentMapHeight = isMobile ? 110 : 400;
+  let regionPopulateRequestId = 0;
+  let municipalityPopulateRequestId = 0;
 
   function ensureAiSearchEngineDefault() {
     if (!searchEngineSelect) return;
@@ -154,6 +156,44 @@
   function countryNameByCode(code) {
     const match = WEST_EUROPE.find((entry) => entry.code === code);
     return match ? match.name : code;
+  }
+
+  function getCountrySearchLexicon(countryCode) {
+    const defaults = {
+      baseTerm: 'gårdsbutikk',
+      outletTerms: ['"gårdsbutikk"', '"gårdsutsalg"', '"farm shop"', '"farm store"', 'hofladen', '"ferme boutique"'],
+      signalTerms: ['offisiell nettside', 'adresse', 'åpningstider', 'kontakt', 'bestilling'],
+      negativeTerms: ['-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia'],
+    };
+
+    const lexiconByCountry = {
+      IT: {
+        baseTerm: 'azienda agricola vendita diretta',
+        outletTerms: ['"azienda agricola"', '"vendita diretta"', '"spaccio aziendale"', '"farm shop"'],
+        signalTerms: ['sito ufficiale', 'indirizzo', 'orari', 'contatti'],
+        negativeTerms: ['-ricetta', '-ristorante', '-hotel', '-wikipedia'],
+      },
+      FR: {
+        baseTerm: 'ferme boutique vente directe',
+        outletTerms: ['"ferme boutique"', '"vente directe"', '"magasin à la ferme"', '"farm shop"'],
+        signalTerms: ['site officiel', 'adresse', 'horaires', 'contact'],
+        negativeTerms: ['-recette', '-restaurant', '-hôtel', '-wikipedia'],
+      },
+      DE: {
+        baseTerm: 'hofladen direktvermarktung',
+        outletTerms: ['hofladen', '"direktvermarktung"', '"bauernladen"', '"farm shop"'],
+        signalTerms: ['offizielle website', 'adresse', 'öffnungszeiten', 'kontakt'],
+        negativeTerms: ['-rezept', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      ES: {
+        baseTerm: 'tienda granja venta directa',
+        outletTerms: ['"tienda granja"', '"venta directa"', '"granja"', '"farm shop"'],
+        signalTerms: ['sitio oficial', 'dirección', 'horario', 'contacto'],
+        negativeTerms: ['-receta', '-restaurante', '-hotel', '-wikipedia'],
+      },
+    };
+
+    return lexiconByCountry[countryCode] || defaults;
   }
 
   function resolveCountryCode(preferredCode) {
@@ -240,9 +280,22 @@
 
   async function fetchNominatimAdmin(countryCode, extraParams = '') {
     const base = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=150&dedupe=1&countrycodes=${encodeURIComponent((countryCode || '').toLowerCase())}`;
-    const response = await fetch(`${base}${extraParams}`, { cache: 'no-cache' });
-    if (!response.ok) return [];
-    const payload = await response.json();
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 3500);
+    let payload = [];
+    try {
+      const response = await fetch(`${base}${extraParams}`, {
+        cache: 'no-cache',
+        signal: controller.signal,
+      });
+      if (!response.ok) return [];
+      payload = await response.json();
+    } catch (_) {
+      return [];
+    } finally {
+      clearTimeout(timeoutId);
+    }
+
     const items = Array.isArray(payload) ? payload : [];
     const expectedCountry = (countryCode || '').toLowerCase();
     if (!expectedCountry) return items;
@@ -373,9 +426,13 @@
   }
 
   async function populateRegions(countryCode) {
+    const requestId = ++regionPopulateRequestId;
     const effectiveCountryCode = resolveCountryCode(countryCode);
     if (effectiveCountryCode === 'NO') {
       await ensureNorwayGeoData();
+      if (requestId !== regionPopulateRequestId || resolveCountryCode(countrySelect.value) !== effectiveCountryCode) {
+        return;
+      }
       if (norwayCounties.length) {
         regionSelect.innerHTML = '<option value="">Velg fylke</option>' +
           norwayCounties.map((county) => `<option value="${county.code}">${county.name}</option>`).join('');
@@ -386,9 +443,27 @@
       return;
     }
 
-    const regions = effectiveCountryCode
-      ? await fetchCountryRegions(effectiveCountryCode)
+    const immediateRegions = effectiveCountryCode
+      ? unique([
+        ...(COUNTRY_REGIONS_FALLBACK[effectiveCountryCode] || []),
+        ...shops
+          .filter((shop) => shop.countryCode === effectiveCountryCode)
+          .map((shop) => shop.region),
+      ])
       : [];
+
+    regionSelect.innerHTML = '<option value="">Velg fylke/region</option>' +
+      immediateRegions.map((region) => `<option value="${region}">${region}</option>`).join('');
+    muniSelect.innerHTML = '<option value="">Velg kommune</option>';
+
+    if (!effectiveCountryCode) {
+      return;
+    }
+
+    const regions = await fetchCountryRegions(effectiveCountryCode);
+    if (requestId !== regionPopulateRequestId || resolveCountryCode(countrySelect.value) !== effectiveCountryCode) {
+      return;
+    }
 
     regionSelect.innerHTML = '<option value="">Velg fylke/region</option>' +
       regions.map((region) => `<option value="${region}">${region}</option>`).join('');
@@ -396,9 +471,13 @@
   }
 
   async function populateMunicipalities(countryCode, regionValue) {
+    const requestId = ++municipalityPopulateRequestId;
     const effectiveCountryCode = resolveCountryCode(countryCode);
     if (effectiveCountryCode === 'NO') {
       await ensureNorwayGeoData();
+      if (requestId !== municipalityPopulateRequestId || resolveCountryCode(countrySelect.value) !== effectiveCountryCode) {
+        return;
+      }
       const municipalities = norwayMunicipalities.filter((municipality) =>
         !regionValue || municipality.countyCode === regionValue
       );
@@ -408,9 +487,29 @@
     }
 
     const regionLabel = regionValue || selectedText(regionSelect);
-    const municipalities = effectiveCountryCode
-      ? await fetchCountryMunicipalities(effectiveCountryCode, regionLabel)
+    const immediateMunicipalities = effectiveCountryCode
+      ? unique([
+        ...(COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || []),
+        ...shops
+          .filter((shop) =>
+            shop.countryCode === effectiveCountryCode &&
+            (!regionLabel || shop.region === regionLabel)
+          )
+          .map((shop) => shop.municipality),
+      ])
       : [];
+
+    muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
+      immediateMunicipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
+
+    if (!effectiveCountryCode) {
+      return;
+    }
+
+    const municipalities = await fetchCountryMunicipalities(effectiveCountryCode, regionLabel);
+    if (requestId !== municipalityPopulateRequestId || resolveCountryCode(countrySelect.value) !== effectiveCountryCode) {
+      return;
+    }
 
     muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
       municipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
@@ -957,7 +1056,7 @@ out center tags 150;
 
   async function filterShops() {
     const runId = ++filterRunId;
-    const countryCode = countrySelect.value;
+    const countryCode = resolveCountryCode(countrySelect.value);
     const regionValue = regionSelect.value;
     const municipalityValue = muniSelect.value;
     const regionText = selectedText(regionSelect);
@@ -1098,47 +1197,49 @@ out center tags 150;
   }
 
   function runAreaWebSearch() {
+    const countryCode = resolveCountryCode(countrySelect.value);
+    const lexicon = getCountrySearchLexicon(countryCode);
     const country = selectedText(countrySelect);
     const region = selectedText(regionSelect);
     const municipality = selectedText(muniSelect);
     const query = searchInput.value.trim();
-    const municipalityTerms = municipalityVariants(countrySelect.value, municipality);
+    const municipalityTerms = municipalityVariants(countryCode, municipality);
     const municipalityQuery = municipalityTerms.length > 1
       ? `(${municipalityTerms.join(' OR ')})`
       : municipality;
 
     const composed = [
-      query || 'gårdsbutikk',
-      '(gårdsbutikk OR gårdsutsalg OR "farm shop" OR "farm store" OR "ferme boutique" OR hofladen OR "vente directe" OR "venta directa")',
+      query || lexicon.baseTerm,
+      `(${lexicon.outletTerms.join(' OR ')})`,
       municipalityQuery,
       region,
       country,
-      '-oppskrift -meny -restaurant -wikipedia',
+      lexicon.negativeTerms.join(' '),
     ].filter(Boolean).join(' ');
     const strictNoiseExclusions = [
-      '-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia',
+      ...lexicon.negativeTerms,
       '-site:perplexity.ai', '-site:tripadvisor.com', '-site:reddit.com',
-      '-site:facebook.com', '-site:instagram.com', '-site:tiktok.com',
-      '-site:youtube.com', '-site:pinterest.com', '-site:1881.no',
+      '-site:tiktok.com', '-site:youtube.com', '-site:pinterest.com',
+      '-site:yellowpages.com', '-site:yelp.com', '-site:1881.no',
       '-site:gulesider.no',
     ].join(' ');
     const googleActionable = [
-      query || 'gårdsbutikk',
-      '(gårdsbutikk OR gårdsutsalg OR "farm shop")',
+      query || lexicon.baseTerm,
+      `(${lexicon.outletTerms.join(' OR ')})`,
       municipalityQuery,
       region,
       country,
-      '(nettside OR åpningstider OR adresse)',
+      `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
     const engine = searchEngineSelect ? searchEngineSelect.value : 'google';
     const aiQualityQuery = [
-      query || 'gårdsbutikk',
-      '("gårdsbutikk" OR "gårdsutsalg" OR "farm shop" OR "farm store" OR hofladen OR "ferme boutique")',
+      query || lexicon.baseTerm,
+      `(${lexicon.outletTerms.join(' OR ')})`,
       municipalityQuery,
       region,
       country,
-      '(offisiell nettside OR adresse OR åpningstider OR kontakt OR bestilling)',
+      `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
     if (engine === 'ai') {
