@@ -1504,10 +1504,16 @@ out center tags 150;
       `https://www.google.com/search?q=${encodeURIComponent(text)}&tbs=li:1`;
 
     if (engine === 'ai') {
-      const googleUrl = buildGoogleUrl(effectiveAiQuery);
+      const aiPrompt = [
+        `Finn faktiske gårdsbutikker/gårdsutsalg i eller nær ${[municipalityQuery, region, country].filter(Boolean).join(', ')}.`,
+        'Returner kun verifiserbare steder med navn, adresse/sted, åpningstider (hvis kjent) og direkte lenke til offisiell nettside eller kart.',
+        'Filtrer bort rapporter, PDF, myndighetsdokumenter, oppskrifter, restauranter og generelle artikler.',
+        `Bruk denne søkeintensjonen: ${effectiveAiQuery}`,
+      ].join(' ');
+      const aiUrl = `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`;
       const mapsQuery = [query || 'gårdsbutikk', municipality || municipalityQuery, region, country].filter(Boolean).join(' ');
       const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
-      window.open(googleUrl, '_blank', 'noopener');
+      window.open(aiUrl, '_blank', 'noopener');
       window.open(mapsUrl, '_blank', 'noopener');
       return;
     }
