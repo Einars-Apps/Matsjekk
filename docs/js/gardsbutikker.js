@@ -439,7 +439,21 @@
   }
 
   function keepHighQuality(shop) {
-    return candidateScore(shop) >= 4;
+    const text = `${shop.name || ''} ${shop.category || ''} ${shop.address || ''}`.toLowerCase();
+    if (/restaurant|kafe|cafe|supermarket|grocery|school|kindergarten|museum|hotel/.test(text)) {
+      return false;
+    }
+    if (/gård|gard|farm|selvplukk|frukt/.test(text) && shop.lat != null && shop.lon != null) {
+      return true;
+    }
+    return candidateScore(shop) >= 3;
+  }
+
+  function bboxArea(box) {
+    if (!box) return 0;
+    const latSpan = Math.max(0, box.north - box.south);
+    const lonSpan = Math.max(0, box.east - box.west);
+    return latSpan * lonSpan;
   }
 
   function looksLikeFarmOutlet(item) {
@@ -538,8 +552,14 @@
   node["shop"="farmshop"](${south},${west},${north},${east});
   way["shop"="farmshop"](${south},${west},${north},${east});
   relation["shop"="farmshop"](${south},${west},${north},${east});
+  node["produce"](${south},${west},${north},${east});
+  way["produce"](${south},${west},${north},${east});
+  relation["produce"](${south},${west},${north},${east});
+  node["description"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|selvplukk|frukt",i](${south},${west},${north},${east});
+  way["description"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|selvplukk|frukt",i](${south},${west},${north},${east});
   node["name"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|fruktgård|cider",i](${south},${west},${north},${east});
   way["name"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|fruktgård|cider",i](${south},${west},${north},${east});
+  relation["name"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|fruktgård|cider",i](${south},${west},${north},${east});
 );
 out center tags 120;
     `.trim();
@@ -557,16 +577,38 @@ out center tags 120;
   async function fetchMunicipalityBoundingBox(countryCode, municipalityLabel, regionLabel) {
     if (!municipalityLabel) return null;
     const variants = municipalityVariants(countryCode, municipalityLabel);
+    const collectedBoxes = [];
+
     for (const municipalityName of variants) {
       const hits = await searchNominatim(`${municipalityName} ${regionLabel || ''} ${countryNameByCode(countryCode)}`, countryCode);
-      const best = hits.find((item) => Array.isArray(item.boundingbox) && item.boundingbox.length === 4);
-      if (!best) continue;
-      const [south, north, west, east] = best.boundingbox.map((v) => Number(v));
-      if ([south, north, west, east].every((v) => Number.isFinite(v))) {
-        return { south, north, west, east };
-      }
+      const candidates = hits
+        .filter((item) => Array.isArray(item.boundingbox) && item.boundingbox.length === 4)
+        .map((item) => {
+          const [south, north, west, east] = item.boundingbox.map((v) => Number(v));
+          return {
+            south,
+            north,
+            west,
+            east,
+            classType: `${item.class || ''} ${item.type || ''}`.toLowerCase(),
+          };
+        })
+        .filter((box) => [box.south, box.north, box.west, box.east].every((v) => Number.isFinite(v)))
+        .sort((left, right) => bboxArea(right) - bboxArea(left));
+
+      const adminCandidate = candidates.find((box) => /boundary|administrative|municipality/.test(box.classType));
+      const selected = adminCandidate || candidates[0];
+      if (selected) collectedBoxes.push(selected);
     }
-    return null;
+
+    if (!collectedBoxes.length) return null;
+
+    return {
+      south: Math.min(...collectedBoxes.map((box) => box.south)),
+      north: Math.max(...collectedBoxes.map((box) => box.north)),
+      west: Math.min(...collectedBoxes.map((box) => box.west)),
+      east: Math.max(...collectedBoxes.map((box) => box.east)),
+    };
   }
 
   async function fetchOverpassMunicipalityCandidates({ countryCode, countryLabel, regionLabel, municipalityLabel }) {
@@ -629,9 +671,18 @@ out center tags 120;
     const mapped = filtered
       .map((item) => toWebShop(item, muni, region, country))
       .filter((shop) => keepHighQuality(shop));
-    const unique = mergeShopLists(mapped, overpassCandidates)
+    let unique = mergeShopLists(mapped, overpassCandidates)
       .sort((left, right) => candidateScore(right) - candidateScore(left))
       .slice(0, 40);
+
+    if (unique.length < 8) {
+      const relaxed = filtered
+        .map((item) => toWebShop(item, muni, region, country))
+        .filter((shop) => candidateScore(shop) >= 2)
+        .sort((left, right) => candidateScore(right) - candidateScore(left));
+      unique = mergeShopLists(unique, relaxed).slice(0, 60);
+    }
+
     webCandidateCache.set(cacheKey, unique);
     return unique;
   }
