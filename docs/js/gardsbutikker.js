@@ -77,6 +77,8 @@
   let norwayCounties = [];
   let norwayMunicipalities = [];
   let norwayLoaded = false;
+  const regionCache = new Map();
+  const municipalityCache = new Map();
 
   const countrySelect = document.getElementById('countrySelect');
   const regionSelect = document.getElementById('regionSelect');
@@ -192,6 +194,87 @@
     return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'nb'));
   }
 
+  async function fetchNominatimAdmin(countryCode, extraParams = '') {
+    const base = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=150&dedupe=1&countrycodes=${encodeURIComponent((countryCode || '').toLowerCase())}`;
+    const response = await fetch(`${base}${extraParams}`, { cache: 'no-cache' });
+    if (!response.ok) return [];
+    const payload = await response.json();
+    return Array.isArray(payload) ? payload : [];
+  }
+
+  function collectRegionNames(items) {
+    const names = items.flatMap((item) => {
+      const address = item?.address || {};
+      return [
+        address.state,
+        address.province,
+        address.region,
+        address.county,
+      ];
+    }).filter(Boolean);
+    return unique(names);
+  }
+
+  function collectMunicipalityNames(items) {
+    const names = items.flatMap((item) => {
+      const address = item?.address || {};
+      return [
+        address.municipality,
+        address.city,
+        address.town,
+        address.village,
+        address.suburb,
+      ];
+    }).filter(Boolean);
+    return unique(names);
+  }
+
+  async function fetchCountryRegions(countryCode) {
+    if (!countryCode) return [];
+    if (regionCache.has(countryCode)) return regionCache.get(countryCode);
+
+    const countryName = countryNameByCode(countryCode);
+    const [stateLike, queryLike] = await Promise.all([
+      fetchNominatimAdmin(countryCode, '&featuretype=state'),
+      fetchNominatimAdmin(countryCode, `&q=${encodeURIComponent(`${countryName} administrative region`)}`),
+    ]);
+
+    const fromApi = collectRegionNames([...stateLike, ...queryLike]);
+    const fromData = unique(
+      shops
+        .filter((shop) => shop.countryCode === countryCode)
+        .map((shop) => shop.region)
+    );
+
+    const regions = unique([...fromApi, ...fromData]);
+    regionCache.set(countryCode, regions);
+    return regions;
+  }
+
+  async function fetchCountryMunicipalities(countryCode, regionLabel) {
+    if (!countryCode) return [];
+    const key = `${countryCode}|${(regionLabel || '').toLowerCase()}`;
+    if (municipalityCache.has(key)) return municipalityCache.get(key);
+
+    const countryName = countryNameByCode(countryCode);
+    const regionPart = regionLabel ? `${regionLabel} ` : '';
+    const [cityLike, queryLike] = await Promise.all([
+      fetchNominatimAdmin(countryCode, '&featuretype=city'),
+      fetchNominatimAdmin(countryCode, `&q=${encodeURIComponent(`${regionPart}${countryName} municipality`)}`),
+    ]);
+
+    const fromApi = collectMunicipalityNames([...cityLike, ...queryLike]);
+    const fromData = unique(
+      shops
+        .filter((shop) => shop.countryCode === countryCode && (!regionLabel || shop.region === regionLabel))
+        .map((shop) => shop.municipality)
+    );
+
+    const municipalities = unique([...fromApi, ...fromData]);
+    municipalityCache.set(key, municipalities);
+    return municipalities;
+  }
+
   function selectedText(selectEl) {
     return selectEl?.selectedOptions?.[0]?.textContent?.trim() || '';
   }
@@ -245,11 +328,13 @@
       return;
     }
 
-    const regions = unique(
-      shops
-        .filter((shop) => !countryCode || shop.countryCode === countryCode)
-        .map((shop) => shop.region)
-    );
+    const regions = countryCode
+      ? await fetchCountryRegions(countryCode)
+      : unique(
+        shops
+          .filter((shop) => !countryCode || shop.countryCode === countryCode)
+          .map((shop) => shop.region)
+      );
 
     regionSelect.innerHTML = '<option value="">Velg fylke/region</option>' +
       regions.map((region) => `<option value="${region}">${region}</option>`).join('');
@@ -267,11 +352,14 @@
       return;
     }
 
-    const municipalities = unique(
-      shops
-        .filter((shop) => (!countryCode || shop.countryCode === countryCode) && (!regionValue || shop.region === regionValue))
-        .map((shop) => shop.municipality)
-    );
+    const regionLabel = regionValue || selectedText(regionSelect);
+    const municipalities = countryCode
+      ? await fetchCountryMunicipalities(countryCode, regionLabel)
+      : unique(
+        shops
+          .filter((shop) => (!countryCode || shop.countryCode === countryCode) && (!regionValue || shop.region === regionValue))
+          .map((shop) => shop.municipality)
+      );
 
     muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
       municipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
