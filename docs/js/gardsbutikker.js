@@ -73,6 +73,15 @@
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   let currentMapHeight = isMobile ? 110 : 400;
 
+  function ensureAiSearchEngineDefault() {
+    if (!searchEngineSelect) return;
+    const aiOption = [...searchEngineSelect.options].find((option) => option.value === 'ai');
+    if (aiOption && searchEngineSelect.options[0]?.value !== 'ai') {
+      searchEngineSelect.insertBefore(aiOption, searchEngineSelect.options[0]);
+    }
+    searchEngineSelect.value = 'ai';
+  }
+
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
     if (!normalized) return '';
@@ -95,6 +104,11 @@
 
   function normalizeShop(shop) {
     const countryCode = normalizeCountryCode(shop.country || shop.countryCode);
+    const lat = shop.lat != null ? Number(shop.lat) : null;
+    const lon = shop.lon != null ? Number(shop.lon) : null;
+    const mapsUrl = (lat != null && lon != null)
+      ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
+      : '';
     return {
       ...shop,
       countryCode,
@@ -102,6 +116,12 @@
       region: (shop.region || shop.county || shop.state || '').toString().trim(),
       municipality: (shop.municipality || shop.city || '').toString().trim(),
       products: Array.isArray(shop.products) ? shop.products : [],
+      phone: (shop.phone || '').toString().trim(),
+      openingHours: (shop.openingHours || '').toString().trim(),
+      category: (shop.category || 'Gårdsutsalg').toString().trim(),
+      lat,
+      lon,
+      mapsUrl,
     };
   }
 
@@ -253,6 +273,16 @@
   }).addTo(map);
   const markers = L.layerGroup().addTo(map);
 
+  function escapeHtml(value) {
+    return (value || '')
+      .toString()
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   function renderList(filtered) {
     listEl.innerHTML = '';
     markers.clearLayers();
@@ -270,7 +300,22 @@
       const div = document.createElement('div');
       div.className = 'item';
       const products = (shop.products || []).join(', ');
-      div.innerHTML = `<strong>${shop.name}</strong><br>${shop.address || ''} ${shop.municipality || ''}, ${shop.region || ''}<br>Produkter: ${products}<br><a href='${shop.website}' target='_blank' rel='noopener'>Nettside</a>`;
+      const location = [shop.address, shop.municipality, shop.region].filter(Boolean).join(', ');
+      const phoneLine = shop.phone ? `<div class="item-sub">📞 ${escapeHtml(shop.phone)}</div>` : '';
+      const openingLine = shop.openingHours ? `<div class="item-sub">🕒 ${escapeHtml(shop.openingHours)}</div>` : '';
+      const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
+      const mapsLink = shop.mapsUrl ? `<a class="item-link" href="${shop.mapsUrl}" target="_blank" rel="noopener">Kart</a>` : '';
+      div.innerHTML = `
+        <div class="item-title">${escapeHtml(shop.name)}</div>
+        <div class="item-meta">${escapeHtml(shop.category || 'Gårdsutsalg')} · ${escapeHtml(location)}</div>
+        ${phoneLine}
+        ${openingLine}
+        ${productsLine}
+        <div class="item-actions">
+          <a class="item-link" href="${shop.website}" target="_blank" rel="noopener">Nettside</a>
+          ${mapsLink}
+        </div>
+      `;
       listEl.appendChild(div);
 
       if (shop.lat && shop.lon) {
@@ -339,6 +384,11 @@
     const osmType = osmTypeMap[item.osm_type] || 'node';
     const osmId = item.osm_id || '';
     const name = item.name || (item.display_name || '').split(',')[0] || 'Ukjent gårdsutsalg';
+    const lat = item.lat ? Number(item.lat) : null;
+    const lon = item.lon ? Number(item.lon) : null;
+    const mapsUrl = (lat != null && lon != null)
+      ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
+      : (osmId ? `https://www.openstreetmap.org/${osmType}/${osmId}` : '');
     const website = item?.extratags?.website || buildWebsiteFallback(name, municipality, region, countryLabel);
     return {
       id: `web-${osmType}-${osmId}`,
@@ -348,9 +398,13 @@
       municipality,
       products: ['Web-funnet gårdsutsalg'],
       website,
-      lat: item.lat ? Number(item.lat) : null,
-      lon: item.lon ? Number(item.lon) : null,
+      lat,
+      lon,
       address: item.display_name || '',
+      phone: item?.extratags?.phone || item?.extratags?.['contact:phone'] || '',
+      openingHours: item?.extratags?.opening_hours || '',
+      category: item?.type || 'Gårdsutsalg',
+      mapsUrl,
     };
   }
 
@@ -370,6 +424,9 @@
     const osmUrl = `https://www.openstreetmap.org/${element.type}/${element.id}`;
     const name = tags.name || tags.brand || tags.operator || 'Ukjent gårdsutsalg';
     const website = tags.website || tags['contact:website'] || buildWebsiteFallback(name, municipality, region, countryLabel);
+    const mapsUrl = (lat != null && lon != null)
+      ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
+      : osmUrl;
     return {
       id: `web-overpass-${element.type}-${element.id}`,
       name,
@@ -383,6 +440,10 @@
       lat: lat ? Number(lat) : null,
       lon: lon ? Number(lon) : null,
       address: buildAddressFromTags(tags, municipality) || tags.description || municipality,
+      phone: tags.phone || tags['contact:phone'] || '',
+      openingHours: tags.opening_hours || '',
+      category: tags.shop || tags.amenity || 'Gårdsutsalg',
+      mapsUrl,
     };
   }
 
@@ -759,6 +820,7 @@ out center tags 120;
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
+    ensureAiSearchEngineDefault();
     if (sortSelect) sortSelect.value = 'name_asc';
     await populateRegions('');
     await populateMunicipalities('', '');
@@ -828,6 +890,7 @@ out center tags 120;
   }
 
   populateCountries();
+  ensureAiSearchEngineDefault();
   await populateRegions('');
   await populateMunicipalities('', '');
   activeFiltered = shops;
