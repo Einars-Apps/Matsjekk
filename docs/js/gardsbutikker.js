@@ -1505,9 +1505,11 @@ out center tags 150;
 
     if (engine === 'ai') {
       const aiPrompt = [
-        `Finn faktiske gårdsbutikker/gårdsutsalg i eller nær ${[municipalityQuery, region, country].filter(Boolean).join(', ')}.`,
-        'Returner kun verifiserbare steder med navn, adresse/sted, åpningstider (hvis kjent) og direkte lenke til offisiell nettside eller kart.',
-        'Filtrer bort rapporter, PDF, myndighetsdokumenter, oppskrifter, restauranter og generelle artikler.',
+        `Finn minst 12 faktiske gårdsbutikker/gårdsutsalg i eller nær ${[municipalityQuery, region, country].filter(Boolean).join(', ')}.`,
+        'Hvis det er færre enn 12 i valgt kommune, utvid søket trinnvis til nabokommuner (ca. 30–60 km), deretter resten av valgt region/fylke.',
+        'Returner kun verifiserbare steder med navn, adresse/sted, produkter (hvis kjent), åpningstider (hvis kjent) og direkte lenke til offisiell nettside eller kart.',
+        'Ekskluder rapporter, PDF, myndighetsdokumenter, oppskrifter, restauranter, hoteller og generelle artikler.',
+        'Prioriter gårdsbutikk/gårdsutsalg, selvbetjent gårdsbutikk, REKO-utlevering og bondens marked med konkret produsentnavn.',
         `Bruk denne søkeintensjonen: ${effectiveAiQuery}`,
       ].join(' ');
       const aiUrl = `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`;
