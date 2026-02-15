@@ -464,6 +464,39 @@
     return unique(names);
   }
 
+  function normalizeAdminLabel(value) {
+    return (value || '')
+      .toString()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/['’`´.-]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function municipalityApiMatchesRegion(item, regionLabel) {
+    if (!regionLabel) return true;
+    const target = normalizeAdminLabel(regionLabel);
+    if (!target) return true;
+
+    const address = item?.address || {};
+    const candidates = [
+      address.state,
+      address.province,
+      address.region,
+      address.county,
+      address.state_district,
+    ]
+      .map((value) => normalizeAdminLabel(value))
+      .filter(Boolean);
+
+    if (!candidates.length) return false;
+    return candidates.some((value) =>
+      value === target || value.includes(target) || target.includes(value)
+    );
+  }
+
   async function fetchCountryRegions(countryCode) {
     if (!countryCode) return [];
     if (regionCache.has(countryCode)) return regionCache.get(countryCode);
@@ -499,7 +532,9 @@
       fetchNominatimAdmin(countryCode, `&q=${encodeURIComponent(`${regionPart}${countryName} municipality`)}`),
     ]);
 
-    const fromApi = collectMunicipalityNames([...cityLike, ...queryLike]);
+    const apiItems = [...cityLike, ...queryLike]
+      .filter((item) => municipalityApiMatchesRegion(item, regionLabel));
+    const fromApi = collectMunicipalityNames(apiItems);
     const fromData = unique(
       shops
         .filter((shop) => shop.countryCode === countryCode && (!regionLabel || shop.region === regionLabel))
@@ -507,7 +542,7 @@
     );
 
     const fromRegionFallback = regionFallbackMunicipalities(countryCode, regionLabel);
-    const fromFallback = fromRegionFallback.length
+    const fromFallback = regionLabel
       ? fromRegionFallback
       : (COUNTRY_MUNICIPALITIES_FALLBACK[countryCode] || []);
     const municipalities = unique([...fromApi, ...fromData, ...fromFallback]);
@@ -620,7 +655,7 @@
     const regionSpecificFallback = regionFallbackMunicipalities(effectiveCountryCode, regionLabel);
     const immediateMunicipalities = effectiveCountryCode
       ? unique([
-        ...(regionSpecificFallback.length
+        ...(regionLabel
           ? regionSpecificFallback
           : (COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || [])),
         ...shops
