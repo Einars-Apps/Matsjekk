@@ -305,12 +305,18 @@
       const openingLine = shop.openingHours ? `<div class="item-sub">🕒 ${escapeHtml(shop.openingHours)}</div>` : '';
       const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
       const mapsLink = shop.mapsUrl ? `<a class="item-link" href="${shop.mapsUrl}" target="_blank" rel="noopener">Kart</a>` : '';
+      const image = shop.imageUrl ? `<img class="item-thumb" src="${shop.imageUrl}" alt="${escapeHtml(shop.name)}" loading="lazy" />` : '';
       div.innerHTML = `
-        <div class="item-title">${escapeHtml(shop.name)}</div>
-        <div class="item-meta">${escapeHtml(shop.category || 'Gårdsutsalg')} · ${escapeHtml(location)}</div>
-        ${phoneLine}
-        ${openingLine}
-        ${productsLine}
+        <div class="item-row">
+          ${image}
+          <div class="item-content">
+            <div class="item-title">${escapeHtml(shop.name)}</div>
+            <div class="item-meta">${escapeHtml(shop.category || 'Gårdsutsalg')} · ${escapeHtml(location)}</div>
+            ${phoneLine}
+            ${openingLine}
+            ${productsLine}
+          </div>
+        </div>
         <div class="item-actions">
           <a class="item-link" href="${shop.website}" target="_blank" rel="noopener">Nettside</a>
           ${mapsLink}
@@ -369,6 +375,73 @@
     return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
   }
 
+  function normalizeWebsite(url) {
+    const value = (url || '').toString().trim();
+    if (!value) return '';
+    if (/^https?:\/\//i.test(value)) return value;
+    if (/^www\./i.test(value)) return `https://${value}`;
+    if (/^[a-z0-9.-]+\.[a-z]{2,}(\/.*)?$/i.test(value)) return `https://${value}`;
+    return value;
+  }
+
+  function isFallbackWebsite(url) {
+    return /google\.com\/search\?q=/i.test((url || '').toString());
+  }
+
+  function buildStaticMapImage(lat, lon) {
+    if (lat == null || lon == null) return '';
+    return `https://staticmap.openstreetmap.de/staticmap.php?center=${encodeURIComponent(`${lat},${lon}`)}&zoom=15&size=320x180&markers=${encodeURIComponent(`${lat},${lon},red-pushpin`)}`;
+  }
+
+  function buildImageUrlFromTags(tags, lat, lon) {
+    const direct = tags.image || tags['image:0'] || tags['contact:image'];
+    if (direct && /^https?:\/\//i.test(direct)) return direct;
+
+    const commonsFile = tags.wikimedia_commons || tags['wikimedia:commons'];
+    if (commonsFile) {
+      const fileName = commonsFile.replace(/^File:/i, '').trim();
+      return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName)}?width=640`;
+    }
+
+    if (direct && /^File:/i.test(direct)) {
+      const fileName = direct.replace(/^File:/i, '').trim();
+      return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName)}?width=640`;
+    }
+
+    return buildStaticMapImage(lat, lon);
+  }
+
+  function inferProducts(name, category, existingProducts) {
+    if (Array.isArray(existingProducts) && existingProducts.length) return existingProducts;
+    const text = `${name || ''} ${category || ''}`.toLowerCase();
+    const inferred = [];
+    if (/cider|sider/.test(text)) inferred.push('Cider/sider');
+    if (/frukt|eple|apple/.test(text)) inferred.push('Frukt og epleprodukter');
+    if (/ost|cheese|ysteri/.test(text)) inferred.push('Ost og meieri');
+    if (/kjøtt|kjott|meat/.test(text)) inferred.push('Kjøttprodukter');
+    if (/egg/.test(text)) inferred.push('Egg');
+    if (/honning|honey/.test(text)) inferred.push('Honning');
+    return inferred.length ? inferred : ['Lokale gårdsprodukter'];
+  }
+
+  function candidateScore(shop) {
+    let score = 0;
+    const category = (shop.category || '').toLowerCase();
+    if (category.includes('farm') || category.includes('gård') || category.includes('gards')) score += 3;
+    if (shop.lat != null && shop.lon != null) score += 2;
+    if (shop.phone) score += 2;
+    if (shop.openingHours) score += 2;
+    if (shop.products && shop.products.length) score += 2;
+    if (shop.imageUrl) score += 1;
+    if (shop.website && !isFallbackWebsite(shop.website)) score += 3;
+    if (/restaurant|kafe|cafe|supermarket|grocery/.test(category)) score -= 4;
+    return score;
+  }
+
+  function keepHighQuality(shop) {
+    return candidateScore(shop) >= 4;
+  }
+
   function looksLikeFarmOutlet(item) {
     const text = `${item.name || ''} ${item.display_name || ''} ${item.type || ''} ${item.class || ''}`.toLowerCase();
     const strong = [
@@ -389,22 +462,26 @@
     const mapsUrl = (lat != null && lon != null)
       ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
       : (osmId ? `https://www.openstreetmap.org/${osmType}/${osmId}` : '');
-    const website = item?.extratags?.website || buildWebsiteFallback(name, municipality, region, countryLabel);
+    const website = normalizeWebsite(item?.extratags?.website || item?.extratags?.['contact:website']) || buildWebsiteFallback(name, municipality, region, countryLabel);
+    const category = item?.type || 'Gårdsutsalg';
+    const products = inferProducts(name, category, []);
+    const imageUrl = buildImageUrlFromTags(item?.extratags || {}, lat, lon);
     return {
       id: `web-${osmType}-${osmId}`,
       name,
       country: countryLabel,
       region,
       municipality,
-      products: ['Web-funnet gårdsutsalg'],
+      products,
       website,
       lat,
       lon,
       address: item.display_name || '',
       phone: item?.extratags?.phone || item?.extratags?.['contact:phone'] || '',
       openingHours: item?.extratags?.opening_hours || '',
-      category: item?.type || 'Gårdsutsalg',
+      category,
       mapsUrl,
+      imageUrl,
     };
   }
 
@@ -423,7 +500,12 @@
     const lon = element?.lon ?? element?.center?.lon ?? null;
     const osmUrl = `https://www.openstreetmap.org/${element.type}/${element.id}`;
     const name = tags.name || tags.brand || tags.operator || 'Ukjent gårdsutsalg';
-    const website = tags.website || tags['contact:website'] || buildWebsiteFallback(name, municipality, region, countryLabel);
+    const website = normalizeWebsite(tags.website || tags['contact:website']) || buildWebsiteFallback(name, municipality, region, countryLabel);
+    const category = tags.shop || tags.amenity || 'Gårdsutsalg';
+    const products = inferProducts(name, category, tags.produce
+      ? tags.produce.split(/[;,]/).map((part) => part.trim()).filter(Boolean)
+      : []);
+    const imageUrl = buildImageUrlFromTags(tags, lat, lon);
     const mapsUrl = (lat != null && lon != null)
       ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
       : osmUrl;
@@ -433,17 +515,16 @@
       country: countryLabel,
       region,
       municipality,
-      products: tags.produce
-        ? tags.produce.split(/[;,]/).map((part) => part.trim()).filter(Boolean)
-        : ['Web-funnet gårdsutsalg'],
+      products,
       website,
       lat: lat ? Number(lat) : null,
       lon: lon ? Number(lon) : null,
       address: buildAddressFromTags(tags, municipality) || tags.description || municipality,
       phone: tags.phone || tags['contact:phone'] || '',
       openingHours: tags.opening_hours || '',
-      category: tags.shop || tags.amenity || 'Gårdsutsalg',
+      category,
       mapsUrl,
+      imageUrl,
     };
   }
 
@@ -502,7 +583,7 @@ out center tags 120;
           type: '',
           class: '',
         };
-        return looksLikeFarmOutlet(syntheticItem);
+        return looksLikeFarmOutlet(syntheticItem) && keepHighQuality(shop);
       });
     return mergeShopLists([], mapped).slice(0, 40);
   }
@@ -545,8 +626,12 @@ out center tags 120;
     ]);
     const flattened = results.flat();
     const filtered = flattened.filter((item) => looksLikeFarmOutlet(item));
-    const mapped = filtered.map((item) => toWebShop(item, muni, region, country));
-    const unique = mergeShopLists(mapped, overpassCandidates).slice(0, 40);
+    const mapped = filtered
+      .map((item) => toWebShop(item, muni, region, country))
+      .filter((shop) => keepHighQuality(shop));
+    const unique = mergeShopLists(mapped, overpassCandidates)
+      .sort((left, right) => candidateScore(right) - candidateScore(left))
+      .slice(0, 40);
     webCandidateCache.set(cacheKey, unique);
     return unique;
   }
