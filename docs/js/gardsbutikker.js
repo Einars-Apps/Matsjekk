@@ -174,6 +174,17 @@
     return [...new Set(aliases)];
   }
 
+  function municipalityMatches(shopMunicipality, municipalityTerms) {
+    if (!municipalityTerms.length) return true;
+    const shopKey = municipalityKey(shopMunicipality || '');
+    if (!shopKey) return false;
+    return municipalityTerms.some((term) =>
+      shopKey === term ||
+      shopKey.includes(term) ||
+      term.includes(shopKey)
+    );
+  }
+
   function populateCountries() {
     countrySelect.innerHTML = '<option value="">Velg land</option>' +
       WEST_EUROPE.map((country) => `<option value="${country.code}">${country.name}</option>`).join('');
@@ -350,8 +361,13 @@
       `gårdsutsalg ${muni} ${country}`,
       `farm shop ${muni} ${country}`,
       `local farm store ${muni} ${country}`,
+      `gård ${muni} ${country}`,
+      `fruktgård ${muni} ${country}`,
+      `cidergård ${muni} ${country}`,
       ...locationTerms.map((name) => `${q || 'gårdsbutikk'} ${name} ${region} ${country}`),
       ...locationTerms.map((name) => `gårdsutsalg ${name} ${country}`),
+      ...locationTerms.map((name) => `gård ${name} ${country}`),
+      ...locationTerms.map((name) => `fruktgård ${name} ${country}`),
     ];
 
     const results = await Promise.all(terms.map((term) => searchNominatim(term, countryCode)));
@@ -382,7 +398,7 @@
         ? (shop.region || '').toLowerCase() === (regionText || '').toLowerCase()
         : shop.region === regionValue);
       const municipalityMatch = !municipalityValue || (countryCode === 'NO'
-        ? municipalityTerms.includes(municipalityKey(shop.municipality || ''))
+        ? municipalityMatches(shop.municipality || '', municipalityTerms)
         : shop.municipality === municipalityValue);
       return countryMatch && regionMatch && municipalityMatch;
     });
@@ -412,6 +428,22 @@
       const merged = mergeShopLists(filtered, liveCandidates);
       activeFiltered = merged;
       renderList(merged);
+
+      if (countryCode === 'NO' && municipalityText && merged.length <= 2) {
+        const regionWideCandidates = await fetchLiveCandidates({
+          countryCode,
+          countryLabel: countryText,
+          regionLabel: regionText,
+          municipalityLabel: '',
+          query: query || 'gårdsbutikk',
+        });
+        if (runId !== filterRunId) return merged;
+        const mergedRegionWide = mergeShopLists(merged, regionWideCandidates);
+        activeFiltered = mergedRegionWide;
+        renderList(mergedRegionWide);
+        return mergedRegionWide;
+      }
+
       return merged;
     } catch (error) {
       console.warn('Could not enrich farmshop list with live web candidates.', error);
