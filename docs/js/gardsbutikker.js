@@ -261,6 +261,7 @@
   const sortSelect = document.getElementById('sortSelect');
   const searchInput = document.getElementById('searchInput');
   const listEl = document.getElementById('list');
+  const resultsHeadingEl = document.getElementById('resultsHeading');
   const mapEl = document.getElementById('map');
   const mapHeightDown = document.getElementById('mapHeightDown');
   const mapHeightUp = document.getElementById('mapHeightUp');
@@ -806,6 +807,63 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  function haversineKm(lat1, lon1, lat2, lon2) {
+    const toRad = (value) => value * (Math.PI / 180);
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a = Math.sin(dLat / 2) ** 2 +
+      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+    return 6371 * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
+  }
+
+  async function loadNearbyRealShopsFromPosition(lat, lon, radiusKm = 50) {
+    const geo = await reverseGeocodeMunicipality(lat, lon);
+    const countryCode = normalizeCountryCode(geo?.countryCode || countrySelect.value);
+    const countryLabel = countryCode ? countryNameByCode(countryCode) : (selectedText(countrySelect) || '');
+    const regionLabel = geo?.region || selectedText(regionSelect) || '';
+    const municipalityLabel = geo?.municipality || selectedText(muniSelect) || '';
+
+    if (geo?.countryCode && [...countrySelect.options].some((option) => option.value === geo.countryCode)) {
+      countrySelect.value = geo.countryCode;
+      await populateRegions(geo.countryCode);
+      if (regionLabel) {
+        const regionMatch = [...regionSelect.options].find((option) =>
+          (option.value || '').toLowerCase() === regionLabel.toLowerCase()
+        );
+        if (regionMatch) regionSelect.value = regionMatch.value;
+      }
+      await populateMunicipalities(countrySelect.value, regionSelect.value);
+      if (municipalityLabel) {
+        const municipalityMatch = [...muniSelect.options].find((option) =>
+          (option.value || '').toLowerCase() === municipalityLabel.toLowerCase()
+        );
+        if (municipalityMatch) muniSelect.value = municipalityMatch.value;
+      }
+    }
+
+    const radiusMeters = Math.round(radiusKm * 1000);
+    const nearbyElements = await searchOverpassAroundPoint(lat, lon, radiusMeters);
+    const nearbyLive = nearbyElements
+      .map((element) => toOverpassShop(element, municipalityLabel, regionLabel, countryLabel))
+      .filter((shop) => keepHighQuality(shop))
+      .filter((shop) => shop.lat != null && shop.lon != null)
+      .filter((shop) => haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)) <= radiusKm);
+
+    const nearbyLocal = shops
+      .filter((shop) => shop.lat != null && shop.lon != null)
+      .filter((shop) => haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)) <= radiusKm);
+
+    const merged = mergeShopLists(nearbyLocal, nearbyLive)
+      .sort((left, right) => candidateScore(right) - candidateScore(left));
+
+    activeFiltered = merged;
+    renderList(merged);
+    if (resultsHeadingEl) {
+      resultsHeadingEl.textContent = `Gårdsbutikker nær deg (${radiusKm} km)`;
+    }
+    return merged;
   }
 
   function renderList(filtered) {
@@ -1666,9 +1724,7 @@ out center tags 150;
     myMunicipalityBtn.addEventListener('click', () => {
       navigator.geolocation.getCurrentPosition(async (position) => {
         try {
-          const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
-          await chooseBestMunicipality(geo);
-          runAreaWebSearch();
+          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
         } catch (_) {
           alert('Fant ikke kommune fra posisjon.');
         }
@@ -1722,6 +1778,23 @@ out center tags 150;
   ensureAiSearchEngineDefault();
   await populateRegions('');
   await populateMunicipalities('', '');
-  activeFiltered = shops;
-  renderList(shops);
+  if (resultsHeadingEl) {
+    resultsHeadingEl.textContent = 'Gårdsbutikker nær deg';
+  }
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(async (position) => {
+      try {
+        await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
+      } catch (_) {
+        activeFiltered = shops;
+        renderList(shops);
+      }
+    }, () => {
+      activeFiltered = shops;
+      renderList(shops);
+    }, { enableHighAccuracy: true, timeout: 10000 });
+  } else {
+    activeFiltered = shops;
+    renderList(shops);
+  }
 })();
