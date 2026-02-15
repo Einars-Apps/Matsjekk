@@ -156,6 +156,13 @@
     return match ? match.name : code;
   }
 
+  function resolveCountryCode(preferredCode) {
+    const normalizedPreferred = normalizeCountryCode(preferredCode);
+    if (normalizedPreferred) return normalizedPreferred;
+    const selectedCountryLabel = selectedText(countrySelect);
+    return normalizeCountryCode(selectedCountryLabel);
+  }
+
   async function loadShops(url) {
     const response = await fetch(url, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -236,7 +243,18 @@
     const response = await fetch(`${base}${extraParams}`, { cache: 'no-cache' });
     if (!response.ok) return [];
     const payload = await response.json();
-    return Array.isArray(payload) ? payload : [];
+    const items = Array.isArray(payload) ? payload : [];
+    const expectedCountry = (countryCode || '').toLowerCase();
+    if (!expectedCountry) return items;
+
+    return items.filter((item) => {
+      const itemCountry = (item?.address?.country_code || '').toLowerCase();
+      if (itemCountry) return itemCountry === expectedCountry;
+
+      const displayName = (item?.display_name || '').toLowerCase();
+      const countryName = countryNameByCode(countryCode).toLowerCase();
+      return !!countryName && (displayName.endsWith(countryName) || displayName.includes(`, ${countryName}`));
+    });
   }
 
   function collectRegionNames(items) {
@@ -355,7 +373,8 @@
   }
 
   async function populateRegions(countryCode) {
-    if (countryCode === 'NO') {
+    const effectiveCountryCode = resolveCountryCode(countryCode);
+    if (effectiveCountryCode === 'NO') {
       await ensureNorwayGeoData();
       if (norwayCounties.length) {
         regionSelect.innerHTML = '<option value="">Velg fylke</option>' +
@@ -367,13 +386,9 @@
       return;
     }
 
-    const regions = countryCode
-      ? await fetchCountryRegions(countryCode)
-      : unique(
-        shops
-          .filter((shop) => !countryCode || shop.countryCode === countryCode)
-          .map((shop) => shop.region)
-      );
+    const regions = effectiveCountryCode
+      ? await fetchCountryRegions(effectiveCountryCode)
+      : [];
 
     regionSelect.innerHTML = '<option value="">Velg fylke/region</option>' +
       regions.map((region) => `<option value="${region}">${region}</option>`).join('');
@@ -381,7 +396,8 @@
   }
 
   async function populateMunicipalities(countryCode, regionValue) {
-    if (countryCode === 'NO') {
+    const effectiveCountryCode = resolveCountryCode(countryCode);
+    if (effectiveCountryCode === 'NO') {
       await ensureNorwayGeoData();
       const municipalities = norwayMunicipalities.filter((municipality) =>
         !regionValue || municipality.countyCode === regionValue
@@ -392,13 +408,9 @@
     }
 
     const regionLabel = regionValue || selectedText(regionSelect);
-    const municipalities = countryCode
-      ? await fetchCountryMunicipalities(countryCode, regionLabel)
-      : unique(
-        shops
-          .filter((shop) => (!countryCode || shop.countryCode === countryCode) && (!regionValue || shop.region === regionValue))
-          .map((shop) => shop.municipality)
-      );
+    const municipalities = effectiveCountryCode
+      ? await fetchCountryMunicipalities(effectiveCountryCode, regionLabel)
+      : [];
 
     muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
       municipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
@@ -1103,6 +1115,13 @@ out center tags 150;
       country,
       '-oppskrift -meny -restaurant -wikipedia',
     ].filter(Boolean).join(' ');
+    const strictNoiseExclusions = [
+      '-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia',
+      '-site:perplexity.ai', '-site:tripadvisor.com', '-site:reddit.com',
+      '-site:facebook.com', '-site:instagram.com', '-site:tiktok.com',
+      '-site:youtube.com', '-site:pinterest.com', '-site:1881.no',
+      '-site:gulesider.no',
+    ].join(' ');
     const googleActionable = [
       query || 'gårdsbutikk',
       '(gårdsbutikk OR gårdsutsalg OR "farm shop")',
@@ -1110,15 +1129,24 @@ out center tags 150;
       region,
       country,
       '(nettside OR åpningstider OR adresse)',
-      '-oppskrift -meny -restaurant -wikipedia',
+      strictNoiseExclusions,
     ].filter(Boolean).join(' ');
     const engine = searchEngineSelect ? searchEngineSelect.value : 'google';
-    const aiPrompt = `Finn minst 12 faktiske gårdsbutikker/gårdsutsalg i eller nær ${municipalityQuery} ${region} ${country}. Krav per oppføring: navn, kommune, adresse eller tydelig sted, produkter (hvis kjent), samt direkte lenke til offisiell nettside eller kart. Filtrer bort restauranter, oppskrifter, hotell og generelle artikler. Returner kun verifiserbare steder.`;
+    const aiQualityQuery = [
+      query || 'gårdsbutikk',
+      '("gårdsbutikk" OR "gårdsutsalg" OR "farm shop" OR "farm store" OR hofladen OR "ferme boutique")',
+      municipalityQuery,
+      region,
+      country,
+      '(offisiell nettside OR adresse OR åpningstider OR kontakt OR bestilling)',
+      strictNoiseExclusions,
+    ].filter(Boolean).join(' ');
     if (engine === 'ai') {
-      const aiUrl = `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`;
-      const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(googleActionable)}`;
-      window.open(aiUrl, '_blank', 'noopener');
+      const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(aiQualityQuery)}`;
+      const mapsQuery = [query || 'gårdsbutikk', municipality || municipalityQuery, region, country].filter(Boolean).join(' ');
+      const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
       window.open(googleUrl, '_blank', 'noopener');
+      window.open(mapsUrl, '_blank', 'noopener');
       return;
     }
 
@@ -1181,13 +1209,15 @@ out center tags 150;
   }
 
   countrySelect.addEventListener('change', async () => {
-    await populateRegions(countrySelect.value);
-    await populateMunicipalities(countrySelect.value, '');
+    const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    await populateRegions(selectedCountryCode);
+    await populateMunicipalities(selectedCountryCode, '');
     filterShops();
   });
 
   regionSelect.addEventListener('change', async () => {
-    await populateMunicipalities(countrySelect.value, regionSelect.value);
+    const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    await populateMunicipalities(selectedCountryCode, regionSelect.value);
     filterShops();
   });
 
