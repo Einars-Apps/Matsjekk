@@ -51,6 +51,21 @@
     royken: ['asker', 'hurum', 'røyken', 'royken'],
   };
 
+  const TRUSTED_NORWAY_SEEDS = [
+    { name: 'Bergvang Gård', municipality: 'Asker', region: 'Akershus', address: 'Bergvangveien 21, Asker', products: ['Egg', 'Kjøtt', 'Honning'], website: 'https://www.google.com/search?q=Bergvang+G%C3%A5rd+Asker' },
+    { name: 'Grønnsletta Gård', municipality: 'Hurum', region: 'Akershus', address: 'Tofteveien 40, Hurum/Asker', products: ['Lam', 'Pølser', 'Honning', 'Egg'], website: 'https://www.google.com/search?q=Gr%C3%B8nnsletta+G%C3%A5rd+Hurum' },
+    { name: 'Hurum Hjort – Solberg Gård', municipality: 'Hurum', region: 'Akershus', address: 'Solbergveien 2, Hurum/Asker', products: ['Hjortekjøtt'], website: 'https://www.google.com/search?q=Hurum+Hjort+Solberg+G%C3%A5rd' },
+    { name: 'Sand Gård', municipality: 'Hurum', region: 'Akershus', address: 'Storengene 2/4, Kana', products: ['Bakerivarer', 'Lokale produkter'], website: 'https://www.google.com/search?q=Sand+G%C3%A5rd+Kana' },
+    { name: 'Biffgården', municipality: 'Hurum', region: 'Akershus', address: 'Holmsbu-området', products: ['Kjøtt', 'Skinn', 'Ved'], website: 'https://www.google.com/search?q=Biffg%C3%A5rden+Holmsbu' },
+    { name: 'Bergsmyrene Gård', municipality: 'Hurum', region: 'Akershus', address: 'Søndre Hurum/Asker', products: ['Grønnsaker'], website: 'https://www.google.com/search?q=Bergsmyrene+G%C3%A5rd' },
+    { name: 'Bonden Jens', municipality: 'Røyken', region: 'Akershus', address: 'Hurumveien 13, 3440 Røyken', products: ['Grønnsaker', 'Bær', 'Selvplukk'], website: 'https://www.google.com/search?q=Bonden+Jens+R%C3%B8yken' },
+    { name: 'Hyggen Gård / Hyggen Eplemost', municipality: 'Røyken', region: 'Akershus', address: 'Hyggen, Røyken/Asker', products: ['Eplemost', 'Epleprodukter'], website: 'https://www.google.com/search?q=Hyggen+Eplemost' },
+    { name: 'Bryggerhuset på Frøtvedt', municipality: 'Røyken', region: 'Akershus', address: 'Røyken-området', products: ['Bakerivarer'], website: 'https://www.google.com/search?q=Bryggerhuset+p%C3%A5+Fr%C3%B8tvedt' },
+    { name: 'Syse Gard', municipality: 'Ulvik', region: 'Vestland', address: 'Apalvegen, 5730 Ulvik', products: ['Eplesider', 'Eplemost', 'Frukt'], website: 'https://sysegard.no' },
+    { name: 'Ulvik Frukt & Cideri', municipality: 'Ulvik', region: 'Vestland', address: 'Håkastad, Ulvik', products: ['Eplesorter', 'Eplemost', 'Sider'], website: 'https://hakastadsider.no' },
+    { name: 'Hardanger Saft- og Siderfabrikk', municipality: 'Ulvik', region: 'Vestland', address: 'Lekve, Ulvik', products: ['Eplemost', 'Sider', 'Saft'], website: 'https://hardangersider.no' },
+  ];
+
   let shops = [];
   let norwayCounties = [];
   let norwayMunicipalities = [];
@@ -449,6 +464,39 @@
     return candidateScore(shop) >= 3;
   }
 
+  function toSeedShop(seed, countryLabel) {
+    const website = normalizeWebsite(seed.website) || buildWebsiteFallback(seed.name, seed.municipality, seed.region, countryLabel);
+    return {
+      id: `seed-${municipalityKey(seed.name)}`,
+      name: seed.name,
+      country: countryLabel,
+      region: seed.region,
+      municipality: seed.municipality,
+      products: seed.products || ['Lokale gårdsprodukter'],
+      website,
+      lat: null,
+      lon: null,
+      address: seed.address || '',
+      phone: '',
+      openingHours: '',
+      category: 'Gårdsutsalg',
+      mapsUrl: seed.address
+        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(seed.address)}`
+        : '',
+      imageUrl: '',
+    };
+  }
+
+  function getTrustedSeedCandidates(countryCode, countryLabel, municipalityLabel) {
+    if (countryCode !== 'NO' || !municipalityLabel) return [];
+    const variants = municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value));
+    const seeds = TRUSTED_NORWAY_SEEDS.filter((entry) => {
+      const muniKey = municipalityKey(entry.municipality);
+      return variants.includes(muniKey) || variants.some((value) => muniKey.includes(value) || value.includes(muniKey));
+    });
+    return seeds.map((entry) => toSeedShop(entry, countryLabel));
+  }
+
   function bboxArea(box) {
     if (!box) return 0;
     const latSpan = Math.max(0, box.north - box.south);
@@ -636,6 +684,8 @@ out center tags 120;
     const country = countryLabel || '';
     const q = query || '';
     const cacheKey = `${countryCode}|${muni}|${region}|${q}`;
+      const seedCandidates = getTrustedSeedCandidates(countryCode, country, muni);
+
     if (webCandidateCache.has(cacheKey)) {
       return webCandidateCache.get(cacheKey);
     }
@@ -671,7 +721,7 @@ out center tags 120;
     const mapped = filtered
       .map((item) => toWebShop(item, muni, region, country))
       .filter((shop) => keepHighQuality(shop));
-    let unique = mergeShopLists(mapped, overpassCandidates)
+    let unique = mergeShopLists(mergeShopLists(seedCandidates, mapped), overpassCandidates)
       .sort((left, right) => candidateScore(right) - candidateScore(left))
       .slice(0, 40);
 
