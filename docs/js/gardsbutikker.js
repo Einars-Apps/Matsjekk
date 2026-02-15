@@ -62,6 +62,124 @@
     LU: ['Luxembourg', 'Esch-sur-Alzette', 'Differdange', 'Dudelange', 'Ettelbruck'],
   };
 
+  const COUNTRY_REGION_MUNICIPALITIES_FALLBACK = {
+    SE: {
+      'Stockholms län': ['Stockholm', 'Södertälje', 'Norrtälje', 'Nacka', 'Täby'],
+      'Västra Götalands län': ['Göteborg', 'Borås', 'Skövde', 'Uddevalla', 'Lidköping'],
+      'Skåne län': ['Malmö', 'Lund', 'Helsingborg', 'Ystad', 'Kristianstad'],
+      'Uppsala län': ['Uppsala', 'Enköping', 'Tierp', 'Östhammar', 'Knivsta'],
+      'Östergötlands län': ['Linköping', 'Norrköping', 'Motala', 'Mjölby', 'Söderköping'],
+      'Jönköpings län': ['Jönköping', 'Värnamo', 'Nässjö', 'Eksjö', 'Tranås'],
+      'Hallands län': ['Halmstad', 'Varberg', 'Falkenberg', 'Kungsbacka', 'Laholm'],
+      'Dalarnas län': ['Falun', 'Borlänge', 'Mora', 'Leksand', 'Avesta'],
+    },
+    DK: {
+      'Hovedstaden': ['København', 'Frederiksberg', 'Helsingør', 'Hillerød', 'Bornholm'],
+      'Sjælland': ['Roskilde', 'Køge', 'Næstved', 'Slagelse', 'Holbæk'],
+      'Syddanmark': ['Odense', 'Esbjerg', 'Kolding', 'Vejle', 'Svendborg'],
+      'Midtjylland': ['Aarhus', 'Randers', 'Silkeborg', 'Herning', 'Viborg'],
+      'Nordjylland': ['Aalborg', 'Hjørring', 'Frederikshavn', 'Thisted', 'Brønderslev'],
+    },
+    FI: {
+      'Uusimaa': ['Helsinki', 'Espoo', 'Vantaa', 'Porvoo', 'Lohja'],
+      'Varsinais-Suomi': ['Turku', 'Salo', 'Kaarina', 'Raisio', 'Naantali'],
+      'Pirkanmaa': ['Tampere', 'Nokia', 'Ylöjärvi', 'Valkeakoski', 'Sastamala'],
+      'Pohjois-Pohjanmaa': ['Oulu', 'Raahe', 'Kuusamo', 'Kempele', 'Ii'],
+      'Keski-Suomi': ['Jyväskylä', 'Jämsä', 'Äänekoski', 'Saarijärvi', 'Keuruu'],
+      'Lappi': ['Rovaniemi', 'Kemi', 'Tornio', 'Sodankylä', 'Kemijärvi'],
+    },
+    DE: {
+      'Bayern': ['München', 'Nürnberg', 'Augsburg', 'Regensburg', 'Würzburg'],
+      'Baden-Württemberg': ['Stuttgart', 'Karlsruhe', 'Mannheim', 'Freiburg im Breisgau', 'Ulm'],
+      'Nordrhein-Westfalen': ['Köln', 'Düsseldorf', 'Dortmund', 'Essen', 'Bonn'],
+      'Niedersachsen': ['Hannover', 'Braunschweig', 'Osnabrück', 'Oldenburg', 'Göttingen'],
+      'Hessen': ['Frankfurt am Main', 'Wiesbaden', 'Kassel', 'Darmstadt', 'Marburg'],
+      'Sachsen': ['Leipzig', 'Dresden', 'Chemnitz', 'Zwickau', 'Görlitz'],
+      'Berlin': ['Berlin'],
+      'Hamburg': ['Hamburg'],
+    },
+    NL: {
+      'Noord-Holland': ['Amsterdam', 'Haarlem', 'Alkmaar', 'Hilversum', 'Hoorn'],
+      'Zuid-Holland': ['Rotterdam', 'Den Haag', 'Leiden', 'Dordrecht', 'Delft'],
+      'Utrecht': ['Utrecht', 'Amersfoort', 'Nieuwegein', 'Zeist', 'Veenendaal'],
+      'Gelderland': ['Arnhem', 'Nijmegen', 'Apeldoorn', 'Ede', 'Zutphen'],
+      'Noord-Brabant': ['Eindhoven', 'Tilburg', 'Breda', "'s-Hertogenbosch", 'Helmond'],
+      'Limburg': ['Maastricht', 'Venlo', 'Sittard-Geleen', 'Roermond', 'Heerlen'],
+    },
+    BE: {
+      'Vlaanderen': ['Antwerpen', 'Gent', 'Brugge', 'Leuven', 'Hasselt'],
+      'Wallonie': ['Liège', 'Namur', 'Charleroi', 'Mons', 'Arlon'],
+      'Bruxelles-Capitale': ['Brussel', 'Anderlecht', 'Ixelles', 'Schaerbeek', 'Uccle'],
+    },
+    FR: {
+      'Île-de-France': ['Paris', 'Versailles', 'Nanterre', 'Créteil', 'Saint-Denis'],
+      'Normandie': ['Rouen', 'Caen', 'Le Havre', 'Cherbourg-en-Cotentin', 'Évreux'],
+      'Bretagne': ['Rennes', 'Brest', 'Quimper', 'Saint-Malo', 'Vannes'],
+      'Nouvelle-Aquitaine': ['Bordeaux', 'Limoges', 'Poitiers', 'Pau', 'La Rochelle'],
+      'Occitanie': ['Toulouse', 'Montpellier', 'Nîmes', 'Perpignan', 'Albi'],
+      'Auvergne-Rhône-Alpes': ['Lyon', 'Grenoble', 'Clermont-Ferrand', 'Annecy', 'Saint-Étienne'],
+      'Provence-Alpes-Côte d’Azur': ['Marseille', 'Nice', 'Toulon', 'Avignon', 'Aix-en-Provence'],
+    },
+    IT: {
+      'Lombardia': ['Milano', 'Bergamo', 'Brescia', 'Como', 'Pavia'],
+      'Piemonte': ['Torino', 'Cuneo', 'Asti', 'Alessandria', 'Novara'],
+      'Veneto': ['Venezia', 'Verona', 'Padova', 'Treviso', 'Vicenza'],
+      'Emilia-Romagna': ['Bologna', 'Parma', 'Modena', 'Ravenna', 'Rimini'],
+      'Toscana': ['Firenze', 'Siena', 'Pisa', 'Lucca', 'Arezzo'],
+      'Lazio': ['Roma', 'Viterbo', 'Rieti', 'Latina', 'Frosinone'],
+      'Sicilia': ['Palermo', 'Catania', 'Messina', 'Siracusa', 'Trapani'],
+    },
+    PT: {
+      'Norte': ['Porto', 'Braga', 'Guimarães', 'Viana do Castelo', 'Vila Real'],
+      'Centro': ['Coimbra', 'Aveiro', 'Leiria', 'Viseu', 'Castelo Branco'],
+      'Lisboa': ['Lisboa', 'Sintra', 'Cascais', 'Loures', 'Amadora'],
+      'Alentejo': ['Évora', 'Beja', 'Portalegre', 'Sines', 'Elvas'],
+      'Algarve': ['Faro', 'Portimão', 'Lagos', 'Tavira', 'Albufeira'],
+    },
+    ES: {
+      'Andalucía': ['Sevilla', 'Málaga', 'Granada', 'Córdoba', 'Almería'],
+      'Cataluña': ['Barcelona', 'Girona', 'Lleida', 'Tarragona', 'Sabadell'],
+      'Comunidad de Madrid': ['Madrid', 'Alcalá de Henares', 'Getafe', 'Móstoles', 'Leganés'],
+      'Comunitat Valenciana': ['Valencia', 'Alicante', 'Castellón de la Plana', 'Elche', 'Gandia'],
+      'Galicia': ['A Coruña', 'Vigo', 'Santiago de Compostela', 'Lugo', 'Ourense'],
+      'País Vasco': ['Bilbao', 'San Sebastián', 'Vitoria-Gasteiz', 'Getxo', 'Irun'],
+    },
+    GB: {
+      'England': ['London', 'Manchester', 'Birmingham', 'Bristol', 'York'],
+      'Scotland': ['Edinburgh', 'Glasgow', 'Aberdeen', 'Inverness', 'Dundee'],
+      'Wales': ['Cardiff', 'Swansea', 'Newport', 'Wrexham', 'Bangor'],
+      'Northern Ireland': ['Belfast', 'Derry', 'Lisburn', 'Newry', 'Armagh'],
+    },
+    IE: {
+      'Leinster': ['Dublin', 'Kilkenny', 'Wexford', 'Drogheda', 'Bray'],
+      'Munster': ['Cork', 'Limerick', 'Waterford', 'Tralee', 'Ennis'],
+      'Connacht': ['Galway', 'Sligo', 'Castlebar', 'Ballina', 'Roscommon'],
+      'Ulster': ['Letterkenny', 'Monaghan', 'Cavan', 'Donegal', 'Buncrana'],
+    },
+    AT: {
+      'Wien': ['Wien'],
+      'Niederösterreich': ['St. Pölten', 'Wiener Neustadt', 'Krems an der Donau', 'Baden', 'Amstetten'],
+      'Oberösterreich': ['Linz', 'Wels', 'Steyr', 'Gmunden', 'Freistadt'],
+      'Steiermark': ['Graz', 'Leoben', 'Bruck an der Mur', 'Kapfenberg', 'Judenburg'],
+      'Tirol': ['Innsbruck', 'Kufstein', 'Lienz', 'Hall in Tirol', 'Kitzbühel'],
+      'Salzburg': ['Salzburg', 'Hallein', 'Saalfelden am Steinernen Meer', 'Bischofshofen', 'Zell am See'],
+    },
+    CH: {
+      'Zürich': ['Zürich', 'Winterthur', 'Uster', 'Dübendorf', 'Wetzikon'],
+      'Bern': ['Bern', 'Biel/Bienne', 'Thun', 'Köniz', 'Burgdorf'],
+      'Vaud': ['Lausanne', 'Yverdon-les-Bains', 'Montreux', 'Nyon', 'Vevey'],
+      'Aargau': ['Aarau', 'Baden', 'Wettingen', 'Zofingen', 'Brugg'],
+      'Ticino': ['Lugano', 'Bellinzona', 'Locarno', 'Mendrisio', 'Chiasso'],
+      'Genève': ['Genève', 'Carouge', 'Lancy', 'Vernier', 'Meyrin'],
+    },
+    LU: {
+      'Luxembourg': ['Luxembourg', 'Esch-sur-Alzette', 'Differdange', 'Dudelange', 'Hesperange'],
+      'Esch-sur-Alzette': ['Esch-sur-Alzette', 'Schifflange', 'Sanem', 'Mondercange', 'Bettembourg'],
+      'Diekirch': ['Diekirch', 'Ettelbruck', 'Vianden', 'Clervaux', 'Wiltz'],
+      'Grevenmacher': ['Grevenmacher', 'Echternach', 'Remich', 'Junglinster', 'Wormeldange'],
+    },
+  };
+
   const countryAliases = {
     no: 'NO', norge: 'NO', norway: 'NO',
     se: 'SE', sverige: 'SE', sweden: 'SE',
@@ -201,6 +319,15 @@
     if (normalizedPreferred) return normalizedPreferred;
     const selectedCountryLabel = selectedText(countrySelect);
     return normalizeCountryCode(selectedCountryLabel);
+  }
+
+  function regionFallbackMunicipalities(countryCode, regionLabel) {
+    if (!countryCode || !regionLabel) return [];
+    const byRegion = COUNTRY_REGION_MUNICIPALITIES_FALLBACK[countryCode] || {};
+    if (byRegion[regionLabel]) return byRegion[regionLabel];
+    const normalized = (regionLabel || '').toLowerCase().trim();
+    const matched = Object.entries(byRegion).find(([key]) => key.toLowerCase().trim() === normalized);
+    return matched ? matched[1] : [];
   }
 
   async function loadShops(url) {
@@ -379,7 +506,10 @@
         .map((shop) => shop.municipality)
     );
 
-    const fromFallback = COUNTRY_MUNICIPALITIES_FALLBACK[countryCode] || [];
+    const fromRegionFallback = regionFallbackMunicipalities(countryCode, regionLabel);
+    const fromFallback = fromRegionFallback.length
+      ? fromRegionFallback
+      : (COUNTRY_MUNICIPALITIES_FALLBACK[countryCode] || []);
     const municipalities = unique([...fromApi, ...fromData, ...fromFallback]);
     municipalityCache.set(key, municipalities);
     return municipalities;
@@ -487,9 +617,12 @@
     }
 
     const regionLabel = regionValue || selectedText(regionSelect);
+    const regionSpecificFallback = regionFallbackMunicipalities(effectiveCountryCode, regionLabel);
     const immediateMunicipalities = effectiveCountryCode
       ? unique([
-        ...(COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || []),
+        ...(regionSpecificFallback.length
+          ? regionSpecificFallback
+          : (COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || [])),
         ...shops
           .filter((shop) =>
             shop.countryCode === effectiveCountryCode &&
