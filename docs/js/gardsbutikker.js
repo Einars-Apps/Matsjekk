@@ -25,6 +25,43 @@
     { code: 'LU', name: 'Luxembourg' },
   ];
 
+  const COUNTRY_REGIONS_FALLBACK = {
+    NO: ['Akershus', 'Buskerud', 'Finnmark', 'Innlandet', 'Møre og Romsdal', 'Nordland', 'Oslo', 'Rogaland', 'Telemark', 'Troms', 'Trøndelag', 'Vestfold', 'Vestland', 'Østfold'],
+    SE: ['Stockholms län', 'Västra Götalands län', 'Skåne län', 'Uppsala län', 'Östergötlands län', 'Jönköpings län', 'Hallands län', 'Dalarnas län'],
+    DK: ['Hovedstaden', 'Sjælland', 'Syddanmark', 'Midtjylland', 'Nordjylland'],
+    FI: ['Uusimaa', 'Varsinais-Suomi', 'Pirkanmaa', 'Pohjois-Pohjanmaa', 'Keski-Suomi', 'Lappi'],
+    DE: ['Bayern', 'Baden-Württemberg', 'Nordrhein-Westfalen', 'Niedersachsen', 'Hessen', 'Sachsen', 'Berlin', 'Hamburg'],
+    NL: ['Noord-Holland', 'Zuid-Holland', 'Utrecht', 'Gelderland', 'Noord-Brabant', 'Limburg'],
+    BE: ['Vlaanderen', 'Wallonie', 'Bruxelles-Capitale'],
+    FR: ['Île-de-France', 'Normandie', 'Bretagne', 'Nouvelle-Aquitaine', 'Occitanie', 'Auvergne-Rhône-Alpes', 'Provence-Alpes-Côte d’Azur'],
+    IT: ['Lombardia', 'Piemonte', 'Veneto', 'Emilia-Romagna', 'Toscana', 'Lazio', 'Sicilia'],
+    PT: ['Norte', 'Centro', 'Lisboa', 'Alentejo', 'Algarve'],
+    ES: ['Andalucía', 'Cataluña', 'Comunidad de Madrid', 'Comunitat Valenciana', 'Galicia', 'País Vasco'],
+    GB: ['England', 'Scotland', 'Wales', 'Northern Ireland'],
+    IE: ['Leinster', 'Munster', 'Connacht', 'Ulster'],
+    AT: ['Wien', 'Niederösterreich', 'Oberösterreich', 'Steiermark', 'Tirol', 'Salzburg'],
+    CH: ['Zürich', 'Bern', 'Vaud', 'Aargau', 'Ticino', 'Genève'],
+    LU: ['Luxembourg', 'Esch-sur-Alzette', 'Diekirch', 'Grevenmacher'],
+  };
+
+  const COUNTRY_MUNICIPALITIES_FALLBACK = {
+    SE: ['Stockholm', 'Göteborg', 'Malmö', 'Uppsala', 'Västerås'],
+    DK: ['København', 'Aarhus', 'Odense', 'Aalborg', 'Esbjerg'],
+    FI: ['Helsinki', 'Espoo', 'Tampere', 'Turku', 'Oulu'],
+    DE: ['Berlin', 'München', 'Hamburg', 'Köln', 'Frankfurt am Main'],
+    NL: ['Amsterdam', 'Rotterdam', 'Utrecht', 'Den Haag', 'Eindhoven'],
+    BE: ['Brussel', 'Antwerpen', 'Gent', 'Liège', 'Brugge'],
+    FR: ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Bordeaux'],
+    IT: ['Roma', 'Milano', 'Torino', 'Bologna', 'Firenze'],
+    PT: ['Lisboa', 'Porto', 'Braga', 'Coimbra', 'Faro'],
+    ES: ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Bilbao'],
+    GB: ['London', 'Manchester', 'Birmingham', 'Bristol', 'Edinburgh'],
+    IE: ['Dublin', 'Cork', 'Galway', 'Limerick', 'Waterford'],
+    AT: ['Wien', 'Graz', 'Linz', 'Salzburg', 'Innsbruck'],
+    CH: ['Zürich', 'Genève', 'Basel', 'Bern', 'Lausanne'],
+    LU: ['Luxembourg', 'Esch-sur-Alzette', 'Differdange', 'Dudelange', 'Ettelbruck'],
+  };
+
   const countryAliases = {
     no: 'NO', norge: 'NO', norway: 'NO',
     se: 'SE', sverige: 'SE', sweden: 'SE',
@@ -246,7 +283,8 @@
         .map((shop) => shop.region)
     );
 
-    const regions = unique([...fromApi, ...fromData]);
+    const fromFallback = COUNTRY_REGIONS_FALLBACK[countryCode] || [];
+    const regions = unique([...fromApi, ...fromData, ...fromFallback]);
     regionCache.set(countryCode, regions);
     return regions;
   }
@@ -270,7 +308,8 @@
         .map((shop) => shop.municipality)
     );
 
-    const municipalities = unique([...fromApi, ...fromData]);
+    const fromFallback = COUNTRY_MUNICIPALITIES_FALLBACK[countryCode] || [];
+    const municipalities = unique([...fromApi, ...fromData, ...fromFallback]);
     municipalityCache.set(key, municipalities);
     return municipalities;
   }
