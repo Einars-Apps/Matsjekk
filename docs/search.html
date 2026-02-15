@@ -8,6 +8,11 @@
 </head>
 <body>
   <main class="container">
+    <div class="quick-links">
+      <a href="index.html" class="btn">🏠 Matsjekk.com</a>
+      <a href="index.html#news" class="btn">📰 Nyheter</a>
+      <a href="gardsbutikker.html" class="btn">🏬 Gårdsbutikker</a>
+    </div>
     <h1>Søk produkt</h1>
     <p>Søk etter EAN (strekkode) eller produktnavn. Resultatet bruker samme risikologikk som appen (Bovaer, insektmel, GMO-fiskefôr).</p>
 
@@ -18,7 +23,14 @@
         <option value="SE">Sverige</option>
         <option value="DK">Danmark</option>
       </select>
+      <select id="engine">
+        <option value="off">OpenFoodFacts</option>
+        <option value="google">Google-søk</option>
+        <option value="ai">AI-søk</option>
+      </select>
       <button id="search">Søk</button>
+      <button id="searchGoogle" type="button">Google nå</button>
+      <button id="searchAi" type="button">AI nå</button>
     </div>
 
     <div id="result"></div>
@@ -30,9 +42,33 @@
     return res.json();
   }
 
+  function toTextList(value) {
+    if (Array.isArray(value)) return value.join(' ');
+    if (typeof value === 'string') return value;
+    return '';
+  }
+
+  function countryLabel(code) {
+    const labels = {
+      NO: 'Norge',
+      SE: 'Sverige',
+      DK: 'Danmark',
+    };
+    return labels[code] || code;
+  }
+
+  function openExternalSearch(engine, query, country) {
+    const baseQuery = `${query} matvare ${countryLabel(country)} Bovaer GMO insektmel`;
+    const encoded = encodeURIComponent(baseQuery.trim());
+    const url = engine === 'ai'
+      ? `https://www.perplexity.ai/search/new?q=${encoded}`
+      : `https://www.google.com/search?q=${encoded}`;
+    window.open(url, '_blank', 'noopener');
+  }
+
   function classify(product, riskData, country) {
     const brand = (product.brands || product.brand || '').toLowerCase();
-    const labels = (product.labels || product.labels_tags || []).join(' ').toLowerCase();
+    const labels = toTextList(product.labels || product.labels_tags).toLowerCase();
     const ingredients = (product.ingredients_text || product.ingredients_text_en || '').toLowerCase();
 
     const cdata = riskData[country] || riskData['NO'];
@@ -95,7 +131,9 @@
     const title = p.product_name || p.generic_name || 'Uten navn';
     const brand = p.brands || p.brands_tags && p.brands_tags[0] || 'Ukjent';
     const ean = p.code || '';
-    const labels = p.labels || p.labels_tags && p.labels_tags.join(', ') || '';
+    const labels = Array.isArray(p.labels_tags)
+      ? p.labels_tags.join(', ')
+      : (typeof p.labels === 'string' ? p.labels : '');
     const notes = [];
     if (c.isOrganic) notes.push('Økologisk (merking funnet)');
     if (c.isBovaerRed) notes.push('Bovaer: høy risiko (produsent i rød liste)');
@@ -116,8 +154,28 @@
   document.getElementById('search').addEventListener('click', async ()=>{
     const q = document.getElementById('query').value.trim();
     const country = document.getElementById('country').value;
+    const engine = document.getElementById('engine').value;
+    if (!q) return;
+    if (engine === 'google' || engine === 'ai') {
+      openExternalSearch(engine, q, country);
+      return;
+    }
     const riskData = await loadRisk();
-    if (!q) return; await searchProduct(q,country,riskData);
+    await searchProduct(q,country,riskData);
+  });
+
+  document.getElementById('searchGoogle').addEventListener('click', () => {
+    const q = document.getElementById('query').value.trim();
+    const country = document.getElementById('country').value;
+    if (!q) return;
+    openExternalSearch('google', q, country);
+  });
+
+  document.getElementById('searchAi').addEventListener('click', () => {
+    const q = document.getElementById('query').value.trim();
+    const country = document.getElementById('country').value;
+    if (!q) return;
+    openExternalSearch('ai', q, country);
   });
   </script>
 </body>
