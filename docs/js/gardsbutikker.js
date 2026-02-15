@@ -266,11 +266,22 @@
 
   async function searchNominatim(term, countryCode) {
     const countryParam = countryCode ? `&countrycodes=${encodeURIComponent(countryCode.toLowerCase())}` : '';
-    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=25${countryParam}&q=${encodeURIComponent(term)}`;
+    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&extratags=1&limit=25${countryParam}&q=${encodeURIComponent(term)}`;
     const response = await fetch(url, { cache: 'no-cache' });
     if (!response.ok) return [];
     const payload = await response.json();
     return Array.isArray(payload) ? payload : [];
+  }
+
+  function buildWebsiteFallback(name, municipality, region, countryLabel) {
+    const query = [
+      name,
+      municipality,
+      region,
+      countryLabel,
+      'offisiell nettside',
+    ].filter(Boolean).join(' ');
+    return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
   }
 
   function looksLikeFarmOutlet(item) {
@@ -287,8 +298,8 @@
     const osmTypeMap = { node: 'node', way: 'way', relation: 'relation', N: 'node', W: 'way', R: 'relation' };
     const osmType = osmTypeMap[item.osm_type] || 'node';
     const osmId = item.osm_id || '';
-    const website = osmId ? `https://www.openstreetmap.org/${osmType}/${osmId}` : 'https://www.openstreetmap.org';
     const name = item.name || (item.display_name || '').split(',')[0] || 'Ukjent gårdsutsalg';
+    const website = item?.extratags?.website || buildWebsiteFallback(name, municipality, region, countryLabel);
     return {
       id: `web-${osmType}-${osmId}`,
       name,
@@ -318,6 +329,7 @@
     const lon = element?.lon ?? element?.center?.lon ?? null;
     const osmUrl = `https://www.openstreetmap.org/${element.type}/${element.id}`;
     const name = tags.name || tags.brand || tags.operator || 'Ukjent gårdsutsalg';
+    const website = tags.website || tags['contact:website'] || buildWebsiteFallback(name, municipality, region, countryLabel);
     return {
       id: `web-overpass-${element.type}-${element.id}`,
       name,
@@ -327,7 +339,7 @@
       products: tags.produce
         ? tags.produce.split(/[;,]/).map((part) => part.trim()).filter(Boolean)
         : ['Web-funnet gårdsutsalg'],
-      website: tags.website || tags['contact:website'] || osmUrl,
+      website,
       lat: lat ? Number(lat) : null,
       lon: lon ? Number(lon) : null,
       address: buildAddressFromTags(tags, municipality) || tags.description || municipality,
