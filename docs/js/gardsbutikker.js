@@ -25,6 +25,25 @@
     { code: 'LU', name: 'Luxembourg' },
   ];
 
+  const COUNTRY_TLD_BY_CODE = {
+    NO: 'no',
+    SE: 'se',
+    DK: 'dk',
+    FI: 'fi',
+    DE: 'de',
+    NL: 'nl',
+    BE: 'be',
+    FR: 'fr',
+    IT: 'it',
+    PT: 'pt',
+    ES: 'es',
+    GB: 'uk',
+    IE: 'ie',
+    AT: 'at',
+    CH: 'ch',
+    LU: 'lu',
+  };
+
   const COUNTRY_REGIONS_FALLBACK = {
     NO: ['Akershus', 'Buskerud', 'Finnmark', 'Innlandet', 'Møre og Romsdal', 'Nordland', 'Oslo', 'Rogaland', 'Telemark', 'Troms', 'Trøndelag', 'Vestfold', 'Vestland', 'Østfold'],
     SE: ['Stockholms län', 'Västra Götalands län', 'Skåne län', 'Uppsala län', 'Östergötlands län', 'Jönköpings län', 'Hallands län', 'Dalarnas län'],
@@ -1450,6 +1469,14 @@ out center tags 150;
     const municipality = selectedText(muniSelect);
     const query = searchInput.value.trim();
     const municipalityQuery = municipality;
+    const locationAnchor = [municipality, region, country].filter(Boolean).join(', ');
+    const locationQuoted = locationAnchor ? `"${locationAnchor}"` : '';
+    const strictLocationTerms = [municipality, region, country]
+      .filter(Boolean)
+      .map((part) => `"${part}"`)
+      .join(' ');
+    const countryTld = COUNTRY_TLD_BY_CODE[countryCode] || '';
+    const countryDomainScope = countryTld ? `site:.${countryTld}` : '';
 
     const composed = [
       query || lexicon.baseTerm,
@@ -1471,19 +1498,24 @@ out center tags 150;
     const norwayFocusedQuery = [
       query || 'gårdsbutikk',
       '("gårdsbutikk" OR "gårdsutsalg" OR "gårdsmat")',
+      strictLocationTerms,
+      locationQuoted,
       municipalityQuery,
       region,
       'Norge',
-      'site:.no',
+      countryDomainScope || 'site:.no',
       '(åpningstider OR adresse OR kontakt)',
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
     const googleActionable = [
       query || lexicon.baseTerm,
       `(${lexicon.outletTerms.join(' OR ')})`,
+      strictLocationTerms,
+      locationQuoted,
       municipalityQuery,
       region,
       country,
+      countryDomainScope,
       `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
@@ -1491,9 +1523,12 @@ out center tags 150;
     const aiQualityQuery = [
       query || lexicon.baseTerm,
       `(${lexicon.outletTerms.join(' OR ')})`,
+      strictLocationTerms,
+      locationQuoted,
       municipalityQuery,
       region,
       country,
+      countryDomainScope,
       `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
     ].filter(Boolean).join(' ');
@@ -1508,6 +1543,8 @@ out center tags 150;
         `Finn minst 12 faktiske gårdsbutikker/gårdsutsalg i eller nær ${[municipalityQuery, region, country].filter(Boolean).join(', ')}.`,
         'Hvis det er færre enn 12 i valgt kommune, utvid søket trinnvis til nabokommuner (ca. 30–60 km), deretter resten av valgt region/fylke.',
         'Returner kun verifiserbare steder med navn, adresse/sted, produkter (hvis kjent), åpningstider (hvis kjent) og direkte lenke til offisiell nettside eller kart.',
+        `Hold deg strengt til valgt lokasjon: ${locationAnchor || [country].filter(Boolean).join(', ')}. Forkast treff utenfor valgt land/region/kommune.`,
+        `Foretrekk domenescope for valgt land: ${countryDomainScope || 'ingen'}.`,
         'Ekskluder rapporter, PDF, myndighetsdokumenter, oppskrifter, restauranter, hoteller og generelle artikler.',
         'Prioriter gårdsbutikk/gårdsutsalg, selvbetjent gårdsbutikk, REKO-utlevering og bondens marked med konkret produsentnavn.',
         `Bruk denne søkeintensjonen: ${effectiveAiQuery}`,
