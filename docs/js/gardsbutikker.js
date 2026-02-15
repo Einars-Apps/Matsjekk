@@ -278,13 +278,37 @@
 
   function getCountrySearchLexicon(countryCode) {
     const defaults = {
-      baseTerm: 'gårdsbutikk',
-      outletTerms: ['"gårdsbutikk"', '"gårdsutsalg"', '"farm shop"', '"farm store"', 'hofladen', '"ferme boutique"'],
-      signalTerms: ['offisiell nettside', 'adresse', 'åpningstider', 'kontakt', 'bestilling'],
-      negativeTerms: ['-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia'],
+      baseTerm: 'farm shop',
+      outletTerms: ['"farm shop"', '"farm store"', '"local farm"'],
+      signalTerms: ['official website', 'address', 'opening hours', 'contact'],
+      negativeTerms: ['-recipe', '-restaurant', '-hotel', '-wikipedia'],
     };
 
     const lexiconByCountry = {
+      NO: {
+        baseTerm: 'gårdsbutikk gårdsutsalg',
+        outletTerms: ['"gårdsbutikk"', '"gårdsutsalg"', '"gårdsmat"', '"bondens marked"'],
+        signalTerms: ['offisiell nettside', 'adresse', 'åpningstider', 'kontakt', 'bestilling'],
+        negativeTerms: ['-oppskrift', '-meny', '-restaurant', '-hotell', '-wikipedia', '-rapport'],
+      },
+      SE: {
+        baseTerm: 'gårdsbutik gårdsförsäljning',
+        outletTerms: ['"gårdsbutik"', '"gårdsförsäljning"', '"gårdsbutik med självbetjäning"'],
+        signalTerms: ['officiell webbplats', 'adress', 'öppettider', 'kontakt'],
+        negativeTerms: ['-recept', '-restaurang', '-hotell', '-wikipedia'],
+      },
+      DK: {
+        baseTerm: 'gårdbutik gårdsalg',
+        outletTerms: ['"gårdbutik"', '"gårdsalg"', '"lokale råvarer"'],
+        signalTerms: ['officiel hjemmeside', 'adresse', 'åbningstider', 'kontakt'],
+        negativeTerms: ['-opskrift', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      FI: {
+        baseTerm: 'tilapuoti suoramyynti',
+        outletTerms: ['"tilapuoti"', '"suoramyynti"', '"maatilamyymälä"', '"farm shop"'],
+        signalTerms: ['virallinen sivusto', 'osoite', 'aukioloajat', 'yhteystiedot'],
+        negativeTerms: ['-resepti', '-ravintola', '-hotelli', '-wikipedia'],
+      },
       IT: {
         baseTerm: 'azienda agricola vendita diretta',
         outletTerms: ['"azienda agricola"', '"vendita diretta"', '"spaccio aziendale"', '"farm shop"'],
@@ -303,11 +327,59 @@
         signalTerms: ['offizielle website', 'adresse', 'öffnungszeiten', 'kontakt'],
         negativeTerms: ['-rezept', '-restaurant', '-hotel', '-wikipedia'],
       },
+      NL: {
+        baseTerm: 'boerderijwinkel streekproducten',
+        outletTerms: ['"boerderijwinkel"', '"streekproducten"', '"farm shop"'],
+        signalTerms: ['officiële website', 'adres', 'openingstijden', 'contact'],
+        negativeTerms: ['-recept', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      BE: {
+        baseTerm: 'hoevewinkel ferme boutique',
+        outletTerms: ['"hoevewinkel"', '"ferme boutique"', '"vente directe"', '"farm shop"'],
+        signalTerms: ['site officiel', 'adresse', 'horaires', 'contact'],
+        negativeTerms: ['-recette', '-restaurant', '-hôtel', '-wikipedia'],
+      },
       ES: {
         baseTerm: 'tienda granja venta directa',
         outletTerms: ['"tienda granja"', '"venta directa"', '"granja"', '"farm shop"'],
         signalTerms: ['sitio oficial', 'dirección', 'horario', 'contacto'],
         negativeTerms: ['-receta', '-restaurante', '-hotel', '-wikipedia'],
+      },
+      PT: {
+        baseTerm: 'loja da quinta venda direta',
+        outletTerms: ['"loja da quinta"', '"venda direta"', '"produtor local"', '"farm shop"'],
+        signalTerms: ['site oficial', 'morada', 'horário', 'contacto'],
+        negativeTerms: ['-receita', '-restaurante', '-hotel', '-wikipedia'],
+      },
+      GB: {
+        baseTerm: 'farm shop local produce',
+        outletTerms: ['"farm shop"', '"farm store"', '"local produce"'],
+        signalTerms: ['official website', 'address', 'opening hours', 'contact'],
+        negativeTerms: ['-recipe', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      IE: {
+        baseTerm: 'farm shop local food',
+        outletTerms: ['"farm shop"', '"farm store"', '"local food"'],
+        signalTerms: ['official website', 'address', 'opening hours', 'contact'],
+        negativeTerms: ['-recipe', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      AT: {
+        baseTerm: 'hofladen direktvermarktung',
+        outletTerms: ['hofladen', '"direktvermarktung"', '"bauernladen"'],
+        signalTerms: ['offizielle website', 'adresse', 'öffnungszeiten', 'kontakt'],
+        negativeTerms: ['-rezept', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      CH: {
+        baseTerm: 'hofladen ferme boutique vendita diretta',
+        outletTerms: ['hofladen', '"ferme boutique"', '"vendita diretta"', '"farm shop"'],
+        signalTerms: ['offizielle website', 'site officiel', 'sito ufficiale', 'adresse', 'horaires', 'orari'],
+        negativeTerms: ['-rezept', '-recette', '-ricetta', '-restaurant', '-hotel', '-wikipedia'],
+      },
+      LU: {
+        baseTerm: 'ferme boutique hofladen',
+        outletTerms: ['"ferme boutique"', 'hofladen', '"farm shop"'],
+        signalTerms: ['site officiel', 'adresse', 'horaires', 'contact'],
+        negativeTerms: ['-recette', '-restaurant', '-hotel', '-wikipedia'],
       },
     };
 
@@ -1386,6 +1458,7 @@ out center tags 150;
     ].filter(Boolean).join(' ');
     const strictNoiseExclusions = [
       ...lexicon.negativeTerms,
+      '-filetype:pdf', '-inurl:pdf', '-rapport', '-årsrapport',
       '-site:perplexity.ai', '-site:tripadvisor.com', '-site:reddit.com',
       '-site:tiktok.com', '-site:youtube.com', '-site:pinterest.com',
       '-site:yellowpages.com', '-site:yelp.com', '-site:1881.no',
@@ -1419,7 +1492,7 @@ out center tags 150;
       return;
     }
 
-    const url = `https://www.google.com/search?q=${encodeURIComponent(composed)}`;
+    const url = `https://www.google.com/search?q=${encodeURIComponent(googleActionable)}`;
     window.open(url, '_blank', 'noopener');
   }
 
