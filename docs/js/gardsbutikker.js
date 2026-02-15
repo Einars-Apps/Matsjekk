@@ -303,6 +303,97 @@
     };
   }
 
+  function buildAddressFromTags(tags, fallback = '') {
+    const parts = [
+      [tags['addr:street'], tags['addr:housenumber']].filter(Boolean).join(' ').trim(),
+      tags['addr:postcode'],
+      tags['addr:city'] || tags['addr:municipality'] || fallback,
+    ].filter(Boolean);
+    return parts.join(', ');
+  }
+
+  function toOverpassShop(element, municipality, region, countryLabel) {
+    const tags = element?.tags || {};
+    const lat = element?.lat ?? element?.center?.lat ?? null;
+    const lon = element?.lon ?? element?.center?.lon ?? null;
+    const osmUrl = `https://www.openstreetmap.org/${element.type}/${element.id}`;
+    const name = tags.name || tags.brand || tags.operator || 'Ukjent gårdsutsalg';
+    return {
+      id: `web-overpass-${element.type}-${element.id}`,
+      name,
+      country: countryLabel,
+      region,
+      municipality,
+      products: tags.produce
+        ? tags.produce.split(/[;,]/).map((part) => part.trim()).filter(Boolean)
+        : ['Web-funnet gårdsutsalg'],
+      website: tags.website || tags['contact:website'] || osmUrl,
+      lat: lat ? Number(lat) : null,
+      lon: lon ? Number(lon) : null,
+      address: buildAddressFromTags(tags, municipality) || tags.description || municipality,
+    };
+  }
+
+  async function searchOverpassInBoundingBox({ south, west, north, east }) {
+    const overpassQuery = `
+[out:json][timeout:25];
+(
+  node["shop"="farm"](${south},${west},${north},${east});
+  way["shop"="farm"](${south},${west},${north},${east});
+  relation["shop"="farm"](${south},${west},${north},${east});
+  node["shop"="farmshop"](${south},${west},${north},${east});
+  way["shop"="farmshop"](${south},${west},${north},${east});
+  relation["shop"="farmshop"](${south},${west},${north},${east});
+  node["name"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|fruktgård|cider",i](${south},${west},${north},${east});
+  way["name"~"gårdsbutikk|gårdsutsalg|farm shop|farmstore|fruktgård|cider",i](${south},${west},${north},${east});
+);
+out center tags 120;
+    `.trim();
+
+    const response = await fetch('https://overpass-api.de/api/interpreter', {
+      method: 'POST',
+      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+      body: overpassQuery,
+    });
+    if (!response.ok) return [];
+    const payload = await response.json();
+    return Array.isArray(payload?.elements) ? payload.elements : [];
+  }
+
+  async function fetchMunicipalityBoundingBox(countryCode, municipalityLabel, regionLabel) {
+    if (!municipalityLabel) return null;
+    const variants = municipalityVariants(countryCode, municipalityLabel);
+    for (const municipalityName of variants) {
+      const hits = await searchNominatim(`${municipalityName} ${regionLabel || ''} ${countryNameByCode(countryCode)}`, countryCode);
+      const best = hits.find((item) => Array.isArray(item.boundingbox) && item.boundingbox.length === 4);
+      if (!best) continue;
+      const [south, north, west, east] = best.boundingbox.map((v) => Number(v));
+      if ([south, north, west, east].every((v) => Number.isFinite(v))) {
+        return { south, north, west, east };
+      }
+    }
+    return null;
+  }
+
+  async function fetchOverpassMunicipalityCandidates({ countryCode, countryLabel, regionLabel, municipalityLabel }) {
+    if (!municipalityLabel) return [];
+    const bbox = await fetchMunicipalityBoundingBox(countryCode, municipalityLabel, regionLabel);
+    if (!bbox) return [];
+    const elements = await searchOverpassInBoundingBox(bbox);
+    const mapped = elements
+      .map((element) => toOverpassShop(element, municipalityLabel, regionLabel, countryLabel))
+      .filter((shop) => {
+        const syntheticItem = {
+          name: shop.name,
+          display_name: `${shop.name} ${shop.address || ''}`,
+          type: '',
+          class: '',
+        };
+        return looksLikeFarmOutlet(syntheticItem);
+      });
+    return mergeShopLists([], mapped).slice(0, 40);
+  }
+
   async function fetchLiveCandidates({ countryCode, countryLabel, regionLabel, municipalityLabel, query }) {
     const muni = municipalityLabel || '';
     const region = regionLabel || '';
@@ -330,11 +421,19 @@
       ...locationTerms.map((name) => `fruktgård ${name} ${country}`),
     ];
 
-    const results = await Promise.all(terms.map((term) => searchNominatim(term, countryCode)));
+    const [results, overpassCandidates] = await Promise.all([
+      Promise.all(terms.map((term) => searchNominatim(term, countryCode))),
+      fetchOverpassMunicipalityCandidates({
+        countryCode,
+        countryLabel: country,
+        regionLabel: region,
+        municipalityLabel: muni,
+      }),
+    ]);
     const flattened = results.flat();
     const filtered = flattened.filter((item) => looksLikeFarmOutlet(item));
     const mapped = filtered.map((item) => toWebShop(item, muni, region, country));
-    const unique = mergeShopLists([], mapped).slice(0, 25);
+    const unique = mergeShopLists(mapped, overpassCandidates).slice(0, 40);
     webCandidateCache.set(cacheKey, unique);
     return unique;
   }
@@ -540,8 +639,9 @@
       '-oppskrift -meny -restaurant -wikipedia',
     ].filter(Boolean).join(' ');
     const engine = searchEngineSelect ? searchEngineSelect.value : 'google';
+    const aiPrompt = `Finn faktiske gårdsbutikker i ${municipalityQuery} ${region} ${country}. Returner en liste med navn, full adresse, kommune og direkte lenke til kilde/kart for hver oppføring. Utelat treff uten verifiserbar lokasjon.`;
     const url = engine === 'ai'
-      ? `https://www.perplexity.ai/search/new?q=${encodeURIComponent(composed)}`
+      ? `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`
       : `https://www.google.com/search?q=${encodeURIComponent(composed)}`;
     window.open(url, '_blank', 'noopener');
   }
