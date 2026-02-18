@@ -268,6 +268,7 @@
   const myMunicipalityBtn = document.getElementById('myMunicipalityBtn');
   const nearMeBtn = document.getElementById('nearMeBtn');
   const webSearchBtn = document.getElementById('webSearchBtn');
+  const openGoogleMapBtn = document.getElementById('openGoogleMapBtn');
   const backBtn = document.getElementById('backBtn');
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -850,21 +851,55 @@
       .map((element) => toOverpassShop(element, municipalityLabel, regionLabel, countryLabel))
       .filter((shop) => keepHighQuality(shop))
       .filter((shop) => shop.lat != null && shop.lon != null)
-      .filter((shop) => haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)) <= radiusKm);
+      .map((shop) => ({
+        ...shop,
+        distanceKm: haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)),
+      }))
+      .filter((shop) => shop.distanceKm <= radiusKm);
 
     const nearbyLocal = shops
       .filter((shop) => shop.lat != null && shop.lon != null)
-      .filter((shop) => haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)) <= radiusKm);
+      .map((shop) => ({
+        ...shop,
+        distanceKm: haversineKm(lat, lon, Number(shop.lat), Number(shop.lon)),
+      }))
+      .filter((shop) => shop.distanceKm <= radiusKm);
 
     const merged = mergeShopLists(nearbyLocal, nearbyLive)
-      .sort((left, right) => candidateScore(right) - candidateScore(left));
+      .sort((left, right) => {
+        const leftDistance = Number.isFinite(left.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
+        const rightDistance = Number.isFinite(right.distanceKm) ? right.distanceKm : Number.POSITIVE_INFINITY;
+        if (leftDistance !== rightDistance) return leftDistance - rightDistance;
+        return candidateScore(right) - candidateScore(left);
+      });
 
     activeFiltered = merged;
     renderList(merged);
     if (resultsHeadingEl) {
       resultsHeadingEl.textContent = `Gårdsbutikker nær deg (${radiusKm} km)`;
     }
+    if (openGoogleMapBtn) {
+      openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(merged);
+    }
     return merged;
+  }
+
+  function buildGoogleMapsOverviewUrl(items) {
+    const withCoords = (items || []).filter((shop) => shop.lat != null && shop.lon != null);
+    if (!withCoords.length) {
+      const q = [selectedText(muniSelect), selectedText(regionSelect), selectedText(countrySelect), 'gårdsbutikk']
+        .filter(Boolean)
+        .join(' ');
+      return `https://www.google.com/maps/search/${encodeURIComponent(q || 'gårdsbutikk')}`;
+    }
+    const first = withCoords[0];
+    const destination = `${first.lat},${first.lon}`;
+    const waypoints = withCoords
+      .slice(1, 10)
+      .map((shop) => `${shop.lat},${shop.lon}`)
+      .join('|');
+    const waypointParam = waypoints ? `&waypoints=${encodeURIComponent(waypoints)}` : '';
+    return `https://www.google.com/maps/dir/?api=1&travelmode=driving&destination=${encodeURIComponent(destination)}${waypointParam}`;
   }
 
   function renderList(filtered) {
@@ -890,12 +925,16 @@
       const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
       const mapsLink = shop.mapsUrl ? `<a class="item-link" href="${shop.mapsUrl}" target="_blank" rel="noopener">Kart</a>` : '';
       const image = shop.imageUrl ? `<img class="item-thumb" src="${shop.imageUrl}" alt="${escapeHtml(shop.name)}" loading="lazy" />` : '';
+      const distanceLine = Number.isFinite(shop.distanceKm)
+        ? `<div class="item-sub">📍 ${escapeHtml(shop.distanceKm.toFixed(1))} km unna</div>`
+        : '';
       div.innerHTML = `
         <div class="item-row">
           ${image}
           <div class="item-content">
             <div class="item-title">${escapeHtml(shop.name)}</div>
             <div class="item-meta">${escapeHtml(shop.category || 'Gårdsutsalg')} · ${escapeHtml(location)}</div>
+            ${distanceLine}
             ${phoneLine}
             ${openingLine}
             ${productsLine}
@@ -916,6 +955,9 @@
 
     if (markers.getLayers().length) {
       map.fitBounds(markers.getBounds(), { maxZoom: 12 });
+    }
+    if (openGoogleMapBtn) {
+      openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(ordered);
     }
   }
 
@@ -1632,7 +1674,10 @@ out center tags 150;
   }
 
   async function findAlongRoute(from, to) {
-    if (!from || !to) return;
+    if (!from || !to) {
+      alert('Skriv inn både fra- og til-sted.');
+      return;
+    }
 
     const fromPoint = await geocodeWithFallback(from);
     const toPoint = await geocodeWithFallback(to);
@@ -1731,7 +1776,6 @@ out center tags 150;
         try {
           const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
           await chooseBestMunicipality(geo);
-          runAreaWebSearch();
         } catch (_) {
           alert('Fant ikke kommune fra posisjon.');
         }
@@ -1766,6 +1810,15 @@ out center tags 150;
 
   if (webSearchBtn) {
     webSearchBtn.addEventListener('click', runAreaWebSearch);
+  }
+
+  if (openGoogleMapBtn) {
+    openGoogleMapBtn.addEventListener('click', (event) => {
+      if (!openGoogleMapBtn.href || openGoogleMapBtn.href === '#') {
+        event.preventDefault();
+        openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(activeFiltered);
+      }
+    });
   }
 
   if (backBtn) {
@@ -1806,20 +1859,6 @@ out center tags 150;
   if (resultsHeadingEl) {
     resultsHeadingEl.textContent = 'Gårdsbutikker nær deg';
   }
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(async (position) => {
-      try {
-        await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
-      } catch (_) {
-        activeFiltered = shops;
-        renderList(shops);
-      }
-    }, () => {
-      activeFiltered = shops;
-      renderList(shops);
-    }, { enableHighAccuracy: true, timeout: 10000 });
-  } else {
-    activeFiltered = shops;
-    renderList(shops);
-  }
+  activeFiltered = shops;
+  renderList(shops);
 })();

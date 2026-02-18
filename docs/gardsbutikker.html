@@ -23,6 +23,13 @@
     .map-btn{padding:6px 10px;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:6px}
     .map-btn:hover{background:#f5f5f5}
     .map-size-label{font-size:0.9rem;color:#555}
+    .result-header{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+    .result-map-btn{padding:6px 10px;border:1px solid #d7dee7;border-radius:8px;background:#fff;color:#123;text-decoration:none;font-size:.84rem}
+    .result-map-btn:hover{background:#f4f8fb}
+    .content-grid{display:flex;gap:12px;align-items:flex-start}
+    .side-rail{flex:0 0 280px;display:flex;flex-direction:column;gap:10px}
+    .ad-slot{min-height:160px;border:1px dashed #c8d3df;border-radius:10px;background:#f8fbff;padding:12px;color:#4c5b6a;font-size:.9rem}
+    .ad-slot strong{display:block;margin-bottom:6px;color:#213}
     .list{max-height:420px;overflow:auto;border:1px solid #e6e9ee;border-radius:12px;padding:10px;background:#fafbfc}
     .item{padding:10px 12px;border:1px solid #e6e9ee;border-radius:10px;background:#fff;margin-bottom:8px}
     .item:last-child{margin-bottom:0}
@@ -42,6 +49,8 @@
       .nav-links .link-btn,
       .nav-links #backBtn{width:100%;text-align:center}
       .list{max-height:240px}
+      .content-grid{flex-direction:column}
+      .side-rail{width:100%;flex-basis:auto}
       .top-tabs{flex-direction:column;align-items:stretch}
       .top-tabs a{width:100%;text-align:center}
     }
@@ -73,10 +82,10 @@
       <select id="municipalitySelect"><option value="">Velg kommune</option></select>
       <select id="searchEngine"><option value="ai">AI-søk</option><option value="google">Google-søk</option></select>
       <select id="sortSelect"><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option></select>
-      <input id="searchInput" placeholder="Søk butikk eller produkt (f.eks. ost)" style="flex:1" />
+      <input id="searchInput" placeholder="Søk butikk" style="flex:1" />
       <button id="myMunicipalityBtn" type="button">Søk i min kommune</button>
       <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
-      <button id="webSearchBtn" type="button">Søk i valgt område</button>
+      <button id="webSearchBtn" type="button">Søk</button>
       <input id="routeFrom" placeholder="Fra (adresse eller by)" />
       <input id="routeTo" placeholder="Til (adresse eller by)" />
       <button id="routeBtn">Finn langs rute</button>
@@ -91,13 +100,17 @@
 
     <div id="map"></div>
 
-    <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
-    <div style="display:flex;gap:12px">
+    <div class="result-header">
+      <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
+      <a id="openGoogleMapBtn" class="result-map-btn" href="#" target="_blank" rel="noopener">Åpne i Google Maps</a>
+    </div>
+    <div class="content-grid">
       <div class="list" id="list"></div>
-      <div style="flex:1">
-        <h3>Legg til produsent</h3>
-        <p>Produsenter kan registrere seg via skjemaet (ekstern tjeneste).</p>
-        <a class="btn" href="https://forms.gle/" target="_blank">Registrer produsent</a>
+      <div class="side-rail">
+        <div class="ad-slot" id="adSlot">
+          <strong>Annonse</strong>
+          Plass for relevant lokal annonse eller partnerinnhold.
+        </div>
       </div>
     </div>
   </main>
