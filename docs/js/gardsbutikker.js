@@ -266,6 +266,7 @@
   const mapHeightDown = document.getElementById('mapHeightDown');
   const mapHeightUp = document.getElementById('mapHeightUp');
   const myMunicipalityBtn = document.getElementById('myMunicipalityBtn');
+  const nearMeBtn = document.getElementById('nearMeBtn');
   const webSearchBtn = document.getElementById('webSearchBtn');
   const backBtn = document.getElementById('backBtn');
 
@@ -1528,11 +1529,7 @@ out center tags 150;
     const query = searchInput.value.trim();
     const municipalityQuery = municipality;
     const locationAnchor = [municipality, region, country].filter(Boolean).join(', ');
-    const locationQuoted = locationAnchor ? `"${locationAnchor}"` : '';
-    const strictLocationTerms = [municipality, region, country]
-      .filter(Boolean)
-      .map((part) => `"${part}"`)
-      .join(' ');
+    const locationExact = locationAnchor ? `"${locationAnchor}"` : '';
     const countryTld = COUNTRY_TLD_BY_CODE[countryCode] || '';
     const countryDomainScope = countryTld ? `site:.${countryTld}` : '';
 
@@ -1556,10 +1553,7 @@ out center tags 150;
     const norwayFocusedQuery = [
       query || 'gårdsbutikk',
       '("gårdsbutikk" OR "gårdsutsalg" OR "gårdsmat")',
-      strictLocationTerms,
-      locationQuoted,
-      municipalityQuery,
-      region,
+      locationExact,
       'Norge',
       countryDomainScope || 'site:.no',
       '(åpningstider OR adresse OR kontakt)',
@@ -1568,11 +1562,7 @@ out center tags 150;
     const googleActionable = [
       query || lexicon.baseTerm,
       `(${lexicon.outletTerms.join(' OR ')})`,
-      strictLocationTerms,
-      locationQuoted,
-      municipalityQuery,
-      region,
-      country,
+      locationExact,
       countryDomainScope,
       `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
@@ -1581,11 +1571,7 @@ out center tags 150;
     const aiQualityQuery = [
       query || lexicon.baseTerm,
       `(${lexicon.outletTerms.join(' OR ')})`,
-      strictLocationTerms,
-      locationQuoted,
-      municipalityQuery,
-      region,
-      country,
+      locationExact,
       countryDomainScope,
       `(${lexicon.signalTerms.join(' OR ')})`,
       strictNoiseExclusions,
@@ -1621,16 +1607,35 @@ out center tags 150;
 
   async function geocode(query) {
     const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`;
-    const response = await fetch(url);
-    const payload = await response.json();
-    return payload[0];
+    try {
+      const response = await fetch(url, { cache: 'no-cache' });
+      if (!response.ok) return null;
+      const payload = await response.json();
+      return payload[0] || null;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  async function geocodeWithFallback(query) {
+    const first = await geocode(query);
+    if (first) return first;
+
+    const selectedCountry = selectedText(countrySelect) || 'Norge';
+    const fallback = await geocode(`${query}, ${selectedCountry}`);
+    if (fallback) return fallback;
+
+    if (!/norge|norway/i.test(query)) {
+      return geocode(`${query}, Norge`);
+    }
+    return null;
   }
 
   async function findAlongRoute(from, to) {
     if (!from || !to) return;
 
-    const fromPoint = await geocode(from);
-    const toPoint = await geocode(to);
+    const fromPoint = await geocodeWithFallback(from);
+    const toPoint = await geocodeWithFallback(to);
     if (!fromPoint || !toPoint) {
       alert('Kunne ikke finne adresser');
       return;
@@ -1724,7 +1729,9 @@ out center tags 150;
     myMunicipalityBtn.addEventListener('click', () => {
       navigator.geolocation.getCurrentPosition(async (position) => {
         try {
-          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
+          const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
+          await chooseBestMunicipality(geo);
+          runAreaWebSearch();
         } catch (_) {
           alert('Fant ikke kommune fra posisjon.');
         }
@@ -1736,6 +1743,24 @@ out center tags 150;
     myMunicipalityBtn.addEventListener('click', () => {
       alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
       runAreaWebSearch();
+    });
+  }
+
+  if (nearMeBtn && navigator.geolocation) {
+    nearMeBtn.addEventListener('click', () => {
+      navigator.geolocation.getCurrentPosition(async (position) => {
+        try {
+          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
+        } catch (_) {
+          alert('Fant ikke butikker nær posisjonen din.');
+        }
+      }, () => {
+        alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
+      }, { enableHighAccuracy: true, timeout: 10000 });
+    });
+  } else if (nearMeBtn) {
+    nearMeBtn.addEventListener('click', () => {
+      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
     });
   }
 
