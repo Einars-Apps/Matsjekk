@@ -1,4 +1,4 @@
-// Farmshops client: filters, map, route search and Google/AI area search
+// Farmshops client: filters, map, route search and Google Maps area search
 (async function () {
   const dataUrl = 'data/farmshops.json';
   const fallbackUrl = 'data/farmshops.example.json';
@@ -257,17 +257,16 @@
   const countrySelect = document.getElementById('countrySelect');
   const regionSelect = document.getElementById('regionSelect');
   const muniSelect = document.getElementById('municipalitySelect');
-  const searchEngineSelect = document.getElementById('searchEngine');
   const sortSelect = document.getElementById('sortSelect');
   const searchInput = document.getElementById('searchInput');
   const listEl = document.getElementById('list');
   const resultsHeadingEl = document.getElementById('resultsHeading');
   const mapEl = document.getElementById('map');
+  const mapStatusEl = document.getElementById('mapStatus');
   const mapHeightDown = document.getElementById('mapHeightDown');
   const mapHeightUp = document.getElementById('mapHeightUp');
   const myMunicipalityBtn = document.getElementById('myMunicipalityBtn');
   const nearMeBtn = document.getElementById('nearMeBtn');
-  const webSearchBtn = document.getElementById('webSearchBtn');
   const openGoogleMapBtn = document.getElementById('openGoogleMapBtn');
   const backBtn = document.getElementById('backBtn');
 
@@ -275,15 +274,6 @@
   let currentMapHeight = isMobile ? 110 : 400;
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
-
-  function ensureAiSearchEngineDefault() {
-    if (!searchEngineSelect) return;
-    const aiOption = [...searchEngineSelect.options].find((option) => option.value === 'ai');
-    if (aiOption && searchEngineSelect.options[0]?.value !== 'ai') {
-      searchEngineSelect.insertBefore(aiOption, searchEngineSelect.options[0]);
-    }
-    searchEngineSelect.value = 'ai';
-  }
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -792,14 +782,339 @@
     return sorted;
   }
 
-  // init map
-  const map = L.map('map').setView([59.9, 10.7], 5);
-  window._leafletMap = map;
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-    attribution: '© OpenStreetMap contributors',
-  }).addTo(map);
-  const markers = L.layerGroup().addTo(map);
+  const GOOGLE_MAPS_API_KEY = (document.querySelector('meta[name="google-maps-api-key"]')?.getAttribute('content') || '').trim();
+  let mapProvider = 'leaflet';
+  let map = null;
+  let leafletMarkersLayer = null;
+  let googleMarkers = [];
+  let markerCoords = [];
+  let googleInfoWindow = null;
+  let googleRoutePolyline = null;
+  let leafletBufferLayer = null;
+  let googleEmbedIframe = null;
+
+  function setMapStatus(message) {
+    if (!mapStatusEl) return;
+    mapStatusEl.textContent = message || '';
+  }
+
+  function buildEmbeddedGoogleMapUrl(query) {
+    const effectiveQuery = (query || 'gårdsbutikk Norge').trim();
+    return `https://www.google.com/maps?q=${encodeURIComponent(effectiveQuery)}&output=embed`;
+  }
+
+  function currentMapSearchQuery() {
+    const country = selectedText(countrySelect);
+    const region = selectedText(regionSelect);
+    const municipality = selectedText(muniSelect);
+    const query = searchInput?.value?.trim() || 'gårdsbutikk';
+    return [query, municipality, region, country].filter(Boolean).join(' ');
+  }
+
+  function openGoogleMapsSearchFromFilters() {
+    const mapsQuery = currentMapSearchQuery() || 'gårdsbutikk Norge';
+    const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
+    window.open(mapsUrl, '_blank', 'noopener');
+  }
+
+  function initGoogleEmbedMap() {
+    mapProvider = 'google-embed';
+    map = null;
+    if (!mapEl) return;
+
+    mapEl.innerHTML = '';
+    const iframe = document.createElement('iframe');
+    iframe.title = 'Google Maps';
+    iframe.loading = 'lazy';
+    iframe.referrerPolicy = 'no-referrer-when-downgrade';
+    iframe.style.width = '100%';
+    iframe.style.height = `${currentMapHeight}px`;
+    iframe.style.border = '0';
+    iframe.src = buildEmbeddedGoogleMapUrl(currentMapSearchQuery());
+    mapEl.appendChild(iframe);
+    googleEmbedIframe = iframe;
+  }
+
+  function updateEmbeddedMapFromFilters() {
+    if (mapProvider !== 'google-embed' || !googleEmbedIframe) return;
+    googleEmbedIframe.src = buildEmbeddedGoogleMapUrl(currentMapSearchQuery());
+  }
+
+  function loadGoogleMapsScript(apiKey) {
+    if (!apiKey) return Promise.reject(new Error('Missing Google Maps API key'));
+    if (window.google?.maps) return Promise.resolve();
+
+    return new Promise((resolve, reject) => {
+      let settled = false;
+      const timeoutId = setTimeout(() => {
+        if (settled) return;
+        settled = true;
+        reject(new Error('Google Maps JS API timed out'));
+      }, 4500);
+
+      const existing = document.getElementById('googleMapsJsApi');
+      if (existing) {
+        existing.addEventListener('load', () => {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timeoutId);
+          resolve();
+        }, { once: true });
+        existing.addEventListener('error', () => {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timeoutId);
+          reject(new Error('Failed to load Google Maps JS API'));
+        }, { once: true });
+        return;
+      }
+
+      const script = document.createElement('script');
+      script.id = 'googleMapsJsApi';
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(apiKey)}&v=weekly`;
+      script.async = true;
+      script.defer = true;
+      script.onload = () => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timeoutId);
+        resolve();
+      };
+      script.onerror = () => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timeoutId);
+        reject(new Error('Failed to load Google Maps JS API'));
+      };
+      document.head.appendChild(script);
+    });
+  }
+
+  function initLeafletMap() {
+    mapProvider = 'leaflet';
+    map = L.map('map').setView([59.9, 10.7], 5);
+    window._leafletMap = map;
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '© OpenStreetMap contributors',
+    }).addTo(map);
+    leafletMarkersLayer = L.layerGroup().addTo(map);
+  }
+
+  function initGoogleMap() {
+    mapProvider = 'google';
+    map = new google.maps.Map(mapEl, {
+      center: { lat: 59.9, lng: 10.7 },
+      zoom: 5,
+      mapTypeControl: false,
+      streetViewControl: false,
+      fullscreenControl: true,
+    });
+    googleInfoWindow = new google.maps.InfoWindow();
+  }
+
+  async function initMap() {
+    setMapStatus('Laster kart...');
+    if (GOOGLE_MAPS_API_KEY) {
+      try {
+        await loadGoogleMapsScript(GOOGLE_MAPS_API_KEY);
+        initGoogleMap();
+        setMapStatus('Google Maps er aktivert.');
+        return;
+      } catch (error) {
+        console.warn('Google Maps unavailable, falling back to Leaflet.', error);
+        setMapStatus('Google Maps JS feilet. Viser innebygd Google Maps.');
+      }
+    } else {
+      setMapStatus('Ingen Google Maps-nøkkel funnet. Viser innebygd Google Maps.');
+    }
+
+    try {
+      initGoogleEmbedMap();
+      return;
+    } catch (error) {
+      console.warn('Embedded Google Maps unavailable, falling back to Leaflet.', error);
+      setMapStatus('Fallback til OpenStreetMap reservekart.');
+    }
+
+    initLeafletMap();
+  }
+
+  function getCurrentPositionAsync(options) {
+    return new Promise((resolve, reject) => {
+      if (!navigator.geolocation) {
+        reject(new Error('Geolocation unavailable'));
+        return;
+      }
+      navigator.geolocation.getCurrentPosition(resolve, reject, options);
+    });
+  }
+
+  async function autoSelectCountryFromPosition() {
+    if (!navigator.geolocation) return false;
+    try {
+      const position = await getCurrentPositionAsync({ enableHighAccuracy: false, timeout: 7000, maximumAge: 300000 });
+      const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
+      const countryCode = normalizeCountryCode(geo?.countryCode || '');
+      if (!countryCode) return false;
+
+      const hasCountry = [...countrySelect.options].some((option) => option.value === countryCode);
+      if (!hasCountry) return false;
+      if (countrySelect.value === countryCode) return true;
+
+      countrySelect.value = countryCode;
+      await populateRegions(countryCode);
+      await populateMunicipalities(countryCode, '');
+      filterShops();
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function clearMapMarkers() {
+    markerCoords = [];
+    if (mapProvider === 'google-embed') {
+      return;
+    }
+    if (mapProvider === 'google') {
+      googleMarkers.forEach((marker) => marker.setMap(null));
+      googleMarkers = [];
+      return;
+    }
+    if (leafletMarkersLayer) {
+      leafletMarkersLayer.clearLayers();
+    }
+  }
+
+  function addMapMarker(shop) {
+    if (mapProvider === 'google-embed') {
+      return;
+    }
+    if (!shop.lat || !shop.lon) return;
+    const lat = Number(shop.lat);
+    const lon = Number(shop.lon);
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+
+    markerCoords.push({ lat, lon });
+
+    if (mapProvider === 'google') {
+      const marker = new google.maps.Marker({
+        position: { lat, lng: lon },
+        map,
+        title: shop.name || 'Gårdsutsalg',
+      });
+      marker.addListener('click', () => {
+        googleInfoWindow.setContent(`<strong>${escapeHtml(shop.name || 'Gårdsutsalg')}</strong><br>${escapeHtml(shop.address || '')}`);
+        googleInfoWindow.open({ anchor: marker, map });
+      });
+      googleMarkers.push(marker);
+      return;
+    }
+
+    if (leafletMarkersLayer) {
+      const marker = L.marker([lat, lon]).bindPopup(`<strong>${shop.name}</strong><br>${shop.address || ''}`);
+      leafletMarkersLayer.addLayer(marker);
+    }
+  }
+
+  function fitMapToMarkers() {
+    if (!map) return;
+
+    if (mapProvider === 'google') {
+      if (!markerCoords.length) return;
+      const bounds = new google.maps.LatLngBounds();
+      markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
+      map.fitBounds(bounds);
+      return;
+    }
+
+    if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
+      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 12 });
+    }
+  }
+
+  function clearRouteVisuals() {
+    if (mapProvider === 'google-embed') {
+      return;
+    }
+    if (mapProvider === 'google') {
+      if (googleRoutePolyline) {
+        googleRoutePolyline.setMap(null);
+        googleRoutePolyline = null;
+      }
+      return;
+    }
+
+    if (window._routeLayer) {
+      map.removeLayer(window._routeLayer);
+      window._routeLayer = null;
+    }
+    if (leafletBufferLayer) {
+      map.removeLayer(leafletBufferLayer);
+      leafletBufferLayer = null;
+    }
+  }
+
+  function drawRouteLine(routeGeom) {
+    if (!routeGeom?.coordinates?.length) return;
+
+    if (mapProvider === 'google-embed' && googleEmbedIframe) {
+      const start = routeGeom.coordinates[0];
+      const end = routeGeom.coordinates[routeGeom.coordinates.length - 1];
+      if (start && end) {
+        const origin = `${start[1]},${start[0]}`;
+        const destination = `${end[1]},${end[0]}`;
+        googleEmbedIframe.src = `https://www.google.com/maps?saddr=${encodeURIComponent(origin)}&daddr=${encodeURIComponent(destination)}&output=embed`;
+      }
+      return;
+    }
+
+    if (!map) return;
+
+    if (mapProvider === 'google') {
+      const path = routeGeom.coordinates.map((coord) => ({ lat: Number(coord[1]), lng: Number(coord[0]) }));
+      googleRoutePolyline = new google.maps.Polyline({
+        path,
+        geodesic: true,
+        strokeColor: '#2563eb',
+        strokeOpacity: 0.9,
+        strokeWeight: 4,
+      });
+      googleRoutePolyline.setMap(map);
+
+      const bounds = new google.maps.LatLngBounds();
+      path.forEach((point) => bounds.extend(point));
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds);
+      }
+      return;
+    }
+
+    window._routeLayer = L.geoJSON(routeGeom, { style: { color: 'blue', weight: 3 } }).addTo(map);
+  }
+
+  function applyMapHeight(nextHeight) {
+    const minHeight = isMobile ? 90 : 220;
+    const maxHeight = isMobile ? 420 : 900;
+    currentMapHeight = Math.max(minHeight, Math.min(maxHeight, Number(nextHeight) || minHeight));
+    if (mapEl) {
+      mapEl.style.height = `${currentMapHeight}px`;
+    }
+    setTimeout(() => {
+      if (!map) return;
+      if (mapProvider === 'google' && window.google?.maps) {
+        google.maps.event.trigger(map, 'resize');
+      } else if (typeof map.invalidateSize === 'function') {
+        map.invalidateSize();
+      }
+      fitMapToMarkers();
+    }, 30);
+
+    if (mapProvider === 'google-embed' && googleEmbedIframe) {
+      googleEmbedIframe.style.height = `${currentMapHeight}px`;
+    }
+  }
 
   function escapeHtml(value) {
     return (value || '')
@@ -904,12 +1219,16 @@
 
   function renderList(filtered) {
     listEl.innerHTML = '';
-    markers.clearLayers();
+    clearMapMarkers();
+
+    if (mapProvider === 'google-embed') {
+      updateEmbeddedMapFromFilters();
+    }
 
     if (!filtered.length) {
       const empty = document.createElement('div');
       empty.className = 'item';
-      empty.textContent = 'Ingen lokale treff i datasettet. Bruk web-søk (Google/AI) for flere resultater.';
+      empty.textContent = 'Ingen lokale treff i datasettet. Bruk Google Maps-søk for flere resultater.';
       listEl.appendChild(empty);
       return;
     }
@@ -947,15 +1266,10 @@
       `;
       listEl.appendChild(div);
 
-      if (shop.lat && shop.lon) {
-        const marker = L.marker([shop.lat, shop.lon]).bindPopup(`<strong>${shop.name}</strong><br>${shop.address || ''}`);
-        markers.addLayer(marker);
-      }
+      addMapMarker(shop);
     });
 
-    if (markers.getLayers().length) {
-      map.fitBounds(markers.getBounds(), { maxZoom: 12 });
-    }
+    fitMapToMarkers();
     if (openGoogleMapBtn) {
       openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(ordered);
     }
@@ -1367,7 +1681,7 @@ out center tags 150;
     const country = countryLabel || '';
     const q = query || '';
     const cacheKey = `${countryCode}|${muni}|${region}|${q}`;
-      const seedCandidates = getTrustedSeedCandidates(countryCode, country, muni);
+    const seedCandidates = getTrustedSeedCandidates(countryCode, country, muni);
 
     if (webCandidateCache.has(cacheKey)) {
       return webCandidateCache.get(cacheKey);
@@ -1390,15 +1704,23 @@ out center tags 150;
       ...locationTerms.map((name) => `fruktgård ${name} ${country}`),
     ];
 
-    const [results, overpassCandidates] = await Promise.all([
-      Promise.all(terms.map((term) => searchNominatim(term, countryCode))),
-      fetchOverpassMunicipalityCandidates({
-        countryCode,
-        countryLabel: country,
-        regionLabel: region,
-        municipalityLabel: muni,
-      }),
-    ]);
+    let results = [];
+    let overpassCandidates = [];
+    try {
+      [results, overpassCandidates] = await Promise.all([
+        Promise.all(terms.map((term) => searchNominatim(term, countryCode))),
+        fetchOverpassMunicipalityCandidates({
+          countryCode,
+          countryLabel: country,
+          regionLabel: region,
+          municipalityLabel: muni,
+        }),
+      ]);
+    } catch (error) {
+      console.warn('Live candidate lookups failed; falling back to trusted seeds only.', error);
+      results = [];
+      overpassCandidates = [];
+    }
     const flattened = results.flat();
     const filtered = flattened.filter((item) => looksLikeFarmOutlet(item));
     const mapped = filtered
@@ -1488,6 +1810,13 @@ out center tags 150;
       return merged;
     } catch (error) {
       console.warn('Could not enrich farmshop list with live web candidates.', error);
+      if (countryCode === 'NO' && municipalityText) {
+        const trustedFallback = getTrustedSeedCandidates(countryCode, countryText, municipalityText);
+        const mergedFallback = mergeShopLists(filtered, trustedFallback);
+        activeFiltered = mergedFallback;
+        renderList(mergedFallback);
+        return mergedFallback;
+      }
       return filtered;
     }
   }
@@ -1562,91 +1891,6 @@ out center tags 150;
     filterShops();
   }
 
-  function runAreaWebSearch() {
-    const countryCode = resolveCountryCode(countrySelect.value);
-    const lexicon = getCountrySearchLexicon(countryCode);
-    const country = selectedText(countrySelect);
-    const region = selectedText(regionSelect);
-    const municipality = selectedText(muniSelect);
-    const query = searchInput.value.trim();
-    const municipalityQuery = municipality;
-    const locationAnchor = [municipality, region, country].filter(Boolean).join(', ');
-    const locationExact = locationAnchor ? `"${locationAnchor}"` : '';
-    const countryTld = COUNTRY_TLD_BY_CODE[countryCode] || '';
-    const countryDomainScope = countryTld ? `site:.${countryTld}` : '';
-
-    const composed = [
-      query || lexicon.baseTerm,
-      `(${lexicon.outletTerms.join(' OR ')})`,
-      municipalityQuery,
-      region,
-      country,
-      lexicon.negativeTerms.join(' '),
-    ].filter(Boolean).join(' ');
-    const strictNoiseExclusions = [
-      ...lexicon.negativeTerms,
-      '-filetype:pdf', '-inurl:pdf', '-rapport', '-årsrapport',
-      '-site:perplexity.ai', '-site:tripadvisor.com', '-site:reddit.com',
-      '-site:tiktok.com', '-site:youtube.com', '-site:pinterest.com',
-      '-site:yellowpages.com', '-site:yelp.com', '-site:1881.no',
-      '-site:gulesider.no',
-      ...(lexicon.domainExclusions || []),
-    ].join(' ');
-    const norwayFocusedQuery = [
-      query || 'gårdsbutikk',
-      '("gårdsbutikk" OR "gårdsutsalg" OR "gårdsmat")',
-      locationExact,
-      'Norge',
-      countryDomainScope || 'site:.no',
-      '(åpningstider OR adresse OR kontakt)',
-      strictNoiseExclusions,
-    ].filter(Boolean).join(' ');
-    const googleActionable = [
-      query || lexicon.baseTerm,
-      `(${lexicon.outletTerms.join(' OR ')})`,
-      locationExact,
-      countryDomainScope,
-      `(${lexicon.signalTerms.join(' OR ')})`,
-      strictNoiseExclusions,
-    ].filter(Boolean).join(' ');
-    const engine = searchEngineSelect ? searchEngineSelect.value : 'google';
-    const aiQualityQuery = [
-      query || lexicon.baseTerm,
-      `(${lexicon.outletTerms.join(' OR ')})`,
-      locationExact,
-      countryDomainScope,
-      `(${lexicon.signalTerms.join(' OR ')})`,
-      strictNoiseExclusions,
-    ].filter(Boolean).join(' ');
-    const effectiveGoogleQuery = countryCode === 'NO' ? norwayFocusedQuery : googleActionable;
-    const effectiveAiQuery = countryCode === 'NO' ? norwayFocusedQuery : aiQualityQuery;
-
-    const buildGoogleUrl = (text) =>
-      `https://www.google.com/search?q=${encodeURIComponent(text)}&tbs=li:1`;
-
-    if (engine === 'ai') {
-      const aiPrompt = [
-        `Finn minst 12 faktiske gårdsbutikker/gårdsutsalg i eller nær ${[municipalityQuery, region, country].filter(Boolean).join(', ')}.`,
-        'Hvis det er færre enn 12 i valgt kommune, utvid søket trinnvis til nabokommuner (ca. 30–60 km), deretter resten av valgt region/fylke.',
-        'Returner kun verifiserbare steder med navn, adresse/sted, produkter (hvis kjent), åpningstider (hvis kjent) og direkte lenke til offisiell nettside eller kart.',
-        `Hold deg strengt til valgt lokasjon: ${locationAnchor || [country].filter(Boolean).join(', ')}. Forkast treff utenfor valgt land/region/kommune.`,
-        `Foretrekk domenescope for valgt land: ${countryDomainScope || 'ingen'}.`,
-        'Ekskluder rapporter, PDF, myndighetsdokumenter, oppskrifter, restauranter, hoteller og generelle artikler.',
-        'Prioriter gårdsbutikk/gårdsutsalg, selvbetjent gårdsbutikk, REKO-utlevering og bondens marked med konkret produsentnavn.',
-        `Bruk denne søkeintensjonen: ${effectiveAiQuery}`,
-      ].join(' ');
-      const aiUrl = `https://www.perplexity.ai/search/new?q=${encodeURIComponent(aiPrompt)}`;
-      const mapsQuery = [query || 'gårdsbutikk', municipality || municipalityQuery, region, country].filter(Boolean).join(' ');
-      const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
-      window.open(aiUrl, '_blank', 'noopener');
-      window.open(mapsUrl, '_blank', 'noopener');
-      return;
-    }
-
-    const url = buildGoogleUrl(effectiveGoogleQuery);
-    window.open(url, '_blank', 'noopener');
-  }
-
   async function geocode(query) {
     const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}`;
     try {
@@ -1711,16 +1955,20 @@ out center tags 150;
     });
 
     renderList(filtered);
+    clearRouteVisuals();
+    drawRouteLine(routeGeom);
 
-    if (window._routeLayer) map.removeLayer(window._routeLayer);
-    window._routeLayer = L.geoJSON(routeGeom, { style: { color: 'blue', weight: 3 } }).addTo(map);
+    if (mapProvider === 'leaflet') {
+      leafletBufferLayer = L.geoJSON(buffer, { style: { color: '#00f', weight: 1, opacity: 0.15 } }).addTo(map);
+      setTimeout(() => {
+        if (leafletBufferLayer) {
+          map.removeLayer(leafletBufferLayer);
+          leafletBufferLayer = null;
+        }
+      }, 10000);
+    }
 
-    const bufferLayer = L.geoJSON(buffer, { style: { color: '#00f', weight: 1, opacity: 0.15 } }).addTo(map);
-    setTimeout(() => {
-      if (bufferLayer) map.removeLayer(bufferLayer);
-    }, 10000);
-
-    if (markers.getLayers().length) map.fitBounds(markers.getBounds(), { maxZoom: 12 });
+    fitMapToMarkers();
   }
 
   countrySelect.addEventListener('change', async () => {
@@ -1757,7 +2005,6 @@ out center tags 150;
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
-    ensureAiSearchEngineDefault();
     if (sortSelect) sortSelect.value = 'name_asc';
     await populateRegions('');
     await populateMunicipalities('', '');
@@ -1786,7 +2033,7 @@ out center tags 150;
   } else if (myMunicipalityBtn) {
     myMunicipalityBtn.addEventListener('click', () => {
       alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
-      runAreaWebSearch();
+      openGoogleMapsSearchFromFilters();
     });
   }
 
@@ -1806,10 +2053,6 @@ out center tags 150;
     nearMeBtn.addEventListener('click', () => {
       alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
     });
-  }
-
-  if (webSearchBtn) {
-    webSearchBtn.addEventListener('click', runAreaWebSearch);
   }
 
   if (openGoogleMapBtn) {
@@ -1838,6 +2081,8 @@ out center tags 150;
     mapHeightUp.addEventListener('click', () => applyMapHeight(currentMapHeight + 30));
   }
 
+  const mapInitPromise = initMap();
+
   try {
     shops = (await loadShops(dataUrl)).map(normalizeShop);
     if (shops.length === 0) {
@@ -1852,8 +2097,10 @@ out center tags 150;
     }
   }
 
+  await mapInitPromise;
+  applyMapHeight(currentMapHeight);
+
   populateCountries();
-  ensureAiSearchEngineDefault();
   await populateRegions('');
   await populateMunicipalities('', '');
   if (resultsHeadingEl) {
@@ -1861,4 +2108,6 @@ out center tags 150;
   }
   activeFiltered = shops;
   renderList(shops);
+
+  autoSelectCountryFromPosition();
 })();

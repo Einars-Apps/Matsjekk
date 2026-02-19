@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google-maps-api-key" content="AIzaSyCNqJylH-TK3UEeLB8m5HylyfpVeG5iqBc">
   <title>Gårdsbutikker — Mat Sjekk</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
@@ -23,6 +24,7 @@
     .map-btn{padding:6px 10px;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:6px}
     .map-btn:hover{background:#f5f5f5}
     .map-size-label{font-size:0.9rem;color:#555}
+    .map-status{margin:8px 0 0;font-size:.85rem;color:#4b5563}
     .result-header{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
     .result-map-btn{padding:6px 10px;border:1px solid #d7dee7;border-radius:8px;background:#fff;color:#123;text-decoration:none;font-size:.84rem}
     .result-map-btn:hover{background:#f4f8fb}
@@ -80,12 +82,10 @@
       <select id="countrySelect"><option value="">Velg land</option></select>
       <select id="regionSelect"><option value="">Velg fylke/region</option></select>
       <select id="municipalitySelect"><option value="">Velg kommune</option></select>
-      <select id="searchEngine"><option value="ai">AI-søk</option><option value="google">Google-søk</option></select>
       <select id="sortSelect"><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option></select>
       <input id="searchInput" placeholder="Søk butikk" style="flex:1" />
       <button id="myMunicipalityBtn" type="button">Søk i min kommune</button>
       <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
-      <button id="webSearchBtn" type="button">Søk</button>
       <input id="routeFrom" placeholder="Fra (adresse eller by)" />
       <input id="routeTo" placeholder="Til (adresse eller by)" />
       <button id="routeBtn">Finn langs rute</button>
@@ -99,6 +99,7 @@
     </div>
 
     <div id="map"></div>
+    <div id="mapStatus" class="map-status" aria-live="polite"></div>
 
     <div class="result-header">
       <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
