@@ -225,6 +225,13 @@
     royken: ['asker', 'hurum', 'røyken', 'royken'],
   };
 
+  const NORWAY_REGION_VARIANTS = {
+    akershus: ['akershus', 'viken'],
+    buskerud: ['buskerud', 'viken'],
+    ostfold: ['østfold', 'ostfold', 'viken'],
+    viken: ['akershus', 'buskerud', 'østfold', 'ostfold', 'viken'],
+  };
+
   const TRUSTED_NORWAY_SEEDS = [
     { name: 'Bergvang Gård', municipality: 'Asker', region: 'Akershus', address: 'Bergvangveien 21, Asker', products: ['Egg', 'Kjøtt', 'Honning'], website: 'https://www.google.com/search?q=Bergvang+G%C3%A5rd+Asker' },
     { name: 'Grønnsletta Gård', municipality: 'Hurum', region: 'Akershus', address: 'Tofteveien 40, Hurum/Asker', products: ['Lam', 'Pølser', 'Honning', 'Egg'], website: 'https://www.google.com/search?q=Gr%C3%B8nnsletta+G%C3%A5rd+Hurum' },
@@ -675,6 +682,37 @@
     );
   }
 
+  function regionKey(value) {
+    return (value || '')
+      .toString()
+      .trim()
+      .toLowerCase()
+      .replace(/ø/g, 'o')
+      .replace(/æ/g, 'ae')
+      .replace(/å/g, 'a')
+      .replace(/\s+/g, ' ');
+  }
+
+  function regionVariants(countryCode, regionLabel) {
+    const label = (regionLabel || '').toString().trim();
+    if (!label) return [];
+    if (countryCode !== 'NO') return [label];
+    const key = regionKey(label);
+    const aliases = NORWAY_REGION_VARIANTS[key] || [label];
+    return [...new Set(aliases.map((item) => regionKey(item)))];
+  }
+
+  function regionMatches(shopRegion, regionTerms) {
+    if (!regionTerms.length) return true;
+    const shopKey = regionKey(shopRegion || '');
+    if (!shopKey) return false;
+    return regionTerms.some((term) =>
+      shopKey === term ||
+      shopKey.includes(term) ||
+      term.includes(shopKey)
+    );
+  }
+
   function populateCountries() {
     countrySelect.innerHTML = '<option value="">Velg land</option>' +
       WEST_EUROPE.map((country) => `<option value="${country.code}">${country.name}</option>`).join('');
@@ -815,6 +853,29 @@
     const mapsQuery = currentMapSearchQuery() || 'gårdsbutikk Norge';
     const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
     window.open(mapsUrl, '_blank', 'noopener');
+  }
+
+  function shopKeyForResult(shop) {
+    return `${normalizeKey(shop?.name || '')}|${normalizeKey(shop?.address || '')}`;
+  }
+
+  function prioritizeShopInResults(shop) {
+    if (!shop || !listEl) return;
+    const key = shopKeyForResult(shop);
+    if (!key) return;
+
+    const cards = [...listEl.querySelectorAll('.item[data-shop-key]')];
+    const target = cards.find((card) => card.dataset.shopKey === key);
+    if (target && listEl.firstElementChild !== target) {
+      listEl.prepend(target);
+      listEl.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    const idx = activeFiltered.findIndex((entry) => shopKeyForResult(entry) === key);
+    if (idx > 0) {
+      const selected = activeFiltered[idx];
+      activeFiltered = [selected, ...activeFiltered.slice(0, idx), ...activeFiltered.slice(idx + 1)];
+    }
   }
 
   function initGoogleEmbedMap() {
@@ -1005,6 +1066,7 @@
         title: shop.name || 'Gårdsutsalg',
       });
       marker.addListener('click', () => {
+        prioritizeShopInResults(shop);
         googleInfoWindow.setContent(`<strong>${escapeHtml(shop.name || 'Gårdsutsalg')}</strong><br>${escapeHtml(shop.address || '')}`);
         googleInfoWindow.open({ anchor: marker, map });
       });
@@ -1014,6 +1076,7 @@
 
     if (leafletMarkersLayer) {
       const marker = L.marker([lat, lon]).bindPopup(`<strong>${shop.name}</strong><br>${shop.address || ''}`);
+      marker.on('click', () => prioritizeShopInResults(shop));
       leafletMarkersLayer.addLayer(marker);
     }
   }
@@ -1237,6 +1300,7 @@
     ordered.forEach((shop) => {
       const div = document.createElement('div');
       div.className = 'item';
+      div.dataset.shopKey = shopKeyForResult(shop);
       const products = (shop.products || []).join(', ');
       const location = [shop.address, shop.municipality, shop.region].filter(Boolean).join(', ');
       const phoneLine = shop.phone ? `<div class="item-sub">📞 ${escapeHtml(shop.phone)}</div>` : '';
@@ -1754,12 +1818,15 @@ out center tags 150;
 
     const municipalityTerms = municipalityVariants(countryCode, municipalityText)
       .map((name) => municipalityKey(name));
+    const regionTerms = regionVariants(countryCode, regionText);
+    const queryMunicipalityTerms = municipalityVariants(countryCode, query)
+      .map((name) => municipalityKey(name));
 
     let filtered = shops.filter((shop) => {
       const countryMatch = !countryCode || shop.countryCode === countryCode;
       const regionMatch = !regionValue || (countryCode === 'NO'
-        ? (shop.region || '').toLowerCase() === (regionText || '').toLowerCase()
-        : shop.region === regionValue);
+        ? regionMatches(shop.region || '', regionTerms)
+        : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
       const municipalityMatch = !municipalityValue || (countryCode === 'NO'
         ? municipalityMatches(shop.municipality || '', municipalityTerms)
         : shop.municipality === municipalityValue);
@@ -1769,14 +1836,17 @@ out center tags 150;
     if (query) {
       filtered = filtered.filter((shop) =>
         (shop.name || '').toLowerCase().includes(query) ||
-        (shop.products || []).join(' ').toLowerCase().includes(query)
+        (shop.products || []).join(' ').toLowerCase().includes(query) ||
+        (shop.address || '').toLowerCase().includes(query) ||
+        (shop.municipality || '').toLowerCase().includes(query) ||
+        (queryMunicipalityTerms.length > 1 && municipalityMatches(shop.municipality || '', queryMunicipalityTerms))
       );
     }
 
     activeFiltered = filtered;
     renderList(filtered);
 
-    const shouldEnrich = Boolean(municipalityText || (query && query.length >= 2));
+    const shouldEnrich = Boolean(regionText || municipalityText || (query && query.length >= 2));
     if (!shouldEnrich) return filtered;
 
     try {
@@ -1926,7 +1996,9 @@ out center tags 150;
     const fromPoint = await geocodeWithFallback(from);
     const toPoint = await geocodeWithFallback(to);
     if (!fromPoint || !toPoint) {
-      alert('Kunne ikke finne adresser');
+      const fallbackUrl = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(from)}&destination=${encodeURIComponent(to)}&travelmode=driving`;
+      window.open(fallbackUrl, '_blank', 'noopener');
+      alert('Kunne ikke geokode hele ruten lokalt. Åpnet Google Maps rute i ny fane.');
       return;
     }
     const osrmUrl = `https://router.project-osrm.org/route/v1/driving/${fromPoint.lon},${fromPoint.lat};${toPoint.lon},${toPoint.lat}?overview=full&geometries=geojson`;
@@ -2019,21 +2091,17 @@ out center tags 150;
 
   if (myMunicipalityBtn && navigator.geolocation) {
     myMunicipalityBtn.addEventListener('click', () => {
-      navigator.geolocation.getCurrentPosition(async (position) => {
-        try {
-          const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
-          await chooseBestMunicipality(geo);
-        } catch (_) {
-          alert('Fant ikke kommune fra posisjon.');
-        }
-      }, () => {
-        alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
-      }, { enableHighAccuracy: true, timeout: 10000 });
+      filterShops();
+      if ((searchInput?.value || '').trim()) {
+        openGoogleMapsSearchFromFilters();
+      }
     });
   } else if (myMunicipalityBtn) {
     myMunicipalityBtn.addEventListener('click', () => {
-      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
-      openGoogleMapsSearchFromFilters();
+      filterShops();
+      if ((searchInput?.value || '').trim()) {
+        openGoogleMapsSearchFromFilters();
+      }
     });
   }
 
@@ -2043,7 +2111,14 @@ out center tags 150;
         try {
           await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
         } catch (_) {
-          alert('Fant ikke butikker nær posisjonen din.');
+          try {
+            const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
+            await chooseBestMunicipality(geo);
+            openGoogleMapsSearchFromFilters();
+          } catch (__) {
+            const nearbyUrl = `https://www.google.com/maps/search/${encodeURIComponent(`gårdsbutikk ${position.coords.latitude},${position.coords.longitude}`)}`;
+            window.open(nearbyUrl, '_blank', 'noopener');
+          }
         }
       }, () => {
         alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
@@ -2051,7 +2126,8 @@ out center tags 150;
     });
   } else if (nearMeBtn) {
     nearMeBtn.addEventListener('click', () => {
-      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpne siden over HTTPS og tillat posisjon.');
+      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpner Google Maps-søk for valgt område.');
+      openGoogleMapsSearchFromFilters();
     });
   }
 
