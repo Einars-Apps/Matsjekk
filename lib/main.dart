@@ -951,6 +951,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       'ES': 'Spania',
       'GB': 'UK',
     };
+    final sortedLandEntries = land.entries.toList()
+      ..sort((a, b) =>
+          a.value.toLowerCase().compareTo(b.value.toLowerCase()));
 
     _safeShowDialogBuilder(
       (_) => StatefulBuilder(
@@ -965,7 +968,7 @@ class _ScannerScreenState extends State<ScannerScreen>
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
-                  children: land.entries.map((entry) {
+                  children: sortedLandEntries.map((entry) {
                     final code = entry.key;
                     final label = entry.value;
                     final selected = selectedCountry == code;
