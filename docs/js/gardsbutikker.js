@@ -264,6 +264,7 @@
   const countrySelect = document.getElementById('countrySelect');
   const regionSelect = document.getElementById('regionSelect');
   const muniSelect = document.getElementById('municipalitySelect');
+  const applyFiltersBtn = document.getElementById('applyFiltersBtn');
   const sortSelect = document.getElementById('sortSelect');
   const searchInput = document.getElementById('searchInput');
   const listEl = document.getElementById('list');
@@ -281,6 +282,7 @@
   let currentMapHeight = isMobile ? 110 : 400;
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
+  let userPosition = null;
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -812,12 +814,37 @@
   }
 
   function sortShops(items) {
-    const mode = sortSelect ? sortSelect.value : 'name_asc';
-    const sorted = [...items].sort((left, right) =>
-      (left?.name || '').localeCompare((right?.name || ''), 'nb')
-    );
+    const mode = sortSelect ? sortSelect.value : 'distance_asc';
+    const sorted = [...items].sort((left, right) => {
+      if (mode === 'distance_asc') {
+        const leftDistance = Number.isFinite(left?.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
+        const rightDistance = Number.isFinite(right?.distanceKm) ? right.distanceKm : Number.POSITIVE_INFINITY;
+        if (leftDistance !== rightDistance) return leftDistance - rightDistance;
+      }
+      return (left?.name || '').localeCompare((right?.name || ''), 'nb');
+    });
     if (mode === 'name_desc') sorted.reverse();
     return sorted;
+  }
+
+  function setUserPosition(lat, lon) {
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
+    userPosition = { lat, lon };
+  }
+
+  function addDistanceFromUser(items) {
+    if (!userPosition || !Number.isFinite(userPosition.lat) || !Number.isFinite(userPosition.lon)) {
+      return items;
+    }
+    return (items || []).map((shop) => {
+      if (shop.lat == null || shop.lon == null) return shop;
+      const lat = Number(shop.lat);
+      const lon = Number(shop.lon);
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return shop;
+      const distanceKm = haversineKm(userPosition.lat, userPosition.lon, lat, lon);
+      if (!Number.isFinite(distanceKm)) return shop;
+      return { ...shop, distanceKm };
+    });
   }
 
   const GOOGLE_MAPS_API_KEY = (document.querySelector('meta[name="google-maps-api-key"]')?.getAttribute('content') || '').trim();
@@ -1015,6 +1042,7 @@
     if (!navigator.geolocation) return false;
     try {
       const position = await getCurrentPositionAsync({ enableHighAccuracy: false, timeout: 7000, maximumAge: 300000 });
+      setUserPosition(position.coords.latitude, position.coords.longitude);
       const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
       const countryCode = normalizeCountryCode(geo?.countryCode || '');
       if (!countryCode) return false;
@@ -1843,6 +1871,8 @@ out center tags 150;
       );
     }
 
+    filtered = addDistanceFromUser(filtered);
+
     activeFiltered = filtered;
     renderList(filtered);
 
@@ -1858,7 +1888,7 @@ out center tags 150;
         query,
       });
       if (runId !== filterRunId) return filtered;
-      const merged = mergeShopLists(filtered, liveCandidates);
+      const merged = addDistanceFromUser(mergeShopLists(filtered, liveCandidates));
       activeFiltered = merged;
       renderList(merged);
 
@@ -1871,7 +1901,7 @@ out center tags 150;
           query: query || 'gårdsbutikk',
         });
         if (runId !== filterRunId) return merged;
-        const mergedRegionWide = mergeShopLists(merged, regionWideCandidates);
+        const mergedRegionWide = addDistanceFromUser(mergeShopLists(merged, regionWideCandidates));
         activeFiltered = mergedRegionWide;
         renderList(mergedRegionWide);
         return mergedRegionWide;
@@ -1882,7 +1912,7 @@ out center tags 150;
       console.warn('Could not enrich farmshop list with live web candidates.', error);
       if (countryCode === 'NO' && municipalityText) {
         const trustedFallback = getTrustedSeedCandidates(countryCode, countryText, municipalityText);
-        const mergedFallback = mergeShopLists(filtered, trustedFallback);
+        const mergedFallback = addDistanceFromUser(mergeShopLists(filtered, trustedFallback));
         activeFiltered = mergedFallback;
         renderList(mergedFallback);
         return mergedFallback;
@@ -2064,6 +2094,11 @@ out center tags 150;
       renderList(activeFiltered);
     });
   }
+  if (applyFiltersBtn) {
+    applyFiltersBtn.addEventListener('click', () => {
+      filterShops();
+    });
+  }
   let searchDebounce = null;
   searchInput.addEventListener('input', () => {
     if (searchDebounce) clearTimeout(searchDebounce);
@@ -2077,7 +2112,7 @@ out center tags 150;
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
-    if (sortSelect) sortSelect.value = 'name_asc';
+    if (sortSelect) sortSelect.value = 'distance_asc';
     await populateRegions('');
     await populateMunicipalities('', '');
     filterShops();
@@ -2109,6 +2144,7 @@ out center tags 150;
     nearMeBtn.addEventListener('click', () => {
       navigator.geolocation.getCurrentPosition(async (position) => {
         try {
+          setUserPosition(position.coords.latitude, position.coords.longitude);
           await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
         } catch (_) {
           try {
@@ -2183,7 +2219,8 @@ out center tags 150;
     resultsHeadingEl.textContent = 'Gårdsbutikker nær deg';
   }
   activeFiltered = shops;
-  renderList(shops);
+  activeFiltered = addDistanceFromUser(shops);
+  renderList(activeFiltered);
 
   autoSelectCountryFromPosition();
 })();
