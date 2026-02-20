@@ -419,6 +419,21 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
   }
 
+  String _howAppWorksText(BuildContext context) {
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
+    if (code == 'nb') {
+      return '1. Skann strekkoden på varen.\n'
+          '2. Appen henter produktdata fra Open Food Facts.\n'
+          '3. Varsler vurderes mot interne merkevare- og ingrediensregler.\n'
+          '4. Du får en enkel visning av risiko og kan lagre varer i handlelisten.';
+    }
+    return '1. Scan the product barcode.\n'
+        '2. The app fetches product data from Open Food Facts.\n'
+        '3. Alerts are evaluated against internal brand and ingredient rules.\n'
+        '4. You get a simple risk view and can save items to your shopping list.';
+  }
+
   String _regionalNewsLabel(BuildContext context) {
     final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
         .toLowerCase();
@@ -805,9 +820,7 @@ class _ScannerScreenState extends State<ScannerScreen>
               _safeShowDialogBuilder((_) => AlertDialog(
                       title: Text(AppLocalizations.of(context)?.howAppWorks ??
                           'How the App Works'),
-                      content: Text(
-                          AppLocalizations.of(context)?.appDescription ??
-                              'The app uses Open Food Facts....'),
+                  content: Text(_howAppWorksText(context)),
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
@@ -829,12 +842,6 @@ class _ScannerScreenState extends State<ScannerScreen>
                           const Text('Varsel: intern liste for merkevare-koblinger'),
                           const SizedBox(height: 4),
                           const Text('Varsel: merkevaresporing og offentlig informasjon'),
-                          const SizedBox(height: 12),
-                          ElevatedButton.icon(
-                            onPressed: _openFarmShops,
-                            icon: const Icon(Icons.open_in_new),
-                            label: Text(_farmShopsLabel(context)),
-                          )
                         ],
                       ),
                       actions: [
@@ -949,25 +956,39 @@ class _ScannerScreenState extends State<ScannerScreen>
       (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
           title: const Text('Velg land (prioriterer kilder)'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: land.entries.map((entry) {
-              final code = entry.key;
-              final label = entry.value;
-              final selected = selectedCountry == code;
-              return ListTile(
-                leading: selected ? const Icon(Icons.radio_button_checked) : const Icon(Icons.radio_button_unchecked),
-                title: Text(label),
-                onTap: () async {
-                  if (selected) return;
-                  innstillingerBox.put('selectedCountry', code);
-                  setDialogState(() => selectedCountry = code);
-                  _safePop();
-                  if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 200));
-                  if (mounted) widget.onCountryChanged(code);
-                },
-              );
-            }).toList(),
+          content: SizedBox(
+            width: double.maxFinite,
+            child: ConstrainedBox(
+              constraints: BoxConstraints(
+                maxHeight: MediaQuery.of(context).size.height * 0.6,
+              ),
+              child: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: land.entries.map((entry) {
+                    final code = entry.key;
+                    final label = entry.value;
+                    final selected = selectedCountry == code;
+                    return ListTile(
+                      leading: selected
+                          ? const Icon(Icons.radio_button_checked)
+                          : const Icon(Icons.radio_button_unchecked),
+                      title: Text(label),
+                      onTap: () async {
+                        if (selected) return;
+                        innstillingerBox.put('selectedCountry', code);
+                        setDialogState(() => selectedCountry = code);
+                        _safePop();
+                        if (!_isTestEnv) {
+                          await Future.delayed(const Duration(milliseconds: 200));
+                        }
+                        if (mounted) widget.onCountryChanged(code);
+                      },
+                    );
+                  }).toList(),
+                ),
+              ),
+            ),
           ),
           actions: [
             TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
