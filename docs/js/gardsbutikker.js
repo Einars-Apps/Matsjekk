@@ -219,10 +219,15 @@
   };
 
   const NORWAY_MERGED_MUNICIPALITIES = {
-    asker: ['asker', 'hurum', 'røyken', 'royken'],
-    hurum: ['asker', 'hurum', 'røyken', 'royken'],
-    'røyken': ['asker', 'hurum', 'røyken', 'royken'],
-    royken: ['asker', 'hurum', 'røyken', 'royken'],
+    asker: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
+    hurum: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
+    'røyken': ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
+    royken: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
+    slemmestad: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad'],
+    tofte: ['asker', 'hurum', 'tofte', 'holmsbu', 'klokkarstua'],
+    holmsbu: ['asker', 'hurum', 'tofte', 'holmsbu', 'klokkarstua'],
+    vettre: ['asker', 'vettre', 'røyken', 'royken'],
+    hyggen: ['asker', 'hyggen', 'røyken', 'royken'],
   };
 
   const NORWAY_REGION_VARIANTS = {
@@ -234,14 +239,21 @@
 
   const TRUSTED_NORWAY_SEEDS = [
     { name: 'Bergvang Gård', municipality: 'Asker', region: 'Akershus', address: 'Bergvangveien 21, Asker', products: ['Egg', 'Kjøtt', 'Honning'], website: 'https://www.google.com/search?q=Bergvang+G%C3%A5rd+Asker' },
-    { name: 'Grønnsletta Gård', municipality: 'Hurum', region: 'Akershus', address: 'Tofteveien 40, Hurum/Asker', products: ['Lam', 'Pølser', 'Honning', 'Egg'], website: 'https://www.google.com/search?q=Gr%C3%B8nnsletta+G%C3%A5rd+Hurum' },
-    { name: 'Hurum Hjort – Solberg Gård', municipality: 'Hurum', region: 'Akershus', address: 'Solbergveien 2, Hurum/Asker', products: ['Hjortekjøtt'], website: 'https://www.google.com/search?q=Hurum+Hjort+Solberg+G%C3%A5rd' },
-    { name: 'Sand Gård', municipality: 'Hurum', region: 'Akershus', address: 'Storengene 2/4, Kana', products: ['Bakerivarer', 'Lokale produkter'], website: 'https://www.google.com/search?q=Sand+G%C3%A5rd+Kana' },
-    { name: 'Biffgården', municipality: 'Hurum', region: 'Akershus', address: 'Holmsbu-området', products: ['Kjøtt', 'Skinn', 'Ved'], website: 'https://www.google.com/search?q=Biffg%C3%A5rden+Holmsbu' },
-    { name: 'Bergsmyrene Gård', municipality: 'Hurum', region: 'Akershus', address: 'Søndre Hurum/Asker', products: ['Grønnsaker'], website: 'https://www.google.com/search?q=Bergsmyrene+G%C3%A5rd' },
-    { name: 'Bonden Jens', municipality: 'Røyken', region: 'Akershus', address: 'Hurumveien 13, 3440 Røyken', products: ['Grønnsaker', 'Bær', 'Selvplukk'], website: 'https://www.google.com/search?q=Bonden+Jens+R%C3%B8yken' },
-    { name: 'Hyggen Gård / Hyggen Eplemost', municipality: 'Røyken', region: 'Akershus', address: 'Hyggen, Røyken/Asker', products: ['Eplemost', 'Epleprodukter'], website: 'https://www.google.com/search?q=Hyggen+Eplemost' },
-    { name: 'Bryggerhuset på Frøtvedt', municipality: 'Røyken', region: 'Akershus', address: 'Røyken-området', products: ['Bakerivarer'], website: 'https://www.google.com/search?q=Bryggerhuset+p%C3%A5+Fr%C3%B8tvedt' },
+    { name: 'Grønnsletta Gård', municipality: 'Hurum', region: 'Akershus', address: 'Tofteveien 40, Hurum/Asker', products: ['Lam', 'Pølser', 'Honning', 'Egg'], website: 'https://www.google.com/maps/place/Gr%C3%B8nnsletta+G%C3%A5rd/', lat: 59.5553052, lon: 10.5049039 },
+    { name: 'Værby gård', municipality: 'Hurum', region: 'Akershus', address: 'Værby, Asker', products: ['Lokalmat'], website: 'https://www.google.com/maps/place/V%C3%A6rby+g%C3%A5rd/', lat: 59.5445009, lon: 10.4801604 },
+    { name: 'Bergsmyrene', municipality: 'Hurum', region: 'Akershus', address: 'Søndre Hurum/Asker', products: ['Grønnsaker'], website: 'https://www.google.com/maps/place/Bergsmyrene/', lat: 59.5502616, lon: 10.4556426 },
+    { name: 'Biffgården', municipality: 'Hurum', region: 'Akershus', address: 'Holmsbu-området', products: ['Kjøtt', 'Skinn', 'Ved'], website: 'https://www.google.com/maps/place/Biffg%C3%A5rden/', lat: 59.538206, lon: 10.4433703 },
+    { name: 'Thor Graff', municipality: 'Røyken', region: 'Akershus', address: 'Asker', products: ['Lokalmat'], website: 'https://www.google.com/maps/place/Thor+Graff/', lat: 59.7301368, lon: 10.4432877 },
+    { name: 'Hyggen eplemost', municipality: 'Røyken', region: 'Akershus', address: 'Hyggen, Asker', products: ['Eplemost', 'Epleprodukter'], website: 'https://www.google.com/maps/place/Hyggen+eplemost/', lat: 59.7148197, lon: 10.3500528 },
+    { name: 'Bonden Jens', municipality: 'Røyken', region: 'Akershus', address: 'Hurumveien 13, 3440 Røyken', products: ['Grønnsaker', 'Bær', 'Selvplukk'], website: 'https://www.google.com/maps/place/Bonden+Jens/', lat: 59.7290416, lon: 10.4415312 },
+    { name: 'Jordbær fra Nedre Gjerdal Gård', municipality: 'Røyken', region: 'Akershus', address: 'Asker', products: ['Jordbær', 'Bær'], website: 'https://www.google.com/maps/place/Jordb%C3%A6r+fra+Nedre+Gjerdal+G%C3%A5rd/', lat: 59.7461658, lon: 10.434421 },
+    { name: 'Hurum hjort', municipality: 'Hurum', region: 'Akershus', address: 'Asker', products: ['Hjortekjøtt'], website: 'https://www.google.com/maps/place/Hurum+hjort/', lat: 59.594239, lon: 10.6028242 },
+    { name: 'Eplegården AS', municipality: 'Hurum', region: 'Akershus', address: 'Asker', products: ['Epleprodukter'], website: 'https://www.google.com/maps/place/Epleg%C3%A5rden+AS/', lat: 59.6498675, lon: 10.5972649 },
+    { name: 'Bryggerhuset på Frøtvedt', municipality: 'Røyken', region: 'Akershus', address: 'Røyken-området', products: ['Bakerivarer'], website: 'https://www.google.com/maps/place/Bryggerhuset+p%C3%A5+Fr%C3%B8tvedt/', lat: 59.710323, lon: 10.4954476 },
+    { name: 'Aaby Gård', municipality: 'Asker', region: 'Akershus', address: 'Asker', products: ['Lokalmat'], website: 'https://www.google.com/maps/place/Aaby+G%C3%A5rd/', lat: 59.8208933, lon: 10.4644799 },
+    { name: 'Grisehuset gårdsutsalg', municipality: 'Asker', region: 'Akershus', address: 'Asker', products: ['Gårdsutsalg'], website: 'https://www.google.com/maps/place/Grisehuset+g%C3%A5rdsutsalg/', lat: 59.8262596, lon: 10.4794243 },
+    { name: 'Sand Gård', municipality: 'Hurum', region: 'Akershus', address: 'Storengene 2/4, Kana', products: ['Bakerivarer', 'Lokale produkter'], website: 'https://www.google.com/maps/place/Sand+G%C3%A5rd/', lat: 59.5636043, lon: 10.4641891 },
+    { name: 'Vinnulstad Gård', municipality: 'Asker', region: 'Akershus', address: 'Asker', products: ['Lokalmat'], website: 'https://www.google.com/maps/place/Vinnulstad+G%C3%A5rd/', lat: 59.8016602, lon: 10.4261885 },
     { name: 'Syse Gard', municipality: 'Ulvik', region: 'Vestland', address: 'Apalvegen, 5730 Ulvik', products: ['Eplesider', 'Eplemost', 'Frukt'], website: 'https://sysegard.no' },
     { name: 'Ulvik Frukt & Cideri', municipality: 'Ulvik', region: 'Vestland', address: 'Håkastad, Ulvik', products: ['Eplesorter', 'Eplemost', 'Sider'], website: 'https://hakastadsider.no' },
     { name: 'Hardanger Saft- og Siderfabrikk', municipality: 'Ulvik', region: 'Vestland', address: 'Lekve, Ulvik', products: ['Eplemost', 'Sider', 'Saft'], website: 'https://hardangersider.no' },
@@ -1483,6 +1495,13 @@
 
   function toSeedShop(seed, countryLabel) {
     const website = normalizeWebsite(seed.website) || buildWebsiteFallback(seed.name, seed.municipality, seed.region, countryLabel);
+    const lat = Number.isFinite(Number(seed.lat)) ? Number(seed.lat) : null;
+    const lon = Number.isFinite(Number(seed.lon)) ? Number(seed.lon) : null;
+    const mapsUrl = (lat != null && lon != null)
+      ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${lat},${lon}`)}`
+      : (seed.address
+        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(seed.address)}`
+        : '');
     return {
       id: `seed-${municipalityKey(seed.name)}`,
       name: seed.name,
@@ -1491,26 +1510,42 @@
       municipality: seed.municipality,
       products: seed.products || ['Lokale gårdsprodukter'],
       website,
-      lat: null,
-      lon: null,
+      lat,
+      lon,
       address: seed.address || '',
       phone: '',
       openingHours: '',
       category: 'Gårdsutsalg',
-      mapsUrl: seed.address
-        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(seed.address)}`
-        : '',
+      mapsUrl,
       imageUrl: '',
     };
   }
 
-  function getTrustedSeedCandidates(countryCode, countryLabel, municipalityLabel) {
-    if (countryCode !== 'NO' || !municipalityLabel) return [];
-    const variants = municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value));
+  function getTrustedSeedCandidates(countryCode, countryLabel, municipalityLabel, regionLabel = '') {
+    if (countryCode !== 'NO') return [];
+
+    const municipalityVariantsKeys = municipalityLabel
+      ? municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value))
+      : [];
+    const regionVariantKeys = regionLabel
+      ? regionVariants(countryCode, regionLabel).map((value) => regionKey(value))
+      : [];
+
     const seeds = TRUSTED_NORWAY_SEEDS.filter((entry) => {
       const muniKey = municipalityKey(entry.municipality);
-      return variants.includes(muniKey) || variants.some((value) => muniKey.includes(value) || value.includes(muniKey));
+      const entryRegionKey = regionKey(entry.region);
+
+      const municipalityMatch = municipalityVariantsKeys.length
+        ? (municipalityVariantsKeys.includes(muniKey) || municipalityVariantsKeys.some((value) => muniKey.includes(value) || value.includes(muniKey)))
+        : true;
+
+      const regionMatch = regionVariantKeys.length
+        ? (regionVariantKeys.includes(entryRegionKey) || regionVariantKeys.some((value) => entryRegionKey.includes(value) || value.includes(entryRegionKey)))
+        : true;
+
+      return municipalityMatch && regionMatch;
     });
+
     return seeds.map((entry) => toSeedShop(entry, countryLabel));
   }
 
@@ -1773,7 +1808,7 @@ out center tags 150;
     const country = countryLabel || '';
     const q = query || '';
     const cacheKey = `${countryCode}|${muni}|${region}|${q}`;
-    const seedCandidates = getTrustedSeedCandidates(countryCode, country, muni);
+    const seedCandidates = getTrustedSeedCandidates(countryCode, country, muni, region);
 
     if (webCandidateCache.has(cacheKey)) {
       return webCandidateCache.get(cacheKey);
@@ -1911,7 +1946,7 @@ out center tags 150;
     } catch (error) {
       console.warn('Could not enrich farmshop list with live web candidates.', error);
       if (countryCode === 'NO' && municipalityText) {
-        const trustedFallback = getTrustedSeedCandidates(countryCode, countryText, municipalityText);
+        const trustedFallback = getTrustedSeedCandidates(countryCode, countryText, municipalityText, regionText);
         const mergedFallback = addDistanceFromUser(mergeShopLists(filtered, trustedFallback));
         activeFiltered = mergedFallback;
         renderList(mergedFallback);
