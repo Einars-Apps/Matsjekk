@@ -266,6 +266,47 @@
     { name: 'Kjerland Gardsbutikk', municipality: 'Voss', region: 'Vestland', address: 'Granvin/Voss-området', products: ['Lokalvarer'], website: 'https://www.google.com/search?q=Kjerland+Gardsbutikk' },
   ];
 
+  const TRUSTED_SWEDEN_SEEDS = [
+    { name: 'Bondens Egen Marknad Södermalm', municipality: 'Stockholm', region: 'Stockholms län', address: 'Katarina Bangata, Stockholm', products: ['Lokalmat', 'Grønnsaker'], website: 'https://www.google.com/maps/search/?api=1&query=Bondens+Egen+Marknad+S%C3%B6dermalm+Stockholm' },
+    { name: 'Sanda Gårdsbutik', municipality: 'Stockholm', region: 'Stockholms län', address: 'Stockholm-området', products: ['Kjøtt', 'Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=Sanda+G%C3%A5rdsbutik+Stockholm' },
+    { name: 'Nääs Gårdsbutik', municipality: 'Göteborg', region: 'Västra Götalands län', address: 'Göteborg-området', products: ['Ost', 'Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=N%C3%A4%C3%A4s+G%C3%A5rdsbutik+G%C3%B6teborg' },
+    { name: 'Möllegården Gårdsbutik', municipality: 'Malmö', region: 'Skåne län', address: 'Malmö-området', products: ['Kjøtt', 'Egg'], website: 'https://www.google.com/maps/search/?api=1&query=M%C3%B6lleg%C3%A5rden+G%C3%A5rdsbutik+Malm%C3%B6' },
+    { name: 'Hällestad Gårdsbutik', municipality: 'Lund', region: 'Skåne län', address: 'Lund-området', products: ['Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=H%C3%A4llestad+G%C3%A5rdsbutik+Lund' },
+    { name: 'Sävne Gårdsbutik', municipality: 'Uppsala', region: 'Uppsala län', address: 'Uppsala-området', products: ['Grønnsaker', 'Bær'], website: 'https://www.google.com/maps/search/?api=1&query=S%C3%A4vne+G%C3%A5rdsbutik+Uppsala' },
+    { name: 'Ängavallen Gårdsbutik', municipality: 'Malmö', region: 'Skåne län', address: 'Skåne', products: ['Kjøtt', 'Meieri'], website: 'https://www.google.com/maps/search/?api=1&query=%C3%84ngavallen+G%C3%A5rdsbutik+Sk%C3%A5ne' },
+    { name: 'Ekenäs Gårdsbutik', municipality: 'Västerås', region: 'Västmanlands län', address: 'Västerås-området', products: ['Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=Eken%C3%A4s+G%C3%A5rdsbutik+V%C3%A4ster%C3%A5s' },
+  ];
+
+  const TRUSTED_DENMARK_SEEDS = [
+    { name: 'Kildegården Gårdbutik', municipality: 'København', region: 'Hovedstaden', address: 'København-området', products: ['Lokalmat', 'Grønnsaker'], website: 'https://www.google.com/maps/search/?api=1&query=Kildeg%C3%A5rden+G%C3%A5rdbutik+K%C3%B8benhavn' },
+    { name: 'Krogerup Avlsgård', municipality: 'Helsingør', region: 'Hovedstaden', address: 'Helsingør', products: ['Grønnsaker', 'Bakervarer'], website: 'https://www.google.com/maps/search/?api=1&query=Krogerup+Avlsg%C3%A5rd+Helsing%C3%B8r' },
+    { name: 'Aarstiderne Gårdbutik', municipality: 'Roskilde', region: 'Sjælland', address: 'Roskilde-området', products: ['Økologisk mat'], website: 'https://www.google.com/maps/search/?api=1&query=Aarstiderne+G%C3%A5rdbutik+Roskilde' },
+    { name: 'Skjold Burne Gårdbutik', municipality: 'Odense', region: 'Syddanmark', address: 'Odense-området', products: ['Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=G%C3%A5rdbutik+Odense' },
+    { name: 'Birkemosehus Gårdbutik', municipality: 'Aarhus', region: 'Midtjylland', address: 'Aarhus-området', products: ['Kjøtt', 'Egg'], website: 'https://www.google.com/maps/search/?api=1&query=Birkemosehus+G%C3%A5rdbutik+Aarhus' },
+    { name: 'Fru Møllers Mølleri', municipality: 'Aarhus', region: 'Midtjylland', address: 'Midtjylland', products: ['Mel', 'Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=Fru+M%C3%B8llers+M%C3%B8lleri' },
+    { name: 'Aabybro Mejeriudsalg', municipality: 'Aalborg', region: 'Nordjylland', address: 'Aalborg-området', products: ['Meieri'], website: 'https://www.google.com/maps/search/?api=1&query=G%C3%A5rdbutik+Aalborg' },
+    { name: 'Hjorths Gårdbutik', municipality: 'Esbjerg', region: 'Syddanmark', address: 'Esbjerg-området', products: ['Lokalmat'], website: 'https://www.google.com/maps/search/?api=1&query=G%C3%A5rdbutik+Esbjerg' },
+  ];
+
+  const TRUSTED_SEEDS_BY_COUNTRY = {
+    NO: TRUSTED_NORWAY_SEEDS,
+    SE: TRUSTED_SWEDEN_SEEDS,
+    DK: TRUSTED_DENMARK_SEEDS,
+    FI: [],
+    DE: [],
+    NL: [],
+    BE: [],
+    FR: [],
+    IT: [],
+    PT: [],
+    ES: [],
+    GB: [],
+    IE: [],
+    AT: [],
+    CH: [],
+    LU: [],
+  };
+
   let shops = [];
   let norwayCounties = [];
   let norwayMunicipalities = [];
@@ -1522,7 +1563,8 @@
   }
 
   function getTrustedSeedCandidates(countryCode, countryLabel, municipalityLabel, regionLabel = '') {
-    if (countryCode !== 'NO') return [];
+    const countrySeeds = TRUSTED_SEEDS_BY_COUNTRY[countryCode] || [];
+    if (!countrySeeds.length) return [];
 
     const municipalityVariantsKeys = municipalityLabel
       ? municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value))
@@ -1531,7 +1573,7 @@
       ? regionVariants(countryCode, regionLabel).map((value) => regionKey(value))
       : [];
 
-    const seeds = TRUSTED_NORWAY_SEEDS.filter((entry) => {
+    const seeds = countrySeeds.filter((entry) => {
       const muniKey = municipalityKey(entry.municipality);
       const entryRegionKey = regionKey(entry.region);
 
