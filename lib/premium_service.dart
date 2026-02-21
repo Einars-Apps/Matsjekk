@@ -4,6 +4,7 @@ import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
 class PremiumService {
+  static const int trialDays = 7;
   static const String monthlyProductId = 'matsjekk_premium_monthly';
   static const String yearlyProductId = 'matsjekk_premium_yearly';
   static const String premiumActiveKey = 'premiumActive';
@@ -78,7 +79,7 @@ class PremiumService {
       if (purchaseDetails.status == PurchaseStatus.purchased ||
           purchaseDetails.status == PurchaseStatus.restored) {
         await _setPremiumActive(true);
-        lastMessage = 'Premium er aktivert.';
+        lastMessage = 'Betaling bekreftet. Premium er nå aktiv.';
       } else if (purchaseDetails.status == PurchaseStatus.error) {
         lastMessage =
             purchaseDetails.error?.message ?? 'Kjøpet feilet. Prøv igjen.';

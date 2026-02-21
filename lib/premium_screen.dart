@@ -72,14 +72,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
             ),
             const SizedBox(height: 12),
             const Text(
-              'Premium MVP',
+              'Premium',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
-            const Text(
-              '• Reklamefri opplevelse\n'
-              '• Avanserte varsler\n'
-              '• Familiedeling (kommer i neste fase)',
+            Text(
+              '7 dagers prøvetid.\n'
+              'Etter prøvetid fortsetter valgt abonnement.\n'
+              'Premium låses opp automatisk når betaling er bekreftet.',
             ),
             const SizedBox(height: 16),
             if (_premiumService.isLoading)
@@ -95,7 +95,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 (product) => Card(
                   child: ListTile(
                     title: Text(product.title),
-                    subtitle: Text(product.description),
+                    subtitle: Text(
+                      '${product.price} • ${PremiumService.trialDays} dagers prøvetid',
+                    ),
                     trailing: ElevatedButton(
                       onPressed: () async {
                         await _premiumService.buy(product);
@@ -103,7 +105,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         widget.onPremiumChanged(_premiumService.isPremiumActive);
                         setState(() {});
                       },
-                      child: Text(product.price),
+                      child: const Text('Start prøve'),
                     ),
                   ),
                 ),

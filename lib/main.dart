@@ -894,7 +894,8 @@ class _ScannerScreenState extends State<ScannerScreen>
           ),
           ListTile(
             leading: const Icon(Icons.workspace_premium),
-            title: Text(premiumActive ? 'Premium (aktiv)' : 'Premium'),
+            title: Text(
+                premiumActive ? 'Premium (aktiv)' : 'Premium (7 dagers prøve)'),
             onTap: () {
               _safePop();
               Navigator.of(context).push(
