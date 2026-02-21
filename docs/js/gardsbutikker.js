@@ -365,6 +365,7 @@
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
+  const ENABLE_LIVE_ENRICHMENT = false;
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -958,7 +959,7 @@
   }
 
   function sortShops(items) {
-    const mode = sortSelect ? sortSelect.value : 'distance_asc';
+    const mode = sortSelect ? sortSelect.value : 'name_asc';
     const sorted = [...items].sort((left, right) => {
       if (mode === 'distance_asc') {
         const leftDistance = Number.isFinite(left?.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
@@ -2133,7 +2134,9 @@ out center tags 150;
       }
     }
 
-    filtered = addDistanceFromUser(filtered);
+    if (sortSelect?.value === 'distance_asc') {
+      filtered = addDistanceFromUser(filtered);
+    }
 
     const countryOnlyCount = countryCode
       ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode)).length
@@ -2142,6 +2145,13 @@ out center tags 150;
 
     activeFiltered = filtered;
     renderList(filtered);
+
+    if (!ENABLE_LIVE_ENRICHMENT) {
+      if (!filtered.length && countryCode) {
+        setMapStatus('Ingen verifiserte treff i datasett/seed for valgt filter. Bruk Google Maps-søk for utvidet søk.');
+      }
+      return filtered;
+    }
 
     if (!filtered.length && countryCode && (query || municipalityText || regionText)) {
       const localityHint = [query, municipalityText, regionText, countryText]
@@ -2434,7 +2444,7 @@ out center tags 150;
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
-    if (sortSelect) sortSelect.value = 'distance_asc';
+    if (sortSelect) sortSelect.value = 'name_asc';
     await populateRegions('');
     await populateMunicipalities('', '');
     filterShops();
