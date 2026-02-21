@@ -14,6 +14,8 @@ import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
 import 'analytics.dart';
+import 'premium_screen.dart';
+import 'premium_service.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -170,6 +172,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool varselInsekt = true;
   bool varselGmo = true;
   bool wakeLockOn = false;
+  bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
 
@@ -298,6 +301,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         innstillingerBox.get('selectedLanguage', defaultValue: 'nb');
     selectedCountry = innstillingerBox.get('selectedCountry',
         defaultValue: _defaultCountryCode());
+    premiumActive =
+      innstillingerBox.get(PremiumService.premiumActiveKey, defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
   }
 
@@ -889,18 +894,22 @@ class _ScannerScreenState extends State<ScannerScreen>
           ),
           ListTile(
             leading: const Icon(Icons.workspace_premium),
-            title: const Text('Premium (kommer snart)'),
+            title: Text(premiumActive ? 'Premium (aktiv)' : 'Premium'),
             onTap: () {
               _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: const Text('Premium (kommer snart)'),
-                      content: const Text(
-                          'Premium-funksjoner (familiedeling og avanserte filtre) planlegges i en senere versjon. Vi viser dette valget nå for tidlig tilgang når det blir klart.'),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => PremiumScreen(
+                    innstillingerBox: innstillingerBox,
+                    onPremiumChanged: (active) {
+                      if (!mounted) return;
+                      setState(() {
+                        premiumActive = active;
+                      });
+                    },
+                  ),
+                ),
+              );
             },
           ),
           ListTile(
