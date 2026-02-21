@@ -2003,6 +2003,46 @@ out center tags 150;
     };
   }
 
+  async function fetchRegionBoundingBox(countryCode, regionLabel) {
+    if (!regionLabel) return null;
+    const regionVariantsList = regionVariants(countryCode, regionLabel)
+      .map((value) => value.toString().trim())
+      .filter(Boolean);
+    const countryLabel = countryNameByCode(countryCode);
+    const collectedBoxes = [];
+
+    for (const regionName of (regionVariantsList.length ? regionVariantsList : [regionLabel])) {
+      const hits = await searchNominatim(`${regionName} ${countryLabel}`, countryCode);
+      const candidates = hits
+        .filter((item) => Array.isArray(item.boundingbox) && item.boundingbox.length === 4)
+        .map((item) => {
+          const [south, north, west, east] = item.boundingbox.map((v) => Number(v));
+          return {
+            south,
+            north,
+            west,
+            east,
+            classType: `${item.class || ''} ${item.type || ''}`.toLowerCase(),
+          };
+        })
+        .filter((box) => [box.south, box.north, box.west, box.east].every((v) => Number.isFinite(v)))
+        .sort((left, right) => bboxArea(right) - bboxArea(left));
+
+      const adminCandidate = candidates.find((box) => /boundary|administrative|county|state|region/.test(box.classType));
+      const selected = adminCandidate || candidates[0];
+      if (selected) collectedBoxes.push(selected);
+    }
+
+    if (!collectedBoxes.length) return null;
+
+    return {
+      south: Math.min(...collectedBoxes.map((box) => box.south)),
+      north: Math.max(...collectedBoxes.map((box) => box.north)),
+      west: Math.min(...collectedBoxes.map((box) => box.west)),
+      east: Math.max(...collectedBoxes.map((box) => box.east)),
+    };
+  }
+
   async function fetchOverpassMunicipalityCandidates({ countryCode, countryLabel, regionLabel, municipalityLabel }) {
     if (!municipalityLabel) return [];
     const bbox = await fetchMunicipalityBoundingBox(countryCode, municipalityLabel, regionLabel);
@@ -2208,54 +2248,84 @@ out center tags 150;
     activeFiltered = filtered;
     renderList(filtered);
 
+    const isCountyOnlySelection = Boolean(regionText && !municipalityText && !query);
     const shouldUseLocalityFallback = Boolean(
       municipalityText ||
-      (query && query.length >= 2)
+      (query && query.length >= 2) ||
+      isCountyOnlySelection
     );
 
     if (!filtered.length && countryCode && shouldUseLocalityFallback) {
-      const localityHint = [query, municipalityText, regionText, countryText]
-        .filter(Boolean)
-        .join(', ');
       try {
-        const geo = await geocodeWithFallback(localityHint);
-        if (runId !== filterRunId) return filtered;
-        const nearLat = geo?.lat != null ? Number(geo.lat) : null;
-        const nearLon = geo?.lon != null ? Number(geo.lon) : null;
-        if (Number.isFinite(nearLat) && Number.isFinite(nearLon)) {
-          const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, 120000);
-          const liveNearby = liveNearbyElements
-            .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
-            .filter((shop) => keepHighQuality(shop))
-            .filter((shop) => shop.lat != null && shop.lon != null)
-            .map((shop) => ({
-              ...shop,
-              distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
-            }))
-            .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120);
+        if (isCountyOnlySelection) {
+          const regionBox = await fetchRegionBoundingBox(countryCode, regionText);
+          if (runId !== filterRunId) return filtered;
+          if (regionBox) {
+            const liveCountyElements = await searchOverpassInBoundingBox(regionBox);
+            const liveCounty = liveCountyElements
+              .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
+              .filter((shop) => keepHighQuality(shop));
 
-          const nearbyLocal = shops
-            .filter((shop) => shop.countryCode === countryCode && shop.lat != null && shop.lon != null)
-            .map((shop) => ({
-              ...shop,
-              distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
-            }))
-            .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120)
-            .sort((left, right) => left.distanceKm - right.distanceKm);
+            const countyLocal = shops
+              .filter((shop) => shop.countryCode === countryCode)
+              .filter((shop) => {
+                if (countryCode === 'NO') return regionMatches(shop.region || '', regionTerms);
+                return normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionText);
+              });
 
-          const nearbyCombined = mergeShopLists(nearbyLocal, liveNearby)
-            .sort((left, right) => {
-              const leftDistance = Number.isFinite(left.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
-              const rightDistance = Number.isFinite(right.distanceKm) ? right.distanceKm : Number.POSITIVE_INFINITY;
-              return leftDistance - rightDistance;
-            })
-            .slice(0, 120);
+            const countyCombined = mergeShopLists(countyLocal, liveCounty)
+              .slice(0, 120);
 
-          if (nearbyCombined.length) {
-            filtered = nearbyCombined;
-            activeFiltered = nearbyCombined;
-            renderList(nearbyCombined);
-            setMapStatus('Viser nærmeste treff basert på område (fallback når kommune/fylke mangler i datagrunnlaget).');
+            if (countyCombined.length) {
+              filtered = countyCombined;
+              activeFiltered = countyCombined;
+              renderList(countyCombined);
+              setMapStatus('Viser treff innen valgt fylke/region (fallback).');
+            }
+          }
+        } else {
+          const localityHint = [query, municipalityText, regionText, countryText]
+            .filter(Boolean)
+            .join(', ');
+          const geo = await geocodeWithFallback(localityHint);
+          if (runId !== filterRunId) return filtered;
+          const nearLat = geo?.lat != null ? Number(geo.lat) : null;
+          const nearLon = geo?.lon != null ? Number(geo.lon) : null;
+          if (Number.isFinite(nearLat) && Number.isFinite(nearLon)) {
+            const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, 120000);
+            const liveNearby = liveNearbyElements
+              .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
+              .filter((shop) => keepHighQuality(shop))
+              .filter((shop) => shop.lat != null && shop.lon != null)
+              .map((shop) => ({
+                ...shop,
+                distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
+              }))
+              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120);
+
+            const nearbyLocal = shops
+              .filter((shop) => shop.countryCode === countryCode && shop.lat != null && shop.lon != null)
+              .map((shop) => ({
+                ...shop,
+                distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
+              }))
+              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120)
+              .sort((left, right) => left.distanceKm - right.distanceKm);
+
+            const nearbyCombined = mergeShopLists(nearbyLocal, liveNearby)
+              .sort((left, right) => {
+                const leftDistance = Number.isFinite(left.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
+                const rightDistance = Number.isFinite(right.distanceKm) ? right.distanceKm : Number.POSITIVE_INFINITY;
+                return leftDistance - rightDistance;
+              })
+              .slice(0, 120);
+
+            if (nearbyCombined.length) {
+              filtered = nearbyCombined;
+              activeFiltered = nearbyCombined;
+              renderList(nearbyCombined);
+              setMapStatus('Viser nærmeste treff basert på område (fallback når kommune/fylke mangler i datagrunnlaget).');
+            }
           }
         }
       } catch (_) {
