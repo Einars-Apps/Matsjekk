@@ -1,5 +1,7 @@
 Monetization recommendations for mat_sjekk
 
+Concrete execution plan (Norwegian): `docs/premium_mvp_plan_nb.md`
+
 Goal: Generate sustainable revenue while preserving trust and privacy.
 
 1) Priority (MVP): Freemium + optional donation
