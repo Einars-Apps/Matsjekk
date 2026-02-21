@@ -109,6 +109,23 @@
   };
 
   const COUNTRY_REGION_MUNICIPALITIES_FALLBACK = {
+    NO: {
+      Akershus: ['Asker', 'Bærum', 'Lillestrøm', 'Lørenskog', 'Nittedal', 'Nesodden', 'Eidsvoll', 'Ullensaker', 'Nannestad', 'Gjerdrum', 'Aurskog-Høland'],
+      Buskerud: ['Drammen', 'Kongsberg', 'Ringerike', 'Lier', 'Hole', 'Modum', 'Øvre Eiker', 'Nedre Eiker', 'Flesberg', 'Rollag', 'Nore og Uvdal'],
+      Innlandet: ['Hamar', 'Lillehammer', 'Gjøvik', 'Elverum', 'Ringsaker', 'Stange', 'Øyer', 'Trysil', 'Kongsvinger'],
+      Oslo: ['Oslo'],
+      Vestfold: ['Tønsberg', 'Sandefjord', 'Larvik', 'Horten', 'Holmestrand', 'Færder'],
+      Østfold: ['Fredrikstad', 'Sarpsborg', 'Halden', 'Moss', 'Indre Østfold', 'Rakkestad'],
+      Telemark: ['Skien', 'Porsgrunn', 'Notodden', 'Bamble', 'Kragerø', 'Midt-Telemark'],
+      Rogaland: ['Stavanger', 'Sandnes', 'Sola', 'Randaberg', 'Klepp', 'Time', 'Eigersund', 'Haugesund'],
+      Agder: ['Kristiansand', 'Arendal', 'Lillesand', 'Grimstad', 'Farsund', 'Lyngdal'],
+      Vestland: ['Bergen', 'Voss', 'Ulvik', 'Kvam', 'Sogndal', 'Alver', 'Øygarden', 'Sunnfjord'],
+      'Møre og Romsdal': ['Ålesund', 'Molde', 'Kristiansund', 'Volda', 'Ørsta', 'Surnadal'],
+      Trøndelag: ['Trondheim', 'Stjørdal', 'Levanger', 'Steinkjer', 'Verdal', 'Orkland', 'Namsos'],
+      Nordland: ['Bodø', 'Narvik', 'Vefsn', 'Rana', 'Vestvågøy', 'Hadsel'],
+      Troms: ['Tromsø', 'Harstad', 'Målselv', 'Senja', 'Balsfjord'],
+      Finnmark: ['Alta', 'Hammerfest', 'Sør-Varanger', 'Vadsø', 'Porsanger'],
+    },
     SE: {
       'Stockholms län': ['Stockholm', 'Södertälje', 'Norrtälje', 'Nacka', 'Täby'],
       'Västra Götalands län': ['Göteborg', 'Borås', 'Skövde', 'Uddevalla', 'Lidköping'],
@@ -918,9 +935,24 @@
       if (requestId !== municipalityPopulateRequestId || resolveCountryCode(countrySelect.value) !== effectiveCountryCode) {
         return;
       }
-      const municipalities = norwayMunicipalities.filter((municipality) =>
+      let municipalities = norwayMunicipalities.filter((municipality) =>
         !regionValue || municipality.countyCode === regionValue
       );
+
+      if (!municipalities.length) {
+        const selectedCountyName = (norwayCounties.find((county) => county.code === regionValue)?.name || selectedText(regionSelect) || '').trim();
+        const fallbackMunicipalities = unique([
+          ...regionFallbackMunicipalities('NO', selectedCountyName),
+          ...getTrustedSeedCandidates('NO', 'Norge', '', selectedCountyName)
+            .map((seed) => (seed.municipality || '').toString().trim())
+            .filter(Boolean),
+        ]);
+
+        muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
+          fallbackMunicipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
+        return;
+      }
+
       muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
         municipalities.map((municipality) => `<option value="${municipality.code}">${municipality.name}</option>`).join('');
       return;
