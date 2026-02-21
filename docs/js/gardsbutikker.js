@@ -52,6 +52,25 @@
     LU: 'lu',
   };
 
+  const COUNTRY_ENGLISH_BY_CODE = {
+    NO: 'Norway',
+    SE: 'Sweden',
+    DK: 'Denmark',
+    FI: 'Finland',
+    DE: 'Germany',
+    NL: 'Netherlands',
+    BE: 'Belgium',
+    FR: 'France',
+    IT: 'Italy',
+    PT: 'Portugal',
+    ES: 'Spain',
+    GB: 'United Kingdom',
+    IE: 'Ireland',
+    AT: 'Austria',
+    CH: 'Switzerland',
+    LU: 'Luxembourg',
+  };
+
   const COUNTRY_REGIONS_FALLBACK = {
     NO: ['Akershus', 'Buskerud', 'Finnmark', 'Innlandet', 'Møre og Romsdal', 'Nordland', 'Oslo', 'Rogaland', 'Telemark', 'Troms', 'Trøndelag', 'Vestfold', 'Vestland', 'Østfold'],
     SE: ['Stockholms län', 'Västra Götalands län', 'Skåne län', 'Uppsala län', 'Östergötlands län', 'Jönköpings län', 'Hallands län', 'Dalarnas län'],
@@ -345,6 +364,7 @@
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
+  const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -357,6 +377,18 @@
   function countryNameByCode(code) {
     const match = WEST_EUROPE.find((entry) => entry.code === code);
     return match ? match.name : code;
+  }
+
+  function countryQueryVariants(countryCode, countryLabel) {
+    const variants = new Set();
+    const selected = (countryLabel || '').toString().trim();
+    if (selected) variants.add(selected);
+    const localized = countryNameByCode(countryCode);
+    if (localized) variants.add(localized);
+    const english = COUNTRY_ENGLISH_BY_CODE[countryCode] || '';
+    if (english) variants.add(english);
+    if (countryCode) variants.add(countryCode);
+    return [...variants].filter(Boolean);
   }
 
   function shopMatchesCountry(shop, selectedCountryCode, selectedCountryLabel) {
@@ -1972,20 +2004,18 @@ out center tags 150;
 
     const municipalityTerms = municipalityVariants(countryCode, muni);
     const locationTerms = municipalityTerms.length ? municipalityTerms : [muni];
+    const lexicon = getCountrySearchLexicon(countryCode);
+    const baseTerm = query || lexicon.baseTerm || 'farm shop';
+    const countryTerms = countryQueryVariants(countryCode, country);
+    const fallbackCountryTerms = countryTerms.length ? countryTerms : [country || countryCode || ''];
 
     const terms = [
-      `${q || 'gårdsbutikk'} ${muni} ${region} ${country}`,
-      `gårdsutsalg ${muni} ${country}`,
-      `farm shop ${muni} ${country}`,
-      `local farm store ${muni} ${country}`,
-      `gård ${muni} ${country}`,
-      `fruktgård ${muni} ${country}`,
-      `cidergård ${muni} ${country}`,
-      ...locationTerms.map((name) => `${q || 'gårdsbutikk'} ${name} ${region} ${country}`),
-      ...locationTerms.map((name) => `gårdsutsalg ${name} ${country}`),
-      ...locationTerms.map((name) => `gård ${name} ${country}`),
-      ...locationTerms.map((name) => `fruktgård ${name} ${country}`),
-    ];
+      ...fallbackCountryTerms.map((countryTerm) => `${baseTerm} ${muni} ${region} ${countryTerm}`),
+      ...fallbackCountryTerms.map((countryTerm) => `farm shop ${muni} ${countryTerm}`),
+      ...fallbackCountryTerms.map((countryTerm) => `local farm store ${muni} ${countryTerm}`),
+      ...locationTerms.flatMap((name) => fallbackCountryTerms.map((countryTerm) => `${baseTerm} ${name} ${region} ${countryTerm}`)),
+      ...locationTerms.flatMap((name) => fallbackCountryTerms.map((countryTerm) => `farm shop ${name} ${countryTerm}`)),
+    ].filter((term) => (term || '').trim().length >= 3);
 
     let results = [];
     let overpassCandidates = [];
@@ -2522,5 +2552,7 @@ out center tags 150;
   activeFiltered = addDistanceFromUser(shops);
   renderList(activeFiltered);
 
-  autoSelectCountryFromPosition();
+  if (ENABLE_AUTO_COUNTRY_FROM_POSITION) {
+    autoSelectCountryFromPosition();
+  }
 })();
