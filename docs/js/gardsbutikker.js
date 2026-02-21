@@ -1,7 +1,15 @@
 // Farmshops client: filters, map, route search and Google Maps area search
 (async function () {
-  const dataUrl = 'data/farmshops.json';
-  const fallbackUrl = 'data/farmshops.example.json';
+  const dataUrls = [
+    'data/farmshops.json',
+    '/data/farmshops.json',
+    '../../docs/data/farmshops.json',
+  ];
+  const fallbackUrls = [
+    'data/farmshops.example.json',
+    '/data/farmshops.example.json',
+    '../../docs/data/farmshops.example.json',
+  ];
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
@@ -324,6 +332,7 @@
   const resultsHeadingEl = document.getElementById('resultsHeading');
   const mapEl = document.getElementById('map');
   const mapStatusEl = document.getElementById('mapStatus');
+  const debugStatsEl = document.getElementById('debugStats');
   const mapHeightDown = document.getElementById('mapHeightDown');
   const mapHeightUp = document.getElementById('mapHeightUp');
   const myMunicipalityBtn = document.getElementById('myMunicipalityBtn');
@@ -348,6 +357,40 @@
   function countryNameByCode(code) {
     const match = WEST_EUROPE.find((entry) => entry.code === code);
     return match ? match.name : code;
+  }
+
+  function shopMatchesCountry(shop, selectedCountryCode, selectedCountryLabel) {
+    if (!selectedCountryCode) return true;
+    const shopCountryCode = normalizeCountryCode(shop?.countryCode || shop?.country);
+    if (shopCountryCode && shopCountryCode === selectedCountryCode) return true;
+
+    const shopCountryLabel = (shop?.country || '').toString().trim().toLowerCase();
+    const selectedLabel = (selectedCountryLabel || '').toString().trim().toLowerCase();
+    if (shopCountryLabel && selectedLabel && shopCountryLabel === selectedLabel) return true;
+
+    return false;
+  }
+
+  function shopMatchesCountryRelaxed(shop, selectedCountryCode) {
+    if (!selectedCountryCode) return true;
+    const candidates = [
+      shop?.countryCode,
+      shop?.country,
+      shop?.country_name,
+      shop?.countryName,
+      shop?.['addr:country'],
+    ]
+      .map((value) => normalizeCountryCode(value))
+      .filter(Boolean);
+
+    if (candidates.includes(selectedCountryCode)) return true;
+
+    const countryText = (shop?.country || '').toString().toLowerCase();
+    if (selectedCountryCode === 'NO' && (countryText.includes('norway') || countryText.includes('norge'))) return true;
+    if (selectedCountryCode === 'SE' && (countryText.includes('sweden') || countryText.includes('sverige'))) return true;
+    if (selectedCountryCode === 'DK' && (countryText.includes('denmark') || countryText.includes('danmark'))) return true;
+
+    return false;
   }
 
   function getCountrySearchLexicon(countryCode) {
@@ -487,6 +530,22 @@
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     return Array.isArray(payload) ? payload : [];
+  }
+
+  async function loadFirstAvailable(urls) {
+    let lastError = null;
+    for (const url of urls) {
+      try {
+        const payload = await loadShops(url);
+        if (Array.isArray(payload) && payload.length > 0) {
+          return payload;
+        }
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    if (lastError) throw lastError;
+    return [];
   }
 
   function normalizeShop(shop) {
@@ -916,22 +975,42 @@
     mapStatusEl.textContent = message || '';
   }
 
+  function setDebugStats(message) {
+    if (!debugStatsEl) return;
+    debugStatsEl.textContent = message || '';
+  }
+
   function buildEmbeddedGoogleMapUrl(query) {
     const effectiveQuery = (query || 'gårdsbutikk Norge').trim();
     return `https://www.google.com/maps?q=${encodeURIComponent(effectiveQuery)}&output=embed`;
   }
 
+  function hasFarmKeyword(text) {
+    const value = (text || '').toString().toLowerCase();
+    return /gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg|farm shop|farmstore|hofladen|ferme/.test(value);
+  }
+
+  function buildGoogleMapsSearchApiUrl(query) {
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((query || '').trim())}`;
+  }
+
   function currentMapSearchQuery() {
+    const countryCode = resolveCountryCode(countrySelect.value);
+    const lexicon = getCountrySearchLexicon(countryCode);
     const country = selectedText(countrySelect);
     const region = selectedText(regionSelect);
     const municipality = selectedText(muniSelect);
-    const query = searchInput?.value?.trim() || 'gårdsbutikk';
+    const rawQuery = (searchInput?.value || '').trim();
+    const baseTerm = lexicon?.baseTerm || 'farm shop';
+    const query = rawQuery
+      ? (hasFarmKeyword(rawQuery) ? rawQuery : `${baseTerm} ${rawQuery}`)
+      : baseTerm;
     return [query, municipality, region, country].filter(Boolean).join(' ');
   }
 
   function openGoogleMapsSearchFromFilters() {
     const mapsQuery = currentMapSearchQuery() || 'gårdsbutikk Norge';
-    const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(mapsQuery)}`;
+    const mapsUrl = buildGoogleMapsSearchApiUrl(mapsQuery);
     window.open(mapsUrl, '_blank', 'noopener');
   }
 
@@ -1346,10 +1425,8 @@
   function buildGoogleMapsOverviewUrl(items) {
     const withCoords = (items || []).filter((shop) => shop.lat != null && shop.lon != null);
     if (!withCoords.length) {
-      const q = [selectedText(muniSelect), selectedText(regionSelect), selectedText(countrySelect), 'gårdsbutikk']
-        .filter(Boolean)
-        .join(' ');
-      return `https://www.google.com/maps/search/${encodeURIComponent(q || 'gårdsbutikk')}`;
+      const q = currentMapSearchQuery() || 'gårdsbutikk Norge';
+      return buildGoogleMapsSearchApiUrl(q);
     }
     const first = withCoords[0];
     const destination = `${first.lat},${first.lon}`;
@@ -1380,6 +1457,23 @@
     }
 
     if (!filtered.length) {
+      const selectedCountryCode = resolveCountryCode(countrySelect.value) || normalizeCountryCode(selectedText(countrySelect));
+      const selectedCountryLabel = selectedText(countrySelect) || countryNameByCode(selectedCountryCode);
+      const hasActiveFilters = Boolean(
+        selectedCountryCode ||
+        (searchInput?.value || '').trim() ||
+        regionSelect?.value ||
+        muniSelect?.value
+      );
+
+      if (hasActiveFilters && selectedCountryCode) {
+        const emergencySeeds = addDistanceFromUser(getTrustedSeedCandidates(selectedCountryCode, selectedCountryLabel, '', ''));
+        if (emergencySeeds.length) {
+          setMapStatus('Viser kvalitetssikrede nød-fallback treff for valgt land.');
+          return renderList(emergencySeeds);
+        }
+      }
+
       const empty = document.createElement('div');
       empty.className = 'item';
       empty.textContent = 'Ingen lokale treff i datasettet. Bruk Google Maps-søk for flere resultater.';
@@ -1598,6 +1692,17 @@
     });
 
     return seeds.map((entry) => toSeedShop(entry, countryLabel));
+  }
+
+  function buildSeedFallbackDataset() {
+    return Object.entries(TRUSTED_SEEDS_BY_COUNTRY)
+      .flatMap(([countryCode, seeds]) => (seeds || []).map((entry) => {
+        const shop = toSeedShop(entry, countryNameByCode(countryCode));
+        return {
+          ...shop,
+          countryCode,
+        };
+      }));
   }
 
   function bboxArea(box) {
@@ -1922,13 +2027,20 @@ out center tags 150;
 
   async function filterShops() {
     const runId = ++filterRunId;
+    setMapStatus('');
     const countryCode = resolveCountryCode(countrySelect.value);
     const regionValue = regionSelect.value;
     const municipalityValue = muniSelect.value;
-    const regionText = selectedText(regionSelect);
-    const municipalityText = selectedText(muniSelect);
+    const regionText = regionValue ? selectedText(regionSelect) : '';
+    const municipalityText = municipalityValue ? selectedText(muniSelect) : '';
     const countryText = selectedText(countrySelect);
     const query = searchInput.value.trim().toLowerCase();
+
+    const countryRows = countryCode
+      ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode))
+      : shops;
+    const hasRegionDataForCountry = countryRows.some((shop) => (shop.region || '').toString().trim());
+    const hasMunicipalityDataForCountry = countryRows.some((shop) => (shop.municipality || '').toString().trim());
 
     const municipalityTerms = municipalityVariants(countryCode, municipalityText)
       .map((name) => municipalityKey(name));
@@ -1936,16 +2048,31 @@ out center tags 150;
     const queryMunicipalityTerms = municipalityVariants(countryCode, query)
       .map((name) => municipalityKey(name));
 
-    let filtered = shops.filter((shop) => {
-      const countryMatch = !countryCode || shop.countryCode === countryCode;
-      const regionMatch = !regionValue || (countryCode === 'NO'
-        ? regionMatches(shop.region || '', regionTerms)
-        : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
-      const municipalityMatch = !municipalityValue || (countryCode === 'NO'
-        ? municipalityMatches(shop.municipality || '', municipalityTerms)
-        : shop.municipality === municipalityValue);
-      return countryMatch && regionMatch && municipalityMatch;
-    });
+    let filtered = [...countryRows];
+
+    if (regionValue || municipalityValue) {
+      filtered = filtered.filter((shop) => {
+        const regionMatch = !regionValue || (countryCode === 'NO'
+          ? (!hasRegionDataForCountry || !(shop.region || '').toString().trim() || regionMatches(shop.region || '', regionTerms))
+          : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+        const municipalityMatch = !municipalityValue || (countryCode === 'NO'
+          ? (!hasMunicipalityDataForCountry || !(shop.municipality || '').toString().trim() || municipalityMatches(shop.municipality || '', municipalityTerms))
+          : shop.municipality === municipalityValue);
+        return regionMatch && municipalityMatch;
+      });
+    }
+
+    if (countryCode === 'NO' && (regionValue || municipalityValue) && (!hasRegionDataForCountry || !hasMunicipalityDataForCountry)) {
+      setMapStatus('Datagrunnlaget mangler fylke/kommune på mange treff; viser tilgjengelige butikker i valgt land/område.');
+    }
+
+    if (countryCode && !filtered.length) {
+      const countrySeeds = getTrustedSeedCandidates(countryCode, countryText || countryNameByCode(countryCode), '', '');
+      if (countrySeeds.length) {
+        filtered = mergeShopLists(filtered, countrySeeds);
+        setMapStatus('Viser kvalitetssikrede land-seeds (fallback).');
+      }
+    }
 
     if (query) {
       filtered = filtered.filter((shop) =>
@@ -1957,12 +2084,91 @@ out center tags 150;
       );
     }
 
+    if (countryCode && !filtered.length) {
+      const relaxedCountryOnly = shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode));
+      if (relaxedCountryOnly.length) {
+        filtered = relaxedCountryOnly;
+        setMapStatus('Viser treff med tolerant landmatch (fallback).');
+      }
+    }
+
+    if (countryCode && !query && !regionValue && !municipalityValue && !filtered.length) {
+      const countryOnly = shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode));
+      if (countryOnly.length) {
+        filtered = countryOnly;
+        setMapStatus('Viser landtreff via hard fallback.');
+      } else if (shops.length) {
+        filtered = shops.slice(0, 250);
+        setMapStatus('Landtreff manglet; viser midlertidig globale treff (hard fallback).');
+      }
+    }
+
     filtered = addDistanceFromUser(filtered);
+
+    const countryOnlyCount = countryCode
+      ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode)).length
+      : shops.length;
+    setDebugStats(`Debug: value=${countrySelect.value || '-'}, text=${countryText || '-'}, land=${countryCode || '-'}, lastet=${shops.length}, landtreff=${countryOnlyCount}, vises=${filtered.length}`);
 
     activeFiltered = filtered;
     renderList(filtered);
 
-    const shouldEnrich = Boolean(regionText || municipalityText || (query && query.length >= 2));
+    if (!filtered.length && countryCode && (query || municipalityText || regionText)) {
+      const localityHint = [query, municipalityText, regionText, countryText]
+        .filter(Boolean)
+        .join(', ');
+      try {
+        const geo = await geocodeWithFallback(localityHint);
+        if (runId !== filterRunId) return filtered;
+        const nearLat = geo?.lat != null ? Number(geo.lat) : null;
+        const nearLon = geo?.lon != null ? Number(geo.lon) : null;
+        if (Number.isFinite(nearLat) && Number.isFinite(nearLon)) {
+          const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, 120000);
+          const liveNearby = liveNearbyElements
+            .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
+            .filter((shop) => keepHighQuality(shop))
+            .filter((shop) => shop.lat != null && shop.lon != null)
+            .map((shop) => ({
+              ...shop,
+              distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
+            }))
+            .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120);
+
+          const nearbyLocal = shops
+            .filter((shop) => shop.countryCode === countryCode && shop.lat != null && shop.lon != null)
+            .map((shop) => ({
+              ...shop,
+              distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
+            }))
+            .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120)
+            .sort((left, right) => left.distanceKm - right.distanceKm);
+
+          const nearbyCombined = mergeShopLists(nearbyLocal, liveNearby)
+            .sort((left, right) => {
+              const leftDistance = Number.isFinite(left.distanceKm) ? left.distanceKm : Number.POSITIVE_INFINITY;
+              const rightDistance = Number.isFinite(right.distanceKm) ? right.distanceKm : Number.POSITIVE_INFINITY;
+              return leftDistance - rightDistance;
+            })
+            .slice(0, 120);
+
+          if (nearbyCombined.length) {
+            filtered = nearbyCombined;
+            activeFiltered = nearbyCombined;
+            renderList(nearbyCombined);
+            setMapStatus('Viser nærmeste treff basert på område (fallback når kommune/fylke mangler i datagrunnlaget).');
+          }
+        }
+      } catch (_) {
+        // Ignore fallback failures and continue with web enrichment below.
+      }
+    }
+
+    const shouldEnrich = Boolean(
+      regionText ||
+      municipalityText ||
+      (query && query.length >= 2) ||
+      (countryCode && !filtered.length)
+    );
     if (!shouldEnrich) return filtered;
 
     try {
@@ -2282,18 +2488,26 @@ out center tags 150;
   const mapInitPromise = initMap();
 
   try {
-    shops = (await loadShops(dataUrl)).map(normalizeShop);
+    shops = (await loadFirstAvailable(dataUrls)).map(normalizeShop);
     if (shops.length === 0) {
-      shops = (await loadShops(fallbackUrl)).map(normalizeShop);
+      shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
     }
   } catch (error) {
-    console.error('Failed to load data/farmshops.json, falling back to example', error);
+    console.error('Failed to load farmshops dataset, falling back to example', error);
     try {
-      shops = (await loadShops(fallbackUrl)).map(normalizeShop);
+      shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
     } catch (_) {
       shops = [];
     }
   }
+
+  if (!shops.length) {
+    shops = buildSeedFallbackDataset();
+    setMapStatus('Datakilde utilgjengelig. Viser kvalitetssikrede fallback-treff.');
+  }
+
+  const norwayLoadedCount = shops.filter((shop) => shopMatchesCountryRelaxed(shop, 'NO')).length;
+  setDebugStats(`Init: lastet=${shops.length}, NO=${norwayLoadedCount}`);
 
   await mapInitPromise;
   applyMapHeight(currentMapHeight);
