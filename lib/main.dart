@@ -690,9 +690,11 @@ class _ScannerScreenState extends State<ScannerScreen>
   void _visMeny() {
     showModalBottomSheet(
       context: context,
-      builder: (_) => Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
+      builder: (sheetContext) => SafeArea(
+        child: SizedBox(
+          height: MediaQuery.of(sheetContext).size.height * 0.8,
+          child: ListView(
+            children: [
           ListTile(
             leading: const Icon(Icons.language),
             title: Text(AppLocalizations.of(context)?.language ?? 'Language'),
@@ -938,7 +940,9 @@ class _ScannerScreenState extends State<ScannerScreen>
                       ]));
             },
           ),
-        ],
+            ],
+          ),
+        ),
       ),
     );
   }
