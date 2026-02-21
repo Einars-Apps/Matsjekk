@@ -2189,13 +2189,6 @@ out center tags 150;
     activeFiltered = filtered;
     renderList(filtered);
 
-    if (!ENABLE_LIVE_ENRICHMENT) {
-      if (!filtered.length && countryCode) {
-        setMapStatus('Ingen verifiserte treff i datasett/seed for valgt filter. Bruk Google Maps-søk for utvidet søk.');
-      }
-      return filtered;
-    }
-
     if (!filtered.length && countryCode && (query || municipalityText || regionText)) {
       const localityHint = [query, municipalityText, regionText, countryText]
         .filter(Boolean)
@@ -2244,6 +2237,13 @@ out center tags 150;
       } catch (_) {
         // Ignore fallback failures and continue with web enrichment below.
       }
+    }
+
+    if (!ENABLE_LIVE_ENRICHMENT) {
+      if (!filtered.length && countryCode) {
+        setMapStatus('Ingen verifiserte treff i datasett/seed for valgt filter. Bruk Google Maps-søk for utvidet søk.');
+      }
+      return filtered;
     }
 
     const shouldEnrich = Boolean(
