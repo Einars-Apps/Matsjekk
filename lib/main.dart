@@ -1059,6 +1059,16 @@ class _ScannerScreenState extends State<ScannerScreen>
             .toLowerCase();
     final isNorwegian = locale == 'nb';
     const bovaerUpdateUrl = 'https://matsjekk.com/index.html#news';
+    const tinePartnerBrands = [
+      'q-meieriene',
+      'q meieriene',
+      'fjordland',
+      'synnøve',
+      'synnove',
+      'ostecompagniet',
+      'oste companiet',
+      'kavli',
+    ];
 
     if (greens.any((keyword) => lowerLabels.contains(keyword.toLowerCase()))) {
       return {
@@ -1108,11 +1118,17 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
     if (yellows.any((b) => lowerBrand.contains(b.toLowerCase()))) {
+      final isKnownTinePartner =
+          tinePartnerBrands.any((b) => lowerBrand.contains(b));
       return {
         'risk': RiskLevel.yellow,
-        'text': isNorwegian
-            ? 'MULIG RISIKO: Denne produsenten er registrert som samarbeidspartner (f.eks. Fjordland, Synnøve, OsteCompagniet m.fl.). Sjekk etikett og produksjonsdato.'
-            : 'POSSIBLE RISK: This producer is listed as a partner (for example Fjordland, Synnøve, OsteCompagniet). Check label and production date.',
+        'text': isKnownTinePartner
+            ? (isNorwegian
+                ? 'MULIG RISIKO: Denne produsenten er registrert som Tine-tilknyttet samarbeidspartner (samarbeid, eierskap eller melkeleveranser). Sjekk produksjonsdato og etikett.'
+                : 'POSSIBLE RISK: This producer is registered as a Tine-linked partner (partnership, ownership, or milk supply). Check production date and label.')
+            : (isNorwegian
+                ? 'MULIG RISIKO: Denne produsenten er registrert som samarbeidspartner i intern sporingsliste. Sjekk etikett og produksjonsdato.'
+                : 'POSSIBLE RISK: This producer is listed as a partner in the internal tracking list. Check label and production date.'),
         'url': bovaerUpdateUrl,
       };
     }
