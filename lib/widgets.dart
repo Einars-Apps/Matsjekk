@@ -114,6 +114,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
             ?.map((a) => a as Map<String, dynamic>)
             .toList() ??
         <Map<String, dynamic>>[];
+    final bovaerRiskUrl = (info['bovaerRiskUrl'] as String? ?? '').trim();
 
     return SizedBox(
         width: double.maxFinite,
@@ -151,6 +152,15 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                     _buildRiskWidget(context, 'Bovaer',
                       info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
                       customText: (info['bovaerRiskText'] ?? '').toString()),
+                    if (bovaerRiskUrl.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: TextButton.icon(
+                          onPressed: () => _openUrl(bovaerRiskUrl),
+                          icon: const Icon(Icons.open_in_new, size: 18),
+                          label: const Text('Se oppdatert status'),
+                        ),
+                      ),
                     _buildRiskWidget(context, 'GMO-fôr',
                         info['gmoRisk'] as RiskLevel? ?? RiskLevel.unknown),
                     const SizedBox(height: 12),

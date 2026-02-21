@@ -646,6 +646,7 @@ class _ScannerScreenState extends State<ScannerScreen>
               _analyzeBovaerRiskWithText(info['merke']!, info['etiketter']!);
             info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
             info['bovaerRiskText'] = bovaerAssessment['text'] as String;
+              info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
           info['gmoRisk'] =
               _analyzeGmoRisk(info['merke']!, info['kategorier']!);
           return info;
@@ -1057,12 +1058,14 @@ class _ScannerScreenState extends State<ScannerScreen>
         (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
             .toLowerCase();
     final isNorwegian = locale == 'nb';
+    const bovaerUpdateUrl = 'https://matsjekk.com/index.html#news';
 
     if (greens.any((keyword) => lowerLabels.contains(keyword.toLowerCase()))) {
       return {
         'risk': RiskLevel.green,
         'text': (AppLocalizations.of(context)?.safeProduct ??
             'SAFE: The product is certified organic.'),
+        'url': '',
       };
     }
 
@@ -1072,6 +1075,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         'text': isNorwegian
             ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
             : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
+        'url': bovaerUpdateUrl,
       };
     }
 
@@ -1081,6 +1085,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         'text': isNorwegian
             ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
             : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
+        'url': bovaerUpdateUrl,
       };
     }
 
@@ -1088,8 +1093,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'risk': RiskLevel.yellow,
         'text': isNorwegian
-            ? 'MULIG RISIKO: Tine er registrert som samarbeidspartner i intern sporingsliste. Verifiser alltid produktets etikett.'
-            : 'POSSIBLE RISK: Tine is listed as a partner in the internal tracking list. Always verify the product label.',
+            ? 'MULIG RISIKO: Tine opplyser at Bovaer-melk ikke lenger blandes inn i produkter, men eldre varer kan fortsatt finnes i butikk. Sjekk produksjonsdato.'
+            : 'POSSIBLE RISK: Tine states that Bovaer milk is no longer mixed into products, but older items may still be in stores. Check production date.',
+        'url': bovaerUpdateUrl,
       };
     }
 
@@ -1098,16 +1104,19 @@ class _ScannerScreenState extends State<ScannerScreen>
         'risk': RiskLevel.red,
         'text': (AppLocalizations.of(context)?.bovaerHighRisk ??
             'HIGH RISK: The producer is directly linked to Bovaer.'),
+        'url': bovaerUpdateUrl,
       };
     }
     if (yellows.any((b) => lowerBrand.contains(b.toLowerCase()))) {
       return {
         'risk': RiskLevel.yellow,
-        'text': (AppLocalizations.of(context)?.bovaerPossibleRisk ??
-            'POSSIBLE RISK: The producer is a partner with companies linked to Bovaer.'),
+        'text': isNorwegian
+            ? 'MULIG RISIKO: Denne produsenten er registrert som samarbeidspartner (f.eks. Fjordland, Synnøve, OsteCompagniet m.fl.). Sjekk etikett og produksjonsdato.'
+            : 'POSSIBLE RISK: This producer is listed as a partner (for example Fjordland, Synnøve, OsteCompagniet). Check label and production date.',
+        'url': bovaerUpdateUrl,
       };
     }
-    return {'risk': RiskLevel.unknown, 'text': ''};
+    return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
   }
 
   RiskLevel _analyzeGmoRisk(String brand, String category) {
