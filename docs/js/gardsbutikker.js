@@ -383,6 +383,7 @@
   let userPosition = null;
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
   const ENABLE_LIVE_ENRICHMENT = false;
+  const OVERPASS_FETCH_TIMEOUT_MS = 5500;
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -1891,14 +1892,23 @@
 out center tags 120;
     `.trim();
 
-    const response = await fetch('https://overpass-api.de/api/interpreter', {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
-      body: overpassQuery,
-    });
-    if (!response.ok) return [];
-    const payload = await response.json();
-    return Array.isArray(payload?.elements) ? payload.elements : [];
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), OVERPASS_FETCH_TIMEOUT_MS);
+    try {
+      const response = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: overpassQuery,
+        signal: controller.signal,
+      });
+      if (!response.ok) return [];
+      const payload = await response.json();
+      return Array.isArray(payload?.elements) ? payload.elements : [];
+    } catch (_) {
+      return [];
+    } finally {
+      clearTimeout(timeoutId);
+    }
   }
 
   async function searchOverpassAroundPoint(lat, lon, radiusMeters = 45000) {
@@ -1921,14 +1931,23 @@ out center tags 120;
 out center tags 150;
     `.trim();
 
-    const response = await fetch('https://overpass-api.de/api/interpreter', {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
-      body: overpassQuery,
-    });
-    if (!response.ok) return [];
-    const payload = await response.json();
-    return Array.isArray(payload?.elements) ? payload.elements : [];
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), OVERPASS_FETCH_TIMEOUT_MS);
+    try {
+      const response = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+        body: overpassQuery,
+        signal: controller.signal,
+      });
+      if (!response.ok) return [];
+      const payload = await response.json();
+      return Array.isArray(payload?.elements) ? payload.elements : [];
+    } catch (_) {
+      return [];
+    } finally {
+      clearTimeout(timeoutId);
+    }
   }
 
   async function fetchMunicipalityCenter(countryCode, municipalityLabel, regionLabel) {
@@ -2189,7 +2208,12 @@ out center tags 150;
     activeFiltered = filtered;
     renderList(filtered);
 
-    if (!filtered.length && countryCode && (query || municipalityText || regionText)) {
+    const shouldUseLocalityFallback = Boolean(
+      municipalityText ||
+      (query && query.length >= 2)
+    );
+
+    if (!filtered.length && countryCode && shouldUseLocalityFallback) {
       const localityHint = [query, municipalityText, regionText, countryText]
         .filter(Boolean)
         .join(', ');
