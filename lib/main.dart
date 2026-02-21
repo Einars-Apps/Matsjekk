@@ -1059,16 +1059,16 @@ class _ScannerScreenState extends State<ScannerScreen>
             .toLowerCase();
     final isNorwegian = locale == 'nb';
     const bovaerUpdateUrl = 'https://matsjekk.com/index.html#news';
-    const tinePartnerBrands = [
-      'q-meieriene',
-      'q meieriene',
-      'fjordland',
-      'synnøve',
-      'synnove',
-      'ostecompagniet',
-      'oste companiet',
-      'kavli',
-    ];
+    const tinePartnerBrandAliases = {
+      'q-meieriene': 'Q-meieriene',
+      'q meieriene': 'Q-meieriene',
+      'fjordland': 'Fjordland',
+      'synnøve': 'Synnøve',
+      'synnove': 'Synnøve',
+      'ostecompagniet': 'OsteCompagniet',
+      'oste companiet': 'OsteCompagniet',
+      'kavli': 'Kavli',
+    };
 
     if (greens.any((keyword) => lowerLabels.contains(keyword.toLowerCase()))) {
       return {
@@ -1118,14 +1118,20 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
     if (yellows.any((b) => lowerBrand.contains(b.toLowerCase()))) {
-      final isKnownTinePartner =
-          tinePartnerBrands.any((b) => lowerBrand.contains(b));
+      final matchedTinePartners = <String>{};
+      for (final entry in tinePartnerBrandAliases.entries) {
+        if (lowerBrand.contains(entry.key)) {
+          matchedTinePartners.add(entry.value);
+        }
+      }
+      final isKnownTinePartner = matchedTinePartners.isNotEmpty;
+      final partnerList = matchedTinePartners.join(', ');
       return {
         'risk': RiskLevel.yellow,
         'text': isKnownTinePartner
             ? (isNorwegian
-                ? 'MULIG RISIKO: Denne produsenten er registrert som Tine-tilknyttet samarbeidspartner (samarbeid, eierskap eller melkeleveranser). Sjekk produksjonsdato og etikett.'
-                : 'POSSIBLE RISK: This producer is registered as a Tine-linked partner (partnership, ownership, or milk supply). Check production date and label.')
+                ? 'MULIG RISIKO: $partnerList er registrert som Tine-tilknyttet samarbeidspartner (samarbeid, eierskap eller melkeleveranser). Sjekk produksjonsdato og etikett.'
+                : 'POSSIBLE RISK: $partnerList is registered as a Tine-linked partner (partnership, ownership, or milk supply). Check production date and label.')
             : (isNorwegian
                 ? 'MULIG RISIKO: Denne produsenten er registrert som samarbeidspartner i intern sporingsliste. Sjekk etikett og produksjonsdato.'
                 : 'POSSIBLE RISK: This producer is listed as a partner in the internal tracking list. Check label and production date.'),
