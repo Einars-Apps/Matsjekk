@@ -2084,24 +2084,29 @@ out center tags 150;
     if (regionValue || municipalityValue) {
       filtered = filtered.filter((shop) => {
         const regionMatch = !regionValue || (countryCode === 'NO'
-          ? (!hasRegionDataForCountry || !(shop.region || '').toString().trim() || regionMatches(shop.region || '', regionTerms))
+          ? regionMatches(shop.region || '', regionTerms)
           : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
         const municipalityMatch = !municipalityValue || (countryCode === 'NO'
-          ? (!hasMunicipalityDataForCountry || !(shop.municipality || '').toString().trim() || municipalityMatches(shop.municipality || '', municipalityTerms))
+          ? municipalityMatches(shop.municipality || '', municipalityTerms)
           : shop.municipality === municipalityValue);
         return regionMatch && municipalityMatch;
       });
     }
 
     if (countryCode === 'NO' && (regionValue || municipalityValue) && (!hasRegionDataForCountry || !hasMunicipalityDataForCountry)) {
-      setMapStatus('Datagrunnlaget mangler fylke/kommune på mange treff; viser tilgjengelige butikker i valgt land/område.');
+      setMapStatus('Datagrunnlaget mangler fylke/kommune på mange treff; bruker kun verifiserte treff for valgt område.');
     }
 
     if (countryCode && !filtered.length) {
-      const countrySeeds = getTrustedSeedCandidates(countryCode, countryText || countryNameByCode(countryCode), '', '');
+      const countrySeeds = getTrustedSeedCandidates(
+        countryCode,
+        countryText || countryNameByCode(countryCode),
+        municipalityText,
+        regionText,
+      );
       if (countrySeeds.length) {
         filtered = mergeShopLists(filtered, countrySeeds);
-        setMapStatus('Viser kvalitetssikrede land-seeds (fallback).');
+        setMapStatus('Viser kvalitetssikrede, verifiserte treff for valgt område (seed-fallback).');
       }
     }
 
@@ -2115,7 +2120,7 @@ out center tags 150;
       );
     }
 
-    if (countryCode && !filtered.length) {
+    if (countryCode && !regionValue && !municipalityValue && !query && !filtered.length) {
       const relaxedCountryOnly = shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode));
       if (relaxedCountryOnly.length) {
         filtered = relaxedCountryOnly;
