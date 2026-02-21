@@ -83,7 +83,7 @@
       <select id="regionSelect"><option value="">Velg fylke/region</option></select>
       <select id="municipalitySelect"><option value="">Velg kommune</option></select>
       <button id="applyFiltersBtn" type="button">Oppdater søk</button>
-      <select id="sortSelect"><option value="distance_asc">Sorter: Nærmest deg</option><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option></select>
+      <select id="sortSelect"><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option><option value="distance_asc">Sorter: Nærmest deg</option></select>
       <input id="searchInput" placeholder="Søk butikk" style="flex:1" />
       <button id="myMunicipalityBtn" type="button">Søk i feltet</button>
       <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
@@ -101,6 +101,7 @@
 
     <div id="map"></div>
     <div id="mapStatus" class="map-status" aria-live="polite"></div>
+    <div id="debugStats" class="map-status" aria-live="polite"></div>
 
     <div class="result-header">
       <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
@@ -118,6 +119,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-  <script src="js/gardsbutikker.js"></script>
+  <script src="js/gardsbutikker.js?v=20260221h"></script>
 </body>
 </html>

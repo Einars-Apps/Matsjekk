@@ -16,6 +16,8 @@ import 'consent.dart';
 import 'analytics.dart';
 import 'premium_screen.dart';
 import 'premium_service.dart';
+import 'config/links.dart';
+import 'services/remote_risk_rules_service.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -175,6 +177,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
+  Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
 
   @override
   void initState() {
@@ -190,6 +193,9 @@ class _ScannerScreenState extends State<ScannerScreen>
     listPositionsBox = Hive.box('list_positions');
     _loadListerAndPositions();
     _loadInnstillinger();
+    if (!_isTestEnv) {
+      _loadRemoteRiskRules();
+    }
   }
 
   @override
@@ -304,6 +310,41 @@ class _ScannerScreenState extends State<ScannerScreen>
     premiumActive =
       innstillingerBox.get(PremiumService.premiumActiveKey, defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
+  }
+
+  Future<void> _loadRemoteRiskRules() async {
+    final service = RemoteRiskRulesService(innstillingerBox);
+
+    final cachedRules = service.readCachedRules();
+    if (cachedRules.isNotEmpty && mounted) {
+      setState(() {
+        _remoteRiskRulesByCountry = cachedRules;
+      });
+    }
+
+    try {
+      final fetchedRules = await service.fetchAndCacheRules();
+      if (!mounted) return;
+      setState(() {
+        _remoteRiskRulesByCountry = fetchedRules;
+      });
+    } catch (_) {
+      // Keep cached/local fallback when remote fetch fails.
+    }
+  }
+
+  List<String> _countryRulesList(
+    String countryCode,
+    String ruleKey,
+    List<String> fallback,
+  ) {
+    final remote = _remoteRiskRulesByCountry[countryCode]?[ruleKey] ?? [];
+    if (remote.isNotEmpty) return remote;
+
+    final local = getRiskBrandsForCountry(countryCode)[ruleKey] ?? [];
+    if (local.isNotEmpty) return local;
+
+    return fallback;
   }
 
   // Thin wrappers that delegate to top-level safe UI helpers in `lib/ui_safe.dart`.
@@ -846,13 +887,13 @@ class _ScannerScreenState extends State<ScannerScreen>
               _safePop();
               _safeShowDialogBuilder((_) => AlertDialog(
                       title: const Text('Varsel'),
-                      content: Column(
+                      content: const Column(
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text('Varsel: intern liste for merkevare-koblinger'),
-                          const SizedBox(height: 4),
-                          const Text('Varsel: merkevaresporing og offentlig informasjon'),
+                          Text('Varsel: intern liste for merkevare-koblinger'),
+                          SizedBox(height: 4),
+                          Text('Varsel: merkevaresporing og offentlig informasjon'),
                         ],
                       ),
                       actions: [
@@ -1035,36 +1076,29 @@ class _ScannerScreenState extends State<ScannerScreen>
     ).then((_) => setState(() {}));
   }
 
-  RiskLevel _analyzeBovaerRisk(String brand, String labels) {
-    final result = _analyzeBovaerRiskWithText(brand, labels);
-    return result['risk'] as RiskLevel;
-  }
-
   Map<String, dynamic> _analyzeBovaerRiskWithText(String brand, String labels) {
     final lowerBrand = brand.toLowerCase();
     final lowerLabels = labels.toLowerCase();
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final localGreen = getOrganicKeywords(country);
-    final localRed = getBovaerRedBrands(country);
-    final localYellow = getBovaerYellowBrands(country);
-
-    final greens = localGreen.isNotEmpty ? localGreen : greenKeywords;
-    final reds = localRed.isNotEmpty ? localRed : bovaerRedBrands;
-    final yellows = localYellow.isNotEmpty ? localYellow : bovaerYellowBrands;
+    final greens = _countryRulesList(country, 'organic_keywords', greenKeywords);
+    final reds = _countryRulesList(country, 'bovaer_red', bovaerRedBrands);
+    final yellows = _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
 
     final locale =
         (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
             .toLowerCase();
     final isNorwegian = locale == 'nb';
-    const bovaerUpdateUrl = 'https://matsjekk.com/index.html#news';
+    const bovaerUpdateUrl = kSupplierStatusUrl;
     const tinePartnerBrandAliases = {
       'q-meieriene': 'Q-meieriene',
       'q meieriene': 'Q-meieriene',
       'fjordland': 'Fjordland',
       'synnøve': 'Synnøve',
       'synnove': 'Synnøve',
+      'sunnøve': 'Synnøve',
+      'sunnove': 'Synnøve',
       'ostecompagniet': 'OsteCompagniet',
       'oste companiet': 'OsteCompagniet',
       'kavli': 'Kavli',
@@ -1118,6 +1152,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
     if (yellows.any((b) => lowerBrand.contains(b.toLowerCase()))) {
+      final matchedYellowBrands = <String>{};
+      for (final yellowBrand in yellows) {
+        if (lowerBrand.contains(yellowBrand.toLowerCase())) {
+          matchedYellowBrands.add(yellowBrand);
+        }
+      }
       final matchedTinePartners = <String>{};
       for (final entry in tinePartnerBrandAliases.entries) {
         if (lowerBrand.contains(entry.key)) {
@@ -1125,16 +1165,28 @@ class _ScannerScreenState extends State<ScannerScreen>
         }
       }
       final isKnownTinePartner = matchedTinePartners.isNotEmpty;
+      final normalizedPartnerAliases = {
+        for (final entry in tinePartnerBrandAliases.entries)
+          entry.key.toLowerCase(): entry.value,
+      };
+      final matchedLabelList = matchedYellowBrands
+          .map((brand) =>
+              normalizedPartnerAliases[brand.toLowerCase()] ??
+              (brand.isNotEmpty
+                  ? '${brand[0].toUpperCase()}${brand.substring(1)}'
+                  : brand))
+          .toSet()
+          .join(', ');
       final partnerList = matchedTinePartners.join(', ');
       return {
         'risk': RiskLevel.yellow,
         'text': isKnownTinePartner
             ? (isNorwegian
-                ? 'MULIG RISIKO: $partnerList er registrert som Tine-tilknyttet samarbeidspartner (samarbeid, eierskap eller melkeleveranser). Sjekk produksjonsdato og etikett.'
-                : 'POSSIBLE RISK: $partnerList is registered as a Tine-linked partner (partnership, ownership, or milk supply). Check production date and label.')
+            ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
+            : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
             : (isNorwegian
-                ? 'MULIG RISIKO: Denne produsenten er registrert som samarbeidspartner i intern sporingsliste. Sjekk etikett og produksjonsdato.'
-                : 'POSSIBLE RISK: This producer is listed as a partner in the internal tracking list. Check label and production date.'),
+                ? 'MULIG RISIKO: ${matchedLabelList.isEmpty ? 'Dette merket' : matchedLabelList} er registrert som samarbeidspartner i intern sporingsliste. Se oppdatert status for leverandørinformasjon, og sjekk etikett og produksjonsdato.'
+                : 'POSSIBLE RISK: ${matchedLabelList.isEmpty ? 'This brand' : matchedLabelList} is listed as a partner in the internal tracking list. See updated supplier status, and check label and production date.'),
         'url': bovaerUpdateUrl,
       };
     }
@@ -1147,8 +1199,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final localGmo = getGmoFishRedBrands(country);
-    final gmoList = localGmo.isNotEmpty ? localGmo : gmoFishRedBrands;
+    final gmoList = _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
     if (lowerCategory.contains('salmon') ||
         lowerCategory.contains('laks') ||
         lowerCategory.contains('trout') ||
