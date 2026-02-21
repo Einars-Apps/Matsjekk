@@ -149,7 +149,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     _buildRiskWidget(context, 'Bovaer',
-                        info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown),
+                      info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                      customText: (info['bovaerRiskText'] ?? '').toString()),
                     _buildRiskWidget(context, 'GMO-fôr',
                         info['gmoRisk'] as RiskLevel? ?? RiskLevel.unknown),
                     const SizedBox(height: 12),
@@ -506,7 +507,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         ]));
   }
 
-  Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk) {
+    Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
+      {String customText = ''}) {
     if (risk == RiskLevel.unknown) return const SizedBox.shrink();
     final icon = risk == RiskLevel.red
         ? Icons.error
@@ -514,11 +516,22 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final color = risk == RiskLevel.red
         ? Colors.red
         : (risk == RiskLevel.yellow ? Colors.amber : Colors.green);
-    final text = risk == RiskLevel.green
+    final trimmedCustomText = customText.trim();
+    final text = trimmedCustomText.isNotEmpty
+      ? trimmedCustomText
+      : risk == RiskLevel.green
         ? (AppLocalizations.of(context)?.safeProduct ?? 'SAFE')
-        : (title == 'Bovaer'
-            ? (AppLocalizations.of(context)?.bovaerHighRisk ?? 'HIGH RISK')
-            : (AppLocalizations.of(context)?.gmoHighRisk ?? 'HIGH RISK'));
+        : risk == RiskLevel.yellow
+          ? (title == 'Bovaer'
+            ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
+              'POSSIBLE RISK')
+            : (AppLocalizations.of(context)?.gmoHighRisk ??
+              'HIGH RISK'))
+          : (title == 'Bovaer'
+            ? (AppLocalizations.of(context)?.bovaerHighRisk ??
+              'HIGH RISK')
+            : (AppLocalizations.of(context)?.gmoHighRisk ??
+              'HIGH RISK'));
     return Container(
         padding: const EdgeInsets.all(12),
         margin: const EdgeInsets.only(bottom: 8),

@@ -16,8 +16,9 @@ import 'consent.dart';
 import 'analytics.dart';
 
 // --- DEFINISJON AV RISIKO ---
-const List<String> bovaerRedBrands = ['tine', 'arla', 'aptina'];
+const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
 const List<String> bovaerYellowBrands = [
+  'tine',
   'synnøve',
   'fjordland',
   'ostecompagniet',
@@ -636,8 +637,10 @@ class _ScannerScreenState extends State<ScannerScreen>
                 (product['nutriscore_grade'] ?? 'ukjent').toUpperCase(),
             'eStoffer': allEStoffer,
           };
-          info['bovaerRisk'] =
-              _analyzeBovaerRisk(info['merke']!, info['etiketter']!);
+            final bovaerAssessment =
+              _analyzeBovaerRiskWithText(info['merke']!, info['etiketter']!);
+            info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
+            info['bovaerRiskText'] = bovaerAssessment['text'] as String;
           info['gmoRisk'] =
               _analyzeGmoRisk(info['merke']!, info['kategorier']!);
           return info;
@@ -885,6 +888,22 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
           ),
           ListTile(
+            leading: const Icon(Icons.workspace_premium),
+            title: const Text('Premium (kommer snart)'),
+            onTap: () {
+              _safePop();
+              _safeShowDialogBuilder((_) => AlertDialog(
+                      title: const Text('Premium (kommer snart)'),
+                      content: const Text(
+                          'Premium-funksjoner (familiedeling og avanserte filtre) planlegges i en senere versjon. Vi viser dette valget nå for tidlig tilgang når det blir klart.'),
+                      actions: [
+                        TextButton(
+                            onPressed: () => _safePop(),
+                            child: const Text('Lukk'))
+                      ]));
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.privacy_tip),
             title: const Text('Personvern'),
             onTap: () {
@@ -1002,6 +1021,11 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   RiskLevel _analyzeBovaerRisk(String brand, String labels) {
+    final result = _analyzeBovaerRiskWithText(brand, labels);
+    return result['risk'] as RiskLevel;
+  }
+
+  Map<String, dynamic> _analyzeBovaerRiskWithText(String brand, String labels) {
     final lowerBrand = brand.toLowerCase();
     final lowerLabels = labels.toLowerCase();
     final country =
@@ -1015,16 +1039,61 @@ class _ScannerScreenState extends State<ScannerScreen>
     final reds = localRed.isNotEmpty ? localRed : bovaerRedBrands;
     final yellows = localYellow.isNotEmpty ? localYellow : bovaerYellowBrands;
 
+    final locale =
+        (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+            .toLowerCase();
+    final isNorwegian = locale == 'nb';
+
     if (greens.any((keyword) => lowerLabels.contains(keyword.toLowerCase()))) {
-      return RiskLevel.green;
+      return {
+        'risk': RiskLevel.green,
+        'text': (AppLocalizations.of(context)?.safeProduct ??
+            'SAFE: The product is certified organic.'),
+      };
     }
+
+    if (lowerBrand.contains('arla')) {
+      return {
+        'risk': RiskLevel.red,
+        'text': isNorwegian
+            ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
+            : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
+      };
+    }
+
+    if (lowerBrand.contains('apetina') || lowerBrand.contains('aptina')) {
+      return {
+        'risk': RiskLevel.red,
+        'text': isNorwegian
+            ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
+            : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
+      };
+    }
+
+    if (lowerBrand.contains('tine')) {
+      return {
+        'risk': RiskLevel.yellow,
+        'text': isNorwegian
+            ? 'MULIG RISIKO: Tine er markert som samarbeidspartner i intern sporingsliste.'
+            : 'POSSIBLE RISK: Tine is flagged as a partner in the internal tracking list.',
+      };
+    }
+
     if (reds.any((b) => lowerBrand.contains(b.toLowerCase()))) {
-      return RiskLevel.red;
+      return {
+        'risk': RiskLevel.red,
+        'text': (AppLocalizations.of(context)?.bovaerHighRisk ??
+            'HIGH RISK: The producer is directly linked to Bovaer.'),
+      };
     }
     if (yellows.any((b) => lowerBrand.contains(b.toLowerCase()))) {
-      return RiskLevel.yellow;
+      return {
+        'risk': RiskLevel.yellow,
+        'text': (AppLocalizations.of(context)?.bovaerPossibleRisk ??
+            'POSSIBLE RISK: The producer is a partner with companies linked to Bovaer.'),
+      };
     }
-    return RiskLevel.unknown;
+    return {'risk': RiskLevel.unknown, 'text': ''};
   }
 
   RiskLevel _analyzeGmoRisk(String brand, String category) {

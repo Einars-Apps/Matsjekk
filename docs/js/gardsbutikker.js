@@ -1360,6 +1360,16 @@
     const waypointParam = waypoints ? `&waypoints=${encodeURIComponent(waypoints)}` : '';
     return `https://www.google.com/maps/dir/?api=1&travelmode=driving&destination=${encodeURIComponent(destination)}${waypointParam}`;
   }
+  function buildGooglePlaceSearchUrl(shop) {
+    const query = [
+      shop.name,
+      shop.address,
+      shop.municipality,
+      shop.region,
+      shop.country,
+    ].filter(Boolean).join(' ');
+    return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+  }
 
   function renderList(filtered) {
     listEl.innerHTML = '';
@@ -1387,7 +1397,7 @@
       const phoneLine = shop.phone ? `<div class="item-sub">📞 ${escapeHtml(shop.phone)}</div>` : '';
       const openingLine = shop.openingHours ? `<div class="item-sub">🕒 ${escapeHtml(shop.openingHours)}</div>` : '';
       const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
-      const mapsLink = shop.mapsUrl ? `<a class="item-link" href="${shop.mapsUrl}" target="_blank" rel="noopener">Kart</a>` : '';
+      const websiteSearchUrl = buildGooglePlaceSearchUrl(shop);
       const image = shop.imageUrl ? `<img class="item-thumb" src="${shop.imageUrl}" alt="${escapeHtml(shop.name)}" loading="lazy" />` : '';
       const distanceLine = Number.isFinite(shop.distanceKm)
         ? `<div class="item-sub">📍 ${escapeHtml(shop.distanceKm.toFixed(1))} km unna</div>`
@@ -1405,8 +1415,7 @@
           </div>
         </div>
         <div class="item-actions">
-          <a class="item-link" href="${shop.website}" target="_blank" rel="noopener">Nettside</a>
-          ${mapsLink}
+          <a class="item-link" href="${websiteSearchUrl}" target="_blank" rel="noopener">Nettside</a>
         </div>
       `;
       listEl.appendChild(div);

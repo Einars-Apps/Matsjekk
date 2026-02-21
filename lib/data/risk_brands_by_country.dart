@@ -4,8 +4,9 @@
 final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   'NO': {
     // NORGE
-    'bovaer_red': ['tine', 'arla', 'aptina', 'lerøy', 'mowi', 'salmar'],
+    'bovaer_red': ['arla', 'apetina', 'aptina', 'lerøy', 'mowi', 'salmar'],
     'bovaer_yellow': [
+      'tine',
       'synnøve',
       'fjordland',
       'ostecompagniet',
