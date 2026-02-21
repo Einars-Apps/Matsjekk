@@ -1492,15 +1492,21 @@
     if (!filtered.length) {
       const selectedCountryCode = resolveCountryCode(countrySelect.value) || normalizeCountryCode(selectedText(countrySelect));
       const selectedCountryLabel = selectedText(countrySelect) || countryNameByCode(selectedCountryCode);
+      const selectedRegionValue = regionSelect?.value || '';
+      const selectedMunicipalityValue = muniSelect?.value || '';
+      const selectedRegionLabel = selectedRegionValue ? selectedText(regionSelect) : '';
+      const selectedMunicipalityLabel = selectedMunicipalityValue ? selectedText(muniSelect) : '';
+      const selectedQuery = (searchInput?.value || '').trim();
       const hasActiveFilters = Boolean(
         selectedCountryCode ||
-        (searchInput?.value || '').trim() ||
-        regionSelect?.value ||
-        muniSelect?.value
+        selectedQuery ||
+        selectedRegionValue ||
+        selectedMunicipalityValue
       );
+      const hasSpecificAreaFilter = Boolean(selectedQuery || selectedRegionValue || selectedMunicipalityValue);
 
-      if (hasActiveFilters && selectedCountryCode) {
-        const emergencySeeds = addDistanceFromUser(getTrustedSeedCandidates(selectedCountryCode, selectedCountryLabel, '', ''));
+      if (hasActiveFilters && selectedCountryCode && !hasSpecificAreaFilter) {
+        const emergencySeeds = addDistanceFromUser(getTrustedSeedCandidates(selectedCountryCode, selectedCountryLabel, selectedMunicipalityLabel, selectedRegionLabel));
         if (emergencySeeds.length) {
           setMapStatus('Viser kvalitetssikrede nød-fallback treff for valgt land.');
           return renderList(emergencySeeds);
