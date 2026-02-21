@@ -35,10 +35,14 @@ class _ConsentDialogState extends State<ConsentDialog> {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Vi bruker anonymisert analyse for å forbedre appen. Du kan velge å slå dette på eller av.'),
+          const Text(
+              'Dette er valgfritt. Hvis du ikke samtykker, blir bruken din ikke sendt til analyse.'),
+          const SizedBox(height: 8),
+          const Text(
+              'Appen fungerer uansett, og data kan bli kun på din enhet.'),
           const SizedBox(height: 12),
           Row(children: [
-            const Text('Samtykke til anonym analyse'),
+            const Text('Tillat anonym analyse'),
             const Spacer(),
             Switch(value: _optIn, onChanged: (v) => setState(() => _optIn = v))
           ])

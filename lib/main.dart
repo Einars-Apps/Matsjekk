@@ -1088,8 +1088,8 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'risk': RiskLevel.yellow,
         'text': isNorwegian
-            ? 'MULIG RISIKO: Tine er markert som samarbeidspartner i intern sporingsliste.'
-            : 'POSSIBLE RISK: Tine is flagged as a partner in the internal tracking list.',
+            ? 'MULIG RISIKO: Tine er registrert som samarbeidspartner i intern sporingsliste. Verifiser alltid produktets etikett.'
+            : 'POSSIBLE RISK: Tine is listed as a partner in the internal tracking list. Always verify the product label.',
       };
     }
 
