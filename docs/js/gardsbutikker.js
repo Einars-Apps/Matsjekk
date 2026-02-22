@@ -878,6 +878,13 @@
     );
   }
 
+  function strictRegionMatch(shopRegion, selectedRegionLabel) {
+    const left = normalizeAdminLabel(shopRegion || '');
+    const right = normalizeAdminLabel(selectedRegionLabel || '');
+    if (!left || !right) return false;
+    return left === right || left.includes(right) || right.includes(left);
+  }
+
   function populateCountries() {
     countrySelect.innerHTML = '<option value="">Velg land</option>' +
       WEST_EUROPE.map((country) => `<option value="${country.code}">${country.name}</option>`).join('');
@@ -1745,7 +1752,9 @@
       ? municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value))
       : [];
     const regionVariantKeys = regionLabel
-      ? regionVariants(countryCode, regionLabel).map((value) => regionKey(value))
+      ? ((countryCode === 'NO' && !municipalityLabel)
+        ? [regionKey(regionLabel)]
+        : regionVariants(countryCode, regionLabel).map((value) => regionKey(value)))
       : [];
 
     const seeds = countrySeeds.filter((entry) => {
@@ -2005,8 +2014,8 @@ out center tags 150;
 
   async function fetchRegionBoundingBox(countryCode, regionLabel) {
     if (!regionLabel) return null;
-    const regionVariantsList = regionVariants(countryCode, regionLabel)
-      .map((value) => value.toString().trim())
+    const regionVariantsList = [regionLabel]
+      .map((value) => (value || '').toString().trim())
       .filter(Boolean);
     const countryLabel = countryNameByCode(countryCode);
     const collectedBoxes = [];
@@ -2269,7 +2278,7 @@ out center tags 150;
             const countyLocal = shops
               .filter((shop) => shop.countryCode === countryCode)
               .filter((shop) => {
-                if (countryCode === 'NO') return regionMatches(shop.region || '', regionTerms);
+                if (countryCode === 'NO') return strictRegionMatch(shop.region || '', regionText);
                 return normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionText);
               });
 
