@@ -155,12 +155,12 @@ jobs:
             exit 1
           fi
 
-          xcrun iTMSTransporter \
-            -m upload \
-            -assetFile "$IPA_PATH" \
-            -apiKey "$APPSTORE_KEY_ID" \
-            -apiIssuer "$APPSTORE_ISSUER_ID" \
-            -v informational
+          xcrun altool \
+            --upload-app \
+            --type ios \
+            --file "$IPA_PATH" \
+            --apiKey "$APPSTORE_KEY_ID" \
+            --apiIssuer "$APPSTORE_ISSUER_ID"
 
       - name: Upload IPA artifact
         if: always()
