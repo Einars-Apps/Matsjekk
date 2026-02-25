@@ -120,7 +120,7 @@ jobs:
           if [ -n "${{ github.event.inputs.build_number }}" ]; then
             flutter build ipa --release --export-method app-store --build-number "${{ github.event.inputs.build_number }}"
           else
-            flutter build ipa --release --export-method app-store
+            flutter build ipa --release --export-method app-store --build-number "${{ github.run_number }}"
           fi
 
       - name: Export IPA fallback from xcarchive
