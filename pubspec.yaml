@@ -35,7 +35,7 @@ dev_dependencies:
   hive_test: ^1.0.1
 
 dependency_overrides:
-  in_app_purchase_storekit: "<0.4.6"
+  in_app_purchase_storekit: "<0.4.0"
 
 flutter_icons:
   android: "launcher_icon"
