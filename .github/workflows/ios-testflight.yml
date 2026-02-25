@@ -41,17 +41,37 @@ jobs:
         run: |
           set -euo pipefail
 
+          for secret_name in IOS_P12_BASE64 IOS_P12_PASSWORD IOS_PROFILE_BASE64 KEYCHAIN_PASSWORD; do
+            if [ -z "${!secret_name:-}" ]; then
+              echo "Missing required secret: $secret_name"
+              exit 1
+            fi
+          done
+
           CERT_PATH="$RUNNER_TEMP/cert.p12"
           PROFILE_PATH="$RUNNER_TEMP/profile.mobileprovision"
           KEYCHAIN_PATH="$RUNNER_TEMP/app-signing.keychain-db"
 
-          echo -n "$IOS_P12_BASE64" | base64 --decode > "$CERT_PATH"
-          echo -n "$IOS_PROFILE_BASE64" | base64 --decode > "$PROFILE_PATH"
+          printf '%s' "$IOS_P12_BASE64" | tr -d '\r\n\t ' | base64 --decode > "$CERT_PATH"
+          printf '%s' "$IOS_PROFILE_BASE64" | tr -d '\r\n\t ' | base64 --decode > "$PROFILE_PATH"
+
+          if [ ! -s "$CERT_PATH" ]; then
+            echo "Decoded certificate file is empty (IOS_P12_BASE64 is likely invalid)."
+            exit 1
+          fi
+
+          if [ ! -s "$PROFILE_PATH" ]; then
+            echo "Decoded provisioning profile file is empty (IOS_PROFILE_BASE64 is likely invalid)."
+            exit 1
+          fi
+
+          openssl pkcs12 -in "$CERT_PATH" -nokeys -passin pass:"$IOS_P12_PASSWORD" >/dev/null
+          security cms -D -i "$PROFILE_PATH" >/dev/null
 
           security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
           security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
           security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
-          security import "$CERT_PATH" -P "$IOS_P12_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security import "$CERT_PATH" -P "$IOS_P12_PASSWORD" -A -f pkcs12 -k "$KEYCHAIN_PATH"
           security list-keychain -d user -s "$KEYCHAIN_PATH"
           security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
 
