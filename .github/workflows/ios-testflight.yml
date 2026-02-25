@@ -29,6 +29,42 @@ jobs:
       - name: Flutter doctor
         run: flutter doctor -v
 
+      - name: Verify Xcode and iOS SDK minimum
+        run: |
+          set -euo pipefail
+
+          XCODE_VERSION=$(xcodebuild -version | awk '/Xcode/ {print $2}')
+          if [ -z "$XCODE_VERSION" ]; then
+            echo "Could not determine Xcode version."
+            exit 1
+          fi
+
+          IFS='.' read -r XCODE_MAJOR XCODE_MINOR _ <<< "$XCODE_VERSION"
+          XCODE_MAJOR=${XCODE_MAJOR:-0}
+          XCODE_MINOR=${XCODE_MINOR:-0}
+
+          if [ "$XCODE_MAJOR" -lt 16 ]; then
+            echo "Xcode $XCODE_VERSION is too old. Minimum required is Xcode 16 (iOS 18 SDK+)."
+            exit 1
+          fi
+
+          SDK_VERSION=$(xcrun --sdk iphoneos --show-sdk-version)
+          if [ -z "$SDK_VERSION" ]; then
+            echo "Could not determine iOS SDK version."
+            exit 1
+          fi
+
+          IFS='.' read -r SDK_MAJOR SDK_MINOR _ <<< "$SDK_VERSION"
+          SDK_MAJOR=${SDK_MAJOR:-0}
+          SDK_MINOR=${SDK_MINOR:-0}
+
+          if [ "$SDK_MAJOR" -lt 18 ]; then
+            echo "iOS SDK $SDK_VERSION is too old. Minimum required is iOS 18 SDK."
+            exit 1
+          fi
+
+          echo "Using Xcode $XCODE_VERSION with iOS SDK $SDK_VERSION (OK)."
+
       - name: Install dependencies
         run: flutter pub get
 
