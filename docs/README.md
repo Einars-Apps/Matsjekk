@@ -96,3 +96,21 @@ Suggested automation (daily):
 ## Contact
 
 Email: matsjekk@gmail.com
+
+## iOS TestFlight via GitHub Actions
+
+The repository includes a manual workflow for iOS upload: `iOS TestFlight Upload`.
+
+- Open **Actions** → **iOS TestFlight Upload** → **Run workflow**.
+- Keep `build_number` empty to auto-use the GitHub run number (recommended).
+- Set `build_number` only when you need to force a specific iOS build number.
+
+Required repository secrets:
+
+- `IOS_P12_BASE64`
+- `IOS_P12_PASSWORD`
+- `IOS_PROFILE_BASE64`
+- `KEYCHAIN_PASSWORD`
+- `APPSTORE_KEY_ID`
+- `APPSTORE_ISSUER_ID`
+- `APPSTORE_PRIVATE_KEY`
