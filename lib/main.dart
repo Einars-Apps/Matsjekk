@@ -36,6 +36,31 @@ const List<String> greenKeywords = [
   'biodynamisk',
   'debio'
 ];
+
+const Map<String, Map<String, dynamic>> appReviewSampleProducts = {
+  '0000000000000': {
+    'product_name': 'Testprodukt Eplejuice',
+    'brands': 'Mat-sjekk Demo',
+    'labels': 'Økologisk',
+    'ingredients_text_no': 'Økologisk eplejuice fra konsentrat',
+    'categories': 'Drikkevarer, Juice',
+    'image_front_url': '',
+    'image_front_thumb_url': '',
+    'nutriscore_grade': 'B',
+    'additives_tags': <String>[]
+  },
+  '0123456789012': {
+    'product_name': 'Testprodukt Havregryn',
+    'brands': 'Mat-sjekk Demo',
+    'labels': '',
+    'ingredients_text_no': 'Havregryn',
+    'categories': 'Frokostblandinger og korn',
+    'image_front_url': '',
+    'image_front_thumb_url': '',
+    'nutriscore_grade': 'A',
+    'additives_tags': <String>[]
+  }
+};
 // --- SLUTT PÅ RISIKO-DEFINISJON ---
 
 void main() async {
@@ -628,27 +653,49 @@ class _ScannerScreenState extends State<ScannerScreen>
   List<Future<Map<String, dynamic>> Function(String ean)> _getSourcesForCountry(
       String countryCode) {
     // Only OpenFoodFacts implemented now, but structure allows future sources per land.
+    final reviewSamples = _fetchFromReviewSampleData;
     final openFoodFacts = _fetchFromOpenFoodFacts;
     final Map<String, List<Future<Map<String, dynamic>> Function(String ean)>>
         prioritized = {
-      'NO': [openFoodFacts],
-      'SE': [openFoodFacts],
-      'DK': [openFoodFacts],
-      'FI': [openFoodFacts],
-      'DE': [openFoodFacts],
-      'NL': [openFoodFacts],
-      'FR': [openFoodFacts],
-      'IT': [openFoodFacts],
-      'PT': [openFoodFacts],
-      'ES': [openFoodFacts],
-      'GB': [openFoodFacts],
-      'IE': [openFoodFacts],
-      'BE': [openFoodFacts],
-      'AT': [openFoodFacts],
-      'CH': [openFoodFacts],
-      'LU': [openFoodFacts],
+      'NO': [reviewSamples, openFoodFacts],
+      'SE': [reviewSamples, openFoodFacts],
+      'DK': [reviewSamples, openFoodFacts],
+      'FI': [reviewSamples, openFoodFacts],
+      'DE': [reviewSamples, openFoodFacts],
+      'NL': [reviewSamples, openFoodFacts],
+      'FR': [reviewSamples, openFoodFacts],
+      'IT': [reviewSamples, openFoodFacts],
+      'PT': [reviewSamples, openFoodFacts],
+      'ES': [reviewSamples, openFoodFacts],
+      'GB': [reviewSamples, openFoodFacts],
+      'IE': [reviewSamples, openFoodFacts],
+      'BE': [reviewSamples, openFoodFacts],
+      'AT': [reviewSamples, openFoodFacts],
+      'CH': [reviewSamples, openFoodFacts],
+      'LU': [reviewSamples, openFoodFacts],
     };
-    return prioritized[countryCode] ?? [openFoodFacts];
+    return prioritized[countryCode] ?? [reviewSamples, openFoodFacts];
+  }
+
+  Future<Map<String, dynamic>> _fetchFromReviewSampleData(String ean) async {
+    final sample = appReviewSampleProducts[ean];
+    if (sample == null) return {};
+
+    final info = _buildProductInfo(
+      ean: ean,
+      navn: (sample['product_name'] ?? 'Ukjent navn').toString(),
+      merke: (sample['brands'] ?? '').toString(),
+      etiketter: (sample['labels'] ?? '').toString(),
+      kategorier: (sample['categories'] ?? '').toString(),
+      ingredienser: (sample['ingredients_text_no'] ?? '').toString(),
+      bildeUrl: (sample['image_front_url'] ?? '').toString(),
+      bildeThumbUrl: (sample['image_front_thumb_url'] ?? '').toString(),
+      nutriscore: (sample['nutriscore_grade'] ?? 'UKJENT').toString(),
+      additivesTags:
+          (sample['additives_tags'] as List<dynamic>? ?? const <dynamic>[]),
+    );
+    info['isReviewSample'] = true;
+    return info;
   }
 
   Future<Map<String, dynamic>> _fetchFromOpenFoodFacts(String ean) async {
@@ -660,43 +707,69 @@ class _ScannerScreenState extends State<ScannerScreen>
         final data = json.decode(response.body);
         if (data['status'] == 1 && data['product'] != null) {
           final product = data['product'];
-          final ingredients = product['ingredients_text_no'] ??
-              product['ingredients_text'] ??
-              '';
-          final eStofferFraTags =
-              (product['additives_tags'] as List<dynamic>? ?? [])
-                  .map((e) => e.toString().replaceAll('en:', '').toUpperCase())
-                  .toList();
-          final eStofferFraTekst = _parseEStoffer(ingredients);
-          final allEStoffer =
-              {...eStofferFraTags, ...eStofferFraTekst}.toList();
-
-          Map<String, dynamic> info = {
-            'navn': product['product_name'] ?? 'Ukjent navn',
-            'merke': product['brands'] ?? '',
-            'etiketter': product['labels'] ?? '',
-            'kategorier': product['categories'] ?? '',
-            'ingredienser': ingredients.isEmpty ? 'Ingen info' : ingredients,
-            'bildeUrl': product['image_front_url'] ?? '',
-            'bildeThumbUrl': product['image_front_thumb_url'] ?? '',
-            'nutriscore':
-                (product['nutriscore_grade'] ?? 'ukjent').toUpperCase(),
-            'eStoffer': allEStoffer,
-          };
-            final bovaerAssessment =
-              _analyzeBovaerRiskWithText(info['merke']!, info['etiketter']!);
-            info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
-            info['bovaerRiskText'] = bovaerAssessment['text'] as String;
-              info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
-          info['gmoRisk'] =
-              _analyzeGmoRisk(info['merke']!, info['kategorier']!);
-          return info;
+          return _buildProductInfo(
+            ean: ean,
+            navn: (product['product_name'] ?? 'Ukjent navn').toString(),
+            merke: (product['brands'] ?? '').toString(),
+            etiketter: (product['labels'] ?? '').toString(),
+            kategorier: (product['categories'] ?? '').toString(),
+            ingredienser: (product['ingredients_text_no'] ??
+                    product['ingredients_text'] ??
+                    '')
+                .toString(),
+            bildeUrl: (product['image_front_url'] ?? '').toString(),
+            bildeThumbUrl: (product['image_front_thumb_url'] ?? '').toString(),
+            nutriscore: (product['nutriscore_grade'] ?? 'ukjent').toString(),
+            additivesTags:
+                (product['additives_tags'] as List<dynamic>? ?? const []),
+          );
         }
       }
     } catch (e) {
       debugPrint('Feil ved henting av produktinfo: $e');
     }
     return {};
+  }
+
+  Map<String, dynamic> _buildProductInfo({
+    required String ean,
+    required String navn,
+    required String merke,
+    required String etiketter,
+    required String kategorier,
+    required String ingredienser,
+    required String bildeUrl,
+    required String bildeThumbUrl,
+    required String nutriscore,
+    List<dynamic> additivesTags = const [],
+  }) {
+    final cleanedIngredients = ingredienser.trim();
+    final eStofferFraTags = additivesTags
+        .map((e) => e.toString().replaceAll('en:', '').toUpperCase())
+        .toList();
+    final eStofferFraTekst = _parseEStoffer(cleanedIngredients);
+    final allEStoffer = {...eStofferFraTags, ...eStofferFraTekst}.toList();
+
+    final info = <String, dynamic>{
+      'ean': ean,
+      'navn': navn,
+      'merke': merke,
+      'etiketter': etiketter,
+      'kategorier': kategorier,
+      'ingredienser': cleanedIngredients.isEmpty ? 'Ingen info' : cleanedIngredients,
+      'bildeUrl': bildeUrl,
+      'bildeThumbUrl': bildeThumbUrl,
+      'nutriscore': nutriscore.toUpperCase(),
+      'eStoffer': allEStoffer,
+    };
+
+    final bovaerAssessment = _analyzeBovaerRiskWithText(merke, etiketter);
+    info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
+    info['bovaerRiskText'] = bovaerAssessment['text'] as String;
+    info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
+    info['gmoRisk'] = _analyzeGmoRisk(merke, kategorier);
+
+    return info;
   }
 
   void _visProduktDialog(Map<String, dynamic> info) {
@@ -880,6 +953,16 @@ class _ScannerScreenState extends State<ScannerScreen>
                       ]));
             },
           ),
+          if (Platform.isIOS)
+            ListTile(
+              leading: const Icon(Icons.verified),
+              title: const Text('App Review Test'),
+              subtitle: const Text('Åpne demo-produkter uten kamera'),
+              onTap: () {
+                _safePop();
+                _showAppReviewTestDialog();
+              },
+            ),
           ListTile(
             leading: const Icon(Icons.notification_important),
             title: const Text('Varsel'),
@@ -985,6 +1068,47 @@ class _ScannerScreenState extends State<ScannerScreen>
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  void _showAppReviewTestDialog() {
+    final sampleCodes = appReviewSampleProducts.keys.toList(growable: false);
+    _safeShowDialogBuilder(
+      (_) => AlertDialog(
+        title: const Text('App Review Testkoder'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Velg en testkode for å åpne et demo-produkt:'),
+            const SizedBox(height: 12),
+            ...sampleCodes.map(
+              (code) => Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: OutlinedButton.icon(
+                  onPressed: () async {
+                    _safePop();
+                    setState(() => _isLoading = true);
+                    final info = await _hentInfo(code);
+                    if (!mounted) return;
+                    setState(() => _isLoading = false);
+                    if (info.isNotEmpty) {
+                      _visProduktDialog(info);
+                    } else {
+                      _safeSnack('Fant ikke demo-produkt for $code');
+                    }
+                  },
+                  icon: const Icon(Icons.qr_code),
+                  label: Text(code),
+                ),
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(onPressed: () => _safePop(), child: const Text('Lukk')),
+        ],
       ),
     );
   }
