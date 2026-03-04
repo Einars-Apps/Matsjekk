@@ -1020,6 +1020,50 @@
     );
   }
 
+  function findNorwayMunicipalityByQuery(queryText, preferredRegionLabel = '') {
+    const key = municipalityKey(queryText);
+    if (!key || key.length < 3 || !norwayMunicipalities.length) return null;
+
+    const preferredRegion = regionKey(preferredRegionLabel || '');
+    const candidates = norwayMunicipalities
+      .filter((municipality) => {
+        const nameKey = municipalityKey(municipality.name || '');
+        return nameKey === key || nameKey.includes(key) || key.includes(nameKey);
+      })
+      .sort((left, right) => {
+        const leftKey = municipalityKey(left.name || '');
+        const rightKey = municipalityKey(right.name || '');
+
+        const leftExact = leftKey === key ? 0 : 1;
+        const rightExact = rightKey === key ? 0 : 1;
+        if (leftExact !== rightExact) return leftExact - rightExact;
+
+        const leftDelta = Math.abs(leftKey.length - key.length);
+        const rightDelta = Math.abs(rightKey.length - key.length);
+        if (leftDelta !== rightDelta) return leftDelta - rightDelta;
+
+        if (preferredRegion) {
+          const leftCounty = regionKey((norwayCounties.find((county) => county.code === left.countyCode)?.name || '').toString());
+          const rightCounty = regionKey((norwayCounties.find((county) => county.code === right.countyCode)?.name || '').toString());
+          const leftRegionScore = leftCounty === preferredRegion ? 0 : 1;
+          const rightRegionScore = rightCounty === preferredRegion ? 0 : 1;
+          if (leftRegionScore !== rightRegionScore) return leftRegionScore - rightRegionScore;
+        }
+
+        return (left.name || '').localeCompare((right.name || ''), 'nb');
+      });
+
+    const best = candidates[0];
+    if (!best) return null;
+
+    const countyName = norwayCounties.find((county) => county.code === best.countyCode)?.name || '';
+    return {
+      name: best.name || '',
+      countyCode: best.countyCode || '',
+      countyName,
+    };
+  }
+
   function regionKey(value) {
     return (value || '')
       .toString()
@@ -2362,6 +2406,22 @@ out center tags 150;
     const countryText = selectedText(countrySelect);
     const query = searchInput.value.trim().toLowerCase();
 
+    let localityCountryCode = countryCode;
+    let localityRegionText = regionText;
+    let localityMunicipalityText = municipalityText;
+
+    if ((!countryCode || countryCode === 'NO') && !municipalityText && query.length >= 3) {
+      await ensureNorwayGeoData();
+      const municipalityHint = findNorwayMunicipalityByQuery(query, regionText);
+      if (municipalityHint) {
+        localityCountryCode = 'NO';
+        localityMunicipalityText = municipalityHint.name;
+        if (!localityRegionText && municipalityHint.countyName) {
+          localityRegionText = municipalityHint.countyName;
+        }
+      }
+    }
+
     const countryRows = countryCode
       ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode))
       : shops;
@@ -2482,18 +2542,38 @@ out center tags 150;
             }
           }
         } else {
-          const localityHint = [query, municipalityText, regionText, countryText]
+          const effectiveCountryLabel = countryText || countryNameByCode(localityCountryCode || countryCode);
+          const localityHint = [localityMunicipalityText || query, localityRegionText, effectiveCountryLabel]
             .filter(Boolean)
             .join(', ');
-          const geo = await geocodeWithFallback(localityHint);
+          let nearLat = null;
+          let nearLon = null;
+
+          if ((localityCountryCode || countryCode) === 'NO' && localityMunicipalityText) {
+            const center = await fetchMunicipalityCenter('NO', localityMunicipalityText, localityRegionText);
+            if (center && Number.isFinite(center.lat) && Number.isFinite(center.lon)) {
+              nearLat = Number(center.lat);
+              nearLon = Number(center.lon);
+            }
+          }
+
+          if (!Number.isFinite(nearLat) || !Number.isFinite(nearLon)) {
+            const geo = await geocodeWithFallback(localityHint);
+            nearLat = geo?.lat != null ? Number(geo.lat) : null;
+            nearLon = geo?.lon != null ? Number(geo.lon) : null;
+          }
+
           if (runId !== filterRunId) return filtered;
-          const nearLat = geo?.lat != null ? Number(geo.lat) : null;
-          const nearLon = geo?.lon != null ? Number(geo.lon) : null;
           if (Number.isFinite(nearLat) && Number.isFinite(nearLon)) {
-            const localityRadiusKm = municipalityText ? 50 : 35;
+            const localityRadiusKm = municipalityText ? 50 : (localityMunicipalityText ? 45 : 35);
             const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, localityRadiusKm * 1000);
             const liveNearby = liveNearbyElements
-              .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
+              .map((element) => toOverpassShop(
+                element,
+                localityMunicipalityText || municipalityText || query,
+                localityRegionText || regionText,
+                effectiveCountryLabel,
+              ))
               .filter((shop) => keepHighQuality(shop))
               .filter((shop) => shop.lat != null && shop.lon != null)
               .map((shop) => ({
@@ -2503,7 +2583,7 @@ out center tags 150;
               .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= localityRadiusKm);
 
             const nearbyLocal = shops
-              .filter((shop) => (!countryCode || shopMatchesCountryRelaxed(shop, countryCode)) && shop.lat != null && shop.lon != null)
+              .filter((shop) => (!(localityCountryCode || countryCode) || shopMatchesCountryRelaxed(shop, localityCountryCode || countryCode)) && shop.lat != null && shop.lon != null)
               .map((shop) => ({
                 ...shop,
                 distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
@@ -2523,7 +2603,7 @@ out center tags 150;
               filtered = nearbyCombined;
               activeFiltered = nearbyCombined;
               renderList(nearbyCombined);
-              setMapStatus('Viser nærmeste treff basert på område (strammere lokalitetsfallback).');
+              setMapStatus('Viser nærmeste treff basert på kommune-sentrum (strammere lokalitetsfallback).');
             }
           }
         }
