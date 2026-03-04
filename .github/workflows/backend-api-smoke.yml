@@ -1,0 +1,82 @@
+name: Backend API Smoke
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'backend/**'
+      - '.github/workflows/backend-api-smoke.yml'
+  pull_request:
+    paths:
+      - 'backend/**'
+      - '.github/workflows/backend-api-smoke.yml'
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install backend deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Start API
+        run: |
+          nohup python -m uvicorn backend.api.main:app --host 127.0.0.1 --port 8080 > backend-api.log 2>&1 &
+
+      - name: Wait for health endpoint
+        run: |
+          python - <<'PY'
+          import time
+          import requests
+
+          url = 'http://127.0.0.1:8080/health'
+          for _ in range(30):
+              try:
+                  r = requests.get(url, timeout=2)
+                  if r.status_code == 200:
+                      print('API is up')
+                      break
+              except Exception:
+                  pass
+              time.sleep(1)
+          else:
+              raise SystemExit('API did not become ready in time')
+          PY
+
+      - name: Smoke test health and search
+        run: |
+          python - <<'PY'
+          import requests
+
+          health = requests.get('http://127.0.0.1:8080/health', timeout=5)
+          assert health.status_code == 200, health.text
+          payload = health.json()
+          assert payload.get('status') == 'ok', payload
+
+          search = requests.get(
+              'http://127.0.0.1:8080/v1/farmshops/search',
+              params={'countryCode': 'NO', 'query': 'holmestrand', 'limit': 5},
+              timeout=8,
+          )
+          assert search.status_code == 200, search.text
+          data = search.json()
+          assert 'source' in data and 'total' in data and 'results' in data, data
+          assert isinstance(data['results'], list), data
+          print('Smoke tests passed')
+          PY
+
+      - name: Print API log on failure
+        if: failure()
+        run: |
+          echo '=== backend-api.log ==='
+          cat backend-api.log

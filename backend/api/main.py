@@ -108,6 +108,13 @@ def safe_client() -> SupabaseClient:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
 
+def optional_client() -> SupabaseClient | None:
+    try:
+        return SupabaseClient()
+    except RuntimeError:
+        return None
+
+
 class Farmshop(BaseModel):
     name: str
     countryCode: str = ""
@@ -206,7 +213,10 @@ def search_farmshops(
 ) -> SearchResponse:
     cc = (countryCode or "").upper()
     cache_key = build_cache_key(cc or "ANY", region, municipality, query)
-    client = safe_client()
+    client = optional_client()
+
+    if client is None:
+        return SearchResponse(source="canonical-dataset", cacheKey=cache_key, total=0, results=[])
 
     for key in candidate_cache_keys(cc or "ANY", region, municipality, query):
         rows = client.select("farmshops_area_cache", {"cache_key": f"eq.{key}", "limit": "1"})
