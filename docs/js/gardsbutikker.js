@@ -1653,7 +1653,8 @@
     return 6371 * (2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
   }
 
-  async function loadNearbyRealShopsFromPosition(lat, lon, radiusKm = 50) {
+  async function loadNearbyRealShopsFromPosition(lat, lon, radiusKm = 50, options = {}) {
+    const syncFilters = options?.syncFilters !== false;
     let geo = null;
     try {
       geo = await reverseGeocodeMunicipality(lat, lon);
@@ -1665,7 +1666,7 @@
     const regionLabel = geo?.region || selectedText(regionSelect) || '';
     const municipalityLabel = geo?.municipality || selectedText(muniSelect) || '';
 
-    if (geo?.countryCode && [...countrySelect.options].some((option) => option.value === geo.countryCode)) {
+    if (syncFilters && geo?.countryCode && [...countrySelect.options].some((option) => option.value === geo.countryCode)) {
       countrySelect.value = geo.countryCode;
       await populateRegions(geo.countryCode);
       if (regionLabel) {
@@ -1719,6 +1720,9 @@
     if (sortSelect) sortSelect.value = 'distance_asc';
     activeFiltered = merged;
     renderList(merged);
+    if (!merged.length) {
+      setMapStatus(`Ingen treff innen ${radiusKm} km. Prøv større radius (25/50/100 km).`);
+    }
     if (resultsHeadingEl) {
       resultsHeadingEl.textContent = `${translate('nearbyHeadingPrefix')} (${radiusKm} km)`;
     }
@@ -2599,11 +2603,26 @@ out center tags 150;
               })
               .slice(0, 120);
 
-            if (nearbyCombined.length) {
-              filtered = nearbyCombined;
-              activeFiltered = nearbyCombined;
-              renderList(nearbyCombined);
+            let scopedNearby = nearbyCombined;
+            if (regionValue || municipalityValue) {
+              scopedNearby = nearbyCombined.filter((shop) => {
+                const regionMatch = !regionValue || (countryCode === 'NO'
+                  ? regionMatches(shop.region || '', regionTerms)
+                  : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+                const municipalityMatch = !municipalityValue || (countryCode === 'NO'
+                  ? municipalityMatches(shop.municipality || '', municipalityTerms)
+                  : shop.municipality === municipalityValue);
+                return regionMatch && municipalityMatch;
+              });
+            }
+
+            if (scopedNearby.length) {
+              filtered = scopedNearby;
+              activeFiltered = scopedNearby;
+              renderList(scopedNearby);
               setMapStatus('Viser nærmeste treff basert på kommune-sentrum (strammere lokalitetsfallback).');
+            } else if (nearbyCombined.length && (regionValue || municipalityValue)) {
+              setMapStatus('Fant treff nær valgt sted, men ingen innen valgt fylke/kommune.');
             }
           }
         }
@@ -2905,7 +2924,7 @@ out center tags 150;
         try {
           if (sortSelect) sortSelect.value = 'distance_asc';
           setUserPosition(position.coords.latitude, position.coords.longitude);
-          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, radiusKm);
+          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, radiusKm, { syncFilters: false });
         } catch (_) {
           const localNearby = addDistanceFromUser(shops)
             .filter((shop) => Number.isFinite(shop?.distanceKm) && shop.distanceKm <= radiusKm)
@@ -2922,14 +2941,9 @@ out center tags 150;
             return;
           }
 
-          try {
-            const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
-            await chooseBestMunicipality(geo);
-            openGoogleMapsSearchFromFilters();
-          } catch (__) {
-            const nearbyUrl = `https://www.google.com/maps/search/${encodeURIComponent(`gårdsbutikk ${position.coords.latitude},${position.coords.longitude}`)}`;
-            window.open(nearbyUrl, '_blank', 'noopener');
-          }
+          setMapStatus(`Fant ingen sikre treff innen ${radiusKm} km. Prøv større radius.`);
+          const nearbyUrl = `https://www.google.com/maps/search/${encodeURIComponent(`gårdsbutikk ${position.coords.latitude},${position.coords.longitude}`)}`;
+          window.open(nearbyUrl, '_blank', 'noopener');
         }
       }, () => {
         alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
