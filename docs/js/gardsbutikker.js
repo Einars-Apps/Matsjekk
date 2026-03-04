@@ -373,8 +373,18 @@
   const mapHeightUp = document.getElementById('mapHeightUp');
   const myMunicipalityBtn = document.getElementById('myMunicipalityBtn');
   const nearMeBtn = document.getElementById('nearMeBtn');
+  const nearRadiusSelect = document.getElementById('nearRadiusSelect');
   const openGoogleMapBtn = document.getElementById('openGoogleMapBtn');
   const backBtn = document.getElementById('backBtn');
+  const languageSelect = document.getElementById('languageSelect');
+  const languageLabelEl = document.getElementById('languageLabel');
+  const pageTitleEl = document.getElementById('pageTitle');
+  const introTextEl = document.getElementById('introText');
+  const topHomeTabEl = document.getElementById('topHomeTab');
+  const topFarmshopsTabEl = document.getElementById('topFarmshopsTab');
+  const topNewsTabEl = document.getElementById('topNewsTab');
+  const topContactTabEl = document.getElementById('topContactTab');
+  const distanceLabelEl = document.getElementById('distanceLabel');
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   let currentMapHeight = isMobile ? 110 : 400;
@@ -384,6 +394,168 @@
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
   const ENABLE_LIVE_ENRICHMENT = false;
   const OVERPASS_FETCH_TIMEOUT_MS = 5500;
+
+  const LANGUAGE_STORAGE_KEY = 'matsjekk_farmshops_lang';
+  const SUPPORTED_LANGUAGES = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
+  const PAGE_TRANSLATIONS = {
+    nb: {
+      languageLabel: 'Språk',
+      pageTitle: 'Gårdsbutikker',
+      introText: 'Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
+      topHomeTab: 'Hjem',
+      topFarmshopsTab: 'Gårdsbutikker',
+      topNewsTab: 'Nyheter og media',
+      topContactTab: 'Kontakt oss',
+      backBtn: '← Tilbake',
+      applyFiltersBtn: 'Oppdater søk',
+      sortNameAsc: 'Sorter: Navn A-Å',
+      sortNameDesc: 'Sorter: Navn Å-A',
+      sortDistance: 'Sorter: Nærmest deg',
+      searchPlaceholder: 'Søk butikk',
+      myMunicipalityBtn: 'Søk i feltet',
+      nearMeBtn: 'Finn nær min posisjon',
+      distanceLabel: 'Avstand',
+      routeFromPlaceholder: 'Fra (adresse eller by)',
+      routeToPlaceholder: 'Til (adresse eller by)',
+      routeBtn: 'Finn langs rute',
+      resetBtn: 'Tilbakestill',
+      mapSizeLabel: 'Kart-høyde',
+      countryPlaceholder: 'Velg land',
+      regionPlaceholder: 'Velg fylke/region',
+      municipalityPlaceholder: 'Velg kommune',
+      resultsHeadingDefault: 'Gårdsbutikker nær deg',
+      nearbyHeadingPrefix: 'Gårdsbutikker nær deg',
+    },
+    en: {
+      languageLabel: 'Language',
+      pageTitle: 'Farm Shops',
+      introText: 'Find local producers and farm shops. Filter by country → county/region → municipality, search products, and plan routes.',
+      topHomeTab: 'Home',
+      topFarmshopsTab: 'Farm Shops',
+      topNewsTab: 'News & Media',
+      topContactTab: 'Contact us',
+      backBtn: '← Back',
+      applyFiltersBtn: 'Update search',
+      sortNameAsc: 'Sort: Name A-Z',
+      sortNameDesc: 'Sort: Name Z-A',
+      sortDistance: 'Sort: Nearest first',
+      searchPlaceholder: 'Search shop',
+      myMunicipalityBtn: 'Search in area',
+      nearMeBtn: 'Find near my position',
+      distanceLabel: 'Distance',
+      routeFromPlaceholder: 'From (address or city)',
+      routeToPlaceholder: 'To (address or city)',
+      routeBtn: 'Find along route',
+      resetBtn: 'Reset',
+      mapSizeLabel: 'Map height',
+      countryPlaceholder: 'Select country',
+      regionPlaceholder: 'Select county/region',
+      municipalityPlaceholder: 'Select municipality',
+      resultsHeadingDefault: 'Farm shops near you',
+      nearbyHeadingPrefix: 'Farm shops near you',
+    },
+  };
+  let currentPageLanguage = 'nb';
+
+  function languageDict(languageCode) {
+    const code = (languageCode || '').toLowerCase();
+    if (PAGE_TRANSLATIONS[code]) return PAGE_TRANSLATIONS[code];
+    if (SUPPORTED_LANGUAGES.includes(code) && code !== 'nb') return PAGE_TRANSLATIONS.en;
+    return PAGE_TRANSLATIONS.nb;
+  }
+
+  function translate(key) {
+    return languageDict(currentPageLanguage)[key] || languageDict('nb')[key] || '';
+  }
+
+  function detectPreferredLanguage() {
+    const raw = [
+      ...(Array.isArray(navigator.languages) ? navigator.languages : []),
+      navigator.language,
+      navigator.userLanguage,
+    ].filter(Boolean);
+
+    for (const entry of raw) {
+      const code = String(entry).toLowerCase().split('-')[0];
+      if (SUPPORTED_LANGUAGES.includes(code)) return code;
+    }
+    return 'nb';
+  }
+
+  function optionByValue(selectElement, value) {
+    return [...(selectElement?.options || [])].find((option) => option.value === value) || null;
+  }
+
+  function applyPageLanguage(languageCode) {
+    const fallbackCode = SUPPORTED_LANGUAGES.includes(languageCode) ? languageCode : 'nb';
+    currentPageLanguage = PAGE_TRANSLATIONS[fallbackCode] ? fallbackCode : 'nb';
+    document.documentElement.lang = currentPageLanguage;
+
+    if (languageLabelEl) languageLabelEl.textContent = translate('languageLabel');
+    if (pageTitleEl) pageTitleEl.textContent = translate('pageTitle');
+    if (introTextEl) introTextEl.textContent = translate('introText');
+    if (topHomeTabEl) topHomeTabEl.textContent = translate('topHomeTab');
+    if (topFarmshopsTabEl) topFarmshopsTabEl.textContent = translate('topFarmshopsTab');
+    if (topNewsTabEl) topNewsTabEl.textContent = translate('topNewsTab');
+    if (topContactTabEl) topContactTabEl.textContent = translate('topContactTab');
+    if (backBtn) backBtn.textContent = translate('backBtn');
+    if (applyFiltersBtn) applyFiltersBtn.textContent = translate('applyFiltersBtn');
+    if (searchInput) searchInput.placeholder = translate('searchPlaceholder');
+    if (myMunicipalityBtn) myMunicipalityBtn.textContent = translate('myMunicipalityBtn');
+    if (nearMeBtn) nearMeBtn.textContent = translate('nearMeBtn');
+    if (distanceLabelEl) distanceLabelEl.textContent = translate('distanceLabel');
+
+    const routeFromEl = document.getElementById('routeFrom');
+    const routeToEl = document.getElementById('routeTo');
+    const routeBtnEl = document.getElementById('routeBtn');
+    const resetBtnEl = document.getElementById('resetBtn');
+    if (routeFromEl) routeFromEl.placeholder = translate('routeFromPlaceholder');
+    if (routeToEl) routeToEl.placeholder = translate('routeToPlaceholder');
+    if (routeBtnEl) routeBtnEl.textContent = translate('routeBtn');
+    if (resetBtnEl) resetBtnEl.textContent = translate('resetBtn');
+    if (resultsHeadingEl) resultsHeadingEl.textContent = translate('resultsHeadingDefault');
+
+    const mapSizeLabelEl = document.querySelector('.map-size-label');
+    if (mapSizeLabelEl) mapSizeLabelEl.textContent = translate('mapSizeLabel');
+
+    const sortAsc = optionByValue(sortSelect, 'name_asc');
+    const sortDesc = optionByValue(sortSelect, 'name_desc');
+    const sortDistance = optionByValue(sortSelect, 'distance_asc');
+    if (sortAsc) sortAsc.textContent = translate('sortNameAsc');
+    if (sortDesc) sortDesc.textContent = translate('sortNameDesc');
+    if (sortDistance) sortDistance.textContent = translate('sortDistance');
+
+    const countryOption = optionByValue(countrySelect, '');
+    const regionOption = optionByValue(regionSelect, '');
+    const municipalityOption = optionByValue(muniSelect, '');
+    if (countryOption) countryOption.textContent = translate('countryPlaceholder');
+    if (regionOption) regionOption.textContent = translate('regionPlaceholder');
+    if (municipalityOption) municipalityOption.textContent = translate('municipalityPlaceholder');
+  }
+
+  function initLanguageSelector() {
+    if (!languageSelect) return;
+    const saved = (localStorage.getItem(LANGUAGE_STORAGE_KEY) || 'auto').toLowerCase();
+    const selectedMode = saved === 'auto' || SUPPORTED_LANGUAGES.includes(saved) ? saved : 'auto';
+    languageSelect.value = selectedMode;
+    const initialLanguage = selectedMode === 'auto' ? detectPreferredLanguage() : selectedMode;
+    applyPageLanguage(initialLanguage);
+
+    languageSelect.addEventListener('change', () => {
+      const nextMode = (languageSelect.value || 'auto').toLowerCase();
+      const normalizedMode = nextMode === 'auto' || SUPPORTED_LANGUAGES.includes(nextMode) ? nextMode : 'auto';
+      localStorage.setItem(LANGUAGE_STORAGE_KEY, normalizedMode);
+      const nextLanguage = normalizedMode === 'auto' ? detectPreferredLanguage() : normalizedMode;
+      applyPageLanguage(nextLanguage);
+      filterShops();
+    });
+  }
+
+  function selectedNearRadiusKm() {
+    const raw = Number.parseInt(nearRadiusSelect?.value || '50', 10);
+    if (!Number.isFinite(raw) || raw <= 0) return 50;
+    return raw;
+  }
 
   function normalizeCountryCode(raw) {
     const normalized = (raw || '').toString().trim().toLowerCase().replace(/\s+/g, '');
@@ -1484,10 +1656,11 @@
         return candidateScore(right) - candidateScore(left);
       });
 
+    if (sortSelect) sortSelect.value = 'distance_asc';
     activeFiltered = merged;
     renderList(merged);
     if (resultsHeadingEl) {
-      resultsHeadingEl.textContent = `Gårdsbutikker nær deg (${radiusKm} km)`;
+      resultsHeadingEl.textContent = `${translate('nearbyHeadingPrefix')} (${radiusKm} km)`;
     }
     if (openGoogleMapBtn) {
       openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(merged);
@@ -2591,6 +2764,7 @@ out center tags 150;
     muniSelect.value = '';
     searchInput.value = '';
     if (sortSelect) sortSelect.value = 'name_asc';
+    if (nearRadiusSelect) nearRadiusSelect.value = '50';
     await populateRegions('');
     await populateMunicipalities('', '');
     filterShops();
@@ -2622,8 +2796,10 @@ out center tags 150;
     nearMeBtn.addEventListener('click', () => {
       navigator.geolocation.getCurrentPosition(async (position) => {
         try {
+          const radiusKm = selectedNearRadiusKm();
+          if (sortSelect) sortSelect.value = 'distance_asc';
           setUserPosition(position.coords.latitude, position.coords.longitude);
-          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, 50);
+          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, radiusKm);
         } catch (_) {
           try {
             const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
@@ -2672,6 +2848,7 @@ out center tags 150;
   }
 
   const mapInitPromise = initMap();
+  initLanguageSelector();
 
   try {
     shops = (await loadFirstAvailable(dataUrls)).map(normalizeShop);
@@ -2701,9 +2878,7 @@ out center tags 150;
   populateCountries();
   await populateRegions('');
   await populateMunicipalities('', '');
-  if (resultsHeadingEl) {
-    resultsHeadingEl.textContent = 'Gårdsbutikker nær deg';
-  }
+  applyPageLanguage(currentPageLanguage);
   activeFiltered = shops;
   activeFiltered = addDistanceFromUser(shops);
   renderList(activeFiltered);

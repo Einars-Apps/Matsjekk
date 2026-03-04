@@ -15,11 +15,18 @@
     .top-tabs a:hover{background:rgba(255,255,255,0.15)}
     #map{height:400px;border:1px solid #ccc}
     .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .language-row{display:flex;justify-content:flex-end;align-items:center;gap:8px;margin-bottom:8px}
+    .language-row label{font-size:.92rem;color:#fff;font-weight:600}
+    .language-row select{padding:6px 10px;border:1px solid rgba(255,255,255,0.55);border-radius:8px;background:#fff;color:#111}
     .nav-links{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .link-btn{display:inline-block;padding:8px 12px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;text-decoration:none}
     .link-btn:hover{background:#f5f5f5}
     .controls a{overflow-wrap:anywhere;word-break:break-word}
     .controls input,.controls select,.controls button{max-width:100%}
+    .nearby-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .distance-group{display:flex;align-items:center;gap:6px;min-width:140px}
+    .distance-group label{font-size:.9rem;color:#25303b}
+    #nearRadiusSelect{min-width:92px}
     .map-controls{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin:8px 0}
     .map-btn{padding:6px 10px;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:6px}
     .map-btn:hover{background:#f5f5f5}
@@ -61,13 +68,30 @@
 <body>
   <header>
     <div class="container">
-      <h1>Gårdsbutikker</h1>
-      <p>Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+      <div class="language-row">
+        <label for="languageSelect" id="languageLabel">Språk</label>
+        <select id="languageSelect" aria-label="Språkvalg">
+          <option value="auto">Auto</option>
+          <option value="nb">Norsk</option>
+          <option value="da">Dansk</option>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fi">Suomi</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="nl">Nederlands</option>
+          <option value="pt">Português</option>
+          <option value="sv">Svenska</option>
+        </select>
+      </div>
+      <h1 id="pageTitle">Gårdsbutikker</h1>
+      <p id="introText">Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
       <nav class="top-tabs" aria-label="Hovednavigasjon">
-        <a href="index.html">Hjem</a>
-        <a href="gardsbutikker.html">Gårdsbutikker</a>
-        <a href="index.html#news">Nyheter og media</a>
-        <a href="index.html#contact">Kontakt oss</a>
+        <a id="topHomeTab" href="index.html">Hjem</a>
+        <a id="topFarmshopsTab" href="gardsbutikker.html">Gårdsbutikker</a>
+        <a id="topNewsTab" href="index.html#news">Nyheter og media</a>
+        <a id="topContactTab" href="index.html#contact">Kontakt oss</a>
       </nav>
     </div>
   </header>
@@ -86,7 +110,18 @@
       <select id="sortSelect"><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option><option value="distance_asc">Sorter: Nærmest deg</option></select>
       <input id="searchInput" placeholder="Søk butikk" style="flex:1" />
       <button id="myMunicipalityBtn" type="button">Søk i feltet</button>
-      <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
+      <div class="nearby-controls">
+        <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
+        <div class="distance-group">
+          <label for="nearRadiusSelect" id="distanceLabel">Avstand</label>
+          <select id="nearRadiusSelect" aria-label="Velg avstand">
+            <option value="10">10 km</option>
+            <option value="25">25 km</option>
+            <option value="50" selected>50 km</option>
+            <option value="100">100 km</option>
+          </select>
+        </div>
+      </div>
       <input id="routeFrom" placeholder="Fra (adresse eller by)" />
       <input id="routeTo" placeholder="Til (adresse eller by)" />
       <button id="routeBtn">Finn langs rute</button>
@@ -118,6 +153,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-  <script src="js/gardsbutikker.js?v=20260221k"></script>
+  <script src="js/gardsbutikker.js?v=20260304b"></script>
 </body>
 </html>
