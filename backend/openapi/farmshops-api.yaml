@@ -1,0 +1,129 @@
+openapi: 3.1.0
+info:
+  title: Matsjekk Farmshops API
+  version: 0.1.0
+  description: |
+    MVP API for shared farmshop locality cache and enrichment jobs.
+servers:
+  - url: https://api.matsjekk.com
+paths:
+  /v1/farmshops/search:
+    get:
+      summary: Search farmshops using shared cache and canonical dataset
+      parameters:
+        - in: query
+          name: countryCode
+          schema: { type: string, minLength: 2, maxLength: 2 }
+        - in: query
+          name: region
+          schema: { type: string }
+        - in: query
+          name: municipality
+          schema: { type: string }
+        - in: query
+          name: query
+          schema: { type: string }
+        - in: query
+          name: lat
+          schema: { type: number }
+        - in: query
+          name: lon
+          schema: { type: number }
+        - in: query
+          name: radiusKm
+          schema: { type: number, default: 50, minimum: 1, maximum: 250 }
+        - in: query
+          name: limit
+          schema: { type: integer, default: 120, minimum: 1, maximum: 300 }
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  source:
+                    type: string
+                    enum: [shared-cache, canonical-dataset, mixed]
+                  cacheKey:
+                    type: string
+                  total:
+                    type: integer
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Farmshop'
+  /v1/farmshops/enrich:
+    post:
+      summary: Queue async enrichment for locality
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnrichRequest'
+      responses:
+        '202':
+          description: Job accepted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  jobId: { type: string, format: uuid }
+                  status: { type: string, example: queued }
+                  cacheKey: { type: string }
+  /v1/farmshops/enrich/{jobId}:
+    get:
+      summary: Fetch enrichment job status
+      parameters:
+        - in: path
+          name: jobId
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Job state
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  jobId: { type: string, format: uuid }
+                  status: { type: string, enum: [queued, running, done, failed] }
+                  resultCount: { type: integer }
+                  errorMessage: { type: string, nullable: true }
+components:
+  schemas:
+    Farmshop:
+      type: object
+      required: [name, countryCode, lat, lon]
+      properties:
+        name: { type: string }
+        countryCode: { type: string }
+        country: { type: string }
+        region: { type: string }
+        municipality: { type: string }
+        address: { type: string }
+        products:
+          type: array
+          items: { type: string }
+        website: { type: string }
+        lat: { type: number }
+        lon: { type: number }
+        category: { type: string }
+        phone: { type: string }
+        openingHours: { type: string }
+        mapsUrl: { type: string }
+        qualityScore: { type: integer }
+        source: { type: string }
+    EnrichRequest:
+      type: object
+      required: [countryCode]
+      properties:
+        countryCode: { type: string, minLength: 2, maxLength: 2 }
+        region: { type: string }
+        municipality: { type: string }
+        query: { type: string }
+        requestedBy: { type: string }
