@@ -10,6 +10,7 @@ paths:
   /v1/farmshops/search:
     get:
       summary: Search farmshops using shared cache and canonical dataset
+      description: Free-text query requires countryCode to avoid broad global scans.
       parameters:
         - in: query
           name: countryCode

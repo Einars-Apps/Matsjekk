@@ -212,6 +212,11 @@ def search_farmshops(
     limit: int = Query(default=120, ge=1, le=300),
 ) -> SearchResponse:
     cc = (countryCode or "").upper()
+    if query.strip() and not cc:
+        raise HTTPException(
+            status_code=400,
+            detail="countryCode is required when query is provided",
+        )
     cache_key = build_cache_key(cc or "ANY", region, municipality, query)
     client = optional_client()
 
