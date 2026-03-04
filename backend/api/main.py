@@ -241,9 +241,11 @@ def search_farmshops(
     if cc:
         params["country_code"] = f"eq.{cc}"
     if municipality:
-        params["municipality"] = f"ilike.*{re.sub(r'\s+', '%', municipality.strip())}*"
+        municipality_pattern = re.sub(r"\s+", "%", municipality.strip())
+        params["municipality"] = f"ilike.*{municipality_pattern}*"
     if region:
-        params["region"] = f"ilike.*{re.sub(r'\s+', '%', region.strip())}*"
+        region_pattern = re.sub(r"\s+", "%", region.strip())
+        params["region"] = f"ilike.*{region_pattern}*"
 
     if lat is not None and lon is not None:
         lat_delta = radiusKm / 111.0
