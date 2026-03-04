@@ -391,6 +391,7 @@
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
+  let activeNearRadiusKm = null;
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
   const ENABLE_LIVE_ENRICHMENT = false;
   const OVERPASS_FETCH_TIMEOUT_MS = 5500;
@@ -488,7 +489,7 @@
 
   function applyPageLanguage(languageCode) {
     const fallbackCode = SUPPORTED_LANGUAGES.includes(languageCode) ? languageCode : 'nb';
-    currentPageLanguage = PAGE_TRANSLATIONS[fallbackCode] ? fallbackCode : 'nb';
+    currentPageLanguage = PAGE_TRANSLATIONS[fallbackCode] ? fallbackCode : 'en';
     document.documentElement.lang = currentPageLanguage;
 
     if (languageLabelEl) languageLabelEl.textContent = translate('languageLabel');
@@ -1193,7 +1194,7 @@
     if (!userPosition || !Number.isFinite(userPosition.lat) || !Number.isFinite(userPosition.lon)) {
       return items;
     }
-    return (items || []).map((shop) => {
+    const withDistance = (items || []).map((shop) => {
       if (shop.lat == null || shop.lon == null) return shop;
       const lat = Number(shop.lat);
       const lon = Number(shop.lon);
@@ -1202,6 +1203,11 @@
       if (!Number.isFinite(distanceKm)) return shop;
       return { ...shop, distanceKm };
     });
+
+    const strictNearFilterActive = sortSelect?.value === 'distance_asc' && Number.isFinite(activeNearRadiusKm) && activeNearRadiusKm > 0;
+    if (!strictNearFilterActive) return withDistance;
+
+    return withDistance.filter((shop) => Number.isFinite(shop?.distanceKm) && shop.distanceKm <= activeNearRadiusKm);
   }
 
   const GOOGLE_MAPS_API_KEY = (document.querySelector('meta[name="google-maps-api-key"]')?.getAttribute('content') || '').trim();
@@ -1604,7 +1610,12 @@
   }
 
   async function loadNearbyRealShopsFromPosition(lat, lon, radiusKm = 50) {
-    const geo = await reverseGeocodeMunicipality(lat, lon);
+    let geo = null;
+    try {
+      geo = await reverseGeocodeMunicipality(lat, lon);
+    } catch (_) {
+      geo = null;
+    }
     const countryCode = normalizeCountryCode(geo?.countryCode || countrySelect.value);
     const countryLabel = countryCode ? countryNameByCode(countryCode) : (selectedText(countrySelect) || '');
     const regionLabel = geo?.region || selectedText(regionSelect) || '';
@@ -1629,7 +1640,12 @@
     }
 
     const radiusMeters = Math.round(radiusKm * 1000);
-    const nearbyElements = await searchOverpassAroundPoint(lat, lon, radiusMeters);
+    let nearbyElements = [];
+    try {
+      nearbyElements = await searchOverpassAroundPoint(lat, lon, radiusMeters);
+    } catch (_) {
+      nearbyElements = [];
+    }
     const nearbyLive = nearbyElements
       .map((element) => toOverpassShop(element, municipalityLabel, regionLabel, countryLabel))
       .filter((shop) => keepHighQuality(shop))
@@ -2437,7 +2453,7 @@ out center tags 150;
       isCountyOnlySelection
     );
 
-    if (!filtered.length && countryCode && shouldUseLocalityFallback) {
+    if (!filtered.length && shouldUseLocalityFallback) {
       try {
         if (isCountyOnlySelection) {
           const regionBox = await fetchRegionBoundingBox(countryCode, regionText);
@@ -2474,7 +2490,8 @@ out center tags 150;
           const nearLat = geo?.lat != null ? Number(geo.lat) : null;
           const nearLon = geo?.lon != null ? Number(geo.lon) : null;
           if (Number.isFinite(nearLat) && Number.isFinite(nearLon)) {
-            const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, 120000);
+            const localityRadiusKm = municipalityText ? 50 : 35;
+            const liveNearbyElements = await searchOverpassAroundPoint(nearLat, nearLon, localityRadiusKm * 1000);
             const liveNearby = liveNearbyElements
               .map((element) => toOverpassShop(element, municipalityText || query, regionText, countryText || countryNameByCode(countryCode)))
               .filter((shop) => keepHighQuality(shop))
@@ -2483,15 +2500,15 @@ out center tags 150;
                 ...shop,
                 distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
               }))
-              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120);
+              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= localityRadiusKm);
 
             const nearbyLocal = shops
-              .filter((shop) => shop.countryCode === countryCode && shop.lat != null && shop.lon != null)
+              .filter((shop) => (!countryCode || shopMatchesCountryRelaxed(shop, countryCode)) && shop.lat != null && shop.lon != null)
               .map((shop) => ({
                 ...shop,
                 distanceKm: haversineKm(nearLat, nearLon, Number(shop.lat), Number(shop.lon)),
               }))
-              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= 120)
+              .filter((shop) => Number.isFinite(shop.distanceKm) && shop.distanceKm <= localityRadiusKm)
               .sort((left, right) => left.distanceKm - right.distanceKm);
 
             const nearbyCombined = mergeShopLists(nearbyLocal, liveNearby)
@@ -2506,7 +2523,7 @@ out center tags 150;
               filtered = nearbyCombined;
               activeFiltered = nearbyCombined;
               renderList(nearbyCombined);
-              setMapStatus('Viser nærmeste treff basert på område (fallback når kommune/fylke mangler i datagrunnlaget).');
+              setMapStatus('Viser nærmeste treff basert på område (strammere lokalitetsfallback).');
             }
           }
         }
@@ -2725,6 +2742,7 @@ out center tags 150;
   }
 
   countrySelect.addEventListener('change', async () => {
+    activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
     await populateRegions(selectedCountryCode);
     await populateMunicipalities(selectedCountryCode, '');
@@ -2732,12 +2750,14 @@ out center tags 150;
   });
 
   regionSelect.addEventListener('change', async () => {
+    activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
     await populateMunicipalities(selectedCountryCode, regionSelect.value);
     filterShops();
   });
 
   muniSelect.addEventListener('change', () => {
+    activeNearRadiusKm = null;
     filterShops();
   });
   if (sortSelect) {
@@ -2747,11 +2767,13 @@ out center tags 150;
   }
   if (applyFiltersBtn) {
     applyFiltersBtn.addEventListener('click', () => {
+      activeNearRadiusKm = null;
       filterShops();
     });
   }
   let searchDebounce = null;
   searchInput.addEventListener('input', () => {
+    activeNearRadiusKm = null;
     if (searchDebounce) clearTimeout(searchDebounce);
     searchDebounce = setTimeout(() => {
       filterShops();
@@ -2759,6 +2781,7 @@ out center tags 150;
   });
 
   document.getElementById('resetBtn').addEventListener('click', async () => {
+    activeNearRadiusKm = null;
     countrySelect.value = '';
     regionSelect.value = '';
     muniSelect.value = '';
@@ -2778,6 +2801,7 @@ out center tags 150;
 
   if (myMunicipalityBtn && navigator.geolocation) {
     myMunicipalityBtn.addEventListener('click', () => {
+      activeNearRadiusKm = null;
       filterShops();
       if ((searchInput?.value || '').trim()) {
         openGoogleMapsSearchFromFilters();
@@ -2785,6 +2809,7 @@ out center tags 150;
     });
   } else if (myMunicipalityBtn) {
     myMunicipalityBtn.addEventListener('click', () => {
+      activeNearRadiusKm = null;
       filterShops();
       if ((searchInput?.value || '').trim()) {
         openGoogleMapsSearchFromFilters();
@@ -2795,12 +2820,28 @@ out center tags 150;
   if (nearMeBtn && navigator.geolocation) {
     nearMeBtn.addEventListener('click', () => {
       navigator.geolocation.getCurrentPosition(async (position) => {
+        const radiusKm = selectedNearRadiusKm();
+        activeNearRadiusKm = radiusKm;
         try {
-          const radiusKm = selectedNearRadiusKm();
           if (sortSelect) sortSelect.value = 'distance_asc';
           setUserPosition(position.coords.latitude, position.coords.longitude);
           await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, radiusKm);
         } catch (_) {
+          const localNearby = addDistanceFromUser(shops)
+            .filter((shop) => Number.isFinite(shop?.distanceKm) && shop.distanceKm <= radiusKm)
+            .sort((left, right) => left.distanceKm - right.distanceKm)
+            .slice(0, 120);
+
+          if (localNearby.length) {
+            activeFiltered = localNearby;
+            renderList(localNearby);
+            if (resultsHeadingEl) {
+              resultsHeadingEl.textContent = `${translate('nearbyHeadingPrefix')} (${radiusKm} km)`;
+            }
+            setMapStatus('Viser nærmeste treff fra lokalt datasett (fallback).');
+            return;
+          }
+
           try {
             const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
             await chooseBestMunicipality(geo);
