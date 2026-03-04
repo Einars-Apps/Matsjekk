@@ -25,11 +25,14 @@ jobs:
       - name: Fetch latest farm shops (West Europe)
         run: python tools/fetch_farmshops.py
 
+      - name: Build shared area cache
+        run: python tools/build_farmshops_area_cache.py
+
       - name: Commit updated farmshops feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/farmshops.json
+          git add docs/data/farmshops.json docs/data/farmshops_area_cache.json
           git diff --cached --quiet || git commit -m "chore(farmshops): update west-europe farmshops data"
 
       - name: Push changes

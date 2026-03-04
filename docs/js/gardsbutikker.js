@@ -10,9 +10,15 @@
     '/data/farmshops.example.json',
     '../../docs/data/farmshops.example.json',
   ];
+  const areaCacheUrls = [
+    'data/farmshops_area_cache.json',
+    '/data/farmshops_area_cache.json',
+    '../../docs/data/farmshops_area_cache.json',
+  ];
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
+  const sharedLocalityCache = new Map();
   const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
   const LOCALITY_CACHE_MAX_AREAS = 60;
   const LOCALITY_CACHE_MAX_ITEMS_PER_AREA = 120;
@@ -759,6 +765,29 @@
     return Array.isArray(payload) ? payload : [];
   }
 
+  async function loadAreaCacheEntries(url) {
+    const response = await fetch(url, { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const payload = await response.json();
+    return Array.isArray(payload) ? payload : [];
+  }
+
+  async function loadFirstAvailableAreaCache(urls) {
+    let lastError = null;
+    for (const url of urls) {
+      try {
+        const payload = await loadAreaCacheEntries(url);
+        if (Array.isArray(payload) && payload.length > 0) {
+          return payload;
+        }
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    if (lastError) throw lastError;
+    return [];
+  }
+
   async function loadFirstAvailable(urls) {
     let lastError = null;
     for (const url of urls) {
@@ -1078,6 +1107,20 @@
     };
   }
 
+  function loadSharedLocalityCache(rows) {
+    sharedLocalityCache.clear();
+    (rows || []).forEach((entry) => {
+      const key = (entry?.key || '').toString();
+      if (!key) return;
+      const normalized = (Array.isArray(entry.shops) ? entry.shops : [])
+        .map((shop) => normalizeShop(shop))
+        .filter((shop) => shop && shop.name && shop.lat != null && shop.lon != null)
+        .slice(0, LOCALITY_CACHE_MAX_ITEMS_PER_AREA);
+      if (!normalized.length) return;
+      sharedLocalityCache.set(key, normalized);
+    });
+  }
+
   function rememberLocalityResult(context, items) {
     const key = buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, context.queryText);
     const normalized = (items || [])
@@ -1098,10 +1141,28 @@
   }
 
   function recallLocalityResult(context) {
-    const key = buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, context.queryText);
-    const row = readLocalityCacheMap().get(key);
-    if (!row || !Array.isArray(row.shops)) return [];
-    return row.shops.map((shop) => normalizeShop(shop));
+    const exactKey = buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, context.queryText);
+    const fallbackKeys = [
+      exactKey,
+      buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, ''),
+      buildLocalityCacheKey(context.countryCode, '', context.municipalityText, ''),
+      buildLocalityCacheKey(context.countryCode, context.regionText, '', context.queryText),
+      buildLocalityCacheKey(context.countryCode, '', '', context.queryText),
+    ];
+
+    const localMap = readLocalityCacheMap();
+    for (const key of fallbackKeys) {
+      const row = localMap.get(key);
+      if (row && Array.isArray(row.shops) && row.shops.length) {
+        return row.shops.map((shop) => normalizeShop(shop));
+      }
+      const shared = sharedLocalityCache.get(key);
+      if (Array.isArray(shared) && shared.length) {
+        return shared.map((shop) => normalizeShop(shop));
+      }
+    }
+
+    return [];
   }
 
   function findNorwayMunicipalityByQuery(queryText, preferredRegionLabel = '') {
@@ -3105,6 +3166,13 @@ out center tags 150;
   if (!shops.length) {
     shops = buildSeedFallbackDataset();
     setMapStatus('Datakilde utilgjengelig. Viser kvalitetssikrede fallback-treff.');
+  }
+
+  try {
+    const areaCacheRows = await loadFirstAvailableAreaCache(areaCacheUrls);
+    loadSharedLocalityCache(areaCacheRows);
+  } catch (_) {
+    sharedLocalityCache.clear();
   }
 
   const norwayLoadedCount = shops.filter((shop) => shopMatchesCountryRelaxed(shop, 'NO')).length;
