@@ -13,6 +13,9 @@
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
+  const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
+  const LOCALITY_CACHE_MAX_AREAS = 60;
+  const LOCALITY_CACHE_MAX_ITEMS_PER_AREA = 120;
 
   const WEST_EUROPE = [
     { code: 'NO', name: 'Norge' },
@@ -1018,6 +1021,87 @@
       shopKey.includes(term) ||
       term.includes(shopKey)
     );
+  }
+
+  function localityToken(value) {
+    return municipalityKey((value || '').toString());
+  }
+
+  function buildLocalityCacheKey(countryCode, regionText, municipalityText, queryText) {
+    const cc = ((countryCode || '').toString().trim().toUpperCase()) || 'ANY';
+    const region = localityToken(regionText);
+    const municipality = localityToken(municipalityText);
+    const query = localityToken(queryText);
+    return [cc, region || '-', municipality || '-', query || '-'].join('|');
+  }
+
+  function readLocalityCacheMap() {
+    try {
+      const raw = localStorage.getItem(LOCALITY_CACHE_STORAGE_KEY);
+      if (!raw) return new Map();
+      const parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== 'object') return new Map();
+      const entries = Object.entries(parsed).filter(([, value]) => value && Array.isArray(value.shops));
+      return new Map(entries);
+    } catch (_) {
+      return new Map();
+    }
+  }
+
+  function writeLocalityCacheMap(cacheMap) {
+    try {
+      const rows = [...cacheMap.entries()]
+        .sort((left, right) => (right[1]?.updatedAt || 0) - (left[1]?.updatedAt || 0))
+        .slice(0, LOCALITY_CACHE_MAX_AREAS);
+      localStorage.setItem(LOCALITY_CACHE_STORAGE_KEY, JSON.stringify(Object.fromEntries(rows)));
+    } catch (_) {
+      // localStorage may be unavailable (private mode/quota); ignore silently.
+    }
+  }
+
+  function cacheShopSnapshot(shop) {
+    return {
+      name: shop.name || '',
+      countryCode: shop.countryCode || '',
+      country: shop.country || '',
+      region: shop.region || '',
+      municipality: shop.municipality || '',
+      address: shop.address || '',
+      products: Array.isArray(shop.products) ? shop.products.slice(0, 12) : [],
+      website: shop.website || '',
+      lat: shop.lat,
+      lon: shop.lon,
+      category: shop.category || 'Gårdsutsalg',
+      phone: shop.phone || '',
+      openingHours: shop.openingHours || '',
+      mapsUrl: shop.mapsUrl || '',
+    };
+  }
+
+  function rememberLocalityResult(context, items) {
+    const key = buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, context.queryText);
+    const normalized = (items || [])
+      .filter((shop) => shop && shop.name && shop.lat != null && shop.lon != null)
+      .slice(0, LOCALITY_CACHE_MAX_ITEMS_PER_AREA)
+      .map(cacheShopSnapshot);
+    if (!normalized.length) return;
+    const map = readLocalityCacheMap();
+    map.set(key, {
+      updatedAt: Date.now(),
+      countryCode: (context.countryCode || '').toString().toUpperCase(),
+      regionText: context.regionText || '',
+      municipalityText: context.municipalityText || '',
+      queryText: context.queryText || '',
+      shops: normalized,
+    });
+    writeLocalityCacheMap(map);
+  }
+
+  function recallLocalityResult(context) {
+    const key = buildLocalityCacheKey(context.countryCode, context.regionText, context.municipalityText, context.queryText);
+    const row = readLocalityCacheMap().get(key);
+    if (!row || !Array.isArray(row.shops)) return [];
+    return row.shops.map((shop) => normalizeShop(shop));
   }
 
   function findNorwayMunicipalityByQuery(queryText, preferredRegionLabel = '') {
@@ -2517,6 +2601,24 @@ out center tags 150;
       isCountyOnlySelection
     );
 
+    const localityContext = {
+      countryCode: localityCountryCode || countryCode,
+      regionText: localityRegionText || regionText,
+      municipalityText: localityMunicipalityText || municipalityText,
+      queryText: query,
+    };
+
+    if (!filtered.length && shouldUseLocalityFallback) {
+      const cachedLocality = recallLocalityResult(localityContext);
+      if (cachedLocality.length) {
+        filtered = addDistanceFromUser(cachedLocality);
+        activeFiltered = filtered;
+        renderList(filtered);
+        setMapStatus('Viser lagrede områdetreff (cache).');
+        return filtered;
+      }
+    }
+
     if (!filtered.length && shouldUseLocalityFallback) {
       try {
         if (isCountyOnlySelection) {
@@ -2621,6 +2723,7 @@ out center tags 150;
               activeFiltered = scopedNearby;
               renderList(scopedNearby);
               setMapStatus('Viser nærmeste treff basert på kommune-sentrum (strammere lokalitetsfallback).');
+              rememberLocalityResult(localityContext, scopedNearby);
             } else if (nearbyCombined.length && (regionValue || municipalityValue)) {
               setMapStatus('Fant treff nær valgt sted, men ingen innen valgt fylke/kommune.');
             }
