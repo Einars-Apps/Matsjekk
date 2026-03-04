@@ -39,6 +39,7 @@
     { code: 'IE', name: 'Irland' },
     { code: 'AT', name: 'Østerrike' },
     { code: 'CH', name: 'Sveits' },
+    { code: 'LI', name: 'Liechtenstein' },
     { code: 'LU', name: 'Luxembourg' },
   ];
 
@@ -58,6 +59,7 @@
     IE: 'ie',
     AT: 'at',
     CH: 'ch',
+    LI: 'li',
     LU: 'lu',
   };
 
@@ -77,6 +79,7 @@
     IE: 'Ireland',
     AT: 'Austria',
     CH: 'Switzerland',
+    LI: 'Liechtenstein',
     LU: 'Luxembourg',
   };
 
@@ -401,7 +404,7 @@
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
   let activeNearRadiusKm = null;
-  const ENABLE_AUTO_COUNTRY_FROM_POSITION = false;
+  const ENABLE_AUTO_COUNTRY_FROM_POSITION = true;
   const ENABLE_LIVE_ENRICHMENT = false;
   const OVERPASS_FETCH_TIMEOUT_MS = 5500;
 

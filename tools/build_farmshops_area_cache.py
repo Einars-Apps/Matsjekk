@@ -36,6 +36,7 @@ COUNTRY_CODE_BY_NAME = {
     "ireland": "IE",
     "austria": "AT",
     "switzerland": "CH",
+    "liechtenstein": "LI",
     "luxembourg": "LU",
 }
 
