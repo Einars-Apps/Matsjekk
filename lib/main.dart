@@ -36,6 +36,39 @@ const List<String> greenKeywords = [
   'biodynamisk',
   'debio'
 ];
+
+const Map<String, Map<String, dynamic>> appReviewFallbackProducts = {
+  '0123456789012': {
+    'navn': 'App Review Demo Product A',
+    'merke': 'Matsjekk Demo',
+    'etiketter': 'organic, debio',
+    'kategorier': 'demo',
+    'ingredienser': 'water, oats, salt',
+    'bildeUrl': '',
+    'bildeThumbUrl': '',
+    'nutriscore': 'A',
+    'eStoffer': <String>[],
+    'bovaerRisk': RiskLevel.green,
+    'bovaerRiskText': 'Green: Demo sample with organic labels.',
+    'bovaerRiskUrl': '',
+    'gmoRisk': RiskLevel.unknown,
+  },
+  '0000000000000': {
+    'navn': 'App Review Demo Product B',
+    'merke': 'Matsjekk Demo',
+    'etiketter': '',
+    'kategorier': 'demo',
+    'ingredienser': 'milk, sugar',
+    'bildeUrl': '',
+    'bildeThumbUrl': '',
+    'nutriscore': 'C',
+    'eStoffer': <String>[],
+    'bovaerRisk': RiskLevel.yellow,
+    'bovaerRiskText': 'Yellow: Demo sample for reviewer verification.',
+    'bovaerRiskUrl': '',
+    'gmoRisk': RiskLevel.unknown,
+  },
+};
 // --- SLUTT PÅ RISIKO-DEFINISJON ---
 
 void main() async {
@@ -614,7 +647,59 @@ class _ScannerScreenState extends State<ScannerScreen>
     });
   }
 
+  Future<void> _openAppReviewSample(String ean) async {
+    setState(() => _isLoading = true);
+    final info = await _hentInfo(ean);
+    if (!mounted) return;
+    setState(() => _isLoading = false);
+    if (info.isNotEmpty) {
+      _visProduktDialog(info);
+      return;
+    }
+    _safeSnack('Demo barcode not found: $ean');
+  }
+
+  void _showAppReviewTestDialog() {
+    _safeShowDialogBuilder(
+      (_) => AlertDialog(
+        title: const Text('App Review Test (iOS)'),
+        content: const Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('Use one of these demo barcodes:'),
+            SizedBox(height: 8),
+            Text('• 0123456789012'),
+            Text('• 0000000000000'),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              _safePop();
+              _openAppReviewSample('0123456789012');
+            },
+            child: const Text('Open demo A'),
+          ),
+          TextButton(
+            onPressed: () {
+              _safePop();
+              _openAppReviewSample('0000000000000');
+            },
+            child: const Text('Open demo B'),
+          ),
+          TextButton(onPressed: () => _safePop(), child: const Text('Lukk')),
+        ],
+      ),
+    );
+  }
+
   Future<Map<String, dynamic>> _hentInfo(String ean) async {
+    final fallback = appReviewFallbackProducts[ean];
+    if (fallback != null) {
+      return Map<String, dynamic>.from(fallback);
+    }
+
     final sources = _getSourcesForCountry(
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase());
@@ -880,6 +965,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                       ]));
             },
           ),
+          if (Platform.isIOS)
+            ListTile(
+              leading: const Icon(Icons.bug_report),
+              title: const Text('App Review Test (iOS)'),
+              onTap: () {
+                _safePop();
+                _showAppReviewTestDialog();
+              },
+            ),
           ListTile(
             leading: const Icon(Icons.notification_important),
             title: const Text('Varsel'),
