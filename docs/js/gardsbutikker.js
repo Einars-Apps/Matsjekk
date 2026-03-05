@@ -271,6 +271,7 @@
     ie: 'IE', irland: 'IE', ireland: 'IE',
     at: 'AT', østerrike: 'AT', austria: 'AT',
     ch: 'CH', sveits: 'CH', switzerland: 'CH',
+    li: 'LI', liechtenstein: 'LI',
     lu: 'LU', luxembourg: 'LU',
   };
 
@@ -2640,9 +2641,8 @@ out center tags 150;
       if (countryOnly.length) {
         filtered = countryOnly;
         setMapStatus('Viser landtreff via hard fallback.');
-      } else if (shops.length) {
-        filtered = shops.slice(0, 250);
-        setMapStatus('Landtreff manglet; viser midlertidig globale treff (hard fallback).');
+      } else {
+        setMapStatus('Fant ingen treff i valgt land enda. Prøv nær-søk eller velg et annet land mens datagrunnlaget oppdateres.');
       }
     }
 

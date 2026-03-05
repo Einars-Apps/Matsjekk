@@ -198,10 +198,19 @@ def main():
 
     all_items = []
     failed_countries = []
+    preserved_countries = []
     for name, cc in country_list:
         try:
             items = fetch_for_country(cc)
-            all_items.extend(tag_country(items, name))
+            tagged_current = tag_country(items, name)
+            previous_items = previous_by_code.get(cc, [])
+            if previous_items:
+                merged_country_items = dedupe(tagged_current + previous_items)
+                if len(merged_country_items) > len(tagged_current):
+                    preserved_countries.append((name, len(tagged_current), len(merged_country_items)))
+                all_items.extend(merged_country_items)
+            else:
+                all_items.extend(tagged_current)
         except Exception as e:
             print('Error fetching', name, e, file=sys.stderr)
             fallback_items = previous_by_code.get(cc, [])
@@ -214,6 +223,9 @@ def main():
 
     all_items = dedupe(all_items)
     print('Fetched', len(all_items), 'items')
+    if preserved_countries:
+        summary = ', '.join([f'{name}({current}->{merged})' for name, current, merged in preserved_countries])
+        print('Countries merged with previous dataset to preserve known hits:', summary)
     if failed_countries:
         print('Countries with fetch failures (fallback used when available):', ', '.join(failed_countries), file=sys.stderr)
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
