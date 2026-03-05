@@ -28,6 +28,9 @@
   const countrySliceInFlight = new Map();
   let allShopsCache = null;
   let allShopsLoaded = false;
+  const COUNTRY_INITIAL_PREVIEW_LIMIT = 320;
+  let loadedScopeCountryCode = '';
+  let loadedScopeIsPreview = false;
   const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
   const LOCALITY_CACHE_MAX_AREAS = 60;
   const LOCALITY_CACHE_MAX_ITEMS_PER_AREA = 120;
@@ -839,6 +842,39 @@
     return countrySliceBasePaths.map((base) => `${base}/${cc.toLowerCase()}.json`);
   }
 
+  function buildCountryPreview(items, limit = COUNTRY_INITIAL_PREVIEW_LIMIT) {
+    const rows = Array.isArray(items) ? items : [];
+    if (rows.length <= limit) return rows;
+
+    const uniqueByMunicipality = [];
+    const seenMunicipality = new Set();
+    for (const shop of rows) {
+      const municipality = (shop?.municipality || '').toString().trim().toLowerCase();
+      if (!municipality || seenMunicipality.has(municipality)) continue;
+      seenMunicipality.add(municipality);
+      uniqueByMunicipality.push(shop);
+      if (uniqueByMunicipality.length >= limit) {
+        return uniqueByMunicipality;
+      }
+    }
+
+    const selected = [...uniqueByMunicipality];
+    const selectedKeys = new Set(selected.map((shop) => `${normalizeKey(shop?.name)}|${Number(shop?.lat) || ''}|${Number(shop?.lon) || ''}`));
+    const remaining = rows.filter((shop) => {
+      const key = `${normalizeKey(shop?.name)}|${Number(shop?.lat) || ''}|${Number(shop?.lon) || ''}`;
+      return !selectedKeys.has(key);
+    });
+
+    const slotsLeft = Math.max(0, limit - selected.length);
+    if (!slotsLeft || !remaining.length) return selected.slice(0, limit);
+
+    const stride = Math.max(1, Math.floor(remaining.length / slotsLeft));
+    for (let index = 0; index < remaining.length && selected.length < limit; index += stride) {
+      selected.push(remaining[index]);
+    }
+    return selected.slice(0, limit);
+  }
+
   async function loadCountrySlice(countryCode) {
     const cc = normalizeCountryCode(countryCode);
     if (!cc) return [];
@@ -871,23 +907,32 @@
     return normalized;
   }
 
-  async function ensureShopScope(countryCode) {
+  async function ensureShopScope(countryCode, options = {}) {
     const cc = normalizeCountryCode(countryCode);
+    const previewOnly = options?.previewOnly === true;
     if (!cc) {
       shops = await loadAllShopsDataset();
+      loadedScopeCountryCode = '';
+      loadedScopeIsPreview = false;
       return shops;
     }
 
     try {
       const scoped = await loadCountrySlice(cc);
       if (scoped.length) {
-        shops = scoped;
+        shops = previewOnly ? buildCountryPreview(scoped, COUNTRY_INITIAL_PREVIEW_LIMIT) : scoped;
+        loadedScopeCountryCode = cc;
+        loadedScopeIsPreview = previewOnly;
         return shops;
       }
       shops = await loadAllShopsDataset();
+      loadedScopeCountryCode = '';
+      loadedScopeIsPreview = false;
       return shops;
     } catch (_) {
       shops = await loadAllShopsDataset();
+      loadedScopeCountryCode = '';
+      loadedScopeIsPreview = false;
       return shops;
     }
   }
@@ -2694,6 +2739,14 @@ out center tags 150;
     const countryText = selectedText(countrySelect);
     const query = searchInput.value.trim().toLowerCase();
 
+    const needsFullCountryScope = Boolean(countryCode && (query || regionValue || municipalityValue));
+    const scopeMismatch = countryCode && loadedScopeCountryCode !== countryCode;
+    const shouldPromoteScope = Boolean(needsFullCountryScope && (loadedScopeIsPreview || scopeMismatch));
+    if (shouldPromoteScope) {
+      await ensureShopScope(countryCode, { previewOnly: false });
+      if (runId !== filterRunId) return activeFiltered;
+    }
+
     if (query.length >= 3) {
       try {
         const searchHint = [
@@ -2807,6 +2860,10 @@ out center tags 150;
       ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode)).length
       : shops.length;
     setDebugStats(`Debug: value=${countrySelect.value || '-'}, text=${countryText || '-'}, land=${countryCode || '-'}, lastet=${shops.length}, landtreff=${countryOnlyCount}, vises=${filtered.length}`);
+
+    if (countryCode && loadedScopeIsPreview && !query && !regionValue && !municipalityValue) {
+      setMapStatus(`Viser et utvalg (${Math.min(COUNTRY_INITIAL_PREVIEW_LIMIT, filtered.length)} av ${countryOnlyCount}) for valgt land. Søk eller velg område for full liste.`);
+    }
 
     activeFiltered = filtered;
     renderList(filtered);
@@ -3164,7 +3221,7 @@ out center tags 150;
   countrySelect.addEventListener('change', async () => {
     activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
-    await ensureShopScope(selectedCountryCode);
+    await ensureShopScope(selectedCountryCode, { previewOnly: Boolean(selectedCountryCode) });
     await populateRegions(selectedCountryCode);
     await populateMunicipalities(selectedCountryCode, '');
     filterShops();
@@ -3318,14 +3375,19 @@ out center tags 150;
   }
 
   try {
-    await ensureShopScope(resolveCountryCode(countrySelect.value));
+    const initialCountryCode = resolveCountryCode(countrySelect.value);
+    await ensureShopScope(initialCountryCode, { previewOnly: Boolean(initialCountryCode) });
     if (shops.length === 0) {
       shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
+      loadedScopeCountryCode = '';
+      loadedScopeIsPreview = false;
     }
   } catch (error) {
     console.error('Failed to load scoped farmshops dataset, falling back to example', error);
     try {
       shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
+      loadedScopeCountryCode = '';
+      loadedScopeIsPreview = false;
     } catch (_) {
       shops = [];
     }
@@ -3333,6 +3395,8 @@ out center tags 150;
 
   if (!shops.length) {
     shops = buildSeedFallbackDataset();
+    loadedScopeCountryCode = '';
+    loadedScopeIsPreview = false;
     setMapStatus('Datakilde utilgjengelig. Viser kvalitetssikrede fallback-treff.');
   }
 
