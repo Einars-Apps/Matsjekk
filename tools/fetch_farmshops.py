@@ -118,9 +118,34 @@ def extract_elem(e):
     tags = e.get('tags', {})
     lat = e.get('lat') or (e.get('center') and e['center'].get('lat'))
     lon = e.get('lon') or (e.get('center') and e['center'].get('lon'))
+    shop_tag = (tags.get('shop') or '').strip().lower()
+    amenity_tag = (tags.get('amenity') or '').strip().lower()
+    produce_tag = (tags.get('produce') or '').strip().lower()
+
+    name = tags.get('name')
+    if not name:
+        named_hints = [
+            tags.get('official_name'),
+            tags.get('brand'),
+            tags.get('operator'),
+            tags.get('contact:company'),
+            tags.get('addr:housename'),
+        ]
+        named_hints = [value.strip() for value in named_hints if isinstance(value, str) and value.strip()]
+
+        is_farm_like = shop_tag in {'farm', 'farm_shop', 'greengrocer', 'organic'} or bool(produce_tag)
+        is_generic_market = amenity_tag == 'marketplace' and not is_farm_like
+
+        if named_hints:
+            name = named_hints[0]
+        elif is_farm_like and not is_generic_market:
+            place_hint = (tags.get('addr:city') or tags.get('addr:municipality') or tags.get('addr:state') or '').strip()
+            base = 'Farm shop'
+            name = f'{base} {place_hint}'.strip() if place_hint else f'{base} {e.get("id")}'
+
     return {
         'id': e.get('id'),
-        'name': tags.get('name'),
+        'name': name,
         'country': tags.get('addr:country') or None,
         'region': tags.get('addr:state') or tags.get('region') or None,
         'municipality': tags.get('addr:city') or tags.get('addr:municipality') or None,
