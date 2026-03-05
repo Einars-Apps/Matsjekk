@@ -28,7 +28,8 @@
   const countrySliceInFlight = new Map();
   let allShopsCache = null;
   let allShopsLoaded = false;
-  const COUNTRY_INITIAL_PREVIEW_LIMIT = 320;
+  const COUNTRY_INITIAL_PREVIEW_LIMIT_MOBILE = 200;
+  const COUNTRY_INITIAL_PREVIEW_LIMIT_DESKTOP = 500;
   let loadedScopeCountryCode = '';
   let loadedScopeIsPreview = false;
   const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
@@ -842,7 +843,13 @@
     return countrySliceBasePaths.map((base) => `${base}/${cc.toLowerCase()}.json`);
   }
 
-  function buildCountryPreview(items, limit = COUNTRY_INITIAL_PREVIEW_LIMIT) {
+  function initialPreviewLimit() {
+    return window.matchMedia('(max-width: 768px)').matches
+      ? COUNTRY_INITIAL_PREVIEW_LIMIT_MOBILE
+      : COUNTRY_INITIAL_PREVIEW_LIMIT_DESKTOP;
+  }
+
+  function buildCountryPreview(items, limit = initialPreviewLimit()) {
     const rows = Array.isArray(items) ? items : [];
     if (rows.length <= limit) return rows;
 
@@ -920,7 +927,7 @@
     try {
       const scoped = await loadCountrySlice(cc);
       if (scoped.length) {
-        shops = previewOnly ? buildCountryPreview(scoped, COUNTRY_INITIAL_PREVIEW_LIMIT) : scoped;
+        shops = previewOnly ? buildCountryPreview(scoped, initialPreviewLimit()) : scoped;
         loadedScopeCountryCode = cc;
         loadedScopeIsPreview = previewOnly;
         return shops;
@@ -2862,7 +2869,8 @@ out center tags 150;
     setDebugStats(`Debug: value=${countrySelect.value || '-'}, text=${countryText || '-'}, land=${countryCode || '-'}, lastet=${shops.length}, landtreff=${countryOnlyCount}, vises=${filtered.length}`);
 
     if (countryCode && loadedScopeIsPreview && !query && !regionValue && !municipalityValue) {
-      setMapStatus(`Viser et utvalg (${Math.min(COUNTRY_INITIAL_PREVIEW_LIMIT, filtered.length)} av ${countryOnlyCount}) for valgt land. Søk eller velg område for full liste.`);
+      const previewLimit = initialPreviewLimit();
+      setMapStatus(`Viser et utvalg (${Math.min(previewLimit, filtered.length)} av ${countryOnlyCount}) for valgt land. Søk eller velg område for full liste.`);
     }
 
     activeFiltered = filtered;
