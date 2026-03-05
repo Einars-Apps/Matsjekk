@@ -101,29 +101,39 @@ area["ISO3166-1"="{cc}"]->.searchArea;
 );
 out center;"""
 
+
+def build_zero_hit_queries(cc):
+    keyword = COUNTRY_KEYWORD_REGEX.get(cc)
+    if not keyword:
+        return []
+
+    queries = []
+    for field in ('name', 'description', 'operator', 'brand'):
+        queries.append(
+            f"""
+[out:json][timeout:60];
+area["ISO3166-1"="{cc}"][admin_level=2]->.searchArea;
+(
+    node["{field}"~"{keyword}",i](area.searchArea);
+    way["{field}"~"{keyword}",i](area.searchArea);
+    relation["{field}"~"{keyword}",i](area.searchArea);
+);
+out center;"""
+        )
+    return queries
+
 def build_query(cc):
-    # Query nodes/ways/relations with farmshop-like tags.
-    extra = country_specific_overpass_clauses(cc)
+    # Primary query: keep it light to reduce timeouts on large countries.
     return f"""
 [out:json][timeout:60];
-area["ISO3166-1"="{cc}"]->.searchArea;
+area["ISO3166-1"="{cc}"][admin_level=2]->.searchArea;
 (
-    node[shop~"farm|farm_shop|greengrocer|organic"](area.searchArea);
-    way[shop~"farm|farm_shop|greengrocer|organic"](area.searchArea);
-    relation[shop~"farm|farm_shop|greengrocer|organic"](area.searchArea);
-  node["shop"="farm"](area.searchArea);
-  way["shop"="farm"](area.searchArea);
-    relation["shop"="farm"](area.searchArea);
+    node["shop"~"farm|farm_shop"](area.searchArea);
+    way["shop"~"farm|farm_shop"](area.searchArea);
+    relation["shop"~"farm|farm_shop"](area.searchArea);
     node["produce"](area.searchArea);
     way["produce"](area.searchArea);
     relation["produce"](area.searchArea);
-    node["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
-    way["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
-    relation["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
-    node["amenity"="marketplace"](area.searchArea);
-    way["amenity"="marketplace"](area.searchArea);
-    relation["amenity"="marketplace"](area.searchArea);
-{extra}
 );
 out center;"""
 
@@ -254,8 +264,36 @@ def _post_overpass(endpoint, query):
         timeout=REQUEST_TIMEOUT_SECONDS,
     )
     response.raise_for_status()
+
+    content_type = (response.headers.get('content-type') or '').lower()
+    if 'json' not in content_type:
+        snippet = (response.text or '')[:200].replace('\n', ' ')
+        raise RuntimeError(f'Non-JSON Overpass response from {endpoint}: {snippet}')
+
     payload = response.json()
-    return payload.get('elements', []) if isinstance(payload, dict) else []
+    if not isinstance(payload, dict):
+        raise RuntimeError(f'Invalid Overpass payload type from {endpoint}: {type(payload)}')
+
+    elements = payload.get('elements', [])
+    if not isinstance(elements, list):
+        raise RuntimeError(f'Invalid Overpass elements payload from {endpoint}')
+
+    remark = (payload.get('remark') or '').strip()
+    if remark:
+        lowered = remark.lower()
+        severe = (
+            'timeout' in lowered
+            or 'timed out' in lowered
+            or 'runtime error' in lowered
+            or 'too many requests' in lowered
+            or 'rate limit' in lowered
+            or 'quota' in lowered
+            or 'busy' in lowered
+        )
+        if severe and not elements:
+            raise RuntimeError(f'Overpass remark from {endpoint}: {remark}')
+
+    return elements
 
 
 def _fetch_overpass_filtered(query, cc):
@@ -283,18 +321,40 @@ def _fetch_overpass_filtered(query, cc):
 
 
 def fetch_for_country(cc):
-    q = build_query(cc)
     print('Querying', cc)
-    primary = _fetch_overpass_filtered(q, cc)
+
+    primary = _fetch_overpass_filtered(build_query(cc), cc)
     if primary:
         return primary
 
+    # Keep legacy combined fallback query as a first backup.
     secondary_query = build_zero_hit_query(cc)
     if secondary_query:
-        print(f'  ZERO-HIT fallback query for {cc}')
-        secondary = _fetch_overpass_filtered(secondary_query, cc)
-        if secondary:
-            return secondary
+        print(f'  ZERO-HIT fallback query (combined) for {cc}')
+        try:
+            secondary = _fetch_overpass_filtered(secondary_query, cc)
+            if secondary:
+                return secondary
+        except Exception as error:
+            print(f'  Combined fallback failed for {cc}: {error}', file=sys.stderr)
+
+    # Tiered fallback queries: smaller query blocks are more resilient on large countries.
+    collected = []
+    for idx, query in enumerate(build_zero_hit_queries(cc), start=1):
+        print(f'  ZERO-HIT fallback query tier {idx} for {cc}')
+        try:
+            tier_items = _fetch_overpass_filtered(query, cc)
+        except Exception as error:
+            print(f'  Tier {idx} failed for {cc}: {error}', file=sys.stderr)
+            continue
+
+        if tier_items:
+            collected = dedupe(collected + tier_items)
+            if len(collected) >= 30:
+                break
+
+    if collected:
+        return collected
 
     return primary
 
