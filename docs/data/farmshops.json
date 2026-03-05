@@ -1212,6 +1212,18 @@
     "address": null
   },
   {
+    "id": 13589678090,
+    "name": "Lokalmat Telemark Bø",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.4114383,
+    "lon": 9.069686,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -1977,18 +1989,6 @@
     "website": null,
     "lat": 59.0457646,
     "lon": 6.0456547,
-    "address": null
-  },
-  {
-    "id": 13589678090,
-    "name": "Lokalmat Telemark Bø",
-    "country": "Norway",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.4114383,
-    "lon": 9.069686,
     "address": null
   },
   {
@@ -148812,18 +148812,6 @@
     "address": null
   },
   {
-    "id": 721331835,
-    "name": "boerderijwinkel de kolke",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1742476,
-    "lon": 6.1334132,
-    "address": null
-  },
-  {
     "id": 893362391,
     "name": "Farm shop 893362391",
     "country": "Netherlands",
@@ -153291,7 +153279,7 @@
   },
   {
     "id": 9083859685,
-    "name": "Farm shop 9083859685",
+    "name": "Boerderijwinkel VanHier",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -158306,7 +158294,7 @@
     "products": [],
     "website": null,
     "lat": 53.1925006,
-    "lon": 6.8447366,
+    "lon": 6.8447527,
     "address": null
   },
   {
@@ -158838,8 +158826,20 @@
     "address": null
   },
   {
+    "id": 721331835,
+    "name": "boerderijwinkel de kolke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1742476,
+    "lon": 6.1334132,
+    "address": null
+  },
+  {
     "id": 9083859685,
-    "name": "Boerderijwinkel VanHier",
+    "name": "Farm shop 9083859685",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -158858,7 +158858,7 @@
     "products": [],
     "website": null,
     "lat": 53.1925006,
-    "lon": 6.8447527,
+    "lon": 6.8447366,
     "address": null
   },
   {
@@ -352367,18 +352367,6 @@
     "address": null
   },
   {
-    "id": 766269277,
-    "name": "Farm shop 766269277",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6670151,
-    "lon": -8.4847272,
-    "address": null
-  },
-  {
     "id": 769151459,
     "name": "Farm shop 769151459",
     "country": "Portugal",
@@ -352424,138 +352412,6 @@
     "website": null,
     "lat": 39.3869285,
     "lon": -9.0974446,
-    "address": null
-  },
-  {
-    "id": 769935565,
-    "name": "Farm shop 769935565",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6672459,
-    "lon": -8.4860881,
-    "address": null
-  },
-  {
-    "id": 769935567,
-    "name": "Farm shop 769935567",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.668224,
-    "lon": -8.4863865,
-    "address": null
-  },
-  {
-    "id": 769935568,
-    "name": "Farm shop 769935568",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.666617,
-    "lon": -8.4818333,
-    "address": null
-  },
-  {
-    "id": 769975504,
-    "name": "Farm shop 769975504",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6677712,
-    "lon": -8.4846126,
-    "address": null
-  },
-  {
-    "id": 769975505,
-    "name": "Farm shop 769975505",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6627587,
-    "lon": -8.4779237,
-    "address": null
-  },
-  {
-    "id": 769975507,
-    "name": "Farm shop 769975507",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6634171,
-    "lon": -8.4876228,
-    "address": null
-  },
-  {
-    "id": 769975509,
-    "name": "Farm shop 769975509",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6629216,
-    "lon": -8.4868349,
-    "address": null
-  },
-  {
-    "id": 769975511,
-    "name": "Farm shop 769975511",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.670061,
-    "lon": -8.4847108,
-    "address": null
-  },
-  {
-    "id": 769982512,
-    "name": "Farm shop 769982512",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6690212,
-    "lon": -8.4847214,
-    "address": null
-  },
-  {
-    "id": 769994187,
-    "name": "Farm shop 769994187",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6669821,
-    "lon": -8.4815256,
-    "address": null
-  },
-  {
-    "id": 769994188,
-    "name": "Farm shop 769994188",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.6680178,
-    "lon": -8.4831052,
     "address": null
   },
   {
@@ -356264,6 +356120,150 @@
     "website": null,
     "lat": 40.2245591,
     "lon": -8.1905392,
+    "address": null
+  },
+  {
+    "id": 766269277,
+    "name": "Farm shop 766269277",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6670151,
+    "lon": -8.4847272,
+    "address": null
+  },
+  {
+    "id": 769935565,
+    "name": "Farm shop 769935565",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6672459,
+    "lon": -8.4860881,
+    "address": null
+  },
+  {
+    "id": 769935567,
+    "name": "Farm shop 769935567",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.668224,
+    "lon": -8.4863865,
+    "address": null
+  },
+  {
+    "id": 769935568,
+    "name": "Farm shop 769935568",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.666617,
+    "lon": -8.4818333,
+    "address": null
+  },
+  {
+    "id": 769975504,
+    "name": "Farm shop 769975504",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6677712,
+    "lon": -8.4846126,
+    "address": null
+  },
+  {
+    "id": 769975505,
+    "name": "Farm shop 769975505",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6627587,
+    "lon": -8.4779237,
+    "address": null
+  },
+  {
+    "id": 769975507,
+    "name": "Farm shop 769975507",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6634171,
+    "lon": -8.4876228,
+    "address": null
+  },
+  {
+    "id": 769975509,
+    "name": "Farm shop 769975509",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6629216,
+    "lon": -8.4868349,
+    "address": null
+  },
+  {
+    "id": 769975511,
+    "name": "Farm shop 769975511",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.670061,
+    "lon": -8.4847108,
+    "address": null
+  },
+  {
+    "id": 769982512,
+    "name": "Farm shop 769982512",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6690212,
+    "lon": -8.4847214,
+    "address": null
+  },
+  {
+    "id": 769994187,
+    "name": "Farm shop 769994187",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6669821,
+    "lon": -8.4815256,
+    "address": null
+  },
+  {
+    "id": 769994188,
+    "name": "Farm shop 769994188",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6680178,
+    "lon": -8.4831052,
     "address": null
   },
   {
@@ -472020,7 +472020,7 @@
   },
   {
     "id": 5749811696,
-    "name": "Burren",
+    "name": "Eggimann",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -483803,6 +483803,18 @@
     "address": null
   },
   {
+    "id": 12625693407,
+    "name": "Ussichtsstübli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4548315,
+    "lon": 9.3118516,
+    "address": null
+  },
+  {
     "id": 12630675762,
     "name": "Farm shop 12630675762",
     "country": "Switzerland",
@@ -485990,30 +486002,6 @@
     "lat": 47.1813679,
     "lon": 8.5736451,
     "address": "Hauptstrasse"
-  },
-  {
-    "id": 13567248385,
-    "name": "Hofladen Fam. Imoberdorf",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.4860336,
-    "lon": 8.2645174,
-    "address": null
-  },
-  {
-    "id": 13569111891,
-    "name": "Farm shop 13569111891",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.852653,
-    "lon": 6.6630406,
-    "address": null
   },
   {
     "id": 8803584,
@@ -492061,6 +492049,42 @@
     "website": null,
     "lat": 46.3190486,
     "lon": 6.952833,
+    "address": null
+  },
+  {
+    "id": 5749811696,
+    "name": "Burren",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9067024,
+    "lon": 7.411732,
+    "address": null
+  },
+  {
+    "id": 13567248385,
+    "name": "Hofladen Fam. Imoberdorf",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.4860336,
+    "lon": 8.2645174,
+    "address": null
+  },
+  {
+    "id": 13569111891,
+    "name": "Farm shop 13569111891",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.852653,
+    "lon": 6.6630406,
     "address": null
   },
   {

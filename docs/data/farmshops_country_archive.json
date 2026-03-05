@@ -443870,6 +443870,30 @@
       "lat": 47.6532946,
       "lon": 8.7837701,
       "address": null
+    },
+    {
+      "id": 5749811696,
+      "name": "Eggimann",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 46.9067024,
+      "lon": 7.411732,
+      "address": null
+    },
+    {
+      "id": 12625693407,
+      "name": "Ussichtsstübli",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.4548315,
+      "lon": 9.3118516,
+      "address": null
     }
   ],
   "LI": [

@@ -21254,22 +21254,6 @@
         "mapsUrl": ""
       },
       {
-        "name": "boerderijwinkel de kolke",
-        "countryCode": "NL",
-        "country": "Netherlands",
-        "region": "",
-        "municipality": "",
-        "address": "",
-        "products": [],
-        "website": "",
-        "lat": 52.1742476,
-        "lon": 6.1334132,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
         "name": "Farm shop 893362391",
         "countryCode": "NL",
         "country": "Netherlands",
@@ -23110,6 +23094,22 @@
         "phone": "",
         "openingHours": "",
         "mapsUrl": ""
+      },
+      {
+        "name": "Boerderijwinkel Linders",
+        "countryCode": "NL",
+        "country": "Netherlands",
+        "region": "",
+        "municipality": "Nederweert",
+        "address": "Strateris",
+        "products": [],
+        "website": "http://www.linderswijen.nl",
+        "lat": 51.2922886,
+        "lon": 5.7415856,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
       }
     ]
   },
@@ -24734,6 +24734,22 @@
         "mapsUrl": ""
       },
       {
+        "name": "Lokalmat Telemark Bø",
+        "countryCode": "NO",
+        "country": "Norway",
+        "region": "",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 59.4114383,
+        "lon": 9.069686,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
         "name": "Frukthagen",
         "countryCode": "NO",
         "country": "Norway",
@@ -25016,22 +25032,6 @@
         "website": "",
         "lat": 58.9171203,
         "lon": 5.8509808,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
-        "name": "Farm shop 624238584",
-        "countryCode": "NO",
-        "country": "Norway",
-        "region": "",
-        "municipality": "",
-        "address": "",
-        "products": [],
-        "website": "",
-        "lat": 58.9159262,
-        "lon": 5.8505959,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
