@@ -1212,18 +1212,6 @@
     "address": null
   },
   {
-    "id": 13589678090,
-    "name": "Lokalmat Telemark Bø",
-    "country": "Norway",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.4114383,
-    "lon": 9.069686,
-    "address": null
-  },
-  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -1989,6 +1977,18 @@
     "website": null,
     "lat": 59.0457646,
     "lon": 6.0456547,
+    "address": null
+  },
+  {
+    "id": 13589678090,
+    "name": "Lokalmat Telemark Bø",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.4114383,
+    "lon": 9.069686,
     "address": null
   },
   {
@@ -4392,18 +4392,6 @@
     "address": null
   },
   {
-    "id": 9893214611,
-    "name": "Delicatessen Farmhouse",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://farmhousesweden.se/",
-    "lat": 61.7987658,
-    "lon": 16.5512299,
-    "address": null
-  },
-  {
     "id": 9921061100,
     "name": "Ekogården i Skrike",
     "country": "Sweden",
@@ -6787,8 +6775,8 @@
     "municipality": null,
     "products": [],
     "website": "https://ostgard.se",
-    "lat": 59.9850906,
-    "lon": 13.4946529,
+    "lat": 59.9850568,
+    "lon": 13.4944838,
     "address": null
   },
   {
@@ -7128,6 +7116,18 @@
     "address": null
   },
   {
+    "id": 1382932953,
+    "name": "Nyslungad honung",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1990799,
+    "lon": 15.090053,
+    "address": null
+  },
+  {
     "id": 1386609789,
     "name": "Farm shop 1386609789",
     "country": "Sweden",
@@ -7212,6 +7212,18 @@
     "address": null
   },
   {
+    "id": 9893214611,
+    "name": "Delicatessen Farmhouse",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://farmhousesweden.se/",
+    "lat": 61.7987658,
+    "lon": 16.5512299,
+    "address": null
+  },
+  {
     "id": 1092678702,
     "name": "Lakene Ostgård",
     "country": "Sweden",
@@ -7219,20 +7231,8 @@
     "municipality": null,
     "products": [],
     "website": "https://ostgard.se",
-    "lat": 59.9850568,
-    "lon": 13.4944838,
-    "address": null
-  },
-  {
-    "id": 1382932953,
-    "name": "Nyslungad honung",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1990799,
-    "lon": 15.090053,
+    "lat": 59.9850906,
+    "lon": 13.4946529,
     "address": null
   },
   {
@@ -13392,18 +13392,6 @@
     "address": null
   },
   {
-    "id": 8996329796,
-    "name": "Bjarne Willer Jensen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.530944,
-    "lon": 10.086285,
-    "address": null
-  },
-  {
     "id": 8996518628,
     "name": "Nørreløkkegård",
     "country": "Denmark",
@@ -16122,7 +16110,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://gaarden.nu/da/gourmet-bornholm/moenstergaard/",
+    "website": "https://undercanvasbornholm.dk/moenstergaard/",
     "lat": 55.1054463,
     "lon": 14.9949661,
     "address": null
@@ -16545,18 +16533,6 @@
     "website": null,
     "lat": 56.1132754,
     "lon": 8.9139863,
-    "address": null
-  },
-  {
-    "id": 10931990072,
-    "name": "Frugt og grønt fra haven",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0233093,
-    "lon": 8.9003635,
     "address": null
   },
   {
@@ -18775,8 +18751,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 57.1557342,
-    "lon": 10.2620069,
+    "lat": 57.155736,
+    "lon": 10.262023,
     "address": null
   },
   {
@@ -19020,18 +18996,6 @@
     "address": null
   },
   {
-    "id": 13517973347,
-    "name": "Mødrenes Naturgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3121925,
-    "lon": 10.3158482,
-    "address": null
-  },
-  {
     "id": 13525209384,
     "name": "Vinkelgaard Gårdbutik",
     "country": "Denmark",
@@ -19041,6 +19005,42 @@
     "website": "https://www.visitvinkelgaard.dk/",
     "lat": 55.4813162,
     "lon": 11.8849138,
+    "address": null
+  },
+  {
+    "id": 13585795321,
+    "name": "Hækbæk",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.haekbaek.dk/",
+    "lat": 55.7973534,
+    "lon": 11.5291682,
+    "address": null
+  },
+  {
+    "id": 13593493635,
+    "name": "Spirefryd",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.0522085,
+    "lon": 9.3945165,
+    "address": null
+  },
+  {
+    "id": 13618993890,
+    "name": "Kød & Ko",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koedogko.dk/",
+    "lat": 54.9511771,
+    "lon": 9.7173669,
     "address": null
   },
   {
@@ -19869,6 +19869,54 @@
     "website": null,
     "lat": 54.9988632,
     "lon": 12.0887406,
+    "address": null
+  },
+  {
+    "id": 8996329796,
+    "name": "Bjarne Willer Jensen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.530944,
+    "lon": 10.086285,
+    "address": null
+  },
+  {
+    "id": 10931990072,
+    "name": "Frugt og grønt fra haven",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0233093,
+    "lon": 8.9003635,
+    "address": null
+  },
+  {
+    "id": 13278424112,
+    "name": "Omfaun Landbrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1557342,
+    "lon": 10.2620069,
+    "address": null
+  },
+  {
+    "id": 13517973347,
+    "name": "Mødrenes Naturgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3121925,
+    "lon": 10.3158482,
     "address": null
   },
   {
@@ -21996,18 +22044,6 @@
     "address": null
   },
   {
-    "id": 13278424112,
-    "name": "Omfaun Landbrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.155736,
-    "lon": 10.262023,
-    "address": null
-  },
-  {
     "id": 13380841370,
     "name": "Svampe Fabrikken",
     "country": "Denmark",
@@ -22065,42 +22101,6 @@
     "website": null,
     "lat": 55.7076035,
     "lon": 12.5318447,
-    "address": null
-  },
-  {
-    "id": 13585795321,
-    "name": "Hækbæk",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.haekbaek.dk/",
-    "lat": 55.7973534,
-    "lon": 11.5291682,
-    "address": null
-  },
-  {
-    "id": 13593493635,
-    "name": "Spirefryd",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.0522085,
-    "lon": 9.3945165,
-    "address": null
-  },
-  {
-    "id": 13618993890,
-    "name": "Kød & Ko",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koedogko.dk/",
-    "lat": 54.9511771,
-    "lon": 9.7173669,
     "address": null
   },
   {
@@ -148812,6 +148812,18 @@
     "address": null
   },
   {
+    "id": 721331835,
+    "name": "boerderijwinkel de kolke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1742476,
+    "lon": 6.1334132,
+    "address": null
+  },
+  {
     "id": 893362391,
     "name": "Farm shop 893362391",
     "country": "Netherlands",
@@ -153279,7 +153291,7 @@
   },
   {
     "id": 9083859685,
-    "name": "Boerderijwinkel VanHier",
+    "name": "Farm shop 9083859685",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -158294,7 +158306,7 @@
     "products": [],
     "website": null,
     "lat": 53.1925006,
-    "lon": 6.8447527,
+    "lon": 6.8447366,
     "address": null
   },
   {
@@ -158823,6 +158835,30 @@
     "website": null,
     "lat": 51.4932275,
     "lon": 4.0532058,
+    "address": null
+  },
+  {
+    "id": 9083859685,
+    "name": "Boerderijwinkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1168265,
+    "lon": 4.6093764,
+    "address": null
+  },
+  {
+    "id": 1162795949,
+    "name": "Farm shop 1162795949",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.1925006,
+    "lon": 6.8447527,
     "address": null
   },
   {
@@ -172494,18 +172530,6 @@
     "address": null
   },
   {
-    "id": 13590858487,
-    "name": "DaViculture Natur",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4793911,
-    "lon": 4.7176706,
-    "address": null
-  },
-  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -177580,6 +177604,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 13590858487,
+    "name": "DaViculture Natur",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4793911,
+    "lon": 4.7176706,
+    "address": null
   },
   {
     "id": 326040165,
@@ -352331,6 +352367,18 @@
     "address": null
   },
   {
+    "id": 766269277,
+    "name": "Farm shop 766269277",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6670151,
+    "lon": -8.4847272,
+    "address": null
+  },
+  {
     "id": 769151459,
     "name": "Farm shop 769151459",
     "country": "Portugal",
@@ -352376,6 +352424,138 @@
     "website": null,
     "lat": 39.3869285,
     "lon": -9.0974446,
+    "address": null
+  },
+  {
+    "id": 769935565,
+    "name": "Farm shop 769935565",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6672459,
+    "lon": -8.4860881,
+    "address": null
+  },
+  {
+    "id": 769935567,
+    "name": "Farm shop 769935567",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.668224,
+    "lon": -8.4863865,
+    "address": null
+  },
+  {
+    "id": 769935568,
+    "name": "Farm shop 769935568",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.666617,
+    "lon": -8.4818333,
+    "address": null
+  },
+  {
+    "id": 769975504,
+    "name": "Farm shop 769975504",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6677712,
+    "lon": -8.4846126,
+    "address": null
+  },
+  {
+    "id": 769975505,
+    "name": "Farm shop 769975505",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6627587,
+    "lon": -8.4779237,
+    "address": null
+  },
+  {
+    "id": 769975507,
+    "name": "Farm shop 769975507",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6634171,
+    "lon": -8.4876228,
+    "address": null
+  },
+  {
+    "id": 769975509,
+    "name": "Farm shop 769975509",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6629216,
+    "lon": -8.4868349,
+    "address": null
+  },
+  {
+    "id": 769975511,
+    "name": "Farm shop 769975511",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.670061,
+    "lon": -8.4847108,
+    "address": null
+  },
+  {
+    "id": 769982512,
+    "name": "Farm shop 769982512",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6690212,
+    "lon": -8.4847214,
+    "address": null
+  },
+  {
+    "id": 769994187,
+    "name": "Farm shop 769994187",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6669821,
+    "lon": -8.4815256,
+    "address": null
+  },
+  {
+    "id": 769994188,
+    "name": "Farm shop 769994188",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6680178,
+    "lon": -8.4831052,
     "address": null
   },
   {
@@ -373620,7 +373800,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Magasin des productions de Son Cart Bio",
+    "name": "Botiga de Produccions Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -375453,6 +375633,30 @@
     "lat": 41.4816198,
     "lon": 2.0705102,
     "address": "Carrer de Benet Cortada"
+  },
+  {
+    "id": 13578235401,
+    "name": "Formatges Sa Roqueta",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9812516,
+    "lon": 4.0441703,
+    "address": null
+  },
+  {
+    "id": 13583403409,
+    "name": "Frutas Verduras Sara y Noelia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Pedro del Arroyo",
+    "products": [],
+    "website": null,
+    "lat": 40.8014086,
+    "lon": -4.8707355,
+    "address": "Calle Lagares"
   },
   {
     "id": 9727345,
@@ -377676,14 +377880,14 @@
   },
   {
     "id": 227832087,
-    "name": "Casa de la Góndola",
+    "name": "La Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922553,
-    "lon": -3.9950025,
+    "lat": 40.8922414,
+    "lon": -3.9949771,
     "address": null
   },
   {
@@ -384371,18 +384575,6 @@
     "address": null
   },
   {
-    "id": 607025044,
-    "name": "Farm shop 607025044",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2966878,
-    "lon": 3.1240546,
-    "address": null
-  },
-  {
     "id": 607028219,
     "name": "Farm shop 607028219",
     "country": "Spain",
@@ -389204,18 +389396,6 @@
     "website": null,
     "lat": 39.9651298,
     "lon": -0.1434373,
-    "address": null
-  },
-  {
-    "id": 966844318,
-    "name": "Farm shop 966844318",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9505214,
-    "lon": -0.1328735,
     "address": null
   },
   {
@@ -396215,6 +396395,18 @@
     "address": null
   },
   {
+    "id": 1218710265,
+    "name": "Farm shop 1218710265",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9742492,
+    "lon": -0.1501333,
+    "address": null
+  },
+  {
     "id": 1219343293,
     "name": "Farm shop 1219343293",
     "country": "Spain",
@@ -398660,6 +398852,18 @@
     "website": null,
     "lat": 38.6805851,
     "lon": -0.6178285,
+    "address": null
+  },
+  {
+    "id": 1346596090,
+    "name": "Farm shop 1346596090",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.1353316,
+    "lon": -17.2951985,
     "address": null
   },
   {
@@ -401111,6 +401315,18 @@
     "address": null
   },
   {
+    "id": 1483481177,
+    "name": "Farm shop 1483481177",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.6969431,
+    "lon": -3.4344624,
+    "address": null
+  },
+  {
     "id": 1288966,
     "name": "Farm shop 1288966",
     "country": "Spain",
@@ -402636,7 +402852,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Botiga de Produccions Son Cart Bio",
+    "name": "Magasin des productions de Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -402647,75 +402863,39 @@
     "address": "Carretera de Son Bou"
   },
   {
-    "id": 13578235401,
-    "name": "Formatges Sa Roqueta",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9812516,
-    "lon": 4.0441703,
-    "address": null
-  },
-  {
-    "id": 13583403409,
-    "name": "Frutas Verduras Sara y Noelia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Pedro del Arroyo",
-    "products": [],
-    "website": null,
-    "lat": 40.8014086,
-    "lon": -4.8707355,
-    "address": "Calle Lagares"
-  },
-  {
     "id": 227832087,
-    "name": "La Piscifactoría",
+    "name": "Casa de la Góndola",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922414,
-    "lon": -3.9949771,
+    "lat": 40.8922553,
+    "lon": -3.9950025,
     "address": null
   },
   {
-    "id": 1218710265,
-    "name": "Farm shop 1218710265",
+    "id": 607025044,
+    "name": "Farm shop 607025044",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.9742492,
-    "lon": -0.1501333,
+    "lat": 42.2966878,
+    "lon": 3.1240546,
     "address": null
   },
   {
-    "id": 1346596090,
-    "name": "Farm shop 1346596090",
+    "id": 966844318,
+    "name": "Farm shop 966844318",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 28.1353316,
-    "lon": -17.2951985,
-    "address": null
-  },
-  {
-    "id": 1483481177,
-    "name": "Farm shop 1483481177",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.6969431,
-    "lon": -3.4344624,
+    "lat": 39.9505214,
+    "lon": -0.1328735,
     "address": null
   },
   {
@@ -478079,18 +478259,6 @@
     "address": "Raaderstrasse"
   },
   {
-    "id": 10148377195,
-    "name": "Winiker Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Uster",
-    "products": [],
-    "website": null,
-    "lat": 47.3623992,
-    "lon": 8.7213158,
-    "address": "Gschwaderstrasse"
-  },
-  {
     "id": 10157889667,
     "name": "Hoflädeli",
     "country": "Switzerland",
@@ -479031,7 +479199,7 @@
     "name": "Bio- & Hofladen Bachmattlihof",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Wilen b. Wollerau",
+    "municipality": null,
     "products": [],
     "website": "https://bachmattlihof.ch/",
     "lat": 47.1971004,
@@ -480597,6 +480765,18 @@
     "lat": 46.5551017,
     "lon": 6.3778483,
     "address": "Chemin de la Prélaz"
+  },
+  {
+    "id": 11298779978,
+    "name": "Winiker Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3623791,
+    "lon": 8.7214343,
+    "address": null
   },
   {
     "id": 11306115455,
@@ -483960,7 +484140,7 @@
   },
   {
     "id": 12784088093,
-    "name": "Hofladen Remund",
+    "name": "Farm shop 12784088093",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -485836,90 +486016,6 @@
     "address": null
   },
   {
-    "id": 13577876867,
-    "name": "Ferme des Condémines",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Vuisternens-en-Ogoz",
-    "products": [],
-    "website": null,
-    "lat": 46.7072518,
-    "lon": 7.0699674,
-    "address": "Route des Condémines"
-  },
-  {
-    "id": 13590750921,
-    "name": "Ziegenhof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9472165,
-    "lon": 8.6544787,
-    "address": null
-  },
-  {
-    "id": 13609407702,
-    "name": "Waldladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.008564,
-    "lon": 7.4013025,
-    "address": null
-  },
-  {
-    "id": 13611772391,
-    "name": "Garohof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://garohof.ch/",
-    "lat": 47.0316535,
-    "lon": 7.0882018,
-    "address": null
-  },
-  {
-    "id": 13614153395,
-    "name": "GLENNERHOF",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Castrisch",
-    "products": [],
-    "website": null,
-    "lat": 46.7734602,
-    "lon": 9.2146808,
-    "address": "Via da Riein"
-  },
-  {
-    "id": 13614169690,
-    "name": "Hof Isla",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7745759,
-    "lon": 9.2173291,
-    "address": null
-  },
-  {
-    "id": 13615756504,
-    "name": "Hofladen Familie Gut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4369516,
-    "lon": 8.5257419,
-    "address": null
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -487600,6 +487696,18 @@
     "address": "Dorfstrasse"
   },
   {
+    "id": 346382577,
+    "name": "Farm shop 346382577",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.3120632,
+    "lon": 6.1318219,
+    "address": null
+  },
+  {
     "id": 363679714,
     "name": "Sennerei Alpe Bel",
     "country": "Switzerland",
@@ -487622,6 +487730,18 @@
     "lat": 47.5605166,
     "lon": 8.3629947,
     "address": null
+  },
+  {
+    "id": 378371914,
+    "name": "Légumes Rossier",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Denges",
+    "products": [],
+    "website": "https://legumesrossier.com/",
+    "lat": 46.5225143,
+    "lon": 6.5402414,
+    "address": "Chemin du Monteiron"
   },
   {
     "id": 385582023,
@@ -489275,8 +489395,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.6533178,
-    "lon": 8.7838205,
+    "lat": 47.6532946,
+    "lon": 8.7837701,
     "address": null
   },
   {
@@ -491941,6 +492061,126 @@
     "website": null,
     "lat": 46.3190486,
     "lon": 6.952833,
+    "address": null
+  },
+  {
+    "id": 10148377195,
+    "name": "Winiker Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Uster",
+    "products": [],
+    "website": null,
+    "lat": 47.3623992,
+    "lon": 8.7213158,
+    "address": "Gschwaderstrasse"
+  },
+  {
+    "id": 12784088093,
+    "name": "Hofladen Remund",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3204366,
+    "lon": 8.2085549,
+    "address": null
+  },
+  {
+    "id": 13577876867,
+    "name": "Ferme des Condémines",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Vuisternens-en-Ogoz",
+    "products": [],
+    "website": null,
+    "lat": 46.7072518,
+    "lon": 7.0699674,
+    "address": "Route des Condémines"
+  },
+  {
+    "id": 13590750921,
+    "name": "Ziegenhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9472165,
+    "lon": 8.6544787,
+    "address": null
+  },
+  {
+    "id": 13609407702,
+    "name": "Waldladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.008564,
+    "lon": 7.4013025,
+    "address": null
+  },
+  {
+    "id": 13611772391,
+    "name": "Garohof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://garohof.ch/",
+    "lat": 47.0316535,
+    "lon": 7.0882018,
+    "address": null
+  },
+  {
+    "id": 13614153395,
+    "name": "GLENNERHOF",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Castrisch",
+    "products": [],
+    "website": null,
+    "lat": 46.7734602,
+    "lon": 9.2146808,
+    "address": "Via da Riein"
+  },
+  {
+    "id": 13614169690,
+    "name": "Hof Isla",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7745759,
+    "lon": 9.2173291,
+    "address": null
+  },
+  {
+    "id": 13615756504,
+    "name": "Hofladen Familie Gut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4369516,
+    "lon": 8.5257419,
+    "address": null
+  },
+  {
+    "id": 477943063,
+    "name": "Farm shop 477943063",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.6533178,
+    "lon": 8.7838205,
     "address": null
   },
   {
