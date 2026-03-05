@@ -324,6 +324,7 @@
     { name: 'Grisehuset gårdsutsalg', municipality: 'Asker', region: 'Akershus', address: 'Asker', products: ['Gårdsutsalg'], website: 'https://www.google.com/maps/place/Grisehuset+g%C3%A5rdsutsalg/', lat: 59.8262596, lon: 10.4794243 },
     { name: 'Sand Gård', municipality: 'Hurum', region: 'Akershus', address: 'Storengene 2/4, Kana', products: ['Bakerivarer', 'Lokale produkter'], website: 'https://www.google.com/maps/place/Sand+G%C3%A5rd/', lat: 59.5636043, lon: 10.4641891 },
     { name: 'Vinnulstad Gård', municipality: 'Asker', region: 'Akershus', address: 'Asker', products: ['Lokalmat'], website: 'https://www.google.com/maps/place/Vinnulstad+G%C3%A5rd/', lat: 59.8016602, lon: 10.4261885 },
+    { name: 'Skarrbo gård', municipality: 'Holmestrand', region: 'Vestfold', address: 'Holmestrand, Vestfold', products: ['Lokalmat'], website: 'https://www.google.com/search?q=Skarrbo+g%C3%A5rd+Holmestrand' },
     { name: 'Syse Gard', municipality: 'Ulvik', region: 'Vestland', address: 'Apalvegen, 5730 Ulvik', products: ['Eplesider', 'Eplemost', 'Frukt'], website: 'https://sysegard.no' },
     { name: 'Ulvik Frukt & Cideri', municipality: 'Ulvik', region: 'Vestland', address: 'Håkastad, Ulvik', products: ['Eplesorter', 'Eplemost', 'Sider'], website: 'https://hakastadsider.no' },
     { name: 'Hardanger Saft- og Siderfabrikk', municipality: 'Ulvik', region: 'Vestland', address: 'Lekve, Ulvik', products: ['Eplemost', 'Sider', 'Saft'], website: 'https://hardangersider.no' },
