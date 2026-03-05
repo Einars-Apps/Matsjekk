@@ -76,6 +76,31 @@ def country_specific_overpass_clauses(cc):
     relation["description"~"{keyword}",i](area.searchArea);
 """
 
+
+def build_zero_hit_query(cc):
+    keyword = COUNTRY_KEYWORD_REGEX.get(cc)
+    if not keyword:
+        return ''
+
+    return f"""
+[out:json][timeout:60];
+area["ISO3166-1"="{cc}"]->.searchArea;
+(
+    node["name"~"{keyword}",i](area.searchArea);
+    way["name"~"{keyword}",i](area.searchArea);
+    relation["name"~"{keyword}",i](area.searchArea);
+    node["description"~"{keyword}",i](area.searchArea);
+    way["description"~"{keyword}",i](area.searchArea);
+    relation["description"~"{keyword}",i](area.searchArea);
+    node["operator"~"{keyword}",i](area.searchArea);
+    way["operator"~"{keyword}",i](area.searchArea);
+    relation["operator"~"{keyword}",i](area.searchArea);
+    node["brand"~"{keyword}",i](area.searchArea);
+    way["brand"~"{keyword}",i](area.searchArea);
+    relation["brand"~"{keyword}",i](area.searchArea);
+);
+out center;"""
+
 def build_query(cc):
     # Query nodes/ways/relations with farmshop-like tags.
     extra = country_specific_overpass_clauses(cc)
@@ -162,7 +187,11 @@ def load_archive_items_by_code():
             if code not in COUNTRY_NAME_BY_CODE:
                 continue
             if isinstance(items, list):
-                grouped[code] = items
+                expected_country_name = COUNTRY_NAME_BY_CODE[code]
+                grouped[code] = [
+                    item for item in items
+                    if isinstance(item, dict) and (item.get('country') or '').strip() == expected_country_name
+                ]
     return grouped
 
 
@@ -229,15 +258,12 @@ def _post_overpass(endpoint, query):
     return payload.get('elements', []) if isinstance(payload, dict) else []
 
 
-def fetch_for_country(cc):
-    q = build_query(cc)
-    print('Querying', cc)
-
+def _fetch_overpass_filtered(query, cc):
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
         for endpoint in OVERPASS_ENDPOINTS:
             try:
-                elements = _post_overpass(endpoint, q)
+                elements = _post_overpass(endpoint, query)
                 print(f'  OK {cc} via {endpoint} on attempt {attempt}')
                 out = []
                 for e in elements:
@@ -254,6 +280,23 @@ def fetch_for_country(cc):
             time.sleep(wait)
 
     raise RuntimeError(f'All endpoints failed for {cc}: {last_error}')
+
+
+def fetch_for_country(cc):
+    q = build_query(cc)
+    print('Querying', cc)
+    primary = _fetch_overpass_filtered(q, cc)
+    if primary:
+        return primary
+
+    secondary_query = build_zero_hit_query(cc)
+    if secondary_query:
+        print(f'  ZERO-HIT fallback query for {cc}')
+        secondary = _fetch_overpass_filtered(secondary_query, cc)
+        if secondary:
+            return secondary
+
+    return primary
 
 
 def tag_country(items, country_name):
@@ -306,7 +349,7 @@ def main():
                     restored_from_archive.append((name, len(tagged_current), len(merged_country_items)))
                 all_items.extend(merged_country_items)
 
-            archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + all_items[-len(merged_country_items):])
+            archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + merged_country_items)
         except Exception as e:
             print('Error fetching', name, e, file=sys.stderr)
             fallback_items = previous_by_code.get(cc, [])
