@@ -384,6 +384,7 @@
   const regionCache = new Map();
   const municipalityCache = new Map();
   const municipalityBoundsCache = new Map();
+  const regionBoundsCache = new Map();
 
   const countrySelect = document.getElementById('countrySelect');
   const regionSelect = document.getElementById('regionSelect');
@@ -2653,6 +2654,17 @@ out center tags 150;
     return box || null;
   }
 
+  async function fetchRegionBoundingBoxCached(countryCode, regionLabel) {
+    if (!countryCode || !regionLabel) return null;
+    const key = `${countryCode}|${regionKey(regionLabel)}`;
+    if (regionBoundsCache.has(key)) {
+      return regionBoundsCache.get(key);
+    }
+    const box = await fetchRegionBoundingBox(countryCode, regionLabel);
+    regionBoundsCache.set(key, box || null);
+    return box || null;
+  }
+
   async function fetchRegionBoundingBox(countryCode, regionLabel) {
     if (!regionLabel) return null;
     const regionVariantsList = [regionLabel]
@@ -2875,21 +2887,49 @@ out center tags 150;
       if (runId !== filterRunId) return [];
     }
 
-    activeScopeBoundingBox = municipalityBoundingBox;
+    let regionBoundingBox = null;
+    if (countryCode && regionText && !municipalityText) {
+      regionBoundingBox = await fetchRegionBoundingBoxCached(countryCode, regionText);
+      if (runId !== filterRunId) return [];
+    }
+
+    activeScopeBoundingBox = municipalityBoundingBox || regionBoundingBox;
 
     const applyMunicipalityScope = (items) => {
       const source = (items || []).filter((shop) => !isSuppressedShop(shop));
-      if (!municipalityText) return source;
+      const hasMunicipalityScope = Boolean(municipalityText);
+      const hasRegionScope = Boolean(regionText && !municipalityText);
+      if (!hasMunicipalityScope && !hasRegionScope) return source;
+
       return source.filter((shop) => {
-        const textMatch = countryCode === 'NO'
-          ? municipalityMatches(shop.municipality || '', municipalityTerms)
-          : normalizeAdminLabel(shop.municipality || '') === normalizeAdminLabel(municipalityText);
         const lat = Number(shop?.lat);
         const lon = Number(shop?.lon);
-        if (municipalityBoundingBox && Number.isFinite(lat) && Number.isFinite(lon)) {
-          return isWithinBoundingBox(lat, lon, municipalityBoundingBox);
+
+        if (hasMunicipalityScope) {
+          const municipalityTextMatch = countryCode === 'NO'
+            ? municipalityMatches(shop.municipality || '', municipalityTerms)
+            : normalizeAdminLabel(shop.municipality || '') === normalizeAdminLabel(municipalityText);
+
+          if (municipalityTextMatch) {
+            return true;
+          }
+          if (municipalityBoundingBox && Number.isFinite(lat) && Number.isFinite(lon)) {
+            return isWithinBoundingBox(lat, lon, municipalityBoundingBox, 0.12);
+          }
+          return false;
         }
-        return textMatch;
+
+        const regionTextMatch = countryCode === 'NO'
+          ? regionMatches(shop.region || '', regionTerms)
+          : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionText);
+
+        if (regionTextMatch) {
+          return true;
+        }
+        if (regionBoundingBox && Number.isFinite(lat) && Number.isFinite(lon)) {
+          return isWithinBoundingBox(lat, lon, regionBoundingBox, 0.2);
+        }
+        return false;
       });
     };
 
@@ -3017,11 +3057,12 @@ out center tags 150;
 
             const countyCombined = mergeShopLists(countyLocal, liveCounty)
               .slice(0, 120);
+            const scopedCounty = applyMunicipalityScope(countyCombined);
 
-            if (countyCombined.length) {
-              filtered = countyCombined;
-              activeFiltered = countyCombined;
-              renderList(countyCombined);
+            if (scopedCounty.length) {
+              filtered = scopedCounty;
+              activeFiltered = scopedCounty;
+              renderList(scopedCounty);
               setMapStatus('Viser treff innen valgt fylke/region (fallback).');
             }
           }
