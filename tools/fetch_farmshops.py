@@ -38,6 +38,7 @@ COUNTRIES = {
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_FILE = ROOT / 'docs' / 'data' / 'farmshops.json'
+OUT_BY_COUNTRY_DIR = ROOT / 'docs' / 'data' / 'farmshops_by_country'
 ARCHIVE_FILE = ROOT / 'docs' / 'data' / 'farmshops_country_archive.json'
 
 OVERPASS_ENDPOINTS = [
@@ -419,6 +420,38 @@ def dedupe(items):
         out.append(item)
     return out
 
+
+def split_by_country_code(items):
+    grouped = {}
+    for item in items:
+        cc = COUNTRIES.get((item.get('country') or '').strip())
+        if not cc:
+            continue
+        grouped.setdefault(cc, []).append(item)
+    return {cc: dedupe(group) for cc, group in grouped.items()}
+
+
+def write_country_slices(items):
+    grouped = split_by_country_code(items)
+    OUT_BY_COUNTRY_DIR.mkdir(parents=True, exist_ok=True)
+
+    expected_codes = set(COUNTRY_NAME_BY_CODE.keys())
+    for existing in OUT_BY_COUNTRY_DIR.glob('*.json'):
+        if existing.stem.upper() not in expected_codes:
+            continue
+        try:
+            existing.unlink()
+        except OSError:
+            pass
+
+    for cc in sorted(expected_codes):
+        path = OUT_BY_COUNTRY_DIR / f'{cc.lower()}.json'
+        payload = grouped.get(cc, [])
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
+
+    summary = ', '.join([f'{cc}:{len(grouped.get(cc, []))}' for cc in sorted(expected_codes)])
+    print('Wrote country slices:', summary)
+
 def main():
     previous_by_code = load_previous_items_by_code()
     archive_by_code = load_archive_items_by_code()
@@ -478,6 +511,7 @@ def main():
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
+    write_country_slices(all_items)
     save_archive_items_by_code(archive_by_code)
     print('Wrote', OUT_FILE)
 

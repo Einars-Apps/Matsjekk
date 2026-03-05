@@ -15,10 +15,19 @@
     '/data/farmshops_area_cache.json',
     '../../docs/data/farmshops_area_cache.json',
   ];
+  const countrySliceBasePaths = [
+    'data/farmshops_by_country',
+    '/data/farmshops_by_country',
+    '../../docs/data/farmshops_by_country',
+  ];
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
   const sharedLocalityCache = new Map();
+  const countrySliceCache = new Map();
+  const countrySliceInFlight = new Map();
+  let allShopsCache = null;
+  let allShopsLoaded = false;
   const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
   const LOCALITY_CACHE_MAX_AREAS = 60;
   const LOCALITY_CACHE_MAX_ITEMS_PER_AREA = 120;
@@ -808,6 +817,81 @@
     return [];
   }
 
+  async function loadFirstReachable(urls) {
+    let lastError = null;
+    for (const url of urls) {
+      try {
+        const payload = await loadShops(url);
+        if (Array.isArray(payload)) {
+          return payload;
+        }
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    if (lastError) throw lastError;
+    return [];
+  }
+
+  function countrySliceUrls(countryCode) {
+    const cc = normalizeCountryCode(countryCode);
+    if (!cc) return [];
+    return countrySliceBasePaths.map((base) => `${base}/${cc.toLowerCase()}.json`);
+  }
+
+  async function loadCountrySlice(countryCode) {
+    const cc = normalizeCountryCode(countryCode);
+    if (!cc) return [];
+    if (countrySliceCache.has(cc)) return countrySliceCache.get(cc);
+    if (countrySliceInFlight.has(cc)) return countrySliceInFlight.get(cc);
+
+    const loader = (async () => {
+      const payload = await loadFirstReachable(countrySliceUrls(cc));
+      const normalized = (Array.isArray(payload) ? payload : [])
+        .map(normalizeShop)
+        .filter((shop) => !shop.countryCode || shop.countryCode === cc);
+      countrySliceCache.set(cc, normalized);
+      return normalized;
+    })();
+
+    countrySliceInFlight.set(cc, loader);
+    try {
+      return await loader;
+    } finally {
+      countrySliceInFlight.delete(cc);
+    }
+  }
+
+  async function loadAllShopsDataset() {
+    if (allShopsLoaded && Array.isArray(allShopsCache)) return allShopsCache;
+    const payload = await loadFirstAvailable(dataUrls);
+    const normalized = (Array.isArray(payload) ? payload : []).map(normalizeShop);
+    allShopsCache = normalized;
+    allShopsLoaded = true;
+    return normalized;
+  }
+
+  async function ensureShopScope(countryCode) {
+    const cc = normalizeCountryCode(countryCode);
+    if (!cc) {
+      shops = await loadAllShopsDataset();
+      return shops;
+    }
+
+    try {
+      const scoped = await loadCountrySlice(cc);
+      if (scoped.length) {
+        shops = scoped;
+        return shops;
+      }
+      shops = await loadAllShopsDataset();
+      return shops;
+    } catch (_) {
+      shops = await loadAllShopsDataset();
+      return shops;
+    }
+  }
+
   function normalizeShop(shop) {
     const countryCode = normalizeCountryCode(shop.country || shop.countryCode);
     const lat = shop.lat != null ? Number(shop.lat) : null;
@@ -1413,6 +1497,7 @@
   let googleRoutePolyline = null;
   let leafletBufferLayer = null;
   let googleEmbedIframe = null;
+  let pendingSearchCenter = null;
 
   function setMapStatus(message) {
     if (!mapStatusEl) return;
@@ -1614,6 +1699,21 @@
     });
   }
 
+  async function detectPreferredCountryCode() {
+    if (!ENABLE_AUTO_COUNTRY_FROM_POSITION || !navigator.geolocation) {
+      return '';
+    }
+    try {
+      const position = await getCurrentPositionAsync({ enableHighAccuracy: false, timeout: 7000, maximumAge: 300000 });
+      setUserPosition(position.coords.latitude, position.coords.longitude);
+      const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
+      const code = normalizeCountryCode(geo?.countryCode || '');
+      return code || '';
+    } catch (_) {
+      return '';
+    }
+  }
+
   async function autoSelectCountryFromPosition() {
     if (!navigator.geolocation) return false;
     try {
@@ -1650,6 +1750,36 @@
     if (leafletMarkersLayer) {
       leafletMarkersLayer.clearLayers();
     }
+  }
+
+  function setPendingSearchCenter(lat, lon, zoom = 10) {
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+      pendingSearchCenter = null;
+      return;
+    }
+    pendingSearchCenter = { lat, lon, zoom: Number.isFinite(zoom) ? zoom : 10 };
+  }
+
+  function applyPendingSearchCenter() {
+    if (!pendingSearchCenter) return;
+    const { lat, lon, zoom } = pendingSearchCenter;
+    pendingSearchCenter = null;
+
+    if (mapProvider === 'google-embed' && googleEmbedIframe) {
+      googleEmbedIframe.src = buildEmbeddedGoogleMapUrl(`${lat},${lon}`);
+      return;
+    }
+
+    if (!map) return;
+
+    if (mapProvider === 'google') {
+      map.setCenter({ lat, lng: lon });
+      const currentZoom = Number(map.getZoom() || 0);
+      map.setZoom(Math.max(currentZoom, zoom));
+      return;
+    }
+
+    map.setView([lat, lon], Math.max(Number(map.getZoom() || 0), zoom));
   }
 
   function addMapMarker(shop) {
@@ -1693,11 +1823,14 @@
       const bounds = new google.maps.LatLngBounds();
       markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
       map.fitBounds(bounds);
+      if (Number(map.getZoom() || 0) > 11) {
+        map.setZoom(11);
+      }
       return;
     }
 
     if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
-      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 12 });
+      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 11 });
     }
   }
 
@@ -1983,6 +2116,7 @@
     });
 
     fitMapToMarkers();
+    applyPendingSearchCenter();
     if (openGoogleMapBtn) {
       openGoogleMapBtn.href = buildGoogleMapsOverviewUrl(ordered);
     }
@@ -2551,6 +2685,7 @@ out center tags 150;
   async function filterShops() {
     const runId = ++filterRunId;
     setMapStatus('');
+    setPendingSearchCenter(null, null);
     const countryCode = resolveCountryCode(countrySelect.value);
     const regionValue = regionSelect.value;
     const municipalityValue = muniSelect.value;
@@ -2558,6 +2693,24 @@ out center tags 150;
     const municipalityText = municipalityValue ? selectedText(muniSelect) : '';
     const countryText = selectedText(countrySelect);
     const query = searchInput.value.trim().toLowerCase();
+
+    if (query.length >= 3) {
+      try {
+        const searchHint = [
+          query,
+          municipalityText,
+          regionText,
+          countryText || countryNameByCode(countryCode),
+        ].filter(Boolean).join(', ');
+        const searchGeo = await geocodeWithFallback(searchHint);
+        if (runId !== filterRunId) return activeFiltered;
+        if (searchGeo?.lat != null && searchGeo?.lon != null) {
+          setPendingSearchCenter(Number(searchGeo.lat), Number(searchGeo.lon), 10);
+        }
+      } catch (_) {
+        // Ignore geocode failures; list/map filtering continues.
+      }
+    }
 
     let localityCountryCode = countryCode;
     let localityRegionText = regionText;
@@ -2941,7 +3094,8 @@ out center tags 150;
     const first = await geocode(query);
     if (first) return first;
 
-    const selectedCountry = selectedText(countrySelect) || 'Norge';
+    const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    const selectedCountry = selectedText(countrySelect) || countryNameByCode(selectedCountryCode) || 'Norge';
     const fallback = await geocode(`${query}, ${selectedCountry}`);
     if (fallback) return fallback;
 
@@ -3010,6 +3164,7 @@ out center tags 150;
   countrySelect.addEventListener('change', async () => {
     activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    await ensureShopScope(selectedCountryCode);
     await populateRegions(selectedCountryCode);
     await populateMunicipalities(selectedCountryCode, '');
     filterShops();
@@ -3054,6 +3209,7 @@ out center tags 150;
     searchInput.value = '';
     if (sortSelect) sortSelect.value = 'name_asc';
     if (nearRadiusSelect) nearRadiusSelect.value = '50';
+    await ensureShopScope('');
     await populateRegions('');
     await populateMunicipalities('', '');
     filterShops();
@@ -3152,13 +3308,22 @@ out center tags 150;
   const mapInitPromise = initMap();
   initLanguageSelector();
 
+  populateCountries();
+
+  const preferredCountryCode = await detectPreferredCountryCode();
+  if (preferredCountryCode && [...countrySelect.options].some((option) => option.value === preferredCountryCode)) {
+    countrySelect.value = preferredCountryCode;
+  } else {
+    countrySelect.value = 'NO';
+  }
+
   try {
-    shops = (await loadFirstAvailable(dataUrls)).map(normalizeShop);
+    await ensureShopScope(resolveCountryCode(countrySelect.value));
     if (shops.length === 0) {
       shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
     }
   } catch (error) {
-    console.error('Failed to load farmshops dataset, falling back to example', error);
+    console.error('Failed to load scoped farmshops dataset, falling back to example', error);
     try {
       shops = (await loadFirstAvailable(fallbackUrls)).map(normalizeShop);
     } catch (_) {
@@ -3184,15 +3349,10 @@ out center tags 150;
   await mapInitPromise;
   applyMapHeight(currentMapHeight);
 
-  populateCountries();
-  await populateRegions('');
-  await populateMunicipalities('', '');
+  await populateRegions(resolveCountryCode(countrySelect.value));
+  await populateMunicipalities(resolveCountryCode(countrySelect.value), '');
   applyPageLanguage(currentPageLanguage);
-  activeFiltered = shops;
   activeFiltered = addDistanceFromUser(shops);
   renderList(activeFiltered);
-
-  if (ENABLE_AUTO_COUNTRY_FROM_POSITION) {
-    autoSelectCountryFromPosition();
-  }
+  filterShops();
 })();
