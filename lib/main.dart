@@ -814,6 +814,42 @@ class _ScannerScreenState extends State<ScannerScreen>
     );
   }
 
+  Future<void> _handleManualListInput(String listName, String rawInput) async {
+    final input = rawInput.trim();
+    if (input.isEmpty) return;
+
+    final box = Hive.box('handlelister');
+    final list = List<String>.from(box.get(listName, defaultValue: <String>[]));
+    final isBarcodeLike = RegExp(r'^\d{8,14}$').hasMatch(input);
+
+    if (isBarcodeLike) {
+      final info = await _hentInfo(input);
+      if (info.isNotEmpty) {
+        final name = (info['navn'] ?? '').toString().trim();
+        final itemName = name.isNotEmpty ? name : input;
+        if (!list.any((item) => item.endsWith(itemName))) {
+          list.insert(0, itemName);
+          box.put(listName, list);
+          Analytics.logEvent('add_to_list_manual_barcode', {
+            'ean': input,
+            'name': itemName,
+            'list': listName,
+          });
+        }
+        if (mounted) {
+          _visProduktDialog(info);
+        }
+        return;
+      }
+    }
+
+    if (!list.any((item) => item.endsWith(input))) {
+      list.insert(0, input);
+      box.put(listName, list);
+      Analytics.logEvent('add_to_list_manual_text', {'item': input, 'list': listName});
+    }
+  }
+
   void _visMeny() {
     showModalBottomSheet(
       context: context,
@@ -1508,6 +1544,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                           () => showFullScreenList = !showFullScreenList),
                       onRename: _handleRename,
                       onShowSearch: () => _visSok(),
+                      onAddManualItem: (item) => _handleManualListInput(activeList, item),
                     ),
             ),
           Align(

@@ -585,6 +585,7 @@ class HandlelisteOverlay extends StatefulWidget {
   final VoidCallback onToggleFullScreen;
   final Function(String, String) onRename;
   final VoidCallback onShowSearch;
+  final Future<void> Function(String)? onAddManualItem;
 
   const HandlelisteOverlay({
     required this.listeNavn,
@@ -593,6 +594,7 @@ class HandlelisteOverlay extends StatefulWidget {
     required this.onToggleFullScreen,
     required this.onRename,
     required this.onShowSearch,
+    this.onAddManualItem,
     super.key,
   });
 
@@ -751,15 +753,19 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                           IconButton(
                               icon: const Icon(Icons.add_circle,
                                   color: Colors.green, size: 40),
-                              onPressed: () {
+                              onPressed: () async {
                                 final item = _addItemController.text.trim();
                                 if (item.isNotEmpty) {
-                                  final box = Hive.box('handlelister');
-                                  final list = List<String>.from(box.get(
-                                      widget.listeNavn,
-                                      defaultValue: <String>[]));
-                                  list.insert(0, item);
-                                  box.put(widget.listeNavn, list);
+                                  if (widget.onAddManualItem != null) {
+                                    await widget.onAddManualItem!(item);
+                                  } else {
+                                    final box = Hive.box('handlelister');
+                                    final list = List<String>.from(box.get(
+                                        widget.listeNavn,
+                                        defaultValue: <String>[]));
+                                    list.insert(0, item);
+                                    box.put(widget.listeNavn, list);
+                                  }
                                   _addItemController.clear();
                                 }
                               }),
