@@ -2093,6 +2093,7 @@
   }
 
   function renderList(filtered) {
+    const visibleFiltered = (filtered || []).filter((shop) => !isSuppressedShop(shop));
     listEl.innerHTML = '';
     clearMapMarkers();
 
@@ -2100,7 +2101,7 @@
       updateEmbeddedMapFromFilters();
     }
 
-    if (!filtered.length) {
+    if (!visibleFiltered.length) {
       const selectedCountryCode = resolveCountryCode(countrySelect.value) || normalizeCountryCode(selectedText(countrySelect));
       const selectedCountryLabel = selectedText(countrySelect) || countryNameByCode(selectedCountryCode);
       const selectedRegionValue = regionSelect?.value || '';
@@ -2131,7 +2132,7 @@
       return;
     }
 
-    const ordered = sortShops(filtered);
+    const ordered = sortShops(visibleFiltered);
     ordered.forEach((shop) => {
       const div = document.createElement('div');
       div.className = 'item';
@@ -2277,7 +2278,31 @@
     return score;
   }
 
+  function isSuppressedShop(shop) {
+    const rawName = (shop?.name || '').toString().trim().toLowerCase();
+    const name = rawName.replace(/\s+/g, ' ');
+    const countryCode = normalizeCountryCode(shop?.countryCode || shop?.country);
+
+    if (/^a-k hillestad traktorservice(?: norge)?$/.test(name)) {
+      return true;
+    }
+
+    if (countryCode === 'NO') {
+      if (/^(farm shop|farm store|farmstore|gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg)$/.test(name)) {
+        return true;
+      }
+      if (/^farm shop(?: norge| norway)?$/.test(name)) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
   function keepHighQuality(shop) {
+    if (isSuppressedShop(shop)) {
+      return false;
+    }
     const text = `${shop.name || ''} ${shop.category || ''} ${shop.address || ''}`.toLowerCase();
     if (/restaurant|kafe|cafe|supermarket|grocery|school|kindergarten|museum|hotel/.test(text)) {
       return false;
@@ -2788,9 +2813,9 @@ out center tags 150;
       }
     }
 
-    const countryRows = countryCode
+    const countryRows = (countryCode
       ? shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode))
-      : shops;
+      : shops).filter((shop) => !isSuppressedShop(shop));
     const hasRegionDataForCountry = countryRows.some((shop) => (shop.region || '').toString().trim());
     const hasMunicipalityDataForCountry = countryRows.some((shop) => (shop.municipality || '').toString().trim());
 
