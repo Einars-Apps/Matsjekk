@@ -383,6 +383,7 @@
   let norwayLoaded = false;
   const regionCache = new Map();
   const municipalityCache = new Map();
+  const municipalityBoundsCache = new Map();
 
   const countrySelect = document.getElementById('countrySelect');
   const regionSelect = document.getElementById('regionSelect');
@@ -1545,6 +1546,7 @@
   let leafletMarkersLayer = null;
   let googleMarkers = [];
   let markerCoords = [];
+  let activeScopeBoundingBox = null;
   let googleInfoWindow = null;
   let googleRoutePolyline = null;
   let leafletBufferLayer = null;
@@ -1869,6 +1871,27 @@
 
   function fitMapToMarkers() {
     if (!map) return;
+
+    if (activeScopeBoundingBox) {
+      const { south, west, north, east } = activeScopeBoundingBox;
+      if ([south, west, north, east].every((value) => Number.isFinite(value))) {
+        if (mapProvider === 'google') {
+          const scopedBounds = new google.maps.LatLngBounds();
+          scopedBounds.extend({ lat: south, lng: west });
+          scopedBounds.extend({ lat: north, lng: east });
+          map.fitBounds(scopedBounds);
+          if (Number(map.getZoom() || 0) > 11) {
+            map.setZoom(11);
+          }
+          return;
+        }
+
+        if (leafletMarkersLayer) {
+          map.fitBounds([[south, west], [north, east]], { maxZoom: 11 });
+          return;
+        }
+      }
+    }
 
     if (mapProvider === 'google') {
       if (!markerCoords.length) return;
@@ -2609,6 +2632,27 @@ out center tags 150;
     };
   }
 
+  function isWithinBoundingBox(lat, lon, box, padding = 0.08) {
+    if (!box || !Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+    return (
+      lat >= (box.south - padding) &&
+      lat <= (box.north + padding) &&
+      lon >= (box.west - padding) &&
+      lon <= (box.east + padding)
+    );
+  }
+
+  async function fetchMunicipalityBoundingBoxCached(countryCode, municipalityLabel, regionLabel) {
+    if (!countryCode || !municipalityLabel) return null;
+    const key = `${countryCode}|${municipalityKey(municipalityLabel)}|${regionKey(regionLabel || '')}`;
+    if (municipalityBoundsCache.has(key)) {
+      return municipalityBoundsCache.get(key);
+    }
+    const box = await fetchMunicipalityBoundingBox(countryCode, municipalityLabel, regionLabel);
+    municipalityBoundsCache.set(key, box || null);
+    return box || null;
+  }
+
   async function fetchRegionBoundingBox(countryCode, regionLabel) {
     if (!regionLabel) return null;
     const regionVariantsList = [regionLabel]
@@ -2825,6 +2869,30 @@ out center tags 150;
     const queryMunicipalityTerms = municipalityVariants(countryCode, query)
       .map((name) => municipalityKey(name));
 
+    let municipalityBoundingBox = null;
+    if (countryCode && municipalityText) {
+      municipalityBoundingBox = await fetchMunicipalityBoundingBoxCached(countryCode, municipalityText, regionText);
+      if (runId !== filterRunId) return [];
+    }
+
+    activeScopeBoundingBox = municipalityBoundingBox;
+
+    const applyMunicipalityScope = (items) => {
+      const source = (items || []).filter((shop) => !isSuppressedShop(shop));
+      if (!municipalityText) return source;
+      return source.filter((shop) => {
+        const textMatch = countryCode === 'NO'
+          ? municipalityMatches(shop.municipality || '', municipalityTerms)
+          : normalizeAdminLabel(shop.municipality || '') === normalizeAdminLabel(municipalityText);
+        const lat = Number(shop?.lat);
+        const lon = Number(shop?.lon);
+        if (municipalityBoundingBox && Number.isFinite(lat) && Number.isFinite(lon)) {
+          return isWithinBoundingBox(lat, lon, municipalityBoundingBox);
+        }
+        return textMatch;
+      });
+    };
+
     let filtered = [...countryRows];
 
     if (regionValue || municipalityValue) {
@@ -2866,6 +2934,8 @@ out center tags 150;
       );
     }
 
+    filtered = applyMunicipalityScope(filtered);
+
     if (countryCode && !regionValue && !municipalityValue && !query && !filtered.length) {
       const relaxedCountryOnly = shops.filter((shop) => shopMatchesCountryRelaxed(shop, countryCode));
       if (relaxedCountryOnly.length) {
@@ -2898,6 +2968,7 @@ out center tags 150;
       setMapStatus(`Viser et utvalg (${Math.min(previewLimit, filtered.length)} av ${countryOnlyCount}) for valgt land. Søk eller velg område for full liste.`);
     }
 
+    filtered = applyMunicipalityScope(filtered);
     activeFiltered = filtered;
     renderList(filtered);
 
@@ -2918,7 +2989,7 @@ out center tags 150;
     if (!filtered.length && shouldUseLocalityFallback) {
       const cachedLocality = recallLocalityResult(localityContext);
       if (cachedLocality.length) {
-        filtered = addDistanceFromUser(cachedLocality);
+        filtered = applyMunicipalityScope(addDistanceFromUser(cachedLocality));
         activeFiltered = filtered;
         renderList(filtered);
         setMapStatus('Viser lagrede områdetreff (cache).');
@@ -3026,6 +3097,10 @@ out center tags 150;
             }
 
             if (scopedNearby.length) {
+              scopedNearby = applyMunicipalityScope(scopedNearby);
+            }
+
+            if (scopedNearby.length) {
               filtered = scopedNearby;
               activeFiltered = scopedNearby;
               renderList(scopedNearby);
@@ -3065,7 +3140,7 @@ out center tags 150;
         query,
       });
       if (runId !== filterRunId) return filtered;
-      const merged = addDistanceFromUser(mergeShopLists(filtered, liveCandidates));
+      const merged = applyMunicipalityScope(addDistanceFromUser(mergeShopLists(filtered, liveCandidates)));
       activeFiltered = merged;
       renderList(merged);
 
@@ -3078,7 +3153,7 @@ out center tags 150;
           query: query || 'gårdsbutikk',
         });
         if (runId !== filterRunId) return merged;
-        const mergedRegionWide = addDistanceFromUser(mergeShopLists(merged, regionWideCandidates));
+        const mergedRegionWide = applyMunicipalityScope(addDistanceFromUser(mergeShopLists(merged, regionWideCandidates)));
         activeFiltered = mergedRegionWide;
         renderList(mergedRegionWide);
         return mergedRegionWide;
@@ -3089,7 +3164,7 @@ out center tags 150;
       console.warn('Could not enrich farmshop list with live web candidates.', error);
       if (countryCode === 'NO' && municipalityText) {
         const trustedFallback = getTrustedSeedCandidates(countryCode, countryText, municipalityText, regionText);
-        const mergedFallback = addDistanceFromUser(mergeShopLists(filtered, trustedFallback));
+        const mergedFallback = applyMunicipalityScope(addDistanceFromUser(mergeShopLists(filtered, trustedFallback)));
         activeFiltered = mergedFallback;
         renderList(mergedFallback);
         return mergedFallback;
