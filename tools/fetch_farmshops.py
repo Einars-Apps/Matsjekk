@@ -38,6 +38,7 @@ COUNTRIES = {
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_FILE = ROOT / 'docs' / 'data' / 'farmshops.json'
+ARCHIVE_FILE = ROOT / 'docs' / 'data' / 'farmshops_country_archive.json'
 
 OVERPASS_ENDPOINTS = [
     'https://overpass-api.de/api/interpreter',
@@ -48,6 +49,7 @@ OVERPASS_ENDPOINTS = [
 MAX_RETRIES = 4
 BASE_BACKOFF_SECONDS = 2.0
 REQUEST_TIMEOUT_SECONDS = 180
+MAX_ARCHIVE_ITEMS_PER_COUNTRY = 7000
 
 COUNTRY_NAME_BY_CODE = {code: name for name, code in COUNTRIES.items()}
 
@@ -87,6 +89,12 @@ area["ISO3166-1"="{cc}"]->.searchArea;
   node["shop"="farm"](area.searchArea);
   way["shop"="farm"](area.searchArea);
     relation["shop"="farm"](area.searchArea);
+    node["produce"](area.searchArea);
+    way["produce"](area.searchArea);
+    relation["produce"](area.searchArea);
+    node["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
+    way["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
+    relation["name"~"farm shop|farmshop|hofladen|ferme|fattoria|granja|gard|gardsbutikk|gårdsbutikk",i](area.searchArea);
     node["amenity"="marketplace"](area.searchArea);
     way["amenity"="marketplace"](area.searchArea);
     relation["amenity"="marketplace"](area.searchArea);
@@ -138,6 +146,34 @@ def load_previous_items_by_code():
             continue
         grouped.setdefault(code, []).append(item)
     return grouped
+
+
+def load_archive_items_by_code():
+    if not ARCHIVE_FILE.exists():
+        return {}
+    try:
+        payload = json.loads(ARCHIVE_FILE.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+
+    grouped = {}
+    if isinstance(payload, dict):
+        for code, items in payload.items():
+            if code not in COUNTRY_NAME_BY_CODE:
+                continue
+            if isinstance(items, list):
+                grouped[code] = items
+    return grouped
+
+
+def save_archive_items_by_code(grouped):
+    ARCHIVE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    serializable = {
+        code: dedupe(items)[:MAX_ARCHIVE_ITEMS_PER_COUNTRY]
+        for code, items in grouped.items()
+        if code in COUNTRY_NAME_BY_CODE and isinstance(items, list)
+    }
+    ARCHIVE_FILE.write_text(json.dumps(serializable, ensure_ascii=False, indent=2), encoding='utf-8')
 
 def extract_elem(e):
     tags = e.get('tags', {})
@@ -242,6 +278,7 @@ def dedupe(items):
 
 def main():
     previous_by_code = load_previous_items_by_code()
+    archive_by_code = load_archive_items_by_code()
     country_list = selected_countries()
 
     print('Countries selected:', ', '.join([f'{name}({code})' for name, code in country_list]))
@@ -249,24 +286,38 @@ def main():
     all_items = []
     failed_countries = []
     preserved_countries = []
+    restored_from_archive = []
     for name, cc in country_list:
         try:
             items = fetch_for_country(cc)
             tagged_current = tag_country(items, name)
             previous_items = previous_by_code.get(cc, [])
+            archive_items = archive_by_code.get(cc, [])
             if previous_items:
                 merged_country_items = dedupe(tagged_current + previous_items)
                 if len(merged_country_items) > len(tagged_current):
                     preserved_countries.append((name, len(tagged_current), len(merged_country_items)))
+                if archive_items:
+                    merged_country_items = dedupe(merged_country_items + archive_items)
                 all_items.extend(merged_country_items)
             else:
-                all_items.extend(tagged_current)
+                merged_country_items = dedupe(tagged_current + archive_items) if archive_items else tagged_current
+                if archive_items and len(merged_country_items) > len(tagged_current):
+                    restored_from_archive.append((name, len(tagged_current), len(merged_country_items)))
+                all_items.extend(merged_country_items)
+
+            archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + all_items[-len(merged_country_items):])
         except Exception as e:
             print('Error fetching', name, e, file=sys.stderr)
             fallback_items = previous_by_code.get(cc, [])
             if fallback_items:
                 print(f'  Using fallback from previous dataset for {name}: {len(fallback_items)} items')
                 all_items.extend(fallback_items)
+                archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + fallback_items)
+            elif archive_by_code.get(cc):
+                archived = dedupe(archive_by_code.get(cc, []))
+                print(f'  Using fallback from archive for {name}: {len(archived)} items')
+                all_items.extend(archived)
             failed_countries.append(name)
 
         time.sleep(1.2 + random.uniform(0.0, 0.6))
@@ -276,11 +327,15 @@ def main():
     if preserved_countries:
         summary = ', '.join([f'{name}({current}->{merged})' for name, current, merged in preserved_countries])
         print('Countries merged with previous dataset to preserve known hits:', summary)
+    if restored_from_archive:
+        summary = ', '.join([f'{name}({current}->{merged})' for name, current, merged in restored_from_archive])
+        print('Countries restored using long-term archive:', summary)
     if failed_countries:
         print('Countries with fetch failures (fallback used when available):', ', '.join(failed_countries), file=sys.stderr)
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
+    save_archive_items_by_code(archive_by_code)
     print('Wrote', OUT_FILE)
 
 if __name__ == '__main__':
