@@ -51,8 +51,32 @@ REQUEST_TIMEOUT_SECONDS = 180
 
 COUNTRY_NAME_BY_CODE = {code: name for name, code in COUNTRIES.items()}
 
+COUNTRY_KEYWORD_REGEX = {
+    'DE': r'hofladen|bauernladen|landladen|direktvermarkt',
+    'FR': r'vente directe|magasin de ferme|producteur|ferme',
+    'IT': r'vendita diretta|fattoria|azienda agricola|spaccio agricolo',
+    'ES': r'venta directa|tienda de granja|granja|agricola',
+    'GB': r'farm shop|farmshop|farm store|pick your own',
+}
+
+
+def country_specific_overpass_clauses(cc):
+    keyword = COUNTRY_KEYWORD_REGEX.get(cc)
+    if not keyword:
+        return ''
+
+    return f"""
+    node["name"~"{keyword}",i](area.searchArea);
+    way["name"~"{keyword}",i](area.searchArea);
+    relation["name"~"{keyword}",i](area.searchArea);
+    node["description"~"{keyword}",i](area.searchArea);
+    way["description"~"{keyword}",i](area.searchArea);
+    relation["description"~"{keyword}",i](area.searchArea);
+"""
+
 def build_query(cc):
     # Query nodes/ways/relations with farmshop-like tags.
+    extra = country_specific_overpass_clauses(cc)
     return f"""
 [out:json][timeout:60];
 area["ISO3166-1"="{cc}"]->.searchArea;
@@ -66,6 +90,7 @@ area["ISO3166-1"="{cc}"]->.searchArea;
     node["amenity"="marketplace"](area.searchArea);
     way["amenity"="marketplace"](area.searchArea);
     relation["amenity"="marketplace"](area.searchArea);
+{extra}
 );
 out center;"""
 
