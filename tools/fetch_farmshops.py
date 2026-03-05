@@ -138,6 +138,32 @@ area["ISO3166-1"="{cc}"][admin_level=2]->.searchArea;
 out center;"""
 
 
+def build_relief_queries(cc):
+    if cc not in {'DE', 'FR'}:
+        return []
+
+    return [
+        f"""
+[out:json][timeout:60];
+area["ISO3166-1"="{cc}"][admin_level=2]->.searchArea;
+(
+    node["shop"~"farm|farm_shop"](area.searchArea);
+    node["produce"](area.searchArea);
+);
+out center 5000;""",
+        f"""
+[out:json][timeout:60];
+area["ISO3166-1"="{cc}"][admin_level=2]->.searchArea;
+(
+    way["shop"~"farm|farm_shop"](area.searchArea);
+    relation["shop"~"farm|farm_shop"](area.searchArea);
+    way["produce"](area.searchArea);
+    relation["produce"](area.searchArea);
+);
+out center 5000;""",
+    ]
+
+
 def normalize_token(value):
     return (value or '').strip().lower()
 
@@ -322,6 +348,20 @@ def _fetch_overpass_filtered(query, cc):
 
 def fetch_for_country(cc):
     print('Querying', cc)
+
+    relief_collected = []
+    for idx, query in enumerate(build_relief_queries(cc), start=1):
+        print(f'  RELIEF query tier {idx} for {cc}')
+        try:
+            tier_items = _fetch_overpass_filtered(query, cc)
+        except Exception as error:
+            print(f'  Relief tier {idx} failed for {cc}: {error}', file=sys.stderr)
+            continue
+        if tier_items:
+            relief_collected = dedupe(relief_collected + tier_items)
+
+    if relief_collected:
+        return relief_collected
 
     primary = _fetch_overpass_filtered(build_query(cc), cc)
     if primary:
