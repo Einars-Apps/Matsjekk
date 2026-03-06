@@ -37,13 +37,13 @@
     "id": "immigrant_osm_node_11065947091",
     "name": "Alanya Import",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Troms",
+    "municipality": "Tromso",
     "products": [
       "International food",
       "Imported goods"
     ],
-    "website": null,
+    "website": "https://www.facebook.com/alanyaimport/",
     "lat": 69.6468623,
     "lon": 18.9530489,
     "address": null,
@@ -66,6 +66,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/7434439434"
+  },
+  {
+    "id": "immigrant_osm_node_3631770354",
+    "name": "Asia Ha As / Lille Asia Nøtterøy",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.lilleasia.info",
+    "lat": 59.226848,
+    "lon": 10.406882,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3631770354"
   },
   {
     "id": "immigrant_osm_node_7342495146",
@@ -357,6 +374,40 @@
     "source": "https://www.google.com/maps/search/?api=1&query=Asker+Supermarked+Asker"
   },
   {
+    "id": "immigrant_osm_node_3655282221",
+    "name": "Batat import",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9125093,
+    "lon": 10.7644966,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3655282221"
+  },
+  {
+    "id": "immigrant_osm_node_3768066726",
+    "name": "Bazaar",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9613444,
+    "lon": 10.8819687,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3768066726"
+  },
+  {
     "id": "immigrant_osm_node_4630212292",
     "name": "Buran Asia Mat",
     "country": "Norway",
@@ -457,6 +508,57 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/12728093641"
+  },
+  {
+    "id": "immigrant_osm_node_1652908193",
+    "name": "Global Food",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.389112,
+    "lon": 5.330892,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1652908193"
+  },
+  {
+    "id": "immigrant_osm_node_6394787080",
+    "name": "Global food",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://globalfood.no/",
+    "lat": 60.473892,
+    "lon": 5.335605,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6394787080"
+  },
+  {
+    "id": "immigrant_osm_node_3679328228",
+    "name": "Green Asian market",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.947332,
+    "lon": 11.0101946,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3679328228"
   },
   {
     "id": "immigrant_osm_node_2813795390",
@@ -610,6 +712,40 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/3326662824"
+  },
+  {
+    "id": "immigrant_osm_node_10616577706",
+    "name": "Lille Huong Asia mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2660529,
+    "lon": 10.4091066,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10616577706"
+  },
+  {
+    "id": "immigrant_osm_node_13431310702",
+    "name": "My Grønnsaker og Asiatiske Gai Thi Nguyen",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2683474,
+    "lon": 10.4144235,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13431310702"
   },
   {
     "id": "immigrant_osm_node_7070302520",
@@ -780,6 +916,40 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/7340698216"
+  },
+  {
+    "id": "immigrant_osm_node_840560767",
+    "name": "Sultan",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.937966,
+    "lon": 10.7642296,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/840560767"
+  },
+  {
+    "id": "immigrant_osm_node_8893227545",
+    "name": "Sultan marked",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Lillestrom",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/sultanmarked/",
+    "lat": 59.949266,
+    "lon": 11.009671,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8893227545"
   },
   {
     "id": "immigrant_osm_node_7340698485",

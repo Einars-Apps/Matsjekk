@@ -20,7 +20,7 @@
     },
     {
       "name": "Sultan",
-      "status": "pending_locations"
+      "status": "verified_partial"
     },
     {
       "name": "Global Food",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Alanya",
-      "status": "pending_locations"
+      "status": "verified"
     }
   ],
   "stores": [
@@ -65,6 +65,51 @@
       "address": "Tore Hals Mejdells vei, Roa, Oslo",
       "category": "Innvandrerbutikk",
       "source": "https://www.openstreetmap.org/node/12728093641"
+    },
+    {
+      "id": "immigrant_seed_sultan_marked_strommen",
+      "name": "Sultan Marked",
+      "country": "Norway",
+      "region": "Akershus",
+      "municipality": "Lillestrom",
+      "products": [
+        "International food",
+        "Imported goods"
+      ],
+      "website": "https://www.facebook.com/sultanmarked/",
+      "lat": 59.949266,
+      "lon": 11.009671,
+      "address": "Stoperiveien, Strommen",
+      "category": "Innvandrerbutikk",
+      "source": "https://www.openstreetmap.org/node/8893227545"
+    },
+    {
+      "id": "immigrant_seed_alanya_import_tromso",
+      "name": "Alanya Import",
+      "country": "Norway",
+      "region": "Troms",
+      "municipality": "Tromso",
+      "products": [
+        "International food",
+        "Imported goods"
+      ],
+      "website": "https://www.facebook.com/alanyaimport/",
+      "lat": 69.6468623,
+      "lon": 18.9530489,
+      "address": "Fiskergata, Tromso",
+      "category": "Innvandrerbutikk",
+      "source": "https://www.openstreetmap.org/node/11065947091"
+    }
+  ],
+  "pending_stores": [
+    {
+      "name": "Sultan Marked Alta",
+      "country": "Norway",
+      "region": "Finnmark",
+      "municipality": "Alta",
+      "website": "https://www.facebook.com/sultanmarkedalta/",
+      "source": "https://www.facebook.com/sultanmarkedalta/",
+      "note": "Awaiting exact coordinates before map inclusion"
     }
   ]
 }

@@ -252,6 +252,20 @@ def fill_missing_admin_fields(items):
                 item["municipality"] = "Oslo"
                 item["region"] = "Oslo"
 
+        if name in {"sultan marked", "sultan marked strommen"} and lat is not None and lon is not None:
+            if abs(lat - 59.949266) < 0.01 and abs(lon - 11.009671) < 0.01:
+                item["municipality"] = "Lillestrom"
+                item["region"] = "Akershus"
+                if not item.get("website"):
+                    item["website"] = "https://www.facebook.com/sultanmarked/"
+
+        if name == "alanya import" and lat is not None and lon is not None:
+            if abs(lat - 69.6468623) < 0.01 and abs(lon - 18.9530489) < 0.01:
+                item["municipality"] = "Tromso"
+                item["region"] = "Troms"
+                if not item.get("website"):
+                    item["website"] = "https://www.facebook.com/alanyaimport/"
+
         if not item.get("municipality"):
             item["municipality"] = None
         if not item.get("region"):
