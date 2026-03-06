@@ -1,0 +1,70 @@
+{
+  "policy": {
+    "description": "Verified chain locations for immigrant shops in Norway.",
+    "required_fields": [
+      "name",
+      "lat",
+      "lon",
+      "source"
+    ],
+    "verification_requirements": [
+      "source must point to OSM/Nominatim result or official chain location page",
+      "coordinates must match source location",
+      "municipality/region should be filled when confidently known"
+    ]
+  },
+  "chains": [
+    {
+      "name": "Fudi",
+      "status": "verified"
+    },
+    {
+      "name": "Sultan",
+      "status": "pending_locations"
+    },
+    {
+      "name": "Global Food",
+      "status": "pending_locations"
+    },
+    {
+      "name": "Alanya",
+      "status": "pending_locations"
+    }
+  ],
+  "stores": [
+    {
+      "id": "immigrant_seed_fudi_asker",
+      "name": "Fudi",
+      "country": "Norway",
+      "region": "Akershus",
+      "municipality": "Asker",
+      "products": [
+        "International food",
+        "Imported goods"
+      ],
+      "website": "https://www.fudi.no",
+      "lat": 59.8556786,
+      "lon": 10.490474,
+      "address": "Holmengata, Asker",
+      "category": "Innvandrerbutikk",
+      "source": "https://www.openstreetmap.org/node/11854179869"
+    },
+    {
+      "id": "immigrant_seed_fudi_oslo_roa",
+      "name": "Fudi",
+      "country": "Norway",
+      "region": "Oslo",
+      "municipality": "Oslo",
+      "products": [
+        "International food",
+        "Imported goods"
+      ],
+      "website": "https://www.fudi.no",
+      "lat": 59.9462184,
+      "lon": 10.6430174,
+      "address": "Tore Hals Mejdells vei, Roa, Oslo",
+      "category": "Innvandrerbutikk",
+      "source": "https://www.openstreetmap.org/node/12728093641"
+    }
+  ]
+}

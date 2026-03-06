@@ -3,7 +3,7 @@
 
 Sources:
 - OpenStreetMap Overpass (name + shop tag filtering)
-- Nominatim lookups for required manual seeds (Asker Supermarked, Fudi)
+- Deterministic seed file for verified chain locations
 """
 
 from __future__ import annotations
@@ -18,6 +18,7 @@ OUT_FILE = ROOT / "docs" / "data" / "immigrant_shops.json"
 EXAMPLE_FILE = ROOT / "docs" / "data" / "immigrant_shops.example.json"
 AREA_CACHE_FILE = ROOT / "docs" / "data" / "immigrant_shops_area_cache.json"
 BY_COUNTRY_DIR = ROOT / "docs" / "data" / "immigrant_shops_by_country"
+CHAIN_SEED_FILE = ROOT / "docs" / "data" / "immigrant_chain_seeds.json"
 
 OVERPASS_ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
@@ -25,19 +26,43 @@ OVERPASS_ENDPOINTS = [
     "https://overpass.kumi.systems/api/interpreter",
 ]
 
-KEYWORD_RE = (
-    "halal|bazaar|bazar|asia|asian|oriental|international|internasjonal|"
-    "import|world food|africa|afro|turkish|pakistan|arab|middle east|"
-    "polski|polish|balkan|fudi"
-)
+BASE_KEYWORDS = [
+    "halal",
+    "bazaar",
+    "bazar",
+    "asia",
+    "asian",
+    "oriental",
+    "international",
+    "internasjonal",
+    "import",
+    "world food",
+    "africa",
+    "afro",
+    "turkish",
+    "pakistan",
+    "arab",
+    "middle east",
+    "polski",
+    "polish",
+    "balkan",
+]
+
+CHAIN_KEYWORDS = ["fudi", "sultan", "global food", "alanya"]
+
+
+def _keyword_regex():
+    parts = BASE_KEYWORDS + CHAIN_KEYWORDS
+    return "|".join(parts)
+
 
 QUERY = f"""
 [out:json][timeout:120];
 area["ISO3166-1"="NO"][admin_level=2]->.searchArea;
 (
-  node["shop"~"supermarket|convenience"]["name"~"({KEYWORD_RE})",i](area.searchArea);
-  way["shop"~"supermarket|convenience"]["name"~"({KEYWORD_RE})",i](area.searchArea);
-  relation["shop"~"supermarket|convenience"]["name"~"({KEYWORD_RE})",i](area.searchArea);
+    node["shop"~"supermarket|convenience|greengrocer"]["name"~"({_keyword_regex()})",i](area.searchArea);
+    way["shop"~"supermarket|convenience|greengrocer"]["name"~"({_keyword_regex()})",i](area.searchArea);
+    relation["shop"~"supermarket|convenience|greengrocer"]["name"~"({_keyword_regex()})",i](area.searchArea);
 );
 out center tags;
 """
@@ -152,6 +177,49 @@ def add_manual_asker_items(items):
         )
 
 
+def add_verified_chain_seeds(items):
+    if not CHAIN_SEED_FILE.exists():
+        return
+
+    payload = json.loads(CHAIN_SEED_FILE.read_text(encoding="utf-8"))
+    stores = payload.get("stores", []) if isinstance(payload, dict) else []
+    if not isinstance(stores, list):
+        return
+
+    for store in stores:
+        if not isinstance(store, dict):
+            continue
+
+        lat = _to_float(store.get("lat"))
+        lon = _to_float(store.get("lon"))
+        name = (store.get("name") or "").strip()
+        source = (store.get("source") or "").strip()
+        if not name or lat is None or lon is None or not source:
+            continue
+
+        identifier = (store.get("id") or "").strip()
+        if not identifier:
+            slug = name.lower().replace(" ", "_")
+            identifier = f"immigrant_seed_{slug}_{str(lat).replace('.', '_')}_{str(lon).replace('.', '_')}"
+
+        items.append(
+            {
+                "id": identifier,
+                "name": name,
+                "country": store.get("country") or "Norway",
+                "region": store.get("region"),
+                "municipality": store.get("municipality"),
+                "products": store.get("products") or ["International food", "Imported goods"],
+                "website": _normalize_website(store.get("website")),
+                "lat": lat,
+                "lon": lon,
+                "address": store.get("address"),
+                "category": store.get("category") or "Innvandrerbutikk",
+                "source": source,
+            }
+        )
+
+
 def dedupe(items):
     seen = set()
     out = []
@@ -199,6 +267,7 @@ def main():
             items.append(item)
 
     add_manual_asker_items(items)
+    add_verified_chain_seeds(items)
     items = dedupe(items)
     fill_missing_admin_fields(items)
     items = sorted(items, key=lambda row: (row.get("name") or "").lower())
