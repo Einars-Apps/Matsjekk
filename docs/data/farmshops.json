@@ -171910,12 +171910,12 @@
     "name": "La Préale",
     "country": "Belgium",
     "region": null,
-    "municipality": "Hamois",
+    "municipality": null,
     "products": [],
     "website": "https://www.preale.be/",
     "lat": 50.3257491,
     "lon": 5.1700833,
-    "address": "Rue de la Préale"
+    "address": null
   },
   {
     "id": 11758132688,
@@ -172527,6 +172527,18 @@
     "website": "https://www.hoeve-heierveld.be",
     "lat": 50.9088663,
     "lon": 4.2331687,
+    "address": null
+  },
+  {
+    "id": 13590858487,
+    "name": "DaViculture Natur",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4793911,
+    "lon": 4.7176706,
     "address": null
   },
   {
@@ -177604,18 +177616,6 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
-  },
-  {
-    "id": 13590858487,
-    "name": "DaViculture Natur",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4793911,
-    "lon": 4.7176706,
-    "address": null
   },
   {
     "id": 326040165,
@@ -223911,6 +223911,18 @@
     "website": "https://www.huilerievigean.com",
     "lat": 46.9432968,
     "lon": 1.2206317,
+    "address": null
+  },
+  {
+    "id": 13620860904,
+    "name": "Jean Hervé",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.jeanherve.fr",
+    "lat": 46.9397002,
+    "lon": 1.2383705,
     "address": null
   },
   {
@@ -373800,7 +373812,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Botiga de Produccions Son Cart Bio",
+    "name": "Magasin des productions de Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -375633,30 +375645,6 @@
     "lat": 41.4816198,
     "lon": 2.0705102,
     "address": "Carrer de Benet Cortada"
-  },
-  {
-    "id": 13578235401,
-    "name": "Formatges Sa Roqueta",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9812516,
-    "lon": 4.0441703,
-    "address": null
-  },
-  {
-    "id": 13583403409,
-    "name": "Frutas Verduras Sara y Noelia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Pedro del Arroyo",
-    "products": [],
-    "website": null,
-    "lat": 40.8014086,
-    "lon": -4.8707355,
-    "address": "Calle Lagares"
   },
   {
     "id": 9727345,
@@ -377880,14 +377868,14 @@
   },
   {
     "id": 227832087,
-    "name": "La Piscifactoría",
+    "name": "Casa de la Góndola",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922414,
-    "lon": -3.9949771,
+    "lat": 40.8922553,
+    "lon": -3.9950025,
     "address": null
   },
   {
@@ -384575,6 +384563,18 @@
     "address": null
   },
   {
+    "id": 607025044,
+    "name": "Farm shop 607025044",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2966878,
+    "lon": 3.1240546,
+    "address": null
+  },
+  {
     "id": 607028219,
     "name": "Farm shop 607028219",
     "country": "Spain",
@@ -389396,6 +389396,18 @@
     "website": null,
     "lat": 39.9651298,
     "lon": -0.1434373,
+    "address": null
+  },
+  {
+    "id": 966844318,
+    "name": "Farm shop 966844318",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9505214,
+    "lon": -0.1328735,
     "address": null
   },
   {
@@ -396395,18 +396407,6 @@
     "address": null
   },
   {
-    "id": 1218710265,
-    "name": "Farm shop 1218710265",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9742492,
-    "lon": -0.1501333,
-    "address": null
-  },
-  {
     "id": 1219343293,
     "name": "Farm shop 1219343293",
     "country": "Spain",
@@ -398852,18 +398852,6 @@
     "website": null,
     "lat": 38.6805851,
     "lon": -0.6178285,
-    "address": null
-  },
-  {
-    "id": 1346596090,
-    "name": "Farm shop 1346596090",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.1353316,
-    "lon": -17.2951985,
     "address": null
   },
   {
@@ -401315,18 +401303,6 @@
     "address": null
   },
   {
-    "id": 1483481177,
-    "name": "Farm shop 1483481177",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.6969431,
-    "lon": -3.4344624,
-    "address": null
-  },
-  {
     "id": 1288966,
     "name": "Farm shop 1288966",
     "country": "Spain",
@@ -402852,7 +402828,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Magasin des productions de Son Cart Bio",
+    "name": "Botiga de Produccions Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -402863,39 +402839,75 @@
     "address": "Carretera de Son Bou"
   },
   {
+    "id": 13578235401,
+    "name": "Formatges Sa Roqueta",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9812516,
+    "lon": 4.0441703,
+    "address": null
+  },
+  {
+    "id": 13583403409,
+    "name": "Frutas Verduras Sara y Noelia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Pedro del Arroyo",
+    "products": [],
+    "website": null,
+    "lat": 40.8014086,
+    "lon": -4.8707355,
+    "address": "Calle Lagares"
+  },
+  {
     "id": 227832087,
-    "name": "Casa de la Góndola",
+    "name": "La Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922553,
-    "lon": -3.9950025,
+    "lat": 40.8922414,
+    "lon": -3.9949771,
     "address": null
   },
   {
-    "id": 607025044,
-    "name": "Farm shop 607025044",
+    "id": 1218710265,
+    "name": "Farm shop 1218710265",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 42.2966878,
-    "lon": 3.1240546,
+    "lat": 38.9742492,
+    "lon": -0.1501333,
     "address": null
   },
   {
-    "id": 966844318,
-    "name": "Farm shop 966844318",
+    "id": 1346596090,
+    "name": "Farm shop 1346596090",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 39.9505214,
-    "lon": -0.1328735,
+    "lat": 28.1353316,
+    "lon": -17.2951985,
+    "address": null
+  },
+  {
+    "id": 1483481177,
+    "name": "Farm shop 1483481177",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.6969431,
+    "lon": -3.4344624,
     "address": null
   },
   {
@@ -419480,6 +419492,30 @@
     "website": null,
     "lat": 54.2546927,
     "lon": -0.4664693,
+    "address": null
+  },
+  {
+    "id": 13621440840,
+    "name": "Leedham Farm shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.6442187,
+    "lon": -1.3078669,
+    "address": null
+  },
+  {
+    "id": 13621568748,
+    "name": "Station Yard Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.8880376,
+    "lon": -3.875635,
     "address": null
   },
   {
@@ -472020,7 +472056,7 @@
   },
   {
     "id": 5749811696,
-    "name": "Eggimann",
+    "name": "Burren",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -478259,6 +478295,18 @@
     "address": "Raaderstrasse"
   },
   {
+    "id": 10148377195,
+    "name": "Winiker Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Uster",
+    "products": [],
+    "website": null,
+    "lat": 47.3623992,
+    "lon": 8.7213158,
+    "address": "Gschwaderstrasse"
+  },
+  {
     "id": 10157889667,
     "name": "Hoflädeli",
     "country": "Switzerland",
@@ -479199,7 +479247,7 @@
     "name": "Bio- & Hofladen Bachmattlihof",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Wilen b. Wollerau",
     "products": [],
     "website": "https://bachmattlihof.ch/",
     "lat": 47.1971004,
@@ -480765,18 +480813,6 @@
     "lat": 46.5551017,
     "lon": 6.3778483,
     "address": "Chemin de la Prélaz"
-  },
-  {
-    "id": 11298779978,
-    "name": "Winiker Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3623791,
-    "lon": 8.7214343,
-    "address": null
   },
   {
     "id": 11306115455,
@@ -483803,18 +483839,6 @@
     "address": null
   },
   {
-    "id": 12625693407,
-    "name": "Ussichtsstübli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4548315,
-    "lon": 9.3118516,
-    "address": null
-  },
-  {
     "id": 12630675762,
     "name": "Farm shop 12630675762",
     "country": "Switzerland",
@@ -484152,7 +484176,7 @@
   },
   {
     "id": 12784088093,
-    "name": "Farm shop 12784088093",
+    "name": "Hofladen Remund",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -486004,6 +486028,114 @@
     "address": "Hauptstrasse"
   },
   {
+    "id": 13567248385,
+    "name": "Hofladen Fam. Imoberdorf",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.4860336,
+    "lon": 8.2645174,
+    "address": null
+  },
+  {
+    "id": 13569111891,
+    "name": "Farm shop 13569111891",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.852653,
+    "lon": 6.6630406,
+    "address": null
+  },
+  {
+    "id": 13577876867,
+    "name": "Ferme des Condémines",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Vuisternens-en-Ogoz",
+    "products": [],
+    "website": null,
+    "lat": 46.7072518,
+    "lon": 7.0699674,
+    "address": "Route des Condémines"
+  },
+  {
+    "id": 13590750921,
+    "name": "Ziegenhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9472165,
+    "lon": 8.6544787,
+    "address": null
+  },
+  {
+    "id": 13609407702,
+    "name": "Waldladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.008564,
+    "lon": 7.4013025,
+    "address": null
+  },
+  {
+    "id": 13611772391,
+    "name": "Garohof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://garohof.ch/",
+    "lat": 47.0316535,
+    "lon": 7.0882018,
+    "address": null
+  },
+  {
+    "id": 13614153395,
+    "name": "GLENNERHOF",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Castrisch",
+    "products": [],
+    "website": null,
+    "lat": 46.7734602,
+    "lon": 9.2146808,
+    "address": "Via da Riein"
+  },
+  {
+    "id": 13614169690,
+    "name": "Hof Isla",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7745759,
+    "lon": 9.2173291,
+    "address": null
+  },
+  {
+    "id": 13615756504,
+    "name": "Hofladen Familie Gut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4369516,
+    "lon": 8.5257419,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -487684,18 +487816,6 @@
     "address": "Dorfstrasse"
   },
   {
-    "id": 346382577,
-    "name": "Farm shop 346382577",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.3120632,
-    "lon": 6.1318219,
-    "address": null
-  },
-  {
     "id": 363679714,
     "name": "Sennerei Alpe Bel",
     "country": "Switzerland",
@@ -487718,18 +487838,6 @@
     "lat": 47.5605166,
     "lon": 8.3629947,
     "address": null
-  },
-  {
-    "id": 378371914,
-    "name": "Légumes Rossier",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Denges",
-    "products": [],
-    "website": "https://legumesrossier.com/",
-    "lat": 46.5225143,
-    "lon": 6.5402414,
-    "address": "Chemin du Monteiron"
   },
   {
     "id": 385582023,
@@ -489383,8 +489491,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.6532946,
-    "lon": 8.7837701,
+    "lat": 47.6533178,
+    "lon": 8.7838205,
     "address": null
   },
   {
@@ -492053,7 +492161,7 @@
   },
   {
     "id": 5749811696,
-    "name": "Burren",
+    "name": "Eggimann",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -492064,44 +492172,32 @@
     "address": null
   },
   {
-    "id": 13567248385,
-    "name": "Hofladen Fam. Imoberdorf",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.4860336,
-    "lon": 8.2645174,
-    "address": null
-  },
-  {
-    "id": 13569111891,
-    "name": "Farm shop 13569111891",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.852653,
-    "lon": 6.6630406,
-    "address": null
-  },
-  {
-    "id": 10148377195,
+    "id": 11298779978,
     "name": "Winiker Lädeli",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Uster",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.3623992,
-    "lon": 8.7213158,
-    "address": "Gschwaderstrasse"
+    "lat": 47.3623791,
+    "lon": 8.7214343,
+    "address": null
+  },
+  {
+    "id": 12625693407,
+    "name": "Ussichtsstübli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4548315,
+    "lon": 9.3118516,
+    "address": null
   },
   {
     "id": 12784088093,
-    "name": "Hofladen Remund",
+    "name": "Farm shop 12784088093",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
@@ -492112,88 +492208,28 @@
     "address": null
   },
   {
-    "id": 13577876867,
-    "name": "Ferme des Condémines",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Vuisternens-en-Ogoz",
-    "products": [],
-    "website": null,
-    "lat": 46.7072518,
-    "lon": 7.0699674,
-    "address": "Route des Condémines"
-  },
-  {
-    "id": 13590750921,
-    "name": "Ziegenhof",
+    "id": 346382577,
+    "name": "Farm shop 346382577",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9472165,
-    "lon": 8.6544787,
+    "lat": 46.3120632,
+    "lon": 6.1318219,
     "address": null
   },
   {
-    "id": 13609407702,
-    "name": "Waldladen",
+    "id": 378371914,
+    "name": "Légumes Rossier",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Denges",
     "products": [],
-    "website": null,
-    "lat": 47.008564,
-    "lon": 7.4013025,
-    "address": null
-  },
-  {
-    "id": 13611772391,
-    "name": "Garohof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://garohof.ch/",
-    "lat": 47.0316535,
-    "lon": 7.0882018,
-    "address": null
-  },
-  {
-    "id": 13614153395,
-    "name": "GLENNERHOF",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Castrisch",
-    "products": [],
-    "website": null,
-    "lat": 46.7734602,
-    "lon": 9.2146808,
-    "address": "Via da Riein"
-  },
-  {
-    "id": 13614169690,
-    "name": "Hof Isla",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7745759,
-    "lon": 9.2173291,
-    "address": null
-  },
-  {
-    "id": 13615756504,
-    "name": "Hofladen Familie Gut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4369516,
-    "lon": 8.5257419,
-    "address": null
+    "website": "https://legumesrossier.com/",
+    "lat": 46.5225143,
+    "lon": 6.5402414,
+    "address": "Chemin du Monteiron"
   },
   {
     "id": 477943063,
@@ -492203,8 +492239,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.6533178,
-    "lon": 8.7838205,
+    "lat": 47.6532946,
+    "lon": 8.7837701,
     "address": null
   },
   {

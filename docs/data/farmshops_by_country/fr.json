@@ -39600,6 +39600,18 @@
     "address": null
   },
   {
+    "id": 13620860904,
+    "name": "Jean Hervé",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.jeanherve.fr",
+    "lat": 46.9397002,
+    "lon": 1.2383705,
+    "address": null
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",

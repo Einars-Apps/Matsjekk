@@ -384975,6 +384975,30 @@
       "lat": 50.7224101,
       "lon": -2.1474983,
       "address": null
+    },
+    {
+      "id": 13621440840,
+      "name": "Leedham Farm shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.6442187,
+      "lon": -1.3078669,
+      "address": null
+    },
+    {
+      "id": 13621568748,
+      "name": "Station Yard Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.8880376,
+      "lon": -3.875635,
+      "address": null
     }
   ],
   "IE": [
