@@ -14693,6 +14693,32 @@
       "lon": 11.06711359999997,
       "address": "",
       "source": "https://www.lokalmat.no/produsenter/ytteroykylling-as/"
+    },
+    {
+      "id": "manual_voss_gardsslakteri_selheim_gard",
+      "name": "Voss Gardsslakteri (Selheim gard)",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Voss",
+      "products": [],
+      "website": null,
+      "lat": 60.6612556,
+      "lon": 6.5453055,
+      "address": null,
+      "source": "https://www.lokalmat.no/produsenter/voss-gardsslakteri/"
+    },
+    {
+      "id": "manual_een_gard_voss",
+      "name": "Een gard",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Voss",
+      "products": [],
+      "website": null,
+      "lat": 60.6000992,
+      "lon": 6.3502497,
+      "address": null,
+      "source": "https://www.lokalmat.no/produsenter/voss-gardsmat/"
     }
   ],
   "SE": [
@@ -455755,6 +455781,18 @@
       "website": null,
       "lat": 47.4548315,
       "lon": 9.3118516,
+      "address": null
+    },
+    {
+      "id": 9572730249,
+      "name": "Marché du centre-ville",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.lausanne.ch/vie-pratique/economie-et-commerces/marches-et-commerce-itinerant/marches-lausannois/marche-du-centre-ville.html",
+      "lat": 46.5231787,
+      "lon": 6.6326505,
       "address": null
     }
   ],

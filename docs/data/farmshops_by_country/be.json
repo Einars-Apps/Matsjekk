@@ -288,18 +288,6 @@
     "address": "Chaussée de Dinant"
   },
   {
-    "id": 2744852856,
-    "name": "Het Primeurke",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2514826,
-    "lon": 5.5455429,
-    "address": null
-  },
-  {
     "id": 2831317521,
     "name": "La Ferme Loly",
     "country": "Belgium",
@@ -9418,6 +9406,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 2744852856,
+    "name": "Het Primeurke",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2514826,
+    "lon": 5.5455429,
+    "address": null
   },
   {
     "id": 326040165,

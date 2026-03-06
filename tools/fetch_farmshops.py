@@ -93,6 +93,42 @@ NORWAY_MUNICIPALITY_ALIASES = {
 
 NORWAY_LOCKED_MUNICIPALITIES = {'Ulvik', 'Voss', 'Asker'}
 
+NORWAY_NAME_OVERRIDES = {
+    'ulvik frukt & cideri': {'municipality': 'Ulvik', 'region': 'Vestland'},
+    'ulvik frukt&cideri': {'municipality': 'Ulvik', 'region': 'Vestland'},
+    'voss gardsslakteri (selheim gard)': {'municipality': 'Voss', 'region': 'Vestland'},
+    'een gard': {'municipality': 'Voss', 'region': 'Vestland'},
+}
+
+NORWAY_MANUAL_SEEDS = [
+    {
+        'id': 'manual_voss_gardsslakteri_selheim_gard',
+        'name': 'Voss Gardsslakteri (Selheim gard)',
+        'country': 'Norway',
+        'region': 'Vestland',
+        'municipality': 'Voss',
+        'products': [],
+        'website': None,
+        'lat': 60.6612556,
+        'lon': 6.5453055,
+        'address': None,
+        'source': 'https://www.lokalmat.no/produsenter/voss-gardsslakteri/',
+    },
+    {
+        'id': 'manual_een_gard_voss',
+        'name': 'Een gard',
+        'country': 'Norway',
+        'region': 'Vestland',
+        'municipality': 'Voss',
+        'products': [],
+        'website': None,
+        'lat': 60.6000992,
+        'lon': 6.3502497,
+        'address': None,
+        'source': 'https://www.lokalmat.no/produsenter/voss-gardsmat/',
+    },
+]
+
 
 def country_specific_overpass_clauses(cc):
     keyword = COUNTRY_KEYWORD_REGEX.get(cc)
@@ -503,8 +539,22 @@ def _normalize_norway_municipalities(items):
     return normalized
 
 
+def _apply_norway_name_overrides(items):
+    adjusted = []
+    for item in items:
+        out = dict(item)
+        key = _normalized_name(out.get('name'))
+        override = NORWAY_NAME_OVERRIDES.get(key)
+        if override:
+            out['municipality'] = override.get('municipality')
+            if override.get('region'):
+                out['region'] = override.get('region')
+        adjusted.append(out)
+    return adjusted
+
+
 def _apply_norway_municipality_policy(current_items, previous_items, archive_items):
-    current = _normalize_norway_municipalities(current_items)
+    current = _apply_norway_name_overrides(_normalize_norway_municipalities(current_items))
     previous = _normalize_norway_municipalities(previous_items)
     archive = _normalize_norway_municipalities(archive_items)
 
@@ -534,8 +584,9 @@ def _apply_norway_municipality_policy(current_items, previous_items, archive_ite
             item['region'] = locked.get('region')
 
     # Ensure locked municipality items are preserved in final output.
-    merged = dedupe(current + locked_seed_items)
-    return _normalize_norway_municipalities(merged)
+    merged = dedupe(current + locked_seed_items + NORWAY_MANUAL_SEEDS)
+    merged = _normalize_norway_municipalities(merged)
+    return _apply_norway_name_overrides(merged)
 
 
 def split_by_country_code(items):
