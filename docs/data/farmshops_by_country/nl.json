@@ -10062,42 +10062,6 @@
     "address": null
   },
   {
-    "id": 721331835,
-    "name": "boerderijwinkel de kolke",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1742476,
-    "lon": 6.1334132,
-    "address": null
-  },
-  {
-    "id": 9083859685,
-    "name": "Farm shop 9083859685",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1168265,
-    "lon": 4.6093764,
-    "address": null
-  },
-  {
-    "id": 1162795949,
-    "name": "Farm shop 1162795949",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.1925006,
-    "lon": 6.8447366,
-    "address": null
-  },
-  {
     "id": 61774324,
     "name": "Riny van Kessel Groente & Fruit",
     "country": "Netherlands",
@@ -19432,5 +19396,41 @@
     "lat": 52.356054,
     "lon": 4.8949678,
     "address": "Albert Cuypstraat"
+  },
+  {
+    "id": 721331835,
+    "name": "boerderijwinkel de kolke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1742476,
+    "lon": 6.1334132,
+    "address": null
+  },
+  {
+    "id": 9083859685,
+    "name": "Farm shop 9083859685",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1168265,
+    "lon": 4.6093764,
+    "address": null
+  },
+  {
+    "id": 1162795949,
+    "name": "Farm shop 1162795949",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.1925006,
+    "lon": 6.8447366,
+    "address": null
   }
 ]

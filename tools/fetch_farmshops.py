@@ -13,6 +13,7 @@ import random
 import sys
 import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -53,6 +54,11 @@ REQUEST_TIMEOUT_SECONDS = 180
 MAX_ARCHIVE_ITEMS_PER_COUNTRY = 7000
 
 COUNTRY_NAME_BY_CODE = {code: name for name, code in COUNTRIES.items()}
+
+LOKALMAT_API_BASE = 'https://api.lokalmat.no/producers'
+LOKALMAT_PAGE_SIZE = 200
+LOKALMAT_MODE_LIST = 1
+LOKALMAT_MODE_MAP = 3
 
 COUNTRY_KEYWORD_REGEX = {
     'DE': r'hofladen|bauernladen|landladen|direktvermarkt',
@@ -452,12 +458,163 @@ def write_country_slices(items):
     summary = ', '.join([f'{cc}:{len(grouped.get(cc, []))}' for cc in sorted(expected_codes)])
     print('Wrote country slices:', summary)
 
+
+def _looks_valid_coordinate(value):
+    try:
+        parsed = float(value)
+    except (TypeError, ValueError):
+        return False
+    return parsed != 0.0
+
+
+def _to_float_or_none(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _normalize_url(value):
+    raw = (value or '').strip()
+    if not raw:
+        return None
+    parsed = urlparse(raw)
+    if parsed.scheme:
+        return raw
+    return f'https://{raw}'
+
+
+def _extract_county_name(county):
+    if isinstance(county, dict):
+        return (county.get('name') or '').strip() or None
+    if isinstance(county, str):
+        return county.strip() or None
+    return None
+
+
+def _extract_products(record):
+    products = []
+    for category in record.get('productCategoriesData') or []:
+        if not isinstance(category, dict):
+            continue
+        attributes = category.get('attributes') or {}
+        name = (attributes.get('name') or '').strip()
+        if name:
+            products.append(name)
+    return products
+
+
+def _fetch_lokalmat_page(mode, page):
+    params = {
+        'mode': mode,
+        'page': page,
+        'size': LOKALMAT_PAGE_SIZE,
+        'orderBy': 'displayName',
+        'status[0]': 'approved',
+    }
+    response = requests.get(LOKALMAT_API_BASE, params=params, timeout=REQUEST_TIMEOUT_SECONDS)
+    response.raise_for_status()
+    payload = response.json()
+    result = payload.get('result') if isinstance(payload, dict) else None
+    if not isinstance(result, dict):
+        return [], 0
+
+    data = result.get('data')
+    count = result.get('count')
+    if not isinstance(data, list):
+        data = []
+    if not isinstance(count, int):
+        count = 0
+    return data, count
+
+
+def _fetch_all_lokalmat_records(mode):
+    records = []
+    page = 0
+    total_count = None
+    while True:
+        data, count = _fetch_lokalmat_page(mode, page)
+        if total_count is None:
+            total_count = count
+        if not data:
+            break
+        records.extend(data)
+        if len(records) >= total_count:
+            break
+        page += 1
+        time.sleep(0.1)
+    return records
+
+
+def fetch_lokalmat_producers():
+    print('Fetching Lokalmat producers via API')
+    list_records = _fetch_all_lokalmat_records(LOKALMAT_MODE_LIST)
+    map_records = _fetch_all_lokalmat_records(LOKALMAT_MODE_MAP)
+
+    list_by_id = {}
+    for record in list_records:
+        producer_id = record.get('id')
+        if producer_id is not None:
+            list_by_id[producer_id] = record
+
+    map_by_id = {}
+    for record in map_records:
+        producer_id = record.get('id')
+        if producer_id is not None:
+            map_by_id[producer_id] = record
+
+    merged = []
+    for producer_id, list_record in list_by_id.items():
+        map_record = map_by_id.get(producer_id, {})
+        name = (list_record.get('displayName') or map_record.get('displayName') or '').strip()
+        if not name:
+            continue
+
+        latitude = map_record.get('latitude')
+        longitude = map_record.get('longitude')
+        if not (_looks_valid_coordinate(latitude) and _looks_valid_coordinate(longitude)):
+            continue
+
+        visiting_address = list_record.get('addressVisiting') or {}
+        if not isinstance(visiting_address, dict):
+            visiting_address = {}
+
+        addresses = visiting_address.get('addresses') or []
+        address = addresses[0] if isinstance(addresses, list) and addresses else None
+        municipality = (visiting_address.get('postalPlace') or '').strip() or None
+        county = _extract_county_name(list_record.get('county'))
+        slug = (list_record.get('slug') or map_record.get('slug') or '').strip()
+
+        merged.append({
+            'id': f'lokalmat_{producer_id}',
+            'name': name,
+            'country': 'Norway',
+            'region': county,
+            'municipality': municipality,
+            'products': _extract_products(list_record),
+            'website': _normalize_url(list_record.get('website')),
+            'lat': _to_float_or_none(latitude),
+            'lon': _to_float_or_none(longitude),
+            'address': address,
+            'source': f'https://www.lokalmat.no/produsenter/{slug}/' if slug else None,
+        })
+
+    print(f'Fetched {len(merged)} Lokalmat producers with coordinates')
+    return merged
+
 def main():
     previous_by_code = load_previous_items_by_code()
     archive_by_code = load_archive_items_by_code()
     country_list = selected_countries()
 
     print('Countries selected:', ', '.join([f'{name}({code})' for name, code in country_list]))
+
+    lokalmat_items = []
+    if any(cc == 'NO' for _, cc in country_list):
+        try:
+            lokalmat_items = fetch_lokalmat_producers()
+        except Exception as error:
+            print(f'Failed to fetch Lokalmat producers: {error}', file=sys.stderr)
 
     all_items = []
     failed_countries = []
@@ -467,6 +624,8 @@ def main():
         try:
             items = fetch_for_country(cc)
             tagged_current = tag_country(items, name)
+            if cc == 'NO' and lokalmat_items:
+                tagged_current = dedupe(tagged_current + lokalmat_items)
             previous_items = previous_by_code.get(cc, [])
             archive_items = archive_by_code.get(cc, [])
             if previous_items:

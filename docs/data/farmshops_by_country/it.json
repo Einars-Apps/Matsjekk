@@ -12895,7 +12895,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 45.9419076,
+    "lat": 45.9418527,
     "lon": 12.7221684,
     "address": null
   },
@@ -60717,6 +60717,18 @@
     "website": null,
     "lat": 44.2689637,
     "lon": 11.7613638,
+    "address": null
+  },
+  {
+    "id": 30377558,
+    "name": "Farm shop 30377558",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.9419076,
+    "lon": 12.7221684,
     "address": null
   }
 ]
