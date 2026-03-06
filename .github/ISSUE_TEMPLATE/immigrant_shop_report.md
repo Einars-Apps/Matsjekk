@@ -1,23 +1,23 @@
 ---
-name: Farmshop listing report (moderated)
-about: Report an entry that should be removed or corrected
-title: '[Report] <Place name>'
+name: Immigrant shop listing report (moderated)
+about: Report an immigrant shop entry that should be removed or corrected
+title: '[Report] <Shop name>'
 labels: submission
 assignees: ''
 ---
 
-Use this template to report an incorrect listing. This always goes through manual review before any change.
+Use this template to report an incorrect immigrant shop listing. This always goes through manual review before any change.
 
 Required fields: `name`, `reason`.
 Recommended fields: `address`, `website`.
 
 ```yaml
-name: "Farm shop 123456"
+name: "Shop name"
 country_code: "NO"
-reason: "Generic placeholder entry, not a real farm shop"
+reason: "Why this listing is wrong"
+address: "Optional address"
+website: "Optional website"
 ```
-
-Optional: add links/screenshots proving the issue.
 
 Moderation rules:
 - If there is doubt, verify against the official website.

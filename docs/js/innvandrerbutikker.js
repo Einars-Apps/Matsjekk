@@ -1,24 +1,24 @@
 // Farmshops client: filters, map, route search and Google Maps area search
 (async function () {
   const dataUrls = [
-    'data/farmshops.json',
-    '/data/farmshops.json',
-    '../../docs/data/farmshops.json',
+    'data/immigrant_shops.json',
+    '/data/immigrant_shops.json',
+    '../../docs/data/immigrant_shops.json',
   ];
   const fallbackUrls = [
-    'data/farmshops.example.json',
-    '/data/farmshops.example.json',
-    '../../docs/data/farmshops.example.json',
+    'data/immigrant_shops.example.json',
+    '/data/immigrant_shops.example.json',
+    '../../docs/data/immigrant_shops.example.json',
   ];
   const areaCacheUrls = [
-    'data/farmshops_area_cache.json',
-    '/data/farmshops_area_cache.json',
-    '../../docs/data/farmshops_area_cache.json',
+    'data/immigrant_shops_area_cache.json',
+    '/data/immigrant_shops_area_cache.json',
+    '../../docs/data/immigrant_shops_area_cache.json',
   ];
   const countrySliceBasePaths = [
-    'data/farmshops_by_country',
-    '/data/farmshops_by_country',
-    '../../docs/data/farmshops_by_country',
+    'data/immigrant_shops_by_country',
+    '/data/immigrant_shops_by_country',
+    '../../docs/data/immigrant_shops_by_country',
   ];
   let activeFiltered = [];
   let filterRunId = 0;
@@ -32,7 +32,7 @@
   const COUNTRY_INITIAL_PREVIEW_LIMIT_DESKTOP = 500;
   let loadedScopeCountryCode = '';
   let loadedScopeIsPreview = false;
-  const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_farmshops_locality_cache_v1';
+  const LOCALITY_CACHE_STORAGE_KEY = 'matsjekk_immigrant_shops_locality_cache_v1';
   const LOCALITY_CACHE_MAX_AREAS = 60;
   const LOCALITY_CACHE_MAX_ITEMS_PER_AREA = 120;
 
@@ -452,13 +452,13 @@
   const ENABLE_LIVE_ENRICHMENT = false;
   const OVERPASS_FETCH_TIMEOUT_MS = 5500;
 
-  const LANGUAGE_STORAGE_KEY = 'matsjekk_farmshops_lang';
+  const LANGUAGE_STORAGE_KEY = 'matsjekk_immigrant_shops_lang';
   const SUPPORTED_LANGUAGES = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
   const PAGE_TRANSLATIONS = {
     nb: {
       languageLabel: 'Språk',
-      pageTitle: 'Gårdsbutikker',
-      introText: 'Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
+      pageTitle: 'Innvandrerbutikker',
+      introText: 'Finn butikker som importerer varer fra andre land og tradisjoner. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
       topHomeTab: 'Hjem',
       topFarmshopsTab: 'Gårdsbutikker',
       topImmigrantTab: 'Innvandrerbutikker',
@@ -481,10 +481,10 @@
       countryPlaceholder: 'Velg land',
       regionPlaceholder: 'Velg fylke/region',
       municipalityPlaceholder: 'Velg kommune',
-      resultsHeadingDefault: 'Gårdsbutikker nær deg',
-      nearbyHeadingPrefix: 'Gårdsbutikker nær deg',
+      resultsHeadingDefault: 'Innvandrerbutikker nær deg',
+      nearbyHeadingPrefix: 'Innvandrerbutikker nær deg',
       suggestionHeading: 'Foreslå nytt sted',
-      suggestionIntro: 'Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.',
+      suggestionIntro: 'Mangler det en innvandrerbutikk? Send inn navn, kommune og land til moderering.',
       suggestNameLabel: 'Navn',
       suggestMunicipalityLabel: 'Kommune',
       suggestCountryLabel: 'Land',
@@ -504,7 +504,7 @@
       reportReasonLabel: 'Hva er feil?',
       reportAddressLabel: 'Adresse (hvis kjent)',
       reportWebsiteLabel: 'Hjemmeside (hvis kjent)',
-      reportNamePlaceholder: 'F.eks. Farm shop 12345',
+      reportNamePlaceholder: 'F.eks. Butikknavn',
       reportReasonPlaceholder: 'Kort begrunnelse',
       reportAddressPlaceholder: 'F.eks. Gate 1, Poststed',
       reportWebsitePlaceholder: 'https://...',
@@ -512,12 +512,12 @@
       reportMissingFields: 'Fyll inn stedsnavn og begrunnelse før innsending.',
       reportOpeningIssue: 'Åpner GitHub-issue for moderering ...',
       quickReportBtn: 'Rapporter',
-      quickReportDefaultReason: 'Virker ikke som et faktisk gårdsutsalg.',
+      quickReportDefaultReason: 'Virker ikke som en faktisk innvandrerbutikk.',
     },
     en: {
       languageLabel: 'Language',
-      pageTitle: 'Farm Shops',
-      introText: 'Find local producers and farm shops. Filter by country → county/region → municipality, search products, and plan routes.',
+      pageTitle: 'Immigrant Shops',
+      introText: 'Find stores that import goods from other countries and traditions. Filter by country → county/region → municipality, search products, and plan routes.',
       topHomeTab: 'Home',
       topFarmshopsTab: 'Farm Shops',
       topImmigrantTab: 'Immigrant Shops',
@@ -540,10 +540,10 @@
       countryPlaceholder: 'Select country',
       regionPlaceholder: 'Select county/region',
       municipalityPlaceholder: 'Select municipality',
-      resultsHeadingDefault: 'Farm shops near you',
-      nearbyHeadingPrefix: 'Farm shops near you',
+      resultsHeadingDefault: 'Immigrant shops near you',
+      nearbyHeadingPrefix: 'Immigrant shops near you',
       suggestionHeading: 'Suggest a missing place',
-      suggestionIntro: 'Missing a farm outlet? Submit name, municipality and country for moderation.',
+      suggestionIntro: 'Missing an immigrant shop? Submit name, municipality and country for moderation.',
       suggestNameLabel: 'Name',
       suggestMunicipalityLabel: 'Municipality',
       suggestCountryLabel: 'Country',
@@ -563,7 +563,7 @@
       reportReasonLabel: 'What is wrong?',
       reportAddressLabel: 'Address (if known)',
       reportWebsiteLabel: 'Website (if known)',
-      reportNamePlaceholder: 'E.g. Farm shop 12345',
+      reportNamePlaceholder: 'E.g. Shop name',
       reportReasonPlaceholder: 'Short reason',
       reportAddressPlaceholder: 'E.g. Street 1, City',
       reportWebsitePlaceholder: 'https://...',
@@ -571,7 +571,7 @@
       reportMissingFields: 'Please fill in place name and reason.',
       reportOpeningIssue: 'Opening GitHub issue for moderation ...',
       quickReportBtn: 'Report',
-      quickReportDefaultReason: 'Does not appear to be a real farm shop.',
+      quickReportDefaultReason: 'Does not appear to be a real immigrant shop.',
     },
   };
   let currentPageLanguage = 'nb';
@@ -2263,13 +2263,13 @@
       `municipality: ${yamlQuoted(municipality)}`,
       `address: ${yamlQuoted(address || '')}`,
       `website: ${yamlQuoted(website || '')}`,
-      'notes: "Submitted from gardsbutikker page"',
+      'notes: "Submitted from innvandrerbutikker page"',
       '```',
       '',
       'Verification links (optional):',
       '- '
     ].join('\n');
-    return buildIssueUrl('farmshop_suggestion.md', issueTitle, yamlBody);
+    return buildIssueUrl('immigrant_shop_suggestion.md', issueTitle, yamlBody);
   }
 
   function createReportIssueUrl(placeName, reason, selectedCountryCode, address, website) {
@@ -2285,7 +2285,7 @@
       '',
       'Please review this listing before any change is merged.',
     ].join('\n');
-    return buildIssueUrl('farmshop_report.md', issueTitle, yamlBody);
+    return buildIssueUrl('immigrant_shop_report.md', issueTitle, yamlBody);
   }
 
   function renderList(filtered) {
@@ -2570,14 +2570,7 @@
   }
 
   function buildSeedFallbackDataset() {
-    return Object.entries(TRUSTED_SEEDS_BY_COUNTRY)
-      .flatMap(([countryCode, seeds]) => (seeds || []).map((entry) => {
-        const shop = toSeedShop(entry, countryNameByCode(countryCode));
-        return {
-          ...shop,
-          countryCode,
-        };
-      }));
+    return [];
   }
 
   function bboxArea(box) {
@@ -3769,7 +3762,7 @@ out center tags 150;
     shops = buildSeedFallbackDataset();
     loadedScopeCountryCode = '';
     loadedScopeIsPreview = false;
-    setMapStatus('Datakilde utilgjengelig. Viser kvalitetssikrede fallback-treff.');
+    setMapStatus('Datakilde utilgjengelig. Ingen separate innvandrerbutikk-data funnet ennå.');
   }
 
   try {

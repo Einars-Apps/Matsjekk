@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-maps-api-key" content="AIzaSyCNqJylH-TK3UEeLB8m5HylyfpVeG5iqBc">
-  <title>Gårdsbutikker — Mat Sjekk</title>
+  <title>Innvandrerbutikker — Mat Sjekk</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:0}
@@ -96,8 +96,8 @@
           <option value="sv">Svenska</option>
         </select>
       </div>
-      <h1 id="pageTitle">Gårdsbutikker</h1>
-      <p id="introText">Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+      <h1 id="pageTitle">Innvandrerbutikker</h1>
+      <p id="introText">Finn butikker som importerer varer fra andre land og tradisjoner. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
       <nav class="top-tabs" aria-label="Hovednavigasjon">
         <a id="topHomeTab" href="index.html">Hjem</a>
         <a id="topFarmshopsTab" href="gardsbutikker.html">Gårdsbutikker</a>
@@ -150,7 +150,7 @@
     <div id="mapStatus" class="map-status" aria-live="polite"></div>
 
     <div class="result-header">
-      <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
+      <h2 id="resultsHeading">Innvandrerbutikker nær deg</h2>
     </div>
     <div class="content-grid">
       <div class="list" id="list"></div>
@@ -161,7 +161,7 @@
         </div>
         <section class="feedback-panel" aria-labelledby="suggestionHeading">
           <h3 id="suggestionHeading">Foreslå nytt sted</h3>
-          <p id="suggestionIntro">Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.</p>
+          <p id="suggestionIntro">Mangler det en innvandrerbutikk? Send inn navn, kommune og land til moderering.</p>
           <div class="feedback-field">
             <label for="suggestName" id="suggestNameLabel">Navn</label>
             <input id="suggestName" type="text" placeholder="F.eks. Solheim gård" />
@@ -190,7 +190,7 @@
           <p id="reportIntro">Rapporter steder som ikke bør være listet. Endringer gjøres først etter manuell kontroll.</p>
           <div class="feedback-field">
             <label for="reportName" id="reportNameLabel">Stedsnavn</label>
-            <input id="reportName" type="text" placeholder="F.eks. Farm shop 12345" />
+            <input id="reportName" type="text" placeholder="F.eks. Butikknavn" />
           </div>
           <div class="feedback-field">
             <label for="reportReason" id="reportReasonLabel">Hva er feil?</label>
@@ -213,6 +213,6 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-  <script src="js/gardsbutikker.js?v=20260306b"></script>
+  <script src="js/innvandrerbutikker.js?v=20260306b"></script>
 </body>
 </html>
