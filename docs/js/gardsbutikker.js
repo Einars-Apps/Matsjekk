@@ -414,6 +414,24 @@
   const topNewsTabEl = document.getElementById('topNewsTab');
   const topContactTabEl = document.getElementById('topContactTab');
   const distanceLabelEl = document.getElementById('distanceLabel');
+  const suggestionHeadingEl = document.getElementById('suggestionHeading');
+  const suggestionIntroEl = document.getElementById('suggestionIntro');
+  const suggestNameLabelEl = document.getElementById('suggestNameLabel');
+  const suggestMunicipalityLabelEl = document.getElementById('suggestMunicipalityLabel');
+  const suggestCountryLabelEl = document.getElementById('suggestCountryLabel');
+  const suggestNameEl = document.getElementById('suggestName');
+  const suggestMunicipalityEl = document.getElementById('suggestMunicipality');
+  const suggestCountryEl = document.getElementById('suggestCountry');
+  const submitSuggestionBtn = document.getElementById('submitSuggestionBtn');
+  const suggestionStatusEl = document.getElementById('suggestionStatus');
+  const reportHeadingEl = document.getElementById('reportHeading');
+  const reportIntroEl = document.getElementById('reportIntro');
+  const reportNameLabelEl = document.getElementById('reportNameLabel');
+  const reportReasonLabelEl = document.getElementById('reportReasonLabel');
+  const reportNameEl = document.getElementById('reportName');
+  const reportReasonEl = document.getElementById('reportReason');
+  const submitReportBtn = document.getElementById('submitReportBtn');
+  const reportStatusEl = document.getElementById('reportStatus');
 
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
   let currentMapHeight = isMobile ? 110 : 400;
@@ -455,6 +473,28 @@
       municipalityPlaceholder: 'Velg kommune',
       resultsHeadingDefault: 'Gårdsbutikker nær deg',
       nearbyHeadingPrefix: 'Gårdsbutikker nær deg',
+      suggestionHeading: 'Foreslå nytt sted',
+      suggestionIntro: 'Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.',
+      suggestNameLabel: 'Navn',
+      suggestMunicipalityLabel: 'Kommune',
+      suggestCountryLabel: 'Land',
+      suggestNamePlaceholder: 'F.eks. Solheim gård',
+      suggestMunicipalityPlaceholder: 'F.eks. Asker',
+      suggestCountryPlaceholder: 'F.eks. Norway',
+      submitSuggestionBtn: 'Send forslag til moderering',
+      suggestionMissingFields: 'Fyll inn navn, kommune og land før innsending.',
+      suggestionOpeningIssue: 'Åpner GitHub-issue for moderering ...',
+      reportHeading: 'Rapporter feil oppføring',
+      reportIntro: 'Rapporter steder som ikke bør være listet. Endringer gjøres først etter manuell kontroll.',
+      reportNameLabel: 'Stedsnavn',
+      reportReasonLabel: 'Hva er feil?',
+      reportNamePlaceholder: 'F.eks. Farm shop 12345',
+      reportReasonPlaceholder: 'Kort begrunnelse',
+      submitReportBtn: 'Send rapport til moderering',
+      reportMissingFields: 'Fyll inn stedsnavn og begrunnelse før innsending.',
+      reportOpeningIssue: 'Åpner GitHub-issue for moderering ...',
+      quickReportBtn: 'Rapporter',
+      quickReportDefaultReason: 'Virker ikke som et faktisk gårdsutsalg.',
     },
     en: {
       languageLabel: 'Language',
@@ -483,6 +523,28 @@
       municipalityPlaceholder: 'Select municipality',
       resultsHeadingDefault: 'Farm shops near you',
       nearbyHeadingPrefix: 'Farm shops near you',
+      suggestionHeading: 'Suggest a missing place',
+      suggestionIntro: 'Missing a farm outlet? Submit name, municipality and country for moderation.',
+      suggestNameLabel: 'Name',
+      suggestMunicipalityLabel: 'Municipality',
+      suggestCountryLabel: 'Country',
+      suggestNamePlaceholder: 'E.g. Solheim farm',
+      suggestMunicipalityPlaceholder: 'E.g. Asker',
+      suggestCountryPlaceholder: 'E.g. Norway',
+      submitSuggestionBtn: 'Send suggestion for moderation',
+      suggestionMissingFields: 'Please fill in name, municipality and country.',
+      suggestionOpeningIssue: 'Opening GitHub issue for moderation ...',
+      reportHeading: 'Report incorrect listing',
+      reportIntro: 'Report places that should not be listed. Changes are only made after manual review.',
+      reportNameLabel: 'Place name',
+      reportReasonLabel: 'What is wrong?',
+      reportNamePlaceholder: 'E.g. Farm shop 12345',
+      reportReasonPlaceholder: 'Short reason',
+      submitReportBtn: 'Send report for moderation',
+      reportMissingFields: 'Please fill in place name and reason.',
+      reportOpeningIssue: 'Opening GitHub issue for moderation ...',
+      quickReportBtn: 'Report',
+      quickReportDefaultReason: 'Does not appear to be a real farm shop.',
     },
   };
   let currentPageLanguage = 'nb';
@@ -561,6 +623,24 @@
     if (countryOption) countryOption.textContent = translate('countryPlaceholder');
     if (regionOption) regionOption.textContent = translate('regionPlaceholder');
     if (municipalityOption) municipalityOption.textContent = translate('municipalityPlaceholder');
+
+    if (suggestionHeadingEl) suggestionHeadingEl.textContent = translate('suggestionHeading');
+    if (suggestionIntroEl) suggestionIntroEl.textContent = translate('suggestionIntro');
+    if (suggestNameLabelEl) suggestNameLabelEl.textContent = translate('suggestNameLabel');
+    if (suggestMunicipalityLabelEl) suggestMunicipalityLabelEl.textContent = translate('suggestMunicipalityLabel');
+    if (suggestCountryLabelEl) suggestCountryLabelEl.textContent = translate('suggestCountryLabel');
+    if (suggestNameEl) suggestNameEl.placeholder = translate('suggestNamePlaceholder');
+    if (suggestMunicipalityEl) suggestMunicipalityEl.placeholder = translate('suggestMunicipalityPlaceholder');
+    if (suggestCountryEl) suggestCountryEl.placeholder = translate('suggestCountryPlaceholder');
+    if (submitSuggestionBtn) submitSuggestionBtn.textContent = translate('submitSuggestionBtn');
+
+    if (reportHeadingEl) reportHeadingEl.textContent = translate('reportHeading');
+    if (reportIntroEl) reportIntroEl.textContent = translate('reportIntro');
+    if (reportNameLabelEl) reportNameLabelEl.textContent = translate('reportNameLabel');
+    if (reportReasonLabelEl) reportReasonLabelEl.textContent = translate('reportReasonLabel');
+    if (reportNameEl) reportNameEl.placeholder = translate('reportNamePlaceholder');
+    if (reportReasonEl) reportReasonEl.placeholder = translate('reportReasonPlaceholder');
+    if (submitReportBtn) submitReportBtn.textContent = translate('submitReportBtn');
   }
 
   function initLanguageSelector() {
@@ -2117,6 +2197,57 @@
     return `https://www.google.com/search?q=${encodeURIComponent(query)}`;
   }
 
+  const GITHUB_ISSUE_BASE_URL = 'https://github.com/Einars-Apps/Matsjekk/issues/new';
+
+  function yamlQuoted(value) {
+    const text = (value == null ? '' : String(value)).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+    return `"${text}"`;
+  }
+
+  function buildIssueUrl(template, title, body) {
+    const params = new URLSearchParams({
+      template,
+      title,
+      labels: 'submission',
+      body,
+    });
+    return `${GITHUB_ISSUE_BASE_URL}?${params.toString()}`;
+  }
+
+  function openModerationIssue(url) {
+    window.open(url, '_blank', 'noopener');
+  }
+
+  function createSuggestionIssueUrl(name, municipality, country) {
+    const issueTitle = `[Suggestion] ${name}`;
+    const yamlBody = [
+      '```yaml',
+      `name: ${yamlQuoted(name)}`,
+      `country: ${yamlQuoted(country)}`,
+      `municipality: ${yamlQuoted(municipality)}`,
+      'notes: "Submitted from gardsbutikker page"',
+      '```',
+      '',
+      'Verification links (optional):',
+      '- '
+    ].join('\n');
+    return buildIssueUrl('farmshop_suggestion.md', issueTitle, yamlBody);
+  }
+
+  function createReportIssueUrl(placeName, reason, selectedCountryCode) {
+    const issueTitle = `[Report] ${placeName}`;
+    const yamlBody = [
+      '```yaml',
+      `name: ${yamlQuoted(placeName)}`,
+      `country_code: ${yamlQuoted(selectedCountryCode || '')}`,
+      `reason: ${yamlQuoted(reason)}`,
+      '```',
+      '',
+      'Please review this listing before any change is merged.',
+    ].join('\n');
+    return buildIssueUrl('farmshop_report.md', issueTitle, yamlBody);
+  }
+
   function renderList(filtered) {
     const visibleFiltered = (filtered || []).filter((shop) => !isSuppressedShop(shop));
     listEl.innerHTML = '';
@@ -2186,6 +2317,7 @@
         </div>
         <div class="item-actions">
           <a class="item-link" href="${websiteSearchUrl}" target="_blank" rel="noopener">Nettside</a>
+          <button class="item-link report-entry-btn" type="button" data-shop-name="${escapeHtml(shop.name)}">${escapeHtml(translate('quickReportBtn'))}</button>
         </div>
       `;
       listEl.appendChild(div);
@@ -3407,6 +3539,52 @@ out center tags 150;
       filterShops();
     }, 300);
   });
+
+  if (listEl) {
+    listEl.addEventListener('click', (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLElement)) return;
+      if (!target.classList.contains('report-entry-btn')) return;
+      const placeName = target.dataset.shopName || '';
+      if (reportNameEl) reportNameEl.value = placeName;
+      if (reportReasonEl && !reportReasonEl.value.trim()) {
+        reportReasonEl.value = translate('quickReportDefaultReason');
+      }
+      if (reportStatusEl) reportStatusEl.textContent = '';
+      reportNameEl?.focus();
+      reportNameEl?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  }
+
+  if (submitSuggestionBtn) {
+    submitSuggestionBtn.addEventListener('click', () => {
+      const name = (suggestNameEl?.value || '').trim();
+      const municipality = (suggestMunicipalityEl?.value || '').trim();
+      const country = (suggestCountryEl?.value || '').trim();
+      if (!name || !municipality || !country) {
+        if (suggestionStatusEl) suggestionStatusEl.textContent = translate('suggestionMissingFields');
+        return;
+      }
+      if (suggestionStatusEl) suggestionStatusEl.textContent = translate('suggestionOpeningIssue');
+      const url = createSuggestionIssueUrl(name, municipality, country);
+      openModerationIssue(url);
+    });
+  }
+
+  if (submitReportBtn) {
+    submitReportBtn.addEventListener('click', () => {
+      const placeName = (reportNameEl?.value || '').trim();
+      const reason = (reportReasonEl?.value || '').trim();
+      if (!placeName || !reason) {
+        if (reportStatusEl) reportStatusEl.textContent = translate('reportMissingFields');
+        return;
+      }
+      if (reportStatusEl) reportStatusEl.textContent = translate('reportOpeningIssue');
+      const countryCode = resolveCountryCode(countrySelect?.value || '');
+      const url = createReportIssueUrl(placeName, reason, countryCode);
+      openModerationIssue(url);
+    });
+  }
 
   document.getElementById('resetBtn').addEventListener('click', async () => {
     activeNearRadiusKm = null;

@@ -39,6 +39,16 @@
     .side-rail{flex:0 0 280px;display:flex;flex-direction:column;gap:10px}
     .ad-slot{min-height:160px;border:1px dashed #c8d3df;border-radius:10px;background:#f8fbff;padding:12px;color:#4c5b6a;font-size:.9rem}
     .ad-slot strong{display:block;margin-bottom:6px;color:#213}
+    .feedback-panel{border:1px solid #dbe4ef;border-radius:10px;background:#fff;padding:10px}
+    .feedback-panel h3{margin:0 0 8px;font-size:1rem;color:#16283a}
+    .feedback-panel p{margin:0 0 8px;font-size:.85rem;color:#4d5c6a;line-height:1.4}
+    .feedback-field{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+    .feedback-field label{font-size:.82rem;color:#2f3f50}
+    .feedback-field input,.feedback-field textarea{border:1px solid #ccd8e6;border-radius:8px;padding:8px;font:inherit}
+    .feedback-field textarea{min-height:76px;resize:vertical}
+    .feedback-btn{width:100%;padding:8px 10px;border:1px solid #c6d6e8;border-radius:8px;background:#f4f9ff;color:#14324b;cursor:pointer;font-weight:600}
+    .feedback-btn:hover{background:#e9f4ff}
+    .feedback-status{margin-top:8px;font-size:.82rem;color:#516274;line-height:1.35}
     .list{max-height:420px;overflow:auto;border:1px solid #e6e9ee;border-radius:12px;padding:10px;background:#fafbfc}
     .item{padding:10px 12px;border:1px solid #e6e9ee;border-radius:10px;background:#fff;margin-bottom:8px}
     .item:last-child{margin-bottom:0}
@@ -51,6 +61,7 @@
     .item-thumb{width:92px;height:68px;object-fit:cover;border-radius:8px;border:1px solid #dbe3ea;background:#fff;flex-shrink:0}
     .item-link{display:inline-block;padding:6px 10px;border:1px solid #d7dee7;border-radius:999px;text-decoration:none;color:#134; background:#f7fafc;font-size:.82rem}
     .item-link:hover{background:#eef4f8}
+    button.item-link{cursor:pointer}
     @media (max-width: 768px){
       #map{height:110px}
       .map-controls{justify-content:flex-start}
@@ -147,12 +158,44 @@
           <strong>Annonse</strong>
           Plass for relevant lokal annonse eller partnerinnhold.
         </div>
+        <section class="feedback-panel" aria-labelledby="suggestionHeading">
+          <h3 id="suggestionHeading">Foreslå nytt sted</h3>
+          <p id="suggestionIntro">Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.</p>
+          <div class="feedback-field">
+            <label for="suggestName" id="suggestNameLabel">Navn</label>
+            <input id="suggestName" type="text" placeholder="F.eks. Solheim gård" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestMunicipality" id="suggestMunicipalityLabel">Kommune</label>
+            <input id="suggestMunicipality" type="text" placeholder="F.eks. Asker" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestCountry" id="suggestCountryLabel">Land</label>
+            <input id="suggestCountry" type="text" placeholder="F.eks. Norway" />
+          </div>
+          <button id="submitSuggestionBtn" class="feedback-btn" type="button">Send forslag til moderering</button>
+          <div id="suggestionStatus" class="feedback-status" aria-live="polite"></div>
+        </section>
+        <section class="feedback-panel" aria-labelledby="reportHeading">
+          <h3 id="reportHeading">Rapporter feil oppføring</h3>
+          <p id="reportIntro">Rapporter steder som ikke bør være listet. Endringer gjøres først etter manuell kontroll.</p>
+          <div class="feedback-field">
+            <label for="reportName" id="reportNameLabel">Stedsnavn</label>
+            <input id="reportName" type="text" placeholder="F.eks. Farm shop 12345" />
+          </div>
+          <div class="feedback-field">
+            <label for="reportReason" id="reportReasonLabel">Hva er feil?</label>
+            <textarea id="reportReason" placeholder="Kort begrunnelse"></textarea>
+          </div>
+          <button id="submitReportBtn" class="feedback-btn" type="button">Send rapport til moderering</button>
+          <div id="reportStatus" class="feedback-status" aria-live="polite"></div>
+        </section>
       </div>
     </div>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-  <script src="js/gardsbutikker.js?v=20260305d"></script>
+  <script src="js/gardsbutikker.js?v=20260306a"></script>
 </body>
 </html>
