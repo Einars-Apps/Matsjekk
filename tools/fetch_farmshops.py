@@ -411,6 +411,48 @@ NORWAY_MANUAL_SEEDS = [
     },
 ]
 
+ITALY_MANUAL_SEEDS = [
+    {
+        'id': 'manual_it_issue_47_podere_il_casale',
+        'name': 'Podere Il Casale',
+        'country': 'Italy',
+        'region': 'Toscana',
+        'municipality': 'Siena',
+        'products': [],
+        'website': None,
+        'lat': 43.0808567,
+        'lon': 11.711632,
+        'address': None,
+        'source': 'https://github.com/Einars-Apps/Matsjekk/issues/47',
+    },
+    {
+        'id': 'manual_it_issue_48_bottega_poggio_stenti',
+        'name': 'Bottega Poggio Stenti',
+        'country': 'Italy',
+        'region': 'Toscana',
+        'municipality': 'Siena',
+        'products': [],
+        'website': None,
+        'lat': 42.9656985,
+        'lon': 11.4266678,
+        'address': None,
+        'source': 'https://github.com/Einars-Apps/Matsjekk/issues/48',
+    },
+    {
+        'id': 'manual_it_issue_49_consorzio_agrario_siena',
+        'name': 'Consorzio Agrario',
+        'country': 'Italy',
+        'region': 'Toscana',
+        'municipality': 'Siena',
+        'products': [],
+        'website': None,
+        'lat': 43.3212108,
+        'lon': 11.3299305,
+        'address': None,
+        'source': 'https://github.com/Einars-Apps/Matsjekk/issues/49',
+    },
+]
+
 HANEN_MAP_API_URL = 'https://kart.hanen.no/api/kart/data'
 HANEN_CATEGORY_TEXT_RE = re.compile(r'gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg', re.I)
 
@@ -883,6 +925,10 @@ def _apply_norway_municipality_policy(current_items, previous_items, archive_ite
     return _cleanup_norway_noise(merged)
 
 
+def _apply_italy_submission_seeds(items):
+    return dedupe(items + ITALY_MANUAL_SEEDS)
+
+
 def split_by_country_code(items):
     grouped = {}
     for item in items:
@@ -1158,6 +1204,8 @@ def main():
                         previous_items,
                         archive_items,
                     )
+                if cc == 'IT':
+                    merged_country_items = _apply_italy_submission_seeds(merged_country_items)
                 all_items.extend(merged_country_items)
             else:
                 merged_country_items = dedupe(tagged_current + archive_items) if archive_items else tagged_current
@@ -1169,6 +1217,8 @@ def main():
                         previous_items,
                         archive_items,
                     )
+                if cc == 'IT':
+                    merged_country_items = _apply_italy_submission_seeds(merged_country_items)
                 all_items.extend(merged_country_items)
 
             archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + merged_country_items)
