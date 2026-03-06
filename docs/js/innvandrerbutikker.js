@@ -2298,32 +2298,9 @@
     }
 
     if (!visibleFiltered.length) {
-      const selectedCountryCode = resolveCountryCode(countrySelect.value) || normalizeCountryCode(selectedText(countrySelect));
-      const selectedCountryLabel = selectedText(countrySelect) || countryNameByCode(selectedCountryCode);
-      const selectedRegionValue = regionSelect?.value || '';
-      const selectedMunicipalityValue = muniSelect?.value || '';
-      const selectedRegionLabel = selectedRegionValue ? selectedText(regionSelect) : '';
-      const selectedMunicipalityLabel = selectedMunicipalityValue ? selectedText(muniSelect) : '';
-      const selectedQuery = (searchInput?.value || '').trim();
-      const hasActiveFilters = Boolean(
-        selectedCountryCode ||
-        selectedQuery ||
-        selectedRegionValue ||
-        selectedMunicipalityValue
-      );
-      const hasSpecificAreaFilter = Boolean(selectedQuery || selectedRegionValue || selectedMunicipalityValue);
-
-      if (hasActiveFilters && selectedCountryCode && !hasSpecificAreaFilter) {
-        const emergencySeeds = addDistanceFromUser(getTrustedSeedCandidates(selectedCountryCode, selectedCountryLabel, selectedMunicipalityLabel, selectedRegionLabel));
-        if (emergencySeeds.length) {
-          setMapStatus('Viser kvalitetssikrede nød-fallback treff for valgt land.');
-          return renderList(emergencySeeds);
-        }
-      }
-
       const empty = document.createElement('div');
       empty.className = 'item';
-      empty.textContent = 'Ingen lokale treff i datasettet. Bruk Google Maps-søk for flere resultater.';
+      empty.textContent = 'Ingen lokale treff i datasettet for innvandrerbutikker.';
       listEl.appendChild(empty);
       return;
     }
@@ -2539,34 +2516,7 @@
   }
 
   function getTrustedSeedCandidates(countryCode, countryLabel, municipalityLabel, regionLabel = '') {
-    const countrySeeds = TRUSTED_SEEDS_BY_COUNTRY[countryCode] || [];
-    if (!countrySeeds.length) return [];
-
-    const municipalityVariantsKeys = municipalityLabel
-      ? municipalityVariants(countryCode, municipalityLabel).map((value) => municipalityKey(value))
-      : [];
-    const regionVariantKeys = regionLabel
-      ? ((countryCode === 'NO' && !municipalityLabel)
-        ? [regionKey(regionLabel)]
-        : regionVariants(countryCode, regionLabel).map((value) => regionKey(value)))
-      : [];
-
-    const seeds = countrySeeds.filter((entry) => {
-      const muniKey = municipalityKey(entry.municipality);
-      const entryRegionKey = regionKey(entry.region);
-
-      const municipalityMatch = municipalityVariantsKeys.length
-        ? (municipalityVariantsKeys.includes(muniKey) || municipalityVariantsKeys.some((value) => muniKey.includes(value) || value.includes(muniKey)))
-        : true;
-
-      const regionMatch = regionVariantKeys.length
-        ? (regionVariantKeys.includes(entryRegionKey) || regionVariantKeys.some((value) => entryRegionKey.includes(value) || value.includes(entryRegionKey)))
-        : true;
-
-      return municipalityMatch && regionMatch;
-    });
-
-    return seeds.map((entry) => toSeedShop(entry, countryLabel));
+    return [];
   }
 
   function buildSeedFallbackDataset() {
@@ -3647,57 +3597,44 @@ out center tags 150;
     myMunicipalityBtn.addEventListener('click', () => {
       activeNearRadiusKm = null;
       filterShops();
-      if ((searchInput?.value || '').trim()) {
-        openGoogleMapsSearchFromFilters();
-      }
     });
   } else if (myMunicipalityBtn) {
     myMunicipalityBtn.addEventListener('click', () => {
       activeNearRadiusKm = null;
       filterShops();
-      if ((searchInput?.value || '').trim()) {
-        openGoogleMapsSearchFromFilters();
-      }
     });
   }
 
   if (nearMeBtn && navigator.geolocation) {
     nearMeBtn.addEventListener('click', () => {
-      navigator.geolocation.getCurrentPosition(async (position) => {
+      navigator.geolocation.getCurrentPosition((position) => {
         const radiusKm = selectedNearRadiusKm();
         activeNearRadiusKm = radiusKm;
-        try {
-          if (sortSelect) sortSelect.value = 'distance_asc';
-          setUserPosition(position.coords.latitude, position.coords.longitude);
-          await loadNearbyRealShopsFromPosition(position.coords.latitude, position.coords.longitude, radiusKm, { syncFilters: false });
-        } catch (_) {
-          const localNearby = addDistanceFromUser(shops)
-            .filter((shop) => Number.isFinite(shop?.distanceKm) && shop.distanceKm <= radiusKm)
-            .sort((left, right) => left.distanceKm - right.distanceKm)
-            .slice(0, 120);
+        if (sortSelect) sortSelect.value = 'distance_asc';
+        setUserPosition(position.coords.latitude, position.coords.longitude);
+        const localNearby = addDistanceFromUser(shops)
+          .filter((shop) => Number.isFinite(shop?.distanceKm) && shop.distanceKm <= radiusKm)
+          .sort((left, right) => left.distanceKm - right.distanceKm)
+          .slice(0, 120);
 
-          if (localNearby.length) {
-            activeFiltered = localNearby;
-            renderList(localNearby);
-            if (resultsHeadingEl) {
-              resultsHeadingEl.textContent = `${translate('nearbyHeadingPrefix')} (${radiusKm} km)`;
-            }
-            setMapStatus('Viser nærmeste treff fra lokalt datasett (fallback).');
-            return;
+        if (localNearby.length) {
+          activeFiltered = localNearby;
+          renderList(localNearby);
+          if (resultsHeadingEl) {
+            resultsHeadingEl.textContent = `${translate('nearbyHeadingPrefix')} (${radiusKm} km)`;
           }
-
-          setMapStatus(`Fant ingen sikre treff innen ${radiusKm} km. Prøv større radius.`);
-          const nearbyUrl = `https://www.google.com/maps/search/${encodeURIComponent(`gårdsbutikk ${position.coords.latitude},${position.coords.longitude}`)}`;
-          window.open(nearbyUrl, '_blank', 'noopener');
+          setMapStatus('Viser nærmeste treff fra innvandrerbutikk-datasettet.');
+          return;
         }
+
+        setMapStatus(`Fant ingen registrerte innvandrerbutikker innen ${radiusKm} km.`);
       }, () => {
         alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
       }, { enableHighAccuracy: true, timeout: 10000 });
     });
   } else if (nearMeBtn) {
     nearMeBtn.addEventListener('click', () => {
-      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren. Åpner Google Maps-søk for valgt område.');
-      openGoogleMapsSearchFromFilters();
+      alert('Stedstjenester er ikke tilgjengelig i denne nettleseren.');
     });
   }
 
