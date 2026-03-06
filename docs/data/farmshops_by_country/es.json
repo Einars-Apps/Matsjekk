@@ -48,54 +48,6 @@
     "address": null
   },
   {
-    "id": 1248152194,
-    "name": "Farm shop 1248152194",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.9992355,
-    "lon": -3.4734255,
-    "address": null
-  },
-  {
-    "id": 1248152236,
-    "name": "Farm shop 1248152236",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.0019199,
-    "lon": -3.4744458,
-    "address": null
-  },
-  {
-    "id": 1248152254,
-    "name": "Farm shop 1248152254",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.0033645,
-    "lon": -3.4714106,
-    "address": null
-  },
-  {
-    "id": 1248152261,
-    "name": "Farm shop 1248152261",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.9993825,
-    "lon": -3.4737552,
-    "address": null
-  },
-  {
     "id": 1410987794,
     "name": "Queso Convento Tórtoles de Esgueva",
     "country": "Spain",
@@ -153,30 +105,6 @@
     "website": null,
     "lat": 40.8835509,
     "lon": 0.7999476,
-    "address": null
-  },
-  {
-    "id": 2191776397,
-    "name": "Farm shop 2191776397",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.894181,
-    "lon": -2.3321545,
-    "address": null
-  },
-  {
-    "id": 2197891468,
-    "name": "Farm shop 2197891468",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.8900694,
-    "lon": -2.3168367,
     "address": null
   },
   {
@@ -309,30 +237,6 @@
     "website": null,
     "lat": 38.2601655,
     "lon": -5.6911733,
-    "address": null
-  },
-  {
-    "id": 3761647113,
-    "name": "Farm shop 3761647113",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.0854522,
-    "lon": 0.1423896,
-    "address": null
-  },
-  {
-    "id": 3761647115,
-    "name": "Farm shop 3761647115",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.087429,
-    "lon": 0.1429531,
     "address": null
   },
   {
@@ -549,18 +453,6 @@
     "website": null,
     "lat": 43.5373961,
     "lon": -8.2721263,
-    "address": null
-  },
-  {
-    "id": 4167282093,
-    "name": "Farm shop 4167282093",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.9729755,
-    "lon": -0.6957132,
     "address": null
   },
   {
@@ -888,30 +780,6 @@
     "address": null
   },
   {
-    "id": 5703572214,
-    "name": "Farm shop 5703572214",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.7750051,
-    "lon": -1.5820782,
-    "address": null
-  },
-  {
-    "id": 5703572215,
-    "name": "Farm shop 5703572215",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.7750359,
-    "lon": -1.5820777,
-    "address": null
-  },
-  {
     "id": 5924096155,
     "name": "Cooperativa Pagesa",
     "country": "Spain",
@@ -933,18 +801,6 @@
     "website": null,
     "lat": 36.8205924,
     "lon": -2.4322812,
-    "address": null
-  },
-  {
-    "id": 6138198671,
-    "name": "Farm shop 6138198671",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6027422,
-    "lon": -7.1913338,
     "address": null
   },
   {
@@ -1296,18 +1152,6 @@
     "address": null
   },
   {
-    "id": 8730524651,
-    "name": "Farm shop 8730524651",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.9646697,
-    "lon": -13.5553904,
-    "address": null
-  },
-  {
     "id": 8742367866,
     "name": "Granja del Molino",
     "country": "Spain",
@@ -1342,18 +1186,6 @@
     "lat": 41.6300857,
     "lon": -4.5268864,
     "address": "Calle de Hilario Vidarte"
-  },
-  {
-    "id": 8989995384,
-    "name": "Farm shop 8989995384",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.9546335,
-    "lon": -2.3531029,
-    "address": null
   },
   {
     "id": 9123902481,
@@ -1416,18 +1248,6 @@
     "address": null
   },
   {
-    "id": 9323742096,
-    "name": "Farm shop 9323742096",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.2985245,
-    "lon": -5.2870322,
-    "address": null
-  },
-  {
     "id": 9359586181,
     "name": "Agro Natural",
     "country": "Spain",
@@ -1437,18 +1257,6 @@
     "website": null,
     "lat": 38.8569045,
     "lon": 0.0278704,
-    "address": null
-  },
-  {
-    "id": 9409740599,
-    "name": "Farm shop 9409740599",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.8043513,
-    "lon": -4.123529,
     "address": null
   },
   {
@@ -1764,18 +1572,6 @@
     "address": null
   },
   {
-    "id": 11151146416,
-    "name": "Farm shop 11151146416",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3973957,
-    "lon": -3.4445548,
-    "address": null
-  },
-  {
     "id": 11161655390,
     "name": "Oli Sal",
     "country": "Spain",
@@ -2050,18 +1846,6 @@
     "lat": 41.5644279,
     "lon": 1.1806646,
     "address": "Carrer de Tàrrega"
-  },
-  {
-    "id": 12188971082,
-    "name": "Farm shop 12188971082",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2513538,
-    "lon": -7.0263927,
-    "address": null
   },
   {
     "id": 12244011301,
@@ -2652,18 +2436,6 @@
     "address": null
   },
   {
-    "id": 28494939,
-    "name": "Farm shop 28494939",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.030101,
-    "lon": -16.5828506,
-    "address": null
-  },
-  {
     "id": 42043653,
     "name": "Carracampos",
     "country": "Spain",
@@ -2673,18 +2445,6 @@
     "website": null,
     "lat": 42.3347595,
     "lon": -3.6718332,
-    "address": null
-  },
-  {
-    "id": 57396352,
-    "name": "Farm shop 57396352",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.761183,
-    "lon": -3.9062547,
     "address": null
   },
   {
@@ -2712,54 +2472,6 @@
     "address": null
   },
   {
-    "id": 77830045,
-    "name": "Farm shop 77830045",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6301436,
-    "lon": -0.3054676,
-    "address": null
-  },
-  {
-    "id": 77893788,
-    "name": "Farm shop 77893788",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.619523,
-    "lon": -0.28961,
-    "address": null
-  },
-  {
-    "id": 79094511,
-    "name": "Farm shop 79094511",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6483161,
-    "lon": -0.2949401,
-    "address": null
-  },
-  {
-    "id": 79429469,
-    "name": "Farm shop 79429469",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6513372,
-    "lon": -0.2991271,
-    "address": null
-  },
-  {
     "id": 84948423,
     "name": "cooperatives agro-alimentàries",
     "country": "Spain",
@@ -2781,30 +2493,6 @@
     "website": null,
     "lat": 39.6637681,
     "lon": 2.8041912,
-    "address": null
-  },
-  {
-    "id": 88417108,
-    "name": "Farm shop 88417108",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.041569,
-    "lon": -16.6336019,
-    "address": null
-  },
-  {
-    "id": 88693402,
-    "name": "Farm shop 88693402",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.744727,
-    "lon": -3.9040272,
     "address": null
   },
   {
@@ -2844,18 +2532,6 @@
     "address": null
   },
   {
-    "id": 94221284,
-    "name": "Farm shop 94221284",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.0057754,
-    "lon": -8.232952,
-    "address": null
-  },
-  {
     "id": 94221434,
     "name": "Fraga de Cecebre",
     "country": "Spain",
@@ -2865,30 +2541,6 @@
     "website": null,
     "lat": 43.2910914,
     "lon": -8.3126703,
-    "address": null
-  },
-  {
-    "id": 94786642,
-    "name": "Farm shop 94786642",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3108348,
-    "lon": -3.2631127,
-    "address": null
-  },
-  {
-    "id": 94902564,
-    "name": "Farm shop 94902564",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.081594,
-    "lon": -0.5775466,
     "address": null
   },
   {
@@ -2916,18 +2568,6 @@
     "address": null
   },
   {
-    "id": 94913525,
-    "name": "Farm shop 94913525",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1232313,
-    "lon": -0.4604785,
-    "address": null
-  },
-  {
     "id": 94914364,
     "name": "Riberas del Río Martín",
     "country": "Spain",
@@ -2937,294 +2577,6 @@
     "website": null,
     "lat": 41.0074673,
     "lon": -0.6552247,
-    "address": null
-  },
-  {
-    "id": 94919400,
-    "name": "Farm shop 94919400",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0027465,
-    "lon": -0.7639604,
-    "address": null
-  },
-  {
-    "id": 94971890,
-    "name": "Farm shop 94971890",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.5211202,
-    "lon": -5.8011143,
-    "address": null
-  },
-  {
-    "id": 94973677,
-    "name": "Farm shop 94973677",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.5147206,
-    "lon": -5.5482977,
-    "address": null
-  },
-  {
-    "id": 95554564,
-    "name": "Farm shop 95554564",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.4164171,
-    "lon": -16.5283276,
-    "address": null
-  },
-  {
-    "id": 95554626,
-    "name": "Farm shop 95554626",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.4159984,
-    "lon": -16.5264669,
-    "address": null
-  },
-  {
-    "id": 96098698,
-    "name": "Farm shop 96098698",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.310897,
-    "lon": -16.3837341,
-    "address": null
-  },
-  {
-    "id": 96128106,
-    "name": "Farm shop 96128106",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0428811,
-    "lon": -16.6670308,
-    "address": null
-  },
-  {
-    "id": 96128110,
-    "name": "Farm shop 96128110",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0409333,
-    "lon": -16.6546282,
-    "address": null
-  },
-  {
-    "id": 96128111,
-    "name": "Farm shop 96128111",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0388191,
-    "lon": -16.6676056,
-    "address": null
-  },
-  {
-    "id": 96128114,
-    "name": "Farm shop 96128114",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0385934,
-    "lon": -16.6618029,
-    "address": null
-  },
-  {
-    "id": 96128116,
-    "name": "Farm shop 96128116",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0408459,
-    "lon": -16.6557308,
-    "address": null
-  },
-  {
-    "id": 96128121,
-    "name": "Farm shop 96128121",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0406296,
-    "lon": -16.6587063,
-    "address": null
-  },
-  {
-    "id": 96128123,
-    "name": "Farm shop 96128123",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0404707,
-    "lon": -16.6604604,
-    "address": null
-  },
-  {
-    "id": 96128124,
-    "name": "Farm shop 96128124",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0404525,
-    "lon": -16.6567668,
-    "address": null
-  },
-  {
-    "id": 96128125,
-    "name": "Farm shop 96128125",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0383131,
-    "lon": -16.6632025,
-    "address": null
-  },
-  {
-    "id": 96128134,
-    "name": "Farm shop 96128134",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0447708,
-    "lon": -16.6637781,
-    "address": null
-  },
-  {
-    "id": 96128135,
-    "name": "Farm shop 96128135",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0421111,
-    "lon": -16.6575609,
-    "address": null
-  },
-  {
-    "id": 96128137,
-    "name": "Farm shop 96128137",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0428746,
-    "lon": -16.6638145,
-    "address": null
-  },
-  {
-    "id": 96128143,
-    "name": "Farm shop 96128143",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0412631,
-    "lon": -16.6572809,
-    "address": null
-  },
-  {
-    "id": 96130407,
-    "name": "Farm shop 96130407",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0401107,
-    "lon": -16.6772447,
-    "address": null
-  },
-  {
-    "id": 104784310,
-    "name": "Farm shop 104784310",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.5808944,
-    "lon": 1.976151,
-    "address": null
-  },
-  {
-    "id": 108318032,
-    "name": "Farm shop 108318032",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.0431093,
-    "lon": -16.6510036,
-    "address": null
-  },
-  {
-    "id": 108779641,
-    "name": "Farm shop 108779641",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5783512,
-    "lon": 2.6818683,
-    "address": null
-  },
-  {
-    "id": 110037011,
-    "name": "Farm shop 110037011",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.1689459,
-    "lon": -16.43733,
     "address": null
   },
   {
@@ -3252,78 +2604,6 @@
     "address": null
   },
   {
-    "id": 124858582,
-    "name": "Farm shop 124858582",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.9603468,
-    "lon": 2.6621872,
-    "address": null
-  },
-  {
-    "id": 125620138,
-    "name": "Farm shop 125620138",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.5494052,
-    "lon": -16.3471114,
-    "address": null
-  },
-  {
-    "id": 135431044,
-    "name": "Farm shop 135431044",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 27.774005,
-    "lon": -18.0075442,
-    "address": null
-  },
-  {
-    "id": 135544481,
-    "name": "Farm shop 135544481",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 27.7641003,
-    "lon": -18.0173261,
-    "address": null
-  },
-  {
-    "id": 142814011,
-    "name": "Farm shop 142814011",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1942876,
-    "lon": -4.0422906,
-    "address": null
-  },
-  {
-    "id": 149945502,
-    "name": "Farm shop 149945502",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.3781759,
-    "lon": 0.3321103,
-    "address": null
-  },
-  {
     "id": 151084640,
     "name": "fruits secs Bonany",
     "country": "Spain",
@@ -3336,30 +2616,6 @@
     "address": null
   },
   {
-    "id": 151245045,
-    "name": "Farm shop 151245045",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.7384003,
-    "lon": -1.7466324,
-    "address": null
-  },
-  {
-    "id": 155337401,
-    "name": "Farm shop 155337401",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9659647,
-    "lon": -1.8127951,
-    "address": null
-  },
-  {
     "id": 155613067,
     "name": "Mateu i UCO",
     "country": "Spain",
@@ -3369,18 +2625,6 @@
     "website": null,
     "lat": 39.7638999,
     "lon": 3.0313538,
-    "address": null
-  },
-  {
-    "id": 158803794,
-    "name": "Farm shop 158803794",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.2883707,
-    "lon": -8.3542939,
     "address": null
   },
   {
@@ -3417,42 +2661,6 @@
     "website": null,
     "lat": 43.2934113,
     "lon": -8.3614506,
-    "address": null
-  },
-  {
-    "id": 173520085,
-    "name": "Farm shop 173520085",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1781055,
-    "lon": -4.088913,
-    "address": null
-  },
-  {
-    "id": 175792728,
-    "name": "Farm shop 175792728",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.0382853,
-    "lon": -1.897372,
-    "address": null
-  },
-  {
-    "id": 177627585,
-    "name": "Farm shop 177627585",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2095503,
-    "lon": 3.0863384,
     "address": null
   },
   {
@@ -4248,6 +3456,3750 @@
     "address": null
   },
   {
+    "id": 183803270,
+    "name": "A Tenda dos Queixos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.0794998,
+    "lon": -8.2591309,
+    "address": null
+  },
+  {
+    "id": 184838396,
+    "name": "Patacas Castelo",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Narón",
+    "products": [],
+    "website": null,
+    "lat": 43.5327448,
+    "lon": -8.191501,
+    "address": "Avenida de Gonzalo Navarro"
+  },
+  {
+    "id": 193013391,
+    "name": "Progando",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Oleiros",
+    "products": [],
+    "website": "https://www.progando.es/gal/",
+    "lat": 43.3200432,
+    "lon": -8.3140767,
+    "address": "Avenida das Mariñas"
+  },
+  {
+    "id": 197652408,
+    "name": "Stolt Sea Farm",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stoltseafarm.com/es",
+    "lat": 42.8794771,
+    "lon": -9.1443129,
+    "address": null
+  },
+  {
+    "id": 208923968,
+    "name": "Orrau",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.8787023,
+    "lon": -2.3159167,
+    "address": null
+  },
+  {
+    "id": 208923969,
+    "name": "Aixtra",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.8943366,
+    "lon": -2.3323327,
+    "address": null
+  },
+  {
+    "id": 208924731,
+    "name": "Lekuona",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Araia",
+    "products": [],
+    "website": null,
+    "lat": 42.8953363,
+    "lon": -2.3165023,
+    "address": "Askazubizar kalea"
+  },
+  {
+    "id": 209570321,
+    "name": "cooperativa agrària",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6172576,
+    "lon": 3.1096281,
+    "address": null
+  },
+  {
+    "id": 227832087,
+    "name": "La Piscifactoría",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8922414,
+    "lon": -3.9949771,
+    "address": null
+  },
+  {
+    "id": 228143379,
+    "name": "Illacamp",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7757935,
+    "lon": 3.0261143,
+    "address": null
+  },
+  {
+    "id": 244349129,
+    "name": "Pabellon de ferias y congresos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0747426,
+    "lon": -3.6013494,
+    "address": null
+  },
+  {
+    "id": 257917491,
+    "name": "Truchas del Saja",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.2688126,
+    "lon": -4.2516019,
+    "address": null
+  },
+  {
+    "id": 262512968,
+    "name": "Pomares 1",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3506136,
+    "lon": -0.8907064,
+    "address": null
+  },
+  {
+    "id": 265768326,
+    "name": "Sociedad Cooperativa Ltda Sierra Francia Cepeda",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.4680047,
+    "lon": -6.0425111,
+    "address": null
+  },
+  {
+    "id": 267402649,
+    "name": "Cooperativa Sierra de Francia Batuecas",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Madroñal",
+    "products": [],
+    "website": null,
+    "lat": 40.464789,
+    "lon": -6.0622029,
+    "address": "Calle Larga"
+  },
+  {
+    "id": 272776742,
+    "name": "Molín Peón",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.1010428,
+    "lon": -5.5182405,
+    "address": null
+  },
+  {
+    "id": 272776743,
+    "name": "Centro de alevinaje de truchas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.1006744,
+    "lon": -5.5182149,
+    "address": null
+  },
+  {
+    "id": 284866249,
+    "name": "Piscifactoría",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.1956426,
+    "lon": -5.4757685,
+    "address": null
+  },
+  {
+    "id": 287508564,
+    "name": "Parque Empresarial das Pedreiras",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.3882759,
+    "lon": -7.1435423,
+    "address": null
+  },
+  {
+    "id": 290891084,
+    "name": "Cooperativa Cupalma",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.6628179,
+    "lon": -17.7653807,
+    "address": "Calle El Fuerte"
+  },
+  {
+    "id": 297066170,
+    "name": "Cindal R&D Center Aludium",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3180141,
+    "lon": -0.5162075,
+    "address": null
+  },
+  {
+    "id": 302411067,
+    "name": "Servizos Gandeiros e Forestais Agroeume",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.432821,
+    "lon": -8.0773848,
+    "address": null
+  },
+  {
+    "id": 308957642,
+    "name": "AVISA",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.aloetiscamanita.com/",
+    "lat": 28.3444515,
+    "lon": -14.0407724,
+    "address": null
+  },
+  {
+    "id": 315326979,
+    "name": "Harri expositorea",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Arizkun",
+    "products": [],
+    "website": null,
+    "lat": 43.1796342,
+    "lon": -1.4758317,
+    "address": "Bozate Auzoa Lamiarrita"
+  },
+  {
+    "id": 325956623,
+    "name": "O-I Glass",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.353525,
+    "lon": -5.8716028,
+    "address": null
+  },
+  {
+    "id": 347716720,
+    "name": "A Berxa",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Mesía",
+    "products": [],
+    "website": "https://www.piscifactoriaberxa.com/",
+    "lat": 43.1063004,
+    "lon": -8.2876668,
+    "address": "A Berxa, Olas"
+  },
+  {
+    "id": 366145767,
+    "name": "Los Almacenes",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Haría",
+    "products": [],
+    "website": null,
+    "lat": 29.1926264,
+    "lon": -13.4757197,
+    "address": "Calle San Francisco Javier"
+  },
+  {
+    "id": 368942194,
+    "name": "Patates Vídua d'Antoni Serra",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7603071,
+    "lon": 3.033911,
+    "address": null
+  },
+  {
+    "id": 369712085,
+    "name": "Illacamp",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7577544,
+    "lon": 3.0213574,
+    "address": null
+  },
+  {
+    "id": 374447635,
+    "name": "Cromados Estévez, S.L.",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Lugo",
+    "products": [],
+    "website": "https://www.autocromes.com",
+    "lat": 43.0460688,
+    "lon": -7.563826,
+    "address": "Rúa dos Transportes"
+  },
+  {
+    "id": 374883521,
+    "name": "Cooperativa agrícola Sant Bartomeu",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7695634,
+    "lon": 2.7252747,
+    "address": "carretera de Fornalutx"
+  },
+  {
+    "id": 376263618,
+    "name": "Piscifactoría de Oliván",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.5686147,
+    "lon": -0.3195159,
+    "address": null
+  },
+  {
+    "id": 376535987,
+    "name": "Agrícola de Sa Pobla",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7725942,
+    "lon": 3.0291078,
+    "address": null
+  },
+  {
+    "id": 377540696,
+    "name": "Conserves Es Pinaret",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.585807,
+    "lon": 2.6876408,
+    "address": null
+  },
+  {
+    "id": 378676519,
+    "name": "cooperativa agrícola",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5131904,
+    "lon": 3.0288174,
+    "address": null
+  },
+  {
+    "id": 383263287,
+    "name": "Central Hortofrutícola Almenar Fruits",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7940057,
+    "lon": 0.5732491,
+    "address": null
+  },
+  {
+    "id": 385121668,
+    "name": "Agromart",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5259243,
+    "lon": 3.0157127,
+    "address": null
+  },
+  {
+    "id": 389038263,
+    "name": "Cooperativa agrícola",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4915087,
+    "lon": 2.8838351,
+    "address": null
+  },
+  {
+    "id": 391211057,
+    "name": "Cooperativa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5712768,
+    "lon": 3.2179364,
+    "address": null
+  },
+  {
+    "id": 397139898,
+    "name": "espècies Crespí",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6095053,
+    "lon": 2.6711745,
+    "address": null
+  },
+  {
+    "id": 402423206,
+    "name": "Venta de Hortalizas Los Laneros",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0517972,
+    "lon": -3.5916469,
+    "address": null
+  },
+  {
+    "id": 403394647,
+    "name": "Cooperativa agrícola el Soleràs",
+    "country": "Spain",
+    "region": null,
+    "municipality": "el Soleràs",
+    "products": [],
+    "website": null,
+    "lat": 41.4124976,
+    "lon": 0.685504,
+    "address": "Carretera de Bellpuig"
+  },
+  {
+    "id": 406759221,
+    "name": "Biona",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.3050464,
+    "lon": -8.0764251,
+    "address": null
+  },
+  {
+    "id": 408718250,
+    "name": "Agricentro Montellos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.2735718,
+    "lon": -8.2307318,
+    "address": null
+  },
+  {
+    "id": 417045486,
+    "name": "Ovapiscis",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ovapiscis.com/instalaciones-villanua",
+    "lat": 42.6660349,
+    "lon": -0.5476477,
+    "address": null
+  },
+  {
+    "id": 417045488,
+    "name": "Ovapiscis",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ovapiscis.com/instalaciones-villanua",
+    "lat": 42.6681075,
+    "lon": -0.5447613,
+    "address": null
+  },
+  {
+    "id": 424229216,
+    "name": "Cas Siulet",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Sa Pobla",
+    "products": [],
+    "website": null,
+    "lat": 39.7663163,
+    "lon": 3.0296449,
+    "address": null
+  },
+  {
+    "id": 427273932,
+    "name": "Balaguer Busquets",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5651814,
+    "lon": 2.6796418,
+    "address": null
+  },
+  {
+    "id": 433799149,
+    "name": "Narurfauna",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.4148312,
+    "lon": -1.9681511,
+    "address": "Calle de Miguel Uribe Gómez"
+  },
+  {
+    "id": 434298388,
+    "name": "Piscifactoría Felechosa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://piscifactoriafelechosa.es.tl/",
+    "lat": 43.0997154,
+    "lon": -5.483831,
+    "address": null
+  },
+  {
+    "id": 437583531,
+    "name": "Agrícola O Tres",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.3400968,
+    "lon": -8.1549018,
+    "address": null
+  },
+  {
+    "id": 439869068,
+    "name": "Garroves Carob",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6196222,
+    "lon": 2.7176927,
+    "address": null
+  },
+  {
+    "id": 442081155,
+    "name": "Fruites Pomar",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5596504,
+    "lon": 3.2066412,
+    "address": null
+  },
+  {
+    "id": 443750540,
+    "name": "Castañas y Derivados El Cerro",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.castanaselcerro.com/",
+    "lat": 40.3315808,
+    "lon": -5.9120564,
+    "address": null
+  },
+  {
+    "id": 447781623,
+    "name": "Alpira",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5580821,
+    "lon": 2.8963677,
+    "address": null
+  },
+  {
+    "id": 447785152,
+    "name": "cooperativa",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Llucmajor",
+    "products": [],
+    "website": null,
+    "lat": 39.4880009,
+    "lon": 2.8859511,
+    "address": "Carrer de la Marina"
+  },
+  {
+    "id": 447785185,
+    "name": "Huevos Imajo S.A.",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.8381739,
+    "lon": -2.442258,
+    "address": null
+  },
+  {
+    "id": 473070333,
+    "name": "Mateu export",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7758737,
+    "lon": 3.0181311,
+    "address": null
+  },
+  {
+    "id": 473652878,
+    "name": "Piema",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5959424,
+    "lon": 2.6702902,
+    "address": null
+  },
+  {
+    "id": 489830444,
+    "name": "Riberas del Río Martín",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.130184,
+    "lon": -0.4988149,
+    "address": null
+  },
+  {
+    "id": 491279890,
+    "name": "Cabezo del Carmen",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1777873,
+    "lon": -0.4585733,
+    "address": null
+  },
+  {
+    "id": 496912538,
+    "name": "Pollos Fuentes S.L.",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.0727936,
+    "lon": -6.5326809,
+    "address": null
+  },
+  {
+    "id": 500033389,
+    "name": "Ortas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0852929,
+    "lon": -0.5924033,
+    "address": null
+  },
+  {
+    "id": 507425103,
+    "name": "Centro Agrícola",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5681193,
+    "lon": 2.6788708,
+    "address": null
+  },
+  {
+    "id": 509226615,
+    "name": "Dun-dun ardi gazta",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Araia",
+    "products": [],
+    "website": null,
+    "lat": 42.8970566,
+    "lon": -2.3191081,
+    "address": "San Martin kalea"
+  },
+  {
+    "id": 516124002,
+    "name": "Del Huerto a la Mesa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1731223,
+    "lon": 1.4566059,
+    "address": null
+  },
+  {
+    "id": 535156194,
+    "name": "Cooperativa Agrícola Murense",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7439745,
+    "lon": 3.0532674,
+    "address": null
+  },
+  {
+    "id": 538335028,
+    "name": "Fribin",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8511094,
+    "lon": 0.2860201,
+    "address": "Camino del Pueyo"
+  },
+  {
+    "id": 538646728,
+    "name": "Agrocomercial Tot Fora Vila",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.690238,
+    "lon": 3.3516234,
+    "address": null
+  },
+  {
+    "id": 541339815,
+    "name": "Piscifactoría Torrebaja",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0972316,
+    "lon": -1.2703575,
+    "address": null
+  },
+  {
+    "id": 549920748,
+    "name": "Atanasio Villar",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5457302,
+    "lon": -2.2397571,
+    "address": null
+  },
+  {
+    "id": 550747365,
+    "name": "Fuensanta Garden",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9753657,
+    "lon": -3.9276604,
+    "address": null
+  },
+  {
+    "id": 552621458,
+    "name": "La Torre de Can Roig",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5257413,
+    "lon": 0.8651762,
+    "address": null
+  },
+  {
+    "id": 560269214,
+    "name": "Coopetariva",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5752788,
+    "lon": 2.4159378,
+    "address": null
+  },
+  {
+    "id": 560388332,
+    "name": "Huerto Escolar Municipal",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3659612,
+    "lon": -4.8955936,
+    "address": null
+  },
+  {
+    "id": 562539624,
+    "name": "Baztango nekazarien kooperatiba",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Arizkun",
+    "products": [],
+    "website": null,
+    "lat": 43.1799769,
+    "lon": -1.4891901,
+    "address": "Ordoki auzoa"
+  },
+  {
+    "id": 565034853,
+    "name": "Viñas y Olivos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.696664,
+    "lon": -6.1164138,
+    "address": null
+  },
+  {
+    "id": 570661722,
+    "name": "Mas Foresa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.063225,
+    "lon": 1.0171662,
+    "address": null
+  },
+  {
+    "id": 575660609,
+    "name": "Artestruz",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3825656,
+    "lon": 3.0011426,
+    "address": null
+  },
+  {
+    "id": 581345357,
+    "name": "Masada de Suelves",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6390793,
+    "lon": -0.1152693,
+    "address": null
+  },
+  {
+    "id": 583704407,
+    "name": "Piscifactoría",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1959056,
+    "lon": -3.4512386,
+    "address": null
+  },
+  {
+    "id": 589510600,
+    "name": "Fruites Núria",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.fruitesnuria.com/",
+    "lat": 42.1482836,
+    "lon": 3.0211412,
+    "address": null
+  },
+  {
+    "id": 597315947,
+    "name": "Fábrica de Hielo",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Colindres",
+    "products": [],
+    "website": null,
+    "lat": 43.3959763,
+    "lon": -3.4608117,
+    "address": "Puerto Pesquero"
+  },
+  {
+    "id": 600428037,
+    "name": "Mariscos Antromero",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Antromero - Gozón",
+    "products": [],
+    "website": "http://cetarea-antromero.com/",
+    "lat": 43.5998263,
+    "lon": -5.7749179,
+    "address": "Carretera Candás-Luanco"
+  },
+  {
+    "id": 610007611,
+    "name": "Forrajes Ruiz",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.0240075,
+    "lon": -3.5087044,
+    "address": null
+  },
+  {
+    "id": 616083291,
+    "name": "Euralis",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.3237321,
+    "lon": -5.9943398,
+    "address": null
+  },
+  {
+    "id": 619497832,
+    "name": "Frutas y Hortalizas Fontellas",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Fontellas",
+    "products": [],
+    "website": null,
+    "lat": 42.0238122,
+    "lon": -1.5784401,
+    "address": "Avenida Navarra"
+  },
+  {
+    "id": 621435915,
+    "name": "Piscifactoria de Villanueva de Carrizo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.5867863,
+    "lon": -5.817445,
+    "address": null
+  },
+  {
+    "id": 622475610,
+    "name": "El Quemado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3999567,
+    "lon": -3.8705475,
+    "address": null
+  },
+  {
+    "id": 643866384,
+    "name": "Granxa de Lloréu",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.5276619,
+    "lon": -5.3101072,
+    "address": null
+  },
+  {
+    "id": 656357095,
+    "name": "Hermisenda Huerta Natural",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Encinarejo de Córdoba",
+    "products": [],
+    "website": "https://hermisenda.com",
+    "lat": 37.8277909,
+    "lon": -4.9306663,
+    "address": "Camino de los Aceituneros"
+  },
+  {
+    "id": 656859164,
+    "name": "Uagalur",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.8444499,
+    "lon": -2.6666712,
+    "address": null
+  },
+  {
+    "id": 666346352,
+    "name": "Cas Cubano",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6132834,
+    "lon": 2.6760149,
+    "address": null
+  },
+  {
+    "id": 666527495,
+    "name": "Joaquín Garrido Frontelo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9590882,
+    "lon": -4.8392685,
+    "address": null
+  },
+  {
+    "id": 676784509,
+    "name": "Joaquín Garrido Frontelo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9602855,
+    "lon": -4.8391142,
+    "address": null
+  },
+  {
+    "id": 691268940,
+    "name": "Institut Mollerussa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6169653,
+    "lon": 0.8671262,
+    "address": null
+  },
+  {
+    "id": 691286883,
+    "name": "Principado Berries",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.principadoberries.es",
+    "lat": 43.2239252,
+    "lon": -5.8721801,
+    "address": null
+  },
+  {
+    "id": 691286884,
+    "name": "Principado Berries",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.principadoberries.es",
+    "lat": 43.2478557,
+    "lon": -5.883344,
+    "address": null
+  },
+  {
+    "id": 691418073,
+    "name": "privado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9860307,
+    "lon": -1.8290939,
+    "address": null
+  },
+  {
+    "id": 691643445,
+    "name": "particular",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9855642,
+    "lon": -1.8304862,
+    "address": null
+  },
+  {
+    "id": 691659639,
+    "name": "privado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9812832,
+    "lon": -1.824256,
+    "address": null
+  },
+  {
+    "id": 691664371,
+    "name": "PRIVADO",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9832983,
+    "lon": -1.8281752,
+    "address": null
+  },
+  {
+    "id": 691681250,
+    "name": "particular",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9881485,
+    "lon": -1.8330764,
+    "address": null
+  },
+  {
+    "id": 691681686,
+    "name": "privado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9878207,
+    "lon": -1.8318848,
+    "address": null
+  },
+  {
+    "id": 691689856,
+    "name": "privado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.97927,
+    "lon": -1.8240456,
+    "address": null
+  },
+  {
+    "id": 691703866,
+    "name": "privado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.981915,
+    "lon": -1.8254304,
+    "address": null
+  },
+  {
+    "id": 698210717,
+    "name": "Instituto Español de Oceanografía - Planta de Cultivos Marinos de El Bocal",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Monte",
+    "products": [],
+    "website": "https://www.ieo.es/es/web/santander/plantas-de-cultivo",
+    "lat": 43.4863492,
+    "lon": -3.826169,
+    "address": null
+  },
+  {
+    "id": 699695345,
+    "name": "Agropecuària Mas Bes S.L.",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.9065401,
+    "lon": 2.7407433,
+    "address": null
+  },
+  {
+    "id": 717916223,
+    "name": "Somni d'istiu · Can Tonicus",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.4219363,
+    "lon": 3.1622531,
+    "address": null
+  },
+  {
+    "id": 723545390,
+    "name": "Huertos de la luisiana",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.5236709,
+    "lon": -5.2477779,
+    "address": null
+  },
+  {
+    "id": 725424273,
+    "name": "La solana",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3927142,
+    "lon": -3.8640768,
+    "address": null
+  },
+  {
+    "id": 734620460,
+    "name": "Casa Tomás",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.5190195,
+    "lon": 0.158126,
+    "address": null
+  },
+  {
+    "id": 741890331,
+    "name": "Pomares 3",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.350981,
+    "lon": -0.8905401,
+    "address": null
+  },
+  {
+    "id": 742095148,
+    "name": "Pomares 5A",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3510537,
+    "lon": -0.8901602,
+    "address": null
+  },
+  {
+    "id": 742105945,
+    "name": "Olivar de la rambla",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3519247,
+    "lon": -0.8900916,
+    "address": null
+  },
+  {
+    "id": 742105973,
+    "name": "Pomares 43",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3507677,
+    "lon": -0.8912514,
+    "address": null
+  },
+  {
+    "id": 742105975,
+    "name": "Pomares 18B",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3506612,
+    "lon": -0.8913919,
+    "address": null
+  },
+  {
+    "id": 767972532,
+    "name": "Granjas Cantos Blancos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.5956022,
+    "lon": -3.2329272,
+    "address": null
+  },
+  {
+    "id": 777099244,
+    "name": "BROTES VIVEIRO",
+    "country": "Spain",
+    "region": null,
+    "municipality": "tomiño",
+    "products": [],
+    "website": null,
+    "lat": 41.9721438,
+    "lon": -8.7637744,
+    "address": "medos"
+  },
+  {
+    "id": 793637419,
+    "name": "Las Brunas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7052204,
+    "lon": -2.4943839,
+    "address": null
+  },
+  {
+    "id": 793637422,
+    "name": "Los chaparros",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7005395,
+    "lon": -2.5020643,
+    "address": null
+  },
+  {
+    "id": 793637429,
+    "name": "Los espejares",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6911948,
+    "lon": -2.5226097,
+    "address": null
+  },
+  {
+    "id": 793637444,
+    "name": "CañaSeca",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.661097,
+    "lon": -2.532577,
+    "address": null
+  },
+  {
+    "id": 807739860,
+    "name": "Jormacol - Granja de Caracoles",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5779128,
+    "lon": -5.8453951,
+    "address": null
+  },
+  {
+    "id": 815878782,
+    "name": "PisciSelmo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.pisciselmo.com/",
+    "lat": 42.5486968,
+    "lon": -6.8789163,
+    "address": null
+  },
+  {
+    "id": 817201012,
+    "name": "Horts de Can Valls",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5370012,
+    "lon": 1.7717603,
+    "address": null
+  },
+  {
+    "id": 826569543,
+    "name": "A Ribeira",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.8463242,
+    "lon": -8.6473434,
+    "address": null
+  },
+  {
+    "id": 829610792,
+    "name": "Piscifactoría de Yesa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://caviarpirinea.com/",
+    "lat": 42.6155914,
+    "lon": -1.2173985,
+    "address": null
+  },
+  {
+    "id": 839075761,
+    "name": "Las Lameras",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Villa de Mazo",
+    "products": [],
+    "website": null,
+    "lat": 28.5422576,
+    "lon": -17.811739,
+    "address": "Montes de Luna"
+  },
+  {
+    "id": 850487399,
+    "name": "Polígono 506 Parcela 5008",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8072065,
+    "lon": -4.3517148,
+    "address": null
+  },
+  {
+    "id": 869065641,
+    "name": "Batea",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.4173595,
+    "lon": -8.2117257,
+    "address": null
+  },
+  {
+    "id": 869065642,
+    "name": "Batea",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.4175064,
+    "lon": -8.2104585,
+    "address": null
+  },
+  {
+    "id": 878869533,
+    "name": "Cooperativa agrària",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6429497,
+    "lon": 3.0158013,
+    "address": null
+  },
+  {
+    "id": 880545533,
+    "name": "Cooperativa d'Artà",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.cooperativaarta.com/",
+    "lat": 39.6921207,
+    "lon": 3.34753,
+    "address": "Carrer de les Parres"
+  },
+  {
+    "id": 893836203,
+    "name": "Los Olivos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.4530838,
+    "lon": -3.8268018,
+    "address": null
+  },
+  {
+    "id": 895463283,
+    "name": "Agroilla",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5596537,
+    "lon": 3.2058056,
+    "address": null
+  },
+  {
+    "id": 911484951,
+    "name": "Los Caserinos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://loscaserinos.com",
+    "lat": 43.4686509,
+    "lon": -5.4672499,
+    "address": null
+  },
+  {
+    "id": 914765627,
+    "name": "Pinar de Repoblación",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9521871,
+    "lon": -4.022251,
+    "address": null
+  },
+  {
+    "id": 916184060,
+    "name": "Ramafrut - Mayorista frutas y verduras",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5998832,
+    "lon": -0.5815137,
+    "address": null
+  },
+  {
+    "id": 949621257,
+    "name": "Can Sacrès",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7336183,
+    "lon": 3.0516625,
+    "address": null
+  },
+  {
+    "id": 951669883,
+    "name": "Norcantabric",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Ramales de la Victoria",
+    "products": [],
+    "website": "https://norcantabric.com/",
+    "lat": 43.2684727,
+    "lon": -3.4303409,
+    "address": "Parque Empresarial Alto Asón"
+  },
+  {
+    "id": 972600909,
+    "name": "Finca La Vera de Pedro (BIO)",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.3318738,
+    "lon": -16.3874541,
+    "address": null
+  },
+  {
+    "id": 978385035,
+    "name": "Piscifactoría de Jerte",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.2323878,
+    "lon": -5.7357587,
+    "address": null
+  },
+  {
+    "id": 985226572,
+    "name": "Parc Agroecològic de l'Empordà",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.1055153,
+    "lon": 3.0910821,
+    "address": null
+  },
+  {
+    "id": 989328994,
+    "name": "Fertilizantes Agro Rizos",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Santa Eulalia del Campo",
+    "products": [],
+    "website": "https://agrorizos.com/",
+    "lat": 40.5653842,
+    "lon": -1.321436,
+    "address": "Extramuros"
+  },
+  {
+    "id": 993477318,
+    "name": "Arrossar",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.7121789,
+    "lon": 0.5966803,
+    "address": null
+  },
+  {
+    "id": 1005836416,
+    "name": "chopera",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.6840873,
+    "lon": -4.2887461,
+    "address": null
+  },
+  {
+    "id": 1005836419,
+    "name": "chopera",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.6857088,
+    "lon": -4.2873101,
+    "address": null
+  },
+  {
+    "id": 1008419579,
+    "name": "Tencas Norte Extremeña de Acuicultura",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.2287037,
+    "lon": -5.9889548,
+    "address": null
+  },
+  {
+    "id": 1041959082,
+    "name": "O Tabolado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2251129,
+    "lon": -8.1456502,
+    "address": null
+  },
+  {
+    "id": 1054831418,
+    "name": "Oliveres del Cellers",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.652417,
+    "lon": 1.8952021,
+    "address": null
+  },
+  {
+    "id": 1056474770,
+    "name": "Katealde",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.9238333,
+    "lon": -2.2058198,
+    "address": null
+  },
+  {
+    "id": 1069546735,
+    "name": "Paredones de Juan Sierra",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.5273523,
+    "lon": -7.460444,
+    "address": null
+  },
+  {
+    "id": 1080415495,
+    "name": "Olis Macia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Artesa de Segre",
+    "products": [],
+    "website": "https://olismacia.com",
+    "lat": 41.882587,
+    "lon": 1.0549182,
+    "address": "Polígon Industrial El Pla"
+  },
+  {
+    "id": 1083761319,
+    "name": "Formatge Bauma S.L.",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.1439432,
+    "lon": 1.993574,
+    "address": null
+  },
+  {
+    "id": 1090436432,
+    "name": "Castaños",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.0810079,
+    "lon": -6.6190106,
+    "address": null
+  },
+  {
+    "id": 1101276255,
+    "name": "Errotik Etxanoko Gaztaie",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Amorebieta-Etxano",
+    "products": [],
+    "website": "errotik.biz",
+    "lat": 43.2261553,
+    "lon": -2.7104149,
+    "address": "Etxano auzoa"
+  },
+  {
+    "id": 1115807434,
+    "name": "A Xesteira",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2221938,
+    "lon": -8.1431475,
+    "address": null
+  },
+  {
+    "id": 1115807972,
+    "name": "Pedradas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.221851,
+    "lon": -8.1436217,
+    "address": null
+  },
+  {
+    "id": 1115810822,
+    "name": "O Campo da Raíña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2206165,
+    "lon": -8.1444664,
+    "address": null
+  },
+  {
+    "id": 1117515762,
+    "name": "Venta de Melones y Sandías Hermanos Trigo Sanchez",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0560622,
+    "lon": -3.5574102,
+    "address": null
+  },
+  {
+    "id": 1117516125,
+    "name": "Oliduero",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://oliduero.com/",
+    "lat": 41.3113874,
+    "lon": -4.8944186,
+    "address": null
+  },
+  {
+    "id": 1119359521,
+    "name": "El Chorrito de Luis Corujo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.2739471,
+    "lon": -4.7653276,
+    "address": null
+  },
+  {
+    "id": 1120988352,
+    "name": "Viñedo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0806286,
+    "lon": -3.5814326,
+    "address": null
+  },
+  {
+    "id": 1122965523,
+    "name": "Oleum",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://oleumlaguna.com/",
+    "lat": 40.099336,
+    "lon": -3.4958426,
+    "address": null
+  },
+  {
+    "id": 1127980457,
+    "name": "Tetra Pak Closures Spain",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Alcalá de Guadaira",
+    "products": [],
+    "website": null,
+    "lat": 37.3434933,
+    "lon": -5.8191131,
+    "address": "A-92"
+  },
+  {
+    "id": 1132159535,
+    "name": "Huerto de José Luis",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9535195,
+    "lon": -4.0767126,
+    "address": null
+  },
+  {
+    "id": 1134081390,
+    "name": "viveros gasso sl",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.058402,
+    "lon": 0.9944825,
+    "address": null
+  },
+  {
+    "id": 1144547737,
+    "name": "Piensos y Frutales Comercial Lázaro",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Santa Eulalia del Campo",
+    "products": [],
+    "website": null,
+    "lat": 40.5643902,
+    "lon": -1.2878474,
+    "address": "Carretera A-1511"
+  },
+  {
+    "id": 1146831533,
+    "name": "Karacoles Los Altos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.karacoleslosaltos.com/",
+    "lat": 42.7998046,
+    "lon": -3.6912776,
+    "address": null
+  },
+  {
+    "id": 1172963071,
+    "name": "Sonrionansa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.sonrionansa.es/",
+    "lat": 43.3754185,
+    "lon": -4.4708194,
+    "address": null
+  },
+  {
+    "id": 1175461995,
+    "name": "Cooperativa del campo \"Las Villuercas\"",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Navezuelas",
+    "products": [],
+    "website": null,
+    "lat": 39.5071976,
+    "lon": -5.4367043,
+    "address": "Avenida de Guadalupe"
+  },
+  {
+    "id": 1188475169,
+    "name": "Caves Nadal",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4265789,
+    "lon": 1.7006982,
+    "address": null
+  },
+  {
+    "id": 1192092673,
+    "name": "Los Linares",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9769404,
+    "lon": -4.0346339,
+    "address": null
+  },
+  {
+    "id": 1203154657,
+    "name": "Ca na Sopeta",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5700395,
+    "lon": 3.0919614,
+    "address": null
+  },
+  {
+    "id": 1213689811,
+    "name": "Agroquímicos Zarco",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8864231,
+    "lon": -6.7016381,
+    "address": null
+  },
+  {
+    "id": 1213799185,
+    "name": "Agroquímicos Fernando Carrasco",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8895991,
+    "lon": -6.6971412,
+    "address": null
+  },
+  {
+    "id": 1215812996,
+    "name": "El Galayo (CUP 154)",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2558203,
+    "lon": -1.5516807,
+    "address": null
+  },
+  {
+    "id": 1218532471,
+    "name": "Cofradía de Pescadores San Ginés",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.3955481,
+    "lon": -3.4611304,
+    "address": null
+  },
+  {
+    "id": 1227446527,
+    "name": "pinar",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.6753191,
+    "lon": -2.5551267,
+    "address": null
+  },
+  {
+    "id": 1231568150,
+    "name": "Frutas Quite",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Malagón",
+    "products": [],
+    "website": null,
+    "lat": 39.1711498,
+    "lon": -3.8489552,
+    "address": "Calle los Reyes"
+  },
+  {
+    "id": 1237862620,
+    "name": "Bosque Natural",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.8112662,
+    "lon": -3.4562661,
+    "address": null
+  },
+  {
+    "id": 1243590352,
+    "name": "Agricentro",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Enrique de Guadiaro",
+    "products": [],
+    "website": null,
+    "lat": 36.305249,
+    "lon": -5.2921742,
+    "address": "Calle de los Duraznos"
+  },
+  {
+    "id": 1246978230,
+    "name": "Olivar",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.3166571,
+    "lon": -2.5352498,
+    "address": null
+  },
+  {
+    "id": 1277609782,
+    "name": "Cultivo1",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8857542,
+    "lon": -6.6270277,
+    "address": null
+  },
+  {
+    "id": 1277610875,
+    "name": "Cultivo3",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8832278,
+    "lon": -6.6276287,
+    "address": null
+  },
+  {
+    "id": 1277611047,
+    "name": "Cultivo4",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8830275,
+    "lon": -6.6299193,
+    "address": null
+  },
+  {
+    "id": 1277611542,
+    "name": "Cultivo5",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8816829,
+    "lon": -6.6281115,
+    "address": null
+  },
+  {
+    "id": 1277611543,
+    "name": "Cultivo6",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8806805,
+    "lon": -6.6279721,
+    "address": null
+  },
+  {
+    "id": 1277611646,
+    "name": "Cultivo7",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8806973,
+    "lon": -6.6312765,
+    "address": null
+  },
+  {
+    "id": 1277612831,
+    "name": "Cultivo8",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.878889,
+    "lon": -6.6280632,
+    "address": null
+  },
+  {
+    "id": 1277613080,
+    "name": "Cultivo9",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8774734,
+    "lon": -6.6282562,
+    "address": null
+  },
+  {
+    "id": 1277615962,
+    "name": "Cultivo10",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8751357,
+    "lon": -6.6284574,
+    "address": null
+  },
+  {
+    "id": 1277617507,
+    "name": "Cultivo11",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8768486,
+    "lon": -6.630546,
+    "address": null
+  },
+  {
+    "id": 1277617537,
+    "name": "Cultivo12",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8746226,
+    "lon": -6.6305835,
+    "address": null
+  },
+  {
+    "id": 1277621224,
+    "name": "Cultivo13",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8727474,
+    "lon": -6.6290813,
+    "address": null
+  },
+  {
+    "id": 1277624384,
+    "name": "Cultivo14",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.872309,
+    "lon": -6.630771,
+    "address": null
+  },
+  {
+    "id": 1277624798,
+    "name": "Cultivo15",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8701914,
+    "lon": -6.6297786,
+    "address": null
+  },
+  {
+    "id": 1277625050,
+    "name": "Cultivo16",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8702123,
+    "lon": -6.6308032,
+    "address": null
+  },
+  {
+    "id": 1281125526,
+    "name": "Casa Colina Land",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.8379168,
+    "lon": -1.6852866,
+    "address": null
+  },
+  {
+    "id": 1300286428,
+    "name": "La Cendrosa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2870425,
+    "lon": 1.6177434,
+    "address": null
+  },
+  {
+    "id": 1312458574,
+    "name": "karabeleko ekodenda",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Hernani",
+    "products": [],
+    "website": null,
+    "lat": 43.264202,
+    "lon": -1.9722363,
+    "address": null
+  },
+  {
+    "id": 1312854688,
+    "name": "Museu de les oliveres mil·lenàries del Pou del Mas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://maestrat.travel/va/museu-natural-oliveres-millenaries-pou-del-mas/",
+    "lat": 40.5154316,
+    "lon": 0.2329512,
+    "address": null
+  },
+  {
+    "id": 1317891719,
+    "name": "Fructeria El Melanas",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Roquetas de Mar",
+    "products": [],
+    "website": null,
+    "lat": 36.7668106,
+    "lon": -2.6158472,
+    "address": "Calle Pablo Neruda"
+  },
+  {
+    "id": 1341664792,
+    "name": "Frutas el Tío Ramón S.L.",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.4249071,
+    "lon": -6.1466066,
+    "address": null
+  },
+  {
+    "id": 1345042531,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6794278,
+    "lon": -0.5993235,
+    "address": null
+  },
+  {
+    "id": 1345046402,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6778849,
+    "lon": -0.5986973,
+    "address": null
+  },
+  {
+    "id": 1345047128,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6790433,
+    "lon": -0.6044455,
+    "address": null
+  },
+  {
+    "id": 1345047963,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6811697,
+    "lon": -0.6066147,
+    "address": null
+  },
+  {
+    "id": 1345095389,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6811567,
+    "lon": -0.6098425,
+    "address": null
+  },
+  {
+    "id": 1345095390,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6824752,
+    "lon": -0.6101627,
+    "address": null
+  },
+  {
+    "id": 1345095391,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6835844,
+    "lon": -0.6140411,
+    "address": null
+  },
+  {
+    "id": 1345095392,
+    "name": "Finca Torrevella",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6805851,
+    "lon": -0.6178285,
+    "address": null
+  },
+  {
+    "id": 1352207882,
+    "name": "Tipro Agroquímicos",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Martín del Tesorillo",
+    "products": [],
+    "website": null,
+    "lat": 36.3418993,
+    "lon": -5.3223813,
+    "address": "Calle Tufas"
+  },
+  {
+    "id": 1360416986,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5499914,
+    "lon": -8.7046065,
+    "address": null
+  },
+  {
+    "id": 1364891653,
+    "name": "Piensos Muga",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8328528,
+    "lon": -1.5178939,
+    "address": null
+  },
+  {
+    "id": 1389901773,
+    "name": "Aceite Agustin Fornós",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Trasmoz",
+    "products": [],
+    "website": "https://olivavirgenextra.eu/",
+    "lat": 41.8255295,
+    "lon": -1.7236262,
+    "address": null
+  },
+  {
+    "id": 1410896693,
+    "name": "Mon Ermitage",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Lleida",
+    "products": [],
+    "website": "https://monermitage.com",
+    "lat": 41.6249557,
+    "lon": 0.5928708,
+    "address": "Partida Vallcalent"
+  },
+  {
+    "id": 1414298666,
+    "name": "Almazara",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Geldo",
+    "products": [],
+    "website": null,
+    "lat": 39.8361161,
+    "lon": -0.4670757,
+    "address": "Avenida de Castellón"
+  },
+  {
+    "id": 1420818224,
+    "name": "Peter Keller",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3895533,
+    "lon": 3.0805272,
+    "address": null
+  },
+  {
+    "id": 1451305611,
+    "name": "Horts d'Albons",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.10315,
+    "lon": 3.0900191,
+    "address": null
+  },
+  {
+    "id": 1457850902,
+    "name": "Frutos Secos Gil",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8703545,
+    "lon": 0.1516845,
+    "address": "Calle del Arzobispo Fernández Heredia"
+  },
+  {
+    "id": 1459513184,
+    "name": "Centro Piscícola Experimental Vegas del Condado",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.6806039,
+    "lon": -5.356798,
+    "address": null
+  },
+  {
+    "id": 1471691860,
+    "name": "Can Gallet",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7840415,
+    "lon": 2.9785978,
+    "address": null
+  },
+  {
+    "id": 7961347,
+    "name": "Olivar de la Partija",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3703804,
+    "lon": -3.5442025,
+    "address": null
+  },
+  {
+    "id": 10744013,
+    "name": "Parque forestal de Tameiga",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.181566,
+    "lon": -8.674655,
+    "address": null
+  },
+  {
+    "id": 11098532,
+    "name": "Sierra Procomunal",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9284161,
+    "lon": -1.710564,
+    "address": null
+  },
+  {
+    "id": 13092530,
+    "name": "Marjal de la Safor",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0325752,
+    "lon": -0.2016227,
+    "address": null
+  },
+  {
+    "id": 16192590,
+    "name": "Viñedos de Agejas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.051563,
+    "lon": -4.1088091,
+    "address": null
+  },
+  {
+    "id": 16625006,
+    "name": "Sierra de la Marquesa",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9438892,
+    "lon": -3.9474734,
+    "address": null
+  },
+  {
+    "id": 16629222,
+    "name": "La Umbría de los Saltillos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9348899,
+    "lon": -3.9513529,
+    "address": null
+  },
+  {
+    "id": 16635480,
+    "name": "Los Saltillos",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9191851,
+    "lon": -3.9640024,
+    "address": null
+  },
+  {
+    "id": 16635523,
+    "name": "Majalperro",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9662387,
+    "lon": -3.91317,
+    "address": null
+  },
+  {
+    "id": 16641705,
+    "name": "Aprisquera",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9788391,
+    "lon": -3.9178096,
+    "address": null
+  },
+  {
+    "id": 17271885,
+    "name": "Peñalara-Nevero",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8554786,
+    "lon": -3.9673015,
+    "address": null
+  },
+  {
+    "id": 17273179,
+    "name": "Mujer Muerta a Pasapán",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8129121,
+    "lon": -4.124937,
+    "address": null
+  },
+  {
+    "id": 17277266,
+    "name": "Zarzoso, Pedriza y otros",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0071278,
+    "lon": -3.8970205,
+    "address": null
+  },
+  {
+    "id": 17277307,
+    "name": "El Hoyo",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9951794,
+    "lon": -3.9057861,
+    "address": null
+  },
+  {
+    "id": 17282544,
+    "name": "Horcajos, Regajo Hondo y otros",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.004229,
+    "lon": -3.8755083,
+    "address": null
+  },
+  {
+    "id": 17282636,
+    "name": "La Sierra",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1565409,
+    "lon": -3.6034882,
+    "address": null
+  },
+  {
+    "id": 17282900,
+    "name": "Juncadera",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1758846,
+    "lon": -3.5538511,
+    "address": null
+  },
+  {
+    "id": 17283011,
+    "name": "El Raso",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1899495,
+    "lon": -3.5078824,
+    "address": null
+  },
+  {
+    "id": 18055815,
+    "name": "La Tonda",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Grado de Pico",
+    "products": [],
+    "website": null,
+    "lat": 41.3048095,
+    "lon": -3.2773731,
+    "address": null
+  },
+  {
+    "id": 18057670,
+    "name": "Garganta, Reginiestro y La Iruela",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0378266,
+    "lon": -3.888966,
+    "address": null
+  },
+  {
+    "id": 18662799,
+    "name": "Ladera de San Juan",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.3245946,
+    "lon": -3.6363291,
+    "address": null
+  },
+  {
+    "id": 19442319,
+    "name": "Verescence",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.verescenceinsulators.com/",
+    "lat": 40.9040229,
+    "lon": -4.0034578,
+    "address": null
+  },
+  {
+    "id": 1248152194,
+    "name": "Farm shop 1248152194",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.9992355,
+    "lon": -3.4734255,
+    "address": null
+  },
+  {
+    "id": 1248152236,
+    "name": "Farm shop 1248152236",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.0019199,
+    "lon": -3.4744458,
+    "address": null
+  },
+  {
+    "id": 1248152254,
+    "name": "Farm shop 1248152254",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.0033645,
+    "lon": -3.4714106,
+    "address": null
+  },
+  {
+    "id": 1248152261,
+    "name": "Farm shop 1248152261",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.9993825,
+    "lon": -3.4737552,
+    "address": null
+  },
+  {
+    "id": 2191776397,
+    "name": "Farm shop 2191776397",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.894181,
+    "lon": -2.3321545,
+    "address": null
+  },
+  {
+    "id": 2197891468,
+    "name": "Farm shop 2197891468",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.8900694,
+    "lon": -2.3168367,
+    "address": null
+  },
+  {
+    "id": 3761647113,
+    "name": "Farm shop 3761647113",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0854522,
+    "lon": 0.1423896,
+    "address": null
+  },
+  {
+    "id": 3761647115,
+    "name": "Farm shop 3761647115",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.087429,
+    "lon": 0.1429531,
+    "address": null
+  },
+  {
+    "id": 4167282093,
+    "name": "Farm shop 4167282093",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.9729755,
+    "lon": -0.6957132,
+    "address": null
+  },
+  {
+    "id": 5703572214,
+    "name": "Farm shop 5703572214",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.7750051,
+    "lon": -1.5820782,
+    "address": null
+  },
+  {
+    "id": 5703572215,
+    "name": "Farm shop 5703572215",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.7750359,
+    "lon": -1.5820777,
+    "address": null
+  },
+  {
+    "id": 6138198671,
+    "name": "Farm shop 6138198671",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6027422,
+    "lon": -7.1913338,
+    "address": null
+  },
+  {
+    "id": 8730524651,
+    "name": "Farm shop 8730524651",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.9646697,
+    "lon": -13.5553904,
+    "address": null
+  },
+  {
+    "id": 8989995384,
+    "name": "Farm shop 8989995384",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.9546335,
+    "lon": -2.3531029,
+    "address": null
+  },
+  {
+    "id": 9323742096,
+    "name": "Farm shop 9323742096",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.2985245,
+    "lon": -5.2870322,
+    "address": null
+  },
+  {
+    "id": 9409740599,
+    "name": "Farm shop 9409740599",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.8043513,
+    "lon": -4.123529,
+    "address": null
+  },
+  {
+    "id": 11151146416,
+    "name": "Farm shop 11151146416",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.3973957,
+    "lon": -3.4445548,
+    "address": null
+  },
+  {
+    "id": 12188971082,
+    "name": "Farm shop 12188971082",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2513538,
+    "lon": -7.0263927,
+    "address": null
+  },
+  {
+    "id": 28494939,
+    "name": "Farm shop 28494939",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.030101,
+    "lon": -16.5828506,
+    "address": null
+  },
+  {
+    "id": 57396352,
+    "name": "Farm shop 57396352",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.761183,
+    "lon": -3.9062547,
+    "address": null
+  },
+  {
+    "id": 77830045,
+    "name": "Farm shop 77830045",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6301436,
+    "lon": -0.3054676,
+    "address": null
+  },
+  {
+    "id": 77893788,
+    "name": "Farm shop 77893788",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.619523,
+    "lon": -0.28961,
+    "address": null
+  },
+  {
+    "id": 79094511,
+    "name": "Farm shop 79094511",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6483161,
+    "lon": -0.2949401,
+    "address": null
+  },
+  {
+    "id": 79429469,
+    "name": "Farm shop 79429469",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6513372,
+    "lon": -0.2991271,
+    "address": null
+  },
+  {
+    "id": 88417108,
+    "name": "Farm shop 88417108",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.041569,
+    "lon": -16.6336019,
+    "address": null
+  },
+  {
+    "id": 88693402,
+    "name": "Farm shop 88693402",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.744727,
+    "lon": -3.9040272,
+    "address": null
+  },
+  {
+    "id": 94221284,
+    "name": "Farm shop 94221284",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.0057754,
+    "lon": -8.232952,
+    "address": null
+  },
+  {
+    "id": 94786642,
+    "name": "Farm shop 94786642",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.3108348,
+    "lon": -3.2631127,
+    "address": null
+  },
+  {
+    "id": 94902564,
+    "name": "Farm shop 94902564",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.081594,
+    "lon": -0.5775466,
+    "address": null
+  },
+  {
+    "id": 94913525,
+    "name": "Farm shop 94913525",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1232313,
+    "lon": -0.4604785,
+    "address": null
+  },
+  {
+    "id": 94919400,
+    "name": "Farm shop 94919400",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0027465,
+    "lon": -0.7639604,
+    "address": null
+  },
+  {
+    "id": 94971890,
+    "name": "Farm shop 94971890",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.5211202,
+    "lon": -5.8011143,
+    "address": null
+  },
+  {
+    "id": 94973677,
+    "name": "Farm shop 94973677",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.5147206,
+    "lon": -5.5482977,
+    "address": null
+  },
+  {
+    "id": 95554564,
+    "name": "Farm shop 95554564",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.4164171,
+    "lon": -16.5283276,
+    "address": null
+  },
+  {
+    "id": 95554626,
+    "name": "Farm shop 95554626",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.4159984,
+    "lon": -16.5264669,
+    "address": null
+  },
+  {
+    "id": 96098698,
+    "name": "Farm shop 96098698",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.310897,
+    "lon": -16.3837341,
+    "address": null
+  },
+  {
+    "id": 96128106,
+    "name": "Farm shop 96128106",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0428811,
+    "lon": -16.6670308,
+    "address": null
+  },
+  {
+    "id": 96128110,
+    "name": "Farm shop 96128110",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0409333,
+    "lon": -16.6546282,
+    "address": null
+  },
+  {
+    "id": 96128111,
+    "name": "Farm shop 96128111",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0388191,
+    "lon": -16.6676056,
+    "address": null
+  },
+  {
+    "id": 96128114,
+    "name": "Farm shop 96128114",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0385934,
+    "lon": -16.6618029,
+    "address": null
+  },
+  {
+    "id": 96128116,
+    "name": "Farm shop 96128116",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0408459,
+    "lon": -16.6557308,
+    "address": null
+  },
+  {
+    "id": 96128121,
+    "name": "Farm shop 96128121",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0406296,
+    "lon": -16.6587063,
+    "address": null
+  },
+  {
+    "id": 96128123,
+    "name": "Farm shop 96128123",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0404707,
+    "lon": -16.6604604,
+    "address": null
+  },
+  {
+    "id": 96128124,
+    "name": "Farm shop 96128124",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0404525,
+    "lon": -16.6567668,
+    "address": null
+  },
+  {
+    "id": 96128125,
+    "name": "Farm shop 96128125",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0383131,
+    "lon": -16.6632025,
+    "address": null
+  },
+  {
+    "id": 96128134,
+    "name": "Farm shop 96128134",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0447708,
+    "lon": -16.6637781,
+    "address": null
+  },
+  {
+    "id": 96128135,
+    "name": "Farm shop 96128135",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0421111,
+    "lon": -16.6575609,
+    "address": null
+  },
+  {
+    "id": 96128137,
+    "name": "Farm shop 96128137",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0428746,
+    "lon": -16.6638145,
+    "address": null
+  },
+  {
+    "id": 96128143,
+    "name": "Farm shop 96128143",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0412631,
+    "lon": -16.6572809,
+    "address": null
+  },
+  {
+    "id": 96130407,
+    "name": "Farm shop 96130407",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0401107,
+    "lon": -16.6772447,
+    "address": null
+  },
+  {
+    "id": 104784310,
+    "name": "Farm shop 104784310",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5808944,
+    "lon": 1.976151,
+    "address": null
+  },
+  {
+    "id": 108318032,
+    "name": "Farm shop 108318032",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.0431093,
+    "lon": -16.6510036,
+    "address": null
+  },
+  {
+    "id": 108779641,
+    "name": "Farm shop 108779641",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5783512,
+    "lon": 2.6818683,
+    "address": null
+  },
+  {
+    "id": 110037011,
+    "name": "Farm shop 110037011",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.1689459,
+    "lon": -16.43733,
+    "address": null
+  },
+  {
+    "id": 124858582,
+    "name": "Farm shop 124858582",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.9603468,
+    "lon": 2.6621872,
+    "address": null
+  },
+  {
+    "id": 125620138,
+    "name": "Farm shop 125620138",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 28.5494052,
+    "lon": -16.3471114,
+    "address": null
+  },
+  {
+    "id": 135431044,
+    "name": "Farm shop 135431044",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 27.774005,
+    "lon": -18.0075442,
+    "address": null
+  },
+  {
+    "id": 135544481,
+    "name": "Farm shop 135544481",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 27.7641003,
+    "lon": -18.0173261,
+    "address": null
+  },
+  {
+    "id": 142814011,
+    "name": "Farm shop 142814011",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1942876,
+    "lon": -4.0422906,
+    "address": null
+  },
+  {
+    "id": 149945502,
+    "name": "Farm shop 149945502",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3781759,
+    "lon": 0.3321103,
+    "address": null
+  },
+  {
+    "id": 151245045,
+    "name": "Farm shop 151245045",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7384003,
+    "lon": -1.7466324,
+    "address": null
+  },
+  {
+    "id": 155337401,
+    "name": "Farm shop 155337401",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9659647,
+    "lon": -1.8127951,
+    "address": null
+  },
+  {
+    "id": 158803794,
+    "name": "Farm shop 158803794",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.2883707,
+    "lon": -8.3542939,
+    "address": null
+  },
+  {
+    "id": 173520085,
+    "name": "Farm shop 173520085",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1781055,
+    "lon": -4.088913,
+    "address": null
+  },
+  {
+    "id": 175792728,
+    "name": "Farm shop 175792728",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0382853,
+    "lon": -1.897372,
+    "address": null
+  },
+  {
+    "id": 177627585,
+    "name": "Farm shop 177627585",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.2095503,
+    "lon": 3.0863384,
+    "address": null
+  },
+  {
     "id": 182081902,
     "name": "Farm shop 182081902",
     "country": "Spain",
@@ -4282,30 +7234,6 @@
     "lat": 41.0328921,
     "lon": -2.1319824,
     "address": null
-  },
-  {
-    "id": 183803270,
-    "name": "A Tenda dos Queixos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.0794998,
-    "lon": -8.2591309,
-    "address": null
-  },
-  {
-    "id": 184838396,
-    "name": "Patacas Castelo",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Narón",
-    "products": [],
-    "website": null,
-    "lat": 43.5327448,
-    "lon": -8.191501,
-    "address": "Avenida de Gonzalo Navarro"
   },
   {
     "id": 188312581,
@@ -4524,18 +7452,6 @@
     "address": null
   },
   {
-    "id": 193013391,
-    "name": "Progando",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Oleiros",
-    "products": [],
-    "website": "https://www.progando.es/gal/",
-    "lat": 43.3200432,
-    "lon": -8.3140767,
-    "address": "Avenida das Mariñas"
-  },
-  {
     "id": 193684367,
     "name": "Farm shop 193684367",
     "country": "Spain",
@@ -4557,18 +7473,6 @@
     "website": null,
     "lat": 38.834537,
     "lon": 0.0541654,
-    "address": null
-  },
-  {
-    "id": 197652408,
-    "name": "Stolt Sea Farm",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stoltseafarm.com/es",
-    "lat": 42.8794771,
-    "lon": -9.1443129,
     "address": null
   },
   {
@@ -4596,42 +7500,6 @@
     "address": null
   },
   {
-    "id": 208923968,
-    "name": "Orrau",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.8787023,
-    "lon": -2.3159167,
-    "address": null
-  },
-  {
-    "id": 208923969,
-    "name": "Aixtra",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.8943366,
-    "lon": -2.3323327,
-    "address": null
-  },
-  {
-    "id": 208924731,
-    "name": "Lekuona",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Araia",
-    "products": [],
-    "website": null,
-    "lat": 42.8953363,
-    "lon": -2.3165023,
-    "address": "Askazubizar kalea"
-  },
-  {
     "id": 209257062,
     "name": "Farm shop 209257062",
     "country": "Spain",
@@ -4653,18 +7521,6 @@
     "website": null,
     "lat": 37.1855084,
     "lon": -4.0494103,
-    "address": null
-  },
-  {
-    "id": 209570321,
-    "name": "cooperativa agrària",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6172576,
-    "lon": 3.1096281,
     "address": null
   },
   {
@@ -4860,30 +7716,6 @@
     "address": null
   },
   {
-    "id": 227832087,
-    "name": "La Piscifactoría",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.8922414,
-    "lon": -3.9949771,
-    "address": null
-  },
-  {
-    "id": 228143379,
-    "name": "Illacamp",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7757935,
-    "lon": 3.0261143,
-    "address": null
-  },
-  {
     "id": 239619580,
     "name": "Farm shop 239619580",
     "country": "Spain",
@@ -4893,18 +7725,6 @@
     "website": null,
     "lat": 43.3688272,
     "lon": -7.8644007,
-    "address": null
-  },
-  {
-    "id": 244349129,
-    "name": "Pabellon de ferias y congresos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.0747426,
-    "lon": -3.6013494,
     "address": null
   },
   {
@@ -4944,18 +7764,6 @@
     "address": null
   },
   {
-    "id": 257917491,
-    "name": "Truchas del Saja",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.2688126,
-    "lon": -4.2516019,
-    "address": null
-  },
-  {
     "id": 261439923,
     "name": "Farm shop 261439923",
     "country": "Spain",
@@ -4965,66 +7773,6 @@
     "website": null,
     "lat": 43.3197616,
     "lon": -1.7750441,
-    "address": null
-  },
-  {
-    "id": 262512968,
-    "name": "Pomares 1",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3506136,
-    "lon": -0.8907064,
-    "address": null
-  },
-  {
-    "id": 265768326,
-    "name": "Sociedad Cooperativa Ltda Sierra Francia Cepeda",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.4680047,
-    "lon": -6.0425111,
-    "address": null
-  },
-  {
-    "id": 267402649,
-    "name": "Cooperativa Sierra de Francia Batuecas",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Madroñal",
-    "products": [],
-    "website": null,
-    "lat": 40.464789,
-    "lon": -6.0622029,
-    "address": "Calle Larga"
-  },
-  {
-    "id": 272776742,
-    "name": "Molín Peón",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.1010428,
-    "lon": -5.5182405,
-    "address": null
-  },
-  {
-    "id": 272776743,
-    "name": "Centro de alevinaje de truchas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.1006744,
-    "lon": -5.5182149,
     "address": null
   },
   {
@@ -5064,30 +7812,6 @@
     "address": null
   },
   {
-    "id": 284866249,
-    "name": "Piscifactoría",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.1956426,
-    "lon": -5.4757685,
-    "address": null
-  },
-  {
-    "id": 287508564,
-    "name": "Parque Empresarial das Pedreiras",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.3882759,
-    "lon": -7.1435423,
-    "address": null
-  },
-  {
     "id": 288268349,
     "name": "Farm shop 288268349",
     "country": "Spain",
@@ -5098,18 +7822,6 @@
     "lat": 37.7551723,
     "lon": -0.9421486,
     "address": null
-  },
-  {
-    "id": 290891084,
-    "name": "Cooperativa Cupalma",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.6628179,
-    "lon": -17.7653807,
-    "address": "Calle El Fuerte"
   },
   {
     "id": 292674683,
@@ -5148,18 +7860,6 @@
     "address": null
   },
   {
-    "id": 297066170,
-    "name": "Cindal R&D Center Aludium",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3180141,
-    "lon": -0.5162075,
-    "address": null
-  },
-  {
     "id": 297646245,
     "name": "Farm shop 297646245",
     "country": "Spain",
@@ -5193,18 +7893,6 @@
     "website": null,
     "lat": 38.832666,
     "lon": 0.0678265,
-    "address": null
-  },
-  {
-    "id": 302411067,
-    "name": "Servizos Gandeiros e Forestais Agroeume",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.432821,
-    "lon": -8.0773848,
     "address": null
   },
   {
@@ -5292,18 +7980,6 @@
     "address": null
   },
   {
-    "id": 308957642,
-    "name": "AVISA",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.aloetiscamanita.com/",
-    "lat": 28.3444515,
-    "lon": -14.0407724,
-    "address": null
-  },
-  {
     "id": 311545331,
     "name": "Farm shop 311545331",
     "country": "Spain",
@@ -5338,18 +8014,6 @@
     "lat": 27.819485,
     "lon": -17.9703413,
     "address": null
-  },
-  {
-    "id": 315326979,
-    "name": "Harri expositorea",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Arizkun",
-    "products": [],
-    "website": null,
-    "lat": 43.1796342,
-    "lon": -1.4758317,
-    "address": "Bozate Auzoa Lamiarrita"
   },
   {
     "id": 318159748,
@@ -5409,18 +8073,6 @@
     "website": null,
     "lat": 38.9666579,
     "lon": -0.4937095,
-    "address": null
-  },
-  {
-    "id": 325956623,
-    "name": "O-I Glass",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.353525,
-    "lon": -5.8716028,
     "address": null
   },
   {
@@ -5544,18 +8196,6 @@
     "address": null
   },
   {
-    "id": 347716720,
-    "name": "A Berxa",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Mesía",
-    "products": [],
-    "website": "https://www.piscifactoriaberxa.com/",
-    "lat": 43.1063004,
-    "lon": -8.2876668,
-    "address": "A Berxa, Olas"
-  },
-  {
     "id": 351926996,
     "name": "Farm shop 351926996",
     "country": "Spain",
@@ -5652,66 +8292,6 @@
     "address": null
   },
   {
-    "id": 366145767,
-    "name": "Los Almacenes",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Haría",
-    "products": [],
-    "website": null,
-    "lat": 29.1926264,
-    "lon": -13.4757197,
-    "address": "Calle San Francisco Javier"
-  },
-  {
-    "id": 368942194,
-    "name": "Patates Vídua d'Antoni Serra",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7603071,
-    "lon": 3.033911,
-    "address": null
-  },
-  {
-    "id": 369712085,
-    "name": "Illacamp",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7577544,
-    "lon": 3.0213574,
-    "address": null
-  },
-  {
-    "id": 374447635,
-    "name": "Cromados Estévez, S.L.",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Lugo",
-    "products": [],
-    "website": "https://www.autocromes.com",
-    "lat": 43.0460688,
-    "lon": -7.563826,
-    "address": "Rúa dos Transportes"
-  },
-  {
-    "id": 374883521,
-    "name": "Cooperativa agrícola Sant Bartomeu",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7695634,
-    "lon": 2.7252747,
-    "address": "carretera de Fornalutx"
-  },
-  {
     "id": 375789640,
     "name": "Farm shop 375789640",
     "country": "Spain",
@@ -5724,66 +8304,6 @@
     "address": null
   },
   {
-    "id": 376263618,
-    "name": "Piscifactoría de Oliván",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5686147,
-    "lon": -0.3195159,
-    "address": null
-  },
-  {
-    "id": 376535987,
-    "name": "Agrícola de Sa Pobla",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7725942,
-    "lon": 3.0291078,
-    "address": null
-  },
-  {
-    "id": 377540696,
-    "name": "Conserves Es Pinaret",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.585807,
-    "lon": 2.6876408,
-    "address": null
-  },
-  {
-    "id": 378676519,
-    "name": "cooperativa agrícola",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5131904,
-    "lon": 3.0288174,
-    "address": null
-  },
-  {
-    "id": 383263287,
-    "name": "Central Hortofrutícola Almenar Fruits",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.7940057,
-    "lon": 0.5732491,
-    "address": null
-  },
-  {
     "id": 383956314,
     "name": "Farm shop 383956314",
     "country": "Spain",
@@ -5793,18 +8313,6 @@
     "website": null,
     "lat": 38.0180683,
     "lon": -0.6674059,
-    "address": null
-  },
-  {
-    "id": 385121668,
-    "name": "Agromart",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5259243,
-    "lon": 3.0157127,
     "address": null
   },
   {
@@ -5916,18 +8424,6 @@
     "address": null
   },
   {
-    "id": 389038263,
-    "name": "Cooperativa agrícola",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4915087,
-    "lon": 2.8838351,
-    "address": null
-  },
-  {
     "id": 390195124,
     "name": "Farm shop 390195124",
     "country": "Spain",
@@ -5937,18 +8433,6 @@
     "website": null,
     "lat": 38.8823601,
     "lon": 1.3941117,
-    "address": null
-  },
-  {
-    "id": 391211057,
-    "name": "Cooperativa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5712768,
-    "lon": 3.2179364,
     "address": null
   },
   {
@@ -5974,42 +8458,6 @@
     "lat": 28.6914577,
     "lon": -17.9489086,
     "address": null
-  },
-  {
-    "id": 397139898,
-    "name": "espècies Crespí",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6095053,
-    "lon": 2.6711745,
-    "address": null
-  },
-  {
-    "id": 402423206,
-    "name": "Venta de Hortalizas Los Laneros",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.0517972,
-    "lon": -3.5916469,
-    "address": null
-  },
-  {
-    "id": 403394647,
-    "name": "Cooperativa agrícola el Soleràs",
-    "country": "Spain",
-    "region": null,
-    "municipality": "el Soleràs",
-    "products": [],
-    "website": null,
-    "lat": 41.4124976,
-    "lon": 0.685504,
-    "address": "Carretera de Bellpuig"
   },
   {
     "id": 403411517,
@@ -6048,30 +8496,6 @@
     "address": null
   },
   {
-    "id": 406759221,
-    "name": "Biona",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3050464,
-    "lon": -8.0764251,
-    "address": null
-  },
-  {
-    "id": 408718250,
-    "name": "Agricentro Montellos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.2735718,
-    "lon": -8.2307318,
-    "address": null
-  },
-  {
     "id": 410948116,
     "name": "Farm shop 410948116",
     "country": "Spain",
@@ -6093,30 +8517,6 @@
     "website": null,
     "lat": 38.0306206,
     "lon": -0.6592237,
-    "address": null
-  },
-  {
-    "id": 417045486,
-    "name": "Ovapiscis",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ovapiscis.com/instalaciones-villanua",
-    "lat": 42.6660349,
-    "lon": -0.5476477,
-    "address": null
-  },
-  {
-    "id": 417045488,
-    "name": "Ovapiscis",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ovapiscis.com/instalaciones-villanua",
-    "lat": 42.6681075,
-    "lon": -0.5447613,
     "address": null
   },
   {
@@ -6177,30 +8577,6 @@
     "website": null,
     "lat": 38.0506319,
     "lon": -0.693316,
-    "address": null
-  },
-  {
-    "id": 424229216,
-    "name": "Cas Siulet",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Sa Pobla",
-    "products": [],
-    "website": null,
-    "lat": 39.7663163,
-    "lon": 3.0296449,
-    "address": null
-  },
-  {
-    "id": 427273932,
-    "name": "Balaguer Busquets",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5651814,
-    "lon": 2.6796418,
     "address": null
   },
   {
@@ -6276,30 +8652,6 @@
     "address": null
   },
   {
-    "id": 433799149,
-    "name": "Narurfauna",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.4148312,
-    "lon": -1.9681511,
-    "address": "Calle de Miguel Uribe Gómez"
-  },
-  {
-    "id": 434298388,
-    "name": "Piscifactoría Felechosa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://piscifactoriafelechosa.es.tl/",
-    "lat": 43.0997154,
-    "lon": -5.483831,
-    "address": null
-  },
-  {
     "id": 434793397,
     "name": "Farm shop 434793397",
     "country": "Spain",
@@ -6309,18 +8661,6 @@
     "website": null,
     "lat": 37.8503101,
     "lon": -0.7808007,
-    "address": null
-  },
-  {
-    "id": 437583531,
-    "name": "Agrícola O Tres",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3400968,
-    "lon": -8.1549018,
     "address": null
   },
   {
@@ -6336,30 +8676,6 @@
     "address": null
   },
   {
-    "id": 439869068,
-    "name": "Garroves Carob",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6196222,
-    "lon": 2.7176927,
-    "address": null
-  },
-  {
-    "id": 442081155,
-    "name": "Fruites Pomar",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5596504,
-    "lon": 3.2066412,
-    "address": null
-  },
-  {
     "id": 442140710,
     "name": "Farm shop 442140710",
     "country": "Spain",
@@ -6369,54 +8685,6 @@
     "website": null,
     "lat": 38.9148129,
     "lon": -0.1240491,
-    "address": null
-  },
-  {
-    "id": 443750540,
-    "name": "Castañas y Derivados El Cerro",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.castanaselcerro.com/",
-    "lat": 40.3315808,
-    "lon": -5.9120564,
-    "address": null
-  },
-  {
-    "id": 447781623,
-    "name": "Alpira",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5580821,
-    "lon": 2.8963677,
-    "address": null
-  },
-  {
-    "id": 447785152,
-    "name": "cooperativa",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Llucmajor",
-    "products": [],
-    "website": null,
-    "lat": 39.4880009,
-    "lon": 2.8859511,
-    "address": "Carrer de la Marina"
-  },
-  {
-    "id": 447785185,
-    "name": "Huevos Imajo S.A.",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.8381739,
-    "lon": -2.442258,
     "address": null
   },
   {
@@ -6513,30 +8781,6 @@
     "website": null,
     "lat": 36.7771586,
     "lon": -4.039301,
-    "address": null
-  },
-  {
-    "id": 473070333,
-    "name": "Mateu export",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7758737,
-    "lon": 3.0181311,
-    "address": null
-  },
-  {
-    "id": 473652878,
-    "name": "Piema",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5959424,
-    "lon": 2.6702902,
     "address": null
   },
   {
@@ -6645,18 +8889,6 @@
     "website": null,
     "lat": 38.8368195,
     "lon": 0.0975535,
-    "address": null
-  },
-  {
-    "id": 489830444,
-    "name": "Riberas del Río Martín",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.130184,
-    "lon": -0.4988149,
     "address": null
   },
   {
@@ -7101,18 +9333,6 @@
     "website": null,
     "lat": 41.0998714,
     "lon": -0.5046677,
-    "address": null
-  },
-  {
-    "id": 491279890,
-    "name": "Cabezo del Carmen",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1777873,
-    "lon": -0.4585733,
     "address": null
   },
   {
@@ -7761,18 +9981,6 @@
     "website": null,
     "lat": 41.1550152,
     "lon": -0.5336047,
-    "address": null
-  },
-  {
-    "id": 496912538,
-    "name": "Pollos Fuentes S.L.",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.0727936,
-    "lon": -6.5326809,
     "address": null
   },
   {
@@ -8817,18 +11025,6 @@
     "website": null,
     "lat": 41.0888997,
     "lon": -0.6067929,
-    "address": null
-  },
-  {
-    "id": 500033389,
-    "name": "Ortas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0852929,
-    "lon": -0.5924033,
     "address": null
   },
   {
@@ -10068,30 +12264,6 @@
     "address": null
   },
   {
-    "id": 507425103,
-    "name": "Centro Agrícola",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5681193,
-    "lon": 2.6788708,
-    "address": null
-  },
-  {
-    "id": 509226615,
-    "name": "Dun-dun ardi gazta",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Araia",
-    "products": [],
-    "website": null,
-    "lat": 42.8970566,
-    "lon": -2.3191081,
-    "address": "San Martin kalea"
-  },
-  {
     "id": 514947320,
     "name": "Farm shop 514947320",
     "country": "Spain",
@@ -10116,18 +12288,6 @@
     "address": null
   },
   {
-    "id": 516124002,
-    "name": "Del Huerto a la Mesa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1731223,
-    "lon": 1.4566059,
-    "address": null
-  },
-  {
     "id": 520584756,
     "name": "Farm shop 520584756",
     "country": "Spain",
@@ -10149,18 +12309,6 @@
     "website": null,
     "lat": 43.2012312,
     "lon": -7.3222249,
-    "address": null
-  },
-  {
-    "id": 535156194,
-    "name": "Cooperativa Agrícola Murense",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7439745,
-    "lon": 3.0532674,
     "address": null
   },
   {
@@ -10368,42 +12516,6 @@
     "address": null
   },
   {
-    "id": 538335028,
-    "name": "Fribin",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.8511094,
-    "lon": 0.2860201,
-    "address": "Camino del Pueyo"
-  },
-  {
-    "id": 538646728,
-    "name": "Agrocomercial Tot Fora Vila",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.690238,
-    "lon": 3.3516234,
-    "address": null
-  },
-  {
-    "id": 541339815,
-    "name": "Piscifactoría Torrebaja",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.0972316,
-    "lon": -1.2703575,
-    "address": null
-  },
-  {
     "id": 544549560,
     "name": "Farm shop 544549560",
     "country": "Spain",
@@ -10464,18 +12576,6 @@
     "address": null
   },
   {
-    "id": 549920748,
-    "name": "Atanasio Villar",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5457302,
-    "lon": -2.2397571,
-    "address": null
-  },
-  {
     "id": 549923747,
     "name": "Farm shop 549923747",
     "country": "Spain",
@@ -10485,18 +12585,6 @@
     "website": null,
     "lat": 39.5382378,
     "lon": -2.2517645,
-    "address": null
-  },
-  {
-    "id": 550747365,
-    "name": "Fuensanta Garden",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9753657,
-    "lon": -3.9276604,
     "address": null
   },
   {
@@ -10521,18 +12609,6 @@
     "website": null,
     "lat": 40.9827284,
     "lon": 0.0917909,
-    "address": null
-  },
-  {
-    "id": 552621458,
-    "name": "La Torre de Can Roig",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.5257413,
-    "lon": 0.8651762,
     "address": null
   },
   {
@@ -10617,30 +12693,6 @@
     "website": null,
     "lat": 39.1434159,
     "lon": -0.3878769,
-    "address": null
-  },
-  {
-    "id": 560269214,
-    "name": "Coopetariva",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5752788,
-    "lon": 2.4159378,
-    "address": null
-  },
-  {
-    "id": 560388332,
-    "name": "Huerto Escolar Municipal",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.3659612,
-    "lon": -4.8955936,
     "address": null
   },
   {
@@ -10740,18 +12792,6 @@
     "address": null
   },
   {
-    "id": 562539624,
-    "name": "Baztango nekazarien kooperatiba",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Arizkun",
-    "products": [],
-    "website": null,
-    "lat": 43.1799769,
-    "lon": -1.4891901,
-    "address": "Ordoki auzoa"
-  },
-  {
     "id": 563499098,
     "name": "Farm shop 563499098",
     "country": "Spain",
@@ -10761,18 +12801,6 @@
     "website": null,
     "lat": 41.6678094,
     "lon": 1.865149,
-    "address": null
-  },
-  {
-    "id": 565034853,
-    "name": "Viñas y Olivos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.696664,
-    "lon": -6.1164138,
     "address": null
   },
   {
@@ -10833,18 +12861,6 @@
     "website": null,
     "lat": 41.1122342,
     "lon": -0.5629506,
-    "address": null
-  },
-  {
-    "id": 570661722,
-    "name": "Mas Foresa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.063225,
-    "lon": 1.0171662,
     "address": null
   },
   {
@@ -10956,18 +12972,6 @@
     "address": null
   },
   {
-    "id": 575660609,
-    "name": "Artestruz",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3825656,
-    "lon": 3.0011426,
-    "address": null
-  },
-  {
     "id": 576033980,
     "name": "Farm shop 576033980",
     "country": "Spain",
@@ -11016,18 +13020,6 @@
     "address": null
   },
   {
-    "id": 581345357,
-    "name": "Masada de Suelves",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.6390793,
-    "lon": -0.1152693,
-    "address": null
-  },
-  {
     "id": 581835583,
     "name": "Farm shop 581835583",
     "country": "Spain",
@@ -11037,18 +13029,6 @@
     "website": null,
     "lat": 43.4465929,
     "lon": -8.2751806,
-    "address": null
-  },
-  {
-    "id": 583704407,
-    "name": "Piscifactoría",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1959056,
-    "lon": -3.4512386,
     "address": null
   },
   {
@@ -11304,18 +13284,6 @@
     "address": null
   },
   {
-    "id": 589510600,
-    "name": "Fruites Núria",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.fruitesnuria.com/",
-    "lat": 42.1482836,
-    "lon": 3.0211412,
-    "address": null
-  },
-  {
     "id": 589599260,
     "name": "Farm shop 589599260",
     "country": "Spain",
@@ -11400,18 +13368,6 @@
     "address": null
   },
   {
-    "id": 597315947,
-    "name": "Fábrica de Hielo",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Colindres",
-    "products": [],
-    "website": null,
-    "lat": 43.3959763,
-    "lon": -3.4608117,
-    "address": "Puerto Pesquero"
-  },
-  {
     "id": 599030845,
     "name": "Farm shop 599030845",
     "country": "Spain",
@@ -11434,18 +13390,6 @@
     "lat": 41.6036183,
     "lon": 2.0819912,
     "address": null
-  },
-  {
-    "id": 600428037,
-    "name": "Mariscos Antromero",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Antromero - Gozón",
-    "products": [],
-    "website": "http://cetarea-antromero.com/",
-    "lat": 43.5998263,
-    "lon": -5.7749179,
-    "address": "Carretera Candás-Luanco"
   },
   {
     "id": 601129635,
@@ -11688,42 +13632,6 @@
     "address": null
   },
   {
-    "id": 610007611,
-    "name": "Forrajes Ruiz",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.0240075,
-    "lon": -3.5087044,
-    "address": null
-  },
-  {
-    "id": 616083291,
-    "name": "Euralis",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.3237321,
-    "lon": -5.9943398,
-    "address": null
-  },
-  {
-    "id": 619497832,
-    "name": "Frutas y Hortalizas Fontellas",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Fontellas",
-    "products": [],
-    "website": null,
-    "lat": 42.0238122,
-    "lon": -1.5784401,
-    "address": "Avenida Navarra"
-  },
-  {
     "id": 619514217,
     "name": "Farm shop 619514217",
     "country": "Spain",
@@ -11733,30 +13641,6 @@
     "website": null,
     "lat": 41.4638372,
     "lon": -4.5876738,
-    "address": null
-  },
-  {
-    "id": 621435915,
-    "name": "Piscifactoria de Villanueva de Carrizo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5867863,
-    "lon": -5.817445,
-    "address": null
-  },
-  {
-    "id": 622475610,
-    "name": "El Quemado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.3999567,
-    "lon": -3.8705475,
     "address": null
   },
   {
@@ -13488,18 +15372,6 @@
     "address": null
   },
   {
-    "id": 643866384,
-    "name": "Granxa de Lloréu",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.5276619,
-    "lon": -5.3101072,
-    "address": null
-  },
-  {
     "id": 647441436,
     "name": "Farm shop 647441436",
     "country": "Spain",
@@ -13533,54 +15405,6 @@
     "website": null,
     "lat": 43.4403068,
     "lon": -8.2213524,
-    "address": null
-  },
-  {
-    "id": 656357095,
-    "name": "Hermisenda Huerta Natural",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Encinarejo de Córdoba",
-    "products": [],
-    "website": "https://hermisenda.com",
-    "lat": 37.8277909,
-    "lon": -4.9306663,
-    "address": "Camino de los Aceituneros"
-  },
-  {
-    "id": 656859164,
-    "name": "Uagalur",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.8444499,
-    "lon": -2.6666712,
-    "address": null
-  },
-  {
-    "id": 666346352,
-    "name": "Cas Cubano",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6132834,
-    "lon": 2.6760149,
-    "address": null
-  },
-  {
-    "id": 666527495,
-    "name": "Joaquín Garrido Frontelo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9590882,
-    "lon": -4.8392685,
     "address": null
   },
   {
@@ -13653,18 +15477,6 @@
     "website": null,
     "lat": 39.7104166,
     "lon": -3.3369011,
-    "address": null
-  },
-  {
-    "id": 676784509,
-    "name": "Joaquín Garrido Frontelo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9602855,
-    "lon": -4.8391142,
     "address": null
   },
   {
@@ -13812,54 +15624,6 @@
     "address": null
   },
   {
-    "id": 691268940,
-    "name": "Institut Mollerussa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.6169653,
-    "lon": 0.8671262,
-    "address": null
-  },
-  {
-    "id": 691286883,
-    "name": "Principado Berries",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.principadoberries.es",
-    "lat": 43.2239252,
-    "lon": -5.8721801,
-    "address": null
-  },
-  {
-    "id": 691286884,
-    "name": "Principado Berries",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.principadoberries.es",
-    "lat": 43.2478557,
-    "lon": -5.883344,
-    "address": null
-  },
-  {
-    "id": 691418073,
-    "name": "privado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9860307,
-    "lon": -1.8290939,
-    "address": null
-  },
-  {
     "id": 691443525,
     "name": "Farm shop 691443525",
     "country": "Spain",
@@ -13920,30 +15684,6 @@
     "address": null
   },
   {
-    "id": 691643445,
-    "name": "particular",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9855642,
-    "lon": -1.8304862,
-    "address": null
-  },
-  {
-    "id": 691659639,
-    "name": "privado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9812832,
-    "lon": -1.824256,
-    "address": null
-  },
-  {
     "id": 691663839,
     "name": "Farm shop 691663839",
     "country": "Spain",
@@ -13953,66 +15693,6 @@
     "website": null,
     "lat": 38.9755709,
     "lon": -1.8108342,
-    "address": null
-  },
-  {
-    "id": 691664371,
-    "name": "PRIVADO",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9832983,
-    "lon": -1.8281752,
-    "address": null
-  },
-  {
-    "id": 691681250,
-    "name": "particular",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9881485,
-    "lon": -1.8330764,
-    "address": null
-  },
-  {
-    "id": 691681686,
-    "name": "privado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9878207,
-    "lon": -1.8318848,
-    "address": null
-  },
-  {
-    "id": 691689856,
-    "name": "privado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.97927,
-    "lon": -1.8240456,
-    "address": null
-  },
-  {
-    "id": 691703866,
-    "name": "privado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.981915,
-    "lon": -1.8254304,
     "address": null
   },
   {
@@ -14172,30 +15852,6 @@
     "address": null
   },
   {
-    "id": 698210717,
-    "name": "Instituto Español de Oceanografía - Planta de Cultivos Marinos de El Bocal",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Monte",
-    "products": [],
-    "website": "https://www.ieo.es/es/web/santander/plantas-de-cultivo",
-    "lat": 43.4863492,
-    "lon": -3.826169,
-    "address": null
-  },
-  {
-    "id": 699695345,
-    "name": "Agropecuària Mas Bes S.L.",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.9065401,
-    "lon": 2.7407433,
-    "address": null
-  },
-  {
     "id": 703194794,
     "name": "Farm shop 703194794",
     "country": "Spain",
@@ -14280,18 +15936,6 @@
     "address": null
   },
   {
-    "id": 717916223,
-    "name": "Somni d'istiu · Can Tonicus",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.4219363,
-    "lon": 3.1622531,
-    "address": null
-  },
-  {
     "id": 723523498,
     "name": "Farm shop 723523498",
     "country": "Spain",
@@ -14301,18 +15945,6 @@
     "website": null,
     "lat": 41.6894462,
     "lon": 1.8476079,
-    "address": null
-  },
-  {
-    "id": 723545390,
-    "name": "Huertos de la luisiana",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.5236709,
-    "lon": -5.2477779,
     "address": null
   },
   {
@@ -14352,30 +15984,6 @@
     "address": null
   },
   {
-    "id": 725424273,
-    "name": "La solana",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.3927142,
-    "lon": -3.8640768,
-    "address": null
-  },
-  {
-    "id": 734620460,
-    "name": "Casa Tomás",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.5190195,
-    "lon": 0.158126,
-    "address": null
-  },
-  {
     "id": 738034810,
     "name": "Farm shop 738034810",
     "country": "Spain",
@@ -14409,66 +16017,6 @@
     "website": null,
     "lat": 38.9152827,
     "lon": -1.7278494,
-    "address": null
-  },
-  {
-    "id": 741890331,
-    "name": "Pomares 3",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.350981,
-    "lon": -0.8905401,
-    "address": null
-  },
-  {
-    "id": 742095148,
-    "name": "Pomares 5A",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3510537,
-    "lon": -0.8901602,
-    "address": null
-  },
-  {
-    "id": 742105945,
-    "name": "Olivar de la rambla",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3519247,
-    "lon": -0.8900916,
-    "address": null
-  },
-  {
-    "id": 742105973,
-    "name": "Pomares 43",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3507677,
-    "lon": -0.8912514,
-    "address": null
-  },
-  {
-    "id": 742105975,
-    "name": "Pomares 18B",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.3506612,
-    "lon": -0.8913919,
     "address": null
   },
   {
@@ -14625,18 +16173,6 @@
     "website": null,
     "lat": 41.7526199,
     "lon": -0.7992246,
-    "address": null
-  },
-  {
-    "id": 767972532,
-    "name": "Granjas Cantos Blancos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.5956022,
-    "lon": -3.2329272,
     "address": null
   },
   {
@@ -14880,18 +16416,6 @@
     "address": null
   },
   {
-    "id": 777099244,
-    "name": "BROTES VIVEIRO",
-    "country": "Spain",
-    "region": null,
-    "municipality": "tomiño",
-    "products": [],
-    "website": null,
-    "lat": 41.9721438,
-    "lon": -8.7637744,
-    "address": "medos"
-  },
-  {
     "id": 784544979,
     "name": "Farm shop 784544979",
     "country": "Spain",
@@ -14949,54 +16473,6 @@
     "website": null,
     "lat": 42.5849983,
     "lon": -1.2768957,
-    "address": null
-  },
-  {
-    "id": 793637419,
-    "name": "Las Brunas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7052204,
-    "lon": -2.4943839,
-    "address": null
-  },
-  {
-    "id": 793637422,
-    "name": "Los chaparros",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7005395,
-    "lon": -2.5020643,
-    "address": null
-  },
-  {
-    "id": 793637429,
-    "name": "Los espejares",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6911948,
-    "lon": -2.5226097,
-    "address": null
-  },
-  {
-    "id": 793637444,
-    "name": "CañaSeca",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.661097,
-    "lon": -2.532577,
     "address": null
   },
   {
@@ -15408,18 +16884,6 @@
     "address": null
   },
   {
-    "id": 807739860,
-    "name": "Jormacol - Granja de Caracoles",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.5779128,
-    "lon": -5.8453951,
-    "address": null
-  },
-  {
     "id": 808644706,
     "name": "Farm shop 808644706",
     "country": "Spain",
@@ -15492,18 +16956,6 @@
     "address": null
   },
   {
-    "id": 815878782,
-    "name": "PisciSelmo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.pisciselmo.com/",
-    "lat": 42.5486968,
-    "lon": -6.8789163,
-    "address": null
-  },
-  {
     "id": 816224768,
     "name": "Farm shop 816224768",
     "country": "Spain",
@@ -15513,18 +16965,6 @@
     "website": null,
     "lat": 43.1752388,
     "lon": -2.4802322,
-    "address": null
-  },
-  {
-    "id": 817201012,
-    "name": "Horts de Can Valls",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.5370012,
-    "lon": 1.7717603,
     "address": null
   },
   {
@@ -15552,30 +16992,6 @@
     "address": null
   },
   {
-    "id": 826569543,
-    "name": "A Ribeira",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.8463242,
-    "lon": -8.6473434,
-    "address": null
-  },
-  {
-    "id": 829610792,
-    "name": "Piscifactoría de Yesa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://caviarpirinea.com/",
-    "lat": 42.6155914,
-    "lon": -1.2173985,
-    "address": null
-  },
-  {
     "id": 833522814,
     "name": "Farm shop 833522814",
     "country": "Spain",
@@ -15598,18 +17014,6 @@
     "lat": 41.5864012,
     "lon": -2.8264862,
     "address": null
-  },
-  {
-    "id": 839075761,
-    "name": "Las Lameras",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Villa de Mazo",
-    "products": [],
-    "website": null,
-    "lat": 28.5422576,
-    "lon": -17.811739,
-    "address": "Montes de Luna"
   },
   {
     "id": 840988614,
@@ -15657,18 +17061,6 @@
     "website": null,
     "lat": 38.8584897,
     "lon": -1.5487423,
-    "address": null
-  },
-  {
-    "id": 850487399,
-    "name": "Polígono 506 Parcela 5008",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.8072065,
-    "lon": -4.3517148,
     "address": null
   },
   {
@@ -15780,30 +17172,6 @@
     "address": null
   },
   {
-    "id": 869065641,
-    "name": "Batea",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.4173595,
-    "lon": -8.2117257,
-    "address": null
-  },
-  {
-    "id": 869065642,
-    "name": "Batea",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.4175064,
-    "lon": -8.2104585,
-    "address": null
-  },
-  {
     "id": 871658637,
     "name": "Farm shop 871658637",
     "country": "Spain",
@@ -15813,18 +17181,6 @@
     "website": null,
     "lat": 43.0821327,
     "lon": -8.4059412,
-    "address": null
-  },
-  {
-    "id": 878869533,
-    "name": "Cooperativa agrària",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.6429497,
-    "lon": 3.0158013,
     "address": null
   },
   {
@@ -15838,18 +17194,6 @@
     "lat": 43.1890018,
     "lon": -2.4756976,
     "address": null
-  },
-  {
-    "id": 880545533,
-    "name": "Cooperativa d'Artà",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.cooperativaarta.com/",
-    "lat": 39.6921207,
-    "lon": 3.34753,
-    "address": "Carrer de les Parres"
   },
   {
     "id": 880662931,
@@ -15936,30 +17280,6 @@
     "address": null
   },
   {
-    "id": 893836203,
-    "name": "Los Olivos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.4530838,
-    "lon": -3.8268018,
-    "address": null
-  },
-  {
-    "id": 895463283,
-    "name": "Agroilla",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5596537,
-    "lon": 3.2058056,
-    "address": null
-  },
-  {
     "id": 895677128,
     "name": "Farm shop 895677128",
     "country": "Spain",
@@ -16041,42 +17361,6 @@
     "website": null,
     "lat": 39.547754,
     "lon": -0.5603659,
-    "address": null
-  },
-  {
-    "id": 911484951,
-    "name": "Los Caserinos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://loscaserinos.com",
-    "lat": 43.4686509,
-    "lon": -5.4672499,
-    "address": null
-  },
-  {
-    "id": 914765627,
-    "name": "Pinar de Repoblación",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9521871,
-    "lon": -4.022251,
-    "address": null
-  },
-  {
-    "id": 916184060,
-    "name": "Ramafrut - Mayorista frutas y verduras",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5998832,
-    "lon": -0.5815137,
     "address": null
   },
   {
@@ -16270,30 +17554,6 @@
     "lat": 27.7575721,
     "lon": -18.0143235,
     "address": null
-  },
-  {
-    "id": 949621257,
-    "name": "Can Sacrès",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7336183,
-    "lon": 3.0516625,
-    "address": null
-  },
-  {
-    "id": 951669883,
-    "name": "Norcantabric",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Ramales de la Victoria",
-    "products": [],
-    "website": "https://norcantabric.com/",
-    "lat": 43.2684727,
-    "lon": -3.4303409,
-    "address": "Parque Empresarial Alto Asón"
   },
   {
     "id": 956400648,
@@ -16677,18 +17937,6 @@
     "website": null,
     "lat": 40.5153578,
     "lon": 0.1609891,
-    "address": null
-  },
-  {
-    "id": 972600909,
-    "name": "Finca La Vera de Pedro (BIO)",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 28.3318738,
-    "lon": -16.3874541,
     "address": null
   },
   {
@@ -17148,18 +18396,6 @@
     "address": null
   },
   {
-    "id": 978385035,
-    "name": "Piscifactoría de Jerte",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.2323878,
-    "lon": -5.7357587,
-    "address": null
-  },
-  {
     "id": 982815660,
     "name": "Farm shop 982815660",
     "country": "Spain",
@@ -17292,18 +18528,6 @@
     "address": null
   },
   {
-    "id": 985226572,
-    "name": "Parc Agroecològic de l'Empordà",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.1055153,
-    "lon": 3.0910821,
-    "address": null
-  },
-  {
     "id": 988791474,
     "name": "Farm shop 988791474",
     "country": "Spain",
@@ -17314,18 +18538,6 @@
     "lat": 42.5276863,
     "lon": -9.0334986,
     "address": null
-  },
-  {
-    "id": 989328994,
-    "name": "Fertilizantes Agro Rizos",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Santa Eulalia del Campo",
-    "products": [],
-    "website": "https://agrorizos.com/",
-    "lat": 40.5653842,
-    "lon": -1.321436,
-    "address": "Extramuros"
   },
   {
     "id": 991456359,
@@ -17409,18 +18621,6 @@
     "website": null,
     "lat": 28.6303793,
     "lon": -17.9253151,
-    "address": null
-  },
-  {
-    "id": 993477318,
-    "name": "Arrossar",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.7121789,
-    "lon": 0.5966803,
     "address": null
   },
   {
@@ -17736,18 +18936,6 @@
     "address": null
   },
   {
-    "id": 1005836416,
-    "name": "chopera",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.6840873,
-    "lon": -4.2887461,
-    "address": null
-  },
-  {
     "id": 1005836417,
     "name": "Farm shop 1005836417",
     "country": "Spain",
@@ -17772,18 +18960,6 @@
     "address": null
   },
   {
-    "id": 1005836419,
-    "name": "chopera",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.6857088,
-    "lon": -4.2873101,
-    "address": null
-  },
-  {
     "id": 1007407575,
     "name": "Farm shop 1007407575",
     "country": "Spain",
@@ -17793,18 +18969,6 @@
     "website": null,
     "lat": 40.514321,
     "lon": -2.1960733,
-    "address": null
-  },
-  {
-    "id": 1008419579,
-    "name": "Tencas Norte Extremeña de Acuicultura",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.2287037,
-    "lon": -5.9889548,
     "address": null
   },
   {
@@ -18624,18 +19788,6 @@
     "address": "Calle Real de Sonsoto"
   },
   {
-    "id": 1041959082,
-    "name": "O Tabolado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2251129,
-    "lon": -8.1456502,
-    "address": null
-  },
-  {
     "id": 1042082732,
     "name": "Farm shop 1042082732",
     "country": "Spain",
@@ -18732,30 +19884,6 @@
     "address": null
   },
   {
-    "id": 1054831418,
-    "name": "Oliveres del Cellers",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.652417,
-    "lon": 1.8952021,
-    "address": null
-  },
-  {
-    "id": 1056474770,
-    "name": "Katealde",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.9238333,
-    "lon": -2.2058198,
-    "address": null
-  },
-  {
     "id": 1058585210,
     "name": "Farm shop 1058585210",
     "country": "Spain",
@@ -18840,18 +19968,6 @@
     "address": null
   },
   {
-    "id": 1069546735,
-    "name": "Paredones de Juan Sierra",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.5273523,
-    "lon": -7.460444,
-    "address": null
-  },
-  {
     "id": 1070321852,
     "name": "Farm shop 1070321852",
     "country": "Spain",
@@ -18922,18 +20038,6 @@
     "lat": 41.2386212,
     "lon": -0.4486694,
     "address": null
-  },
-  {
-    "id": 1080415495,
-    "name": "Olis Macia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Artesa de Segre",
-    "products": [],
-    "website": "https://olismacia.com",
-    "lat": 41.882587,
-    "lon": 1.0549182,
-    "address": "Polígon Industrial El Pla"
   },
   {
     "id": 1080619833,
@@ -19017,18 +20121,6 @@
     "website": null,
     "lat": 38.8293178,
     "lon": 0.0622918,
-    "address": null
-  },
-  {
-    "id": 1083761319,
-    "name": "Formatge Bauma S.L.",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.1439432,
-    "lon": 1.993574,
     "address": null
   },
   {
@@ -19128,18 +20220,6 @@
     "address": null
   },
   {
-    "id": 1090436432,
-    "name": "Castaños",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.0810079,
-    "lon": -6.6190106,
-    "address": null
-  },
-  {
     "id": 1091202831,
     "name": "Farm shop 1091202831",
     "country": "Spain",
@@ -19234,18 +20314,6 @@
     "lat": 38.8553857,
     "lon": -0.4458713,
     "address": null
-  },
-  {
-    "id": 1101276255,
-    "name": "Errotik Etxanoko Gaztaie",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Amorebieta-Etxano",
-    "products": [],
-    "website": "errotik.biz",
-    "lat": 43.2261553,
-    "lon": -2.7104149,
-    "address": "Etxano auzoa"
   },
   {
     "id": 1105577284,
@@ -19536,42 +20604,6 @@
     "address": null
   },
   {
-    "id": 1115807434,
-    "name": "A Xesteira",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2221938,
-    "lon": -8.1431475,
-    "address": null
-  },
-  {
-    "id": 1115807972,
-    "name": "Pedradas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.221851,
-    "lon": -8.1436217,
-    "address": null
-  },
-  {
-    "id": 1115810822,
-    "name": "O Campo da Raíña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.2206165,
-    "lon": -8.1444664,
-    "address": null
-  },
-  {
     "id": 1116643499,
     "name": "Farm shop 1116643499",
     "country": "Spain",
@@ -19668,30 +20700,6 @@
     "address": null
   },
   {
-    "id": 1117515762,
-    "name": "Venta de Melones y Sandías Hermanos Trigo Sanchez",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.0560622,
-    "lon": -3.5574102,
-    "address": null
-  },
-  {
-    "id": 1117516125,
-    "name": "Oliduero",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://oliduero.com/",
-    "lat": 41.3113874,
-    "lon": -4.8944186,
-    "address": null
-  },
-  {
     "id": 1119130047,
     "name": "Farm shop 1119130047",
     "country": "Spain",
@@ -19701,18 +20709,6 @@
     "website": null,
     "lat": 43.390922,
     "lon": -4.2643518,
-    "address": null
-  },
-  {
-    "id": 1119359521,
-    "name": "El Chorrito de Luis Corujo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.2739471,
-    "lon": -4.7653276,
     "address": null
   },
   {
@@ -19752,18 +20748,6 @@
     "address": null
   },
   {
-    "id": 1120988352,
-    "name": "Viñedo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.0806286,
-    "lon": -3.5814326,
-    "address": null
-  },
-  {
     "id": 1120988849,
     "name": "Farm shop 1120988849",
     "country": "Spain",
@@ -19797,18 +20781,6 @@
     "website": null,
     "lat": 38.3800662,
     "lon": -0.5145994,
-    "address": null
-  },
-  {
-    "id": 1122965523,
-    "name": "Oleum",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://oleumlaguna.com/",
-    "lat": 40.099336,
-    "lon": -3.4958426,
     "address": null
   },
   {
@@ -19870,18 +20842,6 @@
     "lat": 38.8134587,
     "lon": 0.0289218,
     "address": null
-  },
-  {
-    "id": 1127980457,
-    "name": "Tetra Pak Closures Spain",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Alcalá de Guadaira",
-    "products": [],
-    "website": null,
-    "lat": 37.3434933,
-    "lon": -5.8191131,
-    "address": "A-92"
   },
   {
     "id": 1128028326,
@@ -19956,18 +20916,6 @@
     "address": null
   },
   {
-    "id": 1132159535,
-    "name": "Huerto de José Luis",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9535195,
-    "lon": -4.0767126,
-    "address": null
-  },
-  {
     "id": 1133863496,
     "name": "Farm shop 1133863496",
     "country": "Spain",
@@ -20001,18 +20949,6 @@
     "website": null,
     "lat": 37.1002759,
     "lon": -5.8551371,
-    "address": null
-  },
-  {
-    "id": 1134081390,
-    "name": "viveros gasso sl",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.058402,
-    "lon": 0.9944825,
     "address": null
   },
   {
@@ -20121,30 +21057,6 @@
     "website": null,
     "lat": 42.6479324,
     "lon": -5.6859046,
-    "address": null
-  },
-  {
-    "id": 1144547737,
-    "name": "Piensos y Frutales Comercial Lázaro",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Santa Eulalia del Campo",
-    "products": [],
-    "website": null,
-    "lat": 40.5643902,
-    "lon": -1.2878474,
-    "address": "Carretera A-1511"
-  },
-  {
-    "id": 1146831533,
-    "name": "Karacoles Los Altos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.karacoleslosaltos.com/",
-    "lat": 42.7998046,
-    "lon": -3.6912776,
     "address": null
   },
   {
@@ -20340,18 +21252,6 @@
     "address": null
   },
   {
-    "id": 1172963071,
-    "name": "Sonrionansa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.sonrionansa.es/",
-    "lat": 43.3754185,
-    "lon": -4.4708194,
-    "address": null
-  },
-  {
     "id": 1173605150,
     "name": "Farm shop 1173605150",
     "country": "Spain",
@@ -20374,18 +21274,6 @@
     "lat": 43.1051582,
     "lon": -7.2308357,
     "address": null
-  },
-  {
-    "id": 1175461995,
-    "name": "Cooperativa del campo \"Las Villuercas\"",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Navezuelas",
-    "products": [],
-    "website": null,
-    "lat": 39.5071976,
-    "lon": -5.4367043,
-    "address": "Avenida de Guadalupe"
   },
   {
     "id": 1178639923,
@@ -21033,18 +21921,6 @@
     "website": null,
     "lat": 42.1439951,
     "lon": -4.0925434,
-    "address": null
-  },
-  {
-    "id": 1188475169,
-    "name": "Caves Nadal",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.4265789,
-    "lon": 1.7006982,
     "address": null
   },
   {
@@ -22524,18 +23400,6 @@
     "address": null
   },
   {
-    "id": 1192092673,
-    "name": "Los Linares",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9769404,
-    "lon": -4.0346339,
-    "address": null
-  },
-  {
     "id": 1192974853,
     "name": "Farm shop 1192974853",
     "country": "Spain",
@@ -23136,18 +24000,6 @@
     "address": null
   },
   {
-    "id": 1203154657,
-    "name": "Ca na Sopeta",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5700395,
-    "lon": 3.0919614,
-    "address": null
-  },
-  {
     "id": 1205324572,
     "name": "Farm shop 1205324572",
     "country": "Spain",
@@ -23280,42 +24132,6 @@
     "address": null
   },
   {
-    "id": 1213689811,
-    "name": "Agroquímicos Zarco",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8864231,
-    "lon": -6.7016381,
-    "address": null
-  },
-  {
-    "id": 1213799185,
-    "name": "Agroquímicos Fernando Carrasco",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8895991,
-    "lon": -6.6971412,
-    "address": null
-  },
-  {
-    "id": 1215812996,
-    "name": "El Galayo (CUP 154)",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.2558203,
-    "lon": -1.5516807,
-    "address": null
-  },
-  {
     "id": 1216891009,
     "name": "Farm shop 1216891009",
     "country": "Spain",
@@ -23361,18 +24177,6 @@
     "website": null,
     "lat": 36.5299395,
     "lon": -6.201894,
-    "address": null
-  },
-  {
-    "id": 1218532471,
-    "name": "Cofradía de Pescadores San Ginés",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3955481,
-    "lon": -3.4611304,
     "address": null
   },
   {
@@ -23541,18 +24345,6 @@
     "website": null,
     "lat": 40.872152,
     "lon": -0.6305151,
-    "address": null
-  },
-  {
-    "id": 1227446527,
-    "name": "pinar",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.6753191,
-    "lon": -2.5551267,
     "address": null
   },
   {
@@ -23856,18 +24648,6 @@
     "address": null
   },
   {
-    "id": 1231568150,
-    "name": "Frutas Quite",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Malagón",
-    "products": [],
-    "website": null,
-    "lat": 39.1711498,
-    "lon": -3.8489552,
-    "address": "Calle los Reyes"
-  },
-  {
     "id": 1231847474,
     "name": "Farm shop 1231847474",
     "country": "Spain",
@@ -23901,18 +24681,6 @@
     "website": null,
     "lat": 36.7772524,
     "lon": -3.4197693,
-    "address": null
-  },
-  {
-    "id": 1237862620,
-    "name": "Bosque Natural",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.8112662,
-    "lon": -3.4562661,
     "address": null
   },
   {
@@ -24204,30 +24972,6 @@
     "address": null
   },
   {
-    "id": 1243590352,
-    "name": "Agricentro",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Enrique de Guadiaro",
-    "products": [],
-    "website": null,
-    "lat": 36.305249,
-    "lon": -5.2921742,
-    "address": "Calle de los Duraznos"
-  },
-  {
-    "id": 1246978230,
-    "name": "Olivar",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.3166571,
-    "lon": -2.5352498,
-    "address": null
-  },
-  {
     "id": 1258550469,
     "name": "Farm shop 1258550469",
     "country": "Spain",
@@ -24288,186 +25032,6 @@
     "address": null
   },
   {
-    "id": 1277609782,
-    "name": "Cultivo1",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8857542,
-    "lon": -6.6270277,
-    "address": null
-  },
-  {
-    "id": 1277610875,
-    "name": "Cultivo3",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8832278,
-    "lon": -6.6276287,
-    "address": null
-  },
-  {
-    "id": 1277611047,
-    "name": "Cultivo4",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8830275,
-    "lon": -6.6299193,
-    "address": null
-  },
-  {
-    "id": 1277611542,
-    "name": "Cultivo5",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8816829,
-    "lon": -6.6281115,
-    "address": null
-  },
-  {
-    "id": 1277611543,
-    "name": "Cultivo6",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8806805,
-    "lon": -6.6279721,
-    "address": null
-  },
-  {
-    "id": 1277611646,
-    "name": "Cultivo7",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8806973,
-    "lon": -6.6312765,
-    "address": null
-  },
-  {
-    "id": 1277612831,
-    "name": "Cultivo8",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.878889,
-    "lon": -6.6280632,
-    "address": null
-  },
-  {
-    "id": 1277613080,
-    "name": "Cultivo9",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8774734,
-    "lon": -6.6282562,
-    "address": null
-  },
-  {
-    "id": 1277615962,
-    "name": "Cultivo10",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8751357,
-    "lon": -6.6284574,
-    "address": null
-  },
-  {
-    "id": 1277617507,
-    "name": "Cultivo11",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8768486,
-    "lon": -6.630546,
-    "address": null
-  },
-  {
-    "id": 1277617537,
-    "name": "Cultivo12",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8746226,
-    "lon": -6.6305835,
-    "address": null
-  },
-  {
-    "id": 1277621224,
-    "name": "Cultivo13",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8727474,
-    "lon": -6.6290813,
-    "address": null
-  },
-  {
-    "id": 1277624384,
-    "name": "Cultivo14",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.872309,
-    "lon": -6.630771,
-    "address": null
-  },
-  {
-    "id": 1277624798,
-    "name": "Cultivo15",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8701914,
-    "lon": -6.6297786,
-    "address": null
-  },
-  {
-    "id": 1277625050,
-    "name": "Cultivo16",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8702123,
-    "lon": -6.6308032,
-    "address": null
-  },
-  {
     "id": 1278440084,
     "name": "Farm shop 1278440084",
     "country": "Spain",
@@ -24513,18 +25077,6 @@
     "website": null,
     "lat": 42.4488434,
     "lon": -2.4995312,
-    "address": null
-  },
-  {
-    "id": 1281125526,
-    "name": "Casa Colina Land",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.8379168,
-    "lon": -1.6852866,
     "address": null
   },
   {
@@ -24765,18 +25317,6 @@
     "website": null,
     "lat": 36.5242268,
     "lon": -6.1447181,
-    "address": null
-  },
-  {
-    "id": 1300286428,
-    "name": "La Cendrosa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.2870425,
-    "lon": 1.6177434,
     "address": null
   },
   {
@@ -25092,30 +25632,6 @@
     "address": null
   },
   {
-    "id": 1312458574,
-    "name": "karabeleko ekodenda",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Hernani",
-    "products": [],
-    "website": null,
-    "lat": 43.264202,
-    "lon": -1.9722363,
-    "address": null
-  },
-  {
-    "id": 1312854688,
-    "name": "Museu de les oliveres mil·lenàries del Pou del Mas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://maestrat.travel/va/museu-natural-oliveres-millenaries-pou-del-mas/",
-    "lat": 40.5154316,
-    "lon": 0.2329512,
-    "address": null
-  },
-  {
     "id": 1315540005,
     "name": "Farm shop 1315540005",
     "country": "Spain",
@@ -25174,18 +25690,6 @@
     "lat": 37.5964457,
     "lon": -1.1440735,
     "address": null
-  },
-  {
-    "id": 1317891719,
-    "name": "Fructeria El Melanas",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Roquetas de Mar",
-    "products": [],
-    "website": null,
-    "lat": 36.7668106,
-    "lon": -2.6158472,
-    "address": "Calle Pablo Neruda"
   },
   {
     "id": 1319285286,
@@ -25716,18 +26220,6 @@
     "address": null
   },
   {
-    "id": 1341664792,
-    "name": "Frutas el Tío Ramón S.L.",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.4249071,
-    "lon": -6.1466066,
-    "address": null
-  },
-  {
     "id": 1341752764,
     "name": "Farm shop 1341752764",
     "country": "Spain",
@@ -25737,102 +26229,6 @@
     "website": null,
     "lat": 36.7475616,
     "lon": -3.1683638,
-    "address": null
-  },
-  {
-    "id": 1345042531,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6794278,
-    "lon": -0.5993235,
-    "address": null
-  },
-  {
-    "id": 1345046402,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6778849,
-    "lon": -0.5986973,
-    "address": null
-  },
-  {
-    "id": 1345047128,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6790433,
-    "lon": -0.6044455,
-    "address": null
-  },
-  {
-    "id": 1345047963,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6811697,
-    "lon": -0.6066147,
-    "address": null
-  },
-  {
-    "id": 1345095389,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6811567,
-    "lon": -0.6098425,
-    "address": null
-  },
-  {
-    "id": 1345095390,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6824752,
-    "lon": -0.6101627,
-    "address": null
-  },
-  {
-    "id": 1345095391,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6835844,
-    "lon": -0.6140411,
-    "address": null
-  },
-  {
-    "id": 1345095392,
-    "name": "Finca Torrevella",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.6805851,
-    "lon": -0.6178285,
     "address": null
   },
   {
@@ -25956,18 +26352,6 @@
     "address": null
   },
   {
-    "id": 1352207882,
-    "name": "Tipro Agroquímicos",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Martín del Tesorillo",
-    "products": [],
-    "website": null,
-    "lat": 36.3418993,
-    "lon": -5.3223813,
-    "address": "Calle Tufas"
-  },
-  {
     "id": 1354983070,
     "name": "Farm shop 1354983070",
     "country": "Spain",
@@ -26064,18 +26448,6 @@
     "address": null
   },
   {
-    "id": 1360416986,
-    "name": "Agro Vilanoviña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5499914,
-    "lon": -8.7046065,
-    "address": null
-  },
-  {
     "id": 1362356756,
     "name": "Farm shop 1362356756",
     "country": "Spain",
@@ -26097,18 +26469,6 @@
     "website": null,
     "lat": 42.5423606,
     "lon": -8.7068283,
-    "address": null
-  },
-  {
-    "id": 1364891653,
-    "name": "Piensos Muga",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.8328528,
-    "lon": -1.5178939,
     "address": null
   },
   {
@@ -27000,18 +27360,6 @@
     "address": null
   },
   {
-    "id": 1389901773,
-    "name": "Aceite Agustin Fornós",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Trasmoz",
-    "products": [],
-    "website": "https://olivavirgenextra.eu/",
-    "lat": 41.8255295,
-    "lon": -1.7236262,
-    "address": null
-  },
-  {
     "id": 1392161873,
     "name": "Farm shop 1392161873",
     "country": "Spain",
@@ -27036,18 +27384,6 @@
     "address": null
   },
   {
-    "id": 1410896693,
-    "name": "Mon Ermitage",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Lleida",
-    "products": [],
-    "website": "https://monermitage.com",
-    "lat": 41.6249557,
-    "lon": 0.5928708,
-    "address": "Partida Vallcalent"
-  },
-  {
     "id": 1413042281,
     "name": "Farm shop 1413042281",
     "country": "Spain",
@@ -27058,18 +27394,6 @@
     "lat": 37.1733828,
     "lon": -3.6632162,
     "address": null
-  },
-  {
-    "id": 1414298666,
-    "name": "Almazara",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Geldo",
-    "products": [],
-    "website": null,
-    "lat": 39.8361161,
-    "lon": -0.4670757,
-    "address": "Avenida de Castellón"
   },
   {
     "id": 1417185974,
@@ -27141,18 +27465,6 @@
     "website": null,
     "lat": 37.6869277,
     "lon": -3.1478898,
-    "address": null
-  },
-  {
-    "id": 1420818224,
-    "name": "Peter Keller",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3895533,
-    "lon": 3.0805272,
     "address": null
   },
   {
@@ -27720,18 +28032,6 @@
     "address": null
   },
   {
-    "id": 1451305611,
-    "name": "Horts d'Albons",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.10315,
-    "lon": 3.0900191,
-    "address": null
-  },
-  {
     "id": 1454544165,
     "name": "Farm shop 1454544165",
     "country": "Spain",
@@ -27864,18 +28164,6 @@
     "address": null
   },
   {
-    "id": 1457850902,
-    "name": "Frutos Secos Gil",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.8703545,
-    "lon": 0.1516845,
-    "address": "Calle del Arzobispo Fernández Heredia"
-  },
-  {
     "id": 1458290247,
     "name": "Farm shop 1458290247",
     "country": "Spain",
@@ -27885,18 +28173,6 @@
     "website": null,
     "lat": 39.6736813,
     "lon": -0.2456152,
-    "address": null
-  },
-  {
-    "id": 1459513184,
-    "name": "Centro Piscícola Experimental Vegas del Condado",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.6806039,
-    "lon": -5.356798,
     "address": null
   },
   {
@@ -28284,18 +28560,6 @@
     "address": null
   },
   {
-    "id": 1471691860,
-    "name": "Can Gallet",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7840415,
-    "lon": 2.9785978,
-    "address": null
-  },
-  {
     "id": 1483481177,
     "name": "Farm shop 1483481177",
     "country": "Spain",
@@ -28425,18 +28689,6 @@
     "website": null,
     "lat": 42.7827859,
     "lon": -8.1782837,
-    "address": null
-  },
-  {
-    "id": 7961347,
-    "name": "Olivar de la Partija",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.3703804,
-    "lon": -3.5442025,
     "address": null
   },
   {
@@ -28656,18 +28908,6 @@
     "address": null
   },
   {
-    "id": 10744013,
-    "name": "Parque forestal de Tameiga",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.181566,
-    "lon": -8.674655,
-    "address": null
-  },
-  {
     "id": 11070013,
     "name": "Farm shop 11070013",
     "country": "Spain",
@@ -28677,18 +28917,6 @@
     "website": null,
     "lat": 41.6874947,
     "lon": 1.8591916,
-    "address": null
-  },
-  {
-    "id": 11098532,
-    "name": "Sierra Procomunal",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9284161,
-    "lon": -1.710564,
     "address": null
   },
   {
@@ -28845,18 +29073,6 @@
     "website": null,
     "lat": 42.0158082,
     "lon": 3.1764972,
-    "address": null
-  },
-  {
-    "id": 13092530,
-    "name": "Marjal de la Safor",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.0325752,
-    "lon": -0.2016227,
     "address": null
   },
   {
@@ -29232,78 +29448,6 @@
     "address": null
   },
   {
-    "id": 16192590,
-    "name": "Viñedos de Agejas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.051563,
-    "lon": -4.1088091,
-    "address": null
-  },
-  {
-    "id": 16625006,
-    "name": "Sierra de la Marquesa",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9438892,
-    "lon": -3.9474734,
-    "address": null
-  },
-  {
-    "id": 16629222,
-    "name": "La Umbría de los Saltillos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9348899,
-    "lon": -3.9513529,
-    "address": null
-  },
-  {
-    "id": 16635480,
-    "name": "Los Saltillos",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9191851,
-    "lon": -3.9640024,
-    "address": null
-  },
-  {
-    "id": 16635523,
-    "name": "Majalperro",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9662387,
-    "lon": -3.91317,
-    "address": null
-  },
-  {
-    "id": 16641705,
-    "name": "Aprisquera",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9788391,
-    "lon": -3.9178096,
-    "address": null
-  },
-  {
     "id": 16831959,
     "name": "Farm shop 16831959",
     "country": "Spain",
@@ -29325,102 +29469,6 @@
     "website": null,
     "lat": 38.949941,
     "lon": -0.1507834,
-    "address": null
-  },
-  {
-    "id": 17271885,
-    "name": "Peñalara-Nevero",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.8554786,
-    "lon": -3.9673015,
-    "address": null
-  },
-  {
-    "id": 17273179,
-    "name": "Mujer Muerta a Pasapán",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.8129121,
-    "lon": -4.124937,
-    "address": null
-  },
-  {
-    "id": 17277266,
-    "name": "Zarzoso, Pedriza y otros",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0071278,
-    "lon": -3.8970205,
-    "address": null
-  },
-  {
-    "id": 17277307,
-    "name": "El Hoyo",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9951794,
-    "lon": -3.9057861,
-    "address": null
-  },
-  {
-    "id": 17282544,
-    "name": "Horcajos, Regajo Hondo y otros",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.004229,
-    "lon": -3.8755083,
-    "address": null
-  },
-  {
-    "id": 17282636,
-    "name": "La Sierra",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1565409,
-    "lon": -3.6034882,
-    "address": null
-  },
-  {
-    "id": 17282900,
-    "name": "Juncadera",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1758846,
-    "lon": -3.5538511,
-    "address": null
-  },
-  {
-    "id": 17283011,
-    "name": "El Raso",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1899495,
-    "lon": -3.5078824,
     "address": null
   },
   {
@@ -29460,30 +29508,6 @@
     "address": null
   },
   {
-    "id": 18055815,
-    "name": "La Tonda",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Grado de Pico",
-    "products": [],
-    "website": null,
-    "lat": 41.3048095,
-    "lon": -3.2773731,
-    "address": null
-  },
-  {
-    "id": 18057670,
-    "name": "Garganta, Reginiestro y La Iruela",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0378266,
-    "lon": -3.888966,
-    "address": null
-  },
-  {
     "id": 18639871,
     "name": "Farm shop 18639871",
     "country": "Spain",
@@ -29493,18 +29517,6 @@
     "website": null,
     "lat": 41.5669725,
     "lon": -4.6248058,
-    "address": null
-  },
-  {
-    "id": 18662799,
-    "name": "Ladera de San Juan",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.3245946,
-    "lon": -3.6363291,
     "address": null
   },
   {
@@ -29805,18 +29817,6 @@
     "website": null,
     "lat": 41.9420233,
     "lon": 2.2390802,
-    "address": null
-  },
-  {
-    "id": 19442319,
-    "name": "Verescence",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.verescenceinsulators.com/",
-    "lat": 40.9040229,
-    "lon": -4.0034578,
     "address": null
   },
   {

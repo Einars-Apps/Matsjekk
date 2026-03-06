@@ -12,18 +12,6 @@
     "address": null
   },
   {
-    "id": 444741543,
-    "name": "Farm shop 444741543",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.2040092,
-    "lon": 9.608158,
-    "address": null
-  },
-  {
     "id": 834101162,
     "name": "Enghavegård Ost",
     "country": "Denmark",
@@ -69,18 +57,6 @@
     "website": null,
     "lat": 55.3581389,
     "lon": 12.3131078,
-    "address": null
-  },
-  {
-    "id": 1470119076,
-    "name": "Farm shop 1470119076",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1012683,
-    "lon": 8.5423312,
     "address": null
   },
   {
@@ -201,18 +177,6 @@
     "website": null,
     "lat": 54.9456399,
     "lon": 9.7788488,
-    "address": null
-  },
-  {
-    "id": 3678630636,
-    "name": "Farm shop 3678630636",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.8433902,
-    "lon": 11.4918722,
     "address": null
   },
   {
@@ -1044,18 +1008,6 @@
     "address": null
   },
   {
-    "id": 5494703741,
-    "name": "Farm shop 5494703741",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.183843,
-    "lon": 8.7174181,
-    "address": null
-  },
-  {
     "id": 5581362394,
     "name": "Montage & Grønt",
     "country": "Denmark",
@@ -1284,18 +1236,6 @@
     "address": null
   },
   {
-    "id": 6853133067,
-    "name": "Farm shop 6853133067",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0312401,
-    "lon": 10.6126281,
-    "address": null
-  },
-  {
     "id": 7117379086,
     "name": "Københavns Fødevarefællesskab",
     "country": "Denmark",
@@ -1413,18 +1353,6 @@
     "website": "https://www.jettesstrudsefarm.dk/",
     "lat": 56.1479005,
     "lon": 8.1581371,
-    "address": null
-  },
-  {
-    "id": 7848765894,
-    "name": "Farm shop 7848765894",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.4570476,
-    "lon": 8.5803878,
     "address": null
   },
   {
@@ -4344,18 +4272,6 @@
     "address": null
   },
   {
-    "id": 8968589839,
-    "name": "Farm shop 8968589839",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.9739082,
-    "lon": 11.8800145,
-    "address": null
-  },
-  {
     "id": 8983549460,
     "name": "Klippeøens Gårdbutik",
     "country": "Denmark",
@@ -7200,18 +7116,6 @@
     "address": null
   },
   {
-    "id": 10080203128,
-    "name": "Farm shop 10080203128",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.2352099,
-    "lon": 9.5454361,
-    "address": null
-  },
-  {
     "id": 10559310900,
     "name": "Farmeren og Skytten",
     "country": "Denmark",
@@ -7728,30 +7632,6 @@
     "address": null
   },
   {
-    "id": 11248888676,
-    "name": "Farm shop 11248888676",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.8230932,
-    "lon": 10.066081,
-    "address": null
-  },
-  {
-    "id": 11248888677,
-    "name": "Farm shop 11248888677",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.8227704,
-    "lon": 10.0700165,
-    "address": null
-  },
-  {
     "id": 11422320999,
     "name": "Gartnergården Djurs",
     "country": "Denmark",
@@ -7761,18 +7641,6 @@
     "website": "https://www.ggaarhus.dk/contact-djurs",
     "lat": 56.3158658,
     "lon": 10.4255941,
-    "address": null
-  },
-  {
-    "id": 11726091936,
-    "name": "Farm shop 11726091936",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9313738,
-    "lon": 9.2379468,
     "address": null
   },
   {
@@ -8004,30 +7872,6 @@
     "address": null
   },
   {
-    "id": 12091924077,
-    "name": "Farm shop 12091924077",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.5253122,
-    "lon": 8.4951498,
-    "address": null
-  },
-  {
-    "id": 12141103808,
-    "name": "Farm shop 12141103808",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3833424,
-    "lon": 11.324317,
-    "address": null
-  },
-  {
     "id": 12150574225,
     "name": "Lundevang Gårdbutik",
     "country": "Denmark",
@@ -8037,18 +7881,6 @@
     "website": null,
     "lat": 54.9608201,
     "lon": 12.4742903,
-    "address": null
-  },
-  {
-    "id": 12175248463,
-    "name": "Farm shop 12175248463",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.5981309,
-    "lon": 10.6254285,
     "address": null
   },
   {
@@ -8100,18 +7932,6 @@
     "address": null
   },
   {
-    "id": 12504992855,
-    "name": "Farm shop 12504992855",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0003175,
-    "lon": 12.1303838,
-    "address": null
-  },
-  {
     "id": 12672740562,
     "name": "Butik",
     "country": "Denmark",
@@ -8157,18 +7977,6 @@
     "website": null,
     "lat": 55.0355245,
     "lon": 12.1063796,
-    "address": null
-  },
-  {
-    "id": 12782095011,
-    "name": "Farm shop 12782095011",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.997969,
-    "lon": 12.1640908,
     "address": null
   },
   {
@@ -8241,30 +8049,6 @@
     "website": null,
     "lat": 55.6600517,
     "lon": 11.6384729,
-    "address": null
-  },
-  {
-    "id": 12811183249,
-    "name": "Farm shop 12811183249",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9967939,
-    "lon": 12.0909259,
-    "address": null
-  },
-  {
-    "id": 12817420500,
-    "name": "Farm shop 12817420500",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0324097,
-    "lon": 11.9601521,
     "address": null
   },
   {
@@ -8937,18 +8721,6 @@
     "website": null,
     "lat": 57.4767365,
     "lon": 9.9912537,
-    "address": null
-  },
-  {
-    "id": 12915626411,
-    "name": "Farm shop 12915626411",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.2445663,
-    "lon": 10.7778207,
     "address": null
   },
   {
@@ -9756,18 +9528,6 @@
     "address": null
   },
   {
-    "id": 13123446461,
-    "name": "Farm shop 13123446461",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.1321654,
-    "lon": 10.3285866,
-    "address": null
-  },
-  {
     "id": 13142394858,
     "name": "Fanefjord Frugt",
     "country": "Denmark",
@@ -9840,54 +9600,6 @@
     "address": null
   },
   {
-    "id": 13259358653,
-    "name": "Farm shop 13259358653",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1340156,
-    "lon": 8.5509813,
-    "address": null
-  },
-  {
-    "id": 13259358654,
-    "name": "Farm shop 13259358654",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1320429,
-    "lon": 8.5494725,
-    "address": null
-  },
-  {
-    "id": 13259358655,
-    "name": "Farm shop 13259358655",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.131658,
-    "lon": 8.549435,
-    "address": null
-  },
-  {
-    "id": 13259358656,
-    "name": "Farm shop 13259358656",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1311725,
-    "lon": 8.5494383,
-    "address": null
-  },
-  {
     "id": 13278424112,
     "name": "Omfaun Landbrug",
     "country": "Denmark",
@@ -9897,18 +9609,6 @@
     "website": null,
     "lat": 57.155736,
     "lon": 10.262023,
-    "address": null
-  },
-  {
-    "id": 13288177693,
-    "name": "Farm shop 13288177693",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1528302,
-    "lon": 8.5497231,
     "address": null
   },
   {
@@ -10188,42 +9888,6 @@
     "address": null
   },
   {
-    "id": 28753304,
-    "name": "Farm shop 28753304",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.5278524,
-    "lon": 12.1026762,
-    "address": null
-  },
-  {
-    "id": 117211953,
-    "name": "Farm shop 117211953",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.8347008,
-    "lon": 9.8810449,
-    "address": null
-  },
-  {
-    "id": 132671764,
-    "name": "Farm shop 132671764",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.862308,
-    "lon": 9.6531458,
-    "address": null
-  },
-  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -10233,54 +9897,6 @@
     "website": null,
     "lat": 55.3043939,
     "lon": 8.7685829,
-    "address": null
-  },
-  {
-    "id": 137340256,
-    "name": "Farm shop 137340256",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9467092,
-    "lon": 11.4063672,
-    "address": null
-  },
-  {
-    "id": 137464329,
-    "name": "Farm shop 137464329",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9403401,
-    "lon": 11.3775155,
-    "address": null
-  },
-  {
-    "id": 137467134,
-    "name": "Farm shop 137467134",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9421008,
-    "lon": 11.3787871,
-    "address": null
-  },
-  {
-    "id": 156003910,
-    "name": "Farm shop 156003910",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3900293,
-    "lon": 10.1732451,
     "address": null
   },
   {
@@ -10344,42 +9960,6 @@
     "address": null
   },
   {
-    "id": 359228834,
-    "name": "Farm shop 359228834",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1584583,
-    "lon": 8.5517105,
-    "address": null
-  },
-  {
-    "id": 406570640,
-    "name": "Farm shop 406570640",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.488321,
-    "lon": 10.2266417,
-    "address": null
-  },
-  {
-    "id": 413873492,
-    "name": "Farm shop 413873492",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.2454207,
-    "lon": 9.6340254,
-    "address": null
-  },
-  {
     "id": 424753204,
     "name": "Brogård",
     "country": "Denmark",
@@ -10404,42 +9984,6 @@
     "address": null
   },
   {
-    "id": 460226797,
-    "name": "Farm shop 460226797",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.9366089,
-    "lon": 11.5557531,
-    "address": null
-  },
-  {
-    "id": 460345165,
-    "name": "Farm shop 460345165",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3446617,
-    "lon": 10.3679456,
-    "address": null
-  },
-  {
-    "id": 460345169,
-    "name": "Farm shop 460345169",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3435089,
-    "lon": 10.3619692,
-    "address": null
-  },
-  {
     "id": 493989979,
     "name": "Stenager Øko-gris",
     "country": "Denmark",
@@ -10449,18 +9993,6 @@
     "website": null,
     "lat": 55.5873838,
     "lon": 8.9484692,
-    "address": null
-  },
-  {
-    "id": 504288726,
-    "name": "Farm shop 504288726",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0434555,
-    "lon": 10.6089173,
     "address": null
   },
   {
@@ -10500,18 +10032,6 @@
     "address": null
   },
   {
-    "id": 530427597,
-    "name": "Farm shop 530427597",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.9907961,
-    "lon": 8.530544,
-    "address": null
-  },
-  {
     "id": 532785235,
     "name": "Lykkelund Gedemejeri",
     "country": "Denmark",
@@ -10521,30 +10041,6 @@
     "website": null,
     "lat": 55.1737814,
     "lon": 14.9440283,
-    "address": null
-  },
-  {
-    "id": 556027969,
-    "name": "Farm shop 556027969",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0146726,
-    "lon": 10.6084223,
-    "address": null
-  },
-  {
-    "id": 562149774,
-    "name": "Farm shop 562149774",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.2374624,
-    "lon": 10.0752954,
     "address": null
   },
   {
@@ -10572,54 +10068,6 @@
     "address": null
   },
   {
-    "id": 608111201,
-    "name": "Farm shop 608111201",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0181664,
-    "lon": 10.6082345,
-    "address": null
-  },
-  {
-    "id": 627261900,
-    "name": "Farm shop 627261900",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0131281,
-    "lon": 10.6077977,
-    "address": null
-  },
-  {
-    "id": 627328219,
-    "name": "Farm shop 627328219",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0120321,
-    "lon": 10.608321,
-    "address": null
-  },
-  {
-    "id": 628318026,
-    "name": "Farm shop 628318026",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.2926548,
-    "lon": 12.0004986,
-    "address": null
-  },
-  {
     "id": 629225275,
     "name": "Bigaard",
     "country": "Denmark",
@@ -10629,42 +10077,6 @@
     "website": "http://bigaard.dk/",
     "lat": 54.8834314,
     "lon": 9.2865814,
-    "address": null
-  },
-  {
-    "id": 679015639,
-    "name": "Farm shop 679015639",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.074882,
-    "lon": 12.1394504,
-    "address": null
-  },
-  {
-    "id": 698472805,
-    "name": "Farm shop 698472805",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1981569,
-    "lon": 10.4119924,
-    "address": null
-  },
-  {
-    "id": 699491062,
-    "name": "Farm shop 699491062",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.6501893,
-    "lon": 9.8287202,
     "address": null
   },
   {
@@ -10716,6 +10128,750 @@
     "address": null
   },
   {
+    "id": 880803821,
+    "name": "Vera & Johannes",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.4604898,
+    "lon": 8.5837241,
+    "address": null
+  },
+  {
+    "id": 937735059,
+    "name": "Æblelunden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1733465,
+    "lon": 10.1028073,
+    "address": null
+  },
+  {
+    "id": 945872451,
+    "name": "Roerstensgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.6327947,
+    "lon": 12.3064684,
+    "address": null
+  },
+  {
+    "id": 945872453,
+    "name": "Roerstensgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.6338248,
+    "lon": 12.3055906,
+    "address": null
+  },
+  {
+    "id": 956268885,
+    "name": "Virkelyst Alpacafarm",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.virkelystalpacafarm.dk/",
+    "lat": 55.6417648,
+    "lon": 8.3631503,
+    "address": null
+  },
+  {
+    "id": 1053026605,
+    "name": "Æblelunden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1847978,
+    "lon": 10.1671245,
+    "address": null
+  },
+  {
+    "id": 1147042434,
+    "name": "Mølbak Dambrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://snaptunfiskexport.dk/index.php/afdelinger/3:molbak-dambrug#",
+    "lat": 56.3317076,
+    "lon": 8.5368922,
+    "address": null
+  },
+  {
+    "id": 1166130760,
+    "name": "Rømø Slagteren",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1343523,
+    "lon": 8.5490636,
+    "address": null
+  },
+  {
+    "id": 1420376729,
+    "name": "Volstrup Dambrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.6820073,
+    "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 8996329796,
+    "name": "Bjarne Willer Jensen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.530944,
+    "lon": 10.086285,
+    "address": null
+  },
+  {
+    "id": 10931990072,
+    "name": "Frugt og grønt fra haven",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0233093,
+    "lon": 8.9003635,
+    "address": null
+  },
+  {
+    "id": 13278424112,
+    "name": "Omfaun Landbrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1557342,
+    "lon": 10.2620069,
+    "address": null
+  },
+  {
+    "id": 13517973347,
+    "name": "Mødrenes Naturgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3121925,
+    "lon": 10.3158482,
+    "address": null
+  },
+  {
+    "id": 444741543,
+    "name": "Farm shop 444741543",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.2040092,
+    "lon": 9.608158,
+    "address": null
+  },
+  {
+    "id": 1470119076,
+    "name": "Farm shop 1470119076",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1012683,
+    "lon": 8.5423312,
+    "address": null
+  },
+  {
+    "id": 3678630636,
+    "name": "Farm shop 3678630636",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.8433902,
+    "lon": 11.4918722,
+    "address": null
+  },
+  {
+    "id": 5494703741,
+    "name": "Farm shop 5494703741",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.183843,
+    "lon": 8.7174181,
+    "address": null
+  },
+  {
+    "id": 6853133067,
+    "name": "Farm shop 6853133067",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0312401,
+    "lon": 10.6126281,
+    "address": null
+  },
+  {
+    "id": 7848765894,
+    "name": "Farm shop 7848765894",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.4570476,
+    "lon": 8.5803878,
+    "address": null
+  },
+  {
+    "id": 8968589839,
+    "name": "Farm shop 8968589839",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.9739082,
+    "lon": 11.8800145,
+    "address": null
+  },
+  {
+    "id": 10080203128,
+    "name": "Farm shop 10080203128",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.2352099,
+    "lon": 9.5454361,
+    "address": null
+  },
+  {
+    "id": 11248888676,
+    "name": "Farm shop 11248888676",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.8230932,
+    "lon": 10.066081,
+    "address": null
+  },
+  {
+    "id": 11248888677,
+    "name": "Farm shop 11248888677",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.8227704,
+    "lon": 10.0700165,
+    "address": null
+  },
+  {
+    "id": 11726091936,
+    "name": "Farm shop 11726091936",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9313738,
+    "lon": 9.2379468,
+    "address": null
+  },
+  {
+    "id": 12091924077,
+    "name": "Farm shop 12091924077",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.5253122,
+    "lon": 8.4951498,
+    "address": null
+  },
+  {
+    "id": 12141103808,
+    "name": "Farm shop 12141103808",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3833424,
+    "lon": 11.324317,
+    "address": null
+  },
+  {
+    "id": 12175248463,
+    "name": "Farm shop 12175248463",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.5981309,
+    "lon": 10.6254285,
+    "address": null
+  },
+  {
+    "id": 12504992855,
+    "name": "Farm shop 12504992855",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0003175,
+    "lon": 12.1303838,
+    "address": null
+  },
+  {
+    "id": 12782095011,
+    "name": "Farm shop 12782095011",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.997969,
+    "lon": 12.1640908,
+    "address": null
+  },
+  {
+    "id": 12811183249,
+    "name": "Farm shop 12811183249",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9967939,
+    "lon": 12.0909259,
+    "address": null
+  },
+  {
+    "id": 12817420500,
+    "name": "Farm shop 12817420500",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0324097,
+    "lon": 11.9601521,
+    "address": null
+  },
+  {
+    "id": 12915626411,
+    "name": "Farm shop 12915626411",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.2445663,
+    "lon": 10.7778207,
+    "address": null
+  },
+  {
+    "id": 13123446461,
+    "name": "Farm shop 13123446461",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1321654,
+    "lon": 10.3285866,
+    "address": null
+  },
+  {
+    "id": 13259358653,
+    "name": "Farm shop 13259358653",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1340156,
+    "lon": 8.5509813,
+    "address": null
+  },
+  {
+    "id": 13259358654,
+    "name": "Farm shop 13259358654",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1320429,
+    "lon": 8.5494725,
+    "address": null
+  },
+  {
+    "id": 13259358655,
+    "name": "Farm shop 13259358655",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.131658,
+    "lon": 8.549435,
+    "address": null
+  },
+  {
+    "id": 13259358656,
+    "name": "Farm shop 13259358656",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1311725,
+    "lon": 8.5494383,
+    "address": null
+  },
+  {
+    "id": 13288177693,
+    "name": "Farm shop 13288177693",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1528302,
+    "lon": 8.5497231,
+    "address": null
+  },
+  {
+    "id": 28753304,
+    "name": "Farm shop 28753304",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.5278524,
+    "lon": 12.1026762,
+    "address": null
+  },
+  {
+    "id": 117211953,
+    "name": "Farm shop 117211953",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.8347008,
+    "lon": 9.8810449,
+    "address": null
+  },
+  {
+    "id": 132671764,
+    "name": "Farm shop 132671764",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.862308,
+    "lon": 9.6531458,
+    "address": null
+  },
+  {
+    "id": 137340256,
+    "name": "Farm shop 137340256",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9467092,
+    "lon": 11.4063672,
+    "address": null
+  },
+  {
+    "id": 137464329,
+    "name": "Farm shop 137464329",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9403401,
+    "lon": 11.3775155,
+    "address": null
+  },
+  {
+    "id": 137467134,
+    "name": "Farm shop 137467134",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9421008,
+    "lon": 11.3787871,
+    "address": null
+  },
+  {
+    "id": 156003910,
+    "name": "Farm shop 156003910",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3900293,
+    "lon": 10.1732451,
+    "address": null
+  },
+  {
+    "id": 359228834,
+    "name": "Farm shop 359228834",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1584583,
+    "lon": 8.5517105,
+    "address": null
+  },
+  {
+    "id": 406570640,
+    "name": "Farm shop 406570640",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.488321,
+    "lon": 10.2266417,
+    "address": null
+  },
+  {
+    "id": 413873492,
+    "name": "Farm shop 413873492",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.2454207,
+    "lon": 9.6340254,
+    "address": null
+  },
+  {
+    "id": 460226797,
+    "name": "Farm shop 460226797",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.9366089,
+    "lon": 11.5557531,
+    "address": null
+  },
+  {
+    "id": 460345165,
+    "name": "Farm shop 460345165",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3446617,
+    "lon": 10.3679456,
+    "address": null
+  },
+  {
+    "id": 460345169,
+    "name": "Farm shop 460345169",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3435089,
+    "lon": 10.3619692,
+    "address": null
+  },
+  {
+    "id": 504288726,
+    "name": "Farm shop 504288726",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0434555,
+    "lon": 10.6089173,
+    "address": null
+  },
+  {
+    "id": 530427597,
+    "name": "Farm shop 530427597",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.9907961,
+    "lon": 8.530544,
+    "address": null
+  },
+  {
+    "id": 556027969,
+    "name": "Farm shop 556027969",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0146726,
+    "lon": 10.6084223,
+    "address": null
+  },
+  {
+    "id": 562149774,
+    "name": "Farm shop 562149774",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.2374624,
+    "lon": 10.0752954,
+    "address": null
+  },
+  {
+    "id": 608111201,
+    "name": "Farm shop 608111201",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0181664,
+    "lon": 10.6082345,
+    "address": null
+  },
+  {
+    "id": 627261900,
+    "name": "Farm shop 627261900",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0131281,
+    "lon": 10.6077977,
+    "address": null
+  },
+  {
+    "id": 627328219,
+    "name": "Farm shop 627328219",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0120321,
+    "lon": 10.608321,
+    "address": null
+  },
+  {
+    "id": 628318026,
+    "name": "Farm shop 628318026",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.2926548,
+    "lon": 12.0004986,
+    "address": null
+  },
+  {
+    "id": 679015639,
+    "name": "Farm shop 679015639",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.074882,
+    "lon": 12.1394504,
+    "address": null
+  },
+  {
+    "id": 698472805,
+    "name": "Farm shop 698472805",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1981569,
+    "lon": 10.4119924,
+    "address": null
+  },
+  {
+    "id": 699491062,
+    "name": "Farm shop 699491062",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.6501893,
+    "lon": 9.8287202,
+    "address": null
+  },
+  {
     "id": 800137732,
     "name": "Farm shop 800137732",
     "country": "Denmark",
@@ -10737,18 +10893,6 @@
     "website": null,
     "lat": 55.9267854,
     "lon": 12.5080832,
-    "address": null
-  },
-  {
-    "id": 880803821,
-    "name": "Vera & Johannes",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.4604898,
-    "lon": 8.5837241,
     "address": null
   },
   {
@@ -10836,66 +10980,6 @@
     "address": null
   },
   {
-    "id": 937735059,
-    "name": "Æblelunden",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1733465,
-    "lon": 10.1028073,
-    "address": null
-  },
-  {
-    "id": 945872451,
-    "name": "Roerstensgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.6327947,
-    "lon": 12.3064684,
-    "address": null
-  },
-  {
-    "id": 945872453,
-    "name": "Roerstensgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.6338248,
-    "lon": 12.3055906,
-    "address": null
-  },
-  {
-    "id": 956268885,
-    "name": "Virkelyst Alpacafarm",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.virkelystalpacafarm.dk/",
-    "lat": 55.6417648,
-    "lon": 8.3631503,
-    "address": null
-  },
-  {
-    "id": 1053026605,
-    "name": "Æblelunden",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1847978,
-    "lon": 10.1671245,
-    "address": null
-  },
-  {
     "id": 1056858867,
     "name": "Farm shop 1056858867",
     "country": "Denmark",
@@ -10917,30 +11001,6 @@
     "website": null,
     "lat": 55.0271248,
     "lon": 10.5846709,
-    "address": null
-  },
-  {
-    "id": 1147042434,
-    "name": "Mølbak Dambrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://snaptunfiskexport.dk/index.php/afdelinger/3:molbak-dambrug#",
-    "lat": 56.3317076,
-    "lon": 8.5368922,
-    "address": null
-  },
-  {
-    "id": 1166130760,
-    "name": "Rømø Slagteren",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1343523,
-    "lon": 8.5490636,
     "address": null
   },
   {
@@ -10992,18 +11052,6 @@
     "address": null
   },
   {
-    "id": 1420376729,
-    "name": "Volstrup Dambrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.6820073,
-    "lon": 9.7056061,
-    "address": null
-  },
-  {
     "id": 18803827,
     "name": "Farm shop 18803827",
     "country": "Denmark",
@@ -11013,54 +11061,6 @@
     "website": null,
     "lat": 54.9988632,
     "lon": 12.0887406,
-    "address": null
-  },
-  {
-    "id": 8996329796,
-    "name": "Bjarne Willer Jensen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.530944,
-    "lon": 10.086285,
-    "address": null
-  },
-  {
-    "id": 10931990072,
-    "name": "Frugt og grønt fra haven",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0233093,
-    "lon": 8.9003635,
-    "address": null
-  },
-  {
-    "id": 13278424112,
-    "name": "Omfaun Landbrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.1557342,
-    "lon": 10.2620069,
-    "address": null
-  },
-  {
-    "id": 13517973347,
-    "name": "Mødrenes Naturgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3121925,
-    "lon": 10.3158482,
     "address": null
   },
   {

@@ -12,18 +12,6 @@
     "address": null
   },
   {
-    "id": 544477142,
-    "name": "Farm shop 544477142",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.181026,
-    "lon": 14.3285007,
-    "address": null
-  },
-  {
     "id": 698691791,
     "name": "Väddå gårdsmejeri",
     "country": "Sweden",
@@ -72,18 +60,6 @@
     "address": null
   },
   {
-    "id": 876728391,
-    "name": "Farm shop 876728391",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.3159304,
-    "lon": 12.8911237,
-    "address": null
-  },
-  {
     "id": 983277766,
     "name": "Ekastiga Gårdsbutik",
     "country": "Sweden",
@@ -105,30 +81,6 @@
     "website": null,
     "lat": 60.4079022,
     "lon": 15.6007872,
-    "address": null
-  },
-  {
-    "id": 1315261774,
-    "name": "Farm shop 1315261774",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://xn--nmdskrgrden-l8aeq3w.se/utbud-aktiviteter/ostanviks-gard-gardsbutik",
-    "lat": 59.1967379,
-    "lon": 18.7322671,
-    "address": null
-  },
-  {
-    "id": 1376839316,
-    "name": "Farm shop 1376839316",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1917934,
-    "lon": 14.1039792,
     "address": null
   },
   {
@@ -214,54 +166,6 @@
     "lat": 60.2687214,
     "lon": 14.9806195,
     "address": "Gamla vägen"
-  },
-  {
-    "id": 2739267195,
-    "name": "Farm shop 2739267195",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2289128,
-    "lon": 21.0138926,
-    "address": null
-  },
-  {
-    "id": 2739267196,
-    "name": "Farm shop 2739267196",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2288902,
-    "lon": 21.0138818,
-    "address": null
-  },
-  {
-    "id": 2739267197,
-    "name": "Farm shop 2739267197",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2288695,
-    "lon": 21.0138719,
-    "address": null
-  },
-  {
-    "id": 2739267198,
-    "name": "Farm shop 2739267198",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2288466,
-    "lon": 21.0138518,
-    "address": null
   },
   {
     "id": 2780884269,
@@ -393,102 +297,6 @@
     "website": "https://www.bleckenstad.se/",
     "lat": 58.2742573,
     "lon": 15.0981981,
-    "address": null
-  },
-  {
-    "id": 3655688732,
-    "name": "Farm shop 3655688732",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1726091,
-    "lon": 15.4794748,
-    "address": null
-  },
-  {
-    "id": 3669142104,
-    "name": "Farm shop 3669142104",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2291248,
-    "lon": 21.0143494,
-    "address": null
-  },
-  {
-    "id": 3669142105,
-    "name": "Farm shop 3669142105",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2290923,
-    "lon": 21.0143103,
-    "address": null
-  },
-  {
-    "id": 3669142106,
-    "name": "Farm shop 3669142106",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2290668,
-    "lon": 21.0142647,
-    "address": null
-  },
-  {
-    "id": 3669142107,
-    "name": "Farm shop 3669142107",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.229037,
-    "lon": 21.0142224,
-    "address": null
-  },
-  {
-    "id": 3669142108,
-    "name": "Farm shop 3669142108",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2290427,
-    "lon": 21.0152157,
-    "address": null
-  },
-  {
-    "id": 3669142109,
-    "name": "Farm shop 3669142109",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2290569,
-    "lon": 21.0151734,
-    "address": null
-  },
-  {
-    "id": 3669142110,
-    "name": "Farm shop 3669142110",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.2290314,
-    "lon": 21.0152222,
     "address": null
   },
   {
@@ -648,18 +456,6 @@
     "address": null
   },
   {
-    "id": 4644044697,
-    "name": "Farm shop 4644044697",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1756581,
-    "lon": 15.9357927,
-    "address": null
-  },
-  {
     "id": 4754332239,
     "name": "Bärby Östergård",
     "country": "Sweden",
@@ -792,30 +588,6 @@
     "address": null
   },
   {
-    "id": 4959419055,
-    "name": "Farm shop 4959419055",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.7109279,
-    "lon": 18.4058118,
-    "address": null
-  },
-  {
-    "id": 4959419056,
-    "name": "Farm shop 4959419056",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.7077527,
-    "lon": 18.4083331,
-    "address": null
-  },
-  {
     "id": 4964697340,
     "name": "Idholmens Gårdsbutik",
     "country": "Sweden",
@@ -849,18 +621,6 @@
     "website": null,
     "lat": 65.4924374,
     "lon": 21.4077703,
-    "address": null
-  },
-  {
-    "id": 5092826540,
-    "name": "Farm shop 5092826540",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.8599907,
-    "lon": 16.2002353,
     "address": null
   },
   {
@@ -945,42 +705,6 @@
     "website": null,
     "lat": 55.8430151,
     "lon": 13.5981211,
-    "address": null
-  },
-  {
-    "id": 5732387592,
-    "name": "Farm shop 5732387592",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 63.7764718,
-    "lon": 20.3457946,
-    "address": null
-  },
-  {
-    "id": 5732387598,
-    "name": "Farm shop 5732387598",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 63.775878,
-    "lon": 20.3470337,
-    "address": null
-  },
-  {
-    "id": 5732630162,
-    "name": "Farm shop 5732630162",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.5869537,
-    "lon": 16.7397791,
     "address": null
   },
   {
@@ -1092,18 +816,6 @@
     "address": null
   },
   {
-    "id": 6548295043,
-    "name": "Farm shop 6548295043",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.4510083,
-    "lon": 15.1205724,
-    "address": null
-  },
-  {
     "id": 6617522890,
     "name": "Ägg",
     "country": "Sweden",
@@ -1125,18 +837,6 @@
     "website": null,
     "lat": 56.4096501,
     "lon": 15.0988626,
-    "address": null
-  },
-  {
-    "id": 6638587741,
-    "name": "Farm shop 6638587741",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.3766343,
-    "lon": 19.4050861,
     "address": null
   },
   {
@@ -1281,18 +981,6 @@
     "website": "https://www.landsberga.se/",
     "lat": 59.7403742,
     "lon": 17.1806817,
-    "address": null
-  },
-  {
-    "id": 7656591185,
-    "name": "Farm shop 7656591185",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://saraochandersjordgubbar.se/",
-    "lat": 58.1684563,
-    "lon": 13.7046316,
     "address": null
   },
   {
@@ -1548,30 +1236,6 @@
     "address": null
   },
   {
-    "id": 9933930863,
-    "name": "Farm shop 9933930863",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.7955042,
-    "lon": 16.3612577,
-    "address": null
-  },
-  {
-    "id": 9935773467,
-    "name": "Farm shop 9935773467",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.396389,
-    "lon": 14.0576856,
-    "address": null
-  },
-  {
     "id": 9938975158,
     "name": "Johnssons Gård",
     "country": "Sweden",
@@ -1630,18 +1294,6 @@
     "lat": 58.8507748,
     "lon": 14.9332641,
     "address": "Stjernsunds Gård"
-  },
-  {
-    "id": 10607628235,
-    "name": "Farm shop 10607628235",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.orgakvarn.se/",
-    "lat": 58.5863675,
-    "lon": 15.8810471,
-    "address": null
   },
   {
     "id": 10781647520,
@@ -1824,18 +1476,6 @@
     "address": null
   },
   {
-    "id": 11128432918,
-    "name": "Farm shop 11128432918",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.3387188,
-    "lon": 13.3487213,
-    "address": null
-  },
-  {
     "id": 11134070185,
     "name": "Mofalla Lantgård",
     "country": "Sweden",
@@ -1845,30 +1485,6 @@
     "website": null,
     "lat": 58.3294163,
     "lon": 14.1858268,
-    "address": null
-  },
-  {
-    "id": 11142319402,
-    "name": "Farm shop 11142319402",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.6834673,
-    "lon": 14.2327218,
-    "address": null
-  },
-  {
-    "id": 11143258321,
-    "name": "Farm shop 11143258321",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.9052413,
-    "lon": 14.261717,
     "address": null
   },
   {
@@ -2052,30 +1668,6 @@
     "address": "Bästekillevägen"
   },
   {
-    "id": 11977916016,
-    "name": "Farm shop 11977916016",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.2604635,
-    "lon": 12.5734556,
-    "address": null
-  },
-  {
-    "id": 11985353205,
-    "name": "Farm shop 11985353205",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.8347712,
-    "lon": 17.0991254,
-    "address": null
-  },
-  {
     "id": 12057253814,
     "name": "Vallgårdens",
     "country": "Sweden",
@@ -2169,18 +1761,6 @@
     "website": null,
     "lat": 58.5315001,
     "lon": 15.8049805,
-    "address": null
-  },
-  {
-    "id": 12168355575,
-    "name": "Farm shop 12168355575",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.5932772,
-    "lon": 18.2425582,
     "address": null
   },
   {
@@ -2304,18 +1884,6 @@
     "address": null
   },
   {
-    "id": 12964133062,
-    "name": "Farm shop 12964133062",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.0881446,
-    "lon": 18.4205487,
-    "address": null
-  },
-  {
     "id": 12964872768,
     "name": "Brobacken",
     "country": "Sweden",
@@ -2325,18 +1893,6 @@
     "website": "https://www.brobacken.se/",
     "lat": 57.8484135,
     "lon": 12.6789474,
-    "address": null
-  },
-  {
-    "id": 13013411958,
-    "name": "Farm shop 13013411958",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.solbergagard.nu/butik.htm",
-    "lat": 59.2560581,
-    "lon": 18.7583178,
     "address": null
   },
   {
@@ -2652,18 +2208,6 @@
     "address": null
   },
   {
-    "id": 124775869,
-    "name": "Farm shop 124775869",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0571996,
-    "lon": 12.7439591,
-    "address": null
-  },
-  {
     "id": 195656269,
     "name": "Tyresta lanthandel",
     "country": "Sweden",
@@ -2733,6 +2277,1146 @@
     "website": null,
     "lat": 61.2918221,
     "lon": 13.5316822,
+    "address": null
+  },
+  {
+    "id": 254091835,
+    "name": "Malma Gård AB",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Värmdö",
+    "products": [],
+    "website": "https://malma-gard.se/",
+    "lat": 59.2774041,
+    "lon": 18.6123552,
+    "address": "Malmavägen"
+  },
+  {
+    "id": 257680255,
+    "name": "Stora Tumlehed Gård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.storatumlehedgard.se/",
+    "lat": 57.7274877,
+    "lon": 11.7295021,
+    "address": null
+  },
+  {
+    "id": 307930011,
+    "name": "Sollidens matbord",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.8595394,
+    "lon": 16.2031351,
+    "address": null
+  },
+  {
+    "id": 313534382,
+    "name": "Svamp Farm Öland",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.6565341,
+    "lon": 16.6337366,
+    "address": null
+  },
+  {
+    "id": 344134724,
+    "name": "Rommefall kött",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Vårgårda",
+    "products": [],
+    "website": "http://romnefall.se/",
+    "lat": 58.0036457,
+    "lon": 12.965265,
+    "address": "Asklanda Rommefall"
+  },
+  {
+    "id": 351956967,
+    "name": "Gårdsbutik Nora gård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.3154941,
+    "lon": 18.5513329,
+    "address": null
+  },
+  {
+    "id": 356741381,
+    "name": "Sammels Gårdscafé",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Landvetter",
+    "products": [],
+    "website": "http://www.sammelslantgard.se",
+    "lat": 57.6266625,
+    "lon": 12.3201406,
+    "address": null
+  },
+  {
+    "id": 363884951,
+    "name": "Mölnebo odlingar",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Rönnäng",
+    "products": [],
+    "website": "http://molneboodlingar.se",
+    "lat": 57.9496745,
+    "lon": 11.6121826,
+    "address": null
+  },
+  {
+    "id": 380630962,
+    "name": "Töllås Fårgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://fargard.se",
+    "lat": 58.2961857,
+    "lon": 11.7369166,
+    "address": null
+  },
+  {
+    "id": 403875152,
+    "name": "Vilshärads Gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://vilsharadsgardsbutik.se",
+    "lat": 56.6996045,
+    "lon": 12.7108072,
+    "address": null
+  },
+  {
+    "id": 404165607,
+    "name": "Mariebergs gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.pepparrot.se/",
+    "lat": 57.4114493,
+    "lon": 12.1442172,
+    "address": null
+  },
+  {
+    "id": 404166707,
+    "name": "Kvia gård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.le-ha.se",
+    "lat": 57.4008558,
+    "lon": 12.1514495,
+    "address": null
+  },
+  {
+    "id": 406160593,
+    "name": "Limabacka kvarn",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.limabackakvarn.se/",
+    "lat": 57.2409059,
+    "lon": 12.1795707,
+    "address": null
+  },
+  {
+    "id": 407274568,
+    "name": "Greby Mejeri",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Grebbestad",
+    "products": [],
+    "website": "http://grebymejeri.se/",
+    "lat": 58.7077236,
+    "lon": 11.2590303,
+    "address": null
+  },
+  {
+    "id": 419903379,
+    "name": "Fridtuna Ägg",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.8204404,
+    "lon": 13.923134,
+    "address": null
+  },
+  {
+    "id": 442974431,
+    "name": "Björnhyltans Trädgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bjornhyltans.se/",
+    "lat": 57.3975046,
+    "lon": 13.2742637,
+    "address": null
+  },
+  {
+    "id": 444958755,
+    "name": "Vistakulle fruktodling",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Huskvarna",
+    "products": [],
+    "website": "https://vistakullefruktodling.se/",
+    "lat": 57.8605536,
+    "lon": 14.281821,
+    "address": null
+  },
+  {
+    "id": 467473119,
+    "name": "Orust must",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.orustmust.se/",
+    "lat": 58.1880072,
+    "lon": 11.4967197,
+    "address": null
+  },
+  {
+    "id": 475989826,
+    "name": "Röe Gård Butik & Café",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Brastad",
+    "products": [],
+    "website": "http://www.roegard.nu/",
+    "lat": 58.4164124,
+    "lon": 11.4370753,
+    "address": "Röe Gård"
+  },
+  {
+    "id": 477628060,
+    "name": "Widén Gården",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Tanumshede",
+    "products": [],
+    "website": "http://www.widengarden.se/",
+    "lat": 58.7106026,
+    "lon": 11.3310109,
+    "address": "Klåvavägen"
+  },
+  {
+    "id": 477995504,
+    "name": "Kosters Trädgårdar",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Sydkoster",
+    "products": [],
+    "website": "http://www.kosterstradgardar.se/",
+    "lat": 58.8859856,
+    "lon": 11.0159088,
+    "address": null
+  },
+  {
+    "id": 482635353,
+    "name": "Tavlebords Honungsgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://tavlebordshonungsgard.se",
+    "lat": 58.1482383,
+    "lon": 11.5783993,
+    "address": null
+  },
+  {
+    "id": 482635362,
+    "name": "Tavlebord Lanthandel",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Henån",
+    "products": [],
+    "website": "http://tavlebord.se/",
+    "lat": 58.1485594,
+    "lon": 11.5840343,
+    "address": null
+  },
+  {
+    "id": 482692202,
+    "name": "Hållbar Hälsa",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.hallbarhalsa.nu/",
+    "lat": 58.1247041,
+    "lon": 11.9508984,
+    "address": null
+  },
+  {
+    "id": 482694472,
+    "name": "Gårdsbutik Ryasand",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Härryda",
+    "products": [],
+    "website": "http://tacka.nu/",
+    "lat": 57.6967209,
+    "lon": 12.3467864,
+    "address": "Härskogsvägen"
+  },
+  {
+    "id": 494179004,
+    "name": "Fiskdamm",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 65.3479617,
+    "lon": 21.3044245,
+    "address": null
+  },
+  {
+    "id": 513932241,
+    "name": "Larssons Gårdsbutik & Lantbruk",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 58.9089162,
+    "lon": 12.5415473,
+    "address": null
+  },
+  {
+    "id": 554751968,
+    "name": "Skålldals lilla ekomejeri",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Kode",
+    "products": [],
+    "website": null,
+    "lat": 57.9432514,
+    "lon": 11.9014468,
+    "address": null
+  },
+  {
+    "id": 555017973,
+    "name": "Björröds Ägg",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.bjorrodsagg.se/",
+    "lat": 57.9374256,
+    "lon": 11.9421655,
+    "address": null
+  },
+  {
+    "id": 603989980,
+    "name": "Jannelunds gård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.1609437,
+    "lon": 14.7417034,
+    "address": null
+  },
+  {
+    "id": 646005302,
+    "name": "Strutsfarmen i Gerdal",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://strutsfarmen.se/",
+    "lat": 63.2952028,
+    "lon": 18.4236016,
+    "address": null
+  },
+  {
+    "id": 704396496,
+    "name": "Hofsnäs Saluhall",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.6286298,
+    "lon": 13.2910323,
+    "address": null
+  },
+  {
+    "id": 705725805,
+    "name": "Kvarnfors gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.4033089,
+    "lon": 15.6934527,
+    "address": null
+  },
+  {
+    "id": 706065802,
+    "name": "Äppellunden",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.3409821,
+    "lon": 17.9259389,
+    "address": null
+  },
+  {
+    "id": 734492266,
+    "name": "Vad 12:1",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.7723304,
+    "lon": 16.8596609,
+    "address": null
+  },
+  {
+    "id": 734492269,
+    "name": "Vad 10:2",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.7735459,
+    "lon": 16.8707567,
+    "address": null
+  },
+  {
+    "id": 735127148,
+    "name": "Vad 2:7",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.768442,
+    "lon": 16.852982,
+    "address": null
+  },
+  {
+    "id": 777935740,
+    "name": "Högsta Lantbruk HB",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Köping",
+    "products": [],
+    "website": null,
+    "lat": 59.4823338,
+    "lon": 15.9749343,
+    "address": null
+  },
+  {
+    "id": 798126831,
+    "name": "Peckas naturodlingar",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Härnösand",
+    "products": [],
+    "website": "https://peckas.se/",
+    "lat": 62.6507367,
+    "lon": 17.9036855,
+    "address": "Verkstadsvägen"
+  },
+  {
+    "id": 828226022,
+    "name": "Drivbänk gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.linkoping.se/naringsliv-och-arbete/arbetsmarknad/arbetsmarknadscentrum/projekt-amc/drivbank/",
+    "lat": 58.4904271,
+    "lon": 15.4852906,
+    "address": null
+  },
+  {
+    "id": 944016045,
+    "name": "Umlax fiskodling",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 65.4269419,
+    "lon": 16.178812,
+    "address": null
+  },
+  {
+    "id": 986758331,
+    "name": "Vretens",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.4340862,
+    "lon": 15.8892962,
+    "address": null
+  },
+  {
+    "id": 1030438597,
+    "name": "Slussfors Fisk",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 65.4240796,
+    "lon": 16.2322548,
+    "address": null
+  },
+  {
+    "id": 1092678702,
+    "name": "Lakene Ostgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://ostgard.se",
+    "lat": 59.9850568,
+    "lon": 13.4944838,
+    "address": null
+  },
+  {
+    "id": 1123155003,
+    "name": "Liaberg grönsaker",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Timmele",
+    "products": [],
+    "website": "https://www.liaberg.se/",
+    "lat": 57.8782946,
+    "lon": 13.3757879,
+    "address": null
+  },
+  {
+    "id": 1174105361,
+    "name": "Domtagrisen",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8060148,
+    "lon": 17.1326292,
+    "address": null
+  },
+  {
+    "id": 1174140358,
+    "name": "Sonkarby äggbod",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8145066,
+    "lon": 17.1233743,
+    "address": null
+  },
+  {
+    "id": 1202391639,
+    "name": "Angelikas Gård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://angelikasgard.se/",
+    "lat": 55.7488464,
+    "lon": 14.0402457,
+    "address": null
+  },
+  {
+    "id": 1239448368,
+    "name": "Riksdagsmannagården gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.2319506,
+    "lon": 15.0232606,
+    "address": null
+  },
+  {
+    "id": 1265633626,
+    "name": "Järdefors Potatis",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Sandviken",
+    "products": [],
+    "website": null,
+    "lat": 60.6632259,
+    "lon": 16.7256372,
+    "address": "Råbäcksvägen"
+  },
+  {
+    "id": 1305230729,
+    "name": "Lakene Ostgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ostgard.se/",
+    "lat": 59.9846282,
+    "lon": 13.4934928,
+    "address": null
+  },
+  {
+    "id": 1382407723,
+    "name": "Nyborgs gårdsbod",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.6301896,
+    "lon": 17.5447309,
+    "address": null
+  },
+  {
+    "id": 1382932953,
+    "name": "Nyslungad honung",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1990799,
+    "lon": 15.090053,
+    "address": null
+  },
+  {
+    "id": 1396064655,
+    "name": "Haddorps Gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Linköping",
+    "products": [],
+    "website": "http://www.haddorpsgard.se/",
+    "lat": 58.3439779,
+    "lon": 15.557109,
+    "address": "Haddorp gård"
+  },
+  {
+    "id": 1442435665,
+    "name": "Gårdsbutiken i Smedby",
+    "country": "Sweden",
+    "region": null,
+    "municipality": "Arboga",
+    "products": [],
+    "website": "https://www.gardsbutikenismedby.se/",
+    "lat": 59.4848111,
+    "lon": 15.7062738,
+    "address": "Smedby"
+  },
+  {
+    "id": 9893214611,
+    "name": "Delicatessen Farmhouse",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://farmhousesweden.se/",
+    "lat": 61.7987658,
+    "lon": 16.5512299,
+    "address": null
+  },
+  {
+    "id": 1092678702,
+    "name": "Lakene Ostgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://ostgard.se",
+    "lat": 59.9850906,
+    "lon": 13.4946529,
+    "address": null
+  },
+  {
+    "id": 544477142,
+    "name": "Farm shop 544477142",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.181026,
+    "lon": 14.3285007,
+    "address": null
+  },
+  {
+    "id": 876728391,
+    "name": "Farm shop 876728391",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.3159304,
+    "lon": 12.8911237,
+    "address": null
+  },
+  {
+    "id": 1315261774,
+    "name": "Farm shop 1315261774",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://xn--nmdskrgrden-l8aeq3w.se/utbud-aktiviteter/ostanviks-gard-gardsbutik",
+    "lat": 59.1967379,
+    "lon": 18.7322671,
+    "address": null
+  },
+  {
+    "id": 1376839316,
+    "name": "Farm shop 1376839316",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1917934,
+    "lon": 14.1039792,
+    "address": null
+  },
+  {
+    "id": 2739267195,
+    "name": "Farm shop 2739267195",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2289128,
+    "lon": 21.0138926,
+    "address": null
+  },
+  {
+    "id": 2739267196,
+    "name": "Farm shop 2739267196",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2288902,
+    "lon": 21.0138818,
+    "address": null
+  },
+  {
+    "id": 2739267197,
+    "name": "Farm shop 2739267197",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2288695,
+    "lon": 21.0138719,
+    "address": null
+  },
+  {
+    "id": 2739267198,
+    "name": "Farm shop 2739267198",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2288466,
+    "lon": 21.0138518,
+    "address": null
+  },
+  {
+    "id": 3655688732,
+    "name": "Farm shop 3655688732",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1726091,
+    "lon": 15.4794748,
+    "address": null
+  },
+  {
+    "id": 3669142104,
+    "name": "Farm shop 3669142104",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2291248,
+    "lon": 21.0143494,
+    "address": null
+  },
+  {
+    "id": 3669142105,
+    "name": "Farm shop 3669142105",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2290923,
+    "lon": 21.0143103,
+    "address": null
+  },
+  {
+    "id": 3669142106,
+    "name": "Farm shop 3669142106",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2290668,
+    "lon": 21.0142647,
+    "address": null
+  },
+  {
+    "id": 3669142107,
+    "name": "Farm shop 3669142107",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.229037,
+    "lon": 21.0142224,
+    "address": null
+  },
+  {
+    "id": 3669142108,
+    "name": "Farm shop 3669142108",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2290427,
+    "lon": 21.0152157,
+    "address": null
+  },
+  {
+    "id": 3669142109,
+    "name": "Farm shop 3669142109",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2290569,
+    "lon": 21.0151734,
+    "address": null
+  },
+  {
+    "id": 3669142110,
+    "name": "Farm shop 3669142110",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.2290314,
+    "lon": 21.0152222,
+    "address": null
+  },
+  {
+    "id": 4644044697,
+    "name": "Farm shop 4644044697",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.1756581,
+    "lon": 15.9357927,
+    "address": null
+  },
+  {
+    "id": 4959419055,
+    "name": "Farm shop 4959419055",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.7109279,
+    "lon": 18.4058118,
+    "address": null
+  },
+  {
+    "id": 4959419056,
+    "name": "Farm shop 4959419056",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.7077527,
+    "lon": 18.4083331,
+    "address": null
+  },
+  {
+    "id": 5092826540,
+    "name": "Farm shop 5092826540",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.8599907,
+    "lon": 16.2002353,
+    "address": null
+  },
+  {
+    "id": 5732387592,
+    "name": "Farm shop 5732387592",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 63.7764718,
+    "lon": 20.3457946,
+    "address": null
+  },
+  {
+    "id": 5732387598,
+    "name": "Farm shop 5732387598",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 63.775878,
+    "lon": 20.3470337,
+    "address": null
+  },
+  {
+    "id": 5732630162,
+    "name": "Farm shop 5732630162",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.5869537,
+    "lon": 16.7397791,
+    "address": null
+  },
+  {
+    "id": 6548295043,
+    "name": "Farm shop 6548295043",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.4510083,
+    "lon": 15.1205724,
+    "address": null
+  },
+  {
+    "id": 6638587741,
+    "name": "Farm shop 6638587741",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.3766343,
+    "lon": 19.4050861,
+    "address": null
+  },
+  {
+    "id": 7656591185,
+    "name": "Farm shop 7656591185",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://saraochandersjordgubbar.se/",
+    "lat": 58.1684563,
+    "lon": 13.7046316,
+    "address": null
+  },
+  {
+    "id": 9933930863,
+    "name": "Farm shop 9933930863",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.7955042,
+    "lon": 16.3612577,
+    "address": null
+  },
+  {
+    "id": 9935773467,
+    "name": "Farm shop 9935773467",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.396389,
+    "lon": 14.0576856,
+    "address": null
+  },
+  {
+    "id": 10607628235,
+    "name": "Farm shop 10607628235",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.orgakvarn.se/",
+    "lat": 58.5863675,
+    "lon": 15.8810471,
+    "address": null
+  },
+  {
+    "id": 11128432918,
+    "name": "Farm shop 11128432918",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.3387188,
+    "lon": 13.3487213,
+    "address": null
+  },
+  {
+    "id": 11142319402,
+    "name": "Farm shop 11142319402",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.6834673,
+    "lon": 14.2327218,
+    "address": null
+  },
+  {
+    "id": 11143258321,
+    "name": "Farm shop 11143258321",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.9052413,
+    "lon": 14.261717,
+    "address": null
+  },
+  {
+    "id": 11977916016,
+    "name": "Farm shop 11977916016",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.2604635,
+    "lon": 12.5734556,
+    "address": null
+  },
+  {
+    "id": 11985353205,
+    "name": "Farm shop 11985353205",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8347712,
+    "lon": 17.0991254,
+    "address": null
+  },
+  {
+    "id": 12168355575,
+    "name": "Farm shop 12168355575",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.5932772,
+    "lon": 18.2425582,
+    "address": null
+  },
+  {
+    "id": 12964133062,
+    "name": "Farm shop 12964133062",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.0881446,
+    "lon": 18.4205487,
+    "address": null
+  },
+  {
+    "id": 13013411958,
+    "name": "Farm shop 13013411958",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.solbergagard.nu/butik.htm",
+    "lat": 59.2560581,
+    "lon": 18.7583178,
+    "address": null
+  },
+  {
+    "id": 124775869,
+    "name": "Farm shop 124775869",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0571996,
+    "lon": 12.7439591,
     "address": null
   },
   {
@@ -2928,30 +3612,6 @@
     "address": null
   },
   {
-    "id": 254091835,
-    "name": "Malma Gård AB",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Värmdö",
-    "products": [],
-    "website": "https://malma-gard.se/",
-    "lat": 59.2774041,
-    "lon": 18.6123552,
-    "address": "Malmavägen"
-  },
-  {
-    "id": 257680255,
-    "name": "Stora Tumlehed Gård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.storatumlehedgard.se/",
-    "lat": 57.7274877,
-    "lon": 11.7295021,
-    "address": null
-  },
-  {
     "id": 265408584,
     "name": "Farm shop 265408584",
     "country": "Sweden",
@@ -3012,30 +3672,6 @@
     "address": null
   },
   {
-    "id": 307930011,
-    "name": "Sollidens matbord",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.8595394,
-    "lon": 16.2031351,
-    "address": null
-  },
-  {
-    "id": 313534382,
-    "name": "Svamp Farm Öland",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.6565341,
-    "lon": 16.6337366,
-    "address": null
-  },
-  {
     "id": 320233109,
     "name": "Farm shop 320233109",
     "country": "Sweden",
@@ -3060,30 +3696,6 @@
     "address": null
   },
   {
-    "id": 344134724,
-    "name": "Rommefall kött",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Vårgårda",
-    "products": [],
-    "website": "http://romnefall.se/",
-    "lat": 58.0036457,
-    "lon": 12.965265,
-    "address": "Asklanda Rommefall"
-  },
-  {
-    "id": 351956967,
-    "name": "Gårdsbutik Nora gård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.3154941,
-    "lon": 18.5513329,
-    "address": null
-  },
-  {
     "id": 356054027,
     "name": "Farm shop 356054027",
     "country": "Sweden",
@@ -3093,42 +3705,6 @@
     "website": null,
     "lat": 56.5942742,
     "lon": 13.9967214,
-    "address": null
-  },
-  {
-    "id": 356741381,
-    "name": "Sammels Gårdscafé",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Landvetter",
-    "products": [],
-    "website": "http://www.sammelslantgard.se",
-    "lat": 57.6266625,
-    "lon": 12.3201406,
-    "address": null
-  },
-  {
-    "id": 363884951,
-    "name": "Mölnebo odlingar",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Rönnäng",
-    "products": [],
-    "website": "http://molneboodlingar.se",
-    "lat": 57.9496745,
-    "lon": 11.6121826,
-    "address": null
-  },
-  {
-    "id": 380630962,
-    "name": "Töllås Fårgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://fargard.se",
-    "lat": 58.2961857,
-    "lon": 11.7369166,
     "address": null
   },
   {
@@ -3144,66 +3720,6 @@
     "address": null
   },
   {
-    "id": 403875152,
-    "name": "Vilshärads Gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://vilsharadsgardsbutik.se",
-    "lat": 56.6996045,
-    "lon": 12.7108072,
-    "address": null
-  },
-  {
-    "id": 404165607,
-    "name": "Mariebergs gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.pepparrot.se/",
-    "lat": 57.4114493,
-    "lon": 12.1442172,
-    "address": null
-  },
-  {
-    "id": 404166707,
-    "name": "Kvia gård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.le-ha.se",
-    "lat": 57.4008558,
-    "lon": 12.1514495,
-    "address": null
-  },
-  {
-    "id": 406160593,
-    "name": "Limabacka kvarn",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.limabackakvarn.se/",
-    "lat": 57.2409059,
-    "lon": 12.1795707,
-    "address": null
-  },
-  {
-    "id": 407274568,
-    "name": "Greby Mejeri",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Grebbestad",
-    "products": [],
-    "website": "http://grebymejeri.se/",
-    "lat": 58.7077236,
-    "lon": 11.2590303,
-    "address": null
-  },
-  {
     "id": 418253051,
     "name": "Farm shop 418253051",
     "country": "Sweden",
@@ -3213,18 +3729,6 @@
     "website": null,
     "lat": 59.9437132,
     "lon": 17.6823666,
-    "address": null
-  },
-  {
-    "id": 419903379,
-    "name": "Fridtuna Ägg",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.8204404,
-    "lon": 13.923134,
     "address": null
   },
   {
@@ -3240,78 +3744,6 @@
     "address": null
   },
   {
-    "id": 442974431,
-    "name": "Björnhyltans Trädgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bjornhyltans.se/",
-    "lat": 57.3975046,
-    "lon": 13.2742637,
-    "address": null
-  },
-  {
-    "id": 444958755,
-    "name": "Vistakulle fruktodling",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Huskvarna",
-    "products": [],
-    "website": "https://vistakullefruktodling.se/",
-    "lat": 57.8605536,
-    "lon": 14.281821,
-    "address": null
-  },
-  {
-    "id": 467473119,
-    "name": "Orust must",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.orustmust.se/",
-    "lat": 58.1880072,
-    "lon": 11.4967197,
-    "address": null
-  },
-  {
-    "id": 475989826,
-    "name": "Röe Gård Butik & Café",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Brastad",
-    "products": [],
-    "website": "http://www.roegard.nu/",
-    "lat": 58.4164124,
-    "lon": 11.4370753,
-    "address": "Röe Gård"
-  },
-  {
-    "id": 477628060,
-    "name": "Widén Gården",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Tanumshede",
-    "products": [],
-    "website": "http://www.widengarden.se/",
-    "lat": 58.7106026,
-    "lon": 11.3310109,
-    "address": "Klåvavägen"
-  },
-  {
-    "id": 477995504,
-    "name": "Kosters Trädgårdar",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Sydkoster",
-    "products": [],
-    "website": "http://www.kosterstradgardar.se/",
-    "lat": 58.8859856,
-    "lon": 11.0159088,
-    "address": null
-  },
-  {
     "id": 481820305,
     "name": "Farm shop 481820305",
     "country": "Sweden",
@@ -3324,54 +3756,6 @@
     "address": null
   },
   {
-    "id": 482635353,
-    "name": "Tavlebords Honungsgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://tavlebordshonungsgard.se",
-    "lat": 58.1482383,
-    "lon": 11.5783993,
-    "address": null
-  },
-  {
-    "id": 482635362,
-    "name": "Tavlebord Lanthandel",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Henån",
-    "products": [],
-    "website": "http://tavlebord.se/",
-    "lat": 58.1485594,
-    "lon": 11.5840343,
-    "address": null
-  },
-  {
-    "id": 482692202,
-    "name": "Hållbar Hälsa",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.hallbarhalsa.nu/",
-    "lat": 58.1247041,
-    "lon": 11.9508984,
-    "address": null
-  },
-  {
-    "id": 482694472,
-    "name": "Gårdsbutik Ryasand",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Härryda",
-    "products": [],
-    "website": "http://tacka.nu/",
-    "lat": 57.6967209,
-    "lon": 12.3467864,
-    "address": "Härskogsvägen"
-  },
-  {
     "id": 491761988,
     "name": "Farm shop 491761988",
     "country": "Sweden",
@@ -3381,30 +3765,6 @@
     "website": null,
     "lat": 59.8195104,
     "lon": 17.6409078,
-    "address": null
-  },
-  {
-    "id": 494179004,
-    "name": "Fiskdamm",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 65.3479617,
-    "lon": 21.3044245,
-    "address": null
-  },
-  {
-    "id": 513932241,
-    "name": "Larssons Gårdsbutik & Lantbruk",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 58.9089162,
-    "lon": 12.5415473,
     "address": null
   },
   {
@@ -3429,42 +3789,6 @@
     "website": null,
     "lat": 59.5410375,
     "lon": 16.8825125,
-    "address": null
-  },
-  {
-    "id": 554751968,
-    "name": "Skålldals lilla ekomejeri",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Kode",
-    "products": [],
-    "website": null,
-    "lat": 57.9432514,
-    "lon": 11.9014468,
-    "address": null
-  },
-  {
-    "id": 555017973,
-    "name": "Björröds Ägg",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.bjorrodsagg.se/",
-    "lat": 57.9374256,
-    "lon": 11.9421655,
-    "address": null
-  },
-  {
-    "id": 603989980,
-    "name": "Jannelunds gård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.1609437,
-    "lon": 14.7417034,
     "address": null
   },
   {
@@ -3501,18 +3825,6 @@
     "website": null,
     "lat": 56.2431683,
     "lon": 15.5658578,
-    "address": null
-  },
-  {
-    "id": 646005302,
-    "name": "Strutsfarmen i Gerdal",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://strutsfarmen.se/",
-    "lat": 63.2952028,
-    "lon": 18.4236016,
     "address": null
   },
   {
@@ -3600,42 +3912,6 @@
     "address": null
   },
   {
-    "id": 704396496,
-    "name": "Hofsnäs Saluhall",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.6286298,
-    "lon": 13.2910323,
-    "address": null
-  },
-  {
-    "id": 705725805,
-    "name": "Kvarnfors gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.4033089,
-    "lon": 15.6934527,
-    "address": null
-  },
-  {
-    "id": 706065802,
-    "name": "Äppellunden",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.3409821,
-    "lon": 17.9259389,
-    "address": null
-  },
-  {
     "id": 734435990,
     "name": "Farm shop 734435990",
     "country": "Sweden",
@@ -3645,30 +3921,6 @@
     "website": null,
     "lat": 59.7731721,
     "lon": 16.8665745,
-    "address": null
-  },
-  {
-    "id": 734492266,
-    "name": "Vad 12:1",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.7723304,
-    "lon": 16.8596609,
-    "address": null
-  },
-  {
-    "id": 734492269,
-    "name": "Vad 10:2",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.7735459,
-    "lon": 16.8707567,
     "address": null
   },
   {
@@ -3684,18 +3936,6 @@
     "address": null
   },
   {
-    "id": 735127148,
-    "name": "Vad 2:7",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.768442,
-    "lon": 16.852982,
-    "address": null
-  },
-  {
     "id": 735127149,
     "name": "Farm shop 735127149",
     "country": "Sweden",
@@ -3708,18 +3948,6 @@
     "address": null
   },
   {
-    "id": 777935740,
-    "name": "Högsta Lantbruk HB",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Köping",
-    "products": [],
-    "website": null,
-    "lat": 59.4823338,
-    "lon": 15.9749343,
-    "address": null
-  },
-  {
     "id": 791161752,
     "name": "Farm shop 791161752",
     "country": "Sweden",
@@ -3729,30 +3957,6 @@
     "website": null,
     "lat": 56.8021673,
     "lon": 14.01297,
-    "address": null
-  },
-  {
-    "id": 798126831,
-    "name": "Peckas naturodlingar",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Härnösand",
-    "products": [],
-    "website": "https://peckas.se/",
-    "lat": 62.6507367,
-    "lon": 17.9036855,
-    "address": "Verkstadsvägen"
-  },
-  {
-    "id": 828226022,
-    "name": "Drivbänk gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.linkoping.se/naringsliv-och-arbete/arbetsmarknad/arbetsmarknadscentrum/projekt-amc/drivbank/",
-    "lat": 58.4904271,
-    "lon": 15.4852906,
     "address": null
   },
   {
@@ -3816,18 +4020,6 @@
     "address": null
   },
   {
-    "id": 944016045,
-    "name": "Umlax fiskodling",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 65.4269419,
-    "lon": 16.178812,
-    "address": null
-  },
-  {
     "id": 944020865,
     "name": "Farm shop 944020865",
     "country": "Sweden",
@@ -3852,18 +4044,6 @@
     "address": null
   },
   {
-    "id": 986758331,
-    "name": "Vretens",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.4340862,
-    "lon": 15.8892962,
-    "address": null
-  },
-  {
     "id": 1002100425,
     "name": "Farm shop 1002100425",
     "country": "Sweden",
@@ -3876,18 +4056,6 @@
     "address": null
   },
   {
-    "id": 1030438597,
-    "name": "Slussfors Fisk",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 65.4240796,
-    "lon": 16.2322548,
-    "address": null
-  },
-  {
     "id": 1086505253,
     "name": "Farm shop 1086505253",
     "country": "Sweden",
@@ -3897,30 +4065,6 @@
     "website": null,
     "lat": 56.6227051,
     "lon": 14.5480298,
-    "address": null
-  },
-  {
-    "id": 1092678702,
-    "name": "Lakene Ostgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://ostgard.se",
-    "lat": 59.9850568,
-    "lon": 13.4944838,
-    "address": null
-  },
-  {
-    "id": 1123155003,
-    "name": "Liaberg grönsaker",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Timmele",
-    "products": [],
-    "website": "https://www.liaberg.se/",
-    "lat": 57.8782946,
-    "lon": 13.3757879,
     "address": null
   },
   {
@@ -3972,30 +4116,6 @@
     "address": null
   },
   {
-    "id": 1174105361,
-    "name": "Domtagrisen",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.8060148,
-    "lon": 17.1326292,
-    "address": null
-  },
-  {
-    "id": 1174140358,
-    "name": "Sonkarby äggbod",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.8145066,
-    "lon": 17.1233743,
-    "address": null
-  },
-  {
     "id": 1201560094,
     "name": "Farm shop 1201560094",
     "country": "Sweden",
@@ -4005,18 +4125,6 @@
     "website": null,
     "lat": 56.0544283,
     "lon": 12.8480777,
-    "address": null
-  },
-  {
-    "id": 1202391639,
-    "name": "Angelikas Gård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://angelikasgard.se/",
-    "lat": 55.7488464,
-    "lon": 14.0402457,
     "address": null
   },
   {
@@ -4056,18 +4164,6 @@
     "address": null
   },
   {
-    "id": 1239448368,
-    "name": "Riksdagsmannagården gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.2319506,
-    "lon": 15.0232606,
-    "address": null
-  },
-  {
     "id": 1239912394,
     "name": "Farm shop 1239912394",
     "country": "Sweden",
@@ -4089,30 +4185,6 @@
     "website": null,
     "lat": 58.1597038,
     "lon": 11.5647317,
-    "address": null
-  },
-  {
-    "id": 1265633626,
-    "name": "Järdefors Potatis",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Sandviken",
-    "products": [],
-    "website": null,
-    "lat": 60.6632259,
-    "lon": 16.7256372,
-    "address": "Råbäcksvägen"
-  },
-  {
-    "id": 1305230729,
-    "name": "Lakene Ostgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ostgard.se/",
-    "lat": 59.9846282,
-    "lon": 13.4934928,
     "address": null
   },
   {
@@ -4236,30 +4308,6 @@
     "address": null
   },
   {
-    "id": 1382407723,
-    "name": "Nyborgs gårdsbod",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.6301896,
-    "lon": 17.5447309,
-    "address": null
-  },
-  {
-    "id": 1382932953,
-    "name": "Nyslungad honung",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.1990799,
-    "lon": 15.090053,
-    "address": null
-  },
-  {
     "id": 1386609789,
     "name": "Farm shop 1386609789",
     "country": "Sweden",
@@ -4270,30 +4318,6 @@
     "lat": 58.3749058,
     "lon": 16.6278971,
     "address": null
-  },
-  {
-    "id": 1396064655,
-    "name": "Haddorps Gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Linköping",
-    "products": [],
-    "website": "http://www.haddorpsgard.se/",
-    "lat": 58.3439779,
-    "lon": 15.557109,
-    "address": "Haddorp gård"
-  },
-  {
-    "id": 1442435665,
-    "name": "Gårdsbutiken i Smedby",
-    "country": "Sweden",
-    "region": null,
-    "municipality": "Arboga",
-    "products": [],
-    "website": "https://www.gardsbutikenismedby.se/",
-    "lat": 59.4848111,
-    "lon": 15.7062738,
-    "address": "Smedby"
   },
   {
     "id": 5500342,
@@ -4341,30 +4365,6 @@
     "website": null,
     "lat": 58.3816485,
     "lon": 13.6579654,
-    "address": null
-  },
-  {
-    "id": 9893214611,
-    "name": "Delicatessen Farmhouse",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://farmhousesweden.se/",
-    "lat": 61.7987658,
-    "lon": 16.5512299,
-    "address": null
-  },
-  {
-    "id": 1092678702,
-    "name": "Lakene Ostgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://ostgard.se",
-    "lat": 59.9850906,
-    "lon": 13.4946529,
     "address": null
   },
   {

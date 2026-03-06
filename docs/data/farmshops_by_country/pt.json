@@ -108,18 +108,6 @@
     "address": null
   },
   {
-    "id": 3885889825,
-    "name": "Farm shop Funchal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Funchal",
-    "products": [],
-    "website": null,
-    "lat": 32.6644455,
-    "lon": -16.9054179,
-    "address": null
-  },
-  {
     "id": 3895352357,
     "name": "OPAN",
     "country": "Portugal",
@@ -144,18 +132,6 @@
     "address": null
   },
   {
-    "id": 4941943694,
-    "name": "Farm shop 4941943694",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.7771854,
-    "lon": -9.0918598,
-    "address": null
-  },
-  {
     "id": 5440139934,
     "name": "Caminhos do Futuro",
     "country": "Portugal",
@@ -165,18 +141,6 @@
     "website": null,
     "lat": 38.6432401,
     "lon": -8.222234,
-    "address": null
-  },
-  {
-    "id": 5929212419,
-    "name": "Farm shop 5929212419",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1832163,
-    "lon": -7.1036965,
     "address": null
   },
   {
@@ -216,18 +180,6 @@
     "address": "Rua Vale Caseiro"
   },
   {
-    "id": 6985365995,
-    "name": "Farm shop 6985365995",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.815277,
-    "lon": -8.1887441,
-    "address": null
-  },
-  {
     "id": 7174848436,
     "name": "Frutaria da Vila",
     "country": "Portugal",
@@ -250,18 +202,6 @@
     "lat": 41.1454473,
     "lon": -8.6103879,
     "address": "Praça de Almeida Garrett"
-  },
-  {
-    "id": 8882800562,
-    "name": "Farm shop 8882800562",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1862667,
-    "lon": -8.6563017,
-    "address": null
   },
   {
     "id": 8990508090,
@@ -297,54 +237,6 @@
     "website": "http://www.covello.pt/index.php",
     "lat": 41.4118471,
     "lon": -7.6880294,
-    "address": null
-  },
-  {
-    "id": 9689222163,
-    "name": "Farm shop 9689222163",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.541706,
-    "lon": -8.1682201,
-    "address": null
-  },
-  {
-    "id": 9689222167,
-    "name": "Farm shop 9689222167",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.5416825,
-    "lon": -8.1681568,
-    "address": null
-  },
-  {
-    "id": 9689222168,
-    "name": "Farm shop 9689222168",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.541659,
-    "lon": -8.1681043,
-    "address": null
-  },
-  {
-    "id": 9689222169,
-    "name": "Farm shop 9689222169",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.5416401,
-    "lon": -8.1680603,
     "address": null
   },
   {
@@ -504,18 +396,6 @@
     "address": "Rua de São Bento"
   },
   {
-    "id": 12585155641,
-    "name": "Farm shop 12585155641",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.374192,
-    "lon": -8.7863411,
-    "address": null
-  },
-  {
     "id": 12585231078,
     "name": "Frutas Gamito",
     "country": "Portugal",
@@ -525,6 +405,762 @@
     "website": null,
     "lat": 38.3753385,
     "lon": -8.7863125,
+    "address": null
+  },
+  {
+    "id": 12816625287,
+    "name": "Húmus - Agricultura Biológica",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Arcozelo",
+    "products": [],
+    "website": "https://humusbio.pt/",
+    "lat": 41.0423096,
+    "lon": -8.640247,
+    "address": "Travessa de Anselmo Braancamp"
+  },
+  {
+    "id": 13149590765,
+    "name": "Freshbio - Local Agricultural Producer",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "São Martinho",
+    "products": [],
+    "website": "https://www.instagram.com/_freshbio_/",
+    "lat": 32.653138,
+    "lon": -16.946261,
+    "address": "Rua de São Martinho"
+  },
+  {
+    "id": 13163357307,
+    "name": "Casa Agrícola InovTerra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0695114,
+    "lon": -7.7494264,
+    "address": null
+  },
+  {
+    "id": 13254377942,
+    "name": "Quinta da Cavada",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.7433019,
+    "lon": -8.3606949,
+    "address": null
+  },
+  {
+    "id": 13261269282,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "R. Nossa Sra. do Socorro"
+  },
+  {
+    "id": 13434502610,
+    "name": "Quinta do Sete",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vilar de Pinheiro",
+    "products": [],
+    "website": "https://lavradoresdosete.pt/",
+    "lat": 41.2665194,
+    "lon": -8.6555292,
+    "address": "Rua da Póvoa"
+  },
+  {
+    "id": 99721279,
+    "name": "Quinta da Fonte Santa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.093587,
+    "lon": -7.6963572,
+    "address": null
+  },
+  {
+    "id": 103448514,
+    "name": "Volkswagen Autoeuropa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Quinta do Anjo",
+    "products": [],
+    "website": "www.volkswagenautoeuropa.pt/",
+    "lat": 38.5846225,
+    "lon": -8.9847639,
+    "address": "Circular Sul à Autoeuropa"
+  },
+  {
+    "id": 139585671,
+    "name": "Horta da Luz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1047542,
+    "lon": -7.725937,
+    "address": null
+  },
+  {
+    "id": 152466062,
+    "name": "Quinta das Laranjeiras",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.0950469,
+    "lon": -7.731689,
+    "address": null
+  },
+  {
+    "id": 189889382,
+    "name": "Lagar do Marmelo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.sovenagroup.com",
+    "lat": 38.0882,
+    "lon": -8.1745089,
+    "address": null
+  },
+  {
+    "id": 246550689,
+    "name": "Fábrica Secil-Outão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.secil-group.com/missao-visao-valores/a-secil-no-mundo/a-secil-no-mundo-portugal/",
+    "lat": 38.4967412,
+    "lon": -8.9358411,
+    "address": null
+  },
+  {
+    "id": 299678814,
+    "name": "Aviário Propinto",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3800773,
+    "lon": -9.2661766,
+    "address": null
+  },
+  {
+    "id": 303941463,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4139932,
+    "lon": -8.9586799,
+    "address": null
+  },
+  {
+    "id": 303941464,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4139925,
+    "lon": -8.9584404,
+    "address": null
+  },
+  {
+    "id": 303941870,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4140247,
+    "lon": -8.9582471,
+    "address": null
+  },
+  {
+    "id": 303941871,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4132285,
+    "lon": -8.957609,
+    "address": null
+  },
+  {
+    "id": 303941872,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4131829,
+    "lon": -8.9578393,
+    "address": null
+  },
+  {
+    "id": 303941873,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4131482,
+    "lon": -8.9581946,
+    "address": null
+  },
+  {
+    "id": 303941874,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4131072,
+    "lon": -8.9585416,
+    "address": null
+  },
+  {
+    "id": 303941875,
+    "name": "BENEPEC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4130931,
+    "lon": -8.9586941,
+    "address": null
+  },
+  {
+    "id": 430620328,
+    "name": "Frutas - João Verissimo Mendes",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1158944,
+    "lon": -7.4812,
+    "address": null
+  },
+  {
+    "id": 436240438,
+    "name": "LACTOGAL",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.300731,
+    "lon": -8.6958429,
+    "address": null
+  },
+  {
+    "id": 536093242,
+    "name": "Quinta Vale de Cardos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9588768,
+    "lon": -9.1904141,
+    "address": null
+  },
+  {
+    "id": 551668142,
+    "name": "Truticabril",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0383046,
+    "lon": -8.2862301,
+    "address": null
+  },
+  {
+    "id": 559151129,
+    "name": "Viveiros de Marisco Pesca Verde",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7082693,
+    "lon": -9.4854429,
+    "address": null
+  },
+  {
+    "id": 666647099,
+    "name": "Lusiaves - Quinta da Cruz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lusiaves.pt/",
+    "lat": 40.0274178,
+    "lon": -8.6224196,
+    "address": null
+  },
+  {
+    "id": 679790765,
+    "name": "Monte da Ribeira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.montedaribeira.com",
+    "lat": 37.1227638,
+    "lon": -7.8882512,
+    "address": null
+  },
+  {
+    "id": 692428310,
+    "name": "Silvia's Organic Farm",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.670946,
+    "lon": -8.3715278,
+    "address": null
+  },
+  {
+    "id": 734289673,
+    "name": "Floresta CMC",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4799432,
+    "lon": -8.3355828,
+    "address": null
+  },
+  {
+    "id": 761869584,
+    "name": "Arbora Oliva Vidigueira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.182514,
+    "lon": -7.7806886,
+    "address": null
+  },
+  {
+    "id": 807582093,
+    "name": "Aquazor",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.7427727,
+    "lon": -25.6498462,
+    "address": null
+  },
+  {
+    "id": 885497183,
+    "name": "Aviário",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9575687,
+    "lon": -8.2288214,
+    "address": null
+  },
+  {
+    "id": 956982038,
+    "name": "Myrica Faial Permaculture Farm",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5877611,
+    "lon": -28.8015861,
+    "address": null
+  },
+  {
+    "id": 976891959,
+    "name": "Capela",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4719078,
+    "lon": -8.2428119,
+    "address": null
+  },
+  {
+    "id": 1030550611,
+    "name": "Olival da Herdade do Malaganito",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.75555,
+    "lon": -7.9299151,
+    "address": null
+  },
+  {
+    "id": 1030550615,
+    "name": "Laranjal da Herdade do Malaganito",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.7602839,
+    "lon": -7.9296706,
+    "address": null
+  },
+  {
+    "id": 1036350819,
+    "name": "Benvindo & Augusto Brandão Lda",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1570191,
+    "lon": -8.5662978,
+    "address": null
+  },
+  {
+    "id": 1076371239,
+    "name": "talhão 2",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7608104,
+    "lon": -9.144899,
+    "address": null
+  },
+  {
+    "id": 1120667601,
+    "name": "Stolt Sea Farm",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3347824,
+    "lon": -8.8370883,
+    "address": null
+  },
+  {
+    "id": 1135998777,
+    "name": "Azeite de Monchique",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.azeitemonchique.com",
+    "lat": 37.3357457,
+    "lon": -8.5162916,
+    "address": null
+  },
+  {
+    "id": 1138171552,
+    "name": "Grüne Labs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Soalheira",
+    "products": [],
+    "website": "https://grunelabs.com/portugal/",
+    "lat": 40.0448229,
+    "lon": -7.4683812,
+    "address": "Parque Industrial Gardunha Sul - Estrada Nacional 18, km 80,5"
+  },
+  {
+    "id": 1143791001,
+    "name": "Mala Obra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9936024,
+    "lon": -7.0354463,
+    "address": null
+  },
+  {
+    "id": 1199405253,
+    "name": "Lusiaves - Quinta da Asseiceira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5244723,
+    "lon": -8.4123278,
+    "address": null
+  },
+  {
+    "id": 1206204404,
+    "name": "Frutas Rocha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0675602,
+    "lon": -8.4669501,
+    "address": null
+  },
+  {
+    "id": 1210817996,
+    "name": "Batatas Rodrigues",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4552193,
+    "lon": -8.1412767,
+    "address": null
+  },
+  {
+    "id": 1215465771,
+    "name": "Huortas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6359232,
+    "lon": -6.351819,
+    "address": null
+  },
+  {
+    "id": 1220470586,
+    "name": "Huortas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6309707,
+    "lon": -6.3612159,
+    "address": null
+  },
+  {
+    "id": 1243166539,
+    "name": "Amendoal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1777387,
+    "lon": -8.1841701,
+    "address": null
+  },
+  {
+    "id": 1247100935,
+    "name": "Mandelfruit",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1887761,
+    "lon": -8.1527705,
+    "address": null
+  },
+  {
+    "id": 1247101610,
+    "name": "Mandelfruit",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1842971,
+    "lon": -8.1674235,
+    "address": null
+  },
+  {
+    "id": 1364093910,
+    "name": "Privado",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1935052,
+    "lon": -8.664248,
+    "address": null
+  },
+  {
+    "id": 16348409,
+    "name": "Serra de Canelas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.077111,
+    "lon": -8.5909307,
+    "address": null
+  },
+  {
+    "id": 3885889825,
+    "name": "Farm shop Funchal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Funchal",
+    "products": [],
+    "website": null,
+    "lat": 32.6644455,
+    "lon": -16.9054179,
+    "address": null
+  },
+  {
+    "id": 4941943694,
+    "name": "Farm shop 4941943694",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7771854,
+    "lon": -9.0918598,
+    "address": null
+  },
+  {
+    "id": 5929212419,
+    "name": "Farm shop 5929212419",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1832163,
+    "lon": -7.1036965,
+    "address": null
+  },
+  {
+    "id": 6985365995,
+    "name": "Farm shop 6985365995",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.815277,
+    "lon": -8.1887441,
+    "address": null
+  },
+  {
+    "id": 8882800562,
+    "name": "Farm shop 8882800562",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1862667,
+    "lon": -8.6563017,
+    "address": null
+  },
+  {
+    "id": 9689222163,
+    "name": "Farm shop 9689222163",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.541706,
+    "lon": -8.1682201,
+    "address": null
+  },
+  {
+    "id": 9689222167,
+    "name": "Farm shop 9689222167",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5416825,
+    "lon": -8.1681568,
+    "address": null
+  },
+  {
+    "id": 9689222168,
+    "name": "Farm shop 9689222168",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.541659,
+    "lon": -8.1681043,
+    "address": null
+  },
+  {
+    "id": 9689222169,
+    "name": "Farm shop 9689222169",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5416401,
+    "lon": -8.1680603,
+    "address": null
+  },
+  {
+    "id": 12585155641,
+    "name": "Farm shop 12585155641",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.374192,
+    "lon": -8.7863411,
     "address": null
   },
   {
@@ -682,78 +1318,6 @@
     "lat": 38.1378796,
     "lon": -7.4465933,
     "address": null
-  },
-  {
-    "id": 12816625287,
-    "name": "Húmus - Agricultura Biológica",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Arcozelo",
-    "products": [],
-    "website": "https://humusbio.pt/",
-    "lat": 41.0423096,
-    "lon": -8.640247,
-    "address": "Travessa de Anselmo Braancamp"
-  },
-  {
-    "id": 13149590765,
-    "name": "Freshbio - Local Agricultural Producer",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "São Martinho",
-    "products": [],
-    "website": "https://www.instagram.com/_freshbio_/",
-    "lat": 32.653138,
-    "lon": -16.946261,
-    "address": "Rua de São Martinho"
-  },
-  {
-    "id": 13163357307,
-    "name": "Casa Agrícola InovTerra",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0695114,
-    "lon": -7.7494264,
-    "address": null
-  },
-  {
-    "id": 13254377942,
-    "name": "Quinta da Cavada",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.7433019,
-    "lon": -8.3606949,
-    "address": null
-  },
-  {
-    "id": 13261269282,
-    "name": "Bio Rui e Inês",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3193307,
-    "lon": -9.1354776,
-    "address": "R. Nossa Sra. do Socorro"
-  },
-  {
-    "id": 13434502610,
-    "name": "Quinta do Sete",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Vilar de Pinheiro",
-    "products": [],
-    "website": "https://lavradoresdosete.pt/",
-    "lat": 41.2665194,
-    "lon": -8.6555292,
-    "address": "Rua da Póvoa"
   },
   {
     "id": 79404553,
@@ -1020,18 +1584,6 @@
     "address": null
   },
   {
-    "id": 99721279,
-    "name": "Quinta da Fonte Santa",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.093587,
-    "lon": -7.6963572,
-    "address": null
-  },
-  {
     "id": 99868766,
     "name": "Farm shop 99868766",
     "country": "Portugal",
@@ -1054,18 +1606,6 @@
     "lat": 37.0979235,
     "lon": -7.6895378,
     "address": null
-  },
-  {
-    "id": 103448514,
-    "name": "Volkswagen Autoeuropa",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Quinta do Anjo",
-    "products": [],
-    "website": "www.volkswagenautoeuropa.pt/",
-    "lat": 38.5846225,
-    "lon": -8.9847639,
-    "address": "Circular Sul à Autoeuropa"
   },
   {
     "id": 104313654,
@@ -1680,18 +2220,6 @@
     "address": null
   },
   {
-    "id": 139585671,
-    "name": "Horta da Luz",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1047542,
-    "lon": -7.725937,
-    "address": null
-  },
-  {
     "id": 139585681,
     "name": "Farm shop 139585681",
     "country": "Portugal",
@@ -1749,18 +2277,6 @@
     "website": null,
     "lat": 37.0982611,
     "lon": -7.7374062,
-    "address": null
-  },
-  {
-    "id": 152466062,
-    "name": "Quinta das Laranjeiras",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.0950469,
-    "lon": -7.731689,
     "address": null
   },
   {
@@ -1968,18 +2484,6 @@
     "address": null
   },
   {
-    "id": 189889382,
-    "name": "Lagar do Marmelo",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.sovenagroup.com",
-    "lat": 38.0882,
-    "lon": -8.1745089,
-    "address": null
-  },
-  {
     "id": 196936966,
     "name": "Farm shop 196936966",
     "country": "Portugal",
@@ -2112,18 +2616,6 @@
     "address": null
   },
   {
-    "id": 246550689,
-    "name": "Fábrica Secil-Outão",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.secil-group.com/missao-visao-valores/a-secil-no-mundo/a-secil-no-mundo-portugal/",
-    "lat": 38.4967412,
-    "lon": -8.9358411,
-    "address": null
-  },
-  {
     "id": 258117533,
     "name": "Farm shop 258117533",
     "country": "Portugal",
@@ -2169,18 +2661,6 @@
     "website": null,
     "lat": 39.3739891,
     "lon": -9.2394701,
-    "address": null
-  },
-  {
-    "id": 299678814,
-    "name": "Aviário Propinto",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3800773,
-    "lon": -9.2661766,
     "address": null
   },
   {
@@ -2673,102 +3153,6 @@
     "website": null,
     "lat": 37.1248188,
     "lon": -7.7173629,
-    "address": null
-  },
-  {
-    "id": 303941463,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4139932,
-    "lon": -8.9586799,
-    "address": null
-  },
-  {
-    "id": 303941464,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4139925,
-    "lon": -8.9584404,
-    "address": null
-  },
-  {
-    "id": 303941870,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4140247,
-    "lon": -8.9582471,
-    "address": null
-  },
-  {
-    "id": 303941871,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4132285,
-    "lon": -8.957609,
-    "address": null
-  },
-  {
-    "id": 303941872,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4131829,
-    "lon": -8.9578393,
-    "address": null
-  },
-  {
-    "id": 303941873,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4131482,
-    "lon": -8.9581946,
-    "address": null
-  },
-  {
-    "id": 303941874,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4131072,
-    "lon": -8.9585416,
-    "address": null
-  },
-  {
-    "id": 303941875,
-    "name": "BENEPEC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4130931,
-    "lon": -8.9586941,
     "address": null
   },
   {
@@ -3396,18 +3780,6 @@
     "address": null
   },
   {
-    "id": 430620328,
-    "name": "Frutas - João Verissimo Mendes",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.1158944,
-    "lon": -7.4812,
-    "address": null
-  },
-  {
     "id": 432462730,
     "name": "Farm shop 432462730",
     "country": "Portugal",
@@ -3417,18 +3789,6 @@
     "website": null,
     "lat": 39.0177676,
     "lon": -9.2229008,
-    "address": null
-  },
-  {
-    "id": 436240438,
-    "name": "LACTOGAL",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.300731,
-    "lon": -8.6958429,
     "address": null
   },
   {
@@ -4920,18 +5280,6 @@
     "address": null
   },
   {
-    "id": 536093242,
-    "name": "Quinta Vale de Cardos",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.9588768,
-    "lon": -9.1904141,
-    "address": null
-  },
-  {
     "id": 548570848,
     "name": "Farm shop 548570848",
     "country": "Portugal",
@@ -5016,18 +5364,6 @@
     "address": null
   },
   {
-    "id": 551668142,
-    "name": "Truticabril",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.0383046,
-    "lon": -8.2862301,
-    "address": null
-  },
-  {
     "id": 553767160,
     "name": "Farm shop 553767160",
     "country": "Portugal",
@@ -5049,18 +5385,6 @@
     "website": null,
     "lat": 39.7090117,
     "lon": -8.8771932,
-    "address": null
-  },
-  {
-    "id": 559151129,
-    "name": "Viveiros de Marisco Pesca Verde",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.7082693,
-    "lon": -9.4854429,
     "address": null
   },
   {
@@ -6720,18 +7044,6 @@
     "address": null
   },
   {
-    "id": 666647099,
-    "name": "Lusiaves - Quinta da Cruz",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lusiaves.pt/",
-    "lat": 40.0274178,
-    "lon": -8.6224196,
-    "address": null
-  },
-  {
     "id": 666685724,
     "name": "Farm shop 666685724",
     "country": "Portugal",
@@ -7020,18 +7332,6 @@
     "address": null
   },
   {
-    "id": 679790765,
-    "name": "Monte da Ribeira",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.montedaribeira.com",
-    "lat": 37.1227638,
-    "lon": -7.8882512,
-    "address": null
-  },
-  {
     "id": 681327154,
     "name": "Farm shop 681327154",
     "country": "Portugal",
@@ -7101,18 +7401,6 @@
     "website": null,
     "lat": 39.368221,
     "lon": -9.3103782,
-    "address": null
-  },
-  {
-    "id": 692428310,
-    "name": "Silvia's Organic Farm",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.670946,
-    "lon": -8.3715278,
     "address": null
   },
   {
@@ -7548,18 +7836,6 @@
     "address": null
   },
   {
-    "id": 734289673,
-    "name": "Floresta CMC",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4799432,
-    "lon": -8.3355828,
-    "address": null
-  },
-  {
     "id": 734423461,
     "name": "Farm shop 734423461",
     "country": "Portugal",
@@ -7725,18 +8001,6 @@
     "website": null,
     "lat": 37.1841887,
     "lon": -7.5316152,
-    "address": null
-  },
-  {
-    "id": 761869584,
-    "name": "Arbora Oliva Vidigueira",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.182514,
-    "lon": -7.7806886,
     "address": null
   },
   {
@@ -8220,18 +8484,6 @@
     "address": null
   },
   {
-    "id": 807582093,
-    "name": "Aquazor",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.7427727,
-    "lon": -25.6498462,
-    "address": null
-  },
-  {
     "id": 808080010,
     "name": "Farm shop 808080010",
     "country": "Portugal",
@@ -8541,18 +8793,6 @@
     "website": null,
     "lat": 40.5747334,
     "lon": -8.4523807,
-    "address": null
-  },
-  {
-    "id": 885497183,
-    "name": "Aviário",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9575687,
-    "lon": -8.2288214,
     "address": null
   },
   {
@@ -9204,18 +9444,6 @@
     "address": null
   },
   {
-    "id": 956982038,
-    "name": "Myrica Faial Permaculture Farm",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.5877611,
-    "lon": -28.8015861,
-    "address": null
-  },
-  {
     "id": 965162509,
     "name": "Farm shop 965162509",
     "country": "Portugal",
@@ -9309,18 +9537,6 @@
     "website": null,
     "lat": 39.4824273,
     "lon": -8.2773385,
-    "address": null
-  },
-  {
-    "id": 976891959,
-    "name": "Capela",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.4719078,
-    "lon": -8.2428119,
     "address": null
   },
   {
@@ -9600,30 +9816,6 @@
     "address": null
   },
   {
-    "id": 1030550611,
-    "name": "Olival da Herdade do Malaganito",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.75555,
-    "lon": -7.9299151,
-    "address": null
-  },
-  {
-    "id": 1030550615,
-    "name": "Laranjal da Herdade do Malaganito",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.7602839,
-    "lon": -7.9296706,
-    "address": null
-  },
-  {
     "id": 1035239767,
     "name": "Farm shop 1035239767",
     "country": "Portugal",
@@ -9669,18 +9861,6 @@
     "website": null,
     "lat": 41.1906913,
     "lon": -7.593402,
-    "address": null
-  },
-  {
-    "id": 1036350819,
-    "name": "Benvindo & Augusto Brandão Lda",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1570191,
-    "lon": -8.5662978,
     "address": null
   },
   {
@@ -9813,18 +9993,6 @@
     "website": null,
     "lat": 41.1538144,
     "lon": -8.5546686,
-    "address": null
-  },
-  {
-    "id": 1076371239,
-    "name": "talhão 2",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.7608104,
-    "lon": -9.144899,
     "address": null
   },
   {
@@ -10248,18 +10416,6 @@
     "address": null
   },
   {
-    "id": 1120667601,
-    "name": "Stolt Sea Farm",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.3347824,
-    "lon": -8.8370883,
-    "address": null
-  },
-  {
     "id": 1122154705,
     "name": "Farm shop 1122154705",
     "country": "Portugal",
@@ -10281,42 +10437,6 @@
     "website": null,
     "lat": 37.1936781,
     "lon": -8.2875524,
-    "address": null
-  },
-  {
-    "id": 1135998777,
-    "name": "Azeite de Monchique",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.azeitemonchique.com",
-    "lat": 37.3357457,
-    "lon": -8.5162916,
-    "address": null
-  },
-  {
-    "id": 1138171552,
-    "name": "Grüne Labs",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Soalheira",
-    "products": [],
-    "website": "https://grunelabs.com/portugal/",
-    "lat": 40.0448229,
-    "lon": -7.4683812,
-    "address": "Parque Industrial Gardunha Sul - Estrada Nacional 18, km 80,5"
-  },
-  {
-    "id": 1143791001,
-    "name": "Mala Obra",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.9936024,
-    "lon": -7.0354463,
     "address": null
   },
   {
@@ -10476,18 +10596,6 @@
     "address": null
   },
   {
-    "id": 1199405253,
-    "name": "Lusiaves - Quinta da Asseiceira",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.5244723,
-    "lon": -8.4123278,
-    "address": null
-  },
-  {
     "id": 1201366670,
     "name": "Farm shop 1201366670",
     "country": "Portugal",
@@ -10509,42 +10617,6 @@
     "website": null,
     "lat": 40.3247217,
     "lon": -7.9804875,
-    "address": null
-  },
-  {
-    "id": 1206204404,
-    "name": "Frutas Rocha",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.0675602,
-    "lon": -8.4669501,
-    "address": null
-  },
-  {
-    "id": 1210817996,
-    "name": "Batatas Rodrigues",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.4552193,
-    "lon": -8.1412767,
-    "address": null
-  },
-  {
-    "id": 1215465771,
-    "name": "Huortas",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.6359232,
-    "lon": -6.351819,
     "address": null
   },
   {
@@ -10581,18 +10653,6 @@
     "website": null,
     "lat": 41.6306155,
     "lon": -6.3625109,
-    "address": null
-  },
-  {
-    "id": 1220470586,
-    "name": "Huortas",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.6309707,
-    "lon": -6.3612159,
     "address": null
   },
   {
@@ -10713,42 +10773,6 @@
     "website": null,
     "lat": 41.6167277,
     "lon": -6.264316,
-    "address": null
-  },
-  {
-    "id": 1243166539,
-    "name": "Amendoal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1777387,
-    "lon": -8.1841701,
-    "address": null
-  },
-  {
-    "id": 1247100935,
-    "name": "Mandelfruit",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1887761,
-    "lon": -8.1527705,
-    "address": null
-  },
-  {
-    "id": 1247101610,
-    "name": "Mandelfruit",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1842971,
-    "lon": -8.1674235,
     "address": null
   },
   {
@@ -11049,18 +11073,6 @@
     "website": null,
     "lat": 40.7742269,
     "lon": -8.6265219,
-    "address": null
-  },
-  {
-    "id": 1364093910,
-    "name": "Privado",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1935052,
-    "lon": -8.664248,
     "address": null
   },
   {
@@ -11445,18 +11457,6 @@
     "website": null,
     "lat": 39.7968528,
     "lon": -8.9667866,
-    "address": null
-  },
-  {
-    "id": 16348409,
-    "name": "Serra de Canelas",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.077111,
-    "lon": -8.5909307,
     "address": null
   },
   {

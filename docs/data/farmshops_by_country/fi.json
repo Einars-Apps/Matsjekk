@@ -456,90 +456,6 @@
     "address": null
   },
   {
-    "id": 7996786183,
-    "name": "Farm shop 7996786183",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2229227,
-    "lon": 24.6576203,
-    "address": null
-  },
-  {
-    "id": 7996786184,
-    "name": "Farm shop 7996786184",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2228834,
-    "lon": 24.6576571,
-    "address": null
-  },
-  {
-    "id": 7996790685,
-    "name": "Farm shop 7996790685",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2227689,
-    "lon": 24.6578857,
-    "address": null
-  },
-  {
-    "id": 7996790696,
-    "name": "Farm shop 7996790696",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2228756,
-    "lon": 24.6582452,
-    "address": null
-  },
-  {
-    "id": 7996790701,
-    "name": "Farm shop 7996790701",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2230527,
-    "lon": 24.6577253,
-    "address": null
-  },
-  {
-    "id": 7996790702,
-    "name": "Farm shop 7996790702",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2230262,
-    "lon": 24.6576691,
-    "address": null
-  },
-  {
-    "id": 7996790703,
-    "name": "Farm shop 7996790703",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.2230793,
-    "lon": 24.6578756,
-    "address": null
-  },
-  {
     "id": 8177219627,
     "name": "Rahkosen Hedelmätarha",
     "country": "Finland",
@@ -600,18 +516,6 @@
     "address": null
   },
   {
-    "id": 8493935260,
-    "name": "Farm shop 8493935260",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 62.2530687,
-    "lon": 29.5757522,
-    "address": null
-  },
-  {
     "id": 8947266902,
     "name": "Taipaluksen Tila",
     "country": "Finland",
@@ -622,18 +526,6 @@
     "lat": 62.781556,
     "lon": 23.8980193,
     "address": "Nevantakaisentie"
-  },
-  {
-    "id": 9096907315,
-    "name": "Farm shop 9096907315",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.0123634,
-    "lon": 23.530421,
-    "address": "Lintulantie"
   },
   {
     "id": 9124080911,
@@ -1224,18 +1116,6 @@
     "address": "Harjulankatu"
   },
   {
-    "id": 12999845841,
-    "name": "Farm shop 12999845841",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.8416023,
-    "lon": 23.0498079,
-    "address": null
-  },
-  {
     "id": 13045862703,
     "name": "Saimaan Maku",
     "country": "Finland",
@@ -1260,18 +1140,6 @@
     "address": null
   },
   {
-    "id": 13378541228,
-    "name": "Farm shop 13378541228",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 66.1539753,
-    "lon": 25.1279,
-    "address": null
-  },
-  {
     "id": 13542236316,
     "name": "Mullivainio",
     "country": "Finland",
@@ -1293,6 +1161,522 @@
     "website": null,
     "lat": 62.0906544,
     "lon": 28.9059273,
+    "address": null
+  },
+  {
+    "id": 122728080,
+    "name": "Kuninkaalan maisemakukkapelto",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [],
+    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/kuninkaalan-maisemakukkapelto",
+    "lat": 60.2854823,
+    "lon": 25.0422934,
+    "address": "Taostie"
+  },
+  {
+    "id": 202927504,
+    "name": "Myllymäen maisemakukkapelto",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [],
+    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/myllymaen-maisemakukkapelto",
+    "lat": 60.2949958,
+    "lon": 24.8537853,
+    "address": "Härkähaantie"
+  },
+  {
+    "id": 229003278,
+    "name": "Ali-Alhan Tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Karjalohja",
+    "products": [],
+    "website": "https://www.ali-alhantila.fi/",
+    "lat": 60.2220616,
+    "lon": 23.737373,
+    "address": "Tallaantie"
+  },
+  {
+    "id": 229087067,
+    "name": "Mörby gård",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Tammisaari",
+    "products": [],
+    "website": "https://www.morby.fi/",
+    "lat": 60.0550177,
+    "lon": 23.464864,
+    "address": "Mörby gårds väg"
+  },
+  {
+    "id": 304121967,
+    "name": "Savon Taimen -yhtiöryhmä",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 62.6759371,
+    "lon": 26.8316644,
+    "address": null
+  },
+  {
+    "id": 306505544,
+    "name": "Laurilan strutsitila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.strutsitila.net/",
+    "lat": 60.7614037,
+    "lon": 26.5521679,
+    "address": null
+  },
+  {
+    "id": 320923120,
+    "name": "Marjex Mansikkapaikka",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [],
+    "website": "https://marjexmansikkapaikka.fi/",
+    "lat": 60.3108346,
+    "lon": 25.0925999,
+    "address": "Ylismaantie"
+  },
+  {
+    "id": 459785302,
+    "name": "Isaksson's",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.1940912,
+    "lon": 21.3798284,
+    "address": "Houtskärsvägen"
+  },
+  {
+    "id": 589295498,
+    "name": "Mattssonin Luomumarjatila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.1898585,
+    "lon": 25.4125819,
+    "address": null
+  },
+  {
+    "id": 595188092,
+    "name": "Kalanviljelylaitos",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 68.7896402,
+    "lon": 28.1381256,
+    "address": null
+  },
+  {
+    "id": 640505199,
+    "name": "Mansikkamyynti",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.523624,
+    "lon": 24.5807971,
+    "address": null
+  },
+  {
+    "id": 697360893,
+    "name": "ylä-hankaa",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.3957552,
+    "lon": 25.7245407,
+    "address": null
+  },
+  {
+    "id": 697360894,
+    "name": "lammashaka",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.3936272,
+    "lon": 25.7226519,
+    "address": null
+  },
+  {
+    "id": 772444269,
+    "name": "Pikku-Raivan Marjatila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.4580669,
+    "lon": 24.7608139,
+    "address": null
+  },
+  {
+    "id": 774847478,
+    "name": "Sunikari",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.9694176,
+    "lon": 24.6324781,
+    "address": null
+  },
+  {
+    "id": 839420642,
+    "name": "Seutulan maisemakukkapelto",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [],
+    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/seutulan-maisemakukkapelto",
+    "lat": 60.3474761,
+    "lon": 24.8705792,
+    "address": "Katriinantie"
+  },
+  {
+    "id": 914191303,
+    "name": "Savon Taimen",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 62.6788735,
+    "lon": 26.84586,
+    "address": null
+  },
+  {
+    "id": 918407098,
+    "name": "Mikkolan Suoramyynti",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Läyliäinen",
+    "products": [],
+    "website": "https://www.mikkolansuoramyynti.fi",
+    "lat": 60.5623433,
+    "lon": 24.5237628,
+    "address": "Läyliäistenraitti"
+  },
+  {
+    "id": 944220281,
+    "name": "Klafvo hassellund",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.298755,
+    "lon": 21.5624667,
+    "address": null
+  },
+  {
+    "id": 989036500,
+    "name": "Savon Taimen",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 62.673284,
+    "lon": 26.8347343,
+    "address": null
+  },
+  {
+    "id": 992985510,
+    "name": "Brändö Lax",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Åva",
+    "products": [],
+    "website": null,
+    "lat": 60.4446222,
+    "lon": 21.0574102,
+    "address": "Brändövägen"
+  },
+  {
+    "id": 992985511,
+    "name": "Brändö Lax",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Åva",
+    "products": [],
+    "website": null,
+    "lat": 60.4446232,
+    "lon": 21.0579186,
+    "address": "Brändövägen"
+  },
+  {
+    "id": 992985512,
+    "name": "Brändö Lax",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Åva",
+    "products": [],
+    "website": null,
+    "lat": 60.4447822,
+    "lon": 21.0574789,
+    "address": "Brändövägen"
+  },
+  {
+    "id": 992985515,
+    "name": "Brändö Lax",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Åva",
+    "products": [],
+    "website": null,
+    "lat": 60.4434354,
+    "lon": 21.0587203,
+    "address": "Brändövägen"
+  },
+  {
+    "id": 1039583843,
+    "name": "Koivun Tyrnitila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://koivuntyrnitila.fi/",
+    "lat": 61.3952768,
+    "lon": 21.5375317,
+    "address": "Katirannantie"
+  },
+  {
+    "id": 1287222965,
+    "name": "Rauhalan marja",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Ritvala",
+    "products": [],
+    "website": null,
+    "lat": 61.1822988,
+    "lon": 24.1467385,
+    "address": "Oitintie"
+  },
+  {
+    "id": 1365495088,
+    "name": "Koivuhaan maisemakukkapelto",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/koivuhaan-maisemakukkapelto",
+    "lat": 60.3024363,
+    "lon": 25.011252,
+    "address": null
+  },
+  {
+    "id": 1423062646,
+    "name": "Rajalahden luomutila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.7960071,
+    "lon": 22.7215786,
+    "address": null
+  },
+  {
+    "id": 11169847,
+    "name": "Mustamaa",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.9214969,
+    "lon": 26.1282292,
+    "address": null
+  },
+  {
+    "id": 11173123,
+    "name": "Vattusenkangas",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.8474135,
+    "lon": 26.6534079,
+    "address": null
+  },
+  {
+    "id": 11190459,
+    "name": "Turvetuotantoalue",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.9762855,
+    "lon": 25.8343482,
+    "address": null
+  },
+  {
+    "id": 11190555,
+    "name": "Turvetuotantoalue",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 64.9652763,
+    "lon": 25.856806,
+    "address": null
+  },
+  {
+    "id": 7996786183,
+    "name": "Farm shop 7996786183",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2229227,
+    "lon": 24.6576203,
+    "address": null
+  },
+  {
+    "id": 7996786184,
+    "name": "Farm shop 7996786184",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2228834,
+    "lon": 24.6576571,
+    "address": null
+  },
+  {
+    "id": 7996790685,
+    "name": "Farm shop 7996790685",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2227689,
+    "lon": 24.6578857,
+    "address": null
+  },
+  {
+    "id": 7996790696,
+    "name": "Farm shop 7996790696",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2228756,
+    "lon": 24.6582452,
+    "address": null
+  },
+  {
+    "id": 7996790701,
+    "name": "Farm shop 7996790701",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2230527,
+    "lon": 24.6577253,
+    "address": null
+  },
+  {
+    "id": 7996790702,
+    "name": "Farm shop 7996790702",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2230262,
+    "lon": 24.6576691,
+    "address": null
+  },
+  {
+    "id": 7996790703,
+    "name": "Farm shop 7996790703",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.2230793,
+    "lon": 24.6578756,
+    "address": null
+  },
+  {
+    "id": 8493935260,
+    "name": "Farm shop 8493935260",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 62.2530687,
+    "lon": 29.5757522,
+    "address": null
+  },
+  {
+    "id": 9096907315,
+    "name": "Farm shop 9096907315",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.0123634,
+    "lon": 23.530421,
+    "address": "Lintulantie"
+  },
+  {
+    "id": 12999845841,
+    "name": "Farm shop 12999845841",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8416023,
+    "lon": 23.0498079,
+    "address": null
+  },
+  {
+    "id": 13378541228,
+    "name": "Farm shop 13378541228",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 66.1539753,
+    "lon": 25.1279,
     "address": null
   },
   {
@@ -1330,18 +1714,6 @@
     "lat": 64.2074565,
     "lon": 24.1430159,
     "address": null
-  },
-  {
-    "id": 122728080,
-    "name": "Kuninkaalan maisemakukkapelto",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Vantaa",
-    "products": [],
-    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/kuninkaalan-maisemakukkapelto",
-    "lat": 60.2854823,
-    "lon": 25.0422934,
-    "address": "Taostie"
   },
   {
     "id": 132925481,
@@ -1464,42 +1836,6 @@
     "address": null
   },
   {
-    "id": 202927504,
-    "name": "Myllymäen maisemakukkapelto",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Vantaa",
-    "products": [],
-    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/myllymaen-maisemakukkapelto",
-    "lat": 60.2949958,
-    "lon": 24.8537853,
-    "address": "Härkähaantie"
-  },
-  {
-    "id": 229003278,
-    "name": "Ali-Alhan Tila",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Karjalohja",
-    "products": [],
-    "website": "https://www.ali-alhantila.fi/",
-    "lat": 60.2220616,
-    "lon": 23.737373,
-    "address": "Tallaantie"
-  },
-  {
-    "id": 229087067,
-    "name": "Mörby gård",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Tammisaari",
-    "products": [],
-    "website": "https://www.morby.fi/",
-    "lat": 60.0550177,
-    "lon": 23.464864,
-    "address": "Mörby gårds väg"
-  },
-  {
     "id": 262042808,
     "name": "Farm shop 262042808",
     "country": "Finland",
@@ -1572,30 +1908,6 @@
     "address": null
   },
   {
-    "id": 304121967,
-    "name": "Savon Taimen -yhtiöryhmä",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 62.6759371,
-    "lon": 26.8316644,
-    "address": null
-  },
-  {
-    "id": 306505544,
-    "name": "Laurilan strutsitila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.strutsitila.net/",
-    "lat": 60.7614037,
-    "lon": 26.5521679,
-    "address": null
-  },
-  {
     "id": 306977163,
     "name": "Farm shop 306977163",
     "country": "Finland",
@@ -1606,18 +1918,6 @@
     "lat": 61.0065338,
     "lon": 26.5876172,
     "address": null
-  },
-  {
-    "id": 320923120,
-    "name": "Marjex Mansikkapaikka",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Vantaa",
-    "products": [],
-    "website": "https://marjexmansikkapaikka.fi/",
-    "lat": 60.3108346,
-    "lon": 25.0925999,
-    "address": "Ylismaantie"
   },
   {
     "id": 337802605,
@@ -1704,18 +2004,6 @@
     "address": null
   },
   {
-    "id": 459785302,
-    "name": "Isaksson's",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.1940912,
-    "lon": 21.3798284,
-    "address": "Houtskärsvägen"
-  },
-  {
     "id": 516248199,
     "name": "Farm shop 516248199",
     "country": "Finland",
@@ -1788,30 +2076,6 @@
     "address": null
   },
   {
-    "id": 589295498,
-    "name": "Mattssonin Luomumarjatila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.1898585,
-    "lon": 25.4125819,
-    "address": null
-  },
-  {
-    "id": 595188092,
-    "name": "Kalanviljelylaitos",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 68.7896402,
-    "lon": 28.1381256,
-    "address": null
-  },
-  {
     "id": 618195882,
     "name": "Farm shop 618195882",
     "country": "Finland",
@@ -1821,18 +2085,6 @@
     "website": null,
     "lat": 61.0351451,
     "lon": 26.6344246,
-    "address": null
-  },
-  {
-    "id": 640505199,
-    "name": "Mansikkamyynti",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.523624,
-    "lon": 24.5807971,
     "address": null
   },
   {
@@ -1857,30 +2109,6 @@
     "website": null,
     "lat": 61.0872456,
     "lon": 24.3748472,
-    "address": null
-  },
-  {
-    "id": 697360893,
-    "name": "ylä-hankaa",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.3957552,
-    "lon": 25.7245407,
-    "address": null
-  },
-  {
-    "id": 697360894,
-    "name": "lammashaka",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.3936272,
-    "lon": 25.7226519,
     "address": null
   },
   {
@@ -1968,18 +2196,6 @@
     "address": null
   },
   {
-    "id": 772444269,
-    "name": "Pikku-Raivan Marjatila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.4580669,
-    "lon": 24.7608139,
-    "address": null
-  },
-  {
     "id": 772444270,
     "name": "Farm shop 772444270",
     "country": "Finland",
@@ -1989,18 +2205,6 @@
     "website": null,
     "lat": 60.4576172,
     "lon": 24.7647152,
-    "address": null
-  },
-  {
-    "id": 774847478,
-    "name": "Sunikari",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.9694176,
-    "lon": 24.6324781,
     "address": null
   },
   {
@@ -2340,18 +2544,6 @@
     "address": null
   },
   {
-    "id": 839420642,
-    "name": "Seutulan maisemakukkapelto",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Vantaa",
-    "products": [],
-    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/seutulan-maisemakukkapelto",
-    "lat": 60.3474761,
-    "lon": 24.8705792,
-    "address": "Katriinantie"
-  },
-  {
     "id": 839873929,
     "name": "Farm shop 839873929",
     "country": "Finland",
@@ -2397,42 +2589,6 @@
     "website": null,
     "lat": 63.3168299,
     "lon": 22.794685,
-    "address": null
-  },
-  {
-    "id": 914191303,
-    "name": "Savon Taimen",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 62.6788735,
-    "lon": 26.84586,
-    "address": null
-  },
-  {
-    "id": 918407098,
-    "name": "Mikkolan Suoramyynti",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Läyliäinen",
-    "products": [],
-    "website": "https://www.mikkolansuoramyynti.fi",
-    "lat": 60.5623433,
-    "lon": 24.5237628,
-    "address": "Läyliäistenraitti"
-  },
-  {
-    "id": 944220281,
-    "name": "Klafvo hassellund",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.298755,
-    "lon": 21.5624667,
     "address": null
   },
   {
@@ -2530,78 +2686,6 @@
     "lat": 61.0035339,
     "lon": 26.5888901,
     "address": null
-  },
-  {
-    "id": 989036500,
-    "name": "Savon Taimen",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 62.673284,
-    "lon": 26.8347343,
-    "address": null
-  },
-  {
-    "id": 992985510,
-    "name": "Brändö Lax",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Åva",
-    "products": [],
-    "website": null,
-    "lat": 60.4446222,
-    "lon": 21.0574102,
-    "address": "Brändövägen"
-  },
-  {
-    "id": 992985511,
-    "name": "Brändö Lax",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Åva",
-    "products": [],
-    "website": null,
-    "lat": 60.4446232,
-    "lon": 21.0579186,
-    "address": "Brändövägen"
-  },
-  {
-    "id": 992985512,
-    "name": "Brändö Lax",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Åva",
-    "products": [],
-    "website": null,
-    "lat": 60.4447822,
-    "lon": 21.0574789,
-    "address": "Brändövägen"
-  },
-  {
-    "id": 992985515,
-    "name": "Brändö Lax",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Åva",
-    "products": [],
-    "website": null,
-    "lat": 60.4434354,
-    "lon": 21.0587203,
-    "address": "Brändövägen"
-  },
-  {
-    "id": 1039583843,
-    "name": "Koivun Tyrnitila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://koivuntyrnitila.fi/",
-    "lat": 61.3952768,
-    "lon": 21.5375317,
-    "address": "Katirannantie"
   },
   {
     "id": 1064661206,
@@ -2794,18 +2878,6 @@
     "lat": 60.6792583,
     "lon": 22.9689623,
     "address": null
-  },
-  {
-    "id": 1287222965,
-    "name": "Rauhalan marja",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Ritvala",
-    "products": [],
-    "website": null,
-    "lat": 61.1822988,
-    "lon": 24.1467385,
-    "address": "Oitintie"
   },
   {
     "id": 1287222969,
@@ -3276,18 +3348,6 @@
     "address": null
   },
   {
-    "id": 1365495088,
-    "name": "Koivuhaan maisemakukkapelto",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/koivuhaan-maisemakukkapelto",
-    "lat": 60.3024363,
-    "lon": 25.011252,
-    "address": null
-  },
-  {
     "id": 1418360620,
     "name": "Farm shop 1418360620",
     "country": "Finland",
@@ -3297,18 +3357,6 @@
     "website": null,
     "lat": 62.2585775,
     "lon": 21.6695971,
-    "address": null
-  },
-  {
-    "id": 1423062646,
-    "name": "Rajalahden luomutila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.7960071,
-    "lon": 22.7215786,
     "address": null
   },
   {
@@ -3369,54 +3417,6 @@
     "website": null,
     "lat": 65.1932491,
     "lon": 25.5210707,
-    "address": null
-  },
-  {
-    "id": 11169847,
-    "name": "Mustamaa",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.9214969,
-    "lon": 26.1282292,
-    "address": null
-  },
-  {
-    "id": 11173123,
-    "name": "Vattusenkangas",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.8474135,
-    "lon": 26.6534079,
-    "address": null
-  },
-  {
-    "id": 11190459,
-    "name": "Turvetuotantoalue",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.9762855,
-    "lon": 25.8343482,
-    "address": null
-  },
-  {
-    "id": 11190555,
-    "name": "Turvetuotantoalue",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 64.9652763,
-    "lon": 25.856806,
     "address": null
   },
   {

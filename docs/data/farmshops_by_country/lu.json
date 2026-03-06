@@ -120,18 +120,6 @@
     "address": null
   },
   {
-    "id": 7880642254,
-    "name": "Farm shop 7880642254",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.901884,
-    "lon": 5.7773466,
-    "address": null
-  },
-  {
     "id": 8494977265,
     "name": "Haff Hilgert Frères",
     "country": "Luxembourg",
@@ -180,18 +168,6 @@
     "address": "Um Hammhaff"
   },
   {
-    "id": 10769626947,
-    "name": "Farm shop 10769626947",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.8851,
-    "lon": 5.9607656,
-    "address": null
-  },
-  {
     "id": 10773591493,
     "name": "Volio",
     "country": "Luxembourg",
@@ -237,6 +213,78 @@
     "website": "http://www.heederhaff.lu",
     "lat": 49.5892243,
     "lon": 6.2202528,
+    "address": null
+  },
+  {
+    "id": 723229223,
+    "name": "Fromburg Shop",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.7799656,
+    "lon": 6.4082087,
+    "address": null
+  },
+  {
+    "id": 894035486,
+    "name": "De klenge Buttik",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.naturparkhaff.lu",
+    "lat": 49.9095103,
+    "lon": 5.8756055,
+    "address": null
+  },
+  {
+    "id": 1282590236,
+    "name": "Regio Shop A Lill",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6927992,
+    "lon": 6.0637786,
+    "address": null
+  },
+  {
+    "id": 1306851459,
+    "name": "Bio-Haff an Dudel",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": "Sprinkange",
+    "products": [],
+    "website": "https://www.dudelmagie.lu/",
+    "lat": 49.5762625,
+    "lon": 5.9572841,
+    "address": "Rue de la Croix"
+  },
+  {
+    "id": 7880642254,
+    "name": "Farm shop 7880642254",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.901884,
+    "lon": 5.7773466,
+    "address": null
+  },
+  {
+    "id": 10769626947,
+    "name": "Farm shop 10769626947",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.8851,
+    "lon": 5.9607656,
     "address": null
   },
   {
@@ -312,18 +360,6 @@
     "address": null
   },
   {
-    "id": 723229223,
-    "name": "Fromburg Shop",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.7799656,
-    "lon": 6.4082087,
-    "address": null
-  },
-  {
     "id": 733381352,
     "name": "Farm shop 733381352",
     "country": "Luxembourg",
@@ -384,18 +420,6 @@
     "address": null
   },
   {
-    "id": 894035486,
-    "name": "De klenge Buttik",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.naturparkhaff.lu",
-    "lat": 49.9095103,
-    "lon": 5.8756055,
-    "address": null
-  },
-  {
     "id": 1121638233,
     "name": "Farm shop 1121638233",
     "country": "Luxembourg",
@@ -406,30 +430,6 @@
     "lat": 49.7663931,
     "lon": 5.8307245,
     "address": null
-  },
-  {
-    "id": 1282590236,
-    "name": "Regio Shop A Lill",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.6927992,
-    "lon": 6.0637786,
-    "address": null
-  },
-  {
-    "id": 1306851459,
-    "name": "Bio-Haff an Dudel",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": "Sprinkange",
-    "products": [],
-    "website": "https://www.dudelmagie.lu/",
-    "lat": 49.5762625,
-    "lon": 5.9572841,
-    "address": "Rue de la Croix"
   },
   {
     "id": 1606941386,

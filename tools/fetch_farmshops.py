@@ -10,6 +10,7 @@ Resilience features:
 import json
 import os
 import random
+import re
 import sys
 import time
 from pathlib import Path
@@ -72,23 +73,9 @@ NORWAY_MUNICIPALITY_ALIASES = {
     'hurum': 'Asker',
     'røyken': 'Asker',
     'royken': 'Asker',
-    'sætre': 'Asker',
-    'saetre': 'Asker',
-    'tofte': 'Asker',
-    'filtvet': 'Asker',
-    'klokkarstua': 'Asker',
-    'holmsbu': 'Asker',
     'røyken kommune': 'Asker',
     'royken kommune': 'Asker',
     'hurum kommune': 'Asker',
-    'spikkestad': 'Asker',
-    'nærsnes': 'Asker',
-    'naersnes': 'Asker',
-    'slemmestad': 'Asker',
-    'bødalen': 'Asker',
-    'boedalen': 'Asker',
-    'heggedal': 'Asker',
-    'vollen': 'Asker',
 }
 
 NORWAY_LOCKED_MUNICIPALITIES = {'Ulvik', 'Voss', 'Asker'}
@@ -96,11 +83,85 @@ NORWAY_LOCKED_MUNICIPALITIES = {'Ulvik', 'Voss', 'Asker'}
 NORWAY_NAME_OVERRIDES = {
     'ulvik frukt & cideri': {'municipality': 'Ulvik', 'region': 'Vestland'},
     'ulvik frukt&cideri': {'municipality': 'Ulvik', 'region': 'Vestland'},
+    'smalahovetunet': {'municipality': 'Voss', 'region': 'Vestland'},
     'voss gardsslakteri (selheim gard)': {'municipality': 'Voss', 'region': 'Vestland'},
+    'voss gardsmat': {'municipality': 'Voss', 'region': 'Vestland'},
+    'kjærland gårdsbutikk': {'municipality': 'Voss', 'region': 'Vestland'},
+    'kjerland gardsbutikk': {'municipality': 'Voss', 'region': 'Vestland'},
     'een gard': {'municipality': 'Voss', 'region': 'Vestland'},
+    'gronnsletta gard': {'municipality': 'Asker', 'region': 'Akershus'},
+    'grønnsletta gård': {'municipality': 'Asker', 'region': 'Akershus'},
+    'vaerby gard': {'municipality': 'Asker', 'region': 'Akershus'},
+    'værby gård': {'municipality': 'Asker', 'region': 'Akershus'},
+    'bergsmyrene': {'municipality': 'Asker', 'region': 'Akershus'},
+    'biffgarden': {'municipality': 'Asker', 'region': 'Akershus'},
+    'biffgården': {'municipality': 'Asker', 'region': 'Akershus'},
+    'thor graff': {'municipality': 'Asker', 'region': 'Akershus'},
+    'hyggen eplemost': {'municipality': 'Asker', 'region': 'Akershus', 'name': 'Hyggen eplemost'},
+    'bonden jens': {'municipality': 'Asker', 'region': 'Akershus'},
+    'jordbær fra nedre gjerdal gård': {'municipality': 'Asker', 'region': 'Akershus'},
+    'jordbaer fra nedre gjerdal gard': {'municipality': 'Asker', 'region': 'Akershus'},
+    'hurum hjort': {'municipality': 'Asker', 'region': 'Akershus'},
+    'eplegården as': {'municipality': 'Asker', 'region': 'Akershus'},
+    'eplegarden as': {'municipality': 'Asker', 'region': 'Akershus'},
+    'bryggerhuset på frøtvedt': {'municipality': 'Asker', 'region': 'Akershus'},
+    'bryggerhuset pa frotvedt': {'municipality': 'Asker', 'region': 'Akershus'},
+    'aaby gård': {'municipality': 'Asker', 'region': 'Akershus'},
+    'aaby gard': {'municipality': 'Asker', 'region': 'Akershus'},
+    'grisehuset gårdsutsalg': {'municipality': 'Asker', 'region': 'Akershus'},
+    'grisehuset gardsutsalg': {'municipality': 'Asker', 'region': 'Akershus'},
+    'sand gård': {'municipality': 'Asker', 'region': 'Akershus', 'name': 'Sand Gård'},
+    'sand gard': {'municipality': 'Asker', 'region': 'Akershus', 'name': 'Sand Gård'},
+    'vinnulstad gård': {'municipality': 'Asker', 'region': 'Akershus'},
+    'vinnulstad gard': {'municipality': 'Asker', 'region': 'Akershus'},
+    'wettre bryggeri': {'municipality': 'Asker', 'region': 'Akershus'},
+    'wettre bryggeri as': {'municipality': 'Asker', 'region': 'Akershus'},
+}
+
+NORWAY_ASKER_ALLOWED_NAMES = {
+    'gronnsletta gard',
+    'grønnsletta gård',
+    'vaerby gard',
+    'værby gård',
+    'bergsmyrene',
+    'biffgarden',
+    'biffgården',
+    'thor graff',
+    'hyggen eplemost',
+    'bonden jens',
+    'jordbær fra nedre gjerdal gård',
+    'jordbaer fra nedre gjerdal gard',
+    'hurum hjort',
+    'eplegården as',
+    'eplegarden as',
+    'bryggerhuset på frøtvedt',
+    'bryggerhuset pa frotvedt',
+    'aaby gård',
+    'aaby gard',
+    'grisehuset gårdsutsalg',
+    'grisehuset gardsutsalg',
+    'sand gård',
+    'sand gard',
+    'vinnulstad gård',
+    'vinnulstad gard',
+    'wettre bryggeri',
+    'wettre bryggeri as',
 }
 
 NORWAY_MANUAL_SEEDS = [
+    {
+        'id': 'manual_smalahovetunet_voss',
+        'name': 'Smalahovetunet',
+        'country': 'Norway',
+        'region': 'Vestland',
+        'municipality': 'Voss',
+        'products': [],
+        'website': None,
+        'lat': 60.692962,
+        'lon': 6.472726,
+        'address': None,
+        'source': 'https://www.hanen.no/bedrift/ivar-lone-as-smalahovetunet-voss/',
+    },
     {
         'id': 'manual_voss_gardsslakteri_selheim_gard',
         'name': 'Voss Gardsslakteri (Selheim gard)',
@@ -115,6 +176,32 @@ NORWAY_MANUAL_SEEDS = [
         'source': 'https://www.lokalmat.no/produsenter/voss-gardsslakteri/',
     },
     {
+        'id': 'manual_voss_gardsmat',
+        'name': 'Voss gardsmat',
+        'country': 'Norway',
+        'region': 'Vestland',
+        'municipality': 'Voss',
+        'products': [],
+        'website': None,
+        'lat': 60.6000992,
+        'lon': 6.3502497,
+        'address': None,
+        'source': 'https://www.lokalmat.no/produsenter/voss-gardsmat/',
+    },
+    {
+        'id': 'manual_kjaerland_gardsbutikk',
+        'name': 'Kjærland gårdsbutikk',
+        'country': 'Norway',
+        'region': 'Vestland',
+        'municipality': 'Voss',
+        'products': [],
+        'website': None,
+        'lat': 60.5307238,
+        'lon': 6.734827,
+        'address': None,
+        'source': None,
+    },
+    {
         'id': 'manual_een_gard_voss',
         'name': 'Een gard',
         'country': 'Norway',
@@ -127,7 +214,205 @@ NORWAY_MANUAL_SEEDS = [
         'address': None,
         'source': 'https://www.lokalmat.no/produsenter/voss-gardsmat/',
     },
+    {
+        'id': 'manual_asker_gronnsletta_gard',
+        'name': 'Grønnsletta Gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.5553052,
+        'lon': 10.5049039,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Gr%C3%B8nnsletta+G%C3%A5rd/',
+    },
+    {
+        'id': 'manual_asker_vaerby_gard',
+        'name': 'Værby gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.5445009,
+        'lon': 10.4801604,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/V%C3%A6rby+g%C3%A5rd/',
+    },
+    {
+        'id': 'manual_asker_bergsmyrene',
+        'name': 'Bergsmyrene',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.5502616,
+        'lon': 10.4556426,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Bergsmyrene/',
+    },
+    {
+        'id': 'manual_asker_biffgarden',
+        'name': 'Biffgården',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.538206,
+        'lon': 10.4433703,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Biffg%C3%A5rden/',
+    },
+    {
+        'id': 'manual_asker_thor_graff',
+        'name': 'Thor Graff',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.7301368,
+        'lon': 10.4432877,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Thor+Graff/',
+    },
+    {
+        'id': 'manual_asker_hyggen_eplemost',
+        'name': 'Hyggen eplemost',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.7148197,
+        'lon': 10.3500528,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Hyggen+eplemost/',
+    },
+    {
+        'id': 'manual_asker_bonden_jens',
+        'name': 'Bonden Jens',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.7290416,
+        'lon': 10.4415312,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Bonden+Jens/',
+    },
+    {
+        'id': 'manual_asker_nedre_gjerdal',
+        'name': 'Jordbær fra Nedre Gjerdal Gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.7461658,
+        'lon': 10.434421,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Jordb%C3%A6r+fra+Nedre+Gjerdal+G%C3%A5rd/',
+    },
+    {
+        'id': 'manual_asker_hurum_hjort',
+        'name': 'Hurum hjort',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.594239,
+        'lon': 10.6028242,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Hurum+hjort/',
+    },
+    {
+        'id': 'manual_asker_eplegarden_as',
+        'name': 'Eplegården AS',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.6498675,
+        'lon': 10.5972649,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Epleg%C3%A5rden+AS/',
+    },
+    {
+        'id': 'manual_asker_bryggerhuset_frotvedt',
+        'name': 'Bryggerhuset på Frøtvedt',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.710323,
+        'lon': 10.4954476,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Bryggerhuset+p%C3%A5+Fr%C3%B8tvedt/',
+    },
+    {
+        'id': 'manual_asker_aaby_gard',
+        'name': 'Aaby Gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.8208933,
+        'lon': 10.4644799,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Aaby+G%C3%A5rd/',
+    },
+    {
+        'id': 'manual_asker_grisehuset_gardsutsalg',
+        'name': 'Grisehuset gårdsutsalg',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.8262596,
+        'lon': 10.4794243,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Grisehuset+g%C3%A5rdsutsalg/',
+    },
+    {
+        'id': 'manual_asker_sand_gard',
+        'name': 'Sand Gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.5636043,
+        'lon': 10.4641891,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Sand+G%C3%A5rd/',
+    },
+    {
+        'id': 'manual_asker_vinnulstad_gard',
+        'name': 'Vinnulstad Gård',
+        'country': 'Norway',
+        'region': 'Akershus',
+        'municipality': 'Asker',
+        'products': [],
+        'website': None,
+        'lat': 59.8016602,
+        'lon': 10.4261885,
+        'address': None,
+        'source': 'https://www.google.com/maps/place/Vinnulstad+G%C3%A5rd/',
+    },
 ]
+
+HANEN_MAP_API_URL = 'https://kart.hanen.no/api/kart/data'
+HANEN_CATEGORY_TEXT_RE = re.compile(r'gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg', re.I)
 
 
 def country_specific_overpass_clauses(cc):
@@ -327,15 +612,8 @@ def extract_elem(e):
         ]
         named_hints = [value.strip() for value in named_hints if isinstance(value, str) and value.strip()]
 
-        is_farm_like = shop_tag in {'farm', 'farm_shop', 'greengrocer', 'organic'} or bool(produce_tag)
-        is_generic_market = amenity_tag == 'marketplace' and not is_farm_like
-
         if named_hints:
             name = named_hints[0]
-        elif is_farm_like and not is_generic_market:
-            place_hint = (tags.get('addr:city') or tags.get('addr:municipality') or tags.get('addr:state') or '').strip()
-            base = 'Farm shop'
-            name = f'{base} {place_hint}'.strip() if place_hint else f'{base} {e.get("id")}'
 
     return {
         'id': e.get('id'),
@@ -499,16 +777,6 @@ def _norway_normalize_municipality(value):
     return NORWAY_MUNICIPALITY_ALIASES.get(raw.lower(), raw)
 
 
-def _looks_like_asker_coordinates(item):
-    lat = _to_float_or_none(item.get('lat'))
-    lon = _to_float_or_none(item.get('lon'))
-    if lat is None or lon is None:
-        return False
-
-    # Approximation for post-merger Asker (former Asker + Royken + Hurum).
-    return 59.50 <= lat <= 59.86 and 10.22 <= lon <= 10.72
-
-
 def _item_identity_key(item):
     name = _normalized_name(item.get('name'))
     lat = _to_float_or_none(item.get('lat'))
@@ -531,10 +799,7 @@ def _normalize_norway_municipalities(items):
     normalized = []
     for item in items:
         out = dict(item)
-        municipality = _norway_normalize_municipality(out.get('municipality'))
-        if not municipality and _looks_like_asker_coordinates(out):
-            municipality = 'Asker'
-        out['municipality'] = municipality
+        out['municipality'] = _norway_normalize_municipality(out.get('municipality'))
         normalized.append(out)
     return normalized
 
@@ -549,8 +814,36 @@ def _apply_norway_name_overrides(items):
             out['municipality'] = override.get('municipality')
             if override.get('region'):
                 out['region'] = override.get('region')
+            if override.get('name'):
+                out['name'] = override.get('name')
         adjusted.append(out)
     return adjusted
+
+
+def _cleanup_norway_noise(items):
+    cleaned = []
+    seen_asker_names = set()
+    for item in items:
+        name = (item.get('name') or '').strip()
+        municipality = (item.get('municipality') or '').strip()
+        name_key = _normalized_name(name)
+
+        # Drop synthetic placeholders from earlier runs.
+        if name.lower().startswith('farm shop '):
+            continue
+
+        # Keep Asker strict: only retain explicitly approved records.
+        if municipality == 'Asker' and name_key not in NORWAY_ASKER_ALLOWED_NAMES:
+            continue
+
+        # Keep one entry per Asker place-name.
+        if municipality == 'Asker':
+            if name_key in seen_asker_names:
+                continue
+            seen_asker_names.add(name_key)
+
+        cleaned.append(item)
+    return cleaned
 
 
 def _apply_norway_municipality_policy(current_items, previous_items, archive_items):
@@ -586,7 +879,8 @@ def _apply_norway_municipality_policy(current_items, previous_items, archive_ite
     # Ensure locked municipality items are preserved in final output.
     merged = dedupe(current + locked_seed_items + NORWAY_MANUAL_SEEDS)
     merged = _normalize_norway_municipalities(merged)
-    return _apply_norway_name_overrides(merged)
+    merged = _apply_norway_name_overrides(merged)
+    return _cleanup_norway_noise(merged)
 
 
 def split_by_country_code(items):
@@ -764,6 +1058,61 @@ def fetch_lokalmat_producers():
     print(f'Fetched {len(merged)} Lokalmat producers with coordinates')
     return merged
 
+
+def fetch_hanen_gardsbutikker():
+    print('Fetching Hanen gardsbutikker via map API')
+    response = requests.get(
+        HANEN_MAP_API_URL,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+        headers={'User-Agent': 'mat-sjekk-bot/1.0'},
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if not isinstance(payload, list):
+        return []
+
+    items = []
+    for row in payload:
+        if not isinstance(row, dict):
+            continue
+
+        name = (row.get('name') or row.get('view_name') or '').strip()
+        if not name:
+            continue
+
+        text_blob = ' '.join([
+            name,
+            row.get('introduction') or '',
+            row.get('html') or '',
+        ])
+        if not HANEN_CATEGORY_TEXT_RE.search(text_blob):
+            continue
+
+        lat = _to_float_or_none(row.get('latitude'))
+        lon = _to_float_or_none(row.get('longitude'))
+        if not (_looks_valid_coordinate(lat) and _looks_valid_coordinate(lon)):
+            continue
+
+        post_url = (row.get('post_url') or '').strip().strip('/')
+        source_url = f'https://www.hanen.no/bedrift/{post_url}/' if post_url else None
+
+        items.append({
+            'id': f'hanen_{row.get("id")}',
+            'name': name,
+            'country': 'Norway',
+            'region': (row.get('county') or '').strip() or None,
+            'municipality': (row.get('shipping_city') or '').strip() or None,
+            'products': [],
+            'website': _normalize_url(row.get('website')),
+            'lat': lat,
+            'lon': lon,
+            'address': (row.get('shipping_street') or '').strip() or None,
+            'source': source_url,
+        })
+
+    print(f'Fetched {len(items)} Hanen gardsbutikker with coordinates')
+    return items
+
 def main():
     previous_by_code = load_previous_items_by_code()
     archive_by_code = load_archive_items_by_code()
@@ -772,11 +1121,16 @@ def main():
     print('Countries selected:', ', '.join([f'{name}({code})' for name, code in country_list]))
 
     lokalmat_items = []
+    hanen_items = []
     if any(cc == 'NO' for _, cc in country_list):
         try:
             lokalmat_items = fetch_lokalmat_producers()
         except Exception as error:
             print(f'Failed to fetch Lokalmat producers: {error}', file=sys.stderr)
+        try:
+            hanen_items = fetch_hanen_gardsbutikker()
+        except Exception as error:
+            print(f'Failed to fetch Hanen gardsbutikker: {error}', file=sys.stderr)
 
     all_items = []
     failed_countries = []
@@ -788,6 +1142,8 @@ def main():
             tagged_current = tag_country(items, name)
             if cc == 'NO' and lokalmat_items:
                 tagged_current = dedupe(tagged_current + lokalmat_items)
+            if cc == 'NO' and hanen_items:
+                tagged_current = dedupe(tagged_current + hanen_items)
             previous_items = previous_by_code.get(cc, [])
             archive_items = archive_by_code.get(cc, [])
             if previous_items:
