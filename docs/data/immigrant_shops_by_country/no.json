@@ -952,6 +952,23 @@
     "source": "https://www.openstreetmap.org/node/8893227545"
   },
   {
+    "id": "immigrant_seed_sultan_marked_alta",
+    "name": "Sultan Marked Alta",
+    "country": "Norway",
+    "region": "Finnmark",
+    "municipality": "Alta",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/sultanmarkedalta/",
+    "lat": 69.9600457,
+    "lon": 23.2305133,
+    "address": "Altaveien 91, Alta",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2885937284"
+  },
+  {
     "id": "immigrant_osm_node_7340698485",
     "name": "Syrian Asia Mat",
     "country": "Norway",

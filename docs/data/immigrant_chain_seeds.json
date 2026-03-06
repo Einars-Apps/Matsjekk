@@ -20,7 +20,7 @@
     },
     {
       "name": "Sultan",
-      "status": "verified_partial"
+      "status": "verified"
     },
     {
       "name": "Global Food",
@@ -99,17 +99,24 @@
       "address": "Fiskergata, Tromso",
       "category": "Innvandrerbutikk",
       "source": "https://www.openstreetmap.org/node/11065947091"
-    }
-  ],
-  "pending_stores": [
+    },
     {
+      "id": "immigrant_seed_sultan_marked_alta",
       "name": "Sultan Marked Alta",
       "country": "Norway",
       "region": "Finnmark",
       "municipality": "Alta",
+      "products": [
+        "International food",
+        "Imported goods"
+      ],
       "website": "https://www.facebook.com/sultanmarkedalta/",
-      "source": "https://www.facebook.com/sultanmarkedalta/",
-      "note": "Awaiting exact coordinates before map inclusion"
+      "lat": 69.9600457,
+      "lon": 23.2305133,
+      "address": "Altaveien 91, Alta",
+      "category": "Innvandrerbutikk",
+      "source": "https://www.openstreetmap.org/node/2885937284"
     }
-  ]
+  ],
+  "pending_stores": []
 }
