@@ -180,6 +180,9 @@ def fill_missing_admin_fields(items):
             if abs(lat - 59.8556786) < 0.01 and abs(lon - 10.490474) < 0.01:
                 item["municipality"] = "Asker"
                 item["region"] = "Akershus"
+            elif abs(lat - 59.9462184) < 0.01 and abs(lon - 10.6430174) < 0.01:
+                item["municipality"] = "Oslo"
+                item["region"] = "Oslo"
 
         if not item.get("municipality"):
             item["municipality"] = None

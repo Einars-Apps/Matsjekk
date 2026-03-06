@@ -445,8 +445,8 @@
     "id": "immigrant_osm_node_12728093641",
     "name": "Fudi",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
