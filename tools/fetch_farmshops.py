@@ -68,6 +68,31 @@ COUNTRY_KEYWORD_REGEX = {
     'GB': r'farm shop|farmshop|farm store|pick your own',
 }
 
+NORWAY_MUNICIPALITY_ALIASES = {
+    'hurum': 'Asker',
+    'røyken': 'Asker',
+    'royken': 'Asker',
+    'sætre': 'Asker',
+    'saetre': 'Asker',
+    'tofte': 'Asker',
+    'filtvet': 'Asker',
+    'klokkarstua': 'Asker',
+    'holmsbu': 'Asker',
+    'røyken kommune': 'Asker',
+    'royken kommune': 'Asker',
+    'hurum kommune': 'Asker',
+    'spikkestad': 'Asker',
+    'nærsnes': 'Asker',
+    'naersnes': 'Asker',
+    'slemmestad': 'Asker',
+    'bødalen': 'Asker',
+    'boedalen': 'Asker',
+    'heggedal': 'Asker',
+    'vollen': 'Asker',
+}
+
+NORWAY_LOCKED_MUNICIPALITIES = {'Ulvik', 'Voss', 'Asker'}
+
 
 def country_specific_overpass_clauses(cc):
     keyword = COUNTRY_KEYWORD_REGEX.get(cc)
@@ -427,6 +452,92 @@ def dedupe(items):
     return out
 
 
+def _normalized_name(value):
+    return (value or '').strip().lower()
+
+
+def _norway_normalize_municipality(value):
+    raw = (value or '').strip()
+    if not raw:
+        return None
+    return NORWAY_MUNICIPALITY_ALIASES.get(raw.lower(), raw)
+
+
+def _looks_like_asker_coordinates(item):
+    lat = _to_float_or_none(item.get('lat'))
+    lon = _to_float_or_none(item.get('lon'))
+    if lat is None or lon is None:
+        return False
+
+    # Approximation for post-merger Asker (former Asker + Royken + Hurum).
+    return 59.50 <= lat <= 59.86 and 10.22 <= lon <= 10.72
+
+
+def _item_identity_key(item):
+    name = _normalized_name(item.get('name'))
+    lat = _to_float_or_none(item.get('lat'))
+    lon = _to_float_or_none(item.get('lon'))
+    if lat is None or lon is None:
+        return (name, None, None)
+    return (name, round(lat, 5), round(lon, 5))
+
+
+def _is_locked_norway_municipality(value):
+    if not value:
+        return False
+    normalized = _norway_normalize_municipality(value)
+    if not normalized:
+        return False
+    return normalized.lower() in {m.lower() for m in NORWAY_LOCKED_MUNICIPALITIES}
+
+
+def _normalize_norway_municipalities(items):
+    normalized = []
+    for item in items:
+        out = dict(item)
+        municipality = _norway_normalize_municipality(out.get('municipality'))
+        if not municipality and _looks_like_asker_coordinates(out):
+            municipality = 'Asker'
+        out['municipality'] = municipality
+        normalized.append(out)
+    return normalized
+
+
+def _apply_norway_municipality_policy(current_items, previous_items, archive_items):
+    current = _normalize_norway_municipalities(current_items)
+    previous = _normalize_norway_municipalities(previous_items)
+    archive = _normalize_norway_municipalities(archive_items)
+
+    # Lock selected municipality assignments by carrying forward known-good metadata.
+    locked_metadata = {}
+    locked_seed_items = []
+    for source in (previous, archive):
+        for item in source:
+            municipality = item.get('municipality')
+            if not _is_locked_norway_municipality(municipality):
+                continue
+            key = _item_identity_key(item)
+            locked_metadata[key] = {
+                'municipality': municipality,
+                'region': item.get('region'),
+            }
+            locked_seed_items.append(item)
+
+    for item in current:
+        key = _item_identity_key(item)
+        locked = locked_metadata.get(key)
+        if not locked:
+            continue
+        item['municipality'] = locked.get('municipality')
+        # Keep previous region if current entry has no region.
+        if not item.get('region') and locked.get('region'):
+            item['region'] = locked.get('region')
+
+    # Ensure locked municipality items are preserved in final output.
+    merged = dedupe(current + locked_seed_items)
+    return _normalize_norway_municipalities(merged)
+
+
 def split_by_country_code(items):
     grouped = {}
     for item in items:
@@ -634,11 +745,23 @@ def main():
                     preserved_countries.append((name, len(tagged_current), len(merged_country_items)))
                 if archive_items:
                     merged_country_items = dedupe(merged_country_items + archive_items)
+                if cc == 'NO':
+                    merged_country_items = _apply_norway_municipality_policy(
+                        merged_country_items,
+                        previous_items,
+                        archive_items,
+                    )
                 all_items.extend(merged_country_items)
             else:
                 merged_country_items = dedupe(tagged_current + archive_items) if archive_items else tagged_current
                 if archive_items and len(merged_country_items) > len(tagged_current):
                     restored_from_archive.append((name, len(tagged_current), len(merged_country_items)))
+                if cc == 'NO':
+                    merged_country_items = _apply_norway_municipality_policy(
+                        merged_country_items,
+                        previous_items,
+                        archive_items,
+                    )
                 all_items.extend(merged_country_items)
 
             archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + merged_country_items)

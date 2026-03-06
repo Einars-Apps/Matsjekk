@@ -4344,6 +4344,30 @@
     "address": null
   },
   {
+    "id": 9893214611,
+    "name": "Delicatessen Farmhouse",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://farmhousesweden.se/",
+    "lat": 61.7987658,
+    "lon": 16.5512299,
+    "address": null
+  },
+  {
+    "id": 1092678702,
+    "name": "Lakene Ostgård",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://ostgard.se",
+    "lat": 59.9850906,
+    "lon": 13.4946529,
+    "address": null
+  },
+  {
     "id": 567173646,
     "name": "Torghandel",
     "country": "Sweden",
@@ -5961,30 +5985,6 @@
     "website": null,
     "lat": 57.7967761,
     "lon": 12.0503294,
-    "address": null
-  },
-  {
-    "id": 9893214611,
-    "name": "Delicatessen Farmhouse",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://farmhousesweden.se/",
-    "lat": 61.7987658,
-    "lon": 16.5512299,
-    "address": null
-  },
-  {
-    "id": 1092678702,
-    "name": "Lakene Ostgård",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://ostgard.se",
-    "lat": 59.9850906,
-    "lon": 13.4946529,
     "address": null
   }
 ]
