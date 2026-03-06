@@ -1,1 +1,852 @@
-[]
+[
+  {
+    "id": "immigrant_osm_node_9133367060",
+    "name": "102 Asia Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://102asiamat.no/",
+    "lat": 59.753469,
+    "lon": 10.124845,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9133367060"
+  },
+  {
+    "id": "immigrant_osm_node_7702468233",
+    "name": "Al-Mostafa Asian Food",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.3426034,
+    "lon": 8.5916492,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7702468233"
+  },
+  {
+    "id": "immigrant_osm_node_11065947091",
+    "name": "Alanya Import",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 69.6468623,
+    "lon": 18.9530489,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11065947091"
+  },
+  {
+    "id": "immigrant_osm_node_7434439434",
+    "name": "Asia com",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.460814,
+    "lon": 8.763795,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7434439434"
+  },
+  {
+    "id": "immigrant_osm_node_7342495146",
+    "name": "ASIA kiosken",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.7959069,
+    "lon": 10.6922185,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7342495146"
+  },
+  {
+    "id": "immigrant_osm_node_6910354501",
+    "name": "Asia Marked",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 62.7392349,
+    "lon": 7.1828956,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6910354501"
+  },
+  {
+    "id": "immigrant_osm_node_1877857583",
+    "name": "Asia mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 68.1485888,
+    "lon": 13.6143361,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1877857583"
+  },
+  {
+    "id": "immigrant_osm_node_9235183518",
+    "name": "Asia Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2024365,
+    "lon": 5.4560567,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9235183518"
+  },
+  {
+    "id": "immigrant_osm_node_9227734331",
+    "name": "Asia Matbutikk Knarvik",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://facebook.com/pages/category/Specialty-Grocery-Store/Asia-Matbutikk-Knarvik-649769938456681",
+    "lat": 60.5452169,
+    "lon": 5.2845173,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9227734331"
+  },
+  {
+    "id": "immigrant_osm_node_1768092001",
+    "name": "Asia matvarer",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/pages/Asia-Matvarer-Trondheim/181700391852466",
+    "lat": 63.4330355,
+    "lon": 10.3928576,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1768092001"
+  },
+  {
+    "id": "immigrant_osm_node_1877857585",
+    "name": "Asia produkt",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 68.1470446,
+    "lon": 13.6105846,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1877857585"
+  },
+  {
+    "id": "immigrant_osm_node_1349754419",
+    "name": "Asia Town",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9516541,
+    "lon": 10.8754212,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1349754419"
+  },
+  {
+    "id": "immigrant_osm_node_7016702569",
+    "name": "Asia-Marked",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 67.2853724,
+    "lon": 14.3895876,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7016702569"
+  },
+  {
+    "id": "immigrant_osm_node_5011594721",
+    "name": "Asiabutikken",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 70.6762164,
+    "lon": 23.6695337,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5011594721"
+  },
+  {
+    "id": "immigrant_osm_node_10378942518",
+    "name": "Asiahallen Frukt & Grønt",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.259741,
+    "lon": 10.416639,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10378942518"
+  },
+  {
+    "id": "immigrant_osm_node_8866281450",
+    "name": "Asiamat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4114908,
+    "lon": 9.0697168,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8866281450"
+  },
+  {
+    "id": "immigrant_osm_node_9811999831",
+    "name": "Asian Deli",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.6631781,
+    "lon": 10.792723,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9811999831"
+  },
+  {
+    "id": "immigrant_osm_node_6872857949",
+    "name": "Asian Food Market",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.3936791,
+    "lon": 5.3228518,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6872857949"
+  },
+  {
+    "id": "immigrant_osm_node_4273619538",
+    "name": "Asiaten Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiatenmat.no/",
+    "lat": 60.3718268,
+    "lon": 5.1800824,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4273619538"
+  },
+  {
+    "id": "immigrant_osm_node_1664529666",
+    "name": "Asiatisk mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.2312009,
+    "lon": 7.1047389,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1664529666"
+  },
+  {
+    "id": "immigrant_manual_asker_supermarked",
+    "name": "Asker Supermarked",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Asker",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8333,
+    "lon": 10.4376,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.google.com/maps/search/?api=1&query=Asker+Supermarked+Asker"
+  },
+  {
+    "id": "immigrant_osm_node_4630212292",
+    "name": "Buran Asia Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 63.436395,
+    "lon": 10.422599,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4630212292"
+  },
+  {
+    "id": "immigrant_osm_node_3118823241",
+    "name": "Daniel Asiabutikk",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 62.201326,
+    "lon": 6.1228554,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3118823241"
+  },
+  {
+    "id": "immigrant_osm_node_2351840801",
+    "name": "Duangs Asias Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 69.7280372,
+    "lon": 30.0402686,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2351840801"
+  },
+  {
+    "id": "immigrant_osm_node_6861974670",
+    "name": "Fresh Deli Asiatiske Avdeling",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.582678,
+    "lon": 11.165454,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6861974670"
+  },
+  {
+    "id": "immigrant_osm_node_11854179869",
+    "name": "Fudi",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Asker",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.fudi.no",
+    "lat": 59.8556786,
+    "lon": 10.490474,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11854179869"
+  },
+  {
+    "id": "immigrant_osm_node_12728093641",
+    "name": "Fudi",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9462184,
+    "lon": 10.6430174,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12728093641"
+  },
+  {
+    "id": "immigrant_osm_node_2813795390",
+    "name": "Hoang Asia Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://hoangasia.no/",
+    "lat": 59.892912,
+    "lon": 10.523772,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2813795390"
+  },
+  {
+    "id": "immigrant_osm_node_8871269886",
+    "name": "Hoang Asia Mat - HAM 2",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.hoangasia.no/",
+    "lat": 59.743644,
+    "lon": 10.20302,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8871269886"
+  },
+  {
+    "id": "immigrant_osm_node_7796995893",
+    "name": "Hoang Asia Mat - HAM 3 - Moss",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.hoangasia.no/",
+    "lat": 59.437319,
+    "lon": 10.663762,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7796995893"
+  },
+  {
+    "id": "immigrant_osm_node_5922608677",
+    "name": "IMS - Internasjonalt matsenter Sandnes",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.8496948,
+    "lon": 5.7336365,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5922608677"
+  },
+  {
+    "id": "immigrant_osm_node_2836197338",
+    "name": "IMS Internasjonal Mat Stavanger",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.9703141,
+    "lon": 5.7532358,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2836197338"
+  },
+  {
+    "id": "immigrant_osm_way_499380580",
+    "name": "Jess Bazaar",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://jessbazaar.no/",
+    "lat": 60.146372,
+    "lon": 11.183421,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/499380580"
+  },
+  {
+    "id": "immigrant_osm_node_7996609005",
+    "name": "Kamil's Internasjonal Matbutikk",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 68.799835,
+    "lon": 16.542195,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7996609005"
+  },
+  {
+    "id": "immigrant_osm_node_3962005377",
+    "name": "Lien Asiatisk Matvare",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.390885,
+    "lon": 5.331783,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3962005377"
+  },
+  {
+    "id": "immigrant_osm_node_3326662824",
+    "name": "Lille Asia international food supermaket",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.9568363,
+    "lon": 5.7400866,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3326662824"
+  },
+  {
+    "id": "immigrant_osm_node_7070302520",
+    "name": "Norsk og asiatisk dagligvare",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9561333,
+    "lon": 11.0527282,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7070302520"
+  },
+  {
+    "id": "immigrant_osm_node_3124188106",
+    "name": "Orient - Asiatiske dagligvarer",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 63.4339541,
+    "lon": 10.3958367,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3124188106"
+  },
+  {
+    "id": "immigrant_osm_node_13059642439",
+    "name": "Orient Internasjonale Mstbutikk",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 69.6743287,
+    "lon": 18.926225,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13059642439"
+  },
+  {
+    "id": "immigrant_osm_node_5453565761",
+    "name": "Orientalmarked AS",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 69.0662165,
+    "lon": 18.5163504,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5453565761"
+  },
+  {
+    "id": "immigrant_osm_node_3096378525",
+    "name": "Polski Skleb",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.970285,
+    "lon": 5.739663,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3096378525"
+  },
+  {
+    "id": "immigrant_osm_node_6985747719",
+    "name": "Polski Sklep",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.9701922,
+    "lon": 5.7405084,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6985747719"
+  },
+  {
+    "id": "immigrant_osm_node_5336414521",
+    "name": "Scanasia",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9609384,
+    "lon": 10.9263121,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5336414521"
+  },
+  {
+    "id": "immigrant_osm_node_3373623956",
+    "name": "Scanasia Asian Supermarket",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9141379,
+    "lon": 10.7515608,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3373623956"
+  },
+  {
+    "id": "immigrant_osm_node_8436781154",
+    "name": "Skien Asiamat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2059986,
+    "lon": 9.6067286,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8436781154"
+  },
+  {
+    "id": "immigrant_osm_node_7340698216",
+    "name": "Storgata Asia Butikken",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.7276223,
+    "lon": 10.6149186,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7340698216"
+  },
+  {
+    "id": "immigrant_osm_node_7340698485",
+    "name": "Syrian Asia Mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.7258914,
+    "lon": 10.6136875,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7340698485"
+  },
+  {
+    "id": "immigrant_osm_node_12759115259",
+    "name": "Tida Asia Marked",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.7815701,
+    "lon": 5.5003332,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12759115259"
+  },
+  {
+    "id": "immigrant_osm_node_12291801644",
+    "name": "Tiller Asiamat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://m.facebook.com/tillerasiamat/",
+    "lat": 63.3639252,
+    "lon": 10.3800032,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12291801644"
+  },
+  {
+    "id": "immigrant_osm_node_3125994010",
+    "name": "Trimco Asiatisk mat",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.35962,
+    "lon": 5.35037,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3125994010"
+  }
+]
