@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "organic_okoguide_34f3ac7f-c8a2-43a2-b63a-311125de92de",
+    "name": "Alm Østre - gårdsbutikk",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Stange",
+    "products": [
+      "Gårdsbutikk",
+      "Brød, bakevarer",
+      "Grønnsaker",
+      "Sertifisering: Biodynamisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/alm-oestre-gaardsbutikk/",
+    "lat": 60.70497139999999,
+    "lon": 11.1419849,
+    "address": "Almsgutua 59, 2335, STANGE",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/alm-oestre-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_ead07797-069d-4d5a-8de1-51018159f87e",
+    "name": "Bakken Gard",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Sauda",
+    "products": [
+      "Gårdsbutikk",
+      "Grønnsaker",
+      "Kjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/bakken-gard/",
+    "lat": 59.66602289999999,
+    "lon": 6.4021307,
+    "address": "Austarheimsvegen 286, 4200, SAUDA",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/bakken-gard/"
+  },
+  {
+    "id": "organic_okoguide_cfd7aa18-87ad-49ce-9594-41c27b751347",
+    "name": "Bergsmyrene gård",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": "Asker",
+    "products": [
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/bergsmyrene-gaard/",
+    "lat": 59.5495697,
+    "lon": 10.454549,
+    "address": "Bergsmyrene, 3483, KANA",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/bergsmyrene-gaard/"
+  },
+  {
+    "id": "organic_okoguide_cfd23141-84e8-45ee-9aef-d9900818860e",
+    "name": "Bonderudbakken gård",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Østre Toten",
+    "products": [
+      "Gårdsbutikk",
+      "Kjøtt",
+      "Kjøttprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/bonderudbakken-gaard/",
+    "lat": 60.6372499,
+    "lon": 10.723135,
+    "address": "Vestvegen 116, 2847, KOLBU",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/bonderudbakken-gaard/"
+  },
+  {
+    "id": "organic_okoguide_c4335f6c-d1bc-4729-ba99-f1d3b9b04e03",
+    "name": "Bærgården",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": "Lier",
+    "products": [
+      "Saft, syltetøy",
+      "Bær",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/baergaarden/",
+    "lat": 59.8917526,
+    "lon": 10.3049652,
+    "address": "Bakkerudveien 3, 3410, SYLLING",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/baergaarden/"
+  },
+  {
+    "id": "organic_okoguide_d66f4091-fcdc-4c83-b908-993ae024e93f",
+    "name": "Bærtur",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Holmestrand",
+    "products": [
+      "Gårdsbutikk",
+      "Bær",
+      "Servering",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/baertur/",
+    "lat": 59.4840476,
+    "lon": 10.0927501,
+    "address": "Vassåsveien 20, 3090, HOF",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/baertur/"
+  },
+  {
+    "id": "organic_okoguide_17cf57a6-cc44-425c-8b61-2cc90f0baf2d",
+    "name": "Bøtun Gårdsbutikk",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Luster",
+    "products": [
+      "Gårdsbutikk",
+      "Kafe, bakeri",
+      "Markedshage",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/boetun-gaardsbutikk/",
+    "lat": 61.3521957,
+    "lon": 7.257400499999999,
+    "address": "Ekrevegen 110, 6873, MARIFJØRA",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/boetun-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_8e3aa5df-bf65-4f12-bc2f-280de8d152b3",
+    "name": "Delås gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Sarpsborg",
+    "products": [
+      "Gårdsbutikk",
+      "Nettbutikk",
+      "REKO, torgsalg",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/delaas-gaard/",
+    "lat": 59.2401061,
+    "lon": 11.2371139,
+    "address": "Sandåsveien 95, 1746, SKJEBERG",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/delaas-gaard/"
+  },
+  {
+    "id": "organic_okoguide_2721350d-1891-41d7-abd8-9811543283a7",
+    "name": "Den Sorte Havre",
+    "country": "Norway",
+    "region": "Østfold",
+    "municipality": "Våler (Viken)",
+    "products": [
+      "Korn, mel",
+      "Kafe, bakeri",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/den-sorte-havre/",
+    "lat": 59.51795869999999,
+    "lon": 10.9436844,
+    "address": "Mørkveien 640, 1592, VÅLER I ØSTFOLD",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/den-sorte-havre/"
+  },
+  {
+    "id": "organic_okoguide_0a0797f0-44e5-4e01-9b5e-90f8813162da",
+    "name": "Derinngarden",
+    "country": "Norway",
+    "region": "Møre Og Romsdal",
+    "municipality": "Hustadvika",
+    "products": [
+      "Ost, meieriprodukter",
+      "Butikk",
+      "REKO, torgsalg",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/derinngarden/",
+    "lat": 62.88741483799388,
+    "lon": 7.408969402313232,
+    "address": "Øvre Halåsveg 18, 6490, EIDE",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/derinngarden/"
+  },
+  {
+    "id": "organic_okoguide_a29e44c6-4588-417d-9d9a-3ed3d9b39b42",
+    "name": "Fat og Fe",
+    "country": "Norway",
+    "region": "Vestfold Og Telemark",
+    "municipality": "Sandefjord",
+    "products": [
+      "Sertifisering: Valørmerket Gull",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/fat-og-fe/",
+    "lat": 59.19392849999999,
+    "lon": 10.2279162,
+    "address": "Raveien 500, 3239, SANDEFJORD",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/fat-og-fe/"
+  },
+  {
+    "id": "organic_okoguide_999c1770-b353-4f3f-99be-4a6a21375016",
+    "name": "Gardsbutikken på Sogn jord- og hagebruksskule",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Aurland",
+    "products": [
+      "Gårdsbutikk",
+      "Grønnsaker",
+      "Frukt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gardsbutikken-paa-sogn-jord-og-hagebruksskule/",
+    "lat": 60.8745627,
+    "lon": 7.334382199999999,
+    "address": "Skulevegen 24, 5745, AURLAND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gardsbutikken-paa-sogn-jord-og-hagebruksskule/"
+  },
+  {
+    "id": "organic_okoguide_d02a08f0-9a5a-441e-81bf-c45e05259a83",
+    "name": "Gartneriet, Bygdø Kongsgård",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "Ost, meieriprodukter",
+      "Kafe, bakeri",
+      "Gårdsbutikk",
+      "Sertifisering: Valørmerket Gull",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gartneriet-bygdoe-kongsgaard/",
+    "lat": 59.9097947,
+    "lon": 10.6850375,
+    "address": "Museumsveien 15, 0287, OSLO",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gartneriet-bygdoe-kongsgaard/"
+  },
+  {
+    "id": "organic_okoguide_9c62f0df-1f71-45b2-b632-9016079419b2",
+    "name": "Gjøding Gård",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": "Hurdal",
+    "products": [
+      "Grønnsaker",
+      "Frukt",
+      "Bær",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gjoeding-gaard/",
+    "lat": 60.41124869999999,
+    "lon": 11.0531853,
+    "address": "Landsbyvegen 3, 2090, HURDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gjoeding-gaard/"
+  },
+  {
+    "id": "organic_okoguide_cf67536f-2f9a-492e-a652-7512f4e1fff4",
+    "name": "Grindal gårdsbutikk",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Rennebu",
+    "products": [
+      "Gårdsbutikk",
+      "Grønnsaker",
+      "Ost, meieriprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/grindal-gaardsbutikk/",
+    "lat": 62.9264992,
+    "lon": 9.7601175,
+    "address": "Orkdalsveien 2181, 7393, RENNEBU",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/grindal-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_85528c5c-79a0-4142-a91b-989193d9dd47",
+    "name": "Grønnsakslåven",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Horten",
+    "products": [
+      "Gårdsbutikk",
+      "Grønnsaker",
+      "Blomster, juletrær"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/groennsakslaaven/",
+    "lat": 59.43395700000001,
+    "lon": 10.4176205,
+    "address": "Tufteveien 2, 3180, NYKIRKE",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/groennsakslaaven/"
+  },
+  {
+    "id": "organic_okoguide_4640c6d1-df32-4127-89d1-02e50d602d66",
+    "name": "Gården på Svartskog",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": "Nordre Follo",
+    "products": [
+      "Kjøtt",
+      "Skinn, ull",
+      "Kjøttprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gaarden-paa-svartskog/",
+    "lat": 59.77611648956304,
+    "lon": 10.751551642926026,
+    "address": "Roald Amundsensvei 115A, 1420, SVARTSKOG",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gaarden-paa-svartskog/"
+  },
+  {
+    "id": "organic_okoguide_7a9cf6ea-0fd0-41b7-8791-c75c32146811",
+    "name": "Gårdsbutikken på Haneborg gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Frogn",
+    "products": [
+      "Blomster, juletrær",
+      "Brød, bakevarer",
+      "Grønnsaker"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gaardsbutikken-paa-haneborg-gaard/",
+    "lat": 59.68760509999999,
+    "lon": 10.6755568,
+    "address": "Osloveien 160, 1449, DRØBAK",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gaardsbutikken-paa-haneborg-gaard/"
+  },
+  {
+    "id": "organic_okoguide_1633cfaa-e150-463e-a9ec-7d124342e924",
+    "name": "Gårdsbutikken Schrader AS",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Nesodden",
+    "products": [
+      "Gartneri",
+      "Gårdsbutikk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gaardsbutikken-schrader-as/",
+    "lat": 59.8265237,
+    "lon": 10.67469,
+    "address": "Toveien 35, 1459, NESODDEN",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gaardsbutikken-schrader-as/"
+  },
+  {
+    "id": "organic_okoguide_51044176-7aba-4d78-8966-14c3849826a3",
+    "name": "Gårdsutsalg Amble Gård",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Sogndal",
+    "products": [
+      "Nettbutikk",
+      "Saft, syltetøy",
+      "Hotell, overnatting",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/gaardsutsalg-amble-gaard/",
+    "lat": 61.1803968,
+    "lon": 7.2685827,
+    "address": "Øvre Amla 16, 6854, KAUPANGER",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/gaardsutsalg-amble-gaard/"
+  },
+  {
+    "id": "organic_okoguide_e69331da-11bc-43bb-90ad-3cfcceff30d8",
+    "name": "Hogganvik Landsby Ysteriet",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Vindafjord",
+    "products": [
+      "Gårdsbutikk",
+      "Ost, meieriprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/hogganvik-landsby-ysteriet/",
+    "lat": 59.47796329999999,
+    "lon": 5.9242518,
+    "address": "Hogganvikvvegen 28, 5583, VIKEDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/hogganvik-landsby-ysteriet/"
+  },
+  {
+    "id": "organic_okoguide_7a67dcc6-97dd-44b2-9904-ad27d84053ac",
+    "name": "Holt Gård",
+    "country": "Norway",
+    "region": "Vestfold Og Telemark",
+    "municipality": "Tønsberg",
+    "products": [
+      "Kjøtt",
+      "Ost, meieriprodukter",
+      "Søtsaker, iskrem",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/holt-gaard/",
+    "lat": 59.3536101,
+    "lon": 10.350195,
+    "address": "Grøumveien 229, 3176, UNDRUMSDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/holt-gaard/"
+  },
+  {
+    "id": "organic_okoguide_732a41e6-770f-485c-93bf-3ff44eb84d17",
+    "name": "Hovelsrud gård",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Ringsaker",
+    "products": [
+      "Gårdsbutikk",
+      "Kjøtt",
+      "Grønnsaker",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/hovelsrud-gaard/",
+    "lat": 60.72184679999999,
+    "lon": 10.9859536,
+    "address": "Helgøyvegen 960, 2350, NES PÅ HEDMARKEN",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/hovelsrud-gaard/"
+  },
+  {
+    "id": "organic_okoguide_301078e1-e4f5-4baf-b6bf-2e2dc255aa9e",
+    "name": "Hovsvangen Økomelk",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Ørland",
+    "products": [
+      "Gårdsbutikk",
+      "Kjøtt",
+      "Kjøttprodukter"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/hovsvangen-oekomelk/",
+    "lat": 63.708106,
+    "lon": 9.675777199999999,
+    "address": "Vestråttveien 5, 7130, BREKSTAD",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/hovsvangen-oekomelk/"
+  },
+  {
+    "id": "organic_okoguide_c06110d0-886c-409e-93e9-4814f39a65e1",
+    "name": "Jenny på Jørem",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Grong",
+    "products": [
+      "Korn, mel",
+      "Brød, bakevarer",
+      "Kjøttprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/jenny-paa-joerem/",
+    "lat": 64.45670589103223,
+    "lon": 12.18951696270448,
+    "address": "Jøresvegen 39, 7870, GRONG",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/jenny-paa-joerem/"
+  },
+  {
+    "id": "organic_okoguide_2302ba8d-3799-456b-995d-e0ac75340df3",
+    "name": "Jordbærhuset gårdsbutikk",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Lyngdal",
+    "products": [
+      "Gårdsbutikk",
+      "Bær",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/jordbaerhuset-gaardsbutikk/",
+    "lat": 58.1378983,
+    "lon": 7.070436099999999,
+    "address": "Strandveien 41, 4580, LYNGDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/jordbaerhuset-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_224fa17e-f59b-481f-854f-32805ee734d9",
+    "name": "Jøndal gårdsbutikk",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Eidsvoll",
+    "products": [
+      "Gårdsbutikk",
+      "Brød, bakevarer",
+      "Egg"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/joendal-gaardsbutikk/",
+    "lat": 60.3051753,
+    "lon": 11.302716,
+    "address": "Nesvegen 108, 2080, EIDSVOLL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/joendal-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_c5ac3f84-9324-42aa-849b-b6c224d0176f",
+    "name": "Kryssgaarden",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Larvik",
+    "products": [
+      "Gårdsbutikk",
+      "Gårdsbutikk",
+      "Bær",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/kryssgaarden/",
+    "lat": 59.0068904,
+    "lon": 9.9087525,
+    "address": "Berviveien 39, 3267, LARVIK",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/kryssgaarden/"
+  },
+  {
+    "id": "organic_okoguide_6a675503-7433-40b9-a6ff-c7e67f87abec",
+    "name": "Lofoten Gårdsysteri",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Vestvågøy",
+    "products": [
+      "Gårdsbutikk",
+      "Ost, meieriprodukter",
+      "Kjøttprodukter",
+      "Sertifisering: Økologisk",
+      "Sertifisering: Biodynamisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/lofoten-gaardsysteri/",
+    "lat": 68.2540812,
+    "lon": 13.6464967,
+    "address": "Saupstadveien 235, 8360, BØSTAD",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/lofoten-gaardsysteri/"
+  },
+  {
+    "id": "organic_okoguide_1dfa274e-70e4-4977-b205-eee9a35eb606",
+    "name": "Matfatet",
+    "country": "Norway",
+    "region": "Østfold",
+    "municipality": "Marker",
+    "products": [
+      "Gårdsbutikk",
+      "Kafe, bakeri",
+      "Brød, bakevarer"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/matfatet/",
+    "lat": 59.4809411,
+    "lon": 11.656362,
+    "address": "Storgata 38, 1870, ØRJE",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/matfatet/"
+  },
+  {
+    "id": "organic_okoguide_e5c334ce-06f3-4497-9db0-6ab356f3b92c",
+    "name": "Matnisdal Galloway",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Hå",
+    "products": [
+      "Gårdsbutikk",
+      "Nettbutikk",
+      "Kjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/matnisdal-galloway/",
+    "lat": 58.5882831,
+    "lon": 5.8326569,
+    "address": "Matningsdal 41, 4363, BRUSAND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/matnisdal-galloway/"
+  },
+  {
+    "id": "organic_okoguide_77db2099-af60-48aa-a52b-b53c34568c22",
+    "name": "Meinstad Landhandel",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Nissedal",
+    "products": [
+      "Egg",
+      "Gårdsbutikk",
+      "Korn, mel"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/meinstad-landhandel/",
+    "lat": 59.1473621,
+    "lon": 8.512309,
+    "address": "Nissedalsvegen 680, 3854, NISSEDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/meinstad-landhandel/"
+  },
+  {
+    "id": "organic_okoguide_8c747122-5791-44fc-9141-9c6b36ff92a1",
+    "name": "Mjåland Gård",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Lindesnes",
+    "products": [
+      "Frukt",
+      "Grønnsaker",
+      "Gårdsbutikk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/mjaaland-gaard/",
+    "lat": 58.23919600000001,
+    "lon": 7.513343,
+    "address": "Mjålandsveien 90, 4534, MARNARDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/mjaaland-gaard/"
+  },
+  {
+    "id": "organic_okoguide_0d87cffc-dec5-4f32-9a09-8c86a5da36e9",
+    "name": "Moseng gård",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Os",
+    "products": [
+      "Gårdsbutikk",
+      "Kjøttprodukter",
+      "Kjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/moseng-gaard/",
+    "lat": 62.5040198,
+    "lon": 11.157557,
+    "address": "Mosengveien 77, 2550, OS I ØSTERDALEN",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/moseng-gaard/"
+  },
+  {
+    "id": "organic_okoguide_6b60fee0-7704-4ce0-acc5-84dc75577562",
+    "name": "Nørrestogo gårdsutsalg",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Øystre Slidre",
+    "products": [
+      "Gårdsbutikk",
+      "Ost, meieriprodukter",
+      "Kjøttprodukter",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/noerrestogo-gaardsutsalg/",
+    "lat": 61.1692381,
+    "lon": 8.9651461,
+    "address": "Dalsvegen 211, 2940, HEGGENES",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/noerrestogo-gaardsutsalg/"
+  },
+  {
+    "id": "organic_okoguide_57af0be5-547f-4088-a86e-d1d2ba4b7fc7",
+    "name": "Olestølen mikroysteri",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Øystre Slidre",
+    "products": [
+      "Gårdsbutikk",
+      "Ost, meieriprodukter",
+      "Fjellstue, turisthytte",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/olestoelen-mikroysteri/",
+    "lat": 61.27595479999999,
+    "lon": 8.9763901,
+    "address": "Ole 5, 2950, SKAMMESTEIN",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/olestoelen-mikroysteri/"
+  },
+  {
+    "id": "organic_okoguide_9616c28f-b380-4eca-b917-bb946c0b19db",
+    "name": "Piltingsrud gard",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Sør-Aurdal",
+    "products": [
+      "Gårdsbutikk",
+      "Kjøttprodukter",
+      "Kjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/piltingsrud-gard/",
+    "lat": 60.6555043,
+    "lon": 9.771784,
+    "address": "Austsidevegen 1521, 2937, BEGNA",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/piltingsrud-gard/"
+  },
+  {
+    "id": "organic_okoguide_da5b06c0-7d3f-4aa4-b651-3496b3c91744",
+    "name": "Rosengard",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Karmøy",
+    "products": [
+      "Gårdsbutikk",
+      "Planter, frø",
+      "Tjenester"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/rosengard/",
+    "lat": 59.3598708,
+    "lon": 5.355108299999999,
+    "address": "Vassbotnvegen 50, 5546, RØYKSUND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/rosengard/"
+  },
+  {
+    "id": "organic_okoguide_79cc72d6-0110-4fec-b145-d98decf65fac",
+    "name": "Sjurstua på Rød",
+    "country": "Norway",
+    "region": "Møre Og Romsdal",
+    "municipality": "Molde",
+    "products": [
+      "Gårdsbutikk",
+      "Honning",
+      "Kjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/sjurstua-paa-roed/",
+    "lat": 62.77269644317509,
+    "lon": 7.96859553476974,
+    "address": "Sjurstua,Rødvegen 11, 6460, EIDSVÅG I ROMSDAL",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/sjurstua-paa-roed/"
+  },
+  {
+    "id": "organic_okoguide_9f6eaee8-3164-409d-997b-3998aadcd55c",
+    "name": "Sogn Jord- og Hagebruksskule",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Aurland",
+    "products": [
+      "Kurs, foredrag",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/sogn-jord-og-hagebruksskule/",
+    "lat": 60.8745627,
+    "lon": 7.334382199999999,
+    "address": "Skulevegen 24, 5745, AURLAND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/sogn-jord-og-hagebruksskule/"
+  },
+  {
+    "id": "organic_okoguide_771e9156-d3fb-4333-a9d1-738e7cf3ce62",
+    "name": "Sveivdokk økologiske gård",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Kragerø",
+    "products": [
+      "Gårdsbutikk",
+      "Egg",
+      "Grønnsaker",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/sveivdokk-oekologiske-gaard/",
+    "lat": 58.890793614822755,
+    "lon": 9.526671810802764,
+    "address": "Sveivdokkveien 1, 3783, KRAGERØ",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/sveivdokk-oekologiske-gaard/"
+  },
+  {
+    "id": "organic_okoguide_face72de-5552-4eb1-8703-6586379148c2",
+    "name": "Søndre Aslaksrud",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Jevnaker",
+    "products": [
+      "Catering, selskap",
+      "Skinn, ull",
+      "Kafe, bakeri",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/soendre-aslaksrud/",
+    "lat": 60.2133316,
+    "lon": 10.3655007,
+    "address": "Hadelandsveien 800, 3520, JEVNAKER",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/soendre-aslaksrud/"
+  },
+  {
+    "id": "organic_okoguide_71e2b1a0-6bf5-4e0a-ae05-d18cbd8cfd0b",
+    "name": "Søndre Røine Gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Lier",
+    "products": [
+      "Gårdsbutikk",
+      "Gårdsbutikk",
+      "Skinn, ull",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/soendre-roeine-gaard/",
+    "lat": 59.93477009999999,
+    "lon": 10.2685759,
+    "address": "Røineveien 20, 3410, SYLLING",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/soendre-roeine-gaard/"
+  },
+  {
+    "id": "organic_okoguide_401280b6-62df-44a1-8158-3adb829a710f",
+    "name": "Søndre Veholt Gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Skien",
+    "products": [
+      "Gårdsbutikk",
+      "Bær",
+      "Honning",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/soendre-veholt-gaard/",
+    "lat": 59.1396867,
+    "lon": 9.5481415,
+    "address": "Voldsvegen 741, 3739, SKIEN",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/soendre-veholt-gaard/"
+  },
+  {
+    "id": "organic_okoguide_2b5ca801-09ff-42fc-a03f-556306ca720b",
+    "name": "Søre Skogen",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Vindafjord",
+    "products": [
+      "Gårdsbutikk",
+      "Lammekjøtt",
+      "Skinn, ull",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/soere-skogen/",
+    "lat": 59.49247440000001,
+    "lon": 5.6511111,
+    "address": "Tørsdalsvegen 573, 5574, SKJOLD",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/soere-skogen/"
+  },
+  {
+    "id": "organic_okoguide_7574e07f-03df-4fa3-8fdf-3f5545ede4de",
+    "name": "Tjønnås økogard",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Hjartdal",
+    "products": [
+      "Hotell, overnatting",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/tjoennaas-oekogard/",
+    "lat": 59.616097,
+    "lon": 8.9375518,
+    "address": "Tjønnåsvegen 284, 3692, SAULAND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/tjoennaas-oekogard/"
+  },
+  {
+    "id": "organic_okoguide_480708cb-b391-4cac-8ef5-9197fbf7f8e2",
+    "name": "Ullandhaug Gårdsbutikk",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Stavanger",
+    "products": [
+      "Gårdsbutikk",
+      "Blomster, juletrær",
+      "Brød, bakevarer",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/ullandhaug-gaardsbutikk/",
+    "lat": 58.9421659,
+    "lon": 5.7003337,
+    "address": "Ullandhaugveien 150, 4021, STAVANGER",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/ullandhaug-gaardsbutikk/"
+  },
+  {
+    "id": "organic_okoguide_6a58a889-c63f-4913-bda7-e24c93ebdbfb",
+    "name": "Ullandhaug Gårdsbutikk Verksgata",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Stavanger",
+    "products": [
+      "Butikk",
+      "Brød, bakevarer",
+      "Blomster, juletrær"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/ullandhaug-gaardsbutikk-verksgata/",
+    "lat": 58.9712637,
+    "lon": 5.739173099999999,
+    "address": "Verkstedgata 13, 4013, STAVANGER",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/ullandhaug-gaardsbutikk-verksgata/"
+  },
+  {
+    "id": "organic_okoguide_78e9fca2-bf8a-403e-8e42-a6f31c5df77c",
+    "name": "Vedervang økologiske utsalg",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Østre Toten",
+    "products": [
+      "Egg",
+      "Grønnsaker",
+      "Gårdsbutikk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/vedervang-oekologiske-utsalg/",
+    "lat": 60.6486991,
+    "lon": 10.8270557,
+    "address": "Lensbygdavegen 210, 2850, LENA",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/vedervang-oekologiske-utsalg/"
+  },
+  {
+    "id": "organic_okoguide_66ea2f2e-ed33-447a-b027-015e0267469e",
+    "name": "Vesterhus gård",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Lillesand",
+    "products": [
+      "Gårdsbutikk",
+      "Gartneri",
+      "Egg",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/vesterhus-gaard/",
+    "lat": 58.1574298,
+    "lon": 8.1863431,
+    "address": "Vesterhusveien 13, 4770, HØVÅG",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/vesterhus-gaard/"
+  },
+  {
+    "id": "organic_okoguide_26c18158-edb5-4ce3-820f-4fb2f1693f18",
+    "name": "Viker Gårdsutsalg",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Modum",
+    "products": [
+      "Gårdsbutikk",
+      "Korn, mel",
+      "Brød, bakevarer",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/viker-gaardsutsalg/",
+    "lat": 59.9626064,
+    "lon": 10.0075464,
+    "address": "Vikerkleiva 149, 3370, VIKERSUND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/viker-gaardsutsalg/"
+  },
+  {
+    "id": "organic_okoguide_852f7338-c23a-4dfb-b633-66c7e6a73e28",
+    "name": "Viker Røed andelsbruk",
+    "country": "Norway",
+    "region": "Viken",
+    "municipality": null,
+    "products": [
+      "Andelslandbruk",
+      "Grønnsaker",
+      "Korn, mel",
+      "Sertifisering: Andelslandbruk",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/viker-roeed-andelsbruk/",
+    "lat": 59.9597368,
+    "lon": 10.0033366,
+    "address": "Vikerkleiva 149, 3370, Vikersund",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/viker-roeed-andelsbruk/"
+  },
+  {
+    "id": "organic_okoguide_696c2105-e4b1-434c-a574-25783c39e4cc",
+    "name": "Villmat",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Haugesund",
+    "products": [
+      "Gårdsbutikk",
+      "Egg",
+      "Lammekjøtt",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/villmat/",
+    "lat": 59.48821239999999,
+    "lon": 5.2500123,
+    "address": "Haglandsvegen 146, 5514, HAUGESUND",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/villmat/"
+  },
+  {
+    "id": "organic_okoguide_21beb99e-f307-4809-9eba-abe14b07055a",
+    "name": "Åkersmak Huseby gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Larvik",
+    "products": [
+      "Gårdsbutikk",
+      "Blomster, juletrær",
+      "Brød, bakevarer",
+      "Sertifisering: Økologisk"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/aakersmak-huseby-gaard/",
+    "lat": 59.0484083,
+    "lon": 10.1138155,
+    "address": "Husebyveien 70, 3280, TJODALYNG",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/aakersmak-huseby-gaard/"
+  },
+  {
+    "id": "organic_okoguide_0e946dc8-743c-44df-babd-db6eb0bfaa5e",
+    "name": "Øksnevad vgs gardsutsalg",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Klepp",
+    "products": [
+      "Gårdsbutikk",
+      "Grønnsaker",
+      "Egg"
+    ],
+    "website": "https://okologisknorge.no/oekoguiden/oeksnevad-vgs-gardsutsalg/",
+    "lat": 58.8009199,
+    "lon": 5.6714386,
+    "address": "Jærvegen 990, 4352, KLEPPE",
+    "category": "Økologisk gårdsbutikk",
+    "source": "https://okologisknorge.no/oekoguiden/oeksnevad-vgs-gardsutsalg/"
+  }
+]

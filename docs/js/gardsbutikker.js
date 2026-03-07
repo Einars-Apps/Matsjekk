@@ -1,25 +1,47 @@
 // Farmshops client: filters, map, route search and Google Maps area search
 (async function () {
-  const dataUrls = [
+  const pageConfig = (window.MAT_SJEKK_PAGE_CONFIG && typeof window.MAT_SJEKK_PAGE_CONFIG === 'object')
+    ? window.MAT_SJEKK_PAGE_CONFIG
+    : {};
+  const defaultDataUrls = [
     'data/farmshops.json',
     '/data/farmshops.json',
     '../../docs/data/farmshops.json',
   ];
-  const fallbackUrls = [
+  const defaultFallbackUrls = [
     'data/farmshops.example.json',
     '/data/farmshops.example.json',
     '../../docs/data/farmshops.example.json',
   ];
+  const defaultExtraMergeDataUrls = [
+    'data/organic_farmshops.json',
+    '/data/organic_farmshops.json',
+    '../../docs/data/organic_farmshops.json',
+  ];
+
+  const dataUrls = Array.isArray(pageConfig.dataUrls) && pageConfig.dataUrls.length
+    ? pageConfig.dataUrls
+    : defaultDataUrls;
+  const fallbackUrls = Array.isArray(pageConfig.fallbackUrls) && pageConfig.fallbackUrls.length
+    ? pageConfig.fallbackUrls
+    : defaultFallbackUrls;
+  const extraMergeDataUrls = Array.isArray(pageConfig.extraMergeDataUrls)
+    ? pageConfig.extraMergeDataUrls
+    : defaultExtraMergeDataUrls;
+
   const areaCacheUrls = [
     'data/farmshops_area_cache.json',
     '/data/farmshops_area_cache.json',
     '../../docs/data/farmshops_area_cache.json',
   ];
-  const countrySliceBasePaths = [
+  const defaultCountrySliceBasePaths = [
     'data/farmshops_by_country',
     '/data/farmshops_by_country',
     '../../docs/data/farmshops_by_country',
   ];
+  const countrySliceBasePaths = Array.isArray(pageConfig.countrySliceBasePaths) && pageConfig.countrySliceBasePaths.length
+    ? pageConfig.countrySliceBasePaths
+    : defaultCountrySliceBasePaths;
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
@@ -28,6 +50,8 @@
   const countrySliceInFlight = new Map();
   let allShopsCache = null;
   let allShopsLoaded = false;
+  let extraMergeCache = null;
+  let extraMergeLoaded = false;
   const COUNTRY_INITIAL_PREVIEW_LIMIT_MOBILE = 200;
   const COUNTRY_INITIAL_PREVIEW_LIMIT_DESKTOP = 500;
   let loadedScopeCountryCode = '';
@@ -411,6 +435,7 @@
   const introTextEl = document.getElementById('introText');
   const topHomeTabEl = document.getElementById('topHomeTab');
   const topFarmshopsTabEl = document.getElementById('topFarmshopsTab');
+  const topOrganicTabEl = document.getElementById('topOrganicTab');
   const topImmigrantTabEl = document.getElementById('topImmigrantTab');
   const topNewsTabEl = document.getElementById('topNewsTab');
   const topContactTabEl = document.getElementById('topContactTab');
@@ -452,7 +477,7 @@
   const ENABLE_LIVE_ENRICHMENT = false;
   const OVERPASS_FETCH_TIMEOUT_MS = 5500;
 
-  const LANGUAGE_STORAGE_KEY = 'matsjekk_farmshops_lang';
+  const LANGUAGE_STORAGE_KEY = (pageConfig.languageStorageKey || 'matsjekk_farmshops_lang').toString();
   const SUPPORTED_LANGUAGES = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
   const PAGE_TRANSLATIONS = {
     nb: {
@@ -461,6 +486,7 @@
       introText: 'Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
       topHomeTab: 'Hjem',
       topFarmshopsTab: 'Gårdsbutikker',
+      topOrganicTab: 'Økologiske gårdsbutikker',
       topImmigrantTab: 'Innvandrerbutikker',
       topNewsTab: 'Nyheter og media',
       topContactTab: 'Kontakt oss',
@@ -520,6 +546,7 @@
       introText: 'Find local producers and farm shops. Filter by country → county/region → municipality, search products, and plan routes.',
       topHomeTab: 'Home',
       topFarmshopsTab: 'Farm Shops',
+      topOrganicTab: 'Organic Farm Shops',
       topImmigrantTab: 'Immigrant Shops',
       topNewsTab: 'News & Media',
       topContactTab: 'Contact us',
@@ -574,6 +601,13 @@
       quickReportDefaultReason: 'Does not appear to be a real farm shop.',
     },
   };
+  if (pageConfig.translationOverrides && typeof pageConfig.translationOverrides === 'object') {
+    Object.entries(pageConfig.translationOverrides).forEach(([code, overrides]) => {
+      if (!overrides || typeof overrides !== 'object') return;
+      const base = PAGE_TRANSLATIONS[code] || PAGE_TRANSLATIONS.en;
+      PAGE_TRANSLATIONS[code] = { ...base, ...overrides };
+    });
+  }
   let currentPageLanguage = 'nb';
 
   function languageDict(languageCode) {
@@ -615,6 +649,7 @@
     if (introTextEl) introTextEl.textContent = translate('introText');
     if (topHomeTabEl) topHomeTabEl.textContent = translate('topHomeTab');
     if (topFarmshopsTabEl) topFarmshopsTabEl.textContent = translate('topFarmshopsTab');
+    if (topOrganicTabEl) topOrganicTabEl.textContent = translate('topOrganicTab');
     if (topImmigrantTabEl) topImmigrantTabEl.textContent = translate('topImmigrantTab');
     if (topNewsTabEl) topNewsTabEl.textContent = translate('topNewsTab');
     if (topContactTabEl) topContactTabEl.textContent = translate('topContactTab');
@@ -1028,9 +1063,37 @@
     if (allShopsLoaded && Array.isArray(allShopsCache)) return allShopsCache;
     const payload = await loadFirstAvailable(dataUrls);
     const normalized = (Array.isArray(payload) ? payload : []).map(normalizeShop);
-    allShopsCache = normalized;
+    allShopsCache = await mergeWithExtraDataset(normalized);
     allShopsLoaded = true;
-    return normalized;
+    return allShopsCache;
+  }
+
+  async function loadExtraMergeDataset() {
+    if (extraMergeLoaded && Array.isArray(extraMergeCache)) return extraMergeCache;
+    if (!Array.isArray(extraMergeDataUrls) || !extraMergeDataUrls.length) {
+      extraMergeCache = [];
+      extraMergeLoaded = true;
+      return extraMergeCache;
+    }
+
+    try {
+      const payload = await loadFirstAvailable(extraMergeDataUrls);
+      extraMergeCache = (Array.isArray(payload) ? payload : []).map(normalizeShop);
+    } catch (_) {
+      extraMergeCache = [];
+    }
+    extraMergeLoaded = true;
+    return extraMergeCache;
+  }
+
+  async function mergeWithExtraDataset(rows, countryCode = '') {
+    const baseRows = Array.isArray(rows) ? rows : [];
+    const extras = await loadExtraMergeDataset();
+    if (!extras.length) return baseRows;
+    if (countryCode) {
+      return mergeShopLists(baseRows, extras.filter((shop) => !shop.countryCode || shop.countryCode === countryCode));
+    }
+    return mergeShopLists(baseRows, extras);
   }
 
   async function ensureShopScope(countryCode, options = {}) {
@@ -1046,7 +1109,8 @@
     try {
       const scoped = await loadCountrySlice(cc);
       if (scoped.length) {
-        shops = previewOnly ? buildCountryPreview(scoped, initialPreviewLimit()) : scoped;
+        const scopedWithExtra = await mergeWithExtraDataset(scoped, cc);
+        shops = previewOnly ? buildCountryPreview(scopedWithExtra, initialPreviewLimit()) : scopedWithExtra;
         loadedScopeCountryCode = cc;
         loadedScopeIsPreview = previewOnly;
         return shops;

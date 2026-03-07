@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="google-maps-api-key" content="AIzaSyCNqJylH-TK3UEeLB8m5HylyfpVeG5iqBc">
-  <title>Gårdsbutikker — Mat Sjekk</title>
+  <title>Økologiske gårdsbutikker — Mat Sjekk</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;padding:0}
@@ -96,8 +96,8 @@
           <option value="sv">Svenska</option>
         </select>
       </div>
-      <h1 id="pageTitle">Gårdsbutikker</h1>
-      <p id="introText">Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+      <h1 id="pageTitle">Økologiske gårdsbutikker</h1>
+      <p id="introText">Finn økologiske gårdsbutikker fra Økoguiden. Disse vises også under Gårdsbutikker, men ikke omvendt.</p>
       <nav class="top-tabs" aria-label="Hovednavigasjon">
         <a id="topHomeTab" href="index.html">Hjem</a>
         <a id="topFarmshopsTab" href="gardsbutikker.html">Gårdsbutikker</a>
@@ -151,7 +151,7 @@
     <div id="mapStatus" class="map-status" aria-live="polite"></div>
 
     <div class="result-header">
-      <h2 id="resultsHeading">Gårdsbutikker nær deg</h2>
+      <h2 id="resultsHeading">Økologiske gårdsbutikker nær deg</h2>
     </div>
     <div class="content-grid">
       <div class="list" id="list"></div>
@@ -162,7 +162,7 @@
         </div>
         <section class="feedback-panel" aria-labelledby="suggestionHeading">
           <h3 id="suggestionHeading">Foreslå nytt sted</h3>
-          <p id="suggestionIntro">Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.</p>
+          <p id="suggestionIntro">Mangler det en økologisk gårdsbutikk? Send inn navn, kommune og land til moderering.</p>
           <div class="feedback-field">
             <label for="suggestName" id="suggestNameLabel">Navn</label>
             <input id="suggestName" type="text" placeholder="F.eks. Solheim gård" />
@@ -214,6 +214,41 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+  <script>
+    window.MAT_SJEKK_PAGE_CONFIG = {
+      dataUrls: [
+        'data/organic_farmshops.json',
+        '/data/organic_farmshops.json',
+        '../../docs/data/organic_farmshops.json',
+      ],
+      fallbackUrls: [
+        'data/organic_farmshops.example.json',
+        '/data/organic_farmshops.example.json',
+        '../../docs/data/organic_farmshops.example.json',
+      ],
+      countrySliceBasePaths: [],
+      extraMergeDataUrls: [],
+      languageStorageKey: 'matsjekk_organic_farmshops_lang',
+      translationOverrides: {
+        nb: {
+          pageTitle: 'Økologiske gårdsbutikker',
+          introText: 'Finn økologiske gårdsbutikker fra Økoguiden. Disse vises også under Gårdsbutikker, men ikke omvendt.',
+          resultsHeadingDefault: 'Økologiske gårdsbutikker nær deg',
+          nearbyHeadingPrefix: 'Økologiske gårdsbutikker nær deg',
+          suggestionIntro: 'Mangler det en økologisk gårdsbutikk? Send inn navn, kommune og land til moderering.',
+          quickReportDefaultReason: 'Virker ikke som en økologisk gårdsbutikk.',
+        },
+        en: {
+          pageTitle: 'Organic Farm Shops',
+          introText: 'Find organic farm shops from Økoguiden. These are also shown under Farm Shops, but not the other way around.',
+          resultsHeadingDefault: 'Organic farm shops near you',
+          nearbyHeadingPrefix: 'Organic farm shops near you',
+          suggestionIntro: 'Missing an organic farm shop? Submit name, municipality and country for moderation.',
+          quickReportDefaultReason: 'Does not appear to be an organic farm shop.',
+        },
+      },
+    };
+  </script>
   <script src="js/gardsbutikker.js?v=20260307a"></script>
 </body>
 </html>
