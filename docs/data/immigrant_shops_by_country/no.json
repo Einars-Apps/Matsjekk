@@ -207,8 +207,8 @@
     "id": "immigrant_osm_node_1768092001",
     "name": "Asia matvarer",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Trondelag",
+    "municipality": "Trondheim",
     "products": [
       "International food",
       "Imported goods"
@@ -343,8 +343,8 @@
     "id": "immigrant_osm_node_6872857949",
     "name": "Asian Food Market",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Vestland",
+    "municipality": "Bergen",
     "products": [
       "International food",
       "Imported goods"
@@ -445,8 +445,8 @@
     "id": "immigrant_osm_node_4630212292",
     "name": "Buran Asia Mat",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Trondelag",
+    "municipality": "Trondheim",
     "products": [
       "International food",
       "Imported goods"
@@ -598,8 +598,8 @@
     "id": "immigrant_osm_node_1652908193",
     "name": "Global Food",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Vestland",
+    "municipality": "Bergen",
     "products": [
       "International food",
       "Imported goods"
@@ -734,8 +734,8 @@
     "id": "immigrant_osm_node_2836197338",
     "name": "IMS Internasjonal Mat Stavanger",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Rogaland",
+    "municipality": "Stavanger",
     "products": [
       "International food",
       "Imported goods"
@@ -819,8 +819,8 @@
     "id": "immigrant_osm_node_3962005377",
     "name": "Lien Asiatisk Matvare",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Vestland",
+    "municipality": "Bergen",
     "products": [
       "International food",
       "Imported goods"
@@ -836,8 +836,8 @@
     "id": "immigrant_osm_node_3326662824",
     "name": "Lille Asia international food supermaket",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Rogaland",
+    "municipality": "Stavanger",
     "products": [
       "International food",
       "Imported goods"
@@ -865,6 +865,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/10616577706"
+  },
+  {
+    "id": "immigrant_osm_node_4284825409",
+    "name": "Longyearbyen Thai Shop",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 78.2215942,
+    "lon": 15.6429802,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4284825409"
   },
   {
     "id": "immigrant_manual_marmaris_dagligvare",
@@ -938,8 +955,8 @@
     "id": "immigrant_osm_node_3124188106",
     "name": "Orient - Asiatiske dagligvarer",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Trondelag",
+    "municipality": "Trondheim",
     "products": [
       "International food",
       "Imported goods"
@@ -955,8 +972,8 @@
     "id": "immigrant_osm_node_13059642439",
     "name": "Orient Internasjonale Mstbutikk",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Troms",
+    "municipality": "Tromso",
     "products": [
       "International food",
       "Imported goods"
@@ -1023,8 +1040,8 @@
     "id": "immigrant_osm_node_3096378525",
     "name": "Polski Skleb",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Rogaland",
+    "municipality": "Stavanger",
     "products": [
       "International food",
       "Imported goods"
@@ -1040,8 +1057,8 @@
     "id": "immigrant_osm_node_6985747719",
     "name": "Polski Sklep",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Rogaland",
+    "municipality": "Stavanger",
     "products": [
       "International food",
       "Imported goods"
@@ -1052,6 +1069,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/6985747719"
+  },
+  {
+    "id": "immigrant_osm_node_7996587801",
+    "name": "Rungfa Thai Food",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 68.800044,
+    "lon": 16.542623,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7996587801"
   },
   {
     "id": "immigrant_osm_node_5336414521",
@@ -1148,7 +1182,7 @@
       "International food",
       "Imported goods"
     ],
-    "website": "https://www.facebook.com/sultanmarked/",
+    "website": "https://sultanmarked.no",
     "lat": 59.949266,
     "lon": 11.009671,
     "address": null,
@@ -1190,6 +1224,40 @@
     "source": "https://www.openstreetmap.org/node/7340698485"
   },
   {
+    "id": "immigrant_osm_relation_6659798",
+    "name": "Tan Thaimat",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Voss",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.6287852,
+    "lon": 6.4349575,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/relation/6659798"
+  },
+  {
+    "id": "immigrant_osm_node_10942414020",
+    "name": "Tana Thai",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 70.1987412,
+    "lon": 28.1880113,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10942414020"
+  },
+  {
     "id": "immigrant_manual_tayyib_halal_mat",
     "name": "Tayyib Halal Mat",
     "country": "Norway",
@@ -1227,8 +1295,8 @@
     "id": "immigrant_osm_node_12291801644",
     "name": "Tiller Asiamat",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Trondelag",
+    "municipality": "Trondheim",
     "products": [
       "International food",
       "Imported goods"
@@ -1244,8 +1312,8 @@
     "id": "immigrant_osm_node_3125994010",
     "name": "Trimco Asiatisk mat",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Vestland",
+    "municipality": "Bergen",
     "products": [
       "International food",
       "Imported goods"

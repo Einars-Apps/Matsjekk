@@ -9,6 +9,7 @@ Sources:
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import requests
@@ -46,6 +47,7 @@ BASE_KEYWORDS = [
     "polski",
     "polish",
     "balkan",
+    "thai",
 ]
 
 CHAIN_KEYWORDS = ["fudi", "sultan", "global food", "alanya"]
@@ -82,6 +84,11 @@ def _normalize_website(value):
     if raw.startswith("http://") or raw.startswith("https://"):
         return raw
     return f"https://{raw}"
+
+
+def _slugify_name(value):
+    slug = re.sub(r"[^a-z0-9]+", "_", (value or "").lower())
+    return slug.strip("_")
 
 
 def _address_from_tags(tags):
@@ -161,7 +168,7 @@ def add_manual_asker_items(items):
     for name, lat, lon, source_url in manual:
         items.append(
             {
-                "id": f"immigrant_manual_{name.lower().replace(' ', '_')}",
+                "id": f"immigrant_manual_{_slugify_name(name)}",
                 "name": name,
                 "country": "Norway",
                 "region": "Akershus",
@@ -198,11 +205,36 @@ def add_manual_oslo_items(items):
     for name, lat, lon, source_url in manual:
         items.append(
             {
-                "id": f"immigrant_manual_{name.lower().replace(' ', '_')}",
+                "id": f"immigrant_manual_{_slugify_name(name)}",
                 "name": name,
                 "country": "Norway",
                 "region": "Oslo",
                 "municipality": "Oslo",
+                "products": ["International food", "Imported goods"],
+                "website": None,
+                "lat": lat,
+                "lon": lon,
+                "address": None,
+                "category": "Innvandrerbutikk",
+                "source": source_url,
+            }
+        )
+
+
+def add_manual_city_items(items):
+    # Deterministic city seed for Voss where OSM keyword matching can be sparse.
+    manual = [
+        ("Tan Thaimat", 60.6287852, 6.4349575, "Voss", "Vestland", "https://www.openstreetmap.org/node/6606855415"),
+    ]
+
+    for name, lat, lon, municipality, region, source_url in manual:
+        items.append(
+            {
+                "id": f"immigrant_manual_{_slugify_name(name)}",
+                "name": name,
+                "country": "Norway",
+                "region": region,
+                "municipality": municipality,
                 "products": ["International food", "Imported goods"],
                 "website": None,
                 "lat": lat,
@@ -284,6 +316,57 @@ def fill_missing_admin_fields(items):
         (59.9379660, 10.7642296),  # Sultan
     ]
 
+    city_bboxes = [
+        {
+            "municipality": "Bergen",
+            "region": "Vestland",
+            "south": 60.30,
+            "west": 5.20,
+            "north": 60.45,
+            "east": 5.45,
+        },
+        {
+            "municipality": "Trondheim",
+            "region": "Trondelag",
+            "south": 63.36,
+            "west": 10.30,
+            "north": 63.49,
+            "east": 10.55,
+        },
+        {
+            "municipality": "Voss",
+            "region": "Vestland",
+            "south": 60.58,
+            "west": 6.35,
+            "north": 60.70,
+            "east": 6.60,
+        },
+        {
+            "municipality": "Stavanger",
+            "region": "Rogaland",
+            "south": 58.90,
+            "west": 5.62,
+            "north": 59.00,
+            "east": 5.82,
+        },
+        {
+            "municipality": "Kristiansand",
+            "region": "Agder",
+            "south": 58.11,
+            "west": 7.90,
+            "north": 58.21,
+            "east": 8.10,
+        },
+        {
+            "municipality": "Tromso",
+            "region": "Troms",
+            "south": 69.58,
+            "west": 18.84,
+            "north": 69.70,
+            "east": 19.10,
+        },
+    ]
+
     for item in items:
         name = (item.get("name") or "").strip().lower()
         lat = _to_float(item.get("lat"))
@@ -319,8 +402,31 @@ def fill_missing_admin_fields(items):
                     item["region"] = "Oslo"
                     break
 
+            for bbox in city_bboxes:
+                if (
+                    bbox["south"] <= lat <= bbox["north"]
+                    and bbox["west"] <= lon <= bbox["east"]
+                ):
+                    if not item.get("municipality"):
+                        item["municipality"] = bbox["municipality"]
+                    if not item.get("region"):
+                        item["region"] = bbox["region"]
+                    break
+
         if (item.get("municipality") or "").strip().lower() == "oslo" and not item.get("region"):
             item["region"] = "Oslo"
+        if (item.get("municipality") or "").strip().lower() == "bergen" and not item.get("region"):
+            item["region"] = "Vestland"
+        if (item.get("municipality") or "").strip().lower() == "trondheim" and not item.get("region"):
+            item["region"] = "Trondelag"
+        if (item.get("municipality") or "").strip().lower() == "voss" and not item.get("region"):
+            item["region"] = "Vestland"
+        if (item.get("municipality") or "").strip().lower() == "stavanger" and not item.get("region"):
+            item["region"] = "Rogaland"
+        if (item.get("municipality") or "").strip().lower() == "kristiansand" and not item.get("region"):
+            item["region"] = "Agder"
+        if (item.get("municipality") or "").strip().lower() == "tromso" and not item.get("region"):
+            item["region"] = "Troms"
 
         if not item.get("municipality"):
             item["municipality"] = None
@@ -338,6 +444,7 @@ def main():
 
     add_manual_asker_items(items)
     add_manual_oslo_items(items)
+    add_manual_city_items(items)
     add_verified_chain_seeds(items)
     items = dedupe(items)
     fill_missing_admin_fields(items)
