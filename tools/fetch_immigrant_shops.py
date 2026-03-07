@@ -238,6 +238,15 @@ def dedupe(items):
 
 def fill_missing_admin_fields(items):
     # Keep generation deterministic and fast; avoid bulk reverse-geocoding rate limits.
+    oslo_coordinate_markers = [
+        (59.9516541, 10.8754212),  # Asia Town
+        (59.9125093, 10.7644966),  # Batat import
+        (59.9613444, 10.8819687),  # Bazaar
+        (59.9609384, 10.9263121),  # Scanasia
+        (59.9141379, 10.7515608),  # Scanasia Asian Supermarket
+        (59.9379660, 10.7642296),  # Sultan
+    ]
+
     for item in items:
         name = (item.get("name") or "").strip().lower()
         lat = _to_float(item.get("lat"))
@@ -265,6 +274,16 @@ def fill_missing_admin_fields(items):
                 item["region"] = "Troms"
                 if not item.get("website"):
                     item["website"] = "https://www.facebook.com/alanyaimport/"
+
+        if lat is not None and lon is not None:
+            for marker_lat, marker_lon in oslo_coordinate_markers:
+                if abs(lat - marker_lat) < 0.01 and abs(lon - marker_lon) < 0.01:
+                    item["municipality"] = "Oslo"
+                    item["region"] = "Oslo"
+                    break
+
+        if (item.get("municipality") or "").strip().lower() == "oslo" and not item.get("region"):
+            item["region"] = "Oslo"
 
         if not item.get("municipality"):
             item["municipality"] = None

@@ -207,8 +207,8 @@
     "id": "immigrant_osm_node_1349754419",
     "name": "Asia Town",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
@@ -377,8 +377,8 @@
     "id": "immigrant_osm_node_3655282221",
     "name": "Batat import",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
@@ -394,8 +394,8 @@
     "id": "immigrant_osm_node_3768066726",
     "name": "Bazaar",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
@@ -853,8 +853,8 @@
     "id": "immigrant_osm_node_5336414521",
     "name": "Scanasia",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
@@ -870,8 +870,8 @@
     "id": "immigrant_osm_node_3373623956",
     "name": "Scanasia Asian Supermarket",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
@@ -921,8 +921,8 @@
     "id": "immigrant_osm_node_840560767",
     "name": "Sultan",
     "country": "Norway",
-    "region": null,
-    "municipality": null,
+    "region": "Oslo",
+    "municipality": "Oslo",
     "products": [
       "International food",
       "Imported goods"
