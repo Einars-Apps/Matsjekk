@@ -73,6 +73,18 @@
   },
   {
     "id": 127349111,
+    "name": "Lazo Lipovac GemÃ¼secenter",
+    "country": "Liechtenstein",
+    "region": null,
+    "municipality": "Schaan",
+    "products": [],
+    "website": null,
+    "lat": 47.1655377,
+    "lon": 9.5077088,
+    "address": "Steckergass"
+  },
+  {
+    "id": 127349111,
     "name": "Lazo Lipovac Gemüsecenter",
     "country": "Liechtenstein",
     "region": null,

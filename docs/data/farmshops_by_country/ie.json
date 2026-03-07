@@ -744,6 +744,42 @@
     "address": null
   },
   {
+    "id": 9064692492,
+    "name": "GairdÃ­n Beag",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1325398,
+    "lon": -10.4505406,
+    "address": null
+  },
+  {
+    "id": 12623210510,
+    "name": "TirlÃ¡n Farmlife",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.tirlanfarmlife.com/store/Kells",
+    "lat": 52.5385736,
+    "lon": -7.2839153,
+    "address": null
+  },
+  {
+    "id": 1268137238,
+    "name": "Bainne BÃ³",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.4283795,
+    "lon": -6.30318,
+    "address": "Sandyhill"
+  },
+  {
     "id": 10575364582,
     "name": "Farm shop 10575364582",
     "country": "Ireland",
@@ -2512,7 +2548,7 @@
     "name": "T. Murphy",
     "country": "Ireland",
     "region": null,
-    "municipality": "Dún Laoghaire",
+    "municipality": "DÃºn Laoghaire",
     "products": [],
     "website": null,
     "lat": 53.2930979,
@@ -3409,7 +3445,7 @@
   },
   {
     "id": 155364033,
-    "name": "Brown’s Fruit & Veg",
+    "name": "Brownâ€™s Fruit & Veg",
     "country": "Ireland",
     "region": null,
     "municipality": "Portlaoise",
@@ -3753,7 +3789,7 @@
     "website": null,
     "lat": 54.2236835,
     "lon": -9.9881162,
-    "address": "An Phríomh Shraíd"
+    "address": "An PhrÃ­omh ShraÃ­d"
   },
   {
     "id": 915559614,
@@ -3970,5 +4006,17 @@
     "lat": 52.6636239,
     "lon": -8.6220023,
     "address": null
+  },
+  {
+    "id": 155364033,
+    "name": "Brown’s Fruit & Veg",
+    "country": "Ireland",
+    "region": null,
+    "municipality": "Portlaoise",
+    "products": [],
+    "website": "https://www.brownsfruitandveg.ie",
+    "lat": 53.0336492,
+    "lon": -7.3002938,
+    "address": "Bull Lane"
   }
 ]

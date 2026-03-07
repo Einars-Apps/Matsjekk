@@ -1044,6 +1044,210 @@
     "address": null
   },
   {
+    "id": 1777061741,
+    "name": "RaÃ§Ãµes e Produtos AgrÃ­colas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 32.7186065,
+    "lon": -16.7678519,
+    "address": null
+  },
+  {
+    "id": 3804700749,
+    "name": "Mercado BiolÃ³gico de Loures",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.cm-loures.pt/Conteudo.aspx?Displayid=824",
+    "lat": 38.840838,
+    "lon": -9.1620722,
+    "address": null
+  },
+  {
+    "id": 6380034586,
+    "name": "Quinta biolÃ³gica da Herdeira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.facebook.com/Quinta-da-Herdeira-Agricultura-BiolÃ³gica-170728029760009/",
+    "lat": 38.6133165,
+    "lon": -9.1203933,
+    "address": null
+  },
+  {
+    "id": 11078723217,
+    "name": "Bio Rui e InÃªs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3604716,
+    "lon": -9.379938,
+    "address": null
+  },
+  {
+    "id": 11902352848,
+    "name": "Barraca do PortuguÃªs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 33.0593123,
+    "lon": -16.3339439,
+    "address": null
+  },
+  {
+    "id": 11902352849,
+    "name": "Barraca do AndrÃ©",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 33.0592499,
+    "lon": -16.3339455,
+    "address": null
+  },
+  {
+    "id": 12329523391,
+    "name": "Loja SÃ£o",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "1200-820 Lisboa",
+    "products": [],
+    "website": null,
+    "lat": 38.7115937,
+    "lon": -9.1526063,
+    "address": "Rua de SÃ£o Bento"
+  },
+  {
+    "id": 12816625287,
+    "name": "HÃºmus - Agricultura BiolÃ³gica",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Arcozelo",
+    "products": [],
+    "website": "https://humusbio.pt/",
+    "lat": 41.0423096,
+    "lon": -8.640247,
+    "address": "Travessa de Anselmo Braancamp"
+  },
+  {
+    "id": 13163357307,
+    "name": "Casa AgrÃ­cola InovTerra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0695114,
+    "lon": -7.7494264,
+    "address": null
+  },
+  {
+    "id": 13261269282,
+    "name": "Bio Rui e InÃªs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "R. Nossa Sra. do Socorro"
+  },
+  {
+    "id": 246550689,
+    "name": "FÃ¡brica Secil-OutÃ£o",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.secil-group.com/missao-visao-valores/a-secil-no-mundo/a-secil-no-mundo-portugal/",
+    "lat": 38.4967412,
+    "lon": -8.9358411,
+    "address": null
+  },
+  {
+    "id": 299678814,
+    "name": "AviÃ¡rio Propinto",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3800773,
+    "lon": -9.2661766,
+    "address": null
+  },
+  {
+    "id": 430620328,
+    "name": "Frutas - JoÃ£o Verissimo Mendes",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1158944,
+    "lon": -7.4812,
+    "address": null
+  },
+  {
+    "id": 885497183,
+    "name": "AviÃ¡rio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9575687,
+    "lon": -8.2288214,
+    "address": null
+  },
+  {
+    "id": 1036350819,
+    "name": "Benvindo & Augusto BrandÃ£o Lda",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1570191,
+    "lon": -8.5662978,
+    "address": null
+  },
+  {
+    "id": 1076371239,
+    "name": "talhÃ£o 2",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7608104,
+    "lon": -9.144899,
+    "address": null
+  },
+  {
+    "id": 1138171552,
+    "name": "GrÃ¼ne Labs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Soalheira",
+    "products": [],
+    "website": "https://grunelabs.com/portugal/",
+    "lat": 40.0448229,
+    "lon": -7.4683812,
+    "address": "Parque Industrial Gardunha Sul - Estrada Nacional 18, km 80,5"
+  },
+  {
     "id": 3885889825,
     "name": "Farm shop Funchal",
     "country": "Portugal",
@@ -11689,7 +11893,7 @@
   },
   {
     "id": 768706718,
-    "name": "Mercado de Loulé",
+    "name": "Mercado de LoulÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -11833,7 +12037,7 @@
   },
   {
     "id": 1237865888,
-    "name": "Mercearia Glória Padeira",
+    "name": "Mercearia GlÃ³ria Padeira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -11869,7 +12073,7 @@
   },
   {
     "id": 1261359623,
-    "name": "Frutaria \"Zé Luis\"",
+    "name": "Frutaria \"ZÃ© Luis\"",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -11881,7 +12085,7 @@
   },
   {
     "id": 1272121438,
-    "name": "Praça João Azeve Coutinho",
+    "name": "PraÃ§a JoÃ£o Azeve Coutinho",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12013,7 +12217,7 @@
   },
   {
     "id": 1401030424,
-    "name": "Loja da Terra / Casa Agrícola",
+    "name": "Loja da Terra / Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12121,7 +12325,7 @@
   },
   {
     "id": 1487235299,
-    "name": "Frutaria Santo Ovídio",
+    "name": "Frutaria Santo OvÃ­dio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12297,7 +12501,7 @@
     "website": null,
     "lat": 38.8299683,
     "lon": -9.1669334,
-    "address": "Rua da República"
+    "address": "Rua da RepÃºblica"
   },
   {
     "id": 1544249823,
@@ -12313,7 +12517,7 @@
   },
   {
     "id": 1545661286,
-    "name": "Supermercado Biológico Brio",
+    "name": "Supermercado BiolÃ³gico Brio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12373,7 +12577,7 @@
   },
   {
     "id": 1575636418,
-    "name": "Quadrimóvel",
+    "name": "QuadrimÃ³vel",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12409,7 +12613,7 @@
   },
   {
     "id": 1581892777,
-    "name": "Casinha do António",
+    "name": "Casinha do AntÃ³nio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12421,7 +12625,7 @@
   },
   {
     "id": 1581908398,
-    "name": "Mercearia Senhor Zé",
+    "name": "Mercearia Senhor ZÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12457,7 +12661,7 @@
   },
   {
     "id": 1584203705,
-    "name": "Centro Comercial Santo António",
+    "name": "Centro Comercial Santo AntÃ³nio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12469,7 +12673,7 @@
   },
   {
     "id": 1588263975,
-    "name": "Sabores e Delícias II",
+    "name": "Sabores e DelÃ­cias II",
     "country": "Portugal",
     "region": null,
     "municipality": "Carnide",
@@ -12477,7 +12681,7 @@
     "website": null,
     "lat": 38.7621933,
     "lon": -9.1795446,
-    "address": "Rua Padre Américo"
+    "address": "Rua Padre AmÃ©rico"
   },
   {
     "id": 1588881131,
@@ -12553,7 +12757,7 @@
   },
   {
     "id": 1590185048,
-    "name": "Praças de Olhão",
+    "name": "PraÃ§as de OlhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12565,7 +12769,7 @@
   },
   {
     "id": 1590185100,
-    "name": "Praças de Olhão",
+    "name": "PraÃ§as de OlhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12613,7 +12817,7 @@
   },
   {
     "id": 1625389188,
-    "name": "Mercado da Consolação",
+    "name": "Mercado da ConsolaÃ§Ã£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12697,7 +12901,7 @@
   },
   {
     "id": 1677103016,
-    "name": "Sabores e Delícias",
+    "name": "Sabores e DelÃ­cias",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -12741,7 +12945,7 @@
     "website": null,
     "lat": 40.6432019,
     "lon": -8.6445731,
-    "address": "Avenida Doutor Lourenço Peixinho"
+    "address": "Avenida Doutor LourenÃ§o Peixinho"
   },
   {
     "id": 1699791531,
@@ -12781,7 +12985,7 @@
   },
   {
     "id": 1714803310,
-    "name": "Clínica Veterinária de Ermesinde",
+    "name": "ClÃ­nica VeterinÃ¡ria de Ermesinde",
     "country": "Portugal",
     "region": null,
     "municipality": "Ermesinde",
@@ -12789,7 +12993,7 @@
     "website": null,
     "lat": 41.2098117,
     "lon": -8.5553445,
-    "address": "Avenida João de Deus"
+    "address": "Avenida JoÃ£o de Deus"
   },
   {
     "id": 1738112485,
@@ -12997,7 +13201,7 @@
   },
   {
     "id": 1801417304,
-    "name": "Mercado Agrícola do Santo da Serra",
+    "name": "Mercado AgrÃ­cola do Santo da Serra",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13057,7 +13261,7 @@
   },
   {
     "id": 1809831819,
-    "name": "Praça da Rua",
+    "name": "PraÃ§a da Rua",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13081,7 +13285,7 @@
   },
   {
     "id": 1813899053,
-    "name": "Frutaria Santo António",
+    "name": "Frutaria Santo AntÃ³nio",
     "country": "Portugal",
     "region": null,
     "municipality": "Funchal",
@@ -13257,7 +13461,7 @@
     "website": null,
     "lat": 38.7045329,
     "lon": -9.3904456,
-    "address": "Rua Samuel Gonçalves Sanches"
+    "address": "Rua Samuel GonÃ§alves Sanches"
   },
   {
     "id": 1936888402,
@@ -13285,7 +13489,7 @@
   },
   {
     "id": 1937840191,
-    "name": "Os Irmãos",
+    "name": "Os IrmÃ£os",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13381,7 +13585,7 @@
   },
   {
     "id": 2006254241,
-    "name": "Grande Bazar Chinês",
+    "name": "Grande Bazar ChinÃªs",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13393,7 +13597,7 @@
   },
   {
     "id": 2006273368,
-    "name": "Mercearia da Praça",
+    "name": "Mercearia da PraÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13417,7 +13621,7 @@
   },
   {
     "id": 2043135000,
-    "name": "Talho de Golães",
+    "name": "Talho de GolÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13429,7 +13633,7 @@
   },
   {
     "id": 2124886547,
-    "name": "Mercado Praia da Vitória",
+    "name": "Mercado Praia da VitÃ³ria",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13477,7 +13681,7 @@
   },
   {
     "id": 2163996648,
-    "name": "Frutaria Aquário",
+    "name": "Frutaria AquÃ¡rio",
     "country": "Portugal",
     "region": null,
     "municipality": "Lisboa",
@@ -13597,7 +13801,7 @@
   },
   {
     "id": 2198617277,
-    "name": "Mercado Produtos Biológicos",
+    "name": "Mercado Produtos BiolÃ³gicos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13609,7 +13813,7 @@
   },
   {
     "id": 2199672835,
-    "name": "Época da Fruta",
+    "name": "Ã‰poca da Fruta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13621,7 +13825,7 @@
   },
   {
     "id": 2208435955,
-    "name": "Casa Agrícola",
+    "name": "Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13741,7 +13945,7 @@
   },
   {
     "id": 2365786062,
-    "name": "Bazar Chinês",
+    "name": "Bazar ChinÃªs",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13753,7 +13957,7 @@
   },
   {
     "id": 2365786073,
-    "name": "Quirós",
+    "name": "QuirÃ³s",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13765,7 +13969,7 @@
   },
   {
     "id": 2367081810,
-    "name": "Casa Januário",
+    "name": "Casa JanuÃ¡rio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13825,7 +14029,7 @@
   },
   {
     "id": 2409846247,
-    "name": "Agricultura Tradicional de Azeitão",
+    "name": "Agricultura Tradicional de AzeitÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13845,7 +14049,7 @@
     "website": null,
     "lat": 38.7264731,
     "lon": -9.1653951,
-    "address": "Calçada da Quintinha"
+    "address": "CalÃ§ada da Quintinha"
   },
   {
     "id": 2416873555,
@@ -13885,7 +14089,7 @@
   },
   {
     "id": 2538562971,
-    "name": "Mercado de Armação de Pêra",
+    "name": "Mercado de ArmaÃ§Ã£o de PÃªra",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13945,7 +14149,7 @@
   },
   {
     "id": 2616449984,
-    "name": "Casa Agrícola de Barco",
+    "name": "Casa AgrÃ­cola de Barco",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13957,7 +14161,7 @@
   },
   {
     "id": 2617754871,
-    "name": "Empresa Técnica Agrícola",
+    "name": "Empresa TÃ©cnica AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -13981,7 +14185,7 @@
   },
   {
     "id": 2623399443,
-    "name": "Casa Cerdeiras - João António Silva",
+    "name": "Casa Cerdeiras - JoÃ£o AntÃ³nio Silva",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14049,11 +14253,11 @@
     "website": null,
     "lat": 38.6707674,
     "lon": -9.1589171,
-    "address": "Avenida da Fundação"
+    "address": "Avenida da FundaÃ§Ã£o"
   },
   {
     "id": 2632306275,
-    "name": "Cooperativa Agrícola de Viana do Castelo e Caminha",
+    "name": "Cooperativa AgrÃ­cola de Viana do Castelo e Caminha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14061,11 +14265,11 @@
     "website": null,
     "lat": 41.6988374,
     "lon": -8.8263064,
-    "address": "Rua Capitão Gaspar de Castro"
+    "address": "Rua CapitÃ£o Gaspar de Castro"
   },
   {
     "id": 2634101587,
-    "name": "Casa Caldas - loja da Correlhã",
+    "name": "Casa Caldas - loja da CorrelhÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14077,7 +14281,7 @@
   },
   {
     "id": 2634101602,
-    "name": "Cooperativa Agrícola dos Agricultores Vale do Lima",
+    "name": "Cooperativa AgrÃ­cola dos Agricultores Vale do Lima",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14109,11 +14313,11 @@
     "website": null,
     "lat": 41.9129488,
     "lon": -8.5612366,
-    "address": "Rua Dr. Bernardino António Gomes"
+    "address": "Rua Dr. Bernardino AntÃ³nio Gomes"
   },
   {
     "id": 2640027627,
-    "name": "Leonor Conceição Domingues - Monção",
+    "name": "Leonor ConceiÃ§Ã£o Domingues - MonÃ§Ã£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14125,7 +14329,7 @@
   },
   {
     "id": 2641342613,
-    "name": "CABasto - Cooperativa Agrícola de Cabeceiras de Basto",
+    "name": "CABasto - Cooperativa AgrÃ­cola de Cabeceiras de Basto",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14149,7 +14353,7 @@
   },
   {
     "id": 2643406286,
-    "name": "Casa Agrícola Clara Ramos",
+    "name": "Casa AgrÃ­cola Clara Ramos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14157,7 +14361,7 @@
     "website": null,
     "lat": 41.7376162,
     "lon": -7.4643733,
-    "address": "Rua Doutor José Timóteo Montalvão Machado"
+    "address": "Rua Doutor JosÃ© TimÃ³teo MontalvÃ£o Machado"
   },
   {
     "id": 2643406298,
@@ -14173,7 +14377,7 @@
   },
   {
     "id": 2644234444,
-    "name": "A Nordestina - Natalino dos Santos Gomes - Casa Agrícola",
+    "name": "A Nordestina - Natalino dos Santos Gomes - Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14181,7 +14385,7 @@
     "website": null,
     "lat": 41.4868332,
     "lon": -7.1795898,
-    "address": "Rua Doutor Álvaro Soares"
+    "address": "Rua Doutor Ãlvaro Soares"
   },
   {
     "id": 2644234447,
@@ -14197,7 +14401,7 @@
   },
   {
     "id": 2644234455,
-    "name": "Cooperativa Agrícola de Valpaços",
+    "name": "Cooperativa AgrÃ­cola de ValpaÃ§os",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14209,7 +14413,7 @@
   },
   {
     "id": 2644234469,
-    "name": "Sebastião Vila das Neves",
+    "name": "SebastiÃ£o Vila das Neves",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14221,7 +14425,7 @@
   },
   {
     "id": 2644234474,
-    "name": "Sanjufrutas (Armazém)",
+    "name": "Sanjufrutas (ArmazÃ©m)",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14281,7 +14485,7 @@
   },
   {
     "id": 2654872635,
-    "name": "Cooperativa Agrícola dos Lavradores do concelho de Valença",
+    "name": "Cooperativa AgrÃ­cola dos Lavradores do concelho de ValenÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14293,7 +14497,7 @@
   },
   {
     "id": 2654872660,
-    "name": "AgroVila - Paulo Jorge Brandão Gonçalves",
+    "name": "AgroVila - Paulo Jorge BrandÃ£o GonÃ§alves",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14317,7 +14521,7 @@
   },
   {
     "id": 2658071366,
-    "name": "Casa Agrícola de Mondim",
+    "name": "Casa AgrÃ­cola de Mondim",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14329,7 +14533,7 @@
   },
   {
     "id": 2659360329,
-    "name": "Casa Agrícola de Bragança",
+    "name": "Casa AgrÃ­cola de BraganÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14337,7 +14541,7 @@
     "website": null,
     "lat": 41.8090669,
     "lon": -6.7596031,
-    "address": "Avenida João da Cruz"
+    "address": "Avenida JoÃ£o da Cruz"
   },
   {
     "id": 2660370032,
@@ -14349,11 +14553,11 @@
     "website": null,
     "lat": 41.5492075,
     "lon": -6.9525963,
-    "address": "Bairro da Suécia"
+    "address": "Bairro da SuÃ©cia"
   },
   {
     "id": 2666941461,
-    "name": "Matosmix - rações Prestigium",
+    "name": "Matosmix - raÃ§Ãµes Prestigium",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14377,7 +14581,7 @@
   },
   {
     "id": 2712465059,
-    "name": "Cooperativa Agrícola Norte Transmontano",
+    "name": "Cooperativa AgrÃ­cola Norte Transmontano",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14397,11 +14601,11 @@
     "website": null,
     "lat": 41.4811389,
     "lon": -7.1912853,
-    "address": "Avenida Francisco Sá Carneiro"
+    "address": "Avenida Francisco SÃ¡ Carneiro"
   },
   {
     "id": 2717430659,
-    "name": "Cooperativa Agrícola Sabodouro",
+    "name": "Cooperativa AgrÃ­cola Sabodouro",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14437,7 +14641,7 @@
   },
   {
     "id": 2724117078,
-    "name": "Casa Agrícola de Delães",
+    "name": "Casa AgrÃ­cola de DelÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14449,7 +14653,7 @@
   },
   {
     "id": 2759605061,
-    "name": "Cooperativa Agrícola de Valença",
+    "name": "Cooperativa AgrÃ­cola de ValenÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14493,11 +14697,11 @@
     "website": null,
     "lat": 40.6436425,
     "lon": -8.6442694,
-    "address": "Avenida Doutor Lourenço Peixinho"
+    "address": "Avenida Doutor LourenÃ§o Peixinho"
   },
   {
     "id": 2810695730,
-    "name": "Dietética Alimentação e Saúde",
+    "name": "DietÃ©tica AlimentaÃ§Ã£o e SaÃºde",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14541,7 +14745,7 @@
     "website": null,
     "lat": 38.6704504,
     "lon": -9.1616571,
-    "address": "Rua do Cabo da Boa Esperança"
+    "address": "Rua do Cabo da Boa EsperanÃ§a"
   },
   {
     "id": 2855346456,
@@ -14593,7 +14797,7 @@
   },
   {
     "id": 2925059922,
-    "name": "Casa Agrícola de Airão",
+    "name": "Casa AgrÃ­cola de AirÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14613,11 +14817,11 @@
     "website": null,
     "lat": 41.5867265,
     "lon": -8.4007715,
-    "address": "Avenida Imaculada Conceição"
+    "address": "Avenida Imaculada ConceiÃ§Ã£o"
   },
   {
     "id": 2931947894,
-    "name": "Sónia Ribeiro",
+    "name": "SÃ³nia Ribeiro",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14625,11 +14829,11 @@
     "website": null,
     "lat": 41.4082296,
     "lon": -7.4193224,
-    "address": "Lugar do Ratiço"
+    "address": "Lugar do RatiÃ§o"
   },
   {
     "id": 2931947895,
-    "name": "Adega Cooperativa de Murça",
+    "name": "Adega Cooperativa de MurÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14641,7 +14845,7 @@
   },
   {
     "id": 2931947896,
-    "name": "Cooperativa dos Olivicultores de Murça",
+    "name": "Cooperativa dos Olivicultores de MurÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14653,7 +14857,7 @@
   },
   {
     "id": 2931947903,
-    "name": "Mercado Alfândega da Fé",
+    "name": "Mercado AlfÃ¢ndega da FÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14689,7 +14893,7 @@
   },
   {
     "id": 2940104624,
-    "name": "Casa Agrícola",
+    "name": "Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14737,7 +14941,7 @@
   },
   {
     "id": 2966251701,
-    "name": "Banca de venda de camarão",
+    "name": "Banca de venda de camarÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -14925,7 +15129,7 @@
     "website": null,
     "lat": 38.6711689,
     "lon": -9.1592724,
-    "address": "Rua José da Silva Mendes"
+    "address": "Rua JosÃ© da Silva Mendes"
   },
   {
     "id": 3243610704,
@@ -15025,7 +15229,7 @@
   },
   {
     "id": 3345559901,
-    "name": "Casa Agrícola",
+    "name": "Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15037,7 +15241,7 @@
   },
   {
     "id": 3353636637,
-    "name": "Agronor (rações)",
+    "name": "Agronor (raÃ§Ãµes)",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15069,7 +15273,7 @@
     "website": null,
     "lat": 40.6108191,
     "lon": -8.7496164,
-    "address": "Avenida José Estevão"
+    "address": "Avenida JosÃ© EstevÃ£o"
   },
   {
     "id": 3376281170,
@@ -15141,7 +15345,7 @@
     "website": null,
     "lat": 38.6795055,
     "lon": -9.1554981,
-    "address": "Rua Luis de Queirós"
+    "address": "Rua Luis de QueirÃ³s"
   },
   {
     "id": 3450698448,
@@ -15169,7 +15373,7 @@
   },
   {
     "id": 3461721700,
-    "name": "Cantinho Agrícola",
+    "name": "Cantinho AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15205,7 +15409,7 @@
   },
   {
     "id": 3503033893,
-    "name": "Bricoura - Casa Agrícola",
+    "name": "Bricoura - Casa AgrÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15241,7 +15445,7 @@
   },
   {
     "id": 3551061545,
-    "name": "Cooperativa Agrícola de Alfândega da Fé",
+    "name": "Cooperativa AgrÃ­cola de AlfÃ¢ndega da FÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15249,19 +15453,19 @@
     "website": null,
     "lat": 41.3453317,
     "lon": -6.9603786,
-    "address": "Avenida Engenheiro Camilo Lemos de Mendonça"
+    "address": "Avenida Engenheiro Camilo Lemos de MendonÃ§a"
   },
   {
     "id": 3555665776,
     "name": "Amanhecer - Supermercado Chips & Companhia",
     "country": "Portugal",
     "region": null,
-    "municipality": "Valpaços",
+    "municipality": "ValpaÃ§os",
     "products": [],
     "website": "https://amanhecer.pt/lojas/supermercado-chips-companhia/",
     "lat": 41.607842,
     "lon": -7.309097,
-    "address": "Rua do Tambulhão"
+    "address": "Rua do TambulhÃ£o"
   },
   {
     "id": 3556686809,
@@ -15277,7 +15481,7 @@
   },
   {
     "id": 3563429894,
-    "name": "Casa Agrícola - Francisco Carvalho de Oliveira",
+    "name": "Casa AgrÃ­cola - Francisco Carvalho de Oliveira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15337,7 +15541,7 @@
   },
   {
     "id": 3639253672,
-    "name": "Cooperativa Agrícola de Esposende",
+    "name": "Cooperativa AgrÃ­cola de Esposende",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15381,7 +15585,7 @@
     "website": null,
     "lat": 38.6442032,
     "lon": -9.2325611,
-    "address": "Rua António Correia"
+    "address": "Rua AntÃ³nio Correia"
   },
   {
     "id": 3654402334,
@@ -15625,7 +15829,7 @@
   },
   {
     "id": 3862469906,
-    "name": "Cooperativa da Póvoa",
+    "name": "Cooperativa da PÃ³voa",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15637,7 +15841,7 @@
   },
   {
     "id": 3870726798,
-    "name": "Aromas de Trás-os-Montes",
+    "name": "Aromas de TrÃ¡s-os-Montes",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15705,7 +15909,7 @@
     "website": null,
     "lat": 38.2559644,
     "lon": -7.992571,
-    "address": "Largo do Relógio"
+    "address": "Largo do RelÃ³gio"
   },
   {
     "id": 3886079924,
@@ -15805,7 +16009,7 @@
   },
   {
     "id": 4065067036,
-    "name": "Frutas Araújo",
+    "name": "Frutas AraÃºjo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15829,7 +16033,7 @@
   },
   {
     "id": 4157888217,
-    "name": "Casa Patrícia",
+    "name": "Casa PatrÃ­cia",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15849,11 +16053,11 @@
     "website": null,
     "lat": 38.6509294,
     "lon": -9.1443949,
-    "address": "Rua José Carlos Ary dos Santos"
+    "address": "Rua JosÃ© Carlos Ary dos Santos"
   },
   {
     "id": 4163916591,
-    "name": "Café Louro",
+    "name": "CafÃ© Louro",
     "country": "Portugal",
     "region": null,
     "municipality": "Cacilhas",
@@ -15961,7 +16165,7 @@
   },
   {
     "id": 4268131517,
-    "name": "Loja Contradição",
+    "name": "Loja ContradiÃ§Ã£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -15997,7 +16201,7 @@
   },
   {
     "id": 4304645767,
-    "name": "Casa Agrícola de Lanheses",
+    "name": "Casa AgrÃ­cola de Lanheses",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16009,7 +16213,7 @@
   },
   {
     "id": 4304667001,
-    "name": "Cooperativa Agrícola de Viana do Castelo",
+    "name": "Cooperativa AgrÃ­cola de Viana do Castelo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16077,14 +16281,14 @@
     "website": null,
     "lat": 41.3519613,
     "lon": -8.7486409,
-    "address": "Avenida Júlio Graça"
+    "address": "Avenida JÃºlio GraÃ§a"
   },
   {
     "id": 4362741156,
     "name": "Feira da Lameira",
     "country": "Portugal",
     "region": null,
-    "municipality": "Vilar e Mosteiró",
+    "municipality": "Vilar e MosteirÃ³",
     "products": [],
     "website": null,
     "lat": 41.2789041,
@@ -16201,7 +16405,7 @@
   },
   {
     "id": 4399590491,
-    "name": "Frutaria São Miguel",
+    "name": "Frutaria SÃ£o Miguel",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16209,7 +16413,7 @@
     "website": null,
     "lat": 37.7411427,
     "lon": -25.6693962,
-    "address": "Rua António José de Almeida"
+    "address": "Rua AntÃ³nio JosÃ© de Almeida"
   },
   {
     "id": 4410276601,
@@ -16237,7 +16441,7 @@
   },
   {
     "id": 4487240571,
-    "name": "Patrícia Frutas Pilar",
+    "name": "PatrÃ­cia Frutas Pilar",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16257,11 +16461,11 @@
     "website": null,
     "lat": 38.720095,
     "lon": -9.1298548,
-    "address": "Rua da Graça"
+    "address": "Rua da GraÃ§a"
   },
   {
     "id": 4531953991,
-    "name": "Primofruta - Sociedade Hortfrutícola",
+    "name": "Primofruta - Sociedade HortfrutÃ­cola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16312,7 +16516,7 @@
     "name": "Frutaria",
     "country": "Portugal",
     "region": null,
-    "municipality": "Cacém e São Marcos",
+    "municipality": "CacÃ©m e SÃ£o Marcos",
     "products": [],
     "website": null,
     "lat": 38.7695058,
@@ -16381,7 +16585,7 @@
   },
   {
     "id": 4614775004,
-    "name": "Mercearia Duque de Loulé",
+    "name": "Mercearia Duque de LoulÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16401,7 +16605,7 @@
     "website": null,
     "lat": 41.1293796,
     "lon": -8.6080544,
-    "address": "Rua de Álvares Cabral"
+    "address": "Rua de Ãlvares Cabral"
   },
   {
     "id": 4657777326,
@@ -16441,7 +16645,7 @@
   },
   {
     "id": 4703791579,
-    "name": "Maça de Adão",
+    "name": "MaÃ§a de AdÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": "Lisboa",
@@ -16465,7 +16669,7 @@
   },
   {
     "id": 4722320527,
-    "name": "Cobadu Rações",
+    "name": "Cobadu RaÃ§Ãµes",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16509,7 +16713,7 @@
     "website": null,
     "lat": 38.9782411,
     "lon": -9.0694162,
-    "address": "Casal de Santo António. Cód"
+    "address": "Casal de Santo AntÃ³nio. CÃ³d"
   },
   {
     "id": 4754579182,
@@ -16569,7 +16773,7 @@
     "website": null,
     "lat": 38.7330234,
     "lon": -9.1409917,
-    "address": "Rua de Dona Estefânia"
+    "address": "Rua de Dona EstefÃ¢nia"
   },
   {
     "id": 4842056792,
@@ -16593,7 +16797,7 @@
     "website": null,
     "lat": 41.1506112,
     "lon": -8.6097503,
-    "address": "Rua de Fernandes Tomás"
+    "address": "Rua de Fernandes TomÃ¡s"
   },
   {
     "id": 4861748296,
@@ -16624,12 +16828,12 @@
     "name": "Alkazar Gourmet",
     "country": "Portugal",
     "region": null,
-    "municipality": "Alcácer do Sal",
+    "municipality": "AlcÃ¡cer do Sal",
     "products": [],
     "website": "https://www.facebook.com/alkazar.gourmethelenac.silva",
     "lat": 38.3713662,
     "lon": -8.5076232,
-    "address": "Rua António Machado Santos"
+    "address": "Rua AntÃ³nio Machado Santos"
   },
   {
     "id": 4924929361,
@@ -16705,7 +16909,7 @@
   },
   {
     "id": 5042997002,
-    "name": "Cooperativa Agrícola de Santa Catarina da Fonte do Bispo",
+    "name": "Cooperativa AgrÃ­cola de Santa Catarina da Fonte do Bispo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16725,7 +16929,7 @@
     "website": null,
     "lat": 38.706007,
     "lon": -8.9728032,
-    "address": "Rua Almirante Cândido dos Reis"
+    "address": "Rua Almirante CÃ¢ndido dos Reis"
   },
   {
     "id": 5067522018,
@@ -16753,7 +16957,7 @@
   },
   {
     "id": 5077617923,
-    "name": "Feira de Produtos Biológicos",
+    "name": "Feira de Produtos BiolÃ³gicos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16777,7 +16981,7 @@
   },
   {
     "id": 5118395503,
-    "name": "Lima Limão",
+    "name": "Lima LimÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16789,7 +16993,7 @@
   },
   {
     "id": 5174935622,
-    "name": "Êxito Alegre",
+    "name": "ÃŠxito Alegre",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16849,7 +17053,7 @@
   },
   {
     "id": 5242447565,
-    "name": "Cooperativa Agrícola Viana Castelo e Caminha",
+    "name": "Cooperativa AgrÃ­cola Viana Castelo e Caminha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16876,7 +17080,7 @@
     "name": "Mercado Municipal",
     "country": "Portugal",
     "region": null,
-    "municipality": "Mesão Frio (Santo André)",
+    "municipality": "MesÃ£o Frio (Santo AndrÃ©)",
     "products": [],
     "website": null,
     "lat": 41.160156,
@@ -16921,7 +17125,7 @@
   },
   {
     "id": 5351689777,
-    "name": "Mercado São João",
+    "name": "Mercado SÃ£o JoÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16945,7 +17149,7 @@
   },
   {
     "id": 5412084847,
-    "name": "Espaço Rural",
+    "name": "EspaÃ§o Rural",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -16972,12 +17176,12 @@
     "name": "Sabores",
     "country": "Portugal",
     "region": null,
-    "municipality": "Águeda",
+    "municipality": "Ãgueda",
     "products": [],
     "website": null,
     "lat": 40.5695663,
     "lon": -8.4499181,
-    "address": "Rua Cabêdo e Lencastre"
+    "address": "Rua CabÃªdo e Lencastre"
   },
   {
     "id": 5507745734,
@@ -17037,7 +17241,7 @@
     "website": null,
     "lat": 38.6891858,
     "lon": -9.3317463,
-    "address": "Praça Doutor Manuel Rebelo de Andrade"
+    "address": "PraÃ§a Doutor Manuel Rebelo de Andrade"
   },
   {
     "id": 5580212590,
@@ -17089,7 +17293,7 @@
   },
   {
     "id": 5611753920,
-    "name": "Pérola do Monte",
+    "name": "PÃ©rola do Monte",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17133,7 +17337,7 @@
     "website": null,
     "lat": 38.6902465,
     "lon": -9.338469,
-    "address": "Rua Doutor José Joaquim de Almeida"
+    "address": "Rua Doutor JosÃ© Joaquim de Almeida"
   },
   {
     "id": 5612164903,
@@ -17145,7 +17349,7 @@
     "website": null,
     "lat": 38.6884319,
     "lon": -9.3382588,
-    "address": "Rua Olivença"
+    "address": "Rua OlivenÃ§a"
   },
   {
     "id": 5614015565,
@@ -17161,7 +17365,7 @@
   },
   {
     "id": 5615258553,
-    "name": "Frutaria das Irmãs",
+    "name": "Frutaria das IrmÃ£s",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17181,11 +17385,11 @@
     "website": null,
     "lat": 38.7164535,
     "lon": -9.3443848,
-    "address": "Avenida Amália Rodrigues"
+    "address": "Avenida AmÃ¡lia Rodrigues"
   },
   {
     "id": 5618476599,
-    "name": "Flôr da Figueirôa",
+    "name": "FlÃ´r da FigueirÃ´a",
     "country": "Portugal",
     "region": null,
     "municipality": "Porto",
@@ -17193,7 +17397,7 @@
     "website": null,
     "lat": 41.1556508,
     "lon": -8.6185535,
-    "address": "Travessa da Figueirôa"
+    "address": "Travessa da FigueirÃ´a"
   },
   {
     "id": 5666455592,
@@ -17253,7 +17457,7 @@
     "website": null,
     "lat": 37.8300637,
     "lon": -25.1458825,
-    "address": "Rua Padre José Pacheco do Monte"
+    "address": "Rua Padre JosÃ© Pacheco do Monte"
   },
   {
     "id": 5773553946,
@@ -17401,7 +17605,7 @@
   },
   {
     "id": 5924261248,
-    "name": "Pomar Hélder",
+    "name": "Pomar HÃ©lder",
     "country": "Portugal",
     "region": null,
     "municipality": "Chaves",
@@ -17409,7 +17613,7 @@
     "website": null,
     "lat": 41.7402317,
     "lon": -7.4719593,
-    "address": "Largo do Município"
+    "address": "Largo do MunicÃ­pio"
   },
   {
     "id": 5929810374,
@@ -17421,7 +17625,7 @@
     "website": null,
     "lat": 41.7423584,
     "lon": -7.4756124,
-    "address": "Rua de Frei João de Chaves"
+    "address": "Rua de Frei JoÃ£o de Chaves"
   },
   {
     "id": 5934162996,
@@ -17473,7 +17677,7 @@
   },
   {
     "id": 6000338377,
-    "name": "Casa Agrícola Rui Batel",
+    "name": "Casa AgrÃ­cola Rui Batel",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17565,7 +17769,7 @@
     "website": null,
     "lat": 38.7096506,
     "lon": -9.1304043,
-    "address": "Travessa de São João da Praça"
+    "address": "Travessa de SÃ£o JoÃ£o da PraÃ§a"
   },
   {
     "id": 6047058199,
@@ -17577,11 +17781,11 @@
     "website": null,
     "lat": 41.4298987,
     "lon": -8.5685274,
-    "address": "Rua de Requião"
+    "address": "Rua de RequiÃ£o"
   },
   {
     "id": 6055814245,
-    "name": "Pé de Laranja",
+    "name": "PÃ© de Laranja",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17673,7 +17877,7 @@
     "website": null,
     "lat": 37.1538455,
     "lon": -7.8875115,
-    "address": "Rua António Rosa Brito"
+    "address": "Rua AntÃ³nio Rosa Brito"
   },
   {
     "id": 6124215088,
@@ -17713,10 +17917,10 @@
   },
   {
     "id": 6226196590,
-    "name": "Cooperativa Agrícola Olivicultores Do Torrão",
+    "name": "Cooperativa AgrÃ­cola Olivicultores Do TorrÃ£o",
     "country": "Portugal",
     "region": null,
-    "municipality": "Torrão",
+    "municipality": "TorrÃ£o",
     "products": [],
     "website": null,
     "lat": 38.2928961,
@@ -17740,12 +17944,12 @@
     "name": "Tonsai bio",
     "country": "Portugal",
     "region": null,
-    "municipality": "Fátima",
+    "municipality": "FÃ¡tima",
     "products": [],
     "website": null,
     "lat": 39.6269954,
     "lon": -8.6731736,
-    "address": "Avenida Dom José Alves Correia da Silva"
+    "address": "Avenida Dom JosÃ© Alves Correia da Silva"
   },
   {
     "id": 6324718740,
@@ -17785,7 +17989,7 @@
   },
   {
     "id": 6348222983,
-    "name": "Bialógica",
+    "name": "BialÃ³gica",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17805,7 +18009,7 @@
     "website": null,
     "lat": 38.7173097,
     "lon": -9.1295305,
-    "address": "Largo da Graça"
+    "address": "Largo da GraÃ§a"
   },
   {
     "id": 6376967135,
@@ -17817,7 +18021,7 @@
     "website": null,
     "lat": 41.234124,
     "lon": -8.6260631,
-    "address": "Rua de Simão Bolívar"
+    "address": "Rua de SimÃ£o BolÃ­var"
   },
   {
     "id": 6382040366,
@@ -17853,7 +18057,7 @@
     "website": null,
     "lat": 38.6178314,
     "lon": -9.189177,
-    "address": "Rua João de Deus"
+    "address": "Rua JoÃ£o de Deus"
   },
   {
     "id": 6425728211,
@@ -17865,11 +18069,11 @@
     "website": null,
     "lat": 38.6445149,
     "lon": -9.1864562,
-    "address": "Rua Américo Amarelhe"
+    "address": "Rua AmÃ©rico Amarelhe"
   },
   {
     "id": 6426040722,
-    "name": "Sacolão",
+    "name": "SacolÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": "Vila Nova de Caparica",
@@ -17889,7 +18093,7 @@
     "website": null,
     "lat": 38.6560691,
     "lon": -9.1528657,
-    "address": "Rua Luís Vaz de Camões"
+    "address": "Rua LuÃ­s Vaz de CamÃµes"
   },
   {
     "id": 6426076550,
@@ -17901,7 +18105,7 @@
     "website": null,
     "lat": 38.6468266,
     "lon": -9.2044986,
-    "address": "Rua João Gonçalves Zarco"
+    "address": "Rua JoÃ£o GonÃ§alves Zarco"
   },
   {
     "id": 6426632993,
@@ -17929,7 +18133,7 @@
   },
   {
     "id": 6431571558,
-    "name": "O Francês",
+    "name": "O FrancÃªs",
     "country": "Portugal",
     "region": null,
     "municipality": "Costa da Caparica",
@@ -17937,7 +18141,7 @@
     "website": null,
     "lat": 38.6434603,
     "lon": -9.2335784,
-    "address": "Avenida do Movimento das Forças Armadas"
+    "address": "Avenida do Movimento das ForÃ§as Armadas"
   },
   {
     "id": 6432960276,
@@ -17949,11 +18153,11 @@
     "website": null,
     "lat": 38.6780017,
     "lon": -9.1616553,
-    "address": "Avenida Dom Nuno Álvares Pereira"
+    "address": "Avenida Dom Nuno Ãlvares Pereira"
   },
   {
     "id": 6433265257,
-    "name": "Pōr do sol",
+    "name": "PÅr do sol",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17965,7 +18169,7 @@
   },
   {
     "id": 6434523760,
-    "name": "Fruprogress Feijó",
+    "name": "Fruprogress FeijÃ³",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -17973,7 +18177,7 @@
     "website": null,
     "lat": 38.6550285,
     "lon": -9.1652597,
-    "address": "Rua Doutor António Elvas"
+    "address": "Rua Doutor AntÃ³nio Elvas"
   },
   {
     "id": 6436616563,
@@ -18057,7 +18261,7 @@
     "website": null,
     "lat": 38.6539551,
     "lon": -9.1476209,
-    "address": "Rua de Bento de Jesus Caraça"
+    "address": "Rua de Bento de Jesus CaraÃ§a"
   },
   {
     "id": 6439835876,
@@ -18069,7 +18273,7 @@
     "website": null,
     "lat": 38.6542979,
     "lon": -9.1477133,
-    "address": "Rua de Bento de Jesus Caraça"
+    "address": "Rua de Bento de Jesus CaraÃ§a"
   },
   {
     "id": 6441327368,
@@ -18081,7 +18285,7 @@
     "website": null,
     "lat": 38.6718577,
     "lon": -9.2336672,
-    "address": "Largo da República"
+    "address": "Largo da RepÃºblica"
   },
   {
     "id": 6441327369,
@@ -18093,7 +18297,7 @@
     "website": null,
     "lat": 38.6718138,
     "lon": -9.2334366,
-    "address": "Largo da República"
+    "address": "Largo da RepÃºblica"
   },
   {
     "id": 6441327985,
@@ -18109,7 +18313,7 @@
   },
   {
     "id": 6441622825,
-    "name": "Romã",
+    "name": "RomÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18117,11 +18321,11 @@
     "website": null,
     "lat": 38.6832552,
     "lon": -9.1518322,
-    "address": "Rua Comandante António Feio"
+    "address": "Rua Comandante AntÃ³nio Feio"
   },
   {
     "id": 6441653081,
-    "name": "Lourenços",
+    "name": "LourenÃ§os",
     "country": "Portugal",
     "region": null,
     "municipality": "Cacilhas",
@@ -18157,7 +18361,7 @@
   },
   {
     "id": 6530588267,
-    "name": "Frutaria das Irmãs",
+    "name": "Frutaria das IrmÃ£s",
     "country": "Portugal",
     "region": null,
     "municipality": "Oeiras",
@@ -18165,11 +18369,11 @@
     "website": null,
     "lat": 38.6973831,
     "lon": -9.3028195,
-    "address": "Rua de São Paulo"
+    "address": "Rua de SÃ£o Paulo"
   },
   {
     "id": 6540190538,
-    "name": "Feira de Numismática, Filatelia e Colecionismo",
+    "name": "Feira de NumismÃ¡tica, Filatelia e Colecionismo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18205,7 +18409,7 @@
   },
   {
     "id": 6548078876,
-    "name": "Mercadinho dos Clérigos",
+    "name": "Mercadinho dos ClÃ©rigos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18261,7 +18465,7 @@
     "website": null,
     "lat": 40.6335374,
     "lon": -8.7134592,
-    "address": "Rua Nossa Senhora da Nazaré "
+    "address": "Rua Nossa Senhora da NazarÃ© "
   },
   {
     "id": 6694997666,
@@ -18289,7 +18493,7 @@
   },
   {
     "id": 6761347757,
-    "name": "Frutaria Sabor Próprio",
+    "name": "Frutaria Sabor PrÃ³prio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18309,11 +18513,11 @@
     "website": null,
     "lat": 40.6334722,
     "lon": -8.7136253,
-    "address": "Rua Nossa Senhora da Nazaré"
+    "address": "Rua Nossa Senhora da NazarÃ©"
   },
   {
     "id": 6806122799,
-    "name": "Pêra Doce",
+    "name": "PÃªra Doce",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18328,7 +18532,7 @@
     "name": "Frutita",
     "country": "Portugal",
     "region": null,
-    "municipality": "São Vicente",
+    "municipality": "SÃ£o Vicente",
     "products": [],
     "website": null,
     "lat": 41.5598914,
@@ -18361,7 +18565,7 @@
   },
   {
     "id": 6985855934,
-    "name": "Botica das Carlotas - Filipe Gonçalves & Irmão,",
+    "name": "Botica das Carlotas - Filipe GonÃ§alves & IrmÃ£o,",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18369,7 +18573,7 @@
     "website": null,
     "lat": 41.8729778,
     "lon": -8.8410615,
-    "address": "Rua Benemérito Joaquim Rosas"
+    "address": "Rua BenemÃ©rito Joaquim Rosas"
   },
   {
     "id": 6997378130,
@@ -18385,7 +18589,7 @@
   },
   {
     "id": 7020890153,
-    "name": "Pomar da Faria Guimarães",
+    "name": "Pomar da Faria GuimarÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18421,7 +18625,7 @@
   },
   {
     "id": 7093713385,
-    "name": "Dionísio",
+    "name": "DionÃ­sio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18429,7 +18633,7 @@
     "website": null,
     "lat": 37.6393444,
     "lon": -7.6616166,
-    "address": "Rua Doutor Serrão Martins"
+    "address": "Rua Doutor SerrÃ£o Martins"
   },
   {
     "id": 7100178887,
@@ -18481,7 +18685,7 @@
   },
   {
     "id": 7159588757,
-    "name": "Américo Bernardino",
+    "name": "AmÃ©rico Bernardino",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18489,7 +18693,7 @@
     "website": null,
     "lat": 40.2171951,
     "lon": -8.405281,
-    "address": "Rua Capitão Luís Gonzaga"
+    "address": "Rua CapitÃ£o LuÃ­s Gonzaga"
   },
   {
     "id": 7209240787,
@@ -18513,11 +18717,11 @@
     "website": null,
     "lat": 41.7397609,
     "lon": -7.4688732,
-    "address": "Rua Santo António"
+    "address": "Rua Santo AntÃ³nio"
   },
   {
     "id": 7241151706,
-    "name": "Praça",
+    "name": "PraÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18637,7 +18841,7 @@
   },
   {
     "id": 7841537014,
-    "name": "Feira mensal da Santa Eufémia",
+    "name": "Feira mensal da Santa EufÃ©mia",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18669,14 +18873,14 @@
     "website": null,
     "lat": 40.9195569,
     "lon": -8.5005415,
-    "address": "Rua António Nobre"
+    "address": "Rua AntÃ³nio Nobre"
   },
   {
     "id": 7850522462,
     "name": "Feira da Belavista",
     "country": "Portugal",
     "region": null,
-    "municipality": "Fânzeres",
+    "municipality": "FÃ¢nzeres",
     "products": [],
     "website": null,
     "lat": 41.1631952,
@@ -18685,7 +18889,7 @@
   },
   {
     "id": 7850648228,
-    "name": "Frutaria de Loulé",
+    "name": "Frutaria de LoulÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18805,7 +19009,7 @@
   },
   {
     "id": 8308198718,
-    "name": "Maria Flamingo - Alimento Biológico",
+    "name": "Maria Flamingo - Alimento BiolÃ³gico",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18813,7 +19017,7 @@
     "website": "https://www.facebook.com/MariaFlamingaLda",
     "lat": 37.1178391,
     "lon": -7.6597732,
-    "address": "Rua de São Pedro"
+    "address": "Rua de SÃ£o Pedro"
   },
   {
     "id": 8316927536,
@@ -18841,7 +19045,7 @@
   },
   {
     "id": 8475638613,
-    "name": "Comércio Justo Porto",
+    "name": "ComÃ©rcio Justo Porto",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18865,7 +19069,7 @@
   },
   {
     "id": 8495135950,
-    "name": "Frutaria do Bolhão",
+    "name": "Frutaria do BolhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -18897,7 +19101,7 @@
     "website": null,
     "lat": 38.0111434,
     "lon": -7.8599205,
-    "address": "Rua Luís de Camões"
+    "address": "Rua LuÃ­s de CamÃµes"
   },
   {
     "id": 8551715833,
@@ -19000,12 +19204,12 @@
     "name": "Planeta da Fruta",
     "country": "Portugal",
     "region": null,
-    "municipality": "Caneças",
+    "municipality": "CaneÃ§as",
     "products": [],
     "website": null,
     "lat": 38.8135929,
     "lon": -9.2241889,
-    "address": "Rua República"
+    "address": "Rua RepÃºblica"
   },
   {
     "id": 8662673463,
@@ -19024,12 +19228,12 @@
     "name": "Mini Mercado Frutaria- Jinayn Chen",
     "country": "Portugal",
     "region": null,
-    "municipality": "Caneças",
+    "municipality": "CaneÃ§as",
     "products": [],
     "website": null,
     "lat": 38.8131417,
     "lon": -9.2249018,
-    "address": "Rua dos Bombeiros Voluntários"
+    "address": "Rua dos Bombeiros VoluntÃ¡rios"
   },
   {
     "id": 8664688303,
@@ -19045,7 +19249,7 @@
   },
   {
     "id": 8664721296,
-    "name": "Frutaria Tânia Filipe",
+    "name": "Frutaria TÃ¢nia Filipe",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19077,7 +19281,7 @@
     "website": "www.belchiorlda.com",
     "lat": 38.0223257,
     "lon": -7.8587599,
-    "address": "Rua da Ciência"
+    "address": "Rua da CiÃªncia"
   },
   {
     "id": 8675932299,
@@ -19089,19 +19293,19 @@
     "website": null,
     "lat": 41.1796029,
     "lon": -8.6791802,
-    "address": "Rua Dom Nuno Álvares Pereira"
+    "address": "Rua Dom Nuno Ãlvares Pereira"
   },
   {
     "id": 8685881403,
     "name": "Frutaria",
     "country": "Portugal",
     "region": null,
-    "municipality": "Alcântara",
+    "municipality": "AlcÃ¢ntara",
     "products": [],
     "website": null,
     "lat": 38.7041487,
     "lon": -9.1822229,
-    "address": "Rua dos Lusíadas"
+    "address": "Rua dos LusÃ­adas"
   },
   {
     "id": 8686028295,
@@ -19149,7 +19353,7 @@
     "website": null,
     "lat": 38.7876216,
     "lon": -9.3219797,
-    "address": "Calçada da Rinchoa"
+    "address": "CalÃ§ada da Rinchoa"
   },
   {
     "id": 8691323386,
@@ -19165,7 +19369,7 @@
   },
   {
     "id": 8691326822,
-    "name": "Jóia do Campo",
+    "name": "JÃ³ia do Campo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19177,7 +19381,7 @@
   },
   {
     "id": 8691326904,
-    "name": "Armazém - Joia do Campo",
+    "name": "ArmazÃ©m - Joia do Campo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19240,7 +19444,7 @@
     "name": "Frutaria Do Castelo",
     "country": "Portugal",
     "region": null,
-    "municipality": "Santa Iria de Azóia",
+    "municipality": "Santa Iria de AzÃ³ia",
     "products": [],
     "website": null,
     "lat": 38.8380066,
@@ -19252,16 +19456,16 @@
     "name": "Frutaria Claudimel",
     "country": "Portugal",
     "region": null,
-    "municipality": "Santo António dos Cavaleiros e Frielas",
+    "municipality": "Santo AntÃ³nio dos Cavaleiros e Frielas",
     "products": [],
     "website": null,
     "lat": 38.8136015,
     "lon": -9.1631946,
-    "address": "Praceta Marquês Castelo Melhor"
+    "address": "Praceta MarquÃªs Castelo Melhor"
   },
   {
     "id": 8728334023,
-    "name": "Estação da Fruta",
+    "name": "EstaÃ§Ã£o da Fruta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19288,7 +19492,7 @@
     "name": "Mercearia",
     "country": "Portugal",
     "region": null,
-    "municipality": "Penha de França",
+    "municipality": "Penha de FranÃ§a",
     "products": [],
     "website": null,
     "lat": 38.7320151,
@@ -19300,7 +19504,7 @@
     "name": "Talho e Frutaria",
     "country": "Portugal",
     "region": null,
-    "municipality": "Penha de França",
+    "municipality": "Penha de FranÃ§a",
     "products": [],
     "website": null,
     "lat": 38.7324397,
@@ -19396,12 +19600,12 @@
     "name": "Mercado Girassol",
     "country": "Portugal",
     "region": null,
-    "municipality": "São Domingos de Rana",
+    "municipality": "SÃ£o Domingos de Rana",
     "products": [],
     "website": null,
     "lat": 38.7136965,
     "lon": -9.3591992,
-    "address": "Avenida Júlio Dantas"
+    "address": "Avenida JÃºlio Dantas"
   },
   {
     "id": 9183274681,
@@ -19569,7 +19773,7 @@
     "website": null,
     "lat": 41.2089437,
     "lon": -8.3344221,
-    "address": "Rua Coronel José Ribeiro da Costa Junior"
+    "address": "Rua Coronel JosÃ© Ribeiro da Costa Junior"
   },
   {
     "id": 9670349001,
@@ -19629,7 +19833,7 @@
     "website": null,
     "lat": 38.423047,
     "lon": -7.5360141,
-    "address": "Avenida António José de Almeida"
+    "address": "Avenida AntÃ³nio JosÃ© de Almeida"
   },
   {
     "id": 9858817717,
@@ -19677,7 +19881,7 @@
     "website": null,
     "lat": 40.9768486,
     "lon": -8.5691034,
-    "address": "Rua dos Murtórios"
+    "address": "Rua dos MurtÃ³rios"
   },
   {
     "id": 9943064213,
@@ -19737,11 +19941,11 @@
     "website": "https://www.rizomacoop.pt",
     "lat": 38.7276038,
     "lon": -9.1373801,
-    "address": "Rua José Estevão"
+    "address": "Rua JosÃ© EstevÃ£o"
   },
   {
     "id": 9960215775,
-    "name": "Céu Fruta",
+    "name": "CÃ©u Fruta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19849,7 +20053,7 @@
   },
   {
     "id": 10026753913,
-    "name": "Frutaria Fátima Teixeira",
+    "name": "Frutaria FÃ¡tima Teixeira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19885,7 +20089,7 @@
   },
   {
     "id": 10026761817,
-    "name": "Frutaria do Bolhão",
+    "name": "Frutaria do BolhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19909,7 +20113,7 @@
   },
   {
     "id": 10026761854,
-    "name": "As Irmãs Araújo",
+    "name": "As IrmÃ£s AraÃºjo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19933,7 +20137,7 @@
   },
   {
     "id": 10026761856,
-    "name": "Maria do Álvaro",
+    "name": "Maria do Ãlvaro",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -19957,7 +20161,7 @@
   },
   {
     "id": 10026761858,
-    "name": "Emília Horticaleira",
+    "name": "EmÃ­lia Horticaleira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20065,7 +20269,7 @@
   },
   {
     "id": 10099972622,
-    "name": "Minimercado Bom Preço",
+    "name": "Minimercado Bom PreÃ§o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20073,7 +20277,7 @@
     "website": null,
     "lat": 40.2123616,
     "lon": -8.4323411,
-    "address": "Rua Simões de Castro"
+    "address": "Rua SimÃµes de Castro"
   },
   {
     "id": 10139174758,
@@ -20097,7 +20301,7 @@
     "website": null,
     "lat": 40.192972,
     "lon": -8.4064108,
-    "address": "Rua Câmara Pestana"
+    "address": "Rua CÃ¢mara Pestana"
   },
   {
     "id": 10158873820,
@@ -20161,7 +20365,7 @@
   },
   {
     "id": 10236326782,
-    "name": "Pé de Laranja",
+    "name": "PÃ© de Laranja",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20197,7 +20401,7 @@
   },
   {
     "id": 10272094069,
-    "name": "Café e Cesta",
+    "name": "CafÃ© e Cesta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20209,7 +20413,7 @@
   },
   {
     "id": 10272131623,
-    "name": "Preço Baixo",
+    "name": "PreÃ§o Baixo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20313,7 +20517,7 @@
     "website": null,
     "lat": 40.9246416,
     "lon": -8.5614043,
-    "address": "Rua São Paulo da Cruz"
+    "address": "Rua SÃ£o Paulo da Cruz"
   },
   {
     "id": 10703978270,
@@ -20389,7 +20593,7 @@
   },
   {
     "id": 10822988892,
-    "name": "Avoneto Prod. Hortícolas",
+    "name": "Avoneto Prod. HortÃ­colas",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20428,12 +20632,12 @@
     "name": "Leninha",
     "country": "Portugal",
     "region": null,
-    "municipality": "São João da Madeira",
+    "municipality": "SÃ£o JoÃ£o da Madeira",
     "products": [],
     "website": null,
     "lat": 40.8959918,
     "lon": -8.4937095,
-    "address": "Avenida Doutor Renato Araújo"
+    "address": "Avenida Doutor Renato AraÃºjo"
   },
   {
     "id": 10979030692,
@@ -20473,7 +20677,7 @@
   },
   {
     "id": 11028129170,
-    "name": "Delícias da Quinta",
+    "name": "DelÃ­cias da Quinta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20577,7 +20781,7 @@
     "website": null,
     "lat": 40.9254565,
     "lon": -8.54355,
-    "address": "Rua Doutor Vitorino de Sá"
+    "address": "Rua Doutor Vitorino de SÃ¡"
   },
   {
     "id": 11105857129,
@@ -20601,7 +20805,7 @@
     "website": null,
     "lat": 41.5502212,
     "lon": -8.4237794,
-    "address": "Rua de São Marcos"
+    "address": "Rua de SÃ£o Marcos"
   },
   {
     "id": 11162143957,
@@ -20637,7 +20841,7 @@
     "website": null,
     "lat": 41.2570243,
     "lon": -8.6658904,
-    "address": "Rua E da Urbanização da Bouça Grande"
+    "address": "Rua E da UrbanizaÃ§Ã£o da BouÃ§a Grande"
   },
   {
     "id": 11203601799,
@@ -20656,7 +20860,7 @@
     "name": "Agromontenegro",
     "country": "Portugal",
     "region": null,
-    "municipality": "Valpaços",
+    "municipality": "ValpaÃ§os",
     "products": [],
     "website": "https://agromontenegro.net/",
     "lat": 41.5735321,
@@ -20721,7 +20925,7 @@
     "website": null,
     "lat": 41.0115814,
     "lon": -8.5558519,
-    "address": "Rua Estrada Nacional Nº 1"
+    "address": "Rua Estrada Nacional NÂº 1"
   },
   {
     "id": 11390616600,
@@ -20737,7 +20941,7 @@
   },
   {
     "id": 11407307462,
-    "name": "Toma Lá Morangos",
+    "name": "Toma LÃ¡ Morangos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20769,7 +20973,7 @@
     "website": null,
     "lat": 41.1357658,
     "lon": -8.6083685,
-    "address": "Avenida da República"
+    "address": "Avenida da RepÃºblica"
   },
   {
     "id": 11429244070,
@@ -20833,7 +21037,7 @@
   },
   {
     "id": 11463114443,
-    "name": "Frutaria Castelões",
+    "name": "Frutaria CastelÃµes",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20857,7 +21061,7 @@
   },
   {
     "id": 11478748871,
-    "name": "Regibama - Comércio De Frutas",
+    "name": "Regibama - ComÃ©rcio De Frutas",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -20941,7 +21145,7 @@
   },
   {
     "id": 11598799444,
-    "name": "Supermercado da Júlia",
+    "name": "Supermercado da JÃºlia",
     "country": "Portugal",
     "region": null,
     "municipality": "Nine",
@@ -20961,7 +21165,7 @@
     "website": "https://befruta.pt/",
     "lat": 40.1998754,
     "lon": -8.417073,
-    "address": "Praça Mestre Pero"
+    "address": "PraÃ§a Mestre Pero"
   },
   {
     "id": 11708806001,
@@ -21037,7 +21241,7 @@
   },
   {
     "id": 11876848592,
-    "name": "Paraíso da Fruta - Damaia",
+    "name": "ParaÃ­so da Fruta - Damaia",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21081,7 +21285,7 @@
     "website": null,
     "lat": 38.7657778,
     "lon": -9.0983445,
-    "address": "Avenida Dom João II"
+    "address": "Avenida Dom JoÃ£o II"
   },
   {
     "id": 11893527489,
@@ -21105,7 +21309,7 @@
     "website": null,
     "lat": 38.7191418,
     "lon": -9.1594043,
-    "address": "Rua da Arrábida"
+    "address": "Rua da ArrÃ¡bida"
   },
   {
     "id": 11898371132,
@@ -21237,7 +21441,7 @@
     "website": null,
     "lat": 41.2296732,
     "lon": -8.6217882,
-    "address": "Rua António Oliveira Braga"
+    "address": "Rua AntÃ³nio Oliveira Braga"
   },
   {
     "id": 11950533398,
@@ -21313,7 +21517,7 @@
   },
   {
     "id": 12035787796,
-    "name": "Frutaria Seminário",
+    "name": "Frutaria SeminÃ¡rio",
     "country": "Portugal",
     "region": null,
     "municipality": "Funchal",
@@ -21337,7 +21541,7 @@
   },
   {
     "id": 12075213801,
-    "name": "Mercado de Chão de Couce",
+    "name": "Mercado de ChÃ£o de Couce",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21393,7 +21597,7 @@
     "website": null,
     "lat": 41.5512472,
     "lon": -8.4284262,
-    "address": "Praça do Município"
+    "address": "PraÃ§a do MunicÃ­pio"
   },
   {
     "id": 12192902023,
@@ -21405,7 +21609,7 @@
     "website": null,
     "lat": 38.7177766,
     "lon": -9.2631072,
-    "address": "Rua João XXI"
+    "address": "Rua JoÃ£o XXI"
   },
   {
     "id": 12199354107,
@@ -21489,7 +21693,7 @@
     "website": null,
     "lat": 38.7275232,
     "lon": -9.1304701,
-    "address": "Rua da Penha de França"
+    "address": "Rua da Penha de FranÃ§a"
   },
   {
     "id": 12307074417,
@@ -21508,7 +21712,7 @@
     "name": "Mercado frutaria",
     "country": "Portugal",
     "region": null,
-    "municipality": "Penha de França",
+    "municipality": "Penha de FranÃ§a",
     "products": [],
     "website": null,
     "lat": 38.7289508,
@@ -21537,14 +21741,14 @@
     "website": null,
     "lat": 38.7308521,
     "lon": -9.1307196,
-    "address": "Calçada do Poço dos Mouros"
+    "address": "CalÃ§ada do PoÃ§o dos Mouros"
   },
   {
     "id": 12307074432,
     "name": "lyca",
     "country": "Portugal",
     "region": null,
-    "municipality": "Penha de França",
+    "municipality": "Penha de FranÃ§a",
     "products": [],
     "website": null,
     "lat": 38.7308363,
@@ -21589,7 +21793,7 @@
   },
   {
     "id": 12314198864,
-    "name": "Mercado D´Santos",
+    "name": "Mercado DÂ´Santos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21628,7 +21832,7 @@
     "name": "Frutaria e Talho",
     "country": "Portugal",
     "region": null,
-    "municipality": "Penha de França",
+    "municipality": "Penha de FranÃ§a",
     "products": [],
     "website": null,
     "lat": 38.7323061,
@@ -21697,7 +21901,7 @@
   },
   {
     "id": 12321713131,
-    "name": "Frutaria Doce Tentação",
+    "name": "Frutaria Doce TentaÃ§Ã£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21793,7 +21997,7 @@
   },
   {
     "id": 12346835090,
-    "name": "Doce Maçã",
+    "name": "Doce MaÃ§Ã£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21805,7 +22009,7 @@
   },
   {
     "id": 12390460799,
-    "name": "mercado de camôes",
+    "name": "mercado de camÃ´es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21817,7 +22021,7 @@
   },
   {
     "id": 12392524780,
-    "name": "Época da Fruta",
+    "name": "Ã‰poca da Fruta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21825,7 +22029,7 @@
     "website": null,
     "lat": 41.2276151,
     "lon": -8.6187345,
-    "address": "Avenida de António Santos Leite"
+    "address": "Avenida de AntÃ³nio Santos Leite"
   },
   {
     "id": 12407545622,
@@ -21841,7 +22045,7 @@
   },
   {
     "id": 12412721301,
-    "name": "Tradição dos Sabores",
+    "name": "TradiÃ§Ã£o dos Sabores",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -21856,12 +22060,12 @@
     "name": "Vila dos Sabores",
     "country": "Portugal",
     "region": null,
-    "municipality": "Portimão",
+    "municipality": "PortimÃ£o",
     "products": [],
     "website": null,
     "lat": 37.1394524,
     "lon": -8.537186,
-    "address": "Rua do Comércio"
+    "address": "Rua do ComÃ©rcio"
   },
   {
     "id": 12518589204,
@@ -22017,7 +22221,7 @@
     "website": null,
     "lat": 32.7189332,
     "lon": -16.7670036,
-    "address": "Rua General António Teixera de Aguilar"
+    "address": "Rua General AntÃ³nio Teixera de Aguilar"
   },
   {
     "id": 12716645987,
@@ -22141,7 +22345,7 @@
   },
   {
     "id": 12921483744,
-    "name": "Frutería O Pomar",
+    "name": "FruterÃ­a O Pomar",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22213,7 +22417,7 @@
   },
   {
     "id": 13056138465,
-    "name": "Praça Secos",
+    "name": "PraÃ§a Secos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22225,7 +22429,7 @@
   },
   {
     "id": 13056138466,
-    "name": "Praça Frescos",
+    "name": "PraÃ§a Frescos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22273,15 +22477,15 @@
   },
   {
     "id": 13159927797,
-    "name": "A Rústica",
+    "name": "A RÃºstica",
     "country": "Portugal",
     "region": null,
-    "municipality": "São João da Madeira",
+    "municipality": "SÃ£o JoÃ£o da Madeira",
     "products": [],
     "website": null,
     "lat": 40.9007101,
     "lon": -8.4923763,
-    "address": "Largo de Santo António"
+    "address": "Largo de Santo AntÃ³nio"
   },
   {
     "id": 13165593868,
@@ -22297,7 +22501,7 @@
   },
   {
     "id": 13167308587,
-    "name": "Zé da Fruta",
+    "name": "ZÃ© da Fruta",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22309,7 +22513,7 @@
   },
   {
     "id": 13203351957,
-    "name": "Feira de Baião",
+    "name": "Feira de BaiÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22329,7 +22533,7 @@
     "website": null,
     "lat": 38.760975,
     "lon": -9.1679947,
-    "address": "Rua Professor Mário Chicó"
+    "address": "Rua Professor MÃ¡rio ChicÃ³"
   },
   {
     "id": 13229986910,
@@ -22348,7 +22552,7 @@
     "name": "Fruta.Come - Frutaria",
     "country": "Portugal",
     "region": null,
-    "municipality": "Vila Nova de Famalicão",
+    "municipality": "Vila Nova de FamalicÃ£o",
     "products": [],
     "website": "https://frutariafrutapontocome.blogspot.com/",
     "lat": 41.4115537,
@@ -22377,7 +22581,7 @@
     "website": null,
     "lat": 41.4076224,
     "lon": -8.5214346,
-    "address": "Praça 9 de Abril"
+    "address": "PraÃ§a 9 de Abril"
   },
   {
     "id": 13273900591,
@@ -22389,7 +22593,7 @@
     "website": "https://www.ludite.pt/",
     "lat": 41.4069806,
     "lon": -8.5183031,
-    "address": "Rua Alves Roçadas"
+    "address": "Rua Alves RoÃ§adas"
   },
   {
     "id": 13284847201,
@@ -22441,7 +22645,7 @@
   },
   {
     "id": 13306797395,
-    "name": "Super Banca Lurdes Magalhães",
+    "name": "Super Banca Lurdes MagalhÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": "Vila Nova de Famalicao",
@@ -22449,11 +22653,11 @@
     "website": null,
     "lat": 41.4033812,
     "lon": -8.518024,
-    "address": "Rua José Azevedo Menezes"
+    "address": "Rua JosÃ© Azevedo Menezes"
   },
   {
     "id": 13344245605,
-    "name": "Praça da Tocha",
+    "name": "PraÃ§a da Tocha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22465,7 +22669,7 @@
   },
   {
     "id": 13344245606,
-    "name": "Praça da Tocha",
+    "name": "PraÃ§a da Tocha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22477,7 +22681,7 @@
   },
   {
     "id": 13344245607,
-    "name": "Praça da Tocha",
+    "name": "PraÃ§a da Tocha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22516,7 +22720,7 @@
     "name": "Feira das velharias",
     "country": "Portugal",
     "region": null,
-    "municipality": "São João de Ver",
+    "municipality": "SÃ£o JoÃ£o de Ver",
     "products": [],
     "website": null,
     "lat": 40.95669,
@@ -22545,7 +22749,7 @@
     "website": "https://www.matosinhosinvest.pt/atividades-economicas/feira-dos-golfinhos",
     "lat": 41.1829498,
     "lon": -8.683822,
-    "address": "Jardim Basílio Teles"
+    "address": "Jardim BasÃ­lio Teles"
   },
   {
     "id": 13428899892,
@@ -22645,10 +22849,10 @@
   },
   {
     "id": 13501069046,
-    "name": "Super Banca Lurdes Magalhães",
+    "name": "Super Banca Lurdes MagalhÃ£es",
     "country": "Portugal",
     "region": null,
-    "municipality": "Vila Nova de Famalicão",
+    "municipality": "Vila Nova de FamalicÃ£o",
     "products": [],
     "website": null,
     "lat": 41.4046104,
@@ -22717,7 +22921,7 @@
   },
   {
     "id": 42577580,
-    "name": "Mercado Municipal 1.º de Maio",
+    "name": "Mercado Municipal 1.Âº de Maio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22761,7 +22965,7 @@
     "website": null,
     "lat": 40.2114293,
     "lon": -8.4261584,
-    "address": "Rua Olímpio Nicolau Fernandes"
+    "address": "Rua OlÃ­mpio Nicolau Fernandes"
   },
   {
     "id": 60786376,
@@ -22777,7 +22981,7 @@
   },
   {
     "id": 79736795,
-    "name": "Parque de Feiras e Exposições de Tavira",
+    "name": "Parque de Feiras e ExposiÃ§Ãµes de Tavira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -22905,7 +23109,7 @@
     "website": null,
     "lat": 38.6819945,
     "lon": -9.1557357,
-    "address": "Praça do Comércio"
+    "address": "PraÃ§a do ComÃ©rcio"
   },
   {
     "id": 98511983,
@@ -22948,7 +23152,7 @@
     "name": "Mercado",
     "country": "Portugal",
     "region": null,
-    "municipality": "Olhão",
+    "municipality": "OlhÃ£o",
     "products": [],
     "website": null,
     "lat": 37.0237046,
@@ -23017,7 +23221,7 @@
   },
   {
     "id": 104659639,
-    "name": "Mercado Municipal de São João da Madeira",
+    "name": "Mercado Municipal de SÃ£o JoÃ£o da Madeira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23065,7 +23269,7 @@
   },
   {
     "id": 105877010,
-    "name": "Mercado Municipal de Ílhavo",
+    "name": "Mercado Municipal de Ãlhavo",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23113,7 +23317,7 @@
   },
   {
     "id": 107539211,
-    "name": "Cavagri - Cooperativa Agrícola do Alto Cávado",
+    "name": "Cavagri - Cooperativa AgrÃ­cola do Alto CÃ¡vado",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23133,11 +23337,11 @@
     "website": null,
     "lat": 41.1869464,
     "lon": -8.6930518,
-    "address": "Rua de França Júnior"
+    "address": "Rua de FranÃ§a JÃºnior"
   },
   {
     "id": 108105482,
-    "name": "Mercado de Cinfães",
+    "name": "Mercado de CinfÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23173,7 +23377,7 @@
   },
   {
     "id": 109255664,
-    "name": "Praça da Feira Semanal",
+    "name": "PraÃ§a da Feira Semanal",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23401,7 +23605,7 @@
   },
   {
     "id": 125959638,
-    "name": "Mercado da Graça",
+    "name": "Mercado da GraÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23433,7 +23637,7 @@
     "website": "https://www.mercadobomsucesso.pt/",
     "lat": 41.1558175,
     "lon": -8.6290544,
-    "address": "Praça do Bom Sucesso"
+    "address": "PraÃ§a do Bom Sucesso"
   },
   {
     "id": 128445918,
@@ -23533,7 +23737,7 @@
   },
   {
     "id": 135997617,
-    "name": "Mercado da Gafanha da Nazaré",
+    "name": "Mercado da Gafanha da NazarÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23557,7 +23761,7 @@
   },
   {
     "id": 137383247,
-    "name": "Praça dos Sabores",
+    "name": "PraÃ§a dos Sabores",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23601,7 +23805,7 @@
     "website": null,
     "lat": 39.3604436,
     "lon": -9.3801488,
-    "address": "Rua António da Conceição Bento"
+    "address": "Rua AntÃ³nio da ConceiÃ§Ã£o Bento"
   },
   {
     "id": 139732324,
@@ -23665,7 +23869,7 @@
   },
   {
     "id": 141504724,
-    "name": "Feira de Santa Iria de Azóia",
+    "name": "Feira de Santa Iria de AzÃ³ia",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23701,7 +23905,7 @@
   },
   {
     "id": 143075774,
-    "name": "Praça de Odeceixe",
+    "name": "PraÃ§a de Odeceixe",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23713,7 +23917,7 @@
   },
   {
     "id": 143214980,
-    "name": "Mercado Municipal de Oliveira de Azeméis",
+    "name": "Mercado Municipal de Oliveira de AzemÃ©is",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23737,10 +23941,10 @@
   },
   {
     "id": 144016384,
-    "name": "Mercado de Algés",
+    "name": "Mercado de AlgÃ©s",
     "country": "Portugal",
     "region": null,
-    "municipality": "Algés",
+    "municipality": "AlgÃ©s",
     "products": [],
     "website": null,
     "lat": 38.7012771,
@@ -23757,14 +23961,14 @@
     "website": null,
     "lat": 38.6179116,
     "lon": -9.1897334,
-    "address": "Rua de Marco Cabaço"
+    "address": "Rua de Marco CabaÃ§o"
   },
   {
     "id": 144949770,
     "name": "Centro Comercial Torres da Bela Vista",
     "country": "Portugal",
     "region": null,
-    "municipality": "Santo António Cavaleiros",
+    "municipality": "Santo AntÃ³nio Cavaleiros",
     "products": [],
     "website": null,
     "lat": 38.8134113,
@@ -23857,7 +24061,7 @@
   },
   {
     "id": 148323196,
-    "name": "Mercado Municipal da Lourinhã",
+    "name": "Mercado Municipal da LourinhÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23869,10 +24073,10 @@
   },
   {
     "id": 152066443,
-    "name": "Mercado Municipal da Nazaré",
+    "name": "Mercado Municipal da NazarÃ©",
     "country": "Portugal",
     "region": null,
-    "municipality": "Nazaré",
+    "municipality": "NazarÃ©",
     "products": [],
     "website": null,
     "lat": 39.5984946,
@@ -23881,7 +24085,7 @@
   },
   {
     "id": 152829639,
-    "name": "Feira do Levante do Feijó",
+    "name": "Feira do Levante do FeijÃ³",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23905,7 +24109,7 @@
   },
   {
     "id": 154568284,
-    "name": "Mercado Municipal de Vila Praia de Âncora",
+    "name": "Mercado Municipal de Vila Praia de Ã‚ncora",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23917,7 +24121,7 @@
   },
   {
     "id": 156467021,
-    "name": "Feira Semanal do Peso da Régua",
+    "name": "Feira Semanal do Peso da RÃ©gua",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -23965,7 +24169,7 @@
   },
   {
     "id": 160282597,
-    "name": "Mercado Municipal de Alijó",
+    "name": "Mercado Municipal de AlijÃ³",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24001,7 +24205,7 @@
   },
   {
     "id": 162377432,
-    "name": "Peixaria do Mercado Municipal de Évora",
+    "name": "Peixaria do Mercado Municipal de Ã‰vora",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24037,7 +24241,7 @@
   },
   {
     "id": 164129999,
-    "name": "Mercado Diário",
+    "name": "Mercado DiÃ¡rio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24097,7 +24301,7 @@
   },
   {
     "id": 166465815,
-    "name": "Mercado Mensal de Azeitão",
+    "name": "Mercado Mensal de AzeitÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24121,7 +24325,7 @@
   },
   {
     "id": 167295012,
-    "name": "Praça do Mercado",
+    "name": "PraÃ§a do Mercado",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24133,7 +24337,7 @@
   },
   {
     "id": 170988652,
-    "name": "Praça Dom Fernando II",
+    "name": "PraÃ§a Dom Fernando II",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24145,10 +24349,10 @@
   },
   {
     "id": 171492220,
-    "name": "Mercado Duque de Bragança",
+    "name": "Mercado Duque de BraganÃ§a",
     "country": "Portugal",
     "region": null,
-    "municipality": "Angra do Heroísmo",
+    "municipality": "Angra do HeroÃ­smo",
     "products": [],
     "website": null,
     "lat": 38.6563843,
@@ -24169,7 +24373,7 @@
   },
   {
     "id": 173538930,
-    "name": "Mercado da Póvoa de Varzim",
+    "name": "Mercado da PÃ³voa de Varzim",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24217,7 +24421,7 @@
   },
   {
     "id": 181838561,
-    "name": "Mercado Munícipal das Ferreiras",
+    "name": "Mercado MunÃ­cipal das Ferreiras",
     "country": "Portugal",
     "region": null,
     "municipality": "Ferreiras",
@@ -24277,7 +24481,7 @@
   },
   {
     "id": 184446294,
-    "name": "Mercado de Fátima",
+    "name": "Mercado de FÃ¡tima",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24289,7 +24493,7 @@
   },
   {
     "id": 184618525,
-    "name": "Mercado Municipal de Mértola",
+    "name": "Mercado Municipal de MÃ©rtola",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24301,10 +24505,10 @@
   },
   {
     "id": 185143197,
-    "name": "Mercado de São Domingos de Rana",
+    "name": "Mercado de SÃ£o Domingos de Rana",
     "country": "Portugal",
     "region": null,
-    "municipality": "São Domingos de Rana",
+    "municipality": "SÃ£o Domingos de Rana",
     "products": [],
     "website": "https://www.jf-sdrana.pt/autarquia/equipamentos/Mercado/241/",
     "lat": 38.707887,
@@ -24325,7 +24529,7 @@
   },
   {
     "id": 186657999,
-    "name": "Mercado Municipal de São Bras",
+    "name": "Mercado Municipal de SÃ£o Bras",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24397,7 +24601,7 @@
   },
   {
     "id": 198142583,
-    "name": "Mercado Municipal de Torrão",
+    "name": "Mercado Municipal de TorrÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24409,7 +24613,7 @@
   },
   {
     "id": 198778108,
-    "name": "Mercado de São João da Talha",
+    "name": "Mercado de SÃ£o JoÃ£o da Talha",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24493,7 +24697,7 @@
   },
   {
     "id": 209232090,
-    "name": "Cooperativa Agrícola de Esposende",
+    "name": "Cooperativa AgrÃ­cola de Esposende",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24517,7 +24721,7 @@
   },
   {
     "id": 211381884,
-    "name": "Aqui é Fresco",
+    "name": "Aqui Ã© Fresco",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24577,7 +24781,7 @@
   },
   {
     "id": 218128844,
-    "name": "Mercado Municipal de Bragança",
+    "name": "Mercado Municipal de BraganÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24597,7 +24801,7 @@
     "website": null,
     "lat": 38.8457626,
     "lon": -7.3481296,
-    "address": "Parque de Feiras de Santo António"
+    "address": "Parque de Feiras de Santo AntÃ³nio"
   },
   {
     "id": 222073362,
@@ -24613,7 +24817,7 @@
   },
   {
     "id": 222492883,
-    "name": "Feira das Mercês",
+    "name": "Feira das MercÃªs",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24625,7 +24829,7 @@
   },
   {
     "id": 226424916,
-    "name": "A Pérola do Bolhão",
+    "name": "A PÃ©rola do BolhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": "Porto",
@@ -24645,7 +24849,7 @@
     "website": null,
     "lat": 41.1337704,
     "lon": -8.5338115,
-    "address": "Rua da Ala Nun'Álvares"
+    "address": "Rua da Ala Nun'Ãlvares"
   },
   {
     "id": 232721777,
@@ -24673,7 +24877,7 @@
   },
   {
     "id": 242996610,
-    "name": "Mercado de Loulé",
+    "name": "Mercado de LoulÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24733,7 +24937,7 @@
   },
   {
     "id": 245828424,
-    "name": "Mercado de São João",
+    "name": "Mercado de SÃ£o JoÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24745,10 +24949,10 @@
   },
   {
     "id": 246886134,
-    "name": "Mercado de Armação de Pera",
+    "name": "Mercado de ArmaÃ§Ã£o de Pera",
     "country": "Portugal",
     "region": null,
-    "municipality": "Armação de Pêra",
+    "municipality": "ArmaÃ§Ã£o de PÃªra",
     "products": [],
     "website": "https://algarvemoods.com/en/market-in-armacao-de-pera/",
     "lat": 37.1029368,
@@ -24841,7 +25045,7 @@
   },
   {
     "id": 256229225,
-    "name": "Mercado da Praia das Maçãs",
+    "name": "Mercado da Praia das MaÃ§Ã£s",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24853,7 +25057,7 @@
   },
   {
     "id": 258790390,
-    "name": "Mercado Municipal de Santarém",
+    "name": "Mercado Municipal de SantarÃ©m",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24865,7 +25069,7 @@
   },
   {
     "id": 259133168,
-    "name": "Mercado Municipal de Valpaços",
+    "name": "Mercado Municipal de ValpaÃ§os",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24877,7 +25081,7 @@
   },
   {
     "id": 259895158,
-    "name": "Mercado Municipal de Santo André",
+    "name": "Mercado Municipal de Santo AndrÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24889,7 +25093,7 @@
   },
   {
     "id": 262258879,
-    "name": "Feira de São Pedro da Cova",
+    "name": "Feira de SÃ£o Pedro da Cova",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24901,7 +25105,7 @@
   },
   {
     "id": 269874746,
-    "name": "Mercado Algueirão",
+    "name": "Mercado AlgueirÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24925,7 +25129,7 @@
   },
   {
     "id": 276655844,
-    "name": "Mercado Municipal de Alcobaça",
+    "name": "Mercado Municipal de AlcobaÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -24969,11 +25173,11 @@
     "website": null,
     "lat": 39.4067939,
     "lon": -9.1226161,
-    "address": "Rua Inseparáveis de Lubango"
+    "address": "Rua InseparÃ¡veis de Lubango"
   },
   {
     "id": 282225313,
-    "name": "Mercado Municipal de Câmara de Lobos",
+    "name": "Mercado Municipal de CÃ¢mara de Lobos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25005,7 +25209,7 @@
     "website": null,
     "lat": 41.2419289,
     "lon": -8.6652511,
-    "address": "Praça do Exercito Libertador"
+    "address": "PraÃ§a do Exercito Libertador"
   },
   {
     "id": 288994898,
@@ -25033,7 +25237,7 @@
   },
   {
     "id": 297437164,
-    "name": "Mercado Olivais Sul (Célula B)",
+    "name": "Mercado Olivais Sul (CÃ©lula B)",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25069,7 +25273,7 @@
   },
   {
     "id": 306365558,
-    "name": "Mercado da Confeiteira  (\"Xêpa\")",
+    "name": "Mercado da Confeiteira  (\"XÃªpa\")",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25117,7 +25321,7 @@
   },
   {
     "id": 311272433,
-    "name": "Mercado Municipal de Pedrouços",
+    "name": "Mercado Municipal de PedrouÃ§os",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25141,7 +25345,7 @@
   },
   {
     "id": 316312525,
-    "name": "Feira de Custóias",
+    "name": "Feira de CustÃ³ias",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25189,7 +25393,7 @@
   },
   {
     "id": 328779326,
-    "name": "Zona de Atividades Económicas de Darque",
+    "name": "Zona de Atividades EconÃ³micas de Darque",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25201,7 +25405,7 @@
   },
   {
     "id": 330664916,
-    "name": "Mercado de São Domingos de Benfica",
+    "name": "Mercado de SÃ£o Domingos de Benfica",
     "country": "Portugal",
     "region": null,
     "municipality": "Lisboa",
@@ -25209,7 +25413,7 @@
     "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/mercado-de-sao-domingos-de-benfica",
     "lat": 38.7436838,
     "lon": -9.1794918,
-    "address": "Rua Cecilía Meireles"
+    "address": "Rua CecilÃ­a Meireles"
   },
   {
     "id": 331053755,
@@ -25273,7 +25477,7 @@
   },
   {
     "id": 341635923,
-    "name": "Mercado Olivais Sul (Célula E)",
+    "name": "Mercado Olivais Sul (CÃ©lula E)",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25357,7 +25561,7 @@
   },
   {
     "id": 364682775,
-    "name": "Pavilhão Multiusos",
+    "name": "PavilhÃ£o Multiusos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25429,7 +25633,7 @@
   },
   {
     "id": 372966402,
-    "name": "Pavilhão Multiusos",
+    "name": "PavilhÃ£o Multiusos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25453,7 +25657,7 @@
   },
   {
     "id": 377396949,
-    "name": "Praça do Peixe",
+    "name": "PraÃ§a do Peixe",
     "country": "Portugal",
     "region": null,
     "municipality": "Freixianda",
@@ -25461,7 +25665,7 @@
     "website": null,
     "lat": 39.7591309,
     "lon": -8.4582612,
-    "address": "Praça Juvêncio de Figueiredo"
+    "address": "PraÃ§a JuvÃªncio de Figueiredo"
   },
   {
     "id": 384176951,
@@ -25489,7 +25693,7 @@
   },
   {
     "id": 398215360,
-    "name": "Mercado Municipal de Almodôvar",
+    "name": "Mercado Municipal de AlmodÃ´var",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25537,7 +25741,7 @@
   },
   {
     "id": 408079901,
-    "name": "Mercado de Pêra",
+    "name": "Mercado de PÃªra",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25549,7 +25753,7 @@
   },
   {
     "id": 410083906,
-    "name": "Mercado de São Carlos",
+    "name": "Mercado de SÃ£o Carlos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25561,7 +25765,7 @@
   },
   {
     "id": 414869778,
-    "name": "Feira do Cô",
+    "name": "Feira do CÃ´",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25581,7 +25785,7 @@
     "website": null,
     "lat": 40.5191753,
     "lon": -8.078558,
-    "address": "Rua Comandante João Matos Ferreira"
+    "address": "Rua Comandante JoÃ£o Matos Ferreira"
   },
   {
     "id": 423268565,
@@ -25621,7 +25825,7 @@
   },
   {
     "id": 436432980,
-    "name": "Praça Municipal",
+    "name": "PraÃ§a Municipal",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25633,7 +25837,7 @@
   },
   {
     "id": 437364098,
-    "name": "Mercado Municipal de Figueiró dos Vinhos",
+    "name": "Mercado Municipal de FigueirÃ³ dos Vinhos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25645,7 +25849,7 @@
   },
   {
     "id": 438852908,
-    "name": "Espaço 1111- Feira das Segundas",
+    "name": "EspaÃ§o 1111- Feira das Segundas",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25705,7 +25909,7 @@
   },
   {
     "id": 448945602,
-    "name": "Cooperativa Agrícola de Vila Real",
+    "name": "Cooperativa AgrÃ­cola de Vila Real",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25741,7 +25945,7 @@
   },
   {
     "id": 468504736,
-    "name": "Praça da Feira",
+    "name": "PraÃ§a da Feira",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25753,7 +25957,7 @@
   },
   {
     "id": 470628871,
-    "name": "Mercado de Mortágua",
+    "name": "Mercado de MortÃ¡gua",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25789,7 +25993,7 @@
   },
   {
     "id": 478913916,
-    "name": "Mercado da Praça da Alegria",
+    "name": "Mercado da PraÃ§a da Alegria",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -25797,7 +26001,7 @@
     "website": null,
     "lat": 41.144378,
     "lon": -8.5995887,
-    "address": "Praça da Alegria"
+    "address": "PraÃ§a da Alegria"
   },
   {
     "id": 479626794,
@@ -25833,7 +26037,7 @@
     "website": null,
     "lat": 38.1429892,
     "lon": -7.4508892,
-    "address": "Praça Sacadura Cabral"
+    "address": "PraÃ§a Sacadura Cabral"
   },
   {
     "id": 491825406,
@@ -25897,10 +26101,10 @@
   },
   {
     "id": 541240103,
-    "name": "Mercado Municipal de São Luís",
+    "name": "Mercado Municipal de SÃ£o LuÃ­s",
     "country": "Portugal",
     "region": null,
-    "municipality": "São Luís",
+    "municipality": "SÃ£o LuÃ­s",
     "products": [],
     "website": null,
     "lat": 37.7149478,
@@ -25933,7 +26137,7 @@
   },
   {
     "id": 544628304,
-    "name": "Feira da Lourinhã",
+    "name": "Feira da LourinhÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26029,7 +26233,7 @@
   },
   {
     "id": 552113613,
-    "name": "Feira de Pínzio",
+    "name": "Feira de PÃ­nzio",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26089,10 +26293,10 @@
   },
   {
     "id": 555214204,
-    "name": "Mercado Municipal de Santo André",
+    "name": "Mercado Municipal de Santo AndrÃ©",
     "country": "Portugal",
     "region": null,
-    "municipality": "Vila Nova de Santo André",
+    "municipality": "Vila Nova de Santo AndrÃ©",
     "products": [],
     "website": null,
     "lat": 38.0596549,
@@ -26128,12 +26332,12 @@
     "name": "Mercado do Livramento",
     "country": "Portugal",
     "region": null,
-    "municipality": "Setúbal",
+    "municipality": "SetÃºbal",
     "products": [],
     "website": null,
     "lat": 38.5224874,
     "lon": -8.8942292,
-    "address": "Avenida Luísa Todi"
+    "address": "Avenida LuÃ­sa Todi"
   },
   {
     "id": 559281923,
@@ -26152,7 +26356,7 @@
     "name": "Madonna Frutas",
     "country": "Portugal",
     "region": null,
-    "municipality": "São Domingos de Rana",
+    "municipality": "SÃ£o Domingos de Rana",
     "products": [],
     "website": null,
     "lat": 38.7046932,
@@ -26173,7 +26377,7 @@
   },
   {
     "id": 583482095,
-    "name": "Mercado Biológico da Quinta da Alagoa",
+    "name": "Mercado BiolÃ³gico da Quinta da Alagoa",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26233,7 +26437,7 @@
   },
   {
     "id": 612399248,
-    "name": "Parque de Exposições e Feiras",
+    "name": "Parque de ExposiÃ§Ãµes e Feiras",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26257,7 +26461,7 @@
   },
   {
     "id": 619416530,
-    "name": "Feira de Almodôvar",
+    "name": "Feira de AlmodÃ´var",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26529,7 +26733,7 @@
     "website": null,
     "lat": 39.0469499,
     "lon": -8.7024228,
-    "address": "Praça da república"
+    "address": "PraÃ§a da repÃºblica"
   },
   {
     "id": 755690049,
@@ -26581,7 +26785,7 @@
   },
   {
     "id": 808738143,
-    "name": "Parque de Feiras e Exposições de Canas de Senhorim",
+    "name": "Parque de Feiras e ExposiÃ§Ãµes de Canas de Senhorim",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26689,7 +26893,7 @@
   },
   {
     "id": 843591971,
-    "name": "Feira Livre de Bragança",
+    "name": "Feira Livre de BraganÃ§a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26761,7 +26965,7 @@
   },
   {
     "id": 867726138,
-    "name": "Mercado Municipal de Tábua",
+    "name": "Mercado Municipal de TÃ¡bua",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -26793,7 +26997,7 @@
     "website": null,
     "lat": 38.7071023,
     "lon": -8.9809341,
-    "address": "Rua Doutor Manuel da Cruz Júnior"
+    "address": "Rua Doutor Manuel da Cruz JÃºnior"
   },
   {
     "id": 887388236,
@@ -26853,7 +27057,7 @@
     "website": null,
     "lat": 38.8149957,
     "lon": -9.1188227,
-    "address": "Rua dos Galvões"
+    "address": "Rua dos GalvÃµes"
   },
   {
     "id": 895250823,
@@ -26893,7 +27097,7 @@
   },
   {
     "id": 895752367,
-    "name": "Fórum Municipal de Resende",
+    "name": "FÃ³rum Municipal de Resende",
     "country": "Portugal",
     "region": null,
     "municipality": "Resende",
@@ -26977,7 +27181,7 @@
   },
   {
     "id": 914134256,
-    "name": "Mercado Municipal da Lousã",
+    "name": "Mercado Municipal da LousÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27049,7 +27253,7 @@
   },
   {
     "id": 938462216,
-    "name": "Bom Preço - Frutaria",
+    "name": "Bom PreÃ§o - Frutaria",
     "country": "Portugal",
     "region": null,
     "municipality": "Lisboa",
@@ -27057,7 +27261,7 @@
     "website": null,
     "lat": 38.7036224,
     "lon": -9.1961857,
-    "address": "Travessa da Boa Hora à Ajuda"
+    "address": "Travessa da Boa Hora Ã  Ajuda"
   },
   {
     "id": 939520835,
@@ -27073,7 +27277,7 @@
   },
   {
     "id": 941310829,
-    "name": "Recinto da Feira de Valpaços",
+    "name": "Recinto da Feira de ValpaÃ§os",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27169,7 +27373,7 @@
   },
   {
     "id": 967980675,
-    "name": "Mercado do Calhabé",
+    "name": "Mercado do CalhabÃ©",
     "country": "Portugal",
     "region": null,
     "municipality": "Coimbra",
@@ -27205,10 +27409,10 @@
   },
   {
     "id": 991201519,
-    "name": "Frutaçor",
+    "name": "FrutaÃ§or",
     "country": "Portugal",
     "region": null,
-    "municipality": "Vila Franca do Campo (São Miguel)",
+    "municipality": "Vila Franca do Campo (SÃ£o Miguel)",
     "products": [],
     "website": null,
     "lat": 37.7216741,
@@ -27253,7 +27457,7 @@
   },
   {
     "id": 1022558054,
-    "name": "Feira da Batata da Campeã",
+    "name": "Feira da Batata da CampeÃ£",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27265,10 +27469,10 @@
   },
   {
     "id": 1027351766,
-    "name": "Mercado de Sabóia",
+    "name": "Mercado de SabÃ³ia",
     "country": "Portugal",
     "region": null,
-    "municipality": "Sabóia",
+    "municipality": "SabÃ³ia",
     "products": [],
     "website": null,
     "lat": 37.4935065,
@@ -27409,7 +27613,7 @@
   },
   {
     "id": 1072842419,
-    "name": "Mercado Municipal de Cabeço de Vide",
+    "name": "Mercado Municipal de CabeÃ§o de Vide",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27457,7 +27661,7 @@
   },
   {
     "id": 1083541820,
-    "name": "Praça da República",
+    "name": "PraÃ§a da RepÃºblica",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27517,7 +27721,7 @@
   },
   {
     "id": 1111527086,
-    "name": "Mercado da Póvoa de Santo Adrião",
+    "name": "Mercado da PÃ³voa de Santo AdriÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27541,10 +27745,10 @@
   },
   {
     "id": 1120388052,
-    "name": "Mercado de São Romão",
+    "name": "Mercado de SÃ£o RomÃ£o",
     "country": "Portugal",
     "region": null,
-    "municipality": "Ciladas (São Romão)",
+    "municipality": "Ciladas (SÃ£o RomÃ£o)",
     "products": [],
     "website": null,
     "lat": 38.7759836,
@@ -27565,7 +27769,7 @@
   },
   {
     "id": 1134649301,
-    "name": "Parque de Mercados e Feiras de Santa Eulália",
+    "name": "Parque de Mercados e Feiras de Santa EulÃ¡lia",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27601,15 +27805,15 @@
   },
   {
     "id": 1172501000,
-    "name": "Mercado de Vila Nogueira de Azeitão",
+    "name": "Mercado de Vila Nogueira de AzeitÃ£o",
     "country": "Portugal",
     "region": null,
-    "municipality": "Azeitão",
+    "municipality": "AzeitÃ£o",
     "products": [],
     "website": null,
     "lat": 38.5176108,
     "lon": -9.016199,
-    "address": "Rua José Augusto Coelho"
+    "address": "Rua JosÃ© Augusto Coelho"
   },
   {
     "id": 1177932804,
@@ -27649,7 +27853,7 @@
   },
   {
     "id": 1212389585,
-    "name": "Mercado Provisório dos Brejos de Azeitão",
+    "name": "Mercado ProvisÃ³rio dos Brejos de AzeitÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27697,7 +27901,7 @@
   },
   {
     "id": 1239825811,
-    "name": "Parque Municipal de Exposições e Feiras da Encarnação",
+    "name": "Parque Municipal de ExposiÃ§Ãµes e Feiras da EncarnaÃ§Ã£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27757,7 +27961,7 @@
   },
   {
     "id": 1271993040,
-    "name": "Mercado Municipal de Foz Côa",
+    "name": "Mercado Municipal de Foz CÃ´a",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27817,7 +28021,7 @@
   },
   {
     "id": 1329186290,
-    "name": "Feira do Torrão",
+    "name": "Feira do TorrÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27841,7 +28045,7 @@
   },
   {
     "id": 1343876573,
-    "name": "Praça Vandoma",
+    "name": "PraÃ§a Vandoma",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27853,7 +28057,7 @@
   },
   {
     "id": 1352111371,
-    "name": "Mercado Municipal de Famalicão",
+    "name": "Mercado Municipal de FamalicÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27865,7 +28069,7 @@
   },
   {
     "id": 1363350406,
-    "name": "Amanhecer- Mercado \"O Misérias\"",
+    "name": "Amanhecer- Mercado \"O MisÃ©rias\"",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27877,7 +28081,7 @@
   },
   {
     "id": 1375883761,
-    "name": "Feira de Vilar do Paraíso",
+    "name": "Feira de Vilar do ParaÃ­so",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27909,7 +28113,7 @@
     "website": null,
     "lat": 41.178931,
     "lon": -8.562667,
-    "address": "Avenida Doutor Francisco Sá Carneiro"
+    "address": "Avenida Doutor Francisco SÃ¡ Carneiro"
   },
   {
     "id": 1378898134,
@@ -27925,7 +28129,7 @@
   },
   {
     "id": 1416837332,
-    "name": "Feira de Alfeizerão",
+    "name": "Feira de AlfeizerÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27961,7 +28165,7 @@
   },
   {
     "id": 1433679697,
-    "name": "Baía dos Legumes",
+    "name": "BaÃ­a dos Legumes",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -27985,7 +28189,7 @@
   },
   {
     "id": 1451065804,
-    "name": "Simbolos D'Época",
+    "name": "Simbolos D'Ã‰poca",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28057,7 +28261,7 @@
   },
   {
     "id": 1451065817,
-    "name": "Super Banca Lurdes Magalhães",
+    "name": "Super Banca Lurdes MagalhÃ£es",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28129,7 +28333,7 @@
   },
   {
     "id": 3046626,
-    "name": "Mercado do Bolhão",
+    "name": "Mercado do BolhÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28165,7 +28369,7 @@
   },
   {
     "id": 6586483,
-    "name": "Mercado Municipal de Alter do Chão",
+    "name": "Mercado Municipal de Alter do ChÃ£o",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28177,7 +28381,7 @@
   },
   {
     "id": 7654702,
-    "name": "Mercado Municipal de Évora",
+    "name": "Mercado Municipal de Ã‰vora",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28249,7 +28453,7 @@
   },
   {
     "id": 11631918,
-    "name": "Mercado Municipal do Peso da Régua",
+    "name": "Mercado Municipal do Peso da RÃ©gua",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28273,7 +28477,7 @@
   },
   {
     "id": 13845761,
-    "name": "Mercado de Levante da Reforma Agrária",
+    "name": "Mercado de Levante da Reforma AgrÃ¡ria",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28321,15 +28525,15 @@
   },
   {
     "id": 16051117,
-    "name": "Mercado da Conceição",
+    "name": "Mercado da ConceiÃ§Ã£o",
     "country": "Portugal",
     "region": null,
-    "municipality": "Setúbal",
+    "municipality": "SetÃºbal",
     "products": [],
     "website": "https://mercadodaconceicao.pt/",
     "lat": 38.5242995,
     "lon": -8.877867,
-    "address": "Rua do Morgado de Setúbal"
+    "address": "Rua do Morgado de SetÃºbal"
   },
   {
     "id": 16675600,
@@ -28345,7 +28549,7 @@
   },
   {
     "id": 18142671,
-    "name": "Mercado de Mina de São Domingos",
+    "name": "Mercado de Mina de SÃ£o Domingos",
     "country": "Portugal",
     "region": null,
     "municipality": null,
@@ -28402,5 +28606,3305 @@
     "lat": 41.4629597,
     "lon": -8.7489424,
     "address": "Rua da Feira"
+  },
+  {
+    "id": 768706718,
+    "name": "Mercado de Loulé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1382814,
+    "lon": -8.0223477,
+    "address": null
+  },
+  {
+    "id": 1237865888,
+    "name": "Mercearia Glória Padeira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7932982,
+    "lon": -8.5420017,
+    "address": null
+  },
+  {
+    "id": 1261359623,
+    "name": "Frutaria \"Zé Luis\"",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2654812,
+    "lon": -9.3332064,
+    "address": null
+  },
+  {
+    "id": 1272121438,
+    "name": "Praça João Azeve Coutinho",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7299473,
+    "lon": -9.1258359,
+    "address": null
+  },
+  {
+    "id": 1401030424,
+    "name": "Loja da Terra / Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2037794,
+    "lon": -8.3279652,
+    "address": null
+  },
+  {
+    "id": 1487235299,
+    "name": "Frutaria Santo Ovídio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1155881,
+    "lon": -8.6058153,
+    "address": null
+  },
+  {
+    "id": 1545661286,
+    "name": "Supermercado Biológico Brio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7235353,
+    "lon": -9.2347026,
+    "address": null
+  },
+  {
+    "id": 1575636418,
+    "name": "Quadrimóvel",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7684227,
+    "lon": -9.2853372,
+    "address": null
+  },
+  {
+    "id": 1581892777,
+    "name": "Casinha do António",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5386872,
+    "lon": -8.8965372,
+    "address": null
+  },
+  {
+    "id": 1581908398,
+    "name": "Mercearia Senhor Zé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.535383,
+    "lon": -8.8946979,
+    "address": null
+  },
+  {
+    "id": 1584203705,
+    "name": "Centro Comercial Santo António",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.814467,
+    "lon": -9.1561192,
+    "address": null
+  },
+  {
+    "id": 1588263975,
+    "name": "Sabores e Delícias II",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Carnide",
+    "products": [],
+    "website": null,
+    "lat": 38.7621933,
+    "lon": -9.1795446,
+    "address": "Rua Padre Américo"
+  },
+  {
+    "id": 1590185048,
+    "name": "Praças de Olhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.0237339,
+    "lon": -7.840532,
+    "address": null
+  },
+  {
+    "id": 1590185100,
+    "name": "Praças de Olhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.0236997,
+    "lon": -7.8414493,
+    "address": null
+  },
+  {
+    "id": 1625389188,
+    "name": "Mercado da Consolação",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3250392,
+    "lon": -9.3563422,
+    "address": null
+  },
+  {
+    "id": 1677103016,
+    "name": "Sabores e Delícias",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7692367,
+    "lon": -9.1708673,
+    "address": null
+  },
+  {
+    "id": 1714803310,
+    "name": "Clínica Veterinária de Ermesinde",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Ermesinde",
+    "products": [],
+    "website": null,
+    "lat": 41.2098117,
+    "lon": -8.5553445,
+    "address": "Avenida João de Deus"
+  },
+  {
+    "id": 1801417304,
+    "name": "Mercado Agrícola do Santo da Serra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 32.7256206,
+    "lon": -16.8206161,
+    "address": null
+  },
+  {
+    "id": 1809831819,
+    "name": "Praça da Rua",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.4438529,
+    "lon": -9.0991931,
+    "address": null
+  },
+  {
+    "id": 1813899053,
+    "name": "Frutaria Santo António",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Funchal",
+    "products": [],
+    "website": null,
+    "lat": 32.6637758,
+    "lon": -16.9396872,
+    "address": null
+  },
+  {
+    "id": 1937840191,
+    "name": "Os Irmãos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7394771,
+    "lon": -9.1642956,
+    "address": null
+  },
+  {
+    "id": 2006254241,
+    "name": "Grande Bazar Chinês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8358893,
+    "lon": -8.4785073,
+    "address": null
+  },
+  {
+    "id": 2006273368,
+    "name": "Mercearia da Praça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8401736,
+    "lon": -8.4767701,
+    "address": null
+  },
+  {
+    "id": 2043135000,
+    "name": "Talho de Golães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4658616,
+    "lon": -8.1957151,
+    "address": null
+  },
+  {
+    "id": 2124886547,
+    "name": "Mercado Praia da Vitória",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7303953,
+    "lon": -27.0635669,
+    "address": null
+  },
+  {
+    "id": 2163996648,
+    "name": "Frutaria Aquário",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [],
+    "website": null,
+    "lat": 38.760658,
+    "lon": -9.1687507,
+    "address": "Rua Professor Francisco Gentil"
+  },
+  {
+    "id": 2198617277,
+    "name": "Mercado Produtos Biológicos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5460673,
+    "lon": -8.4160381,
+    "address": null
+  },
+  {
+    "id": 2199672835,
+    "name": "Época da Fruta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3383867,
+    "lon": -8.5500145,
+    "address": null
+  },
+  {
+    "id": 2208435955,
+    "name": "Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1738733,
+    "lon": -7.0454335,
+    "address": null
+  },
+  {
+    "id": 2365786062,
+    "name": "Bazar Chinês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.7543565,
+    "lon": -8.4870139,
+    "address": null
+  },
+  {
+    "id": 2365786073,
+    "name": "Quirós",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.7555413,
+    "lon": -8.4864281,
+    "address": null
+  },
+  {
+    "id": 2367081810,
+    "name": "Casa Januário",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://casajanuario.pt",
+    "lat": 41.1492802,
+    "lon": -8.6094311,
+    "address": "Rua do Bonjardim"
+  },
+  {
+    "id": 2409846247,
+    "name": "Agricultura Tradicional de Azeitão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.facebook.com/pages/Agricultura-Tradicional-De-Azeitao/275615839164654",
+    "lat": 38.5255505,
+    "lon": -8.9959509,
+    "address": "Rua 5 de Outubro"
+  },
+  {
+    "id": 2538562971,
+    "name": "Mercado de Armação de Pêra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://jf-armacaodepera.com/index.php/en/services/market",
+    "lat": 37.1029604,
+    "lon": -8.3607813,
+    "address": null
+  },
+  {
+    "id": 2616449984,
+    "name": "Casa Agrícola de Barco",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4982656,
+    "lon": -8.3339473,
+    "address": null
+  },
+  {
+    "id": 2617754871,
+    "name": "Empresa Técnica Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5536808,
+    "lon": -8.4245506,
+    "address": null
+  },
+  {
+    "id": 2623399443,
+    "name": "Casa Cerdeiras - João António Silva",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6551986,
+    "lon": -8.5138893,
+    "address": null
+  },
+  {
+    "id": 2632306275,
+    "name": "Cooperativa Agrícola de Viana do Castelo e Caminha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6988374,
+    "lon": -8.8263064,
+    "address": "Rua Capitão Gaspar de Castro"
+  },
+  {
+    "id": 2634101587,
+    "name": "Casa Caldas - loja da Correlhã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://casacaldas.com/",
+    "lat": 41.7453398,
+    "lon": -8.6083863,
+    "address": null
+  },
+  {
+    "id": 2634101602,
+    "name": "Cooperativa Agrícola dos Agricultores Vale do Lima",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.755107,
+    "lon": -8.5857893,
+    "address": null
+  },
+  {
+    "id": 2640027627,
+    "name": "Leonor Conceição Domingues - Monção",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.0754505,
+    "lon": -8.4849858,
+    "address": null
+  },
+  {
+    "id": 2641342613,
+    "name": "CABasto - Cooperativa Agrícola de Cabeceiras de Basto",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5140576,
+    "lon": -7.9885086,
+    "address": "Rua Bombeiros Voluntarios"
+  },
+  {
+    "id": 2643406286,
+    "name": "Casa Agrícola Clara Ramos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7376162,
+    "lon": -7.4643733,
+    "address": "Rua Doutor José Timóteo Montalvão Machado"
+  },
+  {
+    "id": 2644234444,
+    "name": "A Nordestina - Natalino dos Santos Gomes - Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4868332,
+    "lon": -7.1795898,
+    "address": "Rua Doutor Álvaro Soares"
+  },
+  {
+    "id": 2644234455,
+    "name": "Cooperativa Agrícola de Valpaços",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6084893,
+    "lon": -7.3111045,
+    "address": "Rua Marechal Carmona"
+  },
+  {
+    "id": 2644234469,
+    "name": "Sebastião Vila das Neves",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6095852,
+    "lon": -7.3096013,
+    "address": "Rua Horta da Fonte"
+  },
+  {
+    "id": 2644234474,
+    "name": "Sanjufrutas (Armazém)",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5821563,
+    "lon": -7.4570179,
+    "address": "Rua Central"
+  },
+  {
+    "id": 2654872635,
+    "name": "Cooperativa Agrícola dos Lavradores do concelho de Valença",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.022933,
+    "lon": -8.6389736,
+    "address": "Rua da Bogalheira"
+  },
+  {
+    "id": 2654872660,
+    "name": "AgroVila - Paulo Jorge Brandão Gonçalves",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "www.growvilla.pt",
+    "lat": 41.9777415,
+    "lon": -8.6774826,
+    "address": "EN 13"
+  },
+  {
+    "id": 2658071366,
+    "name": "Casa Agrícola de Mondim",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4115332,
+    "lon": -7.9613343,
+    "address": null
+  },
+  {
+    "id": 2659360329,
+    "name": "Casa Agrícola de Bragança",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8090669,
+    "lon": -6.7596031,
+    "address": "Avenida João da Cruz"
+  },
+  {
+    "id": 2666941461,
+    "name": "Matosmix - rações Prestigium",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4263203,
+    "lon": -8.6400339,
+    "address": null
+  },
+  {
+    "id": 2712465059,
+    "name": "Cooperativa Agrícola Norte Transmontano",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7727279,
+    "lon": -7.4730371,
+    "address": null
+  },
+  {
+    "id": 2717430659,
+    "name": "Cooperativa Agrícola Sabodouro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3432075,
+    "lon": -6.7106621,
+    "address": "Largo do Toural"
+  },
+  {
+    "id": 2724117078,
+    "name": "Casa Agrícola de Delães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3858673,
+    "lon": -8.4229871,
+    "address": null
+  },
+  {
+    "id": 2759605061,
+    "name": "Cooperativa Agrícola de Valença",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.0236634,
+    "lon": -8.6438846,
+    "address": null
+  },
+  {
+    "id": 2810695730,
+    "name": "Dietética Alimentação e Saúde",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6422884,
+    "lon": -8.6548513,
+    "address": null
+  },
+  {
+    "id": 2925059922,
+    "name": "Casa Agrícola de Airão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4509949,
+    "lon": -8.4132977,
+    "address": null
+  },
+  {
+    "id": 2931947894,
+    "name": "Sónia Ribeiro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4082296,
+    "lon": -7.4193224,
+    "address": "Lugar do Ratiço"
+  },
+  {
+    "id": 2931947895,
+    "name": "Adega Cooperativa de Murça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4070795,
+    "lon": -7.4488949,
+    "address": null
+  },
+  {
+    "id": 2931947896,
+    "name": "Cooperativa dos Olivicultores de Murça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4107767,
+    "lon": -7.435531,
+    "address": null
+  },
+  {
+    "id": 2931947903,
+    "name": "Mercado Alfândega da Fé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3442323,
+    "lon": -6.9610509,
+    "address": null
+  },
+  {
+    "id": 2940104624,
+    "name": "Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4335988,
+    "lon": -7.9894206,
+    "address": null
+  },
+  {
+    "id": 2966251701,
+    "name": "Banca de venda de camarão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.3707069,
+    "lon": -8.5063207,
+    "address": null
+  },
+  {
+    "id": 3345559901,
+    "name": "Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.0639197,
+    "lon": -8.5059591,
+    "address": null
+  },
+  {
+    "id": 3353636637,
+    "name": "Agronor (rações)",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6483252,
+    "lon": -8.7045902,
+    "address": null
+  },
+  {
+    "id": 3461721700,
+    "name": "Cantinho Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3691746,
+    "lon": -8.4249925,
+    "address": null
+  },
+  {
+    "id": 3503033893,
+    "name": "Bricoura - Casa Agrícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.9139412,
+    "lon": -8.5547152,
+    "address": null
+  },
+  {
+    "id": 3551061545,
+    "name": "Cooperativa Agrícola de Alfândega da Fé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3453317,
+    "lon": -6.9603786,
+    "address": "Avenida Engenheiro Camilo Lemos de Mendonça"
+  },
+  {
+    "id": 3563429894,
+    "name": "Casa Agrícola - Francisco Carvalho de Oliveira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4239812,
+    "lon": -7.98536,
+    "address": null
+  },
+  {
+    "id": 3639253672,
+    "name": "Cooperativa Agrícola de Esposende",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5319586,
+    "lon": -8.7730953,
+    "address": null
+  },
+  {
+    "id": 3862469906,
+    "name": "Cooperativa da Póvoa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4088512,
+    "lon": -8.7409852,
+    "address": null
+  },
+  {
+    "id": 3870726798,
+    "name": "Aromas de Trás-os-Montes",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1735805,
+    "lon": -8.6026538,
+    "address": null
+  },
+  {
+    "id": 4065067036,
+    "name": "Frutas Araújo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4350536,
+    "lon": -8.4183933,
+    "address": null
+  },
+  {
+    "id": 4157888217,
+    "name": "Casa Patrícia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8163917,
+    "lon": -8.866325,
+    "address": null
+  },
+  {
+    "id": 4163916591,
+    "name": "Café Louro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Cacilhas",
+    "products": [],
+    "website": null,
+    "lat": 38.6869786,
+    "lon": -9.1493578,
+    "address": "Rua Carvalho Freirinha"
+  },
+  {
+    "id": 4268131517,
+    "name": "Loja Contradição",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3421373,
+    "lon": -6.7103188,
+    "address": null
+  },
+  {
+    "id": 4304645767,
+    "name": "Casa Agrícola de Lanheses",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.734905,
+    "lon": -8.6776537,
+    "address": null
+  },
+  {
+    "id": 4304667001,
+    "name": "Cooperativa Agrícola de Viana do Castelo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7342571,
+    "lon": -8.6768174,
+    "address": null
+  },
+  {
+    "id": 4399590491,
+    "name": "Frutaria São Miguel",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.7411427,
+    "lon": -25.6693962,
+    "address": "Rua António José de Almeida"
+  },
+  {
+    "id": 4487240571,
+    "name": "Patrícia Frutas Pilar",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.1551599,
+    "lon": -9.3280632,
+    "address": "Rua dos Paulos"
+  },
+  {
+    "id": 4531953991,
+    "name": "Primofruta - Sociedade Hortfrutícola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2825398,
+    "lon": -9.1898992,
+    "address": "Rua das Flores"
+  },
+  {
+    "id": 4614775004,
+    "name": "Mercearia Duque de Loulé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1445283,
+    "lon": -8.6045555,
+    "address": null
+  },
+  {
+    "id": 4703791579,
+    "name": "Maça de Adão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [],
+    "website": null,
+    "lat": 38.7059996,
+    "lon": -9.1731276,
+    "address": "Rua Prior do Crato"
+  },
+  {
+    "id": 4722320527,
+    "name": "Cobadu Rações",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5007517,
+    "lon": -7.1662011,
+    "address": null
+  },
+  {
+    "id": 5042997002,
+    "name": "Cooperativa Agrícola de Santa Catarina da Fonte do Bispo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1264641,
+    "lon": -7.7148774,
+    "address": null
+  },
+  {
+    "id": 5077617923,
+    "name": "Feira de Produtos Biológicos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1704188,
+    "lon": -8.672223,
+    "address": null
+  },
+  {
+    "id": 5118395503,
+    "name": "Lima Limão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1019252,
+    "lon": -7.6573104,
+    "address": null
+  },
+  {
+    "id": 5174935622,
+    "name": "Êxito Alegre",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6303894,
+    "lon": -8.3556561,
+    "address": null
+  },
+  {
+    "id": 5242447565,
+    "name": "Cooperativa Agrícola Viana Castelo e Caminha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8741834,
+    "lon": -8.835182,
+    "address": null
+  },
+  {
+    "id": 5351689777,
+    "name": "Mercado São João",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7537748,
+    "lon": -9.1732257,
+    "address": null
+  },
+  {
+    "id": 5412084847,
+    "name": "Espaço Rural",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4858405,
+    "lon": -8.4760397,
+    "address": null
+  },
+  {
+    "id": 5611753920,
+    "name": "Pérola do Monte",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7079639,
+    "lon": -9.408196,
+    "address": "Rua do Lido"
+  },
+  {
+    "id": 5615258553,
+    "name": "Frutaria das Irmãs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6949964,
+    "lon": -9.3402569,
+    "address": "Estrada da Alagoa"
+  },
+  {
+    "id": 5618476599,
+    "name": "Flôr da Figueirôa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Porto",
+    "products": [],
+    "website": null,
+    "lat": 41.1556508,
+    "lon": -8.6185535,
+    "address": "Travessa da Figueirôa"
+  },
+  {
+    "id": 5924261248,
+    "name": "Pomar Hélder",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Chaves",
+    "products": [],
+    "website": null,
+    "lat": 41.7402317,
+    "lon": -7.4719593,
+    "address": "Largo do Município"
+  },
+  {
+    "id": 6000338377,
+    "name": "Casa Agrícola Rui Batel",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.550884,
+    "lon": -8.7180884,
+    "address": null
+  },
+  {
+    "id": 6055814245,
+    "name": "Pé de Laranja",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.7296585,
+    "lon": -8.8356254,
+    "address": null
+  },
+  {
+    "id": 6226196590,
+    "name": "Cooperativa Agrícola Olivicultores Do Torrão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Torrão",
+    "products": [],
+    "website": null,
+    "lat": 38.2928961,
+    "lon": -8.2223341,
+    "address": "Rua 5 de Outubro"
+  },
+  {
+    "id": 6348222983,
+    "name": "Bialógica",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1565021,
+    "lon": -7.8892771,
+    "address": null
+  },
+  {
+    "id": 6426040722,
+    "name": "Sacolão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Nova de Caparica",
+    "products": [],
+    "website": null,
+    "lat": 38.6449609,
+    "lon": -9.206976,
+    "address": "Praceta Cipriano dos Santos"
+  },
+  {
+    "id": 6431571558,
+    "name": "O Francês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Costa da Caparica",
+    "products": [],
+    "website": null,
+    "lat": 38.6434603,
+    "lon": -9.2335784,
+    "address": "Avenida do Movimento das Forças Armadas"
+  },
+  {
+    "id": 6433265257,
+    "name": "Pōr do sol",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.492812,
+    "lon": -8.7836019,
+    "address": null
+  },
+  {
+    "id": 6434523760,
+    "name": "Fruprogress Feijó",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6550285,
+    "lon": -9.1652597,
+    "address": "Rua Doutor António Elvas"
+  },
+  {
+    "id": 6441622825,
+    "name": "Romã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6832552,
+    "lon": -9.1518322,
+    "address": "Rua Comandante António Feio"
+  },
+  {
+    "id": 6441653081,
+    "name": "Lourenços",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Cacilhas",
+    "products": [],
+    "website": null,
+    "lat": 38.6835925,
+    "lon": -9.1529383,
+    "address": "Rua Dona Maria da Silva"
+  },
+  {
+    "id": 6530588267,
+    "name": "Frutaria das Irmãs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Oeiras",
+    "products": [],
+    "website": null,
+    "lat": 38.6973831,
+    "lon": -9.3028195,
+    "address": "Rua de São Paulo"
+  },
+  {
+    "id": 6540190538,
+    "name": "Feira de Numismática, Filatelia e Colecionismo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://comercioturismo.cm-porto.pt/feiras-e-mercados/feira-de-numismatica-e-filatelia",
+    "lat": 41.1474323,
+    "lon": -8.6090933,
+    "address": null
+  },
+  {
+    "id": 6548078876,
+    "name": "Mercadinho dos Clérigos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1463928,
+    "lon": -8.6140966,
+    "address": null
+  },
+  {
+    "id": 6761347757,
+    "name": "Frutaria Sabor Próprio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.662275,
+    "lon": -7.9097469,
+    "address": null
+  },
+  {
+    "id": 6806122799,
+    "name": "Pêra Doce",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6804896,
+    "lon": -28.2056376,
+    "address": null
+  },
+  {
+    "id": 6985855934,
+    "name": "Botica das Carlotas - Filipe Gonçalves & Irmão,",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8729778,
+    "lon": -8.8410615,
+    "address": "Rua Benemérito Joaquim Rosas"
+  },
+  {
+    "id": 7020890153,
+    "name": "Pomar da Faria Guimarães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.16003,
+    "lon": -8.6077524,
+    "address": null
+  },
+  {
+    "id": 7093713385,
+    "name": "Dionísio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6393444,
+    "lon": -7.6616166,
+    "address": "Rua Doutor Serrão Martins"
+  },
+  {
+    "id": 7159588757,
+    "name": "Américo Bernardino",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.2171951,
+    "lon": -8.405281,
+    "address": "Rua Capitão Luís Gonzaga"
+  },
+  {
+    "id": 7241151706,
+    "name": "Praça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6894463,
+    "lon": -8.4809563,
+    "address": null
+  },
+  {
+    "id": 7841537014,
+    "name": "Feira mensal da Santa Eufémia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3084314,
+    "lon": -8.6286845,
+    "address": null
+  },
+  {
+    "id": 7850648228,
+    "name": "Frutaria de Loulé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1383737,
+    "lon": -8.0197407,
+    "address": "Rua Maria Campina"
+  },
+  {
+    "id": 8308198718,
+    "name": "Maria Flamingo - Alimento Biológico",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.facebook.com/MariaFlamingaLda",
+    "lat": 37.1178391,
+    "lon": -7.6597732,
+    "address": "Rua de São Pedro"
+  },
+  {
+    "id": 8475638613,
+    "name": "Comércio Justo Porto",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1702442,
+    "lon": -8.6724871,
+    "address": null
+  },
+  {
+    "id": 8495135950,
+    "name": "Frutaria do Bolhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1514877,
+    "lon": -8.6073755,
+    "address": null
+  },
+  {
+    "id": 8664721296,
+    "name": "Frutaria Tânia Filipe",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7441781,
+    "lon": -9.1795761,
+    "address": null
+  },
+  {
+    "id": 8691326822,
+    "name": "Jóia do Campo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.joiadocampo.com/",
+    "lat": 38.7582532,
+    "lon": -9.2390384,
+    "address": null
+  },
+  {
+    "id": 8691326904,
+    "name": "Armazém - Joia do Campo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7590276,
+    "lon": -9.2391645,
+    "address": null
+  },
+  {
+    "id": 8728334023,
+    "name": "Estação da Fruta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7949423,
+    "lon": -9.3380479,
+    "address": "Rua do Carrascal"
+  },
+  {
+    "id": 9960215775,
+    "name": "Céu Fruta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9251445,
+    "lon": -9.2329497,
+    "address": null
+  },
+  {
+    "id": 10026753913,
+    "name": "Frutaria Fátima Teixeira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1489209,
+    "lon": -8.6072262,
+    "address": null
+  },
+  {
+    "id": 10026761817,
+    "name": "Frutaria do Bolhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.148961,
+    "lon": -8.6073567,
+    "address": null
+  },
+  {
+    "id": 10026761854,
+    "name": "As Irmãs Araújo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1490614,
+    "lon": -8.6073642,
+    "address": null
+  },
+  {
+    "id": 10026761856,
+    "name": "Maria do Álvaro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.149047,
+    "lon": -8.6073131,
+    "address": null
+  },
+  {
+    "id": 10026761858,
+    "name": "Emília Horticaleira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1490297,
+    "lon": -8.6072512,
+    "address": null
+  },
+  {
+    "id": 10099972622,
+    "name": "Minimercado Bom Preço",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.2123616,
+    "lon": -8.4323411,
+    "address": "Rua Simões de Castro"
+  },
+  {
+    "id": 10236326782,
+    "name": "Pé de Laranja",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.757297,
+    "lon": -8.8205764,
+    "address": null
+  },
+  {
+    "id": 10272094069,
+    "name": "Café e Cesta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6717433,
+    "lon": -9.1566202,
+    "address": null
+  },
+  {
+    "id": 10272131623,
+    "name": "Preço Baixo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6722816,
+    "lon": -9.1567904,
+    "address": null
+  },
+  {
+    "id": 10822988892,
+    "name": "Avoneto Prod. Hortícolas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.4715383,
+    "lon": -9.1017161,
+    "address": null
+  },
+  {
+    "id": 11028129170,
+    "name": "Delícias da Quinta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5247101,
+    "lon": -8.87515,
+    "address": null
+  },
+  {
+    "id": 11407307462,
+    "name": "Toma Lá Morangos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1857024,
+    "lon": -8.6931614,
+    "address": "Rua de Brito Capelo"
+  },
+  {
+    "id": 11463114443,
+    "name": "Frutaria Castelões",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1858508,
+    "lon": -8.6913864,
+    "address": null
+  },
+  {
+    "id": 11478748871,
+    "name": "Regibama - Comércio De Frutas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 32.6716396,
+    "lon": -16.9794452,
+    "address": null
+  },
+  {
+    "id": 11598799444,
+    "name": "Supermercado da Júlia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Nine",
+    "products": [],
+    "website": null,
+    "lat": 41.4633033,
+    "lon": -8.5311882,
+    "address": "Rua de Vilar d'Este"
+  },
+  {
+    "id": 11876848592,
+    "name": "Paraíso da Fruta - Damaia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7482493,
+    "lon": -9.2107612,
+    "address": null
+  },
+  {
+    "id": 12035787796,
+    "name": "Frutaria Seminário",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Funchal",
+    "products": [],
+    "website": null,
+    "lat": 32.6494436,
+    "lon": -16.9056307,
+    "address": null
+  },
+  {
+    "id": 12075213801,
+    "name": "Mercado de Chão de Couce",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.8926087,
+    "lon": -8.3682827,
+    "address": null
+  },
+  {
+    "id": 12314198864,
+    "name": "Mercado D´Santos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7071653,
+    "lon": -9.1572167,
+    "address": null
+  },
+  {
+    "id": 12321713131,
+    "name": "Frutaria Doce Tentação",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7500367,
+    "lon": -9.1949207,
+    "address": null
+  },
+  {
+    "id": 12346835090,
+    "name": "Doce Maçã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7759455,
+    "lon": -9.1518189,
+    "address": null
+  },
+  {
+    "id": 12390460799,
+    "name": "mercado de camôes",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.712027,
+    "lon": -9.1430894,
+    "address": null
+  },
+  {
+    "id": 12392524780,
+    "name": "Época da Fruta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2276151,
+    "lon": -8.6187345,
+    "address": "Avenida de António Santos Leite"
+  },
+  {
+    "id": 12412721301,
+    "name": "Tradição dos Sabores",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.0118247,
+    "lon": -7.8613502,
+    "address": null
+  },
+  {
+    "id": 12921483744,
+    "name": "Frutería O Pomar",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.8219724,
+    "lon": -25.5245733,
+    "address": null
+  },
+  {
+    "id": 13056138465,
+    "name": "Praça Secos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.299418,
+    "lon": -7.7462861,
+    "address": null
+  },
+  {
+    "id": 13056138466,
+    "name": "Praça Frescos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.299515,
+    "lon": -7.7456513,
+    "address": null
+  },
+  {
+    "id": 13159927797,
+    "name": "A Rústica",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "São João da Madeira",
+    "products": [],
+    "website": null,
+    "lat": 40.9007101,
+    "lon": -8.4923763,
+    "address": "Largo de Santo António"
+  },
+  {
+    "id": 13167308587,
+    "name": "Zé da Fruta",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4105602,
+    "lon": -8.5193026,
+    "address": null
+  },
+  {
+    "id": 13203351957,
+    "name": "Feira de Baião",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.157187,
+    "lon": -8.0388472,
+    "address": null
+  },
+  {
+    "id": 13306797395,
+    "name": "Super Banca Lurdes Magalhães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Nova de Famalicao",
+    "products": [],
+    "website": null,
+    "lat": 41.4033812,
+    "lon": -8.518024,
+    "address": "Rua José Azevedo Menezes"
+  },
+  {
+    "id": 13344245605,
+    "name": "Praça da Tocha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3154416,
+    "lon": -8.7537744,
+    "address": null
+  },
+  {
+    "id": 13344245606,
+    "name": "Praça da Tocha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.314394,
+    "lon": -8.7537526,
+    "address": null
+  },
+  {
+    "id": 13344245607,
+    "name": "Praça da Tocha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3142831,
+    "lon": -8.7543515,
+    "address": null
+  },
+  {
+    "id": 13501069046,
+    "name": "Super Banca Lurdes Magalhães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Nova de Famalicão",
+    "products": [],
+    "website": null,
+    "lat": 41.4046104,
+    "lon": -8.5160907,
+    "address": "Avenida Marechal Humberto Delgado"
+  },
+  {
+    "id": 42577580,
+    "name": "Mercado Municipal 1.º de Maio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6615488,
+    "lon": -9.0780635,
+    "address": null
+  },
+  {
+    "id": 79736795,
+    "name": "Parque de Feiras e Exposições de Tavira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1403445,
+    "lon": -7.6445627,
+    "address": null
+  },
+  {
+    "id": 104659639,
+    "name": "Mercado Municipal de São João da Madeira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.9002231,
+    "lon": -8.4948021,
+    "address": null
+  },
+  {
+    "id": 105877010,
+    "name": "Mercado Municipal de Ílhavo",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.5971395,
+    "lon": -8.6623534,
+    "address": null
+  },
+  {
+    "id": 107539211,
+    "name": "Cavagri - Cooperativa Agrícola do Alto Cávado",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6079313,
+    "lon": -8.4278562,
+    "address": null
+  },
+  {
+    "id": 108105482,
+    "name": "Mercado de Cinfães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.071629,
+    "lon": -8.087775,
+    "address": null
+  },
+  {
+    "id": 109255664,
+    "name": "Praça da Feira Semanal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.44975,
+    "lon": -8.1742618,
+    "address": null
+  },
+  {
+    "id": 125959638,
+    "name": "Mercado da Graça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.741848,
+    "lon": -25.6642929,
+    "address": null
+  },
+  {
+    "id": 135997617,
+    "name": "Mercado da Gafanha da Nazaré",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6332941,
+    "lon": -8.7157608,
+    "address": null
+  },
+  {
+    "id": 137383247,
+    "name": "Praça dos Sabores",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.461271,
+    "lon": -8.2001728,
+    "address": null
+  },
+  {
+    "id": 141504724,
+    "name": "Feira de Santa Iria de Azóia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8431254,
+    "lon": -9.0904833,
+    "address": null
+  },
+  {
+    "id": 143075774,
+    "name": "Praça de Odeceixe",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.4325035,
+    "lon": -8.7689674,
+    "address": null
+  },
+  {
+    "id": 143214980,
+    "name": "Mercado Municipal de Oliveira de Azeméis",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.8406314,
+    "lon": -8.477024,
+    "address": null
+  },
+  {
+    "id": 144016384,
+    "name": "Mercado de Algés",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Algés",
+    "products": [],
+    "website": null,
+    "lat": 38.7012771,
+    "lon": -9.2285054,
+    "address": null
+  },
+  {
+    "id": 148323196,
+    "name": "Mercado Municipal da Lourinhã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2437405,
+    "lon": -9.3107515,
+    "address": null
+  },
+  {
+    "id": 152066443,
+    "name": "Mercado Municipal da Nazaré",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Nazaré",
+    "products": [],
+    "website": null,
+    "lat": 39.5984946,
+    "lon": -9.0703757,
+    "address": null
+  },
+  {
+    "id": 152829639,
+    "name": "Feira do Levante do Feijó",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6551522,
+    "lon": -9.1675549,
+    "address": null
+  },
+  {
+    "id": 154568284,
+    "name": "Mercado Municipal de Vila Praia de Âncora",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.815699,
+    "lon": -8.8637631,
+    "address": null
+  },
+  {
+    "id": 156467021,
+    "name": "Feira Semanal do Peso da Régua",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1635998,
+    "lon": -7.7934493,
+    "address": null
+  },
+  {
+    "id": 160282597,
+    "name": "Mercado Municipal de Alijó",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2738708,
+    "lon": -7.4757374,
+    "address": null
+  },
+  {
+    "id": 162377432,
+    "name": "Peixaria do Mercado Municipal de Évora",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5682305,
+    "lon": -7.9094244,
+    "address": null
+  },
+  {
+    "id": 164129999,
+    "name": "Mercado Diário",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4619888,
+    "lon": -8.4705489,
+    "address": null
+  },
+  {
+    "id": 166465815,
+    "name": "Mercado Mensal de Azeitão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5276217,
+    "lon": -9.0218911,
+    "address": null
+  },
+  {
+    "id": 167295012,
+    "name": "Praça do Mercado",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0009427,
+    "lon": -8.1777375,
+    "address": null
+  },
+  {
+    "id": 170988652,
+    "name": "Praça Dom Fernando II",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.790471,
+    "lon": -9.3800206,
+    "address": null
+  },
+  {
+    "id": 171492220,
+    "name": "Mercado Duque de Bragança",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Angra do Heroísmo",
+    "products": [],
+    "website": null,
+    "lat": 38.6563843,
+    "lon": -27.2221333,
+    "address": "Rua do Rego"
+  },
+  {
+    "id": 173538930,
+    "name": "Mercado da Póvoa de Varzim",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3817917,
+    "lon": -8.7615253,
+    "address": null
+  },
+  {
+    "id": 181838561,
+    "name": "Mercado Munícipal das Ferreiras",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Ferreiras",
+    "products": [],
+    "website": null,
+    "lat": 37.127047,
+    "lon": -8.2428787,
+    "address": "Avenida 12 de Julho"
+  },
+  {
+    "id": 184446294,
+    "name": "Mercado de Fátima",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6283999,
+    "lon": -8.6667151,
+    "address": null
+  },
+  {
+    "id": 184618525,
+    "name": "Mercado Municipal de Mértola",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6386696,
+    "lon": -7.6627195,
+    "address": null
+  },
+  {
+    "id": 185143197,
+    "name": "Mercado de São Domingos de Rana",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "São Domingos de Rana",
+    "products": [],
+    "website": "https://www.jf-sdrana.pt/autarquia/equipamentos/Mercado/241/",
+    "lat": 38.707887,
+    "lon": -9.3462861,
+    "address": "Avenida Padre Agostinho Pereira da Silva"
+  },
+  {
+    "id": 186657999,
+    "name": "Mercado Municipal de São Bras",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1545604,
+    "lon": -7.8879507,
+    "address": null
+  },
+  {
+    "id": 198142583,
+    "name": "Mercado Municipal de Torrão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.2931892,
+    "lon": -8.2231376,
+    "address": null
+  },
+  {
+    "id": 198778108,
+    "name": "Mercado de São João da Talha",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.825272,
+    "lon": -9.0982143,
+    "address": null
+  },
+  {
+    "id": 209232090,
+    "name": "Cooperativa Agrícola de Esposende",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.5219075,
+    "lon": -8.7617142,
+    "address": null
+  },
+  {
+    "id": 211381884,
+    "name": "Aqui é Fresco",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.7287077,
+    "lon": -8.775508,
+    "address": null
+  },
+  {
+    "id": 218128844,
+    "name": "Mercado Municipal de Bragança",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8071396,
+    "lon": -6.7639149,
+    "address": null
+  },
+  {
+    "id": 222492883,
+    "name": "Feira das Mercês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.793798,
+    "lon": -9.324234,
+    "address": null
+  },
+  {
+    "id": 226424916,
+    "name": "A Pérola do Bolhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Porto",
+    "products": [],
+    "website": null,
+    "lat": 41.1483344,
+    "lon": -8.6067125,
+    "address": "Rua Formosa"
+  },
+  {
+    "id": 242996610,
+    "name": "Mercado de Loulé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1406198,
+    "lon": -8.0321528,
+    "address": null
+  },
+  {
+    "id": 245828424,
+    "name": "Mercado de São João",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2821508,
+    "lon": -8.8531428,
+    "address": null
+  },
+  {
+    "id": 246886134,
+    "name": "Mercado de Armação de Pera",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Armação de Pêra",
+    "products": [],
+    "website": "https://algarvemoods.com/en/market-in-armacao-de-pera/",
+    "lat": 37.1029368,
+    "lon": -8.3607706,
+    "address": "Rua Bartolomeu Dias"
+  },
+  {
+    "id": 256229225,
+    "name": "Mercado da Praia das Maçãs",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8247805,
+    "lon": -9.4673268,
+    "address": null
+  },
+  {
+    "id": 258790390,
+    "name": "Mercado Municipal de Santarém",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2379999,
+    "lon": -8.6868001,
+    "address": null
+  },
+  {
+    "id": 259133168,
+    "name": "Mercado Municipal de Valpaços",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6083998,
+    "lon": -7.3106227,
+    "address": null
+  },
+  {
+    "id": 259895158,
+    "name": "Mercado Municipal de Santo André",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6435415,
+    "lon": -9.057467,
+    "address": null
+  },
+  {
+    "id": 262258879,
+    "name": "Feira de São Pedro da Cova",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1612809,
+    "lon": -8.5060078,
+    "address": null
+  },
+  {
+    "id": 269874746,
+    "name": "Mercado Algueirão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8042411,
+    "lon": -9.3378816,
+    "address": null
+  },
+  {
+    "id": 276655844,
+    "name": "Mercado Municipal de Alcobaça",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.5512609,
+    "lon": -8.9772232,
+    "address": null
+  },
+  {
+    "id": 282225313,
+    "name": "Mercado Municipal de Câmara de Lobos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 32.6489013,
+    "lon": -16.9751091,
+    "address": null
+  },
+  {
+    "id": 297437164,
+    "name": "Mercado Olivais Sul (Célula B)",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://informacoeseservicos.lisboa.pt/contactos/diretorio-da-cidade/mercado-olivais-sul-celula-b",
+    "lat": 38.7644072,
+    "lon": -9.1193451,
+    "address": null
+  },
+  {
+    "id": 306365558,
+    "name": "Mercado da Confeiteira  (\"Xêpa\")",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5253279,
+    "lon": -8.8595137,
+    "address": null
+  },
+  {
+    "id": 311272433,
+    "name": "Mercado Municipal de Pedrouços",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1854084,
+    "lon": -8.5837716,
+    "address": null
+  },
+  {
+    "id": 316312525,
+    "name": "Feira de Custóias",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2003611,
+    "lon": -8.6433683,
+    "address": null
+  },
+  {
+    "id": 328779326,
+    "name": "Zona de Atividades Económicas de Darque",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.680919,
+    "lon": -8.8081567,
+    "address": null
+  },
+  {
+    "id": 330664916,
+    "name": "Mercado de São Domingos de Benfica",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [],
+    "website": "http://www.cm-lisboa.pt/equipamentos/equipamento/info/mercado-de-sao-domingos-de-benfica",
+    "lat": 38.7436838,
+    "lon": -9.1794918,
+    "address": "Rua Cecilía Meireles"
+  },
+  {
+    "id": 341635923,
+    "name": "Mercado Olivais Sul (Célula E)",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://informacoeseservicos.lisboa.pt/contactos/diretorio-da-cidade/mercado-olivais-sul-celula-e",
+    "lat": 38.7601698,
+    "lon": -9.109862,
+    "address": null
+  },
+  {
+    "id": 364682775,
+    "name": "Pavilhão Multiusos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.9901336,
+    "lon": -9.0774527,
+    "address": null
+  },
+  {
+    "id": 372966402,
+    "name": "Pavilhão Multiusos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.6620397,
+    "lon": -8.8230002,
+    "address": "Rua de Dom Duarte I"
+  },
+  {
+    "id": 377396949,
+    "name": "Praça do Peixe",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Freixianda",
+    "products": [],
+    "website": null,
+    "lat": 39.7591309,
+    "lon": -8.4582612,
+    "address": "Praça Juvêncio de Figueiredo"
+  },
+  {
+    "id": 398215360,
+    "name": "Mercado Municipal de Almodôvar",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.5124206,
+    "lon": -8.0595868,
+    "address": null
+  },
+  {
+    "id": 408079901,
+    "name": "Mercado de Pêra",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.1215772,
+    "lon": -8.3391005,
+    "address": null
+  },
+  {
+    "id": 410083906,
+    "name": "Mercado de São Carlos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7832894,
+    "lon": -9.34483,
+    "address": null
+  },
+  {
+    "id": 414869778,
+    "name": "Feira do Cô",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2781271,
+    "lon": -8.4049146,
+    "address": null
+  },
+  {
+    "id": 436432980,
+    "name": "Praça Municipal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1385549,
+    "lon": -7.5022054,
+    "address": null
+  },
+  {
+    "id": 437364098,
+    "name": "Mercado Municipal de Figueiró dos Vinhos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.cm-figueirodosvinhos.pt/index.php/component/k2/item/477-mercado-municipal-de-figueiro-dos-vinhos",
+    "lat": 39.9008813,
+    "lon": -8.2726126,
+    "address": null
+  },
+  {
+    "id": 438852908,
+    "name": "Espaço 1111- Feira das Segundas",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.0571614,
+    "lon": -8.627337,
+    "address": null
+  },
+  {
+    "id": 448945602,
+    "name": "Cooperativa Agrícola de Vila Real",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3050154,
+    "lon": -7.724645,
+    "address": null
+  },
+  {
+    "id": 468504736,
+    "name": "Praça da Feira",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2017231,
+    "lon": -8.2899157,
+    "address": null
+  },
+  {
+    "id": 470628871,
+    "name": "Mercado de Mortágua",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3944607,
+    "lon": -8.2337859,
+    "address": null
+  },
+  {
+    "id": 478913916,
+    "name": "Mercado da Praça da Alegria",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.144378,
+    "lon": -8.5995887,
+    "address": "Praça da Alegria"
+  },
+  {
+    "id": 541240103,
+    "name": "Mercado Municipal de São Luís",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "São Luís",
+    "products": [],
+    "website": null,
+    "lat": 37.7149478,
+    "lon": -8.666194,
+    "address": "Largo do Mercado"
+  },
+  {
+    "id": 544628304,
+    "name": "Feira da Lourinhã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.2489461,
+    "lon": -9.3132295,
+    "address": null
+  },
+  {
+    "id": 552113613,
+    "name": "Feira de Pínzio",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.6011643,
+    "lon": -7.0688331,
+    "address": null
+  },
+  {
+    "id": 555214204,
+    "name": "Mercado Municipal de Santo André",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Nova de Santo André",
+    "products": [],
+    "website": null,
+    "lat": 38.0596549,
+    "lon": -8.7872375,
+    "address": "Rua do Mercado"
+  },
+  {
+    "id": 583482095,
+    "name": "Mercado Biológico da Quinta da Alagoa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.6946401,
+    "lon": -9.3380591,
+    "address": null
+  },
+  {
+    "id": 612399248,
+    "name": "Parque de Exposições e Feiras",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.8739367,
+    "lon": -8.1708435,
+    "address": null
+  },
+  {
+    "id": 619416530,
+    "name": "Feira de Almodôvar",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.5084614,
+    "lon": -8.0520468,
+    "address": null
+  },
+  {
+    "id": 808738143,
+    "name": "Parque de Feiras e Exposições de Canas de Senhorim",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.4951694,
+    "lon": -7.9020225,
+    "address": null
+  },
+  {
+    "id": 843591971,
+    "name": "Feira Livre de Bragança",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.8059306,
+    "lon": -6.7635233,
+    "address": null
+  },
+  {
+    "id": 867726138,
+    "name": "Mercado Municipal de Tábua",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.3636487,
+    "lon": -8.0278424,
+    "address": null
+  },
+  {
+    "id": 895752367,
+    "name": "Fórum Municipal de Resende",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Resende",
+    "products": [],
+    "website": null,
+    "lat": 41.1055382,
+    "lon": -7.9635183,
+    "address": "Rua Professor Joaquim Caetano Pinto"
+  },
+  {
+    "id": 914134256,
+    "name": "Mercado Municipal da Lousã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1123255,
+    "lon": -8.2452982,
+    "address": null
+  },
+  {
+    "id": 938462216,
+    "name": "Bom Preço - Frutaria",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [],
+    "website": null,
+    "lat": 38.7036224,
+    "lon": -9.1961857,
+    "address": "Travessa da Boa Hora à Ajuda"
+  },
+  {
+    "id": 941310829,
+    "name": "Recinto da Feira de Valpaços",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.6016458,
+    "lon": -7.3126833,
+    "address": null
+  },
+  {
+    "id": 967980675,
+    "name": "Mercado do Calhabé",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Coimbra",
+    "products": [],
+    "website": null,
+    "lat": 40.2024718,
+    "lon": -8.4138108,
+    "address": "Travessa dos Combatentes da Grande Guerra"
+  },
+  {
+    "id": 991201519,
+    "name": "Frutaçor",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Franca do Campo (São Miguel)",
+    "products": [],
+    "website": null,
+    "lat": 37.7216741,
+    "lon": -25.441738,
+    "address": null
+  },
+  {
+    "id": 1022558054,
+    "name": "Feira da Batata da Campeã",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2914953,
+    "lon": -7.8755477,
+    "address": null
+  },
+  {
+    "id": 1027351766,
+    "name": "Mercado de Sabóia",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Sabóia",
+    "products": [],
+    "website": null,
+    "lat": 37.4935065,
+    "lon": -8.4975904,
+    "address": null
+  },
+  {
+    "id": 1072842419,
+    "name": "Mercado Municipal de Cabeço de Vide",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.1333309,
+    "lon": -7.5904944,
+    "address": null
+  },
+  {
+    "id": 1083541820,
+    "name": "Praça da República",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.4039212,
+    "lon": -9.1335846,
+    "address": null
+  },
+  {
+    "id": 1111527086,
+    "name": "Mercado da Póvoa de Santo Adrião",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8012691,
+    "lon": -9.1647093,
+    "address": null
+  },
+  {
+    "id": 1120388052,
+    "name": "Mercado de São Romão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Ciladas (São Romão)",
+    "products": [],
+    "website": null,
+    "lat": 38.7759836,
+    "lon": -7.3180577,
+    "address": "Rua Doutor Fernando Barradas"
+  },
+  {
+    "id": 1134649301,
+    "name": "Parque de Mercados e Feiras de Santa Eulália",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0017031,
+    "lon": -7.2479335,
+    "address": null
+  },
+  {
+    "id": 1172501000,
+    "name": "Mercado de Vila Nogueira de Azeitão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Azeitão",
+    "products": [],
+    "website": null,
+    "lat": 38.5176108,
+    "lon": -9.016199,
+    "address": "Rua José Augusto Coelho"
+  },
+  {
+    "id": 1212389585,
+    "name": "Mercado Provisório dos Brejos de Azeitão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.540313,
+    "lon": -9.0268751,
+    "address": null
+  },
+  {
+    "id": 1239825811,
+    "name": "Parque Municipal de Exposições e Feiras da Encarnação",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.0285752,
+    "lon": -9.3707257,
+    "address": null
+  },
+  {
+    "id": 1271993040,
+    "name": "Mercado Municipal de Foz Côa",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0834308,
+    "lon": -7.1403022,
+    "address": null
+  },
+  {
+    "id": 1329186290,
+    "name": "Feira do Torrão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.2963343,
+    "lon": -8.2170704,
+    "address": null
+  },
+  {
+    "id": 1343876573,
+    "name": "Praça Vandoma",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1701064,
+    "lon": -8.5770559,
+    "address": null
+  },
+  {
+    "id": 1352111371,
+    "name": "Mercado Municipal de Famalicão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4048265,
+    "lon": -8.5171974,
+    "address": null
+  },
+  {
+    "id": 1363350406,
+    "name": "Amanhecer- Mercado \"O Misérias\"",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.7120909,
+    "lon": -8.9517318,
+    "address": null
+  },
+  {
+    "id": 1375883761,
+    "name": "Feira de Vilar do Paraíso",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.0984194,
+    "lon": -8.6180185,
+    "address": null
+  },
+  {
+    "id": 1416837332,
+    "name": "Feira de Alfeizerão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.501686,
+    "lon": -9.10219,
+    "address": null
+  },
+  {
+    "id": 1433679697,
+    "name": "Baía dos Legumes",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1168414,
+    "lon": -7.7366149,
+    "address": null
+  },
+  {
+    "id": 1451065804,
+    "name": "Simbolos D'Época",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4049248,
+    "lon": -8.5174416,
+    "address": null
+  },
+  {
+    "id": 1451065817,
+    "name": "Super Banca Lurdes Magalhães",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.4048604,
+    "lon": -8.5171577,
+    "address": null
+  },
+  {
+    "id": 3046626,
+    "name": "Mercado do Bolhão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://mercadobolhao.pt/",
+    "lat": 41.1493404,
+    "lon": -8.607123,
+    "address": null
+  },
+  {
+    "id": 6586483,
+    "name": "Mercado Municipal de Alter do Chão",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.1980269,
+    "lon": -7.659331,
+    "address": null
+  },
+  {
+    "id": 7654702,
+    "name": "Mercado Municipal de Évora",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.5685152,
+    "lon": -7.9094959,
+    "address": null
+  },
+  {
+    "id": 11631918,
+    "name": "Mercado Municipal do Peso da Régua",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.1645812,
+    "lon": -7.7926724,
+    "address": null
+  },
+  {
+    "id": 13845761,
+    "name": "Mercado de Levante da Reforma Agrária",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mun-montijo.pt/conhecer/mercados/poi/mercado-de-levante-vulgo-mercado-da-reforma-agraria",
+    "lat": 38.7021922,
+    "lon": -8.9752068,
+    "address": null
+  },
+  {
+    "id": 16051117,
+    "name": "Mercado da Conceição",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Setúbal",
+    "products": [],
+    "website": "https://mercadodaconceicao.pt/",
+    "lat": 38.5242995,
+    "lon": -8.877867,
+    "address": "Rua do Morgado de Setúbal"
+  },
+  {
+    "id": 18142671,
+    "name": "Mercado de Mina de São Domingos",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6760133,
+    "lon": -7.4993244,
+    "address": null
   }
 ]

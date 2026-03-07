@@ -6498,6 +6498,54 @@
     "address": null
   },
   {
+    "id": 7613378086,
+    "name": "Landwinkel 't DÃ¼velshÃ¶fke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Oldenzaal",
+    "products": [],
+    "website": "https://duvelshofke.nl/",
+    "lat": 52.2848926,
+    "lon": 6.9363199,
+    "address": "Duivelsdijk"
+  },
+  {
+    "id": 10981526501,
+    "name": "'t HummelhÃ»s",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.thummelhus.nl",
+    "lat": 52.966545,
+    "lon": 6.0912069,
+    "address": null
+  },
+  {
+    "id": 13207136989,
+    "name": "WÃ¢ldpleats",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Burgum",
+    "products": [],
+    "website": "https://waldpleats.nl/",
+    "lat": 53.2062755,
+    "lon": 5.9778356,
+    "address": "Zomerweg"
+  },
+  {
+    "id": 1076513789,
+    "name": "TrÃ¨s Jolie",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "De Glind",
+    "products": [],
+    "website": "https://tresjoliefruittuin.nl",
+    "lat": 52.1141841,
+    "lon": 5.5087393,
+    "address": "Boshuisweg"
+  },
+  {
     "id": 9083859685,
     "name": "Boerderijwinkel VanHier",
     "country": "Netherlands",
@@ -10147,7 +10195,7 @@
   },
   {
     "id": 508572050,
-    "name": "Boerderijwinkel Géron",
+    "name": "Boerderijwinkel GÃ©ron",
     "country": "Netherlands",
     "region": null,
     "municipality": "Mechelen",
@@ -10923,7 +10971,7 @@
     "website": null,
     "lat": 53.1428491,
     "lon": 7.0401804,
-    "address": "Burgemeester Schönfeldplein"
+    "address": "Burgemeester SchÃ¶nfeldplein"
   },
   {
     "id": 2074885569,
@@ -11695,7 +11743,7 @@
   },
   {
     "id": 2708554950,
-    "name": "Duwêl's Groente & Fruit",
+    "name": "DuwÃªl's Groente & Fruit",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarlem",
@@ -11835,11 +11883,11 @@
     "website": null,
     "lat": 52.3960554,
     "lon": 4.642492,
-    "address": "Generaal Cronjéstraat"
+    "address": "Generaal CronjÃ©straat"
   },
   {
     "id": 2715839207,
-    "name": "Akgül Market",
+    "name": "AkgÃ¼l Market",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarlem",
@@ -12723,7 +12771,7 @@
     "website": "https://www.dekoopman.nl/winkels?winkel=1",
     "lat": 52.0179658,
     "lon": 5.5416023,
-    "address": "Dr. Slotemaker de Bruïneplein"
+    "address": "Dr. Slotemaker de BruÃ¯neplein"
   },
   {
     "id": 2775955400,
@@ -13011,7 +13059,7 @@
     "website": null,
     "lat": 51.6040506,
     "lon": 6.0494296,
-    "address": "Mosaïque"
+    "address": "MosaÃ¯que"
   },
   {
     "id": 2796588064,
@@ -13126,7 +13174,7 @@
     "name": "\"De Echte Groenteman\" Klaas en Maaike van der Meer",
     "country": "Netherlands",
     "region": null,
-    "municipality": "Damwâld",
+    "municipality": "DamwÃ¢ld",
     "products": [],
     "website": null,
     "lat": 53.293662,
@@ -15343,7 +15391,7 @@
   },
   {
     "id": 3685910685,
-    "name": "Gümüs Market",
+    "name": "GÃ¼mÃ¼s Market",
     "country": "Netherlands",
     "region": null,
     "municipality": "Utrecht",
@@ -15583,7 +15631,7 @@
   },
   {
     "id": 4291517094,
-    "name": "Bio Drôme Goes",
+    "name": "Bio DrÃ´me Goes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Goes",
@@ -15679,7 +15727,7 @@
   },
   {
     "id": 4402017393,
-    "name": "Breusjterhöfke groente en fruitwinkel",
+    "name": "BreusjterhÃ¶fke groente en fruitwinkel",
     "country": "Netherlands",
     "region": null,
     "municipality": "Eijsden",
@@ -16891,7 +16939,7 @@
   },
   {
     "id": 6805732946,
-    "name": "Lekker Nassûh",
+    "name": "Lekker NassÃ»h",
     "country": "Netherlands",
     "region": null,
     "municipality": "'s-Gravenhage",
@@ -17595,7 +17643,7 @@
     "website": "https://www.deli-nova.com/",
     "lat": 12.113403,
     "lon": -68.9061705,
-    "address": "Kaminda André J.E. Kusters"
+    "address": "Kaminda AndrÃ© J.E. Kusters"
   },
   {
     "id": 10291448572,
@@ -17791,7 +17839,7 @@
   },
   {
     "id": 11093590664,
-    "name": "Place des Légumes",
+    "name": "Place des LÃ©gumes",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -18607,7 +18655,7 @@
   },
   {
     "id": 276834571,
-    "name": "Marché 010",
+    "name": "MarchÃ© 010",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -18799,7 +18847,7 @@
   },
   {
     "id": 373914279,
-    "name": "Fruitería",
+    "name": "FruiterÃ­a",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -18811,7 +18859,7 @@
   },
   {
     "id": 374167934,
-    "name": "Toko Fruterìa KU FE",
+    "name": "Toko FruterÃ¬a KU FE",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -19432,5 +19480,137 @@
     "lat": 52.356054,
     "lon": 4.8949678,
     "address": "Albert Cuypstraat"
+  },
+  {
+    "id": 508572050,
+    "name": "Boerderijwinkel Géron",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Mechelen",
+    "products": [],
+    "website": null,
+    "lat": 50.7995066,
+    "lon": 5.9278414,
+    "address": "Pastoor Ruttenstraat"
+  },
+  {
+    "id": 2708554950,
+    "name": "Duwêl's Groente & Fruit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Haarlem",
+    "products": [],
+    "website": null,
+    "lat": 52.3792588,
+    "lon": 4.6479165,
+    "address": "Amsterdamstraat"
+  },
+  {
+    "id": 2715839207,
+    "name": "Akgül Market",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Haarlem",
+    "products": [],
+    "website": null,
+    "lat": 52.391496,
+    "lon": 4.6407923,
+    "address": "Schoterweg"
+  },
+  {
+    "id": 3685910685,
+    "name": "Gümüs Market",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [],
+    "website": "https://rokade-utrecht.nl/winkels/gumus-market/",
+    "lat": 52.1135544,
+    "lon": 5.0891964,
+    "address": "Doornburglaan"
+  },
+  {
+    "id": 4291517094,
+    "name": "Bio Drôme Goes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Goes",
+    "products": [],
+    "website": null,
+    "lat": 51.5053616,
+    "lon": 3.8918866,
+    "address": "Oostwal"
+  },
+  {
+    "id": 4402017393,
+    "name": "Breusjterhöfke groente en fruitwinkel",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Eijsden",
+    "products": [],
+    "website": null,
+    "lat": 50.7752986,
+    "lon": 5.7151565,
+    "address": "Boomkensstraat"
+  },
+  {
+    "id": 6805732946,
+    "name": "Lekker Nassûh",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [],
+    "website": "https://lekkernassuh.org/",
+    "lat": 52.0790556,
+    "lon": 4.2921451,
+    "address": "Witte de Withstraat"
+  },
+  {
+    "id": 11093590664,
+    "name": "Place des Légumes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.3908226,
+    "lon": 4.9435296,
+    "address": null
+  },
+  {
+    "id": 276834571,
+    "name": "Marché 010",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.9292905,
+    "lon": 4.4773772,
+    "address": null
+  },
+  {
+    "id": 373914279,
+    "name": "Fruitería",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 12.1709248,
+    "lon": -68.9737806,
+    "address": null
+  },
+  {
+    "id": 374167934,
+    "name": "Toko Fruterìa KU FE",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 12.3726987,
+    "lon": -69.1455522,
+    "address": null
   }
 ]

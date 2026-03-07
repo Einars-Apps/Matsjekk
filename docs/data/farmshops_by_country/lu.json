@@ -264,6 +264,18 @@
     "address": "Rue de la Croix"
   },
   {
+    "id": 8494977265,
+    "name": "Haff Hilgert FrÃ¨res",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": "Kehlen",
+    "products": [],
+    "website": "https://eistuebstagemeis.lu/fr/producteurs/ferme-hilgert-freres/",
+    "lat": 49.6679828,
+    "lon": 6.0348918,
+    "address": "Rue de Mamer"
+  },
+  {
     "id": 7880642254,
     "name": "Farm shop 7880642254",
     "country": "Luxembourg",
@@ -445,7 +457,7 @@
   },
   {
     "id": 1820831951,
-    "name": "Marché hebdomadaire",
+    "name": "MarchÃ© hebdomadaire",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -469,7 +481,7 @@
   },
   {
     "id": 3005953613,
-    "name": "Marché mensuel",
+    "name": "MarchÃ© mensuel",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -481,7 +493,7 @@
   },
   {
     "id": 5574033228,
-    "name": "Marché hebdomadaire",
+    "name": "MarchÃ© hebdomadaire",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -493,7 +505,7 @@
   },
   {
     "id": 7764424043,
-    "name": "Marché hebdomadaire",
+    "name": "MarchÃ© hebdomadaire",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -541,7 +553,7 @@
   },
   {
     "id": 9081492192,
-    "name": "Féngiger Gromperen",
+    "name": "FÃ©ngiger Gromperen",
     "country": "Luxembourg",
     "region": null,
     "municipality": "Fingig",
@@ -553,7 +565,7 @@
   },
   {
     "id": 11910095908,
-    "name": "Épicerie Damas",
+    "name": "Ã‰picerie Damas",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -565,7 +577,7 @@
   },
   {
     "id": 131409189,
-    "name": "Place de l'Hôtel de Ville",
+    "name": "Place de l'HÃ´tel de Ville",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
@@ -609,7 +621,127 @@
     "website": null,
     "lat": 49.6026845,
     "lon": 6.1314078,
-    "address": "Avenue de la Liberté"
+    "address": "Avenue de la LibertÃ©"
+  },
+  {
+    "id": 314632657,
+    "name": "MarchÃ© couvert",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.7569467,
+    "lon": 6.0996149,
+    "address": null
+  },
+  {
+    "id": 806024972,
+    "name": "Koulbicher Uebst a GemÃ©is",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": "Colpach-Haut",
+    "products": [],
+    "website": null,
+    "lat": 49.7678187,
+    "lon": 5.819271,
+    "address": "Aline an Ã‰mile Mayrischstrooss"
+  },
+  {
+    "id": 1259732997,
+    "name": "Place de lâ€™Ã‰glise",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5190933,
+    "lon": 6.0984462,
+    "address": null
+  },
+  {
+    "id": 1820831951,
+    "name": "Marché hebdomadaire",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6035111,
+    "lon": 6.1307482,
+    "address": null
+  },
+  {
+    "id": 3005953613,
+    "name": "Marché mensuel",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.8695835,
+    "lon": 6.1574666,
+    "address": null
+  },
+  {
+    "id": 5574033228,
+    "name": "Marché hebdomadaire",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5969203,
+    "lon": 6.1379021,
+    "address": null
+  },
+  {
+    "id": 7764424043,
+    "name": "Marché hebdomadaire",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5228404,
+    "lon": 5.8877411,
+    "address": null
+  },
+  {
+    "id": 9081492192,
+    "name": "Féngiger Gromperen",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": "Fingig",
+    "products": [],
+    "website": null,
+    "lat": 49.6030464,
+    "lon": 5.8980044,
+    "address": "An der Laach"
+  },
+  {
+    "id": 11910095908,
+    "name": "Épicerie Damas",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6027432,
+    "lon": 6.1315452,
+    "address": null
+  },
+  {
+    "id": 131409189,
+    "name": "Place de l'Hôtel de Ville",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.4787379,
+    "lon": 6.0847936,
+    "address": null
   },
   {
     "id": 314632657,
