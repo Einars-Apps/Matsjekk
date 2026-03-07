@@ -1,0 +1,992 @@
+[
+  {
+    "id": "immigrant_osm_node_12759445898",
+    "name": "African Food",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2390881,
+    "lon": 17.8450321,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12759445898"
+  },
+  {
+    "id": "immigrant_osm_node_12112903996",
+    "name": "Afro-carribean food",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 57.740864,
+    "lon": 12.0287578,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12112903996"
+  },
+  {
+    "id": "immigrant_osm_node_1332646390",
+    "name": "Alanya Import",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2950675,
+    "lon": 18.0330028,
+    "address": "Marknadsvägen 10",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1332646390"
+  },
+  {
+    "id": "immigrant_osm_node_4284563409",
+    "name": "Allsultan Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.5899836,
+    "lon": 16.2023303,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4284563409"
+  },
+  {
+    "id": "immigrant_osm_node_4199180190",
+    "name": "Arabiks Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.7065811,
+    "lon": 14.1253252,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4199180190"
+  },
+  {
+    "id": "immigrant_osm_node_2091625926",
+    "name": "Asian Food",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.6967841,
+    "lon": 13.1921798,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2091625926"
+  },
+  {
+    "id": "immigrant_osm_node_3941524494",
+    "name": "Asian Food Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8584255,
+    "lon": 17.6430129,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3941524494"
+  },
+  {
+    "id": "immigrant_osm_node_10239675796",
+    "name": "Asian Food Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asianfood.nu/",
+    "lat": 59.3587775,
+    "lon": 18.000667,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10239675796"
+  },
+  {
+    "id": "immigrant_osm_node_4339481936",
+    "name": "Asian Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8624545,
+    "lon": 17.6364194,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4339481936"
+  },
+  {
+    "id": "immigrant_osm_node_683449722",
+    "name": "Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3351799,
+    "lon": 18.0333903,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/683449722"
+  },
+  {
+    "id": "immigrant_osm_node_11465472701",
+    "name": "Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.0412358,
+    "lon": 12.7014026,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11465472701"
+  },
+  {
+    "id": "immigrant_osm_node_12030863461",
+    "name": "Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2937185,
+    "lon": 18.0806217,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12030863461"
+  },
+  {
+    "id": "immigrant_osm_node_11893410041",
+    "name": "Asian Mini Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.586455,
+    "lon": 13.0082574,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11893410041"
+  },
+  {
+    "id": "immigrant_osm_node_1933578203",
+    "name": "Asian square",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 64.7523687,
+    "lon": 20.9533405,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1933578203"
+  },
+  {
+    "id": "immigrant_osm_node_13046045790",
+    "name": "Asian Supermarket",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Sollentuna",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiensupermarket.com",
+    "lat": 59.4459026,
+    "lon": 17.96551,
+    "address": "Edsbergs torg 26, 19252, Sollentuna",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13046045790"
+  },
+  {
+    "id": "immigrant_osm_node_6670616585",
+    "name": "AsiaShop",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Linköping",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiashop.se/",
+    "lat": 58.4103758,
+    "lon": 15.6200518,
+    "address": "Storgatan 52, 58223, Linköping",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6670616585"
+  },
+  {
+    "id": "immigrant_osm_node_11053678147",
+    "name": "Asiatisk Livsmedelbutik",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.877802,
+    "lon": 14.8055999,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11053678147"
+  },
+  {
+    "id": "immigrant_osm_node_8996223817",
+    "name": "Asiatiska livsmedel",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.4304015,
+    "lon": 13.821666,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8996223817"
+  },
+  {
+    "id": "immigrant_osm_node_12016590214",
+    "name": "Balkan Deli",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2647339,
+    "lon": 18.040081,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12016590214"
+  },
+  {
+    "id": "immigrant_osm_node_12047750277",
+    "name": "Balkanboden",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8787649,
+    "lon": 12.2935482,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12047750277"
+  },
+  {
+    "id": "immigrant_osm_node_12666715049",
+    "name": "Bangla Bazaar Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4235084,
+    "lon": 17.8350043,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12666715049"
+  },
+  {
+    "id": "immigrant_osm_node_9142564356",
+    "name": "Baraban",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Malmö",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://baraban.se",
+    "lat": 55.6076525,
+    "lon": 13.0157402,
+    "address": "Östra Förstadsgatan 13, 21131, Malmö",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9142564356"
+  },
+  {
+    "id": "immigrant_osm_node_4943600492",
+    "name": "BaraBraMat",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Göteborg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://barabramat.se/",
+    "lat": 57.6849545,
+    "lon": 11.9259473,
+    "address": "Kungsladugårdsgatan 26, 414 69, Göteborg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4943600492"
+  },
+  {
+    "id": "immigrant_osm_node_5589822868",
+    "name": "BaraBraMat",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Göteborg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.barabramat.se",
+    "lat": 57.7138812,
+    "lon": 12.0011118,
+    "address": "Norra Gubberogatan 10, 41663, Göteborg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5589822868"
+  },
+  {
+    "id": "immigrant_osm_node_1784418306",
+    "name": "Bazaar Food Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Malmö",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.5865697,
+    "lon": 13.0460078,
+    "address": "Adlerfeldts väg 2, Malmö",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1784418306"
+  },
+  {
+    "id": "immigrant_osm_node_7063139281",
+    "name": "Best of Africa",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4025645,
+    "lon": 17.9481129,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7063139281"
+  },
+  {
+    "id": "immigrant_osm_node_2981648071",
+    "name": "East Asian market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Uppsala",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8556992,
+    "lon": 17.649323,
+    "address": "Uppsala",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2981648071"
+  },
+  {
+    "id": "immigrant_osm_node_13001704550",
+    "name": "Eri Afro Växjö",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Växjö",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.8810231,
+    "lon": 14.780286,
+    "address": "Smedjegatan 7, 352 46, Växjö",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13001704550"
+  },
+  {
+    "id": "immigrant_osm_node_444806296",
+    "name": "Filippinska Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3363922,
+    "lon": 18.060617,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/444806296"
+  },
+  {
+    "id": "immigrant_osm_node_12016563688",
+    "name": "Giging AsiaFood Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.2637525,
+    "lon": 18.0413675,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12016563688"
+  },
+  {
+    "id": "immigrant_osm_node_3728114486",
+    "name": "GoAsia Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.162935,
+    "lon": 15.5863304,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3728114486"
+  },
+  {
+    "id": "immigrant_osm_node_3259863471",
+    "name": "Josefs Livs - orientaliska livsmedel",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 57.7523052,
+    "lon": 16.6433864,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3259863471"
+  },
+  {
+    "id": "immigrant_osm_node_10203025688",
+    "name": "Kalong Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Gustavsberg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.kalongasianmarket.com/",
+    "lat": 59.3128001,
+    "lon": 18.421146,
+    "address": "Orions väg 4, 134 44, Gustavsberg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10203025688"
+  },
+  {
+    "id": "immigrant_osm_node_1667887865",
+    "name": "Koi Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Järfälla",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4171974,
+    "lon": 17.8341452,
+    "address": "Vasavägen 128, Järfälla",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1667887865"
+  },
+  {
+    "id": "immigrant_osm_node_3017898506",
+    "name": "LIO Asian Shop",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Järfälla",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4556882,
+    "lon": 17.8099095,
+    "address": "Kopparvägen 27, 17672, Järfälla",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3017898506"
+  },
+  {
+    "id": "immigrant_osm_node_13059979073",
+    "name": "Matbazaren",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Uppsala",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8105027,
+    "lon": 17.6295312,
+    "address": "Valthornsvägen 7, 75650, Uppsala",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13059979073"
+  },
+  {
+    "id": "immigrant_osm_node_12120291323",
+    "name": "Nora orientalisk livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.520063,
+    "lon": 15.0372461,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12120291323"
+  },
+  {
+    "id": "immigrant_osm_node_2317070864",
+    "name": "Norrlands Oriental livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Luleå",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.norrlandsorientallivs-lulea.se/",
+    "lat": 65.5816158,
+    "lon": 22.1540476,
+    "address": "Smedjegatan 2, 972 33, Luleå",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2317070864"
+  },
+  {
+    "id": "immigrant_osm_node_5848310016",
+    "name": "Norrtäljes livsmedel & orientalisk mat",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Norrtälje",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.7681815,
+    "lon": 18.6886253,
+    "address": "Storstensvägen 2, 761 53, Norrtälje",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5848310016"
+  },
+  {
+    "id": "immigrant_osm_node_8149931857",
+    "name": "Oriental House AB",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.7839518,
+    "lon": 14.524842,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8149931857"
+  },
+  {
+    "id": "immigrant_osm_node_5809901796",
+    "name": "Oriental livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.1426538,
+    "lon": 13.390853,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5809901796"
+  },
+  {
+    "id": "immigrant_osm_node_12100681993",
+    "name": "Oriental market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3360889,
+    "lon": 18.061681,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12100681993"
+  },
+  {
+    "id": "immigrant_osm_node_5045210961",
+    "name": "Orientalisk Supermarket",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3887899,
+    "lon": 13.479937,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5045210961"
+  },
+  {
+    "id": "immigrant_osm_node_4339918984",
+    "name": "Orientaliska Livmedel",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 58.7023181,
+    "lon": 12.462976,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4339918984"
+  },
+  {
+    "id": "immigrant_osm_node_10756703261",
+    "name": "Pak Asian Foods",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.5935075,
+    "lon": 12.988072,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10756703261"
+  },
+  {
+    "id": "immigrant_osm_node_10678718598",
+    "name": "PH Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Malmö",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.entremalmo.se/butiker/ph-asian-market",
+    "lat": 55.6077717,
+    "lon": 13.024718,
+    "address": "Fredsgatan 12B, 21212, Malmö",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10678718598"
+  },
+  {
+    "id": "immigrant_osm_node_13026366562",
+    "name": "PH Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Lund",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.7202099,
+    "lon": 13.2103939,
+    "address": "Magistratsvägen 14C, 226 43, Lund",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13026366562"
+  },
+  {
+    "id": "immigrant_osm_node_3402696487",
+    "name": "Plasian livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.596021,
+    "lon": 16.493736,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3402696487"
+  },
+  {
+    "id": "immigrant_osm_node_10039161126",
+    "name": "Pocky Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3364139,
+    "lon": 18.0617387,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10039161126"
+  },
+  {
+    "id": "immigrant_osm_node_1233301989",
+    "name": "Rasoul Market Orientalisk Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 62.3892271,
+    "lon": 17.3024477,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1233301989"
+  },
+  {
+    "id": "immigrant_osm_node_2228458655",
+    "name": "Rubalkan Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 62.4007064,
+    "lon": 17.3391936,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2228458655"
+  },
+  {
+    "id": "immigrant_osm_node_8696742504",
+    "name": "Saras livs - orientaliska livsmedel",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.0595179,
+    "lon": 16.5897187,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8696742504"
+  },
+  {
+    "id": "immigrant_osm_node_13396575665",
+    "name": "Scanasia",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3790895,
+    "lon": 13.504011,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13396575665"
+  },
+  {
+    "id": "immigrant_osm_node_13072942302",
+    "name": "Thailaan Asian Market",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": "Sollentuna",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.thailaan.se",
+    "lat": 59.4276097,
+    "lon": 17.951945,
+    "address": "Sollentunavägen 163C, 19147, Sollentuna",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13072942302"
+  },
+  {
+    "id": "immigrant_osm_node_4863554779",
+    "name": "Wai Shing Asian Trading Livs",
+    "country": "Sverige",
+    "countryCode": "SE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.3578703,
+    "lon": 17.999846,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4863554779"
+  }
+]

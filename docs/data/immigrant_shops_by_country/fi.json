@@ -1,0 +1,866 @@
+[
+  {
+    "id": "immigrant_osm_node_7761519853",
+    "name": "Aasia Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Oulu",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.aasiamarket.fi/",
+    "lat": 65.0114257,
+    "lon": 25.4826911,
+    "address": "Asemakatu 32, 90100, Oulu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7761519853"
+  },
+  {
+    "id": "immigrant_osm_node_11708254256",
+    "name": "Aasia Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.aasiamarket.fi/",
+    "lat": 61.498453,
+    "lon": 23.7565997,
+    "address": "Kuninkaankatu 24, 33210, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11708254256"
+  },
+  {
+    "id": "immigrant_osm_node_10567965390",
+    "name": "Aasialainen Ruokakauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 65.7350315,
+    "lon": 24.5611065,
+    "address": "Kauppakatu 18",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10567965390"
+  },
+  {
+    "id": "immigrant_osm_node_1737006218",
+    "name": "Al-Amal Halal Itämainen Elintarvikekauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2210175,
+    "lon": 24.8157132,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1737006218"
+  },
+  {
+    "id": "immigrant_osm_node_249715086",
+    "name": "Alanya Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://alanyamarket.fi/",
+    "lat": 60.2138923,
+    "lon": 25.082546,
+    "address": "Kastelholmantie 2",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/249715086"
+  },
+  {
+    "id": "immigrant_osm_node_888650303",
+    "name": "Alanya Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4510452,
+    "lon": 23.8480638,
+    "address": "Lindforsinkatu 2, 33720, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/888650303"
+  },
+  {
+    "id": "immigrant_osm_node_8700709400",
+    "name": "Alanya Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Turku",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.4350811,
+    "lon": 22.3444507,
+    "address": "Itäkaari 30, 20750, Turku",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8700709400"
+  },
+  {
+    "id": "immigrant_osm_node_11312700979",
+    "name": "Alanya Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://alanyamarket.fi/",
+    "lat": 60.213218,
+    "lon": 25.0851346,
+    "address": "Itäkatu 1, 00930, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11312700979"
+  },
+  {
+    "id": "immigrant_osm_node_10113723959",
+    "name": "Alanya market Espoontori",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Espoo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2045025,
+    "lon": 24.6564169,
+    "address": "Kamreerintie 3, 02770, Espoo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10113723959"
+  },
+  {
+    "id": "immigrant_osm_node_9846025269",
+    "name": "Alanya Oriental market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4990542,
+    "lon": 23.7534318,
+    "address": "Puutarhakatu 14, 33210, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9846025269"
+  },
+  {
+    "id": "immigrant_osm_node_3409596051",
+    "name": "Aminah Bazar",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2479794,
+    "lon": 24.8631368,
+    "address": "Luutnantintie 5, 00410, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3409596051"
+  },
+  {
+    "id": "immigrant_osm_node_12632124422",
+    "name": "Anna Asian Food Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4976925,
+    "lon": 23.7939518,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12632124422"
+  },
+  {
+    "id": "immigrant_osm_node_4456889965",
+    "name": "Ararat Bazaar",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.1913708,
+    "lon": 24.9769378,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4456889965"
+  },
+  {
+    "id": "immigrant_osm_way_25523262",
+    "name": "Asian Food Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2021695,
+    "lon": 24.6658326,
+    "address": "Kirstinmäki 5",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/25523262"
+  },
+  {
+    "id": "immigrant_osm_node_3282232811",
+    "name": "Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Vaasa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 63.0940752,
+    "lon": 21.6178381,
+    "address": "Kauppapuistikko 17, 65100, Vaasa",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3282232811"
+  },
+  {
+    "id": "immigrant_osm_node_6657449793",
+    "name": "Asian Mini Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.4699882,
+    "lon": 22.3051065,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6657449793"
+  },
+  {
+    "id": "immigrant_osm_node_3694135066",
+    "name": "Bai Wei Asian Shop",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4511777,
+    "lon": 23.8501884,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3694135066"
+  },
+  {
+    "id": "immigrant_osm_node_12438221732",
+    "name": "Big Market African Shop",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.3231681,
+    "lon": 25.0618648,
+    "address": "Hakopolku",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12438221732"
+  },
+  {
+    "id": "immigrant_osm_node_159610010",
+    "name": "Ceylon Asian Grocery",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Hämeenlinna",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.9968415,
+    "lon": 24.4632371,
+    "address": "Hallituskatu 20, 13100, Hämeenlinna",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/159610010"
+  },
+  {
+    "id": "immigrant_osm_node_4792097721",
+    "name": "Cindyn aasialainen kauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4493353,
+    "lon": 23.8510344,
+    "address": "Insinöörinkatu 27, 33720, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4792097721"
+  },
+  {
+    "id": "immigrant_osm_node_344399659",
+    "name": "DFH Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.1799549,
+    "lon": 24.9532409,
+    "address": "Miina Sillanpään katu 3, 00530, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/344399659"
+  },
+  {
+    "id": "immigrant_osm_node_3470469965",
+    "name": "East Asia Mart",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.east-asia-mart.com/",
+    "lat": 61.4975583,
+    "lon": 23.7768338,
+    "address": "Tullikatu 6, 33100, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3470469965"
+  },
+  {
+    "id": "immigrant_osm_node_11764561882",
+    "name": "Empire asian market vantaa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/empiremarketfinland",
+    "lat": 60.2936835,
+    "lon": 25.0337842,
+    "address": "Tikkuraitti 17, 01300, Vantaa",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11764561882"
+  },
+  {
+    "id": "immigrant_osm_node_13511850837",
+    "name": "Espoo Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Espoo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.204353,
+    "lon": 24.6598335,
+    "address": "Asemakuja 1, 02770, Espoo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13511850837"
+  },
+  {
+    "id": "immigrant_osm_node_691496533",
+    "name": "Fincosat & African Food Store",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 62.2440993,
+    "lon": 25.7469131,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/691496533"
+  },
+  {
+    "id": "immigrant_osm_node_12918707450",
+    "name": "GC Asian Supermarket",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2214077,
+    "lon": 24.8130274,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12918707450"
+  },
+  {
+    "id": "immigrant_osm_node_12628640629",
+    "name": "Global Food Mart",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2368261,
+    "lon": 25.0825546,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12628640629"
+  },
+  {
+    "id": "immigrant_osm_node_13515688506",
+    "name": "Golden Crop aasialainen supermarket",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.4972994,
+    "lon": 23.7719124,
+    "address": "Rautatienkatu 20, 33100, Tampere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13515688506"
+  },
+  {
+    "id": "immigrant_osm_node_11942993886",
+    "name": "Golden Crop Asian Supermarket",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Vantaa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2753716,
+    "lon": 24.9698522,
+    "address": "Tammiston kauppatie 6, 01510, Vantaa",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11942993886"
+  },
+  {
+    "id": "immigrant_osm_node_9839728081",
+    "name": "Hongheng Asia Food Store",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.405723,
+    "lon": 25.1042307,
+    "address": "Paasikivenkatu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9839728081"
+  },
+  {
+    "id": "immigrant_osm_node_12098413363",
+    "name": "Jasmine Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Espoo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://jasminemarket.fi",
+    "lat": 60.2059782,
+    "lon": 24.6576807,
+    "address": "Kirkkojärventie 10 C, 02770, Espoo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12098413363"
+  },
+  {
+    "id": "immigrant_osm_node_5469694165",
+    "name": "Jiahe Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://m.facebook.com/jiaheasianmarket/",
+    "lat": 60.179956,
+    "lon": 24.9541676,
+    "address": "Miina Sillanpään katu 7",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5469694165"
+  },
+  {
+    "id": "immigrant_osm_node_12909736632",
+    "name": "Kairali Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2211898,
+    "lon": 24.8136594,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12909736632"
+  },
+  {
+    "id": "immigrant_osm_node_12670578321",
+    "name": "Kuopio Bazaar",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.kuopiobazaar.fi/",
+    "lat": 62.8900337,
+    "lon": 27.6740715,
+    "address": "Minna Canthin katu 58",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12670578321"
+  },
+  {
+    "id": "immigrant_osm_node_4294867423",
+    "name": "Mama Africa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 61.0513598,
+    "lon": 28.1946647,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4294867423"
+  },
+  {
+    "id": "immigrant_osm_node_3218239596",
+    "name": "Moi ! Aasia Kauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.4526614,
+    "lon": 22.2720946,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3218239596"
+  },
+  {
+    "id": "immigrant_osm_node_8614289912",
+    "name": "Nurmi Dao Oriental Food",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Turku",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://fi.nurmidao-orientalfood.com/",
+    "lat": 60.4524205,
+    "lon": 22.2832158,
+    "address": "Hämeenkatu 7, 20500, Turku",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8614289912"
+  },
+  {
+    "id": "immigrant_osm_node_3219072032",
+    "name": "Oriental Food Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Turku",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.4518109,
+    "lon": 22.2714087,
+    "address": "Brahenkatu 4, Turku",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3219072032"
+  },
+  {
+    "id": "immigrant_osm_node_12538702939",
+    "name": "Ramciet Oriental Shop",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Kokkola",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 63.837515,
+    "lon": 23.141784,
+    "address": "Tehtaankatu 43, 67100, Kokkola",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12538702939"
+  },
+  {
+    "id": "immigrant_osm_node_11423019821",
+    "name": "RF Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.1489252,
+    "lon": 24.6560113,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11423019821"
+  },
+  {
+    "id": "immigrant_osm_node_12218139668",
+    "name": "RF Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2107515,
+    "lon": 25.0819082,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12218139668"
+  },
+  {
+    "id": "immigrant_osm_node_12710224532",
+    "name": "RF Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.194025,
+    "lon": 25.0334904,
+    "address": "Insinöörinkatu 2, 00880, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12710224532"
+  },
+  {
+    "id": "immigrant_osm_node_12848436677",
+    "name": "RF Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.171266,
+    "lon": 24.9473973,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12848436677"
+  },
+  {
+    "id": "immigrant_osm_node_1767560308",
+    "name": "Shangde Aasialainen ruokakauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/shangde.aasialainen.ruokakauppa",
+    "lat": 60.261052,
+    "lon": 25.0752195,
+    "address": "Jakomäenkuja 1, 00770, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1767560308"
+  },
+  {
+    "id": "immigrant_osm_node_8059357860",
+    "name": "Solu Afro Asian Food Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Helsinki",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/pages/category/Grocery-Store/Solu-Afro-Asian-Food-Market-101830858366273/",
+    "lat": 60.1948521,
+    "lon": 25.0289246,
+    "address": "Hiihtomäentie 14, 00800, Helsinki",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8059357860"
+  },
+  {
+    "id": "immigrant_osm_node_12849472477",
+    "name": "Taj Mehal Afro Asian Market",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 60.2205807,
+    "lon": 24.8131021,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12849472477"
+  },
+  {
+    "id": "immigrant_osm_node_12149267037",
+    "name": "Thai Asian Market Tornio",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Tornio",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 65.8466738,
+    "lon": 24.1476767,
+    "address": "Laivurinkatu 5-7, 95400, Tornio",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12149267037"
+  },
+  {
+    "id": "immigrant_osm_node_13276306776",
+    "name": "Tuiran Afro Kauppa",
+    "country": "Finland",
+    "countryCode": "FI",
+    "region": null,
+    "municipality": "Oulu",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 65.0248722,
+    "lon": 25.4691015,
+    "address": "Merikoskenkatu 5, Oulu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13276306776"
+  }
+]

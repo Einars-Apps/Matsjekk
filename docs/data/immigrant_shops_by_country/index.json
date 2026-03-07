@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-03-06T23:50:36.838468+00:00",
+  "countries": {
+    "SE": {
+      "count": 55,
+      "status": "ok"
+    },
+    "DK": {
+      "count": 108,
+      "status": "ok"
+    },
+    "FI": {
+      "count": 48,
+      "status": "ok"
+    },
+    "DE": {
+      "count": 20,
+      "status": "ok"
+    },
+    "NL": {
+      "count": 130,
+      "status": "ok"
+    },
+    "BE": {
+      "count": 13,
+      "status": "ok"
+    },
+    "FR": {
+      "count": 24,
+      "status": "ok"
+    },
+    "IT": {
+      "count": 20,
+      "status": "ok"
+    },
+    "PT": {
+      "count": 43,
+      "status": "ok"
+    },
+    "ES": {
+      "count": 436,
+      "status": "ok"
+    },
+    "GB": {
+      "count": 49,
+      "status": "ok"
+    },
+    "IE": {
+      "count": 90,
+      "status": "ok"
+    },
+    "AT": {
+      "count": 91,
+      "status": "ok"
+    },
+    "CH": {
+      "count": 77,
+      "status": "ok"
+    },
+    "LI": {
+      "count": 0,
+      "status": "ok"
+    },
+    "LU": {
+      "count": 5,
+      "status": "ok"
+    }
+  }
+}

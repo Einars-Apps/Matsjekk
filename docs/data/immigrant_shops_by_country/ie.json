@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "immigrant_osm_node_8839012903",
+    "name": "African Pride Store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Galway",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2867986,
+    "lon": -9.0363933,
+    "address": "Tuam Road, Galway",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8839012903"
+  },
+  {
+    "id": "immigrant_osm_node_12925646717",
+    "name": "Akira Asia supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Tralee",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2691852,
+    "lon": -9.7068959,
+    "address": "The Square 10, V92 EY0Y, Tralee",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12925646717"
+  },
+  {
+    "id": "immigrant_osm_node_9935971862",
+    "name": "Al-Baraka Halal Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3535698,
+    "lon": -7.7028747,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9935971862"
+  },
+  {
+    "id": "immigrant_osm_node_13101125809",
+    "name": "Al-Eman Halal Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3520821,
+    "lon": -7.7079903,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13101125809"
+  },
+  {
+    "id": "immigrant_osm_node_12941386929",
+    "name": "Alzoubi Halal Food Store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.474028,
+    "lon": -8.1619406,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12941386929"
+  },
+  {
+    "id": "immigrant_osm_node_3730654229",
+    "name": "AS Polish Grocer",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Waterford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2623273,
+    "lon": -7.1183884,
+    "address": "Anne Street, Waterford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3730654229"
+  },
+  {
+    "id": "immigrant_osm_node_2940314532",
+    "name": "Asia Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiamarket.ie/",
+    "lat": 53.342023,
+    "lon": -6.2636804,
+    "address": "Drury Street 18, D02 W017, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2940314532"
+  },
+  {
+    "id": "immigrant_osm_node_7328197634",
+    "name": "Asia Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3186762,
+    "lon": -6.3560712,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7328197634"
+  },
+  {
+    "id": "immigrant_osm_node_12778620276",
+    "name": "Asialand",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Galway",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2866506,
+    "lon": -9.0391088,
+    "address": "Liosban Industrial Estate, Tuam Rd, H91 X201, Galway",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12778620276"
+  },
+  {
+    "id": "immigrant_osm_node_11893932731",
+    "name": "Asian & Thai Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8442861,
+    "lon": -8.9877001,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11893932731"
+  },
+  {
+    "id": "immigrant_osm_node_6068923160",
+    "name": "Asian and Arabic Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6605297,
+    "lon": -8.6241216,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6068923160"
+  },
+  {
+    "id": "immigrant_osm_node_3730508126",
+    "name": "Asian Family Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Waterford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2627624,
+    "lon": -7.1168128,
+    "address": "O'Connell Street, Waterford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3730508126"
+  },
+  {
+    "id": "immigrant_osm_node_7243508037",
+    "name": "Asian Food",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3487076,
+    "lon": -6.2676948,
+    "address": "Mary Street, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7243508037"
+  },
+  {
+    "id": "immigrant_osm_node_12128826804",
+    "name": "Asian Food Cork",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8998792,
+    "lon": -8.4783889,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12128826804"
+  },
+  {
+    "id": "immigrant_osm_node_3740250976",
+    "name": "Asian Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3008782,
+    "lon": -6.1784796,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3740250976"
+  },
+  {
+    "id": "immigrant_osm_node_6502123187",
+    "name": "Asian Foods Cork",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9004725,
+    "lon": -8.4789366,
+    "address": "North Main Street 14",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6502123187"
+  },
+  {
+    "id": "immigrant_osm_node_639839999",
+    "name": "Asian Mart",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3617744,
+    "lon": -6.2725211,
+    "address": "Phibsborough Road, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/639839999"
+  },
+  {
+    "id": "immigrant_osm_node_3915277363",
+    "name": "Asian Meadows",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4546484,
+    "lon": -9.0471325,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3915277363"
+  },
+  {
+    "id": "immigrant_osm_node_5812443755",
+    "name": "Asian spices",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9015706,
+    "lon": -8.4706045,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5812443755"
+  },
+  {
+    "id": "immigrant_osm_node_13291263116",
+    "name": "Asian Store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6227997,
+    "lon": -8.8911773,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13291263116"
+  },
+  {
+    "id": "immigrant_osm_node_9366345204",
+    "name": "Asiatic Manila",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Galway",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2741091,
+    "lon": -9.0534639,
+    "address": "Abbeygate Street Upper 50, Galway",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9366345204"
+  },
+  {
+    "id": "immigrant_osm_node_4266245708",
+    "name": "Balkan",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3339199,
+    "lon": -6.2921879,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4266245708"
+  },
+  {
+    "id": "immigrant_osm_way_617981141",
+    "name": "Basarabia",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Cashel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5172549,
+    "lon": -7.8874674,
+    "address": "Back of The Pipes, Cashel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/617981141"
+  },
+  {
+    "id": "immigrant_osm_node_13119430072",
+    "name": "Bazarek Polish Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3457668,
+    "lon": -7.4130832,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13119430072"
+  },
+  {
+    "id": "immigrant_osm_node_7280664711",
+    "name": "Best of the Best African Groceries",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9027663,
+    "lon": -8.4785884,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7280664711"
+  },
+  {
+    "id": "immigrant_osm_node_10039018425",
+    "name": "Bombay Bazar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3844792,
+    "lon": -6.3986455,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10039018425"
+  },
+  {
+    "id": "immigrant_osm_node_3028086238",
+    "name": "Camden Spices Halal Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.333915,
+    "lon": -6.2747414,
+    "address": "Clanbrassil Street Lower, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3028086238"
+  },
+  {
+    "id": "immigrant_osm_node_5692832130",
+    "name": "Carnival Asia Food",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6528189,
+    "lon": -8.5847097,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5692832130"
+  },
+  {
+    "id": "immigrant_osm_node_6697392071",
+    "name": "Carnival Asia Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6614367,
+    "lon": -8.6215161,
+    "address": "Upper William Street 15",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6697392071"
+  },
+  {
+    "id": "immigrant_osm_node_12447420368",
+    "name": "Castlebar Halal Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.858417,
+    "lon": -9.2967539,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12447420368"
+  },
+  {
+    "id": "immigrant_osm_node_4538333500",
+    "name": "Costless Asian store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2860356,
+    "lon": -6.367391,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4538333500"
+  },
+  {
+    "id": "immigrant_osm_node_13121616401",
+    "name": "Desa.ie Asian Products",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3273554,
+    "lon": -6.3053884,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13121616401"
+  },
+  {
+    "id": "immigrant_osm_node_2673754889",
+    "name": "Dunalk Halal Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.0101205,
+    "lon": -6.4031705,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2673754889"
+  },
+  {
+    "id": "immigrant_osm_node_2455918497",
+    "name": "Eurasia",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.eurasia.ie/",
+    "lat": 53.3499523,
+    "lon": -6.4059553,
+    "address": "Fonthill Business Park unit 1",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2455918497"
+  },
+  {
+    "id": "immigrant_osm_node_12144126816",
+    "name": "Eurasia Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3512065,
+    "lon": -6.2521863,
+    "address": "35 Talbot Street",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12144126816"
+  },
+  {
+    "id": "immigrant_osm_node_7684005555",
+    "name": "Find Asia Asian Super Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Artane",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3844454,
+    "lon": -6.2140959,
+    "address": "Butterly Business Park 41 & 42, D05 F788, Artane",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7684005555"
+  },
+  {
+    "id": "immigrant_osm_way_48782624",
+    "name": "Grand Bazaar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Waterford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://selectasia.ie/",
+    "lat": 52.2444832,
+    "lon": -7.1420984,
+    "address": "Cork Road, Waterford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/48782624"
+  },
+  {
+    "id": "immigrant_osm_node_3008717082",
+    "name": "Halal Food & Grocery",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3326804,
+    "lon": -6.2754139,
+    "address": "Clanbrassil Street Lower, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3008717082"
+  },
+  {
+    "id": "immigrant_osm_node_631980968",
+    "name": "Han Sung Asian Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://hansungdublin.com/",
+    "lat": 53.346876,
+    "lon": -6.2650658,
+    "address": "Great Strand Street, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/631980968"
+  },
+  {
+    "id": "immigrant_osm_node_4080137177",
+    "name": "Ingredients Asian Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Stillorgan",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://ingredients.ie/",
+    "lat": 53.2909693,
+    "lon": -6.200598,
+    "address": "Old Dublin Road 5, Stillorgan",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4080137177"
+  },
+  {
+    "id": "immigrant_osm_node_11700123297",
+    "name": "Ingredients Asian Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Wexford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3497231,
+    "lon": -6.4559524,
+    "address": "Wexford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11700123297"
+  },
+  {
+    "id": "immigrant_osm_way_965148979",
+    "name": "Ingredients Asian Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://asiansupermarket.ie/",
+    "lat": 53.3992463,
+    "lon": -6.3052006,
+    "address": "St. Margaret's Road Unit 8, ALDI complex",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/965148979"
+  },
+  {
+    "id": "immigrant_osm_node_7110803879",
+    "name": "Inside Africa Store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Cork",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9025208,
+    "lon": -8.4787378,
+    "address": "Shandon Street 81, Cork",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7110803879"
+  },
+  {
+    "id": "immigrant_osm_node_10128889785",
+    "name": "Janosik Polish Grocery",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4319803,
+    "lon": -7.9463459,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10128889785"
+  },
+  {
+    "id": "immigrant_osm_node_10299278568",
+    "name": "Jasmine Asian Grocery",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Galway",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.274384,
+    "lon": -9.053343,
+    "address": "Mary Street, Galway",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10299278568"
+  },
+  {
+    "id": "immigrant_osm_node_5536994676",
+    "name": "Joud World Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Waterford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2622578,
+    "lon": -7.1154083,
+    "address": "O'Connell Street 13, Waterford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5536994676"
+  },
+  {
+    "id": "immigrant_osm_node_13085067234",
+    "name": "Khan Market - Halal Asian Grocery",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Tralee",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2696666,
+    "lon": -9.7038875,
+    "address": "Courthouse Lane 10, Tralee",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13085067234"
+  },
+  {
+    "id": "immigrant_osm_node_8238286465",
+    "name": "Kilkenny Asian Spices",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Kilkenny",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6552247,
+    "lon": -7.2581685,
+    "address": "Dean Street 18, Kilkenny",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8238286465"
+  },
+  {
+    "id": "immigrant_osm_node_7466623967",
+    "name": "Kilkenny Halal Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6530864,
+    "lon": -7.2546667,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7466623967"
+  },
+  {
+    "id": "immigrant_osm_node_5073630726",
+    "name": "Kordi Polish Grocery Store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2768638,
+    "lon": -7.4956576,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5073630726"
+  },
+  {
+    "id": "immigrant_osm_node_12952471603",
+    "name": "Korean Asian Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8989711,
+    "lon": -8.4758479,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12952471603"
+  },
+  {
+    "id": "immigrant_osm_node_11901191172",
+    "name": "Lotus Asian Grocery & Off-License",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Wexford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3365779,
+    "lon": -6.460444,
+    "address": "South Main Street 70, Wexford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11901191172"
+  },
+  {
+    "id": "immigrant_osm_node_2994248419",
+    "name": "Makkah Halal Foods Ltd.",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3309331,
+    "lon": -6.2642245,
+    "address": "Richmond Street South, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2994248419"
+  },
+  {
+    "id": "immigrant_osm_node_12675454874",
+    "name": "Mroz Polish Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3513489,
+    "lon": -6.2633597,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12675454874"
+  },
+  {
+    "id": "immigrant_osm_node_10811836683",
+    "name": "Next Buy Asian Mart",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Wexford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.nextbuyasianmart.irish/",
+    "lat": 52.3418351,
+    "lon": -6.4640494,
+    "address": "Selskar Street, Wexford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10811836683"
+  },
+  {
+    "id": "immigrant_osm_node_5301569918",
+    "name": "Nimra Asian Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3530762,
+    "lon": -6.2599971,
+    "address": "Parnell Street, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5301569918"
+  },
+  {
+    "id": "immigrant_osm_node_12636552996",
+    "name": "Nimra Asian Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3261866,
+    "lon": -6.3948558,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12636552996"
+  },
+  {
+    "id": "immigrant_osm_node_12980120555",
+    "name": "Nina Polish Grocery Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.473822,
+    "lon": -8.1597214,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12980120555"
+  },
+  {
+    "id": "immigrant_osm_node_974547643",
+    "name": "Oriental Emporium",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3476189,
+    "lon": -6.2652403,
+    "address": "Upper Abbey Street 30-32, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/974547643"
+  },
+  {
+    "id": "immigrant_osm_node_2886231117",
+    "name": "Oriental Emporium",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3267806,
+    "lon": -6.2650165,
+    "address": "Rathmines Road Lower, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2886231117"
+  },
+  {
+    "id": "immigrant_osm_node_10739754259",
+    "name": "Oriental Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Cork",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.900159,
+    "lon": -8.4759124,
+    "address": "Dalton's Avenue 13, Cork",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10739754259"
+  },
+  {
+    "id": "immigrant_osm_node_1865492115",
+    "name": "Orlik - Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Galway",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://orlik.ie/",
+    "lat": 53.2631952,
+    "lon": -9.1026015,
+    "address": "Kingston Road, Galway",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1865492115"
+  },
+  {
+    "id": "immigrant_osm_node_5629687729",
+    "name": "Orlik Aga Polish Food",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9929122,
+    "lon": -6.9793856,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5629687729"
+  },
+  {
+    "id": "immigrant_osm_node_13520134601",
+    "name": "Orlik Aga Polish Shop - Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7942103,
+    "lon": -6.1628399,
+    "address": "Wexford Road",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13520134601"
+  },
+  {
+    "id": "immigrant_osm_node_4686839155",
+    "name": "Polish Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Swords",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4590304,
+    "lon": -6.2214999,
+    "address": "Bridge Street, Swords",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4686839155"
+  },
+  {
+    "id": "immigrant_osm_node_5670413131",
+    "name": "Polish Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8792333,
+    "lon": -9.5818021,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5670413131"
+  },
+  {
+    "id": "immigrant_osm_node_11304288266",
+    "name": "Polish Shop Ania",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9057269,
+    "lon": -8.9543126,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11304288266"
+  },
+  {
+    "id": "immigrant_osm_node_3345662818",
+    "name": "Polish/East European shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": "Cork",
+    "municipality": "Skibbereen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5493482,
+    "lon": -9.2693555,
+    "address": "Bridge Street 55, Skibbereen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3345662818"
+  },
+  {
+    "id": "immigrant_osm_node_1986137194",
+    "name": "Polski Skelp",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2859273,
+    "lon": -8.9836965,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1986137194"
+  },
+  {
+    "id": "immigrant_osm_node_6159125572",
+    "name": "Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7964945,
+    "lon": -6.1623672,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6159125572"
+  },
+  {
+    "id": "immigrant_osm_node_10963602405",
+    "name": "Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.9054322,
+    "lon": -6.805172,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10963602405"
+  },
+  {
+    "id": "immigrant_osm_node_11805245589",
+    "name": "Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "New Ross",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.394399,
+    "lon": -6.9451808,
+    "address": "South Street, New Ross",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11805245589"
+  },
+  {
+    "id": "immigrant_osm_node_12022944810",
+    "name": "Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.7276094,
+    "lon": -6.8814908,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12022944810"
+  },
+  {
+    "id": "immigrant_osm_node_13541695708",
+    "name": "Polski Sklep",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8627078,
+    "lon": -8.1982855,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13541695708"
+  },
+  {
+    "id": "immigrant_osm_node_9472826338",
+    "name": "Pomorzanka Polish Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3536088,
+    "lon": -8.681537,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9472826338"
+  },
+  {
+    "id": "immigrant_osm_node_3796299016",
+    "name": "Sami Swoi - Polish food store",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Limerick",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6570234,
+    "lon": -8.6269503,
+    "address": "Limerick",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3796299016"
+  },
+  {
+    "id": "immigrant_osm_node_7159631654",
+    "name": "SensAsian Fare",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Ballincollig",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.sensasianfood.com",
+    "lat": 51.8843745,
+    "lon": -8.5806733,
+    "address": "Westpoint Business Park, Ballincollig",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7159631654"
+  },
+  {
+    "id": "immigrant_osm_node_2051539104",
+    "name": "Spice Bazaar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2865947,
+    "lon": -8.9845664,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2051539104"
+  },
+  {
+    "id": "immigrant_osm_node_3002778087",
+    "name": "Spice Bazaar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3597886,
+    "lon": -6.2725585,
+    "address": "Phibsborough Road, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3002778087"
+  },
+  {
+    "id": "immigrant_osm_node_9181003821",
+    "name": "Spice Bazaar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Tallaght",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2883849,
+    "lon": -6.3704549,
+    "address": "Old Blessington Road, Tallaght",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9181003821"
+  },
+  {
+    "id": "immigrant_osm_node_6241694527",
+    "name": "Spice Bazar",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Swords",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4590973,
+    "lon": -6.2214864,
+    "address": "Bridge Street, Swords",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6241694527"
+  },
+  {
+    "id": "immigrant_osm_node_12675523637",
+    "name": "Spicetown Asian Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8880387,
+    "lon": -8.5872532,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12675523637"
+  },
+  {
+    "id": "immigrant_osm_node_8613842635",
+    "name": "Star Asia Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3507519,
+    "lon": -6.2650212,
+    "address": "Parnell Street",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8613842635"
+  },
+  {
+    "id": "immigrant_osm_node_13395789611",
+    "name": "Sultan's Halal Supermarket",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Cork",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9016309,
+    "lon": -8.4708218,
+    "address": "Coburg Street 6, Cork",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13395789611"
+  },
+  {
+    "id": "immigrant_osm_node_503224344",
+    "name": "Super Asia",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Dublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3406175,
+    "lon": -6.2658406,
+    "address": "Aungier Street, Dublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/503224344"
+  },
+  {
+    "id": "immigrant_osm_node_10563410082",
+    "name": "Super Asia",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://welcome.asianstore.vip/",
+    "lat": 53.2854057,
+    "lon": -9.0453888,
+    "address": "Terryland Retail Park",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10563410082"
+  },
+  {
+    "id": "immigrant_osm_node_12069733242",
+    "name": "Super Asia Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": "Waterford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.superasiafoods.ie/",
+    "lat": 52.2486679,
+    "lon": -7.1183651,
+    "address": "Tramore Road, Waterford",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12069733242"
+  },
+  {
+    "id": "immigrant_osm_node_12018266758",
+    "name": "Super Asian Foods",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3476635,
+    "lon": -6.2683573,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12018266758"
+  },
+  {
+    "id": "immigrant_osm_node_13568364835",
+    "name": "Tony's Asian Market",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2046543,
+    "lon": -6.1076228,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13568364835"
+  },
+  {
+    "id": "immigrant_osm_node_11503522152",
+    "name": "Universal Caribbean African Shop",
+    "country": "Irland",
+    "countryCode": "IE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.001218,
+    "lon": -7.3542337,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11503522152"
+  }
+]

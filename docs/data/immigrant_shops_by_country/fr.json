@@ -1,0 +1,434 @@
+[
+  {
+    "id": "immigrant_osm_node_4559976229",
+    "name": "Asia Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Loire",
+    "municipality": "Saint-Étienne",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4298415,
+    "lon": 4.3899595,
+    "address": "Asia Bazaar, Rue du Onze Novembre, Badouillère, Saint-Étienne, Loire, Auvergne-Rhône-Alpes, France métropolitaine, 42100, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4559976229"
+  },
+  {
+    "id": "immigrant_osm_node_2689911899",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Île-de-France",
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8292117,
+    "lon": 2.3573037,
+    "address": "Asian Market, Avenue de Choisy, Quartier de la Maison-Blanche, Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2689911899"
+  },
+  {
+    "id": "immigrant_osm_node_9808243776",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Moselle",
+    "municipality": "Metz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.1418921,
+    "lon": 6.1663236,
+    "address": "Asian Market, 7, Rue Pierre Boileau, Devant-les-Ponts, Metz, Moselle, Grand Est, France métropolitaine, 57050, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9808243776"
+  },
+  {
+    "id": "immigrant_osm_node_11944139764",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Haute-Garonne",
+    "municipality": "Castanet-Tolosan",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5185094,
+    "lon": 1.4969273,
+    "address": "Asian Market, Avenue de Toulouse, Castanet-Tolosan, Toulouse, Haute-Garonne, Occitanie, France métropolitaine, 31320, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11944139764"
+  },
+  {
+    "id": "immigrant_osm_way_62725311",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Hérault",
+    "municipality": "Lunel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6910833,
+    "lon": 4.1610895,
+    "address": "Asian Market, Avenue du Vidourle, Lunel, Montpellier, Hérault, Occitanie, France métropolitaine, 34400, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/62725311"
+  },
+  {
+    "id": "immigrant_osm_node_12331421286",
+    "name": "Atchoum bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Var",
+    "municipality": "Gassin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2622122,
+    "lon": 6.5794902,
+    "address": "Atchoum bazaar, D 98, La Foux, Les Pâris, Gassin, Arrondissement de Draguignan, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83580, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12331421286"
+  },
+  {
+    "id": "immigrant_osm_node_9550904339",
+    "name": "Austral Food International",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "La Réunion",
+    "municipality": "Saint-Denis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -20.9019787,
+    "lon": 55.5013988,
+    "address": "Austral Food International, Rue de la Fraternité, Saint-Denis, La Réunion, 97490, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9550904339"
+  },
+  {
+    "id": "immigrant_osm_node_11443425016",
+    "name": "Authentique Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Aveyron",
+    "municipality": "Mur-de-Barrez",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8435578,
+    "lon": 2.6605738,
+    "address": "Authentique Bazaar, 4, Avenue du Cardinal Verdier, Mur-de-Barrez, Rodez, Aveyron, Occitanie, France métropolitaine, 12600, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11443425016"
+  },
+  {
+    "id": "immigrant_osm_node_2037835011",
+    "name": "Bath Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Hauts-de-Seine",
+    "municipality": "Boulogne-Billancourt",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8379561,
+    "lon": 2.2416827,
+    "address": "Bath Bazaar, Allée de la Belle Feuille, Centre-Ville, Centre Ville, Boulogne-Billancourt, Hauts-de-Seine, Île-de-France, France métropolitaine, 92100, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2037835011"
+  },
+  {
+    "id": "immigrant_osm_node_10816456162",
+    "name": "Bazaar Concept",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Île-de-France",
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8338607,
+    "lon": 2.3640952,
+    "address": "Bazaar Concept, Boulevard Vincent Auriol, Quartier de la Salpêtrière, Paris 13e Arrondissement, Paris, Île-de-France, France métropolitaine, 75013, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10816456162"
+  },
+  {
+    "id": "immigrant_osm_way_78112609",
+    "name": "Bazaar Hall",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Côtes-d'Armor",
+    "municipality": "Saint-Brieuc",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.504729,
+    "lon": -2.7441112,
+    "address": "Bazaar Hall, Rue de Paris, Les Villes Dorées, Saint-Brieuc, Côtes-d'Armor, Bretagne, France métropolitaine, 22000, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/78112609"
+  },
+  {
+    "id": "immigrant_osm_way_851620836",
+    "name": "Bazaar Saint-So",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Nord",
+    "municipality": "Lille",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6267984,
+    "lon": 3.0749559,
+    "address": "Bazaar Saint-So, 292, Rue Camille Guérin, Euralille, Lille-Centre, Lille, Nord, Hauts-de-France, France métropolitaine, 59000, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/851620836"
+  },
+  {
+    "id": "immigrant_osm_node_3688329411",
+    "name": "Delhi Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Île-de-France",
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8637843,
+    "lon": 2.3810909,
+    "address": "Delhi Bazaar, 71, Rue Servan, Quartier Saint-Ambroise, Paris 11e Arrondissement, Paris, Île-de-France, France métropolitaine, 75011, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3688329411"
+  },
+  {
+    "id": "immigrant_osm_node_6342592890",
+    "name": "Halal market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Loiret",
+    "municipality": "Fleury-les-Aubrais",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.9275294,
+    "lon": 1.9184108,
+    "address": "Halal market, 9, Rue Descartes, Clos des Asselins, Fleury-les-Aubrais, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45400, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6342592890"
+  },
+  {
+    "id": "immigrant_osm_node_2458144390",
+    "name": "Hall Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Haute-Garonne",
+    "municipality": "Toulouse",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.602908,
+    "lon": 1.4443278,
+    "address": "Hall Bazaar, Rue Baour-Lormian, Capitole, Capitole / Arnaud Bernard / Carmes, Toulouse, Haute-Garonne, Occitanie, France métropolitaine, 31000, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2458144390"
+  },
+  {
+    "id": "immigrant_osm_node_12435568999",
+    "name": "Kook World Food Fusion",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Var",
+    "municipality": "Carnoules",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2977139,
+    "lon": 6.1768965,
+    "address": "Kook World Food Fusion, 659, Avenue des Platanes, Le Clos des Mesanges, Carnoules, Brignoles, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83660, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12435568999"
+  },
+  {
+    "id": "immigrant_osm_node_10178083087",
+    "name": "Kure Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Île-de-France",
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8634686,
+    "lon": 2.3346904,
+    "address": "Kure Bazaar, Rue Saint-Honoré, Quartier du Palais Royal, Paris 1er Arrondissement, Paris, Île-de-France, France métropolitaine, 75001, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10178083087"
+  },
+  {
+    "id": "immigrant_osm_node_1486417478",
+    "name": "Nanna Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Ille-et-Vilaine",
+    "municipality": "Saint-Malo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6496033,
+    "lon": -2.0237556,
+    "address": "Nanna Bazaar, Rue Sainte-Barbe, Intra-Muros, Saint-Malo, Ille-et-Vilaine, Bretagne, France métropolitaine, 35400, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1486417478"
+  },
+  {
+    "id": "immigrant_osm_node_9291430387",
+    "name": "Nanna Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Ille-et-Vilaine",
+    "municipality": "Saint-Malo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6467009,
+    "lon": -2.0263315,
+    "address": "Nanna Bazaar, 7, Rue de Dinan, Intra-Muros, Saint-Malo, Ille-et-Vilaine, Bretagne, France métropolitaine, 35400, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9291430387"
+  },
+  {
+    "id": "immigrant_osm_node_8541358469",
+    "name": "Sun Child Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Bouches-du-Rhône",
+    "municipality": "Marseille",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2930132,
+    "lon": 5.375389,
+    "address": "Sun Child Bazaar, Rue Francis Davso, Opéra, Marseille 1er Arrondissement, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13001, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8541358469"
+  },
+  {
+    "id": "immigrant_osm_node_4964406215",
+    "name": "World Food Barn",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Île-de-France",
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8438705,
+    "lon": 2.34166,
+    "address": "World Food Barn, 248, Rue Saint-Jacques, Quartier du Val-de-Grâce, Paris 5e Arrondissement, Paris, Île-de-France, France métropolitaine, 75005, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4964406215"
+  },
+  {
+    "id": "immigrant_osm_node_11846075631",
+    "name": "World Food Café",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Landes",
+    "municipality": "Mont-de-Marsan",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8892434,
+    "lon": -0.5044166,
+    "address": "World Food Café, Rue du Maréchal Bosquet, Mont-de-Marsan, Landes, Nouvelle-Aquitaine, France métropolitaine, 40000, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11846075631"
+  },
+  {
+    "id": "immigrant_osm_node_2288206355",
+    "name": "World Of Food",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Haute-Garonne",
+    "municipality": "Toulouse",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5876184,
+    "lon": 1.4467406,
+    "address": "World Of Food, Grande Rue Saint-Michel, Saint-Michel, Saint-Michel / Saint-Agne / Empalot / Le Busca / Île du Ramier / Montplaisir, Toulouse, Haute-Garonne, Occitanie, France métropolitaine, 31400, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2288206355"
+  },
+  {
+    "id": "immigrant_osm_node_8987447908",
+    "name": "World of food",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": "Aveyron",
+    "municipality": "Rodez",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.3638215,
+    "lon": 2.5927801,
+    "address": "World of food, Place des Rosiers, Centre Commercial des Rosiers, Onet-le-Château, Rodez, Aveyron, Occitanie, France métropolitaine, 12850, France",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8987447908"
+  }
+]

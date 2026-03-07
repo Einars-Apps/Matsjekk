@@ -1,0 +1,1640 @@
+[
+  {
+    "id": "immigrant_osm_node_9853154537",
+    "name": "1st CHOI - Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1243002,
+    "lon": 16.3249585,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9853154537"
+  },
+  {
+    "id": "immigrant_osm_node_7515403552",
+    "name": "Adam Markt آدم ماركت Orientalische Lebensmittel ماركت للمواد الغذائية الشرقية والسورية",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1969324,
+    "lon": 16.2920852,
+    "address": "Hütteldorfer Straße 215, 1140, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7515403552"
+  },
+  {
+    "id": "immigrant_osm_node_11910572526",
+    "name": "Afghanisch Orientalische Lebensmittel",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Feldkirch",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2374703,
+    "lon": 9.5980856,
+    "address": "Neustadt 2, 6800, Feldkirch",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11910572526"
+  },
+  {
+    "id": "immigrant_osm_node_3825493789",
+    "name": "Afro Asia Food",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.0399881,
+    "lon": 14.4241118,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3825493789"
+  },
+  {
+    "id": "immigrant_osm_node_5600025918",
+    "name": "Afro-Asiatisch Center",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1687813,
+    "lon": 14.6578002,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5600025918"
+  },
+  {
+    "id": "immigrant_osm_node_9909404536",
+    "name": "AKA Chukwu Afro Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0663191,
+    "lon": 15.4272161,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9909404536"
+  },
+  {
+    "id": "immigrant_osm_node_11326698749",
+    "name": "Al Arabi Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1767885,
+    "lon": 16.3761177,
+    "address": "Viktor-Adler-Markt Stand 114",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11326698749"
+  },
+  {
+    "id": "immigrant_osm_node_797725374",
+    "name": "Al arabiye minimarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1771864,
+    "lon": 16.3589477,
+    "address": "Quellenstraße 154, 1100, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/797725374"
+  },
+  {
+    "id": "immigrant_osm_node_6321055434",
+    "name": "All Afro Market Innsbruck",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2623305,
+    "lon": 11.3959263,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6321055434"
+  },
+  {
+    "id": "immigrant_osm_node_11573604634",
+    "name": "Asia Center Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1966706,
+    "lon": 16.359912,
+    "address": "Rechte Wienzeile 39",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11573604634"
+  },
+  {
+    "id": "immigrant_osm_node_5789753456",
+    "name": "Asia Food Center Mekong",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2284819,
+    "lon": 16.3595136,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5789753456"
+  },
+  {
+    "id": "immigrant_osm_node_5339960001",
+    "name": "Asia Food Long Long",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Salzburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asia-salzburg.at",
+    "lat": 47.7963726,
+    "lon": 13.024195,
+    "address": "Maxglaner Hauptstraße 12, 5020, Salzburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5339960001"
+  },
+  {
+    "id": "immigrant_osm_node_4794130222",
+    "name": "Asia Food Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asia-food-markt.gemeindeausstellung.at/",
+    "lat": 47.2639798,
+    "lon": 11.4005998,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4794130222"
+  },
+  {
+    "id": "immigrant_osm_node_10102699733",
+    "name": "Asia Food Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.3059979,
+    "lon": 14.2844805,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10102699733"
+  },
+  {
+    "id": "immigrant_osm_node_10983002968",
+    "name": "Asia Food Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "St. Pölten",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiafood.co.at/",
+    "lat": 48.2019435,
+    "lon": 15.6254102,
+    "address": "Schillerplatz 3, 3100, St. Pölten",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10983002968"
+  },
+  {
+    "id": "immigrant_osm_node_3205945409",
+    "name": "Asia Food Super Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wiener Neustadt",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiafood.co.at/",
+    "lat": 47.8257858,
+    "lon": 16.2502698,
+    "address": "Pottendorfer Straße 37, 2700, Wiener Neustadt",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3205945409"
+  },
+  {
+    "id": "immigrant_osm_node_9887326818",
+    "name": "Asia Lebensmittel",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2894775,
+    "lon": 14.2979745,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9887326818"
+  },
+  {
+    "id": "immigrant_osm_node_5830615510",
+    "name": "Asia Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Innsbruck",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2668163,
+    "lon": 11.3996094,
+    "address": "Museumstraße 23, 6020, Innsbruck",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5830615510"
+  },
+  {
+    "id": "immigrant_osm_node_9893073049",
+    "name": "Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2863695,
+    "lon": 14.2991247,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9893073049"
+  },
+  {
+    "id": "immigrant_osm_way_122660388",
+    "name": "Asia Markt Jiahong Handels GmbH",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Hard",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4781294,
+    "lon": 9.6797433,
+    "address": "Landstraße 131, 6971, Hard",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/122660388"
+  },
+  {
+    "id": "immigrant_osm_node_11420032173",
+    "name": "Asia Mini Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://healthythings.business.site/",
+    "lat": 48.0267133,
+    "lon": 14.7677875,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11420032173"
+  },
+  {
+    "id": "immigrant_osm_node_4096953622",
+    "name": "Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1989551,
+    "lon": 16.365,
+    "address": "Faulmanngasse 5, 1040, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4096953622"
+  },
+  {
+    "id": "immigrant_osm_node_9073497194",
+    "name": "Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2041463,
+    "lon": 16.3383754,
+    "address": "Burggasse 121",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9073497194"
+  },
+  {
+    "id": "immigrant_osm_node_1467020992",
+    "name": "Asia Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1942979,
+    "lon": 16.3357456,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1467020992"
+  },
+  {
+    "id": "immigrant_osm_node_8848616916",
+    "name": "Asia'Li Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2485558,
+    "lon": 16.4418886,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8848616916"
+  },
+  {
+    "id": "immigrant_osm_node_13569858080",
+    "name": "Asian Exotic",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1873627,
+    "lon": 16.3522427,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13569858080"
+  },
+  {
+    "id": "immigrant_osm_node_9203746511",
+    "name": "Asian Oriental House",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1845451,
+    "lon": 16.3459822,
+    "address": "Margaretengürtel 122-124",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9203746511"
+  },
+  {
+    "id": "immigrant_osm_node_9892444278",
+    "name": "Asian Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2848808,
+    "lon": 14.3033976,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9892444278"
+  },
+  {
+    "id": "immigrant_osm_node_2617117224",
+    "name": "Asiana",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.215319,
+    "lon": 16.3850917,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2617117224"
+  },
+  {
+    "id": "immigrant_osm_node_1439063858",
+    "name": "Asiashop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1961427,
+    "lon": 16.3579618,
+    "address": "Rechte Wienzeile 47",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1439063858"
+  },
+  {
+    "id": "immigrant_osm_node_4353902499",
+    "name": "Asiatischer Spezialitätenmarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Salzburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiamarkt-salzburg.com",
+    "lat": 47.8052843,
+    "lon": 13.044111,
+    "address": "Schrannengasse 2, 5020, Salzburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4353902499"
+  },
+  {
+    "id": "immigrant_osm_node_4726284755",
+    "name": "Asiatischer Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8061748,
+    "lon": 13.0487801,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4726284755"
+  },
+  {
+    "id": "immigrant_osm_node_11964434953",
+    "name": "Aspern Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2341645,
+    "lon": 16.4421032,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11964434953"
+  },
+  {
+    "id": "immigrant_osm_node_11383557163",
+    "name": "Balkan Market Nada & Sascha",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1767921,
+    "lon": 16.3759511,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11383557163"
+  },
+  {
+    "id": "immigrant_osm_node_2502503708",
+    "name": "Bazaar Gourmet Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaargm.com",
+    "lat": 48.2468333,
+    "lon": 16.465273,
+    "address": "Gewerbeparkstraße, 1220, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2502503708"
+  },
+  {
+    "id": "immigrant_osm_node_3496011043",
+    "name": "Ben - Asiatische, Afrikanische Spezialitäten",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.172765,
+    "lon": 16.3776646,
+    "address": "Neusetzgasse 4, 1100, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3496011043"
+  },
+  {
+    "id": "immigrant_osm_node_12387809512",
+    "name": "Blessed Afro Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8112254,
+    "lon": 13.0339752,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12387809512"
+  },
+  {
+    "id": "immigrant_osm_node_2162244567",
+    "name": "Broth3rs - Asia Food Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.broth3rs.at/",
+    "lat": 48.2112984,
+    "lon": 16.3350186,
+    "address": "Neulerchenfelder Straße 32, 1160, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2162244567"
+  },
+  {
+    "id": "immigrant_osm_node_9732271222",
+    "name": "Broth3rs Asia Food Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wiener Neustadt",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.broth3rs.at",
+    "lat": 47.8222641,
+    "lon": 16.2189385,
+    "address": "Fischauer Gasse 209, 2700, Wiener Neustadt",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9732271222"
+  },
+  {
+    "id": "immigrant_osm_node_9709022828",
+    "name": "City Bazar",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wieselburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1311404,
+    "lon": 15.1405463,
+    "address": "Bahnhofstraße 14, 3250, Wieselburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9709022828"
+  },
+  {
+    "id": "immigrant_osm_node_11920317165",
+    "name": "Coco Asian",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2385247,
+    "lon": 16.3774292,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11920317165"
+  },
+  {
+    "id": "immigrant_osm_node_9511178487",
+    "name": "Coco Asian Exotic Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2249531,
+    "lon": 16.3542345,
+    "address": "Sechsschimmelgasse 1, 1090, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9511178487"
+  },
+  {
+    "id": "immigrant_osm_node_5443188821",
+    "name": "Easy Asia",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Graz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.easyasia.at/",
+    "lat": 47.0633373,
+    "lon": 15.430826,
+    "address": "Albert-Schweitzer-Gasse 49, 8010, Graz",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5443188821"
+  },
+  {
+    "id": "immigrant_osm_node_3812909090",
+    "name": "F&S Internationaler Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2704992,
+    "lon": 14.2928089,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3812909090"
+  },
+  {
+    "id": "immigrant_osm_node_12828391519",
+    "name": "good taste Asian Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0735973,
+    "lon": 15.435766,
+    "address": "Sackstraße 30",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12828391519"
+  },
+  {
+    "id": "immigrant_osm_node_973829524",
+    "name": "Hang Khang Asia Lebensmittel",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.asiamarkt-linz.at",
+    "lat": 48.3197714,
+    "lon": 14.2894223,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/973829524"
+  },
+  {
+    "id": "immigrant_osm_node_2040396021",
+    "name": "Himalaya Indian Bazar",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Graz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0715883,
+    "lon": 15.4211227,
+    "address": "Annenstraße 64, 8020, Graz",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2040396021"
+  },
+  {
+    "id": "immigrant_osm_node_8811950027",
+    "name": "HR Trade International",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2432679,
+    "lon": 16.3779014,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8811950027"
+  },
+  {
+    "id": "immigrant_osm_node_3142417613",
+    "name": "Huan Yu Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1969825,
+    "lon": 16.3610965,
+    "address": "Rechte Wienzeile 33, 1040, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3142417613"
+  },
+  {
+    "id": "immigrant_osm_node_6610524276",
+    "name": "Indo-Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.265757,
+    "lon": 11.3801309,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6610524276"
+  },
+  {
+    "id": "immigrant_osm_node_12153850855",
+    "name": "Ja Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1893035,
+    "lon": 16.3970762,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12153850855"
+  },
+  {
+    "id": "immigrant_osm_node_4326990593",
+    "name": "Josco Asian Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2555511,
+    "lon": 16.3983474,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4326990593"
+  },
+  {
+    "id": "immigrant_osm_node_12118686021",
+    "name": "Jovis Asialaden",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2582945,
+    "lon": 13.0340128,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12118686021"
+  },
+  {
+    "id": "immigrant_osm_node_590583995",
+    "name": "K-Loy Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wels",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://k-loy-asia-shop.at/",
+    "lat": 48.160703,
+    "lon": 14.0207351,
+    "address": "Karl-Loy-Straße 14, 4600, Wels",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/590583995"
+  },
+  {
+    "id": "immigrant_osm_node_11772304142",
+    "name": "Lebensmittel Sklep Polski",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1954731,
+    "lon": 16.3861369,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11772304142"
+  },
+  {
+    "id": "immigrant_osm_node_3759191412",
+    "name": "London Store Asian Food",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1860399,
+    "lon": 16.334739,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3759191412"
+  },
+  {
+    "id": "immigrant_osm_node_13569812307",
+    "name": "M.R.S. Asian Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.187482,
+    "lon": 16.3443187,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13569812307"
+  },
+  {
+    "id": "immigrant_osm_node_313661160",
+    "name": "MAM - Modern Asia Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2422567,
+    "lon": 16.4335465,
+    "address": "Wagramer Straße 79, 1220, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/313661160"
+  },
+  {
+    "id": "immigrant_osm_node_10968239496",
+    "name": "Mama Suzanna African Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2683618,
+    "lon": 11.4119688,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10968239496"
+  },
+  {
+    "id": "immigrant_osm_node_12790360155",
+    "name": "Miky's Afro Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2044039,
+    "lon": 16.3392212,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12790360155"
+  },
+  {
+    "id": "immigrant_osm_node_10159436505",
+    "name": "Modern Asia Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1068357,
+    "lon": 16.3180743,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10159436505"
+  },
+  {
+    "id": "immigrant_osm_node_11149631705",
+    "name": "Modern Asia Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.mam-supermarket.at/",
+    "lat": 48.2424368,
+    "lon": 16.4332595,
+    "address": "Wagramer Straße 79, 1220, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11149631705"
+  },
+  {
+    "id": "immigrant_osm_node_12531963932",
+    "name": "Modern Asia Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2037872,
+    "lon": 16.3342067,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12531963932"
+  },
+  {
+    "id": "immigrant_osm_node_1460984741",
+    "name": "NAKWoN Asia",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1987032,
+    "lon": 16.3453485,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1460984741"
+  },
+  {
+    "id": "immigrant_osm_node_4515155524",
+    "name": "Namaste Asian Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2134676,
+    "lon": 16.3058012,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4515155524"
+  },
+  {
+    "id": "immigrant_osm_node_346280333",
+    "name": "NER International Food Store",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2166771,
+    "lon": 16.3400073,
+    "address": "Hernalser Hauptstraße 11, 1170, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/346280333"
+  },
+  {
+    "id": "immigrant_osm_node_12703479140",
+    "name": "nomnom Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Götzis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://nomnom-markt.at/",
+    "lat": 47.3373526,
+    "lon": 9.6472146,
+    "address": "Am Garnmarkt 17, 6840, Götzis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12703479140"
+  },
+  {
+    "id": "immigrant_osm_node_8038360681",
+    "name": "Oriental Market",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.811242,
+    "lon": 13.0337842,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8038360681"
+  },
+  {
+    "id": "immigrant_osm_node_4100575578",
+    "name": "Orientalische ATCO Spezialitäten",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2208526,
+    "lon": 16.3963534,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4100575578"
+  },
+  {
+    "id": "immigrant_osm_node_1026751687",
+    "name": "Panda Asia (Asia Market)",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Graz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.panda-asia.at",
+    "lat": 47.0669404,
+    "lon": 15.4442593,
+    "address": "Reitschulgasse 8, 8010, Graz",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1026751687"
+  },
+  {
+    "id": "immigrant_osm_node_2506291209",
+    "name": "Preet Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1938427,
+    "lon": 16.4074793,
+    "address": "1030, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2506291209"
+  },
+  {
+    "id": "immigrant_osm_node_6056294398",
+    "name": "Safa Bazar",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.170868,
+    "lon": 16.3793747,
+    "address": "Favoritenstraße 154, 1100, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6056294398"
+  },
+  {
+    "id": "immigrant_osm_node_11009674504",
+    "name": "SAHAN - Afrika & Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Salzburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8098197,
+    "lon": 13.042213,
+    "address": "Rainerstraße 24, 5020, Salzburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11009674504"
+  },
+  {
+    "id": "immigrant_osm_node_11573604617",
+    "name": "Sino Asia Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1968014,
+    "lon": 16.3603702,
+    "address": "Rechte Wienzeile 37",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11573604617"
+  },
+  {
+    "id": "immigrant_osm_node_9666950388",
+    "name": "Sklep Polski PIO",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1935558,
+    "lon": 16.3860678,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9666950388"
+  },
+  {
+    "id": "immigrant_osm_node_3855419861",
+    "name": "So Afro Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.16327,
+    "lon": 14.014434,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3855419861"
+  },
+  {
+    "id": "immigrant_osm_node_10010646336",
+    "name": "Sultan Supermarket",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1802194,
+    "lon": 16.3751082,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10010646336"
+  },
+  {
+    "id": "immigrant_osm_node_8151067474",
+    "name": "Sultan Supermarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.259324,
+    "lon": 16.3989524,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8151067474"
+  },
+  {
+    "id": "immigrant_osm_node_4089569565",
+    "name": "Sunrise Supermarket - Asian Food and Seafood",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2657469,
+    "lon": 16.4559393,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4089569565"
+  },
+  {
+    "id": "immigrant_osm_node_11475999018",
+    "name": "Thai Station Asia Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0666074,
+    "lon": 15.443215,
+    "address": "Klosterwiesgasse 6",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11475999018"
+  },
+  {
+    "id": "immigrant_osm_node_4126441431",
+    "name": "Thai-Asia-Shop",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Ried im Innkreis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.2098151,
+    "lon": 13.4867012,
+    "address": "Roßmarkt 1, 4910, Ried im Innkreis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4126441431"
+  },
+  {
+    "id": "immigrant_osm_node_10055898983",
+    "name": "Tingting Asia-Makt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Feldkirch",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at/",
+    "lat": 47.2376955,
+    "lon": 9.5998219,
+    "address": "Jahnplatz 1, 6800, Feldkirch",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10055898983"
+  },
+  {
+    "id": "immigrant_osm_node_12352017199",
+    "name": "Tingting Asia-Makt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Bregenz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at/",
+    "lat": 47.5037337,
+    "lon": 9.7443714,
+    "address": "Bahnhofstraße 14, 6900, Bregenz",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12352017199"
+  },
+  {
+    "id": "immigrant_osm_node_333359280",
+    "name": "Tingting Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://tingting.at/",
+    "lat": 48.2152996,
+    "lon": 16.349389,
+    "address": "Alser Straße 16, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/333359280"
+  },
+  {
+    "id": "immigrant_osm_node_2613344372",
+    "name": "Tingting Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Innsbruck",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2668144,
+    "lon": 11.3959427,
+    "address": "Erlerstraße 4, 6020, Innsbruck",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2613344372"
+  },
+  {
+    "id": "immigrant_osm_node_5316392645",
+    "name": "Tingting Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Völs",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at/",
+    "lat": 47.2577949,
+    "lon": 11.3228055,
+    "address": "Gießenweg 3, 6176, Völs",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5316392645"
+  },
+  {
+    "id": "immigrant_osm_node_5677766401",
+    "name": "TingTing Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Lustenau",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at",
+    "lat": 47.4195698,
+    "lon": 9.6607684,
+    "address": "Kaiser-Franz-Josef-Straße 48, 6890, Lustenau",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5677766401"
+  },
+  {
+    "id": "immigrant_osm_node_12952257814",
+    "name": "Tingting Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at/asiamarkt/",
+    "lat": 47.4155144,
+    "lon": 9.741524,
+    "address": "riedgasse 11",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12952257814"
+  },
+  {
+    "id": "immigrant_osm_way_1254284293",
+    "name": "Tingting Asiamarkt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tingting.at/",
+    "lat": 47.2627938,
+    "lon": 11.4321346,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1254284293"
+  },
+  {
+    "id": "immigrant_osm_node_12484141506",
+    "name": "Yama Asia Markt",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Wien",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.148385,
+    "lon": 16.2888954,
+    "address": "Taglieberstraße 1, 1230, Wien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12484141506"
+  },
+  {
+    "id": "immigrant_osm_node_12779218704",
+    "name": "Yuzu Asian Shop & Food",
+    "country": "Osterrike",
+    "countryCode": "AT",
+    "region": null,
+    "municipality": "Lauterach",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4771418,
+    "lon": 9.7312312,
+    "address": "Bundesstraße 50, 6923, Lauterach",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12779218704"
+  }
+]

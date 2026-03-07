@@ -1,0 +1,362 @@
+[
+  {
+    "id": "immigrant_osm_node_3921601850",
+    "name": "Asian Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Messina",
+    "municipality": "Messina",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.1864763,
+    "lon": 15.5510194,
+    "address": "Asian Bazaar, 39, Piazza del Popolo, Il Tirone, IV Circoscrizione, Messina, Sicilia, 98123, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3921601850"
+  },
+  {
+    "id": "immigrant_osm_node_5694558534",
+    "name": "Asian Market",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Milano",
+    "municipality": "Milano",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4917993,
+    "lon": 9.2181784,
+    "address": "Asian Market, Viale Monza, Loreto, Municipio 2, Milano, Lombardia, 20131, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5694558534"
+  },
+  {
+    "id": "immigrant_osm_node_3820468788",
+    "name": "Asian Market",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Messina",
+    "municipality": "Messina",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.185853,
+    "lon": 15.5508637,
+    "address": "Asian Market, 9, Piazza del Popolo, Il Tirone, IV Circoscrizione, Messina, Sicilia, 98123, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3820468788"
+  },
+  {
+    "id": "immigrant_osm_node_9000735285",
+    "name": "Asian Market",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Varese",
+    "municipality": "Varese",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.815413,
+    "lon": 8.8317579,
+    "address": "Asian Market, Via Piave, Motta, Bosto, Marone, Cartabbia, Varese, Lombardia, 21200, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9000735285"
+  },
+  {
+    "id": "immigrant_osm_node_11898799088",
+    "name": "Bangla Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Novara",
+    "municipality": "Novara",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4494536,
+    "lon": 8.6260208,
+    "address": "Bangla Bazaar, Viale Alessandro Manzoni, Porta Mortara, Novara, Piemonte, 28100, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11898799088"
+  },
+  {
+    "id": "immigrant_osm_way_195834619",
+    "name": "Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Venezia",
+    "municipality": "Chioggia",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1623046,
+    "lon": 12.3263218,
+    "address": "Bazaar, Via del Sole, Isola Verde, Chioggia, Venezia, Veneto, 30015, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/195834619"
+  },
+  {
+    "id": "immigrant_osm_node_8375952779",
+    "name": "Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Cosenza",
+    "municipality": "Francavilla Marittima",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 39.8133625,
+    "lon": 16.4003227,
+    "address": "Bazaar, Via Guido Rossa, Silva, Francavilla Marittima, Cosenza, Calabria, 87072, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8375952779"
+  },
+  {
+    "id": "immigrant_osm_node_3275214373",
+    "name": "Bazaar Moda",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Aristanis/Oristano",
+    "municipality": "Aristanis/Oristano",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 39.9010918,
+    "lon": 8.5984485,
+    "address": "Bazaar Moda, 11, Via Amsicora, Su Brugu, Aristanis/Oristano, Sardigna/Sardegna, 09170, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3275214373"
+  },
+  {
+    "id": "immigrant_osm_node_4882100121",
+    "name": "Bazaar Picchio Verde",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Lucca",
+    "municipality": "Viareggio",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.849533,
+    "lon": 10.264136,
+    "address": "Bazaar Picchio Verde, Via dei Lecci, Cotone, Viareggio, Unione dei comuni della Versilia, Lucca, Toscana, 55049, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4882100121"
+  },
+  {
+    "id": "immigrant_osm_node_9006028438",
+    "name": "Beef Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Roma Capitale",
+    "municipality": "Roma",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.9081899,
+    "lon": 12.4592578,
+    "address": "Beef Bazaar, 136, Via Germanico, Prati, Municipio Roma I, Roma, Roma Capitale, Lazio, 00192, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9006028438"
+  },
+  {
+    "id": "immigrant_osm_node_5340872755",
+    "name": "Chohan mini market halal",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Milano",
+    "municipality": "Magenta",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4630691,
+    "lon": 8.8842639,
+    "address": "Chohan mini market halal, Via Giuseppe Garibaldi, Magenta, Milano, Lombardia, 20013, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5340872755"
+  },
+  {
+    "id": "immigrant_osm_node_13420956922",
+    "name": "Hattiq Halal Market",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Bologna",
+    "municipality": "Bologna",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.508711,
+    "lon": 11.3549296,
+    "address": "Hattiq Halal Market, Via Ottaviano Mascherino, La Zucca, Bolognina, Quartiere Navile, Bologna, Emilia-Romagna, 14007, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13420956922"
+  },
+  {
+    "id": "immigrant_osm_way_425550365",
+    "name": "International Food",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Casteddu/Cagliari",
+    "municipality": "Patiolla/Dolianova",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 39.3767411,
+    "lon": 9.1742918,
+    "address": "International Food, 17 C, Via Enrico Zuddas, Patiolla/Dolianova, Casteddu/Cagliari, Sardigna/Sardegna, 09041, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/425550365"
+  },
+  {
+    "id": "immigrant_osm_node_10316238845",
+    "name": "Kuldoth bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Genova",
+    "municipality": "Genova",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4107365,
+    "lon": 8.939526,
+    "address": "Kuldoth bazaar, Via Assarotti, Portoria, Centro Est, Genova, Liguria, 16122, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10316238845"
+  },
+  {
+    "id": "immigrant_osm_node_11874523015",
+    "name": "New Beda Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Milano",
+    "municipality": "Milano",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.5068164,
+    "lon": 9.2004438,
+    "address": "New Beda Bazaar, Viale Fulvio Testi, Niguarda - Cà Granda, Municipio 9, Milano, Lombardia, 20162, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11874523015"
+  },
+  {
+    "id": "immigrant_osm_node_10775423485",
+    "name": "Studiotenda Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Cremona",
+    "municipality": "Cremona",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1397969,
+    "lon": 10.0274398,
+    "address": "Studiotenda Bazaar, Via Dante, San Bernardo, Vecchia Dogana, Cremona, Lombardia, 26100, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10775423485"
+  },
+  {
+    "id": "immigrant_osm_node_9895913312",
+    "name": "Tabacchi Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Udine / Udin / Videm",
+    "municipality": "Lignano Sabbiadoro / Lignan",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.6668434,
+    "lon": 13.1123419,
+    "address": "Tabacchi Bazaar, 10b, Lungomare Alberto Kechler, Lignano Pineta / Lignan Pinede, Lignano Sabbiadoro / Lignan, Udine / Udin / Videm, Friuli-Venezia Giulia, 33054, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9895913312"
+  },
+  {
+    "id": "immigrant_osm_node_12484911210",
+    "name": "Wellness Bazaar",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Milano",
+    "municipality": "Milano",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4545294,
+    "lon": 9.2059729,
+    "address": "Wellness Bazaar, Via Pier Lombardo, Porta Romana, Municipio 4, Milano, Lombardia, 20135, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12484911210"
+  },
+  {
+    "id": "immigrant_osm_node_11830392854",
+    "name": "World Food",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Catania",
+    "municipality": "Catania",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.5106214,
+    "lon": 15.088498,
+    "address": "World Food, Piazza Carlo Alberto, Monserrato, Borgo-Sanzio, Catania, Sicilia, 95128, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11830392854"
+  },
+  {
+    "id": "immigrant_osm_node_2945417782",
+    "name": "World Food",
+    "country": "Italia",
+    "countryCode": "IT",
+    "region": "Brescia",
+    "municipality": "Montinelle",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.5519984,
+    "lon": 10.5610645,
+    "address": "World Food, 3, Via Vittorio Veneto, Montinelle, Manerba del Garda, Brescia, Lombardia, 25080, Italia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2945417782"
+  }
+]

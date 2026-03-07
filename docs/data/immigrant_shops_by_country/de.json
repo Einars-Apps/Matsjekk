@@ -1,0 +1,362 @@
+[
+  {
+    "id": "immigrant_osm_node_1586986088",
+    "name": "Akash Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Nordrhein-Westfalen",
+    "municipality": "Köln",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9348831,
+    "lon": 6.9473059,
+    "address": "Akash Bazaar, Lungengasse, Cäcilienviertel, Altstadt-Süd, Innenstadt, Köln, Nordrhein-Westfalen, 50676, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1586986088"
+  },
+  {
+    "id": "immigrant_osm_node_7325780650",
+    "name": "Asian & African Market",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Baden-Württemberg",
+    "municipality": "Ulm",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.4013499,
+    "lon": 9.9940782,
+    "address": "Asian & African Market, 28, Hafenbad, Innenstadt, Mitte, Ulm, Baden-Württemberg, 89073, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7325780650"
+  },
+  {
+    "id": "immigrant_osm_node_854802440",
+    "name": "Asian aiX Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Städteregion Aachen",
+    "municipality": "Aachen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.7785346,
+    "lon": 6.0970433,
+    "address": "Asian aiX Bazaar, 20, Jülicher Straße, Rehmviertel, Frankenberger Viertel, Aachen-Mitte, Aachen, Städteregion Aachen, Nordrhein-Westfalen, 52070, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/854802440"
+  },
+  {
+    "id": "immigrant_osm_node_5279074748",
+    "name": "Asian Super Market SWS Cash & Carry",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Kreis Bergstraße",
+    "municipality": "Bensheim",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6833613,
+    "lon": 8.6194983,
+    "address": "Asian Super Market SWS Cash & Carry, 12-14, Fehlheimer Straße, Kappesgärten, Bensheim, Kreis Bergstraße, Hessen, 64625, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5279074748"
+  },
+  {
+    "id": "immigrant_osm_node_1560678800",
+    "name": "Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Nordrhein-Westfalen",
+    "municipality": "Bielefeld",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0218752,
+    "lon": 8.5559462,
+    "address": "Bazaar, 130, Heeper Straße, Mitte, Bielefeld, Nordrhein-Westfalen, 33607, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1560678800"
+  },
+  {
+    "id": "immigrant_osm_node_12898319042",
+    "name": "Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Baden-Württemberg",
+    "municipality": "Mannheim",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.5031681,
+    "lon": 8.5183773,
+    "address": "Bazaar, Leonie-Ossowski-Promenade, Spinelli, Käfertal-Süd, Käfertal, Mannheim, Baden-Württemberg, 68309, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12898319042"
+  },
+  {
+    "id": "immigrant_osm_node_12855257222",
+    "name": "Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Landkreis Gießen",
+    "municipality": "Heuchelheim",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.5780615,
+    "lon": 8.6344492,
+    "address": "Bazaar, 47, Ludwig-Rinn-Straße, Heuchelheim, Heuchelheim an der Lahn, Landkreis Gießen, Hessen, 35452, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12855257222"
+  },
+  {
+    "id": "immigrant_osm_node_6501149586",
+    "name": "Bazaar Lounge",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Sachsen",
+    "municipality": "Chemnitz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8239359,
+    "lon": 12.9256271,
+    "address": "Bazaar Lounge, 14, Südbahnstraße, Zentrum, Chemnitz, Sachsen, 09111, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6501149586"
+  },
+  {
+    "id": "immigrant_osm_node_13527086717",
+    "name": "Bazaar Noir",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Bayern",
+    "municipality": "München",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1519766,
+    "lon": 11.5772185,
+    "address": "Bazaar Noir, Türkenstraße, Am alten nördlichen Friedhof, Maxvorstadt, München, Bayern, 80799, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13527086717"
+  },
+  {
+    "id": "immigrant_osm_node_9776538015",
+    "name": "Bazaar of Wunderbar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Rheinland-Pfalz",
+    "municipality": "Koblenz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3610508,
+    "lon": 7.5954389,
+    "address": "Bazaar of Wunderbar, 11, An der Liebfrauenkirche, Altstadt, Koblenz, Rheinland-Pfalz, 56068, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9776538015"
+  },
+  {
+    "id": "immigrant_osm_way_201705707",
+    "name": "D&D Food Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Bremen",
+    "municipality": "Bremen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.1029762,
+    "lon": 8.7898459,
+    "address": "D&D Food Bazaar, 13, Osterfeuerberger Ring, Osterfeuerberg, Walle, Bremen-West, Bremen, 28219, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/201705707"
+  },
+  {
+    "id": "immigrant_osm_node_313715843",
+    "name": "Elli Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": null,
+    "municipality": "Hamburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.5841559,
+    "lon": 9.8546523,
+    "address": "Elli Bazaar, Bornheide, Osdorfer Born, Osdorf, Altona, Hamburg, 22549, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/313715843"
+  },
+  {
+    "id": "immigrant_osm_node_10692651502",
+    "name": "Indian Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": null,
+    "municipality": "Hamburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4592114,
+    "lon": 9.9831661,
+    "address": "Indian Bazaar, Lüneburger Tor, Phoenix-Viertel, Harburg, Hamburg, 21073, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10692651502"
+  },
+  {
+    "id": "immigrant_osm_node_11727048543",
+    "name": "Indian Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": null,
+    "municipality": "Hamburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4580369,
+    "lon": 9.9835076,
+    "address": "Indian Bazaar, 10, Lüneburger Straße, Phoenix-Viertel, Harburg, Hamburg, 21073, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11727048543"
+  },
+  {
+    "id": "immigrant_osm_node_9764584218",
+    "name": "Indian Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Baden-Württemberg",
+    "municipality": "Karlsruhe",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0095719,
+    "lon": 8.4075777,
+    "address": "Indian Bazaar, 40, Kaiserstraße, Innenstadt-Ost Südwestlicher Teil, Innenstadt-Ost, Karlsruhe, Baden-Württemberg, 76133, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9764584218"
+  },
+  {
+    "id": "immigrant_osm_node_2448254428",
+    "name": "Indian Spice Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Baden-Württemberg",
+    "municipality": "Stuttgart",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7290788,
+    "lon": 9.1127782,
+    "address": "Indian Spice Bazaar, 9, Herrenberger Straße, Vaihingen, Vaihingen-Mitte, Vaihingen, Stuttgart, Baden-Württemberg, 70563, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2448254428"
+  },
+  {
+    "id": "immigrant_osm_node_1352704138",
+    "name": "Kabul Bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Landkreis Göttingen",
+    "municipality": "Göttingen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5338486,
+    "lon": 9.9339048,
+    "address": "Kabul Bazaar, 5, Gotmarstraße, Innenstadt, Göttingen, Landkreis Göttingen, Niedersachsen, 37073, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1352704138"
+  },
+  {
+    "id": "immigrant_osm_node_3364490331",
+    "name": "Parkhaus Bazaar de Cologne",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Nordrhein-Westfalen",
+    "municipality": "Köln",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9376661,
+    "lon": 6.9433791,
+    "address": "Parkhaus Bazaar de Cologne, 11, Große Brinkgasse, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50672, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3364490331"
+  },
+  {
+    "id": "immigrant_osm_node_706103350",
+    "name": "the spice bazaar",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Bayern",
+    "municipality": "München",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.140764,
+    "lon": 11.5820237,
+    "address": "the spice bazaar, 3, Marstallplatz, Graggenauerviertel, Altstadt-Lehel, München, Bayern, 80539, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/706103350"
+  },
+  {
+    "id": "immigrant_osm_node_556839543",
+    "name": "World Food",
+    "country": "Tyskland",
+    "countryCode": "DE",
+    "region": "Mittelsachsen",
+    "municipality": "Freiberg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.913826,
+    "lon": 13.346876,
+    "address": "World Food, 8, Bahnhofstraße, Bahnhofsvorstadt, Freiberg Süd, Freiberg, Mittelsachsen, Sachsen, 09599, Deutschland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/556839543"
+  }
+]

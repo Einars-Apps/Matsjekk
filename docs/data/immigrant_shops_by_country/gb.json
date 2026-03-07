@@ -1,0 +1,884 @@
+[
+  {
+    "id": "immigrant_osm_way_1302435242",
+    "name": "A&A Halal Meat and Groceries",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5419651,
+    "lon": 0.0015023,
+    "address": "A&A Halal Meat and Groceries, 70-73, The Mall, Stratford, London Borough of Newham, Greater London, England, E15 1XQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1302435242"
+  },
+  {
+    "id": "immigrant_osm_node_910409833",
+    "name": "Adbdul Halal Supermarket",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Alba / Scotland",
+    "municipality": "City of Edinburgh",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.9456804,
+    "lon": -3.1849745,
+    "address": "Adbdul Halal Supermarket, 53, Nicolson Street, Pleasance, Southside, City of Edinburgh, Alba / Scotland, EH8 9BZ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/910409833"
+  },
+  {
+    "id": "immigrant_osm_node_2275677043",
+    "name": "African Food Store",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "City of Nottingham",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9692969,
+    "lon": -1.1733699,
+    "address": "African Food Store, 306, Radford Road, Hyson Green, City of Nottingham, East Midlands, England, NG7 5GN, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2275677043"
+  },
+  {
+    "id": "immigrant_osm_node_292758288",
+    "name": "African Food Store",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Derby",
+    "municipality": "Derby",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9034721,
+    "lon": -1.4841254,
+    "address": "African Food Store, 203, Upper Dale Road, New Normanton, Derby, East Midlands, England, DE23 8BS, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/292758288"
+  },
+  {
+    "id": "immigrant_osm_node_4485566643",
+    "name": "Asian Market Ltd",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Kent",
+    "municipality": "Gravesham",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4424861,
+    "lon": 0.3711156,
+    "address": "Asian Market Ltd, 6, Queen Street, Gravesend Town Centre, Milton, Gravesend, Gravesham, Kent, England, DA12 2EE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4485566643"
+  },
+  {
+    "id": "immigrant_osm_node_2184553853",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Glasgow City",
+    "municipality": "Glasgow",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.8551237,
+    "lon": -4.2350802,
+    "address": "Bazaar, 11, Bain Street, The Barras, Calton, Glasgow, Glasgow City, Alba / Scotland, G40 2LD, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2184553853"
+  },
+  {
+    "id": "immigrant_osm_node_12753082624",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Middlesbrough",
+    "municipality": "Middlesbrough",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.5751339,
+    "lon": -1.2390692,
+    "address": "Bazaar, 15, Captain Cook Square, Middlehaven, Middlesbrough, Tees Valley, England, TS1 5UB, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12753082624"
+  },
+  {
+    "id": "immigrant_osm_node_1265561585",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Hertfordshire",
+    "municipality": "Watford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6575731,
+    "lon": -0.3928662,
+    "address": "Bazaar, Queens Road, North Watford, Watford, Hertfordshire, England, WD17 2LA, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1265561585"
+  },
+  {
+    "id": "immigrant_osm_node_3732155649",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Northumberland",
+    "municipality": "Berwick-upon-Tweed",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.7681566,
+    "lon": -2.0037254,
+    "address": "Bazaar, Bridge Street, Tweedmouth, Spittal, Berwick-upon-Tweed, Northumberland, North East, England, TD15 1AQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3732155649"
+  },
+  {
+    "id": "immigrant_osm_node_4613103435",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Devon",
+    "municipality": "North Devon",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.081442,
+    "lon": -4.061557,
+    "address": "Bazaar, Gammon Walk, Pilton, Barnstaple, North Devon, Devon, Devon and Torbay, England, EX31 1DJ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4613103435"
+  },
+  {
+    "id": "immigrant_osm_node_12002350312",
+    "name": "baZaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Cumberland",
+    "municipality": "Whitehaven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.5488156,
+    "lon": -3.5891436,
+    "address": "baZaar, King Street, Bransty, Whitehaven, Cumberland, England, CA28 7JH, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12002350312"
+  },
+  {
+    "id": "immigrant_osm_node_5634986892",
+    "name": "Bazaar",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Wiltshire",
+    "municipality": "Calne",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4384022,
+    "lon": -2.0051449,
+    "address": "Bazaar, 5, Harris Court, Quemerford, Calne, Wiltshire, England, SN11 0RB, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5634986892"
+  },
+  {
+    "id": "immigrant_osm_way_193589884",
+    "name": "Bazaar Road",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Wiltshire",
+    "municipality": "Tidworth",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2317411,
+    "lon": -1.6801909,
+    "address": "Bazaar Road, Candahar Barracks, Tidworth, Wiltshire, England, SP9 7AS, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/193589884"
+  },
+  {
+    "id": "immigrant_osm_way_193589883",
+    "name": "Bazaar Road",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Wiltshire",
+    "municipality": "Tidworth",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2366338,
+    "lon": -1.6720974,
+    "address": "Bazaar Road, Mooltan Barracks, Tidworth, Wiltshire, England, SP9 7BU, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/193589883"
+  },
+  {
+    "id": "immigrant_osm_way_173178347",
+    "name": "Bazaar Street",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Salford",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4930006,
+    "lon": -2.2865909,
+    "address": "Bazaar Street, Pendleton, Salford, Greater Manchester, England, M6 6GS, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/173178347"
+  },
+  {
+    "id": "immigrant_osm_way_1210611660",
+    "name": "Bazaar Street",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Glasgow City",
+    "municipality": "Glasgow",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.8537458,
+    "lon": -4.1949737,
+    "address": "Bazaar Street, Parkhead, Glasgow, Glasgow City, Alba / Scotland, G31 5BA, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1210611660"
+  },
+  {
+    "id": "immigrant_osm_node_5897105429",
+    "name": "Carmens Asian Mini Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Conwy",
+    "municipality": "Llandudno",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3206042,
+    "lon": -3.8106278,
+    "address": "Carmens Asian Mini Market, Mostyn Avenue, Craig-y-don, Llandudno, Conwy, Cymru / Wales, LL30 1YU, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5897105429"
+  },
+  {
+    "id": "immigrant_osm_node_3003742932",
+    "name": "Dad's Halal Butcher",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Nottinghamshire",
+    "municipality": "City of Nottingham",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9560955,
+    "lon": -1.1465865,
+    "address": "Dad's Halal Butcher, Victoria Market, Victoria Centre, City of Nottingham, Nottinghamshire, East Midlands, England, NG1 3QB, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3003742932"
+  },
+  {
+    "id": "immigrant_osm_node_11038357161",
+    "name": "Damascus Halal Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4511112,
+    "lon": -0.0166223,
+    "address": "Damascus Halal Market, 385, Lewisham High Street, Ladywell, London Borough of Lewisham, Greater London, England, SE13 6NZ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11038357161"
+  },
+  {
+    "id": "immigrant_osm_way_116925425",
+    "name": "Dum Di Asian Cafe, Bar & BBQ",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "City of Nottingham",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.95427,
+    "lon": -1.1536043,
+    "address": "Dum Di Asian Cafe, Bar & BBQ, 6, Chapel Bar, Hockley, The Park, City of Nottingham, East Midlands, England, NG1 6JQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/116925425"
+  },
+  {
+    "id": "immigrant_osm_node_13260000245",
+    "name": "Elane Asian Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Buckinghamshire",
+    "municipality": "High Wycombe",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6285746,
+    "lon": -0.7552481,
+    "address": "Elane Asian Market, Lily's Walk, Daws Hill, High Wycombe Community Board, High Wycombe, Buckinghamshire, England, HP11 2GE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13260000245"
+  },
+  {
+    "id": "immigrant_osm_node_5735211595",
+    "name": "Elané Asian Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Buckinghamshire",
+    "municipality": "High Wycombe",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6315802,
+    "lon": -0.7608731,
+    "address": "Elané Asian Market, Desborough Road, Castlefield, High Wycombe Community Board, High Wycombe, Buckinghamshire, England, HP11 2RQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5735211595"
+  },
+  {
+    "id": "immigrant_osm_way_343884734",
+    "name": "Former Asian Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "County Antrim",
+    "municipality": "Belfast",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.5838251,
+    "lon": -5.9228135,
+    "address": "Former Asian Market, Agincourt Avenue, The Holyland, Willowfield, The Holyland, Belfast, Belfast City District, County Antrim, Northern Ireland / Tuaisceart Éireann, BT7 1SQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/343884734"
+  },
+  {
+    "id": "immigrant_osm_way_77175985",
+    "name": "Freshly Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Wakefield",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.6831767,
+    "lon": -1.4875166,
+    "address": "Freshly Market, 41, Park Lodge Lane, Eastmoor, Wakefield, West Yorkshire, England, WF1 4NN, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/77175985"
+  },
+  {
+    "id": "immigrant_osm_way_440681905",
+    "name": "Gazi",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "City of London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5775638,
+    "lon": -0.0990945,
+    "address": "Gazi, 385-387, Green Lanes, Harringay, City of London, Greater London, England, N4 1EU, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/440681905"
+  },
+  {
+    "id": "immigrant_osm_node_4339936010",
+    "name": "Halal Meat Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5345316,
+    "lon": 0.0359218,
+    "address": "Halal Meat Market, 397, Green Street, Upton Park, London Borough of Newham, Greater London, England, E13 9AU, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4339936010"
+  },
+  {
+    "id": "immigrant_osm_node_5735211236",
+    "name": "Halal Meat Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Buckinghamshire",
+    "municipality": "High Wycombe",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6325558,
+    "lon": -0.7643479,
+    "address": "Halal Meat Market, 278, Desborough Road, Castlefield, High Wycombe Community Board, High Wycombe, Buckinghamshire, England, HP11 2QR, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5735211236"
+  },
+  {
+    "id": "immigrant_osm_way_1266298894",
+    "name": "Halal Swansea Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Swansea",
+    "municipality": "Swansea",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6185062,
+    "lon": -3.9518336,
+    "address": "Halal Swansea Market, Saint Helen's Road, Mount Pleasant, Castle, Swansea, Cymru / Wales, SA1 4DF, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1266298894"
+  },
+  {
+    "id": "immigrant_osm_way_656778342",
+    "name": "International Food",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Norfolk",
+    "municipality": "Norwich",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6207883,
+    "lon": 1.2994377,
+    "address": "International Food, 5,5a, Hall Road, Lakenham, Norwich, Norfolk, England, NR1 3HQ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/656778342"
+  },
+  {
+    "id": "immigrant_osm_node_7320553329",
+    "name": "International Food",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Lincolnshire",
+    "municipality": "Boston",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9763147,
+    "lon": -0.0304055,
+    "address": "International Food, 97, West Street, Haven Village, Bargate, Staniland, Boston, Lincolnshire, Greater Lincolnshire, England, PE21 8RE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7320553329"
+  },
+  {
+    "id": "immigrant_osm_way_1237099541",
+    "name": "International Food",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Cambridgeshire",
+    "municipality": "Huntingdonshire",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3300763,
+    "lon": -0.1835214,
+    "address": "International Food, All Saints Passage, Newtown, Huntingdon, Huntingdonshire, Cambridgeshire, Cambridgeshire and Peterborough, England, PE29 3LE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1237099541"
+  },
+  {
+    "id": "immigrant_osm_node_11659686971",
+    "name": "International Food",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Suffolk",
+    "municipality": "East Suffolk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.454068,
+    "lon": 1.438172,
+    "address": "International Food, Upper Olland Street, Bungay, East Suffolk, Suffolk, England, NR35 1BE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11659686971"
+  },
+  {
+    "id": "immigrant_osm_node_5465080581",
+    "name": "Kurdistan Halal Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Leeds",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.8088105,
+    "lon": -1.5167396,
+    "address": "Kurdistan Halal Market, 145-147, Harehills Road, Harehills Corner, New Town, Harehills, Leeds, West Yorkshire, England, LS8 5BW, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5465080581"
+  },
+  {
+    "id": "immigrant_osm_way_124100384",
+    "name": "La Mart Asian Supermarket",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "City of Bristol",
+    "municipality": "Bristol",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4590807,
+    "lon": -2.5882682,
+    "address": "La Mart Asian Supermarket, 73, The Horsefair, Stokes Croft, Broadmead, Bristol, City of Bristol, West of England, England, BS1 3EL, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/124100384"
+  },
+  {
+    "id": "immigrant_osm_way_860341500",
+    "name": "Lalbagh Halal Foods Store",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.512849,
+    "lon": -0.015439,
+    "address": "Lalbagh Halal Foods Store, 7, Market Way, Chrisp Street Market, Poplar, London Borough of Tower Hamlets, Greater London, England, E14 6AH, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/860341500"
+  },
+  {
+    "id": "immigrant_osm_node_10212545476",
+    "name": "Middle East Food Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5085338,
+    "lon": -0.2827223,
+    "address": "Middle East Food Market, 383-385, Uxbridge Road, Acton, Greater London, England, W3 9SA, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10212545476"
+  },
+  {
+    "id": "immigrant_osm_node_6222187396",
+    "name": "MK Halal Meat & Seafood Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "City of Milton Keynes",
+    "municipality": "Milton Keynes",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0379569,
+    "lon": -0.7431669,
+    "address": "MK Halal Meat & Seafood Market, 159, Fishermead Boulevard, Fishermead, Campbell Park, Milton Keynes, City of Milton Keynes, England, MK6 2AB, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6222187396"
+  },
+  {
+    "id": "immigrant_osm_way_1319889906",
+    "name": "Oriental Halal Super Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Sandwell",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5205211,
+    "lon": -2.0029786,
+    "address": "Oriental Halal Super Market, 80, Grange Road, Guns Village, West Bromwich, Sandwell, West Midlands, England, B70 8PB, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1319889906"
+  },
+  {
+    "id": "immigrant_osm_node_10095832961",
+    "name": "R&H Halal Meat Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4905232,
+    "lon": 0.0677019,
+    "address": "R&H Halal Meat Market, 10B, Greens End, Callis Yard, Royal Borough of Greenwich, Greater London, England, SE18 6HX, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10095832961"
+  },
+  {
+    "id": "immigrant_osm_way_133021279",
+    "name": "Royal Halal Meat & Bakery",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Derby",
+    "municipality": "Derby",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9087433,
+    "lon": -1.4790626,
+    "address": "Royal Halal Meat & Bakery, 4, Pear Tree Road, Rose Hill, New Normanton, Derby, East Midlands, England, DE23 6PY, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/133021279"
+  },
+  {
+    "id": "immigrant_osm_way_173085296",
+    "name": "Singapore Asian Store Ltd.",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Swindon",
+    "municipality": "Swindon",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5599331,
+    "lon": -1.7867273,
+    "address": "Singapore Asian Store Ltd., 2, Market Street, Railway Village, Town Centre, South Swindon, Swindon, England, SN1 1RZ, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/173085296"
+  },
+  {
+    "id": "immigrant_osm_way_491398536",
+    "name": "Starry Asian Market (UK) Ltd",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Essex",
+    "municipality": "Colchester",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8716932,
+    "lon": 0.9250828,
+    "address": "Starry Asian Market (UK) Ltd, 253-255, Old Heath Road, Old Heath, Colchester, Essex, England, CO2 8BN, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/491398536"
+  },
+  {
+    "id": "immigrant_osm_way_1020219967",
+    "name": "Sturry Road Asian Food Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Kent",
+    "municipality": "Canterbury",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2911554,
+    "lon": 1.1024617,
+    "address": "Sturry Road Asian Food Market, 254, Sturry Road, Barracks, Canterbury, Kent, England, CT1 1DT, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1020219967"
+  },
+  {
+    "id": "immigrant_osm_node_11408474242",
+    "name": "Tachbrook Halal",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "City of London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4922861,
+    "lon": -0.1388584,
+    "address": "Tachbrook Halal, 38, Tachbrook Street Market, Tachbrook Estate, Pimlico, City of London, Greater London, England, SW1V 2JS, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11408474242"
+  },
+  {
+    "id": "immigrant_osm_node_9227321920",
+    "name": "Thai and Asian Delish",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Cardiff",
+    "municipality": "Cardiff",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4800866,
+    "lon": -3.1790085,
+    "address": "Thai and Asian Delish, Cardiff Market, Cardiff Central Market, Castle Quarter, Castle, Cardiff, Cymru / Wales, CF10 1AU, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9227321920"
+  },
+  {
+    "id": "immigrant_osm_way_137685577",
+    "name": "Traditional Turkish Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Brighton and Hove",
+    "municipality": "Brighton",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8207267,
+    "lon": -0.1326678,
+    "address": "Traditional Turkish Market, 38B, St. James's Street, Kemptown, Brighton, Brighton and Hove, England, BN2 1RG, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/137685577"
+  },
+  {
+    "id": "immigrant_osm_way_251407297",
+    "name": "Wembley Halal Meat, Cash & Carry, Mini Market, Fruit & Veg",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Greater London",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5519982,
+    "lon": -0.2978833,
+    "address": "Wembley Halal Meat, Cash & Carry, Mini Market, Fruit & Veg, Curtis Lane, Sudbury, London Borough of Brent, Greater London, England, HA0 4FW, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/251407297"
+  },
+  {
+    "id": "immigrant_osm_node_6568299049",
+    "name": "Win Asian Mini Market",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "Norfolk",
+    "municipality": "Norwich",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6288315,
+    "lon": 1.2950888,
+    "address": "Win Asian Mini Market, 11, Castle Meadow, Heigham Grove, Norwich, Norfolk, England, NR1 3DE, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6568299049"
+  },
+  {
+    "id": "immigrant_osm_node_3049178242",
+    "name": "World Food",
+    "country": "Storbritannia",
+    "countryCode": "GB",
+    "region": "England",
+    "municipality": "Coventry",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4095283,
+    "lon": -1.5080501,
+    "address": "World Food, Hillfields, Coventry, West Midlands, England, CV1 5SR, United Kingdom",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3049178242"
+  }
+]

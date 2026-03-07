@@ -1,0 +1,776 @@
+[
+  {
+    "id": "immigrant_osm_node_3887679861",
+    "name": "Africa Mix",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Benfica",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.7504455,
+    "lon": -9.20607,
+    "address": "Mercado de Benfica Loja 18, 1500, Benfica",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3887679861"
+  },
+  {
+    "id": "immigrant_osm_node_3915251686",
+    "name": "Amanhecer - Supermercado Oriental",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amanhecer.pt/lojas/supermercado-oriental/",
+    "lat": 38.7159818,
+    "lon": -9.1369469,
+    "address": "Rua da Palma 41A, 1100-390, Lisboa",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3915251686"
+  },
+  {
+    "id": "immigrant_osm_node_13120015244",
+    "name": "Asia Bazar",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6825483,
+    "lon": -9.1528895,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13120015244"
+  },
+  {
+    "id": "immigrant_osm_node_7107455836",
+    "name": "Asian minimercado",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.656368,
+    "lon": -8.7760726,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7107455836"
+  },
+  {
+    "id": "immigrant_osm_node_11874374516",
+    "name": "Asian Minimercado e Frutaria e Copiar",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.7589592,
+    "lon": -9.2320275,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11874374516"
+  },
+  {
+    "id": "immigrant_osm_node_13512697927",
+    "name": "Bangla Bazar - Indian Cash & Carry",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Porto",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.144145,
+    "lon": -8.6092794,
+    "address": "Rua do Cativo 8, 4000-160, Porto",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13512697927"
+  },
+  {
+    "id": "immigrant_osm_node_12663218503",
+    "name": "Bazar Aurea",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.4444359,
+    "lon": -9.1012256,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12663218503"
+  },
+  {
+    "id": "immigrant_osm_node_8251860410",
+    "name": "Bazar BIBI",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.171559,
+    "lon": -8.6655958,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8251860410"
+  },
+  {
+    "id": "immigrant_osm_node_4696403118",
+    "name": "Bazar Bom Sucesso",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Funchal",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 32.6588635,
+    "lon": -16.895677,
+    "address": "Estrada da Boa Nova 11C, Funchal",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4696403118"
+  },
+  {
+    "id": "immigrant_osm_node_1581851436",
+    "name": "Bazar Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.5389842,
+    "lon": -8.8952652,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1581851436"
+  },
+  {
+    "id": "immigrant_osm_node_1799559344",
+    "name": "Bazar chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6402686,
+    "lon": -8.7468589,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1799559344"
+  },
+  {
+    "id": "immigrant_osm_node_12001644818",
+    "name": "Bazar Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.4620333,
+    "lon": -9.1025832,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12001644818"
+  },
+  {
+    "id": "immigrant_osm_node_12108808972",
+    "name": "Bazar Chinês \"Abundante\"",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6748224,
+    "lon": -9.1617258,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12108808972"
+  },
+  {
+    "id": "immigrant_osm_node_11244278577",
+    "name": "Bazar Chinês Liu",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.4630142,
+    "lon": -9.1010888,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11244278577"
+  },
+  {
+    "id": "immigrant_osm_node_2402672573",
+    "name": "Bazar da Lena",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.5991487,
+    "lon": -9.0944396,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2402672573"
+  },
+  {
+    "id": "immigrant_osm_node_1930252667",
+    "name": "Bazar da Ponte",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.8084043,
+    "lon": -8.4203733,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1930252667"
+  },
+  {
+    "id": "immigrant_osm_node_6196587079",
+    "name": "Bazar de Caldelas",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Caldelas",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.6680782,
+    "lon": -8.3739457,
+    "address": "Avenida Afonso Manuel, 4720, Caldelas",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6196587079"
+  },
+  {
+    "id": "immigrant_osm_node_1487235293",
+    "name": "Bazar do Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.1159285,
+    "lon": -8.6062681,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1487235293"
+  },
+  {
+    "id": "immigrant_osm_node_1487235296",
+    "name": "Bazar do Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.117533,
+    "lon": -8.6061581,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1487235296"
+  },
+  {
+    "id": "immigrant_osm_node_1487239238",
+    "name": "Bazar do Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.1164652,
+    "lon": -8.6077166,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1487239238"
+  },
+  {
+    "id": "immigrant_osm_node_1487261830",
+    "name": "Bazar do Chinês",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.1213088,
+    "lon": -8.6063468,
+    "address": "Avenida da República",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1487261830"
+  },
+  {
+    "id": "immigrant_osm_node_3721683865",
+    "name": "Bazar do Jardin",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Funchal",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 32.662345,
+    "lon": -16.8939741,
+    "address": "Funchal",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3721683865"
+  },
+  {
+    "id": "immigrant_osm_node_11478643246",
+    "name": "Bazar Do Tiago",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 32.6693707,
+    "lon": -16.9772802,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11478643246"
+  },
+  {
+    "id": "immigrant_osm_node_12314225233",
+    "name": "Bazar Económico",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Penha de França",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.7325872,
+    "lon": -9.1296378,
+    "address": "Rua Morais Soares 66C, Penha de França",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12314225233"
+  },
+  {
+    "id": "immigrant_osm_node_3891282094",
+    "name": "Bazar Mabril",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Porto",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.1488302,
+    "lon": -8.606252,
+    "address": "Rua de Santa Catarina 299, Porto",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3891282094"
+  },
+  {
+    "id": "immigrant_osm_node_3883374298",
+    "name": "Bazar Pragal",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6742803,
+    "lon": -9.1674036,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3883374298"
+  },
+  {
+    "id": "immigrant_osm_node_11480675514",
+    "name": "Bazar São Bento e São José",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 32.6709935,
+    "lon": -17.0652448,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11480675514"
+  },
+  {
+    "id": "immigrant_osm_node_5732599832",
+    "name": "Bazar Veneza",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.0870721,
+    "lon": -7.7830792,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5732599832"
+  },
+  {
+    "id": "immigrant_osm_node_6436617098",
+    "name": "Casa Africana",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6666643,
+    "lon": -9.1831014,
+    "address": "Rua da Bela Vista 9A",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6436617098"
+  },
+  {
+    "id": "immigrant_osm_node_9858718916",
+    "name": "Daily Bazaar",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Lisboa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.7162836,
+    "lon": -9.1342163,
+    "address": "Rua dos Cavaleiros 65, Lisboa",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9858718916"
+  },
+  {
+    "id": "immigrant_osm_node_11188702750",
+    "name": "Euro Bazar",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6772755,
+    "lon": -9.1625579,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11188702750"
+  },
+  {
+    "id": "immigrant_osm_node_10272387801",
+    "name": "Family Bazar Almada",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6758563,
+    "lon": -9.1553903,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10272387801"
+  },
+  {
+    "id": "immigrant_osm_node_1932443736",
+    "name": "Global Food Store",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Estoril",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.glood.pt/",
+    "lat": 38.7052561,
+    "lon": -9.3868671,
+    "address": "Avenida Gago Coutinho 53, 2765-324, Estoril",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1932443736"
+  },
+  {
+    "id": "immigrant_osm_node_4595581959",
+    "name": "Glood - Global Food Store",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.glood.pt/",
+    "lat": 38.7504048,
+    "lon": -9.2050523,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4595581959"
+  },
+  {
+    "id": "immigrant_osm_node_6439346500",
+    "name": "Good Africa",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Laranjeiro e Feijó",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6537965,
+    "lon": -9.1531134,
+    "address": "Rua dos Eucaliptos 42, Laranjeiro e Feijó",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6439346500"
+  },
+  {
+    "id": "immigrant_osm_node_13512697930",
+    "name": "Halal Bangla Super Shop",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Porto",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.1441753,
+    "lon": -8.609132,
+    "address": "Rua do Cativo 18;20, Porto",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13512697930"
+  },
+  {
+    "id": "immigrant_osm_node_13249725626",
+    "name": "Kashmir Bazaar - Pakistan & Indian Spices",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Vila Nova de Famalicao",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.4103112,
+    "lon": -8.5178885,
+    "address": "Rua António Carvalho Faria 88, 4760-121, Vila Nova de Famalicao",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13249725626"
+  },
+  {
+    "id": "immigrant_osm_node_13358288001",
+    "name": "Lingai Asian Supermarket",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.1379041,
+    "lon": -8.5367145,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13358288001"
+  },
+  {
+    "id": "immigrant_osm_node_11826574923",
+    "name": "Loja Africana Tucha",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.8162506,
+    "lon": -9.1196568,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11826574923"
+  },
+  {
+    "id": "immigrant_osm_node_11881549281",
+    "name": "Mini Bazar & Frutaria, Areeiro",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Areeiro",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.742968,
+    "lon": -9.1334379,
+    "address": "Avenida Padre Manuel da Nóbrega 2, 1000-224, Areeiro",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11881549281"
+  },
+  {
+    "id": "immigrant_osm_node_13512697907",
+    "name": "Oriental Bazar - Mercearia",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Porto",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://oriental-bazaar.com/",
+    "lat": 41.1439489,
+    "lon": -8.6082095,
+    "address": "Rua da Porta do Sol 25, Porto",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13512697907"
+  },
+  {
+    "id": "immigrant_osm_node_13512697906",
+    "name": "Oriental Bazar - Vegetais",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Porto",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://oriental-bazaar.com/",
+    "lat": 41.1441094,
+    "lon": -8.6080435,
+    "address": "Rua da Porta do Sol 33, Porto",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13512697906"
+  },
+  {
+    "id": "immigrant_osm_node_6441327368",
+    "name": "XL Frutaria e Mini Bazar",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "region": null,
+    "municipality": "Trafaria",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.6718577,
+    "lon": -9.2336672,
+    "address": "Largo da República 31, 2825-886, Trafaria",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6441327368"
+  }
+]

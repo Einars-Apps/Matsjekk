@@ -1,0 +1,236 @@
+[
+  {
+    "id": "immigrant_osm_node_12339551371",
+    "name": "16de eeuw: eten uit de hele wereld - 16e siècle : des denrées venues des quatre coins du monde - 16th century: food from around the world - 16. Jahrhundert: Essen aus aller Welt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Halle-Vilvoorde",
+    "municipality": "Meise",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9316622,
+    "lon": 4.3307742,
+    "address": "16de eeuw: eten uit de hele wereld - 16e siècle : des denrées venues des quatre coins du monde - 16th century: food from around the world - 16. Jahrhundert: Essen aus aller Welt, Brusselsesteenweg, Meise, Halle-Vilvoorde, Vlaams-Brabant, Vlaanderen, 1860, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12339551371"
+  },
+  {
+    "id": "immigrant_osm_node_6377523350",
+    "name": "Bar Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Sint-Niklaas",
+    "municipality": "Lokeren",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1044699,
+    "lon": 3.9902128,
+    "address": "Bar Bazaar, Markt, Den Dam, Lokeren, Sint-Niklaas, Oost-Vlaanderen, 9160, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6377523350"
+  },
+  {
+    "id": "immigrant_osm_node_11734945055",
+    "name": "Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Brussel-Hoofdstad - Bruxelles-Capitale",
+    "municipality": "Bruxelles - Brussel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8376007,
+    "lon": 4.3484965,
+    "address": "Bazaar, Rue des Capucins - Kapucijnenstraat, Marolles - Marollen, Pentagone - Vijfhoek, Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1000, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11734945055"
+  },
+  {
+    "id": "immigrant_osm_node_6688491612",
+    "name": "Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Turnhout",
+    "municipality": "Retie",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.268138,
+    "lon": 5.0861453,
+    "address": "Bazaar, Kerkhofstraat, Retie, Turnhout, Antwerpen, Vlaanderen, 2470, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6688491612"
+  },
+  {
+    "id": "immigrant_osm_node_9810449612",
+    "name": "Bazaar Trottoir",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Brussel-Hoofdstad - Bruxelles-Capitale",
+    "municipality": "Bruxelles - Brussel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.85349,
+    "lon": 4.3497293,
+    "address": "Bazaar Trottoir, Rue du Grand Hospice - Grootgodshuisstraat, Quartier des Quais - Kaaienwijk, Pentagone - Vijfhoek, Bruxelles - Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1000, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9810449612"
+  },
+  {
+    "id": "immigrant_osm_node_6283897186",
+    "name": "Café Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Antwerpen",
+    "municipality": "Antwerpen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2033148,
+    "lon": 4.4279739,
+    "address": "Café Bazaar, Lange Leemstraat, Haringrode, Antwerpen, Vlaanderen, 2018, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6283897186"
+  },
+  {
+    "id": "immigrant_osm_node_4217753472",
+    "name": "De Grand Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Halle-Vilvoorde",
+    "municipality": "Vilvoorde",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9279601,
+    "lon": 4.4273254,
+    "address": "De Grand Bazaar, Leuvensestraat, Vilvoorde, Halle-Vilvoorde, Vlaams-Brabant, Vlaanderen, 1800, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4217753472"
+  },
+  {
+    "id": "immigrant_osm_node_11032350984",
+    "name": "Euro Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "La Louvière",
+    "municipality": "La Louvière",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4762376,
+    "lon": 4.1861361,
+    "address": "Euro Bazaar, Rue Paul Leduc, Pont de l'Olive, La Louvière, Hainaut, Wallonie, 7100, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11032350984"
+  },
+  {
+    "id": "immigrant_osm_way_372941577",
+    "name": "Kaffee Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Ieper",
+    "municipality": "Ieper",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8499885,
+    "lon": 2.8851115,
+    "address": "Kaffee Bazaar, 9, Boomgaardstraat, Ieper, West-Vlaanderen, Vlaanderen, 8900, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/372941577"
+  },
+  {
+    "id": "immigrant_osm_node_10805523300",
+    "name": "Mali Asian Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Kortrijk",
+    "municipality": "Kortrijk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8399024,
+    "lon": 3.2637388,
+    "address": "Mali Asian Market, 161, Brugsesteenweg, Kortrijk, West-Vlaanderen, Vlaanderen, 8500, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10805523300"
+  },
+  {
+    "id": "immigrant_osm_node_12110023101",
+    "name": "Spice Bazaar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Antwerpen",
+    "municipality": "Antwerpen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2197694,
+    "lon": 4.4008768,
+    "address": "Spice Bazaar, 14, Groenplaats, Historisch Centrum, Antwerpen, Vlaanderen, 2000, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12110023101"
+  },
+  {
+    "id": "immigrant_osm_node_4434127375",
+    "name": "Suji Asian Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Antwerpen",
+    "municipality": "Antwerpen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1986365,
+    "lon": 4.4275871,
+    "address": "Suji Asian Market, 105, Statiestraat, Oud-Berchem, Berchem, Antwerpen, Vlaanderen, 2600, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4434127375"
+  },
+  {
+    "id": "immigrant_osm_node_3219455674",
+    "name": "Zaytouna Market Halal",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": "Leuven",
+    "municipality": "Leuven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8831451,
+    "lon": 4.7064564,
+    "address": "Zaytouna Market Halal, 84, Jan-Pieter Minckelersstraat, Sint-Maartensdal, Leuven, Vlaams-Brabant, Vlaanderen, 3000, België / Belgique / Belgien",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3219455674"
+  }
+]
