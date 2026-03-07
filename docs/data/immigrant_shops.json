@@ -17,6 +17,23 @@
     "source": "https://www.openstreetmap.org/node/9133367060"
   },
   {
+    "id": "immigrant_manual_a_food_market",
+    "name": "A Food Market",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9164774,
+    "lon": 10.754062,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4343892492"
+  },
+  {
     "id": "immigrant_osm_node_7702468233",
     "name": "Al-Mostafa Asian Food",
     "country": "Norway",
@@ -49,6 +66,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/11065947091"
+  },
+  {
+    "id": "immigrant_manual_all_in_one",
+    "name": "All In One",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9132334,
+    "lon": 10.7653029,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3650497113"
   },
   {
     "id": "immigrant_osm_node_7434439434",
@@ -425,6 +459,23 @@
     "source": "https://www.openstreetmap.org/node/4630212292"
   },
   {
+    "id": "immigrant_manual_chili_dagligvarer",
+    "name": "Chili dagligvarer",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9283532,
+    "lon": 10.7608199,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2364176930"
+  },
+  {
     "id": "immigrant_osm_node_3118823241",
     "name": "Daniel Asiabutikk",
     "country": "Norway",
@@ -457,6 +508,40 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/2351840801"
+  },
+  {
+    "id": "immigrant_manual_easy_lavpris_gronland",
+    "name": "Easy Lavpris Gronland",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.91234,
+    "lon": 10.763925,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2622716030"
+  },
+  {
+    "id": "immigrant_manual_elma",
+    "name": "Elma",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9193471,
+    "lon": 10.7624064,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5091617746"
   },
   {
     "id": "immigrant_osm_node_6861974670",
@@ -561,6 +646,23 @@
     "source": "https://www.openstreetmap.org/node/3679328228"
   },
   {
+    "id": "immigrant_manual_gronlands_torg_frukt_gront",
+    "name": "Gronlands Torg Frukt & Gront",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.91262,
+    "lon": 10.759127,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1749088463"
+  },
+  {
     "id": "immigrant_osm_node_2813795390",
     "name": "Hoang Asia Mat",
     "country": "Norway",
@@ -646,6 +748,23 @@
     "source": "https://www.openstreetmap.org/node/2836197338"
   },
   {
+    "id": "immigrant_manual_istanbul",
+    "name": "Istanbul",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.8476584,
+    "lon": 10.8041906,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3666621787"
+  },
+  {
     "id": "immigrant_osm_way_499380580",
     "name": "Jess Bazaar",
     "country": "Norway",
@@ -661,6 +780,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/way/499380580"
+  },
+  {
+    "id": "immigrant_manual_jood_dagligvare",
+    "name": "Jood dagligvare",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9378481,
+    "lon": 10.7317499,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5099558121"
   },
   {
     "id": "immigrant_osm_node_7996609005",
@@ -731,6 +867,23 @@
     "source": "https://www.openstreetmap.org/node/10616577706"
   },
   {
+    "id": "immigrant_manual_marmaris_dagligvare",
+    "name": "Marmaris Dagligvare",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.929103,
+    "lon": 10.767308,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2361432405"
+  },
+  {
     "id": "immigrant_osm_node_13431310702",
     "name": "My Grønnsaker og Asiatiske Gai Thi Nguyen",
     "country": "Norway",
@@ -763,6 +916,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/7070302520"
+  },
+  {
+    "id": "immigrant_manual_nye_pakstar",
+    "name": "Nye pakstar",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.914328,
+    "lon": 10.763331,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4589703068"
   },
   {
     "id": "immigrant_osm_node_3124188106",
@@ -814,6 +984,40 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/5453565761"
+  },
+  {
+    "id": "immigrant_manual_papaya_frukt_gront_as",
+    "name": "Papaya Frukt & Gront AS",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9551852,
+    "lon": 10.7852672,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2740178582"
+  },
+  {
+    "id": "immigrant_manual_pasha_frukt_og_gront",
+    "name": "Pasha Frukt og Gront",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9638171,
+    "lon": 10.892464,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6699369415"
   },
   {
     "id": "immigrant_osm_node_3096378525",
@@ -986,6 +1190,23 @@
     "source": "https://www.openstreetmap.org/node/7340698485"
   },
   {
+    "id": "immigrant_manual_tayyib_halal_mat",
+    "name": "Tayyib Halal Mat",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.9132123,
+    "lon": 10.7604273,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5592979339"
+  },
+  {
     "id": "immigrant_osm_node_12759115259",
     "name": "Tida Asia Marked",
     "country": "Norway",
@@ -1035,5 +1256,22 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/3125994010"
+  },
+  {
+    "id": "immigrant_manual_vart_marked",
+    "name": "Vart Marked",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Oslo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.962489,
+    "lon": 10.922521,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3682978409"
   }
 ]

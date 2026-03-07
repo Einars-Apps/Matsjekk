@@ -177,6 +177,43 @@ def add_manual_asker_items(items):
         )
 
 
+def add_manual_oslo_items(items):
+    manual = [
+        ("Gronlands Torg Frukt & Gront", 59.9126200, 10.7591270, "https://www.openstreetmap.org/node/1749088463"),
+        ("Marmaris Dagligvare", 59.9291030, 10.7673080, "https://www.openstreetmap.org/node/2361432405"),
+        ("Chili dagligvarer", 59.9283532, 10.7608199, "https://www.openstreetmap.org/node/2364176930"),
+        ("Easy Lavpris Gronland", 59.9123400, 10.7639250, "https://www.openstreetmap.org/node/2622716030"),
+        ("Papaya Frukt & Gront AS", 59.9551852, 10.7852672, "https://www.openstreetmap.org/node/2740178582"),
+        ("All In One", 59.9132334, 10.7653029, "https://www.openstreetmap.org/node/3650497113"),
+        ("Istanbul", 59.8476584, 10.8041906, "https://www.openstreetmap.org/node/3666621787"),
+        ("Vart Marked", 59.9624890, 10.9225210, "https://www.openstreetmap.org/node/3682978409"),
+        ("A Food Market", 59.9164774, 10.7540620, "https://www.openstreetmap.org/node/4343892492"),
+        ("Nye pakstar", 59.9143280, 10.7633310, "https://www.openstreetmap.org/node/4589703068"),
+        ("Elma", 59.9193471, 10.7624064, "https://www.openstreetmap.org/node/5091617746"),
+        ("Jood dagligvare", 59.9378481, 10.7317499, "https://www.openstreetmap.org/node/5099558121"),
+        ("Tayyib Halal Mat", 59.9132123, 10.7604273, "https://www.openstreetmap.org/node/5592979339"),
+        ("Pasha Frukt og Gront", 59.9638171, 10.8924640, "https://www.openstreetmap.org/node/6699369415"),
+    ]
+
+    for name, lat, lon, source_url in manual:
+        items.append(
+            {
+                "id": f"immigrant_manual_{name.lower().replace(' ', '_')}",
+                "name": name,
+                "country": "Norway",
+                "region": "Oslo",
+                "municipality": "Oslo",
+                "products": ["International food", "Imported goods"],
+                "website": None,
+                "lat": lat,
+                "lon": lon,
+                "address": None,
+                "category": "Innvandrerbutikk",
+                "source": source_url,
+            }
+        )
+
+
 def add_verified_chain_seeds(items):
     if not CHAIN_SEED_FILE.exists():
         return
@@ -300,6 +337,7 @@ def main():
             items.append(item)
 
     add_manual_asker_items(items)
+    add_manual_oslo_items(items)
     add_verified_chain_seeds(items)
     items = dedupe(items)
     fill_missing_admin_fields(items)
