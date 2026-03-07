@@ -104,6 +104,48 @@ NOMINATIM_QUERIES = [
     "turkish market",
 ]
 
+LOCAL_NOMINATIM_QUERIES_BY_COUNTRY = {
+    "FR": ["epicerie du monde", "epicerie orientale", "epicerie asiatique", "marche halal"],
+    "ES": ["tienda halal", "supermercado arabe", "alimentacion internacional", "bazar asiatico"],
+    "IT": ["alimentari etnici", "negozio halal", "supermercato etnico", "market asiatico"],
+    "DE": ["orientalischer laden", "asiatischer supermarkt", "halal markt", "internationaler supermarkt"],
+    "AT": ["orientalischer laden", "halal markt", "asiatischer supermarkt"],
+    "CH": ["orientalischer laden", "halal markt", "asiatischer supermarkt", "epicerie orientale"],
+    "PL": ["sklep orientalny", "sklep halal", "market azjatycki", "sklep miedzynarodowy"],
+    "CZ": ["halal obchod", "asijska prodejna", "mezinarodni potraviny"],
+    "SK": ["halal obchod", "azijska predajna", "medzinarodne potraviny"],
+    "HU": ["halal bolt", "azsiai bolt", "nemzetkozi elelmiszer"],
+    "RO": ["magazin halal", "magazin asiatic", "alimentara internationala"],
+    "BG": ["halal market", "asian food store", "international food store"],
+    "GR": ["halal market", "asian market", "international food"],
+    "HR": ["halal trgovina", "azijska trgovina", "medunarodna hrana"],
+    "SI": ["halal trgovina", "azijska trgovina", "mednarodna hrana"],
+    "EE": ["halal pood", "aasia pood", "rahvusvaheline toidupood"],
+    "LV": ["halal veikals", "azijas veikals", "starptautisks partikas veikals"],
+    "LT": ["halal parduotuve", "azijos parduotuve", "tarptautine maisto parduotuve"],
+    "IS": ["halal market", "asian market", "international food"],
+    "MT": ["halal shop", "asian shop", "international food"],
+    "CY": ["halal market", "asian market", "international food"],
+    "AL": ["halal market", "asian market", "international food"],
+    "BA": ["halal market", "asian market", "international food"],
+    "ME": ["halal market", "asian market", "international food"],
+    "MK": ["halal market", "asian market", "international food"],
+    "RS": ["halal market", "asian market", "international food"],
+    "MD": ["magazin halal", "magazin asiatic", "alimentara internationala"],
+    "UA": ["halal market", "asian market", "international food"],
+    "BE": ["epicerie orientale", "halal market", "aziatische supermarkt"],
+    "NL": ["halal supermarkt", "aziatische supermarkt", "internationale supermarkt"],
+    "PT": ["mercearia internacional", "mercado halal", "supermercado asiatico"],
+    "GB": ["ethnic supermarket", "halal grocery", "asian supermarket"],
+    "IE": ["ethnic supermarket", "halal grocery", "asian supermarket"],
+    "LU": ["epicerie orientale", "halal market", "asiatischer supermarkt"],
+    "SE": ["halal butik", "asiatisk butik", "internationell livsmedel"],
+    "DK": ["halal butik", "asiatisk butik", "international mad butik"],
+    "FI": ["halal kauppa", "aasialainen kauppa", "kansainvalinen ruokakauppa"],
+}
+
+FALLBACK_THRESHOLD = 25
+
 
 def _keyword_regex() -> str:
     return "|".join(KEYWORDS)
@@ -240,9 +282,31 @@ def dedupe_nominatim(rows):
     return out
 
 
-def fetch_nominatim_candidates(country_code: str):
+def build_nominatim_queries(country_code: str, country_label: str):
+    queries = list(NOMINATIM_QUERIES)
+    queries.extend(LOCAL_NOMINATIM_QUERIES_BY_COUNTRY.get(country_code, []))
+    if country_label:
+        queries.extend([
+            f"halal market {country_label}",
+            f"asian market {country_label}",
+            f"international food {country_label}",
+        ])
+
+    # Deduplicate while preserving order.
+    seen = set()
+    out = []
+    for query in queries:
+        key = query.strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(query)
+    return out
+
+
+def fetch_nominatim_candidates(country_code: str, country_label: str):
     all_rows = []
-    for query in NOMINATIM_QUERIES:
+    for query in build_nominatim_queries(country_code, country_label):
         try:
             response = requests.get(
                 "https://nominatim.openstreetmap.org/search",
@@ -250,7 +314,7 @@ def fetch_nominatim_candidates(country_code: str):
                     "format": "jsonv2",
                     "countrycodes": country_code.lower(),
                     "addressdetails": 1,
-                    "limit": 120,
+                    "limit": 80,
                     "dedupe": 1,
                     "q": query,
                 },
@@ -327,6 +391,28 @@ def write_country_file(country_code: str, items):
     return out_file
 
 
+def maybe_preserve_existing(country_code: str, candidate_items):
+    existing_path = BY_COUNTRY_DIR / f"{country_code.lower()}.json"
+    if not existing_path.exists():
+        return candidate_items, "ok"
+
+    try:
+        existing = json.loads(existing_path.read_text(encoding="utf-8"))
+        existing_items = existing if isinstance(existing, list) else []
+    except Exception:  # noqa: BLE001
+        return candidate_items, "ok"
+
+    new_count = len(candidate_items)
+    existing_count = len(existing_items)
+    if existing_count >= 20 and new_count < int(existing_count * 0.75):
+        print(
+            f"[{country_code}] preserving existing dataset ({existing_count}) over lower regenerated count ({new_count})"
+        )
+        return existing_items, "kept_existing_higher_count"
+
+    return candidate_items, "ok"
+
+
 def main():
     summary = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
@@ -344,8 +430,8 @@ def main():
             if item:
                 items.append(item)
 
-        if len(items) < 10:
-            fallback_rows = fetch_nominatim_candidates(country_code)
+        if len(items) < FALLBACK_THRESHOLD:
+            fallback_rows = fetch_nominatim_candidates(country_code, country_label)
             for row in fallback_rows:
                 item = to_item_from_nominatim(row, country_code, country_label)
                 if item:
@@ -353,9 +439,10 @@ def main():
 
         items = dedupe(items)
         items = sorted(items, key=lambda row: (row.get("name") or "").lower())
+        items, status = maybe_preserve_existing(country_code, items)
         out_file = write_country_file(country_code, items)
         print(f"[{country_code}] wrote {len(items)} shops -> {out_file}")
-        summary["countries"][country_code] = {"count": len(items), "status": "ok"}
+        summary["countries"][country_code] = {"count": len(items), "status": status}
 
     INDEX_FILE.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Wrote index -> {INDEX_FILE}")

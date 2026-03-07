@@ -108,6 +108,78 @@
     "source": "https://www.openstreetmap.org/node/13136784259"
   },
   {
+    "id": "immigrant_osm_node_12237413217",
+    "name": "Bazaar Budapest",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.497934,
+    "lon": 19.0606479,
+    "address": "Bazaar Budapest, 18, Dob utca, Erzsébetváros, VII. kerület, Budapest, Közép-Magyarország, 1072, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12237413217"
+  },
+  {
+    "id": "immigrant_osm_node_13343004346",
+    "name": "Bazaar klub",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": "Tolna vármegye",
+    "municipality": "Szekszárd",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3509915,
+    "lon": 18.7014435,
+    "address": "Bazaar klub, Széchenyi utca, Bottyánhegy, Szekszárd, Szekszárdi járás, Tolna vármegye, Dél-Dunántúl, Dunántúl, 7100, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13343004346"
+  },
+  {
+    "id": "immigrant_osm_node_4424583792",
+    "name": "Bazaar Laundry",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4956774,
+    "lon": 19.0630113,
+    "address": "Bazaar Laundry, 22-24, Dohány utca, Erzsébetváros, VII. kerület, Budapest, Közép-Magyarország, 1074, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4424583792"
+  },
+  {
+    "id": "immigrant_osm_node_10081814545",
+    "name": "CULT Hair & Bazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5015111,
+    "lon": 19.0602224,
+    "address": "CULT Hair & Bazaar, Vasvári Pál utca, Terézváros, VI. kerület, Budapest, Közép-Magyarország, 1061, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10081814545"
+  },
+  {
     "id": "immigrant_osm_node_10695139502",
     "name": "Garaboly",
     "country": "Ungarn",
@@ -268,5 +340,23 @@
     "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/13126755466"
+  },
+  {
+    "id": "immigrant_osm_node_3824430704",
+    "name": "Vivien's Bazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4908443,
+    "lon": 19.0525848,
+    "address": "Vivien's Bazaar, 1, Irányi utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1056, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3824430704"
   }
 ]

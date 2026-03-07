@@ -16,5 +16,23 @@
     "address": "Hotel Old Bazaar, 105, Кавтанџиска, Дуќанџик, Чаир, Скопје, Општина Чаир, Град Скопје, 1000, Северна Македонија",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/way/474869852"
+  },
+  {
+    "id": "immigrant_osm_node_4708713692",
+    "name": "Top bazar kocani",
+    "country": "Nord-Makedonia",
+    "countryCode": "MK",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.9035531,
+    "lon": 22.3865111,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4708713692"
   }
 ]

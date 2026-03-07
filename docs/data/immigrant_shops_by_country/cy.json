@@ -1,11 +1,47 @@
 [
   {
+    "id": "immigrant_osm_node_11089268947",
+    "name": "Asia kiosk",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.7814786,
+    "lon": 32.4277917,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11089268947"
+  },
+  {
+    "id": "immigrant_osm_way_535318655",
+    "name": "Asia Mini Market",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.9106166,
+    "lon": 33.6369457,
+    "address": "Buyuk Cami",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/535318655"
+  },
+  {
     "id": "immigrant_osm_node_13390959440",
     "name": "Asian Discount Market",
     "country": "Kypros",
     "countryCode": "CY",
-    "region": "Δήμος Λευκωσίας",
-    "municipality": "Λευκωσία",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
@@ -13,7 +49,7 @@
     "website": null,
     "lat": 35.1729474,
     "lon": 33.3580513,
-    "address": "Asian Discount Market, Αρσινόης, Αγιος Ανδρέας, Agios Andreas, Άγιοι Ομολογητές, Λευκωσία, Δήμος Λευκωσίας, Επαρχία Λευκωσίας, Κύπρος, 1513, Κύπρος - Kıbrıs",
+    "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/13390959440"
   },
@@ -36,6 +72,24 @@
     "source": "https://www.openstreetmap.org/node/5220520476"
   },
   {
+    "id": "immigrant_osm_node_7118881585",
+    "name": "Aspasia Georgiou",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.9209911,
+    "lon": 32.4763342,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7118881585"
+  },
+  {
     "id": "immigrant_osm_node_4407046389",
     "name": "Bazaar",
     "country": "Kypros",
@@ -49,7 +103,7 @@
     "website": null,
     "lat": 34.6742816,
     "lon": 33.0458134,
-    "address": "Bazaar, Spyrou Araouzou, Ιστορικό Κέντρο, Αγία Νάπα, Τζαμί Τζεντίτ, Λεμεσός, Δήμος Λεμεσού, Επαρχία Λεμεσού, Κύπρος, 3604, Κύπρος - Kıbrıs",
+    "address": "Bazaar, Spyrou Araouzou, Ιστορικό Κέντρο, Αγία Νάπα, Καθολική, Λεμεσός, Δήμος Λεμεσού, Επαρχία Λεμεσού, Κύπρος, 3604, Κύπρος - Kıbrıs",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/4407046389"
   },
@@ -70,6 +124,24 @@
     "address": "Bazaar Every Day, Κυριάκου Μάτση, Agios Georgios, Έγκωμη, Δήμος Λευκωσίας, Επαρχία Λευκωσίας, Κύπρος, 2369, Κύπρος - Kıbrıs",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/5192088438"
+  },
+  {
+    "id": "immigrant_osm_node_13376017074",
+    "name": "Boss International Supermarket",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.6834435,
+    "lon": 33.0402027,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13376017074"
   },
   {
     "id": "immigrant_osm_node_5227235765",
@@ -108,6 +180,42 @@
     "source": "https://www.openstreetmap.org/way/703380356"
   },
   {
+    "id": "immigrant_osm_way_319604078",
+    "name": "China Bazar",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3298355,
+    "lon": 33.3538267,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/319604078"
+  },
+  {
+    "id": "immigrant_osm_node_13390959445",
+    "name": "Coco Afro Shop",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.1717999,
+    "lon": 33.3596605,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13390959445"
+  },
+  {
     "id": "immigrant_osm_way_207096400",
     "name": "Home Bazaar",
     "country": "Kypros",
@@ -124,6 +232,42 @@
     "address": "Home Bazaar, M. Drakou, Agios Georgios, Έγκωμη, Δήμος Λευκωσίας, Επαρχία Λευκωσίας, Κύπρος, 2370, Κύπρος - Kıbrıs",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/way/207096400"
+  },
+  {
+    "id": "immigrant_osm_node_13276144065",
+    "name": "International Market",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.9278702,
+    "lon": 33.6360772,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13276144065"
+  },
+  {
+    "id": "immigrant_osm_way_604001790",
+    "name": "Karabalkan Market",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3268691,
+    "lon": 33.3928973,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/604001790"
   },
   {
     "id": "immigrant_osm_way_435833517",
@@ -160,5 +304,59 @@
     "address": "Market, Mağusa - İskele Anayolu, Yeniboğaziçi, Yeniboğaziçi Belediyesi, Gazimağusa ilçesi, Kuzey Kıbrıs, 99680, Κύπρος - Kıbrıs",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/6130958350"
+  },
+  {
+    "id": "immigrant_osm_node_3878784927",
+    "name": "Seafront Mini Market",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.6863034,
+    "lon": 33.063537,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3878784927"
+  },
+  {
+    "id": "immigrant_osm_node_13566443901",
+    "name": "Silverloy Asian Supermarket",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.6787208,
+    "lon": 33.0510894,
+    "address": "Ζήνας Κάνθερ 2b",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13566443901"
+  },
+  {
+    "id": "immigrant_osm_node_10182999137",
+    "name": "To Arabiko - Arabic Shop",
+    "country": "Kypros",
+    "countryCode": "CY",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 34.9234319,
+    "lon": 33.6351203,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10182999137"
   }
 ]

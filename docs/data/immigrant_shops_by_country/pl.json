@@ -1,191 +1,803 @@
 [
   {
-    "id": "immigrant_osm_node_12952283474",
-    "name": "Asian Market",
+    "id": "immigrant_osm_node_2138783827",
+    "name": "Afro artykuły fryzjerskie.",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
+    "region": null,
     "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.2009374,
-    "lon": 20.8842412,
-    "address": "Asian Market, 4, Edwarda Habicha, Szamoty, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska",
+    "lat": 53.8348393,
+    "lon": 22.3605423,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/12952283474"
+    "source": "https://www.openstreetmap.org/node/2138783827"
   },
   {
-    "id": "immigrant_osm_node_12165400768",
-    "name": "Asian Market",
+    "id": "immigrant_osm_node_12771635361",
+    "name": "Afromarket",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.4268353,
+    "lon": 18.5624124,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12771635361"
+  },
+  {
+    "id": "immigrant_osm_node_2747848524",
+    "name": "Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Goczałkowice-Zdrój",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9366611,
+    "lon": 18.9810964,
+    "address": "Uzdrowiskowa 65, 43-230, Goczałkowice-Zdrój",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2747848524"
+  },
+  {
+    "id": "immigrant_osm_node_4577837933",
+    "name": "Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9499885,
+    "lon": 14.7258333,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4577837933"
+  },
+  {
+    "id": "immigrant_osm_node_5777602353",
+    "name": "ASIA",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Łańcut",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0710491,
+    "lon": 22.2380619,
+    "address": "Władysława Sikorskiego 2, 37-100, Łańcut",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5777602353"
+  },
+  {
+    "id": "immigrant_osm_node_5840581959",
+    "name": "Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6963076,
+    "lon": 18.8288692,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5840581959"
+  },
+  {
+    "id": "immigrant_osm_node_11663696767",
+    "name": "Asia Deli",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiadeli.pl/",
+    "lat": 50.0488997,
+    "lon": 19.9427954,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11663696767"
+  },
+  {
+    "id": "immigrant_osm_node_9875333040",
+    "name": "Asia Market",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
     "municipality": "Warszawa",
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.2598276,
-    "lon": 20.9763017,
-    "address": "Asian Market, 13, Ludwika Rydygiera, Żoliborz Przemysłowy, Sady Żoliborskie, Żoliborz, Warszawa, województwo mazowieckie, 01-793, Polska",
+    "lat": 52.1866328,
+    "lon": 20.9925557,
+    "address": "Racjonalizacji 3, 02-673, Warszawa",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/12165400768"
+    "source": "https://www.openstreetmap.org/node/9875333040"
   },
   {
-    "id": "immigrant_osm_way_140605022",
-    "name": "Asian Market",
+    "id": "immigrant_osm_way_361328705",
+    "name": "Asia Sklep Spożywczy",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "powiat łódzki wschodni",
-    "municipality": "Rzgów",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 51.6460124,
-    "lon": 19.4925105,
-    "address": "Asian Market, Tuszyńska, Rzgów II, Rzgów, gmina Rzgów, powiat łódzki wschodni, województwo łódzkie, 95-030, Polska",
+    "lat": 52.8285479,
+    "lon": 14.4539865,
+    "address": "36, 74-503",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/way/140605022"
+    "source": "https://www.openstreetmap.org/way/361328705"
   },
   {
-    "id": "immigrant_osm_node_6467000554",
-    "name": "Bazaar",
+    "id": "immigrant_osm_node_4464957234",
+    "name": "Asian Bazar",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "powiat żywiecki",
-    "municipality": "Żywiec",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 49.6890381,
-    "lon": 19.2004066,
-    "address": "Bazaar, 2, Jana III Sobieskiego, Rudza, Osiedle Parkowe, Śródmieście, Żywiec, powiat żywiecki, województwo śląskie, 34-300, Polska",
+    "lat": 54.3781102,
+    "lon": 18.6022689,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/6467000554"
+    "source": "https://www.openstreetmap.org/node/4464957234"
   },
   {
-    "id": "immigrant_osm_way_232577004",
-    "name": "Bazaar",
+    "id": "immigrant_osm_node_13227291019",
+    "name": "Asian Grocery Store",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "powiat lwówecki",
-    "municipality": "Lubomierz",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 51.013081,
-    "lon": 15.5112715,
-    "address": "Bazaar, 31, Plac Wolności, Lubomierz, gmina Lubomierz, powiat lwówecki, województwo dolnośląskie, 59-623, Polska",
+    "lat": 50.0585565,
+    "lon": 19.9451788,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/way/232577004"
+    "source": "https://www.openstreetmap.org/node/13227291019"
   },
   {
-    "id": "immigrant_osm_node_12996130878",
-    "name": "Bazaar komis odzieżowy",
+    "id": "immigrant_osm_way_1332081041",
+    "name": "Asian House",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo mazowieckie",
-    "municipality": "Ostrołęka",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 53.0810959,
-    "lon": 21.5731818,
-    "address": "Bazaar komis odzieżowy, 5A, Generała Augusta Emila Fieldorfa \"Nila\", Osiedle Starosty Kosa, Śródmieście II, Ostrołęka, województwo mazowieckie, 07-410, Polska",
+    "lat": 52.3055881,
+    "lon": 21.0857854,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/12996130878"
+    "source": "https://www.openstreetmap.org/way/1332081041"
   },
   {
-    "id": "immigrant_osm_node_11916148930",
-    "name": "Beauty Bazaar",
+    "id": "immigrant_osm_node_4833941110",
+    "name": "Bartek Sklep Polski",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
-    "municipality": "Warszawa",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.2265936,
-    "lon": 21.0395462,
-    "address": "Beauty Bazaar, 176, Czerniakowska, Powiśle-Solec, Solec, Śródmieście, Warszawa, województwo mazowieckie, 00-430, Polska",
+    "lat": 52.5329642,
+    "lon": 17.6027501,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/11916148930"
+    "source": "https://www.openstreetmap.org/node/4833941110"
   },
   {
-    "id": "immigrant_osm_node_7111116646",
-    "name": "Bistro Bazaar",
+    "id": "immigrant_osm_node_2671291617",
+    "name": "Basia",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo małopolskie",
-    "municipality": "Kraków",
+    "region": null,
+    "municipality": "Chocznia",
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 50.0515727,
-    "lon": 19.9444307,
-    "address": "Bistro Bazaar, 6, Plac Nowy, Kazimierz, Stare Miasto, Kraków, województwo małopolskie, 31-058, Polska",
+    "lat": 49.8654458,
+    "lon": 19.445626,
+    "address": "Główna, 34-123, Chocznia",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/7111116646"
+    "source": "https://www.openstreetmap.org/node/2671291617"
   },
   {
-    "id": "immigrant_osm_node_8617187633",
-    "name": "Desi Bazaar",
+    "id": "immigrant_osm_node_3099951563",
+    "name": "Basia",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
-    "municipality": "Warszawa",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.2271997,
-    "lon": 20.9975912,
-    "address": "Desi Bazaar, 56C, Aleje Jerozolimskie, Filtry, Ochota, Warszawa, województwo mazowieckie, 02-001, Polska",
+    "lat": 54.3307876,
+    "lon": 18.1836533,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/8617187633"
+    "source": "https://www.openstreetmap.org/node/3099951563"
   },
   {
-    "id": "immigrant_osm_node_10919490216",
-    "name": "Eweline Bazaar",
+    "id": "immigrant_osm_node_7342978465",
+    "name": "Basia",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo świętokrzyskie",
-    "municipality": "Kielce",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 50.8738306,
-    "lon": 20.6403512,
-    "address": "Eweline Bazaar, Starodomaszowska, Sandomierskie, Sady, Kielce, województwo świętokrzyskie, 25-315, Polska",
+    "lat": 50.3488849,
+    "lon": 18.8761945,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/10919490216"
+    "source": "https://www.openstreetmap.org/node/7342978465"
+  },
+  {
+    "id": "immigrant_osm_node_8300640622",
+    "name": "Basia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0570473,
+    "lon": 21.0672284,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8300640622"
+  },
+  {
+    "id": "immigrant_osm_way_396827987",
+    "name": "Basia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Oleśnica",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2000758,
+    "lon": 17.3763405,
+    "address": "Wikliniarska 2b, 56-400, Oleśnica",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/396827987"
+  },
+  {
+    "id": "immigrant_osm_node_2654479795",
+    "name": "Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8233493,
+    "lon": 16.2718754,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2654479795"
+  },
+  {
+    "id": "immigrant_osm_node_4123798789",
+    "name": "Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.248252,
+    "lon": 19.0329426,
+    "address": "Generała Józefa Longina Sowińskiego",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4123798789"
+  },
+  {
+    "id": "immigrant_osm_node_5240121562",
+    "name": "Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2029121,
+    "lon": 17.4891642,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5240121562"
+  },
+  {
+    "id": "immigrant_osm_way_171499726",
+    "name": "Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Łódź",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7298106,
+    "lon": 19.4593272,
+    "address": "Konstantego Ciołkowskiego 6, Łódź",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/171499726"
+  },
+  {
+    "id": "immigrant_osm_way_229345940",
+    "name": "Bazar Supermarket TSS Społem",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Tarnów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.017161,
+    "lon": 20.9580891,
+    "address": "Hodowlana 6, Tarnów",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/229345940"
+  },
+  {
+    "id": "immigrant_osm_node_1306168147",
+    "name": "Bazar u Wojciecha",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.2635915,
+    "lon": 22.424143,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1306168147"
+  },
+  {
+    "id": "immigrant_osm_node_7549690737",
+    "name": "Bazar u Wojciecha",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/BazarUWojciecha",
+    "lat": 50.0655468,
+    "lon": 22.2200498,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7549690737"
+  },
+  {
+    "id": "immigrant_osm_node_8818916282",
+    "name": "Bazarek",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.8788197,
+    "lon": 19.4979927,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8818916282"
+  },
+  {
+    "id": "immigrant_osm_node_9084195295",
+    "name": "Bazarek",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9098419,
+    "lon": 20.198033,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9084195295"
+  },
+  {
+    "id": "immigrant_osm_node_9864521217",
+    "name": "Bazarek",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2256166,
+    "lon": 20.9515536,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9864521217"
+  },
+  {
+    "id": "immigrant_osm_node_11265113127",
+    "name": "Bazarek",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0859027,
+    "lon": 19.8950255,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11265113127"
+  },
+  {
+    "id": "immigrant_osm_node_13535350990",
+    "name": "Bazarek Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.7073291,
+    "lon": 19.209839,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13535350990"
+  },
+  {
+    "id": "immigrant_osm_node_2951078020",
+    "name": "Bomex sp. z o.o. [import wina]",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9330217,
+    "lon": 21.9093112,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2951078020"
+  },
+  {
+    "id": "immigrant_osm_node_7278415741",
+    "name": "Chłop Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1187306,
+    "lon": 17.0337266,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7278415741"
+  },
+  {
+    "id": "immigrant_osm_way_552449902",
+    "name": "Delikatesy \"Fudi\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Celestynów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0584114,
+    "lon": 21.39401,
+    "address": "Kolejowa 4, 05-430, Celestynów",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/552449902"
+  },
+  {
+    "id": "immigrant_osm_way_666519534",
+    "name": "Delikatesy \"Fudi\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Celestynów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0605106,
+    "lon": 21.3813496,
+    "address": "Plac Kardynała Stefana Wyszyńskiego 4, 05-430, Celestynów",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/666519534"
+  },
+  {
+    "id": "immigrant_osm_node_1861708087",
+    "name": "Delikatesy Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0676893,
+    "lon": 22.2315265,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1861708087"
+  },
+  {
+    "id": "immigrant_osm_node_9862401335",
+    "name": "Delikatesy Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.091353,
+    "lon": 22.2323444,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9862401335"
+  },
+  {
+    "id": "immigrant_osm_way_244708910",
+    "name": "Delikatesy Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Łańcut",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0694222,
+    "lon": 22.2226749,
+    "address": "Jana Cetnarskiego 43, 37-100, Łańcut",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/244708910"
+  },
+  {
+    "id": "immigrant_osm_node_1754930584",
+    "name": "Delikatesy Basia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1227446,
+    "lon": 20.7248924,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1754930584"
+  },
+  {
+    "id": "immigrant_osm_node_1894888120",
+    "name": "Delikatesy Bazarex",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6974675,
+    "lon": 21.7403254,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1894888120"
+  },
+  {
+    "id": "immigrant_osm_node_6314480800",
+    "name": "Delikatesy Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Nowe Miasto nad Wartą",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0880242,
+    "lon": 17.3977233,
+    "address": "Poznańska 58, 63-040, Nowe Miasto nad Wartą",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6314480800"
+  },
+  {
+    "id": "immigrant_osm_node_894754392",
+    "name": "Delikatesy Polskie",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5340804,
+    "lon": 17.5981591,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/894754392"
+  },
+  {
+    "id": "immigrant_osm_node_8319606601",
+    "name": "Delikatesy Staropolskie",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://marketvita.pl/shops/radomska-1-annopol/",
+    "lat": 50.8849748,
+    "lon": 21.8546095,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8319606601"
+  },
+  {
+    "id": "immigrant_osm_node_3786328439",
+    "name": "Deshi Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.5208889,
+    "lon": 18.5332147,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3786328439"
+  },
+  {
+    "id": "immigrant_osm_node_12090328559",
+    "name": "Hut Bazar - Real Taste of Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7742612,
+    "lon": 19.4523822,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12090328559"
   },
   {
     "id": "immigrant_osm_node_2918329656",
     "name": "India Bazaar",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo dolnośląskie",
-    "municipality": "Wrocław",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
@@ -193,80 +805,2852 @@
     "website": null,
     "lat": 51.1113644,
     "lon": 17.058157,
-    "address": "India Bazaar, plac Grunwaldzki, Manhattan, Plac Grunwaldzki, Wrocław, województwo dolnośląskie, 50-001, Polska",
+    "address": null,
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/node/2918329656"
   },
   {
-    "id": "immigrant_osm_node_10814210136",
-    "name": "India Bazaar Mokotów",
+    "id": "immigrant_osm_node_2006316483",
+    "name": "Kasia",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3483678,
+    "lon": 16.8776856,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2006316483"
+  },
+  {
+    "id": "immigrant_osm_node_3812814286",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0573889,
+    "lon": 21.1601105,
+    "address": "Wilanowska 239",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3812814286"
+  },
+  {
+    "id": "immigrant_osm_node_4586234708",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.4046433,
+    "lon": 14.5264264,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4586234708"
+  },
+  {
+    "id": "immigrant_osm_node_6280697966",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7256698,
+    "lon": 19.6393382,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6280697966"
+  },
+  {
+    "id": "immigrant_osm_node_6370333937",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6536387,
+    "lon": 17.0109096,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6370333937"
+  },
+  {
+    "id": "immigrant_osm_node_7668000485",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.366784,
+    "lon": 14.5957447,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7668000485"
+  },
+  {
+    "id": "immigrant_osm_node_11872622850",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Staniszewo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.3949871,
+    "lon": 18.077515,
+    "address": "Wejherowska 2, 83-328, Staniszewo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11872622850"
+  },
+  {
+    "id": "immigrant_osm_node_12361838481",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8359058,
+    "lon": 15.8351029,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12361838481"
+  },
+  {
+    "id": "immigrant_osm_way_321375556",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Nowy Targ",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.4811225,
+    "lon": 20.0277856,
+    "address": "Krzywa 10, 34-400, Nowy Targ",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/321375556"
+  },
+  {
+    "id": "immigrant_osm_way_778836153",
+    "name": "Kasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9301533,
+    "lon": 21.1937072,
+    "address": "44, 05-530",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/778836153"
+  },
+  {
+    "id": "immigrant_osm_way_1107676389",
+    "name": "Kasia i Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Rusocin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.2253845,
+    "lon": 18.6213082,
+    "address": "Klonowa 2, 83-031, Rusocin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1107676389"
+  },
+  {
+    "id": "immigrant_osm_node_2944312933",
+    "name": "LSS Społem \"Bazar\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.252173,
+    "lon": 22.5687559,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2944312933"
+  },
+  {
+    "id": "immigrant_osm_node_2894328574",
+    "name": "M.Błasiak",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.26568,
+    "lon": 20.2616799,
+    "address": "39, 96-503",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2894328574"
+  },
+  {
+    "id": "immigrant_osm_node_11413580357",
+    "name": "Mini Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1443066,
+    "lon": 20.8675369,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11413580357"
+  },
+  {
+    "id": "immigrant_osm_way_186129853",
+    "name": "Nepali Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
     "municipality": "Warszawa",
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.1853322,
-    "lon": 20.9953869,
-    "address": "India Bazaar Mokotów, 5B, Konstruktorska, Służewiec, Mokotów, Warszawa, województwo mazowieckie, 02-673, Polska",
+    "lat": 52.2367508,
+    "lon": 21.0882292,
+    "address": "Grenadierów 2B, 04-062, Warszawa",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/10814210136"
+    "source": "https://www.openstreetmap.org/way/186129853"
   },
   {
-    "id": "immigrant_osm_node_9881528754",
-    "name": "Michael's Bazaar",
+    "id": "immigrant_osm_node_10745173197",
+    "name": "Owocowy Bazarek",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "Warszawa",
-    "municipality": "Warszawa",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.20391,
-    "lon": 21.0126132,
-    "address": "Michael's Bazaar, 22, Kwiatowa, Stary Mokotów, Mokotów, Warszawa, województwo mazowieckie, 02-539, Polska",
+    "lat": 50.0926578,
+    "lon": 19.9870632,
+    "address": null,
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/9881528754"
+    "source": "https://www.openstreetmap.org/node/10745173197"
   },
   {
-    "id": "immigrant_osm_node_3702048896",
-    "name": "Spice Bazaar",
+    "id": "immigrant_osm_node_2748892398",
+    "name": "Polski Sklep",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo wielkopolskie",
+    "region": null,
+    "municipality": "Biskupice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.46767,
+    "lon": 17.17101,
+    "address": "Mieszka I 2, 62-007, Biskupice",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2748892398"
+  },
+  {
+    "id": "immigrant_osm_node_5297280369",
+    "name": "Polski Sklep",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5776057,
+    "lon": 15.6780395,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5297280369"
+  },
+  {
+    "id": "immigrant_osm_node_7998118084",
+    "name": "Polski Sklep",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8940513,
+    "lon": 16.5485342,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7998118084"
+  },
+  {
+    "id": "immigrant_osm_node_9713932963",
+    "name": "Polski Sklep",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1045521,
+    "lon": 20.6193235,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9713932963"
+  },
+  {
+    "id": "immigrant_osm_node_1191651826",
+    "name": "Polskie delikatesy",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.2811294,
+    "lon": 20.9464432,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1191651826"
+  },
+  {
+    "id": "immigrant_osm_node_12160709665",
+    "name": "Polskie Pomidory",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://panpomidor.info/",
+    "lat": 52.1320005,
+    "lon": 21.0571068,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12160709665"
+  },
+  {
+    "id": "immigrant_osm_node_766793725",
+    "name": "Polskie Smaki",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.773319,
+    "lon": 19.4620141,
+    "address": "Stefana Jaracza 34",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/766793725"
+  },
+  {
+    "id": "immigrant_osm_node_10250628615",
+    "name": "Polskie Smaki",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5937251,
+    "lon": 18.7224342,
+    "address": "Władysława Łokietka",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10250628615"
+  },
+  {
+    "id": "immigrant_osm_node_10053872163",
+    "name": "Polskie ziemniaki najlepsze na stole",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.025643,
+    "lon": 18.6669962,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10053872163"
+  },
+  {
+    "id": "immigrant_osm_way_263803451",
+    "name": "PPHU Export Import Ar Pol Ruksztełło Joanna",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Braniewo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.3721631,
+    "lon": 19.8226052,
+    "address": "Józefa Longina Sowińskiego 10a, 14-500, Braniewo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/263803451"
+  },
+  {
+    "id": "immigrant_osm_way_300143955",
+    "name": "PSS Społem Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Białystok",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.spolem.bialystok.pl/",
+    "lat": 53.1211639,
+    "lon": 23.1395407,
+    "address": "Generała Józefa Bema 89/2, 15-370, Białystok",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/300143955"
+  },
+  {
+    "id": "immigrant_osm_way_63105749",
+    "name": "Pyszne Polskie",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Lublin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2268526,
+    "lon": 22.5344782,
+    "address": "Uśmiechu 1a, 20-534, Lublin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/63105749"
+  },
+  {
+    "id": "immigrant_osm_node_1238528981",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5384461,
+    "lon": 17.6157275,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1238528981"
+  },
+  {
+    "id": "immigrant_osm_node_1251782814",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5407981,
+    "lon": 17.6257985,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1251782814"
+  },
+  {
+    "id": "immigrant_osm_node_1965166373",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Gorzów Wielkopolski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7374981,
+    "lon": 15.2111699,
+    "address": "Karola Marcinkowskiego 8, 66-400, Gorzów Wielkopolski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1965166373"
+  },
+  {
+    "id": "immigrant_osm_node_2951670776",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2494693,
+    "lon": 16.8999867,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2951670776"
+  },
+  {
+    "id": "immigrant_osm_node_3171322651",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.16595,
+    "lon": 18.82703,
+    "address": "14, 62-641",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3171322651"
+  },
+  {
+    "id": "immigrant_osm_node_3171325644",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.18869,
+    "lon": 18.88724,
+    "address": "87, 62-641",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3171325644"
+  },
+  {
+    "id": "immigrant_osm_node_3297696263",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3296461,
+    "lon": 17.8534659,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3297696263"
+  },
+  {
+    "id": "immigrant_osm_node_3297696264",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.412838,
+    "lon": 17.9147188,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3297696264"
+  },
+  {
+    "id": "immigrant_osm_node_3692148035",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5493752,
+    "lon": 17.6054385,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3692148035"
+  },
+  {
+    "id": "immigrant_osm_node_3853017030",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3234711,
+    "lon": 17.8959877,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3853017030"
+  },
+  {
+    "id": "immigrant_osm_node_3916671519",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6210069,
+    "lon": 16.5744244,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3916671519"
+  },
+  {
+    "id": "immigrant_osm_node_4760038121",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Szamotuły",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6107502,
+    "lon": 16.5794,
+    "address": "Rynek 37, 64-500, Szamotuły",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4760038121"
+  },
+  {
+    "id": "immigrant_osm_node_5079666476",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Ostrów Wielkopolski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6571174,
+    "lon": 17.8154587,
+    "address": "Marii Konopnickiej 45, 63-400, Ostrów Wielkopolski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5079666476"
+  },
+  {
+    "id": "immigrant_osm_node_5147560322",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0541178,
+    "lon": 15.4732817,
+    "address": "Sulechowska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5147560322"
+  },
+  {
+    "id": "immigrant_osm_node_5174981027",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4644217,
+    "lon": 16.664009,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5174981027"
+  },
+  {
+    "id": "immigrant_osm_node_5182235038",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.0102443,
+    "lon": 17.7383399,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5182235038"
+  },
+  {
+    "id": "immigrant_osm_node_5248070764",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6395705,
+    "lon": 17.425691,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5248070764"
+  },
+  {
+    "id": "immigrant_osm_node_5248091484",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7070881,
+    "lon": 17.4745763,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5248091484"
+  },
+  {
+    "id": "immigrant_osm_node_5289341597",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.905809,
+    "lon": 17.4758576,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5289341597"
+  },
+  {
+    "id": "immigrant_osm_node_5745238469",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Osie",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.5981364,
+    "lon": 18.3473272,
+    "address": "Rynek 1, 86-150, Osie",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5745238469"
+  },
+  {
+    "id": "immigrant_osm_node_5907850685",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4389803,
+    "lon": 16.7484255,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5907850685"
+  },
+  {
+    "id": "immigrant_osm_node_6011180525",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Gorzów Wielkopolski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.732116,
+    "lon": 15.2394249,
+    "address": "Wełniany Rynek 3, 66-400, Gorzów Wielkopolski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6011180525"
+  },
+  {
+    "id": "immigrant_osm_node_6198973203",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5901096,
+    "lon": 17.2574292,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6198973203"
+  },
+  {
+    "id": "immigrant_osm_node_6307707062",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.skleppolski.pl/",
+    "lat": 52.2113314,
+    "lon": 18.2543567,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6307707062"
+  },
+  {
+    "id": "immigrant_osm_node_6727876791",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6235701,
+    "lon": 17.165678,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6727876791"
+  },
+  {
+    "id": "immigrant_osm_node_7112934629",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5421166,
+    "lon": 17.6109305,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7112934629"
+  },
+  {
+    "id": "immigrant_osm_node_7448941556",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5341546,
+    "lon": 17.5776538,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7448941556"
+  },
+  {
+    "id": "immigrant_osm_node_7549433657",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5284801,
+    "lon": 17.5648226,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7549433657"
+  },
+  {
+    "id": "immigrant_osm_node_7771365250",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4668064,
+    "lon": 16.6632697,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7771365250"
+  },
+  {
+    "id": "immigrant_osm_node_7903308821",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6242027,
+    "lon": 17.138879,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7903308821"
+  },
+  {
+    "id": "immigrant_osm_node_8081295757",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3090698,
+    "lon": 17.5293066,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8081295757"
+  },
+  {
+    "id": "immigrant_osm_node_8180784516",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1061032,
+    "lon": 17.3270166,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8180784516"
+  },
+  {
+    "id": "immigrant_osm_node_8316252183",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Żydowo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4531299,
+    "lon": 17.5823794,
+    "address": "Tadeusza Kościuszki 32, 62-241, Żydowo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8316252183"
+  },
+  {
+    "id": "immigrant_osm_node_8588792721",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7668123,
+    "lon": 15.2883909,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8588792721"
+  },
+  {
+    "id": "immigrant_osm_node_8842506458",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8581292,
+    "lon": 14.3974231,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8842506458"
+  },
+  {
+    "id": "immigrant_osm_node_8971536764",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Witkowo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4403425,
+    "lon": 17.7809456,
+    "address": "Warszawska 35, 62-230, Witkowo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8971536764"
+  },
+  {
+    "id": "immigrant_osm_node_9028587083",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6811643,
+    "lon": 17.2499576,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9028587083"
+  },
+  {
+    "id": "immigrant_osm_node_9028594644",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7094274,
+    "lon": 17.2624305,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9028594644"
+  },
+  {
+    "id": "immigrant_osm_node_9028609343",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7356579,
+    "lon": 17.2866198,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9028609343"
+  },
+  {
+    "id": "immigrant_osm_node_9028654152",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8421021,
+    "lon": 17.3015667,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9028654152"
+  },
+  {
+    "id": "immigrant_osm_node_9028654155",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8408342,
+    "lon": 17.3044417,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9028654155"
+  },
+  {
+    "id": "immigrant_osm_node_9609496062",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6975336,
+    "lon": 18.1047076,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9609496062"
+  },
+  {
+    "id": "immigrant_osm_node_10085317640",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2329779,
+    "lon": 16.8127051,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10085317640"
+  },
+  {
+    "id": "immigrant_osm_node_10096391572",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7545244,
+    "lon": 17.1382996,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10096391572"
+  },
+  {
+    "id": "immigrant_osm_node_10834517870",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Chocz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9737402,
+    "lon": 17.8765959,
+    "address": "63-313, Chocz",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10834517870"
+  },
+  {
+    "id": "immigrant_osm_node_11065910802",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8399514,
+    "lon": 17.3988662,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11065910802"
+  },
+  {
+    "id": "immigrant_osm_node_11158080056",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5270529,
+    "lon": 17.3678008,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11158080056"
+  },
+  {
+    "id": "immigrant_osm_node_11160773494",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3342938,
+    "lon": 14.5953151,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11160773494"
+  },
+  {
+    "id": "immigrant_osm_node_11836876506",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6100136,
+    "lon": 17.9381882,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11836876506"
+  },
+  {
+    "id": "immigrant_osm_node_11837874944",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2285947,
+    "lon": 18.2667353,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11837874944"
+  },
+  {
+    "id": "immigrant_osm_node_12177536426",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5499263,
+    "lon": 16.0833081,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12177536426"
+  },
+  {
+    "id": "immigrant_osm_node_12223011015",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6754089,
+    "lon": 17.1688149,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12223011015"
+  },
+  {
+    "id": "immigrant_osm_node_12265718932",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7486138,
+    "lon": 16.9883239,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12265718932"
+  },
+  {
+    "id": "immigrant_osm_node_12309247732",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.80586,
+    "lon": 17.1796637,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12309247732"
+  },
+  {
+    "id": "immigrant_osm_node_12471965895",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8774546,
+    "lon": 16.0011468,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12471965895"
+  },
+  {
+    "id": "immigrant_osm_node_12552181305",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8866274,
+    "lon": 16.173266,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12552181305"
+  },
+  {
+    "id": "immigrant_osm_node_12733204895",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6201349,
+    "lon": 17.6099067,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12733204895"
+  },
+  {
+    "id": "immigrant_osm_node_12892159429",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.415974,
+    "lon": 18.6026263,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12892159429"
+  },
+  {
+    "id": "immigrant_osm_node_12967249845",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Mieścisko",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.743944,
+    "lon": 17.329522,
+    "address": "Plac Powstańców Wielkopolskich 5b, 62-290, Mieścisko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12967249845"
+  },
+  {
+    "id": "immigrant_osm_node_13248613022",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5016751,
+    "lon": 17.5932623,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13248613022"
+  },
+  {
+    "id": "immigrant_osm_node_13258153268",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3240026,
+    "lon": 16.1193468,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13258153268"
+  },
+  {
+    "id": "immigrant_osm_node_13340664463",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.587994,
+    "lon": 17.6165231,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13340664463"
+  },
+  {
+    "id": "immigrant_osm_node_13374986361",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5898369,
+    "lon": 17.5562414,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13374986361"
+  },
+  {
+    "id": "immigrant_osm_node_13398780257",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6710443,
+    "lon": 17.1043918,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13398780257"
+  },
+  {
+    "id": "immigrant_osm_node_13443624829",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.266222,
+    "lon": 18.1492518,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13443624829"
+  },
+  {
+    "id": "immigrant_osm_way_172210163",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9666234,
+    "lon": 18.7988289,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/172210163"
+  },
+  {
+    "id": "immigrant_osm_way_177323283",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Koło",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2072591,
+    "lon": 18.6313422,
+    "address": "Kolejowa 84, 62-600, Koło",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/177323283"
+  },
+  {
+    "id": "immigrant_osm_way_179741513",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Żnin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.8474107,
+    "lon": 17.7336252,
+    "address": "700-lecia 38, 88-400, Żnin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/179741513"
+  },
+  {
+    "id": "immigrant_osm_way_193940914",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Gorzów Wielkopolski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7228981,
+    "lon": 15.2333035,
+    "address": "Śląska 19, 66-400, Gorzów Wielkopolski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/193940914"
+  },
+  {
+    "id": "immigrant_osm_way_221512065",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Leszno",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.skleppolski.pl/",
+    "lat": 51.8376939,
+    "lon": 16.5813397,
+    "address": "17 Stycznia 25, 64-100, Leszno",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/221512065"
+  },
+  {
+    "id": "immigrant_osm_way_223427507",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
     "municipality": "Poznań",
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 52.4106553,
-    "lon": 16.9307141,
-    "address": "Spice Bazaar, Plac Wielkopolski, Piekary, Stare Miasto, Poznań, województwo wielkopolskie, 61-746, Polska",
+    "lat": 52.3412074,
+    "lon": 16.9865293,
+    "address": "Jarosławska 10, 61-321, Poznań",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/3702048896"
+    "source": "https://www.openstreetmap.org/way/223427507"
   },
   {
-    "id": "immigrant_osm_node_10795488432",
-    "name": "Słodki Bazaar",
+    "id": "immigrant_osm_way_233760241",
+    "name": "Sklep Polski",
     "country": "Polen",
     "countryCode": "PL",
-    "region": "województwo małopolskie",
-    "municipality": "Kraków",
+    "region": null,
+    "municipality": null,
     "products": [
       "International food",
       "Imported goods"
     ],
     "website": null,
-    "lat": 49.9992198,
-    "lon": 19.8949674,
-    "address": "Słodki Bazaar, 23F, Profesora Bolesława Wiktora Wicherkiewicza, Kliny Zacisze, Kliny, Swoszowice, Kraków, województwo małopolskie, 30-389, Polska",
+    "lat": 51.9963843,
+    "lon": 18.5602322,
+    "address": "13a, 62-731",
     "category": "Innvandrerbutikk",
-    "source": "https://www.openstreetmap.org/node/10795488432"
+    "source": "https://www.openstreetmap.org/way/233760241"
+  },
+  {
+    "id": "immigrant_osm_way_234751246",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Murzynowo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6433026,
+    "lon": 15.4519717,
+    "address": "Skwierzyńska 9, 66-443, Murzynowo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/234751246"
+  },
+  {
+    "id": "immigrant_osm_way_244124021",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Bobrówko",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9522954,
+    "lon": 15.4521444,
+    "address": "Wesoła 7, 66-510, Bobrówko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/244124021"
+  },
+  {
+    "id": "immigrant_osm_way_305487031",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Środa Wielkopolska",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2332153,
+    "lon": 17.2581425,
+    "address": "Henryka Sienkiewicza 19, 63-000, Środa Wielkopolska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/305487031"
+  },
+  {
+    "id": "immigrant_osm_way_341787808",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Pyzdry",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1697074,
+    "lon": 17.6822887,
+    "address": "Szybska 17, 62-310, Pyzdry",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/341787808"
+  },
+  {
+    "id": "immigrant_osm_way_353604400",
+    "name": "Sklep polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Witnica",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6762467,
+    "lon": 14.8891425,
+    "address": "Romualda Traugutta 1B, 66-460, Witnica",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/353604400"
+  },
+  {
+    "id": "immigrant_osm_way_365457613",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.550807,
+    "lon": 17.6940015,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/365457613"
+  },
+  {
+    "id": "immigrant_osm_way_369742097",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Słupca",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2946003,
+    "lon": 17.8810652,
+    "address": "Marii Konopnickiej 20, 62-400, Słupca",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/369742097"
+  },
+  {
+    "id": "immigrant_osm_way_405661571",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5835863,
+    "lon": 15.0194837,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/405661571"
+  },
+  {
+    "id": "immigrant_osm_way_406876505",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Psary Małe",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3369217,
+    "lon": 17.5137276,
+    "address": "Dojazdowa 5, 62-300, Psary Małe",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/406876505"
+  },
+  {
+    "id": "immigrant_osm_way_417382547",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Sulmierzyce",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.606032,
+    "lon": 17.5266774,
+    "address": "Rynek 13, 63-750, Sulmierzyce",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/417382547"
+  },
+  {
+    "id": "immigrant_osm_way_507305501",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4041597,
+    "lon": 16.678207,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/507305501"
+  },
+  {
+    "id": "immigrant_osm_way_515669910",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Malanów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9538357,
+    "lon": 18.3936313,
+    "address": "Turecka 8, 62-709, Malanów",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/515669910"
+  },
+  {
+    "id": "immigrant_osm_way_520869675",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Chocicza",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.skleppolski.pl/",
+    "lat": 52.0693896,
+    "lon": 17.3582348,
+    "address": "Leśna 1A, 63-041, Chocicza",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/520869675"
+  },
+  {
+    "id": "immigrant_osm_way_532489195",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Kunowo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.935083,
+    "lon": 17.0181706,
+    "address": "Gostyńska 5a, 63-800, Kunowo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/532489195"
+  },
+  {
+    "id": "immigrant_osm_way_571061815",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5450628,
+    "lon": 15.7043614,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/571061815"
+  },
+  {
+    "id": "immigrant_osm_way_586349236",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.3686429,
+    "lon": 17.3251556,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/586349236"
+  },
+  {
+    "id": "immigrant_osm_way_597767812",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2524088,
+    "lon": 17.7075643,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/597767812"
+  },
+  {
+    "id": "immigrant_osm_way_607618148",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.364302,
+    "lon": 17.643179,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/607618148"
+  },
+  {
+    "id": "immigrant_osm_way_676890053",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Boguszyn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0638935,
+    "lon": 17.3310935,
+    "address": "Parkowa 2, 63-041, Boguszyn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/676890053"
+  },
+  {
+    "id": "immigrant_osm_way_882396790",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.40522,
+    "lon": 17.6178741,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/882396790"
+  },
+  {
+    "id": "immigrant_osm_way_883936375",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4756899,
+    "lon": 17.27817,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/883936375"
+  },
+  {
+    "id": "immigrant_osm_way_892789926",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2186464,
+    "lon": 17.2176206,
+    "address": "31A, 63-022",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/892789926"
+  },
+  {
+    "id": "immigrant_osm_way_943621289",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Mieścisko",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7439898,
+    "lon": 17.3295407,
+    "address": "Plac Powstańców Wielkopolskich 5b, 62-290, Mieścisko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/943621289"
+  },
+  {
+    "id": "immigrant_osm_way_1046972254",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4220011,
+    "lon": 16.7504828,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1046972254"
+  },
+  {
+    "id": "immigrant_osm_way_1117682356",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4390896,
+    "lon": 17.7635645,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1117682356"
+  },
+  {
+    "id": "immigrant_osm_way_1387995533",
+    "name": "Sklep Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Gorzów Wielkopolski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6931728,
+    "lon": 15.2269379,
+    "address": "Marcina Kasprzaka 15, 66-400, Gorzów Wielkopolski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1387995533"
+  },
+  {
+    "id": "immigrant_osm_way_290064969",
+    "name": "Sklep Polski 13 Trzynastka",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Kobylnica",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4425872,
+    "lon": 17.0759843,
+    "address": "Swarzędzka 13, 62-006, Kobylnica",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/290064969"
+  },
+  {
+    "id": "immigrant_osm_node_11048665680",
+    "name": "Sklep Polski Bartek",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5763708,
+    "lon": 17.3548731,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11048665680"
+  },
+  {
+    "id": "immigrant_osm_node_4551286473",
+    "name": "Sklep Polski „U Iwonki”",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.1940161,
+    "lon": 14.9330297,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4551286473"
+  },
+  {
+    "id": "immigrant_osm_node_4206552212",
+    "name": "Sklep Polski, Piekarnia \"Węglew\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Węglew",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2383002,
+    "lon": 18.1569607,
+    "address": "Józefa Chełmońskiego 5, 62-590, Węglew",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4206552212"
+  },
+  {
+    "id": "immigrant_osm_node_3048860518",
+    "name": "Sklep spozywczy \"Basia\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.5022516,
+    "lon": 18.7761545,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3048860518"
+  },
+  {
+    "id": "immigrant_osm_node_2586611178",
+    "name": "Sklep Spożywczo-Przemysłowy \"ASIA\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Bełchatów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.35308,
+    "lon": 19.3585248,
+    "address": "Juranda 2b, 97-400, Bełchatów",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2586611178"
+  },
+  {
+    "id": "immigrant_osm_node_2671274519",
+    "name": "Sklep spożywczo-przemysłowy Basia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Chocznia",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.8688117,
+    "lon": 19.452238,
+    "address": "Biała Droga, 34-123, Chocznia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2671274519"
+  },
+  {
+    "id": "immigrant_osm_node_2671907257",
+    "name": "Sklep spożywczo-przemysłowy Basia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Chocznia",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.8734018,
+    "lon": 19.4561807,
+    "address": "Osiedle doktora Józefa Putka, 34-123, Chocznia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2671907257"
+  },
+  {
+    "id": "immigrant_osm_way_294514112",
+    "name": "Sklep spożywczy \"Asia\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Gliwice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.2927915,
+    "lon": 18.7243401,
+    "address": "Jana Kasprowicza 1, Gliwice",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/294514112"
+  },
+  {
+    "id": "immigrant_osm_node_8862958059",
+    "name": "Sklep Spożywczy ABC \"U Stasia\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.899839,
+    "lon": 15.730114,
+    "address": "Groszowa 39",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8862958059"
+  },
+  {
+    "id": "immigrant_osm_node_2927232636",
+    "name": "Sklep Spożywczy Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.0745666,
+    "lon": 15.1377234,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2927232636"
+  },
+  {
+    "id": "immigrant_osm_way_599834993",
+    "name": "Sklep Wielobranżowy \"Kasia\"",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.6094988,
+    "lon": 18.2214605,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/599834993"
+  },
+  {
+    "id": "immigrant_osm_way_291889608",
+    "name": "SklepPolski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Wiechlice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5513607,
+    "lon": 15.5805532,
+    "address": "Brzozowa 16, Wiechlice",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/291889608"
+  },
+  {
+    "id": "immigrant_osm_node_8110867991",
+    "name": "Stasiak Maria. Sklep spożywczy",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1488913,
+    "lon": 17.5072574,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8110867991"
+  },
+  {
+    "id": "immigrant_osm_way_271491312",
+    "name": "Suempolskie przysmaki",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Bielsk Podlaski",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.7614428,
+    "lon": 23.196451,
+    "address": "Białowieska 8a, 17-100, Bielsk Podlaski",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/271491312"
+  },
+  {
+    "id": "immigrant_osm_node_3665576032",
+    "name": "U Adasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.962744,
+    "lon": 14.422206,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3665576032"
+  },
+  {
+    "id": "immigrant_osm_node_5032227768",
+    "name": "U Adasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.2766236,
+    "lon": 19.1348044,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5032227768"
+  },
+  {
+    "id": "immigrant_osm_node_5746958252",
+    "name": "U Adasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.8780817,
+    "lon": 18.287863,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5746958252"
+  },
+  {
+    "id": "immigrant_osm_node_9356437628",
+    "name": "u Adasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.1141802,
+    "lon": 20.1446281,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9356437628"
+  },
+  {
+    "id": "immigrant_osm_node_4784057594",
+    "name": "U Harnasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.4247675,
+    "lon": 20.4839301,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4784057594"
+  },
+  {
+    "id": "immigrant_osm_node_8829787366",
+    "name": "U Harnasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8860117,
+    "lon": 20.6373426,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8829787366"
+  },
+  {
+    "id": "immigrant_osm_node_2467331434",
+    "name": "U Jasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0820098,
+    "lon": 17.0177372,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2467331434"
+  },
+  {
+    "id": "immigrant_osm_node_417916986",
+    "name": "u Stasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3490496,
+    "lon": 21.4528655,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/417916986"
+  },
+  {
+    "id": "immigrant_osm_node_1229535230",
+    "name": "U Stasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1631694,
+    "lon": 20.8087652,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1229535230"
+  },
+  {
+    "id": "immigrant_osm_node_6404055333",
+    "name": "u Stasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.2228767,
+    "lon": 20.4609317,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6404055333"
+  },
+  {
+    "id": "immigrant_osm_node_4690283197",
+    "name": "Warzywa - Owoce „u Harnasia”",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8856702,
+    "lon": 20.6369451,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4690283197"
+  },
+  {
+    "id": "immigrant_osm_way_912972304",
+    "name": "Warzywa i owoce u dziadka Stasia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.280074,
+    "lon": 21.1315772,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/912972304"
+  },
+  {
+    "id": "immigrant_osm_node_12770058268",
+    "name": "Warzywa i Owoce z Polski",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8468916,
+    "lon": 15.6434921,
+    "address": "Cieplicka 192",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12770058268"
+  },
+  {
+    "id": "immigrant_osm_node_13308242019",
+    "name": "Wonder Of Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2125154,
+    "lon": 20.9507926,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13308242019"
+  },
+  {
+    "id": "immigrant_osm_node_13522952114",
+    "name": "Wonders Of Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Mysiadło",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1011006,
+    "lon": 21.0204841,
+    "address": "Puławska 56C, 05-500, Mysiadło",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13522952114"
+  },
+  {
+    "id": "immigrant_osm_way_1147358531",
+    "name": "Wonders of Asia",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2238465,
+    "lon": 20.9277927,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1147358531"
+  },
+  {
+    "id": "immigrant_osm_way_367069804",
+    "name": "Zielony Bazar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": null,
+    "municipality": "Wisła",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6400103,
+    "lon": 18.8728943,
+    "address": "1 Maja 1b, Wisła",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/367069804"
   }
 ]

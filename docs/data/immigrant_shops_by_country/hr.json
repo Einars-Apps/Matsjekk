@@ -1,5 +1,59 @@
 [
   {
+    "id": "immigrant_osm_node_6317918098",
+    "name": "Asia store",
+    "country": "Kroatia",
+    "countryCode": "HR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiastore.com.hr/",
+    "lat": 45.8133075,
+    "lon": 15.9681586,
+    "address": "Ilica 52",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6317918098"
+  },
+  {
+    "id": "immigrant_osm_node_10142590803",
+    "name": "Asian Cash & Carry",
+    "country": "Kroatia",
+    "countryCode": "HR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7760152,
+    "lon": 15.974089,
+    "address": "Trg Senjskih Uskoka 7",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10142590803"
+  },
+  {
+    "id": "immigrant_osm_node_13056361818",
+    "name": "Bangla bazar",
+    "country": "Kroatia",
+    "countryCode": "HR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7978958,
+    "lon": 15.9437311,
+    "address": "Ozaljska ulica 112",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13056361818"
+  },
+  {
     "id": "immigrant_osm_way_1121515170",
     "name": "Frozen food international",
     "country": "Kroatia",
@@ -16,5 +70,23 @@
     "address": "Frozen food international, Kukuljanovo, Industrijska zona Kukuljanovo, Kukuljanovo, Grad Bakar, Primorsko-goranska županija, 51227, Hrvatska",
     "category": "Innvandrerbutikk",
     "source": "https://www.openstreetmap.org/way/1121515170"
+  },
+  {
+    "id": "immigrant_osm_way_297870904",
+    "name": "Ria Export-Import d.o.o.",
+    "country": "Kroatia",
+    "countryCode": "HR",
+    "region": null,
+    "municipality": "Varaždin",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://ria.hr/",
+    "lat": 46.2944993,
+    "lon": 16.3661507,
+    "address": "Kučan Marof, Zelena 44, 42000, Varaždin",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/297870904"
   }
 ]
