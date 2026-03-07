@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_2486347560",
+    "name": "Bazaar",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "București",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4305236,
+    "lon": 26.1020221,
+    "address": "Bazaar, 10, Strada Covaci, Sf. Anton, Centrul Istoric, Sector 3, București, 030096, România",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2486347560"
+  },
+  {
+    "id": "immigrant_osm_node_9927659342",
+    "name": "Turkish Market",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": "Constanța",
+    "municipality": "Eforie Nord",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.0601356,
+    "lon": 28.6361888,
+    "address": "Turkish Market, Strada Mării, Eforie Nord, Zona Metropolitană Constanța, Constanța, 905300, România",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9927659342"
+  },
+  {
+    "id": "immigrant_osm_node_12163821106",
+    "name": "Turkish Market",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": "Constanța",
+    "municipality": "Eforie Nord",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.069884,
+    "lon": 28.6383892,
+    "address": "Turkish Market, Faleză, Eforie Nord, Zona Metropolitană Constanța, Constanța, 905300, România",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12163821106"
+  }
+]

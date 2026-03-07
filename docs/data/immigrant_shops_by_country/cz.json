@@ -1,0 +1,38 @@
+[
+  {
+    "id": "immigrant_osm_node_6266582472",
+    "name": "Asian Market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Praha",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0666563,
+    "lon": 14.5495056,
+    "address": "Asian Market, Kutnohorská, Praha-Dolní Měcholupy, SO Praha 15, obvod Praha 10, Praha, 102 03, Česko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6266582472"
+  },
+  {
+    "id": "immigrant_osm_node_5262153791",
+    "name": "World of Food",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": "Moravskoslezský kraj",
+    "municipality": "Frýdek-Místek",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6809236,
+    "lon": 18.3466892,
+    "address": "World of Food, Na Poříčí, Frýdek, Frýdek-Místek, okres Frýdek-Místek, Moravskoslezský kraj, Moravskoslezsko, 738 01, Česko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5262153791"
+  }
+]

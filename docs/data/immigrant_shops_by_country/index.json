@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T23:50:36.838468+00:00",
+  "generatedAt": "2026-03-07T00:23:07.442123+00:00",
   "countries": {
     "SE": {
       "count": 55,
@@ -22,11 +22,11 @@
       "status": "ok"
     },
     "BE": {
-      "count": 13,
+      "count": 77,
       "status": "ok"
     },
     "FR": {
-      "count": 24,
+      "count": 326,
       "status": "ok"
     },
     "IT": {
@@ -38,7 +38,7 @@
       "status": "ok"
     },
     "ES": {
-      "count": 436,
+      "count": 12,
       "status": "ok"
     },
     "GB": {
@@ -50,7 +50,7 @@
       "status": "ok"
     },
     "AT": {
-      "count": 91,
+      "count": 7,
       "status": "ok"
     },
     "CH": {
@@ -63,6 +63,94 @@
     },
     "LU": {
       "count": 5,
+      "status": "ok"
+    },
+    "PL": {
+      "count": 15,
+      "status": "ok"
+    },
+    "CZ": {
+      "count": 2,
+      "status": "ok"
+    },
+    "SK": {
+      "count": 11,
+      "status": "ok"
+    },
+    "HU": {
+      "count": 15,
+      "status": "ok"
+    },
+    "RO": {
+      "count": 3,
+      "status": "ok"
+    },
+    "BG": {
+      "count": 1,
+      "status": "ok"
+    },
+    "GR": {
+      "count": 53,
+      "status": "ok"
+    },
+    "HR": {
+      "count": 1,
+      "status": "ok"
+    },
+    "SI": {
+      "count": 4,
+      "status": "ok"
+    },
+    "EE": {
+      "count": 3,
+      "status": "ok"
+    },
+    "LV": {
+      "count": 5,
+      "status": "ok"
+    },
+    "LT": {
+      "count": 3,
+      "status": "ok"
+    },
+    "IS": {
+      "count": 3,
+      "status": "ok"
+    },
+    "MT": {
+      "count": 18,
+      "status": "ok"
+    },
+    "CY": {
+      "count": 9,
+      "status": "ok"
+    },
+    "AL": {
+      "count": 3,
+      "status": "ok"
+    },
+    "BA": {
+      "count": 0,
+      "status": "ok"
+    },
+    "ME": {
+      "count": 1,
+      "status": "ok"
+    },
+    "MK": {
+      "count": 1,
+      "status": "ok"
+    },
+    "RS": {
+      "count": 3,
+      "status": "ok"
+    },
+    "MD": {
+      "count": 16,
+      "status": "ok"
+    },
+    "UA": {
+      "count": 13,
       "status": "ok"
     }
   }

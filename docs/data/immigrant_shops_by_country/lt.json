@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_12177019201",
+    "name": "Bazaar Bab",
+    "country": "Litauen",
+    "countryCode": "LT",
+    "region": "Panevėžio apskritis",
+    "municipality": "Panevėžys",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.730273,
+    "lon": 24.3597606,
+    "address": "Bazaar Bab, 28, Respublikos g., Senamiestis, Panevėžys, Panevėžio miesto savivaldybė, Panevėžio apskritis, 35174, Lietuva",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12177019201"
+  },
+  {
+    "id": "immigrant_osm_node_6605501292",
+    "name": "Halal Market",
+    "country": "Litauen",
+    "countryCode": "LT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 54.8888826,
+    "lon": 23.9307542,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6605501292"
+  },
+  {
+    "id": "immigrant_osm_node_6783570127",
+    "name": "Halal Market",
+    "country": "Litauen",
+    "countryCode": "LT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 55.9204238,
+    "lon": 23.2914459,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6783570127"
+  }
+]

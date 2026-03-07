@@ -1,0 +1,290 @@
+[
+  {
+    "id": "immigrant_osm_node_8647443317",
+    "name": "Anastasia Cociug",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3892671,
+    "lon": 29.8717775,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8647443317"
+  },
+  {
+    "id": "immigrant_osm_node_4815615124",
+    "name": "Basarabia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Cimișlia",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5252335,
+    "lon": 28.7808664,
+    "address": "Bulevardul Ștefan cel Mare și Sfânt 144/V, MD-4101, Cimișlia",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4815615124"
+  },
+  {
+    "id": "immigrant_osm_node_4458068590",
+    "name": "Basarabia Nord",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Chișinău",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0329632,
+    "lon": 28.8452889,
+    "address": "Bulevardul Grigore Vieru 24, Chișinău",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4458068590"
+  },
+  {
+    "id": "immigrant_osm_node_6791390624",
+    "name": "Bazarcik",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Chișinău",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0334002,
+    "lon": 28.8629448,
+    "address": "Chișinău",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6791390624"
+  },
+  {
+    "id": "immigrant_osm_node_10047076117",
+    "name": "beiu anastasia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5443624,
+    "lon": 28.7038459,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10047076117"
+  },
+  {
+    "id": "immigrant_osm_node_5007266322",
+    "name": "Carabadjak viorica",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3002685,
+    "lon": 28.6553695,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5007266322"
+  },
+  {
+    "id": "immigrant_osm_node_4887295028",
+    "name": "Casial Grup",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Briceni",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.3603146,
+    "lon": 27.0900484,
+    "address": "Strada Prieteniei, Briceni",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4887295028"
+  },
+  {
+    "id": "immigrant_osm_node_12287947508",
+    "name": "Casian Andrei",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Blindești",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3115219,
+    "lon": 27.668845,
+    "address": "Strada Independenței 32, Blindești",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12287947508"
+  },
+  {
+    "id": "immigrant_osm_node_4803313922",
+    "name": "Cernous Anastasia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.6264817,
+    "lon": 29.4010622,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4803313922"
+  },
+  {
+    "id": "immigrant_osm_node_5223595824",
+    "name": "I.I Baidu Anastasia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.6110455,
+    "lon": 28.7560035,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5223595824"
+  },
+  {
+    "id": "immigrant_osm_node_7265893788",
+    "name": "II Anastasia Gălușca",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2386896,
+    "lon": 28.5307063,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7265893788"
+  },
+  {
+    "id": "immigrant_osm_node_11142017947",
+    "name": "Istanbul Bazaar",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Chișinău",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0157217,
+    "lon": 28.8415965,
+    "address": "Strada Tighina 28, Chișinău",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11142017947"
+  },
+  {
+    "id": "immigrant_osm_node_9776312217",
+    "name": "Nastasia Ioana",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.149179,
+    "lon": 28.1063236,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9776312217"
+  },
+  {
+    "id": "immigrant_osm_node_4797153523",
+    "name": "Spataru Anastasia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Cricova",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1370381,
+    "lon": 28.8595054,
+    "address": "Cricova",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4797153523"
+  },
+  {
+    "id": "immigrant_osm_node_6555263185",
+    "name": "Tigonasi Anastasia",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.221606,
+    "lon": 29.0578382,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6555263185"
+  },
+  {
+    "id": "immigrant_osm_node_11263488186",
+    "name": "Turkish Market",
+    "country": "Moldova",
+    "countryCode": "MD",
+    "region": null,
+    "municipality": "Chișinău",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0107104,
+    "lon": 28.8579879,
+    "address": "Bulevardul Iuri Gagarin 12, Chișinău",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11263488186"
+  }
+]

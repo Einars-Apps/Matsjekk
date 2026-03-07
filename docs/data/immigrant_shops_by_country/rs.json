@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_4242960709",
+    "name": "Albatros international",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.2496293,
+    "lon": 19.7806111,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4242960709"
+  },
+  {
+    "id": "immigrant_osm_node_4237520204",
+    "name": "albatros international prod5",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.2358246,
+    "lon": 19.7972333,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4237520204"
+  },
+  {
+    "id": "immigrant_osm_node_13072242367",
+    "name": "Twiga Pattern Bazaar",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "region": "Град Београд",
+    "municipality": "Градска општина Врачар",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8004305,
+    "lon": 20.4731388,
+    "address": "Twiga Pattern Bazaar, 19, Курсулина, Чубура, Београд (Врачар), Градска општина Врачар, Град Београд, Централна Србија, 11000, Србија",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13072242367"
+  }
+]

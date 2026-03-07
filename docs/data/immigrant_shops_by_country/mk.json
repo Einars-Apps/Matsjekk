@@ -1,0 +1,20 @@
+[
+  {
+    "id": "immigrant_osm_way_474869852",
+    "name": "Hotel Old Bazaar",
+    "country": "Nord-Makedonia",
+    "countryCode": "MK",
+    "region": "Град Скопје",
+    "municipality": "Скопје",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 42.0017355,
+    "lon": 21.4367474,
+    "address": "Hotel Old Bazaar, 105, Кавтанџиска, Дуќанџик, Чаир, Скопје, Општина Чаир, Град Скопје, 1000, Северна Македонија",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/474869852"
+  }
+]

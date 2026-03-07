@@ -1,0 +1,74 @@
+[
+  {
+    "id": "immigrant_osm_node_11878550441",
+    "name": "Atlas market - Turške dobrote",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "region": null,
+    "municipality": "Ljubljana",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0548247,
+    "lon": 14.5311161,
+    "address": "Atlas market - Turške dobrote, 22, Zaloška cesta, Kodeljevo, Četrtna skupnost Moste, Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11878550441"
+  },
+  {
+    "id": "immigrant_osm_node_13402672259",
+    "name": "Babu's Asian Market",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "region": null,
+    "municipality": "Ljubljana",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0485011,
+    "lon": 14.5018642,
+    "address": "Babu's Asian Market, 12, Slovenska cesta, Vrtača, Četrtna skupnost Center, Ljubljana, Upravna Enota Ljubljana, 1000, Slovenija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13402672259"
+  },
+  {
+    "id": "immigrant_osm_node_4307940123",
+    "name": "Bazaar",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "region": null,
+    "municipality": "Ljubljana",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0521156,
+    "lon": 14.5080493,
+    "address": "Bazaar, 16, Trubarjeva cesta, Ledina, Grajski grič, Četrtna skupnost Center, Ljubljana, Upravna Enota Ljubljana, 1104, Slovenija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4307940123"
+  },
+  {
+    "id": "immigrant_osm_node_5239779654",
+    "name": "Bazaar",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "region": null,
+    "municipality": "Maribor",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.560463,
+    "lon": 15.6546244,
+    "address": "Bazaar, 30, Partizanska cesta, Center, Maribor, 2000, Slovenija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5239779654"
+  }
+]

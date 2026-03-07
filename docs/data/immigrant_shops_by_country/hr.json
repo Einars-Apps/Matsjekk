@@ -1,0 +1,20 @@
+[
+  {
+    "id": "immigrant_osm_way_1121515170",
+    "name": "Frozen food international",
+    "country": "Kroatia",
+    "countryCode": "HR",
+    "region": "Primorsko-goranska županija",
+    "municipality": "Kukuljanovo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.3336333,
+    "lon": 14.5010834,
+    "address": "Frozen food international, Kukuljanovo, Industrijska zona Kukuljanovo, Kukuljanovo, Grad Bakar, Primorsko-goranska županija, 51227, Hrvatska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1121515170"
+  }
+]

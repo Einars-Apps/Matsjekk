@@ -1,0 +1,956 @@
+[
+  {
+    "id": "immigrant_osm_node_6592278643",
+    "name": "Asian Mini Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9851092,
+    "lon": 23.7377498,
+    "address": "Asian Mini Market, 72, Χαριλάου Τρικούπη, Λυκαβηττός, Νεάπολη, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 106 80, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6592278643"
+  },
+  {
+    "id": "immigrant_osm_way_654360884",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών",
+    "municipality": "Δήμος Αγίων Αναργύρων – Καματερού",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0490676,
+    "lon": 23.6957475,
+    "address": "Bazaar, Βορείου Ηπείρου, Δημοτική Ενότητα Καματερού, Δήμος Αγίων Αναργύρων – Καματερού, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 131 23, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/654360884"
+  },
+  {
+    "id": "immigrant_osm_way_404031138",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δήμος Χαλανδρίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.019801,
+    "lon": 23.7985951,
+    "address": "Bazaar, Θουκυδίδου, Σίδερα, Χαλάνδρι, Δήμος Χαλανδρίου, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 152 32, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/404031138"
+  },
+  {
+    "id": "immigrant_osm_way_964034595",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών",
+    "municipality": "Δήμος Αγίων Αναργύρων – Καματερού",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0273941,
+    "lon": 23.7207656,
+    "address": "Bazaar, 18, Αγίων Αναργύρων, Τσούμπα, Δημοτική Ενότητα Αγίων Αναργύρων, Δήμος Αγίων Αναργύρων – Καματερού, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 135 61, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/964034595"
+  },
+  {
+    "id": "immigrant_osm_way_455739436",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δήμος Αμαρουσίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0491442,
+    "lon": 23.7998334,
+    "address": "Bazaar, Μαραθωνομάχων, Εργατικές Κατοικίες, Μαρούσι, Δήμος Αμαρουσίου, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 151 24, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/455739436"
+  },
+  {
+    "id": "immigrant_osm_node_5454125313",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0160149,
+    "lon": 23.7366601,
+    "address": "Bazaar, 11, Γαλατσίου, Άγιος Λουκάς, Κάτω Πατήσια, Πατήσια, 5η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 111 41, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5454125313"
+  },
+  {
+    "id": "immigrant_osm_node_3584146619",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών",
+    "municipality": "Δήμος Καλλιθέας",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9534883,
+    "lon": 23.6988139,
+    "address": "Bazaar, 191, Ελευθερίου Βενιζέλου, Καλλιθέα, 1η Κοινότητα Καλλιθέας, Δήμος Καλλιθέας, Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 176 73, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3584146619"
+  },
+  {
+    "id": "immigrant_osm_node_9510858301",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0176826,
+    "lon": 23.7356431,
+    "address": "Bazaar, 332, Πατησίων, Άνω Πατήσια, Πατήσια, 5η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 111 44, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9510858301"
+  },
+  {
+    "id": "immigrant_osm_node_10969861122",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Καισαριανής",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9671727,
+    "lon": 23.7583559,
+    "address": "Bazaar, Εθνάρχου Μακαρίου, Καισαριανή, Δήμος Καισαριανής, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 161 21, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10969861122"
+  },
+  {
+    "id": "immigrant_osm_node_3998351363",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9757254,
+    "lon": 23.7286363,
+    "address": "Bazaar, Μητροπόλεως, Monastiràki, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 56, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3998351363"
+  },
+  {
+    "id": "immigrant_osm_node_10151966359",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Δήμος Κορυδαλλού",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9777993,
+    "lon": 23.6495743,
+    "address": "Bazaar, 80, Αθηνάς, Κορυδαλλός, Δήμος Κορυδαλλού, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 181 20, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10151966359"
+  },
+  {
+    "id": "immigrant_osm_node_3436427853",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9641886,
+    "lon": 23.7224,
+    "address": "Bazaar, Βεΐκου, Γαργαρέττα, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 117 41, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3436427853"
+  },
+  {
+    "id": "immigrant_osm_node_2134710282",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Βύρωνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9650965,
+    "lon": 23.7559648,
+    "address": "Bazaar, 47, Αρτοτίνης, Βύρωνας, Δήμος Βύρωνα, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 162 31, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2134710282"
+  },
+  {
+    "id": "immigrant_osm_node_4030594801",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9861239,
+    "lon": 23.7421698,
+    "address": "Bazaar, 139-141, Ιπποκράτους, Λυκαβηττός, Πευκάκια, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 114 72, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4030594801"
+  },
+  {
+    "id": "immigrant_osm_node_4464612067",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9810611,
+    "lon": 23.7576562,
+    "address": "Bazaar, Μιχαλακοπούλου, Κουντουριώτικα, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 28, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4464612067"
+  },
+  {
+    "id": "immigrant_osm_node_13231840528",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Γαλατσίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0129625,
+    "lon": 23.7503851,
+    "address": "Bazaar, Πυθαγόρα, Περιβόλια, Γαλάτσι, Δήμος Γαλατσίου, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 111 46, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13231840528"
+  },
+  {
+    "id": "immigrant_osm_node_13426592970",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9830913,
+    "lon": 23.7675876,
+    "address": "Bazaar, 141, Παπαδιαμαντοπούλου, Γουδή, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 27, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13426592970"
+  },
+  {
+    "id": "immigrant_osm_node_4782649947",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9967893,
+    "lon": 23.743538,
+    "address": "Bazaar, 1, Δοϊράνης, Νέα Κυψέλη, Συνοικία Νέας Κυψέλης, 6η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 113 63, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4782649947"
+  },
+  {
+    "id": "immigrant_osm_node_12646161631",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δήμος Αγίας Παρασκευής",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0065608,
+    "lon": 23.8272732,
+    "address": "Bazaar, Ελβετίας, Νέα Ζωή, Αγία Παρασκευή, Δήμος Αγίας Παρασκευής, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 153 42, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12646161631"
+  },
+  {
+    "id": "immigrant_osm_node_4394189824",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Βύρωνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9593904,
+    "lon": 23.7546351,
+    "address": "Bazaar, Χρυσοστόμου Σμύρνης, Νέα Ελβετία, Βύρωνας, Δήμος Βύρωνα, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 162 31, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4394189824"
+  },
+  {
+    "id": "immigrant_osm_node_6318025102",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0113569,
+    "lon": 23.7339953,
+    "address": "Bazaar, 19, Δευκαλίωνος, Πλατεία Κολιάτσου, Πατήσια, 5η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 112 54, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6318025102"
+  },
+  {
+    "id": "immigrant_osm_node_4641675520",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9937934,
+    "lon": 23.7290419,
+    "address": "Bazaar, Φωκαίας, Άγιος Παντελεήμονας, Κυψέλη, 6η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 104 34, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4641675520"
+  },
+  {
+    "id": "immigrant_osm_node_2917599333",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0006684,
+    "lon": 23.7436964,
+    "address": "Bazaar, 88, Κερκύρας, Νέα Κυψέλη, Συνοικία Νέας Κυψέλης, 6η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 113 63, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2917599333"
+  },
+  {
+    "id": "immigrant_osm_node_13095704548",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δήμος Αγίας Παρασκευής",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0150542,
+    "lon": 23.8208217,
+    "address": "Bazaar, Ελπίδος, Νέα Ζωή, Αγία Παρασκευή, Δήμος Αγίας Παρασκευής, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 153 42, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13095704548"
+  },
+  {
+    "id": "immigrant_osm_node_11077010231",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών",
+    "municipality": "Δήμος Ιλίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0314492,
+    "lon": 23.7078833,
+    "address": "Bazaar, 115, Νέστορος, Ριμινιτών, Ίλιον, Δήμος Ιλίου, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 131 22, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11077010231"
+  },
+  {
+    "id": "immigrant_osm_node_3453159451",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9318733,
+    "lon": 23.6307354,
+    "address": "Bazaar, Σβορώνου, Πειραϊκή, 1η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 39, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3453159451"
+  },
+  {
+    "id": "immigrant_osm_node_2838340447",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9310863,
+    "lon": 23.6395354,
+    "address": "Bazaar, 105, Ζαΐμη, Πηγάδα, 1η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 38, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2838340447"
+  },
+  {
+    "id": "immigrant_osm_node_13051508660",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δήμος Αγίας Παρασκευής",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0120309,
+    "lon": 23.8194568,
+    "address": "Bazaar, Ευεργέτου Γιαβάση, Νέα Ζωή, Αγία Παρασκευή, Δήμος Αγίας Παρασκευής, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 153 41, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13051508660"
+  },
+  {
+    "id": "immigrant_osm_node_4261861980",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9908176,
+    "lon": 23.7570306,
+    "address": "Bazaar, 73, Κεδρηνού, Πολύγωνο, Κουντουριώτικα, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 22, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4261861980"
+  },
+  {
+    "id": "immigrant_osm_node_9547688236",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών",
+    "municipality": "Δημοτική Ενότητα Χολαργού",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0028561,
+    "lon": 23.7954318,
+    "address": "Bazaar, Βεντούρη, Χολαργός, Κοινότητα Χολαργού, Δημοτική Ενότητα Χολαργού, Δήμος Παπάγου - Χολαργού, Περιφερειακή Ενότητα Βορείου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 155 61, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9547688236"
+  },
+  {
+    "id": "immigrant_osm_node_670368231",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών",
+    "municipality": "Δήμος Παλαιού Φαλήρου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9305175,
+    "lon": 23.6968378,
+    "address": "Bazaar, Πρωτέως, Παλμύρα, Αμφιθέα, Παλαιό Φάληρο, Δήμος Παλαιού Φαλήρου, Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 175 61, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/670368231"
+  },
+  {
+    "id": "immigrant_osm_node_3005477397",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9835853,
+    "lon": 23.7294379,
+    "address": "Bazaar, 104, Αιόλου, Ομόνοια, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 64, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3005477397"
+  },
+  {
+    "id": "immigrant_osm_node_1685148116",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9721268,
+    "lon": 23.7499129,
+    "address": "Bazaar, 52, Βασιλέως Γεωργίου Β', Συνοικία Παγκρατίου, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 116 34, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1685148116"
+  },
+  {
+    "id": "immigrant_osm_node_3967069080",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9339149,
+    "lon": 23.6402269,
+    "address": "Bazaar, Θεοχάρη Αντωνίου, Πηγάδα, 1η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 37, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3967069080"
+  },
+  {
+    "id": "immigrant_osm_node_4727598256",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9282933,
+    "lon": 23.6387612,
+    "address": "Bazaar, 146-148, Ακτή Θεμιστοκλέους, Φρεαττύδα, 1η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 37, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4727598256"
+  },
+  {
+    "id": "immigrant_osm_node_11628395686",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.991906,
+    "lon": 23.7146846,
+    "address": "Bazaar, Λένορμαν, Κολωνός, Συνοικία Κολωνού, 4η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 104 44, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11628395686"
+  },
+  {
+    "id": "immigrant_osm_node_9858056134",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών",
+    "municipality": "Δήμος Περιστερίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0131403,
+    "lon": 23.6896037,
+    "address": "Bazaar, Θηβών, Μάσχα, Περιστέρι, 4η Κοινότητα Περιστερίου, Δήμος Περιστερίου, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 121 34, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9858056134"
+  },
+  {
+    "id": "immigrant_osm_node_5489231523",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Δήμος Νίκαιας - Αγίου Ιωάννη Ρέντη",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9843312,
+    "lon": 23.632108,
+    "address": "Bazaar, 110, Κωστή Παλαμά, Νεάπολη, Δημοτική Ενότητα Νίκαιας, Δήμος Νίκαιας - Αγίου Ιωάννη Ρέντη, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 184 52, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5489231523"
+  },
+  {
+    "id": "immigrant_osm_node_11291943345",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών",
+    "municipality": "Δήμος Περιστερίου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0099764,
+    "lon": 23.6937989,
+    "address": "Bazaar, Βασιλέως Αλεξάνδρου, Μάσχα, Περιστέρι, 4η Κοινότητα Περιστερίου, Δήμος Περιστερίου, Περιφερειακή Ενότητα Δυτικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 121 31, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11291943345"
+  },
+  {
+    "id": "immigrant_osm_node_4000741484",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9668864,
+    "lon": 23.7299907,
+    "address": "Bazaar, 27Α, Ανδρέα Συγγρού, Κυνοσάργους, Συνοικία Νέου Κόσμου, 2η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 117 43, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4000741484"
+  },
+  {
+    "id": "immigrant_osm_node_4384301712",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9847211,
+    "lon": 23.7608872,
+    "address": "Bazaar, Σινώπης, Κουντουριώτικα, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 27, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4384301712"
+  },
+  {
+    "id": "immigrant_osm_node_5267536068",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Ζωγράφου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9794181,
+    "lon": 23.7621925,
+    "address": "Bazaar, 16, Γεωργίου Παπανδρέου, Ζωγράφου, Δήμος Ζωγράφου, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 157 71, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5267536068"
+  },
+  {
+    "id": "immigrant_osm_node_5707100818",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9940299,
+    "lon": 23.7691218,
+    "address": "Bazaar, Δαβάκη, Ερυθρός Σταυρός, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 26, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5707100818"
+  },
+  {
+    "id": "immigrant_osm_node_6739021128",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών",
+    "municipality": "Δήμος Μοσχάτου-Ταύρου",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9549717,
+    "lon": 23.6752341,
+    "address": "Bazaar, Πειραιώς, Δημοτική Ενότητα Μοσχάτου, Δήμος Μοσχάτου-Ταύρου, Περιφερειακή Ενότητα Νοτίου Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 182 33, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6739021128"
+  },
+  {
+    "id": "immigrant_osm_node_3998346578",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9756576,
+    "lon": 23.7307834,
+    "address": "Bazaar, Πετράκη, Πλάκα, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 63, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3998346578"
+  },
+  {
+    "id": "immigrant_osm_node_3327069278",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Δήμος Βύρωνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9642259,
+    "lon": 23.7516881,
+    "address": "Bazaar, Νικηφορίδη, Βύρωνας, 2η Κοινότητα Αθηνών, Δήμος Βύρωνα, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 116 33, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3327069278"
+  },
+  {
+    "id": "immigrant_osm_node_4772350822",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9794615,
+    "lon": 23.745432,
+    "address": "Bazaar, Ξενοκράτους, Λυκαβηττός, Συνοικία Κολωνακίου, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 106 76, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4772350822"
+  },
+  {
+    "id": "immigrant_osm_node_10613578405",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9728653,
+    "lon": 23.731362,
+    "address": "Bazaar, Αγγελικής Χατζημιχάλη, Πλάκα, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 105 58, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10613578405"
+  },
+  {
+    "id": "immigrant_osm_node_3005421804",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9866931,
+    "lon": 23.7336697,
+    "address": "Bazaar, Σουλτάνη, Μουσείο, 1η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 106 83, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3005421804"
+  },
+  {
+    "id": "immigrant_osm_node_4367024990",
+    "name": "Bazaar Express",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9348326,
+    "lon": 23.6455024,
+    "address": "Bazaar Express, Ζαννή, Φρεαττύδα, 1η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 36, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4367024990"
+  },
+  {
+    "id": "immigrant_osm_node_3889695855",
+    "name": "Bazaar Fresh Express",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Πειραιώς",
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9408178,
+    "lon": 23.65116,
+    "address": "Bazaar Fresh Express, 9-11, Βασιλέως Γεωργίου Β', Προφήτης Ηλίας, 2η Κοινότητα Πειραιά, Πειραιάς, Δήμος Πειραιώς, Περιφερειακή Ενότητα Πειραιώς, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 185 34, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3889695855"
+  },
+  {
+    "id": "immigrant_osm_node_5660411902",
+    "name": "Halal my market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9949067,
+    "lon": 23.7273333,
+    "address": "Halal my market, Αγκύρας, Άγιος Παντελεήμονας, Κυψέλη, 6η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 104 34, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5660411902"
+  },
+  {
+    "id": "immigrant_osm_node_5497737913",
+    "name": "Philipino Asian Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": "Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών",
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.989597,
+    "lon": 23.7649699,
+    "address": "Philipino Asian Market, Ήλιδος, Αμπελόκηποι, 7η Κοινότητα Αθηνών, Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 115 26, Ελλάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5497737913"
+  }
+]

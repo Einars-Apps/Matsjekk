@@ -1,0 +1,272 @@
+[
+  {
+    "id": "immigrant_osm_node_12952283474",
+    "name": "Asian Market",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2009374,
+    "lon": 20.8842412,
+    "address": "Asian Market, 4, Edwarda Habicha, Szamoty, Ursus, Warszawa, województwo mazowieckie, 02-495, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12952283474"
+  },
+  {
+    "id": "immigrant_osm_node_12165400768",
+    "name": "Asian Market",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": "Warszawa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2598276,
+    "lon": 20.9763017,
+    "address": "Asian Market, 13, Ludwika Rydygiera, Żoliborz Przemysłowy, Sady Żoliborskie, Żoliborz, Warszawa, województwo mazowieckie, 01-793, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12165400768"
+  },
+  {
+    "id": "immigrant_osm_way_140605022",
+    "name": "Asian Market",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "powiat łódzki wschodni",
+    "municipality": "Rzgów",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6460124,
+    "lon": 19.4925105,
+    "address": "Asian Market, Tuszyńska, Rzgów II, Rzgów, gmina Rzgów, powiat łódzki wschodni, województwo łódzkie, 95-030, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/140605022"
+  },
+  {
+    "id": "immigrant_osm_node_6467000554",
+    "name": "Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "powiat żywiecki",
+    "municipality": "Żywiec",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6890381,
+    "lon": 19.2004066,
+    "address": "Bazaar, 2, Jana III Sobieskiego, Rudza, Osiedle Parkowe, Śródmieście, Żywiec, powiat żywiecki, województwo śląskie, 34-300, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6467000554"
+  },
+  {
+    "id": "immigrant_osm_way_232577004",
+    "name": "Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "powiat lwówecki",
+    "municipality": "Lubomierz",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.013081,
+    "lon": 15.5112715,
+    "address": "Bazaar, 31, Plac Wolności, Lubomierz, gmina Lubomierz, powiat lwówecki, województwo dolnośląskie, 59-623, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/232577004"
+  },
+  {
+    "id": "immigrant_osm_node_12996130878",
+    "name": "Bazaar komis odzieżowy",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo mazowieckie",
+    "municipality": "Ostrołęka",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.0810959,
+    "lon": 21.5731818,
+    "address": "Bazaar komis odzieżowy, 5A, Generała Augusta Emila Fieldorfa \"Nila\", Osiedle Starosty Kosa, Śródmieście II, Ostrołęka, województwo mazowieckie, 07-410, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12996130878"
+  },
+  {
+    "id": "immigrant_osm_node_11916148930",
+    "name": "Beauty Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": "Warszawa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2265936,
+    "lon": 21.0395462,
+    "address": "Beauty Bazaar, 176, Czerniakowska, Powiśle-Solec, Solec, Śródmieście, Warszawa, województwo mazowieckie, 00-430, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11916148930"
+  },
+  {
+    "id": "immigrant_osm_node_7111116646",
+    "name": "Bistro Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo małopolskie",
+    "municipality": "Kraków",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0515727,
+    "lon": 19.9444307,
+    "address": "Bistro Bazaar, 6, Plac Nowy, Kazimierz, Stare Miasto, Kraków, województwo małopolskie, 31-058, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7111116646"
+  },
+  {
+    "id": "immigrant_osm_node_8617187633",
+    "name": "Desi Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": "Warszawa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2271997,
+    "lon": 20.9975912,
+    "address": "Desi Bazaar, 56C, Aleje Jerozolimskie, Filtry, Ochota, Warszawa, województwo mazowieckie, 02-001, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8617187633"
+  },
+  {
+    "id": "immigrant_osm_node_10919490216",
+    "name": "Eweline Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo świętokrzyskie",
+    "municipality": "Kielce",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8738306,
+    "lon": 20.6403512,
+    "address": "Eweline Bazaar, Starodomaszowska, Sandomierskie, Sady, Kielce, województwo świętokrzyskie, 25-315, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10919490216"
+  },
+  {
+    "id": "immigrant_osm_node_2918329656",
+    "name": "India Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo dolnośląskie",
+    "municipality": "Wrocław",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1113644,
+    "lon": 17.058157,
+    "address": "India Bazaar, plac Grunwaldzki, Manhattan, Plac Grunwaldzki, Wrocław, województwo dolnośląskie, 50-001, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2918329656"
+  },
+  {
+    "id": "immigrant_osm_node_10814210136",
+    "name": "India Bazaar Mokotów",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": "Warszawa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1853322,
+    "lon": 20.9953869,
+    "address": "India Bazaar Mokotów, 5B, Konstruktorska, Służewiec, Mokotów, Warszawa, województwo mazowieckie, 02-673, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10814210136"
+  },
+  {
+    "id": "immigrant_osm_node_9881528754",
+    "name": "Michael's Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "Warszawa",
+    "municipality": "Warszawa",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.20391,
+    "lon": 21.0126132,
+    "address": "Michael's Bazaar, 22, Kwiatowa, Stary Mokotów, Mokotów, Warszawa, województwo mazowieckie, 02-539, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9881528754"
+  },
+  {
+    "id": "immigrant_osm_node_3702048896",
+    "name": "Spice Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo wielkopolskie",
+    "municipality": "Poznań",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.4106553,
+    "lon": 16.9307141,
+    "address": "Spice Bazaar, Plac Wielkopolski, Piekary, Stare Miasto, Poznań, województwo wielkopolskie, 61-746, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3702048896"
+  },
+  {
+    "id": "immigrant_osm_node_10795488432",
+    "name": "Słodki Bazaar",
+    "country": "Polen",
+    "countryCode": "PL",
+    "region": "województwo małopolskie",
+    "municipality": "Kraków",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9992198,
+    "lon": 19.8949674,
+    "address": "Słodki Bazaar, 23F, Profesora Bolesława Wiktora Wicherkiewicza, Kliny Zacisze, Kliny, Swoszowice, Kraków, województwo małopolskie, 30-389, Polska",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10795488432"
+  }
+]
