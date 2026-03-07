@@ -39,7 +39,8 @@
     '/data/farmshops_by_country',
     '../../docs/data/farmshops_by_country',
   ];
-  const countrySliceBasePaths = Array.isArray(pageConfig.countrySliceBasePaths) && pageConfig.countrySliceBasePaths.length
+  const hasCustomCountrySliceBasePaths = Array.isArray(pageConfig.countrySliceBasePaths);
+  const countrySliceBasePaths = hasCustomCountrySliceBasePaths
     ? pageConfig.countrySliceBasePaths
     : defaultCountrySliceBasePaths;
   let activeFiltered = [];
