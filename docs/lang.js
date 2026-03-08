@@ -208,23 +208,9 @@ const countryToLanguage = {
   IE: 'en',
 };
 
-function hasNativeDictionary(code) {
-  const normalized = normalizeLanguageCode(code);
-  return Boolean(translations[normalized]);
-}
-
 function isGoogleTranslatedHost() {
   const host = String(window.location.hostname || '').toLowerCase();
   return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
-}
-
-function redirectToGoogleTranslate(targetLang) {
-  const normalized = normalizeLanguageCode(targetLang);
-  if (!normalized || normalized === 'nb' || hasNativeDictionary(normalized)) return false;
-  if (isGoogleTranslatedHost()) return false;
-  const url = `https://translate.google.com/translate?sl=nb&tl=${encodeURIComponent(normalized)}&u=${encodeURIComponent(window.location.href)}`;
-  window.location.assign(url);
-  return true;
 }
 
 function buildOriginalUrlFromTranslateProxy() {
