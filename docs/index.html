@@ -50,7 +50,7 @@
                 <a href="gardsbutikker.html" data-translate="navFarmshops">Gårdsbutikker</a>
                 <a href="okologiske-gardsbutikker.html" data-translate="navOrganicFarmshops">Økologiske gårdsbutikker</a>
                 <a href="innvandrerbutikker.html" data-translate="navImmigrantShops">Innvandrerbutikker</a>
-                <a href="#news" data-translate="navNews">Nyheter og media</a>
+                <a href="news.html" data-translate="navNews">Nyheter og media</a>
                 <a href="#contact" data-translate="navContact">Kontakt oss</a>
             </nav>
         </div>
@@ -165,39 +165,6 @@
             <p>📧 <a href="mailto:matsjekk@gmail.com">matsjekk@gmail.com</a></p>
         </section>
 
-        <section class="news" id="news">
-            <h2 data-translate="newsHeading">Nyheter og media</h2>
-            <p data-translate="newsIntro">Hold deg oppdatert — legg til relevante artikler om Bovaer, GMO, insektmel og bærekraft.</p>
-            <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. De går til moderering først.</p>
-
-            <div class="news-controls">
-                <label for="news-lang" data-translate="newsLanguageLabel">Lesespråk / oversett til:</label>
-                <select id="news-lang"></select>
-                <label for="news-region" data-translate="newsRegionLabel">Region:</label>
-                <select id="news-region"></select>
-                <button id="add-article-btn" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>
-            </div>
-
-            <div id="news-list" class="news-list"></div>
-
-            <div id="news-form" class="news-form hidden">
-                <h3 data-translate="newsFormHeading">Legg til artikkel</h3>
-                <label><span data-translate="newsFormTitleLabel">Tittel</span><br><input id="article-title" type="text"></label>
-                <label><span data-translate="newsFormSourceLabel">Kilde</span><br><input id="article-source" type="text"></label>
-                <label><span data-translate="newsFormUrlLabel">URL</span><br><input id="article-url" type="url"></label>
-                <label><span data-translate="newsFormLanguageLabel">Språk</span><br>
-                    <select id="article-lang">
-                        <option value="nb">Norsk (nb)</option>
-                        <option value="en">English</option>
-                    </select>
-                </label>
-                <div class="form-actions">
-                    <button id="save-article" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
-                    <button id="cancel-article" class="btn" data-translate="cancel">Avbryt</button>
-                </div>
-                <p id="news-form-status" class="muted"></p>
-            </div>
-        </section>
     </main>
 
     <footer>
@@ -210,8 +177,7 @@
             </p>
         </div>
     </footer>
-        <script src="lang.js?v=20260308d"></script>
-        <script src="news.js?v=20260308d"></script>
+        <script src="lang.js?v=20260308e"></script>
         <script src="js/ads-loader.js"></script>
         <script src="js/analytics-loader.js"></script>
         <script src="consent.js"></script>

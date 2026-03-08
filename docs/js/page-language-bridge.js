@@ -40,6 +40,50 @@
     return detectBrowserLang();
   }
 
+  function isGoogleTranslatedHost() {
+    const host = String(window.location.hostname || '').toLowerCase();
+    return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
+  }
+
+  function currentTranslatedLanguageFromUrl() {
+    const params = new URLSearchParams(window.location.search || '');
+    return normalizeLang(params.get('_x_tr_tl'));
+  }
+
+  function buildOriginalUrlFromTranslateProxy() {
+    const host = String(window.location.hostname || '').toLowerCase();
+    if (!isGoogleTranslatedHost()) return '';
+
+    let originHost = '';
+    if (host.endsWith('.translate.goog')) {
+      originHost = host.slice(0, -'.translate.goog'.length);
+    }
+    if (!originHost) return '';
+
+    const params = new URLSearchParams(window.location.search || '');
+    Array.from(params.keys()).forEach((key) => {
+      if (key.startsWith('_x_tr_')) params.delete(key);
+    });
+
+    const query = params.toString();
+    return `${window.location.protocol}//${originHost}${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
+  }
+
+  function redirectToGoogleTranslate(targetLang) {
+    const target = normalizeLang(targetLang);
+    if (!target || target === 'nb') return false;
+
+    const currentTl = currentTranslatedLanguageFromUrl();
+    if (isGoogleTranslatedHost() && currentTl === target) return false;
+
+    const originalUrl = isGoogleTranslatedHost()
+      ? (buildOriginalUrlFromTranslateProxy() || window.location.href)
+      : window.location.href;
+    const translateUrl = 'https://translate.google.com/translate?sl=nb&tl=' + encodeURIComponent(target) + '&u=' + encodeURIComponent(originalUrl);
+    window.location.assign(translateUrl);
+    return true;
+  }
+
   function injectLanguageSelector(currentLang) {
     const main = document.querySelector('main') || document.body;
     if (!main) return;
@@ -65,6 +109,11 @@
     resetBtn.style.padding = '6px 10px';
     resetBtn.addEventListener('click', function () {
       localStorage.setItem(STORAGE_KEY, 'nb');
+      const originUrl = isGoogleTranslatedHost() ? buildOriginalUrlFromTranslateProxy() : '';
+      if (originUrl) {
+        window.location.assign(originUrl);
+        return;
+      }
       window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
 
@@ -81,6 +130,18 @@
       const next = normalizeLang(select.value);
       const target = SUPPORTED.includes(next) ? next : 'nb';
       localStorage.setItem(STORAGE_KEY, target);
+
+      if (target === 'nb') {
+        const originUrl = isGoogleTranslatedHost() ? buildOriginalUrlFromTranslateProxy() : '';
+        if (originUrl) {
+          window.location.assign(originUrl);
+          return;
+        }
+        window.location.href = window.location.pathname + window.location.search + window.location.hash;
+        return;
+      }
+
+      if (redirectToGoogleTranslate(target)) return;
       window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
 
@@ -93,6 +154,10 @@
   const lang = preferredLang();
   document.documentElement.lang = lang || 'nb';
 
-  // Bridge selector stores language preference only.
+  if (redirectToGoogleTranslate(lang)) {
+    return;
+  }
+
+  // Bridge selector supports full-page translation fallback for pages without native dictionaries.
   injectLanguageSelector(lang);
 })();
