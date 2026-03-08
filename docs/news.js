@@ -42,6 +42,23 @@ const LANGUAGE_LABELS = {
   es: 'Espanol',
 };
 
+function safeStorageGet(key) {
+  try {
+    return localStorage.getItem(key);
+  } catch (_) {
+    return '';
+  }
+}
+
+function safeStorageSet(key, value) {
+  try {
+    localStorage.setItem(key, value);
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
 function safeJsonParse(raw, fallback) {
   try {
     return raw ? JSON.parse(raw) : fallback;
@@ -51,27 +68,27 @@ function safeJsonParse(raw, fallback) {
 }
 
 function getNews() {
-  return safeJsonParse(localStorage.getItem(NEWS_KEY), []);
+  return safeJsonParse(safeStorageGet(NEWS_KEY), []);
 }
 
 function saveNews(list) {
-  localStorage.setItem(NEWS_KEY, JSON.stringify(list));
+  safeStorageSet(NEWS_KEY, JSON.stringify(list));
 }
 
 function getPendingSubmissions() {
-  return safeJsonParse(localStorage.getItem(NEWS_PENDING_KEY), []);
+  return safeJsonParse(safeStorageGet(NEWS_PENDING_KEY), []);
 }
 
 function savePendingSubmissions(list) {
-  localStorage.setItem(NEWS_PENDING_KEY, JSON.stringify(list));
+  safeStorageSet(NEWS_PENDING_KEY, JSON.stringify(list));
 }
 
 function getPendingRemovals() {
-  return safeJsonParse(localStorage.getItem(NEWS_PENDING_REMOVAL_KEY), []);
+  return safeJsonParse(safeStorageGet(NEWS_PENDING_REMOVAL_KEY), []);
 }
 
 function savePendingRemovals(list) {
-  localStorage.setItem(NEWS_PENDING_REMOVAL_KEY, JSON.stringify(list));
+  safeStorageSet(NEWS_PENDING_REMOVAL_KEY, JSON.stringify(list));
 }
 
 function stripHtml(value) {
@@ -119,7 +136,7 @@ async function fetchRemoteNews() {
 }
 
 function readGeoCacheCountry() {
-  const raw = safeJsonParse(localStorage.getItem(GEO_CACHE_KEY), null);
+  const raw = safeJsonParse(safeStorageGet(GEO_CACHE_KEY), null);
   if (!raw?.country || !raw?.ts) return '';
   if (Date.now() - Number(raw.ts) > GEO_CACHE_MAX_AGE_MS) return '';
   return normalizeCountry(raw.country);
@@ -127,7 +144,7 @@ function readGeoCacheCountry() {
 
 function writeGeoCacheCountry(countryCode) {
   if (!countryCode) return;
-  localStorage.setItem(
+  safeStorageSet(
     GEO_CACHE_KEY,
     JSON.stringify({ country: normalizeCountry(countryCode), ts: Date.now() })
   );
@@ -165,7 +182,7 @@ function detectCountryCodeFromGeo() {
 function inferUserLanguage(preferredLang) {
   const direct = normalizeLang(preferredLang);
   if (direct) return direct;
-  const fromStorage = normalizeLang(localStorage.getItem('matsjekk_lang'));
+  const fromStorage = normalizeLang(safeStorageGet('matsjekk_lang'));
   if (fromStorage) return fromStorage;
   return normalizeLang(navigator.language || 'nb') || 'nb';
 }
@@ -202,7 +219,7 @@ function populateRegionSelect(preferredLang) {
   const select = document.getElementById('news-region');
   if (!select) return;
 
-  const current = String(localStorage.getItem('matsjekk_news_region') || 'auto').toLowerCase();
+  const current = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
   select.innerHTML = '';
 
   REGION_MODES.forEach((mode) => {
@@ -397,7 +414,7 @@ function createNewsCard(article, preferredLang) {
 
 async function renderNews(preferredLang) {
   const lang = inferUserLanguage(preferredLang);
-  localStorage.setItem('matsjekk_lang', lang);
+  safeStorageSet('matsjekk_lang', lang);
   populateRegionSelect(lang);
 
   const localNews = getNews();
@@ -527,15 +544,15 @@ function initNews() {
   if (langSelect) {
     langSelect.addEventListener('change', (event) => {
       const nextLang = normalizeLang(event.target.value || 'nb') || 'nb';
-      localStorage.setItem('matsjekk_lang', nextLang);
+      safeStorageSet('matsjekk_lang', nextLang);
       renderNews(nextLang);
     });
   }
 
   if (regionSelect) {
     regionSelect.addEventListener('change', () => {
-      localStorage.setItem('matsjekk_news_region', regionSelect.value || 'auto');
-      const lang = normalizeLang((langSelect && langSelect.value) || localStorage.getItem('matsjekk_lang') || 'nb');
+      safeStorageSet('matsjekk_news_region', regionSelect.value || 'auto');
+      const lang = normalizeLang((langSelect && langSelect.value) || safeStorageGet('matsjekk_lang') || 'nb');
       renderNews(lang);
     });
   }
@@ -544,12 +561,21 @@ function initNews() {
 
   const initialLang = normalizeLang(
     (document.getElementById('news-lang') && document.getElementById('news-lang').value) ||
-    localStorage.getItem('matsjekk_lang') ||
+    safeStorageGet('matsjekk_lang') ||
     navigator.language ||
     'nb'
   ) || 'nb';
 
-  renderNews(initialLang);
+  renderNews(initialLang).catch((error) => {
+    console.error('News initialization failed', error);
+    const container = document.getElementById('news-list');
+    if (!container) return;
+    container.innerHTML = '';
+    const muted = document.createElement('p');
+    muted.className = 'muted';
+    muted.textContent = 'Nyheter kunne ikke lastes. Proev aa oppdatere siden.';
+    container.appendChild(muted);
+  });
 }
 
 window.renderNews = renderNews;

@@ -165,6 +165,32 @@ const LANG_STORAGE_KEY = 'matsjekk_lang';
 const GEO_CACHE_KEY = 'matsjekk_geo_country';
 const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
+function safeStorageGet(key) {
+  try {
+    return localStorage.getItem(key);
+  } catch (_) {
+    return '';
+  }
+}
+
+function safeStorageSet(key, value) {
+  try {
+    localStorage.setItem(key, value);
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
+function safeStorageRemove(key) {
+  try {
+    localStorage.removeItem(key);
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
 const countryToLanguage = {
   NO: 'nb',
   SE: 'sv',
@@ -201,6 +227,32 @@ function redirectToGoogleTranslate(targetLang) {
   return true;
 }
 
+function buildOriginalUrlFromTranslateProxy() {
+  const host = String(window.location.hostname || '').toLowerCase();
+  if (!isGoogleTranslatedHost()) return '';
+
+  let originHost = '';
+  if (host.endsWith('.translate.goog')) {
+    originHost = host.slice(0, -'.translate.goog'.length);
+  }
+  if (!originHost) return '';
+
+  const params = new URLSearchParams(window.location.search || '');
+  const translatedTo = normalizeLanguageCode(params.get('_x_tr_tl'));
+
+  const keys = Array.from(params.keys());
+  keys.forEach((key) => {
+    if (key.startsWith('_x_tr_')) params.delete(key);
+  });
+
+  if (translatedTo && isSupportedLanguage(translatedTo)) {
+    params.set('lang', translatedTo);
+  }
+
+  const query = params.toString();
+  return `${window.location.protocol}//${originHost}${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
+}
+
 function normalizeLanguageCode(value) {
   const raw = String(value || '').trim().toLowerCase();
   if (!raw) return '';
@@ -227,7 +279,7 @@ function detectBrowserLanguage() {
 
 function readGeoCacheCountry() {
   try {
-    const raw = localStorage.getItem(GEO_CACHE_KEY);
+    const raw = safeStorageGet(GEO_CACHE_KEY);
     if (!raw) return '';
     const parsed = JSON.parse(raw);
     if (!parsed || !parsed.country || !parsed.ts) return '';
@@ -241,7 +293,7 @@ function readGeoCacheCountry() {
 function writeGeoCacheCountry(countryCode) {
   if (!countryCode) return;
   try {
-    localStorage.setItem(
+    safeStorageSet(
       GEO_CACHE_KEY,
       JSON.stringify({ country: String(countryCode).toUpperCase(), ts: Date.now() })
     );
@@ -331,8 +383,20 @@ async function resolveAutoLanguage() {
 }
 
 async function loadLanguage() {
-  const saved = normalizeLanguageCode(localStorage.getItem(LANG_STORAGE_KEY));
-  const lang = saved && isSupportedLanguage(saved) ? saved : await resolveAutoLanguage();
+  const params = new URLSearchParams(window.location.search || '');
+  const queryLang = normalizeLanguageCode(params.get('lang'));
+  const saved = normalizeLanguageCode(safeStorageGet(LANG_STORAGE_KEY));
+  const picked = queryLang && isSupportedLanguage(queryLang) ? queryLang : saved;
+  const lang = picked && isSupportedLanguage(picked) ? picked : await resolveAutoLanguage();
+
+  safeStorageSet(LANG_STORAGE_KEY, lang);
+
+  if (queryLang) {
+    params.delete('lang');
+    const query = params.toString();
+    const cleanUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
+    window.history.replaceState({}, document.title, cleanUrl);
+  }
 
   const langSelect = document.getElementById('lang-select');
   const newsSelect = document.getElementById('news-lang');
@@ -347,6 +411,14 @@ async function loadLanguage() {
 }
 
 function initLanguage() {
+  if (isGoogleTranslatedHost()) {
+    const originUrl = buildOriginalUrlFromTranslateProxy();
+    if (originUrl) {
+      window.location.replace(originUrl);
+      return;
+    }
+  }
+
   populateLangSelects();
   loadLanguage().then((lang) => {
     if (typeof window.renderNews === 'function') {
@@ -360,7 +432,7 @@ function initLanguage() {
   langSelect.addEventListener('change', (event) => {
     const selected = normalizeLanguageCode(event.target.value);
     const nextLang = isSupportedLanguage(selected) ? selected : 'nb';
-    localStorage.setItem(LANG_STORAGE_KEY, nextLang);
+    safeStorageSet(LANG_STORAGE_KEY, nextLang);
 
     const newsSelect = document.getElementById('news-lang');
     const articleSelect = document.getElementById('article-lang');
@@ -380,7 +452,7 @@ function initLanguage() {
 }
 
 function resetLanguagePreference() {
-  localStorage.removeItem(LANG_STORAGE_KEY);
+  safeStorageRemove(LANG_STORAGE_KEY);
   window.location.href = window.location.pathname + window.location.search + window.location.hash;
 }
 
