@@ -213,26 +213,6 @@ function isGoogleTranslatedHost() {
   return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
 }
 
-function currentTranslatedLanguageFromUrl() {
-  const params = new URLSearchParams(window.location.search || '');
-  return normalizeLanguageCode(params.get('_x_tr_tl'));
-}
-
-function redirectToGoogleTranslate(targetLang) {
-  const normalized = normalizeLanguageCode(targetLang);
-  if (!normalized || normalized === 'nb') return false;
-
-  const currentTl = currentTranslatedLanguageFromUrl();
-  if (isGoogleTranslatedHost() && currentTl === normalized) return false;
-
-  const originalUrl = isGoogleTranslatedHost()
-    ? (buildOriginalUrlFromTranslateProxy() || window.location.href)
-    : window.location.href;
-  const url = `https://translate.google.com/translate?sl=nb&tl=${encodeURIComponent(normalized)}&u=${encodeURIComponent(originalUrl)}`;
-  window.location.assign(url);
-  return true;
-}
-
 function buildOriginalUrlFromTranslateProxy() {
   const host = String(window.location.hostname || '').toLowerCase();
   if (!isGoogleTranslatedHost()) return '';
@@ -412,15 +392,19 @@ async function loadLanguage() {
   if (newsSelect) newsSelect.value = lang;
   if (articleSelect) articleSelect.value = lang;
 
-  if (redirectToGoogleTranslate(lang)) {
-    return lang;
-  }
-
   applyTranslations(lang);
   return lang;
 }
 
 function initLanguage() {
+  if (isGoogleTranslatedHost()) {
+    const originUrl = buildOriginalUrlFromTranslateProxy();
+    if (originUrl) {
+      window.location.replace(originUrl);
+      return;
+    }
+  }
+
   populateLangSelects();
   loadLanguage().then((lang) => {
     if (typeof window.renderNews === 'function') {
@@ -440,18 +424,6 @@ function initLanguage() {
     const articleSelect = document.getElementById('article-lang');
     if (newsSelect) newsSelect.value = nextLang;
     if (articleSelect) articleSelect.value = nextLang;
-
-    if (nextLang === 'nb') {
-      const originUrl = isGoogleTranslatedHost() ? buildOriginalUrlFromTranslateProxy() : '';
-      if (originUrl) {
-        window.location.assign(originUrl);
-        return;
-      }
-    }
-
-    if (redirectToGoogleTranslate(nextLang)) {
-      return;
-    }
 
     applyTranslations(nextLang);
     if (typeof window.renderNews === 'function') {

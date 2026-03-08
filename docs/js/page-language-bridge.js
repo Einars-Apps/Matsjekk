@@ -45,11 +45,6 @@
     return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
   }
 
-  function currentTranslatedLanguageFromUrl() {
-    const params = new URLSearchParams(window.location.search || '');
-    return normalizeLang(params.get('_x_tr_tl'));
-  }
-
   function buildOriginalUrlFromTranslateProxy() {
     const host = String(window.location.hostname || '').toLowerCase();
     if (!isGoogleTranslatedHost()) return '';
@@ -67,21 +62,6 @@
 
     const query = params.toString();
     return `${window.location.protocol}//${originHost}${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
-  }
-
-  function redirectToGoogleTranslate(targetLang) {
-    const target = normalizeLang(targetLang);
-    if (!target || target === 'nb') return false;
-
-    const currentTl = currentTranslatedLanguageFromUrl();
-    if (isGoogleTranslatedHost() && currentTl === target) return false;
-
-    const originalUrl = isGoogleTranslatedHost()
-      ? (buildOriginalUrlFromTranslateProxy() || window.location.href)
-      : window.location.href;
-    const translateUrl = 'https://translate.google.com/translate?sl=nb&tl=' + encodeURIComponent(target) + '&u=' + encodeURIComponent(originalUrl);
-    window.location.assign(translateUrl);
-    return true;
   }
 
   function injectLanguageSelector(currentLang) {
@@ -131,17 +111,6 @@
       const target = SUPPORTED.includes(next) ? next : 'nb';
       localStorage.setItem(STORAGE_KEY, target);
 
-      if (target === 'nb') {
-        const originUrl = isGoogleTranslatedHost() ? buildOriginalUrlFromTranslateProxy() : '';
-        if (originUrl) {
-          window.location.assign(originUrl);
-          return;
-        }
-        window.location.href = window.location.pathname + window.location.search + window.location.hash;
-        return;
-      }
-
-      if (redirectToGoogleTranslate(target)) return;
       window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
 
@@ -154,10 +123,18 @@
   const lang = preferredLang();
   document.documentElement.lang = lang || 'nb';
 
-  if (redirectToGoogleTranslate(lang)) {
+  if (isGoogleTranslatedHost()) {
+    const originUrl = buildOriginalUrlFromTranslateProxy();
+    if (originUrl) {
+      window.location.replace(originUrl);
+      return;
+    }
+  }
+
+  if (!SUPPORTED.includes(lang)) {
     return;
   }
 
-  // Bridge selector supports full-page translation fallback for pages without native dictionaries.
+  // Bridge selector stores language preferences locally on static pages.
   injectLanguageSelector(lang);
 })();
