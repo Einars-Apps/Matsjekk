@@ -85,8 +85,8 @@
     </div>
   </footer>
 
-  <script src="lang.js?v=20260308k"></script>
-  <script src="news.js?v=20260308k"></script>
+  <script src="lang.js?v=20260308l"></script>
+  <script src="news.js?v=20260308l"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
@@ -110,36 +110,9 @@
       }
 
       window.setTimeout(function () {
-        var list = document.getElementById('news-list');
-        if (!list) return;
-        var stillLoading = /Laster nyheter|Loading/i.test(list.textContent || '');
-        if (!stillLoading) return;
-
-        fetch('data/news.latest.json', { cache: 'no-cache' })
-          .then(function (r) { return r.ok ? r.json() : { items: [] }; })
-          .then(function (payload) {
-            var items = Array.isArray(payload && payload.items) ? payload.items.slice(0, 20) : [];
-            list.innerHTML = '';
-            if (!items.length) {
-              list.innerHTML = '<p class="muted">Ingen artikler tilgjengelig akkurat na.</p>';
-              return;
-            }
-
-            items.forEach(function (item) {
-              var card = document.createElement('article');
-              card.className = 'news-card';
-              var title = String(item.title || 'Untitled');
-              var url = String(item.url || '#');
-              var source = String(item.source || 'Ukjent kilde');
-              var date = String(item.pubDate || '').slice(0, 10);
-              card.innerHTML = '<h4><a href="' + url + '" target="_blank" rel="noopener">' + title + '</a></h4>' +
-                '<p class="meta">' + source + (date ? ' • ' + date : '') + '</p>';
-              list.appendChild(card);
-            });
-          })
-          .catch(function () {
-            list.innerHTML = '<p class="muted">Nyheter kunne ikke lastes. Prov igjen senere.</p>';
-          });
+        if (typeof window.renderNews !== 'function') return;
+        var preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';
+        window.renderNews(preferred).catch(function () {});
       }, 1600);
     });
   </script>

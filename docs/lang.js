@@ -256,19 +256,6 @@ function isLocalUiLanguage(code) {
   return LOCAL_UI_LANGUAGES.includes(normalizeLanguageCode(code));
 }
 
-function buildPageTranslateUrl(targetLang) {
-  const current = new URL(window.location.href);
-  current.searchParams.set('matsjekk_translate', '1');
-  const sourceUrl = current.toString();
-  return `https://translate.google.com/translate?sl=auto&tl=${encodeURIComponent(targetLang)}&u=${encodeURIComponent(sourceUrl)}`;
-}
-
-function navigateToTranslatedPage(targetLang) {
-  const normalized = normalizeLanguageCode(targetLang);
-  if (!normalized || !isSupportedLanguage(normalized) || isLocalUiLanguage(normalized)) return;
-  window.location.href = buildPageTranslateUrl(normalized);
-}
-
 function detectBrowserLanguage() {
   const candidates = [
     ...(Array.isArray(navigator.languages) ? navigator.languages : []),
@@ -414,12 +401,11 @@ async function loadLanguage() {
   const resolvedLang = useAuto ? await resolveAutoLanguage() : picked;
   const effectiveLang = isLocalUiLanguage(resolvedLang) ? resolvedLang : 'en';
 
-  // Keep storage stable so users do not get stuck in a mixed/localized fallback state.
-  safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : (isLocalUiLanguage(resolvedLang) ? resolvedLang : AUTO_LANGUAGE_CODE));
+  // Keep selected language stable and avoid locking users into translated proxy URLs.
+  safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : resolvedLang);
 
-  if (queryLang || params.has('matsjekk_translate')) {
+  if (queryLang) {
     params.delete('lang');
-    params.delete('matsjekk_translate');
     const query = params.toString();
     const cleanUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
     window.history.replaceState({}, document.title, cleanUrl);
@@ -442,10 +428,6 @@ async function loadLanguage() {
 
 function initLanguage() {
   if (isGoogleTranslatedHost()) {
-    const translateMode = new URLSearchParams(window.location.search || '').get('matsjekk_translate') === '1';
-    if (translateMode) {
-      return;
-    }
     const originUrl = buildOriginalUrlFromTranslateProxy();
     if (originUrl) {
       window.location.replace(originUrl);
@@ -483,13 +465,6 @@ function initLanguage() {
     }
 
     const nextLang = isSupportedLanguage(selected) ? selected : 'nb';
-
-    if (!isLocalUiLanguage(nextLang)) {
-      safeStorageSet(LANG_STORAGE_KEY, nextLang);
-      navigateToTranslatedPage(nextLang);
-      return;
-    }
-
     safeStorageSet(LANG_STORAGE_KEY, nextLang);
 
     const newsSelect = document.getElementById('news-lang');
@@ -497,7 +472,8 @@ function initLanguage() {
     if (newsSelect) newsSelect.value = nextLang;
     if (articleSelect) articleSelect.value = nextLang;
 
-    applyTranslations(nextLang);
+    const effectiveLang = isLocalUiLanguage(nextLang) ? nextLang : 'en';
+    applyTranslations(effectiveLang);
     if (typeof window.renderNews === 'function') {
       window.renderNews(nextLang);
     }

@@ -219,7 +219,7 @@ function populateRegionSelect(preferredLang) {
   const select = document.getElementById('news-region');
   if (!select) return;
 
-  const current = String(safeStorageGet('matsjekk_news_region') || 'global').toLowerCase();
+  const current = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
   select.innerHTML = '';
 
   REGION_MODES.forEach((mode) => {
@@ -229,7 +229,7 @@ function populateRegionSelect(preferredLang) {
     select.appendChild(option);
   });
 
-  select.value = REGION_MODES.some((entry) => entry.value === current) ? current : 'global';
+  select.value = REGION_MODES.some((entry) => entry.value === current) ? current : 'auto';
 }
 
 function yamlQuoted(value) {
@@ -301,7 +301,7 @@ function countryScopeContains(scope, country) {
   if (scope === null) return true;
   if (scope && scope.size === 0) return true; // Europe mode: include all available country-tagged items
   const normalized = normalizeCountry(country);
-  if (!normalized) return true;
+  if (!normalized) return false;
   return scope.has(normalized);
 }
 
