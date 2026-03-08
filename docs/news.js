@@ -219,7 +219,7 @@ function populateRegionSelect(preferredLang) {
   const select = document.getElementById('news-region');
   if (!select) return;
 
-  const current = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
+  const current = String(safeStorageGet('matsjekk_news_region') || 'global').toLowerCase();
   select.innerHTML = '';
 
   REGION_MODES.forEach((mode) => {
@@ -229,7 +229,7 @@ function populateRegionSelect(preferredLang) {
     select.appendChild(option);
   });
 
-  select.value = REGION_MODES.some((entry) => entry.value === current) ? current : 'auto';
+  select.value = REGION_MODES.some((entry) => entry.value === current) ? current : 'global';
 }
 
 function yamlQuoted(value) {
@@ -551,7 +551,7 @@ function initNews() {
 
   if (regionSelect) {
     regionSelect.addEventListener('change', () => {
-      safeStorageSet('matsjekk_news_region', regionSelect.value || 'auto');
+      safeStorageSet('matsjekk_news_region', regionSelect.value || 'global');
       const lang = normalizeLang((langSelect && langSelect.value) || safeStorageGet('matsjekk_lang') || 'nb');
       renderNews(lang);
     });
