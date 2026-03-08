@@ -219,7 +219,8 @@ function populateRegionSelect(preferredLang) {
   const select = document.getElementById('news-region');
   if (!select) return;
 
-  const current = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
+  const stored = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
+  const current = stored === 'global' ? 'auto' : stored;
   select.innerHTML = '';
 
   REGION_MODES.forEach((mode) => {
@@ -551,7 +552,7 @@ function initNews() {
 
   if (regionSelect) {
     regionSelect.addEventListener('change', () => {
-      safeStorageSet('matsjekk_news_region', regionSelect.value || 'global');
+      safeStorageSet('matsjekk_news_region', regionSelect.value || 'auto');
       const lang = normalizeLang((langSelect && langSelect.value) || safeStorageGet('matsjekk_lang') || 'nb');
       renderNews(lang);
     });
