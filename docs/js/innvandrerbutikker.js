@@ -671,11 +671,33 @@
     return PAGE_TRANSLATIONS.nb;
   }
 
+  function hasNativeDictionary(languageCode) {
+    const code = (languageCode || '').toLowerCase();
+    return Boolean(PAGE_TRANSLATIONS[code]);
+  }
+
+  function isGoogleTranslatedHost() {
+    const host = String(window.location.hostname || '').toLowerCase();
+    return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
+  }
+
+  function redirectToGoogleTranslate(targetLang) {
+    const code = (targetLang || '').toLowerCase();
+    if (!code || code === 'nb' || hasNativeDictionary(code)) return false;
+    if (isGoogleTranslatedHost()) return false;
+    const url = `https://translate.google.com/translate?sl=nb&tl=${encodeURIComponent(code)}&u=${encodeURIComponent(window.location.href)}`;
+    window.location.assign(url);
+    return true;
+  }
+
   function translate(key) {
     return languageDict(currentPageLanguage)[key] || languageDict('nb')[key] || '';
   }
 
   function detectPreferredLanguage() {
+    const saved = String(localStorage.getItem('matsjekk_lang') || '').toLowerCase().split('-')[0];
+    if (SUPPORTED_LANGUAGES.includes(saved)) return saved;
+
     const raw = [
       ...(Array.isArray(navigator.languages) ? navigator.languages : []),
       navigator.language,
@@ -686,6 +708,16 @@
       const code = String(entry).toLowerCase().split('-')[0];
       if (SUPPORTED_LANGUAGES.includes(code)) return code;
     }
+
+    try {
+      const geo = JSON.parse(localStorage.getItem('matsjekk_geo_country') || '{}');
+      const cc = String(geo?.country || '').toUpperCase();
+      const byCountry = { NO: 'nb', SE: 'sv', DK: 'da', FI: 'fi', DE: 'de', NL: 'nl', FR: 'fr', IT: 'it', PT: 'pt', ES: 'es' };
+      if (byCountry[cc] && SUPPORTED_LANGUAGES.includes(byCountry[cc])) return byCountry[cc];
+    } catch (_) {
+      // Ignore invalid geo cache values.
+    }
+
     return 'nb';
   }
 
@@ -773,6 +805,8 @@
     const selectedMode = saved === 'auto' || SUPPORTED_LANGUAGES.includes(saved) ? saved : 'auto';
     languageSelect.value = selectedMode;
     const initialLanguage = selectedMode === 'auto' ? detectPreferredLanguage() : selectedMode;
+    localStorage.setItem('matsjekk_lang', initialLanguage);
+    if (redirectToGoogleTranslate(initialLanguage)) return;
     applyPageLanguage(initialLanguage);
 
     languageSelect.addEventListener('change', () => {
@@ -780,6 +814,8 @@
       const normalizedMode = nextMode === 'auto' || SUPPORTED_LANGUAGES.includes(nextMode) ? nextMode : 'auto';
       localStorage.setItem(LANGUAGE_STORAGE_KEY, normalizedMode);
       const nextLanguage = normalizedMode === 'auto' ? detectPreferredLanguage() : normalizedMode;
+      localStorage.setItem('matsjekk_lang', nextLanguage);
+      if (redirectToGoogleTranslate(nextLanguage)) return;
       applyPageLanguage(nextLanguage);
       filterShops();
     });
