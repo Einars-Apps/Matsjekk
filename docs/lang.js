@@ -12,6 +12,9 @@ const supportedLanguages = [
   { code: 'es', label: 'Espanol' },
 ];
 
+const AUTO_LANGUAGE_CODE = 'auto';
+const LOCAL_UI_LANGUAGES = ['nb', 'en'];
+
 const translations = {
   nb: {
     title: '🛒 Mat Sjekk',
@@ -249,6 +252,23 @@ function isSupportedLanguage(code) {
   return supportedLanguages.some((entry) => entry.code === code);
 }
 
+function isLocalUiLanguage(code) {
+  return LOCAL_UI_LANGUAGES.includes(normalizeLanguageCode(code));
+}
+
+function buildPageTranslateUrl(targetLang) {
+  const current = new URL(window.location.href);
+  current.searchParams.set('matsjekk_translate', '1');
+  const sourceUrl = current.toString();
+  return `https://translate.google.com/translate?sl=auto&tl=${encodeURIComponent(targetLang)}&u=${encodeURIComponent(sourceUrl)}`;
+}
+
+function navigateToTranslatedPage(targetLang) {
+  const normalized = normalizeLanguageCode(targetLang);
+  if (!normalized || !isSupportedLanguage(normalized) || isLocalUiLanguage(normalized)) return;
+  window.location.href = buildPageTranslateUrl(normalized);
+}
+
 function detectBrowserLanguage() {
   const candidates = [
     ...(Array.isArray(navigator.languages) ? navigator.languages : []),
@@ -343,6 +363,12 @@ function applyTranslations(lang) {
 function populateSelect(selectElement) {
   if (!selectElement) return;
   selectElement.innerHTML = '';
+
+  const autoOption = document.createElement('option');
+  autoOption.value = AUTO_LANGUAGE_CODE;
+  autoOption.textContent = 'Auto';
+  selectElement.appendChild(autoOption);
+
   supportedLanguages.forEach((entry) => {
     const option = document.createElement('option');
     option.value = entry.code;
@@ -383,13 +409,17 @@ async function loadLanguage() {
   const params = new URLSearchParams(window.location.search || '');
   const queryLang = normalizeLanguageCode(params.get('lang'));
   const saved = normalizeLanguageCode(safeStorageGet(LANG_STORAGE_KEY));
-  const picked = queryLang && isSupportedLanguage(queryLang) ? queryLang : saved;
-  const lang = picked && isSupportedLanguage(picked) ? picked : await resolveAutoLanguage();
+  const picked = queryLang || saved || AUTO_LANGUAGE_CODE;
+  const useAuto = picked === AUTO_LANGUAGE_CODE || (!isSupportedLanguage(picked) && picked !== AUTO_LANGUAGE_CODE);
+  const resolvedLang = useAuto ? await resolveAutoLanguage() : picked;
+  const effectiveLang = isLocalUiLanguage(resolvedLang) ? resolvedLang : 'en';
 
-  safeStorageSet(LANG_STORAGE_KEY, lang);
+  // Keep storage stable so users do not get stuck in a mixed/localized fallback state.
+  safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : (isLocalUiLanguage(resolvedLang) ? resolvedLang : AUTO_LANGUAGE_CODE));
 
-  if (queryLang) {
+  if (queryLang || params.has('matsjekk_translate')) {
     params.delete('lang');
+    params.delete('matsjekk_translate');
     const query = params.toString();
     const cleanUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
     window.history.replaceState({}, document.title, cleanUrl);
@@ -400,18 +430,22 @@ async function loadLanguage() {
   const articleSelect = document.getElementById('article-lang');
 
   if (langSelect) {
-    langSelect.value = lang;
-    if (!langSelect.value) langSelect.value = 'nb';
+    langSelect.value = useAuto ? AUTO_LANGUAGE_CODE : resolvedLang;
+    if (!langSelect.value) langSelect.value = AUTO_LANGUAGE_CODE;
   }
-  if (newsSelect) newsSelect.value = lang;
-  if (articleSelect) articleSelect.value = lang;
+  if (newsSelect) newsSelect.value = resolvedLang;
+  if (articleSelect) articleSelect.value = resolvedLang;
 
-  applyTranslations(lang);
-  return lang;
+  applyTranslations(effectiveLang);
+  return resolvedLang;
 }
 
 function initLanguage() {
   if (isGoogleTranslatedHost()) {
+    const translateMode = new URLSearchParams(window.location.search || '').get('matsjekk_translate') === '1';
+    if (translateMode) {
+      return;
+    }
     const originUrl = buildOriginalUrlFromTranslateProxy();
     if (originUrl) {
       window.location.replace(originUrl);
@@ -429,9 +463,33 @@ function initLanguage() {
   const langSelect = document.getElementById('lang-select');
   if (!langSelect) return;
 
-  langSelect.addEventListener('change', (event) => {
+  langSelect.addEventListener('change', async (event) => {
     const selected = normalizeLanguageCode(event.target.value);
+    if (selected === AUTO_LANGUAGE_CODE) {
+      safeStorageSet(LANG_STORAGE_KEY, AUTO_LANGUAGE_CODE);
+      const autoLang = await resolveAutoLanguage();
+      const effectiveLang = isLocalUiLanguage(autoLang) ? autoLang : 'en';
+
+      const newsSelect = document.getElementById('news-lang');
+      const articleSelect = document.getElementById('article-lang');
+      if (newsSelect) newsSelect.value = autoLang;
+      if (articleSelect) articleSelect.value = autoLang;
+
+      applyTranslations(effectiveLang);
+      if (typeof window.renderNews === 'function') {
+        window.renderNews(autoLang);
+      }
+      return;
+    }
+
     const nextLang = isSupportedLanguage(selected) ? selected : 'nb';
+
+    if (!isLocalUiLanguage(nextLang)) {
+      safeStorageSet(LANG_STORAGE_KEY, nextLang);
+      navigateToTranslatedPage(nextLang);
+      return;
+    }
+
     safeStorageSet(LANG_STORAGE_KEY, nextLang);
 
     const newsSelect = document.getElementById('news-lang');
