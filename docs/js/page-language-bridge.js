@@ -40,17 +40,6 @@
     return detectBrowserLang();
   }
 
-  function translateUrl(targetLang) {
-    const clean = window.location.href;
-    return 'https://translate.google.com/translate?sl=nb&tl=' + encodeURIComponent(targetLang) + '&u=' + encodeURIComponent(clean);
-  }
-
-  function shouldSkipRedirect() {
-    const host = String(window.location.hostname || '').toLowerCase();
-    if (host.includes('translate.goog') || host.includes('translate.googleusercontent.com')) return true;
-    return false;
-  }
-
   function injectLanguageSelector(currentLang) {
     const main = document.querySelector('main') || document.body;
     if (!main) return;
@@ -92,11 +81,7 @@
       const next = normalizeLang(select.value);
       const target = SUPPORTED.includes(next) ? next : 'nb';
       localStorage.setItem(STORAGE_KEY, target);
-      if (target === 'nb') {
-        window.location.href = window.location.pathname + window.location.search + window.location.hash;
-        return;
-      }
-      window.location.href = translateUrl(target);
+      window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
 
     wrap.appendChild(label);
@@ -108,6 +93,6 @@
   const lang = preferredLang();
   document.documentElement.lang = lang || 'nb';
 
-  // Do not auto-redirect on load; only redirect on explicit user choice.
+  // Bridge selector stores language preference only.
   injectLanguageSelector(lang);
 })();

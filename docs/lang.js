@@ -439,11 +439,8 @@ function initLanguage() {
     if (newsSelect) newsSelect.value = nextLang;
     if (articleSelect) articleSelect.value = nextLang;
 
-    // Only redirect when user explicitly picks a non-native UI language.
-    if (!hasNativeDictionary(nextLang) && redirectToGoogleTranslate(nextLang)) {
-      return;
-    }
-
+    // Language menu controls on-site language preferences only.
+    // Full-page machine translation is intentionally not triggered here.
     applyTranslations(nextLang);
     if (typeof window.renderNews === 'function') {
       window.renderNews(nextLang);
