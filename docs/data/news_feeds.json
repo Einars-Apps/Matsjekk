@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "includeAllEurope": true,
+  "includeAllEurope": false,
   "generated_note": "Feed config for EU-wide automated news ingestion. Add premium media APIs later without changing frontend format.",
   "countries": {
     "NO": {
@@ -94,6 +94,34 @@
       "name": "Irland",
       "feeds": [
         "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-IE&gl=IE&ceid=IE:en"
+      ]
+    },
+    "US": {
+      "language": "en",
+      "name": "USA",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    "CA": {
+      "language": "en",
+      "name": "Canada",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-CA&gl=CA&ceid=CA:en"
+      ]
+    },
+    "AU": {
+      "language": "en",
+      "name": "Australia",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-AU&gl=AU&ceid=AU:en"
+      ]
+    },
+    "NZ": {
+      "language": "en",
+      "name": "New Zealand",
+      "feeds": [
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-NZ&gl=NZ&ceid=NZ:en"
       ]
     },
     "AT": {

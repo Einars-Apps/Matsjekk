@@ -14,12 +14,12 @@ from __future__ import annotations
 import json
 import hashlib
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 import xml.etree.ElementTree as ET
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlparse, parse_qs, urlencode, urlunparse
 
 import requests
 
@@ -38,8 +38,42 @@ TOPIC_KEYWORDS = (
     "feed",
     "fôr",
 )
+FOOD_CONTEXT_KEYWORDS = (
+    "food",
+    "mat",
+    "dairy",
+    "milk",
+    "fôr",
+    "feed",
+    "foder",
+    "rehu",
+    "agri",
+    "agric",
+    "landbruk",
+    "landbouw",
+    "agriculture",
+    "farming",
+    "farm",
+    "livestock",
+    "cattle",
+    "cow",
+    "ku",
+    "husdyr",
+    "salmon",
+    "oppdrett",
+)
+EXCLUDED_NOISE_KEYWORDS = (
+    "payment gateway",
+    "stock",
+    "ticker",
+    "crypto",
+    "casino",
+    "forex",
+)
 PRIMARY_TOPIC = "bovaer"
-MAX_ITEMS = 50
+MAX_ITEMS = 120
+RECENT_DAYS = 31
+PER_COUNTRY_LIMIT = 6
 
 EUROPE_COUNTRIES: dict[str, tuple[str, str]] = {
     "AL": ("sq", "Albania"),
@@ -167,9 +201,15 @@ def _to_iso8601(raw: str) -> str:
         return datetime.now(timezone.utc).isoformat()
 
 
-def _is_relevant(title: str, summary: str) -> bool:
+def _is_relevant(title: str, summary: str, *, strict: bool = True) -> bool:
     text = f"{title} {summary}".lower()
-    return any(k in text for k in TOPIC_KEYWORDS)
+    if any(noise in text for noise in EXCLUDED_NOISE_KEYWORDS):
+        return False
+    has_topic = any(k in text for k in TOPIC_KEYWORDS)
+    if not strict:
+        return has_topic
+    has_context = any(k in text for k in FOOD_CONTEXT_KEYWORDS)
+    return has_topic and has_context
 
 
 def _is_primary_topic(title: str, summary: str, url: str) -> bool:
@@ -177,8 +217,60 @@ def _is_primary_topic(title: str, summary: str, url: str) -> bool:
     return PRIMARY_TOPIC in text
 
 
-def fetch_rss(url: str, country: str, language: str) -> list[FeedItem]:
-    response = requests.get(url, timeout=25)
+def _ensure_recent_google_query(url: str) -> str:
+    try:
+        parsed = urlparse(url)
+        if "news.google.com" not in parsed.netloc.lower():
+            return url
+        params = parse_qs(parsed.query, keep_blank_values=True)
+        query_values = params.get("q", [])
+        if not query_values:
+            return url
+        query = query_values[0]
+        if "when:" in query.lower():
+            return url
+        query = f"{query} when:{RECENT_DAYS}d"
+        params["q"] = [query]
+        rebuilt = parsed._replace(query=urlencode(params, doseq=True))
+        return urlunparse(rebuilt)
+    except Exception:
+        return url
+
+
+def _google_search_page_url_from_feed(url: str) -> str:
+    normalized = _ensure_recent_google_query(url)
+    return normalized.replace('/rss/search?', '/search?')
+
+
+def _is_recent(pub_date_iso: str) -> bool:
+    try:
+        parsed = datetime.fromisoformat(pub_date_iso)
+        cutoff = datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)
+        return parsed >= cutoff
+    except Exception:
+        return False
+
+
+def _fallback_topic_page_item(country: str, language: str, feed_url: str) -> FeedItem:
+    now_iso = datetime.now(timezone.utc).isoformat()
+    page_url = _google_search_page_url_from_feed(feed_url)
+    return FeedItem(
+        title=f"Temaoversikt siste {RECENT_DAYS} dager ({country})",
+        url=page_url,
+        pub_date=now_iso,
+        source="Google News",
+        language=language,
+        country=country,
+        source_api=feed_url,
+        summary=(
+            f"Neutral fallback page for {country}. Shows recent items for Bovaer, GMO, insect meal, and food traceability."
+        ),
+    )
+
+
+def fetch_rss(url: str, country: str, language: str, *, strict: bool = True) -> list[FeedItem]:
+    source_url = _ensure_recent_google_query(url)
+    response = requests.get(source_url, timeout=25)
     response.raise_for_status()
     root = ET.fromstring(response.content)
 
@@ -192,7 +284,7 @@ def fetch_rss(url: str, country: str, language: str) -> list[FeedItem]:
 
         if not link:
             continue
-        if not _is_relevant(title, summary):
+        if not _is_relevant(title, summary, strict=strict):
             continue
 
         items.append(
@@ -203,7 +295,7 @@ def fetch_rss(url: str, country: str, language: str) -> list[FeedItem]:
                 source=source,
                 language=language,
                 country=country,
-                source_api=url,
+                source_api=source_url,
                 summary=summary,
             )
         )
@@ -214,7 +306,7 @@ def dedupe(items: list[FeedItem]) -> list[FeedItem]:
     seen: set[str] = set()
     out: list[FeedItem] = []
     for item in sorted(items, key=lambda i: i.pub_date, reverse=True):
-        key = item.url.strip().lower()
+        key = f"{item.country}|{item.url.strip().lower()}"
         if key in seen:
             continue
         seen.add(key)
@@ -240,7 +332,7 @@ def main() -> int:
 
         for feed_url in feeds:
             try:
-                collected.extend(fetch_rss(feed_url, country_code, language))
+                collected.extend(fetch_rss(feed_url, country_code, language, strict=True))
             except Exception as ex:
                 errors.append(
                     {
@@ -252,20 +344,61 @@ def main() -> int:
 
     unique_items = dedupe(collected)
 
-    primary_items = [
-        item
-        for item in unique_items
-        if _is_primary_topic(item.title, item.summary, item.url)
-    ]
-    if primary_items:
-        unique_items = primary_items
+    unique_items = [item for item in unique_items if _is_recent(item.pub_date)]
 
-    unique_items = sorted(unique_items, key=lambda i: i.pub_date, reverse=True)[:MAX_ITEMS]
+    present_after_strict = {item.country for item in unique_items}
+    missing_countries = [code for code in countries.keys() if code not in present_after_strict]
+
+    for country_code in missing_countries:
+        payload = countries.get(country_code, {})
+        language = payload.get("language", "en")
+        feeds = payload.get("feeds", [])
+        if not feeds:
+            continue
+        for feed_url in feeds[:2]:
+            try:
+                relaxed_items = fetch_rss(feed_url, country_code, language, strict=False)
+                relaxed_recent = [item for item in relaxed_items if _is_recent(item.pub_date)]
+                if relaxed_recent:
+                    unique_items.extend(relaxed_recent[:2])
+                    break
+            except Exception as ex:
+                errors.append(
+                    {
+                        "country": country_code,
+                        "feed": feed_url,
+                        "error": str(ex),
+                    }
+                )
+
+    present_after_fallback = {item.country for item in unique_items}
+    still_missing = [code for code in countries.keys() if code not in present_after_fallback]
+    for country_code in still_missing:
+        payload = countries.get(country_code, {})
+        language = payload.get("language", "en")
+        feeds = payload.get("feeds", [])
+        if not feeds:
+            continue
+        unique_items.append(_fallback_topic_page_item(country_code, language, feeds[0]))
+
+    unique_items = dedupe(unique_items)
+
+    by_country: dict[str, list[FeedItem]] = {}
+    for item in sorted(unique_items, key=lambda i: i.pub_date, reverse=True):
+        by_country.setdefault(item.country, []).append(item)
+
+    balanced: list[FeedItem] = []
+    for country_code in sorted(by_country.keys()):
+        balanced.extend(by_country[country_code][:PER_COUNTRY_LIMIT])
+
+    unique_items = sorted(balanced, key=lambda i: i.pub_date, reverse=True)[:MAX_ITEMS]
 
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "version": 1,
         "topic": PRIMARY_TOPIC,
+        "recentDays": RECENT_DAYS,
+        "perCountryLimit": PER_COUNTRY_LIMIT,
         "maxItems": MAX_ITEMS,
         "total": len(unique_items),
         "errors": errors,
