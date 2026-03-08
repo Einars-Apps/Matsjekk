@@ -1,8 +1,3 @@
-const uiLanguages = [
-  { code: 'nb', label: 'Norsk' },
-  { code: 'en', label: 'English' },
-];
-
 const supportedLanguages = [
   { code: 'nb', label: 'Norsk' },
   { code: 'en', label: 'English' },
@@ -92,7 +87,7 @@ const translations = {
     footerCopyright: '© 2026 Mat Sjekk / Einar\'s Apps. Alle rettigheter reservert.',
   },
   en: {
-    title: '🛒 Mat Check',
+    title: '🛒 Food Control',
     tagline: 'Scan food, choose consciously',
     privacy: 'Privacy',
     terms: 'Terms',
@@ -133,12 +128,12 @@ const translations = {
     howStep3Text: '- Get instant risk-level information',
     howStep4Title: 'Choose consciously',
     howStep4Text: '- Decide what you want to buy',
-    aboutHeading: 'About Mat Check',
+    aboutHeading: 'About Food Control',
     aboutText1: 'Mat Check is made for conscious consumers who want full control over what they buy. The app uses OpenFoodFacts and other open sources to provide transparent information.',
     aboutText2: 'We do not tell you whether Bovaer, GMO, or insect meal is good or bad. We provide information so you can make your own choices.',
     faqHeading: 'FAQ',
     faq1Q: 'Is the app completely free?',
-    faq1A: 'Yes. Mat Check is free to download and use. We are funded by ads.',
+    faq1A: 'Yes. Food Control is free to download and use. We are funded by ads.',
     faq2Q: 'Where does the data come from?',
     faq2A: 'We primarily use OpenFoodFacts and, for some countries, national food databases.',
     faq3Q: 'How do I know the information is correct?',
@@ -348,7 +343,7 @@ function applyTranslations(lang) {
 function populateSelect(selectElement) {
   if (!selectElement) return;
   selectElement.innerHTML = '';
-  uiLanguages.forEach((entry) => {
+  supportedLanguages.forEach((entry) => {
     const option = document.createElement('option');
     option.value = entry.code;
     option.textContent = entry.label;
@@ -404,7 +399,10 @@ async function loadLanguage() {
   const newsSelect = document.getElementById('news-lang');
   const articleSelect = document.getElementById('article-lang');
 
-  if (langSelect) langSelect.value = lang;
+  if (langSelect) {
+    langSelect.value = lang;
+    if (!langSelect.value) langSelect.value = 'nb';
+  }
   if (newsSelect) newsSelect.value = lang;
   if (articleSelect) articleSelect.value = lang;
 
