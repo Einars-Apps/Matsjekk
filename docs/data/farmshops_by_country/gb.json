@@ -1977,7 +1977,7 @@
     "website": null,
     "lat": 55.716445,
     "lon": -3.8891919,
-    "address": null
+    "address": "Lanark Road"
   },
   {
     "id": 4506964854,
@@ -6609,6 +6609,18 @@
     "website": null,
     "lat": 50.8880376,
     "lon": -3.875635,
+    "address": null
+  },
+  {
+    "id": 13625118002,
+    "name": "Mootiful Milk Shack",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.3106231,
+    "lon": -1.8019039,
     "address": null
   },
   {
@@ -13732,12 +13744,12 @@
     "name": "Albion Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Oldham",
     "products": [],
     "website": "https://www.albionfarmshop.co.uk/",
-    "lat": 53.5586956,
-    "lon": -2.0333077,
-    "address": null
+    "lat": 53.5587058,
+    "lon": -2.0332982,
+    "address": "Oldham Road"
   },
   {
     "id": 1087942809,
@@ -15357,7 +15369,7 @@
     "website": null,
     "lat": 51.6085539,
     "lon": -0.7987825,
-    "address": null
+    "address": "Clay Lane"
   },
   {
     "id": 1369403155,
@@ -18357,6 +18369,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 1087252868,
+    "name": "Albion Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.albionfarmshop.co.uk/",
+    "lat": 53.5586956,
+    "lon": -2.0333077,
     "address": null
   },
   {

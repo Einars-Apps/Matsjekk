@@ -36804,6 +36804,18 @@
     "address": "Rue du Bois Leval"
   },
   {
+    "id": 13625636327,
+    "name": "Les aquaculteurs du Rosey",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://lesaquaculteursdurosey.fr/",
+    "lat": 49.0682305,
+    "lon": 1.2947079,
+    "address": null
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",

@@ -68467,8 +68467,8 @@
     "municipality": "Wallenhorst",
     "products": [],
     "website": null,
-    "lat": 52.3214683,
-    "lon": 8.0401088,
+    "lat": 52.3214784,
+    "lon": 8.0401325,
     "address": "Zum Gruthügel"
   },
   {
@@ -70042,6 +70042,18 @@
     "lat": 48.0353867,
     "lon": 9.8115006,
     "address": null
+  },
+  {
+    "id": 1104696632,
+    "name": "Hofladen an der Wabe",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Wallenhorst",
+    "products": [],
+    "website": null,
+    "lat": 52.3214683,
+    "lon": 8.0401088,
+    "address": "Zum Gruthügel"
   },
   {
     "id": 180488643,

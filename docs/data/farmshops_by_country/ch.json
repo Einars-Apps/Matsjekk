@@ -72,6 +72,18 @@
     "address": "Alte Kindhauserstrasse"
   },
   {
+    "id": 599755713,
+    "name": "Biohof Orflen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3508809,
+    "lon": 8.9346929,
+    "address": null
+  },
+  {
     "id": 692404147,
     "name": "Stettbach-Lädeli",
     "country": "Switzerland",

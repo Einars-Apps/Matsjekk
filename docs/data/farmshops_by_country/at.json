@@ -10320,6 +10320,18 @@
     "address": "Mühlweg"
   },
   {
+    "id": 185795916,
+    "name": "Inzinger Bauernladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Inzing",
+    "products": [],
+    "website": null,
+    "lat": 47.2726777,
+    "lon": 11.1996774,
+    "address": "Hauptstraße"
+  },
+  {
     "id": 189145393,
     "name": "Mühle Kianek",
     "country": "Austria",
