@@ -2,7 +2,7 @@
   'use strict';
 
   const STORAGE_KEY = 'matsjekk_lang';
-  const SUPPORTED = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
+  const SUPPORTED = ['nb', 'en'];
   const LABELS = {
     nb: 'Norsk',
     en: 'English',

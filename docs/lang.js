@@ -1,3 +1,8 @@
+const uiLanguages = [
+  { code: 'nb', label: 'Norsk' },
+  { code: 'en', label: 'English' },
+];
+
 const supportedLanguages = [
   { code: 'nb', label: 'Norsk' },
   { code: 'en', label: 'English' },
@@ -343,7 +348,18 @@ function applyTranslations(lang) {
 function populateSelect(selectElement) {
   if (!selectElement) return;
   selectElement.innerHTML = '';
-  supportedLanguages.forEach((entry) => {
+  uiLanguages.forEach((entry) => {
+    const option = document.createElement('option');
+    option.value = entry.code;
+    option.textContent = entry.label;
+    selectElement.appendChild(option);
+  });
+}
+
+function populateSelectWithOptions(selectElement, options) {
+  if (!selectElement) return;
+  selectElement.innerHTML = '';
+  options.forEach((entry) => {
     const option = document.createElement('option');
     option.value = entry.code;
     option.textContent = entry.label;
@@ -353,8 +369,8 @@ function populateSelect(selectElement) {
 
 function populateLangSelects() {
   populateSelect(document.getElementById('lang-select'));
-  populateSelect(document.getElementById('news-lang'));
-  populateSelect(document.getElementById('article-lang'));
+  populateSelectWithOptions(document.getElementById('news-lang'), supportedLanguages);
+  populateSelectWithOptions(document.getElementById('article-lang'), supportedLanguages);
 }
 
 async function resolveAutoLanguage() {

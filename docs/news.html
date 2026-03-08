@@ -49,7 +49,9 @@
         <button id="add-article-btn" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>
       </div>
 
-      <div id="news-list" class="news-list"></div>
+      <div id="news-list" class="news-list">
+        <p class="muted">Laster nyheter...</p>
+      </div>
 
       <div id="news-form" class="news-form hidden">
         <h3 data-translate="newsFormHeading">Legg til artikkel</h3>
@@ -82,11 +84,19 @@
     </div>
   </footer>
 
-  <script src="lang.js?v=20260308f"></script>
-  <script src="news.js?v=20260308g"></script>
+  <script src="lang.js?v=20260308h"></script>
+  <script src="news.js?v=20260308h"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script>
+    // Safety net: ensure cards render even if earlier init timing fails.
+    window.addEventListener('load', function () {
+      if (typeof window.renderNews !== 'function') return;
+      const preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';
+      window.renderNews(preferred).catch(function () {});
+    });
+  </script>
   <script>
     window.addEventListener('load', function () {
       if (!window.cookieconsent) return;
