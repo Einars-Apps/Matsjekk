@@ -70,6 +70,15 @@
     select.id = 'page-lang-bridge-select';
     select.style.padding = '6px 10px';
 
+    const resetBtn = document.createElement('button');
+    resetBtn.type = 'button';
+    resetBtn.textContent = currentLang === 'en' ? 'Reset to Norwegian' : 'Tilbakestill til norsk';
+    resetBtn.style.padding = '6px 10px';
+    resetBtn.addEventListener('click', function () {
+      localStorage.setItem(STORAGE_KEY, 'nb');
+      window.location.href = window.location.pathname + window.location.search + window.location.hash;
+    });
+
     SUPPORTED.forEach((code) => {
       const option = document.createElement('option');
       option.value = code;
@@ -92,16 +101,13 @@
 
     wrap.appendChild(label);
     wrap.appendChild(select);
+    wrap.appendChild(resetBtn);
     main.insertBefore(wrap, main.firstChild);
   }
 
   const lang = preferredLang();
   document.documentElement.lang = lang || 'nb';
 
-  if (lang !== 'nb' && !shouldSkipRedirect()) {
-    window.location.replace(translateUrl(lang));
-    return;
-  }
-
+  // Do not auto-redirect on load; only redirect on explicit user choice.
   injectLanguageSelector(lang);
 })();

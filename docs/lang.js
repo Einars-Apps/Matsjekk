@@ -334,10 +334,6 @@ async function loadLanguage() {
   const saved = normalizeLanguageCode(localStorage.getItem(LANG_STORAGE_KEY));
   const lang = saved && isSupportedLanguage(saved) ? saved : await resolveAutoLanguage();
 
-  if (redirectToGoogleTranslate(lang)) {
-    return lang;
-  }
-
   const langSelect = document.getElementById('lang-select');
   const newsSelect = document.getElementById('news-lang');
   const articleSelect = document.getElementById('article-lang');
@@ -366,14 +362,15 @@ function initLanguage() {
     const nextLang = isSupportedLanguage(selected) ? selected : 'nb';
     localStorage.setItem(LANG_STORAGE_KEY, nextLang);
 
-    if (redirectToGoogleTranslate(nextLang)) {
-      return;
-    }
-
     const newsSelect = document.getElementById('news-lang');
     const articleSelect = document.getElementById('article-lang');
     if (newsSelect) newsSelect.value = nextLang;
     if (articleSelect) articleSelect.value = nextLang;
+
+    // Only redirect when user explicitly picks a non-native UI language.
+    if (!hasNativeDictionary(nextLang) && redirectToGoogleTranslate(nextLang)) {
+      return;
+    }
 
     applyTranslations(nextLang);
     if (typeof window.renderNews === 'function') {
@@ -381,5 +378,12 @@ function initLanguage() {
     }
   });
 }
+
+function resetLanguagePreference() {
+  localStorage.removeItem(LANG_STORAGE_KEY);
+  window.location.href = window.location.pathname + window.location.search + window.location.hash;
+}
+
+window.resetLanguagePreference = resetLanguagePreference;
 
 window.addEventListener('DOMContentLoaded', initLanguage);

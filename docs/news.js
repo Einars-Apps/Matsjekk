@@ -425,9 +425,27 @@ async function renderNews(preferredLang) {
     return;
   }
 
+  let renderedCount = 0;
   visible.forEach((article) => {
-    container.appendChild(createNewsCard(article, lang));
+    try {
+      const card = createNewsCard(article, lang);
+      if (card) {
+        container.appendChild(card);
+        renderedCount += 1;
+      }
+    } catch (error) {
+      console.warn('Skipping invalid news item during render', error, article);
+    }
   });
+
+  if (renderedCount === 0) {
+    const muted = document.createElement('p');
+    muted.className = 'muted';
+    muted.textContent = lang === 'en'
+      ? 'Articles were loaded, but could not be rendered. Please refresh or change region.'
+      : 'Artikler ble lastet, men kunne ikke vises. Proev oppdatering eller bytt region.';
+    container.appendChild(muted);
+  }
 }
 
 function initNewsForm() {
