@@ -14,10 +14,6 @@ const supportedLanguages = [
 
 const AUTO_LANGUAGE_CODE = 'auto';
 const LOCAL_UI_LANGUAGES = ['nb', 'en'];
-const UI_LANGUAGE_OPTIONS = [
-  { code: 'nb', label: 'Norsk' },
-  { code: 'en', label: 'English' },
-];
 
 const translations = {
   nb: {
@@ -260,10 +256,6 @@ function isLocalUiLanguage(code) {
   return LOCAL_UI_LANGUAGES.includes(normalizeLanguageCode(code));
 }
 
-function normalizeUiLanguage(lang) {
-  return normalizeLanguageCode(lang) === 'nb' ? 'nb' : 'en';
-}
-
 function detectBrowserLanguage() {
   const candidates = [
     ...(Array.isArray(navigator.languages) ? navigator.languages : []),
@@ -364,7 +356,7 @@ function populateSelect(selectElement) {
   autoOption.textContent = 'Auto';
   selectElement.appendChild(autoOption);
 
-  UI_LANGUAGE_OPTIONS.forEach((entry) => {
+  supportedLanguages.forEach((entry) => {
     const option = document.createElement('option');
     option.value = entry.code;
     option.textContent = entry.label;
@@ -405,13 +397,12 @@ async function loadLanguage() {
   const queryLang = normalizeLanguageCode(params.get('lang'));
   const saved = normalizeLanguageCode(safeStorageGet(LANG_STORAGE_KEY));
   const picked = queryLang || saved || AUTO_LANGUAGE_CODE;
-  const isStoredUi = isLocalUiLanguage(picked);
-  const useAuto = picked === AUTO_LANGUAGE_CODE || !isStoredUi;
+  const useAuto = picked === AUTO_LANGUAGE_CODE || !isSupportedLanguage(picked);
   const resolvedLang = useAuto ? await resolveAutoLanguage() : picked;
-  const effectiveLang = normalizeUiLanguage(resolvedLang);
+  const effectiveLang = isSupportedLanguage(resolvedLang) ? resolvedLang : 'nb';
 
   // Keep selected language stable and avoid locking users into translated proxy URLs.
-  safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : effectiveLang);
+  safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : resolvedLang);
 
   if (queryLang) {
     params.delete('lang');
@@ -459,7 +450,7 @@ function initLanguage() {
     if (selected === AUTO_LANGUAGE_CODE) {
       safeStorageSet(LANG_STORAGE_KEY, AUTO_LANGUAGE_CODE);
       const autoLang = await resolveAutoLanguage();
-      const effectiveLang = normalizeUiLanguage(autoLang);
+      const effectiveLang = isSupportedLanguage(autoLang) ? autoLang : 'nb';
 
       const newsSelect = document.getElementById('news-lang');
       const articleSelect = document.getElementById('article-lang');
@@ -473,7 +464,7 @@ function initLanguage() {
       return;
     }
 
-    const nextLang = isLocalUiLanguage(selected) ? selected : 'nb';
+    const nextLang = isSupportedLanguage(selected) ? selected : 'nb';
     safeStorageSet(LANG_STORAGE_KEY, nextLang);
 
     const newsSelect = document.getElementById('news-lang');
