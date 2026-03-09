@@ -154,7 +154,7 @@ function dedupeByUrl(items) {
   const seen = new Set();
   const out = [];
   for (const item of items || []) {
-    const key = String(item?.url || '').trim().toLowerCase();
+    const key = String((item && item.url) || '').trim().toLowerCase();
     if (!key || seen.has(key)) continue;
     seen.add(key);
     out.push(item);
@@ -169,7 +169,7 @@ async function fetchRemoteNewsForMode(mode) {
     const response = await fetch(url, { cache: 'no-cache' });
     if (!response.ok) return [];
     const payload = await response.json();
-    return Array.isArray(payload?.items) ? payload.items : [];
+    return payload && Array.isArray(payload.items) ? payload.items : [];
   } catch (_) {
     return [];
   }
@@ -177,7 +177,7 @@ async function fetchRemoteNewsForMode(mode) {
 
 function readGeoCacheCountry() {
   const raw = safeJsonParse(safeStorageGet(GEO_CACHE_KEY), null);
-  if (!raw?.country || !raw?.ts) return '';
+  if (!raw || !raw.country || !raw.ts) return '';
   if (Date.now() - Number(raw.ts) > GEO_CACHE_MAX_AGE_MS) return '';
   return normalizeCountry(raw.country);
 }
@@ -197,7 +197,10 @@ function reverseCountryCode(lat, lon) {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();
     })
-    .then((payload) => normalizeCountry(payload?.address?.country_code || ''))
+    .then((payload) => {
+      const address = payload && payload.address ? payload.address : null;
+      return normalizeCountry((address && address.country_code) || '');
+    })
     .catch(() => '');
 }
 
@@ -300,9 +303,9 @@ function createNewsSubmissionIssueUrl(payload) {
     `url: ${yamlQuoted(payload.url)}`,
     `language: ${yamlQuoted(payload.language || 'nb')}`,
     `country: ${yamlQuoted(payload.country || '')}`,
-    `neutrality_rating: ${yamlQuoted(payload.neutrality?.rating || 'unknown')}`,
-    `neutrality_flags: ${yamlQuoted((payload.neutrality?.flags || []).join(', ') || 'none')}`,
-    `neutrality_notes: ${yamlQuoted(payload.neutrality?.notes || '')}`,
+    `neutrality_rating: ${yamlQuoted((payload.neutrality && payload.neutrality.rating) || 'unknown')}`,
+    `neutrality_flags: ${yamlQuoted((((payload.neutrality && payload.neutrality.flags) || []).join(', ')) || 'none')}`,
+    `neutrality_notes: ${yamlQuoted((payload.neutrality && payload.neutrality.notes) || '')}`,
     'submitted_from: "index-news-form"',
     'requested_action: "add"',
     '```',
@@ -547,10 +550,10 @@ function initNewsForm() {
     const urlEl = document.getElementById('article-url');
     const langEl = document.getElementById('article-lang');
 
-    const title = String(titleEl?.value || '').trim();
-    const source = String(sourceEl?.value || '').trim() || 'Ukjent kilde';
-    const url = String(urlEl?.value || '').trim();
-    const language = normalizeLang(String(langEl?.value || 'nb')) || 'nb';
+    const title = String((titleEl && titleEl.value) || '').trim();
+    const source = String((sourceEl && sourceEl.value) || '').trim() || 'Ukjent kilde';
+    const url = String((urlEl && urlEl.value) || '').trim();
+    const language = normalizeLang(String((langEl && langEl.value) || 'nb')) || 'nb';
     const neutrality = neutralityAssessment({ title, source, url, language });
 
     if (!title || !url) {
