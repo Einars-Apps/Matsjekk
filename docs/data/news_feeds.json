@@ -8,21 +8,36 @@
       "name": "Norge",
       "feeds": [
         "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:no&hl=no&gl=NO&ceid=NO:no",
-        "https://www.nrk.no/toppsaker.rss"
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:nrk.no&hl=no&gl=NO&ceid=NO:no",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:vg.no&hl=no&gl=NO&ceid=NO:no",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:dagbladet.no&hl=no&gl=NO&ceid=NO:no",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:aftenposten.no&hl=no&gl=NO&ceid=NO:no",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:tv2.no&hl=no&gl=NO&ceid=NO:no",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:adressa.no&hl=no&gl=NO&ceid=NO:no"
       ]
     },
     "SE": {
       "language": "sv",
       "name": "Sverige",
       "feeds": [
-        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l&hl=sv&gl=SE&ceid=SE:sv"
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l&hl=sv&gl=SE&ceid=SE:sv",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:svt.se&hl=sv&gl=SE&ceid=SE:sv",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:dn.se&hl=sv&gl=SE&ceid=SE:sv",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:aftonbladet.se&hl=sv&gl=SE&ceid=SE:sv",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:svd.se&hl=sv&gl=SE&ceid=SE:sv",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:gp.se&hl=sv&gl=SE&ceid=SE:sv"
       ]
     },
     "DK": {
       "language": "da",
       "name": "Danmark",
       "feeds": [
-        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel&hl=da&gl=DK&ceid=DK:da"
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel&hl=da&gl=DK&ceid=DK:da",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:dr.dk&hl=da&gl=DK&ceid=DK:da",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:tv2.dk&hl=da&gl=DK&ceid=DK:da",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:politiken.dk&hl=da&gl=DK&ceid=DK:da",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:berlingske.dk&hl=da&gl=DK&ceid=DK:da",
+        "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:ekstrabladet.dk&hl=da&gl=DK&ceid=DK:da"
       ]
     },
     "FI": {

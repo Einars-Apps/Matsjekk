@@ -3,7 +3,15 @@ const NEWS_KEY = 'matsjekk_news_v2';
 const NEWS_PENDING_KEY = 'matsjekk_news_pending_submissions_v1';
 const NEWS_PENDING_REMOVAL_KEY = 'matsjekk_news_pending_removals_v1';
 const NEWS_REMOTE_URL = 'data/news.latest.json';
-const NEWS_MAX_ITEMS = 50;
+const NEWS_REMOTE_REGION_URLS = {
+  cluster_scandinavia: 'data/news.region.cluster_scandinavia.json',
+  cluster_germanic_nl: 'data/news.region.cluster_germanic_nl.json',
+  cluster_fr_be_lu_ch: 'data/news.region.cluster_fr_be_lu_ch.json',
+  cluster_it_ch_fr: 'data/news.region.cluster_it_ch_fr.json',
+  cluster_english: 'data/news.region.cluster_english.json',
+  global: 'data/news.region.global.json',
+};
+const NEWS_MAX_ITEMS = 30;
 
 const GEO_CACHE_KEY = 'matsjekk_geo_country';
 const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
@@ -154,9 +162,11 @@ function dedupeByUrl(items) {
   return out;
 }
 
-async function fetchRemoteNews() {
+async function fetchRemoteNewsForMode(mode) {
+  const key = String(mode || 'global').toLowerCase();
+  const url = NEWS_REMOTE_REGION_URLS[key] || NEWS_REMOTE_URL;
   try {
-    const response = await fetch(NEWS_REMOTE_URL, { cache: 'no-cache' });
+    const response = await fetch(url, { cache: 'no-cache' });
     if (!response.ok) return [];
     const payload = await response.json();
     return Array.isArray(payload?.items) ? payload.items : [];
@@ -250,7 +260,7 @@ function populateRegionSelect(preferredLang) {
   if (!select) return;
 
   const stored = String(safeStorageGet('matsjekk_news_region') || 'auto').toLowerCase();
-  const current = stored === 'global' ? 'auto' : stored;
+  const current = stored;
   select.innerHTML = '';
 
   REGION_MODES.forEach((mode) => {
@@ -453,17 +463,18 @@ async function renderNews(preferredLang) {
   safeStorageSet('matsjekk_lang', lang);
   populateRegionSelect(lang);
 
-  const localNews = getNews();
-  const remoteNews = await fetchRemoteNews();
-  const merged = dedupeByUrl([...remoteNews, ...localNews]);
-
   const container = document.getElementById('news-list');
   if (!container) return;
 
   const regionSelect = document.getElementById('news-region');
-  const mode = regionSelect ? regionSelect.value : 'auto';
+  const selectedMode = regionSelect ? regionSelect.value : 'auto';
   const userCountry = await detectCountryCodeFromGeo();
-  const scope = regionCountriesForMode(mode, userCountry);
+  const resolvedMode = selectedMode === 'auto' ? clusterForCountry(userCountry) : selectedMode;
+
+  const localNews = getNews();
+  const remoteNews = await fetchRemoteNewsForMode(resolvedMode);
+  const merged = dedupeByUrl([...remoteNews, ...localNews]);
+  const scope = regionCountriesForMode(resolvedMode, userCountry);
 
   let visible = newsListForDisplay(merged, scope);
   if (!visible || visible.length === 0) {

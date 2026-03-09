@@ -8,6 +8,7 @@ Input:
 
 Output:
 - docs/data/news.latest.json
+- docs/data/news.region.<mode>.json
 """
 from __future__ import annotations
 
@@ -26,6 +27,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "docs" / "data" / "news_feeds.json"
 OUT_PATH = ROOT / "docs" / "data" / "news.latest.json"
+OUT_REGION_TEMPLATE = ROOT / "docs" / "data" / "news.region.{mode}.json"
 
 TOPIC_KEYWORDS = (
     "bovaer",
@@ -71,9 +73,17 @@ EXCLUDED_NOISE_KEYWORDS = (
     "forex",
 )
 PRIMARY_TOPIC = "bovaer"
-MAX_ITEMS = 120
+MAX_ITEMS = 30
 RECENT_DAYS = 365
-PER_COUNTRY_LIMIT = 6
+
+REGION_COUNTRIES: dict[str, tuple[str, ...]] = {
+    "cluster_scandinavia": ("NO", "SE", "DK", "FI", "IS"),
+    "cluster_germanic_nl": ("DE", "AT", "CH", "NL", "LI"),
+    "cluster_fr_be_lu_ch": ("FR", "BE", "LU", "CH", "NL"),
+    "cluster_it_ch_fr": ("IT", "CH", "FR"),
+    "cluster_english": ("GB", "IE", "US", "CA", "AU", "NZ"),
+    "global": tuple(),
+}
 
 EUROPE_COUNTRIES: dict[str, tuple[str, str]] = {
     "AL": ("sq", "Albania"),
@@ -314,6 +324,40 @@ def dedupe(items: list[FeedItem]) -> list[FeedItem]:
     return out
 
 
+def _dedupe_global(items: list[FeedItem]) -> list[FeedItem]:
+    seen: set[str] = set()
+    out: list[FeedItem] = []
+    for item in sorted(items, key=lambda i: i.pub_date, reverse=True):
+        key = item.url.strip().lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(item)
+    return out
+
+
+def _region_items(items: list[FeedItem], mode: str) -> list[FeedItem]:
+    countries = REGION_COUNTRIES.get(mode, tuple())
+    if mode == "global":
+        return _dedupe_global(items)[:MAX_ITEMS]
+    scoped = [item for item in items if item.country in countries]
+    return _dedupe_global(scoped)[:MAX_ITEMS]
+
+
+def _write_payload(path: Path, items: list[FeedItem], errors: list[dict[str, str]]) -> None:
+    result = {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "version": 2,
+        "topic": PRIMARY_TOPIC,
+        "recentDays": RECENT_DAYS,
+        "maxItems": MAX_ITEMS,
+        "total": len(items),
+        "errors": errors,
+        "items": [item.as_dict() for item in items],
+    }
+    path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main() -> int:
     if not CONFIG_PATH.exists():
         raise FileNotFoundError(f"Missing config: {CONFIG_PATH}")
@@ -383,30 +427,16 @@ def main() -> int:
 
     unique_items = dedupe(unique_items)
 
-    by_country: dict[str, list[FeedItem]] = {}
-    for item in sorted(unique_items, key=lambda i: i.pub_date, reverse=True):
-        by_country.setdefault(item.country, []).append(item)
+    latest_items = _region_items(unique_items, "global")
+    _write_payload(OUT_PATH, latest_items, errors)
+    print(f"Wrote {OUT_PATH} with {len(latest_items)} items")
 
-    balanced: list[FeedItem] = []
-    for country_code in sorted(by_country.keys()):
-        balanced.extend(by_country[country_code][:PER_COUNTRY_LIMIT])
+    for mode in REGION_COUNTRIES.keys():
+        region_items = _region_items(unique_items, mode)
+        out_path = Path(str(OUT_REGION_TEMPLATE).format(mode=mode))
+        _write_payload(out_path, region_items, errors)
+        print(f"Wrote {out_path} with {len(region_items)} items")
 
-    unique_items = sorted(balanced, key=lambda i: i.pub_date, reverse=True)[:MAX_ITEMS]
-
-    result = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
-        "version": 1,
-        "topic": PRIMARY_TOPIC,
-        "recentDays": RECENT_DAYS,
-        "perCountryLimit": PER_COUNTRY_LIMIT,
-        "maxItems": MAX_ITEMS,
-        "total": len(unique_items),
-        "errors": errors,
-        "items": [item.as_dict() for item in unique_items],
-    }
-
-    OUT_PATH.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {OUT_PATH} with {len(unique_items)} items")
     if errors:
         print(f"Feed errors: {len(errors)} (kept in output metadata)")
 
