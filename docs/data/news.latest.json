@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-03-08T05:15:00.067613+00:00",
+  "generatedAt": "2026-03-09T05:35:00.072255+00:00",
   "version": 1,
   "topic": "bovaer",
   "recentDays": 365,
   "perCountryLimit": 6,
   "maxItems": 120,
-  "total": 101,
+  "total": 103,
   "errors": [],
   "items": [
     {
       "title": "Temaoversikt siste 365 dager (PT)",
       "url": "https://news.google.com/search?q=Bovaer+OR+GMO+OR+farinha+de+inseto+when%3A365d&hl=pt-PT&gl=PT&ceid=PT%3Apt-150",
-      "pubDate": "2026-03-08T05:15:00.067145+00:00",
+      "pubDate": "2026-03-09T05:35:00.071725+00:00",
       "source": "Google News",
       "language": "pt",
       "country": "PT",
@@ -106,6 +106,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxON0pvR1hyN3RpNFlyM25XOGxVYlNKTkhQbFZpb0xORVdoV3pnRzRkQVloVTZHWEtZcnNNbmtYRE5mZEw0WHRyaGl1SkE0Ylg2Mnd1QVFWV2k4QVZGY3RlVUx6X0FITVJKVnlBYXJ5RVRTWGpqckMxc3paalhUUS1LcWJ4X21kWHFwYVFtMlVydHRKc1o3Zl9zMjhMdzBwSFRsSVhNNDFDbUdnR1dJazhHeTJnNXpxR25LYmFnMkUtSGktbmRjeHhkeklKNmJvaGRod1E?oc=5\" target=\"_blank\">Op-ed: Scaling sustainable aquafeed: What domesticated insects offer over wild-caught input</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SeafoodSource</font>",
       "id": "c6968f3577e0e238"
+    },
+    {
+      "title": "L-Askorbinsyre C-vitamin 1kg GMO-fri 100% Ren Farmasøytisk Kvalitet Pulver - CDON",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkpMQy1DTmZtT3dXenNneW5Dd1pUSjhsaU5ISTdrai1MTEY5TmFIZkJjUHdWLVRqMUFKa0xIUDFmU1RzeEY3dzU0N1o4MFdZeWZvcF9hYmpkLXBxd1lmYi1XZ1BsV3R3UmtFVlNsQ0pVbXRNc0ZKdS1yRmwtbm13SGhOWGhGYzdZX2tZZ1J4Q1pyQ3hYcVJ6Y2pPRXE1SVd4SFBVdmJHS3YwWHlHQ091b05US1pMQQ?oc=5",
+      "pubDate": "2026-03-04T00:55:25+00:00",
+      "source": "CDON",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site%3Ano+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkpMQy1DTmZtT3dXenNneW5Dd1pUSjhsaU5ISTdrai1MTEY5TmFIZkJjUHdWLVRqMUFKa0xIUDFmU1RzeEY3dzU0N1o4MFdZeWZvcF9hYmpkLXBxd1lmYi1XZ1BsV3R3UmtFVlNsQ0pVbXRNc0ZKdS1yRmwtbm13SGhOWGhGYzdZX2tZZ1J4Q1pyQ3hYcVJ6Y2pPRXE1SVd4SFBVdmJHS3YwWHlHQ091b05US1pMQQ?oc=5\" target=\"_blank\">L-Askorbinsyre C-vitamin 1kg GMO-fri 100% Ren Farmasøytisk Kvalitet Pulver</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CDON</font>",
+      "id": "1abb9c3e91ca85ed"
     },
     {
       "title": "GMO: Verhandler streben Einigung zu Vertragspflicht und Veggie-Burger an - Table.Briefings",
@@ -333,17 +344,6 @@
       "pubDate": "2026-01-30T08:00:00+00:00",
       "source": "Phys.org",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9Genh6LVlQSk1VelduZ2t2bmNzcTgyWFZhWF9jQjFnTTZjb2ZpU0NSOVJNZHZmYk1Uay1LRmdUa2lsN3BZQXY3RVlUdE5NWFRONGFlX3ZTcjYtVEQ0VzFmUHpBU0Z5eHZhTi1TTDZiODVzTm1mb1phb0tZdw?oc=5\" target=\"_blank\">Study shows insect farming byproduct boosts soil health, reduces crop damage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Phys.org</font>",
-      "id": "e521bed6c1bf9980"
-    },
-    {
-      "title": "Study shows insect farming byproduct boosts soil health, reduces crop damage - Phys.org",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Genh6LVlQSk1VelduZ2t2bmNzcTgyWFZhWF9jQjFnTTZjb2ZpU0NSOVJNZHZmYk1Uay1LRmdUa2lsN3BZQXY3RVlUdE5NWFRONGFlX3ZTcjYtVEQ0VzFmUHpBU0Z5eHZhTi1TTDZiODVzTm1mb1phb0tZdw?oc=5",
-      "pubDate": "2026-01-30T08:00:00+00:00",
-      "source": "Phys.org",
-      "language": "en",
       "country": "NZ",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9Genh6LVlQSk1VelduZ2t2bmNzcTgyWFZhWF9jQjFnTTZjb2ZpU0NSOVJNZHZmYk1Uay1LRmdUa2lsN3BZQXY3RVlUdE5NWFRONGFlX3ZTcjYtVEQ0VzFmUHpBU0Z5eHZhTi1TTDZiODVzTm1mb1phb0tZdw?oc=5\" target=\"_blank\">Study shows insect farming byproduct boosts soil health, reduces crop damage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Phys.org</font>",
@@ -359,28 +359,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9Genh6LVlQSk1VelduZ2t2bmNzcTgyWFZhWF9jQjFnTTZjb2ZpU0NSOVJNZHZmYk1Uay1LRmdUa2lsN3BZQXY3RVlUdE5NWFRONGFlX3ZTcjYtVEQ0VzFmUHpBU0Z5eHZhTi1TTDZiODVzTm1mb1phb0tZdw?oc=5\" target=\"_blank\">Study shows insect farming byproduct boosts soil health, reduces crop damage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Phys.org</font>",
       "id": "e521bed6c1bf9980"
-    },
-    {
-      "title": "Cosmopet unveils insect-based dry pet food line in UAE - Pet Food Processing",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnk4MzlwczVFZXJJc3JXU2M0NnlrYVBwdkgwdVZURkJucl9lUnRtQmFGQkd5anA1dUVPUDFsbVRLeHpoOWpBWHVzLVkwWGNNYzBlYVRlT21XQjViTWNsR0VKZllkUHcwN01ORzdCLW9HU1hUUnFJVm1ibTJRQXRJazVOWUs5OER5eldHN25xTUk5MDNjbC1PWXFOaDh5TFktcjItNkVR?oc=5",
-      "pubDate": "2026-01-29T08:00:00+00:00",
-      "source": "Pet Food Processing",
-      "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnk4MzlwczVFZXJJc3JXU2M0NnlrYVBwdkgwdVZURkJucl9lUnRtQmFGQkd5anA1dUVPUDFsbVRLeHpoOWpBWHVzLVkwWGNNYzBlYVRlT21XQjViTWNsR0VKZllkUHcwN01ORzdCLW9HU1hUUnFJVm1ibTJRQXRJazVOWUs5OER5eldHN25xTUk5MDNjbC1PWXFOaDh5TFktcjItNkVR?oc=5\" target=\"_blank\">Cosmopet unveils insect-based dry pet food line in UAE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pet Food Processing</font>",
-      "id": "34734b4d6791e035"
-    },
-    {
-      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - Nettavisen",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5",
-      "pubDate": "2026-01-29T08:00:00+00:00",
-      "source": "Nettavisen",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
-      "id": "15d962535e8366ec"
     },
     {
       "title": "Futterzusatz unerwünscht: Molkerei streicht Milch von Bovaer-Kühen - agrarheute.com",
@@ -443,6 +421,17 @@
       "pubDate": "2026-01-23T08:00:00+00:00",
       "source": "PetfoodIndustry",
       "language": "en",
+      "country": "NZ",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXFOTnlRVWhGWWllc0duWVA2Ti1zcGZJR3B5ZXBvSDQ4dUlnZFhLTFNfQU5veW9BNWVGRnpfTHdFdm4wc1dmdEJzb0xOcEg2cEdpNDJtc0RZWkJNSkN0UUVuaGFna3duTktlZkxOdlotZVVvMkhybjAzaldrTzNDWFpROTg3aEVtQnAzSmtTQk90RUh2XzQ5dGQwR1ltbmduWW9aMWtEWjA4TjZYcGhKa1AzVFhseGRvdVZNTWxnWlJxMUVGZnlwalZB?oc=5\" target=\"_blank\">Cosmopet introduces insect-protein dry food line in UAE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
+      "id": "bd8169e50cf71914"
+    },
+    {
+      "title": "Cosmopet introduces insect-protein dry food line in UAE - PetfoodIndustry",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXFOTnlRVWhGWWllc0duWVA2Ti1zcGZJR3B5ZXBvSDQ4dUlnZFhLTFNfQU5veW9BNWVGRnpfTHdFdm4wc1dmdEJzb0xOcEg2cEdpNDJtc0RZWkJNSkN0UUVuaGFna3duTktlZkxOdlotZVVvMkhybjAzaldrTzNDWFpROTg3aEVtQnAzSmtTQk90RUh2XzQ5dGQwR1ltbmduWW9aMWtEWjA4TjZYcGhKa1AzVFhseGRvdVZNTWxnWlJxMUVGZnlwalZB?oc=5",
+      "pubDate": "2026-01-23T08:00:00+00:00",
+      "source": "PetfoodIndustry",
+      "language": "en",
       "country": "US",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXFOTnlRVWhGWWllc0duWVA2Ti1zcGZJR3B5ZXBvSDQ4dUlnZFhLTFNfQU5veW9BNWVGRnpfTHdFdm4wc1dmdEJzb0xOcEg2cEdpNDJtc0RZWkJNSkN0UUVuaGFna3duTktlZkxOdlotZVVvMkhybjAzaldrTzNDWFpROTg3aEVtQnAzSmtTQk90RUh2XzQ5dGQwR1ltbmduWW9aMWtEWjA4TjZYcGhKa1AzVFhseGRvdVZNTWxnWlJxMUVGZnlwalZB?oc=5\" target=\"_blank\">Cosmopet introduces insect-protein dry food line in UAE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
@@ -475,28 +464,6 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5",
       "pubDate": "2026-01-18T08:00:00+00:00",
       "source": "Le Canard enchaîné",
-      "language": "nl",
-      "country": "BE",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=BE&ceid=BE%3Afr",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5\" target=\"_blank\">Alimentation animale : Recherche désespérément insectivores</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Canard enchaîné</font>",
-      "id": "e7612ec3a2cd5506"
-    },
-    {
-      "title": "Alimentation animale : Recherche désespérément insectivores - Le Canard enchaîné",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5",
-      "pubDate": "2026-01-18T08:00:00+00:00",
-      "source": "Le Canard enchaîné",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5\" target=\"_blank\">Alimentation animale : Recherche désespérément insectivores</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Canard enchaîné</font>",
-      "id": "e7612ec3a2cd5506"
-    },
-    {
-      "title": "Alimentation animale : Recherche désespérément insectivores - Le Canard enchaîné",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5",
-      "pubDate": "2026-01-18T08:00:00+00:00",
-      "source": "Le Canard enchaîné",
       "language": "fr",
       "country": "FR",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
@@ -513,6 +480,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQd082WVdGWnhCZ3Z0Y0R3aWo0NVF0RE5lZlNMTFNfR1A5QVZMTDlvTFFtVmtUaDlRUkVzUnAwNVNTamVwbjZKbXJTa0h2QjhUWEhEckZrVHNNaXFyMjBqNWpWLVRNdTBDRWN2YVZGVllKUzBDR3p5bGVGZUg0eXdOdmZYSllyeGRIbXFac3VBN29OZw?oc=5\" target=\"_blank\">Alimentation animale : Recherche désespérément insectivores</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Le Canard enchaîné</font>",
       "id": "e7612ec3a2cd5506"
+    },
+    {
+      "title": "Bovaer, Metanhemmere | Norsk melkeråvare om Bovaer: Tre krav for gjeninnføring - Bondebladet",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXZPQVhoU1I3YTBzSGtmSXRJaG9jV2ZNVlE0dGktRnpvXzg2dzhRZUFuOG9XLXZGRWEtSzM1TnVwX2NUOU1YNEU1WGFLOVlaeV92eFFCUnlGODlBcGtpUlM0NG9VVVBMM1ozbkxWdThPTkZWVmpvTUxJMjMybkFoODNWV29DaHpqQ3VaOFZ5enQxLWZyYk1qNFl0OEs?oc=5",
+      "pubDate": "2026-01-14T08:00:00+00:00",
+      "source": "Bondebladet",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXZPQVhoU1I3YTBzSGtmSXRJaG9jV2ZNVlE0dGktRnpvXzg2dzhRZUFuOG9XLXZGRWEtSzM1TnVwX2NUOU1YNEU1WGFLOVlaeV92eFFCUnlGODlBcGtpUlM0NG9VVVBMM1ozbkxWdThPTkZWVmpvTUxJMjMybkFoODNWV29DaHpqQ3VaOFZ5enQxLWZyYk1qNFl0OEs?oc=5\" target=\"_blank\">Bovaer, Metanhemmere | Norsk melkeråvare om Bovaer: Tre krav for gjeninnføring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
+      "id": "5b898b164f847640"
     },
     {
       "title": "Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte - Boerderij",
@@ -603,37 +581,37 @@
       "id": "da2d1538c8ed68ec"
     },
     {
-      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - veeteelt.nl",
+      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - Veeteelt",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5",
       "pubDate": "2025-12-24T08:00:00+00:00",
-      "source": "veeteelt.nl",
+      "source": "Veeteelt",
       "language": "nl",
       "country": "BE",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
-      "id": "e92961693742bdf6"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "1bbfcbdc9a309fda"
     },
     {
-      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - veeteelt.nl",
+      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - Veeteelt",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5",
       "pubDate": "2025-12-24T08:00:00+00:00",
-      "source": "veeteelt.nl",
+      "source": "Veeteelt",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
-      "id": "e92961693742bdf6"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "1bbfcbdc9a309fda"
     },
     {
-      "title": "Advantages Of GMO: 7 Key Benefits For Sustainable Farming - Farmonaut",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUko4RlJ2bk9JZnVZQWVLbi1hMzZDTzh1SUJrOEowUW94aTlZTnBuV0JPSUk2LUtzSHFhS3VBc2tENW9iVWhKeXY3WWNaQk1fVTBleUtWWUpOZWVtV0tnWS1PREpabWlkT2sxZUg2Z19YczgtLWE3M3pNVHVSR1I3b3pjbEpzUjVBVDZ3TA?oc=5",
-      "pubDate": "2025-12-19T11:26:10+00:00",
-      "source": "Farmonaut",
-      "language": "en",
-      "country": "AU",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNUko4RlJ2bk9JZnVZQWVLbi1hMzZDTzh1SUJrOEowUW94aTlZTnBuV0JPSUk2LUtzSHFhS3VBc2tENW9iVWhKeXY3WWNaQk1fVTBleUtWWUpOZWVtV0tnWS1PREpabWlkT2sxZUg2Z19YczgtLWE3M3pNVHVSR1I3b3pjbEpzUjVBVDZ3TA?oc=5\" target=\"_blank\">Advantages Of GMO: 7 Key Benefits For Sustainable Farming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Farmonaut</font>",
-      "id": "59e2dd79a9876467"
+      "title": "Wat is waar over Bovaer? - Landbouwleven",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fb0IxeG9DOUw5eVJtZ0ZXZldaSmNnMDBSZ3dvLUp2MmJVNzR3SmhXMnJYZzhKa1lFWE1jNUEzM2JhQ0xSb2piYnJCaHhUUHVCS1RlOWVYUmkyUzlEdUhOTzRyTHlHYUJ3ZTg5Y3BKMlJyaFQ4bTFpNWpWc25MT2c?oc=5",
+      "pubDate": "2025-12-19T08:00:00+00:00",
+      "source": "Landbouwleven",
+      "language": "nl",
+      "country": "BE",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9fb0IxeG9DOUw5eVJtZ0ZXZldaSmNnMDBSZ3dvLUp2MmJVNzR3SmhXMnJYZzhKa1lFWE1jNUEzM2JhQ0xSb2piYnJCaHhUUHVCS1RlOWVYUmkyUzlEdUhOTzRyTHlHYUJ3ZTg5Y3BKMlJyaFQ4bTFpNWpWc25MT2c?oc=5\" target=\"_blank\">Wat is waar over Bovaer?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Landbouwleven</font>",
+      "id": "e53635661adb1d1f"
     },
     {
       "title": "Wat is waar over Bovaer? - Landbouwleven",
@@ -665,6 +643,17 @@
       "language": "en",
       "country": "AU",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPTXdieUpld2tCenhCSHpRNlFZcksyRk5DOWFHTUtzSmtCRDJEdUJxSG9wa0huQXhESzlTeEdoUllQVnVmZUJ3NkhBVnRvdGFOTW1hNXFmQ08wNjVRRjNoSzlWQWtlWW9kOUZRT21jXzBhdHVKd1dqaDNjTmhlei1sNmV4aVRfVUgwX1hXaDhaREJBelFpcnU2MENSNkc?oc=5\" target=\"_blank\">EU Deal on GMO Deregulation: Hiding GMO Food While Claiming Patent Rights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agricultural and Rural Convention - ARC2020</font>",
+      "id": "a006dc0a6e432c99"
+    },
+    {
+      "title": "EU Deal on GMO Deregulation: Hiding GMO Food While Claiming Patent Rights - Agricultural and Rural Convention - ARC2020",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTXdieUpld2tCenhCSHpRNlFZcksyRk5DOWFHTUtzSmtCRDJEdUJxSG9wa0huQXhESzlTeEdoUllQVnVmZUJ3NkhBVnRvdGFOTW1hNXFmQ08wNjVRRjNoSzlWQWtlWW9kOUZRT21jXzBhdHVKd1dqaDNjTmhlei1sNmV4aVRfVUgwX1hXaDhaREJBelFpcnU2MENSNkc?oc=5",
+      "pubDate": "2025-12-16T08:00:00+00:00",
+      "source": "Agricultural and Rural Convention - ARC2020",
+      "language": "en",
+      "country": "CA",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPTXdieUpld2tCenhCSHpRNlFZcksyRk5DOWFHTUtzSmtCRDJEdUJxSG9wa0huQXhESzlTeEdoUllQVnVmZUJ3NkhBVnRvdGFOTW1hNXFmQ08wNjVRRjNoSzlWQWtlWW9kOUZRT21jXzBhdHVKd1dqaDNjTmhlei1sNmV4aVRfVUgwX1hXaDhaREJBelFpcnU2MENSNkc?oc=5\" target=\"_blank\">EU Deal on GMO Deregulation: Hiding GMO Food While Claiming Patent Rights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agricultural and Rural Convention - ARC2020</font>",
       "id": "a006dc0a6e432c99"
     },
@@ -707,6 +696,17 @@
       "pubDate": "2025-12-04T08:00:00+00:00",
       "source": "PetfoodIndustry",
       "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1N4YTFOYlJOdDBLd1F1N0Nob0czVVphUjJQajhST05MRjZ5MUVNQVBhMkhmUGhid1hNNzYzc2hkQjZiUEhCVGpCUlk4WjRwNVFDUkpySVlPclRmR3U2RmhyNVRqMkxlY1VrakN6bEtLcGR2SmNtZmEtcGc2OW5XMjZkMnc3dzFCeFF6b0dLSnZSeVREdW5POVMwR1l1enRDM2hNdFdZYUpnUU9DSjNkOHhxVFJhSE1adVZKZTB5X0p1N1Y3VXl0ZVBudF83b3YzWTdVbzBKNA?oc=5\" target=\"_blank\">French insect protein producer Ÿnsect enters judicial liquidation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
+      "id": "3ca11f607959b715"
+    },
+    {
+      "title": "French insect protein producer Ÿnsect enters judicial liquidation - PetfoodIndustry",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1N4YTFOYlJOdDBLd1F1N0Nob0czVVphUjJQajhST05MRjZ5MUVNQVBhMkhmUGhid1hNNzYzc2hkQjZiUEhCVGpCUlk4WjRwNVFDUkpySVlPclRmR3U2RmhyNVRqMkxlY1VrakN6bEtLcGR2SmNtZmEtcGc2OW5XMjZkMnc3dzFCeFF6b0dLSnZSeVREdW5POVMwR1l1enRDM2hNdFdZYUpnUU9DSjNkOHhxVFJhSE1adVZKZTB5X0p1N1Y3VXl0ZVBudF83b3YzWTdVbzBKNA?oc=5",
+      "pubDate": "2025-12-04T08:00:00+00:00",
+      "source": "PetfoodIndustry",
+      "language": "en",
       "country": "IE",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1N4YTFOYlJOdDBLd1F1N0Nob0czVVphUjJQajhST05MRjZ5MUVNQVBhMkhmUGhid1hNNzYzc2hkQjZiUEhCVGpCUlk4WjRwNVFDUkpySVlPclRmR3U2RmhyNVRqMkxlY1VrakN6bEtLcGR2SmNtZmEtcGc2OW5XMjZkMnc3dzFCeFF6b0dLSnZSeVREdW5POVMwR1l1enRDM2hNdFdZYUpnUU9DSjNkOHhxVFJhSE1adVZKZTB5X0p1N1Y3VXl0ZVBudF83b3YzWTdVbzBKNA?oc=5\" target=\"_blank\">French insect protein producer Ÿnsect enters judicial liquidation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
@@ -724,6 +724,17 @@
       "id": "bd57a52908cabd1a"
     },
     {
+      "title": "Judicial liquidation for Ÿnsect as insect farming sector ‘struggles to become competitive’ - AgFunderNews",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeEtuUHVBS2dtQ2I2eWg4cEs5Z21tUUQ2WWtfdWx1aEl2cXExNmNTRk1CZ3U1NEVpR0xFcWk4aGoyc0R4Y3dqYUVNX2VtLW1WMkxrQ2UxX09XNkpXSWp5TE1HQmpRcGl1WnFzWlI4N3Q3dWhUNWNpM1ZKTjlVN2EyelFUMmV4b3Vxa3BseWk2U09XTlhlU0RPZ1k1UEp0RXRIcGhkTG9nOWlnZ3dEYzdfZ3dMUQ?oc=5",
+      "pubDate": "2025-12-03T08:00:00+00:00",
+      "source": "AgFunderNews",
+      "language": "en",
+      "country": "AU",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQeEtuUHVBS2dtQ2I2eWg4cEs5Z21tUUQ2WWtfdWx1aEl2cXExNmNTRk1CZ3U1NEVpR0xFcWk4aGoyc0R4Y3dqYUVNX2VtLW1WMkxrQ2UxX09XNkpXSWp5TE1HQmpRcGl1WnFzWlI4N3Q3dWhUNWNpM1ZKTjlVN2EyelFUMmV4b3Vxa3BseWk2U09XTlhlU0RPZ1k1UEp0RXRIcGhkTG9nOWlnZ3dEYzdfZ3dMUQ?oc=5\" target=\"_blank\">Judicial liquidation for Ÿnsect as insect farming sector ‘struggles to become competitive’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AgFunderNews</font>",
+      "id": "e60481277f8aa5f9"
+    },
+    {
       "title": "Insect flour could boost gut health and cut environmental impact - News-Medical",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNajhsdElLTDJfaTQtOHlDRHRweWkteFUwRzRmOTgtQkJlZW1lZGZxWWI1ZFg3UFpMYXVOTDUwX05QaDY4MXpFREJfMGZqaEEtcHRrRldnOG9iVEtBVERsNXpOdUgwdHFmbkU0cWFsVmVnWlFuZ3BVUEdlV0JBY2daVTdGV3l3NnRUVjViYkZ3TWdhQ01BVDQyQV9VZGEtN0JrcWN4S2RkbzVvUXhwS29qS0R3?oc=5",
       "pubDate": "2025-12-03T08:00:00+00:00",
@@ -784,19 +795,8 @@
       "pubDate": "2025-11-30T08:00:00+00:00",
       "source": "Frontiers",
       "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOazZDZm1zeHBHaHdMYm9DdnRsLTM0TjdrTXZMRjc4eTVSN0VXTFdvTExhYzhxMjRBV09ubXQtYnN1WkYyUkdLcHJVNVkwZUZNb2N6SWNHNnlNREQzS3piYVM1a3Bxb3d2UmhXUkRhX2FZYjY3TTVibU5rTXZ4WlVsaTdpRkM4OExUcVhRd3FPQTBOX0IyR1dCMkdEcS1CaFZoWUl3?oc=5\" target=\"_blank\">Exploring the prebiotic activity of edible insect flour: a sustainable functional food ingredient</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
-      "id": "e19d8f119c732854"
-    },
-    {
-      "title": "Exploring the prebiotic activity of edible insect flour: a sustainable functional food ingredient - Frontiers",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOazZDZm1zeHBHaHdMYm9DdnRsLTM0TjdrTXZMRjc4eTVSN0VXTFdvTExhYzhxMjRBV09ubXQtYnN1WkYyUkdLcHJVNVkwZUZNb2N6SWNHNnlNREQzS3piYVM1a3Bxb3d2UmhXUkRhX2FZYjY3TTVibU5rTXZ4WlVsaTdpRkM4OExUcVhRd3FPQTBOX0IyR1dCMkdEcS1CaFZoWUl3?oc=5",
-      "pubDate": "2025-11-30T08:00:00+00:00",
-      "source": "Frontiers",
-      "language": "en",
-      "country": "NZ",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOazZDZm1zeHBHaHdMYm9DdnRsLTM0TjdrTXZMRjc4eTVSN0VXTFdvTExhYzhxMjRBV09ubXQtYnN1WkYyUkdLcHJVNVkwZUZNb2N6SWNHNnlNREQzS3piYVM1a3Bxb3d2UmhXUkRhX2FZYjY3TTVibU5rTXZ4WlVsaTdpRkM4OExUcVhRd3FPQTBOX0IyR1dCMkdEcS1CaFZoWUl3?oc=5\" target=\"_blank\">Exploring the prebiotic activity of edible insect flour: a sustainable functional food ingredient</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
       "id": "e19d8f119c732854"
     },
@@ -905,10 +905,32 @@
       "pubDate": "2025-11-15T08:00:00+00:00",
       "source": "agrarheute.com",
       "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDhiWDJXMTF4QVZ0ajJDVk1vX3c1R1lxbjFlRmgxNlNSWWRrNjJhcUpwNUN4MEdOc09qdWJjcHk2azIxSFhkTVlsNDBMWnBHVFVEckFyYlJIM0UyWHFvNkRSbWRkU1RxYU9jMVBWUkZrZWlCSjF2SWpDSlJ0V2Y3U2RqSmJGc3dCQTZoWWJxeGRESEpxSTFyekcyUkN0aHc?oc=5\" target=\"_blank\">Tote Kühe nach Bovaer? Norwegen bremst – Dänemark rebelliert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">agrarheute.com</font>",
+      "id": "dc736bae5d57370f"
+    },
+    {
+      "title": "Tote Kühe nach Bovaer? Norwegen bremst – Dänemark rebelliert - agrarheute.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDhiWDJXMTF4QVZ0ajJDVk1vX3c1R1lxbjFlRmgxNlNSWWRrNjJhcUpwNUN4MEdOc09qdWJjcHk2azIxSFhkTVlsNDBMWnBHVFVEckFyYlJIM0UyWHFvNkRSbWRkU1RxYU9jMVBWUkZrZWlCSjF2SWpDSlJ0V2Y3U2RqSmJGc3dCQTZoWWJxeGRESEpxSTFyekcyUkN0aHc?oc=5",
+      "pubDate": "2025-11-15T08:00:00+00:00",
+      "source": "agrarheute.com",
+      "language": "de",
       "country": "DE",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOWDhiWDJXMTF4QVZ0ajJDVk1vX3c1R1lxbjFlRmgxNlNSWWRrNjJhcUpwNUN4MEdOc09qdWJjcHk2azIxSFhkTVlsNDBMWnBHVFVEckFyYlJIM0UyWHFvNkRSbWRkU1RxYU9jMVBWUkZrZWlCSjF2SWpDSlJ0V2Y3U2RqSmJGc3dCQTZoWWJxeGRESEpxSTFyekcyUkN0aHc?oc=5\" target=\"_blank\">Tote Kühe nach Bovaer? Norwegen bremst – Dänemark rebelliert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">agrarheute.com</font>",
       "id": "dc736bae5d57370f"
+    },
+    {
+      "title": "Norsk melkeråvare pauser metanreduserende fôr - Bondebladet",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNkpsbDZWbGloWV91cXg0LU0ySzZLOGZGek9tZUpUOW8wd2VXZ1kwaHNUUFg2dWtmNkNzR3lMdVJoTXFkX1ZCUVlpalRxUEJhOWhqeVUtMVhuWDJaMk9mY2kyd2RKSlAyc0JmVkZjcVRNQ0wtU0luNDdOVXF5T2tUaGZfVmhYQUpldDBob0oyZUVJMGs?oc=5",
+      "pubDate": "2025-11-13T08:00:00+00:00",
+      "source": "Bondebladet",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site%3Ano+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQNkpsbDZWbGloWV91cXg0LU0ySzZLOGZGek9tZUpUOW8wd2VXZ1kwaHNUUFg2dWtmNkNzR3lMdVJoTXFkX1ZCUVlpalRxUEJhOWhqeVUtMVhuWDJaMk9mY2kyd2RKSlAyc0JmVkZjcVRNQ0wtU0luNDdOVXF5T2tUaGZfVmhYQUpldDBob0oyZUVJMGs?oc=5\" target=\"_blank\">Norsk melkeråvare pauser metanreduserende fôr</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
+      "id": "1c28aac4b327dd4b"
     },
     {
       "title": "(+) Norrmejeriers klimatsmarta bovaer-mjölk floppade - Jämtlands Tidning",
@@ -931,28 +953,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFAxWUszWDlkYXZDR1UwV1FHckM2NTdadWRNVlVWMlN4MUNFRGdrVjNVaFA2emNZU2ZVajlTTVZUWVB4ZGg1TnZJVFRRbzBSallMaTRzay1Mb1dFa1hQWnMtamQxNVFsVjJaZWdvc01qZ0hqUQ?oc=5\" target=\"_blank\">Oro för kohälsa efter danskt bovaerlarm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Svenska Epoch Times</font>",
       "id": "7fc42aac4a633053"
-    },
-    {
-      "title": "Bruken av metanhemmende stoff i fôret til norske kyr stoppes inntil videre - VG",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0M3ZUk5SXpCbDh5M2hQNFFsZF9PVlduMGVhWFFKZGEzb3lLczlUTmx1bXczOEloaDJaZjBRTFpkcW1HTXV5MFVnWHFseUVoNDB2MjNxSTJONDJWWE9kWGN2UDYzTUU0RWh0eXlNeWNuc3BTdzIyYzk2WjljOGRDQ0VYWlVJdUh0X1c4bHBHcHBxT21mTjVvMDJHVS1Ua05ET3ZaOTNCdmRpVWNfc2Jz?oc=5",
-      "pubDate": "2025-11-12T08:00:00+00:00",
-      "source": "VG",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site%3Ano+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOd0M3ZUk5SXpCbDh5M2hQNFFsZF9PVlduMGVhWFFKZGEzb3lLczlUTmx1bXczOEloaDJaZjBRTFpkcW1HTXV5MFVnWHFseUVoNDB2MjNxSTJONDJWWE9kWGN2UDYzTUU0RWh0eXlNeWNuc3BTdzIyYzk2WjljOGRDQ0VYWlVJdUh0X1c4bHBHcHBxT21mTjVvMDJHVS1Ua05ET3ZaOTNCdmRpVWNfc2Jz?oc=5\" target=\"_blank\">Bruken av metanhemmende stoff i fôret til norske kyr stoppes inntil videre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VG</font>",
-      "id": "e0e4d4037b29f410"
-    },
-    {
-      "title": "Fem kuer måtte avlives på ti dager: Dansk bonden mener Bovaer har skylden - Nationen",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNTI5Q1VlRDdkbXozZE1MRXZqaEx6UzNBWTZrc1FlRnhSWUNzbEpnd1p3bVBOZDdydURIODdNeXUteUxpLTdZak1NTXpTLVk1d19zRzA1WW9JQjcxRWNqWlBpWmNJM2RIMnZwaURSTGlnRnQ2UE9HU3N4Y3RpcThTYUxWX1V4SmdwQmpmRHd2STM4aHp5bUlibmpVdXVaaXM?oc=5",
-      "pubDate": "2025-11-12T08:00:00+00:00",
-      "source": "Nationen",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site%3Ano+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPNTI5Q1VlRDdkbXozZE1MRXZqaEx6UzNBWTZrc1FlRnhSWUNzbEpnd1p3bVBOZDdydURIODdNeXUteUxpLTdZak1NTXpTLVk1d19zRzA1WW9JQjcxRWNqWlBpWmNJM2RIMnZwaURSTGlnRnQ2UE9HU3N4Y3RpcThTYUxWX1V4SmdwQmpmRHd2STM4aHp5bUlibmpVdXVaaXM?oc=5\" target=\"_blank\">Fem kuer måtte avlives på ti dager: Dansk bonden mener Bovaer har skylden</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
-      "id": "9fefc76524b159cf"
     },
     {
       "title": "Por qué hay que incluir insectos en la dieta: puede parecerte desagradable - CuídatePlus",
@@ -988,15 +988,15 @@
       "id": "e81a22e9608d3fdc"
     },
     {
-      "title": "Fabrikant Bovaer herkent zich niet in Deense gezondheidsproblematiek - veeteelt.nl",
+      "title": "Fabrikant Bovaer herkent zich niet in Deense gezondheidsproblematiek - Veeteelt",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3BweWJjSUU3YXBYMnFqclM3LTRsRzd1dkdJVTJOdXgtVmI5MEt5TEdMMHVKX1ctX2xQRFhhMzdmRWRqa2JwcVlhNjhGd0xWOUMwdGpVNzBnU0Q5TjFKUHk2UEZBSk5Ybm9lY0FlNkp2TEIwRVBudFdjUkFFZDA1V0pvTzF2cVhubmxfYV9wVTliYnF3cXFDeg?oc=5",
       "pubDate": "2025-11-03T08:00:00+00:00",
-      "source": "veeteelt.nl",
+      "source": "Veeteelt",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3BweWJjSUU3YXBYMnFqclM3LTRsRzd1dkdJVTJOdXgtVmI5MEt5TEdMMHVKX1ctX2xQRFhhMzdmRWRqa2JwcVlhNjhGd0xWOUMwdGpVNzBnU0Q5TjFKUHk2UEZBSk5Ybm9lY0FlNkp2TEIwRVBudFdjUkFFZDA1V0pvTzF2cVhubmxfYV9wVTliYnF3cXFDeg?oc=5\" target=\"_blank\">Fabrikant Bovaer herkent zich niet in Deense gezondheidsproblematiek</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
-      "id": "b22a21d71270286d"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3BweWJjSUU3YXBYMnFqclM3LTRsRzd1dkdJVTJOdXgtVmI5MEt5TEdMMHVKX1ctX2xQRFhhMzdmRWRqa2JwcVlhNjhGd0xWOUMwdGpVNzBnU0Q5TjFKUHk2UEZBSk5Ybm9lY0FlNkp2TEIwRVBudFdjUkFFZDA1V0pvTzF2cVhubmxfYV9wVTliYnF3cXFDeg?oc=5\" target=\"_blank\">Fabrikant Bovaer herkent zich niet in Deense gezondheidsproblematiek</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "462bb55460fbc961"
     },
     {
       "title": "Nouveau partenariat, pause aux Etats-Unis… la rentrée agitée d'Innovafeed - Les Echos",
@@ -1054,6 +1054,17 @@
       "id": "64b18a92e93e4a32"
     },
     {
+      "title": "¿Cuál es el futuro de la proteína? Los insectos y su papel en la innovación alimentaria - The Food Tech",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFktV3piRE43cnZyTFdBYWNlazEtZWdPa3ZEUlVlM0J1bU9Dbk5jOVVqV1ZocUY2Wm5JMHdiUTZCTnQyclZnaWVkWEFHYWpQMFdoX2lqeV9CY2JqUlBPMmg1dG8tcG52RkJuOGxoSllLZ0I4Vm5rYkkzMVphRnhIbHdhcVhDel9abk1TLTZnVjR1QzlMYkgyVGdULV9WdjFK?oc=5",
+      "pubDate": "2025-08-28T07:00:00+00:00",
+      "source": "The Food Tech",
+      "language": "es",
+      "country": "ES",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+harina+de+insecto+when%3A365d&hl=es&gl=ES&ceid=ES%3Aes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNUFktV3piRE43cnZyTFdBYWNlazEtZWdPa3ZEUlVlM0J1bU9Dbk5jOVVqV1ZocUY2Wm5JMHdiUTZCTnQyclZnaWVkWEFHYWpQMFdoX2lqeV9CY2JqUlBPMmg1dG8tcG52RkJuOGxoSllLZ0I4Vm5rYkkzMVphRnhIbHdhcVhDel9abk1TLTZnVjR1QzlMYkgyVGdULV9WdjFK?oc=5\" target=\"_blank\">¿Cuál es el futuro de la proteína? Los insectos y su papel en la innovación alimentaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Food Tech</font>",
+      "id": "4819922e7f03ee17"
+    },
+    {
       "title": "Luz verde ambiental a una fábrica de harina de insectos en Trujillo - El Periódico Extremadura",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVjNSZFd0TXdBdDdhb2prM3ZGY3dsR25JNjB0aTZUaVpZbHl3cG5wMmwyb0Q5Ykh5Q3BNUzZabVpIbDg4NWx1SjlFbHUwMGRTMmVRSTJqQ1dzWHVUUU1YaWRIUUpJOS1EUVdfQ0FvY3V4Sk1kNEthV25xZmc1UnZYcS1mMEZXT2VsSUY5X3AwSl9rQkY3WHlPeGxmWHF6OS1pb3piakRHbHlXbTR0V09zSXViTHNacl9KOXfSAb8BQVVfeXFMT3NZZGpCUDFGOTlJV3FBZlhKU3psa2VEenV2RTdUUWNCNk5FazhnMDM1a1dpYlJOREc2TThMazVXV3QtSUJBay1hWWZPZy1ZNEZ1a2ZQTW50RXNqS3hDZ0EzM2taMDRiNkQxZWVwbURFM19VOUpPS1N5UnFZaEFGY3QycmdmajVqbGtsRk1xd2hydDMzT3VGN1FaSXM2T2hyNENQT3cxd0RUQjBEcjNiYmw4TXBOQVJ6X0NPRGVBanc?oc=5",
       "pubDate": "2025-08-20T07:00:00+00:00",
@@ -1087,17 +1098,6 @@
       "id": "164d767a23d536e3"
     },
     {
-      "title": "Detrás de la harina de insectos: contamina más que soja (un nuevo estudio lo dice) - stacatarina.mx",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTk1RlRZWnhSdUtudEc2VlRfOGF2eHF3MXRtN1ZyeU14Q05Ya0N5NVJvdV9wUGlIRVpsUC1Yc1dnQUtNc1ZhZk04WlRLS2U0SG52cl9PdE5qNHNPZjRDS1pSR3RMZnd4b29lU3dBdHlyMUxCeE1xSkZ4dklSTVUxMnZsNFhwZnFMVFRNSmJEUkUwRWJxb0RjUEpXb09ua0pPX2lyYWI3akV6b2h3anpxT0R3?oc=5",
-      "pubDate": "2025-05-28T07:00:00+00:00",
-      "source": "stacatarina.mx",
-      "language": "es",
-      "country": "ES",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+harina+de+insecto+when%3A365d&hl=es&gl=ES&ceid=ES%3Aes",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTk1RlRZWnhSdUtudEc2VlRfOGF2eHF3MXRtN1ZyeU14Q05Ya0N5NVJvdV9wUGlIRVpsUC1Yc1dnQUtNc1ZhZk04WlRLS2U0SG52cl9PdE5qNHNPZjRDS1pSR3RMZnd4b29lU3dBdHlyMUxCeE1xSkZ4dklSTVUxMnZsNFhwZnFMVFRNSmJEUkUwRWJxb0RjUEpXb09ua0pPX2lyYWI3akV6b2h3anpxT0R3?oc=5\" target=\"_blank\">Detrás de la harina de insectos: contamina más que soja (un nuevo estudio lo dice)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">stacatarina.mx</font>",
-      "id": "335f2a0b618c6994"
-    },
-    {
       "title": "Agriculture de demain : quand les insectes nourrissent la terre - La Terre de chez nous",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVF9ObzFaN2ZmZGhpbmZ1R05hNE1MZ3Z1QVJaY3ZPN1lSUGtseFZIUkZnR2pVVTlULTJuMFR0ZktiSHhTX1pFYjdvUU9GcWxLbi01VDBwSy1FQTBXZ2NlWmVYcF9ERm1PaG9BTFZDWWI5NXJNa3JPandnNHZQYmdLQ25RUF9xcUxaY2VKNTJ1U0lTbXV5WXlwUU4wY3FCTXdpZjJOUm4ySF9VZjd2ZWRMTXh3WQ?oc=5",
       "pubDate": "2025-04-14T07:00:00+00:00",
@@ -1118,6 +1118,28 @@
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPVF9ObzFaN2ZmZGhpbmZ1R05hNE1MZ3Z1QVJaY3ZPN1lSUGtseFZIUkZnR2pVVTlULTJuMFR0ZktiSHhTX1pFYjdvUU9GcWxLbi01VDBwSy1FQTBXZ2NlWmVYcF9ERm1PaG9BTFZDWWI5NXJNa3JPandnNHZQYmdLQ25RUF9xcUxaY2VKNTJ1U0lTbXV5WXlwUU4wY3FCTXdpZjJOUm4ySF9VZjd2ZWRMTXh3WQ?oc=5\" target=\"_blank\">Agriculture de demain : quand les insectes nourrissent la terre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">La Terre de chez nous</font>",
       "id": "af52dc4cf8f6597a"
+    },
+    {
+      "title": "Insectes dans les aliments : quels produits sont concernés ? - Nord Littoral",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkZTYzlXY0NZY3VoRjlud1VnR253N2k5ZVl2Y01IZW1lMnllcmlIZW1UQ3VQSG9BOEIzV3duY1ZVTHIzZ0w3ejBmdFhHb3dwdmhQajZsel9WdFZ6c19MRnhPcjI3a0JoT2FyMzZKUEdnTmlyc1NHUzBkeUNKRmJObmVrY09mTk1uNklHNWZHNGtPN0kwX1N2N25JRzI5UnhROVVSbURoZEhxU05MMGNr?oc=5",
+      "pubDate": "2025-03-10T07:00:00+00:00",
+      "source": "Nord Littoral",
+      "language": "fr",
+      "country": "FR",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkZTYzlXY0NZY3VoRjlud1VnR253N2k5ZVl2Y01IZW1lMnllcmlIZW1UQ3VQSG9BOEIzV3duY1ZVTHIzZ0w3ejBmdFhHb3dwdmhQajZsel9WdFZ6c19MRnhPcjI3a0JoT2FyMzZKUEdnTmlyc1NHUzBkeUNKRmJObmVrY09mTk1uNklHNWZHNGtPN0kwX1N2N25JRzI5UnhROVVSbURoZEhxU05MMGNr?oc=5\" target=\"_blank\">Insectes dans les aliments : quels produits sont concernés ?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nord Littoral</font>",
+      "id": "5982db84d99e7ae7"
+    },
+    {
+      "title": "Insectes dans les aliments : quels produits sont concernés ? - Nord Littoral",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkZTYzlXY0NZY3VoRjlud1VnR253N2k5ZVl2Y01IZW1lMnllcmlIZW1UQ3VQSG9BOEIzV3duY1ZVTHIzZ0w3ejBmdFhHb3dwdmhQajZsel9WdFZ6c19MRnhPcjI3a0JoT2FyMzZKUEdnTmlyc1NHUzBkeUNKRmJObmVrY09mTk1uNklHNWZHNGtPN0kwX1N2N25JRzI5UnhROVVSbURoZEhxU05MMGNr?oc=5",
+      "pubDate": "2025-03-10T07:00:00+00:00",
+      "source": "Nord Littoral",
+      "language": "fr",
+      "country": "LU",
+      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkZTYzlXY0NZY3VoRjlud1VnR253N2k5ZVl2Y01IZW1lMnllcmlIZW1UQ3VQSG9BOEIzV3duY1ZVTHIzZ0w3ejBmdFhHb3dwdmhQajZsel9WdFZ6c19MRnhPcjI3a0JoT2FyMzZKUEdnTmlyc1NHUzBkeUNKRmJObmVrY09mTk1uNklHNWZHNGtPN0kwX1N2N25JRzI5UnhROVVSbURoZEhxU05MMGNr?oc=5\" target=\"_blank\">Insectes dans les aliments : quels produits sont concernés ?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nord Littoral</font>",
+      "id": "5982db84d99e7ae7"
     }
   ]
 }
