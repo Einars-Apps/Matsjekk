@@ -106,7 +106,7 @@
   </footer>
 
   <script src="lang.local.js?v=20260309b"></script>
-  <script src="news.feed.js?v=20260309d"></script>
+  <script src="news.feed.js?v=20260309e"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
@@ -135,44 +135,71 @@
         window.renderNews(preferred).catch(function () {});
       }, 1600);
 
-      // Last-resort fallback: render static Scandinavian cards if no items appeared.
+      // Last-resort fallback: render region feed directly if main renderer failed.
       window.setTimeout(function () {
         var container = document.getElementById('news-list');
         if (!container) return;
         var hasCards = container.querySelector('.news-card');
         if (hasCards) return;
 
-        var fallback = [
-          {
-            title: 'NRK: Artikler om Bovaer',
-            source: 'NRK',
-            url: 'https://www.nrk.no/sok/?q=bovaer',
-            meta: 'NO • nb'
-          },
-          {
-            title: 'SVT: Sok etter Bovaer',
-            source: 'SVT',
-            url: 'https://www.svt.se/sok?q=bovaer',
-            meta: 'SE • sv'
-          },
-          {
-            title: 'DR: Sok efter Bovaer',
-            source: 'DR',
-            url: 'https://www.dr.dk/soeg?query=bovaer',
-            meta: 'DK • da'
-          }
-        ];
+        var regionSelect = document.getElementById('news-region');
+        var modeMap = {
+          cluster_scandinavia: 'data/news.region.cluster_scandinavia.json',
+          cluster_germanic_nl: 'data/news.region.cluster_germanic_nl.json',
+          cluster_fr_be_lu_ch: 'data/news.region.cluster_fr_be_lu_ch.json',
+          cluster_it_ch_fr: 'data/news.region.cluster_it_ch_fr.json',
+          cluster_english: 'data/news.region.cluster_english.json',
+          global: 'data/news.region.global.json'
+        };
 
-        container.innerHTML = '';
-        fallback.forEach(function (item) {
-          var card = document.createElement('article');
-          card.className = 'news-card';
-          card.innerHTML =
-            '<h4><a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a></h4>' +
-            '<p class="meta">' + item.source + ' • ' + item.meta + '</p>' +
-            '<p class="links"><a href="' + item.url + '" target="_blank" rel="noopener">Open original</a></p>';
-          container.appendChild(card);
-        });
+        function resolveMode() {
+          var selected = (regionSelect && regionSelect.value) || 'auto';
+          if (selected === 'auto') return 'cluster_scandinavia';
+          return modeMap[selected] ? selected : 'cluster_scandinavia';
+        }
+
+        function renderDirect(mode) {
+          var url = modeMap[mode] || modeMap.cluster_scandinavia;
+          fetch(url, { cache: 'no-cache' })
+            .then(function (response) {
+              if (!response.ok) throw new Error('HTTP ' + response.status);
+              return response.json();
+            })
+            .then(function (payload) {
+              var items = payload && Array.isArray(payload.items) ? payload.items : [];
+              container.innerHTML = '';
+              if (!items.length) {
+                container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';
+                return;
+              }
+              items.slice(0, 30).forEach(function (item) {
+                var title = String(item.title || 'Untitled');
+                var source = String(item.source || 'Ukjent kilde');
+                var country = String(item.country || '');
+                var language = String(item.language || '');
+                var articleUrl = String(item.url || '#');
+
+                var card = document.createElement('article');
+                card.className = 'news-card';
+                card.innerHTML =
+                  '<h4><a href="' + articleUrl + '" target="_blank" rel="noopener">' + title + '</a></h4>' +
+                  '<p class="meta">' + source + ' • ' + country + ' • ' + language + '</p>' +
+                  '<p class="links"><a href="' + articleUrl + '" target="_blank" rel="noopener">Open original</a></p>';
+                container.appendChild(card);
+              });
+            })
+            .catch(function () {
+              container.innerHTML = '<p class="muted">Nyheter kunne ikke lastes akkurat na. Proev igjen om litt.</p>';
+            });
+        }
+
+        renderDirect(resolveMode());
+        if (regionSelect && !regionSelect.dataset.directFallbackBound) {
+          regionSelect.dataset.directFallbackBound = '1';
+          regionSelect.addEventListener('change', function () {
+            renderDirect(resolveMode());
+          });
+        }
       }, 2800);
     });
   </script>
