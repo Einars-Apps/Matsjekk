@@ -337,14 +337,16 @@ function dictForLanguage(lang) {
 }
 
 function applyTranslations(lang) {
-  const dict = dictForLanguage(lang);
+  const normalized = normalizeLanguageCode(lang);
+  const dictLang = translations[normalized] ? normalized : (normalized !== 'nb' && isSupportedLanguage(normalized) ? 'en' : 'nb');
+  const dict = dictForLanguage(dictLang);
   document.querySelectorAll('[data-translate]').forEach((el) => {
     const key = el.getAttribute('data-translate');
     if (key && dict[key]) {
       el.textContent = dict[key];
     }
   });
-  document.documentElement.lang = normalizeLanguageCode(lang) || 'nb';
+  document.documentElement.lang = dictLang || 'nb';
 }
 
 function populateSelect(selectElement) {
@@ -427,6 +429,16 @@ async function loadLanguage() {
 }
 
 function initLanguage() {
+  // Extra defense against browser-wide auto-translate overlays.
+  if (document.documentElement) {
+    document.documentElement.setAttribute('translate', 'no');
+    document.documentElement.classList.add('notranslate');
+  }
+  if (document.body) {
+    document.body.setAttribute('translate', 'no');
+    document.body.classList.add('notranslate');
+  }
+
   if (isGoogleTranslatedHost()) {
     const originUrl = buildOriginalUrlFromTranslateProxy();
     if (originUrl) {
