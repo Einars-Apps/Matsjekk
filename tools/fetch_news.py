@@ -29,16 +29,43 @@ CONFIG_PATH = ROOT / "docs" / "data" / "news_feeds.json"
 OUT_PATH = ROOT / "docs" / "data" / "news.latest.json"
 OUT_REGION_TEMPLATE = ROOT / "docs" / "data" / "news.region.{mode}.json"
 
-TOPIC_KEYWORDS = (
+TOPIC_BOVAER_KEYWORDS = (
     "bovaer",
-    "gmo",
-    "insect",
-    "insekt",
-    "insek",
-    "sporbar",
-    "trace",
-    "feed",
-    "fôr",
+)
+
+TOPIC_INSECT_MEAL_KEYWORDS = (
+    "insect meal",
+    "insektsmel",
+    "insektsmjol",
+    "insektenmehl",
+    "farine d'insectes",
+    "farina di insetti",
+    "harina de insecto",
+    "farinha de inseto",
+    "hyonteisjauho",
+)
+
+TOPIC_GMO_FEED_KEYWORDS = (
+    "gmo fish feed",
+    "gmo-fiskefor",
+    "gmo fiskefor",
+    "gmo fishmeal feed",
+    "genetically modified feed",
+    "gmo fodder",
+    "gmo foder",
+    "gmo feed",
+    "gmo-for",
+    "gmo fôr",
+    "gmo for",
+)
+
+TOPIC_SUSTAINABILITY_KEYWORDS = (
+    "baerekraft",
+    "bærekraft",
+    "sustainability",
+    "sustainable",
+    "climate-smart",
+    "klimavennlig",
 )
 FOOD_CONTEXT_KEYWORDS = (
     "food",
@@ -215,11 +242,24 @@ def _is_relevant(title: str, summary: str, *, strict: bool = True) -> bool:
     text = f"{title} {summary}".lower()
     if any(noise in text for noise in EXCLUDED_NOISE_KEYWORDS):
         return False
-    has_topic = any(k in text for k in TOPIC_KEYWORDS)
+
+    has_bovaer = any(k in text for k in TOPIC_BOVAER_KEYWORDS)
+    has_insect_meal = any(k in text for k in TOPIC_INSECT_MEAL_KEYWORDS)
+    has_gmo_feed = any(k in text for k in TOPIC_GMO_FEED_KEYWORDS)
+    has_sustainability = any(k in text for k in TOPIC_SUSTAINABILITY_KEYWORDS)
+
+    # Only include these topic families.
+    has_allowed_topic = has_bovaer or has_insect_meal or has_gmo_feed or has_sustainability
+    if not has_allowed_topic:
+        return False
+
+    # In strict mode, sustainability/generic feed mentions must still be in food/agri context.
     if not strict:
-        return has_topic
+        return True
     has_context = any(k in text for k in FOOD_CONTEXT_KEYWORDS)
-    return has_topic and has_context
+    if has_bovaer or has_insect_meal or has_gmo_feed:
+        return True
+    return has_sustainability and has_context
 
 
 def _is_primary_topic(title: str, summary: str, url: str) -> bool:
@@ -237,8 +277,15 @@ def _ensure_recent_google_query(url: str) -> str:
         if not query_values:
             return url
         query = query_values[0]
+
+        sustainability_terms = ("baerekraft", "bærekraft", "sustainability")
+        if not any(term in query.lower() for term in sustainability_terms):
+            query = f"({query}) OR baerekraft OR bærekraft OR sustainability"
+
         if "when:" in query.lower():
-            return url
+            params["q"] = [query]
+            rebuilt = parsed._replace(query=urlencode(params, doseq=True))
+            return urlunparse(rebuilt)
         query = f"{query} when:{RECENT_DAYS}d"
         params["q"] = [query]
         rebuilt = parsed._replace(query=urlencode(params, doseq=True))
