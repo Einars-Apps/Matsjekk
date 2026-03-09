@@ -42,6 +42,36 @@ const LANGUAGE_LABELS = {
   es: 'Espanol',
 };
 
+const SCANDINAVIAN_FALLBACK_ARTICLES = [
+  {
+    title: 'NRK: Artikler om Bovaer',
+    source: 'NRK',
+    url: 'https://www.nrk.no/sok/?q=bovaer',
+    language: 'nb',
+    country: 'NO',
+    pubDate: '2026-03-09T09:00:00Z',
+    shortSummary: 'Sokeside for norske artikler om Bovaer i norsk kontekst.',
+  },
+  {
+    title: 'SVT: Sok etter Bovaer',
+    source: 'SVT',
+    url: 'https://www.svt.se/sok?q=bovaer',
+    language: 'sv',
+    country: 'SE',
+    pubDate: '2026-03-09T08:00:00Z',
+    shortSummary: 'Sokeside for svenske artikler med lokal dekning.',
+  },
+  {
+    title: 'DR: Sok efter Bovaer',
+    source: 'DR',
+    url: 'https://www.dr.dk/soeg?query=bovaer',
+    language: 'da',
+    country: 'DK',
+    pubDate: '2026-03-09T07:00:00Z',
+    shortSummary: 'Sogeside med danske nyheder og baggrund om emnet.',
+  },
+];
+
 function safeStorageGet(key) {
   try {
     return localStorage.getItem(key);
@@ -313,6 +343,11 @@ function newsListForDisplay(items, scope) {
   return sorted.slice(0, NEWS_MAX_ITEMS);
 }
 
+function fallbackNewsForScope(scope) {
+  if (scope === null) return SCANDINAVIAN_FALLBACK_ARTICLES;
+  return SCANDINAVIAN_FALLBACK_ARTICLES.filter((item) => countryScopeContains(scope, item.country));
+}
+
 function classifyReportReason(reason) {
   const text = String(reason || '').toLowerCase();
   const obvious = ['404', 'dead link', 'spam', 'duplicate', 'malware', 'phishing', 'not an article'];
@@ -430,7 +465,10 @@ async function renderNews(preferredLang) {
   const userCountry = await detectCountryCodeFromGeo();
   const scope = regionCountriesForMode(mode, userCountry);
 
-  const visible = newsListForDisplay(merged, scope);
+  let visible = newsListForDisplay(merged, scope);
+  if (!visible || visible.length === 0) {
+    visible = fallbackNewsForScope(scope);
+  }
   container.innerHTML = '';
 
   if (!visible || visible.length === 0) {

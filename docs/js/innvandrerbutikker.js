@@ -676,20 +676,6 @@
     return Boolean(PAGE_TRANSLATIONS[code]);
   }
 
-  function isGoogleTranslatedHost() {
-    const host = String(window.location.hostname || '').toLowerCase();
-    return host.includes('translate.goog') || host.includes('translate.googleusercontent.com');
-  }
-
-  function redirectToGoogleTranslate(targetLang) {
-    const code = (targetLang || '').toLowerCase();
-    if (!code || code === 'nb' || hasNativeDictionary(code)) return false;
-    if (isGoogleTranslatedHost()) return false;
-    const url = `https://translate.google.com/translate?sl=nb&tl=${encodeURIComponent(code)}&u=${encodeURIComponent(window.location.href)}`;
-    window.location.assign(url);
-    return true;
-  }
-
   function translate(key) {
     return languageDict(currentPageLanguage)[key] || languageDict('nb')[key] || '';
   }
@@ -806,7 +792,6 @@
     languageSelect.value = selectedMode;
     const initialLanguage = selectedMode === 'auto' ? detectPreferredLanguage() : selectedMode;
     localStorage.setItem('matsjekk_lang', initialLanguage);
-    if (redirectToGoogleTranslate(initialLanguage)) return;
     applyPageLanguage(initialLanguage);
 
     languageSelect.addEventListener('change', () => {
@@ -815,7 +800,6 @@
       localStorage.setItem(LANGUAGE_STORAGE_KEY, normalizedMode);
       const nextLanguage = normalizedMode === 'auto' ? detectPreferredLanguage() : normalizedMode;
       localStorage.setItem('matsjekk_lang', nextLanguage);
-      if (redirectToGoogleTranslate(nextLanguage)) return;
       applyPageLanguage(nextLanguage);
       filterShops();
     });
