@@ -39168,18 +39168,6 @@
     "address": "Hauptstraße"
   },
   {
-    "id": 9265227182,
-    "name": "Grööntüch vunne Insel",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.4995701,
-    "lon": 8.893327,
-    "address": null
-  },
-  {
     "id": 9267612920,
     "name": "Hana's Hoflädchen",
     "country": "Germany",
@@ -53112,6 +53100,18 @@
     "address": null
   },
   {
+    "id": 12111467137,
+    "name": "Hofladen Hof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4410082,
+    "lon": 7.4743751,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -54139,8 +54139,8 @@
     "municipality": "Nürnberg",
     "products": [],
     "website": "https://www.link-gemuese.de",
-    "lat": 49.4921143,
-    "lon": 11.0480547,
+    "lat": 49.4921145,
+    "lon": 11.0480785,
     "address": "Am Wegfeld"
   },
   {
@@ -65539,8 +65539,8 @@
     "municipality": "Uetze",
     "products": [],
     "website": "http://www.die-goettings.de/",
-    "lat": 52.463154,
-    "lon": 10.2160523,
+    "lat": 52.4631535,
+    "lon": 10.2160106,
     "address": "Seeweg"
   },
   {
@@ -70042,6 +70042,42 @@
     "lat": 48.0353867,
     "lon": 9.8115006,
     "address": null
+  },
+  {
+    "id": 9265227182,
+    "name": "Grööntüch vunne Insel",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.4995701,
+    "lon": 8.893327,
+    "address": null
+  },
+  {
+    "id": 60988849,
+    "name": "Link Gemüse",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Nürnberg",
+    "products": [],
+    "website": "https://www.link-gemuese.de",
+    "lat": 49.4921143,
+    "lon": 11.0480547,
+    "address": "Am Wegfeld"
+  },
+  {
+    "id": 716823415,
+    "name": "Familie Götting",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Uetze",
+    "products": [],
+    "website": "http://www.die-goettings.de/",
+    "lat": 52.463154,
+    "lon": 10.2160523,
+    "address": "Seeweg"
   },
   {
     "id": 1104696632,

@@ -7512,18 +7512,6 @@
     "address": null
   },
   {
-    "id": 172149052,
-    "name": "The Olive Tree",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.3232251,
-    "lon": -1.8652983,
-    "address": null
-  },
-  {
     "id": 172984267,
     "name": "Nunwell Farm Kitchen",
     "country": "United Kingdom",
@@ -18369,6 +18357,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 172149052,
+    "name": "The Olive Tree",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.3232251,
+    "lon": -1.8652983,
     "address": null
   },
   {
