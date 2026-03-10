@@ -18,6 +18,8 @@ import 'premium_screen.dart';
 import 'premium_service.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'ad_banner.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -65,6 +67,7 @@ const Map<String, Map<String, dynamic>> appReviewSampleProducts = {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await MobileAds.instance.initialize();
   await Hive.initFlutter();
   await Hive.openBox('handlelister');
   await Hive.openBox('historikk');
@@ -1022,7 +1025,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           ListTile(
             leading: const Icon(Icons.workspace_premium),
             title: Text(
-                premiumActive ? 'Premium (aktiv)' : 'Premium (7 dagers prøve)'),
+                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
             onTap: () {
               _safePop();
               Navigator.of(context).push(
@@ -1426,8 +1429,11 @@ class _ScannerScreenState extends State<ScannerScreen>
         backgroundColor: Colors.green,
         child: const Icon(Icons.add, color: Colors.white),
       ),
-      body: Stack(
+      body: Column(
         children: [
+          Expanded(
+            child: Stack(
+              children: [
           if (controller != null)
             MobileScanner(controller: controller!, onDetect: _handleBarcode)
           else
@@ -1538,16 +1544,39 @@ class _ScannerScreenState extends State<ScannerScreen>
                           () => showFullScreenList = !showFullScreenList),
                       onRename: _handleRename,
                       onShowSearch: () => _visSok(),
+                      showPremiumUpsell: !premiumActive,
+                      onPremiumTap: () {
+                        setState(() {
+                          showList = false;
+                          showFullScreenList = false;
+                        });
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => PremiumScreen(
+                              innstillingerBox: innstillingerBox,
+                              onPremiumChanged: (active) {
+                                if (!mounted) return;
+                                setState(() {
+                                  premiumActive = active;
+                                });
+                              },
+                            ),
+                          ),
+                        );
+                      },
                     ),
+            )
+        ],
             ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              height: 50,
-              color: Colors.grey[300],
-              child: const Center(child: Text('Annonsebanner her')),
+          ),
+          if (!premiumActive)
+            const SafeArea(
+              top: false,
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 4),
+                child: Center(child: AdBanner()),
+              ),
             ),
-          )
         ],
       ),
     );

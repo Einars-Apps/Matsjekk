@@ -585,6 +585,8 @@ class HandlelisteOverlay extends StatefulWidget {
   final VoidCallback onToggleFullScreen;
   final Function(String, String) onRename;
   final VoidCallback onShowSearch;
+  final bool showPremiumUpsell;
+  final VoidCallback? onPremiumTap;
 
   const HandlelisteOverlay({
     required this.listeNavn,
@@ -593,6 +595,8 @@ class HandlelisteOverlay extends StatefulWidget {
     required this.onToggleFullScreen,
     required this.onRename,
     required this.onShowSearch,
+    this.showPremiumUpsell = false,
+    this.onPremiumTap,
     super.key,
   });
 
@@ -608,7 +612,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
   Widget build(BuildContext context) {
     final height = widget.isFullScreen
         ? MediaQuery.of(context).size.height
-        : MediaQuery.of(context).size.height * 0.7;
+        : MediaQuery.of(context).size.height * 0.62;
     return Container(
       height: height,
       decoration: BoxDecoration(
@@ -736,6 +740,36 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               icon: const Icon(Icons.close),
                               onPressed: widget.onClose)
                         ]),
+                    if (widget.showPremiumUpsell)
+                      Material(
+                        color: Colors.amber.shade50,
+                        child: InkWell(
+                          onTap: widget.onPremiumTap,
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 12, vertical: 8),
+                            child: Row(
+                              children: [
+                                const Icon(Icons.workspace_premium,
+                                    color: Colors.orange),
+                                const SizedBox(width: 8),
+                                const Expanded(
+                                  child: Text(
+                                    'Fjern annonser for mer plass i handlelisten',
+                                    style: TextStyle(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w600),
+                                  ),
+                                ),
+                                TextButton(
+                                  onPressed: widget.onPremiumTap,
+                                  child: const Text('Se'),
+                                )
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
