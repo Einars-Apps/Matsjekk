@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T19:05:02.131822+00:00",
+  "generatedAt": "2026-03-10T05:15:32.490005+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -10,7 +10,7 @@
     {
       "title": "Temaoversikt siste 365 dager (LU)",
       "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr",
-      "pubDate": "2026-03-09T19:05:02.122560+00:00",
+      "pubDate": "2026-03-10T05:15:32.485035+00:00",
       "source": "Google News",
       "language": "fr",
       "country": "LU",
@@ -21,7 +21,7 @@
     {
       "title": "Temaoversikt siste 365 dager (FR)",
       "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
-      "pubDate": "2026-03-09T19:05:02.122452+00:00",
+      "pubDate": "2026-03-10T05:15:32.484779+00:00",
       "source": "Google News",
       "language": "fr",
       "country": "FR",
@@ -63,17 +63,6 @@
       "id": "c6968f3577e0e238"
     },
     {
-      "title": "Vant første NASF Sustainability Award - Kyst.no",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2M0TU5wNTUyMjRpRmxUcjUzYnFxTHlNeWo4aGdvajVXb01QaFZ2eWNYYTIzYjlyQ0dHUTgxVWxXQnc4eGxkZzNWUGxCcm5WZ2ZQc0pfeGh1SU9sSGpZSlVSa1BoR000NHFvc0xlM1ViLXZEai11SW5JRlozLURKU2Zpc2tMZ2doU1NlMGRYakRwLVdIRGdaRTN3?oc=5",
-      "pubDate": "2026-03-04T13:27:46+00:00",
-      "source": "Kyst.no",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2M0TU5wNTUyMjRpRmxUcjUzYnFxTHlNeWo4aGdvajVXb01QaFZ2eWNYYTIzYjlyQ0dHUTgxVWxXQnc4eGxkZzNWUGxCcm5WZ2ZQc0pfeGh1SU9sSGpZSlVSa1BoR000NHFvc0xlM1ViLXZEai11SW5JRlozLURKU2Zpc2tMZ2doU1NlMGRYakRwLVdIRGdaRTN3?oc=5\" target=\"_blank\">Vant første NASF Sustainability Award</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kyst.no</font>",
-      "id": "00aa3b50b5a4e768"
-    },
-    {
       "title": "Nederlandse bedrijf Veramaris wint de allereerste NASF Sustainability Award - Duurzaam Ondernemen",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLVllazM4UHQ5WFp0RFZ3ckY2YkMwUWw5Mno4Z0VmbEF0SWlrWDdtU1Q0UmpoYnQzOHB0cThyWDNldlF2bzFiSEt6bkhuUHNIa1JKY2pDbDBxZ3FJdXZwU1BkUEtVbG1UUGg4Y3NMeWc2RDcxVkUxUHhvRk5RU2xJY09hRVc0THppRFVMX2ljT2NzRkh4MkVkM1NiYUhnclg3UlFiTW5tS3o5S05FcHkwMQ?oc=5",
       "pubDate": "2026-03-04T13:17:53+00:00",
@@ -91,9 +80,20 @@
       "source": "facebook.com",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aadressa.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Arbnett.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQndLZ2VUcU1UUVdRMUpqX1RNdk1oSU5Gd1Vjc1BLU0pvbG5xYld4WkVaVzZQNHdXd3haanFySVlPQ0R1QTZCeVpTN21zLVJaWW4xb3lRbWh5Q0d3cEQ3Tkt2RlpvRDJIbDl1N0RublJCdXZEMFBkR0thR0xFeHR4Ykxib1ZsLXM3SGRkc1FfR2w2alZ2WEZsNERIZ0paS2sxbHJna0lxLUtrX0x1SldHTnp2YkF6MkVUMFNYLXFTa3dwNGFXd0czLVRZSF85VmxTaE80WFBNalpQamRkMXpJSzJDdmY3Rmc2dTJF?oc=5\" target=\"_blank\">Nei til bovaer👎 Ikke påtving folket, bøndene og kua noe de ikke vil ha og noe de ikke trenger🍎</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">facebook.com</font>",
       "id": "270ac54adbd30936"
+    },
+    {
+      "title": "MB Energy neuer Energie- und Sustainability-Partner der Bitpanda Hamburg Open - Mynewsdesk",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUU4xeXdlUUpSVzl4a20ybEtOd29lSW83dHFBQ3AxbkdPdzJBMFdpTmNnc3dRNXRVWTU1SjFnRE1ZcWR1VjJ6MFI1QjJ0cGFHM1QwWTMtaEgyb0hiaWF0QW13VFpkdExQTWVUTTREWjBleTVmanBlcXZpVkVRWVM0TWdUN3YyODJkUzRnZ3RTejRreWU3dDBTVEVadExDaDdDYV9KcndaSnJUc0ozeVNLeXBEcUFJTlRZY083bzAwazlxUkt0d3lsczlnTWwxckN3STJN?oc=5",
+      "pubDate": "2026-03-03T09:00:00+00:00",
+      "source": "Mynewsdesk",
+      "language": "de",
+      "country": "AT",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUU4xeXdlUUpSVzl4a20ybEtOd29lSW83dHFBQ3AxbkdPdzJBMFdpTmNnc3dRNXRVWTU1SjFnRE1ZcWR1VjJ6MFI1QjJ0cGFHM1QwWTMtaEgyb0hiaWF0QW13VFpkdExQTWVUTTREWjBleTVmanBlcXZpVkVRWVM0TWdUN3YyODJkUzRnZ3RTejRreWU3dDBTVEVadExDaDdDYV9KcndaSnJUc0ozeVNLeXBEcUFJTlRZY083bzAwazlxUkt0d3lsczlnTWwxckN3STJN?oc=5\" target=\"_blank\">MB Energy neuer Energie- und Sustainability-Partner der Bitpanda Hamburg Open</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mynewsdesk</font>",
+      "id": "41fb629ab937d53e"
     },
     {
       "title": "E-mobiliteit: Sustainability Battery Giga-Fabs - Siemens",
@@ -151,28 +151,6 @@
       "id": "2b43f08f12215124"
     },
     {
-      "title": "Kan det være helt tilfeldig at så mange danske kyr blir syke rett etter å ha startet å få metanhemmeren bovaer tilsatt i fôret? Se hele episode 95 av «Snakk med Silje» med Veterinær og bonde Maria Nilsson og bonde Tor Golid på Spotify eller YouTube, eller hø - instagram.com",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Ec1dWNlRoRllCZ3hyNllwVGVfVEVvLUJrY0Mwb0JIaXo1RmpkcHNENnBpM01NSzEyQUNJUmtYMEcza21xZnNudU5aYndoa192NHc?oc=5",
-      "pubDate": "2026-02-25T08:00:00+00:00",
-      "source": "instagram.com",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Ant.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Ec1dWNlRoRllCZ3hyNllwVGVfVEVvLUJrY0Mwb0JIaXo1RmpkcHNENnBpM01NSzEyQUNJUmtYMEcza21xZnNudU5aYndoa192NHc?oc=5\" target=\"_blank\">Kan det være helt tilfeldig at så mange danske kyr blir syke rett etter å ha startet å få metanhemmeren bovaer tilsatt i fôret? Se hele episode 95 av «Snakk med Silje» med Veterinær og bonde Maria Nilsson og bonde Tor Golid på Spotify eller YouTube, eller hø</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">instagram.com</font>",
-      "id": "c20fd1033ce104a1"
-    },
-    {
-      "title": "Bovaer cattle feed supplement to be reassessed by European Food Safety Authority - Irish Examiner",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50TlZ4S0s2UlhoOHA0QXYwRUYxRmVHWkkwM3pXVkg4cmVQZ2pEdk1McE9QSk41ZU92T1BILVhpdm5DNXVXVmdFME9hWGNBdm9kY2tMR2UtSG50Z1VISTg0UF9FNFRQdWM?oc=5",
-      "pubDate": "2026-02-25T08:00:00+00:00",
-      "source": "Irish Examiner",
-      "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50TlZ4S0s2UlhoOHA0QXYwRUYxRmVHWkkwM3pXVkg4cmVQZ2pEdk1McE9QSk41ZU92T1BILVhpdm5DNXVXVmdFME9hWGNBdm9kY2tMR2UtSG50Z1VISTg0UF9FNFRQdWM?oc=5\" target=\"_blank\">Bovaer cattle feed supplement to be reassessed by European Food Safety Authority</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Irish Examiner</font>",
-      "id": "ac8261c038236b4d"
-    },
-    {
       "title": "Innovafeed earns recognition for its sustainable insect-based ingredients - WEAREAQUACULTURE",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaDRnMlp5bndjakY2Zy1aRHBxb2ZZT1p5X2ttYjdMbFJDNmxWcllyaU1oaGV4b2N0YVpYT0piTjBKN19qaDRUVmdUYTJHNXdBN01FN0VTZ3FzeENabnJYRHd2OHNCanNsQ2lrZjVMR0s4SzJmNGNkSU5qM1VKOTFpMDljajFfUi1ETFNRRkhTMzVkTDJsZU1iczdTZEpua083N3o2RTBDTEMweHlWRjVaWnVSWnZVb2ZnRXpPbm42d9IBzAFBVV95cUxQV0tXQ3JoMmxqSHdGMVkzRmZSNzd1b19lZFJBbzl3aGJ0VkhmdmZfRWpibzhBRklET01GVVN2eWRBN1ZuaFdkVkhzV2xsZlQ4bXZlY0V5M3pxZjNBT0ZOY1pueHByOExfMi12WDZaVjd2bDhzT19mNWppd3VlbmZORmNUWTF4dEhjUG5vbVZNQVFMSkhiRzd2VnduaHE4ZmRRTFo3NTlIY014eVhpNEpZVGFtMS1qUWVIaUt1SFRoMHlxWWQtTy1YQ1F3RXY?oc=5",
       "pubDate": "2026-02-20T10:10:17+00:00",
@@ -226,6 +204,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
       "id": "95396880def940d3"
+    },
+    {
+      "title": "Japanese industry-academia collaboration to test insect meal in aquafeed - Aquafeed.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblY1ams0MnlHaW91Q0IxLWx3eExPREZGbnJyYXVWMWNPYWhJSWUtRmdpb00tVF9MS2QwTWVWQ1Z6T0thRXBZSFlDR0N4dW1TX1QwRG1yM1V1MkVocEFQbUljYkQwdDhORW1oMU5USFUtbG5sMjJKa2g5b2ktYmJJYlZpNjZneU5ZRUtXa080VVZlTFl1bUtLajNxMjlmbUN1N05mbFM5aWxOVC05T1FVZA?oc=5",
+      "pubDate": "2026-02-11T08:00:00+00:00",
+      "source": "Aquafeed.com",
+      "language": "en",
+      "country": "NZ",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQblY1ams0MnlHaW91Q0IxLWx3eExPREZGbnJyYXVWMWNPYWhJSWUtRmdpb00tVF9MS2QwTWVWQ1Z6T0thRXBZSFlDR0N4dW1TX1QwRG1yM1V1MkVocEFQbUljYkQwdDhORW1oMU5USFUtbG5sMjJKa2g5b2ktYmJJYlZpNjZneU5ZRUtXa080VVZlTFl1bUtLajNxMjlmbUN1N05mbFM5aWxOVC05T1FVZA?oc=5\" target=\"_blank\">Japanese industry-academia collaboration to test insect meal in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
+      "id": "d7d4f56684715728"
     },
     {
       "title": "Bovaer granskas igen: Efsa utreder säkerhetsrisker - ATL",
@@ -327,15 +316,26 @@
       "id": "8597b9b75d70bf4c"
     },
     {
-      "title": "Bovaer-oppfinneren synes ikke bønder bør tvinges til å bruke metanhemmere - Nationen",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlV2aXd4SW4tWk5lQUJ5c1lwUnQ2MS1IRHJoY3B3SHRsMHl1UlJscGE0UjU2WlJMdU92d0NIbXRXRWMxdnl0UEhFeHB3RVVidUNtVnlhVnBNNWRUazJzSVQwazFVR01SX2VxUGhBQWE1ZzRFNkNaTUFFZE9SajVkWVBNUU1kU1pYdnBSS3lRU2x4a1hlSjNGdzhUTk14d1h6VnFqa1ZPcE8wOWxhRHZ1SkNBQjI4MUxZMXBuQ185enUxVVF0?oc=5",
+      "title": "fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren - Technische Universität Wien | TU Wien",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5",
       "pubDate": "2026-02-05T08:00:00+00:00",
-      "source": "Nationen",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlV2aXd4SW4tWk5lQUJ5c1lwUnQ2MS1IRHJoY3B3SHRsMHl1UlJscGE0UjU2WlJMdU92d0NIbXRXRWMxdnl0UEhFeHB3RVVidUNtVnlhVnBNNWRUazJzSVQwazFVR01SX2VxUGhBQWE1ZzRFNkNaTUFFZE9SajVkWVBNUU1kU1pYdnBSS3lRU2x4a1hlSjNGdzhUTk14d1h6VnFqa1ZPcE8wOWxhRHZ1SkNBQjI4MUxZMXBuQ185enUxVVF0?oc=5\" target=\"_blank\">Bovaer-oppfinneren synes ikke bønder bør tvinges til å bruke metanhemmere</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
-      "id": "0e7ada403ae09c3f"
+      "source": "Technische Universität Wien | TU Wien",
+      "language": "de",
+      "country": "AT",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5\" target=\"_blank\">fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technische Universität Wien | TU Wien</font>",
+      "id": "26658aa1a9ce4f3d"
+    },
+    {
+      "title": "Norska Tine stoppar mjölk från kor som fått Bovaer - ATL",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCRzlGVWZ1dGFYMDRKQ21WYjczcDk5bEFsUzAtMWotbnRWZWluSW9YUTFxWmgtMEdGSXZ5VVNaOXNIODJmSmlpUGVBTWV6QlNUdm9lSE5tUTZ1WEJyM0JDaXdHdWpJSlNGTE5vdzVVQnNvRXJ3N2luNA?oc=5",
+      "pubDate": "2026-01-30T08:00:00+00:00",
+      "source": "ATL",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBCRzlGVWZ1dGFYMDRKQ21WYjczcDk5bEFsUzAtMWotbnRWZWluSW9YUTFxWmgtMEdGSXZ5VVNaOXNIODJmSmlpUGVBTWV6QlNUdm9lSE5tUTZ1WEJyM0JDaXdHdWpJSlNGTE5vdzVVQnNvRXJ3N2luNA?oc=5\" target=\"_blank\">Norska Tine stoppar mjölk från kor som fått Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ATL</font>",
+      "id": "74d9b68c42b0261c"
     }
   ]
 }
