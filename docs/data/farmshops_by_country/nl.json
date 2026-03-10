@@ -3703,10 +3703,12 @@
     "country": "Netherlands",
     "region": null,
     "municipality": "Hazerswoude-Rijndijk",
-    "products": [],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177873,
-    "lon": 4.6080501,
+    "products": [
+      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+    ],
+    "website": "https://www.boerderijwinkelvanhier.nl",
+    "lat": 52.1177099,
+    "lon": 4.6086804,
     "address": "Spookverlaat"
   },
   {
@@ -6256,20 +6258,6 @@
     "address": "Boomvliet"
   },
   {
-    "id": 982183443,
-    "name": "Boerderij winkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hazerswoude-Rijndijk",
-    "products": [
-      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
-    ],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177108,
-    "lon": 4.6086832,
-    "address": "Spookverlaat"
-  },
-  {
     "id": 1068244897,
     "name": "Ei-cel",
     "country": "Netherlands",
@@ -6496,6 +6484,32 @@
     "lat": 51.4932275,
     "lon": 4.0532058,
     "address": null
+  },
+  {
+    "id": 9083859686,
+    "name": "Boerderijwinkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177873,
+    "lon": 4.6080501,
+    "address": "Spookverlaat"
+  },
+  {
+    "id": 982183443,
+    "name": "Boerderij winkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [
+      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+    ],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177108,
+    "lon": 4.6086832,
+    "address": "Spookverlaat"
   },
   {
     "id": 721331835,

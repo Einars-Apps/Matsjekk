@@ -54899,6 +54899,30 @@
       "lat": 54.9139613,
       "lon": 10.6035273,
       "address": null
+    },
+    {
+      "id": 5268079293,
+      "name": "Gundestrup Mejeri og Bryghus A/S",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.mejeri-bryg.dk/",
+      "lat": 55.0925456,
+      "lon": 10.4074429,
+      "address": null
+    },
+    {
+      "id": 13629581522,
+      "name": "Strids Mølle",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://stridsmolle.dk/",
+      "lat": 55.638013,
+      "lon": 11.3590352,
+      "address": null
     }
   ],
   "FI": [
@@ -166019,6 +166043,20 @@
       "lat": 12.3726987,
       "lon": -69.1455522,
       "address": null
+    },
+    {
+      "id": 9083859686,
+      "name": "Boerderijwinkel VanHier",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Hazerswoude-Rijndijk",
+      "products": [
+        "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+      ],
+      "website": "https://www.boerderijwinkelvanhier.nl",
+      "lat": 52.1177099,
+      "lon": 4.6086804,
+      "address": "Spookverlaat"
     }
   ],
   "BE": [
@@ -427118,6 +427156,30 @@
       "lat": 53.5587058,
       "lon": -2.0332982,
       "address": "Oldham Road"
+    },
+    {
+      "id": 13631079415,
+      "name": "The Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.1109731,
+      "lon": -2.4821243,
+      "address": null
+    },
+    {
+      "id": 1285626708,
+      "name": "The Wild Olive Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.6861713,
+      "lon": -1.9084407,
+      "address": null
     }
   ],
   "IE": [

@@ -43113,7 +43113,7 @@
     "website": "https://hofschwarting.de/",
     "lat": 53.0317651,
     "lon": 8.4993196,
-    "address": "Zum Thienfelde"
+    "address": null
   },
   {
     "id": 9950020364,
@@ -49788,18 +49788,6 @@
     "address": null
   },
   {
-    "id": 11559280866,
-    "name": "Glückert",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.8342571,
-    "lon": 9.8722037,
-    "address": null
-  },
-  {
     "id": 11569932583,
     "name": "Alpaka",
     "country": "Germany",
@@ -53109,6 +53097,18 @@
     "website": null,
     "lat": 50.4410082,
     "lon": 7.4743751,
+    "address": null
+  },
+  {
+    "id": 12111487971,
+    "name": "Milchtankstelle Jakobshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6038221,
+    "lon": 10.1202812,
     "address": null
   },
   {
@@ -70041,6 +70041,18 @@
     "website": null,
     "lat": 48.0353867,
     "lon": 9.8115006,
+    "address": null
+  },
+  {
+    "id": 11559280866,
+    "name": "Glückert",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.8342571,
+    "lon": 9.8722037,
     "address": null
   },
   {

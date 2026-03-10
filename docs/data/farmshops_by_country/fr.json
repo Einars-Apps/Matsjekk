@@ -1183,8 +1183,8 @@
     "municipality": null,
     "products": [],
     "website": "http://fermedelasouleuvre.fr",
-    "lat": 48.9636092,
-    "lon": 5.9527901,
+    "lat": 48.9641516,
+    "lon": 5.9528169,
     "address": null
   },
   {
@@ -36852,6 +36852,18 @@
     "address": "Rue des 4 Tilleuls"
   },
   {
+    "id": 13629585801,
+    "name": "Ma cabane sur Mars",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://macabanesurmars.gindofree.fr",
+    "lat": 45.0161536,
+    "lon": 4.3313384,
+    "address": "Chemin du Vernet"
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
@@ -46034,6 +46046,18 @@
     "website": null,
     "lat": 45.7904731,
     "lon": 4.9616355,
+    "address": null
+  },
+  {
+    "id": 2084276473,
+    "name": "Ferme de la Souleuvre",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://fermedelasouleuvre.fr",
+    "lat": 48.9636092,
+    "lon": 5.9527901,
     "address": null
   },
   {

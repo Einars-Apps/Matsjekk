@@ -984,6 +984,18 @@
     "address": null
   },
   {
+    "id": 5268079293,
+    "name": "Gundestrup Mejeri og Bryghus A/S",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mejeri-bryg.dk/",
+    "lat": 55.0925456,
+    "lon": 10.4074429,
+    "address": null
+  },
+  {
     "id": 5419127838,
     "name": "Gårdcaféen Månsson",
     "country": "Denmark",
@@ -9012,18 +9024,6 @@
     "address": null
   },
   {
-    "id": 13001256043,
-    "name": "Grands Vin",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1003713,
-    "lon": 10.1865706,
-    "address": null
-  },
-  {
     "id": 13006221188,
     "name": "Napati vejbod",
     "country": "Denmark",
@@ -9576,18 +9576,6 @@
     "address": null
   },
   {
-    "id": 13167352719,
-    "name": "Gundestrup Landmejeri og Bryghus",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0926196,
-    "lon": 10.4078513,
-    "address": null
-  },
-  {
     "id": 13278424112,
     "name": "Omfaun Landbrug",
     "country": "Denmark",
@@ -9885,6 +9873,18 @@
     "website": null,
     "lat": 54.9139613,
     "lon": 10.6035273,
+    "address": null
+  },
+  {
+    "id": 13629581522,
+    "name": "Strids Mølle",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://stridsmolle.dk/",
+    "lat": 55.638013,
+    "lon": 11.3590352,
     "address": null
   },
   {
@@ -10233,6 +10233,30 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 13001256043,
+    "name": "Grands Vin",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1003713,
+    "lon": 10.1865706,
+    "address": null
+  },
+  {
+    "id": 13167352719,
+    "name": "Gundestrup Landmejeri og Bryghus",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0926196,
+    "lon": 10.4078513,
     "address": null
   },
   {

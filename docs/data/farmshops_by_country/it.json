@@ -10296,18 +10296,6 @@
     "address": "Via Giannino Ancillotto"
   },
   {
-    "id": 238233317,
-    "name": "Rosastex",
-    "country": "Italy",
-    "region": null,
-    "municipality": "San Michele al Tagliamento",
-    "products": [],
-    "website": null,
-    "lat": 45.6721035,
-    "lon": 13.0600006,
-    "address": "Via Arturo Malignani"
-  },
-  {
     "id": 240318875,
     "name": "Fassina Paola",
     "country": "Italy",
@@ -13606,6 +13594,18 @@
     "lat": 44.7961349,
     "lon": 12.2560239,
     "address": null
+  },
+  {
+    "id": 238233317,
+    "name": "Rosastex",
+    "country": "Italy",
+    "region": null,
+    "municipality": "San Michele al Tagliamento",
+    "products": [],
+    "website": null,
+    "lat": 45.6721035,
+    "lon": 13.0600006,
+    "address": "Via Arturo Malignani"
   },
   {
     "id": 2156996733,
