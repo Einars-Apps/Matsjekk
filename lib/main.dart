@@ -890,6 +890,27 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
           ),
           ListTile(
+            leading: const Icon(Icons.workspace_premium),
+            title: Text(
+                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
+            onTap: () {
+              _safePop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => PremiumScreen(
+                    innstillingerBox: innstillingerBox,
+                    onPremiumChanged: (active) {
+                      if (!mounted) return;
+                      setState(() {
+                        premiumActive = active;
+                      });
+                    },
+                  ),
+                ),
+              );
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.warning),
             title:
                 Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
@@ -1018,27 +1039,6 @@ class _ScannerScreenState extends State<ScannerScreen>
                       label: Text(_farmShopsLabel(context)),
                     )
                   ],
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.workspace_premium),
-            title: Text(
-                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
-            onTap: () {
-              _safePop();
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) => PremiumScreen(
-                    innstillingerBox: innstillingerBox,
-                    onPremiumChanged: (active) {
-                      if (!mounted) return;
-                      setState(() {
-                        premiumActive = active;
-                      });
-                    },
-                  ),
                 ),
               );
             },
