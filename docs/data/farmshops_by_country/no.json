@@ -9168,7 +9168,7 @@
     "lat": 61.787550424743,
     "lon": 6.1743121265273,
     "address": "nordstrandsvegen 264",
-    "source": "https://www.lokalmat.no/produsenter/paaldtun-frukt-og-baer/"
+    "source": "https://www.lokalmat.no/produsenter/paldtun-frukt-og-baer/"
   },
   {
     "id": "lokalmat_11934",
@@ -10083,6 +10083,19 @@
     "lon": 10.748255252838135,
     "address": "Stasjonsveien 2",
     "source": "https://www.lokalmat.no/produsenter/rygge-meieri/"
+  },
+  {
+    "id": "lokalmat_12358",
+    "name": "RYGR",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Klepp Stasjon",
+    "products": [],
+    "website": null,
+    "lat": 58.7820837,
+    "lon": 5.7008446,
+    "address": "Plogfabrikkveien 15",
+    "source": "https://www.lokalmat.no/produsenter/rygr/"
   },
   {
     "id": "lokalmat_11315",
@@ -14792,6 +14805,19 @@
     "lon": 9.771285,
     "address": "Austsidevegen 1521",
     "source": "https://www.hanen.no/bedrift/piltingsrud-gard-as/"
+  },
+  {
+    "id": "hanen_3050",
+    "name": "Rabben Gård",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Dverberg",
+    "products": [],
+    "website": "https://www.facebook.com/profile.php?id=100064088373574",
+    "lat": 69.107932,
+    "lon": 15.93962,
+    "address": "Oklveien 95",
+    "source": "https://www.hanen.no/bedrift/rabben-gaard/"
   },
   {
     "id": "hanen_2735",

@@ -24427,6 +24427,32 @@
       "lon": 6.734827,
       "address": null,
       "source": null
+    },
+    {
+      "id": "lokalmat_12358",
+      "name": "RYGR",
+      "country": "Norway",
+      "region": "Rogaland",
+      "municipality": "Klepp Stasjon",
+      "products": [],
+      "website": null,
+      "lat": 58.7820837,
+      "lon": 5.7008446,
+      "address": "Plogfabrikkveien 15",
+      "source": "https://www.lokalmat.no/produsenter/rygr/"
+    },
+    {
+      "id": "hanen_3050",
+      "name": "Rabben Gård",
+      "country": "Norway",
+      "region": "Nordland",
+      "municipality": "Dverberg",
+      "products": [],
+      "website": "https://www.facebook.com/profile.php?id=100064088373574",
+      "lat": 69.107932,
+      "lon": 15.93962,
+      "address": "Oklveien 95",
+      "source": "https://www.hanen.no/bedrift/rabben-gaard/"
     }
   ],
   "SE": [

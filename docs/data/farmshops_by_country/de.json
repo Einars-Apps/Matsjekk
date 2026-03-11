@@ -7080,6 +7080,18 @@
     "address": null
   },
   {
+    "id": 2255975671,
+    "name": "Edelsau",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.0707781,
+    "lon": 9.9517638,
+    "address": null
+  },
+  {
     "id": 2261289466,
     "name": "Obsthof Volk",
     "country": "Germany",
@@ -15142,6 +15154,18 @@
     "lat": 53.0954578,
     "lon": 13.7544343,
     "address": "Lindenallee"
+  },
+  {
+    "id": 4373312701,
+    "name": "SB Hofladen Hormann",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Minden",
+    "products": [],
+    "website": "https://www.brueder-hormann.de/verkaufsstellen/",
+    "lat": 52.3378621,
+    "lon": 8.872392,
+    "address": "Stemmer Landstraße"
   },
   {
     "id": 4378860016,
@@ -53100,18 +53124,6 @@
     "address": null
   },
   {
-    "id": 12111487971,
-    "name": "Milchtankstelle Jakobshof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.6038221,
-    "lon": 10.1202812,
-    "address": null
-  },
-  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -53264,7 +53276,7 @@
     "products": [],
     "website": null,
     "lat": 49.4331885,
-    "lon": 8.6277834,
+    "lon": 8.627822,
     "address": null
   },
   {
@@ -70041,6 +70053,30 @@
     "website": null,
     "lat": 48.0353867,
     "lon": 9.8115006,
+    "address": null
+  },
+  {
+    "id": 12111487971,
+    "name": "Milchtankstelle Jakobshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6038221,
+    "lon": 10.1202812,
+    "address": null
+  },
+  {
+    "id": 27674325,
+    "name": "Die steinige Platte",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.4331885,
+    "lon": 8.6277834,
     "address": null
   },
   {
