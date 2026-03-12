@@ -24453,6 +24453,19 @@
       "lon": 15.93962,
       "address": "Oklveien 95",
       "source": "https://www.hanen.no/bedrift/rabben-gaard/"
+    },
+    {
+      "id": "lokalmat_12359",
+      "name": "Eiane Gard",
+      "country": "Norway",
+      "region": "Rogaland",
+      "municipality": "skiftun",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Indre Ryfylkevegen 914",
+      "source": "https://www.lokalmat.no/produsenter/eiane-gard/"
     }
   ],
   "SE": [
@@ -427205,6 +427218,18 @@
       "website": null,
       "lat": 51.6861713,
       "lon": -1.9084407,
+      "address": null
+    },
+    {
+      "id": 28813597,
+      "name": "Bridgend Farmhouse",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Edinburgh",
+      "products": [],
+      "website": "http://www.bridgendfarmhouse.org.uk/",
+      "lat": 55.9267606,
+      "lon": -3.1537887,
       "address": null
     }
   ],

@@ -3091,6 +3091,19 @@
     "source": "https://www.lokalmat.no/produsenter/egra-gard/"
   },
   {
+    "id": "lokalmat_12359",
+    "name": "Eiane Gard",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "skiftun",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Indre Ryfylkevegen 914",
+    "source": "https://www.lokalmat.no/produsenter/eiane-gard/"
+  },
+  {
     "id": "lokalmat_12047",
     "name": "Eide og Fræna Fiskemat",
     "country": "Norway",
@@ -9425,7 +9438,9 @@
     "country": "Norway",
     "region": "Finnmark",
     "municipality": "Vadsø",
-    "products": [],
+    "products": [
+      "Alkoholholdige drikker"
+    ],
     "website": null,
     "lat": 70.0710974,
     "lon": 29.7485885,

@@ -30216,18 +30216,6 @@
     "address": null
   },
   {
-    "id": 7615186782,
-    "name": "Landhof Habermann",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://landhof-habermann.de/",
-    "lat": 51.5393197,
-    "lon": 9.9425244,
-    "address": null
-  },
-  {
     "id": 7615599830,
     "name": "Eierhof Häussler",
     "country": "Germany",
@@ -53124,6 +53112,18 @@
     "address": null
   },
   {
+    "id": 12111487971,
+    "name": "Milchtankstelle Jakobshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6038221,
+    "lon": 10.1202812,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -56551,8 +56551,8 @@
     "municipality": "Wanfried",
     "products": [],
     "website": null,
-    "lat": 51.1828926,
-    "lon": 10.1683073,
+    "lat": 51.1828881,
+    "lon": 10.1683324,
     "address": "Martinsgasse"
   },
   {
@@ -57166,18 +57166,6 @@
     "lat": 51.3054343,
     "lon": 6.8145686,
     "address": "Sohlstättenstraße"
-  },
-  {
-    "id": 160181523,
-    "name": "Hampp-Mühle",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.hamppmuehle-illerkirchberg.de/",
-    "lat": 48.3359042,
-    "lon": 10.0011793,
-    "address": null
   },
   {
     "id": 161457849,
@@ -61304,7 +61292,7 @@
     "products": [],
     "website": "https://www.gefluegelhof-zembrot.de/",
     "lat": 47.969212,
-    "lon": 9.6233615,
+    "lon": 9.6233663,
     "address": null
   },
   {
@@ -70056,15 +70044,51 @@
     "address": null
   },
   {
-    "id": 12111487971,
-    "name": "Milchtankstelle Jakobshof",
+    "id": 7615186782,
+    "name": "Landhof Habermann",
     "country": "Germany",
     "region": null,
     "municipality": null,
     "products": [],
+    "website": "http://landhof-habermann.de/",
+    "lat": 51.5393197,
+    "lon": 9.9425244,
+    "address": null
+  },
+  {
+    "id": 141681750,
+    "name": "Familie Hoffmann",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Wanfried",
+    "products": [],
     "website": null,
-    "lat": 49.6038221,
-    "lon": 10.1202812,
+    "lat": 51.1828926,
+    "lon": 10.1683073,
+    "address": "Martinsgasse"
+  },
+  {
+    "id": 160181523,
+    "name": "Hampp-Mühle",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.hamppmuehle-illerkirchberg.de/",
+    "lat": 48.3359042,
+    "lon": 10.0011793,
+    "address": null
+  },
+  {
+    "id": 321002385,
+    "name": "Geflügelhof Zembrot",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.gefluegelhof-zembrot.de/",
+    "lat": 47.969212,
+    "lon": 9.6233615,
     "address": null
   },
   {

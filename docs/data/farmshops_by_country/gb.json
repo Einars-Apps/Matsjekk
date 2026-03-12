@@ -6696,6 +6696,18 @@
     "address": null
   },
   {
+    "id": 28813597,
+    "name": "Bridgend Farmhouse",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Edinburgh",
+    "products": [],
+    "website": "http://www.bridgendfarmhouse.org.uk/",
+    "lat": 55.9267606,
+    "lon": -3.1537887,
+    "address": null
+  },
+  {
     "id": 31249766,
     "name": "Coldwell Wood",
     "country": "United Kingdom",
