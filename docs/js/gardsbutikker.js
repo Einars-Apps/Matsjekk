@@ -2058,7 +2058,7 @@
       });
       marker.addListener('click', () => {
         prioritizeShopInResults(shop);
-        googleInfoWindow.setContent(`<strong>${escapeHtml(shop.name || 'Gårdsutsalg')}</strong><br>${escapeHtml(shop.address || '')}`);
+        googleInfoWindow.setContent(buildPopupHtml(shop));
         googleInfoWindow.open({ anchor: marker, map });
       });
       googleMarkers.push(marker);
@@ -2066,10 +2066,24 @@
     }
 
     if (leafletMarkersLayer) {
-      const marker = L.marker([lat, lon]).bindPopup(`<strong>${shop.name}</strong><br>${shop.address || ''}`);
+      const marker = L.marker([lat, lon]).bindPopup(buildPopupHtml(shop), { maxWidth: 280 });
       marker.on('click', () => prioritizeShopInResults(shop));
       leafletMarkersLayer.addLayer(marker);
     }
+  }
+
+  function buildPopupHtml(shop) {
+    const name = escapeHtml(shop.name || 'Gårdsutsalg');
+    const addr = shop.address ? `<div class="popup-addr">📍 ${escapeHtml(shop.address)}${shop.municipality ? ', ' + escapeHtml(shop.municipality) : ''}</div>` : '';
+    const phone = shop.phone ? `<div class="popup-addr">📞 ${escapeHtml(shop.phone)}</div>` : '';
+    const realWebsite = shop.website && !isFallbackWebsite(shop.website) ? normalizeWebsite(shop.website) : null;
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([shop.name, shop.address, shop.municipality, shop.country].filter(Boolean).join(', '))}`;
+    const searchUrl = buildGooglePlaceSearchUrl(shop);
+    const websiteBtn = realWebsite
+      ? `<a class="popup-btn" href="${realWebsite}" target="_blank" rel="noopener">🌐 Nettside</a>`
+      : `<a class="popup-btn" href="${searchUrl}" target="_blank" rel="noopener">🔍 Søk info</a>`;
+    const mapsBtn = `<a class="popup-btn" href="${mapsUrl}" target="_blank" rel="noopener">🗺 Veibeskrivelse</a>`;
+    return `<div class="popup-card"><strong>${name}</strong>${addr}${phone}<div class="popup-actions">${websiteBtn}${mapsBtn}</div></div>`;
   }
 
   function fitMapToMarkers() {
@@ -2423,11 +2437,16 @@
       const phoneLine = shop.phone ? `<div class="item-sub">📞 ${escapeHtml(shop.phone)}</div>` : '';
       const openingLine = shop.openingHours ? `<div class="item-sub">🕒 ${escapeHtml(shop.openingHours)}</div>` : '';
       const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
-      const websiteSearchUrl = buildGooglePlaceSearchUrl(shop);
+      const realWebsite = shop.website && !isFallbackWebsite(shop.website) ? normalizeWebsite(shop.website) : null;
+      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([shop.name, shop.address, shop.municipality, shop.country].filter(Boolean).join(', '))}`;
+      const searchUrl = buildGooglePlaceSearchUrl(shop);
       const image = shop.imageUrl ? `<img class="item-thumb" src="${shop.imageUrl}" alt="${escapeHtml(shop.name)}" loading="lazy" />` : '';
       const distanceLine = Number.isFinite(shop.distanceKm)
         ? `<div class="item-sub">📍 ${escapeHtml(shop.distanceKm.toFixed(1))} km unna</div>`
         : '';
+      const websiteBtn = realWebsite
+        ? `<a class="item-link" href="${realWebsite}" target="_blank" rel="noopener">🌐 Nettside</a>`
+        : `<a class="item-link" href="${searchUrl}" target="_blank" rel="noopener">🔍 Søk</a>`;
       div.innerHTML = `
         <div class="item-row">
           ${image}
@@ -2441,7 +2460,9 @@
           </div>
         </div>
         <div class="item-actions">
-          <a class="item-link" href="${websiteSearchUrl}" target="_blank" rel="noopener">Nettside</a>
+          ${websiteBtn}
+          <a class="item-link" href="${mapsUrl}" target="_blank" rel="noopener">🗺 Kart</a>
+          <a class="item-link" href="${searchUrl}" target="_blank" rel="noopener">🔍 Google</a>
           <button class="item-link report-entry-btn" type="button" data-shop-name="${escapeHtml(shop.name)}">${escapeHtml(translate('quickReportBtn'))}</button>
         </div>
       `;
@@ -2569,13 +2590,11 @@
       return true;
     }
 
-    if (countryCode === 'NO') {
-      if (/^(farm shop|farm store|farmstore|gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg)$/.test(name)) {
-        return true;
-      }
-      if (/^farm shop(?: norge| norway)?$/.test(name)) {
-        return true;
-      }
+    if (/^(farm shop|farm store|farmstore|gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg|hofladen|hofladen\s\w+|magasin de la ferme|vente directe|vente à la ferme|farm|farmshop|farm shops)$/.test(name)) {
+      return true;
+    }
+    if (/^farm shop(?: norge| norway)?$/.test(name)) {
+      return true;
     }
 
     return false;
