@@ -9655,8 +9655,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2468899,
-    "lon": 8.805025,
+    "lat": 47.2466547,
+    "lon": 8.8047385,
     "address": null
   },
   {
@@ -15868,7 +15868,7 @@
     "name": "Wolf Biogemüse",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Ried",
+    "municipality": "Ried bei Kerzers",
     "products": [],
     "website": null,
     "lat": 46.9516535,
@@ -17169,6 +17169,18 @@
     "website": null,
     "lat": 47.3109306,
     "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 10033695195,
+    "name": "Hofladen Schwesterrain",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2468899,
+    "lon": 8.805025,
     "address": null
   },
   {

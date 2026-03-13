@@ -4009,14 +4009,12 @@
     "name": "Fruityfriendly AS",
     "country": "Norway",
     "region": "Innlandet",
-    "municipality": "LILLEHAMMER",
-    "products": [
-      "Korn- og Bakevarer"
-    ],
+    "municipality": "Lillehammer",
+    "products": [],
     "website": null,
     "lat": 61.084544736012,
     "lon": 10.495035809731,
-    "address": "HAGEVEIEN 4",
+    "address": "Industrigata 17",
     "source": "https://www.lokalmat.no/produsenter/fruityfriendly-as/"
   },
   {
@@ -12772,7 +12770,7 @@
     "name": "Vossakjøt",
     "country": "Norway",
     "region": "Vestland",
-    "municipality": null,
+    "municipality": "Vossestrand",
     "products": [
       "Alkoholholdige drikker",
       "Kjøtt"
@@ -12780,8 +12778,8 @@
     "website": null,
     "lat": 60.84292,
     "lon": 6.514515,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/vossakjott-as/"
+    "address": "Draugsvoll",
+    "source": "https://www.lokalmat.no/produsenter/vossakjot/"
   },
   {
     "id": "lokalmat_11785",

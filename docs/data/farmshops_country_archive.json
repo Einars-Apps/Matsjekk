@@ -393365,6 +393365,18 @@
       "lat": 40.8922553,
       "lon": -3.9950025,
       "address": null
+    },
+    {
+      "id": 13578235401,
+      "name": "Formatges Sa Roqueta",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 39.9811958,
+      "lon": 4.0440713,
+      "address": null
     }
   ],
   "GB": [
@@ -460775,6 +460787,18 @@
       "lat": 47.2726777,
       "lon": 11.1996774,
       "address": "Hauptstraße"
+    },
+    {
+      "id": 1487756181,
+      "name": "BIO-OststeierMARKT",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Hartberg",
+      "products": [],
+      "website": null,
+      "lat": 47.2829358,
+      "lon": 15.9839598,
+      "address": "Ferdinand-Leihs-Straße"
     }
   ],
   "CH": [
@@ -497333,6 +497357,18 @@
       "website": null,
       "lat": 47.3508809,
       "lon": 8.9346929,
+      "address": null
+    },
+    {
+      "id": 10033695195,
+      "name": "Hofladen Schwesterrain",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.2466547,
+      "lon": 8.8047385,
       "address": null
     }
   ],
