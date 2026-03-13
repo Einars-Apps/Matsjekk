@@ -13,6 +13,47 @@ const NEWS_REMOTE_REGION_URLS = {
 };
 const NEWS_MAX_ITEMS = 30;
 
+// Social media domains that should not appear in the food-news feed
+const SOCIAL_MEDIA_DOMAINS = [
+  'facebook.com', 'instagram.com', 'twitter.com', 'x.com', 'tiktok.com',
+  'reddit.com', 'youtube.com', 'linkedin.com', 'pinterest.com', 't.me',
+  'telegram.org', 'vk.com', 'snapchat.com',
+];
+
+// Rolling per-region article cache (30 days) so articles don't disappear when they leave the RSS window
+const NEWS_FEED_CACHE_KEY = 'matsjekk_news_feed_v2'; // bump version to bust old social-media cache
+const NEWS_FEED_CACHE_MAX_AGE_DAYS = 30;
+
+// Permanent pinned sources per region — always shown at bottom, not removable before expiry
+const PINNED_SOURCES = {
+  cluster_scandinavia: [
+    { title: 'Document.no – Søk: Bovaer / GMO / tilsetningsstoffer', source: 'Document.no', url: 'https://document.no/?s=bovaer', language: 'nb', country: 'NO', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Steigan.no – Søk: Bovaer / matproduksjon', source: 'Steigan.no', url: 'https://steigan.no/?s=bovaer', language: 'nb', country: 'NO', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'iNyheter.no – Søk: Bovaer / GMO', source: 'iNyheter.no', url: 'https://inyheter.no/?s=bovaer', language: 'nb', country: 'NO', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Samnytt.se – Sök: Bovaer / GMO', source: 'Samnytt.se', url: 'https://samnytt.se/?s=bovaer', language: 'sv', country: 'SE', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Fria Tider – Sök: Bovaer / GMO', source: 'Fria Tider', url: 'https://www.friatider.se/?s=bovaer', language: 'sv', country: 'SE', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: '24NYT.dk – Søg: Bovaer / GMO', source: '24NYT.dk', url: 'https://24nyt.dk/?s=bovaer', language: 'da', country: 'DK', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+  ],
+  cluster_germanic_nl: [
+    { title: 'NachDenkSeiten.de – Suche: Bovaer / GVO', source: 'NachDenkSeiten', url: 'https://www.nachdenkseiten.de/?s=bovaer', language: 'de', country: 'DE', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Epoch Times DE – Suche: Bovaer', source: 'Epoch Times DE', url: 'https://www.epochtimes.de/suche?q=bovaer', language: 'de', country: 'DE', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'De Dagelijkse Standaard – Zoek: Bovaer / GMO', source: 'De Dagelijkse Standaard', url: 'https://www.dagelijksestandaard.nl/?s=bovaer', language: 'nl', country: 'NL', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+  ],
+  cluster_fr_be_lu_ch: [
+    { title: 'Boulevard Voltaire – Recherche: Bovaer / OGM', source: 'Boulevard Voltaire', url: 'https://www.bvoltaire.fr/?s=bovaer', language: 'fr', country: 'FR', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Riposte Laïque – Recherche: Bovaer / OGM', source: 'Riposte Laïque', url: 'https://ripostelaique.com/?s=bovaer', language: 'fr', country: 'FR', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+  ],
+  cluster_it_ch_fr: [
+    { title: 'Il Paragone – Cerca: Bovaer / OGM', source: 'Il Paragone', url: 'https://www.ilparagone.it/?s=bovaer', language: 'it', country: 'IT', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'ByoBlu – Cerca: Bovaer / OGM', source: 'ByoBlu', url: 'https://www.byoblu.com/?s=bovaer', language: 'it', country: 'IT', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+  ],
+  cluster_english: [
+    { title: 'Off-Guardian – Search: Bovaer / food additives', source: 'Off-Guardian', url: 'https://off-guardian.org/?s=bovaer', language: 'en', country: 'GB', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+    { title: 'Spiked Online – Search: Bovaer / GMO', source: 'Spiked Online', url: 'https://www.spiked-online.com/search/?q=bovaer', language: 'en', country: 'GB', pubDate: '2026-01-01T00:00:00Z', isPinned: true },
+  ],
+  global: [],
+};
+
 const GEO_CACHE_KEY = 'matsjekk_geo_country';
 const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
@@ -162,6 +203,38 @@ function dedupeByUrl(items) {
   return out;
 }
 
+function isSocialMediaUrl(url) {
+  if (!url) return false;
+  try {
+    const host = new URL(String(url)).hostname.toLowerCase();
+    return SOCIAL_MEDIA_DOMAINS.some((domain) => host === domain || host.endsWith('.' + domain));
+  } catch (_) {
+    return false;
+  }
+}
+
+function loadFeedCache(mode) {
+  const all = safeJsonParse(safeStorageGet(NEWS_FEED_CACHE_KEY), {});
+  return Array.isArray(all[mode]) ? all[mode] : [];
+}
+
+function saveFeedCache(mode, items) {
+  const all = safeJsonParse(safeStorageGet(NEWS_FEED_CACHE_KEY), {});
+  const maxAgeMs = NEWS_FEED_CACHE_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+  all[mode] = items
+    .filter((item) => {
+      const d = new Date(item.pubDate || item.date || 0).getTime();
+      return d > 0 && now - d < maxAgeMs;
+    })
+    .slice(0, 60);
+  try { safeStorageSet(NEWS_FEED_CACHE_KEY, JSON.stringify(all)); } catch (_) {}
+}
+
+function getPinnedSourcesForMode(resolvedMode) {
+  return (PINNED_SOURCES[resolvedMode] || PINNED_SOURCES.cluster_scandinavia).slice();
+}
+
 async function fetchRemoteNewsForMode(mode) {
   const key = String(mode || 'global').toLowerCase();
   const url = NEWS_REMOTE_REGION_URLS[key] || NEWS_REMOTE_URL;
@@ -224,9 +297,10 @@ function detectCountryCodeFromGeo() {
 
 function inferUserLanguage(preferredLang) {
   const direct = normalizeLang(preferredLang);
-  if (direct) return direct;
+  // 'auto' is a placeholder, not a real language code
+  if (direct && direct !== 'auto') return direct;
   const fromStorage = normalizeLang(safeStorageGet('matsjekk_lang'));
-  if (fromStorage) return fromStorage;
+  if (fromStorage && fromStorage !== 'auto') return fromStorage;
   return normalizeLang(navigator.language || 'nb') || 'nb';
 }
 
@@ -401,38 +475,91 @@ function languageLabel(code) {
   return LANGUAGE_LABELS[normalized] || normalized || 'nb';
 }
 
+const TRANSLATE_LABEL_TEMPLATES = {
+  nb: (t) => `Oversett artikkel til ${t}`,
+  en: (t) => `Translate article to ${t}`,
+  sv: (t) => `Översätt artikel till ${t}`,
+  da: (t) => `Oversæt artikel til ${t}`,
+  fi: (t) => `Käännä artikkeli – ${t}`,
+  de: (t) => `Artikel übersetzen nach ${t}`,
+  nl: (t) => `Vertaal artikel naar ${t}`,
+  fr: (t) => `Traduire l'article en ${t}`,
+  it: (t) => `Traduci articolo in ${t}`,
+  pt: (t) => `Traduzir artigo para ${t}`,
+  es: (t) => `Traducir artículo al ${t}`,
+};
+
 function translateLinkLabel(uiLang, targetLang) {
   const ui = normalizeLang(uiLang);
   const target = languageLabel(targetLang);
-  if (ui === 'en') return `Translate article to ${target}`;
-  return `Oversett artikkel til ${target}`;
+  const template = TRANSLATE_LABEL_TEMPLATES[ui] || TRANSLATE_LABEL_TEMPLATES.nb;
+  return template(target);
+}
+
+function formatPubDate(pubDate, lang) {
+  const d = new Date(pubDate || 0);
+  if (isNaN(d.getTime()) || d.getTime() === 0) return '';
+  const locale = {
+    nb: 'nb-NO', sv: 'sv-SE', da: 'da-DK', fi: 'fi-FI',
+    de: 'de-DE', nl: 'nl-NL', fr: 'fr-FR', it: 'it-IT',
+    pt: 'pt-PT', es: 'es-ES', en: 'en-GB',
+  }[normalizeLang(lang) || 'nb'] || 'nb-NO';
+  try {
+    return d.toLocaleDateString(locale, { year: 'numeric', month: 'short', day: 'numeric' });
+  } catch (_) {
+    return d.toLocaleDateString();
+  }
 }
 
 function createNewsCard(article, preferredLang) {
   const card = document.createElement('article');
-  card.className = 'news-card';
+  card.className = article.isPinned ? 'news-card news-card--pinned' : 'news-card';
 
   const title = escapeHtml(article.title || 'Untitled');
   const source = escapeHtml(article.source || article.sourceName || 'Ukjent kilde');
-  const dateStr = new Date(article.pubDate || article.date || Date.now()).toLocaleDateString();
+  const uiLang = normalizeLang(preferredLang) || 'nb';
+  const dateStr = formatPubDate(article.pubDate || article.date, uiLang);
   const sourceLang = normalizeLang(article.language || 'auto') || 'auto';
   const targetLang = inferUserLanguage(preferredLang);
   const translateUrl = `https://translate.google.com/translate?sl=${encodeURIComponent(sourceLang)}&tl=${encodeURIComponent(targetLang)}&u=${encodeURIComponent(article.url || '')}`;
 
   const summary = stripHtml(article.shortSummary || article.summary || article.englishSummary || '');
   const summaryHtml = summary ? `<p class="summary">${escapeHtml(summary)}</p>` : '';
+  const dateMeta = dateStr ? ` • ${escapeHtml(dateStr)}` : '';
+  const pinnedBadge = article.isPinned ? `<span class="pinned-badge">📌</span> ` : '';
+
+  const OPEN_ORIGINAL_LABELS = {
+    nb: 'Les original', sv: 'Läs original', da: 'Læs original', fi: 'Lue alkuperäinen',
+    de: 'Original lesen', nl: 'Lees origineel', fr: 'Lire l\'original',
+    it: 'Leggi originale', pt: 'Ler original', es: 'Leer original', en: 'Read original',
+  };
+  const openOriginalLabel = OPEN_ORIGINAL_LABELS[uiLang] || OPEN_ORIGINAL_LABELS.en;
+  const translateLabel = escapeHtml(translateLinkLabel(preferredLang, targetLang));
+
+  if (article.isPinned) {
+    card.innerHTML = `
+      <h4>${pinnedBadge}<a href="${escapeHtml(article.url || '')}" target="_blank" rel="noopener">${title}</a></h4>
+      <p class="meta">${source} • ${escapeHtml(languageNameForCard(sourceLang))} • ${escapeHtml(normalizeCountry(article.country || ''))}</p>
+      <p class="links">
+        <a href="${escapeHtml(article.url || '')}" target="_blank" rel="noopener">${escapeHtml(openOriginalLabel)}</a>
+        <a href="${translateUrl}" target="_blank" rel="noopener">${translateLabel}</a>
+      </p>
+    `;
+    return card;
+  }
+
   const apiLink = article.sourceApi
     ? `<p class="meta">Source/API: <a href="${escapeHtml(article.sourceApi)}" target="_blank" rel="noopener">${escapeHtml(article.sourceApi)}</a></p>`
     : '';
 
   card.innerHTML = `
     <h4><a href="${escapeHtml(article.url || '')}" target="_blank" rel="noopener">${title}</a></h4>
-    <p class="meta">${source} • ${dateStr} • ${escapeHtml(languageNameForCard(sourceLang))} • ${escapeHtml(normalizeCountry(article.country || ''))}</p>
+    <p class="meta">${source}${dateMeta} • ${escapeHtml(languageNameForCard(sourceLang))} • ${escapeHtml(normalizeCountry(article.country || ''))}</p>
     ${apiLink}
     ${summaryHtml}
     <p class="links">
-      <a href="${escapeHtml(article.url || '')}" target="_blank" rel="noopener">Open original</a>
-      <a href="${translateUrl}" target="_blank" rel="noopener">${escapeHtml(translateLinkLabel(preferredLang, targetLang))}</a>
+      <a href="${escapeHtml(article.url || '')}" target="_blank" rel="noopener">${escapeHtml(openOriginalLabel)}</a>
+      <a href="${translateUrl}" target="_blank" rel="noopener">${translateLabel}</a>
       <a href="#" class="news-report-link">Report / request removal</a>
     </p>
   `;
@@ -463,8 +590,14 @@ function createNewsCard(article, preferredLang) {
 
 async function renderNews(preferredLang) {
   const lang = inferUserLanguage(preferredLang);
-  safeStorageSet('matsjekk_lang', lang);
+  // Only persist a real language code, not 'auto'
+  if (lang && lang !== 'auto') safeStorageSet('matsjekk_lang', lang);
   populateRegionSelect(lang);
+
+  // Update page UI labels for the reading language (labels like "Lesespråk", nav etc.)
+  if (typeof window.applyTranslations === 'function') {
+    window.applyTranslations(lang);
+  }
 
   const container = document.getElementById('news-list');
   if (!container) return;
@@ -474,9 +607,19 @@ async function renderNews(preferredLang) {
   const userCountry = await detectCountryCodeFromGeo();
   const resolvedMode = selectedMode === 'auto' ? clusterForCountry(userCountry) : selectedMode;
 
-  const localNews = getNews();
+  const localNews = getNews().filter((item) => !isSocialMediaUrl(item.url));
   const remoteNews = await fetchRemoteNewsForMode(resolvedMode);
-  const merged = dedupeByUrl([...remoteNews, ...localNews]);
+
+  // Filter social media from remote feed
+  const filteredRemote = remoteNews.filter((item) => !isSocialMediaUrl(item.url));
+
+  // Merge fresh articles with rolling 30-day cache so critical articles don't vanish
+  const cachedNews = loadFeedCache(resolvedMode).filter((item) => !isSocialMediaUrl(item.url));
+  const merged = dedupeByUrl([...filteredRemote, ...cachedNews, ...localNews]);
+
+  // Persist fresh articles to rolling cache
+  if (filteredRemote.length > 0) saveFeedCache(resolvedMode, merged);
+
   const scope = regionCountriesForMode(resolvedMode, userCountry);
 
   let visible = newsListForDisplay(merged, scope);
@@ -507,6 +650,21 @@ async function renderNews(preferredLang) {
       console.warn('Skipping invalid news item during render', error, article);
     }
   });
+
+  // Append permanent pinned sources at the bottom
+  const pinnedSources = getPinnedSourcesForMode(resolvedMode);
+  if (pinnedSources.length > 0) {
+    const separator = document.createElement('p');
+    separator.className = 'muted pinned-section-label';
+    separator.textContent = lang === 'en' ? 'Additional sources:' : (lang === 'sv' ? 'Ytterligare källor:' : lang === 'da' ? 'Yderligere kilder:' : 'Ytterligere kilder:');
+    container.appendChild(separator);
+    pinnedSources.forEach((article) => {
+      try {
+        const card = createNewsCard(article, lang);
+        if (card) { container.appendChild(card); renderedCount += 1; }
+      } catch (_) {}
+    });
+  }
 
   if (renderedCount === 0) {
     const muted = document.createElement('p');
@@ -596,9 +754,16 @@ function initNews() {
 
   if (langSelect) {
     langSelect.addEventListener('change', (event) => {
-      const nextLang = normalizeLang(event.target.value || 'nb') || 'nb';
-      safeStorageSet('matsjekk_lang', nextLang);
-      renderNews(nextLang);
+      const val = normalizeLang(event.target.value || '');
+      if (!val || val === 'auto') {
+        // Auto: use browser language, fall back to stored or nb
+        const auto = normalizeLang(navigator.language || safeStorageGet('matsjekk_lang') || 'nb') || 'nb';
+        safeStorageSet('matsjekk_lang', 'auto');
+        renderNews(auto);
+        return;
+      }
+      safeStorageSet('matsjekk_lang', val);
+      renderNews(val);
     });
   }
 
@@ -612,12 +777,12 @@ function initNews() {
 
   initNewsForm();
 
-  const initialLang = normalizeLang(
-    (document.getElementById('news-lang') && document.getElementById('news-lang').value) ||
-    safeStorageGet('matsjekk_lang') ||
-    navigator.language ||
-    'nb'
-  ) || 'nb';
+  const initialLang = (() => {
+    // Prefer stored real language over the select value (which may be 'auto' at this point)
+    const stored = normalizeLang(safeStorageGet('matsjekk_lang') || '');
+    if (stored && stored !== 'auto') return stored;
+    return normalizeLang(navigator.language || 'nb') || 'nb';
+  })();
 
   renderNews(initialLang).catch((error) => {
     console.error('News initialization failed', error);
