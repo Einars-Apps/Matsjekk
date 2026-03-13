@@ -1,1 +1,236 @@
-<!DOCTYPE html><html lang="nb" translate="no"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <meta name="google" content="notranslate">  <meta name="description" content="Mat Sjekk nyheter og media - relevante artikler om Bovaer, GMO-fiskefor, insektmel og baerekraft.">  <meta name="robots" content="index, follow">  <title>Mat Sjekk - Nyheter og media</title>  <link rel="icon" href="favicon.svg" type="image/svg+xml">  <link rel="stylesheet" href="styles.css">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" /></head><body>  <header>    <div class="container">      <div class="header-row">        <div class="brand">          <h1 data-translate="title">­ƒøÆ Mat Sjekk</h1>          <p class="tagline" data-translate="tagline">Skann mat, velg bevisst</p>        </div>        <div class="controls">          <label for="lang-select" class="visually-hidden">Velg sprak</label>          <select id="lang-select" aria-label="Velg sprak"></select>          <a class="btn small" href="privacy.html" data-translate="privacy">Personvern</a>        </div>      </div>      <nav class="top-tabs" aria-label="Hovednavigasjon">        <a href="index.html" data-translate="navHome">Hjem</a>        <a href="gardsbutikker.html" data-translate="navFarmshops">Gardsbutikker</a>        <a href="okologiske-gardsbutikker.html" data-translate="navOrganicFarmshops">Okologiske gardsbutikker</a>        <a href="innvandrerbutikker.html" data-translate="navImmigrantShops">Innvandrerbutikker</a>        <a href="news.html?cb=20260309e" data-translate="navNews">Nyheter og media</a>        <a href="index.html#contact" data-translate="navContact">Kontakt oss</a>      </nav>    </div>  </header>  <main class="container">    <section class="news" id="news">      <h2 data-translate="newsHeading">Nyheter og media</h2>      <p data-translate="newsIntro">Hold deg oppdatert - legg til relevante artikler om Bovaer, GMO, insektmel og baerekraft.</p>      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. De gar til moderering forst.</p>      <div class="news-controls">        <label for="news-lang" data-translate="newsLanguageLabel">Lesesprak / oversett til:</label>        <select id="news-lang">          <option value="nb">Norsk</option>          <option value="en">English</option>          <option value="sv">Svenska</option>          <option value="da">Dansk</option>          <option value="fi">Suomi</option>          <option value="de">Deutsch</option>          <option value="nl">Nederlands</option>          <option value="fr">Francais</option>          <option value="it">Italiano</option>          <option value="pt">Portugues</option>          <option value="es">Espanol</option>        </select>        <label for="news-region" data-translate="newsRegionLabel">Region:</label>        <select id="news-region">          <option value="auto">Auto (naturlig region)</option>          <option value="cluster_scandinavia">1. Skandinavia</option>          <option value="cluster_germanic_nl">2. Tyskspraklige + Nederland</option>          <option value="cluster_fr_be_lu_ch">3. Frankrike + Belgia + Luxembourg + Sveits + Nederland</option>          <option value="cluster_it_ch_fr">4. Italia + Sveits + Frankrike</option>          <option value="cluster_english">5. Engelskspraklige</option>          <option value="global">Globalt</option>        </select>        <button id="add-article-btn" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>      </div>      <div id="news-list" class="news-list">        <p class="muted">Laster nyheter...</p>      </div>      <div id="news-form" class="news-form hidden">        <h3 data-translate="newsFormHeading">Legg til artikkel</h3>        <label><span data-translate="newsFormTitleLabel">Tittel</span><br><input id="article-title" type="text"></label>        <label><span data-translate="newsFormSourceLabel">Kilde</span><br><input id="article-source" type="text"></label>        <label><span data-translate="newsFormUrlLabel">URL</span><br><input id="article-url" type="url"></label>        <label><span data-translate="newsFormLanguageLabel">Sprak</span><br>          <select id="article-lang">            <option value="nb">Norsk (nb)</option>            <option value="en">English</option>          </select>        </label>        <div class="form-actions">          <button id="save-article" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>          <button id="cancel-article" class="btn" data-translate="cancel">Avbryt</button>        </div>        <p id="news-form-status" class="muted"></p>      </div>    </section>  </main>  <footer>    <div class="container">      <p data-translate="footerCopyright">&copy; 2026 Mat Sjekk / Einar's Apps. Alle rettigheter reservert.</p>      <p>        <a href="privacy.html" data-translate="privacy">Personvern</a> |        <a href="terms.html" data-translate="terms">Vilkar</a> |        <a href="analytics.html" data-translate="analytics">Analytics</a>      </p>    </div>  </footer>  <script src="lang.local.js?v=20260309b"></script>  <script src="news.feed.js?v=20260309e"></script>  <script src="js/analytics-loader.js"></script>  <script src="consent.js"></script>  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>  <script>    // Safety net: ensure cards render even if earlier init timing fails.    window.addEventListener('load', function () {      if (typeof window.renderNews !== 'function') return;      const preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';      window.renderNews(preferred).catch(function () {});    });    // Hard fallback: still show news and form toggle if main JS init is blocked.    window.addEventListener('load', function () {      var addBtn = document.getElementById('add-article-btn');      var form = document.getElementById('news-form');      if (addBtn && form && !addBtn.dataset.fallbackBound) {        addBtn.dataset.fallbackBound = '1';        addBtn.addEventListener('click', function () {          form.classList.toggle('hidden');        });      }      window.setTimeout(function () {        if (typeof window.renderNews !== 'function') return;        var preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';        window.renderNews(preferred).catch(function () {});      }, 1600);      // Last-resort fallback: render region feed directly if main renderer failed.      window.setTimeout(function () {        var container = document.getElementById('news-list');        if (!container) return;        var hasCards = container.querySelector('.news-card');        if (hasCards) return;        var regionSelect = document.getElementById('news-region');        var modeMap = {          cluster_scandinavia: 'data/news.region.cluster_scandinavia.json',          cluster_germanic_nl: 'data/news.region.cluster_germanic_nl.json',          cluster_fr_be_lu_ch: 'data/news.region.cluster_fr_be_lu_ch.json',          cluster_it_ch_fr: 'data/news.region.cluster_it_ch_fr.json',          cluster_english: 'data/news.region.cluster_english.json',          global: 'data/news.region.global.json'        };        function resolveMode() {          var selected = (regionSelect && regionSelect.value) || 'auto';          if (selected === 'auto') return 'cluster_scandinavia';          return modeMap[selected] ? selected : 'cluster_scandinavia';        }        function renderDirect(mode) {          var url = modeMap[mode] || modeMap.cluster_scandinavia;          fetch(url, { cache: 'no-cache' })            .then(function (response) {              if (!response.ok) throw new Error('HTTP ' + response.status);              return response.json();            })            .then(function (payload) {              var items = payload && Array.isArray(payload.items) ? payload.items : [];              container.innerHTML = '';              if (!items.length) {                container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';                return;              }              items.slice(0, 30).forEach(function (item) {                var title = String(item.title || 'Untitled');                var source = String(item.source || 'Ukjent kilde');                var country = String(item.country || '');                var language = String(item.language || '');                var articleUrl = String(item.url || '#');                var card = document.createElement('article');                card.className = 'news-card';                card.innerHTML =                  '<h4><a href="' + articleUrl + '" target="_blank" rel="noopener">' + title + '</a></h4>' +                  '<p class="meta">' + source + ' ÔÇó ' + country + ' ÔÇó ' + language + '</p>' +                  '<p class="links"><a href="' + articleUrl + '" target="_blank" rel="noopener">Open original</a></p>';                container.appendChild(card);              });            })            .catch(function () {              container.innerHTML = '<p class="muted">Nyheter kunne ikke lastes akkurat na. Proev igjen om litt.</p>';            });        }        renderDirect(resolveMode());        if (regionSelect && !regionSelect.dataset.directFallbackBound) {          regionSelect.dataset.directFallbackBound = '1';          regionSelect.addEventListener('change', function () {            renderDirect(resolveMode());          });        }      }, 2800);    });  </script>  <script>    window.addEventListener('load', function () {      if (!window.cookieconsent) return;      window.cookieconsent.initialise({        palette: { popup: { background: '#222' }, button: { background: '#14a7d0' } },        theme: 'classic',        position: 'bottom-right',        content: {          message: 'Vi bruker informasjonskapsler for a vise relevante annonser og forbedre nettstedet.',          dismiss: 'Aksepter',          deny: 'Avsla',          link: 'Les mer',          href: 'privacy.html'        },        onInitialise: function () {          if (this.hasConsented && this.hasConsented()) {            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');          }        },        onStatusChange: function () {          if (this.hasConsented && this.hasConsented()) {            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');          } else {            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('no');          }        }      });    });  </script></body></html>
+<!DOCTYPE html>
+<html lang="nb" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+  <meta name="description" content="Mat Sjekk nyheter og media - relevante artikler om Bovaer, GMO-fiskefor, insektmel og baerekraft.">
+  <meta name="robots" content="index, follow">
+  <title>Mat Sjekk - Nyheter og media</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-row">
+        <div class="brand">
+          <h1 data-translate="title">ðŸ›’ Mat Sjekk</h1>
+          <p class="tagline" data-translate="tagline">Skann mat, velg bevisst</p>
+        </div>
+        <div class="controls">
+          <label for="lang-select" class="visually-hidden">Velg sprak</label>
+          <select id="lang-select" aria-label="Velg sprak"></select>
+          <a class="btn small" href="privacy.html" data-translate="privacy">Personvern</a>
+        </div>
+      </div>
+      <nav class="top-tabs" aria-label="Hovednavigasjon">
+        <a href="index.html" data-translate="navHome">Hjem</a>
+        <a href="gardsbutikker.html" data-translate="navFarmshops">Gardsbutikker</a>
+        <a href="okologiske-gardsbutikker.html" data-translate="navOrganicFarmshops">Okologiske gardsbutikker</a>
+        <a href="innvandrerbutikker.html" data-translate="navImmigrantShops">Innvandrerbutikker</a>
+        <a href="news.html?cb=20260309e" data-translate="navNews">Nyheter og media</a>
+        <a href="index.html#contact" data-translate="navContact">Kontakt oss</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="news" id="news">
+      <h2 data-translate="newsHeading">Nyheter og media</h2>
+      <p data-translate="newsIntro">Hold deg oppdatert - legg til relevante artikler om Bovaer, GMO, insektmel og baerekraft.</p>
+      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. De gar til moderering forst.</p>
+
+      <div class="news-controls">
+        <label for="news-lang" data-translate="newsLanguageLabel">Lesesprak / oversett til:</label>
+        <select id="news-lang">
+          <option value="nb">Norsk</option>
+          <option value="en">English</option>
+          <option value="sv">Svenska</option>
+          <option value="da">Dansk</option>
+          <option value="fi">Suomi</option>
+          <option value="de">Deutsch</option>
+          <option value="nl">Nederlands</option>
+          <option value="fr">Francais</option>
+          <option value="it">Italiano</option>
+          <option value="pt">Portugues</option>
+          <option value="es">Espanol</option>
+        </select>
+        <label for="news-region" data-translate="newsRegionLabel">Region:</label>
+        <select id="news-region">
+          <option value="auto">Auto (naturlig region)</option>
+          <option value="cluster_scandinavia">1. Skandinavia</option>
+          <option value="cluster_germanic_nl">2. Tyskspraklige + Nederland</option>
+          <option value="cluster_fr_be_lu_ch">3. Frankrike + Belgia + Luxembourg + Sveits + Nederland</option>
+          <option value="cluster_it_ch_fr">4. Italia + Sveits + Frankrike</option>
+          <option value="cluster_english">5. Engelskspraklige</option>
+          <option value="global">Globalt</option>
+        </select>
+        <button id="add-article-btn" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>
+      </div>
+
+      <div id="news-list" class="news-list">
+        <p class="muted">Laster nyheter...</p>
+      </div>
+
+      <div id="news-form" class="news-form hidden">
+        <h3 data-translate="newsFormHeading">Legg til artikkel</h3>
+        <label><span data-translate="newsFormTitleLabel">Tittel</span><br><input id="article-title" type="text"></label>
+        <label><span data-translate="newsFormSourceLabel">Kilde</span><br><input id="article-source" type="text"></label>
+        <label><span data-translate="newsFormUrlLabel">URL</span><br><input id="article-url" type="url"></label>
+        <label><span data-translate="newsFormLanguageLabel">Sprak</span><br>
+          <select id="article-lang">
+            <option value="nb">Norsk (nb)</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <div class="form-actions">
+          <button id="save-article" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
+          <button id="cancel-article" class="btn" data-translate="cancel">Avbryt</button>
+        </div>
+        <p id="news-form-status" class="muted"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p data-translate="footerCopyright">&copy; 2026 Mat Sjekk / Einar's Apps. Alle rettigheter reservert.</p>
+      <p>
+        <a href="privacy.html" data-translate="privacy">Personvern</a> |
+        <a href="terms.html" data-translate="terms">Vilkar</a> |
+        <a href="analytics.html" data-translate="analytics">Analytics</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="lang.local.js?v=20260309b"></script>
+  <script src="news.feed.js?v=20260309e"></script>
+  <script src="js/analytics-loader.js"></script>
+  <script src="consent.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+  <script>
+    // Safety net: ensure cards render even if earlier init timing fails.
+    window.addEventListener('load', function () {
+      if (typeof window.renderNews !== 'function') return;
+      const preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';
+      window.renderNews(preferred).catch(function () {});
+    });
+
+    // Hard fallback: still show news and form toggle if main JS init is blocked.
+    window.addEventListener('load', function () {
+      var addBtn = document.getElementById('add-article-btn');
+      var form = document.getElementById('news-form');
+      if (addBtn && form && !addBtn.dataset.fallbackBound) {
+        addBtn.dataset.fallbackBound = '1';
+        addBtn.addEventListener('click', function () {
+          form.classList.toggle('hidden');
+        });
+      }
+
+      window.setTimeout(function () {
+        if (typeof window.renderNews !== 'function') return;
+        var preferred = (window.localStorage && localStorage.getItem('matsjekk_lang')) || 'nb';
+        window.renderNews(preferred).catch(function () {});
+      }, 1600);
+
+      // Last-resort fallback: render region feed directly if main renderer failed.
+      window.setTimeout(function () {
+        var container = document.getElementById('news-list');
+        if (!container) return;
+        var hasCards = container.querySelector('.news-card');
+        if (hasCards) return;
+
+        var regionSelect = document.getElementById('news-region');
+        var modeMap = {
+          cluster_scandinavia: 'data/news.region.cluster_scandinavia.json',
+          cluster_germanic_nl: 'data/news.region.cluster_germanic_nl.json',
+          cluster_fr_be_lu_ch: 'data/news.region.cluster_fr_be_lu_ch.json',
+          cluster_it_ch_fr: 'data/news.region.cluster_it_ch_fr.json',
+          cluster_english: 'data/news.region.cluster_english.json',
+          global: 'data/news.region.global.json'
+        };
+
+        function resolveMode() {
+          var selected = (regionSelect && regionSelect.value) || 'auto';
+          if (selected === 'auto') return 'cluster_scandinavia';
+          return modeMap[selected] ? selected : 'cluster_scandinavia';
+        }
+
+        function renderDirect(mode) {
+          var url = modeMap[mode] || modeMap.cluster_scandinavia;
+          fetch(url, { cache: 'no-cache' })
+            .then(function (response) {
+              if (!response.ok) throw new Error('HTTP ' + response.status);
+              return response.json();
+            })
+            .then(function (payload) {
+              var items = payload && Array.isArray(payload.items) ? payload.items : [];
+              container.innerHTML = '';
+              if (!items.length) {
+                container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';
+                return;
+              }
+              items.slice(0, 30).forEach(function (item) {
+                var title = String(item.title || 'Untitled');
+                var source = String(item.source || 'Ukjent kilde');
+                var country = String(item.country || '');
+                var language = String(item.language || '');
+                var articleUrl = String(item.url || '#');
+
+                var card = document.createElement('article');
+                card.className = 'news-card';
+                card.innerHTML =
+                  '<h4><a href="' + articleUrl + '" target="_blank" rel="noopener">' + title + '</a></h4>' +
+                  '<p class="meta">' + source + ' â€¢ ' + country + ' â€¢ ' + language + '</p>' +
+                  '<p class="links"><a href="' + articleUrl + '" target="_blank" rel="noopener">Open original</a></p>';
+                container.appendChild(card);
+              });
+            })
+            .catch(function () {
+              container.innerHTML = '<p class="muted">Nyheter kunne ikke lastes akkurat na. Proev igjen om litt.</p>';
+            });
+        }
+
+        renderDirect(resolveMode());
+        if (regionSelect && !regionSelect.dataset.directFallbackBound) {
+          regionSelect.dataset.directFallbackBound = '1';
+          regionSelect.addEventListener('change', function () {
+            renderDirect(resolveMode());
+          });
+        }
+      }, 2800);
+    });
+  </script>
+  <script>
+    window.addEventListener('load', function () {
+      if (!window.cookieconsent) return;
+      window.cookieconsent.initialise({
+        palette: { popup: { background: '#222' }, button: { background: '#14a7d0' } },
+        theme: 'classic',
+        position: 'bottom-right',
+        content: {
+          message: 'Vi bruker informasjonskapsler for a vise relevante annonser og forbedre nettstedet.',
+          dismiss: 'Aksepter',
+          deny: 'Avsla',
+          link: 'Les mer',
+          href: 'privacy.html'
+        },
+        onInitialise: function () {
+          if (this.hasConsented && this.hasConsented()) {
+            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');
+          }
+        },
+        onStatusChange: function () {
+          if (this.hasConsented && this.hasConsented()) {
+            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('yes');
+          } else {
+            if (window.MatSjekkConsent) window.MatSjekkConsent.setConsent('no');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
