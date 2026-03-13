@@ -1,0 +1,2234 @@
+[
+  {
+    "id": "immigrant_osm_node_5992721194",
+    "name": "African Asian food matket",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9888139,
+    "lon": 23.7633409,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5992721194"
+  },
+  {
+    "id": "immigrant_osm_node_3164463917",
+    "name": "Afroditi",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Καλαμαριά",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.5829427,
+    "lon": 22.9567206,
+    "address": "Παρασκευοπούλου 3, 55133, Καλαμαριά",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3164463917"
+  },
+  {
+    "id": "immigrant_osm_node_11049675826",
+    "name": "Afroditi",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.2585383,
+    "lon": 23.2029726,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11049675826"
+  },
+  {
+    "id": "immigrant_osm_node_4269431942",
+    "name": "Afroditi H.Q.",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.smafroditi.gr/",
+    "lat": 40.5324829,
+    "lon": 23.0082478,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4269431942"
+  },
+  {
+    "id": "immigrant_osm_node_9995373914",
+    "name": "Aiolos Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Eretria",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.3915254,
+    "lon": 23.796792,
+    "address": "Αρχαίου Θεάτρου, 34008, Eretria",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9995373914"
+  },
+  {
+    "id": "immigrant_osm_node_1927849378",
+    "name": "Anastasia",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.4180317,
+    "lon": 28.1305075,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1927849378"
+  },
+  {
+    "id": "immigrant_osm_node_13476417780",
+    "name": "Araw Greek & Asian",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9897946,
+    "lon": 23.7643946,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13476417780"
+  },
+  {
+    "id": "immigrant_osm_node_3793382870",
+    "name": "Asia Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9413992,
+    "lon": 23.6428743,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3793382870"
+  },
+  {
+    "id": "immigrant_osm_node_6592278643",
+    "name": "Asian Mini Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9851092,
+    "lon": 23.7377498,
+    "address": "Χαριλάου Τρικούπη 72, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6592278643"
+  },
+  {
+    "id": "immigrant_osm_node_9982580078",
+    "name": "Aspasia Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.0683719,
+    "lon": 25.3568902,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9982580078"
+  },
+  {
+    "id": "immigrant_osm_node_10016118382",
+    "name": "Aspasia Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.0682696,
+    "lon": 25.3569164,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10016118382"
+  },
+  {
+    "id": "immigrant_osm_node_670368231",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9305175,
+    "lon": 23.6968378,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/670368231"
+  },
+  {
+    "id": "immigrant_osm_node_1685148116",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9721268,
+    "lon": 23.7499129,
+    "address": "Βασιλέως Γεωργίου 52",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1685148116"
+  },
+  {
+    "id": "immigrant_osm_node_2032822768",
+    "name": "BAZAAR",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3297825,
+    "lon": 25.1324365,
+    "address": "Μαγγαναρήδων, 71305",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2032822768"
+  },
+  {
+    "id": "immigrant_osm_node_2134710282",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.bazaarsm.gr/",
+    "lat": 37.9650965,
+    "lon": 23.7559648,
+    "address": "Αρτοτίνης 47",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2134710282"
+  },
+  {
+    "id": "immigrant_osm_node_2440204423",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.7117921,
+    "lon": 26.8044224,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2440204423"
+  },
+  {
+    "id": "immigrant_osm_node_2488798687",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9432688,
+    "lon": 23.6517909,
+    "address": "Γρηγορίου Λαμπράκη 90-100, 18532, Πειραιάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2488798687"
+  },
+  {
+    "id": "immigrant_osm_node_2510862546",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.4431173,
+    "lon": 28.2273208,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2510862546"
+  },
+  {
+    "id": "immigrant_osm_node_2838340447",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Πειραιάς",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9310863,
+    "lon": 23.6395354,
+    "address": "Ζαΐμη 105, 18538, Πειραιάς",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2838340447"
+  },
+  {
+    "id": "immigrant_osm_node_2917599333",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0006684,
+    "lon": 23.7436964,
+    "address": "Κερκύρας 88, 11363, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2917599333"
+  },
+  {
+    "id": "immigrant_osm_node_3005421804",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9866931,
+    "lon": 23.7336697,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3005421804"
+  },
+  {
+    "id": "immigrant_osm_node_3005477397",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9835853,
+    "lon": 23.7294379,
+    "address": "Αιόλου 104, 10564, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3005477397"
+  },
+  {
+    "id": "immigrant_osm_node_3102035273",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.017309,
+    "lon": 23.5249859,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3102035273"
+  },
+  {
+    "id": "immigrant_osm_node_3327069278",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9642259,
+    "lon": 23.7516881,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3327069278"
+  },
+  {
+    "id": "immigrant_osm_node_3436427853",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9641886,
+    "lon": 23.7224,
+    "address": "Βεΐκου, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3436427853"
+  },
+  {
+    "id": "immigrant_osm_node_3453159451",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9318733,
+    "lon": 23.6307354,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3453159451"
+  },
+  {
+    "id": "immigrant_osm_node_3584146619",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Καλλιθέα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.bazaarsm.gr",
+    "lat": 37.9534883,
+    "lon": 23.6988139,
+    "address": "Ελευθερίου Βενιζέλου 191, 17673, Καλλιθέα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3584146619"
+  },
+  {
+    "id": "immigrant_osm_node_3733218624",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.7646613,
+    "lon": 20.9229808,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3733218624"
+  },
+  {
+    "id": "immigrant_osm_node_3738897778",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6060638,
+    "lon": 22.9595078,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3738897778"
+  },
+  {
+    "id": "immigrant_osm_node_3967069080",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9339149,
+    "lon": 23.6402269,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3967069080"
+  },
+  {
+    "id": "immigrant_osm_node_3998346578",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9756576,
+    "lon": 23.7307834,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3998346578"
+  },
+  {
+    "id": "immigrant_osm_node_3998351363",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9757254,
+    "lon": 23.7286363,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3998351363"
+  },
+  {
+    "id": "immigrant_osm_node_4030594801",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9861239,
+    "lon": 23.7421698,
+    "address": "Ιπποκράτους 139-141",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4030594801"
+  },
+  {
+    "id": "immigrant_osm_node_4047628049",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9778054,
+    "lon": 23.7308885,
+    "address": "Πραξιτέλους 3, 10562, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4047628049"
+  },
+  {
+    "id": "immigrant_osm_node_4060625025",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0237165,
+    "lon": 23.8037239,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4060625025"
+  },
+  {
+    "id": "immigrant_osm_node_4261861980",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://bazaar-online.gr/",
+    "lat": 37.9908176,
+    "lon": 23.7570306,
+    "address": "Κεδρηνού 73, 11522",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4261861980"
+  },
+  {
+    "id": "immigrant_osm_node_4285025693",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9382223,
+    "lon": 23.6427459,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4285025693"
+  },
+  {
+    "id": "immigrant_osm_node_4363729840",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3282706,
+    "lon": 25.1061728,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4363729840"
+  },
+  {
+    "id": "immigrant_osm_node_4367024684",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.bazaarsm.gr/",
+    "lat": 37.9336807,
+    "lon": 23.6344341,
+    "address": "Γεωργίου Θεοτόκη 59",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4367024684"
+  },
+  {
+    "id": "immigrant_osm_node_4384301712",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9847211,
+    "lon": 23.7608872,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4384301712"
+  },
+  {
+    "id": "immigrant_osm_node_4394189824",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9593904,
+    "lon": 23.7546351,
+    "address": "Χρυσοστόμου Σμύρνης",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4394189824"
+  },
+  {
+    "id": "immigrant_osm_node_4417145891",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.4166055,
+    "lon": 24.6481349,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4417145891"
+  },
+  {
+    "id": "immigrant_osm_node_4464612067",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9810611,
+    "lon": 23.7576562,
+    "address": "Μιχαλακοπούλου, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4464612067"
+  },
+  {
+    "id": "immigrant_osm_node_4558259556",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://bazaar-online.gr",
+    "lat": 37.9889967,
+    "lon": 23.7492487,
+    "address": "Λεωφόρος Αλεξάνδρας 105",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4558259556"
+  },
+  {
+    "id": "immigrant_osm_node_4641675520",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9937934,
+    "lon": 23.7290419,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4641675520"
+  },
+  {
+    "id": "immigrant_osm_node_4727598256",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9282933,
+    "lon": 23.6387612,
+    "address": "Ακτή Θεμιστοκλέους 146-148",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4727598256"
+  },
+  {
+    "id": "immigrant_osm_node_4782649947",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9967893,
+    "lon": 23.743538,
+    "address": "Δοϊράνης 1",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4782649947"
+  },
+  {
+    "id": "immigrant_osm_node_5173175428",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Θεσσαλονίκη",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr/",
+    "lat": 40.6099288,
+    "lon": 22.9648874,
+    "address": "Αλεξάνδρου Παπαναστασίου 68, 54642, Θεσσαλονίκη",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5173175428"
+  },
+  {
+    "id": "immigrant_osm_node_5181318572",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9958978,
+    "lon": 23.7271606,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5181318572"
+  },
+  {
+    "id": "immigrant_osm_node_5239255109",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3408937,
+    "lon": 25.1358017,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5239255109"
+  },
+  {
+    "id": "immigrant_osm_node_5267536068",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Ζωγράφος",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9794181,
+    "lon": 23.7621925,
+    "address": "Γεωργίου Παπανδρέου 16, 15771, Ζωγράφος",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5267536068"
+  },
+  {
+    "id": "immigrant_osm_node_5374946817",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.5754986,
+    "lon": 23.6430303,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5374946817"
+  },
+  {
+    "id": "immigrant_osm_node_5454125313",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0160149,
+    "lon": 23.7366601,
+    "address": "Γαλατσίου 11, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5454125313"
+  },
+  {
+    "id": "immigrant_osm_node_5480564821",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://bazaar-online.gr",
+    "lat": 37.9919651,
+    "lon": 23.7298336,
+    "address": "3ης Σεπτεμβρίου 77",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5480564821"
+  },
+  {
+    "id": "immigrant_osm_node_5489231523",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9843312,
+    "lon": 23.632108,
+    "address": "Κωστή Παλαμά 110",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5489231523"
+  },
+  {
+    "id": "immigrant_osm_node_5707100818",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9940299,
+    "lon": 23.7691218,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5707100818"
+  },
+  {
+    "id": "immigrant_osm_node_5873926850",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3347161,
+    "lon": 25.3478412,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5873926850"
+  },
+  {
+    "id": "immigrant_osm_node_6053759632",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6007827,
+    "lon": 22.9536502,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6053759632"
+  },
+  {
+    "id": "immigrant_osm_node_6053773397",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.640539,
+    "lon": 22.9393325,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6053773397"
+  },
+  {
+    "id": "immigrant_osm_node_6318025102",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0113569,
+    "lon": 23.7339953,
+    "address": "Δευκαλίωνος 19, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6318025102"
+  },
+  {
+    "id": "immigrant_osm_node_6739021128",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Μοσχάτο",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9549717,
+    "lon": 23.6752341,
+    "address": "Πειραιώς, Μοσχάτο",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6739021128"
+  },
+  {
+    "id": "immigrant_osm_node_6757138866",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.5779562,
+    "lon": 23.6410418,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6757138866"
+  },
+  {
+    "id": "immigrant_osm_node_6897850991",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Θεσσαλονίκη",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6134078,
+    "lon": 22.9574134,
+    "address": "Δελφών, 54641, Θεσσαλονίκη",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6897850991"
+  },
+  {
+    "id": "immigrant_osm_node_6897851004",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6292738,
+    "lon": 22.9498884,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6897851004"
+  },
+  {
+    "id": "immigrant_osm_node_7178247881",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.1009026,
+    "lon": 23.6691206,
+    "address": "Φυλής 55",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7178247881"
+  },
+  {
+    "id": "immigrant_osm_node_8760045086",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr/",
+    "lat": 40.6087683,
+    "lon": 22.9720271,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8760045086"
+  },
+  {
+    "id": "immigrant_osm_node_8951728811",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.432428,
+    "lon": 28.2307848,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8951728811"
+  },
+  {
+    "id": "immigrant_osm_node_9031766352",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr/",
+    "lat": 40.6465451,
+    "lon": 22.9315828,
+    "address": "Γρηγορίου Κολωνιάρη 25, 54629",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9031766352"
+  },
+  {
+    "id": "immigrant_osm_node_9060613781",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9586229,
+    "lon": 23.7004622,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9060613781"
+  },
+  {
+    "id": "immigrant_osm_node_9177584592",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.6583456,
+    "lon": 24.3122361,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9177584592"
+  },
+  {
+    "id": "immigrant_osm_node_9182422817",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.4131143,
+    "lon": 20.5672072,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9182422817"
+  },
+  {
+    "id": "immigrant_osm_node_9282711268",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3364642,
+    "lon": 25.123252,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9282711268"
+  },
+  {
+    "id": "immigrant_osm_node_9547688236",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0028561,
+    "lon": 23.7954318,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9547688236"
+  },
+  {
+    "id": "immigrant_osm_node_9807339209",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.8577036,
+    "lon": 23.7549663,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9807339209"
+  },
+  {
+    "id": "immigrant_osm_node_9858056134",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Περιστέρι",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0131403,
+    "lon": 23.6896037,
+    "address": "Θηβών, Περιστέρι",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9858056134"
+  },
+  {
+    "id": "immigrant_osm_node_10151966359",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Κορυδαλλός",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9777993,
+    "lon": 23.6495743,
+    "address": "Αθηνάς 80, 18120, Κορυδαλλός",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10151966359"
+  },
+  {
+    "id": "immigrant_osm_node_10613578405",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9728653,
+    "lon": 23.731362,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10613578405"
+  },
+  {
+    "id": "immigrant_osm_node_10743749746",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Λάρισα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 39.6311132,
+    "lon": 22.4209298,
+    "address": "Ηρώων Πολυτεχνείου 76, Λάρισα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10743749746"
+  },
+  {
+    "id": "immigrant_osm_node_10969861122",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Καισαριανή",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr",
+    "lat": 37.9671727,
+    "lon": 23.7583559,
+    "address": "Εθνάρχου Μακαρίου, Καισαριανή",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10969861122"
+  },
+  {
+    "id": "immigrant_osm_node_11017725731",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.7512296,
+    "lon": 26.9814799,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11017725731"
+  },
+  {
+    "id": "immigrant_osm_node_11051428279",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.620366,
+    "lon": 22.9541908,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11051428279"
+  },
+  {
+    "id": "immigrant_osm_node_11061936069",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.2500015,
+    "lon": 20.6466753,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11061936069"
+  },
+  {
+    "id": "immigrant_osm_node_11077010231",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Ίλιον",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr",
+    "lat": 38.0314492,
+    "lon": 23.7078833,
+    "address": "Νέστορος 115, Ίλιον",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11077010231"
+  },
+  {
+    "id": "immigrant_osm_node_11161688799",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.1750693,
+    "lon": 20.4856448,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11161688799"
+  },
+  {
+    "id": "immigrant_osm_node_11291943345",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0099764,
+    "lon": 23.6937989,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11291943345"
+  },
+  {
+    "id": "immigrant_osm_node_11628395686",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.991906,
+    "lon": 23.7146846,
+    "address": "Λένορμαν, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11628395686"
+  },
+  {
+    "id": "immigrant_osm_node_11692181724",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Βαλεριάνος",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0874196,
+    "lon": 20.7055955,
+    "address": "28086, Βαλεριάνος",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11692181724"
+  },
+  {
+    "id": "immigrant_osm_node_11711176925",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.047202,
+    "lon": 23.840774,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11711176925"
+  },
+  {
+    "id": "immigrant_osm_node_11889992773",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.946631,
+    "lon": 23.7089239,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11889992773"
+  },
+  {
+    "id": "immigrant_osm_node_11944796669",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.7440762,
+    "lon": 26.9601462,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11944796669"
+  },
+  {
+    "id": "immigrant_osm_node_12646161631",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0065608,
+    "lon": 23.8272732,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12646161631"
+  },
+  {
+    "id": "immigrant_osm_node_12731435844",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3200976,
+    "lon": 25.133252,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12731435844"
+  },
+  {
+    "id": "immigrant_osm_node_13051508660",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0120309,
+    "lon": 23.8194568,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13051508660"
+  },
+  {
+    "id": "immigrant_osm_node_13231840528",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Γαλάτσι",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://bazaar-online.gr",
+    "lat": 38.0129625,
+    "lon": 23.7503851,
+    "address": "Πυθαγόρα, Γαλάτσι",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13231840528"
+  },
+  {
+    "id": "immigrant_osm_node_13426592970",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9830913,
+    "lon": 23.7675876,
+    "address": "Παπαδιαμαντοπούλου 141, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13426592970"
+  },
+  {
+    "id": "immigrant_osm_way_205082262",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6111299,
+    "lon": 24.6071638,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/205082262"
+  },
+  {
+    "id": "immigrant_osm_way_313067667",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.7213405,
+    "lon": 23.7074522,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/313067667"
+  },
+  {
+    "id": "immigrant_osm_way_404031138",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0198024,
+    "lon": 23.7985949,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/404031138"
+  },
+  {
+    "id": "immigrant_osm_way_455739436",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0491442,
+    "lon": 23.7998334,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/455739436"
+  },
+  {
+    "id": "immigrant_osm_way_868253662",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Σκάλα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr/",
+    "lat": 36.8502749,
+    "lon": 22.6649147,
+    "address": "Γεωργίου Γρυπιώτη, 23051, Σκάλα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/868253662"
+  },
+  {
+    "id": "immigrant_osm_way_964034595",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Άγιοι Ανάργυροι",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.bazaar-online.gr/",
+    "lat": 38.0273586,
+    "lon": 23.7207698,
+    "address": "Αγίων Αναργύρων 18, Άγιοι Ανάργυροι",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/964034595"
+  },
+  {
+    "id": "immigrant_osm_way_1218088535",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.9242476,
+    "lon": 23.8723094,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1218088535"
+  },
+  {
+    "id": "immigrant_osm_way_1299990026",
+    "name": "Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.3311975,
+    "lon": 20.5461844,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1299990026"
+  },
+  {
+    "id": "immigrant_osm_way_1465530945",
+    "name": "BAZAAR",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.1483128,
+    "lon": 25.2637047,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1465530945"
+  },
+  {
+    "id": "immigrant_osm_node_4367024990",
+    "name": "Bazaar Express",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9348326,
+    "lon": 23.6455024,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4367024990"
+  },
+  {
+    "id": "immigrant_osm_node_3889695855",
+    "name": "Bazaar Fresh Express",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.bazaarsm.gr/",
+    "lat": 37.9408178,
+    "lon": 23.65116,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3889695855"
+  },
+  {
+    "id": "immigrant_osm_node_9624176717",
+    "name": "Bazaar Super Markt",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.4421337,
+    "lon": 25.3365953,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9624176717"
+  },
+  {
+    "id": "immigrant_osm_node_1959347069",
+    "name": "Bazaar Supermarket",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.2145491,
+    "lon": 28.1160568,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1959347069"
+  },
+  {
+    "id": "immigrant_osm_node_641354489",
+    "name": "Bazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.7401087,
+    "lon": 26.9882824,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/641354489"
+  },
+  {
+    "id": "immigrant_osm_node_5126743525",
+    "name": "Bazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Κοκκίνη Χάνι",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3299988,
+    "lon": 25.257544,
+    "address": "Κοκκίνη Χάνι",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5126743525"
+  },
+  {
+    "id": "immigrant_osm_node_11271162180",
+    "name": "Bazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.6900411,
+    "lon": 26.9420191,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11271162180"
+  },
+  {
+    "id": "immigrant_osm_node_3323937177",
+    "name": "Discount Bazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 39.9884001,
+    "lon": 23.6144781,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3323937177"
+  },
+  {
+    "id": "immigrant_osm_node_13230288848",
+    "name": "ELOÚNDA MARKET BAZAAR DISCOUNT",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.2620769,
+    "lon": 25.7214691,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13230288848"
+  },
+  {
+    "id": "immigrant_osm_node_2927575701",
+    "name": "Gran Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.4498531,
+    "lon": 28.223886,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2927575701"
+  },
+  {
+    "id": "immigrant_osm_node_8450985749",
+    "name": "International Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0049559,
+    "lon": 23.7380024,
+    "address": "Αγίας Ζώνης, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8450985749"
+  },
+  {
+    "id": "immigrant_osm_node_3088937174",
+    "name": "OpenBazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.3154315,
+    "lon": 25.393655,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3088937174"
+  },
+  {
+    "id": "immigrant_osm_node_5497737913",
+    "name": "Philipino Asian Market",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.989597,
+    "lon": 23.7649699,
+    "address": "Ήλιδος, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5497737913"
+  },
+  {
+    "id": "immigrant_osm_node_12382444987",
+    "name": "Polski Sklep",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.992082,
+    "lon": 23.7256205,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12382444987"
+  },
+  {
+    "id": "immigrant_osm_node_13102913888",
+    "name": "Salamat Asian Food Store",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0212266,
+    "lon": 23.8195511,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13102913888"
+  },
+  {
+    "id": "immigrant_osm_node_12382440358",
+    "name": "Skleb Polski",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9920925,
+    "lon": 23.7253994,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12382440358"
+  },
+  {
+    "id": "immigrant_osm_node_2969241487",
+    "name": "Super Bazar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6372006,
+    "lon": 22.943459,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2969241487"
+  },
+  {
+    "id": "immigrant_osm_node_5000749892",
+    "name": "Super Market KARABETH",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.959333,
+    "lon": 25.1354981,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5000749892"
+  },
+  {
+    "id": "immigrant_osm_node_7668514226",
+    "name": "Supermarket Bazaar",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": "Αθήνα",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 37.9810715,
+    "lon": 23.7260573,
+    "address": "Σωκράτους 8, 10552, Αθήνα",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7668514226"
+  },
+  {
+    "id": "immigrant_osm_node_12537202952",
+    "name": "Top Africa Food",
+    "country": "Hellas",
+    "countryCode": "GR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 38.0006554,
+    "lon": 23.7408958,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12537202952"
+  }
+]

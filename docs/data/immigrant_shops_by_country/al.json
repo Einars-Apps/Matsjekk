@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_12574455777",
+    "name": "Bao Bao Asian Supermarket",
+    "country": "Albania",
+    "countryCode": "AL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.instagram.com/baobaoasiansupermarket/",
+    "lat": 41.3172851,
+    "lon": 19.8171309,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12574455777"
+  },
+  {
+    "id": "immigrant_osm_node_9893625719",
+    "name": "Bazaar",
+    "country": "Albania",
+    "countryCode": "AL",
+    "region": "Qarku i Korçës",
+    "municipality": "Korçë",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 40.6134782,
+    "lon": 20.7819591,
+    "address": "Bazaar, Bulevardi Fan Noli, Korçë, Bashkia Korçë, Qarku i Korçës, Shqipëria Jugore, 7001, Shqipëria",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9893625719"
+  },
+  {
+    "id": "immigrant_osm_way_1299805516",
+    "name": "Bazaar Gate",
+    "country": "Albania",
+    "countryCode": "AL",
+    "region": "Qarku i Tiranës",
+    "municipality": "Tiranë",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 41.3294616,
+    "lon": 19.8227996,
+    "address": "Bazaar Gate, Njësia Bashkiake Nr. 2, Tiranë, Bashkia Tiranë, Qarku i Tiranës, Shqipëria Qendrore, Shqipëria",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1299805516"
+  }
+]

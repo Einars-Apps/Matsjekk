@@ -1,0 +1,632 @@
+[
+  {
+    "id": "immigrant_osm_node_8817025417",
+    "name": "Alexandra import export",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8603815,
+    "lon": 27.0259539,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8817025417"
+  },
+  {
+    "id": "immigrant_osm_node_1720639235",
+    "name": "Arab store: clothes, parfumes",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4332038,
+    "lon": 28.050797,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1720639235"
+  },
+  {
+    "id": "immigrant_osm_node_4831041706",
+    "name": "Asia Market",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5470519,
+    "lon": 23.8865534,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4831041706"
+  },
+  {
+    "id": "immigrant_osm_node_4712957489",
+    "name": "ASIA Shop",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1498509,
+    "lon": 26.8197927,
+    "address": "Strada Independenței 25",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4712957489"
+  },
+  {
+    "id": "immigrant_osm_node_2958707820",
+    "name": "Asia Supermarket",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4746274,
+    "lon": 26.1573538,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2958707820"
+  },
+  {
+    "id": "immigrant_osm_node_13104418689",
+    "name": "Asia'n Bucate",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asianbucate.ro/",
+    "lat": 44.4451228,
+    "lon": 26.0809336,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13104418689"
+  },
+  {
+    "id": "immigrant_osm_node_9913899188",
+    "name": "Bazar Arya",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.7804501,
+    "lon": 23.613717,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9913899188"
+  },
+  {
+    "id": "immigrant_osm_way_1149866145",
+    "name": "Bazar Dracula Center",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.7551831,
+    "lon": 23.5592034,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1149866145"
+  },
+  {
+    "id": "immigrant_osm_node_8767949717",
+    "name": "Bazar la doi bani",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.114628,
+    "lon": 24.988753,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8767949717"
+  },
+  {
+    "id": "immigrant_osm_node_6124092657",
+    "name": "BAZAR TEXTILA",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Slatina",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4344381,
+    "lon": 24.3767957,
+    "address": "Strada Crișan, Slatina",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6124092657"
+  },
+  {
+    "id": "immigrant_osm_node_1893778012",
+    "name": "Bazarul lui Cox",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5551968,
+    "lon": 25.8863779,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1893778012"
+  },
+  {
+    "id": "immigrant_osm_node_2330616744",
+    "name": "Bimark International 2",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7410623,
+    "lon": 21.2251721,
+    "address": "Piața Nicolae Bălcescu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2330616744"
+  },
+  {
+    "id": "immigrant_osm_node_7964495885",
+    "name": "BPQ- MATEI BASARAB( Madona Dudu)",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.3168735,
+    "lon": 23.7913423,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7964495885"
+  },
+  {
+    "id": "immigrant_osm_node_6288754885",
+    "name": "Casian",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.1149935,
+    "lon": 24.9885724,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6288754885"
+  },
+  {
+    "id": "immigrant_osm_node_8440414717",
+    "name": "CIOATA ANASTASIA",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.6452456,
+    "lon": 26.8598708,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8440414717"
+  },
+  {
+    "id": "immigrant_osm_node_5705720223",
+    "name": "Daraban-Raitaru Simona Raluca",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.9585206,
+    "lon": 23.1042949,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5705720223"
+  },
+  {
+    "id": "immigrant_osm_node_8647762517",
+    "name": "Import Italia",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2001588,
+    "lon": 21.2941018,
+    "address": "Calea Aurel Vlaicu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8647762517"
+  },
+  {
+    "id": "immigrant_osm_node_5315737322",
+    "name": "INTERNATIONAL BIO HONEY SRL",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Târgu Mureș",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5358324,
+    "lon": 24.5375326,
+    "address": "Strada Libertății 120 CORP C1, 540190, Târgu Mureș",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5315737322"
+  },
+  {
+    "id": "immigrant_osm_node_11643010082",
+    "name": "Kasia Comerț Import Export",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "București",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4347822,
+    "lon": 26.019628,
+    "address": "București",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11643010082"
+  },
+  {
+    "id": "immigrant_osm_node_5975256725",
+    "name": "La Bazar",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Constanța",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.2042895,
+    "lon": 28.6277775,
+    "address": "Aleea Heracleea 3, Constanța",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5975256725"
+  },
+  {
+    "id": "immigrant_osm_node_4423148692",
+    "name": "Market Parabo",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.3224632,
+    "lon": 21.8684258,
+    "address": "Calea Timișoarei",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4423148692"
+  },
+  {
+    "id": "immigrant_osm_node_4400899490",
+    "name": "Mazaka Turkish Grill",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Popești-Leordeni",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.3705188,
+    "lon": 26.1530245,
+    "address": "Drumul Fermei 48, Popești-Leordeni",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4400899490"
+  },
+  {
+    "id": "immigrant_osm_node_9010089817",
+    "name": "Micom Import Export",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.0231933,
+    "lon": 24.8103602,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9010089817"
+  },
+  {
+    "id": "immigrant_osm_node_11090052301",
+    "name": "Mini Market Oriental",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1670383,
+    "lon": 27.5867139,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11090052301"
+  },
+  {
+    "id": "immigrant_osm_node_6288687187",
+    "name": "Nico import export",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.7790969,
+    "lon": 24.7264553,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6288687187"
+  },
+  {
+    "id": "immigrant_osm_way_1469115235",
+    "name": "Oriental Supermarket",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Remuș",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.9288717,
+    "lon": 25.9763109,
+    "address": "Strada Serelor, 087082, Remuș",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1469115235"
+  },
+  {
+    "id": "immigrant_osm_node_13374454364",
+    "name": "Parabo",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": "Carașova",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.2047318,
+    "lon": 21.8676676,
+    "address": "264, Carașova",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13374454364"
+  },
+  {
+    "id": "immigrant_osm_node_6124093988",
+    "name": "PESCARIA SCARABEUS",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.4278679,
+    "lon": 24.3865049,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6124093988"
+  },
+  {
+    "id": "immigrant_osm_node_6801379586",
+    "name": "Sebastian International",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.3181485,
+    "lon": 28.6078254,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6801379586"
+  },
+  {
+    "id": "immigrant_osm_node_1487136624",
+    "name": "Secumax International SRL",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.secumax.ro",
+    "lat": 44.1952192,
+    "lon": 28.6236416,
+    "address": "Strada Soveja 94, 900402",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1487136624"
+  },
+  {
+    "id": "immigrant_osm_node_4986454835",
+    "name": "Stil Inox International SRL",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.6538869,
+    "lon": 26.7851934,
+    "address": "63A",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4986454835"
+  },
+  {
+    "id": "immigrant_osm_node_11080676519",
+    "name": "Tarabe cu pepeni (vara)",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1096263,
+    "lon": 24.3703674,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11080676519"
+  },
+  {
+    "id": "immigrant_osm_node_8449031303",
+    "name": "Taste of Asia",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.7810707,
+    "lon": 23.6081957,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8449031303"
+  },
+  {
+    "id": "immigrant_osm_node_12163821106",
+    "name": "Turkish Market",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.069884,
+    "lon": 28.6383892,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12163821106"
+  },
+  {
+    "id": "immigrant_osm_node_8602193117",
+    "name": "VASIAN ADRIAN",
+    "country": "Romania",
+    "countryCode": "RO",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.6447617,
+    "lon": 27.64391,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8602193117"
+  }
+]

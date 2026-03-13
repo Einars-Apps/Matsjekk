@@ -1,0 +1,20 @@
+[
+  {
+    "id": "immigrant_osm_node_12920655150",
+    "name": "Turkish Market",
+    "country": "Montenegro",
+    "countryCode": "ME",
+    "region": "Glavni grad Podgorica",
+    "municipality": "Podgorica",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 42.4382178,
+    "lon": 19.2386624,
+    "address": "Turkish Market, 35, Marka Radovića, Kruševac, Podgorica, Glavni grad Podgorica, 81103, Crna Gora / Црна Гора",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12920655150"
+  }
+]

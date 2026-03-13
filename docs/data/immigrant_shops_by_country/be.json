@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "immigrant_osm_node_11173674468",
+    "name": "Africa and Asia Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Namur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.467375,
+    "lon": 4.8626366,
+    "address": "Rue Godefroid 46, 5000, Namur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11173674468"
+  },
+  {
+    "id": "immigrant_osm_node_8710771038",
+    "name": "Africa Bio",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8218812,
+    "lon": 4.3422148,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8710771038"
+  },
+  {
+    "id": "immigrant_osm_node_11486159112",
+    "name": "Africa Délices",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Liège",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6287324,
+    "lon": 5.5674816,
+    "address": "Rue des Guillemins 48, 4000, Liège",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11486159112"
+  },
+  {
+    "id": "immigrant_osm_node_11485697697",
+    "name": "Africa Shopping Linsan",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Liège",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6291033,
+    "lon": 5.5677155,
+    "address": "Rue des Guillemins 40, 4000, Liège",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11485697697"
+  },
+  {
+    "id": "immigrant_osm_node_4185930163",
+    "name": "African & Asian",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0624124,
+    "lon": 3.6986387,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4185930163"
+  },
+  {
+    "id": "immigrant_osm_node_344711298",
+    "name": "African & Indian Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8327648,
+    "lon": 4.3498406,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/344711298"
+  },
+  {
+    "id": "immigrant_osm_node_13040061420",
+    "name": "African - Asian Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0602639,
+    "lon": 3.7254042,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13040061420"
+  },
+  {
+    "id": "immigrant_osm_node_10778521421",
+    "name": "African Exotic Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.949284,
+    "lon": 3.1318234,
+    "address": "Ardooisesteenweg 27",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10778521421"
+  },
+  {
+    "id": "immigrant_osm_node_2052809828",
+    "name": "African Food Paradise",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4768513,
+    "lon": 4.184739,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2052809828"
+  },
+  {
+    "id": "immigrant_osm_node_13061777114",
+    "name": "Afro Afghan Bazar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4679525,
+    "lon": 4.8626466,
+    "address": "Rue Godefroid 64;66",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13061777114"
+  },
+  {
+    "id": "immigrant_osm_way_587037076",
+    "name": "Afro Asia",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Namur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4669852,
+    "lon": 4.8636882,
+    "address": "Rue des Carmes 59-61, 5000, Namur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/587037076"
+  },
+  {
+    "id": "immigrant_osm_node_6949569982",
+    "name": "Afroasia supermarkt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2174713,
+    "lon": 4.4276311,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6949569982"
+  },
+  {
+    "id": "immigrant_osm_node_6470481471",
+    "name": "Akwaba Africa",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.5629427,
+    "lon": 5.8311439,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6470481471"
+  },
+  {
+    "id": "immigrant_osm_node_6943766079",
+    "name": "Ali Sultan supermarkt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2179862,
+    "lon": 4.4257783,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6943766079"
+  },
+  {
+    "id": "immigrant_osm_node_11537722917",
+    "name": "Amazing Oriental",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/antwerpen/",
+    "lat": 51.2172098,
+    "lon": 4.4110368,
+    "address": "78",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11537722917"
+  },
+  {
+    "id": "immigrant_osm_node_7836165202",
+    "name": "Asia & More",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8963183,
+    "lon": 4.7080114,
+    "address": "Aarschotsesteenweg 92",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7836165202"
+  },
+  {
+    "id": "immigrant_osm_node_8986502014",
+    "name": "Asia Africa",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Namur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.468087,
+    "lon": 4.8620743,
+    "address": "Place de la Station 20, 5000, Namur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8986502014"
+  },
+  {
+    "id": "immigrant_osm_node_10700220213",
+    "name": "Asia Bazar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8755513,
+    "lon": 4.3533712,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10700220213"
+  },
+  {
+    "id": "immigrant_osm_node_9512318985",
+    "name": "Asia Food Center",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiafoodcenter.be",
+    "lat": 50.9585408,
+    "lon": 5.4427727,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9512318985"
+  },
+  {
+    "id": "immigrant_osm_way_266678836",
+    "name": "Asia Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Eupen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6287042,
+    "lon": 6.0332269,
+    "address": "Bergstraße 51, 4700, Eupen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/266678836"
+  },
+  {
+    "id": "immigrant_osm_node_12221754908",
+    "name": "Asia Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Namur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4665437,
+    "lon": 4.862601,
+    "address": "Rue Godefroid, 5000, Namur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12221754908"
+  },
+  {
+    "id": "immigrant_osm_node_9671143242",
+    "name": "Asia's Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8188558,
+    "lon": 4.4152634,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9671143242"
+  },
+  {
+    "id": "immigrant_osm_node_1638728124",
+    "name": "Asia-Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiafood.be",
+    "lat": 51.219973,
+    "lon": 4.4206232,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1638728124"
+  },
+  {
+    "id": "immigrant_osm_node_4153816492",
+    "name": "ASIAN & AFRICAN HALAL BAZAR",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Liège",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6434026,
+    "lon": 5.5860613,
+    "address": "Boulevard de la Constitution 46, 4020, Liège",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4153816492"
+  },
+  {
+    "id": "immigrant_osm_node_8440477193",
+    "name": "Asian & African Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.061904,
+    "lon": 3.7103285,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8440477193"
+  },
+  {
+    "id": "immigrant_osm_way_272798951",
+    "name": "Asian shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.3053362,
+    "lon": 3.1413207,
+    "address": "Kerkstraat 386",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/272798951"
+  },
+  {
+    "id": "immigrant_osm_node_2897555887",
+    "name": "Asian Supermarket",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Leuven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.880563,
+    "lon": 4.695259,
+    "address": "Brusselsestraat 114, 3000, Leuven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2897555887"
+  },
+  {
+    "id": "immigrant_osm_node_6835542585",
+    "name": "Asian supermarkt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2231643,
+    "lon": 4.4253482,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6835542585"
+  },
+  {
+    "id": "immigrant_osm_node_9671114260",
+    "name": "AsianShop.be",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asianshop.be/",
+    "lat": 51.1697258,
+    "lon": 4.6198033,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9671114260"
+  },
+  {
+    "id": "immigrant_osm_node_7478316533",
+    "name": "AsiaSun",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiasun-store.be/",
+    "lat": 50.5970045,
+    "lon": 4.3247805,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7478316533"
+  },
+  {
+    "id": "immigrant_osm_node_12193178362",
+    "name": "Balkan Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8793916,
+    "lon": 4.3293717,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12193178362"
+  },
+  {
+    "id": "immigrant_osm_node_4924252630",
+    "name": "Bazar Zerda",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.795544,
+    "lon": 3.1217453,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4924252630"
+  },
+  {
+    "id": "immigrant_osm_node_1682510306",
+    "name": "BGB International",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6126668,
+    "lon": 5.5955925,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1682510306"
+  },
+  {
+    "id": "immigrant_osm_node_7734394746",
+    "name": "Chez Anastasia",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8481446,
+    "lon": 4.3432676,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7734394746"
+  },
+  {
+    "id": "immigrant_osm_node_3135473195",
+    "name": "Circle Asian Supermarket",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Leuven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8801027,
+    "lon": 4.6977556,
+    "address": "Brusselsestraat 48, 3000, Leuven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3135473195"
+  },
+  {
+    "id": "immigrant_osm_node_4827591321",
+    "name": "City Express Indian Arabic",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8581584,
+    "lon": 4.3996132,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4827591321"
+  },
+  {
+    "id": "immigrant_osm_node_6203232987",
+    "name": "Daily Asian Store",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0337757,
+    "lon": 3.7074914,
+    "address": "Overwale 2",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6203232987"
+  },
+  {
+    "id": "immigrant_osm_node_6943766078",
+    "name": "Euro Asia Afro supermarkt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2180083,
+    "lon": 4.4256595,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6943766078"
+  },
+  {
+    "id": "immigrant_osm_node_7373314515",
+    "name": "Euro Asians",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1982368,
+    "lon": 4.4264529,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7373314515"
+  },
+  {
+    "id": "immigrant_osm_node_7154601465",
+    "name": "Express Afro-Indian",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8369739,
+    "lon": 4.342225,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7154601465"
+  },
+  {
+    "id": "immigrant_osm_node_12013300937",
+    "name": "Faustina's African Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9799856,
+    "lon": 3.5326959,
+    "address": "Gentstraat 44",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12013300937"
+  },
+  {
+    "id": "immigrant_osm_node_9049003715",
+    "name": "First Choice African Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.036282,
+    "lon": 3.7414381,
+    "address": "Ledebergstraat 27",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9049003715"
+  },
+  {
+    "id": "immigrant_osm_node_11136668947",
+    "name": "Flavor of Asia",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Kessel-Lo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8839175,
+    "lon": 4.7202015,
+    "address": "Diestsesteenweg 105, 3010, Kessel-Lo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11136668947"
+  },
+  {
+    "id": "immigrant_osm_node_5887368526",
+    "name": "Foods of Asia",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8638259,
+    "lon": 4.4028127,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5887368526"
+  },
+  {
+    "id": "immigrant_osm_node_10125608611",
+    "name": "Gourmet International Food and Gifts",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.7127954,
+    "lon": 4.4007322,
+    "address": "Allée du Petit Paris 5A",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10125608611"
+  },
+  {
+    "id": "immigrant_osm_node_11617008959",
+    "name": "Halal Centrum",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8441881,
+    "lon": 4.3229779,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11617008959"
+  },
+  {
+    "id": "immigrant_osm_node_3976613635",
+    "name": "Halal slagerij",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.824928,
+    "lon": 3.2576349,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3976613635"
+  },
+  {
+    "id": "immigrant_osm_node_11049510881",
+    "name": "Karibu Afro Shop",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4775856,
+    "lon": 4.2236831,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11049510881"
+  },
+  {
+    "id": "immigrant_osm_node_5615407321",
+    "name": "Kwabos African Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2214057,
+    "lon": 4.4283883,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5615407321"
+  },
+  {
+    "id": "immigrant_osm_way_704967945",
+    "name": "Le Baobab - alimentation africaine",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.alimentation-lebaobab.be",
+    "lat": 50.7115498,
+    "lon": 4.6134317,
+    "address": "Rue de Namur 97",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/704967945"
+  },
+  {
+    "id": "immigrant_osm_node_10176103122",
+    "name": "Little Africa Jette",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8760497,
+    "lon": 4.3275586,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10176103122"
+  },
+  {
+    "id": "immigrant_osm_node_7707770842",
+    "name": "Lokma Halal",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8641329,
+    "lon": 4.3344633,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7707770842"
+  },
+  {
+    "id": "immigrant_osm_node_10805523300",
+    "name": "Mali Asian Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.maliasianmarket.be/",
+    "lat": 50.8399024,
+    "lon": 3.2637388,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10805523300"
+  },
+  {
+    "id": "immigrant_osm_node_1119458562",
+    "name": "Malinka Polski Supermarket",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Izegem",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.9064037,
+    "lon": 3.2199084,
+    "address": "Kortrijksestraat 266, 8870, Izegem",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1119458562"
+  },
+  {
+    "id": "immigrant_osm_node_6845435144",
+    "name": "Mama Africa",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://mama-africa-grocery-store.business.site",
+    "lat": 51.2214562,
+    "lon": 4.4263062,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6845435144"
+  },
+  {
+    "id": "immigrant_osm_node_5045063921",
+    "name": "Market Latino y Africano",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8265688,
+    "lon": 4.3451198,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5045063921"
+  },
+  {
+    "id": "immigrant_osm_node_6716425290",
+    "name": "New oriental",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2229895,
+    "lon": 4.4246031,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6716425290"
+  },
+  {
+    "id": "immigrant_osm_node_7012394362",
+    "name": "Nieuw Euro Asia supermarkt",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2184712,
+    "lon": 4.4248843,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7012394362"
+  },
+  {
+    "id": "immigrant_osm_way_753119656",
+    "name": "NR asia supermarket",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.5228,
+    "lon": 5.2330792,
+    "address": "Rue entre deux Portes 57",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/753119656"
+  },
+  {
+    "id": "immigrant_osm_node_6942598291",
+    "name": "Pak Asian & African Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.0566223,
+    "lon": 3.7420825,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6942598291"
+  },
+  {
+    "id": "immigrant_osm_node_3476200717",
+    "name": "Pal International",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.821812,
+    "lon": 4.379647,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3476200717"
+  },
+  {
+    "id": "immigrant_osm_node_9678381305",
+    "name": "Petit Bazar Belge",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Alveringem",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.petitbazarbelge.be",
+    "lat": 50.9248781,
+    "lon": 2.6002429,
+    "address": "Casselstraat 6, 8691, Alveringem",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9678381305"
+  },
+  {
+    "id": "immigrant_osm_node_10312654470",
+    "name": "Podlasiak",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8288728,
+    "lon": 4.3928733,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10312654470"
+  },
+  {
+    "id": "immigrant_osm_node_12878819501",
+    "name": "Podlasiak",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8631943,
+    "lon": 4.3290796,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12878819501"
+  },
+  {
+    "id": "immigrant_osm_node_12889803887",
+    "name": "Podlasiak",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8691231,
+    "lon": 4.336208,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12889803887"
+  },
+  {
+    "id": "immigrant_osm_node_13622726761",
+    "name": "Polski Baltic Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2495992,
+    "lon": 5.5439561,
+    "address": "Groenstraat 5",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13622726761"
+  },
+  {
+    "id": "immigrant_osm_node_7305869397",
+    "name": "Polski Sidep u Witka",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2189992,
+    "lon": 4.4179544,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7305869397"
+  },
+  {
+    "id": "immigrant_osm_node_5188667612",
+    "name": "Polski Tani Sklep",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2048544,
+    "lon": 4.3953778,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5188667612"
+  },
+  {
+    "id": "immigrant_osm_node_8356852811",
+    "name": "Polskie Delikatesy U Witka",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.2108141,
+    "lon": 4.4240295,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8356852811"
+  },
+  {
+    "id": "immigrant_osm_node_6440698166",
+    "name": "RaanAsia",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Sint-Pieters",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.raanasia.be",
+    "lat": 51.2248203,
+    "lon": 3.1964027,
+    "address": "Oostendse Steenweg 135, 8000, Sint-Pieters",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6440698166"
+  },
+  {
+    "id": "immigrant_osm_node_6845435152",
+    "name": "Rio international",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.221393,
+    "lon": 4.4217125,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6845435152"
+  },
+  {
+    "id": "immigrant_osm_node_11469088989",
+    "name": "Saveurs internationales",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.7169779,
+    "lon": 5.6129207,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11469088989"
+  },
+  {
+    "id": "immigrant_osm_node_4434127375",
+    "name": "Suji Asian Market",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.1986365,
+    "lon": 4.4275871,
+    "address": "Statiestraat 105",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4434127375"
+  },
+  {
+    "id": "immigrant_osm_node_5112275028",
+    "name": "Supermarché asiatique Mandarin",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.7136114,
+    "lon": 4.609688,
+    "address": "Quai des Tanneries 12, 1300",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5112275028"
+  },
+  {
+    "id": "immigrant_osm_node_2464293102",
+    "name": "Supra Bazar",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Harelbeke",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.suprabazar.be/over-supra-bazar/onze-winkels/harelbeke",
+    "lat": 50.8569579,
+    "lon": 3.33052,
+    "address": "Deerlijksesteenweg 139, 8530, Harelbeke",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2464293102"
+  },
+  {
+    "id": "immigrant_osm_node_3117933768",
+    "name": "Top African Food",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.450018,
+    "lon": 3.9493471,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3117933768"
+  },
+  {
+    "id": "immigrant_osm_node_3219455674",
+    "name": "Zaytouna Market Halal",
+    "country": "Belgia",
+    "countryCode": "BE",
+    "region": null,
+    "municipality": "Leuven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8831451,
+    "lon": 4.7064564,
+    "address": "Jan-Pieter Minckelersstraat 84, 3000, Leuven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3219455674"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "immigrant_osm_way_631407490",
+    "name": "Afroditi Vegyesbolt",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4928484,
+    "lon": 19.0729745,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/631407490"
+  },
+  {
+    "id": "immigrant_osm_node_13076213718",
+    "name": "Asia Express",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5127889,
+    "lon": 19.0498214,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13076213718"
+  },
+  {
+    "id": "immigrant_osm_node_11309088700",
+    "name": "Asia Market",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5083228,
+    "lon": 19.0553508,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11309088700"
+  },
+  {
+    "id": "immigrant_osm_node_2317051150",
+    "name": "Asian Food",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4994865,
+    "lon": 19.059151,
+    "address": "Király utca 17, 1075, Budapest",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2317051150"
+  },
+  {
+    "id": "immigrant_osm_node_2508882211",
+    "name": "Asian Home",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4875223,
+    "lon": 19.0586941,
+    "address": "Vámház körút 5, 1093, Budapest",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2508882211"
+  },
+  {
+    "id": "immigrant_osm_node_13136784259",
+    "name": "BanglaBazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5012514,
+    "lon": 19.0655165,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13136784259"
+  },
+  {
+    "id": "immigrant_osm_node_12237413217",
+    "name": "Bazaar Budapest",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.497934,
+    "lon": 19.0606479,
+    "address": "Bazaar Budapest, 18, Dob utca, Erzsébetváros, VII. kerület, Budapest, Közép-Magyarország, 1072, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12237413217"
+  },
+  {
+    "id": "immigrant_osm_node_13343004346",
+    "name": "Bazaar klub",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": "Tolna vármegye",
+    "municipality": "Szekszárd",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3509915,
+    "lon": 18.7014435,
+    "address": "Bazaar klub, Széchenyi utca, Bottyánhegy, Szekszárd, Szekszárdi járás, Tolna vármegye, Dél-Dunántúl, Dunántúl, 7100, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13343004346"
+  },
+  {
+    "id": "immigrant_osm_node_4424583792",
+    "name": "Bazaar Laundry",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4956774,
+    "lon": 19.0630113,
+    "address": "Bazaar Laundry, 22-24, Dohány utca, Erzsébetváros, VII. kerület, Budapest, Közép-Magyarország, 1074, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4424583792"
+  },
+  {
+    "id": "immigrant_osm_node_10081814545",
+    "name": "CULT Hair & Bazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5015111,
+    "lon": 19.0602224,
+    "address": "CULT Hair & Bazaar, Vasvári Pál utca, Terézváros, VI. kerület, Budapest, Közép-Magyarország, 1061, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10081814545"
+  },
+  {
+    "id": "immigrant_osm_node_10695139502",
+    "name": "Garaboly",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5055834,
+    "lon": 20.5407616,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10695139502"
+  },
+  {
+    "id": "immigrant_osm_node_7156019071",
+    "name": "Garabolyos",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Szeged",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.garabolyos.hu/",
+    "lat": 46.2510866,
+    "lon": 20.1406051,
+    "address": "Jósika utca 34/A, 6722, Szeged",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7156019071"
+  },
+  {
+    "id": "immigrant_osm_node_11101924705",
+    "name": "Indus Bazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4866646,
+    "lon": 19.0705086,
+    "address": "József körút 80, 1085, Budapest",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11101924705"
+  },
+  {
+    "id": "immigrant_osm_way_1178148339",
+    "name": "Jó Asia Supermarket",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Debrecen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5350314,
+    "lon": 21.622189,
+    "address": "Hunyadi János utca 2-4, 4026, Debrecen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1178148339"
+  },
+  {
+    "id": "immigrant_osm_node_13361631843",
+    "name": "KKJ Asian",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.549308,
+    "lon": 19.1488372,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13361631843"
+  },
+  {
+    "id": "immigrant_osm_node_7130316228",
+    "name": "KKJ Super Asia",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5501812,
+    "lon": 19.0728988,
+    "address": "Váci út 178, 1138, Budapest",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7130316228"
+  },
+  {
+    "id": "immigrant_osm_node_10065528504",
+    "name": "Oriental Diszkont",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4937674,
+    "lon": 19.0573097,
+    "address": "Kossuth Lajos utca 8, 1053, Budapest",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10065528504"
+  },
+  {
+    "id": "immigrant_osm_node_9828378389",
+    "name": "Oriental Market",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4860201,
+    "lon": 19.075755,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9828378389"
+  },
+  {
+    "id": "immigrant_osm_node_13126755466",
+    "name": "Thai Asia Shop",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.511605,
+    "lon": 19.0553451,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13126755466"
+  },
+  {
+    "id": "immigrant_osm_node_3824430704",
+    "name": "Vivien's Bazaar",
+    "country": "Ungarn",
+    "countryCode": "HU",
+    "region": null,
+    "municipality": "Budapest",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4908443,
+    "lon": 19.0525848,
+    "address": "Vivien's Bazaar, 1, Irányi utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1056, Magyarország",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3824430704"
+  }
+]

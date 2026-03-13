@@ -1,0 +1,157 @@
+{
+  "generatedAt": "2026-03-07T08:55:31.301482+00:00",
+  "countries": {
+    "SE": {
+      "count": 55,
+      "status": "ok"
+    },
+    "DK": {
+      "count": 108,
+      "status": "ok"
+    },
+    "FI": {
+      "count": 48,
+      "status": "ok"
+    },
+    "DE": {
+      "count": 1011,
+      "status": "ok"
+    },
+    "NL": {
+      "count": 130,
+      "status": "ok"
+    },
+    "BE": {
+      "count": 77,
+      "status": "ok"
+    },
+    "FR": {
+      "count": 326,
+      "status": "ok"
+    },
+    "IT": {
+      "count": 185,
+      "status": "ok"
+    },
+    "PT": {
+      "count": 43,
+      "status": "ok"
+    },
+    "ES": {
+      "count": 436,
+      "status": "ok"
+    },
+    "GB": {
+      "count": 887,
+      "status": "ok"
+    },
+    "IE": {
+      "count": 90,
+      "status": "ok"
+    },
+    "AT": {
+      "count": 91,
+      "status": "ok"
+    },
+    "CH": {
+      "count": 77,
+      "status": "ok"
+    },
+    "LI": {
+      "count": 0,
+      "status": "ok"
+    },
+    "LU": {
+      "count": 5,
+      "status": "ok"
+    },
+    "PL": {
+      "count": 203,
+      "status": "ok"
+    },
+    "CZ": {
+      "count": 29,
+      "status": "ok"
+    },
+    "SK": {
+      "count": 11,
+      "status": "ok"
+    },
+    "HU": {
+      "count": 20,
+      "status": "ok"
+    },
+    "RO": {
+      "count": 35,
+      "status": "ok"
+    },
+    "BG": {
+      "count": 1,
+      "status": "ok"
+    },
+    "GR": {
+      "count": 124,
+      "status": "ok"
+    },
+    "HR": {
+      "count": 5,
+      "status": "ok"
+    },
+    "SI": {
+      "count": 4,
+      "status": "ok"
+    },
+    "EE": {
+      "count": 3,
+      "status": "ok"
+    },
+    "LV": {
+      "count": 5,
+      "status": "ok"
+    },
+    "LT": {
+      "count": 3,
+      "status": "ok"
+    },
+    "IS": {
+      "count": 3,
+      "status": "ok"
+    },
+    "MT": {
+      "count": 22,
+      "status": "ok"
+    },
+    "CY": {
+      "count": 20,
+      "status": "ok"
+    },
+    "AL": {
+      "count": 3,
+      "status": "ok"
+    },
+    "BA": {
+      "count": 4,
+      "status": "ok"
+    },
+    "ME": {
+      "count": 1,
+      "status": "ok"
+    },
+    "MK": {
+      "count": 2,
+      "status": "ok"
+    },
+    "RS": {
+      "count": 3,
+      "status": "ok"
+    },
+    "MD": {
+      "count": 16,
+      "status": "ok"
+    },
+    "UA": {
+      "count": 13,
+      "status": "ok"
+    }
+  }
+}

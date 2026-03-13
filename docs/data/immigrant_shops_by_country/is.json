@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_5472681441",
+    "name": "Asian Supermarket",
+    "country": "Island",
+    "countryCode": "IS",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 64.1286583,
+    "lon": -21.8649883,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5472681441"
+  },
+  {
+    "id": "immigrant_osm_node_12956058942",
+    "name": "Bombay Bazaar",
+    "country": "Island",
+    "countryCode": "IS",
+    "region": null,
+    "municipality": "Reykjavíkurborg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 64.138238,
+    "lon": -21.8844132,
+    "address": "Bombay Bazaar, 10, Ármúli, Háaleiti, Háaleiti og Bústaðir, Reykjavíkurborg, Höfuðborgarsvæðið, 108, Ísland",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12956058942"
+  },
+  {
+    "id": "immigrant_osm_node_1492802548",
+    "name": "Tyrkneskur Bazar",
+    "country": "Island",
+    "countryCode": "IS",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 64.1348664,
+    "lon": -21.8781024,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1492802548"
+  }
+]

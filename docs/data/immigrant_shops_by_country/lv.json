@@ -1,0 +1,92 @@
+[
+  {
+    "id": "immigrant_osm_node_11160750106",
+    "name": "Asian alley",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": null,
+    "municipality": "Rīga",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.9592801,
+    "lon": 24.1377303,
+    "address": "Krišjāņa Barona iela 96/98, LV-1001, Rīga",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11160750106"
+  },
+  {
+    "id": "immigrant_osm_node_12973960046",
+    "name": "Asian alley",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": null,
+    "municipality": "Rīga",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.947449,
+    "lon": 24.114386,
+    "address": "Aspazijas bulvāris 32, LV-1050, Rīga",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12973960046"
+  },
+  {
+    "id": "immigrant_osm_way_88325402",
+    "name": "Bazaar",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": null,
+    "municipality": "Rīga",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.962345,
+    "lon": 24.1062748,
+    "address": "Bazaar, 22, Pulkveža Brieža iela, Centra rajons, Centrs, Centra apkaime, Rīga, LV-1045, Latvija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/88325402"
+  },
+  {
+    "id": "immigrant_osm_node_11730943352",
+    "name": "Bazaar",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": null,
+    "municipality": "Rīga",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.9572905,
+    "lon": 24.1325111,
+    "address": "Bazaar, 63, Krišjāņa Barona iela, Centrs, Centra apkaime, Rīga, LV-1001, Latvija",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11730943352"
+  },
+  {
+    "id": "immigrant_osm_node_13201944806",
+    "name": "Oishii asian mart",
+    "country": "Latvia",
+    "countryCode": "LV",
+    "region": null,
+    "municipality": "Rīga",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 56.9511271,
+    "lon": 24.1263584,
+    "address": "Marijas iela 25, LV-1011, Rīga",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13201944806"
+  }
+]

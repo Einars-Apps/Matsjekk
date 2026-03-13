@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "immigrant_osm_node_9060627206",
+    "name": "Afroshop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.4526725,
+    "lon": 6.857079,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9060627206"
+  },
+  {
+    "id": "immigrant_osm_node_12822577830",
+    "name": "Alex Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5274797,
+    "lon": 6.6060643,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12822577830"
+  },
+  {
+    "id": "immigrant_osm_node_11197756237",
+    "name": "Amena Afro-Asian Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5239283,
+    "lon": 6.6235238,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11197756237"
+  },
+  {
+    "id": "immigrant_osm_node_13124531864",
+    "name": "Amma Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2289198,
+    "lon": 7.3587238,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13124531864"
+  },
+  {
+    "id": "immigrant_osm_node_12956265832",
+    "name": "Asia",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0085293,
+    "lon": 8.9402326,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12956265832"
+  },
+  {
+    "id": "immigrant_osm_node_8241604651",
+    "name": "Asia Kim Dung",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiakimdung.ch/",
+    "lat": 46.5227596,
+    "lon": 6.6309069,
+    "address": "Rue Chaucrau 6",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8241604651"
+  },
+  {
+    "id": "immigrant_osm_node_8777446097",
+    "name": "Asia Lebensmittel Shop & Kiosk",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1665571,
+    "lon": 9.4666476,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8777446097"
+  },
+  {
+    "id": "immigrant_osm_node_4736100821",
+    "name": "Asia Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3817645,
+    "lon": 6.2418643,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4736100821"
+  },
+  {
+    "id": "immigrant_osm_node_7518467185",
+    "name": "Asia Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0130271,
+    "lon": 8.9548525,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7518467185"
+  },
+  {
+    "id": "immigrant_osm_node_7588072292",
+    "name": "Asia Markt",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3364478,
+    "lon": 7.8531632,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7588072292"
+  },
+  {
+    "id": "immigrant_osm_node_10298565181",
+    "name": "Asia Markt",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4158265,
+    "lon": 9.2674489,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10298565181"
+  },
+  {
+    "id": "immigrant_osm_node_731833444",
+    "name": "Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Winterthur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.sala-thai.ch/",
+    "lat": 47.4980007,
+    "lon": 8.7269332,
+    "address": "Technikumstrasse 72, 8400, Winterthur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/731833444"
+  },
+  {
+    "id": "immigrant_osm_node_4109460421",
+    "name": "Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Winterthur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5010099,
+    "lon": 8.7220782,
+    "address": "Wartstrasse 14, 8400, Winterthur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4109460421"
+  },
+  {
+    "id": "immigrant_osm_node_12166443961",
+    "name": "Asia Shoppy",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiashoppy.ch/",
+    "lat": 46.9449505,
+    "lon": 7.3740195,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12166443961"
+  },
+  {
+    "id": "immigrant_osm_node_2418112703",
+    "name": "Asia Store",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asia-store.ch/",
+    "lat": 47.4051337,
+    "lon": 8.4006486,
+    "address": "Zentralstrasse 2, 8953",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2418112703"
+  },
+  {
+    "id": "immigrant_osm_node_2587402665",
+    "name": "Asia Store",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2097495,
+    "lon": 6.1442278,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2587402665"
+  },
+  {
+    "id": "immigrant_osm_node_3805543774",
+    "name": "Asia Store",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Gretzenbach",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asia-store.ch/",
+    "lat": 47.3584692,
+    "lon": 7.9901535,
+    "address": "Im Grund 11, 5014, Gretzenbach",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3805543774"
+  },
+  {
+    "id": "immigrant_osm_node_3905442541",
+    "name": "Asia Store",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Baden",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4760982,
+    "lon": 8.3065662,
+    "address": "Langhaus 2, 5400, Baden",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3905442541"
+  },
+  {
+    "id": "immigrant_osm_node_4496730805",
+    "name": "Asia Store",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Zürich",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asia-store.ch/",
+    "lat": 47.3797004,
+    "lon": 8.5369736,
+    "address": "Konradstrasse 1, 8005, Zürich",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4496730805"
+  },
+  {
+    "id": "immigrant_osm_node_4334010355",
+    "name": "Asia-Lädeli",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4890349,
+    "lon": 8.9022915,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4334010355"
+  },
+  {
+    "id": "immigrant_osm_node_5675934767",
+    "name": "AsiaFoodWay",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Altstätten SG",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3785783,
+    "lon": 9.5400384,
+    "address": "Trogenerstrasse 9, 9450, Altstätten SG",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5675934767"
+  },
+  {
+    "id": "immigrant_osm_node_5771206896",
+    "name": "Asian food market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.9435837,
+    "lon": 7.4060837,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5771206896"
+  },
+  {
+    "id": "immigrant_osm_node_4523790882",
+    "name": "Asian Grocery",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2886665,
+    "lon": 7.9446244,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4523790882"
+  },
+  {
+    "id": "immigrant_osm_node_13289122128",
+    "name": "Asian Lebensmittel",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0402648,
+    "lon": 9.0704004,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13289122128"
+  },
+  {
+    "id": "immigrant_osm_node_4511043985",
+    "name": "Asian Markt",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asianmarkt.ch/",
+    "lat": 47.6988757,
+    "lon": 8.6358208,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4511043985"
+  },
+  {
+    "id": "immigrant_osm_node_1124830057",
+    "name": "Asian shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5209381,
+    "lon": 6.6127922,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1124830057"
+  },
+  {
+    "id": "immigrant_osm_node_13316068206",
+    "name": "Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5240922,
+    "lon": 6.6244706,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13316068206"
+  },
+  {
+    "id": "immigrant_osm_node_11346102259",
+    "name": "Asian Smile",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4855909,
+    "lon": 8.2069269,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11346102259"
+  },
+  {
+    "id": "immigrant_osm_node_4222276765",
+    "name": "Asian Spices",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.21097,
+    "lon": 6.1350953,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4222276765"
+  },
+  {
+    "id": "immigrant_osm_node_4377208521",
+    "name": "Asian Supermarket and lunch take away",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Basel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5613158,
+    "lon": 7.5743456,
+    "address": "Spalenring 1, 4055, Basel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4377208521"
+  },
+  {
+    "id": "immigrant_osm_node_12184692924",
+    "name": "Asian Tindahan",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2297774,
+    "lon": 8.6679671,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12184692924"
+  },
+  {
+    "id": "immigrant_osm_node_13158297586",
+    "name": "Asianladen Kamala",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3785043,
+    "lon": 9.539996,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13158297586"
+  },
+  {
+    "id": "immigrant_osm_node_5730455521",
+    "name": "asiaway",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0471896,
+    "lon": 8.3064593,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5730455521"
+  },
+  {
+    "id": "immigrant_osm_node_10959306916",
+    "name": "Asiaway",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiaway.ch/",
+    "lat": 47.4347413,
+    "lon": 9.3848099,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10959306916"
+  },
+  {
+    "id": "immigrant_osm_node_2987466862",
+    "name": "Balkan Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Basel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5692055,
+    "lon": 7.5901977,
+    "address": "Klybeckstrasse 101, 4057, Basel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2987466862"
+  },
+  {
+    "id": "immigrant_osm_node_12911239201",
+    "name": "Bangla Bazar Exotic Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5230115,
+    "lon": 6.6263835,
+    "address": "Place Chauderon, 1003",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12911239201"
+  },
+  {
+    "id": "immigrant_osm_node_2138716288",
+    "name": "Bazar",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.92805,
+    "lon": 7.5770982,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2138716288"
+  },
+  {
+    "id": "immigrant_osm_node_286904927",
+    "name": "Bazar des Alpes",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.348836,
+    "lon": 7.1585829,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/286904927"
+  },
+  {
+    "id": "immigrant_osm_node_679787304",
+    "name": "Bo Asia",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.9430611,
+    "lon": 7.4264327,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/679787304"
+  },
+  {
+    "id": "immigrant_osm_node_704348071",
+    "name": "Boutique Africaine Le Baron",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.9441177,
+    "lon": 7.4209791,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/704348071"
+  },
+  {
+    "id": "immigrant_osm_node_8446230199",
+    "name": "Boutique Luzemo African Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Lausanne",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5247781,
+    "lon": 6.6138844,
+    "address": "Rue de Genève 79, 1004, Lausanne",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8446230199"
+  },
+  {
+    "id": "immigrant_osm_node_10313724010",
+    "name": "CasAfrica",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1536737,
+    "lon": 7.0016773,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10313724010"
+  },
+  {
+    "id": "immigrant_osm_node_4841540896",
+    "name": "Chez My Marché Asiatique",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.7777191,
+    "lon": 6.6432758,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4841540896"
+  },
+  {
+    "id": "immigrant_osm_node_4187783189",
+    "name": "Dila Asian Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Aarau Rohr",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4018157,
+    "lon": 8.0801962,
+    "address": "Hauptstrasse 46, 5032, Aarau Rohr",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4187783189"
+  },
+  {
+    "id": "immigrant_osm_node_8777438562",
+    "name": "Dilaxana Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1657766,
+    "lon": 9.4673117,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8777438562"
+  },
+  {
+    "id": "immigrant_osm_node_113996418",
+    "name": "Global Food",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3830778,
+    "lon": 8.5002399,
+    "address": "Badenerstrasse 530",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/113996418"
+  },
+  {
+    "id": "immigrant_osm_node_2088837354",
+    "name": "Ha Asian Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Reinach BL",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4922128,
+    "lon": 7.5890321,
+    "address": "Hauptstrasse 44, 4153, Reinach BL",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2088837354"
+  },
+  {
+    "id": "immigrant_osm_node_617307395",
+    "name": "Importas Asian C&C",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Zürich",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://importas.ch",
+    "lat": 47.3875196,
+    "lon": 8.493399,
+    "address": "Baslerstrasse 102, 8048, Zürich",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/617307395"
+  },
+  {
+    "id": "immigrant_osm_node_10608484854",
+    "name": "Indian Bazaar",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1004128,
+    "lon": 6.828182,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10608484854"
+  },
+  {
+    "id": "immigrant_osm_node_4193564023",
+    "name": "Inside Africa",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.insideafrica.ch",
+    "lat": 46.2093659,
+    "lon": 6.140598,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4193564023"
+  },
+  {
+    "id": "immigrant_osm_node_7618041843",
+    "name": "Inside Africa",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.insideafrica.ch/en",
+    "lat": 46.5171208,
+    "lon": 6.6292514,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7618041843"
+  },
+  {
+    "id": "immigrant_osm_node_11934814272",
+    "name": "Inside Africa",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.8011303,
+    "lon": 7.1521589,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11934814272"
+  },
+  {
+    "id": "immigrant_osm_node_2295987409",
+    "name": "Jeya's Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5363181,
+    "lon": 6.6113097,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2295987409"
+  },
+  {
+    "id": "immigrant_osm_node_13316058684",
+    "name": "K&A Asiatique Tous",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5239738,
+    "lon": 6.6246532,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13316058684"
+  },
+  {
+    "id": "immigrant_osm_node_3973979287",
+    "name": "Kardelen Bazar",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Rorschach",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4780855,
+    "lon": 9.4947213,
+    "address": "Hauptstrasse 34, 9400, Rorschach",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3973979287"
+  },
+  {
+    "id": "immigrant_osm_node_11128294705",
+    "name": "Kim Hoa alimentation asiatique",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://kim-hoa-produce-market.business.site/",
+    "lat": 46.5094154,
+    "lon": 6.6267061,
+    "address": "1006",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11128294705"
+  },
+  {
+    "id": "immigrant_osm_node_10959306917",
+    "name": "Luzia Asian Multi Kiosk",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4212306,
+    "lon": 9.3709477,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10959306917"
+  },
+  {
+    "id": "immigrant_osm_node_9968095252",
+    "name": "Magasin Africain Exotique",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3981655,
+    "lon": 6.9266047,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9968095252"
+  },
+  {
+    "id": "immigrant_osm_node_7069256894",
+    "name": "Negro Import AG",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4197448,
+    "lon": 8.3943972,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7069256894"
+  },
+  {
+    "id": "immigrant_osm_node_4877177531",
+    "name": "New Asia Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.newasiamarket.ch/NewAsiaMarket/faces/pages/base/views/homeView.xhtml",
+    "lat": 47.5608551,
+    "lon": 7.5986978,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4877177531"
+  },
+  {
+    "id": "immigrant_osm_node_13190811964",
+    "name": "Nihao Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4105815,
+    "lon": 8.5430948,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13190811964"
+  },
+  {
+    "id": "immigrant_osm_node_6592747148",
+    "name": "Osina Afro Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Winterthur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://osina.ch/",
+    "lat": 47.4946024,
+    "lon": 8.7112845,
+    "address": "Zürcherstrasse 60, 8406, Winterthur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6592747148"
+  },
+  {
+    "id": "immigrant_osm_node_12288331852",
+    "name": "Paquis Bazar",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2114189,
+    "lon": 6.1460146,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12288331852"
+  },
+  {
+    "id": "immigrant_osm_node_4358768890",
+    "name": "Phène Importation SA",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://phene.ch/",
+    "lat": 46.1684961,
+    "lon": 6.1073546,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4358768890"
+  },
+  {
+    "id": "immigrant_osm_node_2941613606",
+    "name": "S. M. T. New Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.515799,
+    "lon": 6.631004,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2941613606"
+  },
+  {
+    "id": "immigrant_osm_node_6738528881",
+    "name": "Shan Global Food Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.3830657,
+    "lon": 6.2380732,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6738528881"
+  },
+  {
+    "id": "immigrant_osm_node_3489494609",
+    "name": "STN Asian Market",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2031535,
+    "lon": 7.5439436,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3489494609"
+  },
+  {
+    "id": "immigrant_osm_node_12543063806",
+    "name": "Tang Asian Supermarket",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1405134,
+    "lon": 7.249399,
+    "address": "2502",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12543063806"
+  },
+  {
+    "id": "immigrant_osm_node_3547489690",
+    "name": "Tham's Snack & Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5609249,
+    "lon": 7.8963513,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3547489690"
+  },
+  {
+    "id": "immigrant_osm_node_4565189637",
+    "name": "Thongschai Asia Food",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3873678,
+    "lon": 8.1799717,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4565189637"
+  },
+  {
+    "id": "immigrant_osm_node_12032716981",
+    "name": "TMT Asianfood GmbH",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3500327,
+    "lon": 8.277394,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12032716981"
+  },
+  {
+    "id": "immigrant_osm_node_5535516460",
+    "name": "Vilaysane Asia Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Kloten",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4498203,
+    "lon": 8.5838318,
+    "address": "Marktgasse 16, 8302, Kloten",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5535516460"
+  },
+  {
+    "id": "immigrant_osm_node_13176982800",
+    "name": "Viva Balkans",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2031143,
+    "lon": 6.0960013,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13176982800"
+  },
+  {
+    "id": "immigrant_osm_node_677194765",
+    "name": "Volks Bazar",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Winterthur",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5032081,
+    "lon": 8.7521312,
+    "address": "Frauenfelderstrasse 69, 8404, Winterthur",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/677194765"
+  },
+  {
+    "id": "immigrant_osm_way_308745361",
+    "name": "World Food Mix",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": "Romanshorn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5681983,
+    "lon": 9.3667265,
+    "address": "Kreuzlingerstrasse 22, 8590, Romanshorn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/308745361"
+  },
+  {
+    "id": "immigrant_osm_node_10313087729",
+    "name": "Zuger Asian Shop",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.1821457,
+    "lon": 8.4620397,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10313087729"
+  },
+  {
+    "id": "immigrant_osm_node_9173868317",
+    "name": "Épicerie-Bazar du Rond Point",
+    "country": "Sveits",
+    "countryCode": "CH",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.025617,
+    "lon": 7.4809902,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9173868317"
+  }
+]

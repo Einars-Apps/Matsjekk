@@ -1,0 +1,56 @@
+[
+  {
+    "id": "immigrant_osm_node_10650052664",
+    "name": "A&A Asian Food Store",
+    "country": "Estland",
+    "countryCode": "EE",
+    "region": null,
+    "municipality": "Tallinn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://aashop.ee",
+    "lat": 59.4251271,
+    "lon": 24.7291372,
+    "address": "Väike-Ameerika 30, 10129, Tallinn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10650052664"
+  },
+  {
+    "id": "immigrant_osm_node_12736926356",
+    "name": "Debol's Aafrika Ja Aasia toidupood",
+    "country": "Estland",
+    "countryCode": "EE",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4254487,
+    "lon": 24.7004791,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12736926356"
+  },
+  {
+    "id": "immigrant_osm_way_26900157",
+    "name": "Qarabag",
+    "country": "Estland",
+    "countryCode": "EE",
+    "region": null,
+    "municipality": "Maardu",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 59.4886904,
+    "lon": 25.0221756,
+    "address": "Nurga 4a, 74113, Maardu",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/26900157"
+  }
+]

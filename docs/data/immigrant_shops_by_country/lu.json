@@ -1,0 +1,92 @@
+[
+  {
+    "id": "immigrant_osm_node_11733818669",
+    "name": "A-Market Asian Market",
+    "country": "Luxembourg",
+    "countryCode": "LU",
+    "region": null,
+    "municipality": "Belvaux",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://shop.qzdian.com/Amicla/m/index.php",
+    "lat": 49.5019357,
+    "lon": 5.941259,
+    "address": "Avenue du Swing 7, 4367, Belvaux",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11733818669"
+  },
+  {
+    "id": "immigrant_osm_node_8593112478",
+    "name": "Asia Market",
+    "country": "Luxembourg",
+    "countryCode": "LU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://moa.lu",
+    "lat": 49.6046265,
+    "lon": 6.1320227,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8593112478"
+  },
+  {
+    "id": "immigrant_osm_node_8617049613",
+    "name": "Bazaar",
+    "country": "Luxembourg",
+    "countryCode": "LU",
+    "region": "Canton Luxembourg",
+    "municipality": "Luxembourg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6103141,
+    "lon": 6.1318617,
+    "address": "Bazaar, Place Guillaume II, Ville-Haute, Luxembourg, Canton Luxembourg, 1648, Lëtzebuerg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8617049613"
+  },
+  {
+    "id": "immigrant_osm_node_2149813037",
+    "name": "Epicerie Africaine et Créole",
+    "country": "Luxembourg",
+    "countryCode": "LU",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.6026802,
+    "lon": 6.138719,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2149813037"
+  },
+  {
+    "id": "immigrant_osm_node_12265822808",
+    "name": "Nova Asian Market",
+    "country": "Luxembourg",
+    "countryCode": "LU",
+    "region": null,
+    "municipality": "Steinfort",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://novaasianmarket.com",
+    "lat": 49.659928,
+    "lon": 5.9177567,
+    "address": "Rue de Luxembourg 23C, 8440, Steinfort",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12265822808"
+  }
+]

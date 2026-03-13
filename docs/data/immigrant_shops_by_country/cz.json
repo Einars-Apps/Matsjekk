@@ -1,0 +1,524 @@
+[
+  {
+    "id": "immigrant_osm_node_13094682600",
+    "name": "Aida Balkanmarket",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Praha 5",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0723348,
+    "lon": 14.3883468,
+    "address": "Holečkova 1205/93, 15000, Praha 5",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13094682600"
+  },
+  {
+    "id": "immigrant_osm_node_1352289318",
+    "name": "Asia",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.625652,
+    "lon": 15.0841125,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1352289318"
+  },
+  {
+    "id": "immigrant_osm_node_3915540080",
+    "name": "Asia",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.7476875,
+    "lon": 18.6241558,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3915540080"
+  },
+  {
+    "id": "immigrant_osm_node_3915540081",
+    "name": "Asia",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.7479933,
+    "lon": 18.6246026,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3915540081"
+  },
+  {
+    "id": "immigrant_osm_node_5574813714",
+    "name": "Asia",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9809493,
+    "lon": 12.8639689,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5574813714"
+  },
+  {
+    "id": "immigrant_osm_node_12696510309",
+    "name": "Asia Grand",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.191565,
+    "lon": 16.6103684,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12696510309"
+  },
+  {
+    "id": "immigrant_osm_node_4625216791",
+    "name": "Asia market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Doudleby nad Orlicí",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.1059464,
+    "lon": 16.2605699,
+    "address": "Dukelská 69, 51742, Doudleby nad Orlicí",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4625216791"
+  },
+  {
+    "id": "immigrant_osm_node_4955231622",
+    "name": "Asia Market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.9649999,
+    "lon": 12.7011123,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4955231622"
+  },
+  {
+    "id": "immigrant_osm_node_5303178875",
+    "name": "Asia market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3030783,
+    "lon": 12.9421955,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5303178875"
+  },
+  {
+    "id": "immigrant_osm_node_6192256178",
+    "name": "Asia Market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.2159391,
+    "lon": 12.1950938,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6192256178"
+  },
+  {
+    "id": "immigrant_osm_node_12110028001",
+    "name": "Asia market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.084706,
+    "lon": 14.377766,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12110028001"
+  },
+  {
+    "id": "immigrant_osm_node_4567174589",
+    "name": "Asia obchod",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0865609,
+    "lon": 14.4552493,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4567174589"
+  },
+  {
+    "id": "immigrant_osm_node_1545167714",
+    "name": "Asia shop",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.1525656,
+    "lon": 15.131387,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1545167714"
+  },
+  {
+    "id": "immigrant_osm_node_4689636861",
+    "name": "Asia shop",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.1172747,
+    "lon": 16.2911692,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4689636861"
+  },
+  {
+    "id": "immigrant_osm_node_6191848977",
+    "name": "Asia Shop",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.218463,
+    "lon": 12.1942292,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6191848977"
+  },
+  {
+    "id": "immigrant_osm_node_9120104057",
+    "name": "Asia shop",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0778997,
+    "lon": 12.3790361,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9120104057"
+  },
+  {
+    "id": "immigrant_osm_node_2223533486",
+    "name": "Asia večerka",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.7314776,
+    "lon": 13.3937222,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2223533486"
+  },
+  {
+    "id": "immigrant_osm_node_5890498124",
+    "name": "Asian & Intermarket",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Brno",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/AsianIntermarket/",
+    "lat": 49.1921178,
+    "lon": 16.6128988,
+    "address": "Benešova 22, 60200, Brno",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5890498124"
+  },
+  {
+    "id": "immigrant_osm_node_12277588705",
+    "name": "Asian Market 999",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0900848,
+    "lon": 14.3097016,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12277588705"
+  },
+  {
+    "id": "immigrant_osm_node_4742235386",
+    "name": "Asian minimarket",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Brno",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.brnenka.cz/detail-prodejny/793/",
+    "lat": 49.2089188,
+    "lon": 16.6038762,
+    "address": "Štefánikova 14, 60200, Brno",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4742235386"
+  },
+  {
+    "id": "immigrant_osm_node_10731621705",
+    "name": "Balkan Discount Market",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0780979,
+    "lon": 14.4991491,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10731621705"
+  },
+  {
+    "id": "immigrant_osm_node_2421934944",
+    "name": "Bazar",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.1448761,
+    "lon": 15.0071893,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2421934944"
+  },
+  {
+    "id": "immigrant_osm_node_6735520856",
+    "name": "Halal Maso",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://halal-maso.webnode.cz/halal-brno/",
+    "lat": 49.1821899,
+    "lon": 16.5949647,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6735520856"
+  },
+  {
+    "id": "immigrant_osm_node_3797818490",
+    "name": "Halal Meat",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": "Praha",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://halal-meat.cz/",
+    "lat": 50.0833259,
+    "lon": 14.4497748,
+    "address": "Bořivojova 743/76, 13000, Praha",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3797818490"
+  },
+  {
+    "id": "immigrant_osm_node_11053630605",
+    "name": "Market Asian Foods",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0902767,
+    "lon": 14.4321483,
+    "address": "Zlatnická 7",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11053630605"
+  },
+  {
+    "id": "immigrant_osm_node_13473145262",
+    "name": "Potraviny Asian",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.3900629,
+    "lon": 13.471204,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13473145262"
+  },
+  {
+    "id": "immigrant_osm_node_4384097290",
+    "name": "Prodejna Škarabelovi",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0690645,
+    "lon": 16.1102885,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4384097290"
+  },
+  {
+    "id": "immigrant_osm_node_1305960062",
+    "name": "Thai's asian food shop",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0720338,
+    "lon": 14.4450201,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1305960062"
+  },
+  {
+    "id": "immigrant_osm_node_10539244270",
+    "name": "Turkish Supermarket",
+    "country": "Tsjekkia",
+    "countryCode": "CZ",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.1975106,
+    "lon": 16.6183289,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10539244270"
+  }
+]

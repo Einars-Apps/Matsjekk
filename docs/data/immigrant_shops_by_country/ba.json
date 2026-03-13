@@ -1,0 +1,74 @@
+[
+  {
+    "id": "immigrant_osm_node_13086951269",
+    "name": "b Bazar",
+    "country": "Bosnia-Hercegovina",
+    "countryCode": "BA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8505506,
+    "lon": 18.3628222,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13086951269"
+  },
+  {
+    "id": "immigrant_osm_node_6775678526",
+    "name": "Bazar",
+    "country": "Bosnia-Hercegovina",
+    "countryCode": "BA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8666383,
+    "lon": 18.4186166,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6775678526"
+  },
+  {
+    "id": "immigrant_osm_node_7470862499",
+    "name": "Bazar",
+    "country": "Bosnia-Hercegovina",
+    "countryCode": "BA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8622303,
+    "lon": 18.4403186,
+    "address": "Vratnik mejdan 46",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7470862499"
+  },
+  {
+    "id": "immigrant_osm_node_10075023568",
+    "name": "MFM export import",
+    "country": "Bosnia-Hercegovina",
+    "countryCode": "BA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.3429923,
+    "lon": 17.8139991,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10075023568"
+  }
+]

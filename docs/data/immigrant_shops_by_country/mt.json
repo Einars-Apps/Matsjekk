@@ -1,0 +1,398 @@
+[
+  {
+    "id": "immigrant_osm_node_4345628947",
+    "name": "Asia Food Store",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9044829,
+    "lon": 14.4907601,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4345628947"
+  },
+  {
+    "id": "immigrant_osm_node_12513660437",
+    "name": "AsianMartHub",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.0422884,
+    "lon": 14.2442855,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12513660437"
+  },
+  {
+    "id": "immigrant_osm_node_7140784985",
+    "name": "City Bazaar and Stationery",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8982825,
+    "lon": 14.5162506,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7140784985"
+  },
+  {
+    "id": "immigrant_osm_node_12520168725",
+    "name": "DP International Market",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.0394359,
+    "lon": 14.2397391,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12520168725"
+  },
+  {
+    "id": "immigrant_osm_node_11250522829",
+    "name": "Elaine Stationery And Bazaar",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": "Il-Kalkara",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8901356,
+    "lon": 14.5271329,
+    "address": "Elaine Stationery And Bazaar, Triq is-Sienja, Il-Kalkara, Reġjun tal-Port, KKR 1235, Malta",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11250522829"
+  },
+  {
+    "id": "immigrant_osm_node_12512002862",
+    "name": "Halal Food Market",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.0424957,
+    "lon": 14.2442674,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12512002862"
+  },
+  {
+    "id": "immigrant_osm_node_6080336390",
+    "name": "Mom Africa",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8993873,
+    "lon": 14.4895187,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6080336390"
+  },
+  {
+    "id": "immigrant_osm_node_6372867904",
+    "name": "Mother Asia",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.910246,
+    "lon": 14.4976173,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6372867904"
+  },
+  {
+    "id": "immigrant_osm_node_13092787917",
+    "name": "Mulberry Pakistan Mini Market",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9022494,
+    "lon": 14.4942106,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13092787917"
+  },
+  {
+    "id": "immigrant_osm_node_7037935804",
+    "name": "Oz Sofra Balkan & Turkish Foodstore",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": "Il-Korp Tal-Pijunieri",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9509016,
+    "lon": 14.4142147,
+    "address": "Triq il-Korp tal-Pijunieri, Il-Korp Tal-Pijunieri",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7037935804"
+  },
+  {
+    "id": "immigrant_osm_node_12492097374",
+    "name": "Pak Paradise Food Store (Halal)",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 36.0461589,
+    "lon": 14.2450823,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12492097374"
+  },
+  {
+    "id": "immigrant_osm_node_5910424886",
+    "name": "PolMalta Polish Shop Saint Julian’s",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.polmalta.com",
+    "lat": 35.9183071,
+    "lon": 14.4904142,
+    "address": "3A Lapsi Street",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5910424886"
+  },
+  {
+    "id": "immigrant_osm_node_3515190116",
+    "name": "Seasons Stationery - Bazaar",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": "Tas-Sliema",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9132667,
+    "lon": 14.4990675,
+    "address": "Seasons Stationery - Bazaar, Triq Nicolo Isouard, Tas-Sliema, Reġjun tal-Lvant, SLM 2010, Malta",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3515190116"
+  },
+  {
+    "id": "immigrant_osm_node_2796469742",
+    "name": "Steve Stationery and Bazaar",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": "Ħal Balzan",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.898987,
+    "lon": 14.4517124,
+    "address": "Steve Stationery and Bazaar, Triq Dun Spir Sammut, Ħal Balzan, Reġjun tat-Tramuntana, BZN 1080, Malta",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2796469742"
+  },
+  {
+    "id": "immigrant_osm_node_13193588883",
+    "name": "Sylvia Bazaar",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": "Birkirkara",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8988298,
+    "lon": 14.4575643,
+    "address": "Sylvia Bazaar, Triq in-Naxxar, L-Imrieħel, Birkirkara, Reġjun tal-Lvant, BKR 9046, Malta",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13193588883"
+  },
+  {
+    "id": "immigrant_osm_node_12507308779",
+    "name": "The Taste Of Africa",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8947257,
+    "lon": 14.4917036,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12507308779"
+  },
+  {
+    "id": "immigrant_osm_node_12504895138",
+    "name": "Tindahan Asian Food Mart",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8946558,
+    "lon": 14.4913915,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12504895138"
+  },
+  {
+    "id": "immigrant_osm_node_4340340591",
+    "name": "Turkish Mini Market",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.8998031,
+    "lon": 14.485603,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4340340591"
+  },
+  {
+    "id": "immigrant_osm_node_13615589711",
+    "name": "Wenzhou Asian & Latin American",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9109929,
+    "lon": 14.5066845,
+    "address": "56",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13615589711"
+  },
+  {
+    "id": "immigrant_osm_node_5139639726",
+    "name": "Wenzhou Asian Supermarket",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.9160198,
+    "lon": 14.4188687,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5139639726"
+  },
+  {
+    "id": "immigrant_osm_node_7112563843",
+    "name": "Wenzhou Asian Supermarket",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 35.902754,
+    "lon": 14.4945414,
+    "address": "252",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7112563843"
+  },
+  {
+    "id": "immigrant_osm_node_11335379569",
+    "name": "Wenzhou Asian Supermarket",
+    "country": "Malta",
+    "countryCode": "MT",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.wenzhouasianshop.com.mt",
+    "lat": 35.9223976,
+    "lon": 14.4876863,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11335379569"
+  }
+]

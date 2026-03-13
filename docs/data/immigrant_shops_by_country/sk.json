@@ -1,0 +1,200 @@
+[
+  {
+    "id": "immigrant_osm_node_4353699714",
+    "name": "Antik Bazaar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "okres Piešťany",
+    "municipality": "Piešťany",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5908131,
+    "lon": 17.8346704,
+    "address": "Antik Bazaar, 1711/2, Kukučínova, Staré Piešťany, Piešťany, okres Piešťany, Trnavský kraj, Západné Slovensko, 921 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4353699714"
+  },
+  {
+    "id": "immigrant_osm_node_6365121194",
+    "name": "Asia express",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7784911,
+    "lon": 18.6272873,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6365121194"
+  },
+  {
+    "id": "immigrant_osm_node_11298619904",
+    "name": "Asian Shop",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.avion.sk/sk/obchody-a-sluzby/asian-shop",
+    "lat": 48.165182,
+    "lon": 17.1811366,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11298619904"
+  },
+  {
+    "id": "immigrant_osm_node_12228184725",
+    "name": "Balkan Market",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1112671,
+    "lon": 17.0994772,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12228184725"
+  },
+  {
+    "id": "immigrant_osm_node_7903716193",
+    "name": "Bazaar Bar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "okres Prešov",
+    "municipality": "Prešov",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9981735,
+    "lon": 21.2376992,
+    "address": "Bazaar Bar, 3112/81, Jarková, Sídlisko Duklianskych hrdinov, Staré Mesto, Prešov, okres Prešov, Prešovský kraj, 080 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7903716193"
+  },
+  {
+    "id": "immigrant_osm_node_4856551363",
+    "name": "Cafe Bazaar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "Bratislavský kraj",
+    "municipality": "Bratislava",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1437946,
+    "lon": 17.1036241,
+    "address": "Cafe Bazaar, Mikulášska, Vydrica, Historické jadro, Bratislava, okres Bratislava I, Bratislava, Bratislavský kraj, 811 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4856551363"
+  },
+  {
+    "id": "immigrant_osm_node_13451030720",
+    "name": "Cafe bazaar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "Bratislavský kraj",
+    "municipality": "Bratislava",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1438159,
+    "lon": 17.1036062,
+    "address": "Cafe bazaar, Mikulášska, Vydrica, Historické jadro, Bratislava, okres Bratislava I, Bratislava, Bratislavský kraj, 811 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13451030720"
+  },
+  {
+    "id": "immigrant_osm_node_10916682136",
+    "name": "Masiaren",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.3797141,
+    "lon": 21.7601737,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10916682136"
+  },
+  {
+    "id": "immigrant_osm_node_12157021987",
+    "name": "Orient Bazaar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "okres Trnava",
+    "municipality": "Trnava",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.3769102,
+    "lon": 17.5876525,
+    "address": "Orient Bazaar, Paulínska, Vodáreň, Trnava, okres Trnava, Trnavský kraj, Západné Slovensko, 917 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12157021987"
+  },
+  {
+    "id": "immigrant_osm_node_289322156",
+    "name": "Pizzeria Bazaar",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": "Košický kraj",
+    "municipality": "Košice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7200012,
+    "lon": 21.2556417,
+    "address": "Pizzeria Bazaar, Alžbetina, Stredné Mesto, Košice - mestská časť Staré Mesto, okres Košice I, Košice, Košický kraj, Východné Slovensko, 040 01, Slovensko",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/289322156"
+  },
+  {
+    "id": "immigrant_osm_way_443388494",
+    "name": "Potraviny Arabela",
+    "country": "Slovakia",
+    "countryCode": "SK",
+    "region": null,
+    "municipality": "Hrabušice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9649271,
+    "lon": 20.3855043,
+    "address": "746, Hrabušice",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/443388494"
+  }
+]

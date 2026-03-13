@@ -1,0 +1,2342 @@
+[
+  {
+    "id": "immigrant_osm_node_2709728695",
+    "name": "4S Asian Foodcenter",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.asianfoodcenter.nl/",
+    "lat": 52.0608688,
+    "lon": 4.326791,
+    "address": "Oudemansstraat 293, 2522SJ, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2709728695"
+  },
+  {
+    "id": "immigrant_osm_node_4920782521",
+    "name": "Abyssinia African grocery",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://abyssiniagrocery.nl",
+    "lat": 52.3606108,
+    "lon": 4.8651738,
+    "address": "Jan Pieter Heijestraat 189, 1054MN, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4920782521"
+  },
+  {
+    "id": "immigrant_osm_node_2752134632",
+    "name": "Africa Rib",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Groningen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 53.2254429,
+    "lon": 6.5618255,
+    "address": "Nieuwe Ebbingestraat 99, 9712NH, Groningen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2752134632"
+  },
+  {
+    "id": "immigrant_osm_node_2790685286",
+    "name": "Africa Shop",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8895347,
+    "lon": 4.5039701,
+    "address": "Strevelsweg 44A-01, 3075AK, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2790685286"
+  },
+  {
+    "id": "immigrant_osm_node_2739111906",
+    "name": "African Shop",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Hertogenbosch",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6919178,
+    "lon": 5.3009505,
+    "address": "Orthenstraat 274, 5211SX, 's-Hertogenbosch",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2739111906"
+  },
+  {
+    "id": "immigrant_osm_node_2499688014",
+    "name": "Afrosha",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Zwolle",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.5157354,
+    "lon": 6.1041261,
+    "address": "Thomas a Kempisstraat 36, 8021BC, Zwolle",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2499688014"
+  },
+  {
+    "id": "immigrant_osm_node_2755776023",
+    "name": "Alanya",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Hertogenbosch",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7118975,
+    "lon": 5.3138529,
+    "address": "Rompertpassage 3, 5233AN, 's-Hertogenbosch",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2755776023"
+  },
+  {
+    "id": "immigrant_osm_node_251168503",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-nieuwmarkt",
+    "lat": 52.3719917,
+    "lon": 4.9001954,
+    "address": "Nieuwmarkt 27, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/251168503"
+  },
+  {
+    "id": "immigrant_osm_node_549115141",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Hertogenbosch",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7012312,
+    "lon": 5.3038525,
+    "address": "Gruttostraat 37, 5212VM, 's-Hertogenbosch",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/549115141"
+  },
+  {
+    "id": "immigrant_osm_node_662512983",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Arnhem",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-arnhem",
+    "lat": 51.9790011,
+    "lon": 5.923797,
+    "address": "Johan de Wittlaan 53, 6828XC, Arnhem",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/662512983"
+  },
+  {
+    "id": "immigrant_osm_node_761300804",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com",
+    "lat": 52.0383249,
+    "lon": 4.3561761,
+    "address": "Laan van Haamstede 36, 2497GE, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/761300804"
+  },
+  {
+    "id": "immigrant_osm_node_1699841367",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Eindhoven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-eindhoven/",
+    "lat": 51.4399331,
+    "lon": 5.4647711,
+    "address": "Langdonkenstraat 7, 5616PN, Eindhoven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1699841367"
+  },
+  {
+    "id": "immigrant_osm_node_2502444196",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-rotterdam-centrum",
+    "lat": 51.9203565,
+    "lon": 4.4696257,
+    "address": "West-Kruiskade 26, 3014AS, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2502444196"
+  },
+  {
+    "id": "immigrant_osm_node_2556935248",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Groningen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-groningen",
+    "lat": 53.2279456,
+    "lon": 6.5649178,
+    "address": "Eyssoniusstraat 32, 9714BS, Groningen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2556935248"
+  },
+  {
+    "id": "immigrant_osm_node_2683434459",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amersfoort",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-amersfoort",
+    "lat": 52.1583951,
+    "lon": 5.3791122,
+    "address": "Groningerstraat 170, 3812EG, Amersfoort",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2683434459"
+  },
+  {
+    "id": "immigrant_osm_node_2719998512",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-den-haag-spuimarkt",
+    "lat": 52.0770678,
+    "lon": 4.3141312,
+    "address": "Grote Marktstraat 113, 2511BJ, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2719998512"
+  },
+  {
+    "id": "immigrant_osm_node_2722497207",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-den-haag-kerkplein",
+    "lat": 52.0777003,
+    "lon": 4.3063724,
+    "address": "Kerkplein 6, 2513AZ, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2722497207"
+  },
+  {
+    "id": "immigrant_osm_node_2729358927",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Breda",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-breda",
+    "lat": 51.5972374,
+    "lon": 4.7708188,
+    "address": "Belcrumweg 34, 4815HB, Breda",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2729358927"
+  },
+  {
+    "id": "immigrant_osm_node_2848301799",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-amsterdam-noord",
+    "lat": 52.3979977,
+    "lon": 4.9383878,
+    "address": "Buikslotermeerplein 228, 1025GB, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2848301799"
+  },
+  {
+    "id": "immigrant_osm_node_2848641382",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Duiven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-duiven",
+    "lat": 51.9630594,
+    "lon": 6.0061357,
+    "address": "Geograaf 13, 6921EW, Duiven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2848641382"
+  },
+  {
+    "id": "immigrant_osm_node_2890186339",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Nijmegen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-nijmegen",
+    "lat": 51.8238518,
+    "lon": 5.7974615,
+    "address": "Zwanenveld 9099, 6538SG, Nijmegen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2890186339"
+  },
+  {
+    "id": "immigrant_osm_node_2907018708",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Beverwijk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-beverwijk",
+    "lat": 52.4777585,
+    "lon": 4.6750134,
+    "address": "Buitenlanden 10, 1948PD, Beverwijk",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2907018708"
+  },
+  {
+    "id": "immigrant_osm_node_4031252068",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Hoofddorp",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/toko-hoofddorp/",
+    "lat": 52.3027503,
+    "lon": 4.6908301,
+    "address": "Burgemeester van Stamplein 48, 2132BH, Hoofddorp",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4031252068"
+  },
+  {
+    "id": "immigrant_osm_node_4614913093",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-utrecht",
+    "lat": 52.1025735,
+    "lon": 5.0970341,
+    "address": "Amsterdamsestraatweg 297, 3551CG, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4614913093"
+  },
+  {
+    "id": "immigrant_osm_node_4980277500",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-rotterdam-alexandrium",
+    "lat": 51.9466687,
+    "lon": 4.555539,
+    "address": "Kreeftstraat 32, 3067JV, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4980277500"
+  },
+  {
+    "id": "immigrant_osm_node_5522820229",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-maastricht",
+    "lat": 50.8521358,
+    "lon": 5.6930793,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5522820229"
+  },
+  {
+    "id": "immigrant_osm_node_5918870886",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Almere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-almere",
+    "lat": 52.374649,
+    "lon": 5.2202079,
+    "address": "Metropolestraat 64, 1315KM, Almere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5918870886"
+  },
+  {
+    "id": "immigrant_osm_node_9041501365",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-utrecht-hoog-catharijne",
+    "lat": 52.0915662,
+    "lon": 5.1108274,
+    "address": "Gildenkwartier 175B, 3511DG, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9041501365"
+  },
+  {
+    "id": "immigrant_osm_node_9161044744",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam-Duivendrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-duivendrecht",
+    "lat": 52.3261055,
+    "lon": 4.926916,
+    "address": "De Flinesstraat 6, 1114AL, Amsterdam-Duivendrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9161044744"
+  },
+  {
+    "id": "immigrant_osm_node_9365009636",
+    "name": "Amazing Oriental",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://amazingoriental.com/Location/winkels-rotterdam-parkhaven",
+    "lat": 51.9038302,
+    "lon": 4.4663426,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9365009636"
+  },
+  {
+    "id": "immigrant_osm_node_9741771815",
+    "name": "An Da Asian foodmarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://an-da.nl/anda/",
+    "lat": 52.097974,
+    "lon": 5.065606,
+    "address": "Brusselplein 83, 3541CH, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9741771815"
+  },
+  {
+    "id": "immigrant_osm_node_3014121152",
+    "name": "Asian Grocery Store",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Wageningen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9787695,
+    "lon": 5.6630654,
+    "address": "Tarthorst 1215, 6708HZ, Wageningen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3014121152"
+  },
+  {
+    "id": "immigrant_osm_node_2905817522",
+    "name": "Asian Supermarket Toko Ta",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Goes",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5036053,
+    "lon": 3.8888503,
+    "address": "Wijngaardstraat 22, 4461DC, Goes",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2905817522"
+  },
+  {
+    "id": "immigrant_osm_node_2764448411",
+    "name": "Asian Toko",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Ede",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0448411,
+    "lon": 5.6677005,
+    "address": "Telefoonweg 66A, 6713AL, Ede",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2764448411"
+  },
+  {
+    "id": "immigrant_osm_node_8724679407",
+    "name": "Asian-caribbean Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3661289,
+    "lon": 4.8672706,
+    "address": "Ten Katestraat 40, 1053CG, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8724679407"
+  },
+  {
+    "id": "immigrant_osm_node_4348835090",
+    "name": "Asiana Superstore",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Tilburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asianasuperstore.nl",
+    "lat": 51.5521285,
+    "lon": 5.0769776,
+    "address": "Korvelseweg 69, 5025JB, Tilburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4348835090"
+  },
+  {
+    "id": "immigrant_osm_node_2796107905",
+    "name": "Asians Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Dordrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://indordrecht.nl/locaties/toko-asians-market/",
+    "lat": 51.8134768,
+    "lon": 4.664257,
+    "address": "Voorstraat 322, 3311CW, Dordrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2796107905"
+  },
+  {
+    "id": "immigrant_osm_node_2807069310",
+    "name": "Babylon Halal Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Bovenkarspel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.691478,
+    "lon": 5.2468975,
+    "address": "Boerhaaveplein 1a, 1611EP, Bovenkarspel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2807069310"
+  },
+  {
+    "id": "immigrant_osm_node_6297692807",
+    "name": "Balkan Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0713792,
+    "lon": 4.283402,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6297692807"
+  },
+  {
+    "id": "immigrant_osm_node_2722833432",
+    "name": "Balkanika shop",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Arnhem",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9801054,
+    "lon": 5.9324031,
+    "address": "Johan de Wittlaan 293, 6828XN, Arnhem",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2722833432"
+  },
+  {
+    "id": "immigrant_osm_way_51117780",
+    "name": "Beach Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6600674,
+    "lon": 4.629691,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/51117780"
+  },
+  {
+    "id": "immigrant_osm_node_2826855628",
+    "name": "C&C Asian Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://ccasianmarket.nl",
+    "lat": 52.3626585,
+    "lon": 4.9282297,
+    "address": "Eerste Van Swindenstraat 78A, 1093GH, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2826855628"
+  },
+  {
+    "id": "immigrant_osm_node_8737015030",
+    "name": "C&C Asian Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://ccasianmarket.nl",
+    "lat": 52.357082,
+    "lon": 4.8988529,
+    "address": "Albert Cuypstraat 267, 1073BH, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8737015030"
+  },
+  {
+    "id": "immigrant_osm_node_2796621804",
+    "name": "Casa Arabica",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Geldermalsen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8828113,
+    "lon": 5.2913439,
+    "address": "Geldersestraat 25, 4191BA, Geldermalsen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2796621804"
+  },
+  {
+    "id": "immigrant_osm_node_8089227346",
+    "name": "Delikatesy Mleczko Polski Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/people/Mleczko-Delikatesy-Enschede/100057365502716/",
+    "lat": 52.2142995,
+    "lon": 6.8601425,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8089227346"
+  },
+  {
+    "id": "immigrant_osm_node_2506049586",
+    "name": "Deshi Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3559447,
+    "lon": 4.8903786,
+    "address": "Ferdinand Bolstraat 46-H, 1072LL, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2506049586"
+  },
+  {
+    "id": "immigrant_osm_node_2730871423",
+    "name": "Dino Market Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Breda",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5892859,
+    "lon": 4.8212389,
+    "address": "Bisschopshoeve 30A, 4817PV, Breda",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2730871423"
+  },
+  {
+    "id": "immigrant_osm_node_2851991400",
+    "name": "Dünya Internationale Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Nijmegen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.dunyainternationale.nl",
+    "lat": 51.8072879,
+    "lon": 5.8237567,
+    "address": "Couwenbergstraat 115, 6535RX, Nijmegen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2851991400"
+  },
+  {
+    "id": "immigrant_osm_node_2911811072",
+    "name": "Elmas Turkish supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Middelburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4894098,
+    "lon": 3.6023957,
+    "address": "Oosterscheldestraat 47, 4335PB, Middelburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2911811072"
+  },
+  {
+    "id": "immigrant_osm_node_4270081288",
+    "name": "Global Food Hub",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amstelveen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://globalfoodhub.com/",
+    "lat": 52.2817678,
+    "lon": 4.8264575,
+    "address": "Westwijkplein 66, 1187LV, Amstelveen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4270081288"
+  },
+  {
+    "id": "immigrant_osm_node_2980925357",
+    "name": "Globe internationale versmarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Wijchen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8071454,
+    "lon": 5.727668,
+    "address": "Europaplein 87, 6602GV, Wijchen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2980925357"
+  },
+  {
+    "id": "immigrant_osm_node_2683934307",
+    "name": "Halal Mini Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amersfoort",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1615916,
+    "lon": 5.3995301,
+    "address": "Neptunusplein 1, 3814BA, Amersfoort",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2683934307"
+  },
+  {
+    "id": "immigrant_osm_node_2871447309",
+    "name": "Halal Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Huizen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.291984,
+    "lon": 5.2539114,
+    "address": "Kostmand 8, 1276CJ, Huizen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2871447309"
+  },
+  {
+    "id": "immigrant_osm_node_3736733159",
+    "name": "Home Asian Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Hoorn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.huesmolen.nl/locatie/home-asian-supermarket/",
+    "lat": 52.6582784,
+    "lon": 5.0548443,
+    "address": "De Huesmolen 72, 1625HZ, Hoorn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3736733159"
+  },
+  {
+    "id": "immigrant_osm_node_4935205521",
+    "name": "India Bazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3564527,
+    "lon": 4.82685,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4935205521"
+  },
+  {
+    "id": "immigrant_osm_node_4891613258",
+    "name": "International Phonestation",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8902996,
+    "lon": 4.4877313,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4891613258"
+  },
+  {
+    "id": "immigrant_osm_node_4701283067",
+    "name": "Izmir Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Tilburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5850913,
+    "lon": 5.0867101,
+    "address": "Beethovenlaan 269, 5011LH, Tilburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4701283067"
+  },
+  {
+    "id": "immigrant_osm_node_11375781024",
+    "name": "Kropka Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0479173,
+    "lon": 4.2776806,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11375781024"
+  },
+  {
+    "id": "immigrant_osm_node_2905816495",
+    "name": "Krówka Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Goes",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5080015,
+    "lon": 3.8896983,
+    "address": "Houttuinen 22, 4461BK, Goes",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2905816495"
+  },
+  {
+    "id": "immigrant_osm_node_2790490811",
+    "name": "LocAsian",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Hengelo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2648777,
+    "lon": 6.7972879,
+    "address": "Drienerstraat 20, 7551HH, Hengelo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2790490811"
+  },
+  {
+    "id": "immigrant_osm_node_2905819406",
+    "name": "Maal Alshaam Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Goes",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5032097,
+    "lon": 3.8887778,
+    "address": "Wijngaardstraat 34, 4461DC, Goes",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2905819406"
+  },
+  {
+    "id": "immigrant_osm_node_2364927920",
+    "name": "Malhi Afro-Tropics",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3631401,
+    "lon": 4.9274816,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2364927920"
+  },
+  {
+    "id": "immigrant_osm_node_3579525476",
+    "name": "Max Polski Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.427201,
+    "lon": 5.4863873,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3579525476"
+  },
+  {
+    "id": "immigrant_osm_node_2741066816",
+    "name": "Mini Bazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3670132,
+    "lon": 4.9023882,
+    "address": "Waterlooplein 317, 1011PG, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2741066816"
+  },
+  {
+    "id": "immigrant_osm_node_2790975241",
+    "name": "Mukto Bazar - Asian and Caribbean Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9011442,
+    "lon": 4.4980659,
+    "address": "Pretorialaan 32B, 3072EN, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2790975241"
+  },
+  {
+    "id": "immigrant_osm_node_2732213104",
+    "name": "Nur Bazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0351819,
+    "lon": 4.2663496,
+    "address": "Ambachtsgaarde 80, 2542EH, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2732213104"
+  },
+  {
+    "id": "immigrant_osm_node_2818015877",
+    "name": "Odra Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Roosendaal",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5347664,
+    "lon": 4.4598095,
+    "address": "Hogestede 4, 4701JD, Roosendaal",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2818015877"
+  },
+  {
+    "id": "immigrant_osm_node_11037091655",
+    "name": "Oriental de Thij",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Oldenzaal",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3145348,
+    "lon": 6.9062092,
+    "address": "Johanna van Burenlaan 190, 7576AW, Oldenzaal",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11037091655"
+  },
+  {
+    "id": "immigrant_osm_node_2687039931",
+    "name": "Oriental Foods",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Apeldoorn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2114793,
+    "lon": 5.965794,
+    "address": "Hoofdstraat 39, 7311JT, Apeldoorn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2687039931"
+  },
+  {
+    "id": "immigrant_osm_node_4277024678",
+    "name": "Oriental Garden",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 12.5286549,
+    "lon": -70.0243087,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4277024678"
+  },
+  {
+    "id": "immigrant_osm_node_5885466896",
+    "name": "Orzetek Polskisklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0223939,
+    "lon": 4.2189455,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5885466896"
+  },
+  {
+    "id": "immigrant_osm_node_2608636460",
+    "name": "Passage to Asia",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0647116,
+    "lon": 4.4015955,
+    "address": "Jaap Hoekdreef 66, 2492JS, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2608636460"
+  },
+  {
+    "id": "immigrant_osm_node_3622342712",
+    "name": "Peace African Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0604633,
+    "lon": 4.3280967,
+    "address": "Lorentzplein 58, 2522EE, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3622342712"
+  },
+  {
+    "id": "immigrant_osm_node_2790538367",
+    "name": "Perzische Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Hengelo",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2565899,
+    "lon": 6.7874719,
+    "address": "Industriestraat 45, 7553CL, Hengelo",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2790538367"
+  },
+  {
+    "id": "immigrant_osm_node_2117878662",
+    "name": "Polat International Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Delft",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9990131,
+    "lon": 4.354204,
+    "address": "Papsouwselaan 450, 2624EP, Delft",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2117878662"
+  },
+  {
+    "id": "immigrant_osm_node_2738689240",
+    "name": "Polish Deli Plus",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Breda",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5803946,
+    "lon": 4.7868981,
+    "address": "Generaal Maczekstraat 29, 4818BT, Breda",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2738689240"
+  },
+  {
+    "id": "immigrant_osm_node_2853702103",
+    "name": "Polski Market",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Oosterhout",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6353563,
+    "lon": 4.868724,
+    "address": "Kastanjelaan 76M, 4902RN, Oosterhout",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2853702103"
+  },
+  {
+    "id": "immigrant_osm_node_3011352641",
+    "name": "Polski Market Uden",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Uden",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6643414,
+    "lon": 5.6102027,
+    "address": "Mgr. Bosstraat 47A, 5401EA, Uden",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3011352641"
+  },
+  {
+    "id": "immigrant_osm_node_2778470118",
+    "name": "Polski Mini Market Lena",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Vlaardingen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.911877,
+    "lon": 4.3335884,
+    "address": "Billitonlaan 34, 3131LK, Vlaardingen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2778470118"
+  },
+  {
+    "id": "immigrant_osm_node_2709938029",
+    "name": "Polski Minimarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0569519,
+    "lon": 4.3150216,
+    "address": "Van Zeggelenlaan 77, 2524AB, 's-Gravenhage",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2709938029"
+  },
+  {
+    "id": "immigrant_osm_node_2680311267",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Deventer",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2601299,
+    "lon": 6.1506024,
+    "address": "Boxbergerweg 90, 7412BG, Deventer",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2680311267"
+  },
+  {
+    "id": "immigrant_osm_node_2788822044",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8745926,
+    "lon": 4.4940463,
+    "address": "Langenhorst 247, 3085HE, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2788822044"
+  },
+  {
+    "id": "immigrant_osm_node_2796694075",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Heijen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6740352,
+    "lon": 5.9780502,
+    "address": "Nieuwwijkstraat 4, 6598AT, Heijen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2796694075"
+  },
+  {
+    "id": "immigrant_osm_node_4758370191",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.062925,
+    "lon": 4.2877839,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4758370191"
+  },
+  {
+    "id": "immigrant_osm_node_5037596189",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5124817,
+    "lon": 5.3965616,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5037596189"
+  },
+  {
+    "id": "immigrant_osm_node_5066878660",
+    "name": "Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Alphen aan den Rijn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1347613,
+    "lon": 4.6552283,
+    "address": "Prinses Irenelaan 78, 2404BJ, Alphen aan den Rijn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5066878660"
+  },
+  {
+    "id": "immigrant_osm_node_8477163820",
+    "name": "Polski sklep \"Słoneczko\"",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5895683,
+    "lon": 4.5250073,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8477163820"
+  },
+  {
+    "id": "immigrant_osm_node_2764447844",
+    "name": "Polski Sklep Ede",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Ede",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0449372,
+    "lon": 5.6676208,
+    "address": "Telefoonweg 64, 6713AL, Ede",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2764447844"
+  },
+  {
+    "id": "immigrant_osm_node_2820784751",
+    "name": "Polski Sklep Kujawianka",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Uithoorn",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.2381349,
+    "lon": 4.8234132,
+    "address": "Prinses Christinalaan 121, 1421BH, Uithoorn",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2820784751"
+  },
+  {
+    "id": "immigrant_osm_node_2770114515",
+    "name": "Polski Sklep Marbona",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Kerkdriel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7738215,
+    "lon": 5.3411128,
+    "address": "Nieuwstraat 7, 5331BA, Kerkdriel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2770114515"
+  },
+  {
+    "id": "immigrant_osm_node_2853480647",
+    "name": "Polski sklep Oosterhout Baltik",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Oosterhout",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6360325,
+    "lon": 4.8615344,
+    "address": "Tempelierstraat 36, 4902XJ, Oosterhout",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2853480647"
+  },
+  {
+    "id": "immigrant_osm_node_2788158012",
+    "name": "Polski Sklep Zeko",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Rotterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8905893,
+    "lon": 4.4874541,
+    "address": "Bonaventurastraat 118C, 3081HJ, Rotterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2788158012"
+  },
+  {
+    "id": "immigrant_osm_node_2851431092",
+    "name": "Polski Sklep Zofia",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Woerden",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0878953,
+    "lon": 4.8844591,
+    "address": "Nieuwstraat 17A, 3441EA, Woerden",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2851431092"
+  },
+  {
+    "id": "immigrant_osm_node_2809853750",
+    "name": "Polski Smaczek",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Maastricht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.8473939,
+    "lon": 5.7020258,
+    "address": "Hoogbrugstraat 2, 6221CR, Maastricht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2809853750"
+  },
+  {
+    "id": "immigrant_osm_node_2752133988",
+    "name": "Polski Smak",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Groningen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.polskismak.nl",
+    "lat": 53.2249289,
+    "lon": 6.5620061,
+    "address": "Nieuwe Ebbingestraat 84, 9712NN, Groningen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2752133988"
+  },
+  {
+    "id": "immigrant_osm_node_2780261420",
+    "name": "Polski Smak",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Hedel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7445798,
+    "lon": 5.261165,
+    "address": "Kasteellaan 21, 5321GL, Hedel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2780261420"
+  },
+  {
+    "id": "immigrant_osm_node_12300265295",
+    "name": "Polski smak",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.3710993,
+    "lon": 6.1712714,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12300265295"
+  },
+  {
+    "id": "immigrant_osm_node_2892151241",
+    "name": "Polski Supermarket",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Waalwijk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6897593,
+    "lon": 5.058581,
+    "address": "Grotestraat 127, 5141JP, Waalwijk",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2892151241"
+  },
+  {
+    "id": "immigrant_osm_node_2931692390",
+    "name": "Polski Supermarket Oss",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Oss",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7697711,
+    "lon": 5.5270258,
+    "address": "Hooghuisstraat 12, 5341CE, Oss",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2931692390"
+  },
+  {
+    "id": "immigrant_osm_node_8419107179",
+    "name": "Polski Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Panningen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.32776,
+    "lon": 5.9800305,
+    "address": "Past. Huijbenplein 15, 5981BH, Panningen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8419107179"
+  },
+  {
+    "id": "immigrant_osm_node_2890089044",
+    "name": "Polski Winkel Oliwia",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Dongen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.6314951,
+    "lon": 4.9248949,
+    "address": "Rembrandtstraat 5, 5102DK, Dongen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2890089044"
+  },
+  {
+    "id": "immigrant_osm_node_2746232152",
+    "name": "Polskie Delikatesy",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Naaldwijk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0048336,
+    "lon": 4.2103432,
+    "address": "Warmoezenierstraat 8, 2671ZP, Naaldwijk",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2746232152"
+  },
+  {
+    "id": "immigrant_osm_node_3793341065",
+    "name": "Polskie Delikatesy & Monopolowy",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0622802,
+    "lon": 4.3014778,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3793341065"
+  },
+  {
+    "id": "immigrant_osm_node_3816436655",
+    "name": "Poolse winkel Polski sklep \"Pan Sliwka\"",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Best",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.4986122,
+    "lon": 5.3949759,
+    "address": "Koningin Julianaweg 31B, 5684VA, Best",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3816436655"
+  },
+  {
+    "id": "immigrant_osm_node_2632859594",
+    "name": "S.One Love Africanshop",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0989299,
+    "lon": 5.1033735,
+    "address": "Amsterdamsestraatweg 179, 3551CA, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2632859594"
+  },
+  {
+    "id": "immigrant_osm_node_2861997894",
+    "name": "Safari African Toko",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Amsterdam",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.3218341,
+    "lon": 4.9426777,
+    "address": "Agatha Christiesingel 22, 1102WK, Amsterdam",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2861997894"
+  },
+  {
+    "id": "immigrant_osm_node_4760893411",
+    "name": "SIDE bazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.063373,
+    "lon": 4.3204482,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4760893411"
+  },
+  {
+    "id": "immigrant_osm_node_2740258097",
+    "name": "Sklep Polski Grosik poolse Specialiteiten",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Honselersdijk",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0087269,
+    "lon": 4.229126,
+    "address": "Dijkstraat 103A, 2675AW, Honselersdijk",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2740258097"
+  },
+  {
+    "id": "immigrant_osm_node_9080336531",
+    "name": "Spicebazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Almere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://spicebazaarshop.nl/",
+    "lat": 52.3703933,
+    "lon": 5.215333,
+    "address": "Bottelaarpassage 59, 1315EP, Almere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9080336531"
+  },
+  {
+    "id": "immigrant_osm_node_4407101061",
+    "name": "Stokrotka Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Kerkdriel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.7728795,
+    "lon": 5.3409382,
+    "address": "Mgr. Zwijsenplein 21, 5331BE, Kerkdriel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4407101061"
+  },
+  {
+    "id": "immigrant_osm_node_2922249464",
+    "name": "Sultan Ahmed",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Leiden",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1760632,
+    "lon": 4.5072424,
+    "address": "Watermolen 6, 2317ST, Leiden",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2922249464"
+  },
+  {
+    "id": "immigrant_osm_node_5494083282",
+    "name": "Sultan Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Breda",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5747348,
+    "lon": 4.7674586,
+    "address": "Langendijk 21, 4819ES, Breda",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5494083282"
+  },
+  {
+    "id": "immigrant_osm_node_2876303027",
+    "name": "Sultan's Markt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Alkmaar",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.6326822,
+    "lon": 4.7492903,
+    "address": "Gedempte Nieuwesloot 12, 1811KT, Alkmaar",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2876303027"
+  },
+  {
+    "id": "immigrant_osm_node_2346039285",
+    "name": "Suribazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0755637,
+    "lon": 4.2796959,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2346039285"
+  },
+  {
+    "id": "immigrant_osm_way_371536056",
+    "name": "Tarabana Food Center",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 12.5208267,
+    "lon": -70.0209881,
+    "address": "Solo 1",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/371536056"
+  },
+  {
+    "id": "immigrant_osm_node_2839715229",
+    "name": "Taste of Asia",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Almere",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.tasteofasiamarket.com/",
+    "lat": 52.3711933,
+    "lon": 5.2186763,
+    "address": "Schutterstraat 46, 1315VJ, Almere",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2839715229"
+  },
+  {
+    "id": "immigrant_osm_node_1404559944",
+    "name": "Tayba Halal Markt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0648066,
+    "lon": 5.1370699,
+    "address": "Hondsrug 34, 3524BP, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1404559944"
+  },
+  {
+    "id": "immigrant_osm_node_2630534964",
+    "name": "Toko Asia",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Utrecht",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.0652879,
+    "lon": 5.1376788,
+    "address": "Zevenwouden 196, 3524CX, Utrecht",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2630534964"
+  },
+  {
+    "id": "immigrant_osm_node_2850712807",
+    "name": "Toko Asia Zhou",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Tilburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.568567,
+    "lon": 5.052314,
+    "address": "Westermarkt 141, 5042SZ, Tilburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2850712807"
+  },
+  {
+    "id": "immigrant_osm_node_2728727206",
+    "name": "Toko Vietnamese Asian Food L.T. Nguyen",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Breda",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.584418,
+    "lon": 4.7600969,
+    "address": "Haagweg 54, 4814GE, Breda",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2728727206"
+  },
+  {
+    "id": "immigrant_osm_node_13540422631",
+    "name": "Top Bazaar Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Tiel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8821446,
+    "lon": 5.4314612,
+    "address": "Graaf Waltgerlaan 15, 4001KE, Tiel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13540422631"
+  },
+  {
+    "id": "immigrant_osm_node_2408160696",
+    "name": "Tuna Bazaar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Heerenveen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.9579211,
+    "lon": 5.9245009,
+    "address": "Molenplein 1, 8442LM, Heerenveen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2408160696"
+  },
+  {
+    "id": "immigrant_osm_node_2716129211",
+    "name": "Yang's oriental toko",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Wassenaar",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 52.1462031,
+    "lon": 4.3941194,
+    "address": "Luifelbaan 50, 2242KV, Wassenaar",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2716129211"
+  },
+  {
+    "id": "immigrant_osm_node_2903873474",
+    "name": "Zapolski",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Helmond",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://zapolski.nl",
+    "lat": 51.4801181,
+    "lon": 5.6582078,
+    "address": "Noord Koninginnewal 40, 5701NK, Helmond",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2903873474"
+  },
+  {
+    "id": "immigrant_osm_node_5198749619",
+    "name": "Zapolski",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Tilburg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.5516233,
+    "lon": 5.0783392,
+    "address": "Trouwlaan 27, 5021WD, Tilburg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5198749619"
+  },
+  {
+    "id": "immigrant_osm_node_7023502786",
+    "name": "Zapolski",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Oss",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://zapolski.nl/nl/zapolski/",
+    "lat": 51.7617692,
+    "lon": 5.524788,
+    "address": "Wethouder van Eschstraat 278, 5342AV, Oss",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7023502786"
+  },
+  {
+    "id": "immigrant_osm_node_3611194138",
+    "name": "Zapolski Supermarkt",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Eindhoven",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://zapolski.nl/",
+    "lat": 51.451449,
+    "lon": 5.4723339,
+    "address": "Woenselse Markt 7, 5612CP, Eindhoven",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3611194138"
+  },
+  {
+    "id": "immigrant_osm_node_8305854456",
+    "name": "Ziomek Poolse Delikatesen Polski Sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://ziomekdelikatessen.nl",
+    "lat": 52.8619908,
+    "lon": 4.8309448,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8305854456"
+  },
+  {
+    "id": "immigrant_osm_node_2847313593",
+    "name": "Özer Can Bazar",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Nijmegen",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.8393173,
+    "lon": 5.855823,
+    "address": "Burghardt van den Berghstraat 97, 6512DH, Nijmegen",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2847313593"
+  },
+  {
+    "id": "immigrant_osm_node_2725681951",
+    "name": "Żabka polski sklep",
+    "country": "Nederland",
+    "countryCode": "NL",
+    "region": null,
+    "municipality": "Arnhem",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 51.9667561,
+    "lon": 5.9082756,
+    "address": "Middelgraaflaan 12, 6832AR, Arnhem",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2725681951"
+  }
+]

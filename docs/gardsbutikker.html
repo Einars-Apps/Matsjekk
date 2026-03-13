@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="nb">
+<html lang="nb" translate="no" class="notranslate">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="google" content="notranslate">
   <meta name="google-maps-api-key" content="AIzaSyCNqJylH-TK3UEeLB8m5HylyfpVeG5iqBc">
   <title>Gårdsbutikker — Mat Sjekk</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -15,11 +16,18 @@
     .top-tabs a:hover{background:rgba(255,255,255,0.15)}
     #map{height:400px;border:1px solid #ccc}
     .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+    .language-row{display:flex;justify-content:flex-end;align-items:center;gap:8px;margin-bottom:8px}
+    .language-row label{font-size:.92rem;color:#fff;font-weight:600}
+    .language-row select{padding:6px 10px;border:1px solid rgba(255,255,255,0.55);border-radius:8px;background:#fff;color:#111}
     .nav-links{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
     .link-btn{display:inline-block;padding:8px 12px;border:1px solid #ccc;border-radius:8px;background:#fff;color:#111;text-decoration:none}
     .link-btn:hover{background:#f5f5f5}
     .controls a{overflow-wrap:anywhere;word-break:break-word}
     .controls input,.controls select,.controls button{max-width:100%}
+    .nearby-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+    .distance-group{display:flex;align-items:center;gap:6px;min-width:140px}
+    .distance-group label{font-size:.9rem;color:#25303b}
+    #nearRadiusSelect{min-width:92px}
     .map-controls{display:flex;gap:8px;align-items:center;justify-content:flex-end;margin:8px 0}
     .map-btn{padding:6px 10px;border:1px solid #ccc;background:#fff;cursor:pointer;border-radius:6px}
     .map-btn:hover{background:#f5f5f5}
@@ -32,6 +40,16 @@
     .side-rail{flex:0 0 280px;display:flex;flex-direction:column;gap:10px}
     .ad-slot{min-height:160px;border:1px dashed #c8d3df;border-radius:10px;background:#f8fbff;padding:12px;color:#4c5b6a;font-size:.9rem}
     .ad-slot strong{display:block;margin-bottom:6px;color:#213}
+    .feedback-panel{border:1px solid #dbe4ef;border-radius:10px;background:#fff;padding:10px}
+    .feedback-panel h3{margin:0 0 8px;font-size:1rem;color:#16283a}
+    .feedback-panel p{margin:0 0 8px;font-size:.85rem;color:#4d5c6a;line-height:1.4}
+    .feedback-field{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+    .feedback-field label{font-size:.82rem;color:#2f3f50}
+    .feedback-field input,.feedback-field textarea{border:1px solid #ccd8e6;border-radius:8px;padding:8px;font:inherit}
+    .feedback-field textarea{min-height:76px;resize:vertical}
+    .feedback-btn{width:100%;padding:8px 10px;border:1px solid #c6d6e8;border-radius:8px;background:#f4f9ff;color:#14324b;cursor:pointer;font-weight:600}
+    .feedback-btn:hover{background:#e9f4ff}
+    .feedback-status{margin-top:8px;font-size:.82rem;color:#516274;line-height:1.35}
     .list{max-height:420px;overflow:auto;border:1px solid #e6e9ee;border-radius:12px;padding:10px;background:#fafbfc}
     .item{padding:10px 12px;border:1px solid #e6e9ee;border-radius:10px;background:#fff;margin-bottom:8px}
     .item:last-child{margin-bottom:0}
@@ -44,6 +62,7 @@
     .item-thumb{width:92px;height:68px;object-fit:cover;border-radius:8px;border:1px solid #dbe3ea;background:#fff;flex-shrink:0}
     .item-link{display:inline-block;padding:6px 10px;border:1px solid #d7dee7;border-radius:999px;text-decoration:none;color:#134; background:#f7fafc;font-size:.82rem}
     .item-link:hover{background:#eef4f8}
+    button.item-link{cursor:pointer}
     @media (max-width: 768px){
       #map{height:110px}
       .map-controls{justify-content:flex-start}
@@ -58,16 +77,35 @@
     }
   </style>
 </head>
-<body>
+<body translate="no" class="notranslate">
   <header>
     <div class="container">
-      <h1>Gårdsbutikker</h1>
-      <p>Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+      <div class="language-row">
+        <label for="languageSelect" id="languageLabel">Språk</label>
+        <select id="languageSelect" aria-label="Språkvalg">
+          <option value="auto">Auto</option>
+          <option value="nb">Norsk</option>
+          <option value="da">Dansk</option>
+          <option value="de">Deutsch</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fi">Suomi</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="nl">Nederlands</option>
+          <option value="pt">Português</option>
+          <option value="sv">Svenska</option>
+        </select>
+      </div>
+      <h1 id="pageTitle">Gårdsbutikker</h1>
+      <p id="introText">Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
       <nav class="top-tabs" aria-label="Hovednavigasjon">
-        <a href="index.html">Hjem</a>
-        <a href="gardsbutikker.html">Gårdsbutikker</a>
-        <a href="index.html#news">Nyheter og media</a>
-        <a href="index.html#contact">Kontakt oss</a>
+        <a id="topHomeTab" href="index.html">Hjem</a>
+        <a id="topFarmshopsTab" href="gardsbutikker.html">Gårdsbutikker</a>
+        <a id="topOrganicTab" href="okologiske-gardsbutikker.html">Økologiske gårdsbutikker</a>
+        <a id="topImmigrantTab" href="innvandrerbutikker.html">Innvandrerbutikker</a>
+        <a id="topNewsTab" href="news.html?cb=20260309e">Nyheter og media</a>
+        <a id="topContactTab" href="index.html#contact">Kontakt oss</a>
       </nav>
     </div>
   </header>
@@ -76,7 +114,7 @@
     <div class="controls nav-links">
       <button id="backBtn">← Tilbake</button>
       <a id="homeLink" class="link-btn" href="https://matsjekk.com">🏠 Hjem</a>
-      <a id="newsLink" class="link-btn" href="https://matsjekk.com#news">📰 Nyheter og media</a>
+      <a id="newsLink" class="link-btn" href="https://matsjekk.com/news.html?cb=20260309e">📰 Nyheter og media</a>
     </div>
     <div class="controls">
       <select id="countrySelect"><option value="">Velg land</option></select>
@@ -86,7 +124,18 @@
       <select id="sortSelect"><option value="name_asc">Sorter: Navn A-Å</option><option value="name_desc">Sorter: Navn Å-A</option><option value="distance_asc">Sorter: Nærmest deg</option></select>
       <input id="searchInput" placeholder="Søk butikk" style="flex:1" />
       <button id="myMunicipalityBtn" type="button">Søk i feltet</button>
-      <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
+      <div class="nearby-controls">
+        <button id="nearMeBtn" type="button">Finn nær min posisjon</button>
+        <div class="distance-group">
+          <label for="nearRadiusSelect" id="distanceLabel">Avstand</label>
+          <select id="nearRadiusSelect" aria-label="Velg avstand">
+            <option value="10">10 km</option>
+            <option value="25">25 km</option>
+            <option value="50" selected>50 km</option>
+            <option value="100">100 km</option>
+          </select>
+        </div>
+      </div>
       <input id="routeFrom" placeholder="Fra (adresse eller by)" />
       <input id="routeTo" placeholder="Til (adresse eller by)" />
       <button id="routeBtn">Finn langs rute</button>
@@ -112,12 +161,60 @@
           <strong>Annonse</strong>
           Plass for relevant lokal annonse eller partnerinnhold.
         </div>
+        <section class="feedback-panel" aria-labelledby="suggestionHeading">
+          <h3 id="suggestionHeading">Foreslå nytt sted</h3>
+          <p id="suggestionIntro">Mangler det et gårdsutsalg? Send inn navn, kommune og land til moderering.</p>
+          <div class="feedback-field">
+            <label for="suggestName" id="suggestNameLabel">Navn</label>
+            <input id="suggestName" type="text" placeholder="F.eks. Solheim gård" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestMunicipality" id="suggestMunicipalityLabel">Kommune</label>
+            <input id="suggestMunicipality" type="text" placeholder="F.eks. Asker" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestCountry" id="suggestCountryLabel">Land</label>
+            <input id="suggestCountry" type="text" placeholder="F.eks. Norway" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestAddress" id="suggestAddressLabel">Adresse (anbefalt)</label>
+            <input id="suggestAddress" type="text" placeholder="F.eks. Gate 1, Poststed" />
+          </div>
+          <div class="feedback-field">
+            <label for="suggestWebsite" id="suggestWebsiteLabel">Hjemmeside (anbefalt)</label>
+            <input id="suggestWebsite" type="url" placeholder="https://..." />
+          </div>
+          <button id="submitSuggestionBtn" class="feedback-btn" type="button">Send forslag til moderering</button>
+          <div id="suggestionStatus" class="feedback-status" aria-live="polite"></div>
+        </section>
+        <section class="feedback-panel" aria-labelledby="reportHeading">
+          <h3 id="reportHeading">Rapporter feil oppføring</h3>
+          <p id="reportIntro">Rapporter steder som ikke bør være listet. Endringer gjøres først etter manuell kontroll.</p>
+          <div class="feedback-field">
+            <label for="reportName" id="reportNameLabel">Stedsnavn</label>
+            <input id="reportName" type="text" placeholder="F.eks. Farm shop 12345" />
+          </div>
+          <div class="feedback-field">
+            <label for="reportReason" id="reportReasonLabel">Hva er feil?</label>
+            <textarea id="reportReason" placeholder="Kort begrunnelse"></textarea>
+          </div>
+          <div class="feedback-field">
+            <label for="reportAddress" id="reportAddressLabel">Adresse (hvis kjent)</label>
+            <input id="reportAddress" type="text" placeholder="F.eks. Gate 1, Poststed" />
+          </div>
+          <div class="feedback-field">
+            <label for="reportWebsite" id="reportWebsiteLabel">Hjemmeside (hvis kjent)</label>
+            <input id="reportWebsite" type="url" placeholder="https://..." />
+          </div>
+          <button id="submitReportBtn" class="feedback-btn" type="button">Send rapport til moderering</button>
+          <div id="reportStatus" class="feedback-status" aria-live="polite"></div>
+        </section>
       </div>
     </div>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
-  <script src="js/gardsbutikker.js?v=20260221k"></script>
+  <script src="js/gardsbutikker.js?v=20260307b"></script>
 </body>
 </html>

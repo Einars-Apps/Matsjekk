@@ -1,0 +1,236 @@
+[
+  {
+    "id": "immigrant_osm_node_12073459483",
+    "name": "Asia food",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6234898,
+    "lon": 26.2507665,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12073459483"
+  },
+  {
+    "id": "immigrant_osm_node_13481374077",
+    "name": "ASIA FOODS",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiafoods.com.ua/ua/",
+    "lat": 49.9919491,
+    "lon": 36.2336033,
+    "address": "вулиця Григорія Сковороди 3",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13481374077"
+  },
+  {
+    "id": "immigrant_osm_node_967000969",
+    "name": "BaZar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.539915,
+    "lon": 39.2769496,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/967000969"
+  },
+  {
+    "id": "immigrant_osm_node_3233291766",
+    "name": "BaZar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.atbmarket.com",
+    "lat": 48.9418891,
+    "lon": 38.5176088,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3233291766"
+  },
+  {
+    "id": "immigrant_osm_node_9369344841",
+    "name": "Bazar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5725946,
+    "lon": 39.3973184,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9369344841"
+  },
+  {
+    "id": "immigrant_osm_node_11066929982",
+    "name": "Bazar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5785905,
+    "lon": 39.3918762,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11066929982"
+  },
+  {
+    "id": "immigrant_osm_node_12568201701",
+    "name": "BaZar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5578803,
+    "lon": 39.3873269,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12568201701"
+  },
+  {
+    "id": "immigrant_osm_node_6229240145",
+    "name": "Bazar Express",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.4367441,
+    "lon": 30.4514947,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6229240145"
+  },
+  {
+    "id": "immigrant_osm_way_1308962850",
+    "name": "City market bazaar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": "Івано-Франківська область",
+    "municipality": "Коломия",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5256261,
+    "lon": 25.0394823,
+    "address": "City market bazaar, Коломия, Коломийська міська громада, Коломийський район, Івано-Франківська область, 78200, Україна",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1308962850"
+  },
+  {
+    "id": "immigrant_osm_node_4104075990",
+    "name": "Fiducia African Product",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.fiduciaafricanshop.com/",
+    "lat": 50.421767,
+    "lon": 30.4712359,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4104075990"
+  },
+  {
+    "id": "immigrant_osm_node_7714158020",
+    "name": "Grand Bazaar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": "Одеська область",
+    "municipality": "Ізмаїл",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.3439789,
+    "lon": 28.84062,
+    "address": "Grand Bazaar, 93, Мистецька вулиця, Центр, Ізмаїл, Ізмаїльська міська громада, Ізмаїльський район, Одеська область, 68601, Україна",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7714158020"
+  },
+  {
+    "id": "immigrant_osm_node_6497200473",
+    "name": "Grand Bazaar",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": "Феодосійський район",
+    "municipality": "Коктебельский поселковый совет",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.9651908,
+    "lon": 35.2600998,
+    "address": "Grand Bazaar, Морская улица, Коктебель, Коктебельский поселковый совет, Феодосійський район, Автономна Республіка Крим, 298186, Україна",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6497200473"
+  },
+  {
+    "id": "immigrant_osm_node_13413449738",
+    "name": "Всесвітня продовольча програма (World Food Programme) Office",
+    "country": "Ukraina",
+    "countryCode": "UA",
+    "region": "Харківська область",
+    "municipality": "Харків",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.0064837,
+    "lon": 36.2357981,
+    "address": "Всесвітня продовольча програма (World Food Programme) Office, 43б, Сумська вулиця, Держпром, Шевченківський район, Харків, Харківська міська громада, Харківський район, Харківська область, 61022, Україна",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13413449738"
+  }
+]

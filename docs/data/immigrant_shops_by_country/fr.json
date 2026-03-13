@@ -1,0 +1,5870 @@
+[
+  {
+    "id": "immigrant_osm_node_8698400661",
+    "name": "A.C.S Afro market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2948711,
+    "lon": 5.3814999,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8698400661"
+  },
+  {
+    "id": "immigrant_osm_node_2310938053",
+    "name": "AA. Brothers Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8930738,
+    "lon": 2.3282096,
+    "address": "Rue Championnet 231, 75018, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2310938053"
+  },
+  {
+    "id": "immigrant_osm_node_9850496274",
+    "name": "Abbass Afro",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.0315617,
+    "lon": 4.0728764,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9850496274"
+  },
+  {
+    "id": "immigrant_osm_node_3704121929",
+    "name": "Afghan Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8836638,
+    "lon": 2.3590402,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3704121929"
+  },
+  {
+    "id": "immigrant_osm_node_8222500535",
+    "name": "Africa Alimentation",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8393106,
+    "lon": 2.5505219,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8222500535"
+  },
+  {
+    "id": "immigrant_osm_node_11425809665",
+    "name": "Africa Alimentation Genérale Produits Exotiques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Stains",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9555607,
+    "lon": 2.3845399,
+    "address": "Avenue Louis Bordes 44, 93240, Stains",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11425809665"
+  },
+  {
+    "id": "immigrant_osm_node_12795231616",
+    "name": "Africa Celeste",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4486016,
+    "lon": 4.4036126,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12795231616"
+  },
+  {
+    "id": "immigrant_osm_node_13022803575",
+    "name": "Africa Food",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9185708,
+    "lon": 2.2810049,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13022803575"
+  },
+  {
+    "id": "immigrant_osm_node_6635454488",
+    "name": "Africa market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2442284,
+    "lon": -1.606148,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6635454488"
+  },
+  {
+    "id": "immigrant_osm_node_6635493786",
+    "name": "Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2438594,
+    "lon": -1.6059118,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6635493786"
+  },
+  {
+    "id": "immigrant_osm_node_7342538662",
+    "name": "Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.7195338,
+    "lon": -1.3759759,
+    "address": "34",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7342538662"
+  },
+  {
+    "id": "immigrant_osm_node_7844220793",
+    "name": "Africa market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7546219,
+    "lon": 4.8432118,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7844220793"
+  },
+  {
+    "id": "immigrant_osm_node_10134150789",
+    "name": "Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.0065876,
+    "lon": 0.1905364,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10134150789"
+  },
+  {
+    "id": "immigrant_osm_node_11933239263",
+    "name": "Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1797068,
+    "lon": 6.4456035,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11933239263"
+  },
+  {
+    "id": "immigrant_osm_node_12571347328",
+    "name": "Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2632847,
+    "lon": -1.5160979,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12571347328"
+  },
+  {
+    "id": "immigrant_osm_node_13096966670",
+    "name": "Africa Star Café",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4728256,
+    "lon": -0.5428744,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13096966670"
+  },
+  {
+    "id": "immigrant_osm_node_2217042317",
+    "name": "Africa Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7527913,
+    "lon": 4.8456886,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2217042317"
+  },
+  {
+    "id": "immigrant_osm_node_6178435931",
+    "name": "Africain Exotique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Strasbourg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5762781,
+    "lon": 7.7315959,
+    "address": "Boulevard de Lyon 17, 67000, Strasbourg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6178435931"
+  },
+  {
+    "id": "immigrant_osm_node_7387238376",
+    "name": "African foods",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Bordeaux",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.830918,
+    "lon": -0.5689531,
+    "address": "Rue Élie Gintrac 44, 33000, Bordeaux",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7387238376"
+  },
+  {
+    "id": "immigrant_osm_node_12946615549",
+    "name": "African Makanaki",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8683308,
+    "lon": 2.3585865,
+    "address": "Boulevard Saint-Martin 31",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12946615549"
+  },
+  {
+    "id": "immigrant_osm_node_6103988855",
+    "name": "African Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2093704,
+    "lon": -1.5501747,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6103988855"
+  },
+  {
+    "id": "immigrant_osm_node_10672377580",
+    "name": "African Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Nice",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.7108858,
+    "lon": 7.2847295,
+    "address": "Route de Turin 37, 06300, Nice",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10672377580"
+  },
+  {
+    "id": "immigrant_osm_node_9432191911",
+    "name": "Africano Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8853084,
+    "lon": 2.3614104,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9432191911"
+  },
+  {
+    "id": "immigrant_osm_node_13005829460",
+    "name": "Afro Bangla Alimentation",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8973862,
+    "lon": 2.3379591,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13005829460"
+  },
+  {
+    "id": "immigrant_osm_node_4857851887",
+    "name": "Afro Beauty",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.890993,
+    "lon": 2.3053188,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4857851887"
+  },
+  {
+    "id": "immigrant_osm_node_7727378685",
+    "name": "Afro Euro Cosmétique & Alimentation Générale Exotiques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8901278,
+    "lon": 2.4030531,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7727378685"
+  },
+  {
+    "id": "immigrant_osm_node_2270385383",
+    "name": "Afro Exotique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.7965565,
+    "lon": 4.8477062,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2270385383"
+  },
+  {
+    "id": "immigrant_osm_node_11438158171",
+    "name": "Afro Exotique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7658674,
+    "lon": 0.6267687,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11438158171"
+  },
+  {
+    "id": "immigrant_osm_node_11550553867",
+    "name": "Afro Hub",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9261059,
+    "lon": 2.0525103,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11550553867"
+  },
+  {
+    "id": "immigrant_osm_node_6099535873",
+    "name": "Afro Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.175617,
+    "lon": 3.23143,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6099535873"
+  },
+  {
+    "id": "immigrant_osm_node_2484986867",
+    "name": "Afro Mido",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2190478,
+    "lon": -1.5540103,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2484986867"
+  },
+  {
+    "id": "immigrant_osm_node_6095586791",
+    "name": "Afrocourses",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8862216,
+    "lon": 2.3717661,
+    "address": "Avenue de Flandre 32, 75019, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6095586791"
+  },
+  {
+    "id": "immigrant_osm_node_869338592",
+    "name": "Afroline Chez Chantal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1666482,
+    "lon": 5.7282113,
+    "address": "Avenue Marie Reynoard 8bis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/869338592"
+  },
+  {
+    "id": "immigrant_osm_node_6029417287",
+    "name": "Alimentation Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2016315,
+    "lon": -1.5444864,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6029417287"
+  },
+  {
+    "id": "immigrant_osm_node_12134333599",
+    "name": "Alimentation Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Charleville-Mézières",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.7703891,
+    "lon": 4.7205411,
+    "address": "Avenue Jean Jaurès 12, 08000, Charleville-Mézières",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12134333599"
+  },
+  {
+    "id": "immigrant_osm_node_10036074996",
+    "name": "Alimentation Balkanique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.608776,
+    "lon": 1.4478557,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10036074996"
+  },
+  {
+    "id": "immigrant_osm_node_5750219253",
+    "name": "Alimentation Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Denis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9379876,
+    "lon": 2.3482646,
+    "address": "Rue Dézobry 24, 93200, Saint-Denis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5750219253"
+  },
+  {
+    "id": "immigrant_osm_node_6441209634",
+    "name": "Alimentation Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9046061,
+    "lon": 2.3329237,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6441209634"
+  },
+  {
+    "id": "immigrant_osm_node_3738826609",
+    "name": "Alimentation et bazar: les jardins de Gignac",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Gignac",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6522633,
+    "lon": 3.5517791,
+    "address": "Rue Saint-Michel 11, 34150, Gignac",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3738826609"
+  },
+  {
+    "id": "immigrant_osm_node_11349888545",
+    "name": "Alimentation Générale Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8426931,
+    "lon": 2.3285935,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11349888545"
+  },
+  {
+    "id": "immigrant_osm_node_5975760910",
+    "name": "Alimentation Générale Produits Africains",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8882683,
+    "lon": 2.3521165,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5975760910"
+  },
+  {
+    "id": "immigrant_osm_node_1834721511",
+    "name": "Alimentation Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Vichy",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1287143,
+    "lon": 3.426186,
+    "address": "Place du 8 Mai 1945 2, 03200, Vichy",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1834721511"
+  },
+  {
+    "id": "immigrant_osm_node_2217482596",
+    "name": "Amasia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.amasia.fr/",
+    "lat": 48.8210232,
+    "lon": 2.3645538,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2217482596"
+  },
+  {
+    "id": "immigrant_osm_node_13611780970",
+    "name": "Anas Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8348045,
+    "lon": -0.5678197,
+    "address": "Rue des Menuts 20",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13611780970"
+  },
+  {
+    "id": "immigrant_osm_node_13167567758",
+    "name": "Anastasia Sklep",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "L'Île-Saint-Denis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9193476,
+    "lon": 2.3281055,
+    "address": "Quai du Châtelier, 93400, L'Île-Saint-Denis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13167567758"
+  },
+  {
+    "id": "immigrant_osm_node_6176651187",
+    "name": "Anjou Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.451149,
+    "lon": -0.5563095,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6176651187"
+  },
+  {
+    "id": "immigrant_osm_node_9861158717",
+    "name": "Arabesques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.7467659,
+    "lon": 7.3339243,
+    "address": "Rue de l'Arsenal 30",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9861158717"
+  },
+  {
+    "id": "immigrant_osm_node_1459465789",
+    "name": "Arabic Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8374906,
+    "lon": 2.4951231,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1459465789"
+  },
+  {
+    "id": "immigrant_osm_node_508278927",
+    "name": "ARAKA Import",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -17.5287613,
+    "lon": -149.5523922,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/508278927"
+  },
+  {
+    "id": "immigrant_osm_node_4559976229",
+    "name": "Asia Bazaar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4298415,
+    "lon": 4.3899595,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4559976229"
+  },
+  {
+    "id": "immigrant_osm_node_11486223034",
+    "name": "Asia boucherie",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.471633,
+    "lon": -0.5668201,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11486223034"
+  },
+  {
+    "id": "immigrant_osm_way_1157261277",
+    "name": "Asia Délice",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asia-shop.fr",
+    "lat": 48.6620094,
+    "lon": 6.1751838,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1157261277"
+  },
+  {
+    "id": "immigrant_osm_node_3194400803",
+    "name": "Asia Frères",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiafreres.com/",
+    "lat": 43.5798359,
+    "lon": 7.1190965,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3194400803"
+  },
+  {
+    "id": "immigrant_osm_node_4075452894",
+    "name": "Asia Home",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6327441,
+    "lon": 3.9165272,
+    "address": "34170",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4075452894"
+  },
+  {
+    "id": "immigrant_osm_node_5692596328",
+    "name": "ASIA Marché",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8319765,
+    "lon": 5.7820706,
+    "address": "Boulevard Elémir Bourges",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5692596328"
+  },
+  {
+    "id": "immigrant_osm_node_4466271365",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4158216,
+    "lon": 0.6895363,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4466271365"
+  },
+  {
+    "id": "immigrant_osm_node_5321773525",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5557591,
+    "lon": 6.9519117,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5321773525"
+  },
+  {
+    "id": "immigrant_osm_node_7011922580",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.7232394,
+    "lon": -1.0531949,
+    "address": "Rue Pierre Dupont",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7011922580"
+  },
+  {
+    "id": "immigrant_osm_node_7346153614",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.2205072,
+    "lon": 4.0418253,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7346153614"
+  },
+  {
+    "id": "immigrant_osm_node_8796454896",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.9943446,
+    "lon": 0.1973999,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8796454896"
+  },
+  {
+    "id": "immigrant_osm_node_8853395468",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8429979,
+    "lon": 2.0672072,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8853395468"
+  },
+  {
+    "id": "immigrant_osm_node_10937871008",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiamarketonline.fr/",
+    "lat": 48.0242164,
+    "lon": 0.1801988,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10937871008"
+  },
+  {
+    "id": "immigrant_osm_node_12496384011",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Albi",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.938086,
+    "lon": 2.1826731,
+    "address": "Avenue de Saint-Juéry 173, 81000, Albi",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12496384011"
+  },
+  {
+    "id": "immigrant_osm_node_13253715728",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8293057,
+    "lon": 2.3572267,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13253715728"
+  },
+  {
+    "id": "immigrant_osm_way_78081970",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.554156,
+    "lon": -0.2467932,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/78081970"
+  },
+  {
+    "id": "immigrant_osm_way_126964150",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4815275,
+    "lon": -0.5241915,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/126964150"
+  },
+  {
+    "id": "immigrant_osm_way_1011275302",
+    "name": "Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asia-market.fr/magasin.php",
+    "lat": 48.6038031,
+    "lon": 7.7082311,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1011275302"
+  },
+  {
+    "id": "immigrant_osm_node_9149284617",
+    "name": "Asia Mart",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Rueil-Malmaison",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8875717,
+    "lon": 2.1696678,
+    "address": "Avenue Édouard Belin 4, 92500, Rueil-Malmaison",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9149284617"
+  },
+  {
+    "id": "immigrant_osm_node_13564052928",
+    "name": "Asia Mart",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.4397113,
+    "lon": 1.0908115,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13564052928"
+  },
+  {
+    "id": "immigrant_osm_node_1488772079",
+    "name": "Asia Pacific Trade",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8785137,
+    "lon": 2.3565109,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1488772079"
+  },
+  {
+    "id": "immigrant_osm_node_7137386292",
+    "name": "Asia Shop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1914615,
+    "lon": 6.2158256,
+    "address": "Rue de Genève 86",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7137386292"
+  },
+  {
+    "id": "immigrant_osm_node_8426006517",
+    "name": "Asia shop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiashop.fr/",
+    "lat": 44.8339802,
+    "lon": -0.5731223,
+    "address": "Rue Sainte-Catherine 208, 33000",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8426006517"
+  },
+  {
+    "id": "immigrant_osm_node_13020630206",
+    "name": "Asia Shop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiashop.fr/",
+    "lat": 44.8341738,
+    "lon": -0.5731614,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13020630206"
+  },
+  {
+    "id": "immigrant_osm_node_2555471139",
+    "name": "Asia store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.9394875,
+    "lon": 4.8059837,
+    "address": "Avenue Monclar 29",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2555471139"
+  },
+  {
+    "id": "immigrant_osm_node_4118138952",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -21.3202806,
+    "lon": 55.4458674,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4118138952"
+  },
+  {
+    "id": "immigrant_osm_node_5435987974",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.5914885,
+    "lon": 0.3258611,
+    "address": "Rue Rique Avoine 30",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5435987974"
+  },
+  {
+    "id": "immigrant_osm_node_9357778527",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.0515397,
+    "lon": -0.8870971,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9357778527"
+  },
+  {
+    "id": "immigrant_osm_node_10704806187",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.2580537,
+    "lon": 4.0416711,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10704806187"
+  },
+  {
+    "id": "immigrant_osm_node_12953771086",
+    "name": "Asia store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -20.8881957,
+    "lon": 55.4764367,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12953771086"
+  },
+  {
+    "id": "immigrant_osm_node_12953771090",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Sainte-Marie",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -20.8989476,
+    "lon": 55.5333227,
+    "address": "Rue de la Pepiniere 1, 97438, Sainte-Marie",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12953771090"
+  },
+  {
+    "id": "immigrant_osm_way_118745290",
+    "name": "Asia Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Blois",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5912915,
+    "lon": 1.322769,
+    "address": "8, 41000, Blois",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/118745290"
+  },
+  {
+    "id": "immigrant_osm_node_13275459253",
+    "name": "Asia Store 78",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Marly-le-Roi",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8804115,
+    "lon": 2.1006019,
+    "address": "Avenue de l'Amiral Lemonnier, 78160, Marly-le-Roi",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13275459253"
+  },
+  {
+    "id": "immigrant_osm_node_1324474100",
+    "name": "Asia Take Away",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -22.2824202,
+    "lon": 166.4529892,
+    "address": "Route du Port Despointes 54, 98800",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1324474100"
+  },
+  {
+    "id": "immigrant_osm_node_7403810085",
+    "name": "Asia'n Shop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8218824,
+    "lon": 4.3636958,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7403810085"
+  },
+  {
+    "id": "immigrant_osm_node_7846755832",
+    "name": "Asiafrica Distribution",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6934604,
+    "lon": 3.1850369,
+    "address": "Grande Rue 144 bis, 59100",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7846755832"
+  },
+  {
+    "id": "immigrant_osm_node_13057959005",
+    "name": "Asialand",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8192168,
+    "lon": 2.4868726,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13057959005"
+  },
+  {
+    "id": "immigrant_osm_way_60050208",
+    "name": "Asialiment",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6237284,
+    "lon": 3.050476,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/60050208"
+  },
+  {
+    "id": "immigrant_osm_node_2242945730",
+    "name": "Asian Bangla",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7541131,
+    "lon": 4.8417226,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2242945730"
+  },
+  {
+    "id": "immigrant_osm_way_85677249",
+    "name": "Asian et Caraïbes",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asianetcaraibes.fr/",
+    "lat": 47.234676,
+    "lon": -1.5806224,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/85677249"
+  },
+  {
+    "id": "immigrant_osm_node_9808243776",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.1418921,
+    "lon": 6.1663236,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9808243776"
+  },
+  {
+    "id": "immigrant_osm_node_11944139764",
+    "name": "Asian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5185094,
+    "lon": 1.4969273,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11944139764"
+  },
+  {
+    "id": "immigrant_osm_node_4405645637",
+    "name": "Asian store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8686115,
+    "lon": 2.2271707,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4405645637"
+  },
+  {
+    "id": "immigrant_osm_node_6467956591",
+    "name": "Asian store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7130946,
+    "lon": 4.8044313,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6467956591"
+  },
+  {
+    "id": "immigrant_osm_node_12682341873",
+    "name": "Asian Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Villiers-le-Bel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9974188,
+    "lon": 2.4145846,
+    "address": "Avenue Pierre Semard 148, 95400, Villiers-le-Bel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12682341873"
+  },
+  {
+    "id": "immigrant_osm_node_2813028200",
+    "name": "Asian super market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1881833,
+    "lon": 5.7181731,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2813028200"
+  },
+  {
+    "id": "immigrant_osm_node_8390234757",
+    "name": "Asian Super Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7387472,
+    "lon": 4.8616949,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8390234757"
+  },
+  {
+    "id": "immigrant_osm_node_11375105986",
+    "name": "Asian Super Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5700132,
+    "lon": 7.1142076,
+    "address": "Boulevard Président Wilson 103",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11375105986"
+  },
+  {
+    "id": "immigrant_osm_node_12012583883",
+    "name": "Asian Supermarket",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.570401,
+    "lon": 7.114105,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12012583883"
+  },
+  {
+    "id": "immigrant_osm_node_1398474075",
+    "name": "Asiana",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.asiana-supermarche.fr/index.php/fr/",
+    "lat": 43.7021865,
+    "lon": 7.2798656,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1398474075"
+  },
+  {
+    "id": "immigrant_osm_node_12247902701",
+    "name": "Asie Bazar Indien",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Toulouse",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6066705,
+    "lon": 1.451564,
+    "address": "Rue des Sept Troubadours 35, 31000, Toulouse",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12247902701"
+  },
+  {
+    "id": "immigrant_osm_node_9400592000",
+    "name": "Au petit bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Maule",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9096329,
+    "lon": 1.8551077,
+    "address": "Boulevard Paul Barré 33bis, 78580, Maule",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9400592000"
+  },
+  {
+    "id": "immigrant_osm_node_1932296123",
+    "name": "Azinari Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -20.5622741,
+    "lon": 164.2858503,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1932296123"
+  },
+  {
+    "id": "immigrant_osm_node_1094729744",
+    "name": "Balkan 38",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1735184,
+    "lon": 5.7189795,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1094729744"
+  },
+  {
+    "id": "immigrant_osm_node_7251224256",
+    "name": "Balkan Alimentation",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.751223,
+    "lon": 7.3315851,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7251224256"
+  },
+  {
+    "id": "immigrant_osm_node_8959104469",
+    "name": "Balkan Foods",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.9054832,
+    "lon": 6.1189778,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8959104469"
+  },
+  {
+    "id": "immigrant_osm_node_10753880763",
+    "name": "Balkan Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6616374,
+    "lon": 6.1687923,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10753880763"
+  },
+  {
+    "id": "immigrant_osm_node_11730649717",
+    "name": "Balkanfood",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5682965,
+    "lon": 7.7576047,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11730649717"
+  },
+  {
+    "id": "immigrant_osm_node_12216136740",
+    "name": "Balkanika Delice",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9353399,
+    "lon": 2.1534639,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12216136740"
+  },
+  {
+    "id": "immigrant_osm_node_2242909192",
+    "name": "Bangla Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7542198,
+    "lon": 4.8418058,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2242909192"
+  },
+  {
+    "id": "immigrant_osm_node_6900961138",
+    "name": "Bangla Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6074483,
+    "lon": 1.4482442,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6900961138"
+  },
+  {
+    "id": "immigrant_osm_node_12366254116",
+    "name": "Bangla Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9134414,
+    "lon": 2.4023618,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12366254116"
+  },
+  {
+    "id": "immigrant_osm_node_5975803056",
+    "name": "Basil International",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8884654,
+    "lon": 2.3524912,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5975803056"
+  },
+  {
+    "id": "immigrant_osm_node_10117172280",
+    "name": "Bay-Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.496776,
+    "lon": -1.4685349,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10117172280"
+  },
+  {
+    "id": "immigrant_osm_node_1434312779",
+    "name": "Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.7014747,
+    "lon": 3.5532039,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1434312779"
+  },
+  {
+    "id": "immigrant_osm_node_11298159028",
+    "name": "bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8834967,
+    "lon": 2.3951903,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11298159028"
+  },
+  {
+    "id": "immigrant_osm_node_11032184357",
+    "name": "bazar alimentation générale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6357928,
+    "lon": 2.4284359,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11032184357"
+  },
+  {
+    "id": "immigrant_osm_node_4623405392",
+    "name": "Bazar Aouzal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8981648,
+    "lon": 2.307952,
+    "address": "Boulevard Jean Jaurès, 92110",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4623405392"
+  },
+  {
+    "id": "immigrant_osm_node_697349742",
+    "name": "Bazar de Bruxelles",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Montpellier",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6253073,
+    "lon": 3.8173092,
+    "address": "Avenue de Barcelone 529, Montpellier",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/697349742"
+  },
+  {
+    "id": "immigrant_osm_node_4174575390",
+    "name": "Bazar de la liberté",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -20.9638871,
+    "lon": 55.3202423,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4174575390"
+  },
+  {
+    "id": "immigrant_osm_node_8377201300",
+    "name": "Bazar du Coin",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9127962,
+    "lon": 2.3816688,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8377201300"
+  },
+  {
+    "id": "immigrant_osm_node_6017884890",
+    "name": "Bazar et produits orientaux",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2370228,
+    "lon": -1.5852094,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6017884890"
+  },
+  {
+    "id": "immigrant_osm_node_10289224212",
+    "name": "Bazar Flocon",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Courbevoie",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.902883,
+    "lon": 2.2685122,
+    "address": "Rue Edith Cavell 40, 92400, Courbevoie",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10289224212"
+  },
+  {
+    "id": "immigrant_osm_node_6966996122",
+    "name": "Bazar Istanbul",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Bordeaux",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8353997,
+    "lon": -0.5678814,
+    "address": "Rue des Faures 84, 33000, Bordeaux",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6966996122"
+  },
+  {
+    "id": "immigrant_osm_node_12186358388",
+    "name": "Bazar Jean XXIII",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.4494359,
+    "lon": -0.5638333,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12186358388"
+  },
+  {
+    "id": "immigrant_osm_node_1024382029",
+    "name": "Bazar L.M.",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 4.9356759,
+    "lon": -52.3348934,
+    "address": "Rue du Lientenant Auguste Brassé",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1024382029"
+  },
+  {
+    "id": "immigrant_osm_node_12441430764",
+    "name": "Bazar Marjaane",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Alban",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6951582,
+    "lon": 1.4022723,
+    "address": "Rue des Battants 19, 31140, Saint-Alban",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12441430764"
+  },
+  {
+    "id": "immigrant_osm_node_10957052958",
+    "name": "Bazar Market 42",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4368075,
+    "lon": 4.3841092,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10957052958"
+  },
+  {
+    "id": "immigrant_osm_node_10173065070",
+    "name": "Bazar Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1631356,
+    "lon": 5.7230258,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10173065070"
+  },
+  {
+    "id": "immigrant_osm_node_11073909166",
+    "name": "Bazar Park's",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.830186,
+    "lon": 4.356353,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11073909166"
+  },
+  {
+    "id": "immigrant_osm_node_1986788047",
+    "name": "Bazar Saint-Nicolas",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6885707,
+    "lon": 6.1861507,
+    "address": "41",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1986788047"
+  },
+  {
+    "id": "immigrant_osm_node_4551628248",
+    "name": "Bazar Salama",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.1520949,
+    "lon": 6.1653181,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4551628248"
+  },
+  {
+    "id": "immigrant_osm_node_8267701818",
+    "name": "Bazar Sudanese House",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7566147,
+    "lon": 4.8478803,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8267701818"
+  },
+  {
+    "id": "immigrant_osm_way_885282221",
+    "name": "Bazar Tamarin",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -21.0656804,
+    "lon": 55.2503575,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/885282221"
+  },
+  {
+    "id": "immigrant_osm_node_1162885100",
+    "name": "Bazar Éric",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 3.8884209,
+    "lon": -51.8014253,
+    "address": "Rue Élie Elfort",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1162885100"
+  },
+  {
+    "id": "immigrant_osm_way_65069054",
+    "name": "Bazard Ouled Teima",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.6994572,
+    "lon": -0.3328894,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/65069054"
+  },
+  {
+    "id": "immigrant_osm_way_86077612",
+    "name": "Bazarland",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Miramas",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5993395,
+    "lon": 5.0033614,
+    "address": "Boulevard de France, 13140, Miramas",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/86077612"
+  },
+  {
+    "id": "immigrant_osm_node_2855846760",
+    "name": "Beryte Épicerie Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8654361,
+    "lon": 2.2845221,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2855846760"
+  },
+  {
+    "id": "immigrant_osm_node_9525446918",
+    "name": "Best Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3619113,
+    "lon": 3.5177177,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9525446918"
+  },
+  {
+    "id": "immigrant_osm_way_1004438476",
+    "name": "Best Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0496117,
+    "lon": 2.0341698,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1004438476"
+  },
+  {
+    "id": "immigrant_osm_node_2184504921",
+    "name": "Bikrampur Bangla Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.822826,
+    "lon": 2.357994,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2184504921"
+  },
+  {
+    "id": "immigrant_osm_node_6700494124",
+    "name": "Biocoop Scarabée Jacques Cartier",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://scarabee-biocoop.fr/magasins-bio/scarabee-rennes/magasin-bio-scarabee-jacques-cartier",
+    "lat": 48.0977932,
+    "lon": -1.6746467,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6700494124"
+  },
+  {
+    "id": "immigrant_osm_node_8473756720",
+    "name": "Bip Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Vichy",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1302967,
+    "lon": 3.4249077,
+    "address": "Place Pierre-Victor Léger, 03200, Vichy",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8473756720"
+  },
+  {
+    "id": "immigrant_osm_node_10940447871",
+    "name": "Bongo Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4356997,
+    "lon": 4.3887954,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10940447871"
+  },
+  {
+    "id": "immigrant_osm_node_6604435585",
+    "name": "Boura Arabia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -12.781517,
+    "lon": 45.2212484,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6604435585"
+  },
+  {
+    "id": "immigrant_osm_node_7738038185",
+    "name": "Brasil import export",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 4.9359653,
+    "lon": -52.3291281,
+    "address": "Avenue de la Liberté",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7738038185"
+  },
+  {
+    "id": "immigrant_osm_node_7297377160",
+    "name": "Chet Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://asiankitchen.fr/chet-asia/",
+    "lat": 45.993471,
+    "lon": 4.7323792,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7297377160"
+  },
+  {
+    "id": "immigrant_osm_way_1109680839",
+    "name": "Clarabio",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.9627338,
+    "lon": 4.9446179,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1109680839"
+  },
+  {
+    "id": "immigrant_osm_node_5470557359",
+    "name": "Damas Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9184138,
+    "lon": 2.399789,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5470557359"
+  },
+  {
+    "id": "immigrant_osm_way_652002707",
+    "name": "Epicerie Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.1900092,
+    "lon": 0.6550561,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/652002707"
+  },
+  {
+    "id": "immigrant_osm_node_12271576526",
+    "name": "Epicerie de produits asiatiques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.643545,
+    "lon": 0.185306,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12271576526"
+  },
+  {
+    "id": "immigrant_osm_node_13432109743",
+    "name": "Epicerie et boucherie halal Le Prince",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8075927,
+    "lon": 1.0596598,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13432109743"
+  },
+  {
+    "id": "immigrant_osm_node_6295778212",
+    "name": "Epicerie Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2418793,
+    "lon": 6.0205738,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6295778212"
+  },
+  {
+    "id": "immigrant_osm_node_5779881745",
+    "name": "Epicierie Sami Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Périgueux",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1848203,
+    "lon": 0.7106731,
+    "address": "Rue Chanzy 52, 24000, Périgueux",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5779881745"
+  },
+  {
+    "id": "immigrant_osm_node_1233403266",
+    "name": "Essor Import",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -17.530204,
+    "lon": -149.5720076,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1233403266"
+  },
+  {
+    "id": "immigrant_osm_node_2677150036",
+    "name": "Exo Africasie",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9201622,
+    "lon": 2.452331,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2677150036"
+  },
+  {
+    "id": "immigrant_osm_node_13342666161",
+    "name": "Exotique Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0332987,
+    "lon": 2.0210939,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13342666161"
+  },
+  {
+    "id": "immigrant_osm_node_5975872882",
+    "name": "Exotique LKN Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8886181,
+    "lon": 2.3540958,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5975872882"
+  },
+  {
+    "id": "immigrant_osm_node_9670557646",
+    "name": "Exotyc' Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2766667,
+    "lon": -2.2097025,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9670557646"
+  },
+  {
+    "id": "immigrant_osm_node_9383510017",
+    "name": "Family Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6072895,
+    "lon": 1.4504409,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9383510017"
+  },
+  {
+    "id": "immigrant_osm_node_697317367",
+    "name": "Fantasia (Epicerie Orientale)",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6313022,
+    "lon": 3.8209949,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/697317367"
+  },
+  {
+    "id": "immigrant_osm_node_3585282311",
+    "name": "France Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Anglet",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.france-asia.com/",
+    "lat": 43.5101579,
+    "lon": -1.5000167,
+    "address": "Avenue de l'Adour 83, 64600, Anglet",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3585282311"
+  },
+  {
+    "id": "immigrant_osm_way_63484972",
+    "name": "France Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Lons",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://france-asia.com",
+    "lat": 43.3117636,
+    "lon": -0.4246485,
+    "address": "Avenue André Marie Ampère 6, 64140, Lons",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/63484972"
+  },
+  {
+    "id": "immigrant_osm_node_1909863060",
+    "name": "fruits et légumes. Produits asiatiques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8964372,
+    "lon": 2.3390344,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1909863060"
+  },
+  {
+    "id": "immigrant_osm_node_2713674346",
+    "name": "Global Food Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Le Havre",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.globalfood-market.fr/",
+    "lat": 49.4853873,
+    "lon": 0.1320007,
+    "address": "Rue Lavoisier 14, 76600, Le Havre",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2713674346"
+  },
+  {
+    "id": "immigrant_osm_node_7492240225",
+    "name": "Halal Marché Frais",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Villecresnes",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7094173,
+    "lon": 2.5267537,
+    "address": "Rue du Salle, 94440, Villecresnes",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7492240225"
+  },
+  {
+    "id": "immigrant_osm_node_6342592890",
+    "name": "Halal market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Fleury-les-Aubrais",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.9275294,
+    "lon": 1.9184108,
+    "address": "Rue Descartes 9, 45400, Fleury-les-Aubrais",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6342592890"
+  },
+  {
+    "id": "immigrant_osm_way_52506975",
+    "name": "Hyper Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Toulouse",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.hyperasia.fr/",
+    "lat": 43.5871515,
+    "lon": 1.4089893,
+    "address": "Route de Saint-Simon 322, 31100, Toulouse",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/52506975"
+  },
+  {
+    "id": "immigrant_osm_node_4182817407",
+    "name": "Hyper Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.3151358,
+    "lon": 5.384873,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4182817407"
+  },
+  {
+    "id": "immigrant_osm_node_4406990925",
+    "name": "Hyper Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9124492,
+    "lon": 2.2251551,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4406990925"
+  },
+  {
+    "id": "immigrant_osm_node_4116951192",
+    "name": "International Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.internationalstore-42.fr/",
+    "lat": 45.4206124,
+    "lon": 4.392283,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4116951192"
+  },
+  {
+    "id": "immigrant_osm_node_7122862123",
+    "name": "International Supermarche",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1915738,
+    "lon": 6.2176032,
+    "address": "Rue de Genève 72",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7122862123"
+  },
+  {
+    "id": "immigrant_osm_way_636618960",
+    "name": "Istanbul Market Supermarché halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.2701182,
+    "lon": 4.0691472,
+    "address": "5",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/636618960"
+  },
+  {
+    "id": "immigrant_osm_node_2310467213",
+    "name": "Istanbul Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8896101,
+    "lon": 2.3601399,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2310467213"
+  },
+  {
+    "id": "immigrant_osm_node_10858064153",
+    "name": "Istanbul oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8859985,
+    "lon": 2.3818249,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10858064153"
+  },
+  {
+    "id": "immigrant_osm_node_6358024786",
+    "name": "Jaures Bazar Alimentation Générale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9145607,
+    "lon": 2.3367304,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6358024786"
+  },
+  {
+    "id": "immigrant_osm_node_6015782143",
+    "name": "JDC Africa - Le Grenier d'Afrique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8875457,
+    "lon": 2.3529978,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6015782143"
+  },
+  {
+    "id": "immigrant_osm_node_1909835869",
+    "name": "Jemil Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.895209,
+    "lon": 2.3279844,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1909835869"
+  },
+  {
+    "id": "immigrant_osm_node_12785683011",
+    "name": "K-Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.0998524,
+    "lon": 3.0800545,
+    "address": "Boulevard de Bonald 17",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12785683011"
+  },
+  {
+    "id": "immigrant_osm_node_7069885174",
+    "name": "Kanis - Produits éxotiques africains et antillais",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Denis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9468467,
+    "lon": 2.3719908,
+    "address": "Avenue de Stalingrad 88, 93200, Saint-Denis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7069885174"
+  },
+  {
+    "id": "immigrant_osm_node_3316872462",
+    "name": "Kim Duong Épicerie Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Ambilly",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1956441,
+    "lon": 6.2276933,
+    "address": "Rue du Jura 41, 74100, Ambilly",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3316872462"
+  },
+  {
+    "id": "immigrant_osm_node_1433987273",
+    "name": "Kumivai Import",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -17.5391221,
+    "lon": -149.5608227,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1433987273"
+  },
+  {
+    "id": "immigrant_osm_node_7087488069",
+    "name": "L'oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3005951,
+    "lon": 2.7467235,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7087488069"
+  },
+  {
+    "id": "immigrant_osm_node_7371301948",
+    "name": "L'Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.4466206,
+    "lon": 1.0983016,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7371301948"
+  },
+  {
+    "id": "immigrant_osm_node_12621215579",
+    "name": "L'oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3272676,
+    "lon": 3.3940836,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12621215579"
+  },
+  {
+    "id": "immigrant_osm_node_12636062277",
+    "name": "L'Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3202127,
+    "lon": 5.0337028,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12636062277"
+  },
+  {
+    "id": "immigrant_osm_node_10004165079",
+    "name": "L'oriental de Cuers",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2378397,
+    "lon": 6.0708277,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10004165079"
+  },
+  {
+    "id": "immigrant_osm_node_6418258370",
+    "name": "L'Oriental'Hyères",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.1213062,
+    "lon": 6.1302079,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6418258370"
+  },
+  {
+    "id": "immigrant_osm_node_13459717459",
+    "name": "L'Oriental'Hyères",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Hyères",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.122107,
+    "lon": 6.1309905,
+    "address": "Cours de Strasbourg 22, 83400, Hyères",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13459717459"
+  },
+  {
+    "id": "immigrant_osm_node_5715289079",
+    "name": "La Cigale Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Chamond",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4740616,
+    "lon": 4.5090887,
+    "address": "Rue des Trois Frères 1, 42400, Saint-Chamond",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5715289079"
+  },
+  {
+    "id": "immigrant_osm_node_9977259190",
+    "name": "La Lune Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8455028,
+    "lon": 2.2982659,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9977259190"
+  },
+  {
+    "id": "immigrant_osm_node_5816234654",
+    "name": "La promenade des Balkans",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Bischheim",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6134791,
+    "lon": 7.7542284,
+    "address": "Rue des Officiers 38, 67800, Bischheim",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5816234654"
+  },
+  {
+    "id": "immigrant_osm_node_6132138493",
+    "name": "Le bazar d'Aubagne",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2960057,
+    "lon": 5.5763615,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6132138493"
+  },
+  {
+    "id": "immigrant_osm_node_2038029522",
+    "name": "Le Bazar de la Plaine",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.293716,
+    "lon": 5.3853819,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2038029522"
+  },
+  {
+    "id": "immigrant_osm_way_427460009",
+    "name": "Le Bazar du Levant",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.0185635,
+    "lon": 6.4388121,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/427460009"
+  },
+  {
+    "id": "immigrant_osm_node_10567942693",
+    "name": "Le Carré Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.lecarreasiatique.com/",
+    "lat": 45.6594989,
+    "lon": 5.1057271,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10567942693"
+  },
+  {
+    "id": "immigrant_osm_node_8808107203",
+    "name": "Le P'Tit bazardier du cirque",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -21.1359455,
+    "lon": 55.4702791,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8808107203"
+  },
+  {
+    "id": "immigrant_osm_node_6068662396",
+    "name": "Le p'tit super bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Sada",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -12.8512082,
+    "lon": 45.0977468,
+    "address": "Sada",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6068662396"
+  },
+  {
+    "id": "immigrant_osm_node_8377201296",
+    "name": "Le panier oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9126878,
+    "lon": 2.3834109,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8377201296"
+  },
+  {
+    "id": "immigrant_osm_node_9691787888",
+    "name": "Le panier oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7597309,
+    "lon": 4.8946173,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9691787888"
+  },
+  {
+    "id": "immigrant_osm_node_9460733378",
+    "name": "Le Scarabée",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.7451159,
+    "lon": -3.3715488,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9460733378"
+  },
+  {
+    "id": "immigrant_osm_node_2744728123",
+    "name": "Le Sultan",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8414238,
+    "lon": 0.2167715,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2744728123"
+  },
+  {
+    "id": "immigrant_osm_node_12616311354",
+    "name": "Le Sultan Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7157917,
+    "lon": 4.7965288,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12616311354"
+  },
+  {
+    "id": "immigrant_osm_node_9907511497",
+    "name": "Le Ti Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -21.360038,
+    "lon": 55.7655119,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9907511497"
+  },
+  {
+    "id": "immigrant_osm_node_10777288003",
+    "name": "Le Ti Bazard du Coin",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -21.2920014,
+    "lon": 55.4567754,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10777288003"
+  },
+  {
+    "id": "immigrant_osm_node_7252670130",
+    "name": "Lebara Africa Bio",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8309144,
+    "lon": -0.5688105,
+    "address": "Rue Elie Gintrac 46",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7252670130"
+  },
+  {
+    "id": "immigrant_osm_node_2600858739",
+    "name": "Les Balkans",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7498698,
+    "lon": 4.8472831,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2600858739"
+  },
+  {
+    "id": "immigrant_osm_node_11469837974",
+    "name": "Les Balkans",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2799317,
+    "lon": -2.2129025,
+    "address": "Rue Jean Jaurès 64",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11469837974"
+  },
+  {
+    "id": "immigrant_osm_node_12367835191",
+    "name": "Les Balkans",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8351751,
+    "lon": -0.5696202,
+    "address": "Cours Victor Hugo 74",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12367835191"
+  },
+  {
+    "id": "immigrant_osm_node_2891436795",
+    "name": "Les Saveurs Orientales",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Maurice-de-Beynost",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.8286683,
+    "lon": 4.9749013,
+    "address": "Route de Genève 15, 01700, Saint-Maurice-de-Beynost",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2891436795"
+  },
+  {
+    "id": "immigrant_osm_node_4193166551",
+    "name": "Little Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.297917,
+    "lon": 5.3796216,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4193166551"
+  },
+  {
+    "id": "immigrant_osm_node_2720016376",
+    "name": "Lydia Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.474491,
+    "lon": 5.4980902,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2720016376"
+  },
+  {
+    "id": "immigrant_osm_node_4427581615",
+    "name": "M & D Afroshop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1810956,
+    "lon": 5.7309875,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4427581615"
+  },
+  {
+    "id": "immigrant_osm_node_11546050374",
+    "name": "M & D afroshop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.1804882,
+    "lon": 5.7320468,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11546050374"
+  },
+  {
+    "id": "immigrant_osm_node_9751698697",
+    "name": "M'africa exo",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Creil",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.2643917,
+    "lon": 2.473889,
+    "address": "Rue Gambetta 58, 60100, Creil",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9751698697"
+  },
+  {
+    "id": "immigrant_osm_node_6171351256",
+    "name": "Mach Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8750195,
+    "lon": 2.3732775,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6171351256"
+  },
+  {
+    "id": "immigrant_osm_node_2990954022",
+    "name": "Madras Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7534367,
+    "lon": 4.8457116,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2990954022"
+  },
+  {
+    "id": "immigrant_osm_node_7739962798",
+    "name": "Magasin oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.5377701,
+    "lon": 6.4674132,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7739962798"
+  },
+  {
+    "id": "immigrant_osm_node_7425712218",
+    "name": "Maison Sultanim Paris",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8666162,
+    "lon": 2.3304191,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7425712218"
+  },
+  {
+    "id": "immigrant_osm_node_2813031226",
+    "name": "Mama Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.188047,
+    "lon": 5.717172,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2813031226"
+  },
+  {
+    "id": "immigrant_osm_node_11751123818",
+    "name": "Mama B Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6111999,
+    "lon": 1.3323241,
+    "address": "Passage de la Margeride 7",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11751123818"
+  },
+  {
+    "id": "immigrant_osm_node_2963004417",
+    "name": "Mamma Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8845519,
+    "lon": 2.3651864,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2963004417"
+  },
+  {
+    "id": "immigrant_osm_node_8909909517",
+    "name": "Marché Azdal Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.858441,
+    "lon": 2.4343584,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8909909517"
+  },
+  {
+    "id": "immigrant_osm_node_5698731091",
+    "name": "Market Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://marketoriental.com/",
+    "lat": 44.7901808,
+    "lon": -0.6346469,
+    "address": "Avenue de Saige 92",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5698731091"
+  },
+  {
+    "id": "immigrant_osm_node_12091919724",
+    "name": "Market Sultan",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.703239,
+    "lon": 7.2645163,
+    "address": "Rue d'Angleterre 23",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12091919724"
+  },
+  {
+    "id": "immigrant_osm_node_8449089707",
+    "name": "Marmara Market - Boucherie Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Pontault-Combault",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7990245,
+    "lon": 2.6072045,
+    "address": "Rue des Prés Saint-Martin 3, 77340, Pontault-Combault",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8449089707"
+  },
+  {
+    "id": "immigrant_osm_node_1986788087",
+    "name": "Maxi Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.6884088,
+    "lon": 6.1865321,
+    "address": "49",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1986788087"
+  },
+  {
+    "id": "immigrant_osm_node_2409755581",
+    "name": "Maxi Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6398132,
+    "lon": 5.0770425,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2409755581"
+  },
+  {
+    "id": "immigrant_osm_node_4623812893",
+    "name": "May Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Ouangani",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -12.8480728,
+    "lon": 45.1378113,
+    "address": "Ouangani",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4623812893"
+  },
+  {
+    "id": "immigrant_osm_node_6041820491",
+    "name": "May Halal market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Sada",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": -12.848142,
+    "lon": 45.1040288,
+    "address": "Sada",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6041820491"
+  },
+  {
+    "id": "immigrant_osm_node_4419578227",
+    "name": "Mei Mei Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 5.1689921,
+    "lon": -52.6509091,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4419578227"
+  },
+  {
+    "id": "immigrant_osm_node_4003442093",
+    "name": "Mini Market Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 14.5378308,
+    "lon": -61.0340654,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4003442093"
+  },
+  {
+    "id": "immigrant_osm_node_9320493440",
+    "name": "Mini Store - Alimentation Générale - Épicerie Asiatique - Daumesnil",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.840231,
+    "lon": 2.3973306,
+    "address": "Rue Lamblardie 10, 75012, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9320493440"
+  },
+  {
+    "id": "immigrant_osm_node_5182271751",
+    "name": "N'BAZAR",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.285497,
+    "lon": 5.4418121,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5182271751"
+  },
+  {
+    "id": "immigrant_osm_node_11897204499",
+    "name": "Naija Africa Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4205222,
+    "lon": 4.3923079,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11897204499"
+  },
+  {
+    "id": "immigrant_osm_node_2729634186",
+    "name": "New Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.epiciersdefrance.org/annuaire/epicerie-new-asia-market",
+    "lat": 48.8838864,
+    "lon": 2.3594877,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2729634186"
+  },
+  {
+    "id": "immigrant_osm_node_13272071201",
+    "name": "Nimes Asian Store Rond-point Émile Victor",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.8187236,
+    "lon": 4.3486281,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13272071201"
+  },
+  {
+    "id": "immigrant_osm_node_8742500514",
+    "name": "Nina Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9747285,
+    "lon": 1.9150489,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8742500514"
+  },
+  {
+    "id": "immigrant_osm_node_7248379832",
+    "name": "Nora Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8841042,
+    "lon": 2.4033699,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7248379832"
+  },
+  {
+    "id": "immigrant_osm_node_6015820443",
+    "name": "Number One - Produits Africains",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8880135,
+    "lon": 2.3515303,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6015820443"
+  },
+  {
+    "id": "immigrant_osm_node_12995776840",
+    "name": "O Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.5874619,
+    "lon": 7.5626986,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12995776840"
+  },
+  {
+    "id": "immigrant_osm_node_1774176331",
+    "name": "O'Market - Boucherie Halal - Primeur - Épicerie",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Montélimar",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://omarket-montelimar.fr/",
+    "lat": 44.533391,
+    "lon": 4.7365452,
+    "address": "Route de Châteauneuf 122, 26200, Montélimar",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1774176331"
+  },
+  {
+    "id": "immigrant_osm_node_6749556209",
+    "name": "Oasis Boucherie Charcuterie Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.0315605,
+    "lon": 1.3736333,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6749556209"
+  },
+  {
+    "id": "immigrant_osm_node_5050724479",
+    "name": "Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8877941,
+    "lon": 2.3479841,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5050724479"
+  },
+  {
+    "id": "immigrant_osm_node_9054265534",
+    "name": "Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.3118276,
+    "lon": 5.3773854,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9054265534"
+  },
+  {
+    "id": "immigrant_osm_node_12018548689",
+    "name": "Oriental Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.0688926,
+    "lon": 1.3324626,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12018548689"
+  },
+  {
+    "id": "immigrant_osm_node_5200076523",
+    "name": "Oriental Discount",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.891854,
+    "lon": 2.3748864,
+    "address": "Rue Archereau 48, 75019, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5200076523"
+  },
+  {
+    "id": "immigrant_osm_node_3538965160",
+    "name": "Oriental Exotic",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.7991233,
+    "lon": 2.306149,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3538965160"
+  },
+  {
+    "id": "immigrant_osm_node_4437906792",
+    "name": "Oriental Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8358011,
+    "lon": 2.4052033,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4437906792"
+  },
+  {
+    "id": "immigrant_osm_node_8375257966",
+    "name": "Oriental Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9148169,
+    "lon": 2.3817555,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8375257966"
+  },
+  {
+    "id": "immigrant_osm_node_12833003240",
+    "name": "Oriental Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7306637,
+    "lon": 4.8825441,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12833003240"
+  },
+  {
+    "id": "immigrant_osm_node_9703172877",
+    "name": "Oriental Star",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Strasbourg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.565108,
+    "lon": 7.777973,
+    "address": "Rue de Soultz 34, 67100, Strasbourg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9703172877"
+  },
+  {
+    "id": "immigrant_osm_way_63322140",
+    "name": "Oriental Supermarché",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.4510877,
+    "lon": 4.4083139,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/63322140"
+  },
+  {
+    "id": "immigrant_osm_node_13415586846",
+    "name": "pan africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.9145584,
+    "lon": 6.1239984,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13415586846"
+  },
+  {
+    "id": "immigrant_osm_node_3667619597",
+    "name": "Parabio",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.662626,
+    "lon": 7.1504394,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3667619597"
+  },
+  {
+    "id": "immigrant_osm_node_9896785324",
+    "name": "Phoenix International Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.1972872,
+    "lon": 5.2166666,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9896785324"
+  },
+  {
+    "id": "immigrant_osm_way_69093050",
+    "name": "Planète Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.8420355,
+    "lon": 0.2144343,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/69093050"
+  },
+  {
+    "id": "immigrant_osm_node_10959528432",
+    "name": "Promo Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0993398,
+    "lon": 2.5229799,
+    "address": "Place Denis Papin 2",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10959528432"
+  },
+  {
+    "id": "immigrant_osm_node_7312421499",
+    "name": "Proximarché Tatou Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.9477816,
+    "lon": 5.0088779,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7312421499"
+  },
+  {
+    "id": "immigrant_osm_node_5219328093",
+    "name": "Proxy Oriental Express",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8820121,
+    "lon": 2.3637751,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5219328093"
+  },
+  {
+    "id": "immigrant_osm_node_11557085547",
+    "name": "Pti Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8912618,
+    "lon": 2.3253478,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11557085547"
+  },
+  {
+    "id": "immigrant_osm_node_2379040873",
+    "name": "Sabbah Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.809835,
+    "lon": 2.3616345,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2379040873"
+  },
+  {
+    "id": "immigrant_osm_node_4988198434",
+    "name": "Sabbah Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8860996,
+    "lon": 2.3597114,
+    "address": "Rue Marx Dormoy 22, 75018, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4988198434"
+  },
+  {
+    "id": "immigrant_osm_node_10996980644",
+    "name": "Sai AFro",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.6214143,
+    "lon": 3.0352056,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10996980644"
+  },
+  {
+    "id": "immigrant_osm_node_12483890078",
+    "name": "Saphir Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Pithiviers",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.1743834,
+    "lon": 2.2546358,
+    "address": "Rue de la Ribellerie 20, 45300, Pithiviers",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12483890078"
+  },
+  {
+    "id": "immigrant_osm_node_12245891527",
+    "name": "Sara Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Toulouse",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6063286,
+    "lon": 1.450769,
+    "address": "Rue des Sept Troubadours 25, 31000, Toulouse",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12245891527"
+  },
+  {
+    "id": "immigrant_osm_node_4312627392",
+    "name": "Sarah Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8808709,
+    "lon": 2.4194094,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4312627392"
+  },
+  {
+    "id": "immigrant_osm_node_5803491775",
+    "name": "Sarah Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8576307,
+    "lon": 2.4331214,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5803491775"
+  },
+  {
+    "id": "immigrant_osm_node_6138065317",
+    "name": "Sarah Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8558941,
+    "lon": 2.4234349,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6138065317"
+  },
+  {
+    "id": "immigrant_osm_node_3519645751",
+    "name": "SARL Imran international",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8711066,
+    "lon": 2.3792315,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3519645751"
+  },
+  {
+    "id": "immigrant_osm_node_7074407502",
+    "name": "Selim Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8964348,
+    "lon": 2.3453451,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7074407502"
+  },
+  {
+    "id": "immigrant_osm_node_2299536971",
+    "name": "Shohana Afro Asia Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7711645,
+    "lon": 4.8639638,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2299536971"
+  },
+  {
+    "id": "immigrant_osm_node_5985668233",
+    "name": "shop africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.6484309,
+    "lon": 6.8539508,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5985668233"
+  },
+  {
+    "id": "immigrant_osm_node_2450406642",
+    "name": "Shop Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6101381,
+    "lon": 1.4503195,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2450406642"
+  },
+  {
+    "id": "immigrant_osm_node_6537408291",
+    "name": "Shop La Grace Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.222347,
+    "lon": -1.5306382,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6537408291"
+  },
+  {
+    "id": "immigrant_osm_way_68885828",
+    "name": "Shoppingafrica",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Prévessin-Moëns",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.2499436,
+    "lon": 6.0902291,
+    "address": "Route du Nant 573, 01280, Prévessin-Moëns",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/68885828"
+  },
+  {
+    "id": "immigrant_osm_node_9865718009",
+    "name": "Siva Afro-Indian Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://sivamarket.fr/",
+    "lat": 45.7235894,
+    "lon": 4.8652438,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9865718009"
+  },
+  {
+    "id": "immigrant_osm_node_10598617826",
+    "name": "Sklep Polski",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.866682,
+    "lon": 2.3819824,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10598617826"
+  },
+  {
+    "id": "immigrant_osm_node_6466368546",
+    "name": "Smt Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://smtbazar94200.wixsite.com/smtbazar",
+    "lat": 48.8171749,
+    "lon": 2.3758492,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6466368546"
+  },
+  {
+    "id": "immigrant_osm_node_1312783392",
+    "name": "Soleil Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Noisiel",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8450942,
+    "lon": 2.6150617,
+    "address": "Cours des Roches 16, 77186, Noisiel",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1312783392"
+  },
+  {
+    "id": "immigrant_osm_node_2349357721",
+    "name": "SP Africain, asie, orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8891783,
+    "lon": 2.3600864,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2349357721"
+  },
+  {
+    "id": "immigrant_osm_node_1474909882",
+    "name": "Spécialités asiatiques",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.3123057,
+    "lon": 5.1118083,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1474909882"
+  },
+  {
+    "id": "immigrant_osm_node_1370818074",
+    "name": "Star Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9302258,
+    "lon": 2.3557581,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1370818074"
+  },
+  {
+    "id": "immigrant_osm_node_2921110270",
+    "name": "Star Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.885444,
+    "lon": 2.3813991,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2921110270"
+  },
+  {
+    "id": "immigrant_osm_node_7680052792",
+    "name": "Star Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8911721,
+    "lon": 2.4016483,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7680052792"
+  },
+  {
+    "id": "immigrant_osm_node_11102311919",
+    "name": "Star Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Saint-Denis",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9365781,
+    "lon": 2.3480178,
+    "address": "Rue Auguste Delaune 27, 93200, Saint-Denis",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11102311919"
+  },
+  {
+    "id": "immigrant_osm_node_11496737626",
+    "name": "Star Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9050923,
+    "lon": 2.3317127,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11496737626"
+  },
+  {
+    "id": "immigrant_osm_node_12615568801",
+    "name": "Star orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8629856,
+    "lon": 2.4192765,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12615568801"
+  },
+  {
+    "id": "immigrant_osm_node_6015782144",
+    "name": "Suez Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8875227,
+    "lon": 2.3528986,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6015782144"
+  },
+  {
+    "id": "immigrant_osm_node_9160585094",
+    "name": "Sultan",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 46.6693339,
+    "lon": -1.4261757,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/9160585094"
+  },
+  {
+    "id": "immigrant_osm_node_13419164301",
+    "name": "Super Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.super-asia.fr/",
+    "lat": 43.2177266,
+    "lon": 0.0568228,
+    "address": "Avenue Aristide Briand 101, 65100",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13419164301"
+  },
+  {
+    "id": "immigrant_osm_node_11178815287",
+    "name": "Super Food Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2698968,
+    "lon": -1.5193538,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11178815287"
+  },
+  {
+    "id": "immigrant_osm_node_12925544704",
+    "name": "Super Souk Halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 42.6447317,
+    "lon": 9.4393701,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/12925544704"
+  },
+  {
+    "id": "immigrant_osm_way_42415311",
+    "name": "Supermarché & Boucherie Halal Aksaray",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Strasbourg",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5801298,
+    "lon": 7.7206965,
+    "address": "Route des Romains 9, 67200, Strasbourg",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/42415311"
+  },
+  {
+    "id": "immigrant_osm_node_8165530517",
+    "name": "Supermarché asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7540757,
+    "lon": 4.8419675,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8165530517"
+  },
+  {
+    "id": "immigrant_osm_way_137142955",
+    "name": "supermarché asiatique LY",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.447148,
+    "lon": 1.448263,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/137142955"
+  },
+  {
+    "id": "immigrant_osm_node_13017708190",
+    "name": "Supermarché asiatique Nong",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8520443,
+    "lon": 2.3994518,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13017708190"
+  },
+  {
+    "id": "immigrant_osm_node_4382424606",
+    "name": "Supermarché asiatique Xiong",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Dammarie-les-Lys",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.5295151,
+    "lon": 2.6436244,
+    "address": "Rue des Frères Thibault 347, 77190, Dammarie-les-Lys",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4382424606"
+  },
+  {
+    "id": "immigrant_osm_node_13120039229",
+    "name": "Supermarché et Boucherie Halal Gortat Market",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Montélimar",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/Gortat-Montelimar-1100797310121940",
+    "lat": 44.5423535,
+    "lon": 4.7472254,
+    "address": "Rue du Maréchal Leclerc 1, 26200, Montélimar",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13120039229"
+  },
+  {
+    "id": "immigrant_osm_node_4970989605",
+    "name": "Supermarché halal",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.4083426,
+    "lon": 6.0484658,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4970989605"
+  },
+  {
+    "id": "immigrant_osm_node_8126748622",
+    "name": "Supermarché International",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7525326,
+    "lon": 4.8406248,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8126748622"
+  },
+  {
+    "id": "immigrant_osm_node_4694328760",
+    "name": "Supermarché Oriental",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.5554318,
+    "lon": -0.2479764,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4694328760"
+  },
+  {
+    "id": "immigrant_osm_way_95731549",
+    "name": "Supermarché oriental de nantes",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Orvault",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.facebook.com/people/Supermarch%C3%A9-oriental-de-nantes/61560481805565/",
+    "lat": 47.2552095,
+    "lon": -1.61897,
+    "address": "Rue du Commandant Charcot 16, 44700, Orvault",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/95731549"
+  },
+  {
+    "id": "immigrant_osm_node_5978202123",
+    "name": "Supérette Africaine",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8879678,
+    "lon": 2.3510454,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5978202123"
+  },
+  {
+    "id": "immigrant_osm_node_7727205587",
+    "name": "Supérette Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 50.3571914,
+    "lon": 3.2784161,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7727205587"
+  },
+  {
+    "id": "immigrant_osm_node_635872122",
+    "name": "Sweet rice épicerie asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.6150441,
+    "lon": 3.87724,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/635872122"
+  },
+  {
+    "id": "immigrant_osm_node_7356405529",
+    "name": "Tatta Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.0488359,
+    "lon": 2.0340037,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/7356405529"
+  },
+  {
+    "id": "immigrant_osm_node_10536811805",
+    "name": "Thaï Asia Shop",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 43.2382429,
+    "lon": 0.0366745,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/10536811805"
+  },
+  {
+    "id": "immigrant_osm_way_943631313",
+    "name": "Thoune Asia 87",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "http://www.thouneasia.fr",
+    "lat": 45.8802315,
+    "lon": 1.2945899,
+    "address": "Rue des Sabines 1",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/943631313"
+  },
+  {
+    "id": "immigrant_osm_node_428032271",
+    "name": "Top Asia",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Paris",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8485694,
+    "lon": 2.3787232,
+    "address": "Place d'Aligre 15, 75012, Paris",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/428032271"
+  },
+  {
+    "id": "immigrant_osm_node_3181290129",
+    "name": "Top Food Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.3003126,
+    "lon": 4.0651901,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3181290129"
+  },
+  {
+    "id": "immigrant_osm_node_1652874160",
+    "name": "Traiteur asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.2097256,
+    "lon": -1.550444,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/1652874160"
+  },
+  {
+    "id": "immigrant_osm_node_6015820433",
+    "name": "Trio Africa",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8876745,
+    "lon": 2.3524256,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6015820433"
+  },
+  {
+    "id": "immigrant_osm_way_1322517153",
+    "name": "Xiong Supermarché Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.8217462,
+    "lon": 3.557059,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/1322517153"
+  },
+  {
+    "id": "immigrant_osm_node_13160584106",
+    "name": "Zervmary Afro Plus Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.zervmaryafroplusstore.com",
+    "lat": 49.1113292,
+    "lon": 6.179393,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/13160584106"
+  },
+  {
+    "id": "immigrant_osm_node_4686173038",
+    "name": "ZervMary Afroplus Store",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.zervmaryafroplusstore.com",
+    "lat": 49.1177384,
+    "lon": 6.1824821,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4686173038"
+  },
+  {
+    "id": "immigrant_osm_node_3357953603",
+    "name": "Électricité bricolage bazar valise maison",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.894129,
+    "lon": 2.3336134,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/3357953603"
+  },
+  {
+    "id": "immigrant_osm_node_6007337356",
+    "name": "Épicerie Africaine",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.8879866,
+    "lon": 2.3535984,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6007337356"
+  },
+  {
+    "id": "immigrant_osm_node_11154327510",
+    "name": "Épicerie africaine Euréka",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.epicerie-africaine-eureka.fr/",
+    "lat": 45.5845428,
+    "lon": 5.275712,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/11154327510"
+  },
+  {
+    "id": "immigrant_osm_node_2106285288",
+    "name": "Épicerie Arabe",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 49.3057609,
+    "lon": 6.1025489,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/2106285288"
+  },
+  {
+    "id": "immigrant_osm_node_4744004713",
+    "name": "Épicerie asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 44.5603872,
+    "lon": 6.0800866,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4744004713"
+  },
+  {
+    "id": "immigrant_osm_node_4304736804",
+    "name": "Épicerie Asiatique Ding Dang",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Aix-en-Provence",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://fr-fr.facebook.com/dingdangaix",
+    "lat": 43.5252763,
+    "lon": 5.4436355,
+    "address": "Rue Lapierre 1, 13100, Aix-en-Provence",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4304736804"
+  },
+  {
+    "id": "immigrant_osm_node_4360304297",
+    "name": "Épicerie Fine Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9025779,
+    "lon": 2.3036447,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/4360304297"
+  },
+  {
+    "id": "immigrant_osm_node_8267702018",
+    "name": "Épicerie Générale Bazar Bert",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 45.7566585,
+    "lon": 4.8480451,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/8267702018"
+  },
+  {
+    "id": "immigrant_osm_node_5664569096",
+    "name": "Épicerie Orientale",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 48.9179882,
+    "lon": 2.418011,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/5664569096"
+  },
+  {
+    "id": "immigrant_osm_node_6017750888",
+    "name": "Épicerie Soudan Bazar",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": null,
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 47.220041,
+    "lon": -1.5594302,
+    "address": null,
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6017750888"
+  },
+  {
+    "id": "immigrant_osm_node_6974234244",
+    "name": "Épicerie Uni-Asiatique",
+    "country": "Frankrike",
+    "countryCode": "FR",
+    "region": null,
+    "municipality": "Annecy",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": "https://www.uniasiatique.com/",
+    "lat": 45.9067857,
+    "lon": 6.1124553,
+    "address": "Avenue de la République 16, 74960, Annecy",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/node/6974234244"
+  }
+]

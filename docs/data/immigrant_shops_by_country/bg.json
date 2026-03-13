@@ -1,0 +1,20 @@
+[
+  {
+    "id": "immigrant_osm_way_325749965",
+    "name": "Bazaar",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "region": "Средец",
+    "municipality": "София",
+    "products": [
+      "International food",
+      "Imported goods"
+    ],
+    "website": null,
+    "lat": 42.6919611,
+    "lon": 23.3307867,
+    "address": "Bazaar, 28, Славянска, Център, София, Средец, Столична, София-град, 1000, България",
+    "category": "Innvandrerbutikk",
+    "source": "https://www.openstreetmap.org/way/325749965"
+  }
+]
