@@ -4718,20 +4718,8 @@ out center tags 150;
     await ensureShopScope(restoreCode);
     await populateRegions(restoreCode);
     await populateMunicipalities(restoreCode, '');
-    await filterShops();
-
-    // Centre map on user position (zoom 10) or Norway fallback (zoom 5).
-    const resetLat = userPosition?.lat ?? 59.9;
-    const resetLon = userPosition?.lon ?? 10.7;
-    const resetZoom = userPosition ? 10 : 5;
-    if (map) {
-      if (mapProvider === 'google') {
-        map.setCenter({ lat: resetLat, lng: resetLon });
-        map.setZoom(resetZoom);
-      } else {
-        map.setView([resetLat, resetLon], resetZoom);
-      }
-    }
+    // filterShops → fitMapToMarkers will fitBounds to the country's markers automatically.
+    filterShops();
   });
 
   document.getElementById('routeBtn').addEventListener('click', () => {
