@@ -130,7 +130,7 @@
     NL: ['Noord-Holland', 'Zuid-Holland', 'Utrecht', 'Gelderland', 'Noord-Brabant', 'Limburg'],
     BE: ['Vlaanderen', 'Wallonie', 'Bruxelles-Capitale'],
     FR: ['Île-de-France', 'Normandie', 'Bretagne', 'Nouvelle-Aquitaine', 'Occitanie', 'Auvergne-Rhône-Alpes', 'Provence-Alpes-Côte d’Azur'],
-    IT: ['Lombardia', 'Piemonte', 'Veneto', 'Emilia-Romagna', 'Toscana', 'Lazio', 'Sicilia'],
+    IT: ['Abruzzo', 'Basilicata', 'Calabria', 'Campania', 'Emilia-Romagna', 'Friuli-Venezia Giulia', 'Lazio', 'Liguria', 'Lombardia', 'Marche', 'Molise', 'Piemonte', 'Puglia', 'Sardegna', 'Sicilia', 'Toscana', 'Trentino-Alto Adige', 'Umbria', "Valle d'Aosta", 'Veneto'],
     PT: ['Norte', 'Centro', 'Lisboa', 'Alentejo', 'Algarve'],
     ES: ['Andalucía', 'Cataluña', 'Comunidad de Madrid', 'Comunitat Valenciana', 'Galicia', 'País Vasco'],
     GB: ['England', 'Scotland', 'Wales', 'Northern Ireland'],
