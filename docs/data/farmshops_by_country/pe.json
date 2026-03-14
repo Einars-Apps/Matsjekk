@@ -367,19 +367,6 @@
     "source": "osm"
   },
   {
-    "id": 5022643104,
-    "name": "Distribuidora Elena",
-    "country": "Peru",
-    "region": "Costa Central",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -13.4162415,
-    "lon": -76.1394701,
-    "address": "Calle Mariscal Benavides",
-    "source": "osm"
-  },
-  {
     "id": 5022663720,
     "name": "La Plazuela",
     "country": "Peru",

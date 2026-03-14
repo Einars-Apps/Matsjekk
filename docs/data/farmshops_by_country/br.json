@@ -5451,19 +5451,6 @@
     "source": "osm"
   },
   {
-    "id": 11034676539,
-    "name": "Distribuidora de Bebidas Caxias",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -29.8399981,
-    "lon": -50.0598559,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 11036491784,
     "name": "Casa do Queijo de Uruquê",
     "country": "Brazil",
@@ -8939,20 +8926,6 @@
     "source": "osm"
   },
   {
-    "id": 717677169,
-    "name": "Distribuidora de Bananas Nicolau",
-    "country": "Brazil",
-    "region": "Sao Paulo",
-    "municipality": "São Paulo",
-    "products": [],
-    "website": null,
-    "lat": -23.4688902,
-    "lon": -46.629711,
-    "address": "Avenida Capitão José Parada Gonçalves 60, 02418-140",
-    "source": "osm",
-    "phone": "+55 11 2204-2919"
-  },
-  {
     "id": 734436784,
     "name": "Vinícola Araucária",
     "country": "Brazil",
@@ -9638,20 +9611,6 @@
     "lon": -46.6460465,
     "address": "Avenida Paulista 171, 01311-000",
     "source": "osm"
-  },
-  {
-    "id": 1092725718,
-    "name": "Kero Só Coco Distribuidora de Água de Coco",
-    "country": "Brazil",
-    "region": "Bahia",
-    "municipality": "Anguera",
-    "products": [],
-    "website": null,
-    "lat": -12.1652417,
-    "lon": -39.2406788,
-    "address": "BA-052 - Estrada do Feijão km 28, 44670-000",
-    "source": "osm",
-    "phone": "75 9.8205-0027"
   },
   {
     "id": 1092736950,

@@ -723,19 +723,6 @@
     "phone": "+54 249 444-8750; +54 249 444-0267"
   },
   {
-    "id": 3966230233,
-    "name": "Quesos Don Atilio Mayorista",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -37.3196624,
-    "lon": -59.104509,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 3966230234,
     "name": "Quesos Don Atilio (Regionales)",
     "country": "Argentina",
@@ -2439,19 +2426,6 @@
     "website": null,
     "lat": -34.6484402,
     "lon": -58.498796,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 4684288223,
-    "name": "Distribuidora Naon",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.6523093,
-    "lon": -58.5157932,
     "address": null,
     "source": "osm"
   },
@@ -7408,19 +7382,6 @@
     "source": "osm"
   },
   {
-    "id": 9563271580,
-    "name": "Distribuidora MGB",
-    "country": "Argentina",
-    "region": "Cordoba",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -32.4114952,
-    "lon": -63.2358932,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9570087092,
     "name": "Ottavio",
     "country": "Argentina",
@@ -7893,19 +7854,6 @@
     "source": "osm"
   },
   {
-    "id": 9989190909,
-    "name": "Distribuidora Diógenes",
-    "country": "Argentina",
-    "region": "Misiones",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -27.3942036,
-    "lon": -55.9015768,
-    "address": "Avenida Comandante Rosales 2210",
-    "source": "osm"
-  },
-  {
     "id": 10007602884,
     "name": "Lagar",
     "country": "Argentina",
@@ -8287,19 +8235,6 @@
     "lat": -31.5325354,
     "lon": -68.547188,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 10665977197,
-    "name": "Distribuidora Albarracin",
-    "country": "Argentina",
-    "region": "San Juan",
-    "municipality": "San Juan",
-    "products": [],
-    "website": null,
-    "lat": -31.5225124,
-    "lon": -68.5249216,
-    "address": "Juan Jufré 150 (E), J5400BND",
     "source": "osm"
   },
   {
@@ -12916,32 +12851,6 @@
     "source": "osm"
   },
   {
-    "id": 453432175,
-    "name": "PUESTO N°30 Distriver S.A.",
-    "country": "Argentina",
-    "region": "Entre Rios",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -31.5596779,
-    "lon": -60.7475293,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 453432176,
-    "name": "PUESTO N°31 Distriver S.A.",
-    "country": "Argentina",
-    "region": "Entre Rios",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -31.5596944,
-    "lon": -60.7474521,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 453432177,
     "name": "PUESTO N°32 Ypora",
     "country": "Argentina",
@@ -14762,19 +14671,6 @@
     "source": "osm"
   },
   {
-    "id": 473881218,
-    "name": "Distribuidora La Fiambrería",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": "Ciudad Autónoma de Buenos Aires",
-    "products": [],
-    "website": null,
-    "lat": -34.6305467,
-    "lon": -58.5037011,
-    "address": "Avenida Lope de Vega",
-    "source": "osm"
-  },
-  {
     "id": 475162535,
     "name": "Maricré",
     "country": "Argentina",
@@ -14889,19 +14785,6 @@
     "lat": -32.7316513,
     "lon": -68.6135357,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 540543299,
-    "name": "Distribuidora Mr",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.7399131,
-    "lon": -58.2746505,
-    "address": "Felipe Amoedo 1870",
     "source": "osm"
   },
   {

@@ -104,32 +104,6 @@
     "source": "osm"
   },
   {
-    "id": 2836976769,
-    "name": "Distribuidora de quesos",
-    "country": "Venezuela",
-    "region": "Centro",
-    "municipality": "Caracas",
-    "products": [],
-    "website": null,
-    "lat": 10.4901852,
-    "lon": -66.9379447,
-    "address": "Sucre, 1020",
-    "source": "osm"
-  },
-  {
-    "id": 3062016791,
-    "name": "Distribuidora de quesos",
-    "country": "Venezuela",
-    "region": "Centro",
-    "municipality": "Caracas",
-    "products": [],
-    "website": null,
-    "lat": 10.4907419,
-    "lon": -66.937131,
-    "address": "2ª Transversal de Los Molinos, 1020",
-    "source": "osm"
-  },
-  {
     "id": 3125303057,
     "name": "El Bodegón de Texas",
     "country": "Venezuela",
@@ -245,19 +219,6 @@
     "lat": 11.6868755,
     "lon": -70.2070453,
     "address": "Calle Bella Vista, 4102",
-    "source": "osm"
-  },
-  {
-    "id": 5401631498,
-    "name": "Vinissimos Distribuidora C.A.",
-    "country": "Venezuela",
-    "region": "Oeste",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 8.5610712,
-    "lon": -71.1935134,
-    "address": "Avenida Andres Bello",
     "source": "osm"
   },
   {
@@ -652,18 +613,5 @@
     "address": "Calle Neverí 03",
     "source": "osm",
     "phone": "+58 286-7178266"
-  },
-  {
-    "id": 1059947821,
-    "name": "Distribuidora Hormann Durr",
-    "country": "Venezuela",
-    "region": "Centro",
-    "municipality": "Caracas",
-    "products": [],
-    "website": null,
-    "lat": 10.493829,
-    "lon": -66.7870304,
-    "address": "Carretera Vieja Caracas - Guarenas, 1073",
-    "source": "osm"
   }
 ]
