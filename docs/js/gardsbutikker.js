@@ -2845,7 +2845,7 @@
 
   function initLeafletMap() {
     mapProvider = 'leaflet';
-    map = L.map('map').setView([59.9, 10.7], 5);
+    map = L.map('map', { minZoom: 4 }).setView([59.9, 10.7], 5);
     window._leafletMap = map;
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -2859,6 +2859,7 @@
     map = new google.maps.Map(mapEl, {
       center: { lat: 59.9, lng: 10.7 },
       zoom: 5,
+      minZoom: 4,
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: true,
@@ -2926,6 +2927,7 @@
       const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
       const countryCode = normalizeCountryCode(geo?.countryCode || '');
       if (!countryCode) return false;
+      if (!userDetectedCountryCode) userDetectedCountryCode = countryCode;
 
       const hasCountry = [...countrySelect.options].some((option) => option.value === countryCode);
       if (!hasCountry) return false;
@@ -4710,16 +4712,15 @@ out center tags 150;
     if (sortSelect) sortSelect.value = 'name_asc';
     if (nearRadiusSelect) nearRadiusSelect.value = '50';
 
-    // Restore to the country the user is physically in (if detected),
-    // otherwise keep whatever country was selected, otherwise clear.
+    // Restore to the country the device is physically in (if known), else keep current.
     const restoreCode = userDetectedCountryCode || countrySelect.value || '';
     countrySelect.value = restoreCode;
     await ensureShopScope(restoreCode);
     await populateRegions(restoreCode);
     await populateMunicipalities(restoreCode, '');
-    filterShops();
+    await filterShops();
 
-    // Centre map on user position or detected-country capital / Norway fallback
+    // Centre map on user position (zoom 10) or Norway fallback (zoom 5).
     const resetLat = userPosition?.lat ?? 59.9;
     const resetLon = userPosition?.lon ?? 10.7;
     const resetZoom = userPosition ? 10 : 5;
