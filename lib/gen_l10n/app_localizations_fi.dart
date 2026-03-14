@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -36,8 +36,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get howAppWorks => 'Kuinka sovellus toimii';
 
   @override
-  String get appDescription =>
-      'Sovellus käyttää Open Food Facts -tietokantaa ja sisäistä merkkilistaa havaitakseen tuotteita, joissa voi olla Bovaer, hyönteislantaa, GMO-rehua ja muita kiistanalaisia aineosia.';
+  String get appDescription => 'Sovellus käyttää Open Food Facts -tietokantaa ja sisäistä merkkilistaa havaitakseen tuotteita, joissa voi olla Bovaer, hyönteislantaa, GMO-rehua ja muita kiistanalaisia aineosia.';
 
   @override
   String get alerts => 'Valitse hälytykset';
@@ -184,20 +183,16 @@ class AppLocalizationsFi extends AppLocalizations {
   String get noAdditionsFound => 'Ei E-aineita tietokannassa.';
 
   @override
-  String get disclaimer =>
-      'Vastuuvapaus: Tämä tieto on ohjeellinen ja perustuu julkisesti saatavilla olevaan dataan. Tarkista tuotteen pakkauksesta tai ota yhteyttä valmistajaan saadaksesi 100% tarkan tiedon.';
+  String get disclaimer => 'Vastuuvapaus: Tämä tieto on ohjeellinen ja perustuu julkisesti saatavilla olevaan dataan. Tarkista tuotteen pakkauksesta tai ota yhteyttä valmistajaan saadaksesi 100% tarkan tiedon.';
 
   @override
-  String get bovaerHighRisk =>
-      'KORKEA RISKI: Tämä merkki on vahvistettu Bovaer-käyttäjä tai kuuluu sellaiselle valmistajalle.';
+  String get bovaerHighRisk => 'KORKEA RISKI: Tämä merkki on vahvistettu Bovaer-käyttäjä tai kuuluu sellaiselle valmistajalle.';
 
   @override
-  String get gmoHighRisk =>
-      'KORKEA RISKI: Valmistaja liittyy GMO-rehun käyttöön.';
+  String get gmoHighRisk => 'KORKEA RISKI: Valmistaja liittyy GMO-rehun käyttöön.';
 
   @override
-  String get bovaerPossibleRisk =>
-      'EPÄVARMA: Tuote voi sisältää maitoa meijeristä, joka vastaanottaa maitoa Bovaer-tiloilta.';
+  String get bovaerPossibleRisk => 'EPÄVARMA: Tuote voi sisältää maitoa meijeristä, joka vastaanottaa maitoa Bovaer-tiloilta.';
 
   @override
   String get safeProduct => 'TURVALLINEN: Tuote on luomusertifioitu.';
@@ -212,8 +207,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get deleteListConfirmTitle => 'Poistetaanko lista?';
 
   @override
-  String get deleteListConfirmMessage =>
-      'Haluatko varmasti poistaa? Tämä poistaa myös listan historian.';
+  String get deleteListConfirmMessage => 'Haluatko varmasti poistaa? Tämä poistaa myös listan historian.';
 
   @override
   String get unknownProduct => 'Tuntematon tuote';

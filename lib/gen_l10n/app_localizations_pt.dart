@@ -1,4 +1,4 @@
-﻿// ignore: unused_import
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -36,8 +36,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get howAppWorks => 'Como o app obtém informações';
 
   @override
-  String get appDescription =>
-      'O app usa Open Food Facts e uma lista interna de marcas para identificar produtos com Bovaer, farinha de insetos, ração transgênica e outros ingredientes controversos.';
+  String get appDescription => 'O app usa Open Food Facts e uma lista interna de marcas para identificar produtos com Bovaer, farinha de insetos, ração transgênica e outros ingredientes controversos.';
 
   @override
   String get alerts => 'Selecionar alertas';
@@ -64,15 +63,13 @@ class AppLocalizationsPt extends AppLocalizations {
   String get unknown => 'DESCONHECIDO';
 
   @override
-  String get bovaerRiskDesc =>
-      'O produtor está diretamente vinculado ao Bovaer.';
+  String get bovaerRiskDesc => 'O produtor está diretamente vinculado ao Bovaer.';
 
   @override
   String get insectMealRiskDesc => 'O produto pode conter farinha de insetos.';
 
   @override
-  String get gmoFishRiskDesc =>
-      'O produtor está vinculado ao uso de ração transgênica.';
+  String get gmoFishRiskDesc => 'O produtor está vinculado ao uso de ração transgênica.';
 
   @override
   String get safeDesc => 'O produto é certificado como orgânico.';
@@ -183,24 +180,19 @@ class AppLocalizationsPt extends AppLocalizations {
   String get identifiedAdditions => 'Aditivos E identificados';
 
   @override
-  String get noAdditionsFound =>
-      'Nenhum aditivo E encontrado no banco de dados.';
+  String get noAdditionsFound => 'Nenhum aditivo E encontrado no banco de dados.';
 
   @override
-  String get disclaimer =>
-      'Aviso de reséva: Esta informação é apenas orientativa e baseada em dados disponíveis publicamente. Para informações 100% precisas, consulte a embalagem do produto ou entre em contato com o fabricante.';
+  String get disclaimer => 'Aviso de reséva: Esta informação é apenas orientativa e baseada em dados disponíveis publicamente. Para informações 100% precisas, consulte a embalagem do produto ou entre em contato com o fabricante.';
 
   @override
-  String get bovaerHighRisk =>
-      'RISCO ALTO: A marca é utilizadora confirmada de Bovaer ou pertence a um produtor que o é.';
+  String get bovaerHighRisk => 'RISCO ALTO: A marca é utilizadora confirmada de Bovaer ou pertence a um produtor que o é.';
 
   @override
-  String get gmoHighRisk =>
-      'RISCO ALTO: O produtor está vinculado ao uso de ração transgénica.';
+  String get gmoHighRisk => 'RISCO ALTO: O produtor está vinculado ao uso de ração transgénica.';
 
   @override
-  String get bovaerPossibleRisk =>
-      'INCERTO: O produto pode conter leite de um laticínio que recebe leite de explorações com Bovaer.';
+  String get bovaerPossibleRisk => 'INCERTO: O produto pode conter leite de um laticínio que recebe leite de explorações com Bovaer.';
 
   @override
   String get safeProduct => 'SEGURO: O produto é certificado como orgânico.';
@@ -215,8 +207,7 @@ class AppLocalizationsPt extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage =>
-      'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';
