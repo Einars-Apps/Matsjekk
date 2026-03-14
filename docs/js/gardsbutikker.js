@@ -2703,6 +2703,61 @@
   let googleEmbedIframe = null;
   let pendingSearchCenter = null;
 
+  // Approximate bounding boxes per country for map reset (south, west, north, east)
+  const COUNTRY_BBOX = {
+    NO: [57.0,  4.0, 71.5, 31.5],
+    SE: [55.0, 10.5, 69.5, 24.5],
+    DK: [54.5,  8.0, 58.0, 15.5],
+    FI: [59.5, 19.0, 70.5, 31.5],
+    DE: [47.0,  5.5, 55.5, 15.5],
+    NL: [50.5,  3.2, 53.8,  7.5],
+    BE: [49.4,  2.5, 51.5,  6.5],
+    FR: [41.0, -5.5, 51.5,  9.7],
+    IT: [35.5,  6.5, 47.5, 18.8],
+    ES: [35.9,-10.0, 44.5,  4.6],
+    PT: [36.8, -9.6, 42.2, -6.2],
+    AT: [46.3,  9.5, 49.1, 17.2],
+    CH: [45.8,  5.9, 47.9, 10.6],
+    LU: [49.4,  5.7, 50.2,  6.6],
+    LI: [47.0,  9.4, 47.3,  9.7],
+    GB: [49.8,-11.0, 61.5,  2.2],
+    IE: [51.2,-10.7, 55.5, -5.9],
+    PL: [49.0, 14.0, 55.0, 24.2],
+    CZ: [48.5, 12.0, 51.1, 18.9],
+    SK: [47.7, 16.8, 49.7, 22.6],
+    HU: [45.6, 15.8, 49.1, 23.1],
+    RO: [43.5, 20.2, 48.4, 30.1],
+    BG: [41.0, 22.0, 44.5, 29.0],
+    EE: [57.5, 21.5, 60.0, 28.5],
+    LV: [55.5, 20.8, 58.1, 28.7],
+    LT: [53.8, 20.9, 56.5, 26.9],
+    HR: [42.3, 13.3, 46.9, 19.5],
+    SI: [45.4, 13.4, 47.0, 16.6],
+    RS: [41.8, 18.8, 46.2, 23.0],
+    BA: [42.5, 15.7, 45.3, 19.7],
+    ME: [41.8, 18.4, 43.6, 20.4],
+    MK: [40.8, 20.4, 42.4, 23.0],
+    AL: [39.6, 19.1, 42.7, 21.1],
+    GR: [34.8, 19.4, 42.0, 28.4],
+    IS: [63.2,-25.0, 66.7,-12.8],
+    GL: [59.5,-73.0, 83.5,-12.0],
+    US: [24.0,-125.0, 49.5,-66.5],
+    CA: [41.5,-141.0, 84.0,-52.5],
+    AU: [-44.0, 112.9,-10.0, 154.0],
+    NZ: [-47.5, 166.3,-34.0, 178.7],
+    BR: [-34.0,-74.0,  5.5,-28.5],
+    AR: [-55.5,-73.6,-21.5,-53.5],
+    UY: [-35.0,-58.5,-30.0,-53.0],
+    PY: [-27.9,-62.7,-19.3,-54.2],
+    CL: [-56.0,-76.0,-17.4,-66.0],
+    CO: [ -4.4,-79.0, 13.0,-66.5],
+    PE: [-18.5,-81.5, -0.0,-68.5],
+    VE: [  0.6,-73.5, 12.5,-59.5],
+    EC: [ -5.1,-81.1,  1.5,-75.0],
+    BO: [-23.0,-69.7, -9.5,-57.5],
+    CY: [34.5, 32.2, 35.8, 34.7],
+  };
+
   function setMapStatus(message) {
     if (!mapStatusEl) return;
     mapStatusEl.textContent = message || '';
@@ -4718,8 +4773,16 @@ out center tags 150;
     await ensureShopScope(restoreCode);
     await populateRegions(restoreCode);
     await populateMunicipalities(restoreCode, '');
-    // filterShops → fitMapToMarkers will fitBounds to the country's markers automatically.
     filterShops();
+    // Fit map to the whole country bbox, not just the 500 visible markers.
+    if (map && restoreCode && COUNTRY_BBOX[restoreCode]) {
+      const [south, west, north, east] = COUNTRY_BBOX[restoreCode];
+      if (mapProvider === 'google') {
+        map.fitBounds({ south, west, north, east });
+      } else {
+        map.fitBounds([[south, west], [north, east]]);
+      }
+    }
   });
 
   document.getElementById('routeBtn').addEventListener('click', () => {
