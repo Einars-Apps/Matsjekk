@@ -473,6 +473,7 @@
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
+  let userDetectedCountryCode = '';
   let activeNearRadiusKm = null;
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = true;
   const ENABLE_LIVE_ENRICHMENT = false;
@@ -2660,6 +2661,13 @@
   function setUserPosition(lat, lon) {
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
     userPosition = { lat, lon };
+    // Fire-and-forget: detect country so reset can restore it
+    if (!userDetectedCountryCode) {
+      reverseGeocodeMunicipality(lat, lon).then((geo) => {
+        const code = normalizeCountryCode(geo?.countryCode || '');
+        if (code) userDetectedCountryCode = code;
+      }).catch(() => {});
+    }
   }
 
   function addDistanceFromUser(items) {
@@ -4696,18 +4704,22 @@ out center tags 150;
 
   document.getElementById('resetBtn').addEventListener('click', async () => {
     activeNearRadiusKm = null;
-    countrySelect.value = '';
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
     if (sortSelect) sortSelect.value = 'name_asc';
     if (nearRadiusSelect) nearRadiusSelect.value = '50';
-    await ensureShopScope('');
-    await populateRegions('');
-    await populateMunicipalities('', '');
+
+    // Restore to the country the user is physically in (if detected),
+    // otherwise keep whatever country was selected, otherwise clear.
+    const restoreCode = userDetectedCountryCode || countrySelect.value || '';
+    countrySelect.value = restoreCode;
+    await ensureShopScope(restoreCode);
+    await populateRegions(restoreCode);
+    await populateMunicipalities(restoreCode, '');
     filterShops();
-    // Explicitly return map to user position or Norway — avoids world-wrapping
-    // after "Finn nær min posisjon" loaded global Overpass results.
+
+    // Centre map on user position or detected-country capital / Norway fallback
     const resetLat = userPosition?.lat ?? 59.9;
     const resetLon = userPosition?.lon ?? 10.7;
     const resetZoom = userPosition ? 10 : 5;
