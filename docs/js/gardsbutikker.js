@@ -130,7 +130,7 @@
     NL: ['Noord-Holland', 'Zuid-Holland', 'Utrecht', 'Gelderland', 'Noord-Brabant', 'Limburg'],
     BE: ['Vlaanderen', 'Wallonie', 'Bruxelles-Capitale'],
     FR: ['Île-de-France', 'Normandie', 'Bretagne', 'Nouvelle-Aquitaine', 'Occitanie', 'Auvergne-Rhône-Alpes', 'Provence-Alpes-Côte d’Azur'],
-    IT: ['Lombardia', 'Piemonte', 'Veneto', 'Emilia-Romagna', 'Toscana', 'Lazio', 'Sicilia'],
+    IT: ['Abruzzo', 'Basilicata', 'Calabria', 'Campania', 'Emilia-Romagna', 'Friuli-Venezia Giulia', 'Lazio', 'Liguria', 'Lombardia', 'Marche', 'Molise', 'Piemonte', 'Puglia', 'Sardegna', 'Sicilia', 'Toscana', 'Trentino-Alto Adige', 'Umbria', "Valle d'Aosta", 'Veneto'],
     PT: ['Norte', 'Centro', 'Lisboa', 'Alentejo', 'Algarve'],
     ES: ['Andalucía', 'Cataluña', 'Comunidad de Madrid', 'Comunitat Valenciana', 'Galicia', 'País Vasco'],
     GB: ['England', 'Scotland', 'Wales', 'Northern Ireland'],
@@ -473,6 +473,7 @@
   let regionPopulateRequestId = 0;
   let municipalityPopulateRequestId = 0;
   let userPosition = null;
+  let userDetectedCountryCode = '';
   let activeNearRadiusKm = null;
   const ENABLE_AUTO_COUNTRY_FROM_POSITION = true;
   const ENABLE_LIVE_ENRICHMENT = false;
@@ -2660,6 +2661,13 @@
   function setUserPosition(lat, lon) {
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) return;
     userPosition = { lat, lon };
+    // Fire-and-forget: detect country so reset can restore it
+    if (!userDetectedCountryCode) {
+      reverseGeocodeMunicipality(lat, lon).then((geo) => {
+        const code = normalizeCountryCode(geo?.countryCode || '');
+        if (code) userDetectedCountryCode = code;
+      }).catch(() => {});
+    }
   }
 
   function addDistanceFromUser(items) {
@@ -2837,7 +2845,7 @@
 
   function initLeafletMap() {
     mapProvider = 'leaflet';
-    map = L.map('map').setView([59.9, 10.7], 5);
+    map = L.map('map', { minZoom: 4 }).setView([59.9, 10.7], 5);
     window._leafletMap = map;
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -2851,6 +2859,7 @@
     map = new google.maps.Map(mapEl, {
       center: { lat: 59.9, lng: 10.7 },
       zoom: 5,
+      minZoom: 4,
       mapTypeControl: false,
       streetViewControl: false,
       fullscreenControl: true,
@@ -2918,6 +2927,7 @@
       const geo = await reverseGeocodeMunicipality(position.coords.latitude, position.coords.longitude);
       const countryCode = normalizeCountryCode(geo?.countryCode || '');
       if (!countryCode) return false;
+      if (!userDetectedCountryCode) userDetectedCountryCode = countryCode;
 
       const hasCountry = [...countrySelect.options].some((option) => option.value === countryCode);
       if (!hasCountry) return false;
@@ -2997,7 +3007,7 @@
       });
       marker.addListener('click', () => {
         prioritizeShopInResults(shop);
-        googleInfoWindow.setContent(`<strong>${escapeHtml(shop.name || 'Gårdsutsalg')}</strong><br>${escapeHtml(shop.address || '')}`);
+        googleInfoWindow.setContent(buildPopupHtml(shop));
         googleInfoWindow.open({ anchor: marker, map });
       });
       googleMarkers.push(marker);
@@ -3005,10 +3015,24 @@
     }
 
     if (leafletMarkersLayer) {
-      const marker = L.marker([lat, lon]).bindPopup(`<strong>${shop.name}</strong><br>${shop.address || ''}`);
+      const marker = L.marker([lat, lon]).bindPopup(buildPopupHtml(shop), { maxWidth: 280 });
       marker.on('click', () => prioritizeShopInResults(shop));
       leafletMarkersLayer.addLayer(marker);
     }
+  }
+
+  function buildPopupHtml(shop) {
+    const name = escapeHtml(shop.name || 'Gårdsutsalg');
+    const addr = shop.address ? `<div class="popup-addr">📍 ${escapeHtml(shop.address)}${shop.municipality ? ', ' + escapeHtml(shop.municipality) : ''}</div>` : '';
+    const phone = shop.phone ? `<div class="popup-addr">📞 ${escapeHtml(shop.phone)}</div>` : '';
+    const realWebsite = shop.website && !isFallbackWebsite(shop.website) ? normalizeWebsite(shop.website) : null;
+    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([shop.name, shop.address, shop.municipality, shop.country].filter(Boolean).join(', '))}`;
+    const searchUrl = buildGooglePlaceSearchUrl(shop);
+    const websiteBtn = realWebsite
+      ? `<a class="popup-btn" href="${realWebsite}" target="_blank" rel="noopener">🌐 Nettside</a>`
+      : `<a class="popup-btn" href="${searchUrl}" target="_blank" rel="noopener">🔍 Søk info</a>`;
+    const mapsBtn = `<a class="popup-btn" href="${mapsUrl}" target="_blank" rel="noopener">🗺 Veibeskrivelse</a>`;
+    return `<div class="popup-card"><strong>${name}</strong>${addr}${phone}<div class="popup-actions">${websiteBtn}${mapsBtn}</div></div>`;
   }
 
   function fitMapToMarkers() {
@@ -3022,17 +3046,33 @@
           scopedBounds.extend({ lat: south, lng: west });
           scopedBounds.extend({ lat: north, lng: east });
           map.fitBounds(scopedBounds);
-          if (Number(map.getZoom() || 0) > 11) {
-            map.setZoom(11);
-          }
+          // Cap zoom AFTER fitBounds finishes its async animation
+          google.maps.event.addListenerOnce(map, 'idle', () => {
+            if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
+          });
           return;
         }
 
         if (leafletMarkersLayer) {
-          map.fitBounds([[south, west], [north, east]], { maxZoom: 11 });
+          map.fitBounds([[south, west], [north, east]], { maxZoom: 13 });
           return;
         }
       }
+    }
+
+    // No country selected — avoid fitBounds on all global markers (causes world-wrapping).
+    // Instead, centre on user position if known, otherwise fall back to Norway.
+    if (!countrySelect.value) {
+      const fallbackLat = userPosition?.lat ?? 59.9;
+      const fallbackLon = userPosition?.lon ?? 10.7;
+      const fallbackZoom = userPosition ? 10 : 5;
+      if (mapProvider === 'google') {
+        map.setCenter({ lat: fallbackLat, lng: fallbackLon });
+        map.setZoom(fallbackZoom);
+      } else {
+        map.setView([fallbackLat, fallbackLon], fallbackZoom);
+      }
+      return;
     }
 
     if (mapProvider === 'google') {
@@ -3040,14 +3080,14 @@
       const bounds = new google.maps.LatLngBounds();
       markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
       map.fitBounds(bounds);
-      if (Number(map.getZoom() || 0) > 11) {
-        map.setZoom(11);
-      }
+      google.maps.event.addListenerOnce(map, 'idle', () => {
+        if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
+      });
       return;
     }
 
     if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
-      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 11 });
+      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 13 });
     }
   }
 
@@ -3349,6 +3389,8 @@
       empty.className = 'item';
       empty.textContent = 'Ingen lokale treff i datasettet. Bruk Google Maps-søk for flere resultater.';
       listEl.appendChild(empty);
+      // Still zoom map to selected region/municipality bbox even with no results
+      fitMapToMarkers();
       return;
     }
 
@@ -3362,11 +3404,16 @@
       const phoneLine = shop.phone ? `<div class="item-sub">📞 ${escapeHtml(shop.phone)}</div>` : '';
       const openingLine = shop.openingHours ? `<div class="item-sub">🕒 ${escapeHtml(shop.openingHours)}</div>` : '';
       const productsLine = products ? `<div class="item-sub">🌾 ${escapeHtml(products)}</div>` : '';
-      const websiteSearchUrl = buildGooglePlaceSearchUrl(shop);
+      const realWebsite = shop.website && !isFallbackWebsite(shop.website) ? normalizeWebsite(shop.website) : null;
+      const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([shop.name, shop.address, shop.municipality, shop.country].filter(Boolean).join(', '))}`;
+      const searchUrl = buildGooglePlaceSearchUrl(shop);
       const image = shop.imageUrl ? `<img class="item-thumb" src="${shop.imageUrl}" alt="${escapeHtml(shop.name)}" loading="lazy" />` : '';
       const distanceLine = Number.isFinite(shop.distanceKm)
         ? `<div class="item-sub">📍 ${escapeHtml(shop.distanceKm.toFixed(1))} km unna</div>`
         : '';
+      const websiteBtn = realWebsite
+        ? `<a class="item-link" href="${realWebsite}" target="_blank" rel="noopener">🌐 Nettside</a>`
+        : `<a class="item-link" href="${searchUrl}" target="_blank" rel="noopener">🔍 Søk</a>`;
       div.innerHTML = `
         <div class="item-row">
           ${image}
@@ -3380,7 +3427,9 @@
           </div>
         </div>
         <div class="item-actions">
-          <a class="item-link" href="${websiteSearchUrl}" target="_blank" rel="noopener">Nettside</a>
+          ${websiteBtn}
+          <a class="item-link" href="${mapsUrl}" target="_blank" rel="noopener">🗺 Kart</a>
+          <a class="item-link" href="${searchUrl}" target="_blank" rel="noopener">🔍 Google</a>
           <button class="item-link report-entry-btn" type="button" data-shop-name="${escapeHtml(shop.name)}">${escapeHtml(translate('quickReportBtn'))}</button>
         </div>
       `;
@@ -3508,13 +3557,11 @@
       return true;
     }
 
-    if (countryCode === 'NO') {
-      if (/^(farm shop|farm store|farmstore|gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg)$/.test(name)) {
-        return true;
-      }
-      if (/^farm shop(?: norge| norway)?$/.test(name)) {
-        return true;
-      }
+    if (/^(farm shop|farm store|farmstore|gårdsbutikk|gardsbutikk|gårdsutsalg|gardsutsalg|hofladen|hofladen\s\w+|magasin de la ferme|vente directe|vente à la ferme|farm|farmshop|farm shops)$/.test(name)) {
+      return true;
+    }
+    if (/^farm shop(?: norge| norway)?$/.test(name)) {
+      return true;
     }
 
     return false;
@@ -4137,9 +4184,11 @@ out center tags 150;
         const regionMatch = !regionValue || (countryCode === 'NO'
           ? regionMatches(shop.region || '', regionTerms)
           : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+        // For non-Norway, skip strict municipality equality here — applyMunicipalityScope
+        // uses bounding box to capture all sub-localities within the selected comune/commune.
         const municipalityMatch = !municipalityValue || (countryCode === 'NO'
           ? municipalityMatches(shop.municipality || '', municipalityTerms)
-          : shop.municipality === municipalityValue);
+          : true);
         return regionMatch && municipalityMatch;
       });
     }
@@ -4327,9 +4376,10 @@ out center tags 150;
                 const regionMatch = !regionValue || (countryCode === 'NO'
                   ? regionMatches(shop.region || '', regionTerms)
                   : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+                // For non-Norway, skip strict equality — applyMunicipalityScope uses bounding box
                 const municipalityMatch = !municipalityValue || (countryCode === 'NO'
                   ? municipalityMatches(shop.municipality || '', municipalityTerms)
-                  : shop.municipality === municipalityValue);
+                  : true);
                 return regionMatch && municipalityMatch;
               });
             }
@@ -4656,16 +4706,32 @@ out center tags 150;
 
   document.getElementById('resetBtn').addEventListener('click', async () => {
     activeNearRadiusKm = null;
-    countrySelect.value = '';
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
     if (sortSelect) sortSelect.value = 'name_asc';
     if (nearRadiusSelect) nearRadiusSelect.value = '50';
-    await ensureShopScope('');
-    await populateRegions('');
-    await populateMunicipalities('', '');
-    filterShops();
+
+    // Restore to the country the device is physically in (if known), else keep current.
+    const restoreCode = userDetectedCountryCode || countrySelect.value || '';
+    countrySelect.value = restoreCode;
+    await ensureShopScope(restoreCode);
+    await populateRegions(restoreCode);
+    await populateMunicipalities(restoreCode, '');
+    await filterShops();
+
+    // Centre map on user position (zoom 10) or Norway fallback (zoom 5).
+    const resetLat = userPosition?.lat ?? 59.9;
+    const resetLon = userPosition?.lon ?? 10.7;
+    const resetZoom = userPosition ? 10 : 5;
+    if (map) {
+      if (mapProvider === 'google') {
+        map.setCenter({ lat: resetLat, lng: resetLon });
+        map.setZoom(resetZoom);
+      } else {
+        map.setView([resetLat, resetLon], resetZoom);
+      }
+    }
   });
 
   document.getElementById('routeBtn').addEventListener('click', () => {
