@@ -2,7 +2,7 @@
   'use strict';
 
   const STORAGE_KEY = 'matsjekk_lang';
-  const SUPPORTED = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
+  const SUPPORTED = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es', 'ko', 'pl', 'ru', 'zh', 'ar', 'th'];
   const LABELS = {
     nb: 'Norsk',
     en: 'English',
@@ -15,6 +15,12 @@
     it: 'Italiano',
     pt: 'Portugues',
     es: 'Espanol',
+    ko: '한국어',
+    pl: 'Polski',
+    ru: 'Русский',
+    zh: '中文',
+    ar: 'العربية',
+    th: 'ภาษาไทย',
   };
 
   function normalizeLang(value) {
