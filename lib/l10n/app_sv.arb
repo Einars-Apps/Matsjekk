@@ -58,8 +58,8 @@
   "identifiedAdditions": "Identifierade E-nummer",
   "noAdditionsFound": "Inga E-nummer hittades i databasen.",
   "disclaimer": "Ansvarsfriskrivning: Denna information är endast vägledande och baserad på offentligt tillgänglig data. För 100% korrekt information, se produktförpackningen eller kontakta tillverkaren.",
-  "bovaerHighRisk": "HÖGRISK: Producenten är direkt kopplad till Bovaer.",
+  "bovaerHighRisk": "HÖGRISK: Märket är en bekräftad Bovaer-användare, eller tillhör en producent som är det.",
   "gmoHighRisk": "HÖGRISK: Producenten är kopplad till användning av GMO-foder.",
-  "bovaerPossibleRisk": "MÖJLIG RISK: Producenten är en partner med företag kopplade till Bovaer.",
+  "bovaerPossibleRisk": "OSÄKER: Produkten kan innehålla mjölk från ett mejeri som tar emot mjölk från Bovaer-gårdar.",
   "safeProduct": "SÄKER: Produkten är märkt som ekologisk."
 }

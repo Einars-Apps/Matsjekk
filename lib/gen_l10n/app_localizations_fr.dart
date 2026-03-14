@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -192,7 +192,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get bovaerHighRisk =>
-      'RISQUE ÉLEVÉ : Le producteur est directement lié à Bovaer.';
+      'RISQUE ÉLEVÉ : Cette marque est un utilisateur confirmé de Bovaer ou appartient à un producteur qui l'est.';
 
   @override
   String get gmoHighRisk =>

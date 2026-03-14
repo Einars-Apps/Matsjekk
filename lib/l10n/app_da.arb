@@ -58,7 +58,7 @@
   "identifiedAdditions": "Identificerede E-numre",
   "noAdditionsFound": "Ingen E-numre fundet i databasen.",
   "disclaimer": "Ansvarsfraskrivelse: Disse oplysninger er kun vejledende og baseret på offentligt tilgængelige data. For 100% nøjagtige oplysninger skal du se produktets emballage eller kontakte producenten.",
-  "bovaerHighRisk": "HØJ RISIKO: Producenten er direkte forbundet med Bovaer.",
+  "bovaerHighRisk": "HØJ RISIKO: Mærket er bekræftet bruger af Bovaer, eller tilhører en producent som er det.",
   "gmoHighRisk": "HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.",
-  "bovaerPossibleRisk": "MULIG RISIKO: Producenten er partner med virksomheder forbundet med Bovaer.",
+  "bovaerPossibleRisk": "USIKKER: Produktet kan indeholde mælk fra et mejeri, der modtager mælk fra Bovaer-landmænd.",
   "safeProduct": "SIKKER: Produktet er mærket som økologisk."}

@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -36,8 +36,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get howAppWorks => 'How the App Works';
 
   @override
-  String get appDescription =>
-      'The app uses Open Food Facts and an internal brand list to detect products with Bovaer, insect meal, GMO feed, and other controversial ingredients.';
+  String get appDescription => 'The app uses Open Food Facts and an internal brand list to detect products with Bovaer, insect meal, GMO feed, and other controversial ingredients.';
 
   @override
   String get alerts => 'Select Alerts';
@@ -184,20 +183,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get noAdditionsFound => 'No E-numbers found in database.';
 
   @override
-  String get disclaimer =>
-      'Disclaimer: This information is for guidance only and based on publicly available data. For 100% accurate information, see the product packaging or contact the manufacturer.';
+  String get disclaimer => 'Disclaimer: This information is for guidance only and based on publicly available data. For 100% accurate information, see the product packaging or contact the manufacturer.';
 
   @override
-  String get bovaerHighRisk =>
-      'HIGH RISK: The producer is directly linked to Bovaer.';
+  String get bovaerHighRisk => 'HIGH RISK: This brand is a confirmed Bovaer user or belongs to a producer that is.';
 
   @override
-  String get gmoHighRisk =>
-      'HIGH RISK: The producer is linked to GMO fish feed use.';
+  String get gmoHighRisk => 'HIGH RISK: The producer is linked to GMO fish feed use.';
 
   @override
-  String get bovaerPossibleRisk =>
-      'POSSIBLE RISK: The producer is a partner with companies linked to Bovaer.';
+  String get bovaerPossibleRisk => 'UNCERTAIN: The product may contain milk from a dairy that sources from Bovaer-enrolled farms.';
 
   @override
   String get safeProduct => 'SAFE: The product is certified organic.';
@@ -212,8 +207,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage =>
-      'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';

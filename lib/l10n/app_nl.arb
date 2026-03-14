@@ -58,7 +58,7 @@
   "identifiedAdditions": "Geïdentificeerde E-nummers",
   "noAdditionsFound": "Geen E-nummers in database gevonden.",
   "disclaimer": "Disclaimer: Deze informatie is alleen ter oriëntatie en gebaseerd op openbaar beschikbare gegevens. Voor 100% nauwkeurige informatie raadpleegt u de verpakking van het product of neemt u contact op met de fabrikant.",
-  "bovaerHighRisk": "HOOG RISICO: De producent is rechtstreeks gekoppeld aan Bovaer.",
+  "bovaerHighRisk": "HOOG RISICO: Dit merk is een bevestigde Bovaer-gebruiker of behoort toe aan een producent die dat is.",
   "gmoHighRisk": "HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.",
-  "bovaerPossibleRisk": "MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.",
+  "bovaerPossibleRisk": "ONZEKER: Het product kan melk bevatten van een zuivelbedrijf dat melk ontvangt van Bovaer-boerderijen.",
   "safeProduct": "VEILIG: Het product is gecertificeerd biologisch."}

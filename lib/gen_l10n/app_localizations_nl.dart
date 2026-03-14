@@ -1,4 +1,4 @@
-// ignore: unused_import
+﻿// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
@@ -191,7 +191,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get bovaerHighRisk =>
-      'HOOG RISICO: De producent is rechtstreeks gekoppeld aan Bovaer.';
+      'HOOG RISICO: Dit merk is een bevestigde Bovaer-gebruiker of behoort toe aan een producent die dat is.';
 
   @override
   String get gmoHighRisk =>
@@ -199,7 +199,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get bovaerPossibleRisk =>
-      'MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.';
+      'ONZEKER: Het product kan melk bevatten van een zuivelbedrijf dat melk ontvangt van Bovaer-boerderijen.';
 
   @override
   String get safeProduct => 'VEILIG: Het product is gecertificeerd biologisch.';

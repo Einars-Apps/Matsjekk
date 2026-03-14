@@ -58,7 +58,7 @@
   "identifiedAdditions": "Additifs E identifiés",
   "noAdditionsFound": "Aucun additif E trouvé dans la base de données.",
   "disclaimer": "Clause de non-responsabilité : Ces informations sont à titre informatif uniquement et basées sur des données accessibles au public. Pour 100% d'informations exactes, consultez l'emballage du produit ou contactez le fabricant.",
-  "bovaerHighRisk": "RISQUE ÉLEVÉ : Le producteur est directement lié à Bovaer.",
+  "bovaerHighRisk": "RISQUE ÉLEVÉ : Cette marque est un utilisateur confirmé de Bovaer ou appartient à un producteur qui l'est.",
   "gmoHighRisk": "RISQUE ÉLEVÉ : Le producteur est lié à l'utilisation d'aliments OGM.",
-  "bovaerPossibleRisk": "RISQUE POSSIBLE : Le producteur est partenaire d'entreprises liées à Bovaer.",
+  "bovaerPossibleRisk": "INCERTAIN : Le produit peut contenir du lait d'une laiterie qui reçoit du lait de fermes Bovaer.",
   "safeProduct": "SÛR : Le produit est certifié biologique."}
