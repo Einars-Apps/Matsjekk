@@ -3050,22 +3050,34 @@
       }
     }
 
+    // No country selected — avoid fitBounds on all global markers (causes world-wrapping).
+    // Instead, centre on user position if known, otherwise fall back to Norway.
+    if (!countrySelect.value) {
+      const fallbackLat = userPosition?.lat ?? 59.9;
+      const fallbackLon = userPosition?.lon ?? 10.7;
+      const fallbackZoom = userPosition ? 10 : 5;
+      if (mapProvider === 'google') {
+        map.setCenter({ lat: fallbackLat, lng: fallbackLon });
+        map.setZoom(fallbackZoom);
+      } else {
+        map.setView([fallbackLat, fallbackLon], fallbackZoom);
+      }
+      return;
+    }
+
     if (mapProvider === 'google') {
       if (!markerCoords.length) return;
       const bounds = new google.maps.LatLngBounds();
       markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
       map.fitBounds(bounds);
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        const z = Number(map.getZoom() || 0);
-        if (z > 13) map.setZoom(13);
-        else if (z < 4) { map.setCenter({ lat: 59.9, lng: 10.7 }); map.setZoom(5); }
+        if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
       });
       return;
     }
 
     if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
       map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 13 });
-      if (Number(map.getZoom() || 0) < 4) map.setView([59.9, 10.7], 5);
     }
   }
 
@@ -4694,6 +4706,19 @@ out center tags 150;
     await populateRegions('');
     await populateMunicipalities('', '');
     filterShops();
+    // Explicitly return map to user position or Norway — avoids world-wrapping
+    // after "Finn nær min posisjon" loaded global Overpass results.
+    const resetLat = userPosition?.lat ?? 59.9;
+    const resetLon = userPosition?.lon ?? 10.7;
+    const resetZoom = userPosition ? 10 : 5;
+    if (map) {
+      if (mapProvider === 'google') {
+        map.setCenter({ lat: resetLat, lng: resetLon });
+        map.setZoom(resetZoom);
+      } else {
+        map.setView([resetLat, resetLon], resetZoom);
+      }
+    }
   });
 
   document.getElementById('routeBtn').addEventListener('click', () => {
