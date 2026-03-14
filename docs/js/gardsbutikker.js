@@ -2097,14 +2097,15 @@
           scopedBounds.extend({ lat: south, lng: west });
           scopedBounds.extend({ lat: north, lng: east });
           map.fitBounds(scopedBounds);
-          if (Number(map.getZoom() || 0) > 11) {
-            map.setZoom(11);
-          }
+          // Cap zoom AFTER fitBounds finishes its async animation
+          google.maps.event.addListenerOnce(map, 'idle', () => {
+            if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
+          });
           return;
         }
 
         if (leafletMarkersLayer) {
-          map.fitBounds([[south, west], [north, east]], { maxZoom: 11 });
+          map.fitBounds([[south, west], [north, east]], { maxZoom: 13 });
           return;
         }
       }
@@ -2115,14 +2116,14 @@
       const bounds = new google.maps.LatLngBounds();
       markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
       map.fitBounds(bounds);
-      if (Number(map.getZoom() || 0) > 11) {
-        map.setZoom(11);
-      }
+      google.maps.event.addListenerOnce(map, 'idle', () => {
+        if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
+      });
       return;
     }
 
     if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
-      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 11 });
+      map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 13 });
     }
   }
 
@@ -2424,6 +2425,8 @@
       empty.className = 'item';
       empty.textContent = 'Ingen lokale treff i datasettet. Bruk Google Maps-søk for flere resultater.';
       listEl.appendChild(empty);
+      // Still zoom map to selected region/municipality bbox even with no results
+      fitMapToMarkers();
       return;
     }
 
