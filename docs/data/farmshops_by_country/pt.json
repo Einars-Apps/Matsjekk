@@ -4438,19 +4438,6 @@
     "source": "osm"
   },
   {
-    "id": 13118865430,
-    "name": "Quinta do Outeiro",
-    "country": "Portugal",
-    "region": "Alentejo",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1510299,
-    "lon": -8.4352876,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13144129168,
     "name": "Vale de Mendiz",
     "country": "Portugal",
@@ -5019,19 +5006,6 @@
     "source": "osm"
   },
   {
-    "id": 374778741,
-    "name": "Wine Bar Casa da Viúva",
-    "country": "Portugal",
-    "region": "Centro",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1338085,
-    "lon": -8.3801411,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 380690355,
     "name": "Adega Quintas de Melgaço",
     "country": "Portugal",
@@ -5214,19 +5188,6 @@
     "lat": 41.1618963,
     "lon": -8.644034,
     "address": "Rua de O Primeiro de Janeiro 169",
-    "source": "osm"
-  },
-  {
-    "id": 484908852,
-    "name": "Adega do Rosca",
-    "country": "Portugal",
-    "region": "Norte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1844081,
-    "lon": -7.6875484,
-    "address": null,
     "source": "osm"
   },
   {

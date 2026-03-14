@@ -3000,19 +3000,6 @@
     "source": "osm"
   },
   {
-    "id": 3954886245,
-    "name": "cotrable",
-    "country": "Switzerland",
-    "region": "Vaud",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.5111386,
-    "lon": 6.4277935,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 3974220018,
     "name": "Alpkäserei Gummen",
     "country": "Switzerland",
@@ -26084,19 +26071,6 @@
     "source": "osm"
   },
   {
-    "id": 11799834833,
-    "name": "Cabane du Fromage",
-    "country": "Switzerland",
-    "region": "Valais",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.1093918,
-    "lon": 7.9279369,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 11800250338,
     "name": "Haldi Käse",
     "country": "Switzerland",
@@ -30822,19 +30796,6 @@
     "phone": "+41 31 930 85 30"
   },
   {
-    "id": 13352088902,
-    "name": "Cave Étienne Betrisey",
-    "country": "Switzerland",
-    "region": "Valais",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.2703129,
-    "lon": 7.4016086,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13355905380,
     "name": "Siebe Dupf",
     "country": "Switzerland",
@@ -31653,20 +31614,6 @@
     "lon": 7.1099123,
     "address": "Route du Pont-de-Nant 10.1, 1880",
     "source": "osm"
-  },
-  {
-    "id": 123628232,
-    "name": "Weingut Schödler",
-    "country": "Switzerland",
-    "region": "Aargau",
-    "municipality": "Villigen",
-    "products": [],
-    "website": "http://www.schoedlerwein.ch",
-    "lat": 47.5258249,
-    "lon": 8.2166895,
-    "address": "Kumetstrasse 15, 5234",
-    "source": "osm",
-    "phone": "+41 56 284 17 67"
   },
   {
     "id": 131519091,
@@ -33237,19 +33184,6 @@
     "lat": 47.0382531,
     "lon": 7.0962284,
     "address": "Insstrasse 29a, 3235",
-    "source": "osm"
-  },
-  {
-    "id": 430446202,
-    "name": "Marolf Weinbau",
-    "country": "Switzerland",
-    "region": "Bern",
-    "municipality": "Erlach",
-    "products": [],
-    "website": null,
-    "lat": 47.0383769,
-    "lon": 7.0960837,
-    "address": "Insstrasse 29, 3235",
     "source": "osm"
   },
   {

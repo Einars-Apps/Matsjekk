@@ -1324,19 +1324,6 @@
     "source": "osm"
   },
   {
-    "id": 3451095959,
-    "name": "Cogacsur",
-    "country": "Spain",
-    "region": "Extremadura",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.2601655,
-    "lon": -5.6911733,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 3475182249,
     "name": "Viana",
     "country": "Spain",
@@ -14178,19 +14165,6 @@
     "source": "osm"
   },
   {
-    "id": 11510783479,
-    "name": "Hacienda Molleda",
-    "country": "Spain",
-    "region": "Aragón",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.3417936,
-    "lon": -1.1160495,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 11522736226,
     "name": "El celler de la Ribera",
     "country": "Spain",
@@ -19260,19 +19234,6 @@
     "source": "osm"
   },
   {
-    "id": 184309416,
-    "name": "Bodegas González Byass",
-    "country": "Spain",
-    "region": "Andalucía",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.6803271,
-    "lon": -6.1426355,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 184309421,
     "name": "Bodegas Tío Pepe",
     "country": "Spain",
@@ -19402,19 +19363,6 @@
     "website": null,
     "lat": 42.5115032,
     "lon": -2.6185987,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 195540331,
-    "name": "Bodegas Marqués de Riscal",
-    "country": "Spain",
-    "region": "País Vasco",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.marquesderiscal.com/",
-    "lat": 42.5121904,
-    "lon": -2.6188095,
     "address": null,
     "source": "osm"
   },
@@ -20521,19 +20469,6 @@
     "source": "osm"
   },
   {
-    "id": 315326979,
-    "name": "Harri expositorea",
-    "country": "Spain",
-    "region": "Navarra",
-    "municipality": "Arizkun",
-    "products": [],
-    "website": null,
-    "lat": 43.1796342,
-    "lon": -1.4758317,
-    "address": "Bozate Auzoa Lamiarrita, 31713",
-    "source": "osm"
-  },
-  {
     "id": 316316729,
     "name": "Virgen de Lorea",
     "country": "Spain",
@@ -21612,19 +21547,6 @@
     "source": "osm"
   },
   {
-    "id": 392163636,
-    "name": "Bodegas Rey Fernando de Castilla",
-    "country": "Spain",
-    "region": "Andalucía",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.6895004,
-    "lon": -6.1428501,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 392163637,
     "name": "Bodegas Almocadén",
     "country": "Spain",
@@ -22141,33 +22063,6 @@
     "source": "osm"
   },
   {
-    "id": 420696762,
-    "name": "Caves Gibert",
-    "country": "Spain",
-    "region": "Cataluña",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.7990602,
-    "lon": 1.953181,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 421432409,
-    "name": "Bodegas Marco Real",
-    "country": "Spain",
-    "region": "Navarra",
-    "municipality": "Olite / Erriberri",
-    "products": [],
-    "website": "https://www.bodegasmarcoreal.com/",
-    "lat": 42.4883376,
-    "lon": -1.6623703,
-    "address": "Rúa Romana 81, 31390",
-    "source": "osm",
-    "phone": "+34 948 71 21 93"
-  },
-  {
     "id": 421432438,
     "name": "Bodegas Marco Real",
     "country": "Spain",
@@ -22353,20 +22248,6 @@
     "address": null,
     "source": "osm",
     "phone": "+34 696017935"
-  },
-  {
-    "id": 434706522,
-    "name": "Bodegas Cosecheros Reunidos",
-    "country": "Spain",
-    "region": "Navarra",
-    "municipality": "Olite / Erriberri",
-    "products": [],
-    "website": "https://bodegacosecheros.com/",
-    "lat": 42.4792332,
-    "lon": -1.6488353,
-    "address": "Plaza de San Antón 1, 31390",
-    "source": "osm",
-    "phone": "+34 948 74 00 67"
   },
   {
     "id": 435094969,
@@ -23035,19 +22916,6 @@
     "phone": "+34947545006"
   },
   {
-    "id": 492507326,
-    "name": "Bodega Cooperativa de San Bernabé",
-    "country": "Spain",
-    "region": "Aragón",
-    "municipality": "Cosuenda",
-    "products": [],
-    "website": null,
-    "lat": 41.3638347,
-    "lon": -1.2992071,
-    "address": "Calle de San Cristóbal 47, 50409",
-    "source": "osm"
-  },
-  {
     "id": 492554787,
     "name": "Bodega Cooperativa de San Bernabé",
     "country": "Spain",
@@ -23230,19 +23098,6 @@
     "website": null,
     "lat": 42.5267397,
     "lon": -2.6810599,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 505670122,
-    "name": "Bodegas La Rioja Alta",
-    "country": "Spain",
-    "region": "País Vasco",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.584451,
-    "lon": -2.8469906,
     "address": null,
     "source": "osm"
   },
@@ -24248,19 +24103,6 @@
     "source": "osm"
   },
   {
-    "id": 576499987,
-    "name": "BODEGAS VEGAMAR S.L.",
-    "country": "Spain",
-    "region": "Castilla-La Mancha",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7275176,
-    "lon": -0.982062,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 584456514,
     "name": "Bodegas Altogrande",
     "country": "Spain",
@@ -24942,19 +24784,6 @@
     "source": "osm"
   },
   {
-    "id": 674331928,
-    "name": "Bodegas Beronia",
-    "country": "Spain",
-    "region": "País Vasco",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5311937,
-    "lon": -2.8205404,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 674331932,
     "name": "Bodega Martínez Lacuesta",
     "country": "Spain",
@@ -24994,19 +24823,6 @@
     "address": null,
     "source": "osm",
     "phone": "+34941235299"
-  },
-  {
-    "id": 676630195,
-    "name": "Bodega Alvides",
-    "country": "Spain",
-    "region": "Castilla y León",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.6829589,
-    "lon": -3.7411971,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 676784509,
@@ -26068,19 +25884,6 @@
     "phone": "+34941304809"
   },
   {
-    "id": 823860014,
-    "name": "Marqués de Terán",
-    "country": "Spain",
-    "region": "País Vasco",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5418204,
-    "lon": -2.8252971,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 823982783,
     "name": "Bodegas Trus",
     "country": "Spain",
@@ -26565,19 +26368,6 @@
     "lat": 39.3943072,
     "lon": 2.8415605,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 845821815,
-    "name": "Viña Cabrejas",
-    "country": "Spain",
-    "region": "Castilla y León",
-    "municipality": "Gumiel de Hizán",
-    "products": [],
-    "website": null,
-    "lat": 41.769526,
-    "lon": -3.6920811,
-    "address": "Calle la Tina 62, 09370",
     "source": "osm"
   },
   {
@@ -28134,19 +27924,6 @@
     "source": "osm"
   },
   {
-    "id": 1000799436,
-    "name": "Bodegas Barón",
-    "country": "Spain",
-    "region": "Andalucía",
-    "municipality": "Sanlúcar de Barrameda",
-    "products": [],
-    "website": null,
-    "lat": 36.7729603,
-    "lon": -6.3561054,
-    "address": "Callejón del Barón 2, 11540",
-    "source": "osm"
-  },
-  {
     "id": 1005497601,
     "name": "Unió de Cellers del Noia",
     "country": "Spain",
@@ -28641,19 +28418,6 @@
     "website": null,
     "lat": 38.7142445,
     "lon": -0.4615443,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1117004522,
-    "name": "Bodegas Sonsierra",
-    "country": "Spain",
-    "region": "País Vasco",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5663603,
-    "lon": -2.7605091,
     "address": null,
     "source": "osm"
   },
@@ -29664,20 +29428,6 @@
     "source": "osm"
   },
   {
-    "id": 1210931527,
-    "name": "Cava Carles Andreu",
-    "country": "Spain",
-    "region": "Cataluña",
-    "municipality": "Pira",
-    "products": [],
-    "website": "https://www.cavandreu.com/",
-    "lat": 41.4239697,
-    "lon": 1.2048956,
-    "address": "Sant Sebastià, 43423",
-    "source": "osm",
-    "phone": "+34977887404"
-  },
-  {
     "id": 1213689811,
     "name": "Agroquímicos Zarco",
     "country": "Spain",
@@ -30472,20 +30222,6 @@
     "source": "osm"
   },
   {
-    "id": 1327460141,
-    "name": "Bodega Miquel Jané",
-    "country": "Spain",
-    "region": "Cataluña",
-    "municipality": null,
-    "products": [],
-    "website": "https://miqueljane.com",
-    "lat": 41.4249409,
-    "lon": 1.6451588,
-    "address": null,
-    "source": "osm",
-    "phone": "+34 934 140 948"
-  },
-  {
     "id": 1327714124,
     "name": "MODA PASEO",
     "country": "Spain",
@@ -31122,20 +30858,6 @@
     "lon": -4.6825351,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 1458551062,
-    "name": "Bodegas Vega del Castillo",
-    "country": "Spain",
-    "region": "Navarra",
-    "municipality": "Olite / Erriberri",
-    "products": [],
-    "website": "https://www.vegadelcastillo.com/",
-    "lat": 42.4819425,
-    "lon": -1.6521886,
-    "address": "Rúa Romana 7, 31390",
-    "source": "osm",
-    "phone": "+34 948 740 012"
   },
   {
     "id": 1458711670,

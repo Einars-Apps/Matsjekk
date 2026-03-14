@@ -145,7 +145,8 @@ SPAM_PHRASES = [
     r'http[s]?://',  # bare URLs in name
 ]
 
-REMOVE_KEYWORDS = [
+# Keywords that should NOT appear in farmshop submissions
+FARMSHOP_REMOVE_KEYWORDS = [
     'distribuidora', 'mayorista', 'wholesale', 'grossist',
     'hotel', 'hostel', 'motel',
     'supermercado', 'supermarket', 'hipermercado',
@@ -153,12 +154,32 @@ REMOVE_KEYWORDS = [
     'fastfood', 'mcdonalds', 'burger king', 'kfc', 'subway',
 ]
 
+# For immigrant shops, grossists/wholesalers are acceptable —
+# only flag clearly irrelevant types
+IMMIGRANT_SHOP_REMOVE_KEYWORDS = [
+    'hotel', 'hostel', 'motel',
+    'pharmacy', 'farmacia', 'apotek',
+    'fastfood', 'mcdonalds', 'burger king', 'kfc', 'subway',
+]
+
+
+def is_immigrant_shop_submission(entry):
+    notes = (entry.get('notes') or '').lower()
+    return 'innvandrerbutikker' in notes
+
+
 def check_spam(entry):
     """Returns list of failed checks (empty = OK)."""
     issues = []
     name = (entry.get('name') or '').lower()
     notes = (entry.get('notes') or '').lower()
     combined = name + ' ' + notes
+
+    remove_keywords = (
+        IMMIGRANT_SHOP_REMOVE_KEYWORDS
+        if is_immigrant_shop_submission(entry)
+        else FARMSHOP_REMOVE_KEYWORDS
+    )
 
     # Bare URL in name
     if re.search(r'https?://', name):
@@ -171,7 +192,7 @@ def check_spam(entry):
             break
 
     # Known irrelevant business types
-    for kw in REMOVE_KEYWORDS:
+    for kw in remove_keywords:
         if kw in name:
             issues.append(f'Ikke relevant type: inneholder "{kw}"')
             break

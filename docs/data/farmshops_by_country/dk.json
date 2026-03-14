@@ -1408,19 +1408,6 @@
     "source": "osm"
   },
   {
-    "id": 5084570939,
-    "name": "Café Guldbæk Vingård",
-    "country": "Denmark",
-    "region": "Nordjylland",
-    "municipality": null,
-    "products": [],
-    "website": "https://guldbaekvingaard.dk/",
-    "lat": 56.9374346,
-    "lon": 9.8138568,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5094159285,
     "name": "Valnødlund",
     "country": "Denmark",
@@ -2301,22 +2288,6 @@
     "lon": 10.1523261,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 8217908132,
-    "name": "Søndergårdensrapsodi",
-    "country": "Denmark",
-    "region": "Midtjylland",
-    "municipality": null,
-    "products": [
-      "colza"
-    ],
-    "website": "https://goforlocal.dk/gaardbutikker/soendergaardens-rapsodi/",
-    "lat": 56.6528974,
-    "lon": 9.6060815,
-    "address": null,
-    "source": "osm",
-    "phone": "+45 42155157"
   },
   {
     "id": 8303399640,
@@ -15748,19 +15719,6 @@
     "source": "osm"
   },
   {
-    "id": 256321753,
-    "name": "Nordisk Brænderi",
-    "country": "Denmark",
-    "region": "Nordjylland",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.nordiskbraenderi.dk/",
-    "lat": 57.1303751,
-    "lon": 9.3772844,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 263256147,
     "name": "Gårdbutikken Aarstiderne",
     "country": "Denmark",
@@ -16005,32 +15963,6 @@
     "website": "https://www.virkelystalpacafarm.dk/",
     "lat": 55.6417648,
     "lon": 8.3631503,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 956960307,
-    "name": "Nordisk Brænderi",
-    "country": "Denmark",
-    "region": "Nordjylland",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.nordiskbraenderi.dk/",
-    "lat": 57.1300539,
-    "lon": 9.3771347,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1172957531,
-    "name": "Nordisk Brænderi",
-    "country": "Denmark",
-    "region": "Nordjylland",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.nordiskbraenderi.dk/",
-    "lat": 57.1299582,
-    "lon": 9.376961,
     "address": null,
     "source": "osm"
   },

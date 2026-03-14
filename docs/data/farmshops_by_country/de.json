@@ -6562,20 +6562,6 @@
     "phone": "+49 2604 7563"
   },
   {
-    "id": 837957082,
-    "name": "Weinschänke in der Borngass",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lahnwein.de/",
-    "lat": 50.3176981,
-    "lon": 7.8523699,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 2604 7563"
-  },
-  {
     "id": 839238965,
     "name": "Hofladen Biolandhof Frohnenbruch",
     "country": "Germany",
@@ -16609,19 +16595,6 @@
     "source": "osm"
   },
   {
-    "id": 2306883460,
-    "name": "Hafen-Spezerei",
-    "country": "Germany",
-    "region": "Hamburg",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.hafen-spezerei.de",
-    "lat": 53.5431301,
-    "lon": 9.9973219,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 2309770082,
     "name": "Agraset Naundorf e.G.",
     "country": "Germany",
@@ -24597,20 +24570,6 @@
     "lon": 8.8079335,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 3317523672,
-    "name": "Hofgut Hofgeismar",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": "Hofgeismar",
-    "products": [],
-    "website": "http://hofgut-hofgeismar.de/",
-    "lat": 51.4916389,
-    "lon": 9.3743784,
-    "address": "Schützenhofweg 17, 34369",
-    "source": "osm",
-    "phone": "+49 5671 508011-01"
   },
   {
     "id": 3319206466,
@@ -41882,19 +41841,6 @@
     "source": "osm"
   },
   {
-    "id": 4434343189,
-    "name": "eWine",
-    "country": "Germany",
-    "region": "Niedersachsen",
-    "municipality": "Celle",
-    "products": [],
-    "website": null,
-    "lat": 52.6219915,
-    "lon": 10.0799457,
-    "address": "Westcellertorstraße 5, 29221",
-    "source": "osm"
-  },
-  {
     "id": 4435762697,
     "name": "Hof Schrödersbek",
     "country": "Germany",
@@ -48109,20 +48055,6 @@
     "address": null,
     "source": "osm",
     "phone": "+49 6532 2763"
-  },
-  {
-    "id": 4992321301,
-    "name": "Ferienweingut Boujong",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Brauneberg",
-    "products": [],
-    "website": "http://www.ferienweingut-boujong.de",
-    "lat": 49.9016865,
-    "lon": 6.9699321,
-    "address": "Lindenstraße 6, 54472",
-    "source": "osm",
-    "phone": "+49 6534 8687"
   },
   {
     "id": 4992639329,
@@ -54412,20 +54344,6 @@
     "phone": "+49 2671 9171122"
   },
   {
-    "id": 5629554156,
-    "name": "Weingut Kloster Ebernach",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Cochem",
-    "products": [],
-    "website": "http://die-antwort-ist.wine/wein",
-    "lat": 50.1383985,
-    "lon": 7.1836559,
-    "address": "Klostergartenstraße 36, 56812",
-    "source": "osm",
-    "phone": "+49 2673 9625811"
-  },
-  {
     "id": 5630403709,
     "name": "Roth's Hoflädle",
     "country": "Germany",
@@ -59124,19 +59042,6 @@
     "website": null,
     "lat": 50.1458935,
     "lon": 7.1666642,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 6003143744,
-    "name": "Weingut Blenz",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.1467024,
-    "lon": 7.1660479,
     "address": null,
     "source": "osm"
   },
@@ -65584,19 +65489,6 @@
     "source": "osm"
   },
   {
-    "id": 6772135186,
-    "name": "Weingut Schneider",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.schneider-weingut.com/",
-    "lat": 49.9577042,
-    "lon": 8.2776725,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 6774826592,
     "name": "Ernsthof",
     "country": "Germany",
@@ -66294,20 +66186,6 @@
     "website": null,
     "lat": 48.1467882,
     "lon": 11.7426637,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 89 99274050"
-  },
-  {
-    "id": 6847250224,
-    "name": "Vino e Parole",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1467954,
-    "lon": 11.7426381,
     "address": null,
     "source": "osm",
     "phone": "+49 89 99274050"
@@ -74905,20 +74783,6 @@
     "phone": "+49 8091 3009"
   },
   {
-    "id": 7839616288,
-    "name": "Hof Klostersee",
-    "country": "Germany",
-    "region": "Mecklenburg-Vorpommern",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.klostersee.org/",
-    "lat": 54.1918494,
-    "lon": 11.0148745,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 4366 884061"
-  },
-  {
     "id": 7839674630,
     "name": "Hofgemeinschaft Fargemiel",
     "country": "Germany",
@@ -77558,20 +77422,6 @@
     "phone": "+49 2673 4282"
   },
   {
-    "id": 8079059891,
-    "name": "Weingut Arenz",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Nehren",
-    "products": [],
-    "website": null,
-    "lat": 50.081589,
-    "lon": 7.1941607,
-    "address": "Kirchstraße 1, 56820",
-    "source": "osm",
-    "phone": "+49 2673 4377"
-  },
-  {
     "id": 8079126420,
     "name": "Weingut Andre",
     "country": "Germany",
@@ -78052,20 +77902,6 @@
     "address": "Vorwerk 10, 01833",
     "source": "osm",
     "phone": "+49 35973 29441"
-  },
-  {
-    "id": 8143433051,
-    "name": "Obstbau Heitinger",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.obstbau-heitinger.de/",
-    "lat": 47.5699279,
-    "lon": 9.6371268,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 8382 804723"
   },
   {
     "id": 8147657397,
@@ -78838,20 +78674,6 @@
     "website": "https://jaegerwein.de",
     "lat": 49.9422436,
     "lon": 7.969932,
-    "address": "Rheinstraße 17, 55437",
-    "source": "osm",
-    "phone": "+49 6725 2330"
-  },
-  {
-    "id": 8267401924,
-    "name": "Jäger",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": "Ockenheim",
-    "products": [],
-    "website": "https://jaegerwein.de",
-    "lat": 49.9423336,
-    "lon": 7.9700213,
     "address": "Rheinstraße 17, 55437",
     "source": "osm",
     "phone": "+49 6725 2330"
@@ -80605,19 +80427,6 @@
     "address": "Kirchenstraße 2a, 85375",
     "source": "osm",
     "phone": "+49 8165 905170"
-  },
-  {
-    "id": 8440945634,
-    "name": "Biohof Meidinger",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Neufahrn bei Freising",
-    "products": [],
-    "website": "https://www.biohof-meidinger.com/",
-    "lat": 48.3201581,
-    "lon": 11.6871386,
-    "address": "Kirchenstraße 2a, 85375",
-    "source": "osm"
   },
   {
     "id": 8441067317,
@@ -88603,19 +88412,6 @@
     "source": "osm"
   },
   {
-    "id": 9200459912,
-    "name": "Schretzenmayer",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6717599,
-    "lon": 10.3240772,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9200887192,
     "name": "Vinum",
     "country": "Germany",
@@ -89233,19 +89029,6 @@
     "lat": 52.4036091,
     "lon": 12.8254007,
     "address": "Derwitzer Dorfstraße 18, 14542",
-    "source": "osm"
-  },
-  {
-    "id": 9256427342,
-    "name": "Christines Hofladen",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.4322167,
-    "lon": 7.8115781,
-    "address": "52",
     "source": "osm"
   },
   {
@@ -95223,19 +95006,6 @@
     "phone": "+49 4933 990345"
   },
   {
-    "id": 9798790242,
-    "name": "Weingut Weltner",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.7303238,
-    "lon": 10.2494902,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9801733452,
     "name": "Straussig",
     "country": "Germany",
@@ -96543,19 +96313,6 @@
     "source": "osm"
   },
   {
-    "id": 9939906490,
-    "name": "Seidtenhof",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.5206831,
-    "lon": 8.3836272,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9940579273,
     "name": "Kühnerts Hofladen",
     "country": "Germany",
@@ -97596,19 +97353,6 @@
     "source": "osm"
   },
   {
-    "id": 10034224802,
-    "name": "Weingut Glaser-Himmelreich",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.85906,
-    "lon": 10.1848644,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10034648012,
     "name": "Biohofladen Trauner",
     "country": "Germany",
@@ -97876,20 +97620,6 @@
     "website": "https://weinhaus-straeten.de",
     "lat": 51.3646669,
     "lon": 6.4243405,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 2152 3375"
-  },
-  {
-    "id": 10056885365,
-    "name": "Weinhaus Straeten",
-    "country": "Germany",
-    "region": "Nordrhein-Westfalen",
-    "municipality": null,
-    "products": [],
-    "website": "https://weinhaus-straeten.de",
-    "lat": 51.3649135,
-    "lon": 6.4242158,
     "address": null,
     "source": "osm",
     "phone": "+49 2152 3375"
@@ -103694,19 +103424,6 @@
     "phone": "+49 6353 7167"
   },
   {
-    "id": 10951466149,
-    "name": "Hofladen Bannick",
-    "country": "Germany",
-    "region": "Schleswig-Holstein",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.3961464,
-    "lon": 9.7053113,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10951828912,
     "name": "Rumiz Weinzirkel",
     "country": "Germany",
@@ -105412,19 +105129,6 @@
     "source": "osm"
   },
   {
-    "id": 11136422641,
-    "name": "Bee Happy",
-    "country": "Germany",
-    "region": "Niedersachsen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.828003,
-    "lon": 6.7537773,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 11136426312,
     "name": "Hof Hasselhoff",
     "country": "Germany",
@@ -106282,20 +105986,6 @@
     "address": "64, 91369",
     "source": "osm",
     "phone": "+49 9199 1849"
-  },
-  {
-    "id": 11215351158,
-    "name": "Domaine1795",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": "https://domaine1795.com",
-    "lat": 48.8067546,
-    "lon": 8.2228937,
-    "address": null,
-    "source": "osm",
-    "phone": "+49 152 28410117"
   },
   {
     "id": 11215587730,
@@ -114346,19 +114036,6 @@
     "source": "osm"
   },
   {
-    "id": 12062578653,
-    "name": "Weingut Gillot",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.847534,
-    "lon": 8.3531365,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12062578654,
     "name": "Carl Sittmann",
     "country": "Germany",
@@ -116700,20 +116377,6 @@
     "phone": "+49 176 32776202"
   },
   {
-    "id": 12278291206,
-    "name": "Weingut Rieger",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.weingutrieger.de",
-    "lat": 47.8517151,
-    "lon": 7.6624703,
-    "address": "Noblingstraße 13b",
-    "source": "osm",
-    "phone": "+49 7634 2013"
-  },
-  {
     "id": 12278474620,
     "name": "Solawi",
     "country": "Germany",
@@ -116764,20 +116427,6 @@
     "lon": 13.3893622,
     "address": "Bergmannstraße 8",
     "source": "osm"
-  },
-  {
-    "id": 12285342281,
-    "name": "Baltic Weinkontor",
-    "country": "Germany",
-    "region": "Mecklenburg-Vorpommern",
-    "municipality": "Rostock",
-    "products": [],
-    "website": "https://baltic-weinkontor.de/",
-    "lat": 54.087909,
-    "lon": 12.1373488,
-    "address": "Rostocker Heide 1, 18055",
-    "source": "osm",
-    "phone": "+49 381 37 50 77 22"
   },
   {
     "id": 12285755157,
@@ -120526,19 +120175,6 @@
     "source": "osm"
   },
   {
-    "id": 12803102729,
-    "name": "Fuchshof",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": "https://fuchshof.de/",
-    "lat": 47.7283674,
-    "lon": 9.161053,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12803875389,
     "name": "Rutsch",
     "country": "Germany",
@@ -121170,20 +120806,6 @@
     "lon": 9.6774814,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 12872797302,
-    "name": "Obsthof Viets",
-    "country": "Germany",
-    "region": "Niedersachsen",
-    "municipality": "Neu Wulmstorf",
-    "products": [],
-    "website": "https://www.obsthof-viets.de/",
-    "lat": 53.3737079,
-    "lon": 9.8057186,
-    "address": "Plantagenweg 2, 21629",
-    "source": "osm",
-    "phone": "+49 4168 8353"
   },
   {
     "id": 12872832416,
@@ -124622,19 +124244,6 @@
     "source": "osm"
   },
   {
-    "id": 13247635286,
-    "name": "Weingut Walz",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8717006,
-    "lon": 7.6632825,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13251413276,
     "name": "Sellmaier. Genuss & Reisen",
     "country": "Germany",
@@ -125053,22 +124662,6 @@
     "website": "https://back-hoervelsingen.de/wein-spirituosen/",
     "lat": 48.4857583,
     "lon": 10.0318401,
-    "address": "Herwigstraße 35, 89129",
-    "source": "osm",
-    "phone": "+49 7348 6243"
-  },
-  {
-    "id": 13294479538,
-    "name": "Back",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Langenau",
-    "products": [
-      "liquor"
-    ],
-    "website": "https://back-hoervelsingen.de/brennerei/",
-    "lat": 48.485756,
-    "lon": 10.0320175,
     "address": "Herwigstraße 35, 89129",
     "source": "osm",
     "phone": "+49 7348 6243"
@@ -126099,19 +125692,6 @@
     "source": "osm"
   },
   {
-    "id": 13442748701,
-    "name": "Verkaufsautomaten",
-    "country": "Germany",
-    "region": "Niedersachsen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.0185549,
-    "lon": 8.1358388,
-    "address": "Greffener Straße, 33775",
-    "source": "osm"
-  },
-  {
     "id": 13446196259,
     "name": "Nutztier-Arche",
     "country": "Germany",
@@ -126175,19 +125755,6 @@
     "lat": 52.3844706,
     "lon": 10.0967484,
     "address": "Westerende 10, 31275",
-    "source": "osm"
-  },
-  {
-    "id": 13462703577,
-    "name": "Weinmanufaktur Hubertus",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Klotten",
-    "products": [],
-    "website": null,
-    "lat": 50.1629725,
-    "lon": 7.200221,
-    "address": "Moselstraße 9, 56818",
     "source": "osm"
   },
   {
@@ -126906,20 +126473,6 @@
     "phone": "+49 6022 4462"
   },
   {
-    "id": 13617270001,
-    "name": "Weinbau Ruppert",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": null,
-    "products": [],
-    "website": "http://weinbauruppert.de/",
-    "lat": 49.8288576,
-    "lon": 9.2147493,
-    "address": "Am Blumenberg 55, 63820",
-    "source": "osm",
-    "phone": "+49 6022 4462"
-  },
-  {
     "id": 13618535029,
     "name": "Weingut im Zwölberich",
     "country": "Germany",
@@ -127056,19 +126609,6 @@
     "lat": 50.2057144,
     "lon": 8.3768395,
     "address": "In der Bienig 1, 61479",
-    "source": "osm"
-  },
-  {
-    "id": 26548806,
-    "name": "Gut Avelsbach",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Trier",
-    "products": [],
-    "website": null,
-    "lat": 49.7544876,
-    "lon": 6.6916497,
-    "address": "Domäne Avelsbach 2, 54296",
     "source": "osm"
   },
   {
@@ -127313,19 +126853,6 @@
     "lat": 51.487653,
     "lon": 7.4216279,
     "address": "Ostenbergstraße 96, 44227",
-    "source": "osm"
-  },
-  {
-    "id": 32521333,
-    "name": "Neue Kelter",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Remshalden",
-    "products": [],
-    "website": null,
-    "lat": 48.8152806,
-    "lon": 9.4272679,
-    "address": "Schorndorfer Straße 55, 73630",
     "source": "osm"
   },
   {
@@ -129134,20 +128661,6 @@
     "source": "osm"
   },
   {
-    "id": 89715720,
-    "name": "Destillerie Schnitzer",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Traunstein",
-    "products": [],
-    "website": "https://www.destillerie-schnitzer.com/",
-    "lat": 47.9169325,
-    "lon": 12.6274409,
-    "address": "1, 83278",
-    "source": "osm",
-    "phone": "+49 170 7443741"
-  },
-  {
     "id": 90446484,
     "name": "Hofladen Tornau",
     "country": "Germany",
@@ -129978,19 +129491,6 @@
     "lat": 49.1361588,
     "lon": 9.3989694,
     "address": "Tannenhof 1, 74182",
-    "source": "osm"
-  },
-  {
-    "id": 99787564,
-    "name": "Weingut Frölich-Hake",
-    "country": "Germany",
-    "region": "Sachsen-Anhalt",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.weingut-froelich-hake.de/",
-    "lat": 51.1709845,
-    "lon": 11.7768795,
-    "address": null,
     "source": "osm"
   },
   {
@@ -134122,22 +133622,6 @@
     "phone": "+49 6269 8015"
   },
   {
-    "id": 163981596,
-    "name": "Weingut Schreiber",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": "Hochheim am Main",
-    "products": [
-      "wine"
-    ],
-    "website": "https://www.weingut-schreiber.de/",
-    "lat": 50.0265829,
-    "lon": 8.3631888,
-    "address": "Johanneshof 2, 65239",
-    "source": "osm",
-    "phone": "+49 6146 4342"
-  },
-  {
     "id": 164012202,
     "name": "Biolandhof Apfelbacher",
     "country": "Germany",
@@ -135001,20 +134485,6 @@
     "source": "osm"
   },
   {
-    "id": 180830013,
-    "name": "SAUERWEINs Weingut",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Palzem",
-    "products": [],
-    "website": "https://sauerweins.de",
-    "lat": 49.5655885,
-    "lon": 6.377443,
-    "address": "Römerstraße 2, 54439",
-    "source": "osm",
-    "phone": "+49 6583 444"
-  },
-  {
     "id": 180970166,
     "name": "Benishof",
     "country": "Germany",
@@ -135699,19 +135169,6 @@
     "address": "Bahnhofstraße 7, 59174",
     "source": "osm",
     "phone": "+49 2307 22708"
-  },
-  {
-    "id": 197534127,
-    "name": "Altenburger Destillerie",
-    "country": "Germany",
-    "region": "Sachsen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.9827231,
-    "lon": 12.4249197,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 197859812,
@@ -136411,19 +135868,6 @@
     "phone": "+49 7171 38479"
   },
   {
-    "id": 205789179,
-    "name": "Weingut Lidy",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Frankweiler",
-    "products": [],
-    "website": null,
-    "lat": 49.2332379,
-    "lon": 8.0564771,
-    "address": "Frankenburgstraße 6, 76833",
-    "source": "osm"
-  },
-  {
     "id": 205892127,
     "name": "Spargelhof Kemna",
     "country": "Germany",
@@ -136907,19 +136351,6 @@
     "lat": 49.6703537,
     "lon": 6.5784316,
     "address": "Weinstraße 1, 54441",
-    "source": "osm"
-  },
-  {
-    "id": 210999203,
-    "name": "Weingut Dr. Frey",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Kanzem",
-    "products": [],
-    "website": "https://weingutdrfrey.de/",
-    "lat": 49.6641987,
-    "lon": 6.5806477,
-    "address": "Alter Weg 9, 54441",
     "source": "osm"
   },
   {
@@ -137751,20 +137182,6 @@
     "source": "osm"
   },
   {
-    "id": 225625535,
-    "name": "Staatsweingut Meersburg",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Meersburg",
-    "products": [],
-    "website": "https://staatsweingut-meersburg.de",
-    "lat": 47.6933888,
-    "lon": 9.2731758,
-    "address": "Seminarstraße 1, 88709",
-    "source": "osm",
-    "phone": "+49 7532 4467 44"
-  },
-  {
     "id": 225800427,
     "name": "Hoflädchen",
     "country": "Germany",
@@ -138006,19 +137423,6 @@
     "lat": 49.0983754,
     "lon": 8.1204078,
     "address": "Hauptstraße 90, 76872",
-    "source": "osm"
-  },
-  {
-    "id": 230559133,
-    "name": "Winzergenossenschaft Glottertal",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Glottertal",
-    "products": [],
-    "website": null,
-    "lat": 48.0483878,
-    "lon": 7.9477193,
-    "address": "Winzerstraße 2, 79286",
     "source": "osm"
   },
   {
@@ -138667,19 +138071,6 @@
     "lat": 53.8220223,
     "lon": 9.4042804,
     "address": "Am Neuendeich 197, 25348",
-    "source": "osm"
-  },
-  {
-    "id": 238932648,
-    "name": "Weingut Matyas",
-    "country": "Germany",
-    "region": "Sachsen",
-    "municipality": "Coswig",
-    "products": [],
-    "website": null,
-    "lat": 51.1328494,
-    "lon": 13.5999449,
-    "address": "Spitzgrundstraße 12, 01640",
     "source": "osm"
   },
   {
@@ -140064,19 +139455,6 @@
     "phone": "+49 2360 90087"
   },
   {
-    "id": 263404278,
-    "name": "Weinimport Manganiello",
-    "country": "Germany",
-    "region": "Nordrhein-Westfalen",
-    "municipality": "Mechernich",
-    "products": [],
-    "website": null,
-    "lat": 50.6122798,
-    "lon": 6.647524,
-    "address": "Kölner Straße 41, 53894",
-    "source": "osm"
-  },
-  {
     "id": 263667221,
     "name": "Dellwiger Scheune",
     "country": "Germany",
@@ -141317,19 +140695,6 @@
     "phone": "+49 8093 1581"
   },
   {
-    "id": 297387741,
-    "name": "Weingut Faber",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Freiburg im Breisgau",
-    "products": [],
-    "website": "https://www.weingutfaber.de/",
-    "lat": 47.977856,
-    "lon": 7.7912703,
-    "address": "Langgasse 5, 79111",
-    "source": "osm"
-  },
-  {
     "id": 297483276,
     "name": "Tinthof",
     "country": "Germany",
@@ -141826,19 +141191,6 @@
     "address": "Im Alten Dorfe 11, 37079",
     "source": "osm",
     "phone": "+49 551 633115"
-  },
-  {
-    "id": 309850523,
-    "name": "FRITZ' HOFF",
-    "country": "Germany",
-    "region": "Niedersachsen",
-    "municipality": "Buchholz in der Nordheide",
-    "products": [],
-    "website": "http://www.fritz-hoff.de/",
-    "lat": 53.3393095,
-    "lon": 9.8377496,
-    "address": "Meilsener Straße 1, 21244",
-    "source": "osm"
   },
   {
     "id": 310534502,
@@ -144558,19 +143910,6 @@
     "source": "osm"
   },
   {
-    "id": 383631434,
-    "name": "Weingut Platz",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.2993068,
-    "lon": 8.0999653,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 384666068,
     "name": "Kornbrandbrennerei",
     "country": "Germany",
@@ -144986,19 +144325,6 @@
     "source": "osm"
   },
   {
-    "id": 397374285,
-    "name": "Weinfactum",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Stuttgart",
-    "products": [],
-    "website": null,
-    "lat": 48.8148922,
-    "lon": 9.215023,
-    "address": "Rommelstraße 22, 70376",
-    "source": "osm"
-  },
-  {
     "id": 397376734,
     "name": "Waldhofladen Merz",
     "country": "Germany",
@@ -145273,19 +144599,6 @@
     "source": "osm"
   },
   {
-    "id": 406471376,
-    "name": "Weingut Konzmann",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Kernen im Remstal",
-    "products": [],
-    "website": "https://www.konzmann-gin.de",
-    "lat": 48.7987827,
-    "lon": 9.3381293,
-    "address": "Panoramaweg 1, 71394",
-    "source": "osm"
-  },
-  {
     "id": 406754905,
     "name": "Weilerhof Hofladen",
     "country": "Germany",
@@ -145311,20 +144624,6 @@
     "lon": 11.5590429,
     "address": "Mittenheim 37, 85764",
     "source": "osm"
-  },
-  {
-    "id": 408620125,
-    "name": "Weingut Friesenhahn",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": "Rüdesheim am Rhein",
-    "products": [],
-    "website": "https://weingut-friesenhahn.de/",
-    "lat": 49.9968846,
-    "lon": 7.901051,
-    "address": "Am Fichtenkopf 22, 65385",
-    "source": "osm",
-    "phone": "+49 6722 937647"
   },
   {
     "id": 408660425,
@@ -145696,19 +144995,6 @@
     "lat": 51.5335233,
     "lon": 9.7351009,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 422822193,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Albessen",
-    "products": [],
-    "website": null,
-    "lat": 49.5165608,
-    "lon": 7.3306771,
-    "address": "Burgweg 1, 66871",
     "source": "osm"
   },
   {
@@ -146388,19 +145674,6 @@
     "phone": "+49 2237 9753995"
   },
   {
-    "id": 455668623,
-    "name": "Weingut Ackermann",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Ilbesheim bei Landau in der Pfalz",
-    "products": [],
-    "website": null,
-    "lat": 49.1797137,
-    "lon": 8.0505699,
-    "address": "Oberdorfstraße 40, 76831",
-    "source": "osm"
-  },
-  {
     "id": 455739636,
     "name": "Geflügelhof Küppers GbR",
     "country": "Germany",
@@ -146427,19 +145700,6 @@
     "address": "Mainzer Straße 86, 55283",
     "source": "osm",
     "phone": "+49 6133 59290"
-  },
-  {
-    "id": 456238057,
-    "name": "Öko-Weingut Zang",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Nordheim am Main",
-    "products": [],
-    "website": "https://www.oekoweingut-zang.de",
-    "lat": 49.8581343,
-    "lon": 10.1828243,
-    "address": "Kreuzbergstraße 2, 97334",
-    "source": "osm"
   },
   {
     "id": 457310480,
@@ -147283,19 +146543,6 @@
     "phone": "+49 8781 3350"
   },
   {
-    "id": 486810567,
-    "name": "Winzerhof Löwener Mühle",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Igel",
-    "products": [],
-    "website": "https://leckerwein.de",
-    "lat": 49.7159132,
-    "lon": 6.5259808,
-    "address": "54298",
-    "source": "osm"
-  },
-  {
     "id": 487197960,
     "name": "Weingut Johanneshof",
     "country": "Germany",
@@ -148051,19 +147298,6 @@
     "address": "Dolgesheimer Straße 24, 55278",
     "source": "osm",
     "phone": "+49 6249 8069478"
-  },
-  {
-    "id": 523856989,
-    "name": "Obstbrennerei Seitz",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Ingersheim",
-    "products": [],
-    "website": null,
-    "lat": 48.9614026,
-    "lon": 9.1871167,
-    "address": "Mühlweg 17, 74379",
-    "source": "osm"
   },
   {
     "id": 524202291,
@@ -149215,20 +148449,6 @@
     "lon": 13.0916093,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 627554127,
-    "name": "Weingut Höfler",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": "Alzenau",
-    "products": [],
-    "website": "https://www.weingut-hoefler.de",
-    "lat": 50.1056931,
-    "lon": 9.104379,
-    "address": "Albstädter Straße 1",
-    "source": "osm",
-    "phone": "+49 6023 5495"
   },
   {
     "id": 630020061,
@@ -151244,19 +150464,6 @@
     "source": "osm"
   },
   {
-    "id": 739774488,
-    "name": "Weinguth Strohm",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.6057603,
-    "lon": 8.2334052,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 739774489,
     "name": "Weinguth Strohm",
     "country": "Germany",
@@ -151927,20 +151134,6 @@
     "phone": "+49 2671 60050"
   },
   {
-    "id": 792183938,
-    "name": "Andreas Oster Weinkellerei KG",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Cochem",
-    "products": [],
-    "website": "http://www.ao-weine.de/",
-    "lat": 50.1280502,
-    "lon": 7.1490103,
-    "address": "Weingartenstraße 1, 56812",
-    "source": "osm",
-    "phone": "+49 2671 60050"
-  },
-  {
     "id": 792498954,
     "name": "Direktvermarktung Familie Bretschneider",
     "country": "Germany",
@@ -151993,19 +151186,6 @@
     "lat": 49.1971309,
     "lon": 7.2454534,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 794791348,
-    "name": "Weingut Schaurer",
-    "country": "Germany",
-    "region": "Baden-Württemberg",
-    "municipality": "Insheim",
-    "products": [],
-    "website": null,
-    "lat": 49.1580313,
-    "lon": 8.1455611,
-    "address": "Hauptstraße 6, 76865",
     "source": "osm"
   },
   {
@@ -153762,19 +152942,6 @@
     "source": "osm"
   },
   {
-    "id": 1008183298,
-    "name": "Weingut und Ferienwohnungen Lithos",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Oberwesel",
-    "products": [],
-    "website": null,
-    "lat": 50.0873538,
-    "lon": 7.7006537,
-    "address": "Am Weinberg 78, 55430",
-    "source": "osm"
-  },
-  {
     "id": 1008331103,
     "name": "Weingut Rüdiger Fiehl",
     "country": "Germany",
@@ -155076,19 +154243,6 @@
     "source": "osm"
   },
   {
-    "id": 1144677579,
-    "name": "Nienhäger Wiesen-Ei",
-    "country": "Germany",
-    "region": "Hessen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.3420499,
-    "lon": 9.6614017,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1147656698,
     "name": "Kleine Vinothek der Hambacher Winzer",
     "country": "Germany",
@@ -155733,33 +154887,6 @@
     "phone": "+49 34639 20 233"
   },
   {
-    "id": 1249167163,
-    "name": "Hofladen Puchschlagen",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Schwabhausen",
-    "products": [],
-    "website": null,
-    "lat": 48.2863631,
-    "lon": 11.3467254,
-    "address": "Rothfeldstraße 5, 85247",
-    "source": "osm"
-  },
-  {
-    "id": 1256619961,
-    "name": "ZollstockHof Konken Verkauf",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": "Konken",
-    "products": [],
-    "website": null,
-    "lat": 49.5091013,
-    "lon": 7.3541004,
-    "address": "Kirchenstraße 2, 66871",
-    "source": "osm",
-    "phone": "+49 6384 993095"
-  },
-  {
     "id": 1259519959,
     "name": "Beerenland Renholzberg",
     "country": "Germany",
@@ -155904,19 +155031,6 @@
     "address": "3, 27305",
     "source": "osm",
     "phone": "+49 160 97363647"
-  },
-  {
-    "id": 1292674393,
-    "name": "Johannishof",
-    "country": "Germany",
-    "region": "Rheinland-Pfalz",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.5147684,
-    "lon": 7.1868947,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1296971294,
@@ -156183,22 +155297,6 @@
     "phone": "+49171 4400651"
   },
   {
-    "id": 1330493384,
-    "name": "Beerenland Renholzberg",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": null,
-    "products": [
-      "berries"
-    ],
-    "website": "http://www.beerenland-renholzberg.de/index.html",
-    "lat": 48.6416307,
-    "lon": 13.2871468,
-    "address": null,
-    "source": "osm",
-    "phone": "+49171 4400651"
-  },
-  {
     "id": 1330493385,
     "name": "Beerenland Renholzberg",
     "country": "Germany",
@@ -156242,22 +155340,6 @@
     "website": "http://www.beerenland-renholzberg.de/index.html",
     "lat": 48.6405787,
     "lon": 13.2848526,
-    "address": null,
-    "source": "osm",
-    "phone": "+49171 4400651"
-  },
-  {
-    "id": 1330493388,
-    "name": "Beerenland Renholzberg",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": null,
-    "products": [
-      "berries"
-    ],
-    "website": "http://www.beerenland-renholzberg.de/index.html",
-    "lat": 48.6401063,
-    "lon": 13.2859686,
     "address": null,
     "source": "osm",
     "phone": "+49171 4400651"

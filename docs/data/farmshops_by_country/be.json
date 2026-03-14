@@ -9984,19 +9984,6 @@
     "phone": "+32 59 23 63 81"
   },
   {
-    "id": 359833372,
-    "name": "Ten Kapittelberg",
-    "country": "Belgium",
-    "region": "Vlaams-Brabant",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.0471196,
-    "lon": 4.8986873,
-    "address": "Kapittelbergstraat 4, 2230",
-    "source": "osm"
-  },
-  {
     "id": 362851702,
     "name": "Ferme de la Distillerie",
     "country": "Belgium",
@@ -11074,19 +11061,6 @@
     "source": "osm"
   },
   {
-    "id": 994979842,
-    "name": "'t Reigershof",
-    "country": "Belgium",
-    "region": "West-Vlaanderen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2369578,
-    "lon": 3.0452658,
-    "address": "Polderstraat 2A",
-    "source": "osm"
-  },
-  {
     "id": 996478519,
     "name": "Stappo Enoteca",
     "country": "Belgium",
@@ -11538,19 +11512,6 @@
     "address": "Chaussée Brunehault 258A, 7134",
     "source": "osm",
     "phone": "+32 64 26 65 22"
-  },
-  {
-    "id": 1344347429,
-    "name": "Ferme de Sclimpré",
-    "country": "Belgium",
-    "region": "Vlaams-Brabant",
-    "municipality": "Beauvechain",
-    "products": [],
-    "website": null,
-    "lat": 50.7667951,
-    "lon": 4.8078737,
-    "address": "Rue de Sclimpré 2",
-    "source": "osm"
   },
   {
     "id": 1350686377,

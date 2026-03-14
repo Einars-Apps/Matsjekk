@@ -7350,20 +7350,6 @@
     "source": "osm"
   },
   {
-    "id": 12291620064,
-    "name": "Na břehu Rhôny",
-    "country": "Czechia",
-    "region": "Jihomoravsky",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.nabrehurhony.cz/nase-brehy/na-brehu-rhony-brno/",
-    "lat": 49.1962096,
-    "lon": 16.6081392,
-    "address": null,
-    "source": "osm",
-    "phone": "+420 734 759 599"
-  },
-  {
     "id": 12303932754,
     "name": "Vinofol",
     "country": "Czechia",
@@ -9695,19 +9681,6 @@
     "website": null,
     "lat": 48.8239337,
     "lon": 16.5376949,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 895234238,
-    "name": "Enotéka znojemských vín",
-    "country": "Czechia",
-    "region": "Jihomoravsky",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.8557653,
-    "lon": 16.0446966,
     "address": null,
     "source": "osm"
   },

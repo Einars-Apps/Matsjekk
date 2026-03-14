@@ -7615,19 +7615,6 @@
     "source": "osm"
   },
   {
-    "id": 436788215,
-    "name": "Casa do Queijo de Uruquê",
-    "country": "Brazil",
-    "region": "Ceara",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -5.1453901,
-    "lon": -39.1787534,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 436980293,
     "name": "José Pau D'Arco",
     "country": "Brazil",
@@ -8089,45 +8076,6 @@
     "source": "osm"
   },
   {
-    "id": 542083190,
-    "name": "Vinícola Irmãos Chesini",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -29.2381473,
-    "lon": -51.4792101,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 543552124,
-    "name": "Vinícola Irmãos Mioranza",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -29.0102392,
-    "lon": -51.2628067,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 543552126,
-    "name": "Terrasul Vinhos Finos",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -29.0078127,
-    "lon": -51.2617839,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 543805812,
     "name": "A Casa do Lancheiro",
     "country": "Brazil",
@@ -8259,20 +8207,6 @@
     "lon": -51.1377264,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 550909957,
-    "name": "Cachaçaria Weber Haus",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.weberhaus.com.br/",
-    "lat": -29.5779767,
-    "lon": -51.1380061,
-    "address": null,
-    "source": "osm",
-    "phone": "+55 51 3563-3194"
   },
   {
     "id": 550928841,
@@ -8683,19 +8617,6 @@
     "lat": -8.4905846,
     "lon": -36.233129,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 619280869,
-    "name": "ODA Vinhoteca Duty Free",
-    "country": "Brazil",
-    "region": "Parana",
-    "municipality": "Foz do Iguaçu",
-    "products": [],
-    "website": "https://odavinhoteca.com.br/",
-    "lat": -25.5528547,
-    "lon": -54.5702376,
-    "address": "R. Cândido Ferreira - Vila Yolanda, Foz do Iguaçu 539, 85853",
     "source": "osm"
   },
   {
@@ -9160,19 +9081,6 @@
     "website": null,
     "lat": -29.0833553,
     "lon": -51.2177979,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 834544454,
-    "name": "Monte Reale",
-    "country": "Brazil",
-    "region": "Rio Grande do Sul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -29.0540316,
-    "lon": -51.1846214,
     "address": null,
     "source": "osm"
   },
@@ -10136,19 +10044,6 @@
     "website": null,
     "lat": -25.4026701,
     "lon": -49.4967495,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1305717170,
-    "name": "Vinícola Legado",
-    "country": "Brazil",
-    "region": "Parana",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -25.4029565,
-    "lon": -49.4967986,
     "address": null,
     "source": "osm"
   },

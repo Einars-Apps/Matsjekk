@@ -3993,19 +3993,6 @@
     "source": "osm"
   },
   {
-    "id": 8976419143,
-    "name": "Hárs Pincészet",
-    "country": "Hungary",
-    "region": "Eszak-Magyarorszag",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8119845,
-    "lon": 20.2354238,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 8986384629,
     "name": "Tökmagolaj",
     "country": "Hungary",
@@ -5638,19 +5625,6 @@
     "address": null,
     "source": "osm",
     "phone": "+36 30 269 0942"
-  },
-  {
-    "id": 11296559857,
-    "name": "Lajkó Vitál",
-    "country": "Hungary",
-    "region": "Del-Dunantul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.5230794,
-    "lon": 19.2570791,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 11305651087,
@@ -7478,20 +7452,6 @@
     "phone": "+36 94 428 628"
   },
   {
-    "id": 363616836,
-    "name": "Molnár Pince",
-    "country": "Hungary",
-    "region": "Eszak-Magyarorszag",
-    "municipality": "Egerszalók",
-    "products": [],
-    "website": "http://www.egerszalokinfo.hu/molnar_vh.html",
-    "lat": 47.8678314,
-    "lon": 20.3261846,
-    "address": "Ady Endre út, 3394",
-    "source": "osm",
-    "phone": "+36 30 570 4957"
-  },
-  {
     "id": 368941205,
     "name": "Kristinus borbirtok",
     "country": "Hungary",
@@ -7942,19 +7902,6 @@
     "phone": "+36 30 578 7259"
   },
   {
-    "id": 489059150,
-    "name": "Szent Donát Borház Kft",
-    "country": "Hungary",
-    "region": "Kozep-Dunantul",
-    "municipality": "Nyúl",
-    "products": [],
-    "website": null,
-    "lat": 47.5791544,
-    "lon": 17.6736612,
-    "address": "Kápolna utca 41, 9082",
-    "source": "osm"
-  },
-  {
     "id": 492863866,
     "name": "Kovács pince",
     "country": "Hungary",
@@ -7994,19 +7941,6 @@
     "source": "osm"
   },
   {
-    "id": 496891669,
-    "name": "körpince",
-    "country": "Hungary",
-    "region": "Pest",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4493036,
-    "lon": 18.7532707,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 496891672,
     "name": "körpince",
     "country": "Hungary",
@@ -8020,19 +7954,6 @@
     "source": "osm"
   },
   {
-    "id": 496891673,
-    "name": "körpince",
-    "country": "Hungary",
-    "region": "Pest",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.44921,
-    "lon": 18.7536259,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 496891681,
     "name": "körpince",
     "country": "Hungary",
@@ -8042,19 +7963,6 @@
     "website": null,
     "lat": 47.4496069,
     "lon": 18.7529577,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 496891685,
-    "name": "körpince",
-    "country": "Hungary",
-    "region": "Pest",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4497155,
-    "lon": 18.7533165,
     "address": null,
     "source": "osm"
   },
@@ -8356,25 +8264,6 @@
     "source": "osm"
   },
   {
-    "id": 574677719,
-    "name": "Ottó Pince Termelői Borkimérés",
-    "country": "Hungary",
-    "region": null,
-    "municipality": "Sopron",
-    "products": [
-      "wine",
-      "white_wine",
-      "red_wine",
-      "rosé_wine"
-    ],
-    "website": "http://ottopince.hu/",
-    "lat": 47.6765272,
-    "lon": 16.6052425,
-    "address": "Lóki sor 21, 9400",
-    "source": "osm",
-    "phone": "+36 99 324 441"
-  },
-  {
     "id": 593435702,
     "name": "Blasinszky méz",
     "country": "Hungary",
@@ -8586,19 +8475,6 @@
     "address": "Táncsics Mihály út 1, 1174",
     "source": "osm",
     "phone": "+36 1 253 0964"
-  },
-  {
-    "id": 675759951,
-    "name": "Hásságyi borászat (Belvárdgyulai Zrt.)",
-    "country": "Hungary",
-    "region": "Del-Dunantul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.0269624,
-    "lon": 18.3983421,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 676044240,
@@ -9024,19 +8900,6 @@
     "website": null,
     "lat": 46.7804209,
     "lon": 17.652634,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 961410559,
-    "name": "Országh",
-    "country": "Hungary",
-    "region": "Kozep-Dunantul",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7804445,
-    "lon": 17.6527295,
     "address": null,
     "source": "osm"
   },

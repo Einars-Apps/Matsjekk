@@ -2443,19 +2443,6 @@
     "source": "osm"
   },
   {
-    "id": 4690836189,
-    "name": "Drugstore",
-    "country": "Argentina",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -28.6281463,
-    "lon": -65.1361065,
-    "address": "Pellegrini, 4230",
-    "source": "osm"
-  },
-  {
     "id": 4690836989,
     "name": "Bar Palito",
     "country": "Argentina",
@@ -3727,19 +3714,6 @@
     "source": "osm"
   },
   {
-    "id": 5334143203,
-    "name": "Manjar Blanco",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.6575588,
-    "lon": -58.763006,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5375701591,
     "name": "Vera Vinos",
     "country": "Argentina",
@@ -4455,19 +4429,6 @@
     "website": null,
     "lat": -34.6402688,
     "lon": -58.5237206,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 6030327185,
-    "name": "Bodega Nanni",
-    "country": "Argentina",
-    "region": "Catamarca",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -26.0742409,
-    "lon": -65.9741204,
     "address": null,
     "source": "osm"
   },
@@ -5267,19 +5228,6 @@
     "website": null,
     "lat": -34.580997,
     "lon": -58.4743612,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 6938598185,
-    "name": "Bodega el transito",
-    "country": "Argentina",
-    "region": "Catamarca",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -26.0738957,
-    "lon": -65.9737502,
     "address": null,
     "source": "osm"
   },
@@ -6342,19 +6290,6 @@
     "lat": -41.1339665,
     "lon": -71.315039,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 8282173162,
-    "name": "Luz Azul",
-    "country": "Argentina",
-    "region": "Rio Negro",
-    "municipality": "San Carlos de Bariloche",
-    "products": [],
-    "website": null,
-    "lat": -41.1337626,
-    "lon": -71.2980738,
-    "address": "Otto Goedecke 102, R8400",
     "source": "osm"
   },
   {
@@ -9756,19 +9691,6 @@
     "source": "osm"
   },
   {
-    "id": 12201940628,
-    "name": "La Económica",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.6513674,
-    "lon": -58.7879164,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12206151803,
     "name": "Mercanto",
     "country": "Argentina",
@@ -11442,19 +11364,6 @@
     "source": "osm"
   },
   {
-    "id": 253639502,
-    "name": "ODA Vinoteca",
-    "country": "Argentina",
-    "region": "Misiones",
-    "municipality": "Puerto Iguazú",
-    "products": [],
-    "website": "https://odavinoteca.com.ar/",
-    "lat": -25.6027873,
-    "lon": -54.5738949,
-    "address": "Av Republica Argentina 94",
-    "source": "osm"
-  },
-  {
     "id": 259079883,
     "name": "Ex Bodega Gargantini",
     "country": "Argentina",
@@ -11599,19 +11508,6 @@
     "address": "Ruta Provincial 89 Km 14",
     "source": "osm",
     "phone": "54 02622 429500"
-  },
-  {
-    "id": 316683105,
-    "name": "Vistandes",
-    "country": "Argentina",
-    "region": "Mendoza",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -33.0247814,
-    "lon": -68.7583555,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 316747668,
@@ -13917,19 +13813,6 @@
     "source": "osm"
   },
   {
-    "id": 453610913,
-    "name": "Deposito N°1",
-    "country": "Argentina",
-    "region": "Entre Rios",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -31.5613304,
-    "lon": -60.7493813,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 453610914,
     "name": "Deposito N°68",
     "country": "Argentina",
@@ -14476,19 +14359,6 @@
     "source": "osm"
   },
   {
-    "id": 463934132,
-    "name": "Ñuke Mapu",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.6308167,
-    "lon": -58.4200205,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 464835788,
     "name": "1500",
     "country": "Argentina",
@@ -14967,19 +14837,6 @@
     "website": null,
     "lat": -34.5823078,
     "lon": -58.4409963,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 673712825,
-    "name": "Ser y Tiempo",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -34.5823482,
-    "lon": -58.4409007,
     "address": null,
     "source": "osm"
   },
@@ -15848,19 +15705,6 @@
     "source": "osm"
   },
   {
-    "id": 981041310,
-    "name": "Bodega San Pablo",
-    "country": "Argentina",
-    "region": "Rio Negro",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -38.6813878,
-    "lon": -68.1753896,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 988182374,
     "name": "Bodega del Desierto",
     "country": "Argentina",
@@ -16022,19 +15866,6 @@
     "source": "osm"
   },
   {
-    "id": 1220135820,
-    "name": "La Bodega",
-    "country": "Argentina",
-    "region": "Buenos Aires",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -37.459806,
-    "lon": -61.9316444,
-    "address": "Avenida Casey 1052",
-    "source": "osm"
-  },
-  {
     "id": 1241967891,
     "name": "Bodega Cural Có Agua de Fuego",
     "country": "Argentina",
@@ -16154,19 +15985,6 @@
     "source": "osm"
   },
   {
-    "id": 1339856601,
-    "name": "Bodega abandonada Margarita",
-    "country": "Argentina",
-    "region": "Rio Negro",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -38.9079599,
-    "lon": -68.0209194,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1339856602,
     "name": "Bodega abandonada Margarita",
     "country": "Argentina",
@@ -16176,19 +15994,6 @@
     "website": null,
     "lat": -38.9081389,
     "lon": -68.0202989,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1339856603,
-    "name": "Bodega abandonada Margarita",
-    "country": "Argentina",
-    "region": "Rio Negro",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -38.9081413,
-    "lon": -68.019982,
     "address": null,
     "source": "osm"
   },

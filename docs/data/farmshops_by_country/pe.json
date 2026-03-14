@@ -562,19 +562,6 @@
     "source": "osm"
   },
   {
-    "id": 5506487915,
-    "name": "Don Queso",
-    "country": "Peru",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -9.5274824,
-    "lon": -77.5300274,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5667766727,
     "name": "Don Queso",
     "country": "Peru",
@@ -936,19 +923,6 @@
     "website": null,
     "lat": -12.1168071,
     "lon": -77.0329992,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 12422826502,
-    "name": "don queso",
-    "country": "Peru",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -9.5274182,
-    "lon": -77.5295373,
     "address": null,
     "source": "osm"
   },

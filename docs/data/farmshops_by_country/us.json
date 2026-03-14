@@ -3166,20 +3166,6 @@
     "source": "osm"
   },
   {
-    "id": 2475998127,
-    "name": "Vino!",
-    "country": "United States",
-    "region": "CA",
-    "municipality": "Berkeley",
-    "products": [],
-    "website": null,
-    "lat": 37.8700382,
-    "lon": -122.3014417,
-    "address": "Fourth Street 1786, 94710",
-    "source": "osm",
-    "phone": "+1-510-559-8870"
-  },
-  {
     "id": 2477224497,
     "name": "Burlington Wine Shop",
     "country": "United States",
@@ -7797,19 +7783,6 @@
     "source": "osm"
   },
   {
-    "id": 3896763500,
-    "name": "Kosta Browne Winery",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.4046477,
-    "lon": -122.8199005,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 3896765617,
     "name": "Macphail Tasting Lounge",
     "country": "United States",
@@ -10930,19 +10903,6 @@
     "source": "osm"
   },
   {
-    "id": 4660447713,
-    "name": "Moonstone Cellars",
-    "country": "United States",
-    "region": "CA",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 35.5672003,
-    "lon": -121.0990071,
-    "address": "Cornwall Street, 93428",
-    "source": "osm"
-  },
-  {
     "id": 4661291990,
     "name": "Patterson Cellars",
     "country": "United States",
@@ -13614,20 +13574,6 @@
     "address": "13th Street 840",
     "source": "osm",
     "phone": "+1-805-238-6800"
-  },
-  {
-    "id": 5272612561,
-    "name": "Arroyo Robles Winery",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 35.6275697,
-    "lon": -120.6900272,
-    "address": "Park Street 1240",
-    "source": "osm",
-    "phone": "+1-805-226-5454"
   },
   {
     "id": 5275684130,
@@ -17001,19 +16947,6 @@
     "website": null,
     "lat": 39.0693473,
     "lon": -123.4516474,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 6164833665,
-    "name": "Lula",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.1227422,
-    "lon": -123.5150442,
     "address": null,
     "source": "osm"
   },
@@ -33963,19 +33896,6 @@
     "phone": "+1-828-448-4399"
   },
   {
-    "id": 10587766205,
-    "name": "Country Heritage Winery",
-    "country": "United States",
-    "region": "East North Central",
-    "municipality": null,
-    "products": [],
-    "website": "https://countryheritagewinery.com",
-    "lat": 41.2804779,
-    "lon": -85.1844428,
-    "address": "County Road 68 185, 46763",
-    "source": "osm"
-  },
-  {
     "id": 10589371980,
     "name": "Bootleggers Distillery",
     "country": "United States",
@@ -39836,20 +39756,6 @@
     "lon": -104.8282782,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 11643173526,
-    "name": "Wright's Farm & Market",
-    "country": "United States",
-    "region": "Middle Atlantic",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.eatapples.com/",
-    "lat": 41.6674461,
-    "lon": -74.1376114,
-    "address": "NY-208 699",
-    "source": "osm",
-    "phone": "+1 845-255-5300"
   },
   {
     "id": 11653303503,
@@ -50623,20 +50529,6 @@
     "phone": "+1-540-740-8028"
   },
   {
-    "id": 13380018943,
-    "name": "Davison Farmers Market",
-    "country": "United States",
-    "region": "MI",
-    "municipality": "Davison",
-    "products": [],
-    "website": "https://davisonfarmersmarket.com/",
-    "lat": 43.0183103,
-    "lon": -83.5513628,
-    "address": "East Court Street 8110, 48423",
-    "source": "osm",
-    "phone": "+1-810-412-5883"
-  },
-  {
     "id": 13381910081,
     "name": "Albany Distilling Company",
     "country": "United States",
@@ -57664,19 +57556,6 @@
     "phone": "+1 215-674-3956"
   },
   {
-    "id": 277458531,
-    "name": "Bear Creek Winery",
-    "country": "United States",
-    "region": "West North Central",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bearcreeknd.com/",
-    "lat": 46.7589491,
-    "lon": -96.8179767,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 277744176,
     "name": "Tendercrop Farm at the Red barn",
     "country": "United States",
@@ -60161,19 +60040,6 @@
     "source": "osm"
   },
   {
-    "id": 383110967,
-    "name": "Spirit of Texas",
-    "country": "United States",
-    "region": "TX",
-    "municipality": "Pflugerville",
-    "products": [],
-    "website": "https://spiritoftx.com/",
-    "lat": 30.480097,
-    "lon": -97.584224,
-    "address": "Dalshank Street 1715, 78660",
-    "source": "osm"
-  },
-  {
     "id": 384113424,
     "name": "Steinbeck Vineyards & Winery",
     "country": "United States",
@@ -60869,19 +60735,6 @@
     "website": null,
     "lat": 45.9626969,
     "lon": -118.4240494,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 406333886,
-    "name": "Cayuse Vineyards Production Studio",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.9625908,
-    "lon": -118.4235957,
     "address": null,
     "source": "osm"
   },
@@ -64580,19 +64433,6 @@
     "source": "osm"
   },
   {
-    "id": 538969126,
-    "name": "Corliss",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.0712544,
-    "lon": -118.3435195,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 539309873,
     "name": "Brokenstraw Valley Winery",
     "country": "United States",
@@ -65412,19 +65252,6 @@
     "source": "osm"
   },
   {
-    "id": 570392315,
-    "name": "Wards Farm Market",
-    "country": "United States",
-    "region": "East North Central",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.2684666,
-    "lon": -81.5169493,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 570770156,
     "name": "Smicksburgh Produce Auction",
     "country": "United States",
@@ -65489,19 +65316,6 @@
     "address": "Fast Lane 115, 38544",
     "source": "osm",
     "phone": "+1-931-858-2418"
-  },
-  {
-    "id": 575718135,
-    "name": "Bartholomew Park Winery",
-    "country": "United States",
-    "region": "CA",
-    "municipality": "Sonoma",
-    "products": [],
-    "website": null,
-    "lat": 38.3017713,
-    "lon": -122.4248032,
-    "address": "Vineyard Lane 1000, 95476",
-    "source": "osm"
   },
   {
     "id": 575778400,
@@ -66769,19 +66583,6 @@
     "source": "osm"
   },
   {
-    "id": 635297293,
-    "name": "Picchetti Winery",
-    "country": "United States",
-    "region": "Pacific",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.2944863,
-    "lon": -122.0904393,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 635463013,
     "name": "Mikes Western Wear",
     "country": "United States",
@@ -67238,20 +67039,6 @@
     "lon": -122.2346056,
     "address": "Main Street 613, 96080",
     "source": "osm"
-  },
-  {
-    "id": 658914934,
-    "name": "Bashakill Vineyards",
-    "country": "United States",
-    "region": "Middle Atlantic",
-    "municipality": "Wurtsboro",
-    "products": [],
-    "website": "https://www.bashakillvineyards.com",
-    "lat": 41.5154341,
-    "lon": -74.536723,
-    "address": "South Road 1131, 12790",
-    "source": "osm",
-    "phone": "+1-845-867-6260"
   },
   {
     "id": 658970725,
@@ -68937,19 +68724,6 @@
     "source": "osm"
   },
   {
-    "id": 723275687,
-    "name": "Heinie's Market",
-    "country": "United States",
-    "region": "Mountain",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.7786775,
-    "lon": -105.1314436,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 723937894,
     "name": "Grafton Winery",
     "country": "United States",
@@ -69012,19 +68786,6 @@
     "lat": 36.0173996,
     "lon": -115.0556927,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 726024271,
-    "name": "Testa Vineyards",
-    "country": "United States",
-    "region": "CA",
-    "municipality": "Calpella",
-    "products": [],
-    "website": null,
-    "lat": 39.236945,
-    "lon": -123.2046724,
-    "address": "North State Street 6400, 95418",
     "source": "osm"
   },
   {
@@ -69989,19 +69750,6 @@
     "source": "osm"
   },
   {
-    "id": 766414074,
-    "name": "HALL Wines",
-    "country": "United States",
-    "region": "CA",
-    "municipality": "St. Helena",
-    "products": [],
-    "website": null,
-    "lat": 38.4889833,
-    "lon": -122.4530903,
-    "address": "Saint Helena Highway South 401, 94574",
-    "source": "osm"
-  },
-  {
     "id": 766414085,
     "name": "Louis Martini",
     "country": "United States",
@@ -70834,19 +70582,6 @@
     "lat": 42.1695061,
     "lon": -79.441432,
     "address": "Route 394 3943, 14757",
-    "source": "osm"
-  },
-  {
-    "id": 820258247,
-    "name": "Peterson Farm and Dalahäst Roasting Co.",
-    "country": "United States",
-    "region": "NY",
-    "municipality": "Jamestown",
-    "products": [],
-    "website": "http://www.petersonfarmswede.com/",
-    "lat": 42.1205791,
-    "lon": -79.2718262,
-    "address": "Fluvanna Avenue Extension 3246, 14701",
     "source": "osm"
   },
   {
@@ -75317,19 +75052,6 @@
     "source": "osm"
   },
   {
-    "id": 984106936,
-    "name": "Cussewago Creek Distillery",
-    "country": "United States",
-    "region": "PA",
-    "municipality": "Meadville",
-    "products": [],
-    "website": null,
-    "lat": 41.6367204,
-    "lon": -80.155435,
-    "address": "Water Street 993, 16335",
-    "source": "osm"
-  },
-  {
     "id": 984149064,
     "name": "Medeiros Family Wines",
     "country": "United States",
@@ -75672,20 +75394,6 @@
     "lon": -123.0069646,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 1001214162,
-    "name": "Willamette Valley Vineyards",
-    "country": "United States",
-    "region": "OR",
-    "municipality": "Turner",
-    "products": [],
-    "website": "https://www.wvv.com",
-    "lat": 44.8246643,
-    "lon": -123.0068061,
-    "address": "Enchanted Way Southeast 8800, 97392",
-    "source": "osm",
-    "phone": "+1-503-588-9463"
   },
   {
     "id": 1001279422,
@@ -78133,19 +77841,6 @@
     "lat": 42.2295534,
     "lon": -79.8334991,
     "address": "Freeport Road 1120, 16428",
-    "source": "osm"
-  },
-  {
-    "id": 1065404980,
-    "name": "Firefly Distillery",
-    "country": "United States",
-    "region": "South Atlantic",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 32.8706703,
-    "lon": -79.9828906,
-    "address": null,
     "source": "osm"
   },
   {
@@ -81265,19 +80960,6 @@
     "source": "osm"
   },
   {
-    "id": 1158551690,
-    "name": "R&W Grocery",
-    "country": "United States",
-    "region": "South Atlantic",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 27.5849329,
-    "lon": -81.4991489,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1158999725,
     "name": "Marceline Vineyards",
     "country": "United States",
@@ -81581,19 +81263,6 @@
     "address": "Main Street 924, 78602",
     "source": "osm",
     "phone": "+1-512-412-6031"
-  },
-  {
-    "id": 1181054666,
-    "name": "21 Brix",
-    "country": "United States",
-    "region": "NY",
-    "municipality": "Portland",
-    "products": [],
-    "website": null,
-    "lat": 42.3694494,
-    "lon": -79.4908963,
-    "address": "West Main Street 6654, 14769",
-    "source": "osm"
   },
   {
     "id": 1181848062,
@@ -83834,19 +83503,6 @@
     "source": "osm"
   },
   {
-    "id": 1283344970,
-    "name": "The Winery at Holy Cross Abbey",
-    "country": "United States",
-    "region": "Mountain",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.4501907,
-    "lon": -105.1979873,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1284126451,
     "name": "Fulton Grove Winery",
     "country": "United States",
@@ -84983,19 +84639,6 @@
     "source": "osm"
   },
   {
-    "id": 1337794539,
-    "name": "Woodland Cellars",
-    "country": "United States",
-    "region": "East North Central",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.1589002,
-    "lon": -80.5692896,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1338081782,
     "name": "Delta Dirt Distillery",
     "country": "United States",
@@ -85410,19 +85053,6 @@
     "source": "osm"
   },
   {
-    "id": 1359965076,
-    "name": "Smith Farms farmers market",
-    "country": "United States",
-    "region": "CO",
-    "municipality": "Peyton",
-    "products": [],
-    "website": null,
-    "lat": 38.953265,
-    "lon": -104.5783517,
-    "address": "Blue Gill Drive 8310, 80831",
-    "source": "osm"
-  },
-  {
     "id": 1359967641,
     "name": "Norma's Produce",
     "country": "United States",
@@ -85544,19 +85174,6 @@
     "address": "Elysburg Road 1304, 17821",
     "source": "osm",
     "phone": "+1 570-672-1096"
-  },
-  {
-    "id": 1365829240,
-    "name": "Vino Noceto",
-    "country": "United States",
-    "region": "CA",
-    "municipality": "Plymouth",
-    "products": [],
-    "website": "https://www.noceto.com/",
-    "lat": 38.5216125,
-    "lon": -120.8204247,
-    "address": "Shenandoah Road 11011, 95669",
-    "source": "osm"
   },
   {
     "id": 1366372113,
@@ -86683,20 +86300,6 @@
     "address": "Wilson Farm Ln 301, 23693",
     "source": "osm",
     "phone": "+1-757-868-9485"
-  },
-  {
-    "id": 1448685071,
-    "name": "Rustic Roots",
-    "country": "United States",
-    "region": "MN",
-    "municipality": "Scandia",
-    "products": [],
-    "website": "https://rusticroots.wine/",
-    "lat": 45.2425106,
-    "lon": -92.7763936,
-    "address": "Saint Croix Trail North 20168, 55073",
-    "source": "osm",
-    "phone": "+1-651-433-3311"
   },
   {
     "id": 1450109377,

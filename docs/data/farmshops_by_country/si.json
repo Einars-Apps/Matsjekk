@@ -2407,19 +2407,6 @@
     "source": "osm"
   },
   {
-    "id": 12588099657,
-    "name": "Tran Vovk",
-    "country": "Slovenia",
-    "region": "Western Slovenia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.7548024,
-    "lon": 13.8318252,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12588126539,
     "name": "Vinarstvo ŠUC",
     "country": "Slovenia",
@@ -3059,20 +3046,6 @@
     "source": "osm"
   },
   {
-    "id": 621502088,
-    "name": "Ptujska klet",
-    "country": "Slovenia",
-    "region": "Eastern Slovenia",
-    "municipality": "Ptuj",
-    "products": [],
-    "website": "https://www.ptujska-klet.si/",
-    "lat": 46.4200735,
-    "lon": 15.87363,
-    "address": "Vinarski trg 1, 2250",
-    "source": "osm",
-    "phone": "+386 2 787 98 10"
-  },
-  {
     "id": 623447110,
     "name": "Posestvo Berce",
     "country": "Slovenia",
@@ -3510,19 +3483,6 @@
     "source": "osm"
   },
   {
-    "id": 1259161292,
-    "name": "Posestvo Lavrenčič",
-    "country": "Slovenia",
-    "region": "Western Slovenia",
-    "municipality": "Vipava",
-    "products": [],
-    "website": "http://lavrencic-estate.com/",
-    "lat": 45.8637327,
-    "lon": 13.9498589,
-    "address": "Duplje 15a, 5271",
-    "source": "osm"
-  },
-  {
     "id": 1263314619,
     "name": "Vina Ranarum",
     "country": "Slovenia",
@@ -3630,20 +3590,6 @@
     "address": "Slap 48, 5271",
     "source": "osm",
     "phone": "+386 5 3645 751;+386 31 459 330;+386 31 459 330"
-  },
-  {
-    "id": 1349146778,
-    "name": "Vina Gjerkeš",
-    "country": "Slovenia",
-    "region": "Eastern Slovenia",
-    "municipality": "Rogašovci",
-    "products": [],
-    "website": "http://www.vina-gjerkes.com",
-    "lat": 46.7770495,
-    "lon": 16.0049097,
-    "address": "Fikšinci 49, 9262",
-    "source": "osm",
-    "phone": "+386 2 5588620"
   },
   {
     "id": 1349146821,

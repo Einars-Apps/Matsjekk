@@ -2170,19 +2170,6 @@
     "source": "osm"
   },
   {
-    "id": 2704384864,
-    "name": "Jan de Bruijn",
-    "country": "Netherlands",
-    "region": "Zuid-Holland",
-    "municipality": "'s-Gravenhage",
-    "products": [],
-    "website": null,
-    "lat": 52.0926,
-    "lon": 4.3247083,
-    "address": "Van Hoytemastraat 48, 2596ES",
-    "source": "osm"
-  },
-  {
     "id": 2704841330,
     "name": "Kaashuis van Leeuwen",
     "country": "Netherlands",
@@ -6364,19 +6351,6 @@
     "lat": 51.7351128,
     "lon": 5.527066,
     "address": "'t Dorp 67, 5384MB",
-    "source": "osm"
-  },
-  {
-    "id": 2798144748,
-    "name": "Bon Fromage",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": "Heesch",
-    "products": [],
-    "website": null,
-    "lat": 51.7350758,
-    "lon": 5.52696,
-    "address": "'t Dorp 69, 5384MB",
     "source": "osm"
   },
   {
@@ -14465,19 +14439,6 @@
     "source": "osm"
   },
   {
-    "id": 7176056413,
-    "name": "De Kaaswaag",
-    "country": "Netherlands",
-    "region": "Groningen",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.995383,
-    "lon": 6.5625386,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 7200369933,
     "name": "'t Kaaswinkeltje Koskamp",
     "country": "Netherlands",
@@ -17938,23 +17899,6 @@
     "source": "osm"
   },
   {
-    "id": 13175170539,
-    "name": "VanStijns",
-    "country": "Netherlands",
-    "region": "Zuid-Holland",
-    "municipality": null,
-    "products": [
-      "eggs",
-      "vegetables",
-      "dairy"
-    ],
-    "website": "https://www.vanstijns.nl",
-    "lat": 51.941877,
-    "lon": 4.33712,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13184351063,
     "name": "De Holy Hoeve",
     "country": "Netherlands",
@@ -18134,20 +18078,6 @@
     "phone": "+31 20 722 0072"
   },
   {
-    "id": 13325981011,
-    "name": "Wijnhuis.Amsterdam",
-    "country": "Netherlands",
-    "region": "Noord-Holland",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wijnhuis.amsterdam/nl/",
-    "lat": 52.3517056,
-    "lon": 4.8577391,
-    "address": "Koninginneweg 255-H",
-    "source": "osm",
-    "phone": "+31 20 722 0072"
-  },
-  {
     "id": 13326162009,
     "name": "Kaasboerderij DeFranschman",
     "country": "Netherlands",
@@ -18185,20 +18115,6 @@
     "lon": 6.5740134,
     "address": "Bekkenhaarsweg 8-BEDR, 7645AH",
     "source": "osm"
-  },
-  {
-    "id": 13384452471,
-    "name": "Wijnhuis.Amsterdam",
-    "country": "Netherlands",
-    "region": "Noord-Holland",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wijnhuis.amsterdam/nl/",
-    "lat": 52.3517056,
-    "lon": 4.8577391,
-    "address": "Koninginneweg 255-H",
-    "source": "osm",
-    "phone": "+31 20 722 0072"
   },
   {
     "id": 13384452477,
@@ -18894,19 +18810,6 @@
     "website": "https://www.zuuver.nu/veldschuur-2/",
     "lat": 52.1352369,
     "lon": 6.8546415,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1152275681,
-    "name": "Symbiose",
-    "country": "Netherlands",
-    "region": "Utrecht",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.9018451,
-    "lon": 4.9332005,
     "address": null,
     "source": "osm"
   },

@@ -10963,19 +10963,6 @@
     "source": "osm"
   },
   {
-    "id": 10938596736,
-    "name": "Wine Rack",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.6885422,
-    "lon": -79.3909769,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10968203637,
     "name": "Surrey Farms",
     "country": "Canada",
@@ -11107,19 +11094,6 @@
     "lat": 45.4240911,
     "lon": -73.9675134,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 11082000913,
-    "name": "Tomme Cheese Shop",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": "Guelph",
-    "products": [],
-    "website": "https://tomme.ca/",
-    "lat": 43.5439979,
-    "lon": -80.2487332,
-    "address": "Carden Street 34, N1H 3A2",
     "source": "osm"
   },
   {
@@ -13379,20 +13353,6 @@
     "source": "osm"
   },
   {
-    "id": 12638648701,
-    "name": "Ravine Vineyard Estate Winery",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ravinevineyard.com/",
-    "lat": 43.1607559,
-    "lon": -79.103505,
-    "address": "York Road 1366, L0S 1P0",
-    "source": "osm",
-    "phone": "+1-905-262-8463"
-  },
-  {
     "id": 12641953959,
     "name": "Back 10 Cellars",
     "country": "Canada",
@@ -14988,20 +14948,6 @@
     "phone": "+1-204-320-9440"
   },
   {
-    "id": 13588914101,
-    "name": "General store",
-    "country": "Canada",
-    "region": "Manitoba",
-    "municipality": null,
-    "products": [],
-    "website": "https://ungers1903.ca/unger-meats/",
-    "lat": 49.4895696,
-    "lon": -96.7602009,
-    "address": "Road 31 E 33014",
-    "source": "osm",
-    "phone": "+1-204-320-9440"
-  },
-  {
     "id": 13598445311,
     "name": "Vivezza Vineyard",
     "country": "Canada",
@@ -15682,19 +15628,6 @@
     "source": "osm"
   },
   {
-    "id": 303472074,
-    "name": "Pillitteri Estates Winery",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.pillitteri.com/",
-    "lat": 43.2292113,
-    "lon": -79.1139406,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 305876616,
     "name": "Mountain Orchards",
     "country": "Canada",
@@ -16018,19 +15951,6 @@
     "lat": 49.0172856,
     "lon": -122.4354805,
     "address": "Huntingdon Road 28473, V4X 1A8",
-    "source": "osm"
-  },
-  {
-    "id": 406085227,
-    "name": "Jacobs Wine kits.com",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.5786424,
-    "lon": -80.560988,
-    "address": null,
     "source": "osm"
   },
   {
@@ -17241,20 +17161,6 @@
     "source": "osm"
   },
   {
-    "id": 740736207,
-    "name": "Gray Monk Estate Winery",
-    "country": "Canada",
-    "region": "British Columbia",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.graymonk.com/",
-    "lat": 50.0526843,
-    "lon": -119.4419816,
-    "address": "Camp Road 1055",
-    "source": "osm",
-    "phone": "+1-250-766-3168"
-  },
-  {
     "id": 742895670,
     "name": "La Roche des Brises",
     "country": "Canada",
@@ -17291,19 +17197,6 @@
     "lat": 49.3295729,
     "lon": -124.3667603,
     "address": "Lowrys Road 403",
-    "source": "osm"
-  },
-  {
-    "id": 758462001,
-    "name": "Third Glass Wine & Martinis",
-    "country": "Canada",
-    "region": "Quebec",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.0884134,
-    "lon": -64.7792307,
-    "address": null,
     "source": "osm"
   },
   {
@@ -17592,19 +17485,6 @@
     "source": "osm"
   },
   {
-    "id": 862154624,
-    "name": "Knoydart Farm Cheese",
-    "country": "Canada",
-    "region": "Quebec",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.7185938,
-    "lon": -62.230153,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 862923502,
     "name": "Mercator Vineyards",
     "country": "Canada",
@@ -17818,19 +17698,6 @@
     "lat": 48.3755054,
     "lon": -123.7242686,
     "address": "West Coast Road 6731",
-    "source": "osm"
-  },
-  {
-    "id": 968911812,
-    "name": "Green Gables Winery",
-    "country": "Canada",
-    "region": "Ontario",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.9267273,
-    "lon": -75.5565472,
-    "address": "Porter Road 1600",
     "source": "osm"
   },
   {
@@ -18690,19 +18557,6 @@
     "address": "Queen Street 25, K0L 2H0",
     "source": "osm",
     "phone": "+1-705-908-3027"
-  },
-  {
-    "id": 1321813346,
-    "name": "Eastport Organics self-serve farmstore",
-    "country": "Canada",
-    "region": "Newfoundland and Labrador",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6535888,
-    "lon": -53.754939,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1324149559,

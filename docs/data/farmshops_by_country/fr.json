@@ -19962,19 +19962,6 @@
     "source": "osm"
   },
   {
-    "id": 4873121421,
-    "name": "Château Kirwan",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.0273304,
-    "lon": -0.6583528,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 4873121422,
     "name": "Château Pierre-L",
     "country": "France",
@@ -31121,20 +31108,6 @@
     "source": "osm"
   },
   {
-    "id": 6065389475,
-    "name": "Domaine de Prapin",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": "Taluyers",
-    "products": [],
-    "website": "https://www.domainedeprapin.fr",
-    "lat": 45.6397294,
-    "lon": 4.705008,
-    "address": "Route de Saint-Laurent d'Agny 685, 69440",
-    "source": "osm",
-    "phone": "+33478482484"
-  },
-  {
     "id": 6068625265,
     "name": "Crèmerie des Marchés",
     "country": "France",
@@ -31577,20 +31550,6 @@
     "address": null,
     "source": "osm",
     "phone": "+33 2 46 10 22 96"
-  },
-  {
-    "id": 6131338285,
-    "name": "Ma Réserve",
-    "country": "France",
-    "region": "Centre-Val de Loire",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3960464,
-    "lon": 0.6909825,
-    "address": null,
-    "source": "osm",
-    "phone": "+33 9 84 45 93 09"
   },
   {
     "id": 6137157711,
@@ -36977,19 +36936,6 @@
     "lat": 47.1568049,
     "lon": 4.9599922,
     "address": "Route Nationale 74 26",
-    "source": "osm"
-  },
-  {
-    "id": 6720609784,
-    "name": "La Cave",
-    "country": "France",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.1626115,
-    "lon": 6.0689018,
-    "address": null,
     "source": "osm"
   },
   {
@@ -52343,19 +52289,6 @@
     "source": "osm"
   },
   {
-    "id": 7743153085,
-    "name": "Fraises Christen",
-    "country": "France",
-    "region": "Grand Est",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.fraiseschristen.com/",
-    "lat": 48.3786372,
-    "lon": 7.4993652,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 7743171586,
     "name": "Au jardin des 4 saisons",
     "country": "France",
@@ -52750,19 +52683,6 @@
     "phone": "+336 12 84 22 75"
   },
   {
-    "id": 7777625810,
-    "name": "Alexandre Arbogast",
-    "country": "France",
-    "region": "Grand Est",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.5854579,
-    "lon": 7.5090568,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 7777674585,
     "name": "Au Garde Manger",
     "country": "France",
@@ -52906,19 +52826,6 @@
     "website": null,
     "lat": 47.3036565,
     "lon": -2.4557813,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 7784425960,
-    "name": "Salt kiosk",
-    "country": "France",
-    "region": "Bretagne",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.303916,
-    "lon": -2.4560556,
     "address": null,
     "source": "osm"
   },
@@ -56709,20 +56616,6 @@
     "address": "Route de Draguignan / Chemin des Sauvachans",
     "source": "osm",
     "phone": "+33 4 94 50 24 12"
-  },
-  {
-    "id": 8177438213,
-    "name": "Domaine de Valcolombe",
-    "country": "France",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "municipality": "Villecroze",
-    "products": [],
-    "website": "http://www.domaine-valcolombe.com",
-    "lat": 43.5761628,
-    "lon": 6.2513283,
-    "address": "Chemin des Espèces 1375, 83690",
-    "source": "osm",
-    "phone": "+33 6 79 61 20 13"
   },
   {
     "id": 8177577046,
@@ -60636,20 +60529,6 @@
     "source": "osm"
   },
   {
-    "id": 8641601166,
-    "name": "La Cave du Ballon Rouge",
-    "country": "France",
-    "region": "Île-de-France",
-    "municipality": "Paris",
-    "products": [],
-    "website": "https://www.leballonrouge.fr/",
-    "lat": 48.876197,
-    "lon": 2.3689498,
-    "address": "Rue Vicq d'Azir 1, 75010",
-    "source": "osm",
-    "phone": "+33 9 83 88 25 46"
-  },
-  {
     "id": 8641817471,
     "name": "Le Breuil",
     "country": "France",
@@ -61808,19 +61687,6 @@
     "website": null,
     "lat": 47.4889791,
     "lon": 3.9049922,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 8743017790,
-    "name": "Le troisième fleuve",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.7744727,
-    "lon": 4.8072917,
     "address": null,
     "source": "osm"
   },
@@ -71686,19 +71552,6 @@
     "phone": "+33 5 58 55 33 04"
   },
   {
-    "id": 9757614417,
-    "name": "Domaine Massillan",
-    "country": "France",
-    "region": "Occitanie",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.6701277,
-    "lon": 3.9203137,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9757892670,
     "name": "Le Cageot Toulousain",
     "country": "France",
@@ -72747,19 +72600,6 @@
     "address": null,
     "source": "osm",
     "phone": "+33 4 68 54 52 80"
-  },
-  {
-    "id": 9855833304,
-    "name": "Fromagerie des Rousses",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.4864381,
-    "lon": 6.0598954,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 9857827724,
@@ -76689,19 +76529,6 @@
     "source": "osm"
   },
   {
-    "id": 10132873113,
-    "name": "Domaine du Vieux Télégraphe",
-    "country": "France",
-    "region": "Occitanie",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.0427896,
-    "lon": 4.8852892,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10132889269,
     "name": "Domaine de Grangeneuve Famille Bour",
     "country": "France",
@@ -80603,19 +80430,6 @@
     "source": "osm"
   },
   {
-    "id": 10742955095,
-    "name": "Schlegel-Boeglin",
-    "country": "France",
-    "region": "Grand Est",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.9536756,
-    "lon": 7.2532509,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10742980756,
     "name": "Distillerie artisanale Windholtz",
     "country": "France",
@@ -81959,19 +81773,6 @@
     "website": null,
     "lat": 44.8898741,
     "lon": -0.0828718,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 10886940197,
-    "name": "Château Fleur Cardinale",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8899638,
-    "lon": -0.0826722,
     "address": null,
     "source": "osm"
   },
@@ -83529,20 +83330,6 @@
     "address": null,
     "source": "osm",
     "phone": "+33 5 58 79 37 79"
-  },
-  {
-    "id": 10992674557,
-    "name": "Chèvrerie de Villarenger",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": "http://www.villarenger.fr/",
-    "lat": 45.3887234,
-    "lon": 6.4931379,
-    "address": "Rue de la Providence, 73440 Les Belleville 19",
-    "source": "osm",
-    "phone": "+33 4 79 08 97 67"
   },
   {
     "id": 10994138497,
@@ -95891,20 +95678,6 @@
     "phone": "+33 7 85 02 17 22"
   },
   {
-    "id": 11993648092,
-    "name": "Château Livran",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.chateaulivran.fr/fr/",
-    "lat": 45.2847582,
-    "lon": -0.8776877,
-    "address": null,
-    "source": "osm",
-    "phone": "+33 5 56090205"
-  },
-  {
     "id": 11994598855,
     "name": "Les vergers de la Borde du Béguet",
     "country": "France",
@@ -99813,19 +99586,6 @@
     "source": "osm"
   },
   {
-    "id": 12215758688,
-    "name": "Cave Arrivé",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.vignoblesarrive.com/",
-    "lat": 45.5581687,
-    "lon": -0.9530517,
-    "address": "Rue de l'Église 7",
-    "source": "osm"
-  },
-  {
     "id": 12215820073,
     "name": "Château Brane-Cantenac",
     "country": "France",
@@ -103508,20 +103268,6 @@
     "phone": "+33 5 58 98 20 68"
   },
   {
-    "id": 12557446474,
-    "name": "Bergerie des vignerons de Tursan",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": "Messanges",
-    "products": [],
-    "website": "https://www.tursan.fr/",
-    "lat": 43.8022145,
-    "lon": -1.3837997,
-    "address": "Chemin de Camentron 4, 40660",
-    "source": "osm",
-    "phone": "+33 5 58 97 33 35"
-  },
-  {
     "id": 12557476927,
     "name": "Château Garreau",
     "country": "France",
@@ -103534,20 +103280,6 @@
     "address": "Route d'Estang 3800, 40240",
     "source": "osm",
     "phone": "+33 5 58 44 84 35"
-  },
-  {
-    "id": 12557543534,
-    "name": "Cave des Vignerons de Tursan",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": "Geaune",
-    "products": [],
-    "website": "https://www.tursan.fr/",
-    "lat": 43.6377502,
-    "lon": -0.3822294,
-    "address": "Route de la Chalosse, 40320",
-    "source": "osm",
-    "phone": "+33 5 58 44 51 25"
   },
   {
     "id": 12559597972,
@@ -107424,20 +107156,6 @@
     "source": "osm"
   },
   {
-    "id": 12895672186,
-    "name": "Stempfer",
-    "country": "France",
-    "region": "Grand Est",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.3261128,
-    "lon": 7.4297522,
-    "address": null,
-    "source": "osm",
-    "phone": "+33 3 88 92 48 19"
-  },
-  {
     "id": 12896760468,
     "name": "Le Goût du vin",
     "country": "France",
@@ -110172,19 +109890,6 @@
     "address": null,
     "source": "osm",
     "phone": "+336 37 66 25 86"
-  },
-  {
-    "id": 13064973037,
-    "name": "Château le Pis",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.6466964,
-    "lon": 0.1462124,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 13065054525,
@@ -113174,19 +112879,6 @@
     "source": "osm"
   },
   {
-    "id": 13242954241,
-    "name": "Château de Crémat",
-    "country": "France",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.7233567,
-    "lon": 7.2086795,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13243732102,
     "name": "La Bergerie épicerie fine",
     "country": "France",
@@ -116110,19 +115802,6 @@
     "source": "osm"
   },
   {
-    "id": 13456264789,
-    "name": "L'Epicurien",
-    "country": "France",
-    "region": "Bretagne",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1779608,
-    "lon": -1.7343005,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 13457834582,
     "name": "Les Fromages de Thierry",
     "country": "France",
@@ -118977,19 +118656,6 @@
     "source": "osm"
   },
   {
-    "id": 64817179,
-    "name": "Au coeur du Fromage",
-    "country": "France",
-    "region": "Centre-Val de Loire",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2871218,
-    "lon": 0.7137455,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 64897655,
     "name": "Ferme Cimetière",
     "country": "France",
@@ -119481,19 +119147,6 @@
     "lat": 47.0981357,
     "lon": 0.6761513,
     "address": "37800",
-    "source": "osm"
-  },
-  {
-    "id": 68621872,
-    "name": "Maison des Vins de Bourgueil",
-    "country": "France",
-    "region": "Centre-Val de Loire",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2813656,
-    "lon": 0.1675858,
-    "address": null,
     "source": "osm"
   },
   {
@@ -120630,19 +120283,6 @@
     "source": "osm"
   },
   {
-    "id": 76406820,
-    "name": "Les Aubettes",
-    "country": "France",
-    "region": "Hauts-de-France",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.0399529,
-    "lon": 2.378023,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 76423425,
     "name": "Une Ferme à Malo",
     "country": "France",
@@ -121499,19 +121139,6 @@
     "source": "osm"
   },
   {
-    "id": 82290484,
-    "name": "Cave Coopérative de Berlou",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.4924193,
-    "lon": 2.9614614,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 82290895,
     "name": "Cave les Côteaux du Rieu Berlou",
     "country": "France",
@@ -121521,19 +121148,6 @@
     "website": null,
     "lat": 43.4899856,
     "lon": 2.9578365,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 82311439,
-    "name": "L'atelier du confiturier",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.9469814,
-    "lon": -0.2165408,
     "address": null,
     "source": "osm"
   },
@@ -124994,19 +124608,6 @@
     "source": "osm"
   },
   {
-    "id": 140517412,
-    "name": "Clos de haute-Combe",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.2487575,
-    "lon": 4.7044605,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 140518172,
     "name": "Château de Juliénas",
     "country": "France",
@@ -125675,19 +125276,6 @@
     "address": "Route de Lansac 1700, 13150",
     "source": "osm",
     "phone": "+33 4 90 91 38 38"
-  },
-  {
-    "id": 154688258,
-    "name": "Fromagerie plaire",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8637863,
-    "lon": -0.5999991,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 155028315,
@@ -127815,19 +127403,6 @@
     "source": "osm"
   },
   {
-    "id": 189724544,
-    "name": "Domaine de la Roche Honneur",
-    "country": "France",
-    "region": "Centre-Val de Loire",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2069005,
-    "lon": 0.1407502,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 190260485,
     "name": "Les Champs Bio Valentin",
     "country": "France",
@@ -129493,19 +129068,6 @@
     "source": "osm"
   },
   {
-    "id": 231055392,
-    "name": "Château Kirwan",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.0270275,
-    "lon": -0.6578437,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 232441500,
     "name": "Distillerie",
     "country": "France",
@@ -129515,19 +129077,6 @@
     "website": null,
     "lat": 43.3070138,
     "lon": 2.9113447,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 232512168,
-    "name": "Domaine Naba",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.2214795,
-    "lon": -0.552937,
     "address": null,
     "source": "osm"
   },
@@ -130710,19 +130259,6 @@
     "lat": 48.3553878,
     "lon": -3.7326705,
     "address": "29690",
-    "source": "osm"
-  },
-  {
-    "id": 252368647,
-    "name": "Caveau Quinard",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.7558983,
-    "lon": 5.7643288,
-    "address": null,
     "source": "osm"
   },
   {
@@ -132224,19 +131760,6 @@
     "source": "osm"
   },
   {
-    "id": 299893867,
-    "name": "Domaine de Cabrol",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3102868,
-    "lon": 2.3309434,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 300860006,
     "name": "La Pause Fermière",
     "country": "France",
@@ -132247,19 +131770,6 @@
     "lat": 43.915191,
     "lon": 1.685554,
     "address": "Chemin des Sourigous 55, 81630",
-    "source": "osm"
-  },
-  {
-    "id": 302121675,
-    "name": "Les Chais du Vivarais",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": "https://sites.google.com/view/vignerons-des-gorges-ardeche/accueil",
-    "lat": 44.395793,
-    "lon": 4.505994,
-    "address": null,
     "source": "osm"
   },
   {
@@ -133873,33 +133383,6 @@
     "phone": "+590 590 97 93 62"
   },
   {
-    "id": 364404400,
-    "name": "Domaine La Tour Penedesses",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": "Faugères",
-    "products": [],
-    "website": "http://www.domainedelatourpenedesses.com",
-    "lat": 43.5646823,
-    "lon": 3.1892088,
-    "address": "Rue Droite 2, 34600",
-    "source": "osm",
-    "phone": "+33 4 67 95 17 21"
-  },
-  {
-    "id": 364404595,
-    "name": "Domaine de Cébène",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.5572327,
-    "lon": 3.1722376,
-    "address": "Route de Caussiniojouls 854",
-    "source": "osm"
-  },
-  {
     "id": 364657624,
     "name": "Cave Coopérative",
     "country": "France",
@@ -134378,20 +133861,6 @@
     "lon": 1.485599,
     "address": null,
     "source": "osm"
-  },
-  {
-    "id": 397982539,
-    "name": "Ferme de la Tour",
-    "country": "France",
-    "region": "Normandie",
-    "municipality": "La Luzerne",
-    "products": [],
-    "website": "http://www.ferme-de-la-tour.com/",
-    "lat": 49.1400923,
-    "lon": -1.0493519,
-    "address": "Le Châteur 5, 50680",
-    "source": "osm",
-    "phone": "+33 6 43 93 94 34;+33 6 09 32 92 10"
   },
   {
     "id": 398805445,
@@ -135957,19 +135426,6 @@
     "source": "osm"
   },
   {
-    "id": 494263721,
-    "name": "La Ferme des Volonteux",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.fermedesvolonteux.com/",
-    "lat": 44.8544455,
-    "lon": 4.9489212,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 496185570,
     "name": "Domaine de la Petite Marne",
     "country": "France",
@@ -136121,19 +135577,6 @@
     "address": "Rue du Docteur Auguste Guilmin 16, 44210",
     "source": "osm",
     "phone": "+33 2 40 82 28 08"
-  },
-  {
-    "id": 508715484,
-    "name": "La Voile à Vin",
-    "country": "France",
-    "region": "Pays de la Loire",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1280091,
-    "lon": -2.2154586,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 510578576,
@@ -137068,19 +136511,6 @@
     "source": "osm"
   },
   {
-    "id": 636130781,
-    "name": "Champagne Pertois-Moriset",
-    "country": "France",
-    "region": "Grand Est",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.9485073,
-    "lon": 4.0253923,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 637819595,
     "name": "Fromagerie du bout du monde",
     "country": "France",
@@ -137801,19 +137231,6 @@
     "source": "osm"
   },
   {
-    "id": 733222878,
-    "name": "Clos Haut Peyraguey",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.5458325,
-    "lon": -0.3395907,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 739124608,
     "name": "Château Romanin",
     "country": "France",
@@ -138156,19 +137573,6 @@
     "address": null,
     "source": "osm",
     "phone": "+33 3 81 69 44 01;+33 7 77 79 06 76"
-  },
-  {
-    "id": 788269276,
-    "name": "Domaine de Beaujeu",
-    "country": "France",
-    "region": "Occitanie",
-    "municipality": null,
-    "products": [],
-    "website": "https://domainedebeaujeu.fr",
-    "lat": 43.5775512,
-    "lon": 4.6657393,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 788547765,
@@ -138810,20 +138214,6 @@
     "phone": "+33144830793"
   },
   {
-    "id": 868010252,
-    "name": "Au cœur du Marché",
-    "country": "France",
-    "region": "Île-de-France",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.8768876,
-    "lon": 2.3548902,
-    "address": null,
-    "source": "osm",
-    "phone": "+33144830793"
-  },
-  {
     "id": 868046201,
     "name": "Oscar winery",
     "country": "France",
@@ -139117,19 +138507,6 @@
     "source": "osm"
   },
   {
-    "id": 898123473,
-    "name": "Cave La Cévenole",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.4817809,
-    "lon": 4.2549806,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 898123475,
     "name": "Cave de Monfleury",
     "country": "France",
@@ -139182,58 +138559,6 @@
     "source": "osm"
   },
   {
-    "id": 898123509,
-    "name": "Les Caves Vivaraises",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.6534592,
-    "lon": 4.445651,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123515,
-    "name": "Cave coopérative",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.3068864,
-    "lon": 4.4308971,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123517,
-    "name": "Caves Vivaraises",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.5981156,
-    "lon": 4.387523,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123525,
-    "name": "Cave Coopérative de Lablachère",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.4650284,
-    "lon": 4.2100701,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 898123526,
     "name": "Cave Coopérative",
     "country": "France",
@@ -139273,32 +138598,6 @@
     "source": "osm"
   },
   {
-    "id": 898123539,
-    "name": "Les Chais du Vivarais",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.3955541,
-    "lon": 4.5059479,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123540,
-    "name": "Caveau des Vignerons Ardéchois",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.6079188,
-    "lon": 4.4149304,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 898123542,
     "name": "Cave Coopérative",
     "country": "France",
@@ -139308,19 +138607,6 @@
     "website": null,
     "lat": 44.3765957,
     "lon": 4.2210053,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123543,
-    "name": "Cave Coopérative d'Alba la Romaine",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.5584243,
-    "lon": 4.5956918,
     "address": null,
     "source": "osm"
   },
@@ -139347,19 +138633,6 @@
     "website": null,
     "lat": 44.5413255,
     "lon": 4.417714,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 898123548,
-    "name": "Cave de Saint-Montan",
-    "country": "France",
-    "region": "Auvergne-Rhône-Alpes",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.432105,
-    "lon": 4.6451725,
     "address": null,
     "source": "osm"
   },
@@ -140475,19 +139748,6 @@
     "source": "osm"
   },
   {
-    "id": 1047396962,
-    "name": "production de jeunes plants maraichers",
-    "country": "France",
-    "region": "Occitanie",
-    "municipality": "Caissargues",
-    "products": [],
-    "website": "https://www.facebook.com/nimaplants",
-    "lat": 43.8028899,
-    "lon": 4.3988222,
-    "address": "Chemin de la Carreirasse, 30132",
-    "source": "osm"
-  },
-  {
     "id": 1047451714,
     "name": "Bardi d'Alquier",
     "country": "France",
@@ -140749,22 +140009,6 @@
     "lon": 4.7971443,
     "address": "Route de la Taquière 58, 69420",
     "source": "osm"
-  },
-  {
-    "id": 1078493721,
-    "name": "Les Escargots de Jade",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [
-      "snail"
-    ],
-    "website": "https://escargots-de-jade.com/",
-    "lat": 46.0712425,
-    "lon": 1.4459905,
-    "address": null,
-    "source": "osm",
-    "phone": "+33 6 09 16 22 87"
   },
   {
     "id": 1078793238,
@@ -141056,19 +140300,6 @@
     "address": "Rue de la Cave 5, 11220",
     "source": "osm",
     "phone": "+33 4 68 44 02 73"
-  },
-  {
-    "id": 1133849556,
-    "name": "Distillerie Les Coopératives de Thouarcé",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2716185,
-    "lon": -0.5066095,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1134473971,
@@ -141524,19 +140755,6 @@
     "lat": 43.6121764,
     "lon": 0.06144,
     "address": "32160",
-    "source": "osm"
-  },
-  {
-    "id": 1196010846,
-    "name": "Château d'Arche",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.5378346,
-    "lon": -0.3428482,
-    "address": null,
     "source": "osm"
   },
   {
@@ -142230,19 +141448,6 @@
     "source": "osm"
   },
   {
-    "id": 1300569902,
-    "name": "Domaine de Montcy",
-    "country": "France",
-    "region": "Centre-Val de Loire",
-    "municipality": "Cormeray",
-    "products": [],
-    "website": "https://domainedemontcy.com/",
-    "lat": 47.4961318,
-    "lon": 1.4106012,
-    "address": "Route de Cheverny 22, 41120",
-    "source": "osm"
-  },
-  {
     "id": 1303856075,
     "name": "Sébastien Huet",
     "country": "France",
@@ -142761,19 +141966,6 @@
     "source": "osm"
   },
   {
-    "id": 1340818966,
-    "name": "Château Boyd Cantenac",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.0227494,
-    "lon": -0.6558857,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1340818967,
     "name": "Château Pouget",
     "country": "France",
@@ -142796,19 +141988,6 @@
     "website": null,
     "lat": 44.9787667,
     "lon": -0.6187329,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1340823080,
-    "name": "Château Desmirail",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.028013,
-    "lon": -0.653969,
     "address": null,
     "source": "osm"
   },
@@ -142861,19 +142040,6 @@
     "website": "https://www.bpdr.com/chateau-clerc-milon",
     "lat": 45.221815,
     "lon": -0.765335,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1341516801,
-    "name": "Château Cos Labory",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.2310238,
-    "lon": -0.777159,
     "address": null,
     "source": "osm"
   },
@@ -143124,19 +142290,6 @@
     "website": "https://www.facebook.com/profile.php?id=100063547901735",
     "lat": 47.0062146,
     "lon": 2.09999,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1373008414,
-    "name": "Château Lamothe Guignard",
-    "country": "France",
-    "region": "Nouvelle-Aquitaine",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.5331305,
-    "lon": -0.3502586,
     "address": null,
     "source": "osm"
   },

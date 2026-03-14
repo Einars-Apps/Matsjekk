@@ -20870,20 +20870,6 @@
     "phone": "+43 5573 20091"
   },
   {
-    "id": 12535821760,
-    "name": "Hofladen Bauernhof Kalb",
-    "country": "Austria",
-    "region": "Vorarlberg",
-    "municipality": "Lauterach",
-    "products": [],
-    "website": "https://bauernhof-kalb.at",
-    "lat": 47.4745377,
-    "lon": 9.7230545,
-    "address": "Lerchenauerstraße 33, 6923",
-    "source": "osm",
-    "phone": "+43 664 4616244"
-  },
-  {
     "id": 12572012390,
     "name": "Schäferei Thomas Spindler",
     "country": "Austria",
@@ -23330,19 +23316,6 @@
     "address": "Altenberger Straße 120, 4040",
     "source": "osm",
     "phone": "+43 664 1002225"
-  },
-  {
-    "id": 93900165,
-    "name": "Weingut Cobenzl",
-    "country": "Austria",
-    "region": "Niederösterreich",
-    "municipality": "Wien",
-    "products": [],
-    "website": "https://www.weingutcobenzl.at/",
-    "lat": 48.2643943,
-    "lon": 16.3199743,
-    "address": "Am Cobenzl 96, 1190",
-    "source": "osm"
   },
   {
     "id": 94729144,
@@ -27281,19 +27254,6 @@
     "source": "osm"
   },
   {
-    "id": 446684996,
-    "name": "Weingut Ullmer",
-    "country": "Austria",
-    "region": "Niederösterreich",
-    "municipality": "Kleinhöflein",
-    "products": [],
-    "website": "https://www.weingut-ullmer.at/",
-    "lat": 48.7496046,
-    "lon": 16.0006326,
-    "address": "Sommerseite 4, 2070",
-    "source": "osm"
-  },
-  {
     "id": 447000143,
     "name": "Weingut Peter Schweiger",
     "country": "Austria",
@@ -28408,19 +28368,6 @@
     "source": "osm"
   },
   {
-    "id": 750284016,
-    "name": "Weinbau Meindl",
-    "country": "Austria",
-    "region": "Burgenland",
-    "municipality": "Oggau am Neusiedler See",
-    "products": [],
-    "website": null,
-    "lat": 47.834732,
-    "lon": 16.6697173,
-    "address": "Triftgasse 48, 7063",
-    "source": "osm"
-  },
-  {
     "id": 750284020,
     "name": "Weingut Schuller",
     "country": "Austria",
@@ -29417,19 +29364,6 @@
     "lat": 48.3929155,
     "lon": 16.2169029,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1460515085,
-    "name": "Sennhaus Bezau Oberdorf",
-    "country": "Austria",
-    "region": "Vorarlberg",
-    "municipality": "Bezau",
-    "products": [],
-    "website": null,
-    "lat": 47.3855557,
-    "lon": 9.9111123,
-    "address": "Obere 478, 6870",
     "source": "osm"
   },
   {

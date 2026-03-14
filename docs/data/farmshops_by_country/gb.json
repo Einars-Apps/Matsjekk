@@ -12593,19 +12593,6 @@
     "phone": "+44 7591 482763"
   },
   {
-    "id": 12230695996,
-    "name": "Gullivers Farm Shop and Kitchen",
-    "country": "United Kingdom",
-    "region": "England",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.8344176,
-    "lon": -1.8903726,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12236133688,
     "name": "Westmorland Farm Shop",
     "country": "United Kingdom",
@@ -13761,19 +13748,6 @@
     "address": "Station Road, Wanstrow, Shepton Mallet, Somerset",
     "source": "osm",
     "phone": "+44 1749 850361"
-  },
-  {
-    "id": 13120879778,
-    "name": "Redwood Rare Breeds",
-    "country": "United Kingdom",
-    "region": "England",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1688385,
-    "lon": -2.4150319,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 13130732342,
@@ -21712,19 +21686,6 @@
     "phone": "+44 1227 733630"
   },
   {
-    "id": 816659005,
-    "name": "Hush Heath",
-    "country": "United Kingdom",
-    "region": "England",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1487403,
-    "lon": 0.512143,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 818052636,
     "name": "Scotts Farm Shop",
     "country": "United Kingdom",
@@ -22526,19 +22487,6 @@
     "address": "Galvelmore Street 1A, PH7 4DN",
     "source": "osm",
     "phone": "+44 1764 655016"
-  },
-  {
-    "id": 907089264,
-    "name": "Winemark",
-    "country": "United Kingdom",
-    "region": "Scotland",
-    "municipality": "Glengormley",
-    "products": [],
-    "website": "https://winemark.com/",
-    "lat": 54.669454,
-    "lon": -5.9572748,
-    "address": "Antrim Road",
-    "source": "osm"
   },
   {
     "id": 911207785,
@@ -25609,19 +25557,6 @@
     "source": "osm"
   },
   {
-    "id": 1454713226,
-    "name": "Winemark",
-    "country": "United Kingdom",
-    "region": "Scotland",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.6440562,
-    "lon": -5.9216635,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1457072946,
     "name": "Llangefni Market",
     "country": "United Kingdom",
@@ -25725,19 +25660,6 @@
     "address": "Anderson Crescent 3, BT49 0TF",
     "source": "osm",
     "phone": "+44 28 7772 2230"
-  },
-  {
-    "id": 1477877005,
-    "name": "Clyst vale Cheese shop",
-    "country": "United Kingdom",
-    "region": "England",
-    "municipality": "Exeter",
-    "products": [],
-    "website": null,
-    "lat": 50.7588357,
-    "lon": -3.4403029,
-    "address": "Station Road, EX5 3AJ",
-    "source": "osm"
   },
   {
     "id": 1485122669,

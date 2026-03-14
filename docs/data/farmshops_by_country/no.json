@@ -1933,21 +1933,6 @@
     "source": "https://www.lokalmat.no/produsenter/bergen-roekeri-as/"
   },
   {
-    "id": "lokalmat_10791",
-    "name": "Berger Gård",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": null,
-    "products": [
-      "Kjøtt"
-    ],
-    "website": null,
-    "lat": 59.54712610895308,
-    "lon": 10.377371488613948,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/berger-gaard/"
-  },
-  {
     "id": "lokalmat_10773",
     "name": "Bergstrøm kjøtt og delikatesse AS",
     "country": "Norway",
@@ -13026,19 +13011,6 @@
     "source": "https://www.hanen.no/bedrift/eiker-gaardsysteri/"
   },
   {
-    "id": "hanen_151",
-    "name": "Gangstad Gårdsysteri",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Inderøy",
-    "products": [],
-    "website": "https://www.ysteri.no",
-    "lat": 63.959866,
-    "lon": 11.33784,
-    "address": "Nessetvegen 11",
-    "source": "https://www.hanen.no/bedrift/gangstad-gaardsysteri/"
-  },
-  {
     "id": "hanen_1031",
     "name": "Merete Hyggen",
     "country": "Norway",
@@ -13312,19 +13284,6 @@
     "source": "https://www.hanen.no/bedrift/aukrust-gard-og-urteri/"
   },
   {
-    "id": "hanen_83",
-    "name": "Bakken Øvre Gårdsmat",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Løten",
-    "products": [],
-    "website": "http://www.bakkenovre.com/",
-    "lat": 60.757012,
-    "lon": 11.555445,
-    "address": "Østre Skogbygdvei 601",
-    "source": "https://www.hanen.no/bedrift/bakken-ovre-gaardsmat/"
-  },
-  {
     "id": "hanen_333",
     "name": "Bamsrudlåven",
     "country": "Norway",
@@ -13520,19 +13479,6 @@
     "source": "https://www.hanen.no/bedrift/dirdalstraen-as/"
   },
   {
-    "id": "hanen_695",
-    "name": "Dyre Gård",
-    "country": "Norway",
-    "region": "Østfold",
-    "municipality": "Moss",
-    "products": [],
-    "website": "https://www.dyregaard.no",
-    "lat": 59.406018,
-    "lon": 10.661352,
-    "address": "Dyreveien 151",
-    "source": "https://www.hanen.no/bedrift/dyre-gaard/"
-  },
-  {
     "id": "hanen_3036",
     "name": "Dyster Slakteri AS",
     "country": "Norway",
@@ -13648,19 +13594,6 @@
     "lon": 10.478947,
     "address": "Øgårdsveien 35",
     "source": "https://www.hanen.no/bedrift/fioriblomster-as/"
-  },
-  {
-    "id": "hanen_975",
-    "name": "FJELLEVENTYRET AS",
-    "country": "Norway",
-    "region": null,
-    "municipality": "Skjåk",
-    "products": [],
-    "website": "https://www.fjelleventyret.no",
-    "lat": 61.872789,
-    "lon": 8.313804,
-    "address": "Vassgangen 24",
-    "source": "https://www.hanen.no/bedrift/fjelleventyret-as/"
   },
   {
     "id": "hanen_2848",
@@ -14077,19 +14010,6 @@
     "lon": 8.552397,
     "address": "Meieriveien 12",
     "source": "https://www.hanen.no/bedrift/himmelspannet-as/"
-  },
-  {
-    "id": "hanen_2781",
-    "name": "Hindrum Gårdsysteri",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Vanvikan",
-    "products": [],
-    "website": "https://www.facebook.com/hindrumysteri",
-    "lat": 63.589996,
-    "lon": 10.415464,
-    "address": "Hindremsveien 84",
-    "source": "https://www.hanen.no/bedrift/hindrum-gaardsysteri/"
   },
   {
     "id": "hanen_1213",
@@ -14937,19 +14857,6 @@
     "source": "https://www.hanen.no/bedrift/sakrisgarden-linge/"
   },
   {
-    "id": "hanen_1301",
-    "name": "Sandalen Gård",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "RANDABERG                       RAN",
-    "products": [],
-    "website": "http://sandalengard.no/",
-    "lat": 58.98902,
-    "lon": 5.580093,
-    "address": "Vistnesveien 120",
-    "source": "https://www.hanen.no/bedrift/sandalen-gaard/"
-  },
-  {
     "id": "hanen_2612",
     "name": "Sanden galleributikk",
     "country": "Norway",
@@ -15132,19 +15039,6 @@
     "source": "https://www.hanen.no/bedrift/solvang-gaard-og-gaardsbutikk/"
   },
   {
-    "id": "hanen_1442",
-    "name": "Søndre Grevle",
-    "country": "Norway",
-    "region": "Vestfold",
-    "municipality": "Stavern",
-    "products": [],
-    "website": "https://www.facebook.com/sondregrevle/",
-    "lat": 58.989826,
-    "lon": 10.019992,
-    "address": "Rakkeveien 1",
-    "source": "https://www.hanen.no/bedrift/sondre-grevle/"
-  },
-  {
     "id": "hanen_2822",
     "name": "Sør Fløtten",
     "country": "Norway",
@@ -15301,19 +15195,6 @@
     "source": "https://www.hanen.no/bedrift/tingvollost-as/"
   },
   {
-    "id": "hanen_1043",
-    "name": "Tingvoll Sider AS",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Tingvoll",
-    "products": [],
-    "website": "https://tingvollsider.no",
-    "lat": 62.953684,
-    "lon": 8.315879,
-    "address": "Holmeidstranda 380",
-    "source": "https://www.hanen.no/bedrift/tingvoll-sider-as/"
-  },
-  {
     "id": "hanen_2614",
     "name": "Tingvoll Ull",
     "country": "Norway",
@@ -15338,19 +15219,6 @@
     "lon": 8.970832,
     "address": "Tjønnåsvegen 284",
     "source": "https://www.hanen.no/bedrift/tjonnaas-okogard/"
-  },
-  {
-    "id": "hanen_2558",
-    "name": "Toddum Gårdsysteri AS",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Namsos",
-    "products": [],
-    "website": "https://www.toddum.com",
-    "lat": 64.485267,
-    "lon": 11.478043,
-    "address": "Gullvikvegen 193",
-    "source": "https://www.hanen.no/bedrift/toddum-gaardsysteri-as/"
   },
   {
     "id": "hanen_3033",
@@ -15403,19 +15271,6 @@
     "lon": 8.832073,
     "address": "Hoåsvegen 892, Utistu på Gikling",
     "source": "https://www.hanen.no/bedrift/utistu-paa-gikling/"
-  },
-  {
-    "id": "hanen_239",
-    "name": "Valbjør Gard",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Vågå",
-    "products": [],
-    "website": "https://www.valbjoer.no",
-    "lat": 61.871865,
-    "lon": 9.024831,
-    "address": "Øvre Nordheradsvegen 486",
-    "source": "https://www.hanen.no/bedrift/valbjor-gard/"
   },
   {
     "id": "hanen_2819",
@@ -16574,21 +16429,6 @@
     "lon": 5.041393,
     "address": "",
     "source": "https://www.lokalmat.no/produsenter/bergen-roekeri-as/"
-  },
-  {
-    "id": "lokalmat_10791",
-    "name": "Berger GÃ¥rd",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": null,
-    "products": [
-      "KjÃ¸tt"
-    ],
-    "website": null,
-    "lat": 59.54712610895308,
-    "lon": 10.377371488613948,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/berger-gaard/"
   },
   {
     "id": "lokalmat_10773",
@@ -20765,19 +20605,6 @@
     "source": "https://www.hanen.no/bedrift/eiker-gaardsysteri/"
   },
   {
-    "id": "hanen_151",
-    "name": "Gangstad GÃ¥rdsysteri",
-    "country": "Norway",
-    "region": "TrÃ¸ndelag",
-    "municipality": "InderÃ¸y",
-    "products": [],
-    "website": "https://www.ysteri.no",
-    "lat": 63.959866,
-    "lon": 11.33784,
-    "address": "Nessetvegen 11",
-    "source": "https://www.hanen.no/bedrift/gangstad-gaardsysteri/"
-  },
-  {
     "id": "hanen_1207",
     "name": "InderÃ¸y GÃ¥rdsbryggeri AS",
     "country": "Norway",
@@ -20947,19 +20774,6 @@
     "source": "https://www.hanen.no/bedrift/aasvang-gaard/"
   },
   {
-    "id": "hanen_83",
-    "name": "Bakken Ã˜vre GÃ¥rdsmat",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "LÃ¸ten",
-    "products": [],
-    "website": "http://www.bakkenovre.com/",
-    "lat": 60.757012,
-    "lon": 11.555445,
-    "address": "Ã˜stre Skogbygdvei 601",
-    "source": "https://www.hanen.no/bedrift/bakken-ovre-gaardsmat/"
-  },
-  {
     "id": "hanen_333",
     "name": "BamsrudlÃ¥ven",
     "country": "Norway",
@@ -21088,19 +20902,6 @@
     "lon": 10.943577,
     "address": "Tveter GÃ¥rd, MÃ¸rkveien 640",
     "source": "https://www.hanen.no/bedrift/tveter-gaard-foredling/"
-  },
-  {
-    "id": "hanen_695",
-    "name": "Dyre GÃ¥rd",
-    "country": "Norway",
-    "region": "Ã˜stfold",
-    "municipality": "Moss",
-    "products": [],
-    "website": "https://www.dyregaard.no",
-    "lat": 59.406018,
-    "lon": 10.661352,
-    "address": "Dyreveien 151",
-    "source": "https://www.hanen.no/bedrift/dyre-gaard/"
   },
   {
     "id": "hanen_12",
@@ -21844,19 +21645,6 @@
     "source": "https://www.hanen.no/bedrift/saeterstad-gaard-as/"
   },
   {
-    "id": "hanen_1301",
-    "name": "Sandalen GÃ¥rd",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "RANDABERG                       RAN",
-    "products": [],
-    "website": "http://sandalengard.no/",
-    "lat": 58.98902,
-    "lon": 5.580093,
-    "address": "Vistnesveien 120",
-    "source": "https://www.hanen.no/bedrift/sandalen-gaard/"
-  },
-  {
     "id": "hanen_2838",
     "name": "Sander Nordstuen GÃ¥rd",
     "country": "Norway",
@@ -21959,19 +21747,6 @@
     "lon": 10.81996,
     "address": "Nord Ã˜sterdalsveien 3589",
     "source": "https://www.hanen.no/bedrift/solvang-gaard-og-gaardsbutikk/"
-  },
-  {
-    "id": "hanen_1442",
-    "name": "SÃ¸ndre Grevle",
-    "country": "Norway",
-    "region": "Vestfold",
-    "municipality": "Stavern",
-    "products": [],
-    "website": "https://www.facebook.com/sondregrevle/",
-    "lat": 58.989826,
-    "lon": 10.019992,
-    "address": "Rakkeveien 1",
-    "source": "https://www.hanen.no/bedrift/sondre-grevle/"
   },
   {
     "id": "hanen_2822",
@@ -22091,19 +21866,6 @@
     "source": "https://www.hanen.no/bedrift/tjonnaas-okogard/"
   },
   {
-    "id": "hanen_2558",
-    "name": "Toddum GÃ¥rdsysteri AS",
-    "country": "Norway",
-    "region": "TrÃ¸ndelag",
-    "municipality": "Namsos",
-    "products": [],
-    "website": "https://www.toddum.com",
-    "lat": 64.485267,
-    "lon": 11.478043,
-    "address": "Gullvikvegen 193",
-    "source": "https://www.hanen.no/bedrift/toddum-gaardsysteri-as/"
-  },
-  {
     "id": "hanen_482",
     "name": "Utistu pÃ¥ Gikling",
     "country": "Norway",
@@ -22115,19 +21877,6 @@
     "lon": 8.832073,
     "address": "HoÃ¥svegen 892, Utistu pÃ¥ Gikling",
     "source": "https://www.hanen.no/bedrift/utistu-paa-gikling/"
-  },
-  {
-    "id": "hanen_239",
-    "name": "ValbjÃ¸r Gard",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "VÃ¥gÃ¥",
-    "products": [],
-    "website": "https://www.valbjoer.no",
-    "lat": 61.871865,
-    "lon": 9.024831,
-    "address": "Ã˜vre Nordheradsvegen 486",
-    "source": "https://www.hanen.no/bedrift/valbjor-gard/"
   },
   {
     "id": "hanen_2741",

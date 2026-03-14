@@ -11983,19 +11983,6 @@
     "source": "osm"
   },
   {
-    "id": 4505097669,
-    "name": "Ca' di Cicul",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": "Strevi",
-    "products": [],
-    "website": null,
-    "lat": 44.7021217,
-    "lon": 8.4952756,
-    "address": "regione Cavannone 19, 15019",
-    "source": "osm"
-  },
-  {
     "id": 4505101892,
     "name": "Azienda Agricola Giulio Arnera",
     "country": "Italy",
@@ -13374,19 +13361,6 @@
     "lat": 44.8030672,
     "lon": 10.3357527,
     "address": "Strada Aurelio Saffi 48/b, 43121",
-    "source": "osm"
-  },
-  {
-    "id": 4690755355,
-    "name": "L'angolo del parmigiano",
-    "country": "Italy",
-    "region": "Emilia-Romagna",
-    "municipality": "Parma",
-    "products": [],
-    "website": null,
-    "lat": 44.8023002,
-    "lon": 10.3228012,
-    "address": "Piazza Corridoni 1/a, 43125",
     "source": "osm"
   },
   {
@@ -18602,19 +18576,6 @@
     "lat": 37.525445,
     "lon": 13.0168677,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 5581939521,
-    "name": "Cantine De Gregorio",
-    "country": "Italy",
-    "region": "Sicilia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.5253768,
-    "lon": 13.0167812,
-    "address": "Contrada Ragana",
     "source": "osm"
   },
   {
@@ -26751,19 +26712,6 @@
     "source": "osm"
   },
   {
-    "id": 7589859781,
-    "name": "Maison du Cognac",
-    "country": "Italy",
-    "region": "Emilia-Romagna",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.0467855,
-    "lon": 9.6980244,
-    "address": "Stradone Farnese, 29121",
-    "source": "osm"
-  },
-  {
     "id": 7592132977,
     "name": "Cantine Menti",
     "country": "Italy",
@@ -28403,19 +28351,6 @@
     "lat": 40.3895467,
     "lon": 17.3160822,
     "address": "Santa Lucia, 74020, Leporano TA",
-    "source": "osm"
-  },
-  {
-    "id": 7906031382,
-    "name": "Weingut Dominikus",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.dominikus.it/",
-    "lat": 46.3837497,
-    "lon": 11.2471732,
-    "address": "St. Josef am See 39, 39052",
     "source": "osm"
   },
   {
@@ -32368,19 +32303,6 @@
     "source": "osm"
   },
   {
-    "id": 9105434094,
-    "name": "Azienda Agricola Cà Granda",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.5757232,
-    "lon": 10.529965,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9105434095,
     "name": "Azienda Agricola Pasini San Giovanni",
     "country": "Italy",
@@ -32390,19 +32312,6 @@
     "website": null,
     "lat": 45.5782718,
     "lon": 10.5301648,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 9105434132,
-    "name": "Azienda Agricola Pasini San Giovanni",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.578482,
-    "lon": 10.5301917,
     "address": null,
     "source": "osm"
   },
@@ -34102,19 +34011,6 @@
     "source": "osm"
   },
   {
-    "id": 9461359730,
-    "name": "Beghini",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.5168988,
-    "lon": 10.9005464,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 9461359744,
     "name": "Marchesi Fumanelli",
     "country": "Italy",
@@ -34124,19 +34020,6 @@
     "website": null,
     "lat": 45.5129757,
     "lon": 10.9012564,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 9461359745,
-    "name": "Marchesi Fumanelli",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.5130408,
-    "lon": 10.9010753,
     "address": null,
     "source": "osm"
   },
@@ -34229,19 +34112,6 @@
     "lat": 45.3716048,
     "lon": 10.7569148,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 9469614611,
-    "name": "Corte Gardoni",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.371552,
-    "lon": 10.7569604,
-    "address": "Via Gardoni",
     "source": "osm"
   },
   {
@@ -38323,19 +38193,6 @@
     "source": "osm"
   },
   {
-    "id": 10278005321,
-    "name": "Cantina fontechiara",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.6826444,
-    "lon": 8.5059185,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 10278130373,
     "name": "Azienda Agricola Matteo Corregia",
     "country": "Italy",
@@ -39392,19 +39249,6 @@
     "website": null,
     "lat": 44.883003,
     "lon": 8.8870441,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 10768514974,
-    "name": "Claudio Mariotto",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8829954,
-    "lon": 8.8873585,
     "address": null,
     "source": "osm"
   },
@@ -45485,19 +45329,6 @@
     "phone": "+39 0431 99001"
   },
   {
-    "id": 12042385731,
-    "name": "Azienda Agricola Farinelli Luigi (Produzione propria Formaggi e Ricotta)",
-    "country": "Italy",
-    "region": "Abruzzo",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5110466,
-    "lon": 13.6499768,
-    "address": "64045 Isola del Gran Sasso d'Italia, Province of Teramo",
-    "source": "osm"
-  },
-  {
     "id": 12046746569,
     "name": "Clio Cicogni Vineyard",
     "country": "Italy",
@@ -46869,19 +46700,6 @@
     "lat": 45.4644635,
     "lon": 8.6154133,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 12246918400,
-    "name": "Muri-Gries",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": "Bozen",
-    "products": [],
-    "website": "https://www.muri-gries.com/it",
-    "lat": 46.5031254,
-    "lon": 11.3346786,
-    "address": "Piazza Gries - Grieser Platz 21, 39100",
     "source": "osm"
   },
   {
@@ -51547,20 +51365,6 @@
     "phone": "+39 0423 980432"
   },
   {
-    "id": 12851183526,
-    "name": "Tenuta Siliquini",
-    "country": "Italy",
-    "region": "Abruzzo",
-    "municipality": "Castel di Lama",
-    "products": [],
-    "website": "http://www.tenutasiliquini.it/",
-    "lat": 42.8683857,
-    "lon": 13.689297,
-    "address": "Strada Provinciale 217 Cese 24/30, 63082",
-    "source": "osm",
-    "phone": "+39 338 476 3668"
-  },
-  {
     "id": 12852857852,
     "name": "Botto",
     "country": "Italy",
@@ -54210,20 +54014,6 @@
     "address": "07052",
     "source": "osm",
     "phone": "+393356650552"
-  },
-  {
-    "id": 13207251901,
-    "name": "Enoteca Debertolo",
-    "country": "Italy",
-    "region": "Sardegna",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.7723743,
-    "lon": 9.6696702,
-    "address": "07052",
-    "source": "osm",
-    "phone": "+393204454741"
   },
   {
     "id": 13207262211,
@@ -57903,20 +57693,6 @@
     "phone": "+39045550032"
   },
   {
-    "id": 139104737,
-    "name": "Bertani",
-    "country": "Italy",
-    "region": "Veneto",
-    "municipality": "Grezzana",
-    "products": [],
-    "website": "http://www.bertani.net/",
-    "lat": 45.5167717,
-    "lon": 11.0233191,
-    "address": "Via Asiago 1, 37023",
-    "source": "osm",
-    "phone": "+390458658444"
-  },
-  {
     "id": 139502977,
     "name": "Market frutta e verdura",
     "country": "Italy",
@@ -58325,19 +58101,6 @@
     "phone": "+39 339 6205928;+39 338 8982790"
   },
   {
-    "id": 157560197,
-    "name": "Derbusco Cives",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": "Erbusco",
-    "products": [],
-    "website": null,
-    "lat": 45.6068533,
-    "lon": 9.9607884,
-    "address": "Via Provinciale 83, 25030",
-    "source": "osm"
-  },
-  {
     "id": 157560222,
     "name": "derbusco cives",
     "country": "Italy",
@@ -58347,19 +58110,6 @@
     "website": null,
     "lat": 45.6046681,
     "lon": 9.9617985,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 157560271,
-    "name": "Cavalleri",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.6069871,
-    "lon": 9.9632742,
     "address": null,
     "source": "osm"
   },
@@ -58956,19 +58706,6 @@
     "lat": 45.6996417,
     "lon": 12.5739025,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 194353378,
-    "name": "Cantina Bravin Davide",
-    "country": "Italy",
-    "region": "Friuli-Venezia Giulia",
-    "municipality": "Salgareda",
-    "products": [],
-    "website": "http://www.cantinabravin.it/",
-    "lat": 45.7150889,
-    "lon": 12.5504971,
-    "address": "Via San Lorenzetto, 31040",
     "source": "osm"
   },
   {
@@ -59618,19 +59355,6 @@
     "phone": "+39 339 4508899;+39 339 7021594"
   },
   {
-    "id": 237948092,
-    "name": "Cantina Tramin",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.3452142,
-    "lon": 11.2514652,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 238229586,
     "name": "Azienda Agricola Quattro Stagioni",
     "country": "Italy",
@@ -59697,19 +59421,6 @@
     "lat": 46.5103618,
     "lon": 11.3477161,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 244713097,
-    "name": "Rarefratte",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": "Breganze",
-    "products": [],
-    "website": "http://www.rarefratte.it/",
-    "lat": 45.7259408,
-    "lon": 11.5674902,
-    "address": "Via Brogliati Contro 58, 36042",
     "source": "osm"
   },
   {
@@ -59891,20 +59602,6 @@
     "address": "Via Pinedo 20/12, 33080",
     "source": "osm",
     "phone": "+39 347 797 7439"
-  },
-  {
-    "id": 258793826,
-    "name": "AL MONTE DI LIVIO",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": "Colceresa",
-    "products": [],
-    "website": "https://www.almontedilivio.com/",
-    "lat": 45.7170216,
-    "lon": 11.5910382,
-    "address": "Via Fratta 83, 36064",
-    "source": "osm",
-    "phone": "+39 0424 1890903"
   },
   {
     "id": 259910272,
@@ -60552,19 +60249,6 @@
     "source": "osm"
   },
   {
-    "id": 324551948,
-    "name": "alpeggio",
-    "country": "Italy",
-    "region": "Valle d'Aosta",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.6034254,
-    "lon": 7.1380276,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 327569362,
     "name": "Cantina Sociale di Lonigo",
     "country": "Italy",
@@ -61044,19 +60728,6 @@
     "phone": "+39 0471 860161"
   },
   {
-    "id": 373391945,
-    "name": "Ansitz Rynnhof",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": "Termeno sulla Strada del Vino",
-    "products": [],
-    "website": null,
-    "lat": 46.3406376,
-    "lon": 11.2381173,
-    "address": "Schneckenthalerstraße 13, 39040",
-    "source": "osm"
-  },
-  {
     "id": 373928092,
     "name": "Cantina cooperativa di Cortaccia",
     "country": "Italy",
@@ -61083,19 +60754,6 @@
     "address": "Schloßweg - Via Castello 4, 39040",
     "source": "osm",
     "phone": "+39 0471 88 01 22"
-  },
-  {
-    "id": 374341980,
-    "name": "Tiefenbrunner",
-    "country": "Italy",
-    "region": "Trentino-Alto Adige",
-    "municipality": "Cortaccia sulla Strada del Vino",
-    "products": [],
-    "website": "https://www.tiefenbrunner.com/",
-    "lat": 46.3007477,
-    "lon": 11.2126697,
-    "address": "Schloßweg - Via Castello 4, 39040",
-    "source": "osm"
   },
   {
     "id": 375086911,
@@ -61257,19 +60915,6 @@
     "address": null,
     "source": "osm",
     "phone": "+39 333 9916835"
-  },
-  {
-    "id": 382774533,
-    "name": "Sordo",
-    "country": "Italy",
-    "region": "Liguria",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.6292078,
-    "lon": 7.9635263,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 382934971,
@@ -62036,19 +61681,6 @@
     "address": "Via Antica di Costigliole 95, 12022",
     "source": "osm",
     "phone": "+39 324 6126325"
-  },
-  {
-    "id": 473173237,
-    "name": "Cantina Bosco",
-    "country": "Italy",
-    "region": "Puglia",
-    "municipality": "Avetrana",
-    "products": [],
-    "website": null,
-    "lat": 40.3586179,
-    "lon": 17.7280378,
-    "address": "Via Piave, 74020",
-    "source": "osm"
   },
   {
     "id": 474108975,
@@ -62893,20 +62525,6 @@
     "source": "osm"
   },
   {
-    "id": 609480099,
-    "name": "Azienda Agricola Cavalieri",
-    "country": "Italy",
-    "region": "Lazio",
-    "municipality": "Genzano di Roma",
-    "products": [],
-    "website": "https://www.aziendaagricolacavalieri.it/",
-    "lat": 41.6748311,
-    "lon": 12.7168602,
-    "address": "Via Montecagnolo 16, 00045",
-    "source": "osm",
-    "phone": "+39 06 788 7452"
-  },
-  {
     "id": 616258138,
     "name": "Cantina Argiolas",
     "country": "Italy",
@@ -62971,20 +62589,6 @@
     "lon": 12.4654637,
     "address": "Voc. Collina 29/1",
     "source": "osm"
-  },
-  {
-    "id": 633846441,
-    "name": "Fattoria San Vito",
-    "country": "Italy",
-    "region": "Toscana",
-    "municipality": "Calci",
-    "products": [],
-    "website": "https://www.fattoriasanvito.it/",
-    "lat": 43.7212885,
-    "lon": 10.5152872,
-    "address": "Via Caprili 5, 56011",
-    "source": "osm",
-    "phone": "+39 349 5972722"
   },
   {
     "id": 643435573,
@@ -63355,19 +62959,6 @@
     "address": "Via Genova 48, 09072",
     "source": "osm",
     "phone": "+39 0783 290806"
-  },
-  {
-    "id": 685428793,
-    "name": "Cantina Produttori Cormons",
-    "country": "Italy",
-    "region": "Friuli-Venezia Giulia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.9483735,
-    "lon": 13.463805,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 687617306,
@@ -64704,19 +64295,6 @@
     "source": "osm"
   },
   {
-    "id": 984853777,
-    "name": "Cantine Povero",
-    "country": "Italy",
-    "region": "Piemonte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8247213,
-    "lon": 8.0130305,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 984853867,
     "name": "Pescaja",
     "country": "Italy",
@@ -64739,58 +64317,6 @@
     "website": null,
     "lat": 44.8163926,
     "lon": 8.009219,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 984853972,
-    "name": "Cantine Povero",
-    "country": "Italy",
-    "region": "Piemonte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8251697,
-    "lon": 8.0132611,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 984853974,
-    "name": "Cantine Povero",
-    "country": "Italy",
-    "region": "Piemonte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8250582,
-    "lon": 8.0134235,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 984853975,
-    "name": "Cantine Povero",
-    "country": "Italy",
-    "region": "Piemonte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8249249,
-    "lon": 8.0132406,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 984853976,
-    "name": "Cantine Povero",
-    "country": "Italy",
-    "region": "Piemonte",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8247383,
-    "lon": 8.0136634,
     "address": null,
     "source": "osm"
   },
@@ -64819,20 +64345,6 @@
     "lon": 10.0665359,
     "address": "Via Vallosa, 25050",
     "source": "osm"
-  },
-  {
-    "id": 987731699,
-    "name": "Romantica Franciacorta",
-    "country": "Italy",
-    "region": "Lombardia",
-    "municipality": "Passirano",
-    "products": [],
-    "website": "https://www.romanticafranciacorta.com/",
-    "lat": 45.5819714,
-    "lon": 10.0672587,
-    "address": "Via Vallosa, 25050",
-    "source": "osm",
-    "phone": "+39 0365 55 10 13"
   },
   {
     "id": 999508349,
@@ -65213,20 +64725,6 @@
     "address": "Via Trieste",
     "source": "osm",
     "phone": "+39 347 498 3031"
-  },
-  {
-    "id": 1101554923,
-    "name": "Cantina Settecani",
-    "country": "Italy",
-    "region": "Emilia-Romagna",
-    "municipality": "Settecani",
-    "products": [],
-    "website": "https://www.cantinasettecani.it/",
-    "lat": 44.5412935,
-    "lon": 10.9579604,
-    "address": "via Modena 184, 41014",
-    "source": "osm",
-    "phone": "+39059702505"
   },
   {
     "id": 1102725857,
@@ -65674,19 +65172,6 @@
     "lat": 45.892671,
     "lon": 11.9875953,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1199559509,
-    "name": "Borgo Scopeto e Caparzo Srl",
-    "country": "Italy",
-    "region": "Toscana",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3971511,
-    "lon": 11.3539956,
-    "address": "SP 102 di Vagliagli, 53019",
     "source": "osm"
   },
   {
@@ -66527,19 +66012,6 @@
     "source": "osm"
   },
   {
-    "id": 1377211849,
-    "name": "SHOP CANTINE SAN MARZANO",
-    "country": "Italy",
-    "region": "Puglia",
-    "municipality": "San Marzano di San Giuseppe",
-    "products": [],
-    "website": null,
-    "lat": 40.4604981,
-    "lon": 17.4926922,
-    "address": "Via di Giesi, 74020",
-    "source": "osm"
-  },
-  {
     "id": 1377239821,
     "name": "Prapian Vini",
     "country": "Italy",
@@ -66552,19 +66024,6 @@
     "address": "Via Arfanta 9, 31020",
     "source": "osm",
     "phone": "+390438584748"
-  },
-  {
-    "id": 1377881915,
-    "name": "Cantina Barone",
-    "country": "Italy",
-    "region": "Toscana",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.cantinabarone.com/",
-    "lat": 44.4163968,
-    "lon": 11.6109135,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1379035933,
@@ -66604,19 +66063,6 @@
     "lat": 45.9935674,
     "lon": 10.3239169,
     "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1381806547,
-    "name": "Cantine San Marzano",
-    "country": "Italy",
-    "region": "Puglia",
-    "municipality": "San Marzano di San Giuseppe",
-    "products": [],
-    "website": null,
-    "lat": 40.460954,
-    "lon": 17.4954098,
-    "address": "Via Monsignor Antonio Bello 9, 74020",
     "source": "osm"
   },
   {
@@ -66743,32 +66189,6 @@
     "address": "Via Difenza 44, 66054",
     "source": "osm",
     "phone": "+39 0873 311066"
-  },
-  {
-    "id": 1418073390,
-    "name": "Erminio Campa Viticoltore",
-    "country": "Italy",
-    "region": "Puglia",
-    "municipality": "Torricella",
-    "products": [],
-    "website": null,
-    "lat": 40.3343005,
-    "lon": 17.49946,
-    "address": "SP 129, 74020",
-    "source": "osm"
-  },
-  {
-    "id": 1418266214,
-    "name": "Cantine Ermes Agr. Coop. Agr. stabilimento Torricella",
-    "country": "Italy",
-    "region": "Puglia",
-    "municipality": "Torricella",
-    "products": [],
-    "website": null,
-    "lat": 40.3383477,
-    "lon": 17.4984416,
-    "address": "SP 129, 74020",
-    "source": "osm"
   },
   {
     "id": 1418969363,
@@ -67284,18 +66704,5 @@
     "address": "Località Costa 86, 37023",
     "source": "osm",
     "phone": "+393472111150"
-  },
-  {
-    "id": 1487269697,
-    "name": "Enoteca Pallotti",
-    "country": "Italy",
-    "region": "Lazio",
-    "municipality": "Roma",
-    "products": [],
-    "website": "https://enotecapallotti.it/",
-    "lat": 41.9350353,
-    "lon": 12.5356475,
-    "address": "Piazza Menenio Agrippa 9, 00141",
-    "source": "osm"
   }
 ]

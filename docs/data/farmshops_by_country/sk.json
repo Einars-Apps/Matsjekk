@@ -6074,19 +6074,6 @@
     "source": "osm"
   },
   {
-    "id": 58503660,
-    "name": "SANVIN",
-    "country": "Slovakia",
-    "region": "Bratislavsky",
-    "municipality": "Okoč",
-    "products": [],
-    "website": null,
-    "lat": 47.8951268,
-    "lon": 17.7831798,
-    "address": "Vinohradská 19, 930 28",
-    "source": "osm"
-  },
-  {
     "id": 58973197,
     "name": "Pestovateľská pálenica",
     "country": "Slovakia",
@@ -6605,19 +6592,6 @@
     "website": "http://www.vintop-karko.sk/",
     "lat": 47.8026181,
     "lon": 18.440259,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 486236938,
-    "name": "Víno Mrva&Stanko",
-    "country": "Slovakia",
-    "region": "Bratislavsky",
-    "municipality": null,
-    "products": [],
-    "website": "https://www.mrvastanko.sk/",
-    "lat": 48.3891907,
-    "lon": 17.5612425,
     "address": null,
     "source": "osm"
   },
