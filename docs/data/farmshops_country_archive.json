@@ -24466,6 +24466,32 @@
       "lon": 10.7149058,
       "address": "Indre Ryfylkevegen 914",
       "source": "https://www.lokalmat.no/produsenter/eiane-gard/"
+    },
+    {
+      "id": "lokalmat_11838",
+      "name": "HONEYB",
+      "country": "Norway",
+      "region": "Innlandet",
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "",
+      "source": "https://www.lokalmat.no/produsenter/honeyb/"
+    },
+    {
+      "id": "lokalmat_12303",
+      "name": "Myrland gårdsegg",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Mosvik",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Tveråveien 52",
+      "source": "https://www.lokalmat.no/produsenter/myrland-gardsegg/"
     }
   ],
   "SE": [
@@ -54961,6 +54987,18 @@
       "website": "https://stridsmolle.dk/",
       "lat": 55.638013,
       "lon": 11.3590352,
+      "address": null
+    },
+    {
+      "id": 13645574164,
+      "name": "Egerødgaard",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.egerødgaard.dk/",
+      "lat": 55.9631626,
+      "lon": 12.2399231,
       "address": null
     }
   ],
@@ -330049,6 +330087,18 @@
       "lon": 11.3299305,
       "address": null,
       "source": "https://github.com/Einars-Apps/Matsjekk/issues/49"
+    },
+    {
+      "id": 13644588101,
+      "name": "Hettaro",
+      "country": "Italy",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 41.901426,
+      "lon": 12.427522,
+      "address": null
     }
   ],
   "PT": [
@@ -427243,6 +427293,30 @@
       "lat": 55.9267606,
       "lon": -3.1537887,
       "address": null
+    },
+    {
+      "id": 303323021,
+      "name": "Rose Cottage Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Driffield",
+      "products": [],
+      "website": "https://rosecottagefoods.co.uk/locations/kelleythorpe/",
+      "lat": 53.9943097,
+      "lon": -0.4577192,
+      "address": null
+    },
+    {
+      "id": 13305034,
+      "name": "Coille Inbhir Bhuic",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 57.1923453,
+      "lon": -4.7008687,
+      "address": null
     }
   ],
   "IE": [
@@ -497369,6 +497443,18 @@
       "website": null,
       "lat": 47.2466547,
       "lon": 8.8047385,
+      "address": null
+    },
+    {
+      "id": 13644670280,
+      "name": "Schulladen",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.steinerschule-aargau.ch/weitere-angebote/schulladen",
+      "lat": 47.3842914,
+      "lon": 8.1435139,
       "address": null
     }
   ],

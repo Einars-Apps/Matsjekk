@@ -5765,6 +5765,19 @@
     "source": "https://www.lokalmat.no/produsenter/hommelstad-gris/"
   },
   {
+    "id": "lokalmat_11838",
+    "name": "HONEYB",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/honeyb/"
+  },
+  {
     "id": "lokalmat_11524",
     "name": "Honning.Buzz",
     "country": "Norway",
@@ -8270,6 +8283,19 @@
     "lon": 5.6609,
     "address": "Myrdalsvegen 202",
     "source": "https://www.lokalmat.no/produsenter/myrdal-gard-ysteri/"
+  },
+  {
+    "id": "lokalmat_12303",
+    "name": "Myrland gårdsegg",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Mosvik",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Tveråveien 52",
+    "source": "https://www.lokalmat.no/produsenter/myrland-gardsegg/"
   },
   {
     "id": "lokalmat_11842",

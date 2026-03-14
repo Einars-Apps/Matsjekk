@@ -17880,18 +17880,6 @@
     "address": null
   },
   {
-    "id": 8376310916,
-    "name": "Plaisirs Fermiers",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.plaisirs-fermiers.fr/bressuire/",
-    "lat": 46.8450231,
-    "lon": -0.5057847,
-    "address": null
-  },
-  {
     "id": 8380151821,
     "name": "Le Jardin de Roumagne",
     "country": "France",
@@ -46094,6 +46082,18 @@
     "website": null,
     "lat": 45.7904731,
     "lon": 4.9616355,
+    "address": null
+  },
+  {
+    "id": 8376310916,
+    "name": "Plaisirs Fermiers",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.plaisirs-fermiers.fr/bressuire/",
+    "lat": 46.8450231,
+    "lon": -0.5057847,
     "address": null
   },
   {

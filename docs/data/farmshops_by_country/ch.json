@@ -10272,18 +10272,6 @@
     "address": "Igelweid"
   },
   {
-    "id": 10182112620,
-    "name": "s'Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Möriken",
-    "products": [],
-    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
-    "lat": 47.4146941,
-    "lon": 8.1875301,
-    "address": "Steinackerstrasse"
-  },
-  {
     "id": 10185873600,
     "name": "Hoflädeli",
     "country": "Switzerland",
@@ -15540,6 +15528,18 @@
     "address": null
   },
   {
+    "id": 13644670280,
+    "name": "Schulladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.steinerschule-aargau.ch/weitere-angebote/schulladen",
+    "lat": 47.3842914,
+    "lon": 8.1435139,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -17170,6 +17170,18 @@
     "lat": 47.3109306,
     "lon": 8.9341511,
     "address": null
+  },
+  {
+    "id": 10182112620,
+    "name": "s'Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Möriken",
+    "products": [],
+    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
+    "lat": 47.4146941,
+    "lon": 8.1875301,
+    "address": "Steinackerstrasse"
   },
   {
     "id": 10033695195,

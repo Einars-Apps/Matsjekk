@@ -8496,6 +8496,18 @@
     "address": "Decoy Road"
   },
   {
+    "id": 303323021,
+    "name": "Rose Cottage Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Driffield",
+    "products": [],
+    "website": "https://rosecottagefoods.co.uk/locations/kelleythorpe/",
+    "lat": 53.9943097,
+    "lon": -0.4577192,
+    "address": null
+  },
+  {
     "id": 303441361,
     "name": "Walsingham Farm Shop",
     "country": "United Kingdom",
@@ -16573,7 +16585,7 @@
   },
   {
     "id": 13305034,
-    "name": "Coille Inbhirwick",
+    "name": "Coille Inbhir Bhuic",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
@@ -18393,6 +18405,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 13305034,
+    "name": "Coille Inbhirwick",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1923453,
+    "lon": -4.7008687,
     "address": null
   },
   {
