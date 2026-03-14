@@ -3056,13 +3056,16 @@
       markerCoords.forEach((point) => bounds.extend({ lat: point.lat, lng: point.lon }));
       map.fitBounds(bounds);
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (Number(map.getZoom() || 0) > 13) map.setZoom(13);
+        const z = Number(map.getZoom() || 0);
+        if (z > 13) map.setZoom(13);
+        else if (z < 4) { map.setCenter({ lat: 59.9, lng: 10.7 }); map.setZoom(5); }
       });
       return;
     }
 
     if (leafletMarkersLayer && leafletMarkersLayer.getLayers().length) {
       map.fitBounds(leafletMarkersLayer.getBounds(), { maxZoom: 13 });
+      if (Number(map.getZoom() || 0) < 4) map.setView([59.9, 10.7], 5);
     }
   }
 
