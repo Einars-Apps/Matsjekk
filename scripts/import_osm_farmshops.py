@@ -66,6 +66,9 @@ COUNTRIES = {
     "CA": {"name": "Canada",                  "osm_name": "Canada",              "country_label": "Canada"},
     "AU": {"name": "Australia",               "osm_name": "Australia",           "country_label": "Australia"},
     "NZ": {"name": "New Zealand",             "osm_name": "New Zealand",         "country_label": "New Zealand"},
+    # Nordic islands
+    "IS": {"name": "Iceland",                  "osm_name": "Island",             "country_label": "Iceland"},
+    "GL": {"name": "Greenland",                "osm_name": "Kalaallit Nunaat",   "country_label": "Greenland"},
 }
 
 # Tags considered inherently curated — name + coordinates is sufficient
@@ -698,6 +701,22 @@ REGION_BBOXES: dict[str, list[tuple]] = {
         ("Southland",      -46.7, -44.9, 166.4, 169.5),
         ("West Coast",     -44.4, -41.5, 167.8, 172.5),
         ("Nelson-Marlborough", -42.5, -41.2, 172.0, 174.5),
+    ],
+    "IS": [
+        ("Southwest Iceland",  63.3, 64.6, -24.5, -21.0),
+        ("West Iceland",       64.5, 65.8, -23.0, -19.5),
+        ("Northwest Iceland",  65.0, 66.5, -25.0, -20.5),
+        ("North Iceland",      65.0, 66.5, -20.5, -15.0),
+        ("East Iceland",       64.2, 66.5, -15.0, -13.0),
+        ("South Iceland",      63.2, 64.5, -21.0, -13.5),
+    ],
+    "GL": [
+        ("Southwest Greenland", 59.5, 68.0,  -55.0, -40.0),
+        ("West Greenland",      68.0, 74.0,  -57.0, -44.0),
+        ("Northwest Greenland", 74.0, 78.0,  -73.0, -57.0),
+        ("North Greenland",     78.0, 83.5,  -73.0, -12.0),
+        ("Northeast Greenland", 72.0, 78.0,  -25.0, -12.0),
+        ("East Greenland",      60.0, 72.0,  -45.0, -20.0),
     ],
 }
 
