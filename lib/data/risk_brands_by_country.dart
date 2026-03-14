@@ -41,6 +41,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'tine', 'synnøve', 'synnøve finden', 'fjordland',
       'ostecompagniet', 'q-meieriene', 'q meieriene', 'kavli',
+      // TINE sub-brands — appear on packaging without "TINE"
+      'jarlsberg', 'norvegia', 'biola', 'litago',
+      'snøfrisk', 'gudbrandsdalsost', 'ski queen',
     ],
     'gmo_fish_red': ['lerøy', 'salmar', 'mowi'],
     'organic_keywords': ['økologisk', 'organic', 'biodynamisk', 'debio'],
@@ -60,7 +63,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'arla', 'bregott', 'arla ko',
       'castello',      // Arla brand
       'lurpak',        // Arla brand
+      'apetina',       // Arla brand
+      'keso',          // Arla SE cottage cheese brand
+      'finello',       // Arla SE grated cheese brand
       'skånemejerier', // Large southern SE co-op, high Bovaer exposure probability
+      'lindahls',      // Skånemejerier kvarg/quark brand
+      'yoggi',         // Skånemejerier yogurt brand
     ],
     'bovaer_yellow': [
       'norrmejerier',  // Small northern co-op, possible via raw milk market
@@ -86,6 +94,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'karolines køkken',  // Arla brand
       'diplom-is',         // Arla ice cream brand
       'dofino',            // Arla brand (cheese exported globally)
+      'finello',           // Arla DK grated cheese brand
     ],
     'bovaer_yellow': [
       'naturmælk',         // DK smaller dairy, possible market exposure
@@ -141,6 +150,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'mona',      // FC dessert brand
       'milner',    // FC cheese brand
       'valess',    // FC brand
+      'vifit',     // FC health dairy brand
+      'optimel',   // FC dairy drink brand
+      'fristi',    // FC children's dairy drink
       'doc kaas',  // Confirmed Bovaer trial participant
       'a-ware',    // Royal A-ware confirmed Bovaer trial
       'arla',
@@ -166,6 +178,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'bovaer_yellow': [
       'milcobel',    // BE's largest dairy co-op — possible DSM-Firmenich partner
+      'passendale',  // Milcobel brand
+      'wynendale',   // Milcobel brand
+      'père joseph', // Milcobel brand
       'inex',        // Second largest BE co-op
       'président',   // Lactalis brand sold in BE
       'bel',         // Bel Group (La Vache Qui Rit / Laughing Cow, Babybel, Boursin)
@@ -194,6 +209,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'danone',                    // Major FR dairy sourcing from local farms
       'elle & vire',               // Normandy dairy (Agrial co-op subsidiary)
       'isigny sainte-mère',        // Normandy AOP co-op — smaller, but yellow
+      'entremont',                 // Sodiaal wholly-owned cheese subsidiary
+      'riches monts',              // Entremont / Sodiaal brand
       'bel',                       // Bel Group HQ Paris (Babybel, Boursin)
     ],
     'gmo_fish_red': ['mowi', 'labeyrie'],
@@ -225,6 +242,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'clover',          // Saputo/formerly Dairy Crest brand
       'kerrygold',       // Ornua (Irish) — see IE yellow
       'pilgrims choice', // Ornua brand
+      'country life',    // Saputo Dairy UK brand (butter)
       'lakeland',        // Lakeland Dairies — cross-border IE/GB co-op
     ],
     'gmo_fish_red': ['mowi', 'bakkafrost', 'youngs seafood'],
@@ -244,9 +262,14 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'ornua', 'kerrygold', 'pilgrims choice', // Ornua group
       'glanbia', 'tirlán',   // Glanbia / Tirlán co-op
+      'avonmore',            // Tirlán consumer brand
       'kerry',               // Kerry Group dairy
       'lakeland',            // Lakeland Dairies
       'dairygold',           // Irish dairy co-op
+      'carbery',             // Carbery Group (Dubliner, Kerrymaid)
+      'dubliner',            // Carbery brand
+      'kerrymaid',           // Carbery brand
+      'connacht gold',       // Connacht Gold Creameries co-op
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['organic', 'biodynamic', 'demeter', 'iofga'],
@@ -267,6 +290,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'granarolo',  // Italy's largest dairy co-op
       'lactalis', 'galbani', 'parmalat', // Lactalis group
+      'fattorie osella', // Lactalis IT sub-brand
       'bel',        // Bel Group (Babybel in IT)
       'nestlé',     // Nestlé IT dairy range
     ],
@@ -287,8 +311,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'danone',    // Major in ES, sources milk from Spanish farms
       'puleva', 'lactalis', 'président', // Lactalis ESP group
-      'central lechera asturiana', // Largest Spanish dairy co-op
+      'central lechera asturiana', // Largest Spanish dairy co-op (CAPSA)
+      'larsa',     // CAPSA brand (Galicia)
+      'el castillo', // CAPSA brand
       'pascual',   // Grupo Pascual — major Spanish dairy
+      'kaiku',     // Lactalis ES brand (Basque Country)
       'nestlé',    // Nestlé ES dairy products
     ],
     'gmo_fish_red': ['pescanova', 'mowi'],
@@ -305,6 +332,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'bovaer_yellow': [
       'lactogal', 'mimosa', 'agros', // Lactogal group
+      'vigor', 'matinal', 'gresso', // Lactogal brands
       'lactalis',   // Lactalis has Portuguese dairy operations
       'nestlé',     // Nestlé PT
     ],
@@ -323,6 +351,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_red': [
       'arla',
       'valio', 'oltermanni', 'aura', 'eila', // Valio group brands
+      'gefilus',   // Valio probiotic brand (appears without Valio name)
     ],
     'bovaer_yellow': [
       'juustoportti',  // Finnish cheese brand, smaller — possible market exposure
@@ -343,6 +372,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'bovaer_yellow': [
       'emmi',       // CH's largest dairy — high market exposure probability
+      'kaltbach',   // Emmi cave-aged cheese brand
       'cremo',      // Swiss co-op (Fribourg / Vaud)
       'elsa',       // Migros-owned dairy brand
       'hochdorf',   // Swiss dairy ingredients
@@ -369,6 +399,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'salzburg milch', // Salzburg regional dairy
       'stainzer',      // Styrian regional dairy
       'lattella',      // NÖM buttermilk brand
+      'landliebe',     // FrieslandCampina brand also distributed in AT
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['bio', 'organic', 'demeter', 'aus österreich bio'],
