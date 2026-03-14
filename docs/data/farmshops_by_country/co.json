@@ -930,19 +930,6 @@
     "source": "osm"
   },
   {
-    "id": 5184633268,
-    "name": "Distribuidora",
-    "country": "Colombia",
-    "region": "Andina",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 4.7043314,
-    "lon": -74.117331,
-    "address": "Avenida Calle 72",
-    "source": "osm"
-  },
-  {
     "id": 5228617691,
     "name": "La Cava del Libro",
     "country": "Colombia",
@@ -1689,19 +1676,6 @@
     "phone": "+573156061113"
   },
   {
-    "id": 6610246720,
-    "name": "Hotel Centenario Plaza",
-    "country": "Colombia",
-    "region": "Andina",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 5.9886634,
-    "lon": -72.9127537,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 6783225602,
     "name": "Salsamentaria Distririco",
     "country": "Colombia",
@@ -2170,19 +2144,6 @@
     "website": null,
     "lat": 4.5807096,
     "lon": -74.1786265,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 8565431117,
-    "name": "Distribuidora de huevos la especial",
-    "country": "Colombia",
-    "region": "Andina",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 4.5630184,
-    "lon": -74.1847117,
     "address": null,
     "source": "osm"
   },

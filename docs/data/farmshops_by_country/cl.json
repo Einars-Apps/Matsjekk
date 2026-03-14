@@ -753,19 +753,6 @@
     "source": "osm"
   },
   {
-    "id": 4377867590,
-    "name": "Distribuidora Jerry",
-    "country": "Chile",
-    "region": "Sur de Chile",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -37.0342244,
-    "lon": -72.4077816,
-    "address": "Río Claro",
-    "source": "osm"
-  },
-  {
     "id": 4407533390,
     "name": "El Cielo",
     "country": "Chile",
@@ -778,20 +765,6 @@
     "address": "San Diego 1430",
     "source": "osm",
     "phone": "+56 22 4248374;+56 22 5569504"
-  },
-  {
-    "id": 4425270793,
-    "name": "Mayorista de Vinos y Bebidas",
-    "country": "Chile",
-    "region": "Zona Central",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -33.4309535,
-    "lon": -70.650724,
-    "address": "Salas 161",
-    "source": "osm",
-    "phone": "+56227320540"
   },
   {
     "id": 4441378164,
@@ -881,19 +854,6 @@
     "website": null,
     "lat": -34.6315252,
     "lon": -71.3737749,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 4738744822,
-    "name": "Distribuidora de Vinos y Licores",
-    "country": "Chile",
-    "region": "Sur de Chile",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -38.7217928,
-    "lon": -72.5724618,
     "address": null,
     "source": "osm"
   },
@@ -1659,19 +1619,6 @@
     "address": null,
     "source": "osm",
     "phone": "+56985959313"
-  },
-  {
-    "id": 10215866217,
-    "name": "El Taznire Supermercado de Alcoholes",
-    "country": "Chile",
-    "region": "Norte Grande",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -22.911517,
-    "lon": -68.2017524,
-    "address": "Calama",
-    "source": "osm"
   },
   {
     "id": 10271466044,
