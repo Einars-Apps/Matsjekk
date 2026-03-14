@@ -69,6 +69,19 @@ COUNTRIES = {
     # Nordic islands
     "IS": {"name": "Iceland",                  "osm_name": "Island",             "country_label": "Iceland"},
     "GL": {"name": "Greenland",                "osm_name": "Kalaallit Nunaat",   "country_label": "Greenland"},
+    # South America
+    "BR": {"name": "Brazil",                   "osm_name": "Brasil",             "country_label": "Brazil"},
+    "AR": {"name": "Argentina",                "osm_name": "Argentina",          "country_label": "Argentina"},
+    "UY": {"name": "Uruguay",                  "osm_name": "Uruguay",            "country_label": "Uruguay"},
+    "PY": {"name": "Paraguay",                 "osm_name": "Paraguay",           "country_label": "Paraguay"},
+    "CL": {"name": "Chile",                    "osm_name": "Chile",              "country_label": "Chile"},
+    "PE": {"name": "Peru",                     "osm_name": "Peru",               "country_label": "Peru"},
+    "CO": {"name": "Colombia",                 "osm_name": "Colombia",           "country_label": "Colombia"},
+    "VE": {"name": "Venezuela",                "osm_name": "Venezuela",          "country_label": "Venezuela"},
+    "EC": {"name": "Ecuador",                  "osm_name": "Ecuador",            "country_label": "Ecuador"},
+    "BO": {"name": "Bolivia",                  "osm_name": "Bolivia",            "country_label": "Bolivia"},
+    "GY": {"name": "Guyana",                   "osm_name": "Guyana",             "country_label": "Guyana"},
+    "SR": {"name": "Suriname",                 "osm_name": "Suriname",           "country_label": "Suriname"},
 }
 
 # Tags considered inherently curated — name + coordinates is sufficient
@@ -717,6 +730,161 @@ REGION_BBOXES: dict[str, list[tuple]] = {
         ("North Greenland",     78.0, 83.5,  -73.0, -12.0),
         ("Northeast Greenland", 72.0, 78.0,  -25.0, -12.0),
         ("East Greenland",      60.0, 72.0,  -45.0, -20.0),
+    ],
+    # Brazil — detaljerte regioner per stat
+    "BR": [
+        # Sul
+        ("Rio Grande do Sul",    -33.8, -27.1, -57.7, -49.7),
+        ("Santa Catarina",       -29.4, -25.9, -53.9, -48.4),
+        ("Parana",               -26.8, -22.5, -54.6, -48.0),
+        # Sudeste
+        ("Sao Paulo",            -25.3, -19.8, -53.1, -44.2),
+        ("Rio de Janeiro",       -23.4, -20.8, -44.9, -40.9),
+        ("Minas Gerais",         -22.9, -14.2, -51.0, -39.9),
+        ("Espirito Santo",       -21.3, -17.9, -41.9, -39.7),
+        # Centro-Oeste
+        ("Mato Grosso do Sul",   -24.1, -17.2, -58.2, -50.9),
+        ("Mato Grosso",          -18.0, -7.4,  -61.6, -50.2),
+        ("Goias",                -19.5, -12.4, -53.3, -45.9),
+        ("Distrito Federal",     -16.1, -15.5, -48.3, -47.3),
+        # Nordeste
+        ("Bahia",                -18.4, -8.5,  -46.7, -37.3),
+        ("Pernambuco",           -9.5,  -7.0,  -41.4, -32.4),
+        ("Ceara",                -7.9,  -2.8,  -41.5, -37.3),
+        ("Maranhao",             -10.3, -1.0,  -48.8, -41.8),
+        ("Piaui",                -11.0, -2.7,  -45.9, -40.4),
+        ("Rio Grande do Norte",  -6.9,  -4.8,  -38.6, -35.0),
+        ("Paraiba",              -8.3,  -6.0,  -38.8, -34.8),
+        ("Alagoas",              -10.5, -8.8,  -38.2, -35.2),
+        ("Sergipe",              -11.6, -9.5,  -38.3, -36.4),
+        # Norte
+        ("Para",                 -10.0, 2.8,   -58.9, -46.1),
+        ("Amazonas",             -9.8,  2.3,   -73.8, -57.3),
+        ("Roraima",              1.0,   5.3,   -64.8, -59.9),
+        ("Amapa",                -0.5,  4.4,   -52.4, -49.9),
+        ("Tocantins",            -13.5, -5.2,  -50.8, -45.9),
+        ("Rondonia",             -13.7, -7.9,  -66.8, -59.8),
+        ("Acre",                 -11.2, -7.1,  -73.8, -66.7),
+    ],
+    # Argentina — detaljerte regioner per provins
+    "AR": [
+        # Patagonia
+        ("Tierra del Fuego",    -55.2, -52.6, -68.7, -63.7),
+        ("Santa Cruz",          -52.5, -46.0, -72.6, -66.3),
+        ("Chubut",              -46.0, -42.0, -71.7, -63.5),
+        ("Rio Negro",           -42.0, -37.6, -71.8, -62.8),
+        ("Neuquen",             -40.0, -36.0, -71.6, -68.0),
+        # Cuyo
+        ("Mendoza",             -37.7, -32.0, -70.6, -66.9),
+        ("San Juan",            -32.5, -28.3, -70.6, -67.0),
+        ("San Luis",            -35.7, -32.3, -67.2, -64.9),
+        ("La Rioja",            -31.0, -27.5, -69.2, -65.6),
+        # Noroeste
+        ("Catamarca",           -29.2, -25.2, -70.0, -65.5),
+        ("Tucuman",             -28.0, -26.0, -66.1, -64.6),
+        ("Salta",               -26.4, -21.8, -68.5, -62.4),
+        ("Jujuy",               -24.2, -21.8, -66.8, -64.2),
+        # Litoral / NEA
+        ("Formosa",             -26.4, -22.0, -62.4, -58.2),
+        ("Chaco",               -27.7, -24.0, -63.0, -58.9),
+        ("Misiones",            -28.2, -25.5, -56.1, -53.6),
+        ("Corrientes",          -30.0, -27.2, -59.5, -56.0),
+        ("Entre Rios",          -34.0, -30.0, -60.8, -57.5),
+        # Centro
+        ("Cordoba",             -35.0, -29.0, -66.0, -62.0),
+        ("Santiago del Estero", -30.0, -25.2, -65.0, -60.3),
+        ("Santa Fe",            -34.2, -28.0, -62.5, -59.3),
+        # Buenos Aires
+        ("Buenos Aires",        -41.0, -33.3, -63.5, -56.7),
+        ("Ciudad de Buenos Aires", -34.7, -34.5, -58.6, -58.3),
+        ("La Pampa",            -39.0, -35.0, -67.5, -63.3),
+    ],
+    # Uruguay — detaljerte departementer
+    "UY": [
+        ("Artigas",          -30.5, -30.0, -58.5, -56.0),
+        ("Salto",            -32.0, -30.5, -57.8, -55.8),
+        ("Rivera",           -32.5, -30.5, -56.8, -54.9),
+        ("Cerro Largo",      -33.0, -31.0, -55.0, -53.1),
+        ("Artigas-Norte",    -31.5, -30.5, -58.5, -57.0),  # ekstra dekn.
+        ("Paysandu",         -33.2, -31.0, -58.3, -56.8),
+        ("Tacuarembo",       -33.5, -31.5, -56.7, -54.5),
+        ("Treinta y Tres",   -34.2, -32.5, -55.0, -53.0),
+        ("Rocha",            -34.7, -33.5, -54.3, -53.0),
+        ("Maldonado",        -35.0, -34.3, -55.3, -53.8),
+        ("Lavalleja",        -34.6, -33.2, -56.0, -54.0),
+        ("Florida",          -34.3, -33.0, -57.3, -55.4),
+        ("Durazno",          -33.7, -32.2, -57.2, -55.3),
+        ("Rio Negro",        -33.5, -32.2, -58.5, -56.8),
+        ("Soriano",          -34.2, -33.2, -58.7, -57.5),
+        ("Colonia",          -34.7, -33.7, -58.4, -57.0),
+        ("San Jose",         -34.8, -34.0, -57.5, -56.0),
+        ("Canelones",        -34.8, -34.3, -56.5, -55.7),
+        ("Montevideo",       -34.95,-34.8, -56.4, -56.0),
+        ("Flores",           -34.0, -33.3, -57.3, -56.2),
+    ],
+    # Paraguay — detaljerte departementer
+    "PY": [
+        ("Concepcion",        -24.0, -22.0, -60.5, -57.5),
+        ("San Pedro",         -25.0, -23.0, -57.5, -55.2),
+        ("Cordillera",        -25.7, -24.8, -57.2, -56.5),
+        ("Guaira",            -26.2, -25.5, -56.8, -56.0),
+        ("Caaguazu",          -26.0, -24.0, -56.5, -54.5),
+        ("Caazapa",           -27.0, -25.8, -56.5, -55.0),
+        ("Itapua",            -27.8, -26.5, -56.8, -54.5),
+        ("Misiones",          -27.5, -26.5, -57.5, -56.5),
+        ("Paraguari",         -26.5, -25.5, -57.5, -56.8),
+        ("Alto Parana",       -26.5, -24.5, -55.9, -54.2),
+        ("Central",           -25.7, -25.2, -57.7, -57.0),
+        ("Neembucu",          -27.8, -26.8, -58.8, -57.8),
+        ("Amambay",           -23.5, -22.0, -56.5, -55.0),
+        ("Canindeyu",         -24.5, -23.0, -55.7, -54.2),
+        ("Presidente Hayes",  -25.0, -19.5, -62.5, -58.2),
+        ("Alto Paraguay",     -21.0, -19.3, -62.5, -59.0),
+        ("Boqueron",          -22.5, -19.4, -63.0, -59.5),
+    ],
+    # Resten av Sør-Amerika
+    "CL": [
+        ("Norte Grande",      -24.5, -17.5, -70.5, -67.0),
+        ("Norte Chico",       -32.2, -24.5, -71.8, -69.0),
+        ("Zona Central",      -36.0, -32.2, -72.0, -69.8),
+        ("Sur de Chile",      -42.0, -36.0, -74.5, -71.5),
+        ("Aysen",             -48.5, -42.0, -75.6, -71.0),
+        ("Magallanes",        -55.5, -48.5, -75.0, -66.5),
+    ],
+    "PE": [
+        ("Costa Norte",   -8.0,  -3.5,  -81.4, -78.5),
+        ("Costa Central", -14.0, -8.0,  -77.5, -75.5),
+        ("Costa Sur",     -18.5, -14.0, -75.5, -70.5),
+        ("Sierra Norte",  -8.0,  -4.0,  -78.5, -75.5),
+        ("Sierra Central",-14.0, -8.0,  -76.5, -73.5),
+        ("Sierra Sur",    -17.0, -14.0, -73.5, -70.0),
+        ("Selva Norte",   -5.0,  -1.0,  -78.5, -73.5),
+        ("Selva Central", -12.0, -5.0,  -76.5, -72.5),
+        ("Selva Sur",     -14.5, -12.0, -73.5, -70.0),
+    ],
+    "CO": [
+        ("Caribe",        7.0,  12.5, -77.5, -71.3),
+        ("Pacifico",      1.0,   7.0, -78.0, -76.0),
+        ("Andina",        1.0,   8.0, -77.0, -72.5),
+        ("Llanos",        1.5,   7.0, -72.5, -67.0),
+        ("Amazonia",     -4.0,   1.5, -75.0, -67.0),
+    ],
+    "VE": [
+        ("Oeste",       8.0, 12.5, -73.5, -69.5),
+        ("Centro",      8.0, 12.5, -69.5, -64.5),
+        ("Este",        7.5, 11.0, -64.5, -61.0),
+        ("Llanos",      5.5,  9.5, -72.5, -64.5),
+        ("Guayana",     5.0,  8.5, -64.5, -60.0),
+    ],
+    "EC": [
+        ("Costa",    -4.0,  1.5, -81.0, -78.5),
+        ("Sierra",   -5.0,  1.5, -79.5, -77.5),
+        ("Oriente",  -5.0,  0.5, -78.0, -75.0),
+    ],
+    "BO": [
+        ("Altiplano",    -22.5, -14.0, -69.7, -66.5),
+        ("Valles",       -22.0, -16.0, -66.5, -63.5),
+        ("Llanos",       -20.0, -10.0, -69.7, -57.5),
     ],
 }
 
