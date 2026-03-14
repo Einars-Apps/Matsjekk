@@ -3091,19 +3091,6 @@
     "source": "https://www.lokalmat.no/produsenter/egra-gard/"
   },
   {
-    "id": "lokalmat_12359",
-    "name": "Eiane Gard",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "skiftun",
-    "products": [],
-    "website": null,
-    "lat": 59.8939224,
-    "lon": 10.7149058,
-    "address": "Indre Ryfylkevegen 914",
-    "source": "https://www.lokalmat.no/produsenter/eiane-gard/"
-  },
-  {
     "id": "lokalmat_12047",
     "name": "Eide og Fræna Fiskemat",
     "country": "Norway",
@@ -4009,12 +3996,14 @@
     "name": "Fruityfriendly AS",
     "country": "Norway",
     "region": "Innlandet",
-    "municipality": "Lillehammer",
-    "products": [],
+    "municipality": "LILLEHAMMER",
+    "products": [
+      "Korn- og Bakevarer"
+    ],
     "website": null,
     "lat": 61.084544736012,
     "lon": 10.495035809731,
-    "address": "Industrigata 17",
+    "address": "HAGEVEIEN 4",
     "source": "https://www.lokalmat.no/produsenter/fruityfriendly-as/"
   },
   {
@@ -5763,19 +5752,6 @@
     "lon": 11.207277613345,
     "address": "Hommelstadvegen 222",
     "source": "https://www.lokalmat.no/produsenter/hommelstad-gris/"
-  },
-  {
-    "id": "lokalmat_11838",
-    "name": "HONEYB",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 59.8939224,
-    "lon": 10.7149058,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/honeyb/"
   },
   {
     "id": "lokalmat_11524",
@@ -8285,19 +8261,6 @@
     "source": "https://www.lokalmat.no/produsenter/myrdal-gard-ysteri/"
   },
   {
-    "id": "lokalmat_12303",
-    "name": "Myrland gårdsegg",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Mosvik",
-    "products": [],
-    "website": null,
-    "lat": 59.8939224,
-    "lon": 10.7149058,
-    "address": "Tveråveien 52",
-    "source": "https://www.lokalmat.no/produsenter/myrland-gardsegg/"
-  },
-  {
     "id": "lokalmat_11842",
     "name": "Naustdal Dampbakeri AS",
     "country": "Norway",
@@ -9205,7 +9168,7 @@
     "lat": 61.787550424743,
     "lon": 6.1743121265273,
     "address": "nordstrandsvegen 264",
-    "source": "https://www.lokalmat.no/produsenter/paldtun-frukt-og-baer/"
+    "source": "https://www.lokalmat.no/produsenter/paaldtun-frukt-og-baer/"
   },
   {
     "id": "lokalmat_11934",
@@ -9462,9 +9425,7 @@
     "country": "Norway",
     "region": "Finnmark",
     "municipality": "Vadsø",
-    "products": [
-      "Alkoholholdige drikker"
-    ],
+    "products": [],
     "website": null,
     "lat": 70.0710974,
     "lon": 29.7485885,
@@ -10122,19 +10083,6 @@
     "lon": 10.748255252838135,
     "address": "Stasjonsveien 2",
     "source": "https://www.lokalmat.no/produsenter/rygge-meieri/"
-  },
-  {
-    "id": "lokalmat_12358",
-    "name": "RYGR",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "Klepp Stasjon",
-    "products": [],
-    "website": null,
-    "lat": 58.7820837,
-    "lon": 5.7008446,
-    "address": "Plogfabrikkveien 15",
-    "source": "https://www.lokalmat.no/produsenter/rygr/"
   },
   {
     "id": "lokalmat_11315",
@@ -12796,7 +12744,7 @@
     "name": "Vossakjøt",
     "country": "Norway",
     "region": "Vestland",
-    "municipality": "Vossestrand",
+    "municipality": null,
     "products": [
       "Alkoholholdige drikker",
       "Kjøtt"
@@ -12804,8 +12752,8 @@
     "website": null,
     "lat": 60.84292,
     "lon": 6.514515,
-    "address": "Draugsvoll",
-    "source": "https://www.lokalmat.no/produsenter/vossakjot/"
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/vossakjott-as/"
   },
   {
     "id": "lokalmat_11785",
@@ -14844,19 +14792,6 @@
     "lon": 9.771285,
     "address": "Austsidevegen 1521",
     "source": "https://www.hanen.no/bedrift/piltingsrud-gard-as/"
-  },
-  {
-    "id": "hanen_3050",
-    "name": "Rabben Gård",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "Dverberg",
-    "products": [],
-    "website": "https://www.facebook.com/profile.php?id=100064088373574",
-    "lat": 69.107932,
-    "lon": 15.93962,
-    "address": "Oklveien 95",
-    "source": "https://www.hanen.no/bedrift/rabben-gaard/"
   },
   {
     "id": "hanen_2735",
