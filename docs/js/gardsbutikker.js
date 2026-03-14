@@ -3220,9 +3220,11 @@ out center tags 150;
         const regionMatch = !regionValue || (countryCode === 'NO'
           ? regionMatches(shop.region || '', regionTerms)
           : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+        // For non-Norway, skip strict municipality equality here — applyMunicipalityScope
+        // uses bounding box to capture all sub-localities within the selected comune/commune.
         const municipalityMatch = !municipalityValue || (countryCode === 'NO'
           ? municipalityMatches(shop.municipality || '', municipalityTerms)
-          : shop.municipality === municipalityValue);
+          : true);
         return regionMatch && municipalityMatch;
       });
     }
@@ -3410,9 +3412,10 @@ out center tags 150;
                 const regionMatch = !regionValue || (countryCode === 'NO'
                   ? regionMatches(shop.region || '', regionTerms)
                   : normalizeAdminLabel(shop.region || '') === normalizeAdminLabel(regionValue || regionText));
+                // For non-Norway, skip strict equality — applyMunicipalityScope uses bounding box
                 const municipalityMatch = !municipalityValue || (countryCode === 'NO'
                   ? municipalityMatches(shop.municipality || '', municipalityTerms)
-                  : shop.municipality === municipalityValue);
+                  : true);
                 return regionMatch && municipalityMatch;
               });
             }
