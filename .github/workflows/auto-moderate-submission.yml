@@ -61,6 +61,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh issue comment ${{ github.event.issue.number }} \
-            --body "✅ **Lagt til i databasen!** Stedet er nå synlig på kartet. Takk for bidraget!"
+          ADD_RESULT=$(cat $GITHUB_OUTPUT 2>/dev/null | grep add_result | cut -d= -f2 || echo 'success')
+          if [ "$ADD_RESULT" = "upgraded" ]; then
+            MSG="✅ **Oppføringen er oppdatert i databasen** med mer fullstendig informasjon. Takk for bidraget!"
+          elif [ "$ADD_RESULT" = "skipped_duplicate" ]; then
+            MSG="ℹ️ **Stedet finnes allerede** i databasen med minst like god informasjon. Ingen endring nødvendig."
+          else
+            MSG="✅ **Lagt til i databasen!** Stedet er nå synlig på kartet. Takk for bidraget!"
+          fi
+          gh issue comment ${{ github.event.issue.number }} --body "$MSG"
           gh issue close ${{ github.event.issue.number }}
