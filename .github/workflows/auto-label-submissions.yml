@@ -1,0 +1,36 @@
+name: Auto-label submissions and reports
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply 'submission' label to suggestions
+        if: startsWith(github.event.issue.title, '[Suggestion]')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['submission']
+            });
+
+      - name: Apply 'report' label to reports
+        if: startsWith(github.event.issue.title, '[Report]')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['report']
+            });
