@@ -1,25 +1,17 @@
 ---
-name: Farmshop listing report (moderated)
-about: Report an entry that should be removed or corrected
-title: '[Report] <Place name>'
-labels: submission
+name: Rapporter feil oppføring (gårdsbutikk)
+about: Rapporter en dobbeltoppføring, feil informasjon eller stengt sted
+title: '[Report] <Navn på stedet>'
+labels: report
 assignees: ''
 ---
 
-Use this template to report an incorrect listing. This always goes through manual review before any change.
-
-Required fields: `name`, `reason`.
-Recommended fields: `address`, `website`.
+Beskriv problemet med denne oppføringen.
 
 ```yaml
-name: "Farm shop 123456"
-country_code: "NO"
-reason: "Generic placeholder entry, not a real farm shop"
+name: ""
+country_code: ""
+reason: ""
+address: ""
+website: ""
 ```
-
-Optional: add links/screenshots proving the issue.
-
-Moderation rules:
-- If there is doubt, verify against the official website.
-- Place location by the submitted address (not only by name).
-- Names may be identical in different districts: resolve duplicates using name + address and/or coordinates.
