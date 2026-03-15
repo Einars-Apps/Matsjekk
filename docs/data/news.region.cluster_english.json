@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T05:16:34.674347+00:00",
+  "generatedAt": "2026-03-15T05:44:37.027502+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -46,8 +46,8 @@
       "pubDate": "2026-01-29T08:00:00+00:00",
       "source": "SeafoodSource",
       "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "country": "AU",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUU4c0tTT3l5RTQ1bnJ0bDBjSDQzUUNpQW0ydUk3Z21wc193WmxxaDREdlJjM3lRLUFOMlItQThqcTRKeEpJaGdOVmtBLXRhSXpleHdWQjBuVXVuMUo5Z1lGQTJPcFlkRXNVY2RzUHRtZW5oUTB4cXkzeGZPOTdWLWEzdlFiaE1kUHpnSVUzMTkyZy1JbUdCVkNaT25sY3JJU0hfQVRsSHRVdlI0TDM5ZHJLSU5lb05qYnM2X1R6aHNsTWlGMlIzY1FYSlQ?oc=5\" target=\"_blank\">Indian biotech firm Loopworm banking on silkworms as the future of sustainable insect feed production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SeafoodSource</font>",
       "id": "53468e8fcb962b29"
     },
@@ -211,8 +211,8 @@
       "pubDate": "2025-06-23T07:00:00+00:00",
       "source": "Nature",
       "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHU1NqeTVLbGFxaV9tS0dfQTYwN2hYamhZZWcwSnRBTHFjMEFTRmlld1lkeDNGUUVKcWE0WVRyWWUxOGEyX1RtSVo3eUtxdnp4Y2VGeExtYjVIMXZLYWVr?oc=5\" target=\"_blank\">Beyond the buzz: insect-based foods are unlikely to significantly reduce meat consumption | npj Sustainable Agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "0a6c0e1a059d45c7"
     },
