@@ -4740,6 +4740,13 @@ out center tags 150;
     fitMapToMarkers();
   }
 
+  function syncSuggestCountry() {
+    if (!suggestCountryEl) return;
+    const code = resolveCountryCode(countrySelect.value);
+    const name = code ? countryNameByCode(code) : '';
+    if (name && !suggestCountryEl.value) suggestCountryEl.value = name;
+  }
+
   countrySelect.addEventListener('change', async () => {
     activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
@@ -4747,6 +4754,7 @@ out center tags 150;
     await populateRegions(selectedCountryCode);
     await populateMunicipalities(selectedCountryCode, '');
     filterShops();
+    syncSuggestCountry();
   });
 
   regionSelect.addEventListener('change', async () => {
@@ -4798,6 +4806,12 @@ out center tags 150;
 
   if (submitSuggestionBtn) {
     submitSuggestionBtn.addEventListener('click', () => {
+      // Auto-fill country from main dropdown if user left it blank
+      if (suggestCountryEl && !suggestCountryEl.value.trim()) {
+        const code = resolveCountryCode(countrySelect.value);
+        const name = code ? countryNameByCode(code) : '';
+        if (name) suggestCountryEl.value = name;
+      }
       const name = (suggestNameEl?.value || '').trim();
       const municipality = (suggestMunicipalityEl?.value || '').trim();
       const country = (suggestCountryEl?.value || '').trim();
