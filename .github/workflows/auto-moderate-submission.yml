@@ -5,7 +5,7 @@ on:
     types: [opened, labeled]
 
 permissions:
-  contents: read
+  contents: write
   issues: write
 
 jobs:
@@ -29,6 +29,7 @@ jobs:
         run: pip install pyyaml requests
 
       - name: Run auto-moderation
+        id: moderate
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
@@ -36,4 +37,30 @@ jobs:
           ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO: ${{ github.repository }}
+          MAINTAINER_LOGIN: Einars-Apps
         run: python tools/auto_moderate_submission.py
+
+      - name: Auto-add approved shop to dataset
+        if: steps.moderate.outputs.approved == 'true'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python tools/auto_add_shop.py
+
+      - name: Commit and push dataset update
+        if: steps.moderate.outputs.approved == 'true'
+        run: |
+          git config user.email "matsjekk-bot@noreply.github.com"
+          git config user.name "Matsjekk Bot"
+          git add docs/data/
+          git diff --cached --quiet || git commit -m "data: auto-add shop from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close issue with success comment
+        if: steps.moderate.outputs.approved == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} \
+            --body "✅ **Lagt til i databasen!** Stedet er nå synlig på kartet. Takk for bidraget!"
+          gh issue close ${{ github.event.issue.number }}

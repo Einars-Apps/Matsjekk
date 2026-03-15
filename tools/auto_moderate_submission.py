@@ -244,6 +244,38 @@ def check_website(entry):
     return False, f'Nettside svarte med HTTP {status}: {website}'
 
 
+def check_dataset_duplicates(entry):
+    """
+    Returns (duplicate: bool, message: str)
+    Checks the existing farmshops.json / immigrant_shops.json for an exact
+    name match in the same country.  Hard reject if found.
+    """
+    name = (entry.get('name') or '').strip().lower()
+    if not name:
+        return False, 'Kan ikke sjekke duplikat — mangler navn'
+
+    is_immigrant = is_immigrant_shop_submission(entry)
+    data_path = (
+        'docs/data/immigrant_shops.json'
+        if is_immigrant else
+        'docs/data/farmshops.json'
+    )
+    try:
+        with open(data_path, encoding='utf-8') as f:
+            shops = json.load(f)
+    except FileNotFoundError:
+        return False, f'Datafil ikke funnet ({data_path}) — hopper over duplikatsjekk'
+    except Exception as e:
+        return False, f'Feil ved lasting av datafil: {e}'
+
+    for s in shops:
+        existing = (s.get('name') or '').strip().lower()
+        if existing == name:
+            return True, f'Duplikat funnet: "{s.get("name")}" finnes allerede i databasen'
+
+    return False, f'Ikke duplikat (sjekket {len(shops):,} oppføringer)'
+
+
 def check_nominatim(entry):
     """
     Returns (found: bool, message: str)
@@ -277,6 +309,7 @@ def main():
     author = os.environ.get('ISSUE_AUTHOR', '')
     token = os.environ.get('GH_TOKEN', '')
     repo = os.environ.get('GITHUB_REPO', '')
+    maintainer = os.environ.get('MAINTAINER_LOGIN', 'Einars-Apps')
 
     print(f'=== Auto-moderasjon: issue #{number} ===')
     print(f'  Tittel: {title}')
@@ -322,7 +355,15 @@ def main():
     else:
         results.append(('✅', f'Nettside: {web_msg}'))
 
-    # 4. Nominatim geo check (soft — won't block approval alone)
+    # 4. Dataset duplicate check (hard reject)
+    dup_found, dup_msg = check_dataset_duplicates(entry)
+    if dup_found:
+        results.append(('❌', f'Duplikat: {dup_msg}'))
+        approved = False
+    else:
+        results.append(('✅', f'Duplikat: {dup_msg}'))
+
+    # 5. Nominatim geo check (soft — won't block approval alone)
     nom_found, nom_msg = check_nominatim(entry)
     if nom_found is True:
         results.append(('✅', f'Geo: {nom_msg}'))
@@ -359,16 +400,14 @@ def main():
         lines += [
             '',
             '---',
-            '_Forslaget er automatisk godkjent og vil bli lagt til i databasen. '
-            'Legg til label `create-data-pr` for å opprette PR, eller fjern label `submission` for å avvise._',
+            '_Forslaget er automatisk godkjent og legges til i databasen. Issue lukkes automatisk._',
         ]
         next_label = 'create-data-pr'
     else:
         lines += [
             '',
             '---',
-            '_Forslaget ble ikke automatisk godkjent. En moderator vil se på dette. '
-            'Korriger evt. feil og kommenter for ny vurdering._',
+            f'_Forslaget ble ikke automatisk godkjent og er tildelt @{maintainer} for manuell gjennomgang._',
         ]
         next_label = 'needs-manual-review'
 
@@ -381,8 +420,33 @@ def main():
         post_github_comment(repo, number, comment_body, token)
         print(f'Legger til label: {next_label}')
         add_github_label(repo, number, next_label, token)
+
+        if not approved:
+            # Assign to maintainer — GitHub sends an email notification
+            assign_url = f'https://api.github.com/repos/{repo}/issues/{number}/assignees'
+            assign_payload = json.dumps({'assignees': [maintainer]}).encode()
+            assign_req = urllib.request.Request(
+                assign_url, data=assign_payload, method='POST',
+                headers={
+                    'Authorization': f'Bearer {token}',
+                    'Accept': 'application/vnd.github+json',
+                    'Content-Type': 'application/json',
+                    'X-GitHub-Api-Version': '2022-11-28',
+                }
+            )
+            try:
+                with urllib.request.urlopen(assign_req, timeout=10):
+                    print(f'  Tildelt @{maintainer} (e-postvarsling sendt via GitHub)')
+            except Exception as e:
+                print(f'  Advarsel: kunne ikke tildele: {e}')
     else:
         print('\n(Ingen GH_TOKEN/GITHUB_REPO — kjører kun lokalt)')
+
+    # Write result to $GITHUB_OUTPUT so the workflow can use conditional steps
+    gh_output = os.environ.get('GITHUB_OUTPUT', '')
+    if gh_output:
+        with open(gh_output, 'a') as f:
+            f.write(f'approved={str(approved).lower()}\n')
 
     return 0 if approved else 1
 
