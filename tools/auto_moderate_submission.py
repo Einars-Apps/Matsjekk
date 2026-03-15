@@ -248,7 +248,8 @@ def check_dataset_duplicates(entry):
     """
     Returns (duplicate: bool, message: str)
     Checks the existing farmshops.json / immigrant_shops.json for an exact
-    name match in the same country.  Hard reject if found.
+    name match in the same country.  A duplicate is NOT a hard reject if the
+    new entry has more info — auto_add_shop.py will upgrade it instead.
     """
     name = (entry.get('name') or '').strip().lower()
     if not name:
@@ -271,7 +272,11 @@ def check_dataset_duplicates(entry):
     for s in shops:
         existing = (s.get('name') or '').strip().lower()
         if existing == name:
-            return True, f'Duplikat funnet: "{s.get("name")}" finnes allerede i databasen'
+            # Count fields in existing vs submitted to advise
+            ex_fields = sum(1 for k in ('region','municipality','address','website','lat','lon')
+                            if s.get(k))
+            return True, (f'Duplikat funnet: "{s.get("name")}" finnes allerede '
+                          f'({ex_fields} ekstra felt) — vil oppgradere hvis ny info er bedre')
 
     return False, f'Ikke duplikat (sjekket {len(shops):,} oppføringer)'
 
@@ -355,11 +360,11 @@ def main():
     else:
         results.append(('✅', f'Nettside: {web_msg}'))
 
-    # 4. Dataset duplicate check (hard reject)
+    # 4. Dataset duplicate check (soft — auto_add_shop will upgrade if new data is better)
     dup_found, dup_msg = check_dataset_duplicates(entry)
     if dup_found:
-        results.append(('❌', f'Duplikat: {dup_msg}'))
-        approved = False
+        results.append(('ℹ️', f'Duplikat: {dup_msg}'))
+        # Not a hard reject — auto_add_shop will compare quality and upgrade if warranted
     else:
         results.append(('✅', f'Duplikat: {dup_msg}'))
 
