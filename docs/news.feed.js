@@ -213,6 +213,13 @@ function isSocialMediaUrl(url) {
   }
 }
 
+function isSocialMediaArticle(item) {
+  if (!item) return false;
+  if (isSocialMediaUrl(item.url)) return true;
+  const src = String(item.source || item.sourceName || '').toLowerCase().trim();
+  return SOCIAL_MEDIA_DOMAINS.some((domain) => src === domain || src.endsWith('.' + domain));
+}
+
 function loadFeedCache(mode) {
   const all = safeJsonParse(safeStorageGet(NEWS_FEED_CACHE_KEY), {});
   return Array.isArray(all[mode]) ? all[mode] : [];
@@ -607,14 +614,14 @@ async function renderNews(preferredLang) {
   const userCountry = await detectCountryCodeFromGeo();
   const resolvedMode = selectedMode === 'auto' ? clusterForCountry(userCountry) : selectedMode;
 
-  const localNews = getNews().filter((item) => !isSocialMediaUrl(item.url));
+  const localNews = getNews().filter((item) => !isSocialMediaArticle(item));
   const remoteNews = await fetchRemoteNewsForMode(resolvedMode);
 
-  // Filter social media from remote feed
-  const filteredRemote = remoteNews.filter((item) => !isSocialMediaUrl(item.url));
+  // Filter social media from remote feed (by URL and by source field)
+  const filteredRemote = remoteNews.filter((item) => !isSocialMediaArticle(item));
 
   // Merge fresh articles with rolling 30-day cache so critical articles don't vanish
-  const cachedNews = loadFeedCache(resolvedMode).filter((item) => !isSocialMediaUrl(item.url));
+  const cachedNews = loadFeedCache(resolvedMode).filter((item) => !isSocialMediaArticle(item));
   const merged = dedupeByUrl([...filteredRemote, ...cachedNews, ...localNews]);
 
   // Persist fresh articles to rolling cache

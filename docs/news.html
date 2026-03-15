@@ -167,6 +167,12 @@
             })
             .then(function (payload) {
               var items = payload && Array.isArray(payload.items) ? payload.items : [];
+              var socialDomains = ['facebook.com','instagram.com','twitter.com','x.com','tiktok.com','reddit.com','youtube.com','linkedin.com','pinterest.com','t.me','telegram.org'];
+              function isSocialSrc(src) {
+                var s = String(src || '').toLowerCase().trim();
+                return socialDomains.some(function(d) { return s === d || s.endsWith('.'+d); });
+              }
+              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url); });
               container.innerHTML = '';
               if (!items.length) {
                 container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';
@@ -178,12 +184,16 @@
                 var country = String(item.country || '');
                 var language = String(item.language || '');
                 var articleUrl = String(item.url || '#');
+                var pubDate = item.pubDate || item.date || '';
+                var dateStr = '';
+                if (pubDate) { try { dateStr = new Date(pubDate).toLocaleDateString(); } catch(e) {} }
+                var dateMeta = dateStr ? ' • ' + dateStr : '';
 
                 var card = document.createElement('article');
                 card.className = 'news-card';
                 card.innerHTML =
                   '<h4><a href="' + articleUrl + '" target="_blank" rel="noopener">' + title + '</a></h4>' +
-                  '<p class="meta">' + source + ' • ' + country + ' • ' + language + '</p>' +
+                  '<p class="meta">' + source + dateMeta + ' • ' + language + ' • ' + country + '</p>' +
                   '<p class="links"><a href="' + articleUrl + '" target="_blank" rel="noopener">Open original</a></p>';
                 container.appendChild(card);
               });
