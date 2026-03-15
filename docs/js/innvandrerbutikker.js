@@ -3497,11 +3497,11 @@
     return `"${text}"`;
   }
 
-  function buildIssueUrl(template, title, body) {
+  function buildIssueUrl(template, title, body, labels = 'submission') {
     const params = new URLSearchParams({
       template,
       title,
-      labels: 'submission',
+      labels,
       body,
     });
     return `${GITHUB_ISSUE_BASE_URL}?${params.toString()}`;
@@ -3542,7 +3542,7 @@
       '',
       'Please review this listing before any change is merged.',
     ].join('\n');
-    return buildIssueUrl('immigrant_shop_report.md', issueTitle, yamlBody);
+    return buildIssueUrl('immigrant_shop_report.md', issueTitle, yamlBody, 'report');
   }
 
   function renderList(filtered) {
