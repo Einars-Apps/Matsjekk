@@ -141,7 +141,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             const SizedBox(height: 8),
-            TextButton.icon(
+            if (!_premiumService.isLoading)
+              TextButton.icon(
               onPressed: () async {
                 await _premiumService.restorePurchases();
                 if (!mounted) return;
