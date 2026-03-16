@@ -15,7 +15,7 @@ import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
 import 'analytics.dart';
-import 'premium_screen.dart';
+// import 'premium_screen.dart'; // IAP disabled for v1.0 — re-enable in v1.1
 import 'premium_service.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
@@ -935,27 +935,8 @@ class _ScannerScreenState extends State<ScannerScreen>
               _visLandDialog();
             },
           ),
-          ListTile(
-            leading: const Icon(Icons.workspace_premium),
-            title: Text(
-                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
-            onTap: () {
-              _safePop();
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) => PremiumScreen(
-                    innstillingerBox: innstillingerBox,
-                    onPremiumChanged: (active) {
-                      if (!mounted) return;
-                      setState(() {
-                        premiumActive = active;
-                      });
-                    },
-                  ),
-                ),
-              );
-            },
-          ),
+          // IAP disabled for v1.0 — re-enable in v1.1
+          // ListTile(workspace_premium / Fjern annonser)
           ListTile(
             leading: const Icon(Icons.warning),
             title:
@@ -1548,8 +1529,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                       onAddManualItem: (item) => _handleManualListInput(activeList, item),
                     ),
             ),
-          if (!premiumActive)
-            Align(
+          Align(
               alignment: Alignment.bottomCenter,
               child: Container(
                 height: 50,
