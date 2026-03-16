@@ -10086,7 +10086,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.elviras-bauernladen.de/",
     "lat": 49.7962268,
     "lon": 9.9284678,
     "address": null
@@ -53143,8 +53143,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.6186092,
-    "lon": 9.1222758,
+    "lat": 48.6186588,
+    "lon": 9.1223656,
     "address": null
   },
   {
@@ -70053,6 +70053,18 @@
     "website": null,
     "lat": 48.0353867,
     "lon": 9.8115006,
+    "address": null
+  },
+  {
+    "id": 4855459,
+    "name": "Braunäcker",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6186092,
+    "lon": 9.1222758,
     "address": null
   },
   {

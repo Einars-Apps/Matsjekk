@@ -624395,6 +624395,18 @@
       "lon": 7.552423,
       "address": "Rue de l'Ile Falcon 5, 3960",
       "source": "osm"
+    },
+    {
+      "id": 10261375558,
+      "name": "Oberschwandenhof",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Samstagern",
+      "products": [],
+      "website": "https://www.oberschwandenhof.ch/hofladen",
+      "lat": 47.2020042,
+      "lon": 8.6818983,
+      "address": "Obere Schwandenstrasse"
     }
   ],
   "LI": [

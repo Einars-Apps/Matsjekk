@@ -6696,18 +6696,6 @@
     "address": null
   },
   {
-    "id": 28813597,
-    "name": "Bridgend Farmhouse",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Edinburgh",
-    "products": [],
-    "website": "http://www.bridgendfarmhouse.org.uk/",
-    "lat": 55.9267606,
-    "lon": -3.1537887,
-    "address": null
-  },
-  {
     "id": 31249766,
     "name": "Coldwell Wood",
     "country": "United Kingdom",
@@ -9532,7 +9520,7 @@
     "name": "Hillheads Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Backworth",
+    "municipality": "Newcastle upon Tyne",
     "products": [],
     "website": "https://www.hillheadsfarm.co.uk/",
     "lat": 55.0424931,
@@ -18405,6 +18393,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 28813597,
+    "name": "Bridgend Farmhouse",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Edinburgh",
+    "products": [],
+    "website": "http://www.bridgendfarmhouse.org.uk/",
+    "lat": 55.9267606,
+    "lon": -3.1537887,
     "address": null
   },
   {
