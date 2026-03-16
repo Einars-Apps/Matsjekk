@@ -43,7 +43,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Premium'),
+        title: const Text('Fjern annonser'),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
@@ -65,21 +65,20 @@ class _PremiumScreenState extends State<PremiumScreen> {
               ),
               child: Text(
                 _premiumService.isPremiumActive
-                    ? 'Premium er aktiv ✅'
-                    : 'Premium er ikke aktiv enda',
+                    ? 'Annonsefri er aktiv ✅'
+                    : 'Annonsefri er ikke aktiv enda',
                 style: const TextStyle(fontWeight: FontWeight.w700),
               ),
             ),
             const SizedBox(height: 12),
             const Text(
-              'Premium',
+              'Kjøp annonsefri versjon',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
             const Text(
-              '7 dagers prøvetid.\n'
-              'Etter prøvetid fortsetter valgt abonnement.\n'
-              'Premium låses opp automatisk når betaling er bekreftet.',
+              'Engangskjøp. Ingen abonnement.\n'
+              'Når kjøpet er bekreftet fjernes annonser permanent på denne kontoen.',
             ),
             const SizedBox(height: 16),
             if (_premiumService.isLoading)
@@ -87,8 +86,23 @@ class _PremiumScreenState extends State<PremiumScreen> {
             else if (!_premiumService.isStoreAvailable)
               const Text('Butikk utilgjengelig nå. Prøv igjen senere.')
             else if (_premiumService.products.isEmpty)
-              const Text(
-                'Fant ingen produkter. Sjekk at produkt-IDer er opprettet i Play/App Store.',
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
+                  ),
+                  const SizedBox(height: 8),
+                  ElevatedButton.icon(
+                    onPressed: () async {
+                      await _premiumService.loadProducts();
+                      if (!mounted) return;
+                      setState(() {});
+                    },
+                    icon: const Icon(Icons.refresh),
+                    label: const Text('Prøv igjen'),
+                  ),
+                ],
               )
             else
               ..._premiumService.products.map(
@@ -96,17 +110,20 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   child: ListTile(
                     title: Text(product.title),
                     subtitle: Text(
-                      '${product.price} • ${PremiumService.trialDays} dagers prøvetid',
+                      '${product.price} • engangskjøp',
                     ),
-                    trailing: ElevatedButton(
-                      onPressed: () async {
-                        await _premiumService.buy(product);
-                        if (!mounted) return;
-                        widget.onPremiumChanged(_premiumService.isPremiumActive);
-                        setState(() {});
-                      },
-                      child: const Text('Start prøve'),
-                    ),
+                    trailing: _premiumService.isPremiumActive
+                        ? const Icon(Icons.check_circle, color: Colors.green)
+                        : ElevatedButton(
+                            onPressed: () async {
+                              await _premiumService.buy(product);
+                              if (!mounted) return;
+                              widget.onPremiumChanged(
+                                  _premiumService.isPremiumActive);
+                              setState(() {});
+                            },
+                            child: const Text('Kjøp permanent'),
+                          ),
                   ),
                 ),
               ),
