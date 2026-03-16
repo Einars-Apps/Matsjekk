@@ -603,8 +603,32 @@ class HandlelisteOverlay extends StatefulWidget {
 }
 
 class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
-  final TextEditingController _addItemController = TextEditingController();
+  TextEditingController? _autocompleteFieldController;
   bool _showHistory = false;
+
+  Iterable<String> _getHistorySuggestions(String query) {
+    if (query.isEmpty) return const Iterable<String>.empty();
+    final q = query.toLowerCase();
+    final box = Hive.box('handlelister');
+    final seen = <String>{};
+    for (final key in box.keys) {
+      for (final vare in List<String>.from(
+          box.get(key, defaultValue: <String>[]))) {
+        final clean = vare.startsWith('✓ ') ? vare.substring(2) : vare;
+        if (clean.isNotEmpty) seen.add(clean);
+      }
+    }
+    final matches =
+        seen.where((item) => item.toLowerCase().contains(q)).toList();
+    matches.sort((a, b) {
+      final aStarts = a.toLowerCase().startsWith(q);
+      final bStarts = b.toLowerCase().startsWith(q);
+      if (aStarts && !bStarts) return -1;
+      if (!aStarts && bStarts) return 1;
+      return a.compareTo(b);
+    });
+    return matches.take(6);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -743,20 +767,45 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                       child: Row(
                         children: [
                           Expanded(
-                              child: TextField(
-                                  controller: _addItemController,
+                            child: Autocomplete<String>(
+                              optionsBuilder: (textEditingValue) =>
+                                  _getHistorySuggestions(textEditingValue.text),
+                              onSelected: (value) async {
+                                if (widget.onAddManualItem != null) {
+                                  await widget.onAddManualItem!(value.trim());
+                                } else {
+                                  final box = Hive.box('handlelister');
+                                  final list = List<String>.from(box.get(
+                                      widget.listeNavn,
+                                      defaultValue: <String>[]));
+                                  list.insert(0, value.trim());
+                                  box.put(widget.listeNavn, list);
+                                }
+                              },
+                              fieldViewBuilder:
+                                  (context, controller, focusNode, _) {
+                                _autocompleteFieldController = controller;
+                                return TextField(
+                                  controller: controller,
+                                  focusNode: focusNode,
                                   enableSuggestions: true,
                                   autocorrect: true,
                                   decoration: InputDecoration(
                                       hintText: AppLocalizations.of(context)
                                               ?.manualAddItem ??
                                           'Add item manually...',
-                                      border: const OutlineInputBorder()))),
+                                      border: const OutlineInputBorder()),
+                                );
+                              },
+                            ),
+                          ),
                           IconButton(
                               icon: const Icon(Icons.add_circle,
                                   color: Colors.green, size: 40),
                               onPressed: () async {
-                                final item = _addItemController.text.trim();
+                                final item =
+                                    (_autocompleteFieldController?.text ?? '')
+                                        .trim();
                                 if (item.isNotEmpty) {
                                   if (widget.onAddManualItem != null) {
                                     await widget.onAddManualItem!(item);
@@ -768,7 +817,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                                     list.insert(0, item);
                                     box.put(widget.listeNavn, list);
                                   }
-                                  _addItemController.clear();
+                                  _autocompleteFieldController?.clear();
                                 }
                               }),
                         ],

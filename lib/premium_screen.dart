@@ -84,7 +84,21 @@ class _PremiumScreenState extends State<PremiumScreen> {
             if (_premiumService.isLoading)
               const Center(child: CircularProgressIndicator())
             else if (!_premiumService.isStoreAvailable)
-              const Text('Butikk utilgjengelig nå. Prøv igjen senere.')
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text('Butikk utilgjengelig nå. Prøv igjen senere.'),
+                  const SizedBox(height: 8),
+                  ElevatedButton.icon(
+                    onPressed: () async {
+                      setState(() => _premiumService.isLoading = true);
+                      await _initialize();
+                    },
+                    icon: const Icon(Icons.refresh),
+                    label: const Text('Prøv igjen'),
+                  ),
+                ],
+              )
             else if (_premiumService.products.isEmpty)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -95,9 +109,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
                     onPressed: () async {
-                      await _premiumService.loadProducts();
-                      if (!mounted) return;
-                      setState(() {});
+                      setState(() => _premiumService.isLoading = true);
+                      await _initialize();
                     },
                     icon: const Icon(Icons.refresh),
                     label: const Text('Prøv igjen'),
