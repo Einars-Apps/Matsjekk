@@ -745,6 +745,8 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                           Expanded(
                               child: TextField(
                                   controller: _addItemController,
+                                  enableSuggestions: true,
+                                  autocorrect: true,
                                   decoration: InputDecoration(
                                       hintText: AppLocalizations.of(context)
                                               ?.manualAddItem ??

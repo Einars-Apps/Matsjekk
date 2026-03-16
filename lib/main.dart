@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
@@ -935,6 +936,27 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
           ),
           ListTile(
+            leading: const Icon(Icons.workspace_premium),
+            title: Text(
+                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
+            onTap: () {
+              _safePop();
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (_) => PremiumScreen(
+                    innstillingerBox: innstillingerBox,
+                    onPremiumChanged: (active) {
+                      if (!mounted) return;
+                      setState(() {
+                        premiumActive = active;
+                      });
+                    },
+                  ),
+                ),
+              );
+            },
+          ),
+          ListTile(
             leading: const Icon(Icons.warning),
             title:
                 Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
@@ -1001,7 +1023,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                       ]));
             },
           ),
-          if (Platform.isIOS)
+          if (Platform.isIOS && kDebugMode)
             ListTile(
               leading: const Icon(Icons.bug_report),
               title: const Text('App Review Test (iOS)'),
@@ -1062,27 +1084,6 @@ class _ScannerScreenState extends State<ScannerScreen>
                       label: Text(_farmShopsLabel(context)),
                     )
                   ],
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.workspace_premium),
-            title: Text(
-                premiumActive ? 'Premium (aktiv)' : 'Premium (7 dagers prøve)'),
-            onTap: () {
-              _safePop();
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) => PremiumScreen(
-                    innstillingerBox: innstillingerBox,
-                    onPremiumChanged: (active) {
-                      if (!mounted) return;
-                      setState(() {
-                        premiumActive = active;
-                      });
-                    },
-                  ),
                 ),
               );
             },
@@ -1547,14 +1548,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                       onAddManualItem: (item) => _handleManualListInput(activeList, item),
                     ),
             ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              height: 50,
-              color: Colors.grey[300],
-              child: const Center(child: Text('Annonsebanner her')),
-            ),
-          )
+          if (!premiumActive)
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                height: 50,
+                color: Colors.grey[300],
+                child: const Center(child: Text('Annonsebanner her')),
+              ),
+            )
         ],
       ),
     );

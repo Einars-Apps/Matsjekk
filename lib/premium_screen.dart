@@ -138,7 +138,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
               icon: const Icon(Icons.restore),
               label: const Text('Gjenopprett kjøp'),
             ),
-            if (_premiumService.lastMessage.isNotEmpty)
+            if (_premiumService.lastMessage.isNotEmpty && _premiumService.products.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(
