@@ -16,7 +16,7 @@ class PremiumService {
 
   bool isStoreAvailable = false;
   bool isPremiumActive = false;
-  bool isLoading = false;
+  bool isLoading = true;
   String lastMessage = '';
   List<ProductDetails> products = [];
 

@@ -86,8 +86,23 @@ class _PremiumScreenState extends State<PremiumScreen> {
             else if (!_premiumService.isStoreAvailable)
               const Text('Butikk utilgjengelig nå. Prøv igjen senere.')
             else if (_premiumService.products.isEmpty)
-              const Text(
-                'Fant ingen produkter. Sjekk at produkt-ID er opprettet i App Store.',
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
+                  ),
+                  const SizedBox(height: 8),
+                  ElevatedButton.icon(
+                    onPressed: () async {
+                      await _premiumService.loadProducts();
+                      if (!mounted) return;
+                      setState(() {});
+                    },
+                    icon: const Icon(Icons.refresh),
+                    label: const Text('Prøv igjen'),
+                  ),
+                ],
               )
             else
               ..._premiumService.products.map(
