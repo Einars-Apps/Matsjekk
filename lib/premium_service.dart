@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io' show Platform;
 
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
@@ -34,6 +35,7 @@ class PremiumService {
     isStoreAvailable = await _iap.isAvailable();
     if (!isStoreAvailable) {
       lastMessage = 'Butikk utilgjengelig akkurat nå. Prøv igjen senere.';
+      isLoading = false;
       return;
     }
 
@@ -61,7 +63,9 @@ class PremiumService {
     if (response.error != null) {
       lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
     } else if (products.isEmpty) {
-      lastMessage = 'Fant ikke kjøpsproduktet. Sjekk produkt-ID i App Store.';
+      lastMessage = Platform.isIOS
+          ? 'Fant ikke kjøpsproduktet. Sjekk App Store-konfigurasjon.'
+          : 'Fant ikke kjøpsproduktet. Sjekk Google Play-konfigurasjon.';
     } else {
       lastMessage = '';
     }
