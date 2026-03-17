@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T05:57:10.561480+00:00",
+  "generatedAt": "2026-03-17T05:37:14.308936+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -10,7 +10,7 @@
     {
       "title": "Temaoversikt siste 365 dager (LU)",
       "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr",
-      "pubDate": "2026-03-16T05:57:10.558277+00:00",
+      "pubDate": "2026-03-17T05:37:14.305389+00:00",
       "source": "Google News",
       "language": "fr",
       "country": "LU",
@@ -21,24 +21,13 @@
     {
       "title": "Temaoversikt siste 365 dager (FR)",
       "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
-      "pubDate": "2026-03-16T05:57:10.557856+00:00",
+      "pubDate": "2026-03-17T05:37:14.304936+00:00",
       "source": "Google News",
       "language": "fr",
       "country": "FR",
       "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=FR&ceid=FR:fr",
       "summary": "Neutral fallback page for FR. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
       "id": "381dca25df2a7cfc"
-    },
-    {
-      "title": "MP Materials op 2e Jaarlijkse CG Virtual Sustainability Summit - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZzBtMWlTdkNlV2wwMVlaNnVUVE1GUW5rUldZaWhHTmVWUWpubmkzWDZBVV9nZ1k4b1ZFbDA5MTRrR1BlcUZOcnFsSWowdldnekpaU2huWTZIZk14Zk5BWlRaeEVGQmtKdC01ZkpwMHFmYmNtYVE2UUs0eUM3blZaaGljRzZuZThsazNKYV8zQnpEMlE5VHgyc3dzRjAyYmktV0xKV3JYeVB2QVVtWDlXNy1jdzg4MkU?oc=5",
-      "pubDate": "2026-03-12T18:11:50+00:00",
-      "source": "Investing.com",
-      "language": "nl",
-      "country": "BE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNZzBtMWlTdkNlV2wwMVlaNnVUVE1GUW5rUldZaWhHTmVWUWpubmkzWDZBVV9nZ1k4b1ZFbDA5MTRrR1BlcUZOcnFsSWowdldnekpaU2huWTZIZk14Zk5BWlRaeEVGQmtKdC01ZkpwMHFmYmNtYVE2UUs0eUM3blZaaGljRzZuZThsazNKYV8zQnpEMlE5VHgyc3dzRjAyYmktV0xKV3JYeVB2QVVtWDlXNy1jdzg4MkU?oc=5\" target=\"_blank\">MP Materials op 2e Jaarlijkse CG Virtual Sustainability Summit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Investing.com</font>",
-      "id": "a732d13f3aecf5ea"
     },
     {
       "title": "Nederlandse bedrijf Veramaris wint de allereerste NASF Sustainability Award - Duurzaam Ondernemen",
@@ -127,6 +116,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBWMkhtZmFpU1BoTmNwLXJNZ2xMbTdRNTRfb2ZKVEt6OGN6ZzF4Y3ZFNVB5SU80eGh3d2VPWi05TGpLODRUMlBsbEZPMG9FOXRPd1RyaG5WZzNoNEVpZzF5bjhWS2JoNXRRWl84dFo2d2ZOb044QWZYX3BKZw?oc=5\" target=\"_blank\">EFSA vraagt om ervaringen met Bovaer te delen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VILT vzw</font>",
       "id": "901ac0cd52806998"
+    },
+    {
+      "title": "Innovation and Sustainability in Civil Engineering: Shaping Tomorrow’s Infrastructure Volume 2 - springerprofessional.de",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTZJdFJuZXZHY0tva1BTT1pjYjFyNzBoaGdQSVhFN21JSmxkUksxNW9La2IzdEwybFM3WUFZa1dvYnl4S3dYaVJHYTl4WE0zVlU3Z2FKenliSTNWSUZiTlJsQWstdG1qR3JwdV9XU3hfMEVQeVdCWU9DSW1RcHFMN1hWbkpmQmZiWlNRM01hZVhoOW14aUlZc09hM2hOSE1YMXh3RU5tdGpiVDJJT0E?oc=5",
+      "pubDate": "2026-02-17T02:28:22+00:00",
+      "source": "springerprofessional.de",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNcTZJdFJuZXZHY0tva1BTT1pjYjFyNzBoaGdQSVhFN21JSmxkUksxNW9La2IzdEwybFM3WUFZa1dvYnl4S3dYaVJHYTl4WE0zVlU3Z2FKenliSTNWSUZiTlJsQWstdG1qR3JwdV9XU3hfMEVQeVdCWU9DSW1RcHFMN1hWbkpmQmZiWlNRM01hZVhoOW14aUlZc09hM2hOSE1YMXh3RU5tdGpiVDJJT0E?oc=5\" target=\"_blank\">Innovation and Sustainability in Civil Engineering: Shaping Tomorrow’s Infrastructure Volume 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">springerprofessional.de</font>",
+      "id": "8b44e0e6e103d5db"
     },
     {
       "title": "EFSA roept veehouders op ervaringen Bovaer te delen - Boerderij",
@@ -250,15 +250,15 @@
       "id": "74e176874cad4567"
     },
     {
-      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - Veeteelt",
+      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - veeteelt.nl",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5",
       "pubDate": "2025-12-24T08:00:00+00:00",
-      "source": "Veeteelt",
+      "source": "veeteelt.nl",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
-      "id": "1bbfcbdc9a309fda"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
+      "id": "e92961693742bdf6"
     },
     {
       "title": "Wat is waar over Bovaer? - Landbouwleven",
@@ -283,15 +283,15 @@
       "id": "737eb9fd11bed618"
     },
     {
-      "title": "Geen opschorting van gebruik van Bovaer - Landbouwleven",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdG1qdXk5OVhfdHA1OGJLZkh5RGJmRVRBMWlpMUlfYS1nU3liZW41bzRSM0ZHdk1MREREUVAxUU5LcTlTaXJzcFJTOTJXS2I4V1ctODFXZnN4OFJROVgzSElFdXN5Q1p0N215TFNMaUpkd045VXZ4MW1VMXJDWGp0OWoxanRaQ3ByanQ2cFhycXdsaldMZXhyRQ?oc=5",
-      "pubDate": "2025-12-10T08:00:00+00:00",
-      "source": "Landbouwleven",
-      "language": "nl",
-      "country": "BE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNdG1qdXk5OVhfdHA1OGJLZkh5RGJmRVRBMWlpMUlfYS1nU3liZW41bzRSM0ZHdk1MREREUVAxUU5LcTlTaXJzcFJTOTJXS2I4V1ctODFXZnN4OFJROVgzSElFdXN5Q1p0N215TFNMaUpkd045VXZ4MW1VMXJDWGp0OWoxanRaQ3ByanQ2cFhycXdsaldMZXhyRQ?oc=5\" target=\"_blank\">Geen opschorting van gebruik van Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Landbouwleven</font>",
-      "id": "64718cd6f3d9a9f6"
+      "title": "Sustainability Robotics finden Zuhause im NEST - punkt4.info",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV0xma2NsTzkyT1RFd2pkUDNVTzNMeUpkZEtnUXktR3hQNy1yNEYyUXN1RFJCUG5DRFl3M1RQdE9xS2NQOU42NjNIdGFpQU95aWRfM2NaYnB5ZjZvR1Q5QlRYSlNORFFNalBzTzI4M0Y5dFJhMFBvY3RyYmJUY0xXcjduTkdSYzYzdDV1V1dOenFfd1RZNVpHVkF3?oc=5",
+      "pubDate": "2025-12-07T13:56:37+00:00",
+      "source": "punkt4.info",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPV0xma2NsTzkyT1RFd2pkUDNVTzNMeUpkZEtnUXktR3hQNy1yNEYyUXN1RFJCUG5DRFl3M1RQdE9xS2NQOU42NjNIdGFpQU95aWRfM2NaYnB5ZjZvR1Q5QlRYSlNORFFNalBzTzI4M0Y5dFJhMFBvY3RyYmJUY0xXcjduTkdSYzYzdDV1V1dOenFfd1RZNVpHVkF3?oc=5\" target=\"_blank\">Sustainability Robotics finden Zuhause im NEST</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">punkt4.info</font>",
+      "id": "2e1da812cf7b2a61"
     },
     {
       "title": "Wereldwijde kritiek op Bovaer - De Andere Krant",
@@ -327,15 +327,15 @@
       "id": "d470d37bd7ad20c4"
     },
     {
-      "title": "West-Vlaamse bedrijven aan het feest tijdens de uitreiking van de sustainability awards - made-in.be",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcVhPNEtvRTZ5VFhKX3pKemZQeFdPWkx6U293X0lKSGtXLW4yWWdfbk9nZGEtYndZd3pzNE1hQzNSdFEwd2FzNkVQUUJfREpsVzlpbGtPRW03SDBHY2hZU0hZckdQdFZRSGZyS3JPRXY0M2xYX2RDMk1wUEVyVy1XR3NmS3pyYWdxMGllYlJVTUFwUVVhSWdpdEVOd0pPNEstZUlDT0RwNzJ1TGQ2d0JkUjh5d1J0MEVxNVkxY21EcmZfSUVBSXc?oc=5",
-      "pubDate": "2025-11-30T08:00:00+00:00",
-      "source": "made-in.be",
+      "title": "Denen krijgen ruimte om te stoppen met Bovaer - Nieuwe Oogst",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQkxxUXE1eHBHcWZoS2JUQ2hGYm56a2dXWTB2UkRYVnByaTJ2bDhGUGtkQ3JJak1uLTN4RGpLOEppNENCb0RzN1NSQ0k3ZVBGLTZ2VXFzdkFoZ0VnOVNvWXpjakx5eXA5QUFvdExxNHJfWmtnX2MyNm1IdlFyWW9TN1hVaTdOTTloZlF3bnQ5RGlOTlh6?oc=5",
+      "pubDate": "2025-11-28T08:00:00+00:00",
+      "source": "Nieuwe Oogst",
       "language": "nl",
-      "country": "BE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQcVhPNEtvRTZ5VFhKX3pKemZQeFdPWkx6U293X0lKSGtXLW4yWWdfbk9nZGEtYndZd3pzNE1hQzNSdFEwd2FzNkVQUUJfREpsVzlpbGtPRW03SDBHY2hZU0hZckdQdFZRSGZyS3JPRXY0M2xYX2RDMk1wUEVyVy1XR3NmS3pyYWdxMGllYlJVTUFwUVVhSWdpdEVOd0pPNEstZUlDT0RwNzJ1TGQ2d0JkUjh5d1J0MEVxNVkxY21EcmZfSUVBSXc?oc=5\" target=\"_blank\">West-Vlaamse bedrijven aan het feest tijdens de uitreiking van de sustainability awards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">made-in.be</font>",
-      "id": "4adee81d2a76f4e9"
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOQkxxUXE1eHBHcWZoS2JUQ2hGYm56a2dXWTB2UkRYVnByaTJ2bDhGUGtkQ3JJak1uLTN4RGpLOEppNENCb0RzN1NSQ0k3ZVBGLTZ2VXFzdkFoZ0VnOVNvWXpjakx5eXA5QUFvdExxNHJfWmtnX2MyNm1IdlFyWW9TN1hVaTdOTTloZlF3bnQ5RGlOTlh6?oc=5\" target=\"_blank\">Denen krijgen ruimte om te stoppen met Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
+      "id": "6a10b3792de483b4"
     }
   ]
 }
