@@ -2217,7 +2217,7 @@
     "website": null,
     "lat": 51.4005576,
     "lon": -2.4950981,
-    "address": null
+    "address": "Chewton Road"
   },
   {
     "id": 4747834821,
@@ -4576,7 +4576,7 @@
     "name": "Flourish Foodhall & Kitchen",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Bristol",
     "products": [],
     "website": "https://www.flourishatglenavon.co.uk/",
     "lat": 51.4074081,
@@ -7984,7 +7984,7 @@
     "name": "Moorhouse Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Stannington",
+    "municipality": "Morpeth",
     "products": [],
     "website": "https://www.moorhousefarmshop.co.uk/",
     "lat": 55.1278458,
@@ -15418,6 +15418,18 @@
     "lat": 51.5521306,
     "lon": -1.6477168,
     "address": "Cues Lane"
+  },
+  {
+    "id": 1375217068,
+    "name": "Lin's Veg Shed",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Whitchurch on Thames",
+    "products": [],
+    "website": "https://www.tolhurstorganic.co.uk/box-deliveries/hardwick-veg-stall/",
+    "lat": 51.495644,
+    "lon": -1.0637595,
+    "address": "Hardwick Road"
   },
   {
     "id": 1376112598,

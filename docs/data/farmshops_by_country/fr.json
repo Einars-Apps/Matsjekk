@@ -5803,8 +5803,8 @@
     "municipality": "Blacé",
     "products": [],
     "website": null,
-    "lat": 46.0505002,
-    "lon": 4.6556699,
+    "lat": 46.0504378,
+    "lon": 4.6555613,
     "address": "Route de la Tallebarde"
   },
   {
@@ -36924,6 +36924,30 @@
     "address": "Route des Mousseneux"
   },
   {
+    "id": 13651534910,
+    "name": "Champs d’Heol",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://champs-heol.fr/",
+    "lat": 47.8158896,
+    "lon": -1.5477043,
+    "address": null
+  },
+  {
+    "id": 13653353940,
+    "name": "La ferme de Loustalneou",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Pierre-de-Clairac",
+    "products": [],
+    "website": "https://www.fermeloustalneou.com/",
+    "lat": 44.2007415,
+    "lon": 0.7463382,
+    "address": null
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
@@ -46131,6 +46155,18 @@
     "lat": 45.7904731,
     "lon": 4.9616355,
     "address": null
+  },
+  {
+    "id": 5141496064,
+    "name": "DOMAINE DES TERRES VIVANTES",
+    "country": "France",
+    "region": null,
+    "municipality": "Blacé",
+    "products": [],
+    "website": null,
+    "lat": 46.0505002,
+    "lon": 4.6556699,
+    "address": "Route de la Tallebarde"
   },
   {
     "id": 291332641,

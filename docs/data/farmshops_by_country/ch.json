@@ -5424,6 +5424,18 @@
     "address": "Lenzburgerstrasse"
   },
   {
+    "id": 5890736289,
+    "name": "Holligers Hoflädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2696078,
+    "lon": 8.2026031,
+    "address": null
+  },
+  {
     "id": 5920435946,
     "name": "Hofladen Linden",
     "country": "Switzerland",

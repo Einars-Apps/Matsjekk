@@ -423,7 +423,7 @@
   },
   {
     "id": 2731756473,
-    "name": "Jan Otten",
+    "name": "Remy Otten Groente en fruit",
     "country": "Netherlands",
     "region": null,
     "municipality": "'s-Gravenhage",
@@ -4829,7 +4829,7 @@
   },
   {
     "id": 12643600076,
-    "name": "De Kastanjeboom",
+    "name": "Landwinkel & Schenkerij De Kastanjeboom",
     "country": "Netherlands",
     "region": null,
     "municipality": "Bunschoten-Spakenburg",
@@ -6496,6 +6496,30 @@
     "lat": 51.4932275,
     "lon": 4.0532058,
     "address": null
+  },
+  {
+    "id": 2731756473,
+    "name": "Jan Otten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [],
+    "website": null,
+    "lat": 52.0781982,
+    "lon": 4.2696324,
+    "address": "Abeelplein"
+  },
+  {
+    "id": 12643600076,
+    "name": "De Kastanjeboom",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Bunschoten-Spakenburg",
+    "products": [],
+    "website": "https://dekastanjeboom.nl/",
+    "lat": 52.2174238,
+    "lon": 5.3891221,
+    "address": "Zevenhuizerstraat"
   },
   {
     "id": 269721285,

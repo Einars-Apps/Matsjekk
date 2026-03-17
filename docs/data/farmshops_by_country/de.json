@@ -28585,12 +28585,12 @@
   },
   {
     "id": 7359899347,
-    "name": "Spargel & Erdbeeren Wolf",
+    "name": "Erdbeerfeld zum Selberpflücken Familie Wolf - Spargel, Erdbeeren, Äpfel",
     "country": "Germany",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.erdbeeren-wolf.de",
     "lat": 48.191182,
     "lon": 11.2278128,
     "address": null
@@ -28681,12 +28681,12 @@
   },
   {
     "id": 7359899358,
-    "name": "Spargel & Erdbeeren Wolf",
+    "name": "Spargelstand und Erdbeerfeld zum Selberpflücken",
     "country": "Germany",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.erdbeeren-wolf.de/",
     "lat": 48.1573241,
     "lon": 11.333988,
     "address": null
@@ -70053,6 +70053,30 @@
     "website": null,
     "lat": 48.0353867,
     "lon": 9.8115006,
+    "address": null
+  },
+  {
+    "id": 7359899347,
+    "name": "Spargel & Erdbeeren Wolf",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.191182,
+    "lon": 11.2278128,
+    "address": null
+  },
+  {
+    "id": 7359899358,
+    "name": "Spargel & Erdbeeren Wolf",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.1573241,
+    "lon": 11.333988,
     "address": null
   },
   {

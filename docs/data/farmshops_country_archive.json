@@ -67944,6 +67944,18 @@
       "address": "Mustilantie 21, 47200",
       "source": "osm",
       "phone": "+358 53777466"
+    },
+    {
+      "id": 13652474587,
+      "name": "Vyrdegård",
+      "country": "Finland",
+      "region": null,
+      "municipality": "Billnäs",
+      "products": [],
+      "website": "https://www.vyrdegard.fi",
+      "lat": 60.0847533,
+      "lon": 23.620474,
+      "address": "Sjösängsvägen"
     }
   ],
   "DE": [
@@ -184119,6 +184131,30 @@
       "lon": 5.0770244,
       "address": "Haven 25, 1131EP",
       "source": "osm"
+    },
+    {
+      "id": 2731756473,
+      "name": "Remy Otten Groente en fruit",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "'s-Gravenhage",
+      "products": [],
+      "website": null,
+      "lat": 52.0781982,
+      "lon": 4.2696324,
+      "address": "Abeelplein"
+    },
+    {
+      "id": 12643600076,
+      "name": "Landwinkel & Schenkerij De Kastanjeboom",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Bunschoten-Spakenburg",
+      "products": [],
+      "website": "https://dekastanjeboom.nl/",
+      "lat": 52.2174238,
+      "lon": 5.3891221,
+      "address": "Zevenhuizerstraat"
     }
   ],
   "BE": [
@@ -523358,6 +523394,18 @@
       "lon": -2.7892292,
       "address": "Woodhill, DD7 7SD",
       "source": "osm"
+    },
+    {
+      "id": 1375217068,
+      "name": "Lin's Veg Shed",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Whitchurch on Thames",
+      "products": [],
+      "website": "https://www.tolhurstorganic.co.uk/box-deliveries/hardwick-veg-stall/",
+      "lat": 51.495644,
+      "lon": -1.0637595,
+      "address": "Hardwick Road"
     }
   ],
   "IE": [
@@ -624407,6 +624455,18 @@
       "lat": 47.2020042,
       "lon": 8.6818983,
       "address": "Obere Schwandenstrasse"
+    },
+    {
+      "id": 5890736289,
+      "name": "Holligers Hoflädeli",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.2696078,
+      "lon": 8.2026031,
+      "address": null
     }
   ],
   "LI": [
