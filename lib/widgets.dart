@@ -586,6 +586,8 @@ class HandlelisteOverlay extends StatefulWidget {
   final Function(String, String) onRename;
   final VoidCallback onShowSearch;
   final Future<void> Function(String)? onAddManualItem;
+  final bool premiumActive;
+  final VoidCallback? onRemoveAds;
 
   const HandlelisteOverlay({
     required this.listeNavn,
@@ -595,6 +597,8 @@ class HandlelisteOverlay extends StatefulWidget {
     required this.onRename,
     required this.onShowSearch,
     this.onAddManualItem,
+    this.premiumActive = false,
+    this.onRemoveAds,
     super.key,
   });
 
@@ -746,6 +750,13 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                         foregroundColor: Colors.white,
                         automaticallyImplyLeading: false,
                         actions: [
+                          if (!widget.premiumActive)
+                            IconButton(
+                                tooltip: AppLocalizations.of(context)
+                                        ?.removeAds ??
+                                    'Remove ads',
+                                icon: const Icon(Icons.block),
+                                onPressed: widget.onRemoveAds),
                           IconButton(
                               icon: const Icon(Icons.search),
                               onPressed: widget.onShowSearch),
@@ -762,6 +773,32 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               icon: const Icon(Icons.close),
                               onPressed: widget.onClose)
                         ]),
+                    // Info bar: "Fjern annonser for mer plass i handlelisten"
+                    if (!widget.premiumActive)
+                      GestureDetector(
+                        onTap: widget.onRemoveAds,
+                        child: Container(
+                          color: const Color(0xFFFFF3CD),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 6),
+                          child: Row(
+                            children: [
+                              const Icon(Icons.lightbulb_outline,
+                                  size: 16, color: Color(0xFFE6A817)),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Text(
+                                  AppLocalizations.of(context)?.removeAdsInfo ??
+                                      'Remove ads for more space in the shopping list',
+                                  style: const TextStyle(fontSize: 13),
+                                ),
+                              ),
+                              const Icon(Icons.chevron_right,
+                                  size: 18, color: Color(0xFFE6A817)),
+                            ],
+                          ),
+                        ),
+                      ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Row(

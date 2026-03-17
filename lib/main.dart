@@ -16,7 +16,10 @@ import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
 import 'analytics.dart';
 // import 'premium_screen.dart'; // IAP disabled for v1.0 — re-enable in v1.1
+import 'premium_screen.dart';
 import 'premium_service.dart';
+import 'ad_helper.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
 
@@ -79,6 +82,7 @@ void main() async {
   await Hive.openBox('historikk');
   await Hive.openBox('innstillinger');
   await Hive.openBox('list_positions');
+  await MobileAds.instance.initialize();
   runApp(const MatvareSjekkApp());
 }
 
@@ -213,6 +217,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   String selectedCountry = 'NO'; // Default til Norge
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
 
+  BannerAd? _bannerAd;
+  bool _bannerAdLoaded = false;
+
   @override
   void initState() {
     super.initState();
@@ -230,12 +237,30 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
     }
+    _loadBannerAd();
+  }
+
+  void _loadBannerAd() {
+    if (_isTestEnv) return;
+    _bannerAd = BannerAd(
+      adUnitId: AdHelper.bannerAdUnitId,
+      size: AdSize.banner,
+      request: const AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (_) => setState(() => _bannerAdLoaded = true),
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+          _bannerAd = null;
+        },
+      ),
+    )..load();
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _archiveCheckedItems();
+    _bannerAd?.dispose();
     try {
       if (controller != null) controller!.dispose();
     } catch (_) {}
@@ -935,8 +960,24 @@ class _ScannerScreenState extends State<ScannerScreen>
               _visLandDialog();
             },
           ),
-          // IAP disabled for v1.0 — re-enable in v1.1
-          // ListTile(workspace_premium / Fjern annonser)
+          // IAP re-enabled for v1.1
+          if (!premiumActive)
+            ListTile(
+              leading: const Icon(Icons.block),
+              title: Text(AppLocalizations.of(context)?.removeAdsMenuItem ??
+                  'Remove ads — supports further development'),
+              onTap: () {
+                _safePop();
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (_) => PremiumScreen(
+                              innstillingerBox: innstillingerBox,
+                              onPremiumChanged: (v) =>
+                                  setState(() => premiumActive = v),
+                            )));
+              },
+            ),
           ListTile(
             leading: const Icon(Icons.warning),
             title:
@@ -1527,15 +1568,23 @@ class _ScannerScreenState extends State<ScannerScreen>
                       onRename: _handleRename,
                       onShowSearch: () => _visSok(),
                       onAddManualItem: (item) => _handleManualListInput(activeList, item),
+                      premiumActive: premiumActive,
+                      onRemoveAds: () => Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => PremiumScreen(
+                            innstillingerBox: innstillingerBox,
+                            onPremiumChanged: (v) => setState(() => premiumActive = v),
+                          ))),
                     ),
             ),
           Align(
               alignment: Alignment.bottomCenter,
-              child: Container(
-                height: 50,
-                color: Colors.grey[300],
-                child: const Center(child: Text('Annonsebanner her')),
-              ),
+              child: _bannerAdLoaded && _bannerAd != null
+                  ? SizedBox(
+                      width: _bannerAd!.size.width.toDouble(),
+                      height: _bannerAd!.size.height.toDouble(),
+                      child: AdWidget(ad: _bannerAd!),
+                    )
+                  : const SizedBox(height: 50),
             )
         ],
       ),

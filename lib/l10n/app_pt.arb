@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "pt",
   "appTitle": "Verificador de Alimentos",
   "scanBarcode": "Escanear código de barras",
@@ -61,4 +61,8 @@
   "bovaerHighRisk": "RISCO ALTO: O produtor está diretamente vinculado ao Bovaer.",
   "gmoHighRisk": "RISCO ALTO: O produtor está vinculado ao uso de ração transgénica.",
   "bovaerPossibleRisk": "RISCO POSSÍVEL: O produtor é parceiro de empresas vinculadas ao Bovaer.",
-  "safeProduct": "SEGURO: O produto é certificado como orgânico."}
+  "safeProduct": "SEGURO: O produto é certificado como orgânico.",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+}

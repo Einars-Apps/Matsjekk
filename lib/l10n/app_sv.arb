@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "sv",
   "appTitle": "Mat-check",
   "scanBarcode": "Skanna streckkod",
@@ -61,5 +61,8 @@
   "bovaerHighRisk": "HÖGRISK: Producenten är direkt kopplad till Bovaer.",
   "gmoHighRisk": "HÖGRISK: Producenten är kopplad till användning av GMO-foder.",
   "bovaerPossibleRisk": "MÖJLIG RISK: Producenten är en partner med företag kopplade till Bovaer.",
-  "safeProduct": "SÄKER: Produkten är märkt som ekologisk."
+  "safeProduct": "SÄKER: Produkten är märkt som ekologisk.",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "nl",
   "appTitle": "Voedsel Check",
   "scanBarcode": "Barcode scannen",
@@ -61,4 +61,8 @@
   "bovaerHighRisk": "HOOG RISICO: De producent is rechtstreeks gekoppeld aan Bovaer.",
   "gmoHighRisk": "HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.",
   "bovaerPossibleRisk": "MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.",
-  "safeProduct": "VEILIG: Het product is gecertificeerd biologisch."}
+  "safeProduct": "VEILIG: Het product is gecertificeerd biologisch.",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+}

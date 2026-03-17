@@ -67,5 +67,8 @@
   "delete": "Slett",
   "deleteListConfirmTitle": "Slette liste?",
   "deleteListConfirmMessage": "Er du sikker? Dette vil også slette historikken for listen.",
-  "unknownProduct": "Ukjent produkt"
+  "unknownProduct": "Ukjent produkt",
+  "removeAds": "Fjern annonser",
+  "removeAdsInfo": "Fjern annonser for mer plass i handlelisten",
+  "removeAdsMenuItem": "Fjern annonser (kr 49,-) — støtter videre utvikling"
 }

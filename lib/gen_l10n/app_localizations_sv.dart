@@ -36,8 +36,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get howAppWorks => 'Hur appen hämtar information';
 
   @override
-  String get appDescription =>
-      'Appen använder Open Food Facts och en intern märkeslista för att identifiera produkter med Bovaer, insektsmjöl, GMO-foder och andra kontroversiella ingredienser.';
+  String get appDescription => 'Appen använder Open Food Facts och en intern märkeslista för att identifiera produkter med Bovaer, insektsmjöl, GMO-foder och andra kontroversiella ingredienser.';
 
   @override
   String get alerts => 'Välj aviseringar';
@@ -70,8 +69,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get insectMealRiskDesc => 'Produkten kan innehålla insektsmjöl.';
 
   @override
-  String get gmoFishRiskDesc =>
-      'Producenten är kopplad till användning av GMO-foder.';
+  String get gmoFishRiskDesc => 'Producenten är kopplad till användning av GMO-foder.';
 
   @override
   String get safeDesc => 'Produkten är märkt som ekologisk.';
@@ -185,20 +183,16 @@ class AppLocalizationsSv extends AppLocalizations {
   String get noAdditionsFound => 'Inga E-nummer hittades i databasen.';
 
   @override
-  String get disclaimer =>
-      'Ansvarsfriskrivning: Denna information är endast vägledande och baserad på offentligt tillgänglig data. För 100% korrekt information, se produktförpackningen eller kontakta tillverkaren.';
+  String get disclaimer => 'Ansvarsfriskrivning: Denna information är endast vägledande och baserad på offentligt tillgänglig data. För 100% korrekt information, se produktförpackningen eller kontakta tillverkaren.';
 
   @override
-  String get bovaerHighRisk =>
-      'HÖGRISK: Producenten är direkt kopplad till Bovaer.';
+  String get bovaerHighRisk => 'HÖGRISK: Producenten är direkt kopplad till Bovaer.';
 
   @override
-  String get gmoHighRisk =>
-      'HÖGRISK: Producenten är kopplad till användning av GMO-foder.';
+  String get gmoHighRisk => 'HÖGRISK: Producenten är kopplad till användning av GMO-foder.';
 
   @override
-  String get bovaerPossibleRisk =>
-      'MÖJLIG RISK: Producenten är en partner med företag kopplade till Bovaer.';
+  String get bovaerPossibleRisk => 'MÖJLIG RISK: Producenten är en partner med företag kopplade till Bovaer.';
 
   @override
   String get safeProduct => 'SÄKER: Produkten är märkt som ekologisk.';
@@ -213,9 +207,17 @@ class AppLocalizationsSv extends AppLocalizations {
   String get deleteListConfirmTitle => 'Delete list?';
 
   @override
-  String get deleteListConfirmMessage =>
-      'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
 
   @override
   String get unknownProduct => 'Unknown product';
+
+  @override
+  String get removeAds => 'Remove ads';
+
+  @override
+  String get removeAdsInfo => 'Remove ads for more space in the shopping list';
+
+  @override
+  String get removeAdsMenuItem => 'Remove ads (49 kr) - supports further development';
 }

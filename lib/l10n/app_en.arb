@@ -67,5 +67,8 @@
   "delete": "Delete",
   "deleteListConfirmTitle": "Delete list?",
   "deleteListConfirmMessage": "Are you sure? This will also delete the history for the list.",
-  "unknownProduct": "Unknown product"
+  "unknownProduct": "Unknown product",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (kr 49,-) — supports further development"
 }

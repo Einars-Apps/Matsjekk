@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "fr",
   "appTitle": "Vérificateur Alimentaire",
   "scanBarcode": "Scanner le code-barres",
@@ -61,4 +61,8 @@
   "bovaerHighRisk": "RISQUE ÉLEVÉ : Le producteur est directement lié à Bovaer.",
   "gmoHighRisk": "RISQUE ÉLEVÉ : Le producteur est lié à l'utilisation d'aliments OGM.",
   "bovaerPossibleRisk": "RISQUE POSSIBLE : Le producteur est partenaire d'entreprises liées à Bovaer.",
-  "safeProduct": "SÛR : Le produit est certifié biologique."}
+  "safeProduct": "SÛR : Le produit est certifié biologique.",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+}

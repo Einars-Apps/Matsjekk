@@ -1,4 +1,4 @@
-{
+﻿{
   "@@locale": "da",
   "appTitle": "Mad-check",
   "scanBarcode": "Scan stregkode",
@@ -61,4 +61,8 @@
   "bovaerHighRisk": "HØJ RISIKO: Producenten er direkte forbundet med Bovaer.",
   "gmoHighRisk": "HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.",
   "bovaerPossibleRisk": "MULIG RISIKO: Producenten er partner med virksomheder forbundet med Bovaer.",
-  "safeProduct": "SIKKER: Produktet er mærket som økologisk."}
+  "safeProduct": "SIKKER: Produktet er mærket som økologisk.",
+  "removeAds": "Remove ads",
+  "removeAdsInfo": "Remove ads for more space in the shopping list",
+  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+}

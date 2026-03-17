@@ -67,5 +67,8 @@
   "delete": "Poista",
   "deleteListConfirmTitle": "Poistetaanko lista?",
   "deleteListConfirmMessage": "Haluatko varmasti poistaa? Tämä poistaa myös listan historian.",
-  "unknownProduct": "Tuntematon tuote"
+  "unknownProduct": "Tuntematon tuote",
+  "removeAds": "Poista mainokset",
+  "removeAdsInfo": "Poista mainokset saadaksesi lisää tilaa ostoslistaan",
+  "removeAdsMenuItem": "Poista mainokset (49 kr) — tukee jatkokehitystä"
 }
