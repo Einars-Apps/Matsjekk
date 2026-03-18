@@ -24492,6 +24492,19 @@
       "lon": 10.7149058,
       "address": "Tveråveien 52",
       "source": "https://www.lokalmat.no/produsenter/myrland-gardsegg/"
+    },
+    {
+      "id": "lokalmat_12362",
+      "name": "Hjørundfjord Fruktpresseri",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 62.139409028068194,
+      "lon": 6.614336722416034,
+      "address": "",
+      "source": "https://www.lokalmat.no/produsenter/hjorundfjord-fruktpresseri/"
     }
   ],
   "SE": [
@@ -476152,6 +476165,18 @@
       "lon": 2.8486322,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 1489885403,
+      "name": "El Llano de La Vega",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 37.6951045,
+      "lon": -5.3230982,
+      "address": null
     }
   ],
   "GB": [
@@ -574430,6 +574455,18 @@
       "lon": 16.2906676,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 7756999811,
+      "name": "Biohof Fraiß",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Josefsrotte",
+      "products": [],
+      "website": "https://www.regiohof-fraiss.at/",
+      "lat": 47.8321476,
+      "lon": 15.3070474,
+      "address": "Bergstraße"
     }
   ],
   "CH": [
@@ -624466,6 +624503,18 @@
       "website": null,
       "lat": 47.2696078,
       "lon": 8.2026031,
+      "address": null
+    },
+    {
+      "id": 13654153552,
+      "name": "Wildenstein Eier",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.3772022,
+      "lon": 8.1881843,
       "address": null
     }
   ],

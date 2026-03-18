@@ -32694,7 +32694,7 @@
     "region": null,
     "municipality": "Locminé",
     "products": [],
-    "website": null,
+    "website": "https://auboutduchamp.bzh",
     "lat": 47.888802,
     "lon": -2.8362841,
     "address": "Rue du Général de Gaulle"
@@ -33598,6 +33598,18 @@
     "lat": 48.7953385,
     "lon": 2.1319518,
     "address": null
+  },
+  {
+    "id": 12893123065,
+    "name": "La ferme des Augustins",
+    "country": "France",
+    "region": null,
+    "municipality": "Perpignan",
+    "products": [],
+    "website": null,
+    "lat": 42.6975404,
+    "lon": 2.8938009,
+    "address": "Rue des Augustins"
   },
   {
     "id": 12894985150,
@@ -36946,6 +36958,18 @@
     "lat": 44.2007415,
     "lon": 0.7463382,
     "address": null
+  },
+  {
+    "id": 13655126217,
+    "name": "Légumerie du Domaine de Châteaufer",
+    "country": "France",
+    "region": null,
+    "municipality": "Bruère-Allichamps",
+    "products": [],
+    "website": null,
+    "lat": 46.7950958,
+    "lon": 2.4239946,
+    "address": "Route de Bruère"
   },
   {
     "id": 24528129,

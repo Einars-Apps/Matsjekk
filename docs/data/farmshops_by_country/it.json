@@ -4176,18 +4176,6 @@
     "address": "Fondamenta Riva de l'Ogio"
   },
   {
-    "id": 7432738666,
-    "name": "Azienda Agricola CasaMatta",
-    "country": "Italy",
-    "region": null,
-    "municipality": "Calenzano",
-    "products": [],
-    "website": "https://aziendaagricolacasamatta.wordpress.com/",
-    "lat": 43.900737,
-    "lon": 11.164513,
-    "address": "Via Torri e Ciarlico"
-  },
-  {
     "id": 7432754636,
     "name": "Piandaccoli",
     "country": "Italy",
@@ -13606,6 +13594,18 @@
     "lat": 44.7961349,
     "lon": 12.2560239,
     "address": null
+  },
+  {
+    "id": 7432738666,
+    "name": "Azienda Agricola CasaMatta",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Calenzano",
+    "products": [],
+    "website": "https://aziendaagricolacasamatta.wordpress.com/",
+    "lat": 43.900737,
+    "lon": 11.164513,
+    "address": "Via Torri e Ciarlico"
   },
   {
     "id": 251864987,

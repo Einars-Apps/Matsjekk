@@ -17478,9 +17478,9 @@
     "region": null,
     "municipality": "Lüneburg",
     "products": [],
-    "website": "https://www.hof-an-den-teichen.de",
-    "lat": 53.2137577,
-    "lon": 10.3601916,
+    "website": "https://www.hofandenteichen.de/",
+    "lat": 53.2137657,
+    "lon": 10.3602338,
     "address": "Heiligenthaler Straße"
   },
   {
@@ -70054,6 +70054,18 @@
     "lat": 48.0353867,
     "lon": 9.8115006,
     "address": null
+  },
+  {
+    "id": 4883382980,
+    "name": "Hof an den Teichen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lüneburg",
+    "products": [],
+    "website": "https://www.hof-an-den-teichen.de",
+    "lat": 53.2137577,
+    "lon": 10.3601916,
+    "address": "Heiligenthaler Straße"
   },
   {
     "id": 7359899347,

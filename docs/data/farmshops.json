@@ -5543,6 +5543,19 @@
     "source": "https://www.lokalmat.no/produsenter/hjoennevaag/"
   },
   {
+    "id": "lokalmat_12362",
+    "name": "Hjørundfjord Fruktpresseri",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 62.139409028068194,
+    "lon": 6.614336722416034,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/hjorundfjord-fruktpresseri/"
+  },
+  {
     "id": "lokalmat_11310",
     "name": "HOFFSAUS",
     "country": "Norway",
@@ -84523,9 +84536,9 @@
     "region": null,
     "municipality": "Lüneburg",
     "products": [],
-    "website": "https://www.hof-an-den-teichen.de",
-    "lat": 53.2137577,
-    "lon": 10.3601916,
+    "website": "https://www.hofandenteichen.de/",
+    "lat": 53.2137657,
+    "lon": 10.3602338,
     "address": "Heiligenthaler Straße"
   },
   {
@@ -137099,6 +137112,18 @@
     "lat": 48.0353867,
     "lon": 9.8115006,
     "address": null
+  },
+  {
+    "id": 4883382980,
+    "name": "Hof an den Teichen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lüneburg",
+    "products": [],
+    "website": "https://www.hof-an-den-teichen.de",
+    "lat": 53.2137577,
+    "lon": 10.3601916,
+    "address": "Heiligenthaler Straße"
   },
   {
     "id": 7359899347,
@@ -332981,7 +333006,7 @@
     "region": null,
     "municipality": "Locminé",
     "products": [],
-    "website": null,
+    "website": "https://auboutduchamp.bzh",
     "lat": 47.888802,
     "lon": -2.8362841,
     "address": "Rue du Général de Gaulle"
@@ -333885,6 +333910,18 @@
     "lat": 48.7953385,
     "lon": 2.1319518,
     "address": null
+  },
+  {
+    "id": 12893123065,
+    "name": "La ferme des Augustins",
+    "country": "France",
+    "region": null,
+    "municipality": "Perpignan",
+    "products": [],
+    "website": null,
+    "lat": 42.6975404,
+    "lon": 2.8938009,
+    "address": "Rue des Augustins"
   },
   {
     "id": 12894985150,
@@ -337233,6 +337270,18 @@
     "lat": 44.2007415,
     "lon": 0.7463382,
     "address": null
+  },
+  {
+    "id": 13655126217,
+    "name": "Légumerie du Domaine de Châteaufer",
+    "country": "France",
+    "region": null,
+    "municipality": "Bruère-Allichamps",
+    "products": [],
+    "website": null,
+    "lat": 46.7950958,
+    "lon": 2.4239946,
+    "address": "Route de Bruère"
   },
   {
     "id": 24528129,
@@ -491023,18 +491072,6 @@
     "address": "Fondamenta Riva de l'Ogio"
   },
   {
-    "id": 7432738666,
-    "name": "Azienda Agricola CasaMatta",
-    "country": "Italy",
-    "region": null,
-    "municipality": "Calenzano",
-    "products": [],
-    "website": "https://aziendaagricolacasamatta.wordpress.com/",
-    "lat": 43.900737,
-    "lon": 11.164513,
-    "address": "Via Torri e Ciarlico"
-  },
-  {
     "id": 7432754636,
     "name": "Piandaccoli",
     "country": "Italy",
@@ -500453,6 +500490,18 @@
     "lat": 44.7961349,
     "lon": 12.2560239,
     "address": null
+  },
+  {
+    "id": 7432738666,
+    "name": "Azienda Agricola CasaMatta",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Calenzano",
+    "products": [],
+    "website": "https://aziendaagricolacasamatta.wordpress.com/",
+    "lat": 43.900737,
+    "lon": 11.164513,
+    "address": "Via Torri e Ciarlico"
   },
   {
     "id": 251864987,
@@ -648061,6 +648110,18 @@
     "address": null
   },
   {
+    "id": 1489885403,
+    "name": "El Llano de La Vega",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6951045,
+    "lon": -5.3230982,
+    "address": null
+  },
+  {
     "id": 7961347,
     "name": "Olivar de la Partija",
     "country": "Spain",
@@ -648106,18 +648167,6 @@
     "website": null,
     "lat": 39.0325752,
     "lon": -0.2016227,
-    "address": null
-  },
-  {
-    "id": 16192590,
-    "name": "Viñedos de Agejas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.051563,
-    "lon": -4.1088091,
     "address": null
   },
   {
@@ -648322,6 +648371,18 @@
     "website": "https://www.verescenceinsulators.com/",
     "lat": 40.9040229,
     "lon": -4.0034578,
+    "address": null
+  },
+  {
+    "id": 16192590,
+    "name": "Viñedos de Agejas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.051563,
+    "lon": -4.1088091,
     "address": null
   },
   {
@@ -756360,6 +756421,18 @@
     "address": null
   },
   {
+    "id": 7756999811,
+    "name": "Biohof Fraiß",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Josefsrotte",
+    "products": [],
+    "website": "https://www.regiohof-fraiss.at/",
+    "lat": 47.8321476,
+    "lon": 15.3070474,
+    "address": "Bergstraße"
+  },
+  {
     "id": 7775871920,
     "name": "Kirchberger Bauernladen",
     "country": "Austria",
@@ -814320,6 +814393,18 @@
     "website": null,
     "lat": 47.0610619,
     "lon": 8.5357047,
+    "address": null
+  },
+  {
+    "id": 13654153552,
+    "name": "Wildenstein Eier",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3772022,
+    "lon": 8.1881843,
     "address": null
   },
   {

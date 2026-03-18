@@ -3636,6 +3636,18 @@
     "address": null
   },
   {
+    "id": 7756999811,
+    "name": "Biohof Fraiß",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Josefsrotte",
+    "products": [],
+    "website": "https://www.regiohof-fraiss.at/",
+    "lat": 47.8321476,
+    "lon": 15.3070474,
+    "address": "Bergstraße"
+  },
+  {
     "id": 7775871920,
     "name": "Kirchberger Bauernladen",
     "country": "Austria",
