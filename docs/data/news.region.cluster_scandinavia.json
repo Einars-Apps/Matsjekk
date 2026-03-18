@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T05:37:14.307343+00:00",
+  "generatedAt": "2026-03-18T05:41:49.639838+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,13 +8,24 @@
   "errors": [],
   "items": [
     {
+      "title": "Bovaer, Metanhemmer | Danske forskere: Tror de har funnet grunn til at Bovaer gjorde kuer syke - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWElLa013bXItbEl3Q2FUN2pnUnVaX0cya1luamd5NzJFUm56bnZSRUVEcVlvM2p2akktT3FwVEh3YUtrRjBCVnRhVVJZS19obzk0dENkR1ZCdG5VZmV5ZURHNC1qNVFYSEpETkVhZXJSMFlWVC1yV0NNdWdIVnZMX0NMQmR6MG1PYmE1b2tYNHU5RHFPLW1CdDFqODVUS0dzLTgxRXF2cU1ZRm9zYjE4?oc=5",
+      "pubDate": "2026-03-06T08:00:00+00:00",
+      "source": "Nationen",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOWElLa013bXItbEl3Q2FUN2pnUnVaX0cya1luamd5NzJFUm56bnZSRUVEcVlvM2p2akktT3FwVEh3YUtrRjBCVnRhVVJZS19obzk0dENkR1ZCdG5VZmV5ZURHNC1qNVFYSEpETkVhZXJSMFlWVC1yV0NNdWdIVnZMX0NMQmR6MG1PYmE1b2tYNHU5RHFPLW1CdDFqODVUS0dzLTgxRXF2cU1ZRm9zYjE4?oc=5\" target=\"_blank\">Bovaer, Metanhemmer | Danske forskere: Tror de har funnet grunn til at Bovaer gjorde kuer syke</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "a51166b277ec5d64"
+    },
+    {
       "title": "Nei til bovaer👎 Ikke påtving folket, bøndene og kua noe de ikke vil ha og noe de ikke trenger🍎 - facebook.com",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQndLZ2VUcU1UUVdRMUpqX1RNdk1oSU5Gd1Vjc1BLU0pvbG5xYld4WkVaVzZQNHdXd3haanFySVlPQ0R1QTZCeVpTN21zLVJaWW4xb3lRbWh5Q0d3cEQ3Tkt2RlpvRDJIbDl1N0RublJCdXZEMFBkR0thR0xFeHR4Ykxib1ZsLXM3SGRkc1FfR2w2alZ2WEZsNERIZ0paS2sxbHJna0lxLUtrX0x1SldHTnp2YkF6MkVUMFNYLXFTa3dwNGFXd0czLVRZSF85VmxTaE80WFBNalpQamRkMXpJSzJDdmY3Rmc2dTJF?oc=5",
       "pubDate": "2026-03-03T14:22:29+00:00",
       "source": "facebook.com",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Avg.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adagbladet.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQndLZ2VUcU1UUVdRMUpqX1RNdk1oSU5Gd1Vjc1BLU0pvbG5xYld4WkVaVzZQNHdXd3haanFySVlPQ0R1QTZCeVpTN21zLVJaWW4xb3lRbWh5Q0d3cEQ3Tkt2RlpvRDJIbDl1N0RublJCdXZEMFBkR0thR0xFeHR4Ykxib1ZsLXM3SGRkc1FfR2w2alZ2WEZsNERIZ0paS2sxbHJna0lxLUtrX0x1SldHTnp2YkF6MkVUMFNYLXFTa3dwNGFXd0czLVRZSF85VmxTaE80WFBNalpQamRkMXpJSzJDdmY3Rmc2dTJF?oc=5\" target=\"_blank\">Nei til bovaer👎 Ikke påtving folket, bøndene og kua noe de ikke vil ha og noe de ikke trenger🍎</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">facebook.com</font>",
       "id": "270ac54adbd30936"
     },
@@ -36,7 +47,7 @@
       "source": "Nationen",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aaftenposten.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adagbladet.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtJYmMxTEs3NEpRRU4waEhRU3NfcER4TDM4SWl3U0hfSEpNMFFFR3EyLTkxbTlwQ3E2S2tUOFJzYU5tZC13R2owNk1tel9XdXlmSnFWbFZad3pTSmxZX2E1ZzJqa05LRmRKQVVTVUZLWmJuQU5tcGVTaGhVdXoyMFl5Yk9wWGtkVGxfUHdQU0hCOGRGMUpaMmVweFZ1UG55dUFJ?oc=5\" target=\"_blank\">Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
       "id": "4d9db632ca05ba89"
     },
@@ -151,17 +162,6 @@
       "id": "01941283a794172c"
     },
     {
-      "title": "“Myter, fakta og veien videre for metanhemmere?” Det var undertittelen på NMBU-seminaret om Bovaer 5. februar. Jeg skrev om dette i går, men det er fortsatt mye å ta tak i Det er fortsatt mye vi ikke vet. Allerede i starten tok professor Egil Prestløkken ordet. Ha - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvbkxadGN4UFhxZUlZVDE5YllGcUVNWlU3OUtpSGlvUnE1MFBaczVXRXF0aTU1SjdYUmF1SEpLUG95eTFFR3lUUUlOelJxcnNRcWpMeHVKWWp2VG9PR0Y1OW4wMlgwUXpwT2MzVlNKclJfR3dZeWJuMQ?oc=5",
-      "pubDate": "2026-02-06T08:00:00+00:00",
-      "source": "facebook.com",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aamtsavisen.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBvbkxadGN4UFhxZUlZVDE5YllGcUVNWlU3OUtpSGlvUnE1MFBaczVXRXF0aTU1SjdYUmF1SEpLUG95eTFFR3lUUUlOelJxcnNRcWpMeHVKWWp2VG9PR0Y1OW4wMlgwUXpwT2MzVlNKclJfR3dZeWJuMQ?oc=5\" target=\"_blank\">“Myter, fakta og veien videre for metanhemmere?” Det var undertittelen på NMBU-seminaret om Bovaer 5. februar. Jeg skrev om dette i går, men det er fortsatt mye å ta tak i Det er fortsatt mye vi ikke vet. Allerede i starten tok professor Egil Prestløkken ordet. Ha</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">facebook.com</font>",
-      "id": "89560c9acec7f881"
-    },
-    {
       "title": "Bovaerin turvallisuutta arvioidaan uudelleen EU:ssa - Maaseudun Tulevaisuus",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRzJEUzhUTWFldjF5bUxDalZUelExNWlIbXFOZm5iblREYTRaX1JaRFdEdVF1eEZNZjVDXzctSUtQdVdfbVhZVEtZSXVIOVl1RmtBUkNiZmVUcGF0RHU5VFZlVWp4czJBOXJNcWxITm1wbW1zSTVBeUp5a2w0dHVSUzE1T1F1VVFjdnc?oc=5",
       "pubDate": "2026-02-06T08:00:00+00:00",
@@ -184,6 +184,17 @@
       "id": "d726eeef78421584"
     },
     {
+      "title": "Bovaer-oppfinneren synes ikke bønder bør tvinges til å bruke metanhemmere - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlV2aXd4SW4tWk5lQUJ5c1lwUnQ2MS1IRHJoY3B3SHRsMHl1UlJscGE0UjU2WlJMdU92d0NIbXRXRWMxdnl0UEhFeHB3RVVidUNtVnlhVnBNNWRUazJzSVQwazFVR01SX2VxUGhBQWE1ZzRFNkNaTUFFZE9SajVkWVBNUU1kU1pYdnBSS3lRU2x4a1hlSjNGdzhUTk14d1h6VnFqa1ZPcE8wOWxhRHZ1SkNBQjI4MUxZMXBuQ185enUxVVF0?oc=5",
+      "pubDate": "2026-02-05T08:00:00+00:00",
+      "source": "Nationen",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPTlV2aXd4SW4tWk5lQUJ5c1lwUnQ2MS1IRHJoY3B3SHRsMHl1UlJscGE0UjU2WlJMdU92d0NIbXRXRWMxdnl0UEhFeHB3RVVidUNtVnlhVnBNNWRUazJzSVQwazFVR01SX2VxUGhBQWE1ZzRFNkNaTUFFZE9SajVkWVBNUU1kU1pYdnBSS3lRU2x4a1hlSjNGdzhUTk14d1h6VnFqa1ZPcE8wOWxhRHZ1SkNBQjI4MUxZMXBuQ185enUxVVF0?oc=5\" target=\"_blank\">Bovaer-oppfinneren synes ikke bønder bør tvinges til å bruke metanhemmere</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "0e7ada403ae09c3f"
+    },
+    {
       "title": "Norska Tine stoppar mjölk från kor som fått Bovaer - ATL",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBCRzlGVWZ1dGFYMDRKQ21WYjczcDk5bEFsUzAtMWotbnRWZWluSW9YUTFxWmgtMEdGSXZ5VVNaOXNIODJmSmlpUGVBTWV6QlNUdm9lSE5tUTZ1WEJyM0JDaXdHdWpJSlNGTE5vdzVVQnNvRXJ3N2luNA?oc=5",
       "pubDate": "2026-01-30T08:00:00+00:00",
@@ -195,15 +206,37 @@
       "id": "74d9b68c42b0261c"
     },
     {
+      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - Nettavisen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5",
+      "pubDate": "2026-01-29T08:00:00+00:00",
+      "source": "Nettavisen",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
+      "id": "15d962535e8366ec"
+    },
+    {
       "title": "Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre - Naturpress",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5",
       "pubDate": "2026-01-29T08:00:00+00:00",
       "source": "Naturpress",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Apolitiken.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Atv2.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5\" target=\"_blank\">Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Naturpress</font>",
       "id": "567c81c7cdb83f89"
+    },
+    {
+      "title": "Dette skjer med Bovaer-melka fra forsøkskyrne nå - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWFdjSmVTaGxQS0h4OUdma0NJRFYtYTMzcWFHMDlSTVd4Y2trUDdBYUU5bVlRYXc3Y0MzOUhiSEo1MjJkRndsM2pKREJhSy1NNUhtenVvZ1JFdGxZZ0lLVndWWEMwS3FaQXZJX2Q2dEtnMXVidU1kM1Myc3hHa1lLLUJoYmxVSzBERUZiVGRINmk0TjhpQ3VaanNlOXZ3d2s0Q0YxLUZMOHI4RjBBSUM4WTdYNUlSdnVoVjBqZnVsbw?oc=5",
+      "pubDate": "2026-01-29T08:00:00+00:00",
+      "source": "Nationen",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNWFdjSmVTaGxQS0h4OUdma0NJRFYtYTMzcWFHMDlSTVd4Y2trUDdBYUU5bVlRYXc3Y0MzOUhiSEo1MjJkRndsM2pKREJhSy1NNUhtenVvZ1JFdGxZZ0lLVndWWEMwS3FaQXZJX2Q2dEtnMXVidU1kM1Myc3hHa1lLLUJoYmxVSzBERUZiVGRINmk0TjhpQ3VaanNlOXZ3d2s0Q0YxLUZMOHI4RjBBSUM4WTdYNUlSdnVoVjBqZnVsbw?oc=5\" target=\"_blank\">Dette skjer med Bovaer-melka fra forsøkskyrne nå</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "9caca722af2d85b1"
     },
     {
       "title": "Norjan suurin meijeri lopettaa Bovaer-maidon vastaanottamisen - Maaseudun Tulevaisuus",
@@ -228,6 +261,17 @@
       "id": "338bfdd6cad5b773"
     },
     {
+      "title": "Hit havner melka fra Bovaer-kyr - rbnett.no",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGZCeGhBMHZNSGVHSFBPTkNfWTd0VWd3djRZYm42MGpDcTJmanZEVXFScXRaendNa1VYR3RmeUZCMzdvMXEwWC02UkZSek1kZDRPa3J1YjN2UFlmSGI2blRjZ0VSaGZQcWdvcVllZDQzUjNxbjFvQXZPZkpITkJVSUlSdHpmNlFxY2l2aEh4YkdWeXh2dk12VWhOb1FNN1k?oc=5",
+      "pubDate": "2026-01-28T08:00:00+00:00",
+      "source": "rbnett.no",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Arbnett.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGZCeGhBMHZNSGVHSFBPTkNfWTd0VWd3djRZYm42MGpDcTJmanZEVXFScXRaendNa1VYR3RmeUZCMzdvMXEwWC02UkZSek1kZDRPa3J1YjN2UFlmSGI2blRjZ0VSaGZQcWdvcVllZDQzUjNxbjFvQXZPZkpITkJVSUlSdHpmNlFxY2l2aEh4YkdWeXh2dk12VWhOb1FNN1k?oc=5\" target=\"_blank\">Hit havner melka fra Bovaer-kyr</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rbnett.no</font>",
+      "id": "e74cf5d8e964205a"
+    },
+    {
       "title": "”Bovaer är fel strid för mjölkbranschen att ta” - ATL",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kckFsSjFadWhxc2dsZmNkZkdJdXJkWW5OQVkxNUFrLVJZX0VSbFNGbzRVZHh1MHRCOF93N3R6SklramZOR05XeXlDdHVsS1RTcXZvdEh2WkZTOUtRdVJXQVMxcjd4eDkzcFlxTGFVWWFZQQ?oc=5",
       "pubDate": "2026-01-26T08:00:00+00:00",
@@ -237,28 +281,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9kckFsSjFadWhxc2dsZmNkZkdJdXJkWW5OQVkxNUFrLVJZX0VSbFNGbzRVZHh1MHRCOF93N3R6SklramZOR05XeXlDdHVsS1RTcXZvdEh2WkZTOUtRdVJXQVMxcjd4eDkzcFlxTGFVWWFZQQ?oc=5\" target=\"_blank\">”Bovaer är fel strid för mjölkbranschen att ta”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ATL</font>",
       "id": "bb14814eeda6317d"
-    },
-    {
-      "title": "Tine, Bovaer | Tine snur om Bovaer – møtes med utbredt skepsis og mistillit fra forbrukerne - Nationen",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVItNUE3Nk9DdlZDdEhRbDZOa1hqcnZONDgybjFWbFU3dVBtWDhtZUtiSVluQmoweERGUnpRUXpvOUs4YVhJcmJCYmlYdUdwc2pZNmFSMFRQeVNBQkNReVAtR2JaOWs3anRncVZjMXZYb0RpWDhMLXRSQzRTX29rYUo3OGRnQmJWeUFFRlRnRTZnS2NjdVQ2VHAyeklKNG9jQ2xTMmMtalRFeHFxWDhUN2hyMA?oc=5",
-      "pubDate": "2026-01-23T08:00:00+00:00",
-      "source": "Nationen",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVItNUE3Nk9DdlZDdEhRbDZOa1hqcnZONDgybjFWbFU3dVBtWDhtZUtiSVluQmoweERGUnpRUXpvOUs4YVhJcmJCYmlYdUdwc2pZNmFSMFRQeVNBQkNReVAtR2JaOWs3anRncVZjMXZYb0RpWDhMLXRSQzRTX29rYUo3OGRnQmJWeUFFRlRnRTZnS2NjdVQ2VHAyeklKNG9jQ2xTMmMtalRFeHFxWDhUN2hyMA?oc=5\" target=\"_blank\">Tine, Bovaer | Tine snur om Bovaer – møtes med utbredt skepsis og mistillit fra forbrukerne</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
-      "id": "f4cd0ef4e5a86769"
-    },
-    {
-      "title": "Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre - faktisk.no",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2dpQ1NqYVhDaFVLd1huVlFuQXZudGRWU1VFYU5laEdPUnFwY0E3NnlwWUFsdTFGRTlDSHU4YnRUQmNpanluVW1lS09VSDJkbkZGOHNNc0VaMkRRSHpIdFlrX3pEMm1vMjF3YzFXYUpWNW41MWwwRXZuZi15OUpkQ0hySWJlLTdlVFoxY0FGS1hrSzQyOHJXUy1HU3VWYW80aXc?oc=5",
-      "pubDate": "2026-01-23T08:00:00+00:00",
-      "source": "faktisk.no",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2dpQ1NqYVhDaFVLd1huVlFuQXZudGRWU1VFYU5laEdPUnFwY0E3NnlwWUFsdTFGRTlDSHU4YnRUQmNpanluVW1lS09VSDJkbkZGOHNNc0VaMkRRSHpIdFlrX3pEMm1vMjF3YzFXYUpWNW41MWwwRXZuZi15OUpkQ0hySWJlLTdlVFoxY0FGS1hrSzQyOHJXUy1HU3VWYW80aXc?oc=5\" target=\"_blank\">Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">faktisk.no</font>",
-      "id": "6d0e62b7aa34788a"
     },
     {
       "title": "Tine stanser bruk av Bovaer: – Vårt ansvar å lytte og handle - Nationen",
@@ -272,6 +294,17 @@
       "id": "570e26a77461d642"
     },
     {
+      "title": "Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre - faktisk.no",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2dpQ1NqYVhDaFVLd1huVlFuQXZudGRWU1VFYU5laEdPUnFwY0E3NnlwWUFsdTFGRTlDSHU4YnRUQmNpanluVW1lS09VSDJkbkZGOHNNc0VaMkRRSHpIdFlrX3pEMm1vMjF3YzFXYUpWNW41MWwwRXZuZi15OUpkQ0hySWJlLTdlVFoxY0FGS1hrSzQyOHJXUy1HU3VWYW80aXc?oc=5",
+      "pubDate": "2026-01-23T08:00:00+00:00",
+      "source": "faktisk.no",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2dpQ1NqYVhDaFVLd1huVlFuQXZudGRWU1VFYU5laEdPUnFwY0E3NnlwWUFsdTFGRTlDSHU4YnRUQmNpanluVW1lS09VSDJkbkZGOHNNc0VaMkRRSHpIdFlrX3pEMm1vMjF3YzFXYUpWNW41MWwwRXZuZi15OUpkQ0hySWJlLTdlVFoxY0FGS1hrSzQyOHJXUy1HU3VWYW80aXc?oc=5\" target=\"_blank\">Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">faktisk.no</font>",
+      "id": "6d0e62b7aa34788a"
+    },
+    {
       "title": "Bondelaget om Bovaer-stopp: – En større og vanskeligere oppgave - Nationen",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU3RuMnJYbVNXOUZDWE1yZkdDSHVUTDVoa2JKLXpyMGlzVGZZampGOG9RUV9ucGFQLWNmTGpEczdycEhISWU3ZEdFbkwxYWJiOWtXdFJvczNnV0R5LUtjNzcxS0IyV2lVWHQxajlOeW15aDhLQ0tvekVyWkFOX3ZXZHlBZDI1YUpYR3k5alVRY2c1ZHF1LUVFanJRZEpMVmlJN3pza0szSDZBSG9FOXNiMlBEQ2txTlhRLXkwRm1zQQ?oc=5",
       "pubDate": "2026-01-23T08:00:00+00:00",
@@ -283,6 +316,17 @@
       "id": "5d19df621c046ac5"
     },
     {
+      "title": "Tine, Bovaer | Tine snur om Bovaer – møtes med utbredt skepsis og mistillit fra forbrukerne - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVItNUE3Nk9DdlZDdEhRbDZOa1hqcnZONDgybjFWbFU3dVBtWDhtZUtiSVluQmoweERGUnpRUXpvOUs4YVhJcmJCYmlYdUdwc2pZNmFSMFRQeVNBQkNReVAtR2JaOWs3anRncVZjMXZYb0RpWDhMLXRSQzRTX29rYUo3OGRnQmJWeUFFRlRnRTZnS2NjdVQ2VHAyeklKNG9jQ2xTMmMtalRFeHFxWDhUN2hyMA?oc=5",
+      "pubDate": "2026-01-23T08:00:00+00:00",
+      "source": "Nationen",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVItNUE3Nk9DdlZDdEhRbDZOa1hqcnZONDgybjFWbFU3dVBtWDhtZUtiSVluQmoweERGUnpRUXpvOUs4YVhJcmJCYmlYdUdwc2pZNmFSMFRQeVNBQkNReVAtR2JaOWs3anRncVZjMXZYb0RpWDhMLXRSQzRTX29rYUo3OGRnQmJWeUFFRlRnRTZnS2NjdVQ2VHAyeklKNG9jQ2xTMmMtalRFeHFxWDhUN2hyMA?oc=5\" target=\"_blank\">Tine, Bovaer | Tine snur om Bovaer – møtes med utbredt skepsis og mistillit fra forbrukerne</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "f4cd0ef4e5a86769"
+    },
+    {
       "title": "TINE stanser bruk av melk fra kyr som er fôret med Bovaer - TINE Medlem",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNzRibU9GR0daMTl3X2ZhTFNIS2hJWkhJMHdqeXBYSk92UTM5OVRLVnd6RE8xTHZBb2kyM2N2S3RFX1lQZ0E5SW5uc1dRenBIWm11RTl5NGJIX2NzaWRDa01hTU9YRHExa0xFc2lCdHpPSkc5UmdDWHdidGV2LVduS3REUl9sdWNFYVVWWFc5bkVzVUwxS1FmdUFoTkNwUQ?oc=5",
       "pubDate": "2026-01-22T08:00:00+00:00",
@@ -292,50 +336,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQNzRibU9GR0daMTl3X2ZhTFNIS2hJWkhJMHdqeXBYSk92UTM5OVRLVnd6RE8xTHZBb2kyM2N2S3RFX1lQZ0E5SW5uc1dRenBIWm11RTl5NGJIX2NzaWRDa01hTU9YRHExa0xFc2lCdHpPSkc5UmdDWHdidGV2LVduS3REUl9sdWNFYVVWWFc5bkVzVUwxS1FmdUFoTkNwUQ?oc=5\" target=\"_blank\">TINE stanser bruk av melk fra kyr som er fôret med Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TINE Medlem</font>",
       "id": "9b4d5043c69374d1"
-    },
-    {
-      "title": "Tine stanser bruk av melk fra kyr som er fôret med Bovaer - MatvareWatch",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zTkhJS0cwdE90ZVpjVzJleVV0NnR4RFRxLTc1NHZ3blNWT19DLXhUNVduTklzZWpfREdRWWJUTi1UTHNWcWh0d1hxR0NwMS1WdE16MXpB?oc=5",
-      "pubDate": "2026-01-22T08:00:00+00:00",
-      "source": "MatvareWatch",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zTkhJS0cwdE90ZVpjVzJleVV0NnR4RFRxLTc1NHZ3blNWT19DLXhUNVduTklzZWpfREdRWWJUTi1UTHNWcWh0d1hxR0NwMS1WdE16MXpB?oc=5\" target=\"_blank\">Tine stanser bruk av melk fra kyr som er fôret med Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MatvareWatch</font>",
-      "id": "7c00ee7cd9e9651b"
-    },
-    {
-      "title": "Bovaer, Tine | Tine stanser bruk av Bovaer: – Har skapt uro og usikkerhet - Nettavisen",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFhvVmFQZDVsd3lXNy1rRDN6cDc4WXhaOTRwdnVsOVpNNUNCdWVmTFFZRG8xVGdxcTJ6eUU5MEVyMjZqV3lmZ3h3ZkdRZlAweDdvTTlNa1NsNjl0V003ZVJuaHI3WXE2WHlhQUxEUC00WTVzZnd3Y1NGSTRRbFk4R2xGXzNZdHFiTUc0c2xKd2FISUw5bEhMSDVWTjdLZW5Td1d4R3YwTQ?oc=5",
-      "pubDate": "2026-01-22T08:00:00+00:00",
-      "source": "Nettavisen",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFhvVmFQZDVsd3lXNy1rRDN6cDc4WXhaOTRwdnVsOVpNNUNCdWVmTFFZRG8xVGdxcTJ6eUU5MEVyMjZqV3lmZ3h3ZkdRZlAweDdvTTlNa1NsNjl0V003ZVJuaHI3WXE2WHlhQUxEUC00WTVzZnd3Y1NGSTRRbFk4R2xGXzNZdHFiTUc0c2xKd2FISUw5bEhMSDVWTjdLZW5Td1d4R3YwTQ?oc=5\" target=\"_blank\">Bovaer, Tine | Tine stanser bruk av Bovaer: – Har skapt uro og usikkerhet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
-      "id": "af812f74484564df"
-    },
-    {
-      "title": "TINE stanser bruk av melk fra kyr som er fôret med Bovaer - TINE.no",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMW9VaDBZNFBfLUlZUjNGR1hQZ3k0ZldwV0ozUjNXNlZYcWJXLVl2QV9VU1FlNmctUnZfdi12WFFod2FfcEMxYW00LWFCZUIwQVdRdTQ1el9CVlhrcXowMzZBeXMwWXVFOHROMWpqb1NVSV9uTzI3a0Ryd1RNOHlvQmJ3U0ZnVm5ITm5kQVJWbUJhazhmYmg4cXpfYzNnY2pf?oc=5",
-      "pubDate": "2026-01-22T08:00:00+00:00",
-      "source": "TINE.no",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOMW9VaDBZNFBfLUlZUjNGR1hQZ3k0ZldwV0ozUjNXNlZYcWJXLVl2QV9VU1FlNmctUnZfdi12WFFod2FfcEMxYW00LWFCZUIwQVdRdTQ1el9CVlhrcXowMzZBeXMwWXVFOHROMWpqb1NVSV9uTzI3a0Ryd1RNOHlvQmJ3U0ZnVm5ITm5kQVJWbUJhazhmYmg4cXpfYzNnY2pf?oc=5\" target=\"_blank\">TINE stanser bruk av melk fra kyr som er fôret med Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TINE.no</font>",
-      "id": "2419f4c70e0e9c99"
-    },
-    {
-      "title": "Tine går bort fra å bruke melk fra gårder som benytter metanhemmeren Bovaer. – Bruken har skapt uro og usikkerhet, sier Tine-direktør. Lenke i kommentarfelt ⬇️ - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ3NxRHJTcm5VdDV1OEprdXdONXl0c0o4YV9QMzZzbDNrUXFLVWpsVkx3ald2Q2FuMm05UEJubzBuR29QTTFtY29XZXZJVFdtbXd1aC1TaWU1TkVfWWM0NjczQmM4ZUFqWW45a2RIQWhOdXJTckYxVkNrbEN5TndVODVqVVMwVlVMdmczYXgzV0FaX2k2WDBUSzcyVzZSeVFmV1JlNVdSR2F1SThaMkN3bVAyYlcwcUJ0S2V1U1Zzbkxfd3NuZVhrUzBiOFhZbGtMUzJHTnZYSWUxa2MxbGpySnpHS2RhUnFrZWQ5Rg?oc=5",
-      "pubDate": "2026-01-22T08:00:00+00:00",
-      "source": "facebook.com",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Arbnett.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZ3NxRHJTcm5VdDV1OEprdXdONXl0c0o4YV9QMzZzbDNrUXFLVWpsVkx3ald2Q2FuMm05UEJubzBuR29QTTFtY29XZXZJVFdtbXd1aC1TaWU1TkVfWWM0NjczQmM4ZUFqWW45a2RIQWhOdXJTckYxVkNrbEN5TndVODVqVVMwVlVMdmczYXgzV0FaX2k2WDBUSzcyVzZSeVFmV1JlNVdSR2F1SThaMkN3bVAyYlcwcUJ0S2V1U1Zzbkxfd3NuZVhrUzBiOFhZbGtMUzJHTnZYSWUxa2MxbGpySnpHS2RhUnFrZWQ5Rg?oc=5\" target=\"_blank\">Tine går bort fra å bruke melk fra gårder som benytter metanhemmeren Bovaer. – Bruken har skapt uro og usikkerhet, sier Tine-direktør. Lenke i kommentarfelt ⬇️</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">facebook.com</font>",
-      "id": "4940f9bbe4df95cf"
     }
   ]
 }
