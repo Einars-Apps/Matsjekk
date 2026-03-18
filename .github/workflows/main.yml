@@ -162,10 +162,17 @@ jobs:
         with:
           lfs: true
 
-      - name: Upload docs folder as Pages artifact
-        uses: actions/upload-pages-artifact@v4
+      - name: Create Pages artifact (include dotfiles)
+        run: |
+          tar --exclude=.git --exclude=.github -cvf "$RUNNER_TEMP/artifact.tar" -C docs .
+          gzip -9 "$RUNNER_TEMP/artifact.tar"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-artifact@v4
         with:
-          path: ./docs
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar.gz
+          retention-days: 1
 
   deploy-pages:
     name: Deploy Pages
