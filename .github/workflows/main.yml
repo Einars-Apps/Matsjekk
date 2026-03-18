@@ -165,13 +165,12 @@ jobs:
       - name: Create Pages artifact (include dotfiles)
         run: |
           tar --exclude=.git --exclude=.github -cvf "$RUNNER_TEMP/artifact.tar" -C docs .
-          gzip -9 "$RUNNER_TEMP/artifact.tar"
 
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
-          path: ${{ runner.temp }}/artifact.tar.gz
+          path: ${{ runner.temp }}/artifact.tar
           retention-days: 1
 
   deploy-pages:
