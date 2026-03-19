@@ -6145,7 +6145,7 @@
   },
   {
     "id": 1489885403,
-    "name": "El Llano de La Vega",
+    "name": "El Bosque de La Vega",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -6405,6 +6405,18 @@
     "website": "https://www.verescenceinsulators.com/",
     "lat": 40.9040229,
     "lon": -4.0034578,
+    "address": null
+  },
+  {
+    "id": 1489885403,
+    "name": "El Llano de La Vega",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6951045,
+    "lon": -5.3230982,
     "address": null
   },
   {

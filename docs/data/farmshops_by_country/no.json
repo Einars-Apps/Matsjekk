@@ -912,6 +912,18 @@
     "address": null
   },
   {
+    "id": 13660067991,
+    "name": "MÖRT Gårdsbutikk",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8792419,
+    "lon": 9.920079,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -4509,8 +4521,8 @@
       "Korn- og Bakevarer"
     ],
     "website": null,
-    "lat": 59.950546,
-    "lon": 10.62345,
+    "lat": 59.9503073,
+    "lon": 10.6209781,
     "address": "Griniveien 159",
     "source": "https://www.lokalmat.no/produsenter/grini-hjemmebakeri/"
   },
@@ -5938,6 +5950,19 @@
     "lon": 7.969363331794739,
     "address": "HUNSFOS NÆRINGSPARK",
     "source": "https://www.lokalmat.no/produsenter/hunsfos-bryggeri-as/"
+  },
+  {
+    "id": "lokalmat_12048",
+    "name": "Hurum Mølle AS",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "KLOKKARSTUA",
+    "products": [],
+    "website": null,
+    "lat": 59.5986163,
+    "lon": 10.4724778,
+    "address": "Kirkebygdveien 29",
+    "source": "https://www.lokalmat.no/produsenter/hurum-molle-as/"
   },
   {
     "id": "lokalmat_11859",
@@ -10966,6 +10991,19 @@
     "source": "https://www.lokalmat.no/produsenter/snorre-seafood/"
   },
   {
+    "id": "lokalmat_12271",
+    "name": "SodaCompagniet AS",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/sodacompagniet-as/"
+  },
+  {
     "id": "lokalmat_11648",
     "name": "Sognaflatbrød",
     "country": "Norway",
@@ -15559,6 +15597,21 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_11245",
+    "name": "Grini Hjemmebakeri",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Eiksmarka",
+    "products": [
+      "Korn- og Bakevarer"
+    ],
+    "website": null,
+    "lat": 59.950546,
+    "lon": 10.62345,
+    "address": "Griniveien 159",
+    "source": "https://www.lokalmat.no/produsenter/grini-hjemmebakeri/"
   },
   {
     "id": 25647522,

@@ -264,18 +264,6 @@
     "address": "Worting Road"
   },
   {
-    "id": 460412846,
-    "name": "Gloagburn Farm Shop and Cafe",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tibbermore",
-    "products": [],
-    "website": "https://www.gloagburnfarmshop.co.uk/",
-    "lat": 56.395849,
-    "lon": -3.5481671,
-    "address": null
-  },
-  {
     "id": 471421098,
     "name": "Priestly Farm Shop",
     "country": "United Kingdom",
@@ -6100,7 +6088,7 @@
     "name": "Carnoustie Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Carnoustie",
     "products": [],
     "website": null,
     "lat": 56.5098684,
@@ -15840,6 +15828,18 @@
     "address": null
   },
   {
+    "id": 1490237883,
+    "name": "Gloagburn Farm Shop and Cafe",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tibbermore",
+    "products": [],
+    "website": "https://www.gloagburnfarmshop.co.uk/",
+    "lat": 56.3960545,
+    "lon": -3.5480999,
+    "address": null
+  },
+  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -18405,6 +18405,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 460412846,
+    "name": "Gloagburn Farm Shop and Cafe",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tibbermore",
+    "products": [],
+    "website": "https://www.gloagburnfarmshop.co.uk/",
+    "lat": 56.395849,
+    "lon": -3.5481671,
     "address": null
   },
   {

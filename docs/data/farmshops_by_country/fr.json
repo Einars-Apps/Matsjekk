@@ -21396,6 +21396,18 @@
     "address": null
   },
   {
+    "id": 9309468365,
+    "name": "Domaine des Arbres Blancs",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.domainedesarbresblancs.com/",
+    "lat": 42.6080326,
+    "lon": 2.8787702,
+    "address": null
+  },
+  {
     "id": 9318569349,
     "name": "Vente de Kiwis",
     "country": "France",
@@ -24318,7 +24330,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "www.ferme-baehl.com",
+    "website": "https://www.ferme-baehl.com/",
     "lat": 48.7570588,
     "lon": 7.7269801,
     "address": null
@@ -29985,7 +29997,7 @@
     "website": "https://fermedelapetitemouliche.fr",
     "lat": 45.6596566,
     "lon": 3.5546626,
-    "address": "Vironnes"
+    "address": null
   },
   {
     "id": 12101885284,
@@ -36970,6 +36982,18 @@
     "lat": 46.7950958,
     "lon": 2.4239946,
     "address": "Route de Bruère"
+  },
+  {
+    "id": 13658912600,
+    "name": "Ferme de Sçay",
+    "country": "France",
+    "region": null,
+    "municipality": "Venesmes",
+    "products": [],
+    "website": null,
+    "lat": 46.8252796,
+    "lon": 2.2787745,
+    "address": null
   },
   {
     "id": 24528129,
