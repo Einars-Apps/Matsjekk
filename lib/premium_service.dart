@@ -93,6 +93,9 @@ class PremiumService {
           purchaseDetails.status == PurchaseStatus.restored) {
         await _setPremiumActive(true);
         lastMessage = 'Betaling bekreftet. Annonser er nå fjernet permanent.';
+      } else if (purchaseDetails.status == PurchaseStatus.pending) {
+        lastMessage =
+            'Betaling venter på godkjenning. Sjekk betalingsmetoden din og prøv å gjenopprette kjøpet etterpå.';
       } else if (purchaseDetails.status == PurchaseStatus.error) {
         lastMessage =
             purchaseDetails.error?.message ?? 'Kjøpet feilet. Prøv igjen.';
