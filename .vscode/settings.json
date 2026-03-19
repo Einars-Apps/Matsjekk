@@ -1,6 +1,6 @@
 {
   "dart.flutterSdkPath": "C:\\src\\flutter",
   "dart.sdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
-  "inlineChat.defaultModel": "claude-sonnet-4.6",
-  "chat.planAgent.defaultModel": "claude-sonnet-4.6"
+  "inlineChat.defaultModel": "Auto (Vendor Default)",
+  "chat.planAgent.defaultModel": "Auto (Vendor Default)"
 }
