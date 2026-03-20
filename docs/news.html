@@ -86,11 +86,12 @@
             <option value="en">English</option>
           </select>
         </label>
+        <label class="human-check-row"><input id="human-check" type="checkbox"> Jeg er ikke en robot</label>
         <div class="form-actions">
           <button id="save-article" type="button" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
           <button id="cancel-article" type="button" class="btn" data-translate="cancel">Avbryt</button>
         </div>
-        <p id="news-form-status" class="muted"></p>
+        <p id="news-form-status" class="news-form-status" role="status" aria-live="polite"></p>
       </div>
     </section>
   </main>

@@ -528,6 +528,13 @@ function inferSubmissionMetadata(url, titleInput, sourceInput, langInput) {
   };
 }
 
+function setSubmissionStatus(statusEl, message, tone) {
+  if (!statusEl) return;
+  const className = String(tone || 'info').toLowerCase();
+  statusEl.className = `news-form-status is-visible is-${className}`;
+  statusEl.innerHTML = String(message || '');
+}
+
 function sourceFromUrl(url) {
   const host = hostFromUrl(url).replace(/^www\./, '');
   return host || 'Ukjent kilde';
@@ -863,6 +870,7 @@ function initNewsForm() {
   const saveBtn = document.getElementById('save-article');
   const cancelBtn = document.getElementById('cancel-article');
   const status = document.getElementById('news-form-status');
+  const humanCheck = document.getElementById('human-check');
 
   if (addBtn && form && addBtn.dataset.newsFormBound !== '1') {
     addBtn.dataset.newsFormBound = '1';
@@ -878,7 +886,7 @@ function initNewsForm() {
       } else {
         form.classList.add('hidden');
       }
-      if (status) status.textContent = '';
+      if (status) status.className = 'news-form-status';
     });
   }
 
@@ -887,7 +895,7 @@ function initNewsForm() {
     cancelBtn.addEventListener('click', (event) => {
       event.preventDefault();
       form.classList.add('hidden');
-      if (status) status.textContent = '';
+      if (status) status.className = 'news-form-status';
     });
   }
 
@@ -907,9 +915,16 @@ function initNewsForm() {
     const url = String((urlEl && urlEl.value) || '').trim();
     const selectedLanguage = normalizeLang(String((langEl && langEl.value) || ''));
 
-    if (status) {
-      status.innerHTML = 'Sender til moderering...';
+    if (!url) {
+      setSubmissionStatus(status, 'URL ma fylles ut.', 'error');
+      return;
     }
+    if (humanCheck && !humanCheck.checked) {
+      setSubmissionStatus(status, 'Kryss av "Jeg er ikke en robot" for aa sende inn.', 'error');
+      return;
+    }
+
+    setSubmissionStatus(status, 'Sender til moderering...', 'info');
 
     const meta = inferSubmissionMetadata(url, titleInput, sourceInput, selectedLanguage);
     const title = meta.title;
@@ -917,11 +932,6 @@ function initNewsForm() {
     const language = meta.language;
     const country = meta.country;
     const neutrality = neutralityAssessment({ title, source, url, language });
-
-    if (!url) {
-      if (status) status.textContent = 'URL ma fylles ut.';
-      return;
-    }
 
     const issueUrl = createNewsSubmissionIssueUrl({
       title,
@@ -951,20 +961,19 @@ function initNewsForm() {
 
     const opened = openModerationIssue(issueUrl);
 
-    if (status) {
-      const base = opened
-        ? 'Innsending sendt til moderering. Et GitHub-skjema er aapnet i ny fane.'
-        : `Innsending klargjort for moderering. <a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener">Trykk her for aa aapne modereringsskjema</a>.`;
-      const extra = trusted
-        ? ''
-        : ' Kilden er ikke i kjent avisliste; vennligst varsle redaksjonen via <a href="index.html#contact">Kontakt</a> for manuell e-postvurdering ved tvil.';
-      status.innerHTML = base + extra;
-    }
+    const base = opened
+      ? 'Utkast sendt til moderering. Fullfoer i ny fane ved aa trykke "Create issue".'
+      : `Utkast klargjort. <a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener">Trykk her for aa aapne modereringsskjema</a> og fullfoer med "Create issue".`;
+    const extra = trusted
+      ? ''
+      : ' Kilden er ikke i kjent avisliste; ved tvil varsles redaksjonen via <a href="index.html#contact">Kontakt</a> for manuell e-postvurdering.';
+    setSubmissionStatus(status, base + extra, 'success');
 
     if (titleEl) titleEl.value = '';
     if (sourceEl) sourceEl.value = '';
     if (urlEl) urlEl.value = '';
     if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
+    if (humanCheck) humanCheck.checked = false;
     if (form) form.classList.remove('hidden');
   });
 }
