@@ -905,76 +905,78 @@ function initNewsForm() {
   saveBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
-    const titleEl = document.getElementById('article-title');
-    const sourceEl = document.getElementById('article-source');
-    const urlEl = document.getElementById('article-url');
-    const langEl = document.getElementById('article-lang');
+    try {
+      const titleEl = document.getElementById('article-title');
+      const sourceEl = document.getElementById('article-source');
+      const urlEl = document.getElementById('article-url');
+      const langEl = document.getElementById('article-lang');
 
-    const titleInput = String((titleEl && titleEl.value) || '').trim();
-    const sourceInput = String((sourceEl && sourceEl.value) || '').trim();
-    const url = String((urlEl && urlEl.value) || '').trim();
-    const selectedLanguage = normalizeLang(String((langEl && langEl.value) || ''));
+      const titleInput = String((titleEl && titleEl.value) || '').trim();
+      const sourceInput = String((sourceEl && sourceEl.value) || '').trim();
+      const url = String((urlEl && urlEl.value) || '').trim();
+      const selectedLanguage = normalizeLang(String((langEl && langEl.value) || ''));
 
-    if (!url) {
-      setSubmissionStatus(status, 'URL ma fylles ut.', 'error');
-      return;
+      if (!url) {
+        setSubmissionStatus(status, 'URL ma fylles ut.', 'error');
+        return;
+      }
+      if (humanCheck && !humanCheck.checked) {
+        setSubmissionStatus(status, 'Kryss av "Jeg er ikke en robot" for aa sende inn.', 'error');
+        return;
+      }
+
+      const meta = inferSubmissionMetadata(url, titleInput, sourceInput, selectedLanguage);
+      const title = meta.title;
+      const source = meta.source;
+      const language = meta.language;
+      const country = meta.country;
+      const neutrality = neutralityAssessment({ title, source, url, language });
+
+      const issueUrl = createNewsSubmissionIssueUrl({
+        title,
+        source,
+        url,
+        language,
+        country,
+        regionHint: meta.regionHint,
+        neutrality,
+      });
+
+      const pending = getPendingSubmissions();
+      pending.push({
+        title,
+        source,
+        url,
+        language,
+        country,
+        regionHint: meta.regionHint,
+        submittedAt: new Date().toISOString(),
+        moderationStatus: 'pending_review',
+        neutrality,
+      });
+      savePendingSubmissions(pending.slice(-200));
+
+      // Clear form fields first so the user sees immediate feedback.
+      if (titleEl) titleEl.value = '';
+      if (sourceEl) sourceEl.value = '';
+      if (urlEl) urlEl.value = '';
+      if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
+      if (humanCheck) humanCheck.checked = false;
+
+      // Show confirmation with optional GitHub link for admin review.
+      const confirmMsg = 'Takk! Artikkelen er registrert og sendt til moderering.'
+        + ' <a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Opprett sak i GitHub (valgfritt)</a>';
+      setSubmissionStatus(status, confirmMsg, 'success');
+
+      // Scroll the confirmation into view so the user always sees it.
+      if (status && typeof status.scrollIntoView === 'function') {
+        status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      if (form) form.classList.remove('hidden');
+    } catch (err) {
+      setSubmissionStatus(status, 'Noe gikk galt: ' + escapeHtml(String(err && err.message || err)), 'error');
     }
-    if (humanCheck && !humanCheck.checked) {
-      setSubmissionStatus(status, 'Kryss av "Jeg er ikke en robot" for aa sende inn.', 'error');
-      return;
-    }
-
-    setSubmissionStatus(status, 'Sender til moderering...', 'info');
-
-    const meta = inferSubmissionMetadata(url, titleInput, sourceInput, selectedLanguage);
-    const title = meta.title;
-    const source = meta.source;
-    const language = meta.language;
-    const country = meta.country;
-    const neutrality = neutralityAssessment({ title, source, url, language });
-
-    const issueUrl = createNewsSubmissionIssueUrl({
-      title,
-      source,
-      url,
-      language,
-      country,
-      regionHint: meta.regionHint,
-      neutrality,
-    });
-
-    const pending = getPendingSubmissions();
-    const trusted = isTrustedNewsDomain({ url, source, sourceName: source });
-    pending.push({
-      title,
-      source,
-      url,
-      language,
-      country,
-      regionHint: meta.regionHint,
-      submittedAt: new Date().toISOString(),
-      moderationStatus: 'pending_review',
-      moderationNeedsEmailReview: !trusted,
-      neutrality,
-    });
-    savePendingSubmissions(pending.slice(-200));
-
-    const opened = openModerationIssue(issueUrl);
-
-    const base = opened
-      ? 'Utkast sendt til moderering. Fullfoer i ny fane ved aa trykke "Create issue".'
-      : `Utkast klargjort. <a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener">Trykk her for aa aapne modereringsskjema</a> og fullfoer med "Create issue".`;
-    const extra = trusted
-      ? ''
-      : ' Kilden er ikke i kjent avisliste; ved tvil varsles redaksjonen via <a href="index.html#contact">Kontakt</a> for manuell e-postvurdering.';
-    setSubmissionStatus(status, base + extra, 'success');
-
-    if (titleEl) titleEl.value = '';
-    if (sourceEl) sourceEl.value = '';
-    if (urlEl) urlEl.value = '';
-    if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
-    if (humanCheck) humanCheck.checked = false;
-    if (form) form.classList.remove('hidden');
   });
 }
 
