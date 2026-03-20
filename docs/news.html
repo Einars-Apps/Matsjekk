@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google" content="notranslate">
-  <meta name="description" content="Mat Sjekk nyheter - relevante artikler om Bovaer, GMO-fiskefor, insektmel og baerekraft.">
+  <meta name="description" content="Mat Sjekk nyheter - avisartikler og nettaviser om Bovaer, GMO-fiskefor og insektsmel.">
   <meta name="robots" content="index, follow">
   <title>Mat Sjekk - Nyheter</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -39,8 +39,8 @@
   <main class="container">
     <section class="news" id="news">
       <h2 data-translate="newsHeading">Nyheter</h2>
-      <p data-translate="newsIntro">Hold deg oppdatert - legg til relevante artikler om Bovaer, GMO, insektmel og baerekraft.</p>
-      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. De gar til moderering forst.</p>
+      <p data-translate="newsIntro">Hold deg oppdatert med aviser og nettaviser om Bovaer, GMO-fiskefor og insektsmel i Europa.</p>
+      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. Kun relevante saker fra aviser/nettaviser blir godkjent.</p>
 
       <div class="news-controls">
         <label for="news-lang" data-translate="newsLanguageLabel">Lesesprak / oversett til:</label>
@@ -169,11 +169,38 @@
             .then(function (payload) {
               var items = payload && Array.isArray(payload.items) ? payload.items : [];
               var socialDomains = ['facebook.com','instagram.com','twitter.com','x.com','tiktok.com','reddit.com','youtube.com','linkedin.com','pinterest.com','t.me','telegram.org'];
+              var trustedDomains = [
+                'nrk.no','svt.se','dr.dk','yle.fi','aftenposten.no','vg.no','dagbladet.no',
+                'steigan.no','document.no','inyheter.no','samnytt.se','friatider.se','24nyt.dk',
+                'reuters.com','apnews.com','bbc.com','theguardian.com','dw.com',
+                'lemonde.fr','lefigaro.fr','france24.com','corriere.it','ansa.it',
+                'elpais.com','abc.es','publico.pt','jn.pt','nzz.ch',
+                'nachdenkseiten.de','epochtimes.de','dagelijksestandaard.nl',
+                'off-guardian.org','spiked-online.com'
+              ];
+              var topicKeywords = [
+                'bovaer','insektsmel','insektmel','insect meal','insect protein',
+                'gmo-fiskefor','gmo fiskefor','gmo fish feed','genmodifisert fiskefor',
+                'genetically modified fish feed','raps fra gmo','soy feed gmo','oppdrettsfor gmo'
+              ];
               function isSocialSrc(src) {
                 var s = String(src || '').toLowerCase().trim();
                 return socialDomains.some(function(d) { return s === d || s.endsWith('.'+d); });
               }
-              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url); });
+              function host(url) {
+                try { return new URL(String(url || '')).hostname.toLowerCase(); } catch(e) { return ''; }
+              }
+              function isTrusted(item) {
+                var h = host(item.url);
+                var s = String(item.source || '').toLowerCase();
+                return trustedDomains.some(function(d){ return h === d || h.endsWith('.' + d) || s.indexOf(d) >= 0; });
+              }
+              function hasTopic(item) {
+                var txt = String(item.title || '') + ' ' + String(item.shortSummary || '') + ' ' + String(item.summary || '');
+                txt = txt.toLowerCase();
+                return topicKeywords.some(function(k){ return txt.indexOf(k) >= 0; });
+              }
+              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url) && isTrusted(item) && hasTopic(item); });
               container.innerHTML = '';
               if (!items.length) {
                 container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';

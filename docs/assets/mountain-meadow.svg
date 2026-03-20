@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Fjell og beitemark">
+  <defs>
+    <linearGradient id="sky2" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#84c9ff"/>
+      <stop offset="100%" stop-color="#eaf7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#sky2)"/>
+  <path d="M130 430 L390 120 L650 430 Z" fill="#6f7f93"/>
+  <path d="M430 430 L720 90 L1030 430 Z" fill="#53667d"/>
+  <path d="M560 430 L860 160 L1120 430 Z" fill="#44586e"/>
+  <path d="M340 180 L390 120 L440 180 Z" fill="#f6fbff"/>
+  <path d="M670 155 L720 90 L770 155 Z" fill="#f6fbff"/>
+  <path d="M0 500 C210 450 380 520 590 560 C790 595 980 560 1200 510 L1200 700 L0 700 Z" fill="#6ebf5e"/>
+  <path d="M0 560 C240 530 410 580 640 620 C840 655 1010 620 1200 580 L1200 700 L0 700 Z" fill="#4b9942"/>
+  <g transform="translate(220 520)">
+    <ellipse cx="0" cy="0" rx="40" ry="22" fill="#f0e7d9"/>
+    <ellipse cx="38" cy="-10" rx="16" ry="12" fill="#f0e7d9"/>
+    <circle cx="44" cy="-12" r="2" fill="#333"/>
+  </g>
+  <g transform="translate(330 550)">
+    <ellipse cx="0" cy="0" rx="30" ry="18" fill="#f0e7d9"/>
+    <ellipse cx="28" cy="-8" rx="12" ry="9" fill="#f0e7d9"/>
+    <circle cx="32" cy="-9" r="2" fill="#333"/>
+  </g>
+  <text x="58" y="62" font-family="Verdana, sans-serif" font-size="34" fill="#1f3852" font-weight="700">Uavhengige nyheter om Bovaer, insektsmel og GMO-fiskefôr</text>
+</svg>

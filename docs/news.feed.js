@@ -20,6 +20,22 @@ const SOCIAL_MEDIA_DOMAINS = [
   'telegram.org', 'vk.com', 'snapchat.com',
 ];
 
+const TRUSTED_NEWS_DOMAINS = [
+  'nrk.no', 'svt.se', 'dr.dk', 'yle.fi', 'aftenposten.no', 'vg.no', 'dagbladet.no',
+  'steigan.no', 'document.no', 'inyheter.no', 'samnytt.se', 'friatider.se', '24nyt.dk',
+  'reuters.com', 'apnews.com', 'bbc.com', 'theguardian.com', 'dw.com',
+  'lemonde.fr', 'lefigaro.fr', 'france24.com', 'corriere.it', 'ansa.it',
+  'elpais.com', 'abc.es', 'publico.pt', 'jn.pt', 'nzz.ch',
+  'nachdenkseiten.de', 'epochtimes.de', 'dagelijksestandaard.nl',
+  'off-guardian.org', 'spiked-online.com'
+];
+
+const TOPIC_KEYWORDS = [
+  'bovaer', 'insektsmel', 'insektmel', 'insect meal', 'insect protein',
+  'gmo-fiskefor', 'gmo fiskefor', 'gmo fish feed', 'genmodifisert fiskefor',
+  'genetically modified fish feed', 'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo'
+];
+
 // Rolling per-region article cache (30 days) so articles don't disappear when they leave the RSS window
 const NEWS_FEED_CACHE_KEY = 'matsjekk_news_feed_v2'; // bump version to bust old social-media cache
 const NEWS_FEED_CACHE_MAX_AGE_DAYS = 30;
@@ -218,6 +234,40 @@ function isSocialMediaArticle(item) {
   if (isSocialMediaUrl(item.url)) return true;
   const src = String(item.source || item.sourceName || '').toLowerCase().trim();
   return SOCIAL_MEDIA_DOMAINS.some((domain) => src === domain || src.endsWith('.' + domain));
+}
+
+function hostFromUrl(url) {
+  try {
+    return new URL(String(url || '')).hostname.toLowerCase();
+  } catch (_) {
+    return '';
+  }
+}
+
+function isTrustedNewsDomain(item) {
+  const host = hostFromUrl(item && item.url);
+  const sourceText = String((item && (item.source || item.sourceName)) || '').toLowerCase();
+  return TRUSTED_NEWS_DOMAINS.some((domain) =>
+    host === domain || host.endsWith('.' + domain) || sourceText.includes(domain.replace(/^www\./, ''))
+  );
+}
+
+function hasRequiredTopic(article) {
+  const haystack = [
+    article && article.title,
+    article && article.shortSummary,
+    article && article.summary,
+    article && article.englishSummary,
+  ].join(' ').toLowerCase();
+  return TOPIC_KEYWORDS.some((keyword) => haystack.includes(keyword));
+}
+
+function isRelevantArticle(article) {
+  if (!article) return false;
+  if (isSocialMediaArticle(article)) return false;
+  if (!isTrustedNewsDomain(article)) return false;
+  if (!hasRequiredTopic(article)) return false;
+  return true;
 }
 
 function loadFeedCache(mode) {
@@ -614,14 +664,14 @@ async function renderNews(preferredLang) {
   const userCountry = await detectCountryCodeFromGeo();
   const resolvedMode = selectedMode === 'auto' ? clusterForCountry(userCountry) : selectedMode;
 
-  const localNews = getNews().filter((item) => !isSocialMediaArticle(item));
+  const localNews = getNews().filter((item) => isRelevantArticle(item));
   const remoteNews = await fetchRemoteNewsForMode(resolvedMode);
 
-  // Filter social media from remote feed (by URL and by source field)
-  const filteredRemote = remoteNews.filter((item) => !isSocialMediaArticle(item));
+  // Keep only trusted newspaper/net-newspaper coverage of the configured topics.
+  const filteredRemote = remoteNews.filter((item) => isRelevantArticle(item));
 
   // Merge fresh articles with rolling 30-day cache so critical articles don't vanish
-  const cachedNews = loadFeedCache(resolvedMode).filter((item) => !isSocialMediaArticle(item));
+  const cachedNews = loadFeedCache(resolvedMode).filter((item) => isRelevantArticle(item));
   const merged = dedupeByUrl([...filteredRemote, ...cachedNews, ...localNews]);
 
   // Persist fresh articles to rolling cache
