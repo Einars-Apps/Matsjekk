@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
+import 'ad_banner.dart';
 
 class ConsentDialog extends StatefulWidget {
-  const ConsentDialog({super.key});
+  final bool showAdBanner;
+
+  const ConsentDialog({super.key, this.showAdBanner = false});
 
   @override
   State<ConsentDialog> createState() => _ConsentDialogState();
@@ -40,6 +43,12 @@ class _ConsentDialogState extends State<ConsentDialog> {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          if (widget.showAdBanner) ...[
+            const Padding(
+              padding: EdgeInsets.only(bottom: 8),
+              child: AdBanner(),
+            ),
+          ],
           Text(l10n?.consentOptional ??
               'This is optional. If you do not consent, your usage is not sent to analytics.'),
           const SizedBox(height: 8),

@@ -1075,11 +1075,19 @@ class _ScannerScreenState extends State<ScannerScreen>
                         title: Text(
                             AppLocalizations.of(context)?.selectLanguage ??
                                 'Select Language'),
-                        content: SizedBox(
-                          width: double.maxFinite,
-                          height: MediaQuery.of(context).size.height * 0.55,
-                          child: ListView(
-                            children: [
+                        content: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            if (!premiumActive)
+                              const Padding(
+                                padding: EdgeInsets.only(bottom: 8),
+                                child: AdBanner(),
+                              ),
+                            SizedBox(
+                              width: double.maxFinite,
+                              height: MediaQuery.of(context).size.height * 0.55,
+                              child: ListView(
+                                children: [
                               _languageTile(
                                   AppLocalizations.of(context)?.norwegian ??
                                       'Norwegian',
@@ -1161,8 +1169,10 @@ class _ScannerScreenState extends State<ScannerScreen>
                                       'ภาษาไทย',
                                   'th',
                                   setDialogState),
-                            ],
-                          ),
+                                ],
+                              ),
+                            ),
+                          ],
                         ),
                         actions: [
                           TextButton(
@@ -1221,6 +1231,11 @@ class _ScannerScreenState extends State<ScannerScreen>
                             'Select Alerts'),
                         content:
                             Column(mainAxisSize: MainAxisSize.min, children: [
+                          if (!premiumActive)
+                            const Padding(
+                              padding: EdgeInsets.only(bottom: 8),
+                              child: AdBanner(),
+                            ),
                           SwitchListTile(
                               title: Text(
                                   AppLocalizations.of(context)?.bovaerAlert ??
@@ -1262,6 +1277,41 @@ class _ScannerScreenState extends State<ScannerScreen>
                 },
               ),
               ListTile(
+                leading: const Icon(Icons.tips_and_updates),
+                title: const Text('Handleliste: minne og autofullfor'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                        title: const Text('Slik bruker du handleliste-minnet'),
+                        content: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            if (!premiumActive)
+                              const Padding(
+                                padding: EdgeInsets.only(bottom: 8),
+                                child: AdBanner(),
+                              ),
+                            const Text('Handlelisten har minne og autofullfor:'),
+                            const SizedBox(height: 8),
+                            const Text('1. + legger til akkurat det du skriver.'),
+                            const Text(
+                                '2. Enter legger til forslaget i skrivefeltet.'),
+                            const Text(
+                                '3. Trykk pa et produkt i minnelisten for a legge det til.'),
+                          ],
+                        ),
+                        actions: [
+                          TextButton(
+                            onPressed: () => _safePop(),
+                            child: Text(
+                                AppLocalizations.of(context)?.close ?? 'Close'),
+                          ),
+                        ],
+                      ));
+                },
+              ),
+              ListTile(
                 leading: const Icon(Icons.info),
                 title: Text(AppLocalizations.of(context)?.howAppWorks ??
                     'How the App Works'),
@@ -1271,7 +1321,18 @@ class _ScannerScreenState extends State<ScannerScreen>
                           title: Text(
                               AppLocalizations.of(context)?.howAppWorks ??
                                   'How the App Works'),
-                          content: Text(_howAppWorksText(context)),
+                          content: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              if (!premiumActive)
+                                const Padding(
+                                  padding: EdgeInsets.only(bottom: 8),
+                                  child: AdBanner(),
+                                ),
+                              Text(_howAppWorksText(context)),
+                            ],
+                          ),
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
@@ -1307,7 +1368,18 @@ class _ScannerScreenState extends State<ScannerScreen>
                   _safeShowDialogBuilder(
                     (_) => AlertDialog(
                       title: Text(_farmThemeTitle(context)),
-                      content: Text(_farmThemeBody(context)),
+                      content: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          if (!premiumActive)
+                            const Padding(
+                              padding: EdgeInsets.only(bottom: 8),
+                              child: AdBanner(),
+                            ),
+                          Text(_farmThemeBody(context)),
+                        ],
+                      ),
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
@@ -1332,7 +1404,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 title: Text(_privacyMenuLabel(context)),
                 onTap: () {
                   _safePop();
-                  _safeShowDialogBuilder((_) => const ConsentDialog());
+                  _safeShowDialogBuilder(
+                      (_) => ConsentDialog(showAdBanner: !premiumActive));
                 },
               ),
               ListTile(
@@ -1343,8 +1416,19 @@ class _ScannerScreenState extends State<ScannerScreen>
                   _safeShowDialogBuilder((_) => AlertDialog(
                           title: Text(AppLocalizations.of(context)?.appTitle ??
                               'Food Check'),
-                          content: const Text(
-                              'Version 1.8 – Built for honest food info.'),
+                          content: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              if (!premiumActive)
+                                const Padding(
+                                  padding: EdgeInsets.only(bottom: 8),
+                                  child: AdBanner(),
+                                ),
+                              const Text(
+                                  'Version 1.8 – Built for honest food info.'),
+                            ],
+                          ),
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
@@ -1450,16 +1534,24 @@ class _ScannerScreenState extends State<ScannerScreen>
       (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
           title: Text(_selectCountrySourcesTitle(context)),
-          content: SizedBox(
-            width: double.maxFinite,
-            child: ConstrainedBox(
-              constraints: BoxConstraints(
-                maxHeight: MediaQuery.of(context).size.height * 0.6,
-              ),
-              child: SingleChildScrollView(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: sortedLandCodes.map((code) {
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              if (!premiumActive)
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 8),
+                  child: AdBanner(),
+                ),
+              SizedBox(
+                width: double.maxFinite,
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(
+                    maxHeight: MediaQuery.of(context).size.height * 0.6,
+                  ),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: sortedLandCodes.map((code) {
                     final label = _countryName(code);
                     final selected = selectedCountry == code;
                     return ListTile(
@@ -1480,9 +1572,11 @@ class _ScannerScreenState extends State<ScannerScreen>
                       },
                     );
                   }).toList(),
+                    ),
+                  ),
                 ),
               ),
-            ),
+            ],
           ),
           actions: [
             TextButton(
