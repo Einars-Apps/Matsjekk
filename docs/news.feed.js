@@ -461,8 +461,36 @@ function buildIssueUrl(template, title, body) {
   return `${GITHUB_ISSUE_BASE_URL}?${params.toString()}`;
 }
 
-function openModerationIssue(url) {
-  window.open(url, '_blank', 'noopener');
+function openModerationIssue(url, pendingWindow) {
+  if (pendingWindow && !pendingWindow.closed) {
+    try {
+      pendingWindow.location.href = url;
+      return true;
+    } catch (_) {
+      // Fall through to regular open when direct navigation fails.
+    }
+  }
+  const popup = window.open(url, '_blank', 'noopener');
+  return !!popup;
+}
+
+function sourceFromUrl(url) {
+  const host = hostFromUrl(url).replace(/^www\./, '');
+  return host || 'Ukjent kilde';
+}
+
+function titleFromUrl(url) {
+  try {
+    const u = new URL(String(url || ''));
+    const parts = u.pathname.split('/').filter(Boolean);
+    const slug = decodeURIComponent(parts[parts.length - 1] || '').replace(/[-_]+/g, ' ').trim();
+    if (slug && slug.length >= 4) {
+      return slug.charAt(0).toUpperCase() + slug.slice(1);
+    }
+  } catch (_) {
+    // Ignore URL parse errors and use fallback.
+  }
+  return 'Ny artikkel foreslaatt';
 }
 
 function createNewsSubmissionIssueUrl(payload) {
@@ -819,15 +847,25 @@ function initNewsForm() {
     const urlEl = document.getElementById('article-url');
     const langEl = document.getElementById('article-lang');
 
-    const title = String((titleEl && titleEl.value) || '').trim();
-    const source = String((sourceEl && sourceEl.value) || '').trim() || 'Ukjent kilde';
+    const titleInput = String((titleEl && titleEl.value) || '').trim();
+    const sourceInput = String((sourceEl && sourceEl.value) || '').trim();
     const url = String((urlEl && urlEl.value) || '').trim();
     const language = normalizeLang(String((langEl && langEl.value) || 'nb')) || 'nb';
+    const title = titleInput || titleFromUrl(url);
+    const source = sourceInput || sourceFromUrl(url);
     const neutrality = neutralityAssessment({ title, source, url, language });
 
-    if (!title || !url) {
-      if (status) status.textContent = 'Tittel og URL ma fylles ut.';
+    if (!url) {
+      if (status) status.textContent = 'URL ma fylles ut.';
       return;
+    }
+
+    let pendingWindow = null;
+    try {
+      // Open synchronously from click event to avoid popup-blockers after await.
+      pendingWindow = window.open('', '_blank', 'noopener');
+    } catch (_) {
+      pendingWindow = null;
     }
 
     const userCountry = await detectCountryCodeFromGeo();
@@ -846,16 +884,19 @@ function initNewsForm() {
     });
     savePendingSubmissions(pending.slice(-200));
 
-    openModerationIssue(issueUrl);
+    const opened = openModerationIssue(issueUrl, pendingWindow);
 
     if (status) {
-      status.textContent = 'Innsending sendt til moderering. Redaksjonen ma godkjenne for publisering.';
+      status.innerHTML = opened
+        ? 'Innsending sendt til moderering. Et GitHub-skjema er aapnet i ny fane.'
+        : `Innsending klargjort for moderering. <a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener">Trykk her for aa aapne modereringsskjema</a>.`;
     }
 
     if (titleEl) titleEl.value = '';
     if (sourceEl) sourceEl.value = '';
     if (urlEl) urlEl.value = '';
-    if (form) form.classList.add('hidden');
+    if (langEl) langEl.value = 'nb';
+    if (form) form.classList.remove('hidden');
   });
 }
 

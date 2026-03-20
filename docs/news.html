@@ -77,8 +77,8 @@
 
       <div id="news-form" class="news-form hidden">
         <h3 data-translate="newsFormHeading">Legg til artikkel</h3>
-        <label><span data-translate="newsFormTitleLabel">Tittel</span><br><input id="article-title" type="text"></label>
-        <label><span data-translate="newsFormSourceLabel">Kilde</span><br><input id="article-source" type="text"></label>
+        <label><span data-translate="newsFormTitleLabel">Tittel (valgfri)</span><br><input id="article-title" type="text" placeholder="Valgfri - hentes fra URL hvis tom"></label>
+        <label><span data-translate="newsFormSourceLabel">Kilde (valgfri)</span><br><input id="article-source" type="text" placeholder="Valgfri - hentes fra URL hvis tom"></label>
         <label><span data-translate="newsFormUrlLabel">URL</span><br><input id="article-url" type="url"></label>
         <label><span data-translate="newsFormLanguageLabel">Sprak</span><br>
           <select id="article-lang">
@@ -87,7 +87,7 @@
           </select>
         </label>
         <div class="form-actions">
-          <button id="save-article" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
+          <button id="save-article" type="button" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
           <button id="cancel-article" type="button" class="btn" data-translate="cancel">Avbryt</button>
         </div>
         <p id="news-form-status" class="muted"></p>
