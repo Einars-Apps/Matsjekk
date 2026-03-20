@@ -36,7 +36,8 @@ class AppLocalizationsIt extends AppLocalizations {
   String get howAppWorks => 'Come l\'app recupera le informazioni';
 
   @override
-  String get appDescription => 'L\'app utilizza Open Food Facts e un elenco interno di marchi per identificare prodotti con Bovaer, farina di insetti, mangimi OGM e altri ingredienti controversi.';
+  String get appDescription =>
+      'L\'app utilizza Open Food Facts e un elenco interno di marchi per identificare prodotti con Bovaer, farina di insetti, mangimi OGM e altri ingredienti controversi.';
 
   @override
   String get alerts => 'Seleziona avvisi';
@@ -63,13 +64,16 @@ class AppLocalizationsIt extends AppLocalizations {
   String get unknown => 'SCONOSCIUTO';
 
   @override
-  String get bovaerRiskDesc => 'Il produttore è direttamente collegato a Bovaer.';
+  String get bovaerRiskDesc =>
+      'Il produttore è direttamente collegato a Bovaer.';
 
   @override
-  String get insectMealRiskDesc => 'Il prodotto può contenere farina di insetti.';
+  String get insectMealRiskDesc =>
+      'Il prodotto può contenere farina di insetti.';
 
   @override
-  String get gmoFishRiskDesc => 'Il produttore è collegato all\'uso di mangimi OGM.';
+  String get gmoFishRiskDesc =>
+      'Il produttore è collegato all\'uso di mangimi OGM.';
 
   @override
   String get safeDesc => 'Il prodotto è certificato biologico.';
@@ -141,7 +145,25 @@ class AppLocalizationsIt extends AppLocalizations {
   String get portuguese => 'Portoghese';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Finlandese';
+
+  @override
+  String get korean => 'Coreano';
+
+  @override
+  String get polish => 'Polacco';
+
+  @override
+  String get russian => 'Russo';
+
+  @override
+  String get chinese => 'Cinese';
+
+  @override
+  String get arabic => 'Arabo';
+
+  @override
+  String get thai => 'Thailandese';
 
   @override
   String get changeListName => 'Cambia nome lista';
@@ -183,32 +205,107 @@ class AppLocalizationsIt extends AppLocalizations {
   String get noAdditionsFound => 'Nessun additivo E trovato nel database.';
 
   @override
-  String get disclaimer => 'Disclaimer: Queste informazioni sono solo a scopo informativo e basate su dati disponibili al pubblico. Per informazioni 100% accurate, consultare l\'imballaggio del prodotto o contattare il produttore.';
+  String get disclaimer =>
+      'Disclaimer: Queste informazioni sono solo a scopo informativo e basate su dati disponibili al pubblico. Per informazioni 100% accurate, consultare l\'imballaggio del prodotto o contattare il produttore.';
 
   @override
-  String get bovaerHighRisk => 'RISCHIO ALTO: Il marchio è un utilizzatore confermato di Bovaer o appartiene a un produttore che lo è.';
+  String get bovaerHighRisk =>
+      'RISCHIO ALTO: Il marchio è un utilizzatore confermato di Bovaer o appartiene a un produttore che lo è.';
 
   @override
-  String get gmoHighRisk => 'RISCHIO ALTO: Il produttore è collegato all\'uso di mangimi OGM.';
+  String get gmoHighRisk =>
+      'RISCHIO ALTO: Il produttore è collegato all\'uso di mangimi OGM.';
 
   @override
-  String get bovaerPossibleRisk => 'INCERTO: Il prodotto può contenere latte di un caseificio che riceve latte da allevamenti con Bovaer.';
+  String get bovaerPossibleRisk =>
+      'INCERTO: Il prodotto può contenere latte di un caseificio che riceve latte da allevamenti con Bovaer.';
 
   @override
   String get safeProduct => 'SICURO: Il prodotto è certificato biologico.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Cerca... (es. latte)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Elimina';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Eliminare la lista?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Sei sicuro? Questo eliminerà anche la cronologia della lista.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Prodotto sconosciuto';
+
+  @override
+  String get removeAds => 'Rimuovi annunci';
+
+  @override
+  String get removeAdsInfo =>
+      'Rimuovi gli annunci per avere più spazio nella lista della spesa';
+
+  @override
+  String get removeAdsMenuItem =>
+      'Rimuovi annunci (49 kr) - supporta lo sviluppo continuo';
+
+  @override
+  String get premiumTitle => 'Rimuovi annunci';
+
+  @override
+  String get premiumActiveStatus => 'Senza annunci è attivo';
+
+  @override
+  String get premiumInactiveStatus => 'Senza annunci non è ancora attivo';
+
+  @override
+  String get buyAdFreeTitle => 'Acquista versione senza annunci';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'Acquisto unico. Nessun abbonamento.\nDopo la conferma dell\'acquisto, gli annunci vengono rimossi permanentemente per questo account.';
+
+  @override
+  String get storeUnavailable =>
+      'Il negozio non è disponibile al momento. Riprova più tardi.';
+
+  @override
+  String get productsLoadFailed =>
+      'Impossibile caricare i prodotti di acquisto. Controlla la rete e riprova.';
+
+  @override
+  String get tryAgain => 'Riprova';
+
+  @override
+  String get oneTimePurchaseLabel => 'acquisto unico';
+
+  @override
+  String get buyPermanently => 'Acquista permanentemente';
+
+  @override
+  String get restorePurchases => 'Ripristina acquisti';
+
+  @override
+  String get analyticsEnabled => 'Grazie – analisi attivata.';
+
+  @override
+  String get analyticsDisabled => 'Analisi disattivata.';
+
+  @override
+  String get privacy => 'Privacy';
+
+  @override
+  String get adFreeActive => 'Senza annunci (attivo)';
+
+  @override
+  String get consentLocalOnly =>
+      'L\'app continua a funzionare e i dati possono rimanere solo sul tuo dispositivo.';
+
+  @override
+  String get allowAnonymousAnalytics => 'Consenti analisi anonima';
+
+  @override
+  String get consentOptional =>
+      'Questo è facoltativo. Se non acconsenti, i tuoi dati di utilizzo non vengono inviati all\'analisi.';
 }

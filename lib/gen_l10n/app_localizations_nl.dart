@@ -36,7 +36,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get howAppWorks => 'Hoe de app informatie ophaalt';
 
   @override
-  String get appDescription => 'De app gebruikt Open Food Facts en een interne merklijst om producten met Bovaer, insectenmeel, GMO-voer en andere controversiële ingrediënten te identificeren.';
+  String get appDescription =>
+      'De app gebruikt Open Food Facts en een interne merklijst om producten met Bovaer, insectenmeel, GMO-voer en andere controversiële ingrediënten te identificeren.';
 
   @override
   String get alerts => 'Selecteer waarschuwingen';
@@ -63,13 +64,15 @@ class AppLocalizationsNl extends AppLocalizations {
   String get unknown => 'ONBEKEND';
 
   @override
-  String get bovaerRiskDesc => 'De producent is rechtstreeks gekoppeld aan Bovaer.';
+  String get bovaerRiskDesc =>
+      'De producent is rechtstreeks gekoppeld aan Bovaer.';
 
   @override
   String get insectMealRiskDesc => 'Het product kan insectenmeel bevatten.';
 
   @override
-  String get gmoFishRiskDesc => 'De producent is gekoppeld aan het gebruik van GMO-voer.';
+  String get gmoFishRiskDesc =>
+      'De producent is gekoppeld aan het gebruik van GMO-voer.';
 
   @override
   String get safeDesc => 'Het product is gecertificeerd biologisch.';
@@ -141,7 +144,25 @@ class AppLocalizationsNl extends AppLocalizations {
   String get portuguese => 'Portugees';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Fins';
+
+  @override
+  String get korean => 'Koreaans';
+
+  @override
+  String get polish => 'Pools';
+
+  @override
+  String get russian => 'Russisch';
+
+  @override
+  String get chinese => 'Chinees';
+
+  @override
+  String get arabic => 'Arabisch';
+
+  @override
+  String get thai => 'Thais';
 
   @override
   String get changeListName => 'Naam van lijst wijzigen';
@@ -183,32 +204,107 @@ class AppLocalizationsNl extends AppLocalizations {
   String get noAdditionsFound => 'Geen E-nummers in database gevonden.';
 
   @override
-  String get disclaimer => 'Disclaimer: Deze informatie is alleen ter oriëntatie en gebaseerd op openbaar beschikbare gegevens. Voor 100% nauwkeurige informatie raadpleegt u de verpakking van het product of neemt u contact op met de fabrikant.';
+  String get disclaimer =>
+      'Disclaimer: Deze informatie is alleen ter oriëntatie en gebaseerd op openbaar beschikbare gegevens. Voor 100% nauwkeurige informatie raadpleegt u de verpakking van het product of neemt u contact op met de fabrikant.';
 
   @override
-  String get bovaerHighRisk => 'HOOG RISICO: Dit merk is een bevestigde Bovaer-gebruiker of behoort toe aan een producent die dat is.';
+  String get bovaerHighRisk =>
+      'HOOG RISICO: Dit merk is een bevestigde Bovaer-gebruiker of behoort toe aan een producent die dat is.';
 
   @override
-  String get gmoHighRisk => 'HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.';
+  String get gmoHighRisk =>
+      'HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.';
 
   @override
-  String get bovaerPossibleRisk => 'ONZEKER: Het product kan melk bevatten van een zuivelbedrijf dat melk ontvangt van Bovaer-boerderijen.';
+  String get bovaerPossibleRisk =>
+      'ONZEKER: Het product kan melk bevatten van een zuivelbedrijf dat melk ontvangt van Bovaer-boerderijen.';
 
   @override
   String get safeProduct => 'VEILIG: Het product is gecertificeerd biologisch.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Zoeken... (bijv. melk)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Verwijderen';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Lijst verwijderen?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Weet u het zeker? Dit verwijdert ook de geschiedenis van de lijst.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Onbekend product';
+
+  @override
+  String get removeAds => 'Advertenties verwijderen';
+
+  @override
+  String get removeAdsInfo =>
+      'Verwijder advertenties voor meer ruimte in de boodschappenlijst';
+
+  @override
+  String get removeAdsMenuItem =>
+      'Advertenties verwijderen (49 kr) - ondersteunt verdere ontwikkeling';
+
+  @override
+  String get premiumTitle => 'Advertenties verwijderen';
+
+  @override
+  String get premiumActiveStatus => 'Advertentievrij is actief';
+
+  @override
+  String get premiumInactiveStatus => 'Advertentievrij is nog niet geactiveerd';
+
+  @override
+  String get buyAdFreeTitle => 'Advertentievrije versie kopen';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'Eenmalige aankoop. Geen abonnement.\nNa bevestigde aankoop worden advertenties permanent verwijderd voor dit account.';
+
+  @override
+  String get storeUnavailable =>
+      'De winkel is momenteel niet beschikbaar. Probeer het later opnieuw.';
+
+  @override
+  String get productsLoadFailed =>
+      'Koopproducten konden niet worden geladen. Controleer uw netwerk en probeer het opnieuw.';
+
+  @override
+  String get tryAgain => 'Probeer opnieuw';
+
+  @override
+  String get oneTimePurchaseLabel => 'eenmalige aankoop';
+
+  @override
+  String get buyPermanently => 'Permanent kopen';
+
+  @override
+  String get restorePurchases => 'Aankopen herstellen';
+
+  @override
+  String get analyticsEnabled => 'Bedankt – analyse ingeschakeld.';
+
+  @override
+  String get analyticsDisabled => 'Analyse uitgeschakeld.';
+
+  @override
+  String get privacy => 'Privacy';
+
+  @override
+  String get adFreeActive => 'Advertentievrij (actief)';
+
+  @override
+  String get consentLocalOnly =>
+      'De app blijft werken en gegevens kunnen alleen op uw apparaat blijven.';
+
+  @override
+  String get allowAnonymousAnalytics => 'Anonieme analyse toestaan';
+
+  @override
+  String get consentOptional =>
+      'Dit is optioneel. Als u niet akkoord gaat, worden er geen gebruiksgegevens naar analyse verzonden.';
 }

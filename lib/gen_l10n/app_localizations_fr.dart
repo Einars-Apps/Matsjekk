@@ -36,7 +36,8 @@ class AppLocalizationsFr extends AppLocalizations {
   String get howAppWorks => 'Comment l\'application récupère les informations';
 
   @override
-  String get appDescription => 'L\'application utilise Open Food Facts et une liste interne de marques pour identifier les produits contenant du Bovaer, de la farine d\'insectes, des aliments OGM et d\'autres ingrédients controversés.';
+  String get appDescription =>
+      'L\'application utilise Open Food Facts et une liste interne de marques pour identifier les produits contenant du Bovaer, de la farine d\'insectes, des aliments OGM et d\'autres ingrédients controversés.';
 
   @override
   String get alerts => 'Sélectionner les alertes';
@@ -66,10 +67,12 @@ class AppLocalizationsFr extends AppLocalizations {
   String get bovaerRiskDesc => 'Le producteur est directement lié à Bovaer.';
 
   @override
-  String get insectMealRiskDesc => 'Le produit peut contenir de la farine d\'insectes.';
+  String get insectMealRiskDesc =>
+      'Le produit peut contenir de la farine d\'insectes.';
 
   @override
-  String get gmoFishRiskDesc => 'Le producteur est lié à l\'utilisation d\'aliments OGM.';
+  String get gmoFishRiskDesc =>
+      'Le producteur est lié à l\'utilisation d\'aliments OGM.';
 
   @override
   String get safeDesc => 'Le produit est certifié biologique.';
@@ -141,7 +144,25 @@ class AppLocalizationsFr extends AppLocalizations {
   String get portuguese => 'Portugais';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Finlandais';
+
+  @override
+  String get korean => 'Coréen';
+
+  @override
+  String get polish => 'Polonais';
+
+  @override
+  String get russian => 'Russe';
+
+  @override
+  String get chinese => 'Chinois';
+
+  @override
+  String get arabic => 'Arabe';
+
+  @override
+  String get thai => 'Thaïlandais';
 
   @override
   String get changeListName => 'Modifier le nom de la liste';
@@ -180,35 +201,111 @@ class AppLocalizationsFr extends AppLocalizations {
   String get identifiedAdditions => 'Additifs E identifiés';
 
   @override
-  String get noAdditionsFound => 'Aucun additif E trouvé dans la base de données.';
+  String get noAdditionsFound =>
+      'Aucun additif E trouvé dans la base de données.';
 
   @override
-  String get disclaimer => 'Clause de non-responsabilité : Ces informations sont à titre informatif uniquement et basées sur des données accessibles au public. Pour 100% d\'informations exactes, consultez l\'emballage du produit ou contactez le fabricant.';
+  String get disclaimer =>
+      'Clause de non-responsabilité : Ces informations sont à titre informatif uniquement et basées sur des données accessibles au public. Pour 100% d\'informations exactes, consultez l\'emballage du produit ou contactez le fabricant.';
 
   @override
-  String get bovaerHighRisk => 'RISQUE ÉLEVÉ : Cette marque est un utilisateur confirmé de Bovaer ou appartient à un producteur qui l\'est.';
+  String get bovaerHighRisk =>
+      'RISQUE ÉLEVÉ : Cette marque est un utilisateur confirmé de Bovaer ou appartient à un producteur qui l\'est.';
 
   @override
-  String get gmoHighRisk => 'RISQUE ÉLEVÉ : Le producteur est lié à l\'utilisation d\'aliments OGM.';
+  String get gmoHighRisk =>
+      'RISQUE ÉLEVÉ : Le producteur est lié à l\'utilisation d\'aliments OGM.';
 
   @override
-  String get bovaerPossibleRisk => 'INCERTAIN : Le produit peut contenir du lait d\'une laiterie qui reçoit du lait de fermes Bovaer.';
+  String get bovaerPossibleRisk =>
+      'INCERTAIN : Le produit peut contenir du lait d\'une laiterie qui reçoit du lait de fermes Bovaer.';
 
   @override
   String get safeProduct => 'SÛR : Le produit est certifié biologique.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Rechercher... (ex. lait)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Supprimer';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Supprimer la liste ?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Êtes-vous sûr ? Cela supprimera également l\'historique de la liste.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Produit inconnu';
+
+  @override
+  String get removeAds => 'Supprimer les publicités';
+
+  @override
+  String get removeAdsInfo =>
+      'Supprimez les publicités pour plus d\'espace dans la liste de courses';
+
+  @override
+  String get removeAdsMenuItem =>
+      'Supprimer les publicités (49 kr) - soutient le développement';
+
+  @override
+  String get premiumTitle => 'Supprimer les publicités';
+
+  @override
+  String get premiumActiveStatus => 'Sans publicité est actif';
+
+  @override
+  String get premiumInactiveStatus => 'Sans publicité n\'est pas encore activé';
+
+  @override
+  String get buyAdFreeTitle => 'Acheter la version sans publicité';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'Achat unique. Pas d\'abonnement.\nAprès confirmation de l\'achat, les publicités sont supprimées définitivement pour ce compte.';
+
+  @override
+  String get storeUnavailable =>
+      'Le magasin n\'est pas disponible actuellement. Veuillez réessayer plus tard.';
+
+  @override
+  String get productsLoadFailed =>
+      'Impossible de charger les produits d\'achat. Vérifiez votre réseau et réessayez.';
+
+  @override
+  String get tryAgain => 'Réessayer';
+
+  @override
+  String get oneTimePurchaseLabel => 'achat unique';
+
+  @override
+  String get buyPermanently => 'Acheter définitivement';
+
+  @override
+  String get restorePurchases => 'Restaurer les achats';
+
+  @override
+  String get analyticsEnabled => 'Merci – analyse activée.';
+
+  @override
+  String get analyticsDisabled => 'Analyse désactivée.';
+
+  @override
+  String get privacy => 'Confidentialité';
+
+  @override
+  String get adFreeActive => 'Sans publicité (actif)';
+
+  @override
+  String get consentLocalOnly =>
+      'L\'application continue de fonctionner et les données peuvent rester uniquement sur votre appareil.';
+
+  @override
+  String get allowAnonymousAnalytics => 'Autoriser l\'analyse anonyme';
+
+  @override
+  String get consentOptional =>
+      'C\'est facultatif. Si vous ne consentez pas, vos données d\'utilisation ne sont pas envoyées à l\'analyse.';
 }

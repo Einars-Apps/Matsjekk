@@ -36,7 +36,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get howAppWorks => 'Sådan henter appen oplysninger';
 
   @override
-  String get appDescription => 'Appen bruger Open Food Facts og en intern mærkeliste til at identificere produkter med Bovaer, insektmel, GMO-foder og andre kontroversielle ingredienser.';
+  String get appDescription =>
+      'Appen bruger Open Food Facts og en intern mærkeliste til at identificere produkter med Bovaer, insektmel, GMO-foder og andre kontroversielle ingredienser.';
 
   @override
   String get alerts => 'Vælg advarsler';
@@ -69,7 +70,8 @@ class AppLocalizationsDa extends AppLocalizations {
   String get insectMealRiskDesc => 'Produktet kan indeholde insektmel.';
 
   @override
-  String get gmoFishRiskDesc => 'Producenten er forbundet med brugen af GMO-foder.';
+  String get gmoFishRiskDesc =>
+      'Producenten er forbundet med brugen af GMO-foder.';
 
   @override
   String get safeDesc => 'Produktet er mærket som økologisk.';
@@ -141,7 +143,25 @@ class AppLocalizationsDa extends AppLocalizations {
   String get portuguese => 'Portugisisk';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Finsk';
+
+  @override
+  String get korean => 'Koreansk';
+
+  @override
+  String get polish => 'Polsk';
+
+  @override
+  String get russian => 'Russisk';
+
+  @override
+  String get chinese => 'Kinesisk';
+
+  @override
+  String get arabic => 'Arabisk';
+
+  @override
+  String get thai => 'Thailandsk';
 
   @override
   String get changeListName => 'Skift listenavn';
@@ -183,32 +203,106 @@ class AppLocalizationsDa extends AppLocalizations {
   String get noAdditionsFound => 'Ingen E-numre fundet i databasen.';
 
   @override
-  String get disclaimer => 'Ansvarsfraskrivelse: Disse oplysninger er kun vejledende og baseret på offentligt tilgængelige data. For 100% nøjagtige oplysninger skal du se produktets emballage eller kontakte producenten.';
+  String get disclaimer =>
+      'Ansvarsfraskrivelse: Disse oplysninger er kun vejledende og baseret på offentligt tilgængelige data. For 100% nøjagtige oplysninger skal du se produktets emballage eller kontakte producenten.';
 
   @override
-  String get bovaerHighRisk => 'HØJ RISIKO: Mærket er bekræftet bruger af Bovaer, eller tilhører en producent som er det.';
+  String get bovaerHighRisk =>
+      'HØJ RISIKO: Mærket er bekræftet bruger af Bovaer, eller tilhører en producent som er det.';
 
   @override
-  String get gmoHighRisk => 'HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.';
+  String get gmoHighRisk =>
+      'HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.';
 
   @override
-  String get bovaerPossibleRisk => 'USIKKER: Produktet kan indeholde mælk fra et mejeri, der modtager mælk fra Bovaer-landmænd.';
+  String get bovaerPossibleRisk =>
+      'USIKKER: Produktet kan indeholde mælk fra et mejeri, der modtager mælk fra Bovaer-landmænd.';
 
   @override
   String get safeProduct => 'SIKKER: Produktet er mærket som økologisk.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Søg... (f.eks. mælk)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Slet';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Slet liste?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage =>
+      'Er du sikker? Dette vil også slette historikken for listen.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Ukendt produkt';
+
+  @override
+  String get removeAds => 'Fjern reklamer';
+
+  @override
+  String get removeAdsInfo => 'Fjern reklamer for mere plads i indkøbslisten';
+
+  @override
+  String get removeAdsMenuItem =>
+      'Fjern reklamer (49 kr) - støtter videre udvikling';
+
+  @override
+  String get premiumTitle => 'Fjern reklamer';
+
+  @override
+  String get premiumActiveStatus => 'Reklamefri er aktiv';
+
+  @override
+  String get premiumInactiveStatus => 'Reklamefri er ikke aktiveret endnu';
+
+  @override
+  String get buyAdFreeTitle => 'Køb reklamefri version';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'Engangskøb. Intet abonnement.\nEfter bekræftet køb fjernes reklamer permanent for denne konto.';
+
+  @override
+  String get storeUnavailable =>
+      'Butikken er ikke tilgængelig lige nu. Prøv igen senere.';
+
+  @override
+  String get productsLoadFailed =>
+      'Kunne ikke indlæse købsprodukter. Tjek dit netværk og prøv igen.';
+
+  @override
+  String get tryAgain => 'Prøv igen';
+
+  @override
+  String get oneTimePurchaseLabel => 'engangskøb';
+
+  @override
+  String get buyPermanently => 'Køb permanent';
+
+  @override
+  String get restorePurchases => 'Gendan køb';
+
+  @override
+  String get analyticsEnabled => 'Tak – analyse aktiveret.';
+
+  @override
+  String get analyticsDisabled => 'Analyse deaktiveret.';
+
+  @override
+  String get privacy => 'Privatliv';
+
+  @override
+  String get adFreeActive => 'Reklamefri (aktiv)';
+
+  @override
+  String get consentLocalOnly =>
+      'Appen fungerer stadig, og data kan forblive kun på din enhed.';
+
+  @override
+  String get allowAnonymousAnalytics => 'Tillad anonym analyse';
+
+  @override
+  String get consentOptional =>
+      'Dette er valgfrit. Hvis du ikke giver samtykke, sendes ingen brugsdata til analyse.';
 }

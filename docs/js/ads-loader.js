@@ -1,15 +1,42 @@
-// Minimal ads loader used as a safe stub before real ad network integration
+// AdSense loader — integrates with the consent system in consent.js
 (function(){
-  function loadInto(container){
-    // Example placeholder content. Replace with network-specific code after obtaining account.
-    container.innerHTML = `
-      <div class="ad-stub">
-        <div class="ad-stub-title">Annonse (stub)</div>
-        <div class="ad-stub-body">Dette er en annonse‑plassering. Når du har en annonsekonto, bytt denne stubben med nettverkskoden og sett data-ad-src på .ad-box.</div>
-      </div>`;
+  var CLIENT_ID = 'ca-pub-2847767410024665';
+  var scriptLoaded = false;
+
+  function ensureAdSenseScript(callback) {
+    if (scriptLoaded) { if (callback) callback(); return; }
+    var s = document.createElement('script');
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + CLIENT_ID;
+    s.crossOrigin = 'anonymous';
+    s.async = true;
+    s.onload = function() {
+      scriptLoaded = true;
+      if (callback) callback();
+    };
+    s.onerror = function() {
+      console.warn('AdSense script failed to load');
+    };
+    document.head.appendChild(s);
+  }
+
+  function loadInto(container) {
+    ensureAdSenseScript(function() {
+      var slot = container.getAttribute('data-ad-slot') || '';
+      container.innerHTML = '';
+      var ins = document.createElement('ins');
+      ins.className = 'adsbygoogle';
+      ins.style.display = 'block';
+      ins.setAttribute('data-ad-client', CLIENT_ID);
+      if (slot) ins.setAttribute('data-ad-slot', slot);
+      ins.setAttribute('data-ad-format', 'auto');
+      ins.setAttribute('data-full-width-responsive', 'true');
+      container.appendChild(ins);
+      try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
+    });
   }
 
   window.MatSjekkAds = {
-    loadInto: loadInto
+    loadInto: loadInto,
+    ensureScript: ensureAdSenseScript
   };
 })();

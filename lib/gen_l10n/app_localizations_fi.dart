@@ -36,7 +36,8 @@ class AppLocalizationsFi extends AppLocalizations {
   String get howAppWorks => 'Kuinka sovellus toimii';
 
   @override
-  String get appDescription => 'Sovellus käyttää Open Food Facts -tietokantaa ja sisäistä merkkilistaa havaitakseen tuotteita, joissa voi olla Bovaer, hyönteislantaa, GMO-rehua ja muita kiistanalaisia aineosia.';
+  String get appDescription =>
+      'Sovellus käyttää Open Food Facts -tietokantaa ja sisäistä merkkilistaa havaitakseen tuotteita, joissa voi olla Bovaer, hyönteislantaa, GMO-rehua ja muita kiistanalaisia aineosia.';
 
   @override
   String get alerts => 'Valitse hälytykset';
@@ -144,6 +145,24 @@ class AppLocalizationsFi extends AppLocalizations {
   String get finnish => 'Suomi';
 
   @override
+  String get korean => 'Korea';
+
+  @override
+  String get polish => 'Puola';
+
+  @override
+  String get russian => 'Venäjä';
+
+  @override
+  String get chinese => 'Kiina';
+
+  @override
+  String get arabic => 'Arabia';
+
+  @override
+  String get thai => 'Thai';
+
+  @override
   String get changeListName => 'Vaihda listan nimeä';
 
   @override
@@ -183,16 +202,20 @@ class AppLocalizationsFi extends AppLocalizations {
   String get noAdditionsFound => 'Ei E-aineita tietokannassa.';
 
   @override
-  String get disclaimer => 'Vastuuvapaus: Tämä tieto on ohjeellinen ja perustuu julkisesti saatavilla olevaan dataan. Tarkista tuotteen pakkauksesta tai ota yhteyttä valmistajaan saadaksesi 100% tarkan tiedon.';
+  String get disclaimer =>
+      'Vastuuvapaus: Tämä tieto on ohjeellinen ja perustuu julkisesti saatavilla olevaan dataan. Tarkista tuotteen pakkauksesta tai ota yhteyttä valmistajaan saadaksesi 100% tarkan tiedon.';
 
   @override
-  String get bovaerHighRisk => 'KORKEA RISKI: Tämä merkki on vahvistettu Bovaer-käyttäjä tai kuuluu sellaiselle valmistajalle.';
+  String get bovaerHighRisk =>
+      'KORKEA RISKI: Tämä merkki on vahvistettu Bovaer-käyttäjä tai kuuluu sellaiselle valmistajalle.';
 
   @override
-  String get gmoHighRisk => 'KORKEA RISKI: Valmistaja liittyy GMO-rehun käyttöön.';
+  String get gmoHighRisk =>
+      'KORKEA RISKI: Valmistaja liittyy GMO-rehun käyttöön.';
 
   @override
-  String get bovaerPossibleRisk => 'EPÄVARMA: Tuote voi sisältää maitoa meijeristä, joka vastaanottaa maitoa Bovaer-tiloilta.';
+  String get bovaerPossibleRisk =>
+      'EPÄVARMA: Tuote voi sisältää maitoa meijeristä, joka vastaanottaa maitoa Bovaer-tiloilta.';
 
   @override
   String get safeProduct => 'TURVALLINEN: Tuote on luomusertifioitu.';
@@ -207,8 +230,79 @@ class AppLocalizationsFi extends AppLocalizations {
   String get deleteListConfirmTitle => 'Poistetaanko lista?';
 
   @override
-  String get deleteListConfirmMessage => 'Haluatko varmasti poistaa? Tämä poistaa myös listan historian.';
+  String get deleteListConfirmMessage =>
+      'Haluatko varmasti poistaa? Tämä poistaa myös listan historian.';
 
   @override
   String get unknownProduct => 'Tuntematon tuote';
+
+  @override
+  String get removeAds => 'Poista mainokset';
+
+  @override
+  String get removeAdsInfo =>
+      'Poista mainokset saadaksesi lisää tilaa ostoslistaan';
+
+  @override
+  String get removeAdsMenuItem =>
+      'Poista mainokset (49 kr) - tukee jatkokehitystä';
+
+  @override
+  String get premiumTitle => 'Poista mainokset';
+
+  @override
+  String get premiumActiveStatus => 'Mainokseton on aktiivinen';
+
+  @override
+  String get premiumInactiveStatus => 'Mainokseton ei ole vielä aktiivinen';
+
+  @override
+  String get buyAdFreeTitle => 'Osta mainokseton versio';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'Kertaostos. Ei tilausta.\nOston vahvistamisen jälkeen mainokset poistetaan pysyvästi tältä tililtä.';
+
+  @override
+  String get storeUnavailable =>
+      'Kauppa ei ole käytettävissä juuri nyt. Yritä myöhemmin uudelleen.';
+
+  @override
+  String get productsLoadFailed =>
+      'Ostotuotteita ei voitu ladata. Tarkista verkko ja yritä uudelleen.';
+
+  @override
+  String get tryAgain => 'Yritä uudelleen';
+
+  @override
+  String get oneTimePurchaseLabel => 'kertaostos';
+
+  @override
+  String get buyPermanently => 'Osta pysyvästi';
+
+  @override
+  String get restorePurchases => 'Palauta ostokset';
+
+  @override
+  String get analyticsEnabled => 'Kiitos – analytiikka käytössä.';
+
+  @override
+  String get analyticsDisabled => 'Analytiikka pois käytöstä.';
+
+  @override
+  String get privacy => 'Tietosuoja';
+
+  @override
+  String get adFreeActive => 'Mainokseton (aktiivinen)';
+
+  @override
+  String get consentLocalOnly =>
+      'Sovellus toimii edelleen, ja tiedot voidaan säilyttää vain laitteellasi.';
+
+  @override
+  String get allowAnonymousAnalytics => 'Salli anonyymi analytiikka';
+
+  @override
+  String get consentOptional =>
+      'Tämä on vapaaehtoista. Jos et anna suostumusta, käyttötietoja ei lähetetä analytiikkaan.';
 }

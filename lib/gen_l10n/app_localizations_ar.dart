@@ -1,0 +1,307 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Arabic (`ar`).
+class AppLocalizationsAr extends AppLocalizations {
+  AppLocalizationsAr([String locale = 'ar']) : super(locale);
+
+  @override
+  String get appTitle => 'فحص الطعام';
+
+  @override
+  String get scanBarcode => 'مسح الباركود';
+
+  @override
+  String get productNotFound => 'لم يتم العثور على المنتج في قاعدة البيانات.';
+
+  @override
+  String get addToList => 'أضف إلى قائمة التسوق';
+
+  @override
+  String get shoppingLists => 'قوائم التسوق';
+
+  @override
+  String get history => 'السجل';
+
+  @override
+  String get settings => 'الإعدادات';
+
+  @override
+  String get about => 'حول';
+
+  @override
+  String get howAppWorks => 'كيف يعمل التطبيق';
+
+  @override
+  String get appDescription =>
+      'يستخدم التطبيق Open Food Facts وقائمة علامات تجارية داخلية لاكتشاف المنتجات المرتبطة بـ Bovaer ومسحوق الحشرات وأعلاف GMO ومكونات أخرى مثيرة للجدل.';
+
+  @override
+  String get alerts => 'اختر التنبيهات';
+
+  @override
+  String get bovaerAlert => 'تنبيه Bovaer';
+
+  @override
+  String get insectMealAlert => 'تنبيه مسحوق الحشرات';
+
+  @override
+  String get gmoFishAlert => 'تنبيه علف GMO للأسماك';
+
+  @override
+  String get highRisk => 'مخاطر عالية';
+
+  @override
+  String get possibleRisk => 'مخاطر محتملة';
+
+  @override
+  String get safe => 'آمن';
+
+  @override
+  String get unknown => 'غير معروف';
+
+  @override
+  String get bovaerRiskDesc => 'المنتج مرتبط مباشرةً بـ Bovaer.';
+
+  @override
+  String get insectMealRiskDesc => 'قد يحتوي المنتج على مسحوق الحشرات.';
+
+  @override
+  String get gmoFishRiskDesc => 'المنتج مرتبط باستخدام علف GMO للأسماك.';
+
+  @override
+  String get safeDesc => 'المنتج حاصل على شهادة عضوية.';
+
+  @override
+  String get nutriScore => 'Nutri-Score';
+
+  @override
+  String get traceability => 'إمكانية التتبع';
+
+  @override
+  String get beta => 'بيتا';
+
+  @override
+  String get close => 'إغلاق';
+
+  @override
+  String get create => 'إنشاء';
+
+  @override
+  String get search => 'بحث';
+
+  @override
+  String get searchProducts => 'البحث عن المنتجات';
+
+  @override
+  String get noResults => 'لا توجد نتائج';
+
+  @override
+  String get newList => 'قائمة جديدة';
+
+  @override
+  String get deleteList => 'اضغط مطولاً للحذف';
+
+  @override
+  String get language => 'اللغة';
+
+  @override
+  String get selectLanguage => 'اختر اللغة';
+
+  @override
+  String get norwegian => 'النرويجية';
+
+  @override
+  String get swedish => 'السويدية';
+
+  @override
+  String get danish => 'الدنماركية';
+
+  @override
+  String get dutch => 'الهولندية';
+
+  @override
+  String get french => 'الفرنسية';
+
+  @override
+  String get english => 'الإنجليزية';
+
+  @override
+  String get german => 'الألمانية';
+
+  @override
+  String get italian => 'الإيطالية';
+
+  @override
+  String get spanish => 'الإسبانية';
+
+  @override
+  String get portuguese => 'البرتغالية';
+
+  @override
+  String get finnish => 'الفنلندية';
+
+  @override
+  String get korean => 'الكورية';
+
+  @override
+  String get polish => 'البولندية';
+
+  @override
+  String get russian => 'الروسية';
+
+  @override
+  String get chinese => 'الصينية';
+
+  @override
+  String get arabic => 'العربية';
+
+  @override
+  String get thai => 'التايلاندية';
+
+  @override
+  String get changeListName => 'تغيير اسم القائمة';
+
+  @override
+  String get cancel => 'إلغاء';
+
+  @override
+  String get save => 'حفظ';
+
+  @override
+  String get manualAddItem => 'إضافة عنصر يدويًا...';
+
+  @override
+  String get emptyList => 'القائمة فارغة';
+
+  @override
+  String get noHistory => 'لا يوجد سجل لهذه القائمة';
+
+  @override
+  String get globalHistory => 'السجل العام';
+
+  @override
+  String get newShoppingList => 'قائمة تسوق جديدة';
+
+  @override
+  String get listName => 'اسم القائمة';
+
+  @override
+  String get noHistoryFound => 'لم يتم العثور على سجل';
+
+  @override
+  String get addedItems => 'أرقام E';
+
+  @override
+  String get identifiedAdditions => 'أرقام E المكتشفة';
+
+  @override
+  String get noAdditionsFound => 'لم يتم العثور على أرقام E في قاعدة البيانات.';
+
+  @override
+  String get disclaimer =>
+      'إخلاء مسؤولية: هذه المعلومات للإرشاد فقط وتعتمد على بيانات متاحة للعامة. للحصول على معلومات دقيقة 100%، راجع عبوة المنتج أو تواصل مع الشركة المصنعة.';
+
+  @override
+  String get bovaerHighRisk =>
+      'مخاطر عالية: هذه العلامة التجارية مؤكدة الاستخدام لـ Bovaer أو تابعة لمنتج يستخدمه.';
+
+  @override
+  String get gmoHighRisk =>
+      'مخاطر عالية: المنتج مرتبط باستخدام أعلاف GMO للأسماك.';
+
+  @override
+  String get bovaerPossibleRisk =>
+      'غير مؤكد: قد يحتوي المنتج على حليب من ألبان تتلقى الحليب من مزارع تستخدم Bovaer.';
+
+  @override
+  String get safeProduct => 'آمن: المنتج حاصل على شهادة عضوية.';
+
+  @override
+  String get searchHint => 'بحث... (مثال: حليب)';
+
+  @override
+  String get delete => 'حذف';
+
+  @override
+  String get deleteListConfirmTitle => 'حذف القائمة؟';
+
+  @override
+  String get deleteListConfirmMessage =>
+      'هل أنت متأكد؟ سيؤدي هذا أيضًا إلى حذف سجل هذه القائمة.';
+
+  @override
+  String get unknownProduct => 'منتج غير معروف';
+
+  @override
+  String get removeAds => 'إزالة الإعلانات';
+
+  @override
+  String get removeAdsInfo =>
+      'أزل الإعلانات للحصول على مساحة أكبر في قائمة التسوق';
+
+  @override
+  String get removeAdsMenuItem =>
+      'إزالة الإعلانات (49 NOK) - دعم تطوير التطبيق';
+
+  @override
+  String get premiumTitle => 'إزالة الإعلانات';
+
+  @override
+  String get premiumActiveStatus => 'وضع بدون إعلانات نشط';
+
+  @override
+  String get premiumInactiveStatus => 'وضع بدون إعلانات غير نشط بعد';
+
+  @override
+  String get buyAdFreeTitle => 'شراء النسخة بدون إعلانات';
+
+  @override
+  String get oneTimePurchaseInfo =>
+      'شراء لمرة واحدة. بدون اشتراك.\nبعد تأكيد الشراء، ستتم إزالة الإعلانات نهائيًا لهذا الحساب.';
+
+  @override
+  String get storeUnavailable => 'المتجر غير متاح الآن. يرجى المحاولة لاحقًا.';
+
+  @override
+  String get productsLoadFailed =>
+      'تعذر تحميل منتجات الشراء. تحقق من الشبكة وحاول مرة أخرى.';
+
+  @override
+  String get tryAgain => 'حاول مرة أخرى';
+
+  @override
+  String get oneTimePurchaseLabel => 'شراء لمرة واحدة';
+
+  @override
+  String get buyPermanently => 'شراء دائم';
+
+  @override
+  String get restorePurchases => 'استعادة المشتريات';
+
+  @override
+  String get analyticsEnabled => 'شكرًا لك. تم تفعيل التحليلات المجهولة.';
+
+  @override
+  String get analyticsDisabled => 'تم تعطيل التحليلات المجهولة.';
+
+  @override
+  String get privacy => 'الخصوصية';
+
+  @override
+  String get adFreeActive => 'بدون إعلانات (نشط)';
+
+  @override
+  String get consentLocalOnly =>
+      'لا يزال التطبيق يعمل، ويمكن أن تبقى البيانات على جهازك فقط.';
+
+  @override
+  String get allowAnonymousAnalytics => 'السماح بتحليلات مجهولة';
+
+  @override
+  String get consentOptional =>
+      'هذا خيار اختياري. إذا لم توافق، فلن يتم إرسال بيانات الاستخدام إلى التحليلات.';
+}

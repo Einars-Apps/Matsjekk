@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
+import 'gen_l10n/app_localizations.dart';
 
 import 'premium_service.dart';
+import 'ad_banner.dart';
 
 class PremiumScreen extends StatefulWidget {
   final Box innstillingerBox;
@@ -41,9 +43,10 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fjern annonser'),
+        title: Text(l10n?.premiumTitle ?? 'Remove ads'),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
@@ -51,46 +54,67 @@ class _PremiumScreenState extends State<PremiumScreen> {
         padding: const EdgeInsets.all(16),
         child: ListView(
           children: [
-            Container(
-              padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(
-                color: _premiumService.isPremiumActive
-                    ? Colors.green.withAlpha((0.08 * 255).round())
-                    : Colors.orange.withAlpha((0.08 * 255).round()),
-                borderRadius: BorderRadius.circular(10),
-                border: Border.all(
-                  color:
-                      _premiumService.isPremiumActive ? Colors.green : Colors.orange,
+            if (!_premiumService.isPremiumActive)
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.orange.withAlpha((0.08 * 255).round()),
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Colors.orange),
+                ),
+                child: Row(
+                  children: [
+                    // Reklamebanner til venstre
+                    Expanded(
+                      flex: 2,
+                      child: AdBanner(),
+                    ),
+                    const SizedBox(width: 8),
+                    // Ad Free-knapp til høyre
+                    Expanded(
+                      flex: 1,
+                      child: ElevatedButton.icon(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.orange,
+                          foregroundColor: Colors.white,
+                        ),
+                        onPressed: () {
+                          // Scroll til kjøpsseksjon
+                          Scrollable.ensureVisible(
+                            context,
+                            duration: const Duration(milliseconds: 400),
+                          );
+                        },
+                        icon: const Icon(Icons.workspace_premium),
+                        label: Text(l10n?.buyAdFreeTitle ?? 'Buy ad-free'),
+                      ),
+                    ),
+                  ],
                 ),
               ),
-              child: Text(
-                _premiumService.isPremiumActive
-                    ? 'Annonsefri er aktiv ✅'
-                    : 'Annonsefri er ikke aktiv enda',
-                style: const TextStyle(fontWeight: FontWeight.w700),
-              ),
-            ),
-            const SizedBox(height: 12),
-            const Text(
-              'Kjøp annonsefri versjon',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            if (!_premiumService.isPremiumActive) const SizedBox(height: 12),
+            Text(
+              l10n?.buyAdFreeTitle ?? 'Buy ad-free version',
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
-            const Text(
-              'Engangskjøp. Ingen abonnement.\n'
-              'Når kjøpet er bekreftet fjernes annonser permanent på denne kontoen.',
+            Text(
+              l10n?.oneTimePurchaseInfo ??
+                  'One-time purchase. No subscription.\nAfter purchase confirmation, ads are removed permanently for this account.',
             ),
             const SizedBox(height: 16),
             if (_premiumService.isLoading)
               const Center(child: CircularProgressIndicator())
             else if (!_premiumService.isStoreAvailable)
-              const Text('Butikk utilgjengelig nå. Prøv igjen senere.')
+              Text(l10n?.storeUnavailable ??
+                  'Store is unavailable right now. Please try again later.')
             else if (_premiumService.products.isEmpty)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
+                  Text(
+                    l10n?.productsLoadFailed ??
+                        'Could not load purchase products. Check your network and try again.',
                   ),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
@@ -100,7 +124,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       setState(() {});
                     },
                     icon: const Icon(Icons.refresh),
-                    label: const Text('Prøv igjen'),
+                    label: Text(l10n?.tryAgain ?? 'Try again'),
                   ),
                 ],
               )
@@ -110,7 +134,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   child: ListTile(
                     title: Text(product.title),
                     subtitle: Text(
-                      '${product.price} • engangskjøp',
+                      '${product.price} • ${l10n?.oneTimePurchaseLabel ?? 'one-time purchase'}',
                     ),
                     trailing: _premiumService.isPremiumActive
                         ? const Icon(Icons.check_circle, color: Colors.green)
@@ -122,7 +146,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
                                   _premiumService.isPremiumActive);
                               setState(() {});
                             },
-                            child: const Text('Kjøp permanent'),
+                            child:
+                                Text(l10n?.buyPermanently ?? 'Buy permanently'),
                           ),
                   ),
                 ),
@@ -136,7 +161,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 setState(() {});
               },
               icon: const Icon(Icons.restore),
-              label: const Text('Gjenopprett kjøp'),
+              label: Text(l10n?.restorePurchases ?? 'Restore purchases'),
             ),
             if (_premiumService.lastMessage.isNotEmpty)
               Padding(

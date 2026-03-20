@@ -73,6 +73,7 @@ void main() async {
   await Hive.openBox('historikk');
   await Hive.openBox('innstillinger');
   await Hive.openBox('list_positions');
+  await Hive.openBox('product_memory');
   runApp(const MatvareSjekkApp());
 }
 
@@ -146,6 +147,12 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
         Locale('it'),
         Locale('pt'),
         Locale('es'),
+        Locale('ko'),
+        Locale('pl'),
+        Locale('ru'),
+        Locale('zh'),
+        Locale('ar'),
+        Locale('th'),
       ],
       locale: Locale(_currentLanguage),
       theme: ThemeData(
@@ -213,7 +220,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     WidgetsBinding.instance.addObserver(this);
     // Only create the real controller when not running tests.
     if (!_isTestEnv) {
-      controller = MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
+      controller =
+          MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
     }
     handlelisterBox = Hive.box('handlelister');
     historikkBox = Hive.box('historikk');
@@ -335,8 +343,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         innstillingerBox.get('selectedLanguage', defaultValue: 'nb');
     selectedCountry = innstillingerBox.get('selectedCountry',
         defaultValue: _defaultCountryCode());
-    premiumActive =
-      innstillingerBox.get(PremiumService.premiumActiveKey, defaultValue: false);
+    premiumActive = innstillingerBox.get(PremiumService.premiumActiveKey,
+        defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
   }
 
@@ -448,9 +456,194 @@ class _ScannerScreenState extends State<ScannerScreen>
     });
   }
 
-  String _farmShopsLabel(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+  String _menuLanguageCode(BuildContext context) {
+    return (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
         .toLowerCase();
+  }
+
+  String _countryDataSourcesMenuLabel(BuildContext context) {
+    switch (_menuLanguageCode(context)) {
+      case 'en':
+        return 'Country / data sources';
+      case 'sv':
+        return 'Land / datakällor';
+      case 'da':
+        return 'Land / datakilder';
+      case 'fi':
+        return 'Maa / tietolähteet';
+      case 'de':
+        return 'Land / Datenquellen';
+      case 'nl':
+        return 'Land / gegevensbronnen';
+      case 'fr':
+        return 'Pays / sources de donnees';
+      case 'it':
+        return 'Paese / fonti dati';
+      case 'pt':
+        return 'Pais / fontes de dados';
+      case 'es':
+        return 'Pais / fuentes de datos';
+      case 'ko':
+        return '국가 / 데이터 소스';
+      case 'pl':
+        return 'Kraj / zrodla danych';
+      case 'ru':
+        return 'Страна / источники данных';
+      case 'zh':
+        return '国家 / 数据来源';
+      case 'ar':
+        return 'البلد / مصادر البيانات';
+      case 'th':
+        return 'ประเทศ / แหล่งข้อมูล';
+      case 'nb':
+      default:
+        return 'Land / datakilder';
+    }
+  }
+
+  String _selectCountrySourcesTitle(BuildContext context) {
+    switch (_menuLanguageCode(context)) {
+      case 'en':
+        return 'Select country (prioritizes data sources)';
+      case 'sv':
+        return 'Valj land (prioriterar datakallor)';
+      case 'da':
+        return 'Vaelg land (prioriterer datakilder)';
+      case 'fi':
+        return 'Valitse maa (priorisoi lahteet)';
+      case 'de':
+        return 'Land auswahlen (priorisiert Datenquellen)';
+      case 'nl':
+        return 'Land kiezen (prioriteert gegevensbronnen)';
+      case 'fr':
+        return 'Choisir un pays (priorise les sources)';
+      case 'it':
+        return 'Seleziona paese (priorita alle fonti)';
+      case 'pt':
+        return 'Selecionar pais (prioriza fontes de dados)';
+      case 'es':
+        return 'Seleccionar pais (prioriza fuentes de datos)';
+      case 'ko':
+        return '국가 선택 (데이터 소스 우선)';
+      case 'pl':
+        return 'Wybierz kraj (priorytet zrodel danych)';
+      case 'ru':
+        return 'Выберите страну (приоритет источников данных)';
+      case 'zh':
+        return '选择国家（优先数据来源）';
+      case 'ar':
+        return 'اختر البلد (ترتيب أولويات مصادر البيانات)';
+      case 'th':
+        return 'เลือกประเทศ (จัดลําดับแหล่งข้อมูล)';
+      case 'nb':
+      default:
+        return 'Velg land (prioriterer kilder)';
+    }
+  }
+
+  String _countryName(String code) {
+    switch (code.toUpperCase()) {
+      case 'NO':
+        return 'Norway';
+      case 'SE':
+        return 'Sweden';
+      case 'DK':
+        return 'Denmark';
+      case 'FI':
+        return 'Finland';
+      case 'DE':
+        return 'Germany';
+      case 'NL':
+        return 'Netherlands';
+      case 'BE':
+        return 'Belgium';
+      case 'FR':
+        return 'France';
+      case 'CH':
+        return 'Switzerland';
+      case 'AT':
+        return 'Austria';
+      case 'IE':
+        return 'Ireland';
+      case 'LU':
+        return 'Luxembourg';
+      case 'IT':
+        return 'Italy';
+      case 'PT':
+        return 'Portugal';
+      case 'ES':
+        return 'Spain';
+      case 'GB':
+        return 'United Kingdom';
+      default:
+        return code.toUpperCase();
+    }
+  }
+
+  bool _isEuropeanCountry(String code) {
+    const european = {
+      'NO',
+      'SE',
+      'DK',
+      'FI',
+      'DE',
+      'NL',
+      'BE',
+      'FR',
+      'CH',
+      'AT',
+      'IE',
+      'LU',
+      'IT',
+      'PT',
+      'ES',
+      'GB',
+    };
+    return european.contains(code.toUpperCase());
+  }
+
+  String _privacyMenuLabel(BuildContext context) {
+    switch (_menuLanguageCode(context)) {
+      case 'nb':
+        return 'Personvern';
+      case 'sv':
+        return 'Integritet';
+      case 'da':
+        return 'Privatliv';
+      case 'fi':
+        return 'Tietosuoja';
+      case 'de':
+        return 'Datenschutz';
+      case 'nl':
+        return 'Privacy';
+      case 'fr':
+        return 'Confidentialite';
+      case 'it':
+        return 'Privacy';
+      case 'pt':
+        return 'Privacidade';
+      case 'es':
+        return 'Privacidad';
+      case 'ko':
+        return '개인정보';
+      case 'pl':
+        return 'Prywatnosc';
+      case 'ru':
+        return 'Конфиденциальность';
+      case 'zh':
+        return '隐私';
+      case 'ar':
+        return 'الخصوصية';
+      case 'th':
+        return 'ความเป็นส่วนตัว';
+      case 'en':
+      default:
+        return 'Privacy';
+    }
+  }
+
+  String _farmShopsLabel(BuildContext context) {
+    final code = _menuLanguageCode(context);
     switch (code) {
       case 'en':
         return 'Find Farm Shops';
@@ -472,6 +665,18 @@ class _ScannerScreenState extends State<ScannerScreen>
         return 'Encontrar Lojas de Quinta';
       case 'es':
         return 'Encontrar Tiendas de Granja';
+      case 'ko':
+        return '농장 직판장 찾기';
+      case 'pl':
+        return 'Znajdz sklepy gospodarskie';
+      case 'ru':
+        return 'Найти фермерские магазины';
+      case 'zh':
+        return '查找农场商店';
+      case 'ar':
+        return 'ابحث عن متاجر المزارع';
+      case 'th':
+        return 'ค้นหาร้านฟาร์ม';
       case 'nb':
       default:
         return 'Finn Gårdsbutikker';
@@ -510,8 +715,13 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _regionalNewsLabel(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final countryCode =
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
+    if (!_isEuropeanCountry(countryCode)) {
+      return 'News';
+    }
+    final code = _menuLanguageCode(context);
     switch (code) {
       case 'en':
         return 'News in Your Area';
@@ -533,6 +743,18 @@ class _ScannerScreenState extends State<ScannerScreen>
         return 'Notícias da Sua Região';
       case 'es':
         return 'Noticias de Tu Zona';
+      case 'ko':
+        return '내 지역 뉴스';
+      case 'pl':
+        return 'Wiadomosci w Twoim regionie';
+      case 'ru':
+        return 'Новости в вашем регионе';
+      case 'zh':
+        return '你所在地区的新闻';
+      case 'ar':
+        return 'أخبار منطقتك';
+      case 'th':
+        return 'ข่าวสารในพื้นที่ของคุณ';
       case 'nb':
       default:
         return 'Nyheter i ditt område';
@@ -561,8 +783,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _farmThemeTitle(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _menuLanguageCode(context);
     switch (code) {
       case 'en':
         return 'Farm Shops & Local Food';
@@ -584,6 +805,18 @@ class _ScannerScreenState extends State<ScannerScreen>
         return 'Lojas de Quinta e Alimentação Local';
       case 'es':
         return 'Tiendas de Granja y Comida Local';
+      case 'ko':
+        return '농장 직판장과 로컬푸드';
+      case 'pl':
+        return 'Sklepy gospodarskie i zywnosc lokalna';
+      case 'ru':
+        return 'Фермерские магазины и местные продукты';
+      case 'zh':
+        return '农场商店与本地食品';
+      case 'ar':
+        return 'متاجر المزارع والطعام المحلي';
+      case 'th':
+        return 'ร้านฟาร์มและอาหารท้องถิ่น';
       case 'nb':
       default:
         return 'Gårdsbutikker og lokalmat';
@@ -591,11 +824,22 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _farmThemeBody(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _menuLanguageCode(context);
     switch (code) {
       case 'en':
         return 'Find nearby farm shops, follow regional updates, and see what products people scan most in your area. This feature is beta and improves continuously.';
+      case 'ko':
+        return '근처 농장 직판장을 찾고, 지역 소식을 확인하며, 내 지역에서 많이 스캔되는 제품을 볼 수 있습니다. 이 기능은 베타이며 계속 개선됩니다.';
+      case 'pl':
+        return 'Znajdz pobliskie sklepy gospodarskie, sledz regionalne aktualnosci i sprawdzaj, jakie produkty sa najczesciej skanowane w Twojej okolicy. Funkcja jest w wersji beta i jest stale ulepszana.';
+      case 'ru':
+        return 'Ищите ближайшие фермерские магазины, следите за региональными обновлениями и смотрите, какие товары чаще всего сканируют в вашем районе. Функция находится в бета-версии и постоянно улучшается.';
+      case 'zh':
+        return '查找附近农场商店，关注本地更新，并查看你所在地区最常被扫描的产品。此功能为测试版，会持续改进。';
+      case 'ar':
+        return 'اعثر على متاجر المزارع القريبة، وتابع التحديثات المحلية، وشاهد المنتجات الأكثر مسحا في منطقتك. هذه الميزة تجريبية ويتم تحسينها باستمرار.';
+      case 'th':
+        return 'ค้นหาร้านฟาร์มใกล้คุณ ติดตามข่าวอัปเดตในพื้นที่ และดูว่าสินค้าใดถูกสแกนมากที่สุดในบริเวณของคุณ ฟีเจอร์นี้อยู่ในช่วงเบต้าและกำลังพัฒนาอย่างต่อเนื่อง';
       case 'nb':
       default:
         return 'Finn gårdsbutikker i nærheten, følg regionale oppdateringer og se hvilke produkter folk scanner mest i ditt område. Denne funksjonen er i beta og forbedres fortløpende.';
@@ -759,7 +1003,8 @@ class _ScannerScreenState extends State<ScannerScreen>
       'merke': merke,
       'etiketter': etiketter,
       'kategorier': kategorier,
-      'ingredienser': cleanedIngredients.isEmpty ? 'Ingen info' : cleanedIngredients,
+      'ingredienser':
+          cleanedIngredients.isEmpty ? 'Ingen info' : cleanedIngredients,
       'bildeUrl': bildeUrl,
       'bildeThumbUrl': bildeThumbUrl,
       'nutriscore': nutriscore.toUpperCase(),
@@ -793,8 +1038,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 box.put(listToAddTo, list);
                 _safeSnack('"$itemName" lagt til i $listToAddTo',
                     duration: const Duration(seconds: 2));
-                Analytics.logEvent('add_to_list',
-                    {'item': itemName, 'list': listToAddTo});
+                Analytics.logEvent(
+                    'add_to_list', {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
@@ -813,261 +1058,302 @@ class _ScannerScreenState extends State<ScannerScreen>
           height: MediaQuery.of(sheetContext).size.height * 0.8,
           child: ListView(
             children: [
-          ListTile(
-            leading: const Icon(Icons.language),
-            title: Text(AppLocalizations.of(context)?.language ?? 'Language'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (context) => StatefulBuilder(
-                  builder: (context, setDialogState) => AlertDialog(
-                    title: Text(AppLocalizations.of(context)?.selectLanguage ??
-                        'Select Language'),
-                    content: Column(mainAxisSize: MainAxisSize.min, children: [
-                      _languageTile(
-                          AppLocalizations.of(context)?.norwegian ??
-                              'Norwegian',
-                          'nb',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.english ?? 'English',
-                          'en',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.swedish ?? 'Swedish',
-                          'sv',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.danish ?? 'Danish',
-                          'da',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.finnish ?? 'Finnish',
-                          'fi',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.german ?? 'German',
-                          'de',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.dutch ?? 'Dutch',
-                          'nl',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.french ?? 'French',
-                          'fr',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.italian ?? 'Italian',
-                          'it',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.portuguese ??
-                              'Portuguese',
-                          'pt',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.spanish ?? 'Spanish',
-                          'es',
-                          setDialogState),
-                    ]),
-                    actions: [
-                      TextButton(
-                          onPressed: () => _safePop(),
-                          child: const Text('Lukk'))
-                    ],
-                  ),
+              if (!premiumActive)
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  child: AdBanner(),
                 ),
-              ).then((_) => setState(() {}));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.flag),
-            title: const Text('Land / datakilder'),
-            onTap: () {
-              _safePop();
-              _visLandDialog();
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.workspace_premium),
-            title: Text(
-                premiumActive ? 'Annonsefri (aktiv)' : 'Fjern annonser (engangskjøp)'),
-            onTap: () {
-              _safePop();
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (_) => PremiumScreen(
-                    innstillingerBox: innstillingerBox,
-                    onPremiumChanged: (active) {
-                      if (!mounted) return;
-                      setState(() {
-                        premiumActive = active;
-                      });
-                    },
-                  ),
-                ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.warning),
-            title:
-                Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (context) => StatefulBuilder(
-                  builder: (context, setDialogState) => AlertDialog(
-                    title: Text(AppLocalizations.of(context)?.alerts ??
-                        'Select Alerts'),
-                    content: Column(mainAxisSize: MainAxisSize.min, children: [
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.bovaerAlert ??
-                                  'Bovaer Alert'),
-                          value: varselBovaer,
-                          onChanged: (v) {
-                            setDialogState(() => varselBovaer = v);
-                            innstillingerBox.put('varselBovaer', v);
-                          }),
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.gmoFishAlert ??
-                                  'GMO Fish Alert'),
-                          value: varselGmo,
-                          onChanged: (v) {
-                            setDialogState(() => varselGmo = v);
-                            innstillingerBox.put('varselGmo', v);
-                          }),
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.insectMealAlert ??
-                                  'Insect Meal Alert'),
-                          value: varselInsekt,
-                          onChanged: (v) {
-                            setDialogState(() => varselInsekt = v);
-                            innstillingerBox.put('varselInsekt', v);
-                          }),
-                    ]),
-                    actions: [
-                      TextButton(
-                          onPressed: () => _safePop(),
-                          child: const Text('Lukk'))
-                    ],
-                  ),
-                ),
-              ).then((_) => setState(() {}));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.info),
-            title: Text(AppLocalizations.of(context)?.howAppWorks ??
-                'How the App Works'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: Text(AppLocalizations.of(context)?.howAppWorks ??
-                          'How the App Works'),
-                  content: Text(_howAppWorksText(context)),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
-          if (Platform.isIOS)
-            ListTile(
-              leading: const Icon(Icons.verified),
-              title: const Text('App Review Test'),
-              subtitle: const Text('Åpne demo-produkter uten kamera'),
-              onTap: () {
-                _safePop();
-                _showAppReviewTestDialog();
-              },
-            ),
-          ListTile(
-            leading: const Icon(Icons.notification_important),
-            title: const Text('Varsel'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: const Text('Varsel'),
-                      content: const Column(
-                        mainAxisSize: MainAxisSize.min,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text('Varsel: intern liste for merkevare-koblinger'),
-                          SizedBox(height: 4),
-                          Text('Varsel: merkevaresporing og offentlig informasjon'),
+              ListTile(
+                leading: const Icon(Icons.language),
+                title:
+                    Text(AppLocalizations.of(context)?.language ?? 'Language'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (context) => StatefulBuilder(
+                      builder: (context, setDialogState) => AlertDialog(
+                        title: Text(
+                            AppLocalizations.of(context)?.selectLanguage ??
+                                'Select Language'),
+                        content: SizedBox(
+                          width: double.maxFinite,
+                          height: MediaQuery.of(context).size.height * 0.55,
+                          child: ListView(
+                            children: [
+                              _languageTile(
+                                  AppLocalizations.of(context)?.norwegian ??
+                                      'Norwegian',
+                                  'nb',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.english ??
+                                      'English',
+                                  'en',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.swedish ??
+                                      'Swedish',
+                                  'sv',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.danish ??
+                                      'Danish',
+                                  'da',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.finnish ??
+                                      'Finnish',
+                                  'fi',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.german ??
+                                      'German',
+                                  'de',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.dutch ??
+                                      'Dutch',
+                                  'nl',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.french ??
+                                      'French',
+                                  'fr',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.italian ??
+                                      'Italian',
+                                  'it',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.portuguese ??
+                                      'Portuguese',
+                                  'pt',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.spanish ??
+                                      'Spanish',
+                                  'es',
+                                  setDialogState),
+                              _languageTile('한국어', 'ko', setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.polish ??
+                                      'Polski',
+                                  'pl',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.russian ??
+                                      'Русский',
+                                  'ru',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.chinese ??
+                                      '中文',
+                                  'zh',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.arabic ??
+                                      'العربية',
+                                  'ar',
+                                  setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.thai ??
+                                      'ภาษาไทย',
+                                  'th',
+                                  setDialogState),
+                            ],
+                          ),
+                        ),
+                        actions: [
+                          TextButton(
+                              onPressed: () => _safePop(),
+                              child: Text(
+                                  AppLocalizations.of(context)?.close ??
+                                      'Close'))
                         ],
                       ),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.newspaper),
-            title: Text(_regionalNewsLabel(context)),
-            onTap: () {
-              _safePop();
-              _openRegionalNews();
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.store_mall_directory),
-            title: Text(_farmThemeTitle(context)),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (_) => AlertDialog(
-                  title: Text(_farmThemeTitle(context)),
-                  content: Text(_farmThemeBody(context)),
-                  actions: [
-                    TextButton(
-                        onPressed: () => _safePop(), child: const Text('Lukk')),
-                    ElevatedButton.icon(
-                      onPressed: () {
-                        _safePop();
-                        _openFarmShops();
-                      },
-                      icon: const Icon(Icons.open_in_new),
-                      label: Text(_farmShopsLabel(context)),
-                    )
-                  ],
+                    ),
+                  ).then((_) => setState(() {}));
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.flag),
+                title: Text(_countryDataSourcesMenuLabel(context)),
+                onTap: () {
+                  _safePop();
+                  _visLandDialog();
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.workspace_premium),
+                title: Text(premiumActive
+                    ? (AppLocalizations.of(context)?.adFreeActive ??
+                        'Ad-free (active)')
+                    : (AppLocalizations.of(context)?.removeAdsMenuItem ??
+                        'Remove ads (kr 49,-) - supports further development')),
+                onTap: () {
+                  _safePop();
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => PremiumScreen(
+                        innstillingerBox: innstillingerBox,
+                        onPremiumChanged: (active) {
+                          if (!mounted) return;
+                          setState(() {
+                            premiumActive = active;
+                          });
+                        },
+                      ),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.warning),
+                title: Text(
+                    AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (context) => StatefulBuilder(
+                      builder: (context, setDialogState) => AlertDialog(
+                        title: Text(AppLocalizations.of(context)?.alerts ??
+                            'Select Alerts'),
+                        content:
+                            Column(mainAxisSize: MainAxisSize.min, children: [
+                          SwitchListTile(
+                              title: Text(
+                                  AppLocalizations.of(context)?.bovaerAlert ??
+                                      'Bovaer Alert'),
+                              value: varselBovaer,
+                              onChanged: (v) {
+                                setDialogState(() => varselBovaer = v);
+                                innstillingerBox.put('varselBovaer', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(
+                                  AppLocalizations.of(context)?.gmoFishAlert ??
+                                      'GMO Fish Alert'),
+                              value: varselGmo,
+                              onChanged: (v) {
+                                setDialogState(() => varselGmo = v);
+                                innstillingerBox.put('varselGmo', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(AppLocalizations.of(context)
+                                      ?.insectMealAlert ??
+                                  'Insect Meal Alert'),
+                              value: varselInsekt,
+                              onChanged: (v) {
+                                setDialogState(() => varselInsekt = v);
+                                innstillingerBox.put('varselInsekt', v);
+                              }),
+                        ]),
+                        actions: [
+                          TextButton(
+                              onPressed: () => _safePop(),
+                              child: Text(
+                                  AppLocalizations.of(context)?.close ??
+                                      'Close'))
+                        ],
+                      ),
+                    ),
+                  ).then((_) => setState(() {}));
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.info),
+                title: Text(AppLocalizations.of(context)?.howAppWorks ??
+                    'How the App Works'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                          title: Text(
+                              AppLocalizations.of(context)?.howAppWorks ??
+                                  'How the App Works'),
+                          content: Text(_howAppWorksText(context)),
+                          actions: [
+                            TextButton(
+                                onPressed: () => _safePop(),
+                                child: Text(
+                                    AppLocalizations.of(context)?.close ??
+                                        'Close'))
+                          ]));
+                },
+              ),
+              if (Platform.isIOS)
+                ListTile(
+                  leading: const Icon(Icons.verified),
+                  title: const Text('App Review Test'),
+                  subtitle: const Text('Åpne demo-produkter uten kamera'),
+                  onTap: () {
+                    _safePop();
+                    _showAppReviewTestDialog();
+                  },
                 ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.privacy_tip),
-            title: const Text('Personvern'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => const ConsentDialog());
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.help),
-            title: Text(AppLocalizations.of(context)?.about ?? 'About'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: Text(AppLocalizations.of(context)?.appTitle ??
-                          'Food Check'),
-                      content: const Text(
-                          'Version 1.8 – Built for honest food info.'),
+              ListTile(
+                leading: const Icon(Icons.newspaper),
+                title: Text(_regionalNewsLabel(context)),
+                onTap: () {
+                  _safePop();
+                  _openRegionalNews();
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.store_mall_directory),
+                title: Text(_farmThemeTitle(context)),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (_) => AlertDialog(
+                      title: Text(_farmThemeTitle(context)),
+                      content: Text(_farmThemeBody(context)),
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
+                            child: Text(
+                                AppLocalizations.of(context)?.close ??
+                                    'Close')),
+                        ElevatedButton.icon(
+                          onPressed: () {
+                            _safePop();
+                            _openFarmShops();
+                          },
+                          icon: const Icon(Icons.open_in_new),
+                          label: Text(_farmShopsLabel(context)),
+                        )
+                      ],
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.privacy_tip),
+                title: Text(_privacyMenuLabel(context)),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => const ConsentDialog());
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.help),
+                title: Text(AppLocalizations.of(context)?.about ?? 'About'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                          title: Text(AppLocalizations.of(context)?.appTitle ??
+                              'Food Check'),
+                          content: const Text(
+                              'Version 1.8 – Built for honest food info.'),
+                          actions: [
+                            TextButton(
+                                onPressed: () => _safePop(),
+                                child: Text(
+                                    AppLocalizations.of(context)?.close ??
+                                        'Close'))
+                          ]));
+                },
+              ),
             ],
           ),
         ),
@@ -1119,7 +1405,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   Widget _languageTile(String label, String code, Function setDialogState) {
     final selected = selectedLanguage == code;
     return ListTile(
-      leading: selected ? const Icon(Icons.radio_button_checked) : const Icon(Icons.radio_button_unchecked),
+      leading: selected
+          ? const Icon(Icons.radio_button_checked)
+          : const Icon(Icons.radio_button_unchecked),
       title: Text(label),
       onTap: () async {
         if (selected) return;
@@ -1128,39 +1416,40 @@ class _ScannerScreenState extends State<ScannerScreen>
           selectedLanguage = code;
         });
         if (context.mounted) Navigator.of(context).pop();
-        if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 300));
+        if (!_isTestEnv) {
+          await Future.delayed(const Duration(milliseconds: 300));
+        }
         if (mounted) widget.onLanguageChanged(code);
       },
     );
   }
 
   void _visLandDialog() {
-    final Map<String, String> land = {
-      'NO': 'Norge',
-      'SE': 'Sverige',
-      'DK': 'Danmark',
-      'FI': 'Finland',
-      'DE': 'Tyskland',
-      'NL': 'Nederland',
-      'BE': 'Belgia',
-      'FR': 'Frankrike',
-      'CH': 'Sveits',
-      'AT': 'Østerrike',
-      'IE': 'Irland',
-      'LU': 'Luxembourg',
-      'IT': 'Italia',
-      'PT': 'Portugal',
-      'ES': 'Spania',
-      'GB': 'UK',
-    };
-    final sortedLandEntries = land.entries.toList()
-      ..sort((a, b) =>
-          a.value.toLowerCase().compareTo(b.value.toLowerCase()));
+    const landCodes = [
+      'NO',
+      'SE',
+      'DK',
+      'FI',
+      'DE',
+      'NL',
+      'BE',
+      'FR',
+      'CH',
+      'AT',
+      'IE',
+      'LU',
+      'IT',
+      'PT',
+      'ES',
+      'GB',
+    ];
+    final sortedLandCodes = landCodes.toList()
+      ..sort((a, b) => _countryName(a).compareTo(_countryName(b)));
 
     _safeShowDialogBuilder(
       (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
-          title: const Text('Velg land (prioriterer kilder)'),
+          title: Text(_selectCountrySourcesTitle(context)),
           content: SizedBox(
             width: double.maxFinite,
             child: ConstrainedBox(
@@ -1170,9 +1459,8 @@ class _ScannerScreenState extends State<ScannerScreen>
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
-                  children: sortedLandEntries.map((entry) {
-                    final code = entry.key;
-                    final label = entry.value;
+                  children: sortedLandCodes.map((code) {
+                    final label = _countryName(code);
                     final selected = selectedCountry == code;
                     return ListTile(
                       leading: selected
@@ -1185,7 +1473,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                         setDialogState(() => selectedCountry = code);
                         _safePop();
                         if (!_isTestEnv) {
-                          await Future.delayed(const Duration(milliseconds: 200));
+                          await Future.delayed(
+                              const Duration(milliseconds: 200));
                         }
                         if (mounted) widget.onCountryChanged(code);
                       },
@@ -1196,7 +1485,9 @@ class _ScannerScreenState extends State<ScannerScreen>
             ),
           ),
           actions: [
-            TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+            TextButton(
+                onPressed: () => _safePop(),
+                child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
           ],
         ),
       ),
@@ -1209,14 +1500,17 @@ class _ScannerScreenState extends State<ScannerScreen>
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final greens = _countryRulesList(country, 'organic_keywords', greenKeywords);
+    final greens =
+        _countryRulesList(country, 'organic_keywords', greenKeywords);
     final reds = _countryRulesList(country, 'bovaer_red', bovaerRedBrands);
-    final yellows = _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
+    final yellows =
+        _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
 
     final locale =
         (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
             .toLowerCase();
     final isNorwegian = locale == 'nb';
+    final useCustomNarrative = isNorwegian || locale == 'en';
     const bovaerUpdateUrl = kSupplierStatusUrl;
     const tinePartnerBrandAliases = {
       'q-meieriene': 'Q-meieriene',
@@ -1243,7 +1537,9 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (lowerBrand.contains('arla')) {
       return {
         'risk': RiskLevel.red,
-        'text': isNorwegian
+        'text': !useCustomNarrative
+            ? ''
+            : isNorwegian
             ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
             : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
         'url': bovaerUpdateUrl,
@@ -1253,7 +1549,9 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (lowerBrand.contains('apetina') || lowerBrand.contains('aptina')) {
       return {
         'risk': RiskLevel.red,
-        'text': isNorwegian
+        'text': !useCustomNarrative
+            ? ''
+            : isNorwegian
             ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
             : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
         'url': bovaerUpdateUrl,
@@ -1263,7 +1561,9 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (lowerBrand.contains('tine')) {
       return {
         'risk': RiskLevel.yellow,
-        'text': isNorwegian
+        'text': !useCustomNarrative
+            ? ''
+            : isNorwegian
             ? 'MULIG RISIKO: Tine opplyser at Bovaer-melk ikke lenger blandes inn i produkter, men eldre varer kan fortsatt finnes i butikk. Sjekk produksjonsdato.'
             : 'POSSIBLE RISK: Tine states that Bovaer milk is no longer mixed into products, but older items may still be in stores. Check production date.',
         'url': bovaerUpdateUrl,
@@ -1305,12 +1605,19 @@ class _ScannerScreenState extends State<ScannerScreen>
           .toSet()
           .join(', ');
       final partnerList = matchedTinePartners.join(', ');
+      if (!useCustomNarrative) {
+        return {
+          'risk': RiskLevel.yellow,
+          'text': '',
+          'url': bovaerUpdateUrl,
+        };
+      }
       return {
         'risk': RiskLevel.yellow,
         'text': isKnownTinePartner
             ? (isNorwegian
-            ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
-            : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
+                ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
+                : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
             : (isNorwegian
                 ? 'MULIG RISIKO: ${matchedLabelList.isEmpty ? 'Dette merket' : matchedLabelList} er registrert som samarbeidspartner i intern sporingsliste. Se oppdatert status for leverandørinformasjon, og sjekk etikett og produksjonsdato.'
                 : 'POSSIBLE RISK: ${matchedLabelList.isEmpty ? 'This brand' : matchedLabelList} is listed as a partner in the internal tracking list. See updated supplier status, and check label and production date.'),
@@ -1326,7 +1633,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final gmoList = _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
+    final gmoList =
+        _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
     if (lowerCategory.contains('salmon') ||
         lowerCategory.contains('laks') ||
         lowerCategory.contains('trout') ||
@@ -1355,24 +1663,24 @@ class _ScannerScreenState extends State<ScannerScreen>
         title: SizedBox(
           height: 42,
           child: ElevatedButton.icon(
-          onPressed: _openFarmShops,
-          icon: const Icon(Icons.storefront, size: 20),
-          label: Text(
-            farmShopsLabel,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(fontWeight: FontWeight.w700),
-          ),
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.white,
-            foregroundColor: Colors.green.shade900,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+            onPressed: _openFarmShops,
+            icon: const Icon(Icons.storefront, size: 20),
+            label: Text(
+              farmShopsLabel,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(fontWeight: FontWeight.w700),
             ),
-            elevation: 0,
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              foregroundColor: Colors.green.shade900,
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              elevation: 0,
+            ),
           ),
-        ),
         ),
         actions: [
           IconButton(
@@ -1434,139 +1742,145 @@ class _ScannerScreenState extends State<ScannerScreen>
           Expanded(
             child: Stack(
               children: [
-          if (controller != null)
-            MobileScanner(controller: controller!, onDetect: _handleBarcode)
-          else
-            const SizedBox(),
-          if (_isLoading)
-            Container(
-                color: const Color.fromRGBO(0, 0, 0, 0.5),
-                child: const Center(
-                    child: CircularProgressIndicator(color: Colors.white))),
-          ...listPositions.entries.map((entry) {
-            final listName = entry.key;
-            final position = entry.value;
-            return Positioned(
-              left: position.dx,
-              top: position.dy,
-              child: GestureDetector(
-                onPanUpdate: (d) {
-                  setState(() {
-                    listPositions[listName] = position + d.delta;
-                    listPositionsBox.put(listName, {
-                      'dx': position.dx + d.delta.dx,
-                      'dy': position.dy + d.delta.dy
-                    });
-                  });
-                },
-                onTap: () => setState(() {
-                  activeList = listName;
-                  showList = true;
-                }),
-                onLongPress: () => _deleteList(listName),
-                child: Stack(
-                  alignment: Alignment.topRight,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(top: 8, right: 8),
-                      child: Column(
+                if (controller != null)
+                  MobileScanner(
+                      controller: controller!, onDetect: _handleBarcode)
+                else
+                  const SizedBox(),
+                if (_isLoading)
+                  Container(
+                      color: const Color.fromRGBO(0, 0, 0, 0.5),
+                      child: const Center(
+                          child:
+                              CircularProgressIndicator(color: Colors.white))),
+                ...listPositions.entries.map((entry) {
+                  final listName = entry.key;
+                  final position = entry.value;
+                  return Positioned(
+                    key: ValueKey('cart_$listName'),
+                    left: position.dx,
+                    top: position.dy,
+                    child: GestureDetector(
+                      onPanUpdate: (d) {
+                        setState(() {
+                          listPositions[listName] = position + d.delta;
+                          listPositionsBox.put(listName, {
+                            'dx': position.dx + d.delta.dx,
+                            'dy': position.dy + d.delta.dy
+                          });
+                        });
+                      },
+                      onTap: () => setState(() {
+                        activeList = listName;
+                        showList = true;
+                      }),
+                      onLongPress: () => _deleteList(listName),
+                      child: Stack(
+                        alignment: Alignment.topRight,
                         children: [
-                          const Icon(Icons.shopping_cart,
-                              size: 60, color: Colors.green),
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 4, vertical: 1),
-                            color: Colors.black54,
-                            child: Text(listName,
-                                style: const TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold)),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8, right: 8),
+                            child: Column(
+                              children: [
+                                const Icon(Icons.shopping_cart,
+                                    size: 60, color: Colors.green),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 4, vertical: 1),
+                                  color: Colors.black54,
+                                  child: Text(listName,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold)),
+                                ),
+                              ],
+                            ),
                           ),
+                          ValueListenableBuilder(
+                              valueListenable:
+                                  handlelisterBox.listenable(keys: [listName]),
+                              builder: (context, box, child) {
+                                final varer =
+                                    box.get(listName, defaultValue: <String>[]);
+                                final antall = varer
+                                    .where((v) => !v.toString().startsWith('✓'))
+                                    .length;
+                                if (antall == 0) return const SizedBox.shrink();
+                                return CircleAvatar(
+                                  radius: 12,
+                                  backgroundColor: Colors.red,
+                                  child: Text('$antall',
+                                      style: const TextStyle(
+                                          color: Colors.white, fontSize: 12)),
+                                );
+                              }),
                         ],
                       ),
                     ),
-                    ValueListenableBuilder(
-                        valueListenable:
-                            handlelisterBox.listenable(keys: [listName]),
-                        builder: (context, box, child) {
-                          final varer =
-                              box.get(listName, defaultValue: <String>[]);
-                          final antall = varer
-                              .where((v) => !v.toString().startsWith('✓'))
-                              .length;
-                          if (antall == 0) return const SizedBox.shrink();
-                          return CircleAvatar(
-                            radius: 12,
-                            backgroundColor: Colors.red,
-                            child: Text('$antall',
-                                style: const TextStyle(
-                                    color: Colors.white, fontSize: 12)),
-                          );
-                        }),
-                  ],
-                ),
-              ),
-            );
-          }),
-          if (showList || showFullScreenList)
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: activeList == '_global_'
-                  ? GlobalHistorikkOverlay(
-                      isFullScreen: showFullScreenList,
-                      onClose: () => setState(() {
-                        showList = false;
-                        showFullScreenList = false;
-                      }),
-                      onToggleFullScreen: () => setState(
-                          () => showFullScreenList = !showFullScreenList),
-                      onAddItem: (itemName, imageUrl) {
-                        final box = Hive.box('handlelister');
-                        final list = List<String>.from(box.get(
-                            listBeforeGlobalHistory,
-                            defaultValue: <String>[]));
-                        if (!list.any((item) => item.endsWith(itemName))) {
-                          list.insert(0, itemName);
-                          box.put(listBeforeGlobalHistory, list);
-                          Analytics.logEvent('add_to_list',
-                              {'item': itemName, 'list': listBeforeGlobalHistory});
-                        }
-                      },
-                    )
-                  : HandlelisteOverlay(
-                      listeNavn: activeList,
-                      isFullScreen: showFullScreenList,
-                      onClose: () => setState(() {
-                        showList = false;
-                        showFullScreenList = false;
-                      }),
-                      onToggleFullScreen: () => setState(
-                          () => showFullScreenList = !showFullScreenList),
-                      onRename: _handleRename,
-                      onShowSearch: () => _visSok(),
-                      showPremiumUpsell: !premiumActive,
-                      onPremiumTap: () {
-                        setState(() {
-                          showList = false;
-                          showFullScreenList = false;
-                        });
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (_) => PremiumScreen(
-                              innstillingerBox: innstillingerBox,
-                              onPremiumChanged: (active) {
-                                if (!mounted) return;
-                                setState(() {
-                                  premiumActive = active;
+                  );
+                }),
+                if (showList || showFullScreenList)
+                  Align(
+                    alignment: Alignment.bottomCenter,
+                    child: activeList == '_global_'
+                        ? GlobalHistorikkOverlay(
+                            isFullScreen: showFullScreenList,
+                            onClose: () => setState(() {
+                              showList = false;
+                              showFullScreenList = false;
+                            }),
+                            onToggleFullScreen: () => setState(
+                                () => showFullScreenList = !showFullScreenList),
+                            onAddItem: (itemName, imageUrl) {
+                              final box = Hive.box('handlelister');
+                              final list = List<String>.from(box.get(
+                                  listBeforeGlobalHistory,
+                                  defaultValue: <String>[]));
+                              if (!list
+                                  .any((item) => item.endsWith(itemName))) {
+                                list.insert(0, itemName);
+                                box.put(listBeforeGlobalHistory, list);
+                                Analytics.logEvent('add_to_list', {
+                                  'item': itemName,
+                                  'list': listBeforeGlobalHistory
                                 });
-                              },
-                            ),
+                              }
+                            },
+                          )
+                        : HandlelisteOverlay(
+                            listeNavn: activeList,
+                            isFullScreen: showFullScreenList,
+                            onClose: () => setState(() {
+                              showList = false;
+                              showFullScreenList = false;
+                            }),
+                            onToggleFullScreen: () => setState(
+                                () => showFullScreenList = !showFullScreenList),
+                            onRename: _handleRename,
+                            onShowSearch: () => _visSok(),
+                            showPremiumUpsell: !premiumActive,
+                            onPremiumTap: () {
+                              setState(() {
+                                showList = false;
+                                showFullScreenList = false;
+                              });
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (_) => PremiumScreen(
+                                    innstillingerBox: innstillingerBox,
+                                    onPremiumChanged: (active) {
+                                      if (!mounted) return;
+                                      setState(() {
+                                        premiumActive = active;
+                                      });
+                                    },
+                                  ),
+                                ),
+                              );
+                            },
                           ),
-                        );
-                      },
-                    ),
-            )
-        ],
+                  )
+              ],
             ),
           ),
           if (!premiumActive)
@@ -1600,7 +1914,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 Container(
                   width: double.infinity,
                   margin: const EdgeInsets.only(bottom: 8),
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
                   decoration: BoxDecoration(
                     color: Colors.blue.withAlpha((0.08 * 255).round()),
                     borderRadius: BorderRadius.circular(8),

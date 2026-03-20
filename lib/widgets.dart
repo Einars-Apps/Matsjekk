@@ -3,6 +3,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'ad_banner.dart';
 
 // Enum for risikonivå
 enum RiskLevel { green, yellow, red, unknown }
@@ -84,10 +85,40 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         return 'Encontrar Lojas de Quinta';
       case 'es':
         return 'Encontrar Tiendas de Granja';
+      case 'ko':
+        return '농장 직판장 찾기';
+      case 'pl':
+        return 'Znajdz sklepy gospodarskie';
+      case 'ru':
+        return 'Найти фермерские магазины';
+      case 'zh':
+        return '查找农场商店';
+      case 'ar':
+        return 'ابحث عن متاجر المزارع';
+      case 'th':
+        return 'ค้นหาร้านฟาร์ม';
       case 'nb':
       default:
         return 'Finn Gårdsbutikker';
     }
+  }
+
+  String _internalWarningLine1(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    if (code == 'nb') {
+      return 'Varsel: intern liste for merkevare-koblinger';
+    }
+    return 'Notice: internal list for brand-link tracking';
+  }
+
+  String _internalWarningLine2(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    if (code == 'nb') {
+      return 'Varsel: merkevaresporing og offentlig informasjon';
+    }
+    return 'Notice: brand tracking and public information';
   }
 
   String _farmShopsUrl(BuildContext context) {
@@ -150,8 +181,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     _buildRiskWidget(context, 'Bovaer',
-                      info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
-                      customText: (info['bovaerRiskText'] ?? '').toString()),
+                        info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                        customText: (info['bovaerRiskText'] ?? '').toString()),
                     if (bovaerRiskUrl.isNotEmpty)
                       Padding(
                         padding: const EdgeInsets.only(bottom: 8),
@@ -205,8 +236,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               Container(
                                 padding: const EdgeInsets.all(8),
                                 decoration: BoxDecoration(
-                                    color: const Color.fromRGBO(
-                                        33, 150, 243, 0.1),
+                                    color:
+                                        const Color.fromRGBO(33, 150, 243, 0.1),
                                     borderRadius: BorderRadius.circular(8)),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -218,7 +249,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                             color: Colors.blue),
                                         const SizedBox(width: 8),
                                         Text(
-                                            AppLocalizations.of(context)?.beta ??
+                                            AppLocalizations.of(context)
+                                                    ?.beta ??
                                                 'Beta',
                                             style: const TextStyle(
                                                 color: Colors.blue,
@@ -338,19 +370,29 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                 .toList())
                                           ],
                                           // Add source and internal list info for red/yellow alerts
-                                          if (sev == 'red' || sev == 'yellow') ...[
+                                          if (sev == 'red' ||
+                                              sev == 'yellow') ...[
                                             const SizedBox(height: 8),
                                             const SizedBox(height: 4),
-                                            const Text('Varsel: intern liste for merkevare-koblinger', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            Text(_internalWarningLine1(context),
+                                              style: const TextStyle(
+                                                fontStyle:
+                                                  FontStyle.italic)),
                                             const SizedBox(height: 4),
-                                            const Text('Varsel: merkevaresporing og offentlig informasjon', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            Text(_internalWarningLine2(context),
+                                              style: const TextStyle(
+                                                fontStyle:
+                                                  FontStyle.italic)),
                                             const SizedBox(height: 8),
                                             ElevatedButton.icon(
-                                              onPressed: () =>
-                                                  _openUrl(_farmShopsUrl(context)),
-                                              icon: const Icon(Icons.open_in_new),
-                                              label: Text(_farmShopsLabel(context)),
-                                              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                                              onPressed: () => _openUrl(
+                                                  _farmShopsUrl(context)),
+                                              icon:
+                                                  const Icon(Icons.open_in_new),
+                                              label: Text(
+                                                  _farmShopsLabel(context)),
+                                              style: ElevatedButton.styleFrom(
+                                                  backgroundColor: Colors.blue),
                                             ),
                                           ],
                                           const SizedBox(height: 8),
@@ -517,7 +559,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         ]));
   }
 
-    Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
+  Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
       {String customText = ''}) {
     if (risk == RiskLevel.unknown) return const SizedBox.shrink();
     final icon = risk == RiskLevel.red
@@ -528,20 +570,20 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         : (risk == RiskLevel.yellow ? Colors.amber : Colors.green);
     final trimmedCustomText = customText.trim();
     final text = trimmedCustomText.isNotEmpty
-      ? trimmedCustomText
-      : risk == RiskLevel.green
-        ? (AppLocalizations.of(context)?.safeProduct ?? 'SAFE')
-        : risk == RiskLevel.yellow
-          ? (title == 'Bovaer'
-            ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
-              'POSSIBLE RISK')
-            : (AppLocalizations.of(context)?.gmoHighRisk ??
-              'HIGH RISK'))
-          : (title == 'Bovaer'
-            ? (AppLocalizations.of(context)?.bovaerHighRisk ??
-              'HIGH RISK')
-            : (AppLocalizations.of(context)?.gmoHighRisk ??
-              'HIGH RISK'));
+        ? trimmedCustomText
+        : risk == RiskLevel.green
+            ? (AppLocalizations.of(context)?.safeProduct ?? 'SAFE')
+            : risk == RiskLevel.yellow
+                ? (title == 'Bovaer'
+                    ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
+                        'POSSIBLE RISK')
+                    : (AppLocalizations.of(context)?.gmoHighRisk ??
+                        'HIGH RISK'))
+                : (title == 'Bovaer'
+                    ? (AppLocalizations.of(context)?.bovaerHighRisk ??
+                        'HIGH RISK')
+                    : (AppLocalizations.of(context)?.gmoHighRisk ??
+                        'HIGH RISK'));
     return Container(
         padding: const EdgeInsets.all(12),
         margin: const EdgeInsets.only(bottom: 8),
@@ -574,9 +616,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         return Colors.grey;
     }
   }
-
 }
-
 
 class HandlelisteOverlay extends StatefulWidget {
   final String listeNavn;
@@ -606,7 +646,90 @@ class HandlelisteOverlay extends StatefulWidget {
 
 class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
   final TextEditingController _addItemController = TextEditingController();
+  final FocusNode _addItemFocusNode = FocusNode();
   bool _showHistory = false;
+  String _inlineSuggestion = '';
+  List<String> _dropdownSuggestions = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _addItemController.addListener(_onTextChanged);
+  }
+
+  void _onTextChanged() {
+    final text = _addItemController.text;
+    if (text.isEmpty) {
+      setState(() {
+        _inlineSuggestion = '';
+        _dropdownSuggestions = [];
+      });
+      return;
+    }
+    final suggestions = _getSuggestions(text);
+    // Inline: best startsWith match
+    final lowerText = text.toLowerCase();
+    String inline = '';
+    for (final s in suggestions) {
+      if (s.toLowerCase().startsWith(lowerText)) {
+        // Preserve user's typed casing + append the rest from suggestion
+        inline = text + s.substring(text.length);
+        break;
+      }
+    }
+    setState(() {
+      _inlineSuggestion = inline;
+      _dropdownSuggestions = suggestions;
+    });
+  }
+
+  void _addItem(String item) {
+    final trimmed = item.trim();
+    if (trimmed.isEmpty) return;
+    final box = Hive.box('handlelister');
+    final list = List<String>.from(box.get(widget.listeNavn, defaultValue: <String>[]));
+    list.insert(0, trimmed);
+    box.put(widget.listeNavn, list);
+    // Track frequency
+    final memBox = Hive.box('product_memory');
+    final freqKey = 'freq_${widget.listeNavn}';
+    final freq = Map<String, int>.from(memBox.get(freqKey, defaultValue: <String, int>{}));
+    freq[trimmed] = (freq[trimmed] ?? 0) + 1;
+    memBox.put(freqKey, freq);
+    _addItemController.clear();
+    setState(() {
+      _inlineSuggestion = '';
+      _dropdownSuggestions = [];
+    });
+  }
+
+  void _submitField(String value) {
+    // If inline suggestion is showing, accept it; otherwise use typed text
+    final toAdd = _inlineSuggestion.isNotEmpty ? _inlineSuggestion : value;
+    _addItem(toAdd);
+    Future.microtask(() => _addItemFocusNode.requestFocus());
+  }
+
+  List<String> _getSuggestions(String query) {
+    final memBox = Hive.box('product_memory');
+    final freqKey = 'freq_${widget.listeNavn}';
+    final freq = Map<String, int>.from(memBox.get(freqKey, defaultValue: <String, int>{}));
+    if (freq.isEmpty) return [];
+    final lowerQuery = query.toLowerCase();
+    final matches = freq.entries
+        .where((e) => e.key.toLowerCase().contains(lowerQuery))
+        .toList()
+      ..sort((a, b) => b.value.compareTo(a.value));
+    return matches.take(6).map((e) => e.key).toList();
+  }
+
+  @override
+  void dispose() {
+    _addItemController.removeListener(_onTextChanged);
+    _addItemController.dispose();
+    _addItemFocusNode.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -615,203 +738,179 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
         : MediaQuery.of(context).size.height * 0.62;
     return Container(
       height: height,
-      decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.vertical(
-              top: Radius.circular(widget.isFullScreen ? 0 : 20)),
-          boxShadow: const [
-            BoxShadow(color: Colors.black26, blurRadius: 10, spreadRadius: 2)
-          ]),
-      child: Stack(
-        fit: StackFit.expand,
+      color: Colors.white,
+      child: Column(
         children: [
-          Opacity(
-            opacity: 0.05,
-            child: ClipRRect(
-              borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(widget.isFullScreen ? 0 : 20)),
-              child: Image.asset('assets/nissefamilie.jpg',
-                  fit: BoxFit.cover,
-                  errorBuilder: (c, e, s) => const SizedBox.shrink()),
+          // Premium-oppgradering og reklamefelt håndteres i premium_screen.dart nå
+          // ...existing code...
+          AppBar(
+            title: Row(
+              children: [
+                Flexible(
+                  child: Text(
+                    widget.listeNavn,
+                    style: const TextStyle(color: Colors.white, fontSize: 18),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                const SizedBox(width: 8),
+                const Icon(Icons.edit, size: 16, color: Colors.white70),
+              ],
             ),
+            backgroundColor: Colors.green,
+            foregroundColor: Colors.white,
+            automaticallyImplyLeading: false,
+            actions: [
+              IconButton(
+                icon: const Icon(Icons.search),
+                onPressed: widget.onShowSearch,
+              ),
+              IconButton(
+                icon: const Icon(Icons.history),
+                onPressed: () => setState(() => _showHistory = !_showHistory),
+              ),
+              IconButton(
+                icon: Icon(widget.isFullScreen ? Icons.fullscreen_exit : Icons.fullscreen),
+                onPressed: widget.onToggleFullScreen,
+              ),
+              IconButton(
+                icon: const Icon(Icons.close),
+                onPressed: widget.onClose,
+              ),
+            ],
           ),
-          Row(
-            children: [
-              Expanded(
-                flex: _showHistory ? 2 : 3,
-                child: Column(
-                  children: [
-                    AppBar(
-                        title: GestureDetector(
-                            onTap: () {
-                              final controller =
-                                  TextEditingController(text: widget.listeNavn);
-                              safeShowDialog(
-                                  context,
-                                  AlertDialog(
-                                      title: Text(AppLocalizations.of(context)
-                                              ?.changeListName ??
-                                          'Endre listenavn'),
-                                      content: TextField(
-                                          controller: controller,
-                                          autocorrect: false),
-                                      actions: [
-                                        TextButton(
-                                            onPressed: () => safePop(context),
-                                            child: Text(
-                                                AppLocalizations.of(context)
-                                                        ?.cancel ??
-                                                    'Avbryt')),
-                                        TextButton(
-                                            onPressed: () {
-                                              final nyttNavn =
-                                                  controller.text.trim();
-                                              if (nyttNavn.isNotEmpty &&
-                                                  nyttNavn !=
-                                                      widget.listeNavn &&
-                                                  !Hive.box('handlelister')
-                                                      .containsKey(nyttNavn)) {
-                                                final varer = Hive.box(
-                                                        'handlelister')
-                                                    .get(widget.listeNavn,
-                                                        defaultValue: <String>[]);
-                                                Hive.box('handlelister')
-                                                    .delete(widget.listeNavn);
-                                                Hive.box('handlelister')
-                                                    .put(nyttNavn, varer);
-                                                final hist =
-                                                    Hive.box('historikk').get(
-                                                        'historikk_${widget.listeNavn}',
-                                                        defaultValue: <Map<
-                                                            String, String>>[]);
-                                                Hive.box('historikk').delete(
-                                                    'historikk_${widget.listeNavn}');
-                                                Hive.box('historikk').put(
-                                                    'historikk_$nyttNavn',
-                                                    hist);
-                                                widget.onRename(
-                                                    widget.listeNavn, nyttNavn);
-                                                safePop(context);
-                                              }
-                                            },
-                                            child: Text(
-                                                AppLocalizations.of(context)
-                                                        ?.save ??
-                                                    'Lagre'))
-                                      ]));
-                            },
-                            child: Container(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 12, vertical: 6),
-                                decoration: BoxDecoration(
-                                    color: const Color.fromRGBO(0, 0, 0, 0.2),
-                                    borderRadius: BorderRadius.circular(8)),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Flexible(
-                                        child: Text(widget.listeNavn,
-                                            style: const TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 18),
-                                            overflow: TextOverflow.ellipsis)),
-                                    const SizedBox(width: 8),
-                                    const Icon(Icons.edit,
-                                        size: 16, color: Colors.white70),
-                                  ],
-                                ))),
-                        backgroundColor: Colors.green,
-                        foregroundColor: Colors.white,
-                        automaticallyImplyLeading: false,
-                        actions: [
-                          IconButton(
-                              icon: const Icon(Icons.search),
-                              onPressed: widget.onShowSearch),
-                          IconButton(
-                              icon: const Icon(Icons.history),
-                              onPressed: () =>
-                                  setState(() => _showHistory = !_showHistory)),
-                          IconButton(
-                              icon: Icon(widget.isFullScreen
-                                  ? Icons.fullscreen_exit
-                                  : Icons.fullscreen),
-                              onPressed: widget.onToggleFullScreen),
-                          IconButton(
-                              icon: const Icon(Icons.close),
-                              onPressed: widget.onClose)
-                        ]),
-                    if (widget.showPremiumUpsell)
-                      Material(
-                        color: Colors.amber.shade50,
-                        child: InkWell(
-                          onTap: widget.onPremiumTap,
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 12, vertical: 8),
-                            child: Row(
-                              children: [
-                                const Icon(Icons.workspace_premium,
-                                    color: Colors.orange),
-                                const SizedBox(width: 8),
-                                const Expanded(
-                                  child: Text(
-                                    'Fjern annonser for mer plass i handlelisten',
-                                    style: TextStyle(
-                                        fontSize: 13,
-                                        fontWeight: FontWeight.w600),
-                                  ),
-                                ),
-                                TextButton(
-                                  onPressed: widget.onPremiumTap,
-                                  child: const Text('Se'),
-                                )
-                              ],
+          if (widget.showPremiumUpsell)
+            Container(
+              padding: const EdgeInsets.all(4),
+              decoration: BoxDecoration(
+                color: Colors.orange.withAlpha((0.08 * 255).round()),
+                border: Border(bottom: BorderSide(color: Colors.orange.shade200)),
+              ),
+              child: Row(
+                children: [
+                  const Expanded(
+                    flex: 2,
+                    child: AdBanner(),
+                  ),
+                  const SizedBox(width: 4),
+                  Expanded(
+                    flex: 1,
+                    child: GestureDetector(
+                      onTap: widget.onPremiumTap,
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
+                        decoration: BoxDecoration(
+                          color: Colors.orange,
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.workspace_premium, color: Colors.white, size: 20),
+                            const SizedBox(height: 2),
+                            Text(
+                              AppLocalizations.of(context)?.buyAdFreeTitle ?? 'Kjøp reklamefri versjon',
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.bold),
                             ),
-                          ),
+                          ],
                         ),
                       ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          Expanded(
+            child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Row(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
                         children: [
-                          Expanded(
-                              child: TextField(
-                                  controller: _addItemController,
-                                  decoration: InputDecoration(
-                                      hintText: AppLocalizations.of(context)
-                                              ?.manualAddItem ??
-                                          'Add item manually...',
-                                      border: const OutlineInputBorder()))),
-                          IconButton(
-                              icon: const Icon(Icons.add_circle,
-                                  color: Colors.green, size: 40),
-                              onPressed: () {
-                                final item = _addItemController.text.trim();
-                                if (item.isNotEmpty) {
-                                  final box = Hive.box('handlelister');
-                                  final list = List<String>.from(box.get(
-                                      widget.listeNavn,
-                                      defaultValue: <String>[]));
-                                  list.insert(0, item);
-                                  box.put(widget.listeNavn, list);
-                                  _addItemController.clear();
-                                }
-                              }),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Stack(
+                                  children: [
+                                    // Ghost text layer (behind real text)
+                                    if (_inlineSuggestion.isNotEmpty)
+                                      IgnorePointer(
+                                        child: TextField(
+                                          controller: TextEditingController(text: _inlineSuggestion),
+                                          enabled: false,
+                                          decoration: const InputDecoration(
+                                            border: OutlineInputBorder(),
+                                          ),
+                                          style: TextStyle(color: Colors.grey.shade400),
+                                        ),
+                                      ),
+                                    // Real text field
+                                    TextField(
+                                      controller: _addItemController,
+                                      focusNode: _addItemFocusNode,
+                                      decoration: InputDecoration(
+                                        hintText: _inlineSuggestion.isEmpty
+                                            ? (AppLocalizations.of(context)?.manualAddItem ?? 'Legg til vare manuelt...')
+                                            : null,
+                                        border: const OutlineInputBorder(),
+                                        filled: true,
+                                        fillColor: _inlineSuggestion.isNotEmpty ? Colors.transparent : null,
+                                      ),
+                                      style: const TextStyle(color: Colors.black),
+                                      onSubmitted: _submitField,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              IconButton(
+                                icon: const Icon(Icons.add_circle, color: Colors.green, size: 40),
+                                onPressed: () {
+                                  _addItem(_addItemController.text);
+                                  _addItemFocusNode.requestFocus();
+                                },
+                              ),
+                            ],
+                          ),
+                          // Dropdown suggestions
+                          if (_dropdownSuggestions.isNotEmpty)
+                            Material(
+                              elevation: 4,
+                              borderRadius: BorderRadius.circular(8),
+                              child: ConstrainedBox(
+                                constraints: const BoxConstraints(maxHeight: 240),
+                                child: ListView.builder(
+                                  padding: EdgeInsets.zero,
+                                  shrinkWrap: true,
+                                  itemCount: _dropdownSuggestions.length,
+                                  itemBuilder: (context, index) {
+                                    final option = _dropdownSuggestions[index];
+                                    return ListTile(
+                                      dense: true,
+                                      title: Text(option),
+                                      onTap: () {
+                                        _addItem(option);
+                                        _addItemFocusNode.requestFocus();
+                                      },
+                                    );
+                                  },
+                                ),
+                              ),
+                            ),
                         ],
                       ),
                     ),
                     Expanded(
                       child: ValueListenableBuilder(
-                        valueListenable: Hive.box('handlelister')
-                            .listenable(keys: [widget.listeNavn]),
+                        valueListenable: Hive.box('handlelister').listenable(keys: [widget.listeNavn]),
                         builder: (_, box, __) {
-                          final varer = List<String>.from(box
-                              .get(widget.listeNavn, defaultValue: <String>[]));
+                          final varer = List<String>.from(box.get(widget.listeNavn, defaultValue: <String>[]));
                           if (varer.isEmpty) {
-                            return Center(
-                                child: Text(
-                                    AppLocalizations.of(context)?.emptyList ??
-                                        'List is empty'));
+                            return Center(child: Text(AppLocalizations.of(context)?.emptyList ?? 'List is empty'));
                           }
                           return ReorderableListView(
                             onReorder: (oldIndex, newIndex) {
@@ -825,28 +924,18 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               final index = entry.key;
                               final vare = entry.value;
                               final checked = vare.startsWith('✓ ');
-                              final displayText =
-                                  checked ? vare.substring(2) : vare;
+                              final displayText = checked ? vare.substring(2) : vare;
                               return ListTile(
                                 key: ValueKey(vare + index.toString()),
-                                leading: Icon(
-                                    checked
-                                        ? Icons.check_box
-                                        : Icons.check_box_outline_blank,
-                                    color: checked ? Colors.green : null),
-                                title: Text(displayText,
-                                    style: TextStyle(
-                                        decoration: checked
-                                            ? TextDecoration.lineThrough
-                                            : null,
-                                        color: checked ? Colors.grey : null)),
+                                leading: Icon(checked ? Icons.check_box : Icons.check_box_outline_blank, color: checked ? Colors.green : null),
+                                title: Text(displayText, style: TextStyle(decoration: checked ? TextDecoration.lineThrough : null, color: checked ? Colors.grey : null)),
                                 trailing: IconButton(
-                                    icon: const Icon(Icons.delete,
-                                        color: Colors.red),
-                                    onPressed: () {
-                                      varer.removeAt(index);
-                                      box.put(widget.listeNavn, varer);
-                                    }),
+                                  icon: const Icon(Icons.delete, color: Colors.red),
+                                  onPressed: () {
+                                    varer.removeAt(index);
+                                    box.put(widget.listeNavn, varer);
+                                  },
+                                ),
                                 onTap: () {
                                   if (checked) {
                                     varer[index] = displayText;
@@ -856,7 +945,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                                   box.put(widget.listeNavn, varer);
                                 },
                               );
-                            }).toList(),
+                            }).toList()
                           );
                         },
                       ),
@@ -872,77 +961,50 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                     child: Column(
                       children: [
                         AppBar(
-                            title: Text(AppLocalizations.of(context)?.history ??
-                                'History'),
-                            backgroundColor: Colors.blueGrey[700],
-                            foregroundColor: Colors.white,
-                            automaticallyImplyLeading: false,
-                            actions: [
-                              IconButton(
-                                  icon: const Icon(Icons.close),
-                                  onPressed: () =>
-                                      setState(() => _showHistory = false))
-                            ]),
+                          title: Text(AppLocalizations.of(context)?.history ?? 'History'),
+                          backgroundColor: Colors.blueGrey[700],
+                          foregroundColor: Colors.white,
+                          automaticallyImplyLeading: false,
+                          actions: [
+                            IconButton(
+                              icon: const Icon(Icons.close),
+                              onPressed: () => setState(() => _showHistory = false),
+                            ),
+                          ],
+                        ),
                         Expanded(
                           child: ValueListenableBuilder(
-                            valueListenable: Hive.box('historikk').listenable(
-                                keys: ['historikk_${widget.listeNavn}']),
+                            valueListenable: Hive.box('historikk').listenable(keys: ['historikk_${widget.listeNavn}']),
                             builder: (_, box, __) {
-                              final dynamic oldHist = box.get(
-                                  'historikk_${widget.listeNavn}',
-                                  defaultValue: []);
-                              final hist = (oldHist is List &&
-                                      oldHist.isNotEmpty &&
-                                      oldHist.first is String)
-                                  ? oldHist
-                                      .map((e) => {'name': e, 'imageUrl': ''})
-                                      .toList()
-                                      .cast<Map>()
+                              final dynamic oldHist = box.get('historikk_${widget.listeNavn}', defaultValue: []);
+                              final hist = (oldHist is List && oldHist.isNotEmpty && oldHist.first is String)
+                                  ? oldHist.map((e) => {'name': e, 'imageUrl': ''}).toList().cast<Map>()
                                   : List<Map>.from(oldHist);
-
                               if (hist.isEmpty) {
-                                return Center(
-                                    child: Text(AppLocalizations.of(context)
-                                            ?.noHistory ??
-                                        'No history for this list'));
+                                return Center(child: Text(AppLocalizations.of(context)?.noHistory ?? 'No history for this list'));
                               }
                               return ListView.builder(
                                 itemCount: hist.length,
                                 itemBuilder: (_, i) {
                                   final entry = hist[i];
-                                  final name =
-                                      entry['name'] as String? ?? 'Ukjent';
-                                  final imageUrl =
-                                      entry['imageUrl'] as String? ?? '';
+                                  final name = entry['name'] as String? ?? 'Ukjent';
+                                  final imageUrl = entry['imageUrl'] as String? ?? '';
                                   return ListTile(
                                     leading: imageUrl.isNotEmpty
-                                        ? Image.network(imageUrl,
-                                            width: 50,
-                                            height: 50,
-                                            fit: BoxFit.cover,
-                                            errorBuilder: (c, e, s) =>
-                                                const Icon(
-                                                    Icons.image_not_supported))
-                                        : const Icon(Icons.shopping_basket,
-                                            size: 40),
+                                        ? Image.network(imageUrl, width: 50, height: 50, fit: BoxFit.cover, errorBuilder: (c, e, s) => const Icon(Icons.image_not_supported))
+                                        : const Icon(Icons.shopping_basket, size: 40),
                                     title: Text(name.split(' – ').last),
                                     trailing: IconButton(
-                                        icon: const Icon(Icons.add,
-                                            color: Colors.green),
-                                        onPressed: () {
-                                          final vareNavn =
-                                              name.split(' – ').last;
-                                          final list = List<String>.from(
-                                              Hive.box('handlelister').get(
-                                                  widget.listeNavn,
-                                                  defaultValue: <String>[]));
-                                          if (!list.any((item) =>
-                                              item.endsWith(vareNavn))) {
-                                            list.insert(0, vareNavn);
-                                            Hive.box('handlelister')
-                                                .put(widget.listeNavn, list);
-                                          }
-                                        }),
+                                      icon: const Icon(Icons.add, color: Colors.green),
+                                      onPressed: () {
+                                        final vareNavn = name.split(' – ').last;
+                                        final list = List<String>.from(Hive.box('handlelister').get(widget.listeNavn, defaultValue: <String>[]));
+                                        if (!list.any((item) => item.endsWith(vareNavn))) {
+                                          list.insert(0, vareNavn);
+                                          Hive.box('handlelister').put(widget.listeNavn, list);
+                                        }
+                                      },
+                                    ),
                                   );
                                 },
                               );
@@ -955,6 +1017,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                   ),
                 ),
             ],
+          ),
           ),
         ],
       ),

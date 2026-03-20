@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'gen_l10n/app_localizations.dart';
 
 class ConsentDialog extends StatefulWidget {
   const ConsentDialog({super.key});
@@ -23,26 +24,30 @@ class _ConsentDialogState extends State<ConsentDialog> {
     await box.put('analytics_opt_in', value);
     if (!mounted) return;
     Navigator.of(context).pop();
-    final snack = value ? 'Takk — analyse aktivert.' : 'Analyse deaktivert.';
+    final l10n = AppLocalizations.of(context);
+    final snack = value
+        ? (l10n?.analyticsEnabled ?? 'Thanks - analytics enabled.')
+        : (l10n?.analyticsDisabled ?? 'Analytics disabled.');
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(snack)));
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context);
     return AlertDialog(
-      title: const Text('Personvern'),
+      title: Text(l10n?.privacy ?? 'Privacy'),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-              'Dette er valgfritt. Hvis du ikke samtykker, blir bruken din ikke sendt til analyse.'),
+          Text(l10n?.consentOptional ??
+              'This is optional. If you do not consent, your usage is not sent to analytics.'),
           const SizedBox(height: 8),
-          const Text(
-              'Appen fungerer uansett, og data kan bli kun på din enhet.'),
+          Text(l10n?.consentLocalOnly ??
+              'The app still works, and data can remain only on your device.'),
           const SizedBox(height: 12),
           Row(children: [
-            const Text('Tillat anonym analyse'),
+            Text(l10n?.allowAnonymousAnalytics ?? 'Allow anonymous analytics'),
             const Spacer(),
             Switch(value: _optIn, onChanged: (v) => setState(() => _optIn = v))
           ])
@@ -50,8 +55,11 @@ class _ConsentDialogState extends State<ConsentDialog> {
       ),
       // Build actions and interactive switch outside of const children
       actions: [
-        TextButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Avbryt')),
-        ElevatedButton(onPressed: () => _save(_optIn), child: const Text('Lagre'))
+        TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: Text(l10n?.cancel ?? 'Cancel')),
+        ElevatedButton(
+            onPressed: () => _save(_optIn), child: Text(l10n?.save ?? 'Save'))
       ],
     );
   }

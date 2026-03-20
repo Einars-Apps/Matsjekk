@@ -5,6 +5,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localizations_ar.dart';
 import 'app_localizations_da.dart';
 import 'app_localizations_de.dart';
 import 'app_localizations_en.dart';
@@ -12,10 +13,15 @@ import 'app_localizations_es.dart';
 import 'app_localizations_fi.dart';
 import 'app_localizations_fr.dart';
 import 'app_localizations_it.dart';
+import 'app_localizations_ko.dart';
 import 'app_localizations_nb.dart';
 import 'app_localizations_nl.dart';
+import 'app_localizations_pl.dart';
 import 'app_localizations_pt.dart';
+import 'app_localizations_ru.dart';
 import 'app_localizations_sv.dart';
+import 'app_localizations_th.dart';
+import 'app_localizations_zh.dart';
 
 // ignore_for_file: type=lint
 
@@ -71,7 +77,8 @@ import 'app_localizations_sv.dart';
 /// be consistent with the languages listed in the AppLocalizations.supportedLocales
 /// property.
 abstract class AppLocalizations {
-  AppLocalizations(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  AppLocalizations(String locale)
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -79,7 +86,8 @@ abstract class AppLocalizations {
     return Localizations.of<AppLocalizations>(context, AppLocalizations);
   }
 
-  static const LocalizationsDelegate<AppLocalizations> delegate = _AppLocalizationsDelegate();
+  static const LocalizationsDelegate<AppLocalizations> delegate =
+      _AppLocalizationsDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -91,7 +99,8 @@ abstract class AppLocalizations {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
     delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -100,6 +109,7 @@ abstract class AppLocalizations {
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
+    Locale('ar'),
     Locale('da'),
     Locale('de'),
     Locale('en'),
@@ -107,10 +117,15 @@ abstract class AppLocalizations {
     Locale('fi'),
     Locale('fr'),
     Locale('it'),
+    Locale('ko'),
     Locale('nb'),
     Locale('nl'),
+    Locale('pl'),
     Locale('pt'),
-    Locale('sv')
+    Locale('ru'),
+    Locale('sv'),
+    Locale('th'),
+    Locale('zh')
   ];
 
   /// No description provided for @appTitle.
@@ -383,6 +398,42 @@ abstract class AppLocalizations {
   /// **'Finnish'**
   String get finnish;
 
+  /// No description provided for @korean.
+  ///
+  /// In en, this message translates to:
+  /// **'Korean'**
+  String get korean;
+
+  /// No description provided for @polish.
+  ///
+  /// In en, this message translates to:
+  /// **'Polish'**
+  String get polish;
+
+  /// No description provided for @russian.
+  ///
+  /// In en, this message translates to:
+  /// **'Russian'**
+  String get russian;
+
+  /// No description provided for @chinese.
+  ///
+  /// In en, this message translates to:
+  /// **'Chinese'**
+  String get chinese;
+
+  /// No description provided for @arabic.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get arabic;
+
+  /// No description provided for @thai.
+  ///
+  /// In en, this message translates to:
+  /// **'Thai'**
+  String get thai;
+
   /// No description provided for @changeListName.
   ///
   /// In en, this message translates to:
@@ -520,9 +571,136 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Unknown product'**
   String get unknownProduct;
+
+  /// No description provided for @removeAds.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove ads'**
+  String get removeAds;
+
+  /// No description provided for @removeAdsInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove ads for more space in the shopping list'**
+  String get removeAdsInfo;
+
+  /// No description provided for @removeAdsMenuItem.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove ads (kr 49,-) - supports further development'**
+  String get removeAdsMenuItem;
+
+  /// No description provided for @premiumTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove ads'**
+  String get premiumTitle;
+
+  /// No description provided for @premiumActiveStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Ad-free is active'**
+  String get premiumActiveStatus;
+
+  /// No description provided for @premiumInactiveStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'Ad-free is not active yet'**
+  String get premiumInactiveStatus;
+
+  /// No description provided for @buyAdFreeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy ad-free version'**
+  String get buyAdFreeTitle;
+
+  /// No description provided for @oneTimePurchaseInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'One-time purchase. No subscription.\nAfter purchase confirmation, ads are removed permanently for this account.'**
+  String get oneTimePurchaseInfo;
+
+  /// No description provided for @storeUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Store is unavailable right now. Please try again later.'**
+  String get storeUnavailable;
+
+  /// No description provided for @productsLoadFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load purchase products. Check your network and try again.'**
+  String get productsLoadFailed;
+
+  /// No description provided for @tryAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get tryAgain;
+
+  /// No description provided for @oneTimePurchaseLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'one-time purchase'**
+  String get oneTimePurchaseLabel;
+
+  /// No description provided for @buyPermanently.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy permanently'**
+  String get buyPermanently;
+
+  /// No description provided for @restorePurchases.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore purchases'**
+  String get restorePurchases;
+
+  /// No description provided for @analyticsEnabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks - analytics enabled.'**
+  String get analyticsEnabled;
+
+  /// No description provided for @analyticsDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Analytics disabled.'**
+  String get analyticsDisabled;
+
+  /// No description provided for @privacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy'**
+  String get privacy;
+
+  /// No description provided for @adFreeActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Ad-free (active)'**
+  String get adFreeActive;
+
+  /// No description provided for @consentLocalOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'The app still works, and data can remain only on your device.'**
+  String get consentLocalOnly;
+
+  /// No description provided for @allowAnonymousAnalytics.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow anonymous analytics'**
+  String get allowAnonymousAnalytics;
+
+  /// No description provided for @consentOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'This is optional. If you do not consent, your usage is not sent to analytics.'**
+  String get consentOptional;
 }
 
-class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
+class _AppLocalizationsDelegate
+    extends LocalizationsDelegate<AppLocalizations> {
   const _AppLocalizationsDelegate();
 
   @override
@@ -531,34 +709,72 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['da', 'de', 'en', 'es', 'fi', 'fr', 'it', 'nb', 'nl', 'pt', 'sv'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+        'ar',
+        'da',
+        'de',
+        'en',
+        'es',
+        'fi',
+        'fr',
+        'it',
+        'ko',
+        'nb',
+        'nl',
+        'pl',
+        'pt',
+        'ru',
+        'sv',
+        'th',
+        'zh'
+      ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
-
-
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'da': return AppLocalizationsDa();
-    case 'de': return AppLocalizationsDe();
-    case 'en': return AppLocalizationsEn();
-    case 'es': return AppLocalizationsEs();
-    case 'fi': return AppLocalizationsFi();
-    case 'fr': return AppLocalizationsFr();
-    case 'it': return AppLocalizationsIt();
-    case 'nb': return AppLocalizationsNb();
-    case 'nl': return AppLocalizationsNl();
-    case 'pt': return AppLocalizationsPt();
-    case 'sv': return AppLocalizationsSv();
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'da':
+      return AppLocalizationsDa();
+    case 'de':
+      return AppLocalizationsDe();
+    case 'en':
+      return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
+    case 'fi':
+      return AppLocalizationsFi();
+    case 'fr':
+      return AppLocalizationsFr();
+    case 'it':
+      return AppLocalizationsIt();
+    case 'ko':
+      return AppLocalizationsKo();
+    case 'nb':
+      return AppLocalizationsNb();
+    case 'nl':
+      return AppLocalizationsNl();
+    case 'pl':
+      return AppLocalizationsPl();
+    case 'pt':
+      return AppLocalizationsPt();
+    case 'ru':
+      return AppLocalizationsRu();
+    case 'sv':
+      return AppLocalizationsSv();
+    case 'th':
+      return AppLocalizationsTh();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   throw FlutterError(
-    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
-  );
+      'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }
