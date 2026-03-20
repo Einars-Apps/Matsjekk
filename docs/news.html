@@ -193,9 +193,30 @@
               function host(url) {
                 try { return new URL(String(url || '')).hostname.toLowerCase(); } catch(e) { return ''; }
               }
+              function isGoogleNewsWrapperHost(h) {
+                return h === 'news.google.com' || h.endsWith('.news.google.com');
+              }
+              function normalizeSourceHost(sourceText) {
+                var s = String(sourceText || '').toLowerCase().trim();
+                s = s.replace(/^https?:\/\//, '').replace(/^www\./, '').split(/[\s/]/)[0];
+                return s;
+              }
+              function isTrustedSourceDomainText(sourceText) {
+                var hostText = normalizeSourceHost(sourceText);
+                if (!hostText || hostText.indexOf('.') < 0) return false;
+                return trustedDomains.some(function(d){ return hostText === d || hostText.endsWith('.' + d); });
+              }
+              function isLikelyPublisherSourceText(sourceText) {
+                var s = String(sourceText || '').toLowerCase().trim();
+                if (!s || s.length < 3) return false;
+                if (socialDomains.some(function(d) { return s === d || s.endsWith('.' + d); })) return false;
+                if (/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(normalizeSourceHost(s))) return isTrustedSourceDomainText(s);
+                return /^[\p{L}0-9 .,'’&-]{3,80}$/u.test(s);
+              }
               function isTrusted(item) {
                 var h = host(item.url);
                 var s = String(item.source || '').toLowerCase();
+                if (isGoogleNewsWrapperHost(h) && isLikelyPublisherSourceText(s)) return true;
                 return trustedDomains.some(function(d){ return h === d || h.endsWith('.' + d) || s.indexOf(d) >= 0; });
               }
               function hasTopic(item) {
@@ -204,12 +225,15 @@
                 return topicKeywords.some(function(k){ return txt.indexOf(k) >= 0; });
               }
               items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url) && isTrusted(item) && hasTopic(item); });
+              items.sort(function(a, b) {
+                return new Date(b.pubDate || b.date || 0) - new Date(a.pubDate || a.date || 0);
+              });
               container.innerHTML = '';
               if (!items.length) {
                 container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';
                 return;
               }
-              items.slice(0, 30).forEach(function (item) {
+              items.forEach(function (item) {
                 var title = String(item.title || 'Untitled');
                 var source = String(item.source || 'Ukjent kilde');
                 var country = String(item.country || '');

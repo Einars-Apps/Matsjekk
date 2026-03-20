@@ -39,6 +39,7 @@ const TOPIC_KEYWORDS = [
 // Rolling per-region article cache (30 days) so articles don't disappear when they leave the RSS window
 const NEWS_FEED_CACHE_KEY = 'matsjekk_news_feed_v2'; // bump version to bust old social-media cache
 const NEWS_FEED_CACHE_MAX_AGE_DAYS = 30;
+const ENABLE_PINNED_SOURCES = false;
 
 // Permanent pinned sources per region — always shown at bottom, not removable before expiry
 const PINNED_SOURCES = {
@@ -244,9 +245,43 @@ function hostFromUrl(url) {
   }
 }
 
+function isGoogleNewsWrapperHost(host) {
+  return host === 'news.google.com' || host.endsWith('.news.google.com');
+}
+
+function normalizeSourceHost(sourceText) {
+  let src = String(sourceText || '').toLowerCase().trim();
+  src = src.replace(/^https?:\/\//, '').replace(/^www\./, '').split(/[\s/]/)[0];
+  return src;
+}
+
+function isTrustedDomainText(sourceText) {
+  const host = normalizeSourceHost(sourceText);
+  if (!host || !host.includes('.')) return false;
+  return TRUSTED_NEWS_DOMAINS.some((domain) => host === domain || host.endsWith('.' + domain));
+}
+
+function isLikelyPublisherSourceText(sourceText) {
+  const src = String(sourceText || '').toLowerCase().trim();
+  if (!src) return false;
+  if (src.length < 3) return false;
+  if (SOCIAL_MEDIA_DOMAINS.some((domain) => src === domain || src.endsWith('.' + domain))) {
+    return false;
+  }
+  // If source looks like a hostname/domain, require explicit trusted-domain match.
+  if (/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(normalizeSourceHost(src))) {
+    return isTrustedDomainText(src);
+  }
+  // Accept outlet-like source labels from feeds (for example: "Nationen", "Yle", "ATL").
+  return /^[\p{L}0-9 .,'’&-]{3,80}$/u.test(src);
+}
+
 function isTrustedNewsDomain(item) {
   const host = hostFromUrl(item && item.url);
   const sourceText = String((item && (item.source || item.sourceName)) || '').toLowerCase();
+  if (isGoogleNewsWrapperHost(host) && isLikelyPublisherSourceText(sourceText)) {
+    return true;
+  }
   return TRUSTED_NEWS_DOMAINS.some((domain) =>
     host === domain || host.endsWith('.' + domain) || sourceText.includes(domain.replace(/^www\./, ''))
   );
@@ -483,8 +518,9 @@ function countryScopeContains(scope, country) {
 function newsListForDisplay(items, scope) {
   const sorted = [...items].sort((a, b) => new Date(b.pubDate || b.date || 0) - new Date(a.pubDate || a.date || 0));
   const filtered = sorted.filter((item) => countryScopeContains(scope, item.country));
-  if (filtered.length > 0) return filtered.slice(0, NEWS_MAX_ITEMS);
-  return sorted.slice(0, NEWS_MAX_ITEMS);
+  // Keep all still-valid cached articles visible (newest first, oldest at the bottom).
+  if (filtered.length > 0) return filtered.slice(0, Math.max(NEWS_MAX_ITEMS, filtered.length));
+  return sorted.slice(0, Math.max(NEWS_MAX_ITEMS, sorted.length));
 }
 
 function fallbackNewsForScope(scope) {
@@ -708,8 +744,8 @@ async function renderNews(preferredLang) {
     }
   });
 
-  // Append permanent pinned sources at the bottom
-  const pinnedSources = getPinnedSourcesForMode(resolvedMode);
+  // Append optional pinned sources at the bottom (disabled by default to avoid feed skew).
+  const pinnedSources = ENABLE_PINNED_SOURCES ? getPinnedSourcesForMode(resolvedMode) : [];
   if (pinnedSources.length > 0) {
     const separator = document.createElement('p');
     separator.className = 'muted pinned-section-label';
