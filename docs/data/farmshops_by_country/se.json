@@ -2940,6 +2940,18 @@
     "address": "Smedby"
   },
   {
+    "id": 1490673612,
+    "name": "Handelsbod",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.681426,
+    "lon": 15.7070999,
+    "address": null
+  },
+  {
     "id": 465553123,
     "name": "Spirit of Hven Distillery",
     "country": "Sweden",

@@ -13872,6 +13872,18 @@
     "address": "Prees Green"
   },
   {
+    "id": 1131698865,
+    "name": "Homedene Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Shawbury",
+    "products": [],
+    "website": null,
+    "lat": 52.7866615,
+    "lon": -2.6607491,
+    "address": "Shrewsbury Road"
+  },
+  {
     "id": 1133014351,
     "name": "Allington Farm Shop",
     "country": "United Kingdom",
@@ -15376,7 +15388,7 @@
     "name": "Westside Fruit Ltd Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Marlow",
     "products": [],
     "website": null,
     "lat": 51.6085539,

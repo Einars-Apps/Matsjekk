@@ -34179,6 +34179,18 @@
       "lon": 18.0623763,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 1490673612,
+      "name": "Handelsbod",
+      "country": "Sweden",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 56.681426,
+      "lon": 15.7070999,
+      "address": null
     }
   ],
   "DK": [
@@ -523520,6 +523532,18 @@
       "lat": 56.3960545,
       "lon": -3.5480999,
       "address": null
+    },
+    {
+      "id": 1131698865,
+      "name": "Homedene Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Shawbury",
+      "products": [],
+      "website": null,
+      "lat": 52.7866615,
+      "lon": -2.6607491,
+      "address": "Shrewsbury Road"
     }
   ],
   "IE": [
@@ -528522,6 +528546,18 @@
       "address": "Moretown, N91 TY06",
       "source": "osm",
       "phone": "+353 (0) 44 966 1775"
+    },
+    {
+      "id": 49414507,
+      "name": "Cullion Fish Farm",
+      "country": "Ireland",
+      "region": null,
+      "municipality": "Mullingar",
+      "products": [],
+      "website": null,
+      "lat": 53.5493454,
+      "lon": -7.3527439,
+      "address": "Cullionmore"
     }
   ],
   "AT": [
