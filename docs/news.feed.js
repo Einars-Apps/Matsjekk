@@ -781,14 +781,18 @@ function initNewsForm() {
   const cancelBtn = document.getElementById('cancel-article');
   const status = document.getElementById('news-form-status');
 
-  if (addBtn && form) {
+  if (addBtn && form && addBtn.dataset.newsFormBound !== '1') {
+    addBtn.dataset.newsFormBound = '1';
+    // Also mark fallback flag so inline fallback in news.html does not bind a second toggle listener.
+    addBtn.dataset.fallbackBound = '1';
     addBtn.addEventListener('click', () => {
       form.classList.toggle('hidden');
       if (status) status.textContent = '';
     });
   }
 
-  if (cancelBtn && form) {
+  if (cancelBtn && form && cancelBtn.dataset.newsFormBound !== '1') {
+    cancelBtn.dataset.newsFormBound = '1';
     cancelBtn.addEventListener('click', (event) => {
       event.preventDefault();
       form.classList.add('hidden');
@@ -796,7 +800,8 @@ function initNewsForm() {
     });
   }
 
-  if (!saveBtn) return;
+  if (!saveBtn || saveBtn.dataset.newsFormBound === '1') return;
+  saveBtn.dataset.newsFormBound = '1';
 
   saveBtn.addEventListener('click', async (event) => {
     event.preventDefault();
