@@ -22,6 +22,11 @@ const SOCIAL_MEDIA_DOMAINS = [
 
 const TRUSTED_NEWS_DOMAINS = [
   'nrk.no', 'svt.se', 'dr.dk', 'yle.fi', 'aftenposten.no', 'vg.no', 'dagbladet.no',
+  'nationen.no', 'klassekampen.no', 'dagsavisen.no', 'adresseavisen.no', 'bt.no', 'fvn.no',
+  'smp.no', 'itromso.no', 'ranablad.no', 'fremover.no', 'h-a.no',
+  'svd.se', 'aftonbladet.se', 'expressen.se', 'gp.se', 'dn.se',
+  'jyllands-posten.dk', 'berlingske.dk', 'politiken.dk',
+  'hs.fi', 'is.fi',
   'steigan.no', 'document.no', 'inyheter.no', 'samnytt.se', 'friatider.se', '24nyt.dk',
   'reuters.com', 'apnews.com', 'bbc.com', 'theguardian.com', 'dw.com',
   'lemonde.fr', 'lefigaro.fr', 'france24.com', 'corriere.it', 'ansa.it',
@@ -36,9 +41,9 @@ const TOPIC_KEYWORDS = [
   'genetically modified fish feed', 'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo'
 ];
 
-// Rolling per-region article cache (30 days) so articles don't disappear when they leave the RSS window
+// Rolling per-region article cache (90 days) so articles don't disappear quickly when they leave the RSS window
 const NEWS_FEED_CACHE_KEY = 'matsjekk_news_feed_v2'; // bump version to bust old social-media cache
-const NEWS_FEED_CACHE_MAX_AGE_DAYS = 30;
+const NEWS_FEED_CACHE_MAX_AGE_DAYS = 90;
 const ENABLE_PINNED_SOURCES = false;
 
 // Permanent pinned sources per region — always shown at bottom, not removable before expiry
@@ -273,7 +278,7 @@ function isLikelyPublisherSourceText(sourceText) {
     return isTrustedDomainText(src);
   }
   // Accept outlet-like source labels from feeds (for example: "Nationen", "Yle", "ATL").
-  return /^[\p{L}0-9 .,'’&-]{3,80}$/u.test(src);
+  return true;
 }
 
 function isTrustedNewsDomain(item) {
