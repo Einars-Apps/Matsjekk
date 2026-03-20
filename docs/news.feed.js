@@ -474,6 +474,60 @@ function openModerationIssue(url, pendingWindow) {
   return !!popup;
 }
 
+function inferCountryFromHost(host) {
+  const h = String(host || '').toLowerCase();
+  if (!h) return '';
+  if (h.endsWith('.no')) return 'NO';
+  if (h.endsWith('.se')) return 'SE';
+  if (h.endsWith('.dk')) return 'DK';
+  if (h.endsWith('.fi')) return 'FI';
+  if (h.endsWith('.is')) return 'IS';
+  if (h.endsWith('.de') || h.endsWith('.at')) return 'DE';
+  if (h.endsWith('.nl')) return 'NL';
+  if (h.endsWith('.fr')) return 'FR';
+  if (h.endsWith('.it')) return 'IT';
+  if (h.endsWith('.ch')) return 'CH';
+  if (h.endsWith('.be')) return 'BE';
+  if (h.endsWith('.lu')) return 'LU';
+  if (h.endsWith('.es')) return 'ES';
+  if (h.endsWith('.pt')) return 'PT';
+  if (h.endsWith('.uk') || h.endsWith('.co.uk') || h.endsWith('.ie')) return 'GB';
+  return '';
+}
+
+function inferLanguageFromCountry(country) {
+  const c = normalizeCountry(country);
+  if (c === 'NO') return 'nb';
+  if (c === 'SE') return 'sv';
+  if (c === 'DK') return 'da';
+  if (c === 'FI') return 'fi';
+  if (c === 'DE' || c === 'AT' || c === 'CH') return 'de';
+  if (c === 'NL') return 'nl';
+  if (c === 'FR' || c === 'BE' || c === 'LU') return 'fr';
+  if (c === 'IT') return 'it';
+  if (c === 'ES') return 'es';
+  if (c === 'PT') return 'pt';
+  if (c === 'GB' || c === 'IE') return 'en';
+  return '';
+}
+
+function inferSubmissionMetadata(url, titleInput, sourceInput, langInput) {
+  const host = hostFromUrl(url);
+  const country = inferCountryFromHost(host);
+  const inferredLang = inferLanguageFromCountry(country);
+  const language = normalizeLang(langInput || inferredLang || 'nb') || 'nb';
+  const title = String(titleInput || '').trim() || titleFromUrl(url);
+  const source = String(sourceInput || '').trim() || sourceFromUrl(url);
+  const resolvedMode = clusterForCountry(country);
+  return {
+    title,
+    source,
+    language,
+    country,
+    regionHint: resolvedMode,
+  };
+}
+
 function sourceFromUrl(url) {
   const host = hostFromUrl(url).replace(/^www\./, '');
   return host || 'Ukjent kilde';
@@ -502,6 +556,7 @@ function createNewsSubmissionIssueUrl(payload) {
     `url: ${yamlQuoted(payload.url)}`,
     `language: ${yamlQuoted(payload.language || 'nb')}`,
     `country: ${yamlQuoted(payload.country || '')}`,
+    `region_hint: ${yamlQuoted(payload.regionHint || '')}`,
     `neutrality_rating: ${yamlQuoted((payload.neutrality && payload.neutrality.rating) || 'unknown')}`,
     `neutrality_flags: ${yamlQuoted((((payload.neutrality && payload.neutrality.flags) || []).join(', ')) || 'none')}`,
     `neutrality_notes: ${yamlQuoted((payload.neutrality && payload.neutrality.notes) || '')}`,
@@ -839,7 +894,7 @@ function initNewsForm() {
   if (!saveBtn || saveBtn.dataset.newsFormBound === '1') return;
   saveBtn.dataset.newsFormBound = '1';
 
-  saveBtn.addEventListener('click', async (event) => {
+  saveBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
     const titleEl = document.getElementById('article-title');
@@ -850,9 +905,17 @@ function initNewsForm() {
     const titleInput = String((titleEl && titleEl.value) || '').trim();
     const sourceInput = String((sourceEl && sourceEl.value) || '').trim();
     const url = String((urlEl && urlEl.value) || '').trim();
-    const language = normalizeLang(String((langEl && langEl.value) || 'nb')) || 'nb';
-    const title = titleInput || titleFromUrl(url);
-    const source = sourceInput || sourceFromUrl(url);
+    const selectedLanguage = normalizeLang(String((langEl && langEl.value) || ''));
+
+    if (status) {
+      status.innerHTML = 'Sender til moderering...';
+    }
+
+    const meta = inferSubmissionMetadata(url, titleInput, sourceInput, selectedLanguage);
+    const title = meta.title;
+    const source = meta.source;
+    const language = meta.language;
+    const country = meta.country;
     const neutrality = neutralityAssessment({ title, source, url, language });
 
     if (!url) {
@@ -860,42 +923,48 @@ function initNewsForm() {
       return;
     }
 
-    let pendingWindow = null;
-    try {
-      // Open synchronously from click event to avoid popup-blockers after await.
-      pendingWindow = window.open('', '_blank', 'noopener');
-    } catch (_) {
-      pendingWindow = null;
-    }
-
-    const userCountry = await detectCountryCodeFromGeo();
-    const issueUrl = createNewsSubmissionIssueUrl({ title, source, url, language, country: userCountry, neutrality });
+    const issueUrl = createNewsSubmissionIssueUrl({
+      title,
+      source,
+      url,
+      language,
+      country,
+      regionHint: meta.regionHint,
+      neutrality,
+    });
 
     const pending = getPendingSubmissions();
+    const trusted = isTrustedNewsDomain({ url, source, sourceName: source });
     pending.push({
       title,
       source,
       url,
       language,
-      country: userCountry,
+      country,
+      regionHint: meta.regionHint,
       submittedAt: new Date().toISOString(),
       moderationStatus: 'pending_review',
+      moderationNeedsEmailReview: !trusted,
       neutrality,
     });
     savePendingSubmissions(pending.slice(-200));
 
-    const opened = openModerationIssue(issueUrl, pendingWindow);
+    const opened = openModerationIssue(issueUrl);
 
     if (status) {
-      status.innerHTML = opened
+      const base = opened
         ? 'Innsending sendt til moderering. Et GitHub-skjema er aapnet i ny fane.'
         : `Innsending klargjort for moderering. <a href="${escapeHtml(issueUrl)}" target="_blank" rel="noopener">Trykk her for aa aapne modereringsskjema</a>.`;
+      const extra = trusted
+        ? ''
+        : ' Kilden er ikke i kjent avisliste; vennligst varsle redaksjonen via <a href="index.html#contact">Kontakt</a> for manuell e-postvurdering ved tvil.';
+      status.innerHTML = base + extra;
     }
 
     if (titleEl) titleEl.value = '';
     if (sourceEl) sourceEl.value = '';
     if (urlEl) urlEl.value = '';
-    if (langEl) langEl.value = 'nb';
+    if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
     if (form) form.classList.remove('hidden');
   });
 }
