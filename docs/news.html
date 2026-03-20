@@ -129,7 +129,15 @@
       if (addBtn && form && !addBtn.dataset.fallbackBound) {
         addBtn.dataset.fallbackBound = '1';
         addBtn.addEventListener('click', function () {
-          form.classList.toggle('hidden');
+          var hidden = form.classList.contains('hidden');
+          if (hidden) {
+            form.classList.remove('hidden');
+            try { form.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (e) {}
+            var titleInput = document.getElementById('article-title');
+            if (titleInput && typeof titleInput.focus === 'function') titleInput.focus();
+          } else {
+            form.classList.add('hidden');
+          }
         });
       }
 

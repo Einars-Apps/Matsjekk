@@ -786,7 +786,15 @@ function initNewsForm() {
     // Also mark fallback flag so inline fallback in news.html does not bind a second toggle listener.
     addBtn.dataset.fallbackBound = '1';
     addBtn.addEventListener('click', () => {
-      form.classList.toggle('hidden');
+      const isHidden = form.classList.contains('hidden');
+      if (isHidden) {
+        form.classList.remove('hidden');
+        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const titleEl = document.getElementById('article-title');
+        if (titleEl && typeof titleEl.focus === 'function') titleEl.focus();
+      } else {
+        form.classList.add('hidden');
+      }
       if (status) status.textContent = '';
     });
   }
