@@ -6055,8 +6055,8 @@
     "municipality": "Forfar",
     "products": [],
     "website": null,
-    "lat": 56.5870786,
-    "lon": -2.8937146,
+    "lat": 56.5867153,
+    "lon": -2.8943583,
     "address": "Mill Of Inverarity"
   },
   {
@@ -18418,6 +18418,18 @@
     "lat": 50.7224101,
     "lon": -2.1474983,
     "address": null
+  },
+  {
+    "id": 12662799208,
+    "name": "Mill of Inverarity Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Forfar",
+    "products": [],
+    "website": null,
+    "lat": 56.5870786,
+    "lon": -2.8937146,
+    "address": "Mill Of Inverarity"
   },
   {
     "id": 460412846,

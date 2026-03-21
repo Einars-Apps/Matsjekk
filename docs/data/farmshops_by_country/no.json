@@ -13857,6 +13857,19 @@
     "source": "https://www.hanen.no/bedrift/garden-oppheim/"
   },
   {
+    "id": "hanen_363",
+    "name": "Sogn Jord- og Hagebruksskule",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Aurland",
+    "products": [],
+    "website": "https://www.sjh.vgs.no",
+    "lat": 60.903135,
+    "lon": 7.200768,
+    "address": "Skulevegen 24",
+    "source": "https://www.hanen.no/bedrift/sogn-jord-og-hagebruksskule/"
+  },
+  {
     "id": "hanen_2785",
     "name": "Gårdsbutikken på Schrader Gartneri",
     "country": "Norway",
@@ -15207,19 +15220,6 @@
     "lon": 7.51269,
     "address": "Lærdalsvegen 714",
     "source": "https://www.hanen.no/bedrift/sognasmak-as/"
-  },
-  {
-    "id": "hanen_363",
-    "name": "Sogn Jord- og Hagebruksskule",
-    "country": "Norway",
-    "region": "Vestland",
-    "municipality": "Aurland",
-    "products": [],
-    "website": "https://www.sjh.vgs.no",
-    "lat": 60.903135,
-    "lon": 7.200768,
-    "address": "Skulevegen 24",
-    "source": "https://www.hanen.no/bedrift/sogn-jord-og-hagebruksskule/"
   },
   {
     "id": "hanen_1168",

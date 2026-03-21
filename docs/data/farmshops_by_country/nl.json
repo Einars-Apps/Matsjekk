@@ -2835,7 +2835,7 @@
   },
   {
     "id": 5971944180,
-    "name": "Korenblik",
+    "name": "Biologische Boerderijwinkel Korenblik",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -6507,6 +6507,18 @@
     "website": null,
     "lat": 51.4932275,
     "lon": 4.0532058,
+    "address": null
+  },
+  {
+    "id": 5971944180,
+    "name": "Korenblik",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.boerderijkorenblik.nl/",
+    "lat": 52.128933,
+    "lon": 6.2753847,
     "address": null
   },
   {

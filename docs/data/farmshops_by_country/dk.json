@@ -10212,6 +10212,126 @@
     "address": null
   },
   {
+    "id": 5936299114,
+    "name": "Seerupgaards Landkøkken",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://seerupgaard.dk/",
+    "lat": 55.5826017,
+    "lon": 12.6208574,
+    "address": null
+  },
+  {
+    "id": 8704713845,
+    "name": "Mollwitz Mjød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.926028,
+    "lon": 9.925686,
+    "address": null
+  },
+  {
+    "id": 8907286062,
+    "name": "Torsøgård Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.649485,
+    "lon": 11.510596,
+    "address": null
+  },
+  {
+    "id": 8996329796,
+    "name": "Bjarne Willer Jensen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.530944,
+    "lon": 10.086285,
+    "address": null
+  },
+  {
+    "id": 9203374295,
+    "name": "Julegåsen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.xn--julegsen-e0a.dk/",
+    "lat": 56.094789,
+    "lon": 8.7791877,
+    "address": null
+  },
+  {
+    "id": 10931990072,
+    "name": "Frugt og grønt fra haven",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0233093,
+    "lon": 8.9003635,
+    "address": null
+  },
+  {
+    "id": 13001256043,
+    "name": "Grands Vin",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1003713,
+    "lon": 10.1865706,
+    "address": null
+  },
+  {
+    "id": 13167352719,
+    "name": "Gundestrup Landmejeri og Bryghus",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0926196,
+    "lon": 10.4078513,
+    "address": null
+  },
+  {
+    "id": 13278424112,
+    "name": "Omfaun Landbrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1557342,
+    "lon": 10.2620069,
+    "address": null
+  },
+  {
+    "id": 13517973347,
+    "name": "Mødrenes Naturgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3121925,
+    "lon": 10.3158482,
+    "address": null
+  },
+  {
     "id": 417180524,
     "name": "Den Tredje",
     "country": "Denmark",
@@ -15092,18 +15212,6 @@
     "address": null
   },
   {
-    "id": 5936299114,
-    "name": "Seerupgaards Landkøkken",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://seerupgaard.dk/",
-    "lat": 55.5826017,
-    "lon": 12.6208574,
-    "address": null
-  },
-  {
     "id": 5961513167,
     "name": "Farm shop 5961513167",
     "country": "Denmark",
@@ -15341,18 +15449,6 @@
     "website": null,
     "lat": 55.7598243,
     "lon": 12.5842003,
-    "address": null
-  },
-  {
-    "id": 8704713845,
-    "name": "Mollwitz Mjød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.926028,
-    "lon": 9.925686,
     "address": null
   },
   {
@@ -15677,18 +15773,6 @@
     "website": null,
     "lat": 55.0357854,
     "lon": 10.6013371,
-    "address": null
-  },
-  {
-    "id": 8907286062,
-    "name": "Torsøgård Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.649485,
-    "lon": 11.510596,
     "address": null
   },
   {
@@ -16061,18 +16145,6 @@
     "website": null,
     "lat": 55.72136,
     "lon": 9.560393,
-    "address": null
-  },
-  {
-    "id": 9203374295,
-    "name": "Julegåsen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.xn--julegsen-e0a.dk/",
-    "lat": 56.094789,
-    "lon": 8.7791877,
     "address": null
   },
   {
@@ -16796,18 +16868,6 @@
     "address": null
   },
   {
-    "id": 13001256043,
-    "name": "Grands Vin",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1003713,
-    "lon": 10.1865706,
-    "address": null
-  },
-  {
     "id": 13005335733,
     "name": "Kolding Bazar",
     "country": "Denmark",
@@ -16913,18 +16973,6 @@
     "website": null,
     "lat": 57.1321654,
     "lon": 10.3285866,
-    "address": null
-  },
-  {
-    "id": 13167352719,
-    "name": "Gundestrup Landmejeri og Bryghus",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0926196,
-    "lon": 10.4078513,
     "address": null
   },
   {
@@ -17357,54 +17405,6 @@
     "website": null,
     "lat": 57.4856963,
     "lon": 10.2137793,
-    "address": null
-  },
-  {
-    "id": 8996329796,
-    "name": "Bjarne Willer Jensen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.530944,
-    "lon": 10.086285,
-    "address": null
-  },
-  {
-    "id": 10931990072,
-    "name": "Frugt og grønt fra haven",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0233093,
-    "lon": 8.9003635,
-    "address": null
-  },
-  {
-    "id": 13278424112,
-    "name": "Omfaun Landbrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.1557342,
-    "lon": 10.2620069,
-    "address": null
-  },
-  {
-    "id": 13517973347,
-    "name": "Mødrenes Naturgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3121925,
-    "lon": 10.3158482,
     "address": null
   },
   {

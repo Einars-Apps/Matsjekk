@@ -184245,6 +184245,18 @@
       "lat": 51.9973568,
       "lon": 5.6218027,
       "address": null
+    },
+    {
+      "id": 5971944180,
+      "name": "Biologische Boerderijwinkel Korenblik",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "http://www.boerderijkorenblik.nl/",
+      "lat": 52.128933,
+      "lon": 6.2753847,
+      "address": null
     }
   ],
   "BE": [
@@ -523544,6 +523556,18 @@
       "lat": 52.7866615,
       "lon": -2.6607491,
       "address": "Shrewsbury Road"
+    },
+    {
+      "id": 12662799208,
+      "name": "Mill of Inverarity Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Forfar",
+      "products": [],
+      "website": null,
+      "lat": 56.5867153,
+      "lon": -2.8943583,
+      "address": "Mill Of Inverarity"
     }
   ],
   "IE": [
@@ -624653,6 +624677,18 @@
       "lat": 47.3493502,
       "lon": 8.3782652,
       "address": "Friedlisbergstrasse"
+    },
+    {
+      "id": 13664687301,
+      "name": "Hof zum Jägerhuus Natura-Beef",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.4884778,
+      "lon": 8.3129351,
+      "address": "Weidweg"
     }
   ],
   "LI": [

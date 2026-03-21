@@ -65184,18 +65184,6 @@
     "address": "Deutsch Bork"
   },
   {
-    "id": 669175810,
-    "name": "Jennerhof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.9352184,
-    "lon": 9.3103253,
-    "address": null
-  },
-  {
     "id": 669499015,
     "name": "Hohls",
     "country": "Germany",
@@ -70053,6 +70041,18 @@
     "website": null,
     "lat": 48.0353867,
     "lon": 9.8115006,
+    "address": null
+  },
+  {
+    "id": 669175810,
+    "name": "Jennerhof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.9352184,
+    "lon": 9.3103253,
     "address": null
   },
   {
