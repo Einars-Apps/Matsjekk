@@ -7,21 +7,21 @@ CENSORSHIP RESISTANCE POLICY:
   - Only obvious machine-generated spam (casino/crypto/viagra patterns) with
     NO valid article URL is rejected.
   - If a submission has a valid URL pointing to any real website, the worst
-    outcome is 'review' (manual check) — NEVER 'reject'.
+    outcome is 'review' (manual check) â€” NEVER 'reject'.
   - Once approved, articles are permanent and cannot be removed by the bot.
   - This protects against external pressure from organizations (ADL, etc.)
     that attempt to influence moderation of legitimate journalism.
 
 Reads the issue body (YAML block), runs moderation checks, then:
-  - if all pass  → AUTO-APPROVE: label + close
-  - if topic/source uncertain → NEEDS REVIEW: assign maintainer (email via GitHub)
-  - if spam AND no valid URL → REJECT: label + comment + close
+  - if all pass  â†’ AUTO-APPROVE: label + close
+  - if topic/source uncertain â†’ NEEDS REVIEW: assign maintainer (email via GitHub)
+  - if spam AND no valid URL â†’ REJECT: label + comment + close
 
 Checks performed:
   1. Required fields (url)
   2. Spam patterns (only rejects if URL is also missing/unreachable)
   3. Trusted source domain (mainstream + known alternative + local media)
-  4. On-topic (bovaer, insektsmel, GMO fôr, EU GMO import)
+  4. On-topic (bovaer, insektsmel, GMO fÃ´r, EU GMO import)
   5. URL reachability
 
 Environment variables (set by GitHub Actions):
@@ -40,10 +40,10 @@ import json
 import urllib.request
 import urllib.error
 
-# ── Trusted news domains (mainstream + known alternative + local) ──────────
+# â”€â”€ Trusted news domains (mainstream + known alternative + local) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 TRUSTED_NEWS_DOMAINS = [
-    # Scandinavia – mainstream
+    # Scandinavia â€“ mainstream
     'nrk.no', 'svt.se', 'dr.dk', 'yle.fi',
     'aftenposten.no', 'vg.no', 'dagbladet.no',
     'nationen.no', 'klassekampen.no', 'dagsavisen.no',
@@ -52,7 +52,7 @@ TRUSTED_NEWS_DOMAINS = [
     'svd.se', 'aftonbladet.se', 'expressen.se', 'gp.se', 'dn.se',
     'jyllands-posten.dk', 'berlingske.dk', 'politiken.dk',
     'hs.fi', 'is.fi',
-    # Scandinavia – alternative
+    # Scandinavia â€“ alternative
     'steigan.no', 'document.no', 'inyheter.no',
     'samnytt.se', 'friatider.se', '24nyt.dk',
     # European mainstream
@@ -69,20 +69,20 @@ TRUSTED_NEWS_DOMAINS = [
     'ec.europa.eu', 'europarl.europa.eu',
 ]
 
-# ── Topic keywords ─────────────────────────────────────────────────────────
+# â”€â”€ Topic keywords â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 TOPIC_KEYWORDS = [
     # Bovaer
-    'bovaer', 'boväer', '3-nop', '3nop',
+    'bovaer', 'bovÃ¤er', '3-nop', '3nop',
     # Insect meal / insect protein
     'insektsmel', 'insektmel', 'insect meal', 'insect protein',
-    'insektprotein', 'insektsprotein', 'insektmjöl',
+    'insektprotein', 'insektsprotein', 'insektmjÃ¶l',
     # GMO fish feed / animal feed
     'gmo-fiskefor', 'gmo fiskefor', 'gmo fish feed',
     'genmodifisert fiskefor', 'genetically modified fish feed',
-    'gmo fôr', 'gmo for', 'gmo-fôr', 'genmodifisert fôr',
+    'gmo fÃ´r', 'gmo for', 'gmo-fÃ´r', 'genmodifisert fÃ´r',
     'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo',
-    'gmo animal feed', 'gmo dyrefôr',
+    'gmo animal feed', 'gmo dyrefÃ´r',
     # EU GMO / novel food / import regulations
     'eu gmo', 'eu genmodifisert', 'novel food', 'novel foods',
     'ny mat-forordning', 'nye mat-regler',
@@ -92,11 +92,11 @@ TOPIC_KEYWORDS = [
     'genredigering', 'geneditering', 'gene editing',
     'crispr', 'matimport gmo',
     # General food safety / feed
-    'tilsetningsstoffer fôr', 'feed additives',
+    'tilsetningsstoffer fÃ´r', 'feed additives',
     'matsikkerhet', 'food safety',
 ]
 
-# ── Spam patterns ──────────────────────────────────────────────────────────
+# â”€â”€ Spam patterns â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 SPAM_PATTERNS = [
     r'buy\s+(cheap|now|online)', r'click\s+here', r'earn\s+money',
@@ -105,7 +105,7 @@ SPAM_PATTERNS = [
     r'seo\s+service', r'backlink',
 ]
 
-# ── Helpers ────────────────────────────────────────────────────────────────
+# â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 
 def extract_yaml_block(body):
@@ -211,7 +211,7 @@ def assign_issue(repo, number, assignee, token):
                   token, {'assignees': [assignee]})
 
 
-# ── Main ───────────────────────────────────────────────────────────────────
+# â”€â”€ Main â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def main():
     body = os.environ.get('ISSUE_BODY', '')
@@ -248,35 +248,35 @@ def main():
 
     # 1. URL present
     if not article_url:
-        results.append(('❌', 'Mangler URL'))
-        # No URL alone does NOT reject — might be review. See spam check below.
+        results.append(('âŒ', 'Mangler URL'))
+        # No URL alone does NOT reject â€” might be review. See spam check below.
     else:
-        results.append(('✅', f'URL oppgitt: {article_url}'))
+        results.append(('âœ…', f'URL oppgitt: {article_url}'))
 
     # 2. Spam check
     if check_spam(article_title, article_url):
-        results.append(('🚫', 'Spam-mønster funnet'))
+        results.append(('ðŸš«', 'Spam-mÃ¸nster funnet'))
         is_spam = True
     else:
-        results.append(('✅', 'Ingen spam-mønstre'))
+        results.append(('âœ…', 'Ingen spam-mÃ¸nstre'))
 
     # 3. Trusted source
     trusted = is_trusted_domain(article_url)
     if trusted:
-        results.append(('✅', f'Kjent kilde: {host_from_url(article_url)}'))
+        results.append(('âœ…', f'Kjent kilde: {host_from_url(article_url)}'))
     elif article_url:
-        results.append(('⚠️', f'Ukjent kilde: {host_from_url(article_url)} — krever manuell vurdering'))
+        results.append(('âš ï¸', f'Ukjent kilde: {host_from_url(article_url)} â€” krever manuell vurdering'))
         if decision == 'approve':
             decision = 'review'
     else:
-        results.append(('⚠️', 'Kan ikke sjekke kilde uten URL'))
+        results.append(('âš ï¸', 'Kan ikke sjekke kilde uten URL'))
 
     # 4. On-topic check
     on_topic = has_required_topic(article_title, article_url)
     if on_topic:
-        results.append(('✅', 'Relevant tema funnet (bovaer/insektsmel/GMO/EU)'))
+        results.append(('âœ…', 'Relevant tema funnet (bovaer/insektsmel/GMO/EU)'))
     else:
-        results.append(('⚠️', 'Tema ikke gjenkjent i tittel/URL — krever manuell vurdering'))
+        results.append(('âš ï¸', 'Tema ikke gjenkjent i tittel/URL â€” krever manuell vurdering'))
         if decision == 'approve':
             decision = 'review'
 
@@ -285,13 +285,13 @@ def main():
     if article_url:
         reachable = check_url_reachable(article_url)
         if reachable:
-            results.append(('✅', 'URL er tilgjengelig'))
+            results.append(('âœ…', 'URL er tilgjengelig'))
         else:
-            results.append(('⚠️', 'URL ikke nåbar — kan være midlertidig'))
+            results.append(('âš ï¸', 'URL ikke nÃ¥bar â€” kan vÃ¦re midlertidig'))
             if decision == 'approve':
                 decision = 'review'
 
-    # ── CENSORSHIP RESISTANCE: reject ONLY if spam + no valid/reachable URL ──
+    # â”€â”€ CENSORSHIP RESISTANCE: reject ONLY if spam + no valid/reachable URL â”€â”€
     # A real article (with a reachable URL) can NEVER be auto-rejected.
     # Only pure spam with no valid URL gets rejected.
     if is_spam and not has_url:
@@ -299,34 +299,34 @@ def main():
     elif is_spam and not reachable:
         decision = 'reject'
     elif is_spam:
-        # Spam patterns detected but URL is reachable — send to review, don't reject
-        # (could be a false positive — a real article about e.g. crypto regulation)
+        # Spam patterns detected but URL is reachable â€” send to review, don't reject
+        # (could be a false positive â€” a real article about e.g. crypto regulation)
         if decision == 'approve':
             decision = 'review'
-        results.append(('ℹ️', 'Spam-mønster funnet men URL er gyldig — sendt til manuell vurdering'))
+        results.append(('â„¹ï¸', 'Spam-mÃ¸nster funnet men URL er gyldig â€” sendt til manuell vurdering'))
     elif not has_url:
         decision = 'review'
 
-    # ── Build comment ──
+    # â”€â”€ Build comment â”€â”€
     if decision == 'approve':
-        status_line = '## ✅ Auto-godkjent'
+        status_line = '## âœ… Auto-godkjent'
         action_line = '_Artikkelen er godkjent og vil inkluderes i nyhetsfeeden. Issue lukkes automatisk._'
     elif decision == 'review':
-        status_line = '## ⚠️ Sendt til manuell vurdering'
+        status_line = '## âš ï¸ Sendt til manuell vurdering'
         action_line = (
             f'_Artikkelen kunne ikke automatisk godkjennes. '
             f'Tildelt @{maintainer} for manuell gjennomgang. '
             f'E-postvarsling sendt via GitHub._'
         )
     else:
-        status_line = '## 🚫 Avvist som spam'
+        status_line = '## ðŸš« Avvist som spam'
         action_line = (
-            '_Innsendingen ble avvist som spam (ingen gyldig URL + spam-mønster). '
+            '_Innsendingen ble avvist som spam (ingen gyldig URL + spam-mÃ¸nster). '
             'Merk: Reelle artikler med gyldige URL-er kan aldri avvises automatisk._'
         )
 
     lines = [
-        '### 🤖 Matsjekk Nyhets-Moderasjonsbot',
+        '### ðŸ¤– Matsjekk Nyhets-Moderasjonsbot',
         '',
         status_line,
         '',
@@ -342,14 +342,14 @@ def main():
         f'**Tittel:** {article_title}',
         f'**Kilde:** {source}',
         f'**URL:** {article_url}',
-        f'**Språk:** {entry.get("language", "?")}',
+        f'**SprÃ¥k:** {entry.get("language", "?")}',
         f'**Land:** {entry.get("country", "?")}',
         '',
         '---',
         action_line,
         '',
         '_Sensurresistens: Reelle nyhetsartikler med gyldige URL-er kan aldri slettes eller avvises automatisk. '
-        'Kun åpenbar spam uten gyldig URL avvises. Godkjente artikler er permanente._',
+        'Kun Ã¥penbar spam uten gyldig URL avvises. Godkjente artikler er permanente._',
     ]
 
     comment_body = '\n'.join(lines)
