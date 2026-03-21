@@ -11,9 +11,15 @@ permissions:
 jobs:
   auto_moderate:
     # Run when a new submission issue opens, OR when 'submission' label is added
+    # Skip news submissions (handled by auto-moderate-news.yml)
     if: |
-      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'submission')) ||
-      (github.event.action == 'labeled' && github.event.label.name == 'submission')
+      !contains(github.event.issue.labels.*.name, 'news') &&
+      !startsWith(github.event.issue.title, '[News Submission]') &&
+      !startsWith(github.event.issue.title, '[News Report]') &&
+      (
+        (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'submission')) ||
+        (github.event.action == 'labeled' && github.event.label.name == 'submission')
+      )
     runs-on: ubuntu-latest
 
     steps:
@@ -63,11 +69,11 @@ jobs:
         run: |
           ADD_RESULT=$(cat $GITHUB_OUTPUT 2>/dev/null | grep add_result | cut -d= -f2 || echo 'success')
           if [ "$ADD_RESULT" = "upgraded" ]; then
-            MSG="✅ **Oppføringen er oppdatert i databasen** med mer fullstendig informasjon. Takk for bidraget!"
+            MSG="âœ… **OppfÃ¸ringen er oppdatert i databasen** med mer fullstendig informasjon. Takk for bidraget!"
           elif [ "$ADD_RESULT" = "skipped_duplicate" ]; then
-            MSG="ℹ️ **Stedet finnes allerede** i databasen med minst like god informasjon. Ingen endring nødvendig."
+            MSG="â„¹ï¸ **Stedet finnes allerede** i databasen med minst like god informasjon. Ingen endring nÃ¸dvendig."
           else
-            MSG="✅ **Lagt til i databasen!** Stedet er nå synlig på kartet. Takk for bidraget!"
+            MSG="âœ… **Lagt til i databasen!** Stedet er nÃ¥ synlig pÃ¥ kartet. Takk for bidraget!"
           fi
           gh issue comment ${{ github.event.issue.number }} --body "$MSG"
           gh issue close ${{ github.event.issue.number }}
