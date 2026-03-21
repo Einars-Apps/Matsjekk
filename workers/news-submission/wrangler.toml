@@ -1,0 +1,14 @@
+name = "matsjekk-news-submission"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Rate limiting via Cloudflare's built-in binding
+# (fallback to in-memory KV if not configured)
+
+[vars]
+ALLOWED_ORIGINS = "https://matsjekk.com,https://www.matsjekk.com,https://einars-apps.github.io"
+MAX_SUBMISSIONS_PER_HOUR = "5"
+GITHUB_REPO = "Einars-Apps/Matsjekk"
+
+# Secrets (set via `wrangler secret put`):
+#   GITHUB_TOKEN  — fine-grained PAT with Issues:write scope on Einars-Apps/Matsjekk

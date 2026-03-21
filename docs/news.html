@@ -87,6 +87,7 @@
           </select>
         </label>
         <label class="human-check-row"><input id="human-check" type="checkbox"> Jeg er ikke en robot</label>
+        <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true"><input id="article-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
         <div class="form-actions">
           <button id="save-article" type="button" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
           <button id="cancel-article" type="button" class="btn" data-translate="cancel">Avbryt</button>
@@ -110,7 +111,7 @@
   </footer>
 
   <script src="lang.local.js?v=20260309b"></script>
-  <script src="news.feed.js?v=20260321a"></script>
+  <script src="news.feed.js?v=20260321b"></script>
   <script src="js/ads-loader.js"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
@@ -143,6 +144,7 @@
       }
 
       // Fallback save-article handler in case news.feed.js did not load.
+      var FALLBACK_WORKER = 'https://matsjekk-news-submission.einars-apps.workers.dev';
       var saveBtn = document.getElementById('save-article');
       var statusEl = document.getElementById('news-form-status');
       if (saveBtn && !saveBtn.dataset.newsFormBound) {
@@ -151,6 +153,8 @@
           e.preventDefault();
           var humanCb = document.getElementById('human-check');
           var urlInput = document.getElementById('article-url');
+          var titleInput = document.getElementById('article-title');
+          var sourceInput = document.getElementById('article-source');
           var url = (urlInput && urlInput.value || '').trim();
           if (!url) {
             if (statusEl) { statusEl.textContent = 'URL ma fylles ut.'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
@@ -160,17 +164,38 @@
             if (statusEl) { statusEl.textContent = 'Kryss av for "Jeg er ikke en robot".'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
             return;
           }
+          var title = (titleInput && titleInput.value || '').trim() || 'Ukjent tittel';
+          var source = (sourceInput && sourceInput.value || '').trim();
+          // Save locally as backup
           try { var pending = JSON.parse(localStorage.getItem('matsjekk_news_pending_submissions_v1') || '[]'); } catch(_) { var pending = []; }
-          pending.push({ url: url, submittedAt: new Date().toISOString(), moderationStatus: 'pending_review' });
+          pending.push({ url: url, title: title, source: source, submittedAt: new Date().toISOString(), moderationStatus: 'pending_review' });
           try { localStorage.setItem('matsjekk_news_pending_submissions_v1', JSON.stringify(pending.slice(-200))); } catch(_) {}
+          // Clear form
           if (urlInput) urlInput.value = '';
-          var titleInput = document.getElementById('article-title'); if (titleInput) titleInput.value = '';
-          var sourceInput = document.getElementById('article-source'); if (sourceInput) sourceInput.value = '';
+          if (titleInput) titleInput.value = '';
+          if (sourceInput) sourceInput.value = '';
           if (humanCb) humanCb.checked = false;
-          saveBtn.textContent = 'Sendt!';
+          saveBtn.textContent = 'Sender...';
           saveBtn.disabled = true;
-          setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
-          if (statusEl) { statusEl.textContent = 'Takk! Artikkelen er registrert og sendt til moderering.'; statusEl.style.display = 'block'; statusEl.style.background = '#ebf9ef'; statusEl.style.color = '#1f6a3f'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+          // POST to worker
+          fetch(FALLBACK_WORKER, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url: url, title: title, source: source, humanCheck: true, language: 'nb' })
+          })
+            .then(function(r) { return r.json(); })
+            .then(function(d) {
+              var msg = d.ok ? 'Takk! Artikkelen er sendt til automatisk moderering.' : (d.error || 'Innsending feilet.');
+              if (d.ok && d.issue) msg += ' (Sak #' + d.issue + ')';
+              if (statusEl) { statusEl.innerHTML = msg; statusEl.style.display = 'block'; statusEl.style.background = d.ok ? '#ebf9ef' : '#fff1f1'; statusEl.style.color = d.ok ? '#1f6a3f' : '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+              saveBtn.textContent = 'Sendt!';
+              setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
+            })
+            .catch(function() {
+              if (statusEl) { statusEl.textContent = 'Takk! Artikkelen er lagret lokalt. Koble til GitHub for aa fullfoere.'; statusEl.style.display = 'block'; statusEl.style.background = '#ebf9ef'; statusEl.style.color = '#1f6a3f'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+              saveBtn.textContent = 'Sendt!';
+              setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
+            });
         });
       }
 

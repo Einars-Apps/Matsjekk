@@ -90,6 +90,7 @@ const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const GITHUB_ISSUE_BASE_URL = 'https://github.com/Einars-Apps/Matsjekk/issues/new';
 const NEWS_SUBMISSION_TEMPLATE = 'news_article_submission.md';
 const NEWS_REPORT_TEMPLATE = 'news_article_report.md';
+const NEWS_WORKER_URL = 'https://matsjekk-news-submission.einars-apps.workers.dev';
 
 const SCANDINAVIA_COUNTRIES = ['NO', 'SE', 'DK', 'FI', 'IS'];
 const GERMANIC_NL_COUNTRIES = ['DE', 'AT', 'CH', 'NL', 'LI'];
@@ -933,10 +934,14 @@ function initNewsForm() {
 
       if (!url) {
         setSubmissionStatus(status, 'URL ma fylles ut.', 'error');
+        saveBtn.disabled = false;
+        saveBtn.textContent = origText;
         return;
       }
       if (humanCheck && !humanCheck.checked) {
         setSubmissionStatus(status, 'Kryss av "Jeg er ikke en robot" for aa sende inn.', 'error');
+        saveBtn.disabled = false;
+        saveBtn.textContent = origText;
         return;
       }
 
@@ -947,23 +952,27 @@ function initNewsForm() {
       const country = meta.country;
       const neutrality = neutralityAssessment({ title, source, url, language });
 
-      const issueUrl = createNewsSubmissionIssueUrl({
+      // Build payload for the worker
+      const honeypotEl = document.getElementById('article-website');
+      const payload = {
         title,
         source,
         url,
         language,
         country,
         regionHint: meta.regionHint,
-        neutrality,
-      });
+        neutralityRating: (neutrality && neutrality.rating) || 'unknown',
+        neutralityFlags: ((neutrality && neutrality.flags) || []).join(', ') || 'none',
+        neutralityNotes: (neutrality && neutrality.notes) || '',
+        humanCheck: true,
+      };
+      // Honeypot: only bots fill this hidden field
+      if (honeypotEl && honeypotEl.value) payload.website = honeypotEl.value;
 
+      // Save locally as backup
       const pending = getPendingSubmissions();
       pending.push({
-        title,
-        source,
-        url,
-        language,
-        country,
+        title, source, url, language, country,
         regionHint: meta.regionHint,
         submittedAt: new Date().toISOString(),
         moderationStatus: 'pending_review',
@@ -971,27 +980,53 @@ function initNewsForm() {
       });
       savePendingSubmissions(pending.slice(-200));
 
-      // Clear form fields first so the user sees immediate feedback.
+      // Clear form fields immediately
       if (titleEl) titleEl.value = '';
       if (sourceEl) sourceEl.value = '';
       if (urlEl) urlEl.value = '';
       if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
       if (humanCheck) humanCheck.checked = false;
 
-      // Show confirmation with optional GitHub link for admin review.
-      const confirmMsg = 'Takk! Artikkelen er registrert og sendt til moderering.'
-        + ' <a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Opprett sak i GitHub (valgfritt)</a>';
-      setSubmissionStatus(status, confirmMsg, 'success');
-
-      // Scroll the confirmation into view so the user always sees it.
-      if (status && typeof status.scrollIntoView === 'function') {
-        status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      }
+      // POST to worker — creates GitHub issue automatically
+      fetch(NEWS_WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+        .then(function (res) { return res.json().then(function (d) { return { ok: res.ok, data: d }; }); })
+        .then(function (result) {
+          if (result.ok && result.data.ok) {
+            var msg = 'Takk! Artikkelen er sendt til automatisk moderering.';
+            if (result.data.issue) msg += ' (Sak #' + result.data.issue + ')';
+            setSubmissionStatus(status, msg, 'success');
+          } else {
+            // Worker rejected — show fallback GitHub link
+            var issueUrl = createNewsSubmissionIssueUrl(Object.assign({}, payload, { neutrality: neutrality }));
+            var msg = (result.data && result.data.error) || 'Automatisk innsending feilet.';
+            msg += ' <a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Send manuelt via GitHub</a>';
+            setSubmissionStatus(status, msg, 'info');
+          }
+          if (status && typeof status.scrollIntoView === 'function') {
+            status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          saveBtn.textContent = 'Sendt!';
+          setTimeout(function () { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
+        })
+        .catch(function () {
+          // Network failure — show fallback GitHub link
+          var issueUrl = createNewsSubmissionIssueUrl(Object.assign({}, payload, { neutrality: neutrality }));
+          var msg = 'Kunne ikke naa serveren. '
+            + '<a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Send manuelt via GitHub</a>';
+          setSubmissionStatus(status, msg, 'info');
+          if (status && typeof status.scrollIntoView === 'function') {
+            status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          saveBtn.textContent = 'Sendt!';
+          setTimeout(function () { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
+        });
 
       if (form) form.classList.remove('hidden');
 
-      saveBtn.textContent = 'Sendt!';
-      setTimeout(() => { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
     } catch (err) {
       setSubmissionStatus(status, 'Noe gikk galt: ' + escapeHtml(String(err && err.message || err)), 'error');
       saveBtn.disabled = false;
