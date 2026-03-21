@@ -48,7 +48,7 @@ wrangler secret put GITHUB_TOKEN
 ### 6. Verify
 
 ```bash
-curl -X POST https://matsjekk-news-submission.einars-apps.workers.dev \
+curl -X POST https://matsjekk-news-submission.matsjekk-apps.workers.dev \
   -H "Content-Type: application/json" \
   -d '{"url":"https://example.com/test","title":"Test","humanCheck":true}'
 ```

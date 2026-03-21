@@ -90,7 +90,7 @@ const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const GITHUB_ISSUE_BASE_URL = 'https://github.com/Einars-Apps/Matsjekk/issues/new';
 const NEWS_SUBMISSION_TEMPLATE = 'news_article_submission.md';
 const NEWS_REPORT_TEMPLATE = 'news_article_report.md';
-const NEWS_WORKER_URL = 'https://matsjekk-news-submission.einars-apps.workers.dev';
+const NEWS_WORKER_URL = 'https://matsjekk-news-submission.matsjekk-apps.workers.dev';
 
 const SCANDINAVIA_COUNTRIES = ['NO', 'SE', 'DK', 'FI', 'IS'];
 const GERMANIC_NL_COUNTRIES = ['DE', 'AT', 'CH', 'NL', 'LI'];
