@@ -209,19 +209,6 @@
     "source": "osm"
   },
   {
-    "id": 12583243095,
-    "name": "Deposito Riquelme",
-    "country": "Paraguay",
-    "region": "San Pedro",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -23.408946,
-    "lon": -57.4386967,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 12583243097,
     "name": "Climatizadora San Jose",
     "country": "Paraguay",

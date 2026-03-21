@@ -2011,19 +2011,6 @@
     "source": "osm"
   },
   {
-    "id": 6262594047,
-    "name": "Gorzelnia Jastrzębiec",
-    "country": "Poland",
-    "region": "Kujawsko-Pomorskie",
-    "municipality": "Jastrzębiec",
-    "products": [],
-    "website": null,
-    "lat": 53.3532543,
-    "lon": 17.5970695,
-    "address": "89-410",
-    "source": "osm"
-  },
-  {
     "id": 6262601211,
     "name": "Gorzelnia Sypniewo",
     "country": "Poland",

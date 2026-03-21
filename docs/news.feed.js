@@ -16,13 +16,46 @@ const NEWS_MAX_ITEMS = 30;
 // Social media domains that should not appear in the food-news feed
 const SOCIAL_MEDIA_DOMAINS = [
   'facebook.com', 'instagram.com', 'twitter.com', 'x.com', 'tiktok.com',
-  'reddit.com', 'youtube.com', 'linkedin.com', 'pinterest.com', 't.me',
+  'reddit.com', 'youtube.com', 'pinterest.com', 't.me',
   'telegram.org', 'vk.com', 'snapchat.com',
 ];
 
-// Rolling per-region article cache (30 days) so articles don't disappear when they leave the RSS window
+const TRUSTED_NEWS_DOMAINS = [
+  'nrk.no', 'svt.se', 'dr.dk', 'yle.fi', 'aftenposten.no', 'vg.no', 'dagbladet.no',
+  'nationen.no', 'klassekampen.no', 'dagsavisen.no', 'adresseavisen.no', 'bt.no', 'fvn.no',
+  'smp.no', 'itromso.no', 'ranablad.no', 'fremover.no', 'h-a.no',
+  'svd.se', 'aftonbladet.se', 'expressen.se', 'gp.se', 'dn.se',
+  'jyllands-posten.dk', 'berlingske.dk', 'politiken.dk',
+  'hs.fi', 'is.fi',
+  'steigan.no', 'document.no', 'inyheter.no', 'samnytt.se', 'friatider.se', '24nyt.dk',
+  'reuters.com', 'apnews.com', 'bbc.com', 'theguardian.com', 'dw.com',
+  'lemonde.fr', 'lefigaro.fr', 'france24.com', 'corriere.it', 'ansa.it',
+  'elpais.com', 'abc.es', 'publico.pt', 'jn.pt', 'nzz.ch',
+  'nachdenkseiten.de', 'epochtimes.de', 'dagelijksestandaard.nl',
+  'off-guardian.org', 'spiked-online.com',
+  'mejerimedier.dk', 'landbruk.no', 'bondebladet.no', 'atl.nu',
+  'foodnavigator.com', 'feednavigator.com', 'efsa.europa.eu',
+  'linkedin.com',
+];
+
+const TOPIC_KEYWORDS = [
+  'bovaer', 'insektsmel', 'insektmel', 'insect meal', 'insect protein',
+  'gmo-fiskefor', 'gmo fiskefor', 'gmo fish feed', 'genmodifisert fiskefor',
+  'genetically modified fish feed', 'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo',
+  'gmo fôr', 'gmo-fôr', 'genmodifisert fôr', 'gmo animal feed', 'gmo dyrefôr',
+  'eu gmo', 'eu genmodifisert', 'novel food', 'novel foods',
+  'gmo import', 'gmo-import', 'genmodifisert import',
+  'gmo deregulation', 'eu deregulering gmo',
+  'new genomic techniques', 'ngt', 'gene editing', 'genredigering',
+  'crispr', 'matimport gmo',
+  'fôrvareforskriften', 'oppdrettsnæringen', 'oppdrettsfôr', 'oppdrettsfor',
+  'bærekraftig fôr', 'samfunnsoppdraget',
+];
+
+// Rolling per-region article cache (90 days) so articles don't disappear quickly when they leave the RSS window
 const NEWS_FEED_CACHE_KEY = 'matsjekk_news_feed_v2'; // bump version to bust old social-media cache
-const NEWS_FEED_CACHE_MAX_AGE_DAYS = 30;
+const NEWS_FEED_CACHE_MAX_AGE_DAYS = 90;
+const ENABLE_PINNED_SOURCES = false;
 
 // Permanent pinned sources per region — always shown at bottom, not removable before expiry
 const PINNED_SOURCES = {
@@ -60,6 +93,7 @@ const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const GITHUB_ISSUE_BASE_URL = 'https://github.com/Einars-Apps/Matsjekk/issues/new';
 const NEWS_SUBMISSION_TEMPLATE = 'news_article_submission.md';
 const NEWS_REPORT_TEMPLATE = 'news_article_report.md';
+const NEWS_WORKER_URL = 'https://matsjekk-news-submission.matsjekk-apps.workers.dev';
 
 const SCANDINAVIA_COUNTRIES = ['NO', 'SE', 'DK', 'FI', 'IS'];
 const GERMANIC_NL_COUNTRIES = ['DE', 'AT', 'CH', 'NL', 'LI'];
@@ -220,6 +254,74 @@ function isSocialMediaArticle(item) {
   return SOCIAL_MEDIA_DOMAINS.some((domain) => src === domain || src.endsWith('.' + domain));
 }
 
+function hostFromUrl(url) {
+  try {
+    return new URL(String(url || '')).hostname.toLowerCase();
+  } catch (_) {
+    return '';
+  }
+}
+
+function isGoogleNewsWrapperHost(host) {
+  return host === 'news.google.com' || host.endsWith('.news.google.com');
+}
+
+function normalizeSourceHost(sourceText) {
+  let src = String(sourceText || '').toLowerCase().trim();
+  src = src.replace(/^https?:\/\//, '').replace(/^www\./, '').split(/[\s/]/)[0];
+  return src;
+}
+
+function isTrustedDomainText(sourceText) {
+  const host = normalizeSourceHost(sourceText);
+  if (!host || !host.includes('.')) return false;
+  return TRUSTED_NEWS_DOMAINS.some((domain) => host === domain || host.endsWith('.' + domain));
+}
+
+function isLikelyPublisherSourceText(sourceText) {
+  const src = String(sourceText || '').toLowerCase().trim();
+  if (!src) return false;
+  if (src.length < 3) return false;
+  if (SOCIAL_MEDIA_DOMAINS.some((domain) => src === domain || src.endsWith('.' + domain))) {
+    return false;
+  }
+  // If source looks like a hostname/domain, require explicit trusted-domain match.
+  if (/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(normalizeSourceHost(src))) {
+    return isTrustedDomainText(src);
+  }
+  // Accept outlet-like source labels from feeds (for example: "Nationen", "Yle", "ATL").
+  return true;
+}
+
+function isTrustedNewsDomain(item) {
+  const host = hostFromUrl(item && item.url);
+  const sourceText = String((item && (item.source || item.sourceName)) || '').toLowerCase();
+  if (isGoogleNewsWrapperHost(host) && isLikelyPublisherSourceText(sourceText)) {
+    return true;
+  }
+  return TRUSTED_NEWS_DOMAINS.some((domain) =>
+    host === domain || host.endsWith('.' + domain) || sourceText.includes(domain.replace(/^www\./, ''))
+  );
+}
+
+function hasRequiredTopic(article) {
+  const haystack = [
+    article && article.title,
+    article && article.shortSummary,
+    article && article.summary,
+    article && article.englishSummary,
+  ].join(' ').toLowerCase();
+  return TOPIC_KEYWORDS.some((keyword) => haystack.includes(keyword));
+}
+
+function isRelevantArticle(article) {
+  if (!article) return false;
+  if (isSocialMediaArticle(article)) return false;
+  if (!isTrustedNewsDomain(article)) return false;
+  if (!hasRequiredTopic(article)) return false;
+  return true;
+}
+
 function loadFeedCache(mode) {
   const all = safeJsonParse(safeStorageGet(NEWS_FEED_CACHE_KEY), {});
   return Array.isArray(all[mode]) ? all[mode] : [];
@@ -371,8 +473,99 @@ function buildIssueUrl(template, title, body) {
   return `${GITHUB_ISSUE_BASE_URL}?${params.toString()}`;
 }
 
-function openModerationIssue(url) {
-  window.open(url, '_blank', 'noopener');
+function openModerationIssue(url, pendingWindow) {
+  if (pendingWindow && !pendingWindow.closed) {
+    try {
+      pendingWindow.location.href = url;
+      return true;
+    } catch (_) {
+      // Fall through to regular open when direct navigation fails.
+    }
+  }
+  const popup = window.open(url, '_blank', 'noopener');
+  return !!popup;
+}
+
+function inferCountryFromHost(host) {
+  const h = String(host || '').toLowerCase();
+  if (!h) return '';
+  if (h.endsWith('.no')) return 'NO';
+  if (h.endsWith('.se')) return 'SE';
+  if (h.endsWith('.dk')) return 'DK';
+  if (h.endsWith('.fi')) return 'FI';
+  if (h.endsWith('.is')) return 'IS';
+  if (h.endsWith('.de') || h.endsWith('.at')) return 'DE';
+  if (h.endsWith('.nl')) return 'NL';
+  if (h.endsWith('.fr')) return 'FR';
+  if (h.endsWith('.it')) return 'IT';
+  if (h.endsWith('.ch')) return 'CH';
+  if (h.endsWith('.be')) return 'BE';
+  if (h.endsWith('.lu')) return 'LU';
+  if (h.endsWith('.es')) return 'ES';
+  if (h.endsWith('.pt')) return 'PT';
+  if (h.endsWith('.uk') || h.endsWith('.co.uk') || h.endsWith('.ie')) return 'GB';
+  return '';
+}
+
+function inferLanguageFromCountry(country) {
+  const c = normalizeCountry(country);
+  if (c === 'NO') return 'nb';
+  if (c === 'SE') return 'sv';
+  if (c === 'DK') return 'da';
+  if (c === 'FI') return 'fi';
+  if (c === 'DE' || c === 'AT' || c === 'CH') return 'de';
+  if (c === 'NL') return 'nl';
+  if (c === 'FR' || c === 'BE' || c === 'LU') return 'fr';
+  if (c === 'IT') return 'it';
+  if (c === 'ES') return 'es';
+  if (c === 'PT') return 'pt';
+  if (c === 'GB' || c === 'IE') return 'en';
+  return '';
+}
+
+function inferSubmissionMetadata(url, titleInput, sourceInput, langInput) {
+  const host = hostFromUrl(url);
+  const country = inferCountryFromHost(host);
+  const inferredLang = inferLanguageFromCountry(country);
+  const language = normalizeLang(langInput || inferredLang || 'nb') || 'nb';
+  const title = String(titleInput || '').trim() || titleFromUrl(url);
+  const source = String(sourceInput || '').trim() || sourceFromUrl(url);
+  const resolvedMode = clusterForCountry(country);
+  return {
+    title,
+    source,
+    language,
+    country,
+    regionHint: resolvedMode,
+  };
+}
+
+function setSubmissionStatus(statusEl, message, tone) {
+  if (!statusEl) return;
+  const className = String(tone || 'info').toLowerCase();
+  statusEl.className = `news-form-status is-visible is-${className}`;
+  statusEl.innerHTML = String(message || '');
+  // Belt-and-suspenders: force display via inline style in case CSS class fails.
+  statusEl.style.display = 'block';
+}
+
+function sourceFromUrl(url) {
+  const host = hostFromUrl(url).replace(/^www\./, '');
+  return host || 'Ukjent kilde';
+}
+
+function titleFromUrl(url) {
+  try {
+    const u = new URL(String(url || ''));
+    const parts = u.pathname.split('/').filter(Boolean);
+    const slug = decodeURIComponent(parts[parts.length - 1] || '').replace(/[-_]+/g, ' ').trim();
+    if (slug && slug.length >= 4) {
+      return slug.charAt(0).toUpperCase() + slug.slice(1);
+    }
+  } catch (_) {
+    // Ignore URL parse errors and use fallback.
+  }
+  return 'Ny artikkel foreslaatt';
 }
 
 function createNewsSubmissionIssueUrl(payload) {
@@ -384,6 +577,7 @@ function createNewsSubmissionIssueUrl(payload) {
     `url: ${yamlQuoted(payload.url)}`,
     `language: ${yamlQuoted(payload.language || 'nb')}`,
     `country: ${yamlQuoted(payload.country || '')}`,
+    `region_hint: ${yamlQuoted(payload.regionHint || '')}`,
     `neutrality_rating: ${yamlQuoted((payload.neutrality && payload.neutrality.rating) || 'unknown')}`,
     `neutrality_flags: ${yamlQuoted((((payload.neutrality && payload.neutrality.flags) || []).join(', ')) || 'none')}`,
     `neutrality_notes: ${yamlQuoted((payload.neutrality && payload.neutrality.notes) || '')}`,
@@ -433,8 +627,9 @@ function countryScopeContains(scope, country) {
 function newsListForDisplay(items, scope) {
   const sorted = [...items].sort((a, b) => new Date(b.pubDate || b.date || 0) - new Date(a.pubDate || a.date || 0));
   const filtered = sorted.filter((item) => countryScopeContains(scope, item.country));
-  if (filtered.length > 0) return filtered.slice(0, NEWS_MAX_ITEMS);
-  return sorted.slice(0, NEWS_MAX_ITEMS);
+  // Keep all still-valid cached articles visible (newest first, oldest at the bottom).
+  if (filtered.length > 0) return filtered.slice(0, Math.max(NEWS_MAX_ITEMS, filtered.length));
+  return sorted.slice(0, Math.max(NEWS_MAX_ITEMS, sorted.length));
 }
 
 function fallbackNewsForScope(scope) {
@@ -614,14 +809,14 @@ async function renderNews(preferredLang) {
   const userCountry = await detectCountryCodeFromGeo();
   const resolvedMode = selectedMode === 'auto' ? clusterForCountry(userCountry) : selectedMode;
 
-  const localNews = getNews().filter((item) => !isSocialMediaArticle(item));
+  const localNews = getNews().filter((item) => isRelevantArticle(item));
   const remoteNews = await fetchRemoteNewsForMode(resolvedMode);
 
-  // Filter social media from remote feed (by URL and by source field)
-  const filteredRemote = remoteNews.filter((item) => !isSocialMediaArticle(item));
+  // Keep only trusted newspaper/net-newspaper coverage of the configured topics.
+  const filteredRemote = remoteNews.filter((item) => isRelevantArticle(item));
 
   // Merge fresh articles with rolling 30-day cache so critical articles don't vanish
-  const cachedNews = loadFeedCache(resolvedMode).filter((item) => !isSocialMediaArticle(item));
+  const cachedNews = loadFeedCache(resolvedMode).filter((item) => isRelevantArticle(item));
   const merged = dedupeByUrl([...filteredRemote, ...cachedNews, ...localNews]);
 
   // Persist fresh articles to rolling cache
@@ -658,8 +853,8 @@ async function renderNews(preferredLang) {
     }
   });
 
-  // Append permanent pinned sources at the bottom
-  const pinnedSources = getPinnedSourcesForMode(resolvedMode);
+  // Append optional pinned sources at the bottom (disabled by default to avoid feed skew).
+  const pinnedSources = ENABLE_PINNED_SOURCES ? getPinnedSourcesForMode(resolvedMode) : [];
   if (pinnedSources.length > 0) {
     const separator = document.createElement('p');
     separator.className = 'muted pinned-section-label';
@@ -689,69 +884,157 @@ function initNewsForm() {
   const saveBtn = document.getElementById('save-article');
   const cancelBtn = document.getElementById('cancel-article');
   const status = document.getElementById('news-form-status');
+  const humanCheck = document.getElementById('human-check');
 
-  if (addBtn && form) {
+  if (addBtn && form && addBtn.dataset.newsFormBound !== '1') {
+    addBtn.dataset.newsFormBound = '1';
+    // Also mark fallback flag so inline fallback in news.html does not bind a second toggle listener.
+    addBtn.dataset.fallbackBound = '1';
     addBtn.addEventListener('click', () => {
-      form.classList.toggle('hidden');
-      if (status) status.textContent = '';
+      const isHidden = form.classList.contains('hidden');
+      if (isHidden) {
+        form.classList.remove('hidden');
+        form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const titleEl = document.getElementById('article-title');
+        if (titleEl && typeof titleEl.focus === 'function') titleEl.focus();
+      } else {
+        form.classList.add('hidden');
+      }
+      if (status) status.className = 'news-form-status';
     });
   }
 
-  if (cancelBtn && form) {
+  if (cancelBtn && form && cancelBtn.dataset.newsFormBound !== '1') {
+    cancelBtn.dataset.newsFormBound = '1';
     cancelBtn.addEventListener('click', (event) => {
       event.preventDefault();
       form.classList.add('hidden');
-      if (status) status.textContent = '';
+      if (status) status.className = 'news-form-status';
     });
   }
 
-  if (!saveBtn) return;
+  if (!saveBtn || saveBtn.dataset.newsFormBound === '1') return;
+  saveBtn.dataset.newsFormBound = '1';
 
-  saveBtn.addEventListener('click', async (event) => {
+  saveBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
-    const titleEl = document.getElementById('article-title');
-    const sourceEl = document.getElementById('article-source');
-    const urlEl = document.getElementById('article-url');
-    const langEl = document.getElementById('article-lang');
+    // Immediate visual feedback on the button itself.
+    const origText = saveBtn.textContent;
+    saveBtn.disabled = true;
+    saveBtn.textContent = 'Sender...';
 
-    const title = String((titleEl && titleEl.value) || '').trim();
-    const source = String((sourceEl && sourceEl.value) || '').trim() || 'Ukjent kilde';
-    const url = String((urlEl && urlEl.value) || '').trim();
-    const language = normalizeLang(String((langEl && langEl.value) || 'nb')) || 'nb';
-    const neutrality = neutralityAssessment({ title, source, url, language });
+    try {
+      const titleEl = document.getElementById('article-title');
+      const sourceEl = document.getElementById('article-source');
+      const urlEl = document.getElementById('article-url');
+      const langEl = document.getElementById('article-lang');
 
-    if (!title || !url) {
-      if (status) status.textContent = 'Tittel og URL ma fylles ut.';
-      return;
+      const titleInput = String((titleEl && titleEl.value) || '').trim();
+      const sourceInput = String((sourceEl && sourceEl.value) || '').trim();
+      const url = String((urlEl && urlEl.value) || '').trim();
+      const selectedLanguage = normalizeLang(String((langEl && langEl.value) || ''));
+
+      if (!url) {
+        setSubmissionStatus(status, 'URL ma fylles ut.', 'error');
+        saveBtn.disabled = false;
+        saveBtn.textContent = origText;
+        return;
+      }
+      if (humanCheck && !humanCheck.checked) {
+        setSubmissionStatus(status, 'Kryss av "Jeg er ikke en robot" for aa sende inn.', 'error');
+        saveBtn.disabled = false;
+        saveBtn.textContent = origText;
+        return;
+      }
+
+      const meta = inferSubmissionMetadata(url, titleInput, sourceInput, selectedLanguage);
+      const title = meta.title;
+      const source = meta.source;
+      const language = meta.language;
+      const country = meta.country;
+      const neutrality = neutralityAssessment({ title, source, url, language });
+
+      // Build payload for the worker
+      const honeypotEl = document.getElementById('article-website');
+      const payload = {
+        title,
+        source,
+        url,
+        language,
+        country,
+        regionHint: meta.regionHint,
+        neutralityRating: (neutrality && neutrality.rating) || 'unknown',
+        neutralityFlags: ((neutrality && neutrality.flags) || []).join(', ') || 'none',
+        neutralityNotes: (neutrality && neutrality.notes) || '',
+        humanCheck: true,
+      };
+      // Honeypot: only bots fill this hidden field
+      if (honeypotEl && honeypotEl.value) payload.website = honeypotEl.value;
+
+      // Save locally as backup
+      const pending = getPendingSubmissions();
+      pending.push({
+        title, source, url, language, country,
+        regionHint: meta.regionHint,
+        submittedAt: new Date().toISOString(),
+        moderationStatus: 'pending_review',
+        neutrality,
+      });
+      savePendingSubmissions(pending.slice(-200));
+
+      // Clear form fields immediately
+      if (titleEl) titleEl.value = '';
+      if (sourceEl) sourceEl.value = '';
+      if (urlEl) urlEl.value = '';
+      if (langEl) langEl.value = selectedLanguage || inferUserLanguage('nb') || 'nb';
+      if (humanCheck) humanCheck.checked = false;
+
+      // POST to worker — creates GitHub issue automatically
+      fetch(NEWS_WORKER_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+        .then(function (res) { return res.json().then(function (d) { return { ok: res.ok, data: d }; }); })
+        .then(function (result) {
+          if (result.ok && result.data.ok) {
+            var msg = 'Takk! Artikkelen er sendt til automatisk moderering.';
+            if (result.data.issue) msg += ' (Sak #' + result.data.issue + ')';
+            setSubmissionStatus(status, msg, 'success');
+          } else {
+            // Worker rejected — show fallback GitHub link
+            var issueUrl = createNewsSubmissionIssueUrl(Object.assign({}, payload, { neutrality: neutrality }));
+            var msg = (result.data && result.data.error) || 'Automatisk innsending feilet.';
+            msg += ' <a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Send manuelt via GitHub</a>';
+            setSubmissionStatus(status, msg, 'info');
+          }
+          if (status && typeof status.scrollIntoView === 'function') {
+            status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          saveBtn.textContent = 'Sendt!';
+          setTimeout(function () { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
+        })
+        .catch(function () {
+          // Network failure — show fallback GitHub link
+          var issueUrl = createNewsSubmissionIssueUrl(Object.assign({}, payload, { neutrality: neutrality }));
+          var msg = 'Kunne ikke naa serveren. '
+            + '<a href="' + escapeHtml(issueUrl) + '" target="_blank" rel="noopener">Send manuelt via GitHub</a>';
+          setSubmissionStatus(status, msg, 'info');
+          if (status && typeof status.scrollIntoView === 'function') {
+            status.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+          saveBtn.textContent = 'Sendt!';
+          setTimeout(function () { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
+        });
+
+      if (form) form.classList.remove('hidden');
+
+    } catch (err) {
+      setSubmissionStatus(status, 'Noe gikk galt: ' + escapeHtml(String(err && err.message || err)), 'error');
+      saveBtn.disabled = false;
+      saveBtn.textContent = origText;
     }
-
-    const userCountry = await detectCountryCodeFromGeo();
-    const issueUrl = createNewsSubmissionIssueUrl({ title, source, url, language, country: userCountry, neutrality });
-
-    const pending = getPendingSubmissions();
-    pending.push({
-      title,
-      source,
-      url,
-      language,
-      country: userCountry,
-      submittedAt: new Date().toISOString(),
-      moderationStatus: 'pending_review',
-      neutrality,
-    });
-    savePendingSubmissions(pending.slice(-200));
-
-    openModerationIssue(issueUrl);
-
-    if (status) {
-      status.textContent = 'Innsending sendt til moderering. Redaksjonen ma godkjenne for publisering.';
-    }
-
-    if (titleEl) titleEl.value = '';
-    if (sourceEl) sourceEl.value = '';
-    if (urlEl) urlEl.value = '';
-    if (form) form.classList.add('hidden');
   });
 }
 

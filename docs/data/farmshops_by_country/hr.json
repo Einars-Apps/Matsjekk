@@ -754,19 +754,6 @@
     "source": "osm"
   },
   {
-    "id": 5128540723,
-    "name": "CUJ",
-    "country": "Croatia",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.cuj.hr",
-    "lat": 45.4413897,
-    "lon": 13.5940645,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5214993563,
     "name": "Vinoteka Bornstein",
     "country": "Croatia",
@@ -3102,20 +3089,6 @@
     "phone": "+385 99 3046 339"
   },
   {
-    "id": 12337252285,
-    "name": "Split & Sip",
-    "country": "Croatia",
-    "region": "Dalmatia",
-    "municipality": "Split",
-    "products": [],
-    "website": "https://splitandsip.com",
-    "lat": 43.5109263,
-    "lon": 16.4380509,
-    "address": "Trg Gaje Bulata 6, 21000",
-    "source": "osm",
-    "phone": "+385 98 132 5550"
-  },
-  {
     "id": 12366007486,
     "name": "Markus Tasting Room",
     "country": "Croatia",
@@ -3644,20 +3617,6 @@
     "source": "osm"
   },
   {
-    "id": 13426145049,
-    "name": "Vinarija Rossi",
-    "country": "Croatia",
-    "region": null,
-    "municipality": "Vižinada",
-    "products": [],
-    "website": "https://www.vinarossi.com/",
-    "lat": 45.3363169,
-    "lon": 13.7351103,
-    "address": "16, 52447",
-    "source": "osm",
-    "phone": "+385913355622"
-  },
-  {
     "id": 13472209941,
     "name": "Atrox",
     "country": "Croatia",
@@ -3791,20 +3750,6 @@
     "phone": "+385 52 779 208"
   },
   {
-    "id": 254540536,
-    "name": "Kabola",
-    "country": "Croatia",
-    "region": null,
-    "municipality": "Buje",
-    "products": [],
-    "website": "https://kabola.hr/",
-    "lat": 45.4307974,
-    "lon": 13.7010071,
-    "address": "Kanedolo 90, 52460",
-    "source": "osm",
-    "phone": "+385 52 779 208"
-  },
-  {
     "id": 272584986,
     "name": "Kutjevački podrum",
     "country": "Croatia",
@@ -3853,19 +3798,6 @@
     "website": null,
     "lat": 42.9251369,
     "lon": 17.4315,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 296143493,
-    "name": "Winery",
-    "country": "Croatia",
-    "region": "Dalmatia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.9254509,
-    "lon": 17.4310894,
     "address": null,
     "source": "osm"
   },

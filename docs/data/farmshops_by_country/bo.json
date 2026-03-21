@@ -556,19 +556,6 @@
     "phone": "+591 72771024"
   },
   {
-    "id": 1124039884,
-    "name": "Campos de Solana",
-    "country": "Bolivia",
-    "region": "Valles",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -21.584993,
-    "lon": -64.6603712,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 1124286326,
     "name": "Bodega Barbacana",
     "country": "Bolivia",
@@ -618,19 +605,6 @@
     "website": null,
     "lat": -11.0348952,
     "lon": -66.0438252,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1229214499,
-    "name": "Chocolate Factory",
-    "country": "Bolivia",
-    "region": "Llanos",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -11.0351862,
-    "lon": -66.0435777,
     "address": null,
     "source": "osm"
   },

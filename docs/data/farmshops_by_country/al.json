@@ -203,19 +203,6 @@
     "source": "osm"
   },
   {
-    "id": 6614561427,
-    "name": "Fruta e Perime",
-    "country": "Albania",
-    "region": "Central Albania",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.7307426,
-    "lon": 19.5675094,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 6614619935,
     "name": "Fruta e Perime",
     "country": "Albania",
@@ -493,71 +480,6 @@
     "source": "osm"
   },
   {
-    "id": 325152187,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0754077,
-    "lon": 19.5167923,
-    "address": "195, 4001",
-    "source": "osm"
-  },
-  {
-    "id": 325864472,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0753341,
-    "lon": 19.5171647,
-    "address": "185, 4001",
-    "source": "osm"
-  },
-  {
-    "id": 325864574,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0752652,
-    "lon": 19.5167379,
-    "address": "4001",
-    "source": "osm"
-  },
-  {
-    "id": 325864577,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0752146,
-    "lon": 19.5172503,
-    "address": "4001",
-    "source": "osm"
-  },
-  {
-    "id": 325864586,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0751582,
-    "lon": 19.5167074,
-    "address": "4001",
-    "source": "osm"
-  },
-  {
     "id": 421994086,
     "name": "Farmer's Market",
     "country": "Albania",
@@ -581,19 +503,6 @@
     "lat": 41.8545728,
     "lon": 19.6943194,
     "address": "Rruga Kallemet i Vogel 5, 4507",
-    "source": "osm"
-  },
-  {
-    "id": 457654309,
-    "name": "Tregu \"FRUTA PERIME\"",
-    "country": "Albania",
-    "region": "Northern Albania",
-    "municipality": "Shkodër",
-    "products": [],
-    "website": null,
-    "lat": 42.0752625,
-    "lon": 19.5169916,
-    "address": "4001",
     "source": "osm"
   },
   {

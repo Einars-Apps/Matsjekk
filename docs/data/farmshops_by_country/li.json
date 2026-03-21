@@ -1,53 +1,5 @@
 [
   {
-    "id": 12724260669,
-    "name": "Kainers Stutenmilch",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1257082,
-    "lon": 9.5158047,
-    "address": null
-  },
-  {
-    "id": 693590500,
-    "name": "Hofladenautomat",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1167299,
-    "lon": 9.5469731,
-    "address": null
-  },
-  {
-    "id": 693591079,
-    "name": "Hofladen Lama- & Alpakahof Triesenberg",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": "Triesenberg",
-    "products": [],
-    "website": null,
-    "lat": 47.1061268,
-    "lon": 9.5434924,
-    "address": "Chalberrütistrasse"
-  },
-  {
-    "id": 977906758,
-    "name": "Bangshof Ruggell",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": "Ruggell",
-    "products": [],
-    "website": null,
-    "lat": 47.2522229,
-    "lon": 9.5348731,
-    "address": "Fallagass"
-  },
-  {
     "id": 1409886088,
     "name": "Ritter Weine AG",
     "country": "Liechtenstein",
@@ -101,6 +53,19 @@
     "source": "osm"
   },
   {
+    "id": 12724260669,
+    "name": "Kainers Stutenmilch",
+    "country": "Liechtenstein",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.1257082,
+    "lon": 9.5158047,
+    "address": null,
+    "source": "osm"
+  },
+  {
     "id": 124047850,
     "name": "Hofkellerei",
     "country": "Liechtenstein",
@@ -111,6 +76,45 @@
     "lat": 47.145021,
     "lon": 9.5166406,
     "address": "Feldstrasse 4, 9490",
+    "source": "osm"
+  },
+  {
+    "id": 693590500,
+    "name": "Hofladenautomat",
+    "country": "Liechtenstein",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.1167299,
+    "lon": 9.5469731,
+    "address": null,
+    "source": "osm"
+  },
+  {
+    "id": 693591079,
+    "name": "Hofladen Lama- & Alpakahof Triesenberg",
+    "country": "Liechtenstein",
+    "region": null,
+    "municipality": "Triesenberg",
+    "products": [],
+    "website": null,
+    "lat": 47.1061268,
+    "lon": 9.5434924,
+    "address": "Chalberrütistrasse 70, 9497",
+    "source": "osm"
+  },
+  {
+    "id": 977906758,
+    "name": "Bangshof Ruggell",
+    "country": "Liechtenstein",
+    "region": null,
+    "municipality": "Ruggell",
+    "products": [],
+    "website": null,
+    "lat": 47.2522229,
+    "lon": 9.5348731,
+    "address": "Fallagass 41, 9491",
     "source": "osm"
   },
   {
@@ -138,53 +142,5 @@
     "lon": 9.5481957,
     "address": "Vorarlberger-Strasse 5, 9486",
     "source": "osm"
-  },
-  {
-    "id": 4759689334,
-    "name": "Little Garden",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2108768,
-    "lon": 9.5059187,
-    "address": null
-  },
-  {
-    "id": 13176527767,
-    "name": "Hofladenautomat",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1021691,
-    "lon": 9.6086099,
-    "address": null
-  },
-  {
-    "id": 127349111,
-    "name": "Lazo Lipovac Gemüsecenter",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": "Schaan",
-    "products": [],
-    "website": null,
-    "lat": 47.1655377,
-    "lon": 9.5077088,
-    "address": "Steckergass"
-  },
-  {
-    "id": 127349111,
-    "name": "Lazo Lipovac GemÃ¼secenter",
-    "country": "Liechtenstein",
-    "region": null,
-    "municipality": "Schaan",
-    "products": [],
-    "website": null,
-    "lat": 47.1655377,
-    "lon": 9.5077088,
-    "address": "Steckergass"
   }
 ]

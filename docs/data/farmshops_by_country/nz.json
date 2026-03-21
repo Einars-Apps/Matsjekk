@@ -2038,20 +2038,6 @@
     "source": "osm"
   },
   {
-    "id": 441988381,
-    "name": "Church Road Winery",
-    "country": "New Zealand",
-    "region": "Hawke's Bay",
-    "municipality": "Taradale",
-    "products": [],
-    "website": "http://www.church-road.co.nz/",
-    "lat": -39.5251901,
-    "lon": 176.8452601,
-    "address": "Church Road 150",
-    "source": "osm",
-    "phone": "+64 6 833 8225"
-  },
-  {
     "id": 467395222,
     "name": "Peregrine Wines",
     "country": "New Zealand",
@@ -2311,19 +2297,6 @@
     "website": null,
     "lat": -41.5317953,
     "lon": 173.8831015,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 666590277,
-    "name": "Craggy Range",
-    "country": "New Zealand",
-    "region": "Hawke's Bay",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": -39.6926542,
-    "lon": 176.9228732,
     "address": null,
     "source": "osm"
   },

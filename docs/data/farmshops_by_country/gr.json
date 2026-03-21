@@ -292,19 +292,6 @@
     "source": "osm"
   },
   {
-    "id": 4282108551,
-    "name": "pnevmatikakis winery",
-    "country": "Greece",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 35.491606,
-    "lon": 23.7050569,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 4282113641,
     "name": "Manousakis Winery",
     "country": "Greece",
@@ -3781,19 +3768,6 @@
     "website": null,
     "lat": 39.106252,
     "lon": 26.5542245,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1054325276,
-    "name": "Ποτοποιία",
-    "country": "Greece",
-    "region": "North Aegean",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.1062319,
-    "lon": 26.5543397,
     "address": null,
     "source": "osm"
   },

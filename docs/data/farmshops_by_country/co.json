@@ -3087,32 +3087,6 @@
     "source": "osm"
   },
   {
-    "id": 370238736,
-    "name": "almacenamiento",
-    "country": "Colombia",
-    "region": "Caribe",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 7.9163331,
-    "lon": -72.5011957,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 370238737,
-    "name": "almacenamiento",
-    "country": "Colombia",
-    "region": "Caribe",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 7.9164836,
-    "lon": -72.5011462,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 370240896,
     "name": "almacenamiento",
     "country": "Colombia",

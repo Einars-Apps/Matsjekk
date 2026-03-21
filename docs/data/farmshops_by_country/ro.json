@@ -2637,19 +2637,6 @@
     "source": "osm"
   },
   {
-    "id": 627506427,
-    "name": "Pivnițe de vin",
-    "country": "Romania",
-    "region": "Nord-Vest",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1633776,
-    "lon": 22.7295025,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 753891547,
     "name": "Domeniile Coroanei Segarcea",
     "country": "Romania",
@@ -2789,32 +2776,6 @@
     "website": null,
     "lat": 44.8141393,
     "lon": 24.3632195,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1157016206,
-    "name": "Cramele Sâmburești",
-    "country": "Romania",
-    "region": "Sud-Muntenia",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8143982,
-    "lon": 24.3628461,
-    "address": null,
-    "source": "osm"
-  },
-  {
-    "id": 1157016207,
-    "name": "Cramele Sâmburești",
-    "country": "Romania",
-    "region": "Sud-Muntenia",
-    "municipality": "Sâmburești",
-    "products": [],
-    "website": null,
-    "lat": 44.8135114,
-    "lon": 24.3631817,
     "address": null,
     "source": "osm"
   },

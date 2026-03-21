@@ -105,12 +105,13 @@
       </div>
       <h1 id="pageTitle">Gårdsbutikker</h1>
       <p id="introText">Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.</p>
+      <p id="shopCountBadge" style="margin:4px 0 0;font-size:.88rem;color:rgba(255,255,255,0.82);">🗺️ Over <strong>41 000</strong> gårdsbutikker, vin- og ostehandlere, agriturismi og lokalmarkeder kartlagt i Europa — foreløpig register, oppdateres løpende.</p>
       <nav class="top-tabs" aria-label="Hovednavigasjon">
         <a id="topHomeTab" href="index.html">Hjem</a>
         <a id="topFarmshopsTab" href="gardsbutikker.html">Gårdsbutikker</a>
         <a id="topOrganicTab" href="okologiske-gardsbutikker.html">Økologiske gårdsbutikker</a>
         <a id="topImmigrantTab" href="innvandrerbutikker.html">Innvandrerbutikker</a>
-        <a id="topNewsTab" href="news.html?cb=20260309e">Nyheter</a>
+        <a id="topNewsTab" href="news.html?cb=20260321a">Nyheter</a>
         <a id="topContactTab" href="index.html#contact">Kontakt oss</a>
       </nav>
     </div>
@@ -120,7 +121,7 @@
     <div class="controls nav-links">
       <button id="backBtn">← Tilbake</button>
       <a id="homeLink" class="link-btn" href="https://matsjekk.com">🏠 Hjem</a>
-      <a id="newsLink" class="link-btn" href="https://matsjekk.com/news.html?cb=20260309e">📰 Nyheter</a>
+      <a id="newsLink" class="link-btn" href="https://matsjekk.com/news.html?cb=20260321a">📰 Nyheter</a>
     </div>
     <div class="controls">
       <select id="countrySelect"><option value="">Velg land</option></select>
@@ -163,7 +164,7 @@
     <div class="content-grid">
       <div class="list" id="list"></div>
       <div class="side-rail">
-        <div class="ad-slot" id="adSlot">
+        <div class="ad-slot ad-box" id="adSlot">
           <strong>Annonse</strong>
           Plass for relevant lokal annonse eller partnerinnhold.
         </div>
@@ -221,6 +222,8 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+  <script src="js/ads-loader.js"></script>
+  <script src="consent.js"></script>
   <script src="js/gardsbutikker.js?v=20260307b"></script>
 </body>
 </html>

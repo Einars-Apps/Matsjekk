@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google" content="notranslate">
-  <meta name="description" content="Mat Sjekk nyheter - relevante artikler om Bovaer, GMO-fiskefor, insektmel og baerekraft.">
+  <meta name="description" content="Mat Sjekk nyheter - avisartikler og nettaviser om Bovaer, GMO-fiskefor og insektsmel.">
   <meta name="robots" content="index, follow">
   <title>Mat Sjekk - Nyheter</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
         <a href="gardsbutikker.html" data-translate="navFarmshops">Gardsbutikker</a>
         <a href="okologiske-gardsbutikker.html" data-translate="navOrganicFarmshops">Okologiske gardsbutikker</a>
         <a href="innvandrerbutikker.html" data-translate="navImmigrantShops">Innvandrerbutikker</a>
-        <a href="news.html?cb=20260309e" data-translate="navNews">Nyheter</a>
+        <a href="news.html?cb=20260321a" data-translate="navNews">Nyheter</a>
         <a href="index.html#contact" data-translate="navContact">Kontakt oss</a>
       </nav>
     </div>
@@ -39,8 +39,9 @@
   <main class="container">
     <section class="news" id="news">
       <h2 data-translate="newsHeading">Nyheter</h2>
-      <p data-translate="newsIntro">Hold deg oppdatert - legg til relevante artikler om Bovaer, GMO, insektmel og baerekraft.</p>
-      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. De gar til moderering forst.</p>
+      <p data-translate="newsIntro">Hold deg oppdatert med aviser og nettaviser om Bovaer, GMO-fiskefor og insektsmel i Europa.</p>
+      <p class="muted">Hvordan artikler velges: se <a href="editorial-method.html">redaksjonell metode</a> og <a href="source-criteria.html">kildekriterier</a>.</p>
+      <p class="muted" id="news-moderation-note" data-translate="newsModerationNote">Innsendte artikler publiseres ikke direkte. Kun relevante saker fra aviser/nettaviser blir godkjent.</p>
 
       <div class="news-controls">
         <label for="news-lang" data-translate="newsLanguageLabel">Lesesprak / oversett til:</label>
@@ -67,7 +68,7 @@
           <option value="cluster_english">5. Engelskspraklige</option>
           <option value="global">Globalt</option>
         </select>
-        <button id="add-article-btn" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>
+        <button id="add-article-btn" type="button" class="btn" data-translate="newsAddArticleBtn">Legg til artikkel</button>
       </div>
 
       <div id="news-list" class="news-list">
@@ -76,20 +77,22 @@
 
       <div id="news-form" class="news-form hidden">
         <h3 data-translate="newsFormHeading">Legg til artikkel</h3>
-        <label><span data-translate="newsFormTitleLabel">Tittel</span><br><input id="article-title" type="text"></label>
-        <label><span data-translate="newsFormSourceLabel">Kilde</span><br><input id="article-source" type="text"></label>
-        <label><span data-translate="newsFormUrlLabel">URL</span><br><input id="article-url" type="url"></label>
+        <label><span data-translate="newsFormTitleLabel">Tittel (valgfri)</span><br><input id="article-title" type="text" autocomplete="off" placeholder="Valgfri - hentes fra URL hvis tom"></label>
+        <label><span data-translate="newsFormSourceLabel">Kilde (valgfri)</span><br><input id="article-source" type="text" autocomplete="off" placeholder="Valgfri - hentes fra URL hvis tom"></label>
+        <label><span data-translate="newsFormUrlLabel">URL (obligatorisk)</span><br><input id="article-url" type="url" autocomplete="url"></label>
         <label><span data-translate="newsFormLanguageLabel">Sprak</span><br>
           <select id="article-lang">
             <option value="nb">Norsk (nb)</option>
             <option value="en">English</option>
           </select>
         </label>
+        <label class="human-check-row"><input id="human-check" type="checkbox"> Jeg er ikke en robot</label>
+        <div style="position:absolute;left:-9999px;top:-9999px" aria-hidden="true"><input id="article-website" type="text" name="website" tabindex="-1" autocomplete="off"></div>
         <div class="form-actions">
-          <button id="save-article" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
-          <button id="cancel-article" class="btn" data-translate="cancel">Avbryt</button>
+          <button id="save-article" type="button" class="btn btn-primary" data-translate="newsSubmitForModerationBtn">Send til moderering</button>
+          <button id="cancel-article" type="button" class="btn" data-translate="cancel">Avbryt</button>
         </div>
-        <p id="news-form-status" class="muted"></p>
+        <p id="news-form-status" class="news-form-status" role="status" aria-live="polite"></p>
       </div>
     </section>
   </main>
@@ -100,13 +103,16 @@
       <p>
         <a href="privacy.html" data-translate="privacy">Personvern</a> |
         <a href="terms.html" data-translate="terms">Vilkar</a> |
+        <a href="editorial-method.html">Redaksjonell metode</a> |
+        <a href="source-criteria.html">Kildekriterier</a> |
         <a href="analytics.html" data-translate="analytics">Analytics</a>
       </p>
     </div>
   </footer>
 
   <script src="lang.local.js?v=20260309b"></script>
-  <script src="news.feed.js?v=20260309e"></script>
+  <script src="news.feed.js?v=20260321b"></script>
+  <script src="js/ads-loader.js"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
@@ -125,7 +131,71 @@
       if (addBtn && form && !addBtn.dataset.fallbackBound) {
         addBtn.dataset.fallbackBound = '1';
         addBtn.addEventListener('click', function () {
-          form.classList.toggle('hidden');
+          var hidden = form.classList.contains('hidden');
+          if (hidden) {
+            form.classList.remove('hidden');
+            try { form.scrollIntoView({ behavior: 'smooth', block: 'start' }); } catch (e) {}
+            var titleInput = document.getElementById('article-title');
+            if (titleInput && typeof titleInput.focus === 'function') titleInput.focus();
+          } else {
+            form.classList.add('hidden');
+          }
+        });
+      }
+
+      // Fallback save-article handler in case news.feed.js did not load.
+      var FALLBACK_WORKER = 'https://matsjekk-news-submission.matsjekk-apps.workers.dev';
+      var saveBtn = document.getElementById('save-article');
+      var statusEl = document.getElementById('news-form-status');
+      if (saveBtn && !saveBtn.dataset.newsFormBound) {
+        saveBtn.dataset.newsFormBound = '1';
+        saveBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          var humanCb = document.getElementById('human-check');
+          var urlInput = document.getElementById('article-url');
+          var titleInput = document.getElementById('article-title');
+          var sourceInput = document.getElementById('article-source');
+          var url = (urlInput && urlInput.value || '').trim();
+          if (!url) {
+            if (statusEl) { statusEl.textContent = 'URL ma fylles ut.'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+            return;
+          }
+          if (humanCb && !humanCb.checked) {
+            if (statusEl) { statusEl.textContent = 'Kryss av for "Jeg er ikke en robot".'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+            return;
+          }
+          var title = (titleInput && titleInput.value || '').trim() || 'Ukjent tittel';
+          var source = (sourceInput && sourceInput.value || '').trim();
+          // Save locally as backup
+          try { var pending = JSON.parse(localStorage.getItem('matsjekk_news_pending_submissions_v1') || '[]'); } catch(_) { var pending = []; }
+          pending.push({ url: url, title: title, source: source, submittedAt: new Date().toISOString(), moderationStatus: 'pending_review' });
+          try { localStorage.setItem('matsjekk_news_pending_submissions_v1', JSON.stringify(pending.slice(-200))); } catch(_) {}
+          // Clear form
+          if (urlInput) urlInput.value = '';
+          if (titleInput) titleInput.value = '';
+          if (sourceInput) sourceInput.value = '';
+          if (humanCb) humanCb.checked = false;
+          saveBtn.textContent = 'Sender...';
+          saveBtn.disabled = true;
+          // POST to worker
+          fetch(FALLBACK_WORKER, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url: url, title: title, source: source, humanCheck: true, language: 'nb' })
+          })
+            .then(function(r) { return r.json(); })
+            .then(function(d) {
+              var msg = d.ok ? 'Takk! Artikkelen er sendt til automatisk moderering.' : (d.error || 'Innsending feilet.');
+              if (d.ok && d.issue) msg += ' (Sak #' + d.issue + ')';
+              if (statusEl) { statusEl.innerHTML = msg; statusEl.style.display = 'block'; statusEl.style.background = d.ok ? '#ebf9ef' : '#fff1f1'; statusEl.style.color = d.ok ? '#1f6a3f' : '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+              saveBtn.textContent = 'Sendt!';
+              setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
+            })
+            .catch(function() {
+              if (statusEl) { statusEl.textContent = 'Takk! Artikkelen er lagret lokalt. Koble til GitHub for aa fullfoere.'; statusEl.style.display = 'block'; statusEl.style.background = '#ebf9ef'; statusEl.style.color = '#1f6a3f'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+              saveBtn.textContent = 'Sendt!';
+              setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
+            });
         });
       }
 
@@ -168,17 +238,81 @@
             .then(function (payload) {
               var items = payload && Array.isArray(payload.items) ? payload.items : [];
               var socialDomains = ['facebook.com','instagram.com','twitter.com','x.com','tiktok.com','reddit.com','youtube.com','linkedin.com','pinterest.com','t.me','telegram.org'];
+              var trustedDomains = [
+                'nrk.no','svt.se','dr.dk','yle.fi','aftenposten.no','vg.no','dagbladet.no',
+                'nationen.no','klassekampen.no','dagsavisen.no','adresseavisen.no','bt.no','fvn.no',
+                'smp.no','itromso.no','ranablad.no','fremover.no','h-a.no',
+                'svd.se','aftonbladet.se','expressen.se','gp.se','dn.se',
+                'jyllands-posten.dk','berlingske.dk','politiken.dk',
+                'hs.fi','is.fi',
+                'steigan.no','document.no','inyheter.no','samnytt.se','friatider.se','24nyt.dk',
+                'reuters.com','apnews.com','bbc.com','theguardian.com','dw.com',
+                'lemonde.fr','lefigaro.fr','france24.com','corriere.it','ansa.it',
+                'elpais.com','abc.es','publico.pt','jn.pt','nzz.ch',
+                'nachdenkseiten.de','epochtimes.de','dagelijksestandaard.nl',
+                'off-guardian.org','spiked-online.com',
+                'mejerimedier.dk','landbruk.no','bondebladet.no','atl.nu',
+                'foodnavigator.com','feednavigator.com','efsa.europa.eu'
+              ];
+              var topicKeywords = [
+                'bovaer','insektsmel','insektmel','insect meal','insect protein',
+                'gmo-fiskefor','gmo fiskefor','gmo fish feed','genmodifisert fiskefor',
+                'genetically modified fish feed','raps fra gmo','soy feed gmo','oppdrettsfor gmo',
+                'gmo fôr','gmo-fôr','genmodifisert fôr','gmo animal feed','gmo dyrefôr',
+                'eu gmo','eu genmodifisert','novel food','novel foods',
+                'gmo import','gmo-import','genmodifisert import',
+                'gmo deregulation','eu deregulering gmo',
+                'new genomic techniques','ngt','gene editing','genredigering',
+                'crispr','matimport gmo'
+              ];
               function isSocialSrc(src) {
                 var s = String(src || '').toLowerCase().trim();
                 return socialDomains.some(function(d) { return s === d || s.endsWith('.'+d); });
               }
-              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url); });
+              function host(url) {
+                try { return new URL(String(url || '')).hostname.toLowerCase(); } catch(e) { return ''; }
+              }
+              function isGoogleNewsWrapperHost(h) {
+                return h === 'news.google.com' || h.endsWith('.news.google.com');
+              }
+              function normalizeSourceHost(sourceText) {
+                var s = String(sourceText || '').toLowerCase().trim();
+                s = s.replace(/^https?:\/\//, '').replace(/^www\./, '').split(/[\s/]/)[0];
+                return s;
+              }
+              function isTrustedSourceDomainText(sourceText) {
+                var hostText = normalizeSourceHost(sourceText);
+                if (!hostText || hostText.indexOf('.') < 0) return false;
+                return trustedDomains.some(function(d){ return hostText === d || hostText.endsWith('.' + d); });
+              }
+              function isLikelyPublisherSourceText(sourceText) {
+                var s = String(sourceText || '').toLowerCase().trim();
+                if (!s || s.length < 3) return false;
+                if (socialDomains.some(function(d) { return s === d || s.endsWith('.' + d); })) return false;
+                if (/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(normalizeSourceHost(s))) return isTrustedSourceDomainText(s);
+                return true;
+              }
+              function isTrusted(item) {
+                var h = host(item.url);
+                var s = String(item.source || '').toLowerCase();
+                if (isGoogleNewsWrapperHost(h) && isLikelyPublisherSourceText(s)) return true;
+                return trustedDomains.some(function(d){ return h === d || h.endsWith('.' + d) || s.indexOf(d) >= 0; });
+              }
+              function hasTopic(item) {
+                var txt = String(item.title || '') + ' ' + String(item.shortSummary || '') + ' ' + String(item.summary || '');
+                txt = txt.toLowerCase();
+                return topicKeywords.some(function(k){ return txt.indexOf(k) >= 0; });
+              }
+              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url) && isTrusted(item) && hasTopic(item); });
+              items.sort(function(a, b) {
+                return new Date(b.pubDate || b.date || 0) - new Date(a.pubDate || a.date || 0);
+              });
               container.innerHTML = '';
               if (!items.length) {
                 container.innerHTML = '<p class="muted">Ingen artikler tilgjengelig i denne regionen akkurat na.</p>';
                 return;
               }
-              items.slice(0, 30).forEach(function (item) {
+              items.forEach(function (item) {
                 var title = String(item.title || 'Untitled');
                 var source = String(item.source || 'Ukjent kilde');
                 var country = String(item.country || '');
