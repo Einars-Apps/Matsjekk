@@ -111,7 +111,7 @@
   </footer>
 
   <script src="lang.local.js?v=20260309b"></script>
-  <script src="news.feed.js?v=20260321b"></script>
+  <script src="news.feed.js?v=20260321c"></script>
   <script src="js/ads-loader.js"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
@@ -237,7 +237,7 @@
             })
             .then(function (payload) {
               var items = payload && Array.isArray(payload.items) ? payload.items : [];
-              var socialDomains = ['facebook.com','instagram.com','twitter.com','x.com','tiktok.com','reddit.com','youtube.com','linkedin.com','pinterest.com','t.me','telegram.org'];
+              var socialDomains = ['facebook.com','instagram.com','twitter.com','x.com','tiktok.com','reddit.com','youtube.com','pinterest.com','t.me','telegram.org','vk.com','snapchat.com'];
               var trustedDomains = [
                 'nrk.no','svt.se','dr.dk','yle.fi','aftenposten.no','vg.no','dagbladet.no',
                 'nationen.no','klassekampen.no','dagsavisen.no','adresseavisen.no','bt.no','fvn.no',
@@ -252,7 +252,8 @@
                 'nachdenkseiten.de','epochtimes.de','dagelijksestandaard.nl',
                 'off-guardian.org','spiked-online.com',
                 'mejerimedier.dk','landbruk.no','bondebladet.no','atl.nu',
-                'foodnavigator.com','feednavigator.com','efsa.europa.eu'
+                'foodnavigator.com','feednavigator.com','efsa.europa.eu',
+                'linkedin.com'
               ];
               var topicKeywords = [
                 'bovaer','insektsmel','insektmel','insect meal','insect protein',
@@ -263,7 +264,9 @@
                 'gmo import','gmo-import','genmodifisert import',
                 'gmo deregulation','eu deregulering gmo',
                 'new genomic techniques','ngt','gene editing','genredigering',
-                'crispr','matimport gmo'
+                'crispr','matimport gmo',
+                'fôrvareforskriften','oppdrettsnæringen','oppdrettsfôr','oppdrettsfor',
+                'bærekraftig fôr','samfunnsoppdraget'
               ];
               function isSocialSrc(src) {
                 var s = String(src || '').toLowerCase().trim();
@@ -303,7 +306,14 @@
                 txt = txt.toLowerCase();
                 return topicKeywords.some(function(k){ return txt.indexOf(k) >= 0; });
               }
-              items = items.filter(function(item) { return !isSocialSrc(item.source) && !isSocialSrc(item.url) && isTrusted(item) && hasTopic(item); });
+              function isGoogleNewsFiller(item) {
+                var t = String(item.title || '').toLowerCase();
+                var s = String(item.source || '').toLowerCase();
+                if (s === 'google news' && /^temaoversikt siste \d+ dager/.test(t)) return true;
+                try { var u = new URL(String(item.url || '')); if ((u.hostname === 'news.google.com' || u.hostname.endsWith('.news.google.com')) && u.pathname === '/search') return true; } catch(e) {}
+                return false;
+              }
+              items = items.filter(function(item) { return !isGoogleNewsFiller(item) && !isSocialSrc(item.source) && !isSocialSrc(item.url) && isTrusted(item) && hasTopic(item); });
               items.sort(function(a, b) {
                 return new Date(b.pubDate || b.date || 0) - new Date(a.pubDate || a.date || 0);
               });
