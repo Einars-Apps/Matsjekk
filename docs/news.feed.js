@@ -314,8 +314,21 @@ function hasRequiredTopic(article) {
   return TOPIC_KEYWORDS.some((keyword) => haystack.includes(keyword));
 }
 
+function isGoogleNewsFillerPage(article) {
+  if (!article) return false;
+  const title = String(article.title || '').toLowerCase();
+  const source = String(article.source || '').toLowerCase();
+  if (source === 'google news' && /^temaoversikt siste \d+ dager/.test(title)) return true;
+  try {
+    const u = new URL(String(article.url || ''));
+    if (isGoogleNewsWrapperHost(u.hostname.toLowerCase()) && u.pathname === '/search') return true;
+  } catch (_) {}
+  return false;
+}
+
 function isRelevantArticle(article) {
   if (!article) return false;
+  if (isGoogleNewsFillerPage(article)) return false;
   if (isSocialMediaArticle(article)) return false;
   if (!isTrustedNewsDomain(article)) return false;
   if (!hasRequiredTopic(article)) return false;
