@@ -16,7 +16,7 @@ const NEWS_MAX_ITEMS = 30;
 // Social media domains that should not appear in the food-news feed
 const SOCIAL_MEDIA_DOMAINS = [
   'facebook.com', 'instagram.com', 'twitter.com', 'x.com', 'tiktok.com',
-  'reddit.com', 'youtube.com', 'linkedin.com', 'pinterest.com', 't.me',
+  'reddit.com', 'youtube.com', 'pinterest.com', 't.me',
   'telegram.org', 'vk.com', 'snapchat.com',
 ];
 
@@ -35,6 +35,7 @@ const TRUSTED_NEWS_DOMAINS = [
   'off-guardian.org', 'spiked-online.com',
   'mejerimedier.dk', 'landbruk.no', 'bondebladet.no', 'atl.nu',
   'foodnavigator.com', 'feednavigator.com', 'efsa.europa.eu',
+  'linkedin.com',
 ];
 
 const TOPIC_KEYWORDS = [
@@ -46,7 +47,9 @@ const TOPIC_KEYWORDS = [
   'gmo import', 'gmo-import', 'genmodifisert import',
   'gmo deregulation', 'eu deregulering gmo',
   'new genomic techniques', 'ngt', 'gene editing', 'genredigering',
-  'crispr', 'matimport gmo'
+  'crispr', 'matimport gmo',
+  'fôrvareforskriften', 'oppdrettsnæringen', 'oppdrettsfôr', 'oppdrettsfor',
+  'bærekraftig fôr', 'samfunnsoppdraget',
 ];
 
 // Rolling per-region article cache (90 days) so articles don't disappear quickly when they leave the RSS window
