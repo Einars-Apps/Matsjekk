@@ -2,16 +2,26 @@
 """
 Auto-moderation for news article submissions via GitHub Issues.
 
+CENSORSHIP RESISTANCE POLICY:
+  - The bot can NEVER reject or delete a real news article.
+  - Only obvious machine-generated spam (casino/crypto/viagra patterns) with
+    NO valid article URL is rejected.
+  - If a submission has a valid URL pointing to any real website, the worst
+    outcome is 'review' (manual check) — NEVER 'reject'.
+  - Once approved, articles are permanent and cannot be removed by the bot.
+  - This protects against external pressure from organizations (ADL, etc.)
+    that attempt to influence moderation of legitimate journalism.
+
 Reads the issue body (YAML block), runs moderation checks, then:
-  - if all pass  → AUTO-APPROVE: add to feed data, close issue
-  - if topic doubtful → NEEDS REVIEW: assign maintainer (email via GitHub)
-  - if spam/off-topic → REJECT: label + comment + close
+  - if all pass  → AUTO-APPROVE: label + close
+  - if topic/source uncertain → NEEDS REVIEW: assign maintainer (email via GitHub)
+  - if spam AND no valid URL → REJECT: label + comment + close
 
 Checks performed:
   1. Required fields (url)
-  2. Trusted source domain (mainstream + known alternative + local media)
-  3. On-topic (bovaer, insektsmel, GMO fôr, EU GMO import)
-  4. Spam patterns
+  2. Spam patterns (only rejects if URL is also missing/unreachable)
+  3. Trusted source domain (mainstream + known alternative + local media)
+  4. On-topic (bovaer, insektsmel, GMO fôr, EU GMO import)
   5. URL reachability
 
 Environment variables (set by GitHub Actions):
@@ -233,18 +243,20 @@ def main():
 
     results = []
     decision = 'approve'  # approve | review | reject
+    is_spam = False
+    has_url = bool(article_url)
 
     # 1. URL present
     if not article_url:
         results.append(('❌', 'Mangler URL'))
-        decision = 'reject'
+        # No URL alone does NOT reject — might be review. See spam check below.
     else:
         results.append(('✅', f'URL oppgitt: {article_url}'))
 
     # 2. Spam check
     if check_spam(article_title, article_url):
         results.append(('🚫', 'Spam-mønster funnet'))
-        decision = 'reject'
+        is_spam = True
     else:
         results.append(('✅', 'Ingen spam-mønstre'))
 
@@ -252,10 +264,12 @@ def main():
     trusted = is_trusted_domain(article_url)
     if trusted:
         results.append(('✅', f'Kjent kilde: {host_from_url(article_url)}'))
-    else:
+    elif article_url:
         results.append(('⚠️', f'Ukjent kilde: {host_from_url(article_url)} — krever manuell vurdering'))
         if decision == 'approve':
             decision = 'review'
+    else:
+        results.append(('⚠️', 'Kan ikke sjekke kilde uten URL'))
 
     # 4. On-topic check
     on_topic = has_required_topic(article_title, article_url)
@@ -267,6 +281,7 @@ def main():
             decision = 'review'
 
     # 5. URL reachable
+    reachable = False
     if article_url:
         reachable = check_url_reachable(article_url)
         if reachable:
@@ -275,6 +290,22 @@ def main():
             results.append(('⚠️', 'URL ikke nåbar — kan være midlertidig'))
             if decision == 'approve':
                 decision = 'review'
+
+    # ── CENSORSHIP RESISTANCE: reject ONLY if spam + no valid/reachable URL ──
+    # A real article (with a reachable URL) can NEVER be auto-rejected.
+    # Only pure spam with no valid URL gets rejected.
+    if is_spam and not has_url:
+        decision = 'reject'
+    elif is_spam and not reachable:
+        decision = 'reject'
+    elif is_spam:
+        # Spam patterns detected but URL is reachable — send to review, don't reject
+        # (could be a false positive — a real article about e.g. crypto regulation)
+        if decision == 'approve':
+            decision = 'review'
+        results.append(('ℹ️', 'Spam-mønster funnet men URL er gyldig — sendt til manuell vurdering'))
+    elif not has_url:
+        decision = 'review'
 
     # ── Build comment ──
     if decision == 'approve':
@@ -288,8 +319,11 @@ def main():
             f'E-postvarsling sendt via GitHub._'
         )
     else:
-        status_line = '## ❌ Avvist'
-        action_line = '_Innsendingen ble automatisk avvist. Se detaljer i tabellen over._'
+        status_line = '## 🚫 Avvist som spam'
+        action_line = (
+            '_Innsendingen ble avvist som spam (ingen gyldig URL + spam-mønster). '
+            'Merk: Reelle artikler med gyldige URL-er kan aldri avvises automatisk._'
+        )
 
     lines = [
         '### 🤖 Matsjekk Nyhets-Moderasjonsbot',
@@ -313,6 +347,9 @@ def main():
         '',
         '---',
         action_line,
+        '',
+        '_Sensurresistens: Reelle nyhetsartikler med gyldige URL-er kan aldri slettes eller avvises automatisk. '
+        'Kun åpenbar spam uten gyldig URL avvises. Godkjente artikler er permanente._',
     ]
 
     comment_body = '\n'.join(lines)
@@ -329,7 +366,8 @@ def main():
             add_labels(repo, number, ['needs-manual-review', 'news'], token)
             assign_issue(repo, number, maintainer, token)
         else:
-            add_labels(repo, number, ['rejected', 'news'], token)
+            # Only spam with no valid URL reaches here
+            add_labels(repo, number, ['spam', 'news'], token)
             close_issue(repo, number, token)
 
     # Write result to $GITHUB_OUTPUT
