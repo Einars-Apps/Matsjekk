@@ -30,7 +30,7 @@
         <a href="gardsbutikker.html" data-translate="navFarmshops">Gardsbutikker</a>
         <a href="okologiske-gardsbutikker.html" data-translate="navOrganicFarmshops">Okologiske gardsbutikker</a>
         <a href="innvandrerbutikker.html" data-translate="navImmigrantShops">Innvandrerbutikker</a>
-        <a href="news.html?cb=20260309e" data-translate="navNews">Nyheter</a>
+        <a href="news.html?cb=20260321a" data-translate="navNews">Nyheter</a>
         <a href="index.html#contact" data-translate="navContact">Kontakt oss</a>
       </nav>
     </div>
@@ -139,6 +139,38 @@
           } else {
             form.classList.add('hidden');
           }
+        });
+      }
+
+      // Fallback save-article handler in case news.feed.js did not load.
+      var saveBtn = document.getElementById('save-article');
+      var statusEl = document.getElementById('news-form-status');
+      if (saveBtn && !saveBtn.dataset.newsFormBound) {
+        saveBtn.dataset.newsFormBound = '1';
+        saveBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          var humanCb = document.getElementById('human-check');
+          var urlInput = document.getElementById('article-url');
+          var url = (urlInput && urlInput.value || '').trim();
+          if (!url) {
+            if (statusEl) { statusEl.textContent = 'URL ma fylles ut.'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+            return;
+          }
+          if (humanCb && !humanCb.checked) {
+            if (statusEl) { statusEl.textContent = 'Kryss av for "Jeg er ikke en robot".'; statusEl.style.display = 'block'; statusEl.style.background = '#fff1f1'; statusEl.style.color = '#8b1a1a'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
+            return;
+          }
+          try { var pending = JSON.parse(localStorage.getItem('matsjekk_news_pending_submissions_v1') || '[]'); } catch(_) { var pending = []; }
+          pending.push({ url: url, submittedAt: new Date().toISOString(), moderationStatus: 'pending_review' });
+          try { localStorage.setItem('matsjekk_news_pending_submissions_v1', JSON.stringify(pending.slice(-200))); } catch(_) {}
+          if (urlInput) urlInput.value = '';
+          var titleInput = document.getElementById('article-title'); if (titleInput) titleInput.value = '';
+          var sourceInput = document.getElementById('article-source'); if (sourceInput) sourceInput.value = '';
+          if (humanCb) humanCb.checked = false;
+          saveBtn.textContent = 'Sendt!';
+          saveBtn.disabled = true;
+          setTimeout(function() { saveBtn.disabled = false; saveBtn.textContent = 'Send til moderering'; }, 3000);
+          if (statusEl) { statusEl.textContent = 'Takk! Artikkelen er registrert og sendt til moderering.'; statusEl.style.display = 'block'; statusEl.style.background = '#ebf9ef'; statusEl.style.color = '#1f6a3f'; statusEl.style.padding = '0.6rem'; statusEl.style.borderRadius = '8px'; }
         });
       }
 

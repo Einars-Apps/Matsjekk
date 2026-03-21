@@ -533,6 +533,8 @@ function setSubmissionStatus(statusEl, message, tone) {
   const className = String(tone || 'info').toLowerCase();
   statusEl.className = `news-form-status is-visible is-${className}`;
   statusEl.innerHTML = String(message || '');
+  // Belt-and-suspenders: force display via inline style in case CSS class fails.
+  statusEl.style.display = 'block';
 }
 
 function sourceFromUrl(url) {
@@ -905,6 +907,11 @@ function initNewsForm() {
   saveBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
+    // Immediate visual feedback on the button itself.
+    const origText = saveBtn.textContent;
+    saveBtn.disabled = true;
+    saveBtn.textContent = 'Sender...';
+
     try {
       const titleEl = document.getElementById('article-title');
       const sourceEl = document.getElementById('article-source');
@@ -974,8 +981,13 @@ function initNewsForm() {
       }
 
       if (form) form.classList.remove('hidden');
+
+      saveBtn.textContent = 'Sendt!';
+      setTimeout(() => { saveBtn.disabled = false; saveBtn.textContent = origText; }, 3000);
     } catch (err) {
       setSubmissionStatus(status, 'Noe gikk galt: ' + escapeHtml(String(err && err.message || err)), 'error');
+      saveBtn.disabled = false;
+      saveBtn.textContent = origText;
     }
   });
 }
