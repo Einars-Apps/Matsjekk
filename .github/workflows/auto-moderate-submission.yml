@@ -27,9 +27,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install deps
         run: pip install pyyaml requests
@@ -69,11 +69,11 @@ jobs:
         run: |
           ADD_RESULT=$(cat $GITHUB_OUTPUT 2>/dev/null | grep add_result | cut -d= -f2 || echo 'success')
           if [ "$ADD_RESULT" = "upgraded" ]; then
-            MSG="âœ… **OppfÃ¸ringen er oppdatert i databasen** med mer fullstendig informasjon. Takk for bidraget!"
+            MSG="✅ **Oppføringen er oppdatert i databasen** med mer fullstendig informasjon. Takk for bidraget!"
           elif [ "$ADD_RESULT" = "skipped_duplicate" ]; then
-            MSG="â„¹ï¸ **Stedet finnes allerede** i databasen med minst like god informasjon. Ingen endring nÃ¸dvendig."
+            MSG="ℹ️ **Stedet finnes allerede** i databasen med minst like god informasjon. Ingen endring nødvendig."
           else
-            MSG="âœ… **Lagt til i databasen!** Stedet er nÃ¥ synlig pÃ¥ kartet. Takk for bidraget!"
+            MSG="✅ **Lagt til i databasen!** Stedet er nå synlig på kartet. Takk for bidraget!"
           fi
           gh issue comment ${{ github.event.issue.number }} --body "$MSG"
           gh issue close ${{ github.event.issue.number }}
