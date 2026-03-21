@@ -10,10 +10,17 @@ permissions:
 
 jobs:
   auto_moderate_news:
-    # Run only for news submissions
+    # Run only for news submissions.
+    # Guard: skip if issue already has a decision label (prevents duplicate runs
+    # when Worker creates issues with labels pre-set, triggering both 'opened' and 'labeled').
     if: |
-      (github.event.action == 'opened' && startsWith(github.event.issue.title, '[News Submission]')) ||
-      (github.event.action == 'labeled' && github.event.label.name == 'news' && contains(github.event.issue.labels.*.name, 'submission'))
+      (
+        (github.event.action == 'opened' && startsWith(github.event.issue.title, '[News Submission]')) ||
+        (github.event.action == 'labeled' && github.event.label.name == 'news' && contains(github.event.issue.labels.*.name, 'submission'))
+      ) &&
+      !contains(github.event.issue.labels.*.name, 'auto-approved') &&
+      !contains(github.event.issue.labels.*.name, 'needs-manual-review') &&
+      !contains(github.event.issue.labels.*.name, 'spam')
     runs-on: ubuntu-latest
 
     steps:
@@ -21,9 +28,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install deps
         run: pip install pyyaml

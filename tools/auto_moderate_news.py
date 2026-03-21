@@ -174,7 +174,7 @@ def check_spam(title, url):
     return False
 
 
-def gh_api(method, path, token, payload=None):
+def gh_api(method, path, token, payload=None, parse_json=False):
     url = f'https://api.github.com{path}'
     data = json.dumps(payload).encode() if payload else None
     req = urllib.request.Request(url, data=data, method=method, headers={
@@ -185,10 +185,12 @@ def gh_api(method, path, token, payload=None):
     })
     try:
         with urllib.request.urlopen(req, timeout=15) as r:
+            if parse_json:
+                return json.loads(r.read().decode())
             return r.status
     except Exception as e:
         print(f'  GitHub API error ({method} {path}): {e}')
-        return 0
+        return None if parse_json else 0
 
 
 def post_comment(repo, number, body, token):
@@ -224,6 +226,15 @@ def main():
 
     print(f'=== News auto-moderasjon: issue #{number} ===')
     print(f'  Tittel: {title}')
+
+    # Guard: skip if already moderated (has decision label)
+    if token and repo:
+        issue_data = gh_api('GET', f'/repos/{repo}/issues/{number}', token, parse_json=True)
+        if issue_data:
+            existing = [lbl['name'] for lbl in issue_data.get('labels', [])]
+            if any(lbl in existing for lbl in ('auto-approved', 'needs-manual-review', 'spam')):
+                print(f'  Allerede moderert (labels: {existing}). Avbryter.')
+                return 0
 
     yaml_text = extract_yaml_block(body)
     try:
