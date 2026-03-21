@@ -1,0 +1,41 @@
+name: Auto-moderation av nyhetsartikler
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  auto_moderate_news:
+    # Run only for news submissions
+    if: |
+      (github.event.action == 'opened' && startsWith(github.event.issue.title, '[News Submission]')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'news' && contains(github.event.issue.labels.*.name, 'submission'))
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install deps
+        run: pip install pyyaml
+
+      - name: Run news auto-moderation
+        id: moderate
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          MAINTAINER_LOGIN: Einars-Apps
+        run: python tools/auto_moderate_news.py

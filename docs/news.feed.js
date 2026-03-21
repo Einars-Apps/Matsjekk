@@ -32,13 +32,21 @@ const TRUSTED_NEWS_DOMAINS = [
   'lemonde.fr', 'lefigaro.fr', 'france24.com', 'corriere.it', 'ansa.it',
   'elpais.com', 'abc.es', 'publico.pt', 'jn.pt', 'nzz.ch',
   'nachdenkseiten.de', 'epochtimes.de', 'dagelijksestandaard.nl',
-  'off-guardian.org', 'spiked-online.com'
+  'off-guardian.org', 'spiked-online.com',
+  'mejerimedier.dk', 'landbruk.no', 'bondebladet.no', 'atl.nu',
+  'foodnavigator.com', 'feednavigator.com', 'efsa.europa.eu',
 ];
 
 const TOPIC_KEYWORDS = [
   'bovaer', 'insektsmel', 'insektmel', 'insect meal', 'insect protein',
   'gmo-fiskefor', 'gmo fiskefor', 'gmo fish feed', 'genmodifisert fiskefor',
-  'genetically modified fish feed', 'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo'
+  'genetically modified fish feed', 'raps fra gmo', 'soy feed gmo', 'oppdrettsfor gmo',
+  'gmo fôr', 'gmo-fôr', 'genmodifisert fôr', 'gmo animal feed', 'gmo dyrefôr',
+  'eu gmo', 'eu genmodifisert', 'novel food', 'novel foods',
+  'gmo import', 'gmo-import', 'genmodifisert import',
+  'gmo deregulation', 'eu deregulering gmo',
+  'new genomic techniques', 'ngt', 'gene editing', 'genredigering',
+  'crispr', 'matimport gmo'
 ];
 
 // Rolling per-region article cache (90 days) so articles don't disappear quickly when they leave the RSS window
