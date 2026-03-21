@@ -2,7 +2,7 @@ name: Auto-moderation av nyhetsartikler
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
 
 permissions:
   contents: read
@@ -10,18 +10,11 @@ permissions:
 
 jobs:
   auto_moderate_news:
-    # Run only for news submissions.
-    # Guard: skip if issue already has a decision label (prevents duplicate runs
-    # when Worker creates issues with labels pre-set, triggering both 'opened' and 'labeled').
-    if: |
-      (
-        (github.event.action == 'opened' && startsWith(github.event.issue.title, '[News Submission]')) ||
-        (github.event.action == 'labeled' && github.event.label.name == 'news' && contains(github.event.issue.labels.*.name, 'submission'))
-      ) &&
-      !contains(github.event.issue.labels.*.name, 'auto-approved') &&
-      !contains(github.event.issue.labels.*.name, 'needs-manual-review') &&
-      !contains(github.event.issue.labels.*.name, 'spam')
+    if: startsWith(github.event.issue.title, '[News Submission]')
     runs-on: ubuntu-latest
+    concurrency:
+      group: auto-moderate-news-${{ github.event.issue.number }}
+      cancel-in-progress: true
 
     steps:
       - name: Checkout
