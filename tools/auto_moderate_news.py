@@ -394,7 +394,7 @@ def main():
                 f.write(f'article_language={entry.get("language", "nb")}\n')
                 f.write(f'article_country={entry.get("country", "")}\n')
 
-    return 0 if decision == 'approve' else (1 if decision == 'review' else 2)
+    return 0
 
 
 if __name__ == '__main__':
