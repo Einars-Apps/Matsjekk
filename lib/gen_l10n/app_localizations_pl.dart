@@ -247,7 +247,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem =>
-      'Usuń reklamy (49 NOK) - wspierasz dalszy rozwój aplikacji';
+      'Usuń reklamy - wspierasz dalszy rozwój aplikacji';
 
   @override
   String get premiumTitle => 'Usuń reklamy';

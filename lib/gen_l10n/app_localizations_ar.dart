@@ -244,8 +244,7 @@ class AppLocalizationsAr extends AppLocalizations {
       'أزل الإعلانات للحصول على مساحة أكبر في قائمة التسوق';
 
   @override
-  String get removeAdsMenuItem =>
-      'إزالة الإعلانات (49 NOK) - دعم تطوير التطبيق';
+  String get removeAdsMenuItem => 'إزالة الإعلانات - دعم تطوير التطبيق';
 
   @override
   String get premiumTitle => 'إزالة الإعلانات';

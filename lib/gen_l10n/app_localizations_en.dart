@@ -243,8 +243,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get removeAdsInfo => 'Remove ads for more space in the shopping list';
 
   @override
-  String get removeAdsMenuItem =>
-      'Remove ads (kr 49,-) - supports further development';
+  String get removeAdsMenuItem => 'Remove ads - supports further development';
 
   @override
   String get premiumTitle => 'Remove ads';

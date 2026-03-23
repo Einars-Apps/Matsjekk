@@ -243,8 +243,7 @@ class AppLocalizationsNb extends AppLocalizations {
   String get removeAdsInfo => 'Fjern reklame for mer plass i handlelisten';
 
   @override
-  String get removeAdsMenuItem =>
-      'Fjern reklame (kr 49,-) - støtter videre utvikling';
+  String get removeAdsMenuItem => 'Fjern reklame - støtter videre utvikling';
 
   @override
   String get premiumTitle => 'Fjern reklame';

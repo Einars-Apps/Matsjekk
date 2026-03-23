@@ -239,7 +239,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get removeAdsInfo => '쇼핑 목록 공간을 넓히기 위해 광고를 제거하세요';
 
   @override
-  String get removeAdsMenuItem => '광고 제거 (NOK 49) - 앱 개발을 지원합니다';
+  String get removeAdsMenuItem => '광고 제거 - 앱 개발을 지원합니다';
 
   @override
   String get premiumTitle => '광고 제거하기';

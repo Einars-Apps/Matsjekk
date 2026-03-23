@@ -248,7 +248,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem =>
-      'Rimuovi annunci (49 kr) - supporta lo sviluppo continuo';
+      'Rimuovi annunci - supporta lo sviluppo continuo';
 
   @override
   String get premiumTitle => 'Rimuovi annunci';

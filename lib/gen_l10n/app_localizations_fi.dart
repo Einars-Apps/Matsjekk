@@ -244,8 +244,7 @@ class AppLocalizationsFi extends AppLocalizations {
       'Poista mainokset saadaksesi lisää tilaa ostoslistaan';
 
   @override
-  String get removeAdsMenuItem =>
-      'Poista mainokset (49 kr) - tukee jatkokehitystä';
+  String get removeAdsMenuItem => 'Poista mainokset - tukee jatkokehitystä';
 
   @override
   String get premiumTitle => 'Poista mainokset';

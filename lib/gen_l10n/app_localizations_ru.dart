@@ -247,7 +247,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem =>
-      'Отключить рекламу (49 NOK) - поддержка дальнейшей разработки приложения';
+      'Отключить рекламу - поддержка дальнейшей разработки приложения';
 
   @override
   String get premiumTitle => 'Отключить рекламу';

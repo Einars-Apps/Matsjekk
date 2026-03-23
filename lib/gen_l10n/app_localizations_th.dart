@@ -243,8 +243,7 @@ class AppLocalizationsTh extends AppLocalizations {
   String get removeAdsInfo => 'ลบโฆษณาเพื่อให้มีพื้นที่ในรายการซื้อของมากขึ้น';
 
   @override
-  String get removeAdsMenuItem =>
-      'ลบโฆษณา (49 NOK) - สนับสนุนการพัฒนาแอปต่อเนื่อง';
+  String get removeAdsMenuItem => 'ลบโฆษณา - สนับสนุนการพัฒนาแอปต่อเนื่อง';
 
   @override
   String get premiumTitle => 'ปิดโฆษณา';

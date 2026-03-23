@@ -238,7 +238,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get removeAdsInfo => '移除广告以获得更多购物清单空间';
 
   @override
-  String get removeAdsMenuItem => '移除广告（49 NOK）- 支持应用持续开发';
+  String get removeAdsMenuItem => '移除广告 - 支持应用持续开发';
 
   @override
   String get premiumTitle => '去除广告';

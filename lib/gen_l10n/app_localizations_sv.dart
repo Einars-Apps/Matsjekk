@@ -245,7 +245,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem =>
-      'Ta bort annonser (49 kr) - stödjer vidare utveckling';
+      'Ta bort annonser - stödjer vidare utveckling';
 
   @override
   String get premiumTitle => 'Ta bort annonser';

@@ -244,8 +244,7 @@ class AppLocalizationsDa extends AppLocalizations {
   String get removeAdsInfo => 'Fjern reklamer for mere plads i indkøbslisten';
 
   @override
-  String get removeAdsMenuItem =>
-      'Fjern reklamer (49 kr) - støtter videre udvikling';
+  String get removeAdsMenuItem => 'Fjern reklamer - støtter videre udvikling';
 
   @override
   String get premiumTitle => 'Fjern reklamer';

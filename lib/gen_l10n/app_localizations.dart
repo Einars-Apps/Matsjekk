@@ -587,7 +587,7 @@ abstract class AppLocalizations {
   /// No description provided for @removeAdsMenuItem.
   ///
   /// In en, this message translates to:
-  /// **'Remove ads (kr 49,-) - supports further development'**
+  /// **'Remove ads - supports further development'**
   String get removeAdsMenuItem;
 
   /// No description provided for @premiumTitle.
