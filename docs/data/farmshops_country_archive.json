@@ -523566,6 +523566,18 @@
       "lon": -2.7892292,
       "address": "Woodhill, DD7 7SD",
       "source": "osm"
+    },
+    {
+      "id": 5970083691,
+      "name": "Cannon Hall Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Barnsley",
+      "products": [],
+      "website": "https://www.cannonhallfarm.co.uk/things-to-do/cannon-hall-farm-shop/",
+      "lat": 53.571932,
+      "lon": -1.590434,
+      "address": "Bark House Lane"
     }
   ],
   "IE": [
@@ -624687,6 +624699,18 @@
       "lon": 7.552423,
       "address": "Rue de l'Ile Falcon 5, 3960",
       "source": "osm"
+    },
+    {
+      "id": 13669720901,
+      "name": "Von Euw Eier AG",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.gefluegelhof.ch/",
+      "lat": 47.4763273,
+      "lon": 8.5281305,
+      "address": "Im Hof"
     }
   ],
   "LI": [

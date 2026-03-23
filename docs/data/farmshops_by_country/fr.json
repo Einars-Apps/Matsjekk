@@ -26668,48 +26668,48 @@
     "name": "Ferme Lameignon",
     "country": "France",
     "region": null,
-    "municipality": "Pomarez",
+    "municipality": null,
     "products": [],
     "website": "http://www.fermelameignon.com/",
     "lat": 43.6157015,
     "lon": -0.8145147,
-    "address": "Chemin de Hiton"
+    "address": null
   },
   {
     "id": 11037282193,
     "name": "Maison Paris - Foie Gras",
     "country": "France",
     "region": null,
-    "municipality": "Pomarez",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 43.6225459,
     "lon": -0.8435375,
-    "address": "Route de Dax"
+    "address": null
   },
   {
     "id": 11037288210,
     "name": "J.Campistron & Fils",
     "country": "France",
     "region": null,
-    "municipality": "Pomarez",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 43.6236662,
     "lon": -0.8439561,
-    "address": "Avenue Jean Barbe"
+    "address": null
   },
   {
     "id": 11037303616,
     "name": "Foie Gras d'Artigues",
     "country": "France",
     "region": null,
-    "municipality": "Pomarez",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 43.6133719,
     "lon": -0.8410635,
-    "address": "Route de l'Amérique"
+    "address": null
   },
   {
     "id": 11037336082,
@@ -31156,11 +31156,11 @@
     "name": "La Ferme de Kerdreïn",
     "country": "France",
     "region": null,
-    "municipality": "Plonéis",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.027246,
-    "lon": -4.2262298,
+    "lat": 48.0272863,
+    "lon": -4.2262937,
     "address": null
   },
   {
@@ -32781,18 +32781,6 @@
     "website": "https://les-jardins-du-petit-pre.org/",
     "lat": 49.2790045,
     "lon": 1.0502459,
-    "address": null
-  },
-  {
-    "id": 12712896987,
-    "name": "Les ânes du canal - ferme pédagogique",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.352065,
-    "lon": -1.6661229,
     "address": null
   },
   {
@@ -37056,6 +37044,78 @@
     "address": "Impasse du Pont"
   },
   {
+    "id": 13668777154,
+    "name": "Les Jardins de Fontaine",
+    "country": "France",
+    "region": null,
+    "municipality": "Fontaine-lès-Clerval",
+    "products": [],
+    "website": "https://www.lesjardinsdefontaine.fr/",
+    "lat": 47.4206505,
+    "lon": 6.4680528,
+    "address": "Rue de Bageole"
+  },
+  {
+    "id": 13668777178,
+    "name": "Ferme sous la Côte",
+    "country": "France",
+    "region": null,
+    "municipality": "Fontaine-lès-Clerval",
+    "products": [],
+    "website": "http://www.fermesouslacote.com/",
+    "lat": 47.4453252,
+    "lon": 6.4717038,
+    "address": "Chemin de sous la Côte"
+  },
+  {
+    "id": 13669764107,
+    "name": "Jardin Nature",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Maurice-Colombier",
+    "products": [],
+    "website": null,
+    "lat": 47.4432334,
+    "lon": 6.6543958,
+    "address": "Rue du Grand Mont"
+  },
+  {
+    "id": 13669835140,
+    "name": "Les Jardins du Pont Sarrazin",
+    "country": "France",
+    "region": null,
+    "municipality": "Vandoncourt",
+    "products": [],
+    "website": null,
+    "lat": 47.4606487,
+    "lon": 6.9168293,
+    "address": null
+  },
+  {
+    "id": 13669955141,
+    "name": "la Ferme du Ruisseau",
+    "country": "France",
+    "region": null,
+    "municipality": "Audincourt",
+    "products": [],
+    "website": "https://www.lafermeduruisseau-audincourt.fr/",
+    "lat": 47.491124,
+    "lon": 6.8426777,
+    "address": "Rue de Belfort"
+  },
+  {
+    "id": 13670157754,
+    "name": "Le Champ des Six Reines",
+    "country": "France",
+    "region": null,
+    "municipality": "La Chaumusse",
+    "products": [],
+    "website": "https://bertrandbauduret.wixsite.com/lechampdes6reines",
+    "lat": 46.6004355,
+    "lon": 5.9487475,
+    "address": "Route des Chauvettes"
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
@@ -41272,7 +41332,7 @@
     "name": "Vergers des Beaumonts GAEC",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "BONNY-SUR-LOIRE",
     "products": [],
     "website": null,
     "lat": 47.5674565,
@@ -46250,6 +46310,30 @@
     "website": null,
     "lat": 45.7904731,
     "lon": 4.9616355,
+    "address": null
+  },
+  {
+    "id": 12309635889,
+    "name": "La Ferme de Kerdreïn",
+    "country": "France",
+    "region": null,
+    "municipality": "Plonéis",
+    "products": [],
+    "website": null,
+    "lat": 48.027246,
+    "lon": -4.2262298,
+    "address": null
+  },
+  {
+    "id": 12712896987,
+    "name": "Les ânes du canal - ferme pédagogique",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.352065,
+    "lon": -1.6661229,
     "address": null
   },
   {

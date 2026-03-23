@@ -15624,6 +15624,18 @@
     "address": "Weidweg"
   },
   {
+    "id": 13669720901,
+    "name": "Von Euw Eier AG",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.gefluegelhof.ch/",
+    "lat": 47.4763273,
+    "lon": 8.5281305,
+    "address": "Im Hof"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
