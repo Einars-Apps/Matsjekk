@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-22T05:33:23.120416+00:00",
+  "generatedAt": "2026-03-23T05:47:25.710816+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 19,
+  "total": 21,
   "errors": [],
   "items": [
     {
@@ -17,6 +17,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50TlZ4S0s2UlhoOHA0QXYwRUYxRmVHWkkwM3pXVkg4cmVQZ2pEdk1McE9QSk41ZU92T1BILVhpdm5DNXVXVmdFME9hWGNBdm9kY2tMR2UtSG50Z1VISTg0UF9FNFRQdWM?oc=5\" target=\"_blank\">Bovaer cattle feed supplement to be reassessed by European Food Safety Authority</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Irish Examiner</font>",
       "id": "ac8261c038236b4d"
+    },
+    {
+      "title": "European Food Safety Authority reviewing Bovaer data - Agriland",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWE9MQmxyelF0bmp0cUlzeDV2U2N6LXY5NDZmLWVqak50VDB1V2dCRU10LXlaOTZFNWRIMFRqZEp2c1FibjVid0FLb1cyNzloNEVlZzFhSjBSRkFzOTRXVDBDNEE5WVk5Z09lZ2QwVDhqcjZFcnNmT05ZTkVSNTNlSHZCc3Y0bGxhSzBOVXBfYWttRVlf?oc=5",
+      "pubDate": "2026-02-17T08:00:00+00:00",
+      "source": "Agriland",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOWE9MQmxyelF0bmp0cUlzeDV2U2N6LXY5NDZmLWVqak50VDB1V2dCRU10LXlaOTZFNWRIMFRqZEp2c1FibjVid0FLb1cyNzloNEVlZzFhSjBSRkFzOTRXVDBDNEE5WVk5Z09lZ2QwVDhqcjZFcnNmT05ZTkVSNTNlSHZCc3Y0bGxhSzBOVXBfYWttRVlf?oc=5\" target=\"_blank\">European Food Safety Authority reviewing Bovaer data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agriland</font>",
+      "id": "cee585d5e8998374"
     },
     {
       "title": "Japanese industry-academia collaboration to test insect meal in aquafeed - Aquafeed.com",
@@ -112,8 +123,8 @@
       "pubDate": "2025-11-08T08:00:00+00:00",
       "source": "Evrim Ağacı",
       "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5\" target=\"_blank\">UK Dairy Farms End Bovaer Methane Feed Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Evrim Ağacı</font>",
       "id": "a303e884f082bd66"
     },
@@ -189,10 +200,21 @@
       "pubDate": "2025-06-23T07:00:00+00:00",
       "source": "Nature",
       "language": "en",
-      "country": "US",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHU1NqeTVLbGFxaV9tS0dfQTYwN2hYamhZZWcwSnRBTHFjMEFTRmlld1lkeDNGUUVKcWE0WVRyWWUxOGEyX1RtSVo3eUtxdnp4Y2VGeExtYjVIMXZLYWVr?oc=5\" target=\"_blank\">Beyond the buzz: insect-based foods are unlikely to significantly reduce meat consumption | npj Sustainable Agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "0a6c0e1a059d45c7"
+    },
+    {
+      "title": "Study evaluates insect meal’s sustainability potential in feed applications - PetfoodIndustry",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDhYbXIyaXRySl9WOWxXUllkcU4zQWdyZHpKeVlfaklLTlgxT1BJalllbWZDMV9WbHBHTkZfWGFnMG1UOW5IelY4eUZpTDdvSHM4SGNURjBIZVRKdHRwRG1jVXphZG53RjdhMWRnYlIzbE1KN2lTcWN5SWhyVXlrb05mXy1peHZVOUtfSEJsNlZ1OFlxVlV5SE1CZGJDTllQaG9taEoyejQwclEzN1dQNmFaM3V3WmR1VHdqeTdOMUJzdklXS2hOeFlnSXJycl8xZkd2NTNBTGpuNzRGblE?oc=5",
+      "pubDate": "2025-05-19T07:00:00+00:00",
+      "source": "PetfoodIndustry",
+      "language": "en",
+      "country": "CA",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDhYbXIyaXRySl9WOWxXUllkcU4zQWdyZHpKeVlfaklLTlgxT1BJalllbWZDMV9WbHBHTkZfWGFnMG1UOW5IelY4eUZpTDdvSHM4SGNURjBIZVRKdHRwRG1jVXphZG53RjdhMWRnYlIzbE1KN2lTcWN5SWhyVXlrb05mXy1peHZVOUtfSEJsNlZ1OFlxVlV5SE1CZGJDTllQaG9taEoyejQwclEzN1dQNmFaM3V3WmR1VHdqeTdOMUJzdklXS2hOeFlnSXJycl8xZkd2NTNBTGpuNzRGblE?oc=5\" target=\"_blank\">Study evaluates insect meal’s sustainability potential in feed applications</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
+      "id": "e26b78f09322b73a"
     },
     {
       "title": "Insect meal as aquafeed in Africa: It’s a matter of scale - Aquafeed.com",
@@ -211,8 +233,8 @@
       "pubDate": "2025-04-24T07:00:00+00:00",
       "source": "Eurogroup for Animals",
       "language": "en",
-      "country": "US",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmdMOXhfWEhzQXhmdzhYWlZQSzNLMUhXU1ZOajgtUjVmM3F4VmxWNEhVTWRTMVJVS2pyLU5UdHBYeWtzS1VVYS0zNzBHQnRjR3U4RmJReWhaSVN1MVhHRXdwWHlSWVNHRHJaTldiaU5hZVNiUXQ0X1g5ZTRMai1aaW1KakQ5clBoVFRxNUprMDY2OWh6S0lvdWdINWMxYlozWGw3VmJrcjZHUW9sLWVXODRIX1FaSEpzeVE?oc=5\" target=\"_blank\">Insects as feed won't lead to sustainable food systems, government-funded study shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Eurogroup for Animals</font>",
       "id": "e712a62e572d3cfd"
     }
