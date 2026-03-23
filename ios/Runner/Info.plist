@@ -47,6 +47,9 @@
 	<true/>
     <key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-2847767410024665~5375114860</string>
-<key>NSCameraUsageDescription</key>
-<string>Denne appen bruker kamera for å scanne barcodes.</string></dict>
+<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>Denne appen bruker kamera for å scanne barcodes.</string>
+</dict>
 </plist>
