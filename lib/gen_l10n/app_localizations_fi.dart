@@ -9,7 +9,7 @@ class AppLocalizationsFi extends AppLocalizations {
   AppLocalizationsFi([String locale = 'fi']) : super(locale);
 
   @override
-  String get appTitle => 'Ruoka-tarkistus';
+  String get appTitle => 'Ruokatarkistus';
 
   @override
   String get scanBarcode => 'Skannaa viivakoodi';
@@ -305,4 +305,146 @@ class AppLocalizationsFi extends AppLocalizations {
   @override
   String get consentOptional =>
       'Tämä on vapaaehtoista. Jos et anna suostumusta, käyttötietoja ei lähetetä analytiikkaan.';
+
+  @override
+  String get couldNotOpenLink => 'Linkkiä ei voitu avata';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Skannaa tuotteen viivakoodi.\n2. Sovellus hakee tuotetiedot Open Food Factsista.\n3. Varoitukset arvioidaan sisäisiä tuotemerkki- ja ainesosasääntöjä vasten.\n4. Saat yksinkertaisen riskinäkymän ja voit tallentaa tuotteita ostoslistalle.';
+
+  @override
+  String get betaWarning =>
+      'Tärkeää: Tämä on beta-ominaisuus. Tarkista aina tiedot pakkauksesta/etiketistä.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-osumat';
+
+  @override
+  String get reportSaved => 'Kiitos — raportti tallennettu.';
+
+  @override
+  String get couldNotSaveReport => 'Raporttia ei voitu tallentaa';
+
+  @override
+  String get seeUpdatedStatus => 'Katso päivitetty tila';
+
+  @override
+  String get gmoFeedLabel => 'GMO-rehu';
+
+  @override
+  String get insectMealLabel => 'Hyönteisproteiini';
+
+  @override
+  String get allergensLabel => 'Allergeenit';
+
+  @override
+  String get noAllergensFound => 'Allergeenejä ei löytynyt.';
+
+  @override
+  String get nutritionPer100g => 'Ravintoarvot (per 100g)';
+
+  @override
+  String get nutritionSource => 'lähde';
+
+  @override
+  String get energyLabel => 'Energia';
+
+  @override
+  String get fatLabel => 'Rasva';
+
+  @override
+  String get saturatedFatLabel => 'Josta tyydyttynyttä rasvaa';
+
+  @override
+  String get carbohydratesLabel => 'Hiilihydraatit';
+
+  @override
+  String get sugarsLabel => 'Josta sokereita';
+
+  @override
+  String get proteinLabel => 'Proteiini';
+
+  @override
+  String get saltLabel => 'Suola';
+
+  @override
+  String get noNutritionFound => 'Ravintotietoja ei löytynyt.';
+
+  @override
+  String get unknownName => 'Tuntematon nimi';
+
+  @override
+  String get noInfo => 'Ei tietoa';
+
+  @override
+  String get paymentConfirmed =>
+      'Maksu vahvistettu. Mainokset on nyt poistettu pysyvästi.';
+
+  @override
+  String get purchaseFailed => 'Osto epäonnistui. Yritä uudelleen.';
+
+  @override
+  String get purchaseCancelled => 'Osto peruutettiin.';
+
+  @override
+  String get purchaseStreamError => 'Ostovirta epäonnistui';
+
+  @override
+  String get productIdNotFound =>
+      'Ostotuotetta ei löytynyt. Tarkista tuote-ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Huomio: sisäinen lista tuotemerkkilinkityksille';
+
+  @override
+  String get internalWarning2 =>
+      'Huomio: tuotemerkkiseuranta ja julkinen tieto';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» lisätty listaan $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Ostoslista: muisti ja automaattinen täydennys';
+
+  @override
+  String get shoppingListMemoryHow => 'Näin käytät ostoslistan muistia';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Ostoslistalla on muisti ja automaattinen täydennys:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + lisää tarkalleen sen mitä kirjoitat.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter lisää ehdotuksen syöttökenttään.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Napauta tuotetta muistilistassa lisätäksesi sen.';
+
+  @override
+  String get appReviewTestTitle => 'App Review -testikoodit';
+
+  @override
+  String get appReviewTestSubtitle => 'Avaa demotuotteita ilman kameraa';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Valitse testikoodi avataksesi demotuotteen:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Demotuotetta koodille $code ei löydy';
+  }
+
+  @override
+  String get adPlaceholderText => 'Mainospaikka aktiivinen';
 }

@@ -9,7 +9,7 @@ class AppLocalizationsNl extends AppLocalizations {
   AppLocalizationsNl([String locale = 'nl']) : super(locale);
 
   @override
-  String get appTitle => 'Voedsel Check';
+  String get appTitle => 'Voedselcheck';
 
   @override
   String get scanBarcode => 'Barcode scannen';
@@ -307,4 +307,146 @@ class AppLocalizationsNl extends AppLocalizations {
   @override
   String get consentOptional =>
       'Dit is optioneel. Als u niet akkoord gaat, worden er geen gebruiksgegevens naar analyse verzonden.';
+
+  @override
+  String get couldNotOpenLink => 'Kon link niet openen';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Scan de barcode van het product.\n2. De app haalt productgegevens op via Open Food Facts.\n3. Waarschuwingen worden geëvalueerd aan de hand van interne merk- en ingrediëntregels.\n4. U krijgt een eenvoudig risico-overzicht en kunt producten opslaan in uw boodschappenlijst.';
+
+  @override
+  String get betaWarning =>
+      'Belangrijk: Dit is een bètafunctie. Controleer informatie altijd aan de hand van de verpakking/het etiket.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-overeenkomsten';
+
+  @override
+  String get reportSaved => 'Bedankt — rapport opgeslagen.';
+
+  @override
+  String get couldNotSaveReport => 'Kon rapport niet opslaan';
+
+  @override
+  String get seeUpdatedStatus => 'Bekijk bijgewerkte status';
+
+  @override
+  String get gmoFeedLabel => 'GMO-voer';
+
+  @override
+  String get insectMealLabel => 'Insectenmeel';
+
+  @override
+  String get allergensLabel => 'Allergenen';
+
+  @override
+  String get noAllergensFound => 'Geen allergenen gevonden.';
+
+  @override
+  String get nutritionPer100g => 'Voedingswaarde (per 100g)';
+
+  @override
+  String get nutritionSource => 'bron';
+
+  @override
+  String get energyLabel => 'Energie';
+
+  @override
+  String get fatLabel => 'Vet';
+
+  @override
+  String get saturatedFatLabel => 'Waarvan verzadigd vet';
+
+  @override
+  String get carbohydratesLabel => 'Koolhydraten';
+
+  @override
+  String get sugarsLabel => 'Waarvan suikers';
+
+  @override
+  String get proteinLabel => 'Eiwit';
+
+  @override
+  String get saltLabel => 'Zout';
+
+  @override
+  String get noNutritionFound => 'Geen voedingsinformatie gevonden.';
+
+  @override
+  String get unknownName => 'Onbekende naam';
+
+  @override
+  String get noInfo => 'Geen info';
+
+  @override
+  String get paymentConfirmed =>
+      'Betaling bevestigd. Advertenties zijn nu permanent verwijderd.';
+
+  @override
+  String get purchaseFailed => 'Aankoop mislukt. Probeer het opnieuw.';
+
+  @override
+  String get purchaseCancelled => 'Aankoop geannuleerd.';
+
+  @override
+  String get purchaseStreamError => 'Aankoopstroom mislukt';
+
+  @override
+  String get productIdNotFound =>
+      'Aankoopproduct niet gevonden. Controleer het product-ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Mededeling: interne lijst voor merkkoppelingen';
+
+  @override
+  String get internalWarning2 =>
+      'Mededeling: merkregistratie en openbare informatie';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» toegevoegd aan $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Boodschappenlijst: geheugen en automatisch aanvullen';
+
+  @override
+  String get shoppingListMemoryHow =>
+      'Zo gebruik je het boodschappenlijstgeheugen';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'De boodschappenlijst heeft geheugen en automatisch aanvullen:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + voegt precies toe wat je typt.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter voegt de suggestie toe in het invoerveld.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Tik op een product in de geheugenlijst om het toe te voegen.';
+
+  @override
+  String get appReviewTestTitle => 'App Review testcodes';
+
+  @override
+  String get appReviewTestSubtitle => 'Open demoproducten zonder camera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Kies een testcode om een demoproduct te openen:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Demoproduct voor $code niet gevonden';
+  }
+
+  @override
+  String get adPlaceholderText => 'Advertentieplaats actief';
 }

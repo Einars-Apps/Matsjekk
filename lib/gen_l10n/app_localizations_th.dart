@@ -305,4 +305,139 @@ class AppLocalizationsTh extends AppLocalizations {
   @override
   String get consentOptional =>
       'ตัวเลือกนี้ไม่บังคับ หากคุณไม่ยินยอม ระบบจะไม่ส่งข้อมูลการใช้งานไปยังการวิเคราะห์';
+
+  @override
+  String get couldNotOpenLink => 'ไม่สามารถเปิดลิงก์ได้';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. สแกนบาร์โค้ดสินค้า\n2. แอปดึงข้อมูลสินค้าจาก Open Food Facts\n3. การแจ้งเตือนจะถูกประเมินตามกฎแบรนด์และส่วนผสมภายใน\n4. คุณจะได้มุมมองความเสี่ยงแบบง่ายและสามารถบันทึกสินค้าลงในรายการซื้อ';
+
+  @override
+  String get betaWarning =>
+      'สำคัญ: นี่เป็นฟีเจอร์เบต้า กรุณาตรวจสอบข้อมูลจากบรรจุภัณฑ์/ฉลากเสมอ';
+
+  @override
+  String get matvaretabellenMatches => 'ผลลัพธ์ Matvaretabellen';
+
+  @override
+  String get reportSaved => 'ขอบคุณ — บันทึกรายงานแล้ว';
+
+  @override
+  String get couldNotSaveReport => 'ไม่สามารถบันทึกรายงานได้';
+
+  @override
+  String get seeUpdatedStatus => 'ดูสถานะที่อัปเดต';
+
+  @override
+  String get gmoFeedLabel => 'อาหารสัตว์ GMO';
+
+  @override
+  String get insectMealLabel => 'โปรตีนแมลง';
+
+  @override
+  String get allergensLabel => 'สารก่อภูมิแพ้';
+
+  @override
+  String get noAllergensFound => 'ไม่พบสารก่อภูมิแพ้';
+
+  @override
+  String get nutritionPer100g => 'ข้อมูลโภชนาการ (ต่อ 100กรัม)';
+
+  @override
+  String get nutritionSource => 'แหล่งที่มา';
+
+  @override
+  String get energyLabel => 'พลังงาน';
+
+  @override
+  String get fatLabel => 'ไขมัน';
+
+  @override
+  String get saturatedFatLabel => 'ไขมันอิ่มตัว';
+
+  @override
+  String get carbohydratesLabel => 'คาร์โบไฮเดรต';
+
+  @override
+  String get sugarsLabel => 'น้ำตาล';
+
+  @override
+  String get proteinLabel => 'โปรตีน';
+
+  @override
+  String get saltLabel => 'เกลือ';
+
+  @override
+  String get noNutritionFound => 'ไม่พบข้อมูลโภชนาการ';
+
+  @override
+  String get unknownName => 'ชื่อไม่ทราบ';
+
+  @override
+  String get noInfo => 'ไม่มีข้อมูล';
+
+  @override
+  String get paymentConfirmed => 'ยืนยันการชำระเงิน โฆษณาถูกลบออกถาวรแล้ว';
+
+  @override
+  String get purchaseFailed => 'การซื้อล้มเหลว กรุณาลองอีกครั้ง';
+
+  @override
+  String get purchaseCancelled => 'การซื้อถูกยกเลิก';
+
+  @override
+  String get purchaseStreamError => 'สตรีมการซื้อล้มเหลว';
+
+  @override
+  String get productIdNotFound =>
+      'ไม่พบสินค้าสำหรับซื้อ กรุณาตรวจสอบ ID สินค้า';
+
+  @override
+  String get internalWarning1 =>
+      'แจ้งเตือน: รายการภายในสำหรับการติดตามลิงก์แบรนด์';
+
+  @override
+  String get internalWarning2 => 'แจ้งเตือน: การติดตามแบรนด์และข้อมูลสาธารณะ';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» เพิ่มในรายการ $list แล้ว';
+  }
+
+  @override
+  String get shoppingListMemoryTitle => 'รายการซื้อ: ความจำและเติมอัตโนมัติ';
+
+  @override
+  String get shoppingListMemoryHow => 'วิธีใช้ความจำรายการซื้อ';
+
+  @override
+  String get shoppingListMemoryIntro => 'รายการซื้อมีความจำและเติมอัตโนมัติ:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + เพิ่มตามที่คุณพิมพ์';
+
+  @override
+  String get shoppingListMemoryStep2 => '2. Enter เพิ่มคำแนะนำในช่องกรอก';
+
+  @override
+  String get shoppingListMemoryStep3 => '3. แตะสินค้าในรายการความจำเพื่อเพิ่ม';
+
+  @override
+  String get appReviewTestTitle => 'รหัสทดสอบ App Review';
+
+  @override
+  String get appReviewTestSubtitle => 'เปิดสินค้าตัวอย่างโดยไม่ใช้กล้อง';
+
+  @override
+  String get appReviewTestInstructions =>
+      'เลือกรหัสทดสอบเพื่อเปิดสินค้าตัวอย่าง:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'ไม่พบสินค้าตัวอย่างสำหรับ $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'ตำแหน่งโฆษณาใช้งานอยู่';
 }

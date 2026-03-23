@@ -304,4 +304,145 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get consentOptional =>
       'This is optional. If you do not consent, your usage is not sent to analytics.';
+
+  @override
+  String get couldNotOpenLink => 'Could not open link';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Scan the product barcode.\n2. The app fetches product data from Open Food Facts.\n3. Alerts are evaluated against internal brand and ingredient rules.\n4. You get a simple risk view and can save items to your shopping list.';
+
+  @override
+  String get betaWarning =>
+      'Important: This is a beta feature. Always verify information against packaging/label.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen matches';
+
+  @override
+  String get reportSaved => 'Thanks — report saved.';
+
+  @override
+  String get couldNotSaveReport => 'Could not save report';
+
+  @override
+  String get seeUpdatedStatus => 'See updated status';
+
+  @override
+  String get gmoFeedLabel => 'GMO Feed';
+
+  @override
+  String get insectMealLabel => 'Insect Meal';
+
+  @override
+  String get allergensLabel => 'Allergens';
+
+  @override
+  String get noAllergensFound => 'No allergens found.';
+
+  @override
+  String get nutritionPer100g => 'Nutrition (per 100g)';
+
+  @override
+  String get nutritionSource => 'source';
+
+  @override
+  String get energyLabel => 'Energy';
+
+  @override
+  String get fatLabel => 'Fat';
+
+  @override
+  String get saturatedFatLabel => 'Of which saturated fat';
+
+  @override
+  String get carbohydratesLabel => 'Carbohydrates';
+
+  @override
+  String get sugarsLabel => 'Of which sugars';
+
+  @override
+  String get proteinLabel => 'Protein';
+
+  @override
+  String get saltLabel => 'Salt';
+
+  @override
+  String get noNutritionFound => 'No nutrition information found.';
+
+  @override
+  String get unknownName => 'Unknown name';
+
+  @override
+  String get noInfo => 'No info';
+
+  @override
+  String get paymentConfirmed =>
+      'Payment confirmed. Ads are now permanently removed.';
+
+  @override
+  String get purchaseFailed => 'Purchase failed. Please try again.';
+
+  @override
+  String get purchaseCancelled => 'Purchase was cancelled.';
+
+  @override
+  String get purchaseStreamError => 'Purchase stream failed';
+
+  @override
+  String get productIdNotFound =>
+      'Could not find purchase product. Check product ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Notice: internal list for brand-link tracking';
+
+  @override
+  String get internalWarning2 =>
+      'Notice: brand tracking and public information';
+
+  @override
+  String addedToList(String item, String list) {
+    return '\"$item\" added to $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Shopping list: memory and autocomplete';
+
+  @override
+  String get shoppingListMemoryHow => 'How to use the shopping list memory';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'The shopping list has memory and autocomplete:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + adds exactly what you type.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter adds the suggestion in the input field.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Tap a product in the memory list to add it.';
+
+  @override
+  String get appReviewTestTitle => 'App Review Test Codes';
+
+  @override
+  String get appReviewTestSubtitle => 'Open demo products without camera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Choose a test code to open a demo product:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Could not find demo product for $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'Ad placement active';
 }

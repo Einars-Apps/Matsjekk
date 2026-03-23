@@ -3,6 +3,17 @@ import 'dart:async';
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
+enum PremiumMessageKey {
+  none,
+  storeUnavailable,
+  purchaseStreamError,
+  productsLoadFailed,
+  productIdNotFound,
+  paymentConfirmed,
+  purchaseFailed,
+  purchaseCancelled,
+}
+
 class PremiumService {
   static const String removeAdsProductId = 'matsjekk_remove_ads_lifetime';
   static const String adsRemovedKey = 'adsRemoved';
@@ -17,7 +28,8 @@ class PremiumService {
   bool isStoreAvailable = false;
   bool isPremiumActive = false;
   bool isLoading = true;
-  String lastMessage = '';
+  PremiumMessageKey lastMessageKey = PremiumMessageKey.none;
+  String lastMessageExtra = '';
   List<ProductDetails> products = [];
 
   Future<void> initialize(Box settingsBox) async {
@@ -33,7 +45,7 @@ class PremiumService {
 
     isStoreAvailable = await _iap.isAvailable();
     if (!isStoreAvailable) {
-      lastMessage = 'Butikk utilgjengelig akkurat nå. Prøv igjen senere.';
+      lastMessageKey = PremiumMessageKey.storeUnavailable;
       return;
     }
 
@@ -41,7 +53,8 @@ class PremiumService {
     _purchaseSubscription = _iap.purchaseStream.listen(
       _handlePurchaseUpdates,
       onError: (error) {
-        lastMessage = 'Kjøpsstrøm feilet: $error';
+        lastMessageKey = PremiumMessageKey.purchaseStreamError;
+        lastMessageExtra = '$error';
       },
     );
 
@@ -59,11 +72,11 @@ class PremiumService {
     products = response.productDetails.toList();
 
     if (response.error != null) {
-      lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
+      lastMessageKey = PremiumMessageKey.productsLoadFailed;
     } else if (products.isEmpty) {
-      lastMessage = 'Fant ikke kjøpsproduktet. Sjekk produkt-ID i App Store.';
+      lastMessageKey = PremiumMessageKey.productIdNotFound;
     } else {
-      lastMessage = '';
+      lastMessageKey = PremiumMessageKey.none;
     }
 
     isLoading = false;
@@ -88,12 +101,11 @@ class PremiumService {
       if (purchaseDetails.status == PurchaseStatus.purchased ||
           purchaseDetails.status == PurchaseStatus.restored) {
         await _setPremiumActive(true);
-        lastMessage = 'Betaling bekreftet. Annonser er nå fjernet permanent.';
+        lastMessageKey = PremiumMessageKey.paymentConfirmed;
       } else if (purchaseDetails.status == PurchaseStatus.error) {
-        lastMessage =
-            purchaseDetails.error?.message ?? 'Kjøpet feilet. Prøv igjen.';
+        lastMessageKey = PremiumMessageKey.purchaseFailed;
       } else if (purchaseDetails.status == PurchaseStatus.canceled) {
-        lastMessage = 'Kjøpet ble avbrutt.';
+        lastMessageKey = PremiumMessageKey.purchaseCancelled;
       }
 
       if (purchaseDetails.pendingCompletePurchase) {

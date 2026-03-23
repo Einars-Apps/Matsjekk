@@ -9,7 +9,7 @@ class AppLocalizationsDa extends AppLocalizations {
   AppLocalizationsDa([String locale = 'da']) : super(locale);
 
   @override
-  String get appTitle => 'Mad-check';
+  String get appTitle => 'Madtjek';
 
   @override
   String get scanBarcode => 'Scan stregkode';
@@ -305,4 +305,146 @@ class AppLocalizationsDa extends AppLocalizations {
   @override
   String get consentOptional =>
       'Dette er valgfrit. Hvis du ikke giver samtykke, sendes ingen brugsdata til analyse.';
+
+  @override
+  String get couldNotOpenLink => 'Kunne ikke åbne linket';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Scan stregkoden på varen.\n2. Appen henter produktdata fra Open Food Facts.\n3. Advarsler evalueres mod interne varemærke- og ingrediensregler.\n4. Du får en enkel risikovisning og kan gemme varer i indkøbslisten.';
+
+  @override
+  String get betaWarning =>
+      'Vigtigt: Dette er en betafunktion. Bekræft altid information mod emballage/etiket.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-træffere';
+
+  @override
+  String get reportSaved => 'Tak — rapport gemt.';
+
+  @override
+  String get couldNotSaveReport => 'Kunne ikke gemme rapport';
+
+  @override
+  String get seeUpdatedStatus => 'Se opdateret status';
+
+  @override
+  String get gmoFeedLabel => 'GMO-foder';
+
+  @override
+  String get insectMealLabel => 'Insektmel';
+
+  @override
+  String get allergensLabel => 'Allergener';
+
+  @override
+  String get noAllergensFound => 'Ingen allergener fundet.';
+
+  @override
+  String get nutritionPer100g => 'Næringsindhold (per 100g)';
+
+  @override
+  String get nutritionSource => 'kilde';
+
+  @override
+  String get energyLabel => 'Energi';
+
+  @override
+  String get fatLabel => 'Fedt';
+
+  @override
+  String get saturatedFatLabel => 'Heraf mættet fedt';
+
+  @override
+  String get carbohydratesLabel => 'Kulhydrater';
+
+  @override
+  String get sugarsLabel => 'Heraf sukkerarter';
+
+  @override
+  String get proteinLabel => 'Protein';
+
+  @override
+  String get saltLabel => 'Salt';
+
+  @override
+  String get noNutritionFound => 'Ingen næringsoplysninger fundet.';
+
+  @override
+  String get unknownName => 'Ukendt navn';
+
+  @override
+  String get noInfo => 'Ingen info';
+
+  @override
+  String get paymentConfirmed =>
+      'Betaling bekræftet. Annoncer er nu permanent fjernet.';
+
+  @override
+  String get purchaseFailed => 'Købet mislykkedes. Prøv igen.';
+
+  @override
+  String get purchaseCancelled => 'Købet blev annulleret.';
+
+  @override
+  String get purchaseStreamError => 'Købsstrøm fejlede';
+
+  @override
+  String get productIdNotFound =>
+      'Kunne ikke finde købsproduktet. Tjek produkt-ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Bemærk: intern liste for varemærkeforbindelser';
+
+  @override
+  String get internalWarning2 =>
+      'Bemærk: varemærkesporing og offentlig information';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» tilføjet til $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Indkobsliste: hukommelse og autofuldfor';
+
+  @override
+  String get shoppingListMemoryHow =>
+      'Sadan bruger du indkobslistens hukommelse';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Indkobslisten har hukommelse og autofuldfor:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + tilfojer praecis det du skriver.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter tilfojer forslaget i indtastningsfeltet.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Tryk pa et produkt i hukommelseslisten for at tilfoje det.';
+
+  @override
+  String get appReviewTestTitle => 'App Review testkoder';
+
+  @override
+  String get appReviewTestSubtitle => 'Abn demoprodukter uden kamera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Valg en testkode for at abne et demoprodukt:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Kunne ikke finde demoprodukt for $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'Annonceplads aktiv';
 }

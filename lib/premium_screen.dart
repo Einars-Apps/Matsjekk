@@ -65,7 +65,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 child: Row(
                   children: [
                     // Reklamebanner til venstre
-                    Expanded(
+                    const Expanded(
                       flex: 2,
                       child: AdBanner(),
                     ),
@@ -163,11 +163,11 @@ class _PremiumScreenState extends State<PremiumScreen> {
               icon: const Icon(Icons.restore),
               label: Text(l10n?.restorePurchases ?? 'Restore purchases'),
             ),
-            if (_premiumService.lastMessage.isNotEmpty)
+            if (_premiumService.lastMessageKey != PremiumMessageKey.none)
               Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(
-                  _premiumService.lastMessage,
+                  _translateMessage(_premiumService.lastMessageKey, l10n),
                   style: const TextStyle(color: Colors.black87),
                 ),
               ),
@@ -175,5 +175,26 @@ class _PremiumScreenState extends State<PremiumScreen> {
         ),
       ),
     );
+  }
+
+  String _translateMessage(PremiumMessageKey key, AppLocalizations? l10n) {
+    switch (key) {
+      case PremiumMessageKey.storeUnavailable:
+        return l10n?.storeUnavailable ?? 'Store is unavailable right now. Please try again later.';
+      case PremiumMessageKey.purchaseStreamError:
+        return l10n?.purchaseStreamError ?? 'Purchase stream failed';
+      case PremiumMessageKey.productsLoadFailed:
+        return l10n?.productsLoadFailed ?? 'Could not load purchase products.';
+      case PremiumMessageKey.productIdNotFound:
+        return l10n?.productIdNotFound ?? 'Could not find purchase product.';
+      case PremiumMessageKey.paymentConfirmed:
+        return l10n?.paymentConfirmed ?? 'Payment confirmed. Ads are now permanently removed.';
+      case PremiumMessageKey.purchaseFailed:
+        return l10n?.purchaseFailed ?? 'Purchase failed. Please try again.';
+      case PremiumMessageKey.purchaseCancelled:
+        return l10n?.purchaseCancelled ?? 'Purchase was cancelled.';
+      case PremiumMessageKey.none:
+        return '';
+    }
   }
 }

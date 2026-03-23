@@ -304,4 +304,143 @@ class AppLocalizationsNb extends AppLocalizations {
   @override
   String get consentOptional =>
       'Dette er valgfritt. Hvis du ikke samtykker, sendes ingen bruksdata til analyse.';
+
+  @override
+  String get couldNotOpenLink => 'Kunne ikke åpne lenken';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Skann strekkoden på varen.\n2. Appen henter produktdata fra Open Food Facts.\n3. Varsler vurderes mot interne merkevare- og ingrediensregler.\n4. Du får en enkel visning av risiko og kan lagre varer i handlelisten.';
+
+  @override
+  String get betaWarning =>
+      'Viktig: Dette er en beta-funksjon. Verifiser alltid informasjon mot pakning/etikett.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-treff';
+
+  @override
+  String get reportSaved => 'Takk — rapport lagret.';
+
+  @override
+  String get couldNotSaveReport => 'Kunne ikke lagre rapport';
+
+  @override
+  String get seeUpdatedStatus => 'Se oppdatert status';
+
+  @override
+  String get gmoFeedLabel => 'GMO-fôr';
+
+  @override
+  String get insectMealLabel => 'Insektmel';
+
+  @override
+  String get allergensLabel => 'Allergener';
+
+  @override
+  String get noAllergensFound => 'Ingen allergener funnet.';
+
+  @override
+  String get nutritionPer100g => 'Næringsinnhold (per 100g)';
+
+  @override
+  String get nutritionSource => 'kilde';
+
+  @override
+  String get energyLabel => 'Energi';
+
+  @override
+  String get fatLabel => 'Fett';
+
+  @override
+  String get saturatedFatLabel => 'Hvorav mettet fett';
+
+  @override
+  String get carbohydratesLabel => 'Karbohydrater';
+
+  @override
+  String get sugarsLabel => 'Hvorav sukkerarter';
+
+  @override
+  String get proteinLabel => 'Protein';
+
+  @override
+  String get saltLabel => 'Salt';
+
+  @override
+  String get noNutritionFound => 'Ingen næringsinformasjon funnet.';
+
+  @override
+  String get unknownName => 'Ukjent navn';
+
+  @override
+  String get noInfo => 'Ingen info';
+
+  @override
+  String get paymentConfirmed =>
+      'Betaling bekreftet. Annonser er nå fjernet permanent.';
+
+  @override
+  String get purchaseFailed => 'Kjøpet feilet. Prøv igjen.';
+
+  @override
+  String get purchaseCancelled => 'Kjøpet ble avbrutt.';
+
+  @override
+  String get purchaseStreamError => 'Kjøpsstrøm feilet';
+
+  @override
+  String get productIdNotFound => 'Fant ikke kjøpsproduktet. Sjekk produkt-ID.';
+
+  @override
+  String get internalWarning1 => 'Varsel: intern liste for merkevare-koblinger';
+
+  @override
+  String get internalWarning2 =>
+      'Varsel: merkevaresporing og offentlig informasjon';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» lagt til i $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle => 'Handleliste: minne og autofullfør';
+
+  @override
+  String get shoppingListMemoryHow => 'Slik bruker du handleliste-minnet';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Handlelisten har minne og autofullfør:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + legger til akkurat det du skriver.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter legger til forslaget i skrivefeltet.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Trykk på et produkt i minnelisten for å legge det til.';
+
+  @override
+  String get appReviewTestTitle => 'App Review testkoder';
+
+  @override
+  String get appReviewTestSubtitle => 'Åpne demo-produkter uten kamera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Velg en testkode for å åpne et demo-produkt:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Fant ikke demo-produkt for $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'Annonseplassering aktiv';
 }

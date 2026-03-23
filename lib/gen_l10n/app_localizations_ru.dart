@@ -9,7 +9,7 @@ class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get appTitle => 'Проверка продуктов';
+  String get appTitle => 'Проверка еды';
 
   @override
   String get scanBarcode => 'Сканировать штрихкод';
@@ -307,4 +307,147 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get consentOptional =>
       'Это необязательно. Если вы не согласны, данные об использовании не будут отправляться в аналитику.';
+
+  @override
+  String get couldNotOpenLink => 'Не удалось открыть ссылку';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Отсканируйте штрих-код продукта.\n2. Приложение получает данные о продукте из Open Food Facts.\n3. Предупреждения оцениваются по внутренним правилам брендов и ингредиентов.\n4. Вы получаете простой обзор рисков и можете сохранять товары в список покупок.';
+
+  @override
+  String get betaWarning =>
+      'Важно: Это бета-функция. Всегда проверяйте информацию на упаковке/этикетке.';
+
+  @override
+  String get matvaretabellenMatches => 'Результаты Matvaretabellen';
+
+  @override
+  String get reportSaved => 'Спасибо — отчёт сохранён.';
+
+  @override
+  String get couldNotSaveReport => 'Не удалось сохранить отчёт';
+
+  @override
+  String get seeUpdatedStatus => 'Смотреть обновлённый статус';
+
+  @override
+  String get gmoFeedLabel => 'ГМО-корм';
+
+  @override
+  String get insectMealLabel => 'Насекомая мука';
+
+  @override
+  String get allergensLabel => 'Аллергены';
+
+  @override
+  String get noAllergensFound => 'Аллергены не найдены.';
+
+  @override
+  String get nutritionPer100g => 'Пищевая ценность (на 100г)';
+
+  @override
+  String get nutritionSource => 'источник';
+
+  @override
+  String get energyLabel => 'Энергия';
+
+  @override
+  String get fatLabel => 'Жиры';
+
+  @override
+  String get saturatedFatLabel => 'Из них насыщенные';
+
+  @override
+  String get carbohydratesLabel => 'Углеводы';
+
+  @override
+  String get sugarsLabel => 'Из них сахара';
+
+  @override
+  String get proteinLabel => 'Белки';
+
+  @override
+  String get saltLabel => 'Соль';
+
+  @override
+  String get noNutritionFound =>
+      'Информация о питательной ценности не найдена.';
+
+  @override
+  String get unknownName => 'Неизвестное название';
+
+  @override
+  String get noInfo => 'Нет информации';
+
+  @override
+  String get paymentConfirmed =>
+      'Оплата подтверждена. Реклама теперь удалена навсегда.';
+
+  @override
+  String get purchaseFailed => 'Покупка не удалась. Попробуйте ещё раз.';
+
+  @override
+  String get purchaseCancelled => 'Покупка была отменена.';
+
+  @override
+  String get purchaseStreamError => 'Ошибка потока покупок';
+
+  @override
+  String get productIdNotFound =>
+      'Товар для покупки не найден. Проверьте ID продукта.';
+
+  @override
+  String get internalWarning1 =>
+      'Уведомление: внутренний список отслеживания брендов';
+
+  @override
+  String get internalWarning2 =>
+      'Уведомление: отслеживание брендов и публичная информация';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» добавлено в $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Список покупок: память и автозаполнение';
+
+  @override
+  String get shoppingListMemoryHow => 'Как использовать память списка покупок';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Список покупок имеет память и автозаполнение:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + добавляет именно то, что вы вводите.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter добавляет предложение в поле ввода.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Нажмите на продукт в списке памяти, чтобы добавить.';
+
+  @override
+  String get appReviewTestTitle => 'Тестовые коды App Review';
+
+  @override
+  String get appReviewTestSubtitle => 'Открыть демо-продукты без камеры';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Выберите тестовый код, чтобы открыть демо-продукт:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Демо-продукт для $code не найден';
+  }
+
+  @override
+  String get adPlaceholderText => 'Рекламное место активно';
 }

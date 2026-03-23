@@ -94,5 +94,59 @@
   "adFreeActive": "Ad-free (active)",
   "consentLocalOnly": "The app still works, and data can remain only on your device.",
   "allowAnonymousAnalytics": "Allow anonymous analytics",
-  "consentOptional": "This is optional. If you do not consent, your usage is not sent to analytics."
+  "consentOptional": "This is optional. If you do not consent, your usage is not sent to analytics.",
+  "couldNotOpenLink": "Could not open link",
+  "howAppWorksSteps": "1. Scan the product barcode.\n2. The app fetches product data from Open Food Facts.\n3. Alerts are evaluated against internal brand and ingredient rules.\n4. You get a simple risk view and can save items to your shopping list.",
+  "betaWarning": "Important: This is a beta feature. Always verify information against packaging/label.",
+  "matvaretabellenMatches": "Matvaretabellen matches",
+  "reportSaved": "Thanks — report saved.",
+  "couldNotSaveReport": "Could not save report",
+  "seeUpdatedStatus": "See updated status",
+  "gmoFeedLabel": "GMO Feed",
+  "insectMealLabel": "Insect Meal",
+  "allergensLabel": "Allergens",
+  "noAllergensFound": "No allergens found.",
+  "nutritionPer100g": "Nutrition (per 100g)",
+  "nutritionSource": "source",
+  "energyLabel": "Energy",
+  "fatLabel": "Fat",
+  "saturatedFatLabel": "Of which saturated fat",
+  "carbohydratesLabel": "Carbohydrates",
+  "sugarsLabel": "Of which sugars",
+  "proteinLabel": "Protein",
+  "saltLabel": "Salt",
+  "noNutritionFound": "No nutrition information found.",
+  "unknownName": "Unknown name",
+  "noInfo": "No info",
+  "paymentConfirmed": "Payment confirmed. Ads are now permanently removed.",
+  "purchaseFailed": "Purchase failed. Please try again.",
+  "purchaseCancelled": "Purchase was cancelled.",
+  "purchaseStreamError": "Purchase stream failed",
+  "productIdNotFound": "Could not find purchase product. Check product ID.",
+  "internalWarning1": "Notice: internal list for brand-link tracking",
+  "internalWarning2": "Notice: brand tracking and public information",
+  "addedToList": "\"{item}\" added to {list}",
+  "@addedToList": {
+    "placeholders": {
+      "item": {"type": "String"},
+      "list": {"type": "String"}
+    }
+  },
+  "appTitle": "Food Check",
+  "shoppingListMemoryTitle": "Shopping list: memory and autocomplete",
+  "shoppingListMemoryHow": "How to use the shopping list memory",
+  "shoppingListMemoryIntro": "The shopping list has memory and autocomplete:",
+  "shoppingListMemoryStep1": "1. + adds exactly what you type.",
+  "shoppingListMemoryStep2": "2. Enter adds the suggestion in the input field.",
+  "shoppingListMemoryStep3": "3. Tap a product in the memory list to add it.",
+  "appReviewTestTitle": "App Review Test Codes",
+  "appReviewTestSubtitle": "Open demo products without camera",
+  "appReviewTestInstructions": "Choose a test code to open a demo product:",
+  "appReviewDemoNotFound": "Could not find demo product for {code}",
+  "@appReviewDemoNotFound": {
+    "placeholders": {
+      "code": {"type": "String"}
+    }
+  },
+  "adPlaceholderText": "Ad placement active"
 }

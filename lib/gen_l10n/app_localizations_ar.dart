@@ -9,7 +9,7 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appTitle => 'فحص الطعام';
+  String get appTitle => 'فحص الغذاء';
 
   @override
   String get scanBarcode => 'مسح الباركود';
@@ -304,4 +304,142 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get consentOptional =>
       'هذا خيار اختياري. إذا لم توافق، فلن يتم إرسال بيانات الاستخدام إلى التحليلات.';
+
+  @override
+  String get couldNotOpenLink => 'تعذر فتح الرابط';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. امسح الباركود الخاص بالمنتج.\n2. يجلب التطبيق بيانات المنتج من Open Food Facts.\n3. يتم تقييم التنبيهات وفقًا لقواعد العلامات التجارية والمكونات الداخلية.\n4. تحصل على عرض بسيط للمخاطر ويمكنك حفظ العناصر في قائمة التسوق.';
+
+  @override
+  String get betaWarning =>
+      'مهم: هذه ميزة تجريبية. تحقق دائمًا من المعلومات على العبوة/الملصق.';
+
+  @override
+  String get matvaretabellenMatches => 'نتائج Matvaretabellen';
+
+  @override
+  String get reportSaved => 'شكرًا — تم حفظ التقرير.';
+
+  @override
+  String get couldNotSaveReport => 'تعذر حفظ التقرير';
+
+  @override
+  String get seeUpdatedStatus => 'عرض الحالة المحدثة';
+
+  @override
+  String get gmoFeedLabel => 'أعلاف معدلة وراثيًا';
+
+  @override
+  String get insectMealLabel => 'مسحوق الحشرات';
+
+  @override
+  String get allergensLabel => 'مسببات الحساسية';
+
+  @override
+  String get noAllergensFound => 'لم يتم العثور على مسببات حساسية.';
+
+  @override
+  String get nutritionPer100g => 'القيم الغذائية (لكل 100غ)';
+
+  @override
+  String get nutritionSource => 'المصدر';
+
+  @override
+  String get energyLabel => 'الطاقة';
+
+  @override
+  String get fatLabel => 'الدهون';
+
+  @override
+  String get saturatedFatLabel => 'منها دهون مشبعة';
+
+  @override
+  String get carbohydratesLabel => 'الكربوهيدرات';
+
+  @override
+  String get sugarsLabel => 'منها سكريات';
+
+  @override
+  String get proteinLabel => 'البروتين';
+
+  @override
+  String get saltLabel => 'الملح';
+
+  @override
+  String get noNutritionFound => 'لم يتم العثور على معلومات غذائية.';
+
+  @override
+  String get unknownName => 'اسم غير معروف';
+
+  @override
+  String get noInfo => 'لا توجد معلومات';
+
+  @override
+  String get paymentConfirmed => 'تم تأكيد الدفع. تمت إزالة الإعلانات نهائيًا.';
+
+  @override
+  String get purchaseFailed => 'فشل الشراء. يرجى المحاولة مرة أخرى.';
+
+  @override
+  String get purchaseCancelled => 'تم إلغاء الشراء.';
+
+  @override
+  String get purchaseStreamError => 'فشل تدفق الشراء';
+
+  @override
+  String get productIdNotFound =>
+      'لم يتم العثور على منتج الشراء. تحقق من معرف المنتج.';
+
+  @override
+  String get internalWarning1 =>
+      'ملاحظة: قائمة داخلية لتتبع روابط العلامات التجارية';
+
+  @override
+  String get internalWarning2 => 'ملاحظة: تتبع العلامة التجارية ومعلومات عامة';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» أُضيف إلى $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'قائمة التسوق: الذاكرة والإكمال التلقائي';
+
+  @override
+  String get shoppingListMemoryHow => 'كيف تستخدم ذاكرة قائمة التسوق';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'قائمة التسوق لديها ذاكرة وإكمال تلقائي:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + يضيف بالضبط ما تكتبه.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter يضيف الاقتراح في حقل الإدخال.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. انقر على منتج في قائمة الذاكرة لإضافته.';
+
+  @override
+  String get appReviewTestTitle => 'رموز اختبار App Review';
+
+  @override
+  String get appReviewTestSubtitle => 'فتح منتجات تجريبية بدون كاميرا';
+
+  @override
+  String get appReviewTestInstructions => 'اختر رمز اختبار لفتح منتج تجريبي:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'لم يتم العثور على منتج تجريبي لـ $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'مكان الإعلان نشط';
 }

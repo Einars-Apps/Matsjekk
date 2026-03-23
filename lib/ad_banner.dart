@@ -4,6 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import 'gen_l10n/app_localizations.dart';
+
 class AdBanner extends StatefulWidget {
   const AdBanner({super.key});
 
@@ -79,7 +81,7 @@ class _AdBannerState extends State<AdBanner> {
         width: double.infinity,
         color: const Color(0xFFE0E0E0),
         alignment: Alignment.center,
-        child: const Text('Annonseplassering aktiv'),
+        child: Text(AppLocalizations.of(context)?.adPlaceholderText ?? 'Ad placement active'),
       );
     }
 

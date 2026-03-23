@@ -1,4 +1,4 @@
-package com.example.mat_sjekk
+package com.ebors.matsjekk
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -18,6 +18,8 @@ import 'premium_screen.dart';
 import 'premium_service.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
+import 'services/matvaretabellen_service.dart';
+import 'models/product.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'ad_banner.dart';
 
@@ -128,6 +130,7 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
     // MaterialApp build
     return MaterialApp(
       title: 'Matvare-sjekk',
+      onGenerateTitle: (context) => AppLocalizations.of(context)?.appTitle ?? 'Food Check',
       navigatorKey: _navigatorKey,
       localizationsDelegates: const [
         AppLocalizations.delegate,
@@ -213,6 +216,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
+  final MatvaretabellenService _matvaretabellenService = MatvaretabellenService();
 
   @override
   void initState() {
@@ -231,6 +235,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     _loadInnstillinger();
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
+      _matvaretabellenService.load();
     }
   }
 
@@ -695,20 +700,13 @@ class _ScannerScreenState extends State<ScannerScreen>
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       if (!mounted) return;
-      safeSnack(context, 'Kunne ikke åpne lenken');
+      safeSnack(context, AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open link');
     }
   }
 
   String _howAppWorksText(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
-    if (code == 'nb') {
-      return '1. Skann strekkoden på varen.\n'
-          '2. Appen henter produktdata fra Open Food Facts.\n'
-          '3. Varsler vurderes mot interne merkevare- og ingrediensregler.\n'
-          '4. Du får en enkel visning av risiko og kan lagre varer i handlelisten.';
-    }
-    return '1. Scan the product barcode.\n'
+    return AppLocalizations.of(context)?.howAppWorksSteps ??
+        '1. Scan the product barcode.\n'
         '2. The app fetches product data from Open Food Facts.\n'
         '3. Alerts are evaluated against internal brand and ingredient rules.\n'
         '4. You get a simple risk view and can save items to your shopping list.';
@@ -778,7 +776,7 @@ class _ScannerScreenState extends State<ScannerScreen>
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       if (!mounted) return;
-      safeSnack(context, 'Kunne ikke åpne lenken');
+      safeSnack(context, AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open link');
     }
   }
 
@@ -853,6 +851,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (ean == _lastEan) return;
     _lastEan = ean;
 
+    final notFoundMsg = AppLocalizations.of(context)?.productNotFound ?? 'Product not found in database.';
     setState(() => _isLoading = true);
     _hentInfo(ean).then((info) {
       if (info.isNotEmpty) {
@@ -875,7 +874,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           historikkBox.put(histKey, historikk);
         }
       } else {
-        _safeSnack('Produktet ble ikke funnet i databasen.',
+        _safeSnack(notFoundMsg,
             duration: const Duration(seconds: 2));
       }
     }).whenComplete(() {
@@ -930,7 +929,7 @@ class _ScannerScreenState extends State<ScannerScreen>
 
     final info = _buildProductInfo(
       ean: ean,
-      navn: (sample['product_name'] ?? 'Ukjent navn').toString(),
+      navn: (sample['product_name'] ?? '').toString(),
       merke: (sample['brands'] ?? '').toString(),
       etiketter: (sample['labels'] ?? '').toString(),
       kategorier: (sample['categories'] ?? '').toString(),
@@ -948,7 +947,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   Future<Map<String, dynamic>> _fetchFromOpenFoodFacts(String ean) async {
     try {
       final uri = Uri.parse(
-          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url');
+          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,nutriments,allergens_tags');
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
@@ -956,7 +955,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           final product = data['product'];
           return _buildProductInfo(
             ean: ean,
-            navn: (product['product_name'] ?? 'Ukjent navn').toString(),
+            navn: (product['product_name'] ?? '').toString(),
             merke: (product['brands'] ?? '').toString(),
             etiketter: (product['labels'] ?? '').toString(),
             kategorier: (product['categories'] ?? '').toString(),
@@ -969,6 +968,10 @@ class _ScannerScreenState extends State<ScannerScreen>
             nutriscore: (product['nutriscore_grade'] ?? 'ukjent').toString(),
             additivesTags:
                 (product['additives_tags'] as List<dynamic>? ?? const []),
+            nutriments:
+                (product['nutriments'] as Map<String, dynamic>?) ?? const {},
+            allergensTags:
+                (product['allergens_tags'] as List<dynamic>?) ?? const [],
           );
         }
       }
@@ -989,6 +992,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     required String bildeThumbUrl,
     required String nutriscore,
     List<dynamic> additivesTags = const [],
+    Map<String, dynamic> nutriments = const {},
+    List<dynamic> allergensTags = const [],
   }) {
     final cleanedIngredients = ingredienser.trim();
     final eStofferFraTags = additivesTags
@@ -1004,7 +1009,7 @@ class _ScannerScreenState extends State<ScannerScreen>
       'etiketter': etiketter,
       'kategorier': kategorier,
       'ingredienser':
-          cleanedIngredients.isEmpty ? 'Ingen info' : cleanedIngredients,
+          cleanedIngredients.isEmpty ? '' : cleanedIngredients,
       'bildeUrl': bildeUrl,
       'bildeThumbUrl': bildeThumbUrl,
       'nutriscore': nutriscore.toUpperCase(),
@@ -1015,7 +1020,57 @@ class _ScannerScreenState extends State<ScannerScreen>
     info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
     info['bovaerRiskText'] = bovaerAssessment['text'] as String;
     info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
-    info['gmoRisk'] = _analyzeGmoRisk(merke, kategorier);
+    info['gmoRisk'] = _analyzeGmoRisk(merke, kategorier, cleanedIngredients);
+
+    final insectAssessment =
+        _analyzeInsectRisk(cleanedIngredients, etiketter, allEStoffer);
+    info['insectRisk'] = insectAssessment['risk'] as RiskLevel;
+    info['insectRiskText'] = insectAssessment['text'] as String;
+
+    // Nutrition from OpenFoodFacts nutriments
+    if (nutriments.isNotEmpty) {
+      info['næringsinnhold'] =
+          Product.extractNutrition(nutriments);
+    }
+
+    // Allergens from OFF tags, with ingredient-text fallback
+    final allergens = <String>[];
+    if (allergensTags.isNotEmpty) {
+      for (final t in allergensTags) {
+        final s = t
+            .toString()
+            .replaceAll('en:', '')
+            .replaceAll('fr:', '')
+            .replaceAll('es:', '');
+        if (s.isNotEmpty) allergens.add(s);
+      }
+    }
+    if (allergens.isEmpty && cleanedIngredients.isNotEmpty) {
+      allergens.addAll(
+          Product.extractAllergensFromIngredients(cleanedIngredients));
+    }
+    if (allergens.isNotEmpty) {
+      info['allergener'] = allergens;
+    }
+
+    // Matvaretabellen fuzzy match for enrichment
+    if (_matvaretabellenService.isLoaded) {
+      final candidates = _matvaretabellenService.findCandidates(navn, merke);
+      if (candidates.isNotEmpty) {
+        info['matvareCandidates'] = candidates;
+        // Use Matvaretabellen nutrition as fallback if OFF had none
+        if (!info.containsKey('næringsinnhold') ||
+            (info['næringsinnhold'] as Map).isEmpty) {
+          final best = candidates.first;
+          final mvtNutrition =
+              Map<String, double>.from(best['nutrition'] as Map);
+          mvtNutrition['energy_kcal'] =
+              (best['calories'] as num?)?.toDouble() ?? 0.0;
+          info['næringsinnhold'] = mvtNutrition;
+          info['næringsinnholdKilde'] = 'Matvaretabellen';
+        }
+      }
+    }
 
     return info;
   }
@@ -1036,14 +1091,14 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (!list.any((item) => item.endsWith(itemName))) {
                 list.insert(0, itemName);
                 box.put(listToAddTo, list);
-                _safeSnack('"$itemName" lagt til i $listToAddTo',
+                _safeSnack(AppLocalizations.of(context)?.addedToList(itemName, listToAddTo) ?? '"$itemName" added to $listToAddTo',
                     duration: const Duration(seconds: 2));
                 Analytics.logEvent(
                     'add_to_list', {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
         ],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
@@ -1143,7 +1198,10 @@ class _ScannerScreenState extends State<ScannerScreen>
                                       'Spanish',
                                   'es',
                                   setDialogState),
-                              _languageTile('한국어', 'ko', setDialogState),
+                              _languageTile(
+                                  AppLocalizations.of(context)?.korean ?? '한국어',
+                                  'ko',
+                                  setDialogState),
                               _languageTile(
                                   AppLocalizations.of(context)?.polish ??
                                       'Polski',
@@ -1278,11 +1336,11 @@ class _ScannerScreenState extends State<ScannerScreen>
               ),
               ListTile(
                 leading: const Icon(Icons.tips_and_updates),
-                title: const Text('Handleliste: minne og autofullfor'),
+                title: Text(AppLocalizations.of(context)?.shoppingListMemoryTitle ?? 'Shopping list: memory and autocomplete'),
                 onTap: () {
                   _safePop();
                   _safeShowDialogBuilder((_) => AlertDialog(
-                        title: const Text('Slik bruker du handleliste-minnet'),
+                        title: Text(AppLocalizations.of(context)?.shoppingListMemoryHow ?? 'How to use the shopping list memory'),
                         content: Column(
                           mainAxisSize: MainAxisSize.min,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -1292,13 +1350,11 @@ class _ScannerScreenState extends State<ScannerScreen>
                                 padding: EdgeInsets.only(bottom: 8),
                                 child: AdBanner(),
                               ),
-                            const Text('Handlelisten har minne og autofullfor:'),
+                            Text(AppLocalizations.of(context)?.shoppingListMemoryIntro ?? 'The shopping list has memory and autocomplete:'),
                             const SizedBox(height: 8),
-                            const Text('1. + legger til akkurat det du skriver.'),
-                            const Text(
-                                '2. Enter legger til forslaget i skrivefeltet.'),
-                            const Text(
-                                '3. Trykk pa et produkt i minnelisten for a legge det til.'),
+                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep1 ?? '1. + adds exactly what you type.'),
+                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep2 ?? '2. Enter adds the suggestion in the input field.'),
+                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep3 ?? '3. Tap a product in the memory list to add it.'),
                           ],
                         ),
                         actions: [
@@ -1345,8 +1401,8 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (Platform.isIOS)
                 ListTile(
                   leading: const Icon(Icons.verified),
-                  title: const Text('App Review Test'),
-                  subtitle: const Text('Åpne demo-produkter uten kamera'),
+                  title: Text(AppLocalizations.of(context)?.appReviewTestTitle ?? 'App Review Test Codes'),
+                  subtitle: Text(AppLocalizations.of(context)?.appReviewTestSubtitle ?? 'Open demo products without camera'),
                   onTap: () {
                     _safePop();
                     _showAppReviewTestDialog();
@@ -1449,12 +1505,12 @@ class _ScannerScreenState extends State<ScannerScreen>
     final sampleCodes = appReviewSampleProducts.keys.toList(growable: false);
     _safeShowDialogBuilder(
       (_) => AlertDialog(
-        title: const Text('App Review Testkoder'),
+        title: Text(AppLocalizations.of(context)?.appReviewTestTitle ?? 'App Review Test Codes'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('Velg en testkode for å åpne et demo-produkt:'),
+            Text(AppLocalizations.of(context)?.appReviewTestInstructions ?? 'Choose a test code to open a demo product:'),
             const SizedBox(height: 12),
             ...sampleCodes.map(
               (code) => Padding(
@@ -1469,7 +1525,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                     if (info.isNotEmpty) {
                       _visProduktDialog(info);
                     } else {
-                      _safeSnack('Fant ikke demo-produkt for $code');
+                      _safeSnack(AppLocalizations.of(context)?.appReviewDemoNotFound(code) ?? 'Could not find demo product for $code');
                     }
                   },
                   icon: const Icon(Icons.qr_code),
@@ -1480,7 +1536,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           ],
         ),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk')),
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close')),
         ],
       ),
     );
@@ -1721,18 +1777,28 @@ class _ScannerScreenState extends State<ScannerScreen>
     return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
   }
 
-  RiskLevel _analyzeGmoRisk(String brand, String category) {
+  RiskLevel _analyzeGmoRisk(
+      String brand, String category, String ingredients) {
     final lowerBrand = brand.toLowerCase();
     final lowerCategory = category.toLowerCase();
+    final lowerIngredients = ingredients.toLowerCase();
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
     final gmoList =
         _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
-    if (lowerCategory.contains('salmon') ||
-        lowerCategory.contains('laks') ||
-        lowerCategory.contains('trout') ||
-        lowerCategory.contains('ørret')) {
+
+    // Fish keywords to detect in category OR ingredients
+    const fishKeywords = [
+      'salmon', 'laks', 'trout', 'ørret', 'pangasius', 'tilapia',
+      'sjøørret', 'fjordørret', 'oppdrettslaks', 'atlantisk laks',
+      'fish', 'fisk', 'sushi', 'sashimi',
+    ];
+
+    final hasFishSignal = fishKeywords.any(
+        (kw) => lowerCategory.contains(kw) || lowerIngredients.contains(kw));
+
+    if (hasFishSignal) {
       if (gmoList.any((b) => lowerBrand.contains(b.toLowerCase()))) {
         return RiskLevel.red;
       }
@@ -1744,6 +1810,74 @@ class _ScannerScreenState extends State<ScannerScreen>
     final RegExp eNumberRegex = RegExp(r'E\d{3,4}[a-z]?', caseSensitive: false);
     final matches = eNumberRegex.allMatches(ingredients);
     return matches.map((m) => m[0]!.toUpperCase()).toSet().toList();
+  }
+
+  Map<String, dynamic> _analyzeInsectRisk(
+      String ingredients, String labels, List<String> eNumbers) {
+    if (!varselInsekt) {
+      return {'risk': RiskLevel.unknown, 'text': ''};
+    }
+
+    final country =
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
+    final isNorwegian =
+        country == 'NO' || Platform.localeName.startsWith('nb');
+
+    final lowerIngredients = ingredients.toLowerCase();
+    final lowerLabels = labels.toLowerCase();
+    final combined = '$lowerIngredients $lowerLabels';
+
+    // 1. Check for EU novel food scientific names (universal, highest confidence)
+    for (final sciName in insectScientificNames) {
+      if (combined.contains(sciName)) {
+        return {
+          'risk': RiskLevel.red,
+          'text': isNorwegian
+              ? 'INNEHOLDER INSEKT: Påvist "$sciName" i ingredienslisten. '
+                  'EU-godkjent Novel Food-insekt.'
+              : 'CONTAINS INSECT: Found "$sciName" in ingredients. '
+                  'EU-approved Novel Food insect.',
+        };
+      }
+    }
+
+    // 2. Check country-specific insect keywords
+    final localKeywords = _countryRulesList(
+        country, 'insect_keywords', insectKeywordsFallback);
+    for (final keyword in localKeywords) {
+      if (combined.contains(keyword.toLowerCase())) {
+        return {
+          'risk': RiskLevel.red,
+          'text': isNorwegian
+              ? 'INNEHOLDER INSEKT: Påvist "$keyword" i produktet. '
+                  'Sjekk ingredienslisten nøye.'
+              : 'CONTAINS INSECT: Found "$keyword" in product. '
+                  'Check the ingredients list carefully.',
+        };
+      }
+    }
+
+    // 3. Check insect-derived E-numbers (E120=cochineal, E901=beeswax, E904=shellac)
+    final upperENumbers = eNumbers.map((e) => e.toUpperCase()).toSet();
+    final matchedInsectE = insectENumbers
+        .where((e) => upperENumbers.contains(e.toUpperCase()))
+        .toList();
+    if (matchedInsectE.isNotEmpty) {
+      final eList = matchedInsectE.join(', ');
+      return {
+        'risk': RiskLevel.yellow,
+        'text': isNorwegian
+            ? 'INSEKT-TILSETNING: Inneholder $eList '
+                '(insektbasert tilsetningsstoff). '
+                'E120 = karmin fra skjoldlus, E901 = bivoks, E904 = skjellakk fra lakkskjoldlus.'
+            : 'INSECT ADDITIVE: Contains $eList '
+                '(insect-derived additive). '
+                'E120 = carmine from cochineal, E901 = beeswax, E904 = shellac from lac bug.',
+      };
+    }
+
+    return {'risk': RiskLevel.unknown, 'text': ''};
   }
 
   @override

@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => '식품 체크';
+  String get appTitle => '식품 검사';
 
   @override
   String get scanBarcode => '바코드 스캔';
@@ -296,4 +296,135 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get consentOptional =>
       '이 항목은 선택 사항입니다. 동의하지 않으면 사용 데이터가 분석으로 전송되지 않습니다.';
+
+  @override
+  String get couldNotOpenLink => '링크를 열 수 없습니다';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. 제품의 바코드를 스캔합니다.\n2. 앱이 Open Food Facts에서 제품 데이터를 가져옵니다.\n3. 내부 브랜드 및 성분 규칙에 따라 경고가 평가됩니다.\n4. 간단한 위험 보기를 얻고 쇼핑 목록에 저장할 수 있습니다.';
+
+  @override
+  String get betaWarning => '중요: 이것은 베타 기능입니다. 항상 포장/라벨에서 정보를 확인하세요.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen 결과';
+
+  @override
+  String get reportSaved => '감사합니다 — 보고서가 저장되었습니다.';
+
+  @override
+  String get couldNotSaveReport => '보고서를 저장할 수 없습니다';
+
+  @override
+  String get seeUpdatedStatus => '업데이트된 상태 보기';
+
+  @override
+  String get gmoFeedLabel => 'GMO 사료';
+
+  @override
+  String get insectMealLabel => '곤충 단백질';
+
+  @override
+  String get allergensLabel => '알레르견';
+
+  @override
+  String get noAllergensFound => '알레르견이 발견되지 않았습니다.';
+
+  @override
+  String get nutritionPer100g => '영양정보 (100g당)';
+
+  @override
+  String get nutritionSource => '출처';
+
+  @override
+  String get energyLabel => '에너지';
+
+  @override
+  String get fatLabel => '지방';
+
+  @override
+  String get saturatedFatLabel => '포화지방';
+
+  @override
+  String get carbohydratesLabel => '탄수화물';
+
+  @override
+  String get sugarsLabel => '당류';
+
+  @override
+  String get proteinLabel => '단백질';
+
+  @override
+  String get saltLabel => '나트륨';
+
+  @override
+  String get noNutritionFound => '영양 정보를 찾을 수 없습니다.';
+
+  @override
+  String get unknownName => '알 수 없는 이름';
+
+  @override
+  String get noInfo => '정보 없음';
+
+  @override
+  String get paymentConfirmed => '결제 확인. 광고가 영구적으로 제거되었습니다.';
+
+  @override
+  String get purchaseFailed => '구매에 실패했습니다. 다시 시도해 주세요.';
+
+  @override
+  String get purchaseCancelled => '구매가 취소되었습니다.';
+
+  @override
+  String get purchaseStreamError => '구매 스트림 실패';
+
+  @override
+  String get productIdNotFound => '구매 제품을 찾을 수 없습니다. 제품 ID를 확인하세요.';
+
+  @override
+  String get internalWarning1 => '알림: 브랜드 링크 추적을 위한 내부 목록';
+
+  @override
+  String get internalWarning2 => '알림: 브랜드 추적 및 공개 정보';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item»이(가) $list에 추가됨';
+  }
+
+  @override
+  String get shoppingListMemoryTitle => '장바구니 목록: 기억 및 자동 완성';
+
+  @override
+  String get shoppingListMemoryHow => '장바구니 목록 기억 사용법';
+
+  @override
+  String get shoppingListMemoryIntro => '장바구니 목록에는 기억과 자동 완성 기능이 있습니다:';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. +는 입력한 내용을 그대로 추가합니다.';
+
+  @override
+  String get shoppingListMemoryStep2 => '2. Enter는 입력란의 제안을 추가합니다.';
+
+  @override
+  String get shoppingListMemoryStep3 => '3. 기억 목록의 제품을 탭하여 추가합니다.';
+
+  @override
+  String get appReviewTestTitle => 'App Review 테스트 코드';
+
+  @override
+  String get appReviewTestSubtitle => '카메라 없이 데모 제품 열기';
+
+  @override
+  String get appReviewTestInstructions => '데모 제품을 열려면 테스트 코드를 선택하세요:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return '$code에 대한 데모 제품을 찾을 수 없습니다';
+  }
+
+  @override
+  String get adPlaceholderText => '광고 위치 활성';
 }

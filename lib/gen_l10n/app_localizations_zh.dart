@@ -293,4 +293,135 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get consentOptional => '这是可选项。若不同意，您的使用数据不会发送到分析服务。';
+
+  @override
+  String get couldNotOpenLink => '无法打开链接';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. 扫描产品条形码。\n2. 应用从 Open Food Facts 获取产品数据。\n3. 根据内部品牌和成分规则评估警报。\n4. 您获得简单的风险概览，并可以将商品保存到购物清单。';
+
+  @override
+  String get betaWarning => '重要：这是测试版功能。请始终核对包装/标签上的信息。';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen 结果';
+
+  @override
+  String get reportSaved => '谢谢 — 报告已保存。';
+
+  @override
+  String get couldNotSaveReport => '无法保存报告';
+
+  @override
+  String get seeUpdatedStatus => '查看更新状态';
+
+  @override
+  String get gmoFeedLabel => '转基因饲料';
+
+  @override
+  String get insectMealLabel => '昆虫蛋白';
+
+  @override
+  String get allergensLabel => '过敏原';
+
+  @override
+  String get noAllergensFound => '未发现过敏原。';
+
+  @override
+  String get nutritionPer100g => '营养信息（每100g）';
+
+  @override
+  String get nutritionSource => '来源';
+
+  @override
+  String get energyLabel => '能量';
+
+  @override
+  String get fatLabel => '脂肪';
+
+  @override
+  String get saturatedFatLabel => '其中饱和脂肪';
+
+  @override
+  String get carbohydratesLabel => '碳水化合物';
+
+  @override
+  String get sugarsLabel => '其中糖';
+
+  @override
+  String get proteinLabel => '蛋白质';
+
+  @override
+  String get saltLabel => '盐';
+
+  @override
+  String get noNutritionFound => '未找到营养信息。';
+
+  @override
+  String get unknownName => '未知名称';
+
+  @override
+  String get noInfo => '无信息';
+
+  @override
+  String get paymentConfirmed => '付款已确认。广告已永久移除。';
+
+  @override
+  String get purchaseFailed => '购买失败。请重试。';
+
+  @override
+  String get purchaseCancelled => '购买已取消。';
+
+  @override
+  String get purchaseStreamError => '购买流失败';
+
+  @override
+  String get productIdNotFound => '找不到购买产品。请检查产品ID。';
+
+  @override
+  String get internalWarning1 => '注意：品牌链接跟踪内部列表';
+
+  @override
+  String get internalWarning2 => '注意：品牌跟踪和公开信息';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» 已添加到 $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle => '购物清单：记忆和自动完成';
+
+  @override
+  String get shoppingListMemoryHow => '如何使用购物清单记忆';
+
+  @override
+  String get shoppingListMemoryIntro => '购物清单有记忆和自动完成功能：';
+
+  @override
+  String get shoppingListMemoryStep1 => '1. + 添加你输入的内容。';
+
+  @override
+  String get shoppingListMemoryStep2 => '2. Enter 添加输入框中的建议。';
+
+  @override
+  String get shoppingListMemoryStep3 => '3. 点击记忆列表中的产品以添加。';
+
+  @override
+  String get appReviewTestTitle => 'App Review 测试代码';
+
+  @override
+  String get appReviewTestSubtitle => '无需摄像头打开演示产品';
+
+  @override
+  String get appReviewTestInstructions => '选择测试代码以打开演示产品：';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return '未找到$code的演示产品';
+  }
+
+  @override
+  String get adPlaceholderText => '广告位已激活';
 }

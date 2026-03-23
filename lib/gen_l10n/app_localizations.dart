@@ -697,6 +697,258 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'This is optional. If you do not consent, your usage is not sent to analytics.'**
   String get consentOptional;
+
+  /// No description provided for @couldNotOpenLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open link'**
+  String get couldNotOpenLink;
+
+  /// No description provided for @howAppWorksSteps.
+  ///
+  /// In en, this message translates to:
+  /// **'1. Scan the product barcode.\n2. The app fetches product data from Open Food Facts.\n3. Alerts are evaluated against internal brand and ingredient rules.\n4. You get a simple risk view and can save items to your shopping list.'**
+  String get howAppWorksSteps;
+
+  /// No description provided for @betaWarning.
+  ///
+  /// In en, this message translates to:
+  /// **'Important: This is a beta feature. Always verify information against packaging/label.'**
+  String get betaWarning;
+
+  /// No description provided for @matvaretabellenMatches.
+  ///
+  /// In en, this message translates to:
+  /// **'Matvaretabellen matches'**
+  String get matvaretabellenMatches;
+
+  /// No description provided for @reportSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks — report saved.'**
+  String get reportSaved;
+
+  /// No description provided for @couldNotSaveReport.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not save report'**
+  String get couldNotSaveReport;
+
+  /// No description provided for @seeUpdatedStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'See updated status'**
+  String get seeUpdatedStatus;
+
+  /// No description provided for @gmoFeedLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'GMO Feed'**
+  String get gmoFeedLabel;
+
+  /// No description provided for @insectMealLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Insect Meal'**
+  String get insectMealLabel;
+
+  /// No description provided for @allergensLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Allergens'**
+  String get allergensLabel;
+
+  /// No description provided for @noAllergensFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No allergens found.'**
+  String get noAllergensFound;
+
+  /// No description provided for @nutritionPer100g.
+  ///
+  /// In en, this message translates to:
+  /// **'Nutrition (per 100g)'**
+  String get nutritionPer100g;
+
+  /// No description provided for @nutritionSource.
+  ///
+  /// In en, this message translates to:
+  /// **'source'**
+  String get nutritionSource;
+
+  /// No description provided for @energyLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Energy'**
+  String get energyLabel;
+
+  /// No description provided for @fatLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Fat'**
+  String get fatLabel;
+
+  /// No description provided for @saturatedFatLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Of which saturated fat'**
+  String get saturatedFatLabel;
+
+  /// No description provided for @carbohydratesLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Carbohydrates'**
+  String get carbohydratesLabel;
+
+  /// No description provided for @sugarsLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Of which sugars'**
+  String get sugarsLabel;
+
+  /// No description provided for @proteinLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Protein'**
+  String get proteinLabel;
+
+  /// No description provided for @saltLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Salt'**
+  String get saltLabel;
+
+  /// No description provided for @noNutritionFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No nutrition information found.'**
+  String get noNutritionFound;
+
+  /// No description provided for @unknownName.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown name'**
+  String get unknownName;
+
+  /// No description provided for @noInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'No info'**
+  String get noInfo;
+
+  /// No description provided for @paymentConfirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment confirmed. Ads are now permanently removed.'**
+  String get paymentConfirmed;
+
+  /// No description provided for @purchaseFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase failed. Please try again.'**
+  String get purchaseFailed;
+
+  /// No description provided for @purchaseCancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase was cancelled.'**
+  String get purchaseCancelled;
+
+  /// No description provided for @purchaseStreamError.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase stream failed'**
+  String get purchaseStreamError;
+
+  /// No description provided for @productIdNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not find purchase product. Check product ID.'**
+  String get productIdNotFound;
+
+  /// No description provided for @internalWarning1.
+  ///
+  /// In en, this message translates to:
+  /// **'Notice: internal list for brand-link tracking'**
+  String get internalWarning1;
+
+  /// No description provided for @internalWarning2.
+  ///
+  /// In en, this message translates to:
+  /// **'Notice: brand tracking and public information'**
+  String get internalWarning2;
+
+  /// No description provided for @addedToList.
+  ///
+  /// In en, this message translates to:
+  /// **'\"{item}\" added to {list}'**
+  String addedToList(String item, String list);
+
+  /// No description provided for @shoppingListMemoryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Shopping list: memory and autocomplete'**
+  String get shoppingListMemoryTitle;
+
+  /// No description provided for @shoppingListMemoryHow.
+  ///
+  /// In en, this message translates to:
+  /// **'How to use the shopping list memory'**
+  String get shoppingListMemoryHow;
+
+  /// No description provided for @shoppingListMemoryIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'The shopping list has memory and autocomplete:'**
+  String get shoppingListMemoryIntro;
+
+  /// No description provided for @shoppingListMemoryStep1.
+  ///
+  /// In en, this message translates to:
+  /// **'1. + adds exactly what you type.'**
+  String get shoppingListMemoryStep1;
+
+  /// No description provided for @shoppingListMemoryStep2.
+  ///
+  /// In en, this message translates to:
+  /// **'2. Enter adds the suggestion in the input field.'**
+  String get shoppingListMemoryStep2;
+
+  /// No description provided for @shoppingListMemoryStep3.
+  ///
+  /// In en, this message translates to:
+  /// **'3. Tap a product in the memory list to add it.'**
+  String get shoppingListMemoryStep3;
+
+  /// No description provided for @appReviewTestTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'App Review Test Codes'**
+  String get appReviewTestTitle;
+
+  /// No description provided for @appReviewTestSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Open demo products without camera'**
+  String get appReviewTestSubtitle;
+
+  /// No description provided for @appReviewTestInstructions.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a test code to open a demo product:'**
+  String get appReviewTestInstructions;
+
+  /// No description provided for @appReviewDemoNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not find demo product for {code}'**
+  String appReviewDemoNotFound(String code);
+
+  /// No description provided for @adPlaceholderText.
+  ///
+  /// In en, this message translates to:
+  /// **'Ad placement active'**
+  String get adPlaceholderText;
 }
 
 class _AppLocalizationsDelegate

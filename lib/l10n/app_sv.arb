@@ -1,6 +1,6 @@
 {
   "@@locale": "sv",
-  "appTitle": "Mat-check",
+  "appTitle": "Matkoll",
   "scanBarcode": "Skanna streckkod",
   "productNotFound": "Produkten hittades inte i databasen.",
   "addToList": "Lägg till i inköpslista",
@@ -94,5 +94,54 @@
   "privacy": "Integritet",
   "consentLocalOnly": "Appen fungerar fortfarande, och data kan stanna kvar på din enhet.",
   "allowAnonymousAnalytics": "Tillåt anonym analys",
-  "consentOptional": "Detta är valfritt. Om du inte samtycker skickas inga användningsdata till analys."
+  "consentOptional": "Detta är valfritt. Om du inte samtycker skickas inga användningsdata till analys.",
+  "couldNotOpenLink": "Kunde inte öppna länken",
+  "howAppWorksSteps": "1. Skanna streckkoden på varan.\n2. Appen hämtar produktdata från Open Food Facts.\n3. Varningar utvärderas mot interna varumärkes- och ingrediensregler.\n4. Du får en enkel riskvy och kan spara varor i inköpslistan.",
+  "betaWarning": "Viktigt: Detta är en betafunktion. Verifiera alltid information mot förpackning/etikett.",
+  "matvaretabellenMatches": "Matvaretabellen-träffar",
+  "reportSaved": "Tack — rapport sparad.",
+  "couldNotSaveReport": "Kunde inte spara rapport",
+  "seeUpdatedStatus": "Se uppdaterad status",
+  "gmoFeedLabel": "GMO-foder",
+  "insectMealLabel": "Insektsmjöl",
+  "allergensLabel": "Allergener",
+  "noAllergensFound": "Inga allergener hittade.",
+  "nutritionPer100g": "Näringsvärde (per 100g)",
+  "nutritionSource": "källa",
+  "energyLabel": "Energi",
+  "fatLabel": "Fett",
+  "saturatedFatLabel": "Varav mättat fett",
+  "carbohydratesLabel": "Kolhydrater",
+  "sugarsLabel": "Varav sockerarter",
+  "proteinLabel": "Protein",
+  "saltLabel": "Salt",
+  "noNutritionFound": "Ingen näringsinformation hittad.",
+  "unknownName": "Okänt namn",
+  "noInfo": "Ingen info",
+  "paymentConfirmed": "Betalning bekräftad. Annonser är nu permanent borttagna.",
+  "purchaseFailed": "Köpet misslyckades. Försök igen.",
+  "purchaseCancelled": "Köpet avbröts.",
+  "purchaseStreamError": "Köpström misslyckades",
+  "productIdNotFound": "Kunde inte hitta köpprodukten. Kontrollera produkt-ID.",
+  "internalWarning1": "Meddelande: intern lista för varumärkeslänkning",
+  "internalWarning2": "Meddelande: varumärkesspårning och offentlig information",
+  "addedToList": "«{item}» tillagd i {list}",
+  "shoppingListMemoryTitle": "Inköpslista: minne och autokomplettering",
+  "shoppingListMemoryHow": "Så använder du inköpslistans minne",
+  "shoppingListMemoryIntro": "Inköpslistan har minne och autokomplettering:",
+  "shoppingListMemoryStep1": "1. + lägger till exakt vad du skriver.",
+  "shoppingListMemoryStep2": "2. Enter lägger till förslaget i inmatningsfältet.",
+  "shoppingListMemoryStep3": "3. Tryck på en produkt i minneslistan för att lägga till den.",
+  "appReviewTestTitle": "App Review testkoder",
+  "appReviewTestSubtitle": "Öppna demoprodukter utan kamera",
+  "appReviewTestInstructions": "Välj en testkod för att öppna en demoprodukt:",
+  "appReviewDemoNotFound": "Kunde inte hitta demoprodukt för {code}",
+  "adPlaceholderText": "Annonsplats aktiv",
+  "@appReviewDemoNotFound": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  }
 }

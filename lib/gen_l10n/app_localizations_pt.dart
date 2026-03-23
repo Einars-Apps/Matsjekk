@@ -9,7 +9,7 @@ class AppLocalizationsPt extends AppLocalizations {
   AppLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get appTitle => 'Verificador de Alimentos';
+  String get appTitle => 'Verificação Alimentar';
 
   @override
   String get scanBarcode => 'Escanear código de barras';
@@ -308,4 +308,146 @@ class AppLocalizationsPt extends AppLocalizations {
   @override
   String get consentOptional =>
       'Isto é opcional. Se não consentir, os seus dados de utilização não são enviados para análise.';
+
+  @override
+  String get couldNotOpenLink => 'Não foi possível abrir o link';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Leia o código de barras do produto.\n2. A app obtém os dados do produto do Open Food Facts.\n3. Os alertas são avaliados de acordo com regras internas de marcas e ingredientes.\n4. Obtém uma visão simples do risco e pode guardar artigos na lista de compras.';
+
+  @override
+  String get betaWarning =>
+      'Importante: Esta é uma funcionalidade beta. Verifique sempre a informação na embalagem/rótulo.';
+
+  @override
+  String get matvaretabellenMatches => 'Resultados Matvaretabellen';
+
+  @override
+  String get reportSaved => 'Obrigado — relatório guardado.';
+
+  @override
+  String get couldNotSaveReport => 'Não foi possível guardar o relatório';
+
+  @override
+  String get seeUpdatedStatus => 'Ver estado atualizado';
+
+  @override
+  String get gmoFeedLabel => 'Ração OGM';
+
+  @override
+  String get insectMealLabel => 'Farinha de insetos';
+
+  @override
+  String get allergensLabel => 'Alérgenos';
+
+  @override
+  String get noAllergensFound => 'Nenhum alérgeno encontrado.';
+
+  @override
+  String get nutritionPer100g => 'Informação nutricional (por 100g)';
+
+  @override
+  String get nutritionSource => 'fonte';
+
+  @override
+  String get energyLabel => 'Energia';
+
+  @override
+  String get fatLabel => 'Gordura';
+
+  @override
+  String get saturatedFatLabel => 'Das quais gordura saturada';
+
+  @override
+  String get carbohydratesLabel => 'Hidratos de carbono';
+
+  @override
+  String get sugarsLabel => 'Dos quais açúcares';
+
+  @override
+  String get proteinLabel => 'Proteína';
+
+  @override
+  String get saltLabel => 'Sal';
+
+  @override
+  String get noNutritionFound => 'Nenhuma informação nutricional encontrada.';
+
+  @override
+  String get unknownName => 'Nome desconhecido';
+
+  @override
+  String get noInfo => 'Sem info';
+
+  @override
+  String get paymentConfirmed =>
+      'Pagamento confirmado. Os anúncios foram removidos permanentemente.';
+
+  @override
+  String get purchaseFailed => 'Compra falhou. Tente novamente.';
+
+  @override
+  String get purchaseCancelled => 'A compra foi cancelada.';
+
+  @override
+  String get purchaseStreamError => 'Fluxo de compra falhou';
+
+  @override
+  String get productIdNotFound =>
+      'Produto de compra não encontrado. Verifique o ID do produto.';
+
+  @override
+  String get internalWarning1 =>
+      'Aviso: lista interna para rastreamento de marcas';
+
+  @override
+  String get internalWarning2 =>
+      'Aviso: rastreamento de marca e informações públicas';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» adicionado a $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Lista de compras: memória e autocompletar';
+
+  @override
+  String get shoppingListMemoryHow => 'Como usar a memória da lista de compras';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'A lista de compras tem memória e autocompletar:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + adiciona exatamente o que você digita.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter adiciona a sugestão no campo.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Toque num produto na lista de memória para adicioná-lo.';
+
+  @override
+  String get appReviewTestTitle => 'Códigos de teste App Review';
+
+  @override
+  String get appReviewTestSubtitle => 'Abrir produtos demo sem câmera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Escolha um código de teste para abrir um produto demo:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Produto demo não encontrado para $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'Espaço publicitário ativo';
 }

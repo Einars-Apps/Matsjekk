@@ -36,7 +36,7 @@ class Product {
       'merke': brand,
       'etiketter': labels.join(','),
       'kategorier': categories.join(','),
-      'ingredienser': ingredientsText.isEmpty ? 'Ingen info' : ingredientsText,
+      'ingredienser': ingredientsText.isEmpty ? '' : ingredientsText,
       'allergener': allergens,
       'næringsinnhold': nutrition,
       'bildeUrl': imageUrl,

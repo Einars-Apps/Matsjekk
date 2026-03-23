@@ -9,7 +9,7 @@ class AppLocalizationsSv extends AppLocalizations {
   AppLocalizationsSv([String locale = 'sv']) : super(locale);
 
   @override
-  String get appTitle => 'Mat-check';
+  String get appTitle => 'Matkoll';
 
   @override
   String get scanBarcode => 'Skanna streckkod';
@@ -305,4 +305,146 @@ class AppLocalizationsSv extends AppLocalizations {
   @override
   String get consentOptional =>
       'Detta är valfritt. Om du inte samtycker skickas inga användningsdata till analys.';
+
+  @override
+  String get couldNotOpenLink => 'Kunde inte öppna länken';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Skanna streckkoden på varan.\n2. Appen hämtar produktdata från Open Food Facts.\n3. Varningar utvärderas mot interna varumärkes- och ingrediensregler.\n4. Du får en enkel riskvy och kan spara varor i inköpslistan.';
+
+  @override
+  String get betaWarning =>
+      'Viktigt: Detta är en betafunktion. Verifiera alltid information mot förpackning/etikett.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-träffar';
+
+  @override
+  String get reportSaved => 'Tack — rapport sparad.';
+
+  @override
+  String get couldNotSaveReport => 'Kunde inte spara rapport';
+
+  @override
+  String get seeUpdatedStatus => 'Se uppdaterad status';
+
+  @override
+  String get gmoFeedLabel => 'GMO-foder';
+
+  @override
+  String get insectMealLabel => 'Insektsmjöl';
+
+  @override
+  String get allergensLabel => 'Allergener';
+
+  @override
+  String get noAllergensFound => 'Inga allergener hittade.';
+
+  @override
+  String get nutritionPer100g => 'Näringsvärde (per 100g)';
+
+  @override
+  String get nutritionSource => 'källa';
+
+  @override
+  String get energyLabel => 'Energi';
+
+  @override
+  String get fatLabel => 'Fett';
+
+  @override
+  String get saturatedFatLabel => 'Varav mättat fett';
+
+  @override
+  String get carbohydratesLabel => 'Kolhydrater';
+
+  @override
+  String get sugarsLabel => 'Varav sockerarter';
+
+  @override
+  String get proteinLabel => 'Protein';
+
+  @override
+  String get saltLabel => 'Salt';
+
+  @override
+  String get noNutritionFound => 'Ingen näringsinformation hittad.';
+
+  @override
+  String get unknownName => 'Okänt namn';
+
+  @override
+  String get noInfo => 'Ingen info';
+
+  @override
+  String get paymentConfirmed =>
+      'Betalning bekräftad. Annonser är nu permanent borttagna.';
+
+  @override
+  String get purchaseFailed => 'Köpet misslyckades. Försök igen.';
+
+  @override
+  String get purchaseCancelled => 'Köpet avbröts.';
+
+  @override
+  String get purchaseStreamError => 'Köpström misslyckades';
+
+  @override
+  String get productIdNotFound =>
+      'Kunde inte hitta köpprodukten. Kontrollera produkt-ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Meddelande: intern lista för varumärkeslänkning';
+
+  @override
+  String get internalWarning2 =>
+      'Meddelande: varumärkesspårning och offentlig information';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» tillagd i $list';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Inköpslista: minne och autokomplettering';
+
+  @override
+  String get shoppingListMemoryHow => 'Så använder du inköpslistans minne';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Inköpslistan har minne och autokomplettering:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + lägger till exakt vad du skriver.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter lägger till förslaget i inmatningsfältet.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Tryck på en produkt i minneslistan för att lägga till den.';
+
+  @override
+  String get appReviewTestTitle => 'App Review testkoder';
+
+  @override
+  String get appReviewTestSubtitle => 'Öppna demoprodukter utan kamera';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Välj en testkod för att öppna en demoprodukt:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Kunde inte hitta demoprodukt för $code';
+  }
+
+  @override
+  String get adPlaceholderText => 'Annonsplats aktiv';
 }

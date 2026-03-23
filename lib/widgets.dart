@@ -104,21 +104,11 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
   }
 
   String _internalWarningLine1(BuildContext context) {
-    final code =
-        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
-    if (code == 'nb') {
-      return 'Varsel: intern liste for merkevare-koblinger';
-    }
-    return 'Notice: internal list for brand-link tracking';
+    return AppLocalizations.of(context)?.internalWarning1 ?? 'Notice: internal list for brand-link tracking';
   }
 
   String _internalWarningLine2(BuildContext context) {
-    final code =
-        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
-    if (code == 'nb') {
-      return 'Varsel: merkevaresporing og offentlig informasjon';
-    }
-    return 'Notice: brand tracking and public information';
+    return AppLocalizations.of(context)?.internalWarning2 ?? 'Notice: brand tracking and public information';
   }
 
   String _farmShopsUrl(BuildContext context) {
@@ -132,7 +122,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final info = widget.info;
     final bildeUrl = info['bildeUrl'] as String? ?? '';
     final nutriscore =
-        (info['nutriscore'] as String?)?.toUpperCase() ?? 'UKJENT';
+        (info['nutriscore'] as String?)?.toUpperCase() ?? (AppLocalizations.of(context)?.unknown ?? 'UNKNOWN');
     final eStoffer = info['eStoffer'] as List<dynamic>? ?? <dynamic>[];
     final allergener = (info['allergener'] as List<dynamic>?)
             ?.map((e) => e.toString())
@@ -165,8 +155,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                 const SizedBox(height: 12),
                 Text(
                     info['navn'] ??
-                        AppLocalizations.of(context)?.productNotFound ??
-                        'Ukjent produkt',
+                        AppLocalizations.of(context)?.unknownProduct ??
+                        'Unknown product',
                     style: Theme.of(context).textTheme.headlineSmall,
                     textAlign: TextAlign.center),
                 Text(info['merke'] ?? '',
@@ -189,11 +179,15 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         child: TextButton.icon(
                           onPressed: () => _openUrl(bovaerRiskUrl),
                           icon: const Icon(Icons.open_in_new, size: 18),
-                          label: const Text('Se oppdatert status'),
+                          label: Text(AppLocalizations.of(context)?.seeUpdatedStatus ?? 'See updated status'),
                         ),
                       ),
-                    _buildRiskWidget(context, 'GMO-fôr',
+                    _buildRiskWidget(context, AppLocalizations.of(context)?.gmoFeedLabel ?? 'GMO Feed',
                         info['gmoRisk'] as RiskLevel? ?? RiskLevel.unknown),
+                    _buildRiskWidget(context, AppLocalizations.of(context)?.insectMealLabel ?? 'Insect Meal',
+                        info['insectRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                        customText:
+                            (info['insectRiskText'] ?? '').toString()),
                     const SizedBox(height: 12),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -274,13 +268,53 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       ],
                     ),
                     const SizedBox(height: 12),
-                    if ((info['matvareCandidates'] as List<dynamic>?) != null)
+                    if ((info['matvareCandidates'] as List<dynamic>?) !=
+                            null &&
+                        (info['matvareCandidates'] as List).isNotEmpty)
                       Padding(
                           padding: const EdgeInsets.only(top: 8.0),
-                          child: Text(
-                              'Forslag fra Matvaretabellen: ${(info['matvareCandidates'] as List).length}',
-                              style: const TextStyle(
-                                  fontWeight: FontWeight.bold))),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(AppLocalizations.of(context)?.matvaretabellenMatches ?? 'Matvaretabellen matches',
+                                  style:
+                                      const TextStyle(fontWeight: FontWeight.bold)),
+                              const SizedBox(height: 4),
+                              ...(info['matvareCandidates'] as List)
+                                  .take(3)
+                                  .map((c) {
+                                final cMap = c as Map<String, dynamic>;
+                                final name = cMap['name'] ?? '';
+                                final url = cMap['url'] as String? ?? '';
+                                return Padding(
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 2),
+                                  child: InkWell(
+                                    onTap: url.isNotEmpty
+                                        ? () => launchUrl(Uri.parse(url),
+                                            mode:
+                                                LaunchMode.externalApplication)
+                                        : null,
+                                    child: Row(children: [
+                                      const Icon(Icons.restaurant_menu,
+                                          size: 16, color: Colors.green),
+                                      const SizedBox(width: 6),
+                                      Expanded(
+                                        child: Text(name.toString(),
+                                            style: TextStyle(
+                                                color: url.isNotEmpty
+                                                    ? Colors.blue
+                                                    : null,
+                                                decoration: url.isNotEmpty
+                                                    ? TextDecoration.underline
+                                                    : null)),
+                                      ),
+                                    ]),
+                                  ),
+                                );
+                              }),
+                            ],
+                          )),
                     if (alerts.isNotEmpty)
                       Padding(
                         padding: const EdgeInsets.only(top: 8.0),
@@ -446,10 +480,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                           newList);
                                                       _stopReporting(i);
                                                       safeSnack(context,
-                                                          'Takk — rapport lagret.');
+                                                          AppLocalizations.of(context)?.reportSaved ?? 'Thanks — report saved.');
                                                     } catch (e) {
                                                       safeSnack(context,
-                                                          'Kunne ikke lagre rapport: $e');
+                                                          '${AppLocalizations.of(context)?.couldNotSaveReport ?? 'Could not save report'}: $e');
                                                     }
                                                   },
                                                   child: const Text('Send'))
@@ -504,8 +538,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       Text(AppLocalizations.of(context)?.noAdditionsFound ??
                           'No E-numbers found in database.'),
                     const SizedBox(height: 12),
-                    const Text('Allergener',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(AppLocalizations.of(context)?.allergensLabel ?? 'Allergens',
+                        style: const TextStyle(fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     if (allergener.isNotEmpty)
                       Wrap(
@@ -518,35 +552,36 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                           fontWeight: FontWeight.bold))))
                               .toList())
                     else
-                      const Text('Ingen allergener funnet.'),
+                      Text(AppLocalizations.of(context)?.noAllergensFound ?? 'No allergens found.'),
                     const SizedBox(height: 12),
-                    const Text('Næringsinnhold (per 100g)',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(
+                        '${AppLocalizations.of(context)?.nutritionPer100g ?? 'Nutrition (per 100g)'}${info['næringsinnholdKilde'] != null ? ' — ${AppLocalizations.of(context)?.nutritionSource ?? 'source'}: ${info['næringsinnholdKilde']}' : ''}',
+                        style: const TextStyle(fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     if (naerings.isNotEmpty)
                       Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             if (naerings.containsKey('energy_kcal'))
-                              Text('Energi: ${naerings['energy_kcal']} kcal'),
+                              Text('${AppLocalizations.of(context)?.energyLabel ?? 'Energy'}: ${naerings['energy_kcal']} kcal'),
                             if (naerings.containsKey('fat'))
-                              Text('Fett: ${naerings['fat']} g'),
+                              Text('${AppLocalizations.of(context)?.fatLabel ?? 'Fat'}: ${naerings['fat']} g'),
                             if (naerings.containsKey('saturated_fat'))
                               Text(
-                                  'Hvorav mettet fett: ${naerings['saturated_fat']} g'),
+                                  '${AppLocalizations.of(context)?.saturatedFatLabel ?? 'Of which saturated fat'}: ${naerings['saturated_fat']} g'),
                             if (naerings.containsKey('carbohydrates'))
                               Text(
-                                  'Karbohydrater: ${naerings['carbohydrates']} g'),
+                                  '${AppLocalizations.of(context)?.carbohydratesLabel ?? 'Carbohydrates'}: ${naerings['carbohydrates']} g'),
                             if (naerings.containsKey('sugars'))
                               Text(
-                                  'Hvorav sukkerarter: ${naerings['sugars']} g'),
+                                  '${AppLocalizations.of(context)?.sugarsLabel ?? 'Of which sugars'}: ${naerings['sugars']} g'),
                             if (naerings.containsKey('protein'))
-                              Text('Protein: ${naerings['protein']} g'),
+                              Text('${AppLocalizations.of(context)?.proteinLabel ?? 'Protein'}: ${naerings['protein']} g'),
                             if (naerings.containsKey('salt'))
-                              Text('Salt: ${naerings['salt']} g'),
+                              Text('${AppLocalizations.of(context)?.saltLabel ?? 'Salt'}: ${naerings['salt']} g'),
                           ])
                     else
-                      const Text('Ingen næringsinformasjon funnet.'),
+                      Text(AppLocalizations.of(context)?.noNutritionFound ?? 'No nutrition information found.'),
                     const Divider(height: 40),
                     Text(
                         AppLocalizations.of(context)?.disclaimer ??

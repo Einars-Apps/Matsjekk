@@ -22,6 +22,42 @@
 //            products are captured by organic_keywords. Bovaer is incompatible with
 //            EU organic certification, so organic labels are a reliable green signal.
 
+// ── INSECT INGREDIENT DETECTION ──────────────────────────────────────────────
+// EU Novel Food Regulation: four insect species approved for human consumption.
+// Norwegian context: Invertapro AS (Fredrikstad) produces insect protein;
+// Norgesgruppen (Meny, Kiwi, Spar, Joker) has invested in sustainable protein.
+// Products exposed: protein bars, bread/flour mixes, pasta, snacks, candy (E120).
+
+/// Insect-derived E-numbers (additives from insect sources).
+/// E120 = Cochineal / Carmine — red dye from Dactylopius coccus scale insects.
+///        Widely used in yogurt, candy, drinks, ice cream, sauces.
+/// E901 = Beeswax — wax from honeybees (Apis mellifera), glaze on candy/pills.
+/// E904 = Shellac — resin secreted by lac bug (Kerria lacca), glaze on candy/fruit.
+///
+/// NOTE: These are the ONLY three insect-derived E-numbers in the EU system.
+/// Novel food insect ingredients (cricket powder, mealworm etc.) do NOT have
+/// E-numbers — they are detected via keyword/scientific name matching instead.
+const List<String> insectENumbers = ['E120', 'E901', 'E904'];
+
+/// EU-approved novel food insect species (scientific names).
+/// These appear in ingredient lists regardless of product language.
+const List<String> insectScientificNames = [
+  'acheta domesticus',      // House cricket — EU 2023/5
+  'tenebrio molitor',       // Yellow mealworm — EU 2021/882
+  'locusta migratoria',     // Migratory locust — EU 2021/1975
+  'alphitobius diaperinus', // Lesser mealworm / buffalo worm — EU 2023/58
+  'hermetia illucens',      // Black soldier fly (animal feed, emerging human food)
+  'gryllodes sigillatus',   // Banded cricket — EU 2024/16
+];
+
+/// English fallback keywords for countries without local-language insect terms.
+const List<String> insectKeywordsFallback = [
+  'insect', 'cricket', 'mealworm', 'locust', 'house cricket',
+  'cricket flour', 'cricket powder', 'insect meal', 'insect protein',
+  'insect flour', 'buffalo worm', 'black soldier fly', 'silkworm',
+  'larva', 'larvae',
+];
+
 final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'NO': {
@@ -47,6 +83,13 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['lerøy', 'salmar', 'mowi'],
     'organic_keywords': ['økologisk', 'organic', 'biodynamisk', 'debio'],
+    'insect_keywords': [
+      'insektsmel', 'insektsprotein', 'insektpulver', 'insektbasert',
+      'melorm', 'melormspulver', 'melbillelarve',
+      'husgrille', 'husgrillepulver', 'buffalorm',
+      'svart soldatflue', 'gresshoppepulver',
+      'larvepulver', 'larvemel',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -75,6 +118,13 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['lerøy', 'mowi', 'salmar'],
     'organic_keywords': ['ekologisk', 'organic', 'biodynamisk', 'krav'],
+    'insect_keywords': [
+      'insektsmjöl', 'insektsprotein', 'insektspulver', 'insektsbaserat',
+      'mjölmask', 'mjölmaskspulver', 'syrsa', 'syrsapulver',
+      'buffelorm', 'svart soldatfluga',
+      'gräshoppor', 'gräshoppspulver',
+      'larvpulver', 'larvmjöl',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -101,6 +151,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['nordic seafood', 'royal greenland'],
     'organic_keywords': ['økologisk', 'organic', 'demeter', 'ø-certificeret', 'øko'],
+    'insect_keywords': [
+      'insektmel', 'insektprotein', 'insektpulver', 'insektbaseret',
+      'melorm', 'melormspulver', 'fårekylling',
+      'husgrille', 'buffelorm', 'sort soldaterflue',
+      'græshoppepulver', 'larvepulver', 'larvemel',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -134,6 +190,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['iglo', 'followfish'],
     'organic_keywords': ['bio', 'organic', 'demeter', 'bioland', 'naturland', 'ökologisch'],
+    'insect_keywords': [
+      'insektenmehl', 'insektenprotein', 'insektenpulver', 'insektenbasiert',
+      'mehlwurm', 'mehlwurmpulver', 'hausgrill', 'hausgrillepulver',
+      'buffalowurm', 'schwarze soldatenfliege',
+      'wanderheuschrecke', 'larvenpulver', 'larvenmehl',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -163,6 +225,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['biologisch', 'organic', 'demeter', 'eko'],
+    'insect_keywords': [
+      'insectenmeel', 'insectenproteïne', 'insectenpoeder',
+      'meelworm', 'huiskrekel', 'buffaloworm',
+      'zwarte soldatenvlieg', 'sprinkhaan',
+      'larvenpoeder', 'larvenmeel',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -187,6 +255,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['biologisch', 'biologique', 'organic', 'demeter'],
+    'insect_keywords': [
+      'insectenmeel', 'insectenproteïne', 'farine d\'insectes',
+      'protéine d\'insectes', 'ver de farine', 'grillon',
+      'grillon domestique', 'criquet', 'buffalo',
+      'larve', 'poudre d\'insectes',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -215,6 +289,12 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi', 'labeyrie'],
     'organic_keywords': ['bio', 'organic', 'demeter', 'agriculture biologique', 'ab'],
+    'insect_keywords': [
+      'farine d\'insectes', 'protéine d\'insectes', 'poudre d\'insectes',
+      'ver de farine', 'grillon', 'grillon domestique',
+      'criquet migrateur', 'petit ténébrion',
+      'poudre de larve', 'farine de larve',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -247,6 +327,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi', 'bakkafrost', 'youngs seafood'],
     'organic_keywords': ['organic', 'biodynamic', 'soil association', 'demeter'],
+    'insect_keywords': [
+      'insect meal', 'insect protein', 'insect flour', 'insect powder',
+      'cricket', 'cricket flour', 'mealworm', 'house cricket',
+      'buffalo worm', 'black soldier fly', 'locust', 'larvae',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -296,6 +381,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['biologico', 'organic', 'demeter', 'bio'],
+    'insect_keywords': [
+      'farina di insetti', 'proteine di insetti', 'polvere di insetti',
+      'verme della farina', 'grillo', 'grillo domestico',
+      'locusta', 'bufalo verme', 'mosca soldato nera', 'larve',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -320,6 +410,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['pescanova', 'mowi'],
     'organic_keywords': ['ecológico', 'organic', 'demeter', 'bio'],
+    'insect_keywords': [
+      'harina de insectos', 'proteína de insectos', 'polvo de insectos',
+      'gusano de la harina', 'grillo', 'grillo doméstico',
+      'langosta migratoria', 'gusano búfalo', 'mosca soldado negra', 'larva',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -358,6 +453,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi', 'lerøy', 'salmar'],
     'organic_keywords': ['luomu', 'organic', 'demeter'],
+    'insect_keywords': [
+      'hyönteisjauhot', 'hyönteisproteiini', 'hyönteisjauhe',
+      'jauhomato', 'kotisirkka', 'sirkka', 'buffalomato',
+      'musta sotilaskärpänen', 'heinäsirkka', 'toukkajauho',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -381,6 +481,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['bio', 'organic', 'demeter', 'knospe', 'bio suisse'],
+    'insect_keywords': [
+      'insektenmehl', 'insektenprotein', 'mehlwurm', 'hausgrill',
+      'farine d\'insectes', 'protéine d\'insectes', 'ver de farine',
+      'grillon', 'farina di insetti', 'grillo',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -403,6 +508,11 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     ],
     'gmo_fish_red': ['mowi'],
     'organic_keywords': ['bio', 'organic', 'demeter', 'aus österreich bio'],
+    'insect_keywords': [
+      'insektenmehl', 'insektenprotein', 'insektenpulver',
+      'mehlwurm', 'hausgrill', 'buffalowurm',
+      'wanderheuschrecke', 'larvenpulver',
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -996,4 +1106,11 @@ List<String> getGmoFishRedBrands(String countryCode) {
 // Helper to check organic keywords
 List<String> getOrganicKeywords(String countryCode) {
   return getRiskBrandsForCountry(countryCode)['organic_keywords'] ?? [];
+}
+
+// Helper to get insect ingredient keywords (local language terms).
+// Combines country-specific terms with universal scientific names.
+List<String> getInsectKeywords(String countryCode) {
+  return getRiskBrandsForCountry(countryCode)['insect_keywords'] ??
+      insectKeywordsFallback;
 }

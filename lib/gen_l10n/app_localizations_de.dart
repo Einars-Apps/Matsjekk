@@ -308,4 +308,148 @@ class AppLocalizationsDe extends AppLocalizations {
   @override
   String get consentOptional =>
       'Dies ist optional. Wenn Sie nicht zustimmen, werden keine Nutzungsdaten an die Analyse gesendet.';
+
+  @override
+  String get couldNotOpenLink => 'Link konnte nicht geöffnet werden';
+
+  @override
+  String get howAppWorksSteps =>
+      '1. Scannen Sie den Barcode des Produkts.\n2. Die App ruft Produktdaten von Open Food Facts ab.\n3. Warnungen werden gegen interne Marken- und Zutatenlisten geprüft.\n4. Sie erhalten eine einfache Risikoanzeige und können Produkte zur Einkaufsliste hinzufügen.';
+
+  @override
+  String get betaWarning =>
+      'Wichtig: Dies ist eine Beta-Funktion. Überprüfen Sie Informationen immer anhand der Verpackung/des Etiketts.';
+
+  @override
+  String get matvaretabellenMatches => 'Matvaretabellen-Treffer';
+
+  @override
+  String get reportSaved => 'Danke — Bericht gespeichert.';
+
+  @override
+  String get couldNotSaveReport => 'Bericht konnte nicht gespeichert werden';
+
+  @override
+  String get seeUpdatedStatus => 'Aktualisierten Status anzeigen';
+
+  @override
+  String get gmoFeedLabel => 'GMO-Futter';
+
+  @override
+  String get insectMealLabel => 'Insektenmehl';
+
+  @override
+  String get allergensLabel => 'Allergene';
+
+  @override
+  String get noAllergensFound => 'Keine Allergene gefunden.';
+
+  @override
+  String get nutritionPer100g => 'Nährwerte (pro 100g)';
+
+  @override
+  String get nutritionSource => 'Quelle';
+
+  @override
+  String get energyLabel => 'Energie';
+
+  @override
+  String get fatLabel => 'Fett';
+
+  @override
+  String get saturatedFatLabel => 'Davon gesättigte Fettsäuren';
+
+  @override
+  String get carbohydratesLabel => 'Kohlenhydrate';
+
+  @override
+  String get sugarsLabel => 'Davon Zucker';
+
+  @override
+  String get proteinLabel => 'Eiweiß';
+
+  @override
+  String get saltLabel => 'Salz';
+
+  @override
+  String get noNutritionFound => 'Keine Nährwertinformationen gefunden.';
+
+  @override
+  String get unknownName => 'Unbekannter Name';
+
+  @override
+  String get noInfo => 'Keine Info';
+
+  @override
+  String get paymentConfirmed =>
+      'Zahlung bestätigt. Werbung ist jetzt dauerhaft entfernt.';
+
+  @override
+  String get purchaseFailed =>
+      'Kauf fehlgeschlagen. Bitte versuchen Sie es erneut.';
+
+  @override
+  String get purchaseCancelled => 'Kauf wurde abgebrochen.';
+
+  @override
+  String get purchaseStreamError => 'Kaufstream fehlgeschlagen';
+
+  @override
+  String get productIdNotFound =>
+      'Kaufprodukt nicht gefunden. Überprüfen Sie die Produkt-ID.';
+
+  @override
+  String get internalWarning1 =>
+      'Hinweis: Interne Liste für Markenverknüpfungen';
+
+  @override
+  String get internalWarning2 =>
+      'Hinweis: Markenverfolgung und öffentliche Informationen';
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» zu $list hinzugefügt';
+  }
+
+  @override
+  String get shoppingListMemoryTitle =>
+      'Einkaufsliste: Speicher und Autovervollständigung';
+
+  @override
+  String get shoppingListMemoryHow =>
+      'So nutzen Sie den Einkaufslisten-Speicher';
+
+  @override
+  String get shoppingListMemoryIntro =>
+      'Die Einkaufsliste hat Speicher und Autovervollständigung:';
+
+  @override
+  String get shoppingListMemoryStep1 =>
+      '1. + fügt genau das hinzu, was Sie eingeben.';
+
+  @override
+  String get shoppingListMemoryStep2 =>
+      '2. Enter fügt den Vorschlag im Eingabefeld hinzu.';
+
+  @override
+  String get shoppingListMemoryStep3 =>
+      '3. Tippen Sie auf ein Produkt in der Speicherliste, um es hinzuzufügen.';
+
+  @override
+  String get appReviewTestTitle => 'App Review Testcodes';
+
+  @override
+  String get appReviewTestSubtitle => 'Demoprodukte ohne Kamera öffnen';
+
+  @override
+  String get appReviewTestInstructions =>
+      'Wählen Sie einen Testcode, um ein Demoprodukt zu öffnen:';
+
+  @override
+  String appReviewDemoNotFound(String code) {
+    return 'Demoprodukt für $code nicht gefunden';
+  }
+
+  @override
+  String get adPlaceholderText => 'Werbeplatz aktiv';
 }
