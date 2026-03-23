@@ -4,7 +4,7 @@
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 31,
+  "total": 34,
   "errors": [],
   "items": [
     {
@@ -19,6 +19,17 @@
       "id": "linkedin_gmo_for_oppdrett_2026"
     },
     {
+      "title": "Tine raser på omdømmemåling etter metanhemmer-striden – ubehagelig overraskelse",
+      "url": "https://www.document.no/2026/03/12/tine-raser-pa-omdommemaling-etter-metanhemmer-striden-ubehagelig-overraskelse/",
+      "pubDate": "2026-03-12T12:00:00+00:00",
+      "source": "Document.no",
+      "language": "nb",
+      "country": "NO",
+      "summary": "Tine opplever kraftig fall i omdømmemåling etter den pågående metanhemmer-striden (Bovaer).",
+      "englishSummary": "Tine dairy experiences significant reputation decline following the ongoing Bovaer methane inhibitor controversy.",
+      "id": "document_tine_omdommemaling_202603"
+    },
+    {
       "title": "Meld deg på Unios tillitsvalgtkurs i klima og bærekraft - unio.no",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGJHNlk1VzNnb3VaMi1vdENudVp6cFNZbDFmZUdMVEhfc3hYcXpWV2hWUTlKNHo1RjFEVE9UeW1nbVFQeHU1amxFN1pJQ1RlX2xpakNyMTZPSjNvSlpZQ0RKLXljc3k3QTRFR05zakk4cXVacjU3Y1RIQXR2M0IxYXI0VVoyWThjY29BMVVCMWxiSVds?oc=5",
       "pubDate": "2026-02-26T08:00:00+00:00",
@@ -28,6 +39,28 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGJHNlk1VzNnb3VaMi1vdENudVp6cFNZbDFmZUdMVEhfc3hYcXpWV2hWUTlKNHo1RjFEVE9UeW1nbVFQeHU1amxFN1pJQ1RlX2xpakNyMTZPSjNvSlpZQ0RKLXljc3k3QTRFR05zakk4cXVacjU3Y1RIQXR2M0IxYXI0VVoyWThjY29BMVVCMWxiSVds?oc=5\" target=\"_blank\">Meld deg på Unios tillitsvalgtkurs i klima og bærekraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">unio.no</font>",
       "id": "4436793fc0c9e096"
+    },
+    {
+      "title": "Bønder raser mot Bondelaget: Melkeprodusentenes verste fiende",
+      "url": "https://www.document.no/2026/02/24/bonder-raser-mot-bondelaget-melkeprodusentenes-verste-fiende/",
+      "pubDate": "2026-02-24T12:00:00+00:00",
+      "source": "Document.no",
+      "language": "nb",
+      "country": "NO",
+      "summary": "Melkebønder reagerer sterkt mot Bondelaget i oppgjøret rundt metanhemmere og melkeproduksjonsvilkår.",
+      "englishSummary": "Dairy farmers rage against the Norwegian Farmers Union over methane inhibitors and milk production conditions.",
+      "id": "document_bonder_bondelaget_202602"
+    },
+    {
+      "title": "Næringskomiteen vil kutte metanhemmer-krav for melkebønder",
+      "url": "https://www.document.no/2026/02/13/naeringskomiteen-vil-kutte-metanhemmer-krav-for-melkebonder/",
+      "pubDate": "2026-02-13T12:00:00+00:00",
+      "source": "Document.no",
+      "language": "nb",
+      "country": "NO",
+      "summary": "Næringskomiteen i Stortinget ønsker å fjerne kravet til bruk av metanhemmere (Bovaer) for norske melkeprodusenter.",
+      "englishSummary": "Norwegian parliamentary committee wants to remove Bovaer methane inhibitor requirement for dairy farmers.",
+      "id": "document_naeringskomiteen_metanhemmer_202602"
     },
     {
       "title": "Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder - Nationen",

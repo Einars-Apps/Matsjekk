@@ -72,8 +72,14 @@ TRUSTED_NEWS_DOMAINS = [
 # ── Topic keywords ─────────────────────────────────────────────────────────
 
 TOPIC_KEYWORDS = [
-    # Bovaer
+    # Bovaer / methane inhibitor
     'bovaer', 'boväer', '3-nop', '3nop',
+    'metanhemmer', 'methane inhibitor', 'methane suppressor',
+    'metanutslipp', 'metan-striden', 'metanhemmer-striden',
+    # Dairy / farming controversy
+    'melkebonde', 'melkebønder', 'melkeprodusentene',
+    'bondelaget', 'tine', 'nortura',
+    'naeringskomiteen', 'næringskomiteen',
     # Insect meal / insect protein
     'insektsmel', 'insektmel', 'insect meal', 'insect protein',
     'insektprotein', 'insektsprotein', 'insektmjöl',
@@ -94,6 +100,7 @@ TOPIC_KEYWORDS = [
     # General food safety / feed
     'tilsetningsstoffer fôr', 'feed additives',
     'matsikkerhet', 'food safety',
+    'omdommemaling', 'omdømme',
 ]
 
 # ── Spam patterns ──────────────────────────────────────────────────────────
