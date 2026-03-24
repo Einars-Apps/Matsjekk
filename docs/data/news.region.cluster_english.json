@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-03-23T05:47:25.710816+00:00",
+  "generatedAt": "2026-03-24T05:38:20.153025+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 21,
+  "total": 20,
   "errors": [],
   "items": [
     {
@@ -35,8 +35,8 @@
       "pubDate": "2026-02-11T08:00:00+00:00",
       "source": "Aquafeed.com",
       "language": "en",
-      "country": "NZ",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
+      "country": "CA",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxORnBCN1N5LVhHSFRON1h1eFluclk4cnZFUThSZWVNaC1ZczZaamZhU0ZfSENpZVdkQkV1YUdueGZxeDFmcV9aZ2lTc1NSWlBwVWZ2Rk02YjFIV2hYU0MwVEhpd1RzRWwydl9EbDdROE4tY0UtTWpRd0FiWkhSWnpabDZnRS1fQVhCamdONmFJOFJ0THhvT1Z0Tm9jQ3lwUzN5MGtEREhLZXRmS0NWVld2M19n?oc=5\" target=\"_blank\">Japanese industry-academia collaboration to test insect meal in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
       "id": "a36174510c458146"
     },
@@ -204,17 +204,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHU1NqeTVLbGFxaV9tS0dfQTYwN2hYamhZZWcwSnRBTHFjMEFTRmlld1lkeDNGUUVKcWE0WVRyWWUxOGEyX1RtSVo3eUtxdnp4Y2VGeExtYjVIMXZLYWVr?oc=5\" target=\"_blank\">Beyond the buzz: insect-based foods are unlikely to significantly reduce meat consumption | npj Sustainable Agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "0a6c0e1a059d45c7"
-    },
-    {
-      "title": "Study evaluates insect meal’s sustainability potential in feed applications - PetfoodIndustry",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDhYbXIyaXRySl9WOWxXUllkcU4zQWdyZHpKeVlfaklLTlgxT1BJalllbWZDMV9WbHBHTkZfWGFnMG1UOW5IelY4eUZpTDdvSHM4SGNURjBIZVRKdHRwRG1jVXphZG53RjdhMWRnYlIzbE1KN2lTcWN5SWhyVXlrb05mXy1peHZVOUtfSEJsNlZ1OFlxVlV5SE1CZGJDTllQaG9taEoyejQwclEzN1dQNmFaM3V3WmR1VHdqeTdOMUJzdklXS2hOeFlnSXJycl8xZkd2NTNBTGpuNzRGblE?oc=5",
-      "pubDate": "2025-05-19T07:00:00+00:00",
-      "source": "PetfoodIndustry",
-      "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDhYbXIyaXRySl9WOWxXUllkcU4zQWdyZHpKeVlfaklLTlgxT1BJalllbWZDMV9WbHBHTkZfWGFnMG1UOW5IelY4eUZpTDdvSHM4SGNURjBIZVRKdHRwRG1jVXphZG53RjdhMWRnYlIzbE1KN2lTcWN5SWhyVXlrb05mXy1peHZVOUtfSEJsNlZ1OFlxVlV5SE1CZGJDTllQaG9taEoyejQwclEzN1dQNmFaM3V3WmR1VHdqeTdOMUJzdklXS2hOeFlnSXJycl8xZkd2NTNBTGpuNzRGblE?oc=5\" target=\"_blank\">Study evaluates insect meal’s sustainability potential in feed applications</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
-      "id": "e26b78f09322b73a"
     },
     {
       "title": "Insect meal as aquafeed in Africa: It’s a matter of scale - Aquafeed.com",
