@@ -2,7 +2,7 @@ name: mat_sjekk
 description: "Insekt-, Bovaer- og GMO-varsler for bevisste forbrukere."
 publish_to: 'none'
 homepage: https://sites.google.com/view/einars-apps/
-version: 1.1.2+57
+version: 1.1.2+58
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
   
   # Kjernefunksjonalitet
-  mobile_scanner: ^5.2.3
+  mobile_scanner: ^7.2.0
   http: ^1.2.2
   hive_flutter: ^1.1.0
   hive: ^2.2.3
