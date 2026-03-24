@@ -12726,6 +12726,19 @@
     "source": "https://www.lokalmat.no/produsenter/vikingsnacks/"
   },
   {
+    "id": "lokalmat_12251",
+    "name": "Villa Wagyu (Villa Samdrift)",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Vikebukt",
+    "products": [],
+    "website": null,
+    "lat": 62.5776622,
+    "lon": 7.1528177,
+    "address": "Daugstadvegen 221",
+    "source": "https://www.lokalmat.no/produsenter/villa-wagyu-(villa-samdrift)/"
+  },
+  {
     "id": "lokalmat_11528",
     "name": "Villbrygg",
     "country": "Norway",

@@ -12036,18 +12036,6 @@
     "address": null
   },
   {
-    "id": 928936979,
-    "name": "Allevamento Trote",
-    "country": "Italy",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.8053811,
-    "lon": 12.9242172,
-    "address": null
-  },
-  {
     "id": 944921960,
     "name": "Podere Nannini",
     "country": "Italy",
@@ -13629,6 +13617,18 @@
     "website": null,
     "lat": 44.7961349,
     "lon": 12.2560239,
+    "address": null
+  },
+  {
+    "id": 928936979,
+    "name": "Allevamento Trote",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.8053811,
+    "lon": 12.9242172,
     "address": null
   },
   {

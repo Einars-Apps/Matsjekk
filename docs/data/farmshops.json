@@ -12726,6 +12726,19 @@
     "source": "https://www.lokalmat.no/produsenter/vikingsnacks/"
   },
   {
+    "id": "lokalmat_12251",
+    "name": "Villa Wagyu (Villa Samdrift)",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Vikebukt",
+    "products": [],
+    "website": null,
+    "lat": 62.5776622,
+    "lon": 7.1528177,
+    "address": "Daugstadvegen 221",
+    "source": "https://www.lokalmat.no/produsenter/villa-wagyu-(villa-samdrift)/"
+  },
+  {
     "id": "lokalmat_11528",
     "name": "Villbrygg",
     "country": "Norway",
@@ -302395,6 +302408,18 @@
     "address": null
   },
   {
+    "id": 3019523534,
+    "name": "Les Jardins d'Idées",
+    "country": "France",
+    "region": null,
+    "municipality": "Bavans",
+    "products": [],
+    "website": "https://www.jardins-idees.fr/",
+    "lat": 47.4817004,
+    "lon": 6.7445099,
+    "address": "Rue Sous Roches"
+  },
+  {
     "id": 3024110614,
     "name": "Fruits et Légumes",
     "country": "France",
@@ -319694,8 +319719,8 @@
     "municipality": "Espelette",
     "products": [],
     "website": null,
-    "lat": 43.3405666,
-    "lon": -1.448621,
+    "lat": 43.3405422,
+    "lon": -1.4486555,
     "address": "Karrika Nagusia"
   },
   {
@@ -332642,8 +332667,8 @@
     "municipality": "Cour-Saint-Maurice",
     "products": [],
     "website": null,
-    "lat": 47.2621177,
-    "lon": 6.702589,
+    "lat": 47.2626608,
+    "lon": 6.7020351,
     "address": "Rue de Cour"
   },
   {
@@ -337567,6 +337592,18 @@
     "address": "Route des Chauvettes"
   },
   {
+    "id": 13671819701,
+    "name": "Amandon du Soleil",
+    "country": "France",
+    "region": null,
+    "municipality": "Rivesaltes",
+    "products": [],
+    "website": null,
+    "lat": 42.7813706,
+    "lon": 2.8817744,
+    "address": "Avenue du Fenouil"
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
@@ -342131,7 +342168,7 @@
     "name": "A Robba Paisana",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Corte",
     "products": [],
     "website": null,
     "lat": 42.3126896,
@@ -346762,6 +346799,30 @@
     "lat": 45.7904731,
     "lon": 4.9616355,
     "address": null
+  },
+  {
+    "id": 8697605187,
+    "name": "Ezpeletako Izarra",
+    "country": "France",
+    "region": null,
+    "municipality": "Espelette",
+    "products": [],
+    "website": null,
+    "lat": 43.3405666,
+    "lon": -1.448621,
+    "address": "Karrika Nagusia"
+  },
+  {
+    "id": 12582851462,
+    "name": "Le Verger de Cour",
+    "country": "France",
+    "region": null,
+    "municipality": "Cour-Saint-Maurice",
+    "products": [],
+    "website": null,
+    "lat": 47.2621177,
+    "lon": 6.702589,
+    "address": "Rue de Cour"
   },
   {
     "id": 12309635889,
@@ -499281,18 +499342,6 @@
     "address": null
   },
   {
-    "id": 928936979,
-    "name": "Allevamento Trote",
-    "country": "Italy",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.8053811,
-    "lon": 12.9242172,
-    "address": null
-  },
-  {
     "id": 944921960,
     "name": "Podere Nannini",
     "country": "Italy",
@@ -500874,6 +500923,18 @@
     "website": null,
     "lat": 44.7961349,
     "lon": 12.2560239,
+    "address": null
+  },
+  {
+    "id": 928936979,
+    "name": "Allevamento Trote",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.8053811,
+    "lon": 12.9242172,
     "address": null
   },
   {
