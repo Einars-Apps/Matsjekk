@@ -4,7 +4,7 @@
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 34,
+  "total": 35,
   "errors": [],
   "items": [
     {
@@ -27,7 +27,8 @@
       "country": "NO",
       "summary": "Tine opplever kraftig fall i omdømmemåling etter den pågående metanhemmer-striden (Bovaer).",
       "englishSummary": "Tine dairy experiences significant reputation decline following the ongoing Bovaer methane inhibitor controversy.",
-      "id": "document_tine_omdommemaling_202603"
+      "id": "document_tine_omdommemaling_202603",
+      "manuallyAdded": true
     },
     {
       "title": "Meld deg på Unios tillitsvalgtkurs i klima og bærekraft - unio.no",
@@ -49,7 +50,19 @@
       "country": "NO",
       "summary": "Melkebønder reagerer sterkt mot Bondelaget i oppgjøret rundt metanhemmere og melkeproduksjonsvilkår.",
       "englishSummary": "Dairy farmers rage against the Norwegian Farmers Union over methane inhibitors and milk production conditions.",
-      "id": "document_bonder_bondelaget_202602"
+      "id": "document_bonder_bondelaget_202602",
+      "manuallyAdded": true
+    },
+    {
+      "title": "Stortingets nei til et krav nå er kun et tidsbegrenset pusterom for norske bønder",
+      "url": "https://steigan.no/2026/02/stortingets-nei-til-et-krav-na-er-kun-et-tidsbegrenset-pusterom-for-norske-bonder/",
+      "source": "Steigan.no",
+      "pubDate": "2026-02-15T12:00:00Z",
+      "language": "nb",
+      "country": "NO",
+      "summary": "Stortingets avvisning av metanhemmer-kravet (Bovaer) er bare midlertidig – EU fortsetter presset.",
+      "englishSummary": "Norwegian parliament rejection of Bovaer methane inhibitor mandate is only a temporary reprieve.",
+      "manuallyAdded": true
     },
     {
       "title": "Næringskomiteen vil kutte metanhemmer-krav for melkebønder",
@@ -60,7 +73,8 @@
       "country": "NO",
       "summary": "Næringskomiteen i Stortinget ønsker å fjerne kravet til bruk av metanhemmere (Bovaer) for norske melkeprodusenter.",
       "englishSummary": "Norwegian parliamentary committee wants to remove Bovaer methane inhibitor requirement for dairy farmers.",
-      "id": "document_naeringskomiteen_metanhemmer_202602"
+      "id": "document_naeringskomiteen_metanhemmer_202602",
+      "manuallyAdded": true
     },
     {
       "title": "Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder - Nationen",

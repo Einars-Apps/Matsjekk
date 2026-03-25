@@ -409,15 +409,37 @@ def _region_items(items: list[FeedItem], mode: str) -> list[FeedItem]:
 
 
 def _write_payload(path: Path, items: list[FeedItem], errors: list[dict[str, str]]) -> None:
+    # Preserve manually added articles from the existing file
+    existing_manual: list[dict[str, Any]] = []
+    if path.exists():
+        try:
+            old = json.loads(path.read_text(encoding="utf-8"))
+            for old_item in old.get("items", []):
+                if old_item.get("manuallyAdded"):
+                    existing_manual.append(old_item)
+        except (json.JSONDecodeError, KeyError):
+            pass
+
+    fetched_urls = {item.url.strip().lower() for item in items}
+    merged_items = [item.as_dict() for item in items]
+    for manual_item in existing_manual:
+        if manual_item.get("url", "").strip().lower() not in fetched_urls:
+            merged_items.append(manual_item)
+
+    # Sort by date descending
+    def _sort_key(d: dict) -> str:
+        return d.get("pubDate", d.get("date", "1970-01-01"))
+    merged_items.sort(key=_sort_key, reverse=True)
+
     result = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "version": 2,
         "topic": PRIMARY_TOPIC,
         "recentDays": RECENT_DAYS,
         "maxItems": MAX_ITEMS,
-        "total": len(items),
+        "total": len(merged_items),
         "errors": errors,
-        "items": [item.as_dict() for item in items],
+        "items": merged_items,
     }
     path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
 
