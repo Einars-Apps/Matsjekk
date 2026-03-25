@@ -497818,6 +497818,18 @@
     "address": "Via XXV Aprile"
   },
   {
+    "id": 311626450,
+    "name": "Frantoio Costagrande",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.9199742,
+    "lon": 7.3130542,
+    "address": null
+  },
+  {
     "id": 321927615,
     "name": "Agricoccinella",
     "country": "Italy",
