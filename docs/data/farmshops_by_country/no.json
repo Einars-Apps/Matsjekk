@@ -9259,21 +9259,6 @@
     "source": "https://www.lokalmat.no/produsenter/pedersen-bakeri-as/"
   },
   {
-    "id": "lokalmat_11793",
-    "name": "PeKo's Honning",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": null,
-    "products": [
-      "Annet"
-    ],
-    "website": null,
-    "lat": 62.8536311,
-    "lon": 7.1542142,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/pekos/"
-  },
-  {
     "id": "lokalmat_11548",
     "name": "Per Gunnar Frafjord",
     "country": "Norway",
@@ -15610,6 +15595,21 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_11793",
+    "name": "PeKo's Honning",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": null,
+    "products": [
+      "Annet"
+    ],
+    "website": null,
+    "lat": 62.8536311,
+    "lon": 7.1542142,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/pekos/"
   },
   {
     "id": "lokalmat_11245",

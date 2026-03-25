@@ -37140,6 +37140,18 @@
     "address": "Avenue du Fenouil"
   },
   {
+    "id": 13674477696,
+    "name": "SCEA La Ferme du Manège",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lafermedumanege.fr/",
+    "lat": 49.6499473,
+    "lon": 0.5299434,
+    "address": "Chemin des Justes"
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
