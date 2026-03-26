@@ -37969,22 +37969,6 @@
         "mapsUrl": ""
       },
       {
-        "name": "Gundestrup Mejeri og Bryghus A/S",
-        "countryCode": "DK",
-        "country": "Denmark",
-        "region": "",
-        "municipality": "",
-        "address": "",
-        "products": [],
-        "website": "https://www.mejeri-bryg.dk/",
-        "lat": 55.0925456,
-        "lon": 10.4074429,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
         "name": "Gårdcaféen Månsson",
         "countryCode": "DK",
         "country": "Denmark",
@@ -38171,6 +38155,22 @@
         "website": "https://tinggarden.dk/landhandel/",
         "lat": 56.018944,
         "lon": 12.061477,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
+        "name": "Seerupgaards Landkøkken",
+        "countryCode": "DK",
+        "country": "Denmark",
+        "region": "",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "https://seerupgaard.dk/",
+        "lat": 55.5826017,
+        "lon": 12.6208574,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
@@ -38913,24 +38913,6 @@
         "website": "https://goosmannvin.dk/",
         "lat": 55.620517,
         "lon": 11.215291,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
-        "name": "Nygårdens Gårdbutik",
-        "countryCode": "DK",
-        "country": "Denmark",
-        "region": "Syddanmark",
-        "municipality": "",
-        "address": "",
-        "products": [
-          "fruit"
-        ],
-        "website": "https://nygaardenfrugt.dk/",
-        "lat": 55.917331,
-        "lon": 11.643752,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
@@ -40509,6 +40491,22 @@
         "phone": "",
         "openingHours": "",
         "mapsUrl": ""
+      },
+      {
+        "name": "HOLBÆK OST OG TAPAS",
+        "countryCode": "DK",
+        "country": "Denmark",
+        "region": "Syddanmark",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 55.7149367,
+        "lon": 11.7155579,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
       }
     ]
   },
@@ -41413,7 +41411,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Botiga de Produccions Son Cart Bio",
+        "name": "Magasin des productions de Son Cart Bio",
         "countryCode": "ES",
         "country": "Spain",
         "region": "",

@@ -9204,6 +9204,18 @@
     "address": null
   },
   {
+    "id": 13680740765,
+    "name": "Famiglia Testa",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.9872675,
+    "lon": 13.8853768,
+    "address": null
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",
@@ -10498,6 +10510,18 @@
     "lat": 43.5155308,
     "lon": 13.1102234,
     "address": "Via XXV Aprile"
+  },
+  {
+    "id": 311626450,
+    "name": "Frantoio Costagrande",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.9199742,
+    "lon": 7.3130542,
+    "address": null
   },
   {
     "id": 321927615,
@@ -12645,6 +12669,18 @@
     "website": "https://www.AziendaAgricolaRende.it/",
     "lat": 39.6390486,
     "lon": 16.2651648,
+    "address": null
+  },
+  {
+    "id": 1184977533,
+    "name": "Uliveto",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.3033357,
+    "lon": 13.7820812,
     "address": null
   },
   {
