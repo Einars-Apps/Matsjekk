@@ -243639,6 +243639,18 @@
     "address": null
   },
   {
+    "id": 721331835,
+    "name": "boerderijwinkel de kolke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1742476,
+    "lon": 6.1334132,
+    "address": null
+  },
+  {
     "id": 920618522,
     "name": "Schapenboerderij de Zeekraal",
     "country": "Netherlands",
@@ -243685,6 +243697,18 @@
     "lat": 52.2395455,
     "lon": 6.8685224,
     "address": "Viermarkenweg"
+  },
+  {
+    "id": 1928199614,
+    "name": "Groente- en Fruithandel J. Kraaij & Zoon",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2128986,
+    "lon": 5.2855458,
+    "address": null
   },
   {
     "id": 2466405556,
@@ -244002,7 +244026,7 @@
   },
   {
     "id": 2731756473,
-    "name": "Remy Otten Groente en fruit",
+    "name": "Jan Otten",
     "country": "Netherlands",
     "region": null,
     "municipality": "'s-Gravenhage",
@@ -245031,18 +245055,6 @@
     "lat": 51.4184943,
     "lon": 4.3396104,
     "address": "Sportlaan"
-  },
-  {
-    "id": 2832173356,
-    "name": "Marlescheveld",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hellendoorn",
-    "products": [],
-    "website": "https://www.marleseveld.nl",
-    "lat": 52.3993375,
-    "lon": 6.5087079,
-    "address": "Oude Twentseweg"
   },
   {
     "id": 2833170261,
@@ -246414,7 +246426,7 @@
   },
   {
     "id": 5971944180,
-    "name": "Biologische Boerderijwinkel Korenblik",
+    "name": "Korenblik",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
@@ -247277,29 +247289,15 @@
     "address": null
   },
   {
-    "id": 9083859685,
-    "name": "Boerderijwinkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1168265,
-    "lon": 4.6093764,
-    "address": null
-  },
-  {
     "id": 9083859686,
     "name": "Boerderijwinkel VanHier",
     "country": "Netherlands",
     "region": null,
     "municipality": "Hazerswoude-Rijndijk",
-    "products": [
-      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
-    ],
-    "website": "https://www.boerderijwinkelvanhier.nl",
-    "lat": 52.1177099,
-    "lon": 4.6086804,
+    "products": [],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177873,
+    "lon": 4.6080501,
     "address": "Spookverlaat"
   },
   {
@@ -248251,18 +248249,6 @@
     "address": "Blaaksedijk"
   },
   {
-    "id": 12088965305,
-    "name": "Boerderijwinkel De Hooilanden",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.9973568,
-    "lon": 5.6218027,
-    "address": null
-  },
-  {
     "id": 12159587851,
     "name": "Den 4 Akker",
     "country": "Netherlands",
@@ -248420,7 +248406,7 @@
   },
   {
     "id": 12643600076,
-    "name": "Landwinkel & Schenkerij De Kastanjeboom",
+    "name": "De Kastanjeboom",
     "country": "Netherlands",
     "region": null,
     "municipality": "Bunschoten-Spakenburg",
@@ -249861,6 +249847,20 @@
     "address": "Boomvliet"
   },
   {
+    "id": 982183443,
+    "name": "Boerderij winkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [
+      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+    ],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177108,
+    "lon": 4.6086832,
+    "address": "Spookverlaat"
+  },
+  {
     "id": 1068244897,
     "name": "Ei-cel",
     "country": "Netherlands",
@@ -250087,6 +250087,92 @@
     "lat": 51.4932275,
     "lon": 4.0532058,
     "address": null
+  },
+  {
+    "id": 2731756473,
+    "name": "Remy Otten Groente en fruit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [],
+    "website": null,
+    "lat": 52.0781982,
+    "lon": 4.2696324,
+    "address": "Abeelplein"
+  },
+  {
+    "id": 2832173356,
+    "name": "Marlescheveld",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hellendoorn",
+    "products": [],
+    "website": "https://www.marleseveld.nl",
+    "lat": 52.3993375,
+    "lon": 6.5087079,
+    "address": "Oude Twentseweg"
+  },
+  {
+    "id": 5971944180,
+    "name": "Biologische Boerderijwinkel Korenblik",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.boerderijkorenblik.nl/",
+    "lat": 52.128933,
+    "lon": 6.2753847,
+    "address": null
+  },
+  {
+    "id": 9083859685,
+    "name": "Boerderijwinkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1168265,
+    "lon": 4.6093764,
+    "address": null
+  },
+  {
+    "id": 9083859686,
+    "name": "Boerderijwinkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [
+      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+    ],
+    "website": "https://www.boerderijwinkelvanhier.nl",
+    "lat": 52.1177099,
+    "lon": 4.6086804,
+    "address": "Spookverlaat"
+  },
+  {
+    "id": 12088965305,
+    "name": "Boerderijwinkel De Hooilanden",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.9973568,
+    "lon": 5.6218027,
+    "address": null
+  },
+  {
+    "id": 12643600076,
+    "name": "Landwinkel & Schenkerij De Kastanjeboom",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Bunschoten-Spakenburg",
+    "products": [],
+    "website": "https://dekastanjeboom.nl/",
+    "lat": 52.2174238,
+    "lon": 5.3891221,
+    "address": "Zevenhuizerstraat"
   },
   {
     "id": 269721285,
@@ -250599,19 +250685,6 @@
     "address": "Uitslagsweg 91-7, 7556LN",
     "source": "osm",
     "phone": "+31 74 2592940"
-  },
-  {
-    "id": 1928199614,
-    "name": "Groente- en Fruithandel J. Kraaij & Zoon",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2128986,
-    "lon": 5.2855458,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1928999817,
@@ -252769,19 +252842,6 @@
     "lat": 52.1453347,
     "lon": 4.4811577,
     "address": "Rooseveltstraat 43, 2321BL",
-    "source": "osm"
-  },
-  {
-    "id": 2731756473,
-    "name": "Jan Otten",
-    "country": "Netherlands",
-    "region": "Zuid-Holland",
-    "municipality": "'s-Gravenhage",
-    "products": [],
-    "website": null,
-    "lat": 52.0781982,
-    "lon": 4.2696324,
-    "address": "Abeelplein 4K, 2565XS",
     "source": "osm"
   },
   {
@@ -260709,19 +260769,6 @@
     "phone": "+31 570 234054"
   },
   {
-    "id": 5971944180,
-    "name": "Korenblik",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": null,
-    "products": [],
-    "website": "http://www.boerderijkorenblik.nl/",
-    "lat": 52.128933,
-    "lon": 6.2753847,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5981139985,
     "name": "Wijnwinkel Souverein",
     "country": "Netherlands",
@@ -262091,19 +262138,6 @@
     "address": null,
     "source": "osm",
     "phone": "+31 35 6916059"
-  },
-  {
-    "id": 12643600076,
-    "name": "De Kastanjeboom",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": "Bunschoten-Spakenburg",
-    "products": [],
-    "website": "https://dekastanjeboom.nl/",
-    "lat": 52.2174238,
-    "lon": 5.3891221,
-    "address": "Zevenhuizerstraat 281, 3751LC",
-    "source": "osm"
   },
   {
     "id": 12685099487,
@@ -270774,18 +270808,6 @@
     "address": null
   },
   {
-    "id": 9083859686,
-    "name": "Boerderijwinkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hazerswoude-Rijndijk",
-    "products": [],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177873,
-    "lon": 4.6080501,
-    "address": "Spookverlaat"
-  },
-  {
     "id": 9161056079,
     "name": "Afra",
     "country": "Netherlands",
@@ -273088,20 +273110,6 @@
     "lat": 51.7815065,
     "lon": 4.4880837,
     "address": null
-  },
-  {
-    "id": 982183443,
-    "name": "Boerderij winkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hazerswoude-Rijndijk",
-    "products": [
-      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
-    ],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177108,
-    "lon": 4.6086832,
-    "address": "Spookverlaat"
   },
   {
     "id": 1037201343,
@@ -275597,18 +275605,6 @@
     "website": null,
     "lat": 52.7588442,
     "lon": 4.6805766,
-    "address": null
-  },
-  {
-    "id": 721331835,
-    "name": "boerderijwinkel de kolke",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1742476,
-    "lon": 6.1334132,
     "address": null
   },
   {
@@ -643156,7 +643152,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Magasin des productions de Son Cart Bio",
+    "name": "Botiga de Produccions Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -644883,6 +644879,30 @@
     "address": "Carrer de Benet Cortada"
   },
   {
+    "id": 13578235401,
+    "name": "Formatges Sa Roqueta",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9811958,
+    "lon": 4.0440713,
+    "address": null
+  },
+  {
+    "id": 13583403409,
+    "name": "Frutas Verduras Sara y Noelia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Pedro del Arroyo",
+    "products": [],
+    "website": null,
+    "lat": 40.8014086,
+    "lon": -4.8707355,
+    "address": "Calle Lagares"
+  },
+  {
     "id": 9727345,
     "name": "Parm Forest (Palmenallee)",
     "country": "Spain",
@@ -646012,14 +646032,14 @@
   },
   {
     "id": 227832087,
-    "name": "Casa de la Góndola",
+    "name": "La Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922553,
-    "lon": -3.9950025,
+    "lat": 40.8922414,
+    "lon": -3.9949771,
     "address": null
   },
   {
@@ -648603,6 +648623,18 @@
     "address": null
   },
   {
+    "id": 1489885403,
+    "name": "El Bosque de La Vega",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6951045,
+    "lon": -5.3230982,
+    "address": null
+  },
+  {
     "id": 7961347,
     "name": "Olivar de la Partija",
     "country": "Spain",
@@ -648648,18 +648680,6 @@
     "website": null,
     "lat": 39.0325752,
     "lon": -0.2016227,
-    "address": null
-  },
-  {
-    "id": 16192590,
-    "name": "Viñedos de Agejas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.051563,
-    "lon": -4.1088091,
     "address": null
   },
   {
@@ -648868,7 +648888,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Botiga de Produccions Son Cart Bio",
+    "name": "Magasin des productions de Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -648879,51 +648899,27 @@
     "address": "Carretera de Son Bou"
   },
   {
-    "id": 13578235401,
-    "name": "Formatges Sa Roqueta",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9811958,
-    "lon": 4.0440713,
-    "address": null
-  },
-  {
-    "id": 13583403409,
-    "name": "Frutas Verduras Sara y Noelia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Pedro del Arroyo",
-    "products": [],
-    "website": null,
-    "lat": 40.8014086,
-    "lon": -4.8707355,
-    "address": "Calle Lagares"
-  },
-  {
     "id": 227832087,
-    "name": "La Piscifactoría",
+    "name": "Casa de la Góndola",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922414,
-    "lon": -3.9949771,
+    "lat": 40.8922553,
+    "lon": -3.9950025,
     "address": null
   },
   {
-    "id": 1489885403,
-    "name": "El Bosque de La Vega",
+    "id": 16192590,
+    "name": "Viñedos de Agejas",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 37.6951045,
-    "lon": -5.3230982,
+    "lat": 41.051563,
+    "lon": -4.1088091,
     "address": null
   },
   {
@@ -754434,18 +754430,6 @@
     "address": "Amtsgasse"
   },
   {
-    "id": 3770331132,
-    "name": "Fam. Nöbauer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2076299,
-    "lon": 14.2004261,
-    "address": null
-  },
-  {
     "id": 3780726341,
     "name": "Heilos",
     "country": "Austria",
@@ -754926,18 +754910,6 @@
     "address": "Stiftshof"
   },
   {
-    "id": 4433717972,
-    "name": "Laller",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Klöch",
-    "products": [],
-    "website": null,
-    "lat": 46.7838149,
-    "lon": 15.9764197,
-    "address": null
-  },
-  {
     "id": 4443390495,
     "name": "Reisinger Getreidemühlen",
     "country": "Austria",
@@ -754993,8 +754965,8 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://tüwi.at/farmshop",
-    "lat": 48.2376931,
-    "lon": 16.3347581,
+    "lat": 48.237653,
+    "lon": 16.3347764,
     "address": "Peter-Jordan-Straße"
   },
   {
@@ -755571,18 +755543,6 @@
     "website": "https://schoensteinhof.jimdofree.com",
     "lat": 47.5791928,
     "lon": 9.8065096,
-    "address": null
-  },
-  {
-    "id": 5281879066,
-    "name": "Bauernladen Ungerböck",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8131256,
-    "lon": 16.2438402,
     "address": null
   },
   {
@@ -757026,18 +756986,6 @@
     "address": null
   },
   {
-    "id": 7756999811,
-    "name": "Biohof Fraiß",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Josefsrotte",
-    "products": [],
-    "website": "https://www.regiohof-fraiss.at/",
-    "lat": 47.8321476,
-    "lon": 15.3070474,
-    "address": "Bergstraße"
-  },
-  {
     "id": 7775871920,
     "name": "Kirchberger Bauernladen",
     "country": "Austria",
@@ -757155,6 +757103,18 @@
     "website": "https://www.jaklhof.at/fuer-dich/",
     "lat": 47.1054214,
     "lon": 15.530154,
+    "address": null
+  },
+  {
+    "id": 8071896620,
+    "name": "No name",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8785237,
+    "lon": 15.8886418,
     "address": null
   },
   {
@@ -762234,6 +762194,18 @@
     "address": "Josefistraße"
   },
   {
+    "id": 12751800435,
+    "name": "Boku FoodCoop",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2380573,
+    "lon": 16.3311839,
+    "address": null
+  },
+  {
     "id": 12768184541,
     "name": "Ölladen",
     "country": "Austria",
@@ -763002,78 +762974,6 @@
     "address": null
   },
   {
-    "id": 13592550216,
-    "name": "Santlhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3090363,
-    "lon": 10.9455925,
-    "address": null
-  },
-  {
-    "id": 13593399228,
-    "name": "Stöckl's Schofkas",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.stoeckl-schofkas.at/",
-    "lat": 48.0417299,
-    "lon": 14.5640583,
-    "address": null
-  },
-  {
-    "id": 13606665202,
-    "name": "Hofladen Patz",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7978014,
-    "lon": 15.7781463,
-    "address": null
-  },
-  {
-    "id": 13611749520,
-    "name": "Pölzl Gemüse",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0668337,
-    "lon": 15.4673749,
-    "address": null
-  },
-  {
-    "id": 13612842102,
-    "name": "SteirerREIS",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://steirischerreis.at",
-    "lat": 46.7432017,
-    "lon": 15.9818429,
-    "address": null
-  },
-  {
-    "id": 13617524490,
-    "name": "Lambacherhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lambacherhof.com/ab-hof-verkauf",
-    "lat": 47.1220092,
-    "lon": 14.3710467,
-    "address": null
-  },
-  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -763722,18 +763622,6 @@
     "address": "Mühlweg"
   },
   {
-    "id": 185795916,
-    "name": "Inzinger Bauernladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Inzing",
-    "products": [],
-    "website": null,
-    "lat": 47.2726777,
-    "lon": 11.1996774,
-    "address": "Hauptstraße"
-  },
-  {
     "id": 189145393,
     "name": "Mühle Kianek",
     "country": "Austria",
@@ -764271,18 +764159,6 @@
     "website": "biohof-skofitsch.at",
     "lat": 46.6904779,
     "lon": 14.5425131,
-    "address": null
-  },
-  {
-    "id": 303647785,
-    "name": "Biomilch ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Neukirchen an der Enknach",
-    "products": [],
-    "website": null,
-    "lat": 48.1966434,
-    "lon": 13.0106229,
     "address": null
   },
   {
@@ -766026,30 +765902,6 @@
     "address": "Obere"
   },
   {
-    "id": 1482240510,
-    "name": "Boku FoodCoop",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2380841,
-    "lon": 16.3311696,
-    "address": null
-  },
-  {
-    "id": 1487756181,
-    "name": "BIO-OststeierMARKT",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Hartberg",
-    "products": [],
-    "website": null,
-    "lat": 47.2829358,
-    "lon": 15.9839598,
-    "address": "Ferdinand-Leihs-Straße"
-  },
-  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -766525,7 +766377,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2666045,
+    "lat": 47.2666672,
     "lon": 16.451608,
     "address": null
   },
@@ -767163,6 +767015,198 @@
     "website": null,
     "lat": 47.0136174,
     "lon": 14.2436819,
+    "address": null
+  },
+  {
+    "id": 3770331132,
+    "name": "Fam. Nöbauer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2076299,
+    "lon": 14.2004261,
+    "address": null
+  },
+  {
+    "id": 4433717972,
+    "name": "Laller",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Klöch",
+    "products": [],
+    "website": null,
+    "lat": 46.7838149,
+    "lon": 15.9764197,
+    "address": null
+  },
+  {
+    "id": 4530145086,
+    "name": "TüWi Hofladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Wien",
+    "products": [],
+    "website": "https://tüwi.at/farmshop",
+    "lat": 48.2376931,
+    "lon": 16.3347581,
+    "address": "Peter-Jordan-Straße"
+  },
+  {
+    "id": 5281879066,
+    "name": "Bauernladen Ungerböck",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8131256,
+    "lon": 16.2438402,
+    "address": null
+  },
+  {
+    "id": 7756999811,
+    "name": "Biohof Fraiß",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Josefsrotte",
+    "products": [],
+    "website": "https://www.regiohof-fraiss.at/",
+    "lat": 47.8321476,
+    "lon": 15.3070474,
+    "address": "Bergstraße"
+  },
+  {
+    "id": 13592550216,
+    "name": "Santlhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3090363,
+    "lon": 10.9455925,
+    "address": null
+  },
+  {
+    "id": 13593399228,
+    "name": "Stöckl's Schofkas",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.stoeckl-schofkas.at/",
+    "lat": 48.0417299,
+    "lon": 14.5640583,
+    "address": null
+  },
+  {
+    "id": 13606665202,
+    "name": "Hofladen Patz",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7978014,
+    "lon": 15.7781463,
+    "address": null
+  },
+  {
+    "id": 13611749520,
+    "name": "Pölzl Gemüse",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0668337,
+    "lon": 15.4673749,
+    "address": null
+  },
+  {
+    "id": 13612842102,
+    "name": "SteirerREIS",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://steirischerreis.at",
+    "lat": 46.7432017,
+    "lon": 15.9818429,
+    "address": null
+  },
+  {
+    "id": 13617524490,
+    "name": "Lambacherhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lambacherhof.com/ab-hof-verkauf",
+    "lat": 47.1220092,
+    "lon": 14.3710467,
+    "address": null
+  },
+  {
+    "id": 185795916,
+    "name": "Inzinger Bauernladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Inzing",
+    "products": [],
+    "website": null,
+    "lat": 47.2726777,
+    "lon": 11.1996774,
+    "address": "Hauptstraße"
+  },
+  {
+    "id": 303647785,
+    "name": "Biomilch ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Neukirchen an der Enknach",
+    "products": [],
+    "website": null,
+    "lat": 48.1966434,
+    "lon": 13.0106229,
+    "address": null
+  },
+  {
+    "id": 1482240510,
+    "name": "Boku FoodCoop",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2380841,
+    "lon": 16.3311696,
+    "address": null
+  },
+  {
+    "id": 1487756181,
+    "name": "BIO-OststeierMARKT",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Hartberg",
+    "products": [],
+    "website": null,
+    "lat": 47.2829358,
+    "lon": 15.9839598,
+    "address": "Ferdinand-Leihs-Straße"
+  },
+  {
+    "id": 6456498,
+    "name": "Schachendorf",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2666045,
+    "lon": 16.451608,
     "address": null
   },
   {
@@ -789981,18 +790025,6 @@
     "address": null
   },
   {
-    "id": 4530145086,
-    "name": "TüWi Hofladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Wien",
-    "products": [],
-    "website": "https://tüwi.at/farmshop",
-    "lat": 48.237653,
-    "lon": 16.3347764,
-    "address": "Peter-Jordan-Straße"
-  },
-  {
     "id": 8043309068,
     "name": "Farm shop 8043309068",
     "country": "Austria",
@@ -790002,18 +790034,6 @@
     "website": null,
     "lat": 47.0724981,
     "lon": 15.4451325,
-    "address": null
-  },
-  {
-    "id": 8071896620,
-    "name": "No name",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8785237,
-    "lon": 15.8886418,
     "address": null
   },
   {
@@ -790038,18 +790058,6 @@
     "website": null,
     "lat": 47.0541001,
     "lon": 15.449164,
-    "address": null
-  },
-  {
-    "id": 12751800435,
-    "name": "Boku FoodCoop",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2380573,
-    "lon": 16.3311839,
     "address": null
   },
   {
@@ -794346,18 +794354,6 @@
     "website": null,
     "lat": 47.0244878,
     "lon": 14.2385081,
-    "address": null
-  },
-  {
-    "id": 6456498,
-    "name": "Schachendorf",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2666672,
-    "lon": 16.451608,
     "address": null
   },
   {
