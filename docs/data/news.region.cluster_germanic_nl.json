@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T05:39:05.107988+00:00",
+  "generatedAt": "2026-03-26T05:50:04.019761+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -28,17 +28,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1FwR3dpeWk4clF6cE9xN0pqS3pld2l4SmNaMFdkc1h6cjZ5QVlLZ0xJSlZlTEJOT3pPbTZjUkRBODNBSGJkTDJnN3F5SnJqVFBDT2d3NEFlcTRTVFlnYWhsVURmRnJxOUU0aF9xS3lLelpGdUlBQjFGdFhFN3ZZMWJOc3JWYWJnblpSUjV5ejBtT1RBMzNvNm9HVk1Gc21Ia0FZeWMxbEhpT1ZFWlZILVYwdlBHUEhQbDhxcF94cTFPc0ZxdGREaWcta29VeWtONmV4ZnV5WHJCZnMzUWxlNndiS3lKNE9Oakk1LXJQM2ZlQjQ?oc=5\" target=\"_blank\">Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maritima</font>",
       "id": "1eabcf9698f75c66"
-    },
-    {
-      "title": "Projekt „Klagenfurt wird klimaneutral“ für Sustainability Award nominiert - Mein Klagenfurt",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeW1tQ2FRVHhEQ0xhdmlBV3pKYzZ5RkFFOWpONmhyamtJMm9Ba2kzVE9yV2RIYlpCcFpobXRpX1EyM2F3bWZBak5uejJCUlVFYW1oN1J5ZWZFYk9tY1Y2T3JOQ2VwTC1kU2pFTWFPNTMtS0xCYWR2YjZGNXFyTG9od3ROcnNWUzdwU0ZlQ2lKWVJBYXpMd3FiSzdoX0d5WHpZWDBRN1NEWHVQTWl1bzZrWmoyM3dkS0dmSjhkZlYxVkduQVJUdXdET0tiNnZpWTAtTDB3Yi1lSlh3NExaQ1RwWUdOZWh4SlFhVXJj?oc=5",
-      "pubDate": "2026-03-19T13:32:48+00:00",
-      "source": "Mein Klagenfurt",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeW1tQ2FRVHhEQ0xhdmlBV3pKYzZ5RkFFOWpONmhyamtJMm9Ba2kzVE9yV2RIYlpCcFpobXRpX1EyM2F3bWZBak5uejJCUlVFYW1oN1J5ZWZFYk9tY1Y2T3JOQ2VwTC1kU2pFTWFPNTMtS0xCYWR2YjZGNXFyTG9od3ROcnNWUzdwU0ZlQ2lKWVJBYXpMd3FiSzdoX0d5WHpZWDBRN1NEWHVQTWl1bzZrWmoyM3dkS0dmSjhkZlYxVkduQVJUdXdET0tiNnZpWTAtTDB3Yi1lSlh3NExaQ1RwWUdOZWh4SlFhVXJj?oc=5\" target=\"_blank\">Projekt „Klagenfurt wird klimaneutral“ für Sustainability Award nominiert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mein Klagenfurt</font>",
-      "id": "a383442b6e14787c"
     },
     {
       "title": "Elektromobilität: Sustainability Battery Giga-Fabs - Siemens",
@@ -112,21 +101,21 @@
       "pubDate": "2026-02-05T08:00:00+00:00",
       "source": "Technische Universität Wien | TU Wien",
       "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5\" target=\"_blank\">fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technische Universität Wien | TU Wien</font>",
       "id": "26658aa1a9ce4f3d"
     },
     {
-      "title": "“Bovaer toch een risico voor vee” - deanderekrant.nl",
+      "title": "“Bovaer toch een risico voor vee” - De Andere Krant",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wenA0dnptdFotSmlrcUdhTHg0T0NfTlV3NTlBRUd3d25lTW5CQnpkOEVXU2daY1pfV2R3bkNWSUhJREJnb1d1SXowblkwWlJyU2tnY2psZWhfM2pOcDJmellvVEJuRFVv?oc=5",
       "pubDate": "2026-01-30T08:00:00+00:00",
-      "source": "deanderekrant.nl",
+      "source": "De Andere Krant",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wenA0dnptdFotSmlrcUdhTHg0T0NfTlV3NTlBRUd3d25lTW5CQnpkOEVXU2daY1pfV2R3bkNWSUhJREJnb1d1SXowblkwWlJyU2tnY2psZWhfM2pOcDJmellvVEJuRFVv?oc=5\" target=\"_blank\">“Bovaer toch een risico voor vee”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">deanderekrant.nl</font>",
-      "id": "672c3f8c5dacaf60"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wenA0dnptdFotSmlrcUdhTHg0T0NfTlV3NTlBRUd3d25lTW5CQnpkOEVXU2daY1pfV2R3bkNWSUhJREJnb1d1SXowblkwWlJyU2tnY2psZWhfM2pOcDJmellvVEJuRFVv?oc=5\" target=\"_blank\">“Bovaer toch een risico voor vee”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">De Andere Krant</font>",
+      "id": "dcd2fbb6c0a1be12"
     },
     {
       "title": "Bovaer macht Probleme – Molkerei nimmt Milch nicht mehr an - Der Schweizer Bauer",
@@ -173,17 +162,6 @@
       "id": "8eeadf37fbf22171"
     },
     {
-      "title": "Auswirkungen des Omnibus 1: Kommentar Patrick Velte | Sustainability - Haufe. Intelligenz, die bewegt.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQThlaC1wOENEV0NER19ZeWpYd0JYa25yTjA4VWRuWHdIdU41X2NmamVYTG0yS2xyeVJBTWQ5N2FWZTZfMFkyNGhaVDZDaGJnNWt0aEk0S1FvcVN0d2J0ZU9ISGJyWFBIeGVpaHU3VktQcXdwR2dmZzJTekNtR1RIdGVEZERFX1RPbDBweXFUc0tLS0p4VkpYRHV4VmxzS3QxUnVJ?oc=5",
-      "pubDate": "2026-01-19T08:00:00+00:00",
-      "source": "Haufe. Intelligenz, die bewegt.",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPQThlaC1wOENEV0NER19ZeWpYd0JYa25yTjA4VWRuWHdIdU41X2NmamVYTG0yS2xyeVJBTWQ5N2FWZTZfMFkyNGhaVDZDaGJnNWt0aEk0S1FvcVN0d2J0ZU9ISGJyWFBIeGVpaHU3VktQcXdwR2dmZzJTekNtR1RIdGVEZERFX1RPbDBweXFUc0tLS0p4VkpYRHV4VmxzS3QxUnVJ?oc=5\" target=\"_blank\">Auswirkungen des Omnibus 1: Kommentar Patrick Velte | Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
-      "id": "79fd83ea76cb9cf1"
-    },
-    {
       "title": "Ligt zwavelrijk rantsoen aan basis van Deense problemen met Bovaer? - VILT vzw",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQnVOMjNCaHg0SWdrTHhoQTdKTFpqdG1Pck9OcDZOdEJ4VF9YeUxwdlgwWjhzY1F2LXM3cjZKX3EzRHZKYzhKMDllejR1MFA5QzlFSHZNdjY0NGRUTEE4WDR2NjBrSldjV2IzV2U2NkZpZDFOQ0R0MnFVc1R5YzlNTmplOVU0YjQ4eVFxeG9iZjhzc0VzTUJ3?oc=5",
       "pubDate": "2026-01-15T08:00:00+00:00",
@@ -206,6 +184,17 @@
       "id": "248385833292f986"
     },
     {
+      "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
+      "pubDate": "2026-01-13T08:00:00+00:00",
+      "source": "Nieuwe Oogst",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
+      "id": "e9a3835456510718"
+    },
+    {
       "title": "Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte - Boerderij",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5",
       "pubDate": "2026-01-13T08:00:00+00:00",
@@ -217,15 +206,15 @@
       "id": "74e176874cad4567"
     },
     {
-      "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
-      "pubDate": "2026-01-13T08:00:00+00:00",
-      "source": "Nieuwe Oogst",
+      "title": "Deense data-analyse toont verband Bovaer en zwavel - De Molenaar",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdGtVRTZoaldtbWxSUk5EOHpsN05qbjJHQUs2Y3pIUVhZaEkxX2I4T0VUcl9NcEduODllM3Q3R2FnNENLZkFodTdfbTlSeEF0dWNYYk1vVVRFWXVTMzY4MEFhS18zYXZXelJ2TGxqRjhRemRoV2Q1TUN6TTU4a0pISHFTQXIyekhFMzZNdlp6ek9zQ1BfdHdyOGpRekU?oc=5",
+      "pubDate": "2026-01-12T08:00:00+00:00",
+      "source": "De Molenaar",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
-      "id": "e9a3835456510718"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdGtVRTZoaldtbWxSUk5EOHpsN05qbjJHQUs2Y3pIUVhZaEkxX2I4T0VUcl9NcEduODllM3Q3R2FnNENLZkFodTdfbTlSeEF0dWNYYk1vVVRFWXVTMzY4MEFhS18zYXZXelJ2TGxqRjhRemRoV2Q1TUN6TTU4a0pISHFTQXIyekhFMzZNdlp6ek9zQ1BfdHdyOGpRekU?oc=5\" target=\"_blank\">Deense data-analyse toont verband Bovaer en zwavel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">De Molenaar</font>",
+      "id": "a9b45704f0c1a186"
     },
     {
       "title": "Bovaer-problemen niet gecorreleerd aan ras of productieniveau - Melkvee.nl",
@@ -272,15 +261,15 @@
       "id": "c2600c107cc58e91"
     },
     {
-      "title": "Wereldwijde kritiek op Bovaer - deanderekrant.nl",
+      "title": "Wereldwijde kritiek op Bovaer - De Andere Krant",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15QTROX2RZUlE0MjYxVms2dzFLdW1ETVliaUJiRnU4QzdfWDNsNjA5ejhUX3kwVXg5Q2VuemkwaUx0ampEaUl4MFhDQi1kNzFkN1JINXcxMHlCdjdPY0FsVUhJYkx5QQ?oc=5",
       "pubDate": "2025-12-01T08:00:00+00:00",
-      "source": "deanderekrant.nl",
+      "source": "De Andere Krant",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE15QTROX2RZUlE0MjYxVms2dzFLdW1ETVliaUJiRnU4QzdfWDNsNjA5ejhUX3kwVXg5Q2VuemkwaUx0ampEaUl4MFhDQi1kNzFkN1JINXcxMHlCdjdPY0FsVUhJYkx5QQ?oc=5\" target=\"_blank\">Wereldwijde kritiek op Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">deanderekrant.nl</font>",
-      "id": "93c585be9cb0b8e0"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE15QTROX2RZUlE0MjYxVms2dzFLdW1ETVliaUJiRnU4QzdfWDNsNjA5ejhUX3kwVXg5Q2VuemkwaUx0ampEaUl4MFhDQi1kNzFkN1JINXcxMHlCdjdPY0FsVUhJYkx5QQ?oc=5\" target=\"_blank\">Wereldwijde kritiek op Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">De Andere Krant</font>",
+      "id": "c09b70438a010cd1"
     },
     {
       "title": "Denen krijgen ruimte om te stoppen met methaanremmer Bovaer - VILT vzw",
@@ -336,6 +325,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ28takhiTVR0bXJpV1d4Q29QMThoYXFqRXdqU0haWG50UTVxTkRMN0lDdXdVZHZrQmlyY2c3YlhFWFdPWEN2RlU0OVVhQXdJakJ1WmJHWHB5dXJDZFZIVzNfQXpfa2VHeXBIa3lsWEEwUUJnTDE0a2Y0emI0N3lYdmhZQUFTRFpUV0dFRFFKVkhCVTktNHBld1Fn?oc=5\" target=\"_blank\">Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Euronews.com</font>",
       "id": "a106a5a6aa4216b1"
+    },
+    {
+      "title": "Kontroverse um Bovaer: Ist der Klimaschutz-Zusatz eine Gefahr für Kühe? - Telepolis",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2FsS2tUeUdHS3F2MUI3WXpnd0JFOW1wbDVUQm9UNVNsUFdaczdETV9QRlBWblpaV040SFBuRVpKUjZwbVk0dnFJZ2VIQnAySG5uTTRBaWFDN2dxc29faFZWR2hEcXc5U3JaQVg2cFB1TFUzQ2FFX2xzd2xDWnc4b0tFbEczYmlob3JFN0w1ZUxEQ1ctTE5GdHFvTlNzQWU5SHByb1JTOFJhalROVVdsLVF3blpaX3BwaEE?oc=5",
+      "pubDate": "2025-11-25T08:00:00+00:00",
+      "source": "Telepolis",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2FsS2tUeUdHS3F2MUI3WXpnd0JFOW1wbDVUQm9UNVNsUFdaczdETV9QRlBWblpaV040SFBuRVpKUjZwbVk0dnFJZ2VIQnAySG5uTTRBaWFDN2dxc29faFZWR2hEcXc5U3JaQVg2cFB1TFUzQ2FFX2xzd2xDWnc4b0tFbEczYmlob3JFN0w1ZUxEQ1ctTE5GdHFvTlNzQWU5SHByb1JTOFJhalROVVdsLVF3blpaX3BwaEE?oc=5\" target=\"_blank\">Kontroverse um Bovaer: Ist der Klimaschutz-Zusatz eine Gefahr für Kühe?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Telepolis</font>",
+      "id": "200bc09d41c0d224"
     }
   ]
 }
