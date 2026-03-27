@@ -35527,8 +35527,8 @@
     "municipality": "Mehun-sur-Yèvre",
     "products": [],
     "website": null,
-    "lat": 47.1449975,
-    "lon": 2.2183417,
+    "lat": 47.1450222,
+    "lon": 2.2183352,
     "address": "Rue Jeanne d'Arc"
   },
   {
@@ -46359,6 +46359,18 @@
     "lat": 45.7904731,
     "lon": 4.9616355,
     "address": null
+  },
+  {
+    "id": 13257230448,
+    "name": "Made In Berry-Sologne",
+    "country": "France",
+    "region": null,
+    "municipality": "Mehun-sur-Yèvre",
+    "products": [],
+    "website": null,
+    "lat": 47.1449975,
+    "lon": 2.2183417,
+    "address": "Rue Jeanne d'Arc"
   },
   {
     "id": 8733788931,

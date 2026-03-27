@@ -6498,6 +6498,92 @@
     "address": null
   },
   {
+    "id": 721331835,
+    "name": "boerderijwinkel de kolke",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1742476,
+    "lon": 6.1334132,
+    "address": null
+  },
+  {
+    "id": 1928199614,
+    "name": "Groente- en Fruithandel J. Kraaij & Zoon",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2128986,
+    "lon": 5.2855458,
+    "address": null
+  },
+  {
+    "id": 2731756473,
+    "name": "Jan Otten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "'s-Gravenhage",
+    "products": [],
+    "website": null,
+    "lat": 52.0781982,
+    "lon": 4.2696324,
+    "address": "Abeelplein"
+  },
+  {
+    "id": 5971944180,
+    "name": "Korenblik",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.boerderijkorenblik.nl/",
+    "lat": 52.128933,
+    "lon": 6.2753847,
+    "address": null
+  },
+  {
+    "id": 9083859686,
+    "name": "Boerderijwinkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177873,
+    "lon": 4.6080501,
+    "address": "Spookverlaat"
+  },
+  {
+    "id": 12643600076,
+    "name": "De Kastanjeboom",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Bunschoten-Spakenburg",
+    "products": [],
+    "website": "https://dekastanjeboom.nl/",
+    "lat": 52.2174238,
+    "lon": 5.3891221,
+    "address": "Zevenhuizerstraat"
+  },
+  {
+    "id": 982183443,
+    "name": "Boerderij winkel VanHier",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hazerswoude-Rijndijk",
+    "products": [
+      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
+    ],
+    "website": "https://www.boerderijwinkelvanhier.nl/",
+    "lat": 52.1177108,
+    "lon": 4.6086832,
+    "address": "Spookverlaat"
+  },
+  {
     "id": 269721285,
     "name": "de Gouden ton",
     "country": "Netherlands",
@@ -7008,19 +7094,6 @@
     "address": "Uitslagsweg 91-7, 7556LN",
     "source": "osm",
     "phone": "+31 74 2592940"
-  },
-  {
-    "id": 1928199614,
-    "name": "Groente- en Fruithandel J. Kraaij & Zoon",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2128986,
-    "lon": 5.2855458,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 1928999817,
@@ -9178,19 +9251,6 @@
     "lat": 52.1453347,
     "lon": 4.4811577,
     "address": "Rooseveltstraat 43, 2321BL",
-    "source": "osm"
-  },
-  {
-    "id": 2731756473,
-    "name": "Jan Otten",
-    "country": "Netherlands",
-    "region": "Zuid-Holland",
-    "municipality": "'s-Gravenhage",
-    "products": [],
-    "website": null,
-    "lat": 52.0781982,
-    "lon": 4.2696324,
-    "address": "Abeelplein 4K, 2565XS",
     "source": "osm"
   },
   {
@@ -17118,19 +17178,6 @@
     "phone": "+31 570 234054"
   },
   {
-    "id": 5971944180,
-    "name": "Korenblik",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": null,
-    "products": [],
-    "website": "http://www.boerderijkorenblik.nl/",
-    "lat": 52.128933,
-    "lon": 6.2753847,
-    "address": null,
-    "source": "osm"
-  },
-  {
     "id": 5981139985,
     "name": "Wijnwinkel Souverein",
     "country": "Netherlands",
@@ -18500,19 +18547,6 @@
     "address": null,
     "source": "osm",
     "phone": "+31 35 6916059"
-  },
-  {
-    "id": 12643600076,
-    "name": "De Kastanjeboom",
-    "country": "Netherlands",
-    "region": "Gelderland",
-    "municipality": "Bunschoten-Spakenburg",
-    "products": [],
-    "website": "https://dekastanjeboom.nl/",
-    "lat": 52.2174238,
-    "lon": 5.3891221,
-    "address": "Zevenhuizerstraat 281, 3751LC",
-    "source": "osm"
   },
   {
     "id": 12685099487,
@@ -27183,18 +27217,6 @@
     "address": null
   },
   {
-    "id": 9083859686,
-    "name": "Boerderijwinkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hazerswoude-Rijndijk",
-    "products": [],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177873,
-    "lon": 4.6080501,
-    "address": "Spookverlaat"
-  },
-  {
     "id": 9161056079,
     "name": "Afra",
     "country": "Netherlands",
@@ -29497,20 +29519,6 @@
     "lat": 51.7815065,
     "lon": 4.4880837,
     "address": null
-  },
-  {
-    "id": 982183443,
-    "name": "Boerderij winkel VanHier",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hazerswoude-Rijndijk",
-    "products": [
-      "eggs,dairy products,fruit juices,sausages,vegetables,jam and more"
-    ],
-    "website": "https://www.boerderijwinkelvanhier.nl/",
-    "lat": 52.1177108,
-    "lon": 4.6086832,
-    "address": "Spookverlaat"
   },
   {
     "id": 1037201343,
@@ -32006,18 +32014,6 @@
     "website": null,
     "lat": 52.7588442,
     "lon": 4.6805766,
-    "address": null
-  },
-  {
-    "id": 721331835,
-    "name": "boerderijwinkel de kolke",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1742476,
-    "lon": 6.1334132,
     "address": null
   },
   {
