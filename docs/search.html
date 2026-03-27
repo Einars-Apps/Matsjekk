@@ -113,14 +113,16 @@
       return;
     }
 
-    // Otherwise use search endpoint
-    const params = new URLSearchParams({search_terms: query, search_simple: '1', json: '1', page_size: '10'});
-    const url = `https://world.openfoodfacts.org/cgi/search.pl?${params.toString()}`;
+    // Otherwise use search endpoint (new Elasticsearch-based API)
+    const params = new URLSearchParams({q: query, page_size: '10', fields: 'product_name,brands,brands_tags,code,labels,labels_tags,ingredients_text,ingredients_text_en,image_front_thumb_url'});
+    const url = `https://search.openfoodfacts.org/search?${params.toString()}`;
     try {
       const r = await fetch(url);
       const j = await r.json();
-      if (!j.products || j.products.length === 0) { resultEl.innerHTML = '<p>Ingen treff.</p>'; return; }
-      resultEl.innerHTML = j.products.map(p=>{
+      if (!j.hits || j.hits.length === 0) { resultEl.innerHTML = '<p>Ingen treff.</p>'; return; }
+      resultEl.innerHTML = j.hits.map(p=>{
+        // Normalize brands from array to string
+        if (Array.isArray(p.brands)) p.brands = p.brands.join(', ');
         const c = classify(p, riskData, country);
         return `<div class="search-hit">${renderProduct(p,c)}</div>`;
       }).join('\n');

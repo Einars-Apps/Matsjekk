@@ -2165,10 +2165,17 @@ class _ScannerScreenState extends State<ScannerScreen>
                         if (searchController.text.length < 2) return;
                         isSearching.value = true;
                         final response = await http.get(Uri.parse(
-                            'https://world.openfoodfacts.org/cgi/search.pl?search_terms=${searchController.text}&search_simple=1&action=process&json=1&page_size=20'));
+                            'https://search.openfoodfacts.org/search?q=${Uri.encodeComponent(searchController.text)}&page_size=20&fields=product_name,brands,code,image_front_thumb_url'));
                         if (response.statusCode == 200) {
                           final data = json.decode(response.body);
-                          searchResults.value = data['products'] ?? [];
+                          final hits = data['hits'] as List<dynamic>? ?? [];
+                          // Normalize brands from array to string for compatibility
+                          for (final hit in hits) {
+                            if (hit['brands'] is List) {
+                              hit['brands'] = (hit['brands'] as List).join(', ');
+                            }
+                          }
+                          searchResults.value = hits;
                         }
                         isSearching.value = false;
                       },
