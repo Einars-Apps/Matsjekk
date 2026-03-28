@@ -799576,18 +799576,6 @@
     "address": "Alte Kindhauserstrasse"
   },
   {
-    "id": 599755713,
-    "name": "Biohof Orflen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3508809,
-    "lon": 8.9346929,
-    "address": null
-  },
-  {
     "id": 692404147,
     "name": "Stettbach-Lädeli",
     "country": "Switzerland",
@@ -804928,18 +804916,6 @@
     "address": "Lenzburgerstrasse"
   },
   {
-    "id": 5890736289,
-    "name": "Holligers Hoflädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2696078,
-    "lon": 8.2026031,
-    "address": null
-  },
-  {
     "id": 5920435946,
     "name": "Hofladen Linden",
     "country": "Switzerland",
@@ -807112,18 +807088,6 @@
     "address": null
   },
   {
-    "id": 8286498001,
-    "name": "Hafner's Hoflädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Berikon",
-    "products": [],
-    "website": null,
-    "lat": 47.3493502,
-    "lon": 8.3782652,
-    "address": "Friedlisbergstrasse"
-  },
-  {
     "id": 8294181252,
     "name": "Grüelhof / Biohof Sevelen",
     "country": "Switzerland",
@@ -808187,8 +808151,8 @@
     "municipality": null,
     "products": [],
     "website": "https://hofchaesi.ch/weidsch%C3%B6pli",
-    "lat": 47.3531264,
-    "lon": 7.9997982,
+    "lat": 47.3530427,
+    "lon": 7.9996401,
     "address": null
   },
   {
@@ -808442,18 +808406,6 @@
     "lat": 47.6323808,
     "lon": 8.8021313,
     "address": "Breitenweg"
-  },
-  {
-    "id": 9572730249,
-    "name": "Marché du centre-ville",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lausanne.ch/vie-pratique/economie-et-commerces/marches-et-commerce-itinerant/marches-lausannois/marche-du-centre-ville.html",
-    "lat": 46.5231787,
-    "lon": 6.6326505,
-    "address": null
   },
   {
     "id": 9575554911,
@@ -809183,8 +809135,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2466547,
-    "lon": 8.8047385,
+    "lat": 47.2468899,
+    "lon": 8.805025,
     "address": null
   },
   {
@@ -809608,18 +809560,6 @@
     "address": "Raaderstrasse"
   },
   {
-    "id": 10148377195,
-    "name": "Winiker Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Uster",
-    "products": [],
-    "website": null,
-    "lat": 47.3623992,
-    "lon": 8.7213158,
-    "address": "Gschwaderstrasse"
-  },
-  {
     "id": 10157889667,
     "name": "Hoflädeli",
     "country": "Switzerland",
@@ -809798,6 +809738,18 @@
     "lat": 47.4027348,
     "lon": 8.2530156,
     "address": "Igelweid"
+  },
+  {
+    "id": 10182112620,
+    "name": "s'Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Möriken",
+    "products": [],
+    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
+    "lat": 47.4146941,
+    "lon": 8.1875301,
+    "address": "Steinackerstrasse"
   },
   {
     "id": 10185873600,
@@ -810280,18 +810232,6 @@
     "address": "Brandegg"
   },
   {
-    "id": 10261375558,
-    "name": "Oberschwandenhof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Samstagern",
-    "products": [],
-    "website": "https://www.oberschwandenhof.ch/hofladen",
-    "lat": 47.2020042,
-    "lon": 8.6818983,
-    "address": "Obere Schwandenstrasse"
-  },
-  {
     "id": 10261379857,
     "name": "Puurähof Vorderstoss",
     "country": "Switzerland",
@@ -810356,7 +810296,7 @@
     "name": "Bio- & Hofladen Bachmattlihof",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Wilen b. Wollerau",
+    "municipality": null,
     "products": [],
     "website": "https://bachmattlihof.ch/",
     "lat": 47.1971004,
@@ -811478,6 +811418,18 @@
     "lat": 46.5551017,
     "lon": 6.3778483,
     "address": "Chemin de la Prélaz"
+  },
+  {
+    "id": 11298779978,
+    "name": "Winiker Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3623791,
+    "lon": 8.7214343,
+    "address": null
   },
   {
     "id": 11306115455,
@@ -813820,18 +813772,6 @@
     "address": "Krummenseesiedlungsstrasse"
   },
   {
-    "id": 12784088093,
-    "name": "Hofladen Remund",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3204366,
-    "lon": 8.2085549,
-    "address": null
-  },
-  {
     "id": 12800128394,
     "name": "Hofleckereien",
     "country": "Switzerland",
@@ -814984,186 +814924,6 @@
     "address": null
   },
   {
-    "id": 13577876867,
-    "name": "Ferme des Condémines",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Vuisternens-en-Ogoz",
-    "products": [],
-    "website": null,
-    "lat": 46.7072518,
-    "lon": 7.0699674,
-    "address": "Route des Condémines"
-  },
-  {
-    "id": 13590750921,
-    "name": "Ziegenhof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9472165,
-    "lon": 8.6544787,
-    "address": null
-  },
-  {
-    "id": 13609407702,
-    "name": "Waldladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.008564,
-    "lon": 7.4013025,
-    "address": null
-  },
-  {
-    "id": 13611772391,
-    "name": "Garohof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://garohof.ch/",
-    "lat": 47.0316535,
-    "lon": 7.0882018,
-    "address": null
-  },
-  {
-    "id": 13614153395,
-    "name": "GLENNERHOF",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Castrisch",
-    "products": [],
-    "website": null,
-    "lat": 46.7734602,
-    "lon": 9.2146808,
-    "address": "Via da Riein"
-  },
-  {
-    "id": 13614169690,
-    "name": "Hof Isla",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7745759,
-    "lon": 9.2173291,
-    "address": null
-  },
-  {
-    "id": 13615756504,
-    "name": "Hofladen Familie Gut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4369516,
-    "lon": 8.5257419,
-    "address": null
-  },
-  {
-    "id": 13644670280,
-    "name": "Schulladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.steinerschule-aargau.ch/weitere-angebote/schulladen",
-    "lat": 47.3842914,
-    "lon": 8.1435139,
-    "address": null
-  },
-  {
-    "id": 13646915201,
-    "name": "Mosers Eierlädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8230167,
-    "lon": 7.6196505,
-    "address": "Wydibühlstrasse"
-  },
-  {
-    "id": 13646957280,
-    "name": "Hofladen Familie Appert",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0610619,
-    "lon": 8.5357047,
-    "address": null
-  },
-  {
-    "id": 13654153552,
-    "name": "Wildenstein Eier",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3772022,
-    "lon": 8.1881843,
-    "address": null
-  },
-  {
-    "id": 13664687301,
-    "name": "Hof zum Jägerhuus Natura-Beef",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4884778,
-    "lon": 8.3129351,
-    "address": "Weidweg"
-  },
-  {
-    "id": 13669720901,
-    "name": "Von Euw Eier AG",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.gefluegelhof.ch/",
-    "lat": 47.4763273,
-    "lon": 8.5281305,
-    "address": "Im Hof"
-  },
-  {
-    "id": 13674794732,
-    "name": "Blumen zum selber schneiden.",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3710184,
-    "lon": 8.0399051,
-    "address": null
-  },
-  {
-    "id": 13685025444,
-    "name": "Bergs Hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5491161,
-    "lon": 7.5866876,
-    "address": null
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -815492,7 +815252,7 @@
     "name": "Wolf Biogemüse",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Ried bei Kerzers",
+    "municipality": "Ried",
     "products": [],
     "website": null,
     "lat": 46.9516535,
@@ -815930,6 +815690,18 @@
     "lat": 46.3666028,
     "lon": 7.9661667,
     "address": "Bäll"
+  },
+  {
+    "id": 378371914,
+    "name": "Légumes Rossier",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Denges",
+    "products": [],
+    "website": "https://legumesrossier.com/",
+    "lat": 46.5225143,
+    "lon": 6.5402414,
+    "address": "Chemin du Monteiron"
   },
   {
     "id": 385582023,
@@ -816772,18 +816544,6 @@
     "address": null
   },
   {
-    "id": 1488753957,
-    "name": "Kenel's Erlibuurehof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Arth",
-    "products": [],
-    "website": "https://www.erlibuurehof.ch/",
-    "lat": 47.0668883,
-    "lon": 8.5276068,
-    "address": "Erliweg"
-  },
-  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -816808,6 +816568,42 @@
     "address": null
   },
   {
+    "id": 599755713,
+    "name": "Biohof Orflen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3508809,
+    "lon": 8.9346929,
+    "address": null
+  },
+  {
+    "id": 5890736289,
+    "name": "Holligers Hoflädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2696078,
+    "lon": 8.2026031,
+    "address": null
+  },
+  {
+    "id": 8286498001,
+    "name": "Hafner's Hoflädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Berikon",
+    "products": [],
+    "website": null,
+    "lat": 47.3493502,
+    "lon": 8.3782652,
+    "address": "Friedlisbergstrasse"
+  },
+  {
     "id": 9257794218,
     "name": "Weidschöpli",
     "country": "Switzerland",
@@ -816815,8 +816611,20 @@
     "municipality": null,
     "products": [],
     "website": "https://hofchaesi.ch/weidsch%C3%B6pli",
-    "lat": 47.3530427,
-    "lon": 7.9996401,
+    "lat": 47.3531264,
+    "lon": 7.9997982,
+    "address": null
+  },
+  {
+    "id": 9572730249,
+    "name": "Marché du centre-ville",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lausanne.ch/vie-pratique/economie-et-commerces/marches-et-commerce-itinerant/marches-lausannois/marche-du-centre-ville.html",
+    "lat": 46.5231787,
+    "lon": 6.6326505,
     "address": null
   },
   {
@@ -816827,45 +816635,237 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2468899,
-    "lon": 8.805025,
+    "lat": 47.2466547,
+    "lon": 8.8047385,
     "address": null
   },
   {
-    "id": 10182112620,
-    "name": "s'Lädeli",
+    "id": 10148377195,
+    "name": "Winiker Lädeli",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Möriken",
+    "municipality": "Uster",
     "products": [],
-    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
-    "lat": 47.4146941,
-    "lon": 8.1875301,
-    "address": "Steinackerstrasse"
+    "website": null,
+    "lat": 47.3623992,
+    "lon": 8.7213158,
+    "address": "Gschwaderstrasse"
   },
   {
-    "id": 11298779978,
-    "name": "Winiker Lädeli",
+    "id": 10261375558,
+    "name": "Oberschwandenhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Samstagern",
+    "products": [],
+    "website": "https://www.oberschwandenhof.ch/hofladen",
+    "lat": 47.2020042,
+    "lon": 8.6818983,
+    "address": "Obere Schwandenstrasse"
+  },
+  {
+    "id": 12784088093,
+    "name": "Hofladen Remund",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.3623791,
-    "lon": 8.7214343,
+    "lat": 47.3204366,
+    "lon": 8.2085549,
     "address": null
   },
   {
-    "id": 378371914,
-    "name": "Légumes Rossier",
+    "id": 13577876867,
+    "name": "Ferme des Condémines",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Denges",
+    "municipality": "Vuisternens-en-Ogoz",
     "products": [],
-    "website": "https://legumesrossier.com/",
-    "lat": 46.5225143,
-    "lon": 6.5402414,
-    "address": "Chemin du Monteiron"
+    "website": null,
+    "lat": 46.7072518,
+    "lon": 7.0699674,
+    "address": "Route des Condémines"
+  },
+  {
+    "id": 13590750921,
+    "name": "Ziegenhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9472165,
+    "lon": 8.6544787,
+    "address": null
+  },
+  {
+    "id": 13609407702,
+    "name": "Waldladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.008564,
+    "lon": 7.4013025,
+    "address": null
+  },
+  {
+    "id": 13611772391,
+    "name": "Garohof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://garohof.ch/",
+    "lat": 47.0316535,
+    "lon": 7.0882018,
+    "address": null
+  },
+  {
+    "id": 13614153395,
+    "name": "GLENNERHOF",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Castrisch",
+    "products": [],
+    "website": null,
+    "lat": 46.7734602,
+    "lon": 9.2146808,
+    "address": "Via da Riein"
+  },
+  {
+    "id": 13614169690,
+    "name": "Hof Isla",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7745759,
+    "lon": 9.2173291,
+    "address": null
+  },
+  {
+    "id": 13615756504,
+    "name": "Hofladen Familie Gut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4369516,
+    "lon": 8.5257419,
+    "address": null
+  },
+  {
+    "id": 13644670280,
+    "name": "Schulladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.steinerschule-aargau.ch/weitere-angebote/schulladen",
+    "lat": 47.3842914,
+    "lon": 8.1435139,
+    "address": null
+  },
+  {
+    "id": 13646915201,
+    "name": "Mosers Eierlädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8230167,
+    "lon": 7.6196505,
+    "address": "Wydibühlstrasse"
+  },
+  {
+    "id": 13646957280,
+    "name": "Hofladen Familie Appert",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0610619,
+    "lon": 8.5357047,
+    "address": null
+  },
+  {
+    "id": 13654153552,
+    "name": "Wildenstein Eier",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3772022,
+    "lon": 8.1881843,
+    "address": null
+  },
+  {
+    "id": 13664687301,
+    "name": "Hof zum Jägerhuus Natura-Beef",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4884778,
+    "lon": 8.3129351,
+    "address": "Weidweg"
+  },
+  {
+    "id": 13669720901,
+    "name": "Von Euw Eier AG",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.gefluegelhof.ch/",
+    "lat": 47.4763273,
+    "lon": 8.5281305,
+    "address": "Im Hof"
+  },
+  {
+    "id": 13674794732,
+    "name": "Blumen zum selber schneiden.",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3710184,
+    "lon": 8.0399051,
+    "address": null
+  },
+  {
+    "id": 13685025444,
+    "name": "Bergs Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5491161,
+    "lon": 7.5866876,
+    "address": null
+  },
+  {
+    "id": 1488753957,
+    "name": "Kenel's Erlibuurehof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Arth",
+    "products": [],
+    "website": "https://www.erlibuurehof.ch/",
+    "lat": 47.0668883,
+    "lon": 8.5276068,
+    "address": "Erliweg"
   },
   {
     "id": 267879354,
