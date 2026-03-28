@@ -4696,9 +4696,9 @@
     "name": "Hofladen Entrup 119",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Altenberge",
     "products": [],
-    "website": "http://www.entrup119.de",
+    "website": "https://www.entrup119.de/",
     "lat": 52.069921,
     "lon": 7.5302581,
     "address": "Entrup"
@@ -25074,7 +25074,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://erdbeerlandernst.de/",
     "lat": 49.2341536,
     "lon": 7.0213077,
     "address": null
@@ -47623,8 +47623,8 @@
     "municipality": "Werder (Havel)",
     "products": [],
     "website": "https://www.kasimirlieselotte.de/",
-    "lat": 52.3867448,
-    "lon": 12.928737,
+    "lat": 52.3867926,
+    "lon": 12.9289012,
     "address": "Eisenbahnstraße"
   },
   {
@@ -69994,6 +69994,18 @@
     "lat": 52.1669522,
     "lon": 9.8675701,
     "address": null
+  },
+  {
+    "id": 11044370587,
+    "name": "Kasimir + Lieselotte",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Werder (Havel)",
+    "products": [],
+    "website": "https://www.kasimirlieselotte.de/",
+    "lat": 52.3867448,
+    "lon": 12.928737,
+    "address": "Eisenbahnstraße"
   },
   {
     "id": 6499429731,

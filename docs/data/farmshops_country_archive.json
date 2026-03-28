@@ -59990,6 +59990,18 @@
       "lon": 8.7288142,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 13685734128,
+      "name": "Nygårdens Gårdbutik",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://nygaardenfrugt.dk/",
+      "lat": 55.9173502,
+      "lon": 11.6435908,
+      "address": null
     }
   ],
   "FI": [
@@ -624759,6 +624771,18 @@
       "website": null,
       "lat": 47.3710184,
       "lon": 8.0399051,
+      "address": null
+    },
+    {
+      "id": 13685025444,
+      "name": "Bergs Hofladen",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.5491161,
+      "lon": 7.5866876,
       "address": null
     }
   ],

@@ -15648,6 +15648,18 @@
     "address": null
   },
   {
+    "id": 13685025444,
+    "name": "Bergs Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5491161,
+    "lon": 7.5866876,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -17290,6 +17302,66 @@
     "lat": 47.3109306,
     "lon": 8.9341511,
     "address": null
+  },
+  {
+    "id": 9257794218,
+    "name": "Weidschöpli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://hofchaesi.ch/weidsch%C3%B6pli",
+    "lat": 47.3530427,
+    "lon": 7.9996401,
+    "address": null
+  },
+  {
+    "id": 10033695195,
+    "name": "Hofladen Schwesterrain",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2468899,
+    "lon": 8.805025,
+    "address": null
+  },
+  {
+    "id": 10182112620,
+    "name": "s'Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Möriken",
+    "products": [],
+    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
+    "lat": 47.4146941,
+    "lon": 8.1875301,
+    "address": "Steinackerstrasse"
+  },
+  {
+    "id": 11298779978,
+    "name": "Winiker Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3623791,
+    "lon": 8.7214343,
+    "address": null
+  },
+  {
+    "id": 378371914,
+    "name": "Légumes Rossier",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Denges",
+    "products": [],
+    "website": "https://legumesrossier.com/",
+    "lat": 46.5225143,
+    "lon": 6.5402414,
+    "address": "Chemin du Monteiron"
   },
   {
     "id": 267879354,
@@ -24799,19 +24871,6 @@
     "address": "Rue du Château 22, 2952",
     "source": "osm",
     "phone": "+41 32 462 22 17"
-  },
-  {
-    "id": 9257794218,
-    "name": "Weidschöpli",
-    "country": "Switzerland",
-    "region": "Bern",
-    "municipality": null,
-    "products": [],
-    "website": "https://hofchaesi.ch/weidsch%C3%B6pli",
-    "lat": 47.3530427,
-    "lon": 7.9996401,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 9272941767,
@@ -34681,18 +34740,6 @@
     "address": null
   },
   {
-    "id": 10033695195,
-    "name": "Hofladen Schwesterrain",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2468899,
-    "lon": 8.805025,
-    "address": null
-  },
-  {
     "id": 10049323644,
     "name": "Verein Wunder Baden",
     "country": "Switzerland",
@@ -34847,18 +34894,6 @@
     "lat": 47.5634772,
     "lon": 9.2390708,
     "address": null
-  },
-  {
-    "id": 10182112620,
-    "name": "s'Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Möriken",
-    "products": [],
-    "website": "https://wagnereigarten.ch/sladeli-in-moriken/",
-    "lat": 47.4146941,
-    "lon": 8.1875301,
-    "address": "Steinackerstrasse"
   },
   {
     "id": 10202706513,
@@ -42786,18 +42821,6 @@
     "address": null
   },
   {
-    "id": 11298779978,
-    "name": "Winiker Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3623791,
-    "lon": 8.7214343,
-    "address": null
-  },
-  {
     "id": 12784088093,
     "name": "Farm shop 12784088093",
     "country": "Switzerland",
@@ -42820,18 +42843,6 @@
     "lat": 46.3120632,
     "lon": 6.1318219,
     "address": null
-  },
-  {
-    "id": 378371914,
-    "name": "Légumes Rossier",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Denges",
-    "products": [],
-    "website": "https://legumesrossier.com/",
-    "lat": 46.5225143,
-    "lon": 6.5402414,
-    "address": "Chemin du Monteiron"
   },
   {
     "id": 477943063,
