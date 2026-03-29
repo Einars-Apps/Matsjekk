@@ -10002,9 +10002,9 @@
     "region": null,
     "municipality": "Wakefield",
     "products": [],
-    "website": "https://www.blackerhallfarmshop.co.uk/",
-    "lat": 53.6380005,
-    "lon": -1.5466315,
+    "website": "https://www.blackerhall.com",
+    "lat": 53.638058,
+    "lon": -1.5467846,
     "address": "Branch Road"
   },
   {
@@ -18430,6 +18430,18 @@
     "lat": 50.7224101,
     "lon": -2.1474983,
     "address": null
+  },
+  {
+    "id": 506233696,
+    "name": "Blacker Hall Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Wakefield",
+    "products": [],
+    "website": "https://www.blackerhallfarmshop.co.uk/",
+    "lat": 53.6380005,
+    "lon": -1.5466315,
+    "address": "Branch Road"
   },
   {
     "id": 5970083691,

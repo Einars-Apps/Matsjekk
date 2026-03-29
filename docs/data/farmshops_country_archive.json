@@ -523615,6 +523615,18 @@
       "lat": 53.3140911,
       "lon": -2.1931186,
       "address": "Wilmslow Road"
+    },
+    {
+      "id": 506233696,
+      "name": "Blacker Hall Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Wakefield",
+      "products": [],
+      "website": "https://www.blackerhall.com",
+      "lat": 53.638058,
+      "lon": -1.5467846,
+      "address": "Branch Road"
     }
   ],
   "IE": [
