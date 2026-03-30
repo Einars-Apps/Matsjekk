@@ -9228,6 +9228,18 @@
     "address": null
   },
   {
+    "id": 13688399804,
+    "name": "Tatanka - società agricola",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://tatankafarm.it/",
+    "lat": 45.6096545,
+    "lon": 11.4904587,
+    "address": "Via Cesare Battisti"
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",

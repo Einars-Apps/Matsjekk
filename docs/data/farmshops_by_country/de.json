@@ -7458,7 +7458,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.gartenbau-drechsler.de/",
     "lat": 49.4894307,
     "lon": 11.0646188,
     "address": null
@@ -11878,6 +11878,18 @@
     "lat": 54.1948054,
     "lon": 10.8712167,
     "address": "Hofweg"
+  },
+  {
+    "id": 3630547700,
+    "name": "Paradies Ranch / Frische Forellen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.3841284,
+    "lon": 10.2021062,
+    "address": null
   },
   {
     "id": 3633476391,
@@ -28798,6 +28810,18 @@
     "lat": 48.7296018,
     "lon": 12.2948147,
     "address": null
+  },
+  {
+    "id": 7388760510,
+    "name": "Bäckerei Vollkern",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Temnitztal",
+    "products": [],
+    "website": "https://www.baeckerei-vollkern.de/",
+    "lat": 52.8529549,
+    "lon": 12.6038471,
+    "address": "Lindenhof"
   },
   {
     "id": 7389778173,
@@ -48504,6 +48528,18 @@
     "address": "Uhlandstraße"
   },
   {
+    "id": 11201759549,
+    "name": "Biohofladen Overesch",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Steinfurt",
+    "products": [],
+    "website": "https://www.biohof-overesch.de/",
+    "lat": 52.1683246,
+    "lon": 7.3458998,
+    "address": "Hollich"
+  },
+  {
     "id": 11202307929,
     "name": "Hofladen Biohof Nau",
     "country": "Germany",
@@ -53097,42 +53133,6 @@
     "website": "https://www.brenneis-regional.de/",
     "lat": 49.6413849,
     "lon": 9.3464344,
-    "address": null
-  },
-  {
-    "id": 12111467137,
-    "name": "Hofladen Hof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4410082,
-    "lon": 7.4743751,
-    "address": null
-  },
-  {
-    "id": 12111487971,
-    "name": "Milchtankstelle Jakobshof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.6038221,
-    "lon": 10.1202812,
-    "address": null
-  },
-  {
-    "id": 12114192481,
-    "name": "Knapps Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.3944975,
-    "lon": 9.0948242,
     "address": null
   },
   {
@@ -59814,7 +59814,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://streuobstverein.de/",
+    "website": "https://www.streuobstverein.de/",
     "lat": 51.5095045,
     "lon": 9.9696102,
     "address": null
@@ -69993,6 +69993,42 @@
     "website": null,
     "lat": 52.1669522,
     "lon": 9.8675701,
+    "address": null
+  },
+  {
+    "id": 12111467137,
+    "name": "Hofladen Hof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4410082,
+    "lon": 7.4743751,
+    "address": null
+  },
+  {
+    "id": 12111487971,
+    "name": "Milchtankstelle Jakobshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6038221,
+    "lon": 10.1202812,
+    "address": null
+  },
+  {
+    "id": 12114192481,
+    "name": "Knapps Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.3944975,
+    "lon": 9.0948242,
     "address": null
   },
   {

@@ -574687,6 +574687,18 @@
       "lon": 16.2906676,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 13688216872,
+      "name": "Villa Kunterbunt",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Gnadenwald",
+      "products": [],
+      "website": null,
+      "lat": 47.3222636,
+      "lon": 11.5875229,
+      "address": "Gnadenwald"
     }
   ],
   "CH": [

@@ -33748,24 +33748,12 @@
     "name": "Le Panier d’Albert",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Garches",
     "products": [],
-    "website": "https://lepanierdealbert.fr",
+    "website": "https://lepanierdealbert.paheko.cloud/",
     "lat": 48.8446574,
     "lon": 2.1876622,
-    "address": null
-  },
-  {
-    "id": 12936413037,
-    "name": "La Ruche Qui dit Oui !",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://laruchequiditoui.fr/fr-FR/assemblies/3227",
-    "lat": 48.8446631,
-    "lon": 2.1876646,
-    "address": null
+    "address": "Grande Rue"
   },
   {
     "id": 12942455706,
@@ -46406,6 +46394,18 @@
     "website": null,
     "lat": 45.7904731,
     "lon": 4.9616355,
+    "address": null
+  },
+  {
+    "id": 12936413037,
+    "name": "La Ruche Qui dit Oui !",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://laruchequiditoui.fr/fr-FR/assemblies/3227",
+    "lat": 48.8446631,
+    "lon": 2.1876646,
     "address": null
   },
   {
