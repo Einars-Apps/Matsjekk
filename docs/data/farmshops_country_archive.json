@@ -24571,6 +24571,32 @@
       "lon": 7.1528177,
       "address": "Daugstadvegen 221",
       "source": "https://www.lokalmat.no/produsenter/villa-wagyu-(villa-samdrift)/"
+    },
+    {
+      "id": "lokalmat_12295",
+      "name": "Takka",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": "Skåla",
+      "products": [],
+      "website": null,
+      "lat": 62.7509064,
+      "lon": 7.434123,
+      "address": "Grønnesvegen 335",
+      "source": "https://www.lokalmat.no/produsenter/takka/"
+    },
+    {
+      "id": "hanen_3057",
+      "name": "Hasle gård Sundby",
+      "country": "Norway",
+      "region": "Vestfold",
+      "municipality": "SANDEFJORD",
+      "products": [],
+      "website": "https://www.facebook.com/haslegaard",
+      "lat": 59.1438,
+      "lon": 10.237738,
+      "address": "Lønneveien 52",
+      "source": "https://www.hanen.no/bedrift/hasle-gaard-sundby/"
     }
   ],
   "SE": [

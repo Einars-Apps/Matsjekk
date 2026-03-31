@@ -24721,15 +24721,15 @@
   },
   {
     "id": 6518497256,
-    "name": "Hofladen Michaelshof",
+    "name": "Biomarkt am Michaelshof",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Sammatz",
     "products": [],
     "website": "https://michaelshof-sammatz.de/",
-    "lat": 53.192356,
-    "lon": 10.9015958,
-    "address": null
+    "lat": 53.1938588,
+    "lon": 10.9004067,
+    "address": "Im Dorfe"
   },
   {
     "id": 6528449612,
@@ -65599,8 +65599,8 @@
     "municipality": "Ludwigshafen am Rhein",
     "products": [],
     "website": "http://www.casaverdura.de",
-    "lat": 49.4721078,
-    "lon": 8.3230579,
+    "lat": 49.47211,
+    "lon": 8.3230555,
     "address": "Fußgönheimer Straße"
   },
   {
@@ -69994,6 +69994,30 @@
     "lat": 52.1669522,
     "lon": 9.8675701,
     "address": null
+  },
+  {
+    "id": 6518497256,
+    "name": "Hofladen Michaelshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://michaelshof-sammatz.de/",
+    "lat": 53.192356,
+    "lon": 10.9015958,
+    "address": null
+  },
+  {
+    "id": 740255545,
+    "name": "Casa Verdura - Edith's Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Ludwigshafen am Rhein",
+    "products": [],
+    "website": "http://www.casaverdura.de",
+    "lat": 49.4721078,
+    "lon": 8.3230579,
+    "address": "Fußgönheimer Straße"
   },
   {
     "id": 12111467137,
