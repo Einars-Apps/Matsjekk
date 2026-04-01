@@ -1152,6 +1152,18 @@
     "address": "Vääräkoskentie"
   },
   {
+    "id": 13652474587,
+    "name": "Vyrdegård",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Billnäs",
+    "products": [],
+    "website": "https://www.vyrdegard.fi",
+    "lat": 60.0847533,
+    "lon": 23.620474,
+    "address": "Sjösängsvägen"
+  },
+  {
     "id": 76736163,
     "name": "Riista- ja kalatalouden tutkimuslaitos",
     "country": "Finland",
@@ -1546,18 +1558,6 @@
     "lat": 64.9652763,
     "lon": 25.856806,
     "address": null
-  },
-  {
-    "id": 13652474587,
-    "name": "Vyrdegård",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Billnäs",
-    "products": [],
-    "website": "https://www.vyrdegard.fi",
-    "lat": 60.0847533,
-    "lon": 23.620474,
-    "address": "Sjösängsvägen"
   },
   {
     "id": 304661047,

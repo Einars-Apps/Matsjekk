@@ -10860,18 +10860,6 @@
     "address": "Meierberg"
   },
   {
-    "id": 3468686130,
-    "name": "Hopkes Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Moormerland",
-    "products": [],
-    "website": null,
-    "lat": 53.3002875,
-    "lon": 7.4907309,
-    "address": "Koloniestraße"
-  },
-  {
     "id": 3468739991,
     "name": "Kronauer Hof",
     "country": "Germany",
@@ -53136,6 +53124,18 @@
     "address": null
   },
   {
+    "id": 12111467137,
+    "name": "Hofladen Hof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4410082,
+    "lon": 7.4743751,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -69996,6 +69996,18 @@
     "address": null
   },
   {
+    "id": 3468686130,
+    "name": "Hopkes Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Moormerland",
+    "products": [],
+    "website": null,
+    "lat": 53.3002875,
+    "lon": 7.4907309,
+    "address": "Koloniestraße"
+  },
+  {
     "id": 6518497256,
     "name": "Hofladen Michaelshof",
     "country": "Germany",
@@ -70018,18 +70030,6 @@
     "lat": 49.4721078,
     "lon": 8.3230579,
     "address": "Fußgönheimer Straße"
-  },
-  {
-    "id": 12111467137,
-    "name": "Hofladen Hof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4410082,
-    "lon": 7.4743751,
-    "address": null
   },
   {
     "id": 12111487971,

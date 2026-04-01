@@ -15415,6 +15415,19 @@
     "source": "https://www.hanen.no/bedrift/syse-gard/"
   },
   {
+    "id": "hanen_1411",
+    "name": "Tenneltunet Lene Lysklett",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Lensvik",
+    "products": [],
+    "website": "https://Tenneltunet.no",
+    "lat": 63.486085,
+    "lon": 9.845828,
+    "address": "Tennelsveien 5",
+    "source": "https://www.hanen.no/bedrift/tenneltunet-lene-lysklett/"
+  },
+  {
     "id": "hanen_1398",
     "name": "Kirsten Slagstads gårdsdrift",
     "country": "Norway",

@@ -24597,6 +24597,19 @@
       "lon": 10.237738,
       "address": "Lønneveien 52",
       "source": "https://www.hanen.no/bedrift/hasle-gaard-sundby/"
+    },
+    {
+      "id": "hanen_1411",
+      "name": "Tenneltunet Lene Lysklett",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Lensvik",
+      "products": [],
+      "website": "https://Tenneltunet.no",
+      "lat": 63.486085,
+      "lon": 9.845828,
+      "address": "Tennelsveien 5",
+      "source": "https://www.hanen.no/bedrift/tenneltunet-lene-lysklett/"
     }
   ],
   "SE": [
@@ -624833,6 +624846,18 @@
       "website": null,
       "lat": 47.5491161,
       "lon": 7.5866876,
+      "address": null
+    },
+    {
+      "id": 5198667089,
+      "name": "Hofladen Tannenhof",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.6000185,
+      "lon": 9.2409403,
       "address": null
     }
   ],
