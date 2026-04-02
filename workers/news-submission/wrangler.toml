@@ -6,7 +6,7 @@ compatibility_date = "2024-01-01"
 # (fallback to in-memory KV if not configured)
 
 [vars]
-ALLOWED_ORIGINS = "https://matsjekk.com,https://www.matsjekk.com,https://einars-apps.github.io"
+ALLOWED_ORIGINS = "https://matsjekk.com"
 MAX_SUBMISSIONS_PER_HOUR = "5"
 GITHUB_REPO = "Einars-Apps/Matsjekk"
 

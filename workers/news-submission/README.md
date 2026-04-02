@@ -61,7 +61,7 @@ Environment variables in `wrangler.toml`:
 
 | Variable | Default | Description |
 |---|---|---|
-| `ALLOWED_ORIGINS` | matsjekk.com, einars-apps.github.io | CORS allowed origins |
+| `ALLOWED_ORIGINS` | matsjekk.com | CORS allowed origins |
 | `MAX_SUBMISSIONS_PER_HOUR` | 5 | Rate limit per IP |
 | `GITHUB_REPO` | Einars-Apps/Matsjekk | Target repo for issues |
 

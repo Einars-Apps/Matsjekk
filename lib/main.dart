@@ -130,7 +130,8 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
     // MaterialApp build
     return MaterialApp(
       title: 'Matvare-sjekk',
-      onGenerateTitle: (context) => AppLocalizations.of(context)?.appTitle ?? 'Food Check',
+      onGenerateTitle: (context) =>
+          AppLocalizations.of(context)?.appTitle ?? 'Food Check',
       navigatorKey: _navigatorKey,
       localizationsDelegates: const [
         AppLocalizations.delegate,
@@ -215,8 +216,10 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
+  bool _initialPrivacyDialogOpen = false;
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
-  final MatvaretabellenService _matvaretabellenService = MatvaretabellenService();
+  final MatvaretabellenService _matvaretabellenService =
+      MatvaretabellenService();
 
   @override
   void initState() {
@@ -233,6 +236,11 @@ class _ScannerScreenState extends State<ScannerScreen>
     listPositionsBox = Hive.box('list_positions');
     _loadListerAndPositions();
     _loadInnstillinger();
+    if (!_isTestEnv) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _maybeShowInitialPrivacyDialog();
+      });
+    }
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
       _matvaretabellenService.load();
@@ -351,6 +359,34 @@ class _ScannerScreenState extends State<ScannerScreen>
     premiumActive = innstillingerBox.get(PremiumService.premiumActiveKey,
         defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
+  }
+
+  String _initialPrivacyMessage(BuildContext context) {
+    switch (_menuLanguageCode(context)) {
+      case 'en':
+        return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
+      case 'nb':
+      default:
+        return 'Les personvernet første gang du bruker appen. Du kan bruke appen uten analyse, og handledataene dine blir liggende lokalt på enheten.';
+    }
+  }
+
+  Future<void> _maybeShowInitialPrivacyDialog() async {
+    if (!mounted || _initialPrivacyDialogOpen) return;
+    final seen =
+        innstillingerBox.get('privacy_notice_seen', defaultValue: false);
+    if (seen == true) return;
+
+    _initialPrivacyDialogOpen = true;
+    await _safeShowDialogBuilder(
+      (_) => ConsentDialog(
+        showAdBanner: !premiumActive,
+        markPrivacyNoticeSeen: true,
+        initialMessage: _initialPrivacyMessage(context),
+      ),
+      barrierDismissible: false,
+    );
+    _initialPrivacyDialogOpen = false;
   }
 
   Future<void> _loadRemoteRiskRules() async {
@@ -700,16 +736,19 @@ class _ScannerScreenState extends State<ScannerScreen>
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       if (!mounted) return;
-      safeSnack(context, AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open link');
+      safeSnack(
+          context,
+          AppLocalizations.of(context)?.couldNotOpenLink ??
+              'Could not open link');
     }
   }
 
   String _howAppWorksText(BuildContext context) {
     return AppLocalizations.of(context)?.howAppWorksSteps ??
         '1. Scan the product barcode.\n'
-        '2. The app fetches product data from Open Food Facts.\n'
-        '3. Alerts are evaluated against internal brand and ingredient rules.\n'
-        '4. You get a simple risk view and can save items to your shopping list.';
+            '2. The app fetches product data from Open Food Facts.\n'
+            '3. Alerts are evaluated against internal brand and ingredient rules.\n'
+            '4. You get a simple risk view and can save items to your shopping list.';
   }
 
   String _regionalNewsLabel(BuildContext context) {
@@ -776,7 +815,10 @@ class _ScannerScreenState extends State<ScannerScreen>
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       if (!mounted) return;
-      safeSnack(context, AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open link');
+      safeSnack(
+          context,
+          AppLocalizations.of(context)?.couldNotOpenLink ??
+              'Could not open link');
     }
   }
 
@@ -851,7 +893,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (ean == _lastEan) return;
     _lastEan = ean;
 
-    final notFoundMsg = AppLocalizations.of(context)?.productNotFound ?? 'Product not found in database.';
+    final notFoundMsg = AppLocalizations.of(context)?.productNotFound ??
+        'Product not found in database.';
     setState(() => _isLoading = true);
     _hentInfo(ean).then((info) {
       if (info.isNotEmpty) {
@@ -874,8 +917,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           historikkBox.put(histKey, historikk);
         }
       } else {
-        _safeSnack(notFoundMsg,
-            duration: const Duration(seconds: 2));
+        _safeSnack(notFoundMsg, duration: const Duration(seconds: 2));
       }
     }).whenComplete(() {
       setState(() => _isLoading = false);
@@ -1008,8 +1050,7 @@ class _ScannerScreenState extends State<ScannerScreen>
       'merke': merke,
       'etiketter': etiketter,
       'kategorier': kategorier,
-      'ingredienser':
-          cleanedIngredients.isEmpty ? '' : cleanedIngredients,
+      'ingredienser': cleanedIngredients.isEmpty ? '' : cleanedIngredients,
       'bildeUrl': bildeUrl,
       'bildeThumbUrl': bildeThumbUrl,
       'nutriscore': nutriscore.toUpperCase(),
@@ -1029,8 +1070,7 @@ class _ScannerScreenState extends State<ScannerScreen>
 
     // Nutrition from OpenFoodFacts nutriments
     if (nutriments.isNotEmpty) {
-      info['næringsinnhold'] =
-          Product.extractNutrition(nutriments);
+      info['næringsinnhold'] = Product.extractNutrition(nutriments);
     }
 
     // Allergens from OFF tags, with ingredient-text fallback
@@ -1046,8 +1086,8 @@ class _ScannerScreenState extends State<ScannerScreen>
       }
     }
     if (allergens.isEmpty && cleanedIngredients.isNotEmpty) {
-      allergens.addAll(
-          Product.extractAllergensFromIngredients(cleanedIngredients));
+      allergens
+          .addAll(Product.extractAllergensFromIngredients(cleanedIngredients));
     }
     if (allergens.isNotEmpty) {
       info['allergener'] = allergens;
@@ -1091,14 +1131,19 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (!list.any((item) => item.endsWith(itemName))) {
                 list.insert(0, itemName);
                 box.put(listToAddTo, list);
-                _safeSnack(AppLocalizations.of(context)?.addedToList(itemName, listToAddTo) ?? '"$itemName" added to $listToAddTo',
+                _safeSnack(
+                    AppLocalizations.of(context)
+                            ?.addedToList(itemName, listToAddTo) ??
+                        '"$itemName" added to $listToAddTo',
                     duration: const Duration(seconds: 2));
                 Analytics.logEvent(
                     'add_to_list', {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
+          TextButton(
+              onPressed: () => _safePop(),
+              child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
         ],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
@@ -1143,90 +1188,92 @@ class _ScannerScreenState extends State<ScannerScreen>
                               height: MediaQuery.of(context).size.height * 0.55,
                               child: ListView(
                                 children: [
-                              _languageTile(
-                                  AppLocalizations.of(context)?.norwegian ??
-                                      'Norwegian',
-                                  'nb',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.english ??
-                                      'English',
-                                  'en',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.swedish ??
-                                      'Swedish',
-                                  'sv',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.danish ??
-                                      'Danish',
-                                  'da',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.finnish ??
-                                      'Finnish',
-                                  'fi',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.german ??
-                                      'German',
-                                  'de',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.dutch ??
-                                      'Dutch',
-                                  'nl',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.french ??
-                                      'French',
-                                  'fr',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.italian ??
-                                      'Italian',
-                                  'it',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.portuguese ??
-                                      'Portuguese',
-                                  'pt',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.spanish ??
-                                      'Spanish',
-                                  'es',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.korean ?? '한국어',
-                                  'ko',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.polish ??
-                                      'Polski',
-                                  'pl',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.russian ??
-                                      'Русский',
-                                  'ru',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.chinese ??
-                                      '中文',
-                                  'zh',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.arabic ??
-                                      'العربية',
-                                  'ar',
-                                  setDialogState),
-                              _languageTile(
-                                  AppLocalizations.of(context)?.thai ??
-                                      'ภาษาไทย',
-                                  'th',
-                                  setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.norwegian ??
+                                          'Norwegian',
+                                      'nb',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.english ??
+                                          'English',
+                                      'en',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.swedish ??
+                                          'Swedish',
+                                      'sv',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.danish ??
+                                          'Danish',
+                                      'da',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.finnish ??
+                                          'Finnish',
+                                      'fi',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.german ??
+                                          'German',
+                                      'de',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.dutch ??
+                                          'Dutch',
+                                      'nl',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.french ??
+                                          'French',
+                                      'fr',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.italian ??
+                                          'Italian',
+                                      'it',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)
+                                              ?.portuguese ??
+                                          'Portuguese',
+                                      'pt',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.spanish ??
+                                          'Spanish',
+                                      'es',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.korean ??
+                                          '한국어',
+                                      'ko',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.polish ??
+                                          'Polski',
+                                      'pl',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.russian ??
+                                          'Русский',
+                                      'ru',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.chinese ??
+                                          '中文',
+                                      'zh',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.arabic ??
+                                          'العربية',
+                                      'ar',
+                                      setDialogState),
+                                  _languageTile(
+                                      AppLocalizations.of(context)?.thai ??
+                                          'ภาษาไทย',
+                                      'th',
+                                      setDialogState),
                                 ],
                               ),
                             ),
@@ -1235,9 +1282,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: Text(
-                                  AppLocalizations.of(context)?.close ??
-                                      'Close'))
+                              child: Text(AppLocalizations.of(context)?.close ??
+                                  'Close'))
                         ],
                       ),
                     ),
@@ -1325,9 +1371,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: Text(
-                                  AppLocalizations.of(context)?.close ??
-                                      'Close'))
+                              child: Text(AppLocalizations.of(context)?.close ??
+                                  'Close'))
                         ],
                       ),
                     ),
@@ -1336,11 +1381,15 @@ class _ScannerScreenState extends State<ScannerScreen>
               ),
               ListTile(
                 leading: const Icon(Icons.tips_and_updates),
-                title: Text(AppLocalizations.of(context)?.shoppingListMemoryTitle ?? 'Shopping list: memory and autocomplete'),
+                title: Text(
+                    AppLocalizations.of(context)?.shoppingListMemoryTitle ??
+                        'Shopping list: memory and autocomplete'),
                 onTap: () {
                   _safePop();
                   _safeShowDialogBuilder((_) => AlertDialog(
-                        title: Text(AppLocalizations.of(context)?.shoppingListMemoryHow ?? 'How to use the shopping list memory'),
+                        title: Text(AppLocalizations.of(context)
+                                ?.shoppingListMemoryHow ??
+                            'How to use the shopping list memory'),
                         content: Column(
                           mainAxisSize: MainAxisSize.min,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -1350,11 +1399,19 @@ class _ScannerScreenState extends State<ScannerScreen>
                                 padding: EdgeInsets.only(bottom: 8),
                                 child: AdBanner(),
                               ),
-                            Text(AppLocalizations.of(context)?.shoppingListMemoryIntro ?? 'The shopping list has memory and autocomplete:'),
+                            Text(AppLocalizations.of(context)
+                                    ?.shoppingListMemoryIntro ??
+                                'The shopping list has memory and autocomplete:'),
                             const SizedBox(height: 8),
-                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep1 ?? '1. + adds exactly what you type.'),
-                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep2 ?? '2. Enter adds the suggestion in the input field.'),
-                            Text(AppLocalizations.of(context)?.shoppingListMemoryStep3 ?? '3. Tap a product in the memory list to add it.'),
+                            Text(AppLocalizations.of(context)
+                                    ?.shoppingListMemoryStep1 ??
+                                '1. + adds exactly what you type.'),
+                            Text(AppLocalizations.of(context)
+                                    ?.shoppingListMemoryStep2 ??
+                                '2. Enter adds the suggestion in the input field.'),
+                            Text(AppLocalizations.of(context)
+                                    ?.shoppingListMemoryStep3 ??
+                                '3. Tap a product in the memory list to add it.'),
                           ],
                         ),
                         actions: [
@@ -1401,8 +1458,12 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (Platform.isIOS)
                 ListTile(
                   leading: const Icon(Icons.verified),
-                  title: Text(AppLocalizations.of(context)?.appReviewTestTitle ?? 'App Review Test Codes'),
-                  subtitle: Text(AppLocalizations.of(context)?.appReviewTestSubtitle ?? 'Open demo products without camera'),
+                  title: Text(
+                      AppLocalizations.of(context)?.appReviewTestTitle ??
+                          'App Review Test Codes'),
+                  subtitle: Text(
+                      AppLocalizations.of(context)?.appReviewTestSubtitle ??
+                          'Open demo products without camera'),
                   onTap: () {
                     _safePop();
                     _showAppReviewTestDialog();
@@ -1439,9 +1500,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
-                            child: Text(
-                                AppLocalizations.of(context)?.close ??
-                                    'Close')),
+                            child: Text(AppLocalizations.of(context)?.close ??
+                                'Close')),
                         ElevatedButton.icon(
                           onPressed: () {
                             _safePop();
@@ -1505,12 +1565,14 @@ class _ScannerScreenState extends State<ScannerScreen>
     final sampleCodes = appReviewSampleProducts.keys.toList(growable: false);
     _safeShowDialogBuilder(
       (_) => AlertDialog(
-        title: Text(AppLocalizations.of(context)?.appReviewTestTitle ?? 'App Review Test Codes'),
+        title: Text(AppLocalizations.of(context)?.appReviewTestTitle ??
+            'App Review Test Codes'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(AppLocalizations.of(context)?.appReviewTestInstructions ?? 'Choose a test code to open a demo product:'),
+            Text(AppLocalizations.of(context)?.appReviewTestInstructions ??
+                'Choose a test code to open a demo product:'),
             const SizedBox(height: 12),
             ...sampleCodes.map(
               (code) => Padding(
@@ -1525,7 +1587,9 @@ class _ScannerScreenState extends State<ScannerScreen>
                     if (info.isNotEmpty) {
                       _visProduktDialog(info);
                     } else {
-                      _safeSnack(AppLocalizations.of(context)?.appReviewDemoNotFound(code) ?? 'Could not find demo product for $code');
+                      _safeSnack(AppLocalizations.of(context)
+                              ?.appReviewDemoNotFound(code) ??
+                          'Could not find demo product for $code');
                     }
                   },
                   icon: const Icon(Icons.qr_code),
@@ -1536,7 +1600,9 @@ class _ScannerScreenState extends State<ScannerScreen>
           ],
         ),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close')),
+          TextButton(
+              onPressed: () => _safePop(),
+              child: Text(AppLocalizations.of(context)?.close ?? 'Close')),
         ],
       ),
     );
@@ -1608,26 +1674,26 @@ class _ScannerScreenState extends State<ScannerScreen>
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: sortedLandCodes.map((code) {
-                    final label = _countryName(code);
-                    final selected = selectedCountry == code;
-                    return ListTile(
-                      leading: selected
-                          ? const Icon(Icons.radio_button_checked)
-                          : const Icon(Icons.radio_button_unchecked),
-                      title: Text(label),
-                      onTap: () async {
-                        if (selected) return;
-                        innstillingerBox.put('selectedCountry', code);
-                        setDialogState(() => selectedCountry = code);
-                        _safePop();
-                        if (!_isTestEnv) {
-                          await Future.delayed(
-                              const Duration(milliseconds: 200));
-                        }
-                        if (mounted) widget.onCountryChanged(code);
-                      },
-                    );
-                  }).toList(),
+                        final label = _countryName(code);
+                        final selected = selectedCountry == code;
+                        return ListTile(
+                          leading: selected
+                              ? const Icon(Icons.radio_button_checked)
+                              : const Icon(Icons.radio_button_unchecked),
+                          title: Text(label),
+                          onTap: () async {
+                            if (selected) return;
+                            innstillingerBox.put('selectedCountry', code);
+                            setDialogState(() => selectedCountry = code);
+                            _safePop();
+                            if (!_isTestEnv) {
+                              await Future.delayed(
+                                  const Duration(milliseconds: 200));
+                            }
+                            if (mounted) widget.onCountryChanged(code);
+                          },
+                        );
+                      }).toList(),
                     ),
                   ),
                 ),
@@ -1690,8 +1756,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         'text': !useCustomNarrative
             ? ''
             : isNorwegian
-            ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
-            : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
+                ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
+                : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
         'url': bovaerUpdateUrl,
       };
     }
@@ -1702,8 +1768,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         'text': !useCustomNarrative
             ? ''
             : isNorwegian
-            ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
-            : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
+                ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
+                : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
         'url': bovaerUpdateUrl,
       };
     }
@@ -1714,8 +1780,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         'text': !useCustomNarrative
             ? ''
             : isNorwegian
-            ? 'MULIG RISIKO: Tine opplyser at Bovaer-melk ikke lenger blandes inn i produkter, men eldre varer kan fortsatt finnes i butikk. Sjekk produksjonsdato.'
-            : 'POSSIBLE RISK: Tine states that Bovaer milk is no longer mixed into products, but older items may still be in stores. Check production date.',
+                ? 'MULIG RISIKO: Tine opplyser at Bovaer-melk ikke lenger blandes inn i produkter, men eldre varer kan fortsatt finnes i butikk. Sjekk produksjonsdato.'
+                : 'POSSIBLE RISK: Tine states that Bovaer milk is no longer mixed into products, but older items may still be in stores. Check production date.',
         'url': bovaerUpdateUrl,
       };
     }
@@ -1777,8 +1843,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
   }
 
-  RiskLevel _analyzeGmoRisk(
-      String brand, String category, String ingredients) {
+  RiskLevel _analyzeGmoRisk(String brand, String category, String ingredients) {
     final lowerBrand = brand.toLowerCase();
     final lowerCategory = category.toLowerCase();
     final lowerIngredients = ingredients.toLowerCase();
@@ -1790,9 +1855,20 @@ class _ScannerScreenState extends State<ScannerScreen>
 
     // Fish keywords to detect in category OR ingredients
     const fishKeywords = [
-      'salmon', 'laks', 'trout', 'ørret', 'pangasius', 'tilapia',
-      'sjøørret', 'fjordørret', 'oppdrettslaks', 'atlantisk laks',
-      'fish', 'fisk', 'sushi', 'sashimi',
+      'salmon',
+      'laks',
+      'trout',
+      'ørret',
+      'pangasius',
+      'tilapia',
+      'sjøørret',
+      'fjordørret',
+      'oppdrettslaks',
+      'atlantisk laks',
+      'fish',
+      'fisk',
+      'sushi',
+      'sashimi',
     ];
 
     final hasFishSignal = fishKeywords.any(
@@ -1821,8 +1897,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final isNorwegian =
-        country == 'NO' || Platform.localeName.startsWith('nb');
+    final isNorwegian = country == 'NO' || Platform.localeName.startsWith('nb');
 
     final lowerIngredients = ingredients.toLowerCase();
     final lowerLabels = labels.toLowerCase();
@@ -1843,8 +1918,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
 
     // 2. Check country-specific insect keywords
-    final localKeywords = _countryRulesList(
-        country, 'insect_keywords', insectKeywordsFallback);
+    final localKeywords =
+        _countryRulesList(country, 'insect_keywords', insectKeywordsFallback);
     for (final keyword in localKeywords) {
       if (combined.contains(keyword.toLowerCase())) {
         return {
@@ -2172,7 +2247,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                           // Normalize brands from array to string for compatibility
                           for (final hit in hits) {
                             if (hit['brands'] is List) {
-                              hit['brands'] = (hit['brands'] as List).join(', ');
+                              hit['brands'] =
+                                  (hit['brands'] as List).join(', ');
                             }
                           }
                           searchResults.value = hits;
