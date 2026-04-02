@@ -523702,6 +523702,18 @@
       "lat": 50.9551864,
       "lon": -1.5188648,
       "address": null
+    },
+    {
+      "id": 6898747819,
+      "name": "Island Farm Eggs",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Ryde",
+      "products": [],
+      "website": null,
+      "lat": 50.6914199,
+      "lon": -1.1433533,
+      "address": "Carpenters Road"
     }
   ],
   "IE": [
