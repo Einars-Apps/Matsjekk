@@ -137,6 +137,8 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
     // MaterialApp build
     return MaterialApp(
       title: 'Matvare-sjekk',
+      onGenerateTitle: (context) =>
+          AppLocalizations.of(context)?.appTitle ?? 'Food Check',
       navigatorKey: _navigatorKey,
       localizationsDelegates: const [
         AppLocalizations.delegate,
@@ -215,6 +217,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
+  bool _initialPrivacyDialogOpen = false;
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
 
   BannerAd? _bannerAd;
@@ -234,6 +237,11 @@ class _ScannerScreenState extends State<ScannerScreen>
     listPositionsBox = Hive.box('list_positions');
     _loadListerAndPositions();
     _loadInnstillinger();
+    if (!_isTestEnv) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _maybeShowInitialPrivacyDialog();
+      });
+    }
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
     }
@@ -369,6 +377,34 @@ class _ScannerScreenState extends State<ScannerScreen>
     premiumActive =
       innstillingerBox.get(PremiumService.premiumActiveKey, defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
+  }
+
+  String _initialPrivacyMessage(BuildContext context) {
+    switch (_menuLanguageCode(context)) {
+      case 'en':
+        return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
+      case 'nb':
+      default:
+        return 'Les personvernet forste gang du bruker appen. Du kan bruke appen uten analyse, og handledataene dine blir liggende lokalt pa enheten.';
+    }
+  }
+
+  Future<void> _maybeShowInitialPrivacyDialog() async {
+    if (!mounted || _initialPrivacyDialogOpen) return;
+    final seen =
+        innstillingerBox.get('privacy_notice_seen', defaultValue: false);
+    if (seen == true) return;
+
+    _initialPrivacyDialogOpen = true;
+    await _safeShowDialogBuilder(
+      (_) => ConsentDialog(
+        showAdBanner: !premiumActive,
+        markPrivacyNoticeSeen: true,
+        initialMessage: _initialPrivacyMessage(context),
+      ),
+      barrierDismissible: false,
+    );
+    _initialPrivacyDialogOpen = false;
   }
 
   Future<void> _loadRemoteRiskRules() async {
@@ -1115,7 +1151,9 @@ class _ScannerScreenState extends State<ScannerScreen>
             title: const Text('Personvern'),
             onTap: () {
               _safePop();
-              _safeShowDialogBuilder((_) => const ConsentDialog());
+              _safeShowDialogBuilder(
+                (_) => ConsentDialog(showAdBanner: !premiumActive),
+              );
             },
           ),
           ListTile(

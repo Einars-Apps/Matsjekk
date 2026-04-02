@@ -10,10 +10,16 @@ const supportedLanguages = [
   { code: 'it', label: 'Italiano' },
   { code: 'pt', label: 'Portugues' },
   { code: 'es', label: 'Espanol' },
+  { code: 'ko', label: '한국어' },
+  { code: 'pl', label: 'Polski' },
+  { code: 'ru', label: 'Русский' },
+  { code: 'zh', label: '中文' },
+  { code: 'ar', label: 'العربية' },
+  { code: 'th', label: 'ภาษาไทย' },
 ];
 
 const AUTO_LANGUAGE_CODE = 'auto';
-const LOCAL_UI_LANGUAGES = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es'];
+const LOCAL_UI_LANGUAGES = ['nb', 'en', 'sv', 'da', 'fi', 'de', 'nl', 'fr', 'it', 'pt', 'es', 'ko', 'pl', 'ru', 'zh', 'ar', 'th'];
 
 const translations = {
   nb: {
@@ -405,6 +411,78 @@ const translations = {
     footerCopyright: '\u00a9 2026 Mat Sjekk / Einar\'s Apps. Todos los derechos reservados.',
   },};
 
+const APP_LANGUAGE_COUNT_LABELS = {
+  nb: '17 sprak',
+  en: '17 languages',
+  sv: '17 sprak',
+  da: '17 sprog',
+  fi: '17 kieltä',
+  de: '17 Sprachen',
+  nl: '17 talen',
+  fr: '17 langues',
+  it: '17 lingue',
+  pt: '17 idiomas',
+  es: '17 idiomas',
+  ko: '17 languages',
+  pl: '17 languages',
+  ru: '17 languages',
+  zh: '17 languages',
+  ar: '17 languages',
+  th: '17 languages',
+};
+
+const APP_LANGUAGE_TEXT_LABELS = {
+  nb: 'Stotte for norsk, engelsk, svensk, dansk, finsk, tysk, nederlandsk, fransk, italiensk, portugisisk, spansk, koreansk, polsk, russisk, kinesisk, arabisk og thai',
+  en: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  sv: 'Stod for norska, engelska, svenska, danska, finska, tyska, nederlandska, franska, italienska, portugisiska, spanska, koreanska, polska, ryska, kinesiska, arabiska och thailandska',
+  da: 'Understotter norsk, engelsk, svensk, dansk, finsk, tysk, nederlandsk, fransk, italiensk, portugisisk, spansk, koreansk, polsk, russisk, kinesisk, arabisk og thai',
+  fi: 'Tukee norjaa, englantia, ruotsia, tanskaa, suomea, saksaa, hollantia, ranskaa, italiaa, portugalia, espanjaa, koreaa, puolaa, venajaa, kiinaa, arabiaa ja thaita',
+  de: 'Unterstutzt Norwegisch, Englisch, Schwedisch, Danisch, Finnisch, Deutsch, Niederlandisch, Franzosisch, Italienisch, Portugiesisch, Spanisch, Koreanisch, Polnisch, Russisch, Chinesisch, Arabisch und Thai',
+  nl: 'Ondersteunt Noors, Engels, Zweeds, Deens, Fins, Duits, Nederlands, Frans, Italiaans, Portugees, Spaans, Koreaans, Pools, Russisch, Chinees, Arabisch en Thai',
+  fr: 'Prend en charge le norvegien, l anglais, le suedois, le danois, le finnois, l allemand, le neerlandais, le francais, l italien, le portugais, l espagnol, le coreen, le polonais, le russe, le chinois, l arabe et le thai',
+  it: 'Supporta norvegese, inglese, svedese, danese, finlandese, tedesco, olandese, francese, italiano, portoghese, spagnolo, coreano, polacco, russo, cinese, arabo e tailandese',
+  pt: 'Suporta noruegues, ingles, sueco, dinamarques, finlandes, alemao, neerlandes, frances, italiano, portugues, espanhol, coreano, polaco, russo, chines, arabe e tailandes',
+  es: 'Admite noruego, ingles, sueco, danes, fines, aleman, neerlandes, frances, italiano, portugues, espanol, coreano, polaco, ruso, chino, arabe y tailandes',
+  ko: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  pl: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  ru: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  zh: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  ar: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+  th: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
+};
+
+const HARMONY_BUTTON_LABELS = {
+  nb: '🟨 Last ned for HarmonyOS',
+  en: '🟨 Download for HarmonyOS',
+  sv: '🟨 Ladda ner for HarmonyOS',
+  da: '🟨 Download til HarmonyOS',
+  fi: '🟨 Lataa HarmonyOS-versio',
+  de: '🟨 Fur HarmonyOS herunterladen',
+  nl: '🟨 Download voor HarmonyOS',
+  fr: '🟨 Telecharger pour HarmonyOS',
+  it: '🟨 Scarica per HarmonyOS',
+  pt: '🟨 Transferir para HarmonyOS',
+  es: '🟨 Descargar para HarmonyOS',
+  ko: '🟨 Download for HarmonyOS',
+  pl: '🟨 Download for HarmonyOS',
+  ru: '🟨 Download for HarmonyOS',
+  zh: '🟨 Download for HarmonyOS',
+  ar: '🟨 Download for HarmonyOS',
+  th: '🟨 Download for HarmonyOS',
+};
+
+['ko', 'pl', 'ru', 'zh', 'ar', 'th'].forEach((code) => {
+  if (!translations[code]) {
+    translations[code] = { ...translations.en };
+  }
+});
+
+Object.entries(translations).forEach(([code, dict]) => {
+  dict.featureLangTitle = APP_LANGUAGE_COUNT_LABELS[code] || APP_LANGUAGE_COUNT_LABELS.en;
+  dict.featureLangText = APP_LANGUAGE_TEXT_LABELS[code] || APP_LANGUAGE_TEXT_LABELS.en;
+  dict.ctaHarmonyStore = HARMONY_BUTTON_LABELS[code] || HARMONY_BUTTON_LABELS.en;
+});
+
 const LANG_STORAGE_KEY = 'matsjekk_lang';
 const GEO_CACHE_KEY = 'matsjekk_geo_country';
 const GEO_CACHE_MAX_AGE_MS = 24 * 60 * 60 * 1000;
@@ -620,7 +698,7 @@ function populateSelectWithOptions(selectElement, options) {
 
 function populateLangSelects() {
   populateSelect(document.getElementById('lang-select'));
-  populateSelect(document.getElementById('news-lang')); // Auto + all 11 languages
+  populateSelect(document.getElementById('news-lang')); // Auto + all supported languages
   populateSelectWithOptions(document.getElementById('article-lang'), supportedLanguages);
 }
 
