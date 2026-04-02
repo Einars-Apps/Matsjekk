@@ -62191,8 +62191,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.schmidt-nordmeier.de",
-    "lat": 52.4582246,
-    "lon": 9.7434404,
+    "lat": 52.4582343,
+    "lon": 9.7434154,
     "address": "Walsroder Straße"
   },
   {
@@ -69994,6 +69994,18 @@
     "lat": 52.1669522,
     "lon": 9.8675701,
     "address": null
+  },
+  {
+    "id": 379046435,
+    "name": "Hofladen Schmidt-Nordmeier",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.schmidt-nordmeier.de",
+    "lat": 52.4582246,
+    "lon": 9.7434404,
+    "address": "Walsroder Straße"
   },
   {
     "id": 3468686130,

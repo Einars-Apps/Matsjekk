@@ -264,6 +264,18 @@
     "address": "Worting Road"
   },
   {
+    "id": 460412846,
+    "name": "Gloagburn Farm Shop and Cafe",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tibbermore",
+    "products": [],
+    "website": "https://www.gloagburnfarmshop.co.uk/",
+    "lat": 56.395849,
+    "lon": -3.5481671,
+    "address": null
+  },
+  {
     "id": 471421098,
     "name": "Priestly Farm Shop",
     "country": "United Kingdom",
@@ -364,12 +376,12 @@
     "name": "Oxhey Lane Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Pinner",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.6184491,
     "lon": -0.3674893,
-    "address": "Oxhey Lane"
+    "address": null
   },
   {
     "id": 602183580,
@@ -1965,7 +1977,7 @@
     "website": null,
     "lat": 55.716445,
     "lon": -3.8891919,
-    "address": "Lanark Road"
+    "address": null
   },
   {
     "id": 4506964854,
@@ -2205,7 +2217,7 @@
     "website": null,
     "lat": 51.4005576,
     "lon": -2.4950981,
-    "address": "Chewton Road"
+    "address": null
   },
   {
     "id": 4747834821,
@@ -2590,6 +2602,18 @@
     "lat": 52.9357043,
     "lon": -1.5080896,
     "address": "Markeaton Lane"
+  },
+  {
+    "id": 5196661098,
+    "name": "Smiths Farm Foods",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Northampton",
+    "products": [],
+    "website": null,
+    "lat": 52.2445425,
+    "lon": -0.8087182,
+    "address": "The Causeway"
   },
   {
     "id": 5198893878,
@@ -3006,9 +3030,9 @@
     "region": null,
     "municipality": "Barnsley",
     "products": [],
-    "website": "https://www.cannonhallfarm.co.uk/things-to-do/cannon-hall-farm-shop/",
+    "website": null,
     "lat": 53.571932,
-    "lon": -1.590434,
+    "lon": -1.5904868,
     "address": "Bark House Lane"
   },
   {
@@ -3664,7 +3688,7 @@
     "name": "The Blagdon Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Newcastle upon Tyne",
+    "municipality": "Seaton Burn",
     "products": [],
     "website": null,
     "lat": 55.0793622,
@@ -4564,7 +4588,7 @@
     "name": "Flourish Foodhall & Kitchen",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Bristol",
+    "municipality": null,
     "products": [],
     "website": "https://www.flourishatglenavon.co.uk/",
     "lat": 51.4074081,
@@ -6052,12 +6076,12 @@
     "name": "Mill of Inverarity Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Forfar",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 56.5867153,
-    "lon": -2.8943583,
-    "address": "Mill Of Inverarity"
+    "lat": 56.5870786,
+    "lon": -2.8937146,
+    "address": null
   },
   {
     "id": 12788654955,
@@ -6088,7 +6112,7 @@
     "name": "Carnoustie Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Carnoustie",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 56.5098684,
@@ -6256,12 +6280,12 @@
     "name": "The Dunes Larder",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Isle of North Uist",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 57.6052436,
     "lon": -7.5183207,
-    "address": "Hougharry"
+    "address": null
   },
   {
     "id": 13078244533,
@@ -6286,18 +6310,6 @@
     "lat": 54.8078236,
     "lon": -6.3512029,
     "address": "Glebe Road"
-  },
-  {
-    "id": 13104110898,
-    "name": "Mousehole Farmers Market",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.0840927,
-    "lon": -5.5396228,
-    "address": "Duck Street"
   },
   {
     "id": 13105536796,
@@ -6550,78 +6562,6 @@
     "lat": 53.0196536,
     "lon": -4.317484,
     "address": "Tai'n Lôn"
-  },
-  {
-    "id": 13587626301,
-    "name": "The Courtyard Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2795718,
-    "lon": -1.9937546,
-    "address": "High Street"
-  },
-  {
-    "id": 13596289582,
-    "name": "Betton Farm Shop & Bakery",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.2546927,
-    "lon": -0.4664693,
-    "address": null
-  },
-  {
-    "id": 13621440840,
-    "name": "Leedham Farm shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.6442187,
-    "lon": -1.3078669,
-    "address": null
-  },
-  {
-    "id": 13621568748,
-    "name": "Station Yard Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.8880376,
-    "lon": -3.875635,
-    "address": null
-  },
-  {
-    "id": 13625118002,
-    "name": "Mootiful Milk Shack",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.3106231,
-    "lon": -1.8019039,
-    "address": null
-  },
-  {
-    "id": 13631079415,
-    "name": "The Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1109731,
-    "lon": -2.4821243,
-    "address": null
   },
   {
     "id": 3713847,
@@ -7512,6 +7452,18 @@
     "address": null
   },
   {
+    "id": 172149052,
+    "name": "The Olive Tree",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.3232251,
+    "lon": -1.8652983,
+    "address": null
+  },
+  {
     "id": 172984267,
     "name": "Nunwell Farm Kitchen",
     "country": "United Kingdom",
@@ -7972,7 +7924,7 @@
     "name": "Moorhouse Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Morpeth",
+    "municipality": "Stannington",
     "products": [],
     "website": "https://www.moorhousefarmshop.co.uk/",
     "lat": 55.1278458,
@@ -8472,18 +8424,6 @@
     "address": "Decoy Road"
   },
   {
-    "id": 303323021,
-    "name": "Rose Cottage Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Driffield",
-    "products": [],
-    "website": "https://rosecottagefoods.co.uk/locations/kelleythorpe/",
-    "lat": 53.9943097,
-    "lon": -0.4577192,
-    "address": null
-  },
-  {
     "id": 303441361,
     "name": "Walsingham Farm Shop",
     "country": "United Kingdom",
@@ -8937,7 +8877,7 @@
     "website": null,
     "lat": 51.054232,
     "lon": -1.7784658,
-    "address": "Lower Road"
+    "address": null
   },
   {
     "id": 354942293,
@@ -9508,7 +9448,7 @@
     "name": "Hillheads Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Newcastle upon Tyne",
+    "municipality": "Backworth",
     "products": [],
     "website": "https://www.hillheadsfarm.co.uk/",
     "lat": 55.0424931,
@@ -10002,9 +9942,9 @@
     "region": null,
     "municipality": "Wakefield",
     "products": [],
-    "website": "https://www.blackerhall.com",
-    "lat": 53.638058,
-    "lon": -1.5467846,
+    "website": "https://www.blackerhallfarmshop.co.uk/",
+    "lat": 53.6380005,
+    "lon": -1.5466315,
     "address": "Branch Road"
   },
   {
@@ -10267,8 +10207,8 @@
     "municipality": "Newtownards",
     "products": [],
     "website": null,
-    "lat": 54.6086258,
-    "lon": -5.7568756,
+    "lat": 54.6086129,
+    "lon": -5.7568694,
     "address": "Holywood Road"
   },
   {
@@ -10344,18 +10284,6 @@
     "address": "Ninfield Road"
   },
   {
-    "id": 571816940,
-    "name": "Brook House Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.3140911,
-    "lon": -2.1931186,
-    "address": "Wilmslow Road"
-  },
-  {
     "id": 582163777,
     "name": "Baytree Farm Shop",
     "country": "United Kingdom",
@@ -10389,7 +10317,7 @@
     "website": null,
     "lat": 51.7361437,
     "lon": -0.775821,
-    "address": "Buckmoorend Lane"
+    "address": null
   },
   {
     "id": 590558465,
@@ -11212,7 +11140,7 @@
     "name": "Green Fields",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Telford",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 52.6875352,
@@ -13756,12 +13684,12 @@
     "name": "Albion Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Oldham",
+    "municipality": null,
     "products": [],
     "website": "https://www.albionfarmshop.co.uk/",
-    "lat": 53.5587058,
-    "lon": -2.0332982,
-    "address": "Oldham Road"
+    "lat": 53.5586956,
+    "lon": -2.0333077,
+    "address": null
   },
   {
     "id": 1087942809,
@@ -13882,18 +13810,6 @@
     "lat": 52.8809382,
     "lon": -2.6536294,
     "address": "Prees Green"
-  },
-  {
-    "id": 1131698865,
-    "name": "Homedene Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Shawbury",
-    "products": [],
-    "website": null,
-    "lat": 52.7866615,
-    "lon": -2.6607491,
-    "address": "Shrewsbury Road"
   },
   {
     "id": 1133014351,
@@ -14121,7 +14037,7 @@
     "website": null,
     "lat": 51.9580208,
     "lon": -0.814212,
-    "address": "Whaddon Road"
+    "address": null
   },
   {
     "id": 1188933275,
@@ -14412,18 +14328,6 @@
     "address": null
   },
   {
-    "id": 1254978223,
-    "name": "Sour Power Vinegars",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Montrose",
-    "products": [],
-    "website": null,
-    "lat": 56.7733982,
-    "lon": -2.5098386,
-    "address": "Waterside Cottages"
-  },
-  {
     "id": 1258853924,
     "name": "Murton Farm Shop",
     "country": "United Kingdom",
@@ -14506,18 +14410,6 @@
     "lat": 51.4584038,
     "lon": -0.7339541,
     "address": "Hawthorn Lane"
-  },
-  {
-    "id": 1285626708,
-    "name": "The Wild Olive Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.6861713,
-    "lon": -1.9084407,
-    "address": null
   },
   {
     "id": 1286801812,
@@ -15400,12 +15292,12 @@
     "name": "Westside Fruit Ltd Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Marlow",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.6085539,
     "lon": -0.7987825,
-    "address": "Clay Lane"
+    "address": null
   },
   {
     "id": 1369403155,
@@ -15430,18 +15322,6 @@
     "lat": 51.5521306,
     "lon": -1.6477168,
     "address": "Cues Lane"
-  },
-  {
-    "id": 1375217068,
-    "name": "Lin's Veg Shed",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Whitchurch on Thames",
-    "products": [],
-    "website": "https://www.tolhurstorganic.co.uk/box-deliveries/hardwick-veg-stall/",
-    "lat": 51.495644,
-    "lon": -1.0637595,
-    "address": "Hardwick Road"
   },
   {
     "id": 1376112598,
@@ -15825,42 +15705,6 @@
     "website": null,
     "lat": 57.066534,
     "lon": -2.4821323,
-    "address": null
-  },
-  {
-    "id": 1483450657,
-    "name": "Bibury Trout Farm",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.7618348,
-    "lon": -1.8417009,
-    "address": null
-  },
-  {
-    "id": 1486033850,
-    "name": "Fiveway Fruit Farm",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.8645309,
-    "lon": 0.8263436,
-    "address": null
-  },
-  {
-    "id": 1490237883,
-    "name": "Gloagburn Farm Shop and Cafe",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tibbermore",
-    "products": [],
-    "website": "https://www.gloagburnfarmshop.co.uk/",
-    "lat": 56.3960545,
-    "lon": -3.5480999,
     "address": null
   },
   {
@@ -16609,7 +16453,7 @@
   },
   {
     "id": 13305034,
-    "name": "Coille Inbhir Bhuic",
+    "name": "Coille Inbhirwick",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
@@ -18121,7 +17965,7 @@
   },
   {
     "id": 16849084,
-    "name": "Bushyleaze Copse",
+    "name": "Bushylease Copse",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
@@ -18432,28 +18276,280 @@
     "address": null
   },
   {
-    "id": 506233696,
-    "name": "Blacker Hall Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Wakefield",
-    "products": [],
-    "website": "https://www.blackerhallfarmshop.co.uk/",
-    "lat": 53.6380005,
-    "lon": -1.5466315,
-    "address": "Branch Road"
-  },
-  {
     "id": 5970083691,
     "name": "Cannon Hall Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Barnsley",
     "products": [],
-    "website": null,
+    "website": "https://www.cannonhallfarm.co.uk/things-to-do/cannon-hall-farm-shop/",
     "lat": 53.571932,
-    "lon": -1.5904868,
+    "lon": -1.590434,
     "address": "Bark House Lane"
+  },
+  {
+    "id": 12662799208,
+    "name": "Mill of Inverarity Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Forfar",
+    "products": [],
+    "website": null,
+    "lat": 56.5867153,
+    "lon": -2.8943583,
+    "address": "Mill Of Inverarity"
+  },
+  {
+    "id": 13104110898,
+    "name": "Mousehole Farmers Market",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.0840927,
+    "lon": -5.5396228,
+    "address": "Duck Street"
+  },
+  {
+    "id": 13587626301,
+    "name": "The Courtyard Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2795718,
+    "lon": -1.9937546,
+    "address": "High Street"
+  },
+  {
+    "id": 13596289582,
+    "name": "Betton Farm Shop & Bakery",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.2546927,
+    "lon": -0.4664693,
+    "address": null
+  },
+  {
+    "id": 13621440840,
+    "name": "Leedham Farm shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.6442187,
+    "lon": -1.3078669,
+    "address": null
+  },
+  {
+    "id": 13621568748,
+    "name": "Station Yard Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.8880376,
+    "lon": -3.875635,
+    "address": null
+  },
+  {
+    "id": 13625118002,
+    "name": "Mootiful Milk Shack",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.3106231,
+    "lon": -1.8019039,
+    "address": null
+  },
+  {
+    "id": 13631079415,
+    "name": "The Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.1109731,
+    "lon": -2.4821243,
+    "address": null
+  },
+  {
+    "id": 303323021,
+    "name": "Rose Cottage Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Driffield",
+    "products": [],
+    "website": "https://rosecottagefoods.co.uk/locations/kelleythorpe/",
+    "lat": 53.9943097,
+    "lon": -0.4577192,
+    "address": null
+  },
+  {
+    "id": 506233696,
+    "name": "Blacker Hall Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Wakefield",
+    "products": [],
+    "website": "https://www.blackerhall.com",
+    "lat": 53.638058,
+    "lon": -1.5467846,
+    "address": "Branch Road"
+  },
+  {
+    "id": 554653965,
+    "name": "McKee's Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Newtownards",
+    "products": [],
+    "website": null,
+    "lat": 54.6086258,
+    "lon": -5.7568756,
+    "address": "Holywood Road"
+  },
+  {
+    "id": 571816940,
+    "name": "Brook House Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.3140911,
+    "lon": -2.1931186,
+    "address": "Wilmslow Road"
+  },
+  {
+    "id": 1087252868,
+    "name": "Albion Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Oldham",
+    "products": [],
+    "website": "https://www.albionfarmshop.co.uk/",
+    "lat": 53.5587058,
+    "lon": -2.0332982,
+    "address": "Oldham Road"
+  },
+  {
+    "id": 1131698865,
+    "name": "Homedene Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Shawbury",
+    "products": [],
+    "website": null,
+    "lat": 52.7866615,
+    "lon": -2.6607491,
+    "address": "Shrewsbury Road"
+  },
+  {
+    "id": 1254978223,
+    "name": "Sour Power Vinegars",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Montrose",
+    "products": [],
+    "website": null,
+    "lat": 56.7733982,
+    "lon": -2.5098386,
+    "address": "Waterside Cottages"
+  },
+  {
+    "id": 1285626708,
+    "name": "The Wild Olive Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.6861713,
+    "lon": -1.9084407,
+    "address": null
+  },
+  {
+    "id": 1375217068,
+    "name": "Lin's Veg Shed",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Whitchurch on Thames",
+    "products": [],
+    "website": "https://www.tolhurstorganic.co.uk/box-deliveries/hardwick-veg-stall/",
+    "lat": 51.495644,
+    "lon": -1.0637595,
+    "address": "Hardwick Road"
+  },
+  {
+    "id": 1483450657,
+    "name": "Bibury Trout Farm",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.7618348,
+    "lon": -1.8417009,
+    "address": null
+  },
+  {
+    "id": 1486033850,
+    "name": "Fiveway Fruit Farm",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.8645309,
+    "lon": 0.8263436,
+    "address": null
+  },
+  {
+    "id": 1490237883,
+    "name": "Gloagburn Farm Shop and Cafe",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tibbermore",
+    "products": [],
+    "website": "https://www.gloagburnfarmshop.co.uk/",
+    "lat": 56.3960545,
+    "lon": -3.5480999,
+    "address": null
+  },
+  {
+    "id": 13305034,
+    "name": "Coille Inbhir Bhuic",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1923453,
+    "lon": -4.7008687,
+    "address": null
+  },
+  {
+    "id": 16849084,
+    "name": "Bushyleaze Copse",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.9551864,
+    "lon": -1.5188648,
+    "address": null
   },
   {
     "id": 253427773,
@@ -18627,20 +18723,6 @@
     "lon": 1.1555911,
     "address": "Rapier Street 2, IP2 8JS",
     "source": "osm"
-  },
-  {
-    "id": 460412846,
-    "name": "Gloagburn Farm Shop and Cafe",
-    "country": "United Kingdom",
-    "region": "Scotland",
-    "municipality": "Tibbermore",
-    "products": [],
-    "website": "https://www.gloagburnfarmshop.co.uk/",
-    "lat": 56.395849,
-    "lon": -3.5481671,
-    "address": "PH1 1QL",
-    "source": "osm",
-    "phone": "+44 1738 840864"
   },
   {
     "id": 581864284,
@@ -25231,19 +25313,6 @@
     "lat": 51.588848,
     "lon": -0.1162266,
     "address": "Cross Lane",
-    "source": "osm"
-  },
-  {
-    "id": 12662799208,
-    "name": "Mill of Inverarity Farm Shop",
-    "country": "United Kingdom",
-    "region": "Scotland",
-    "municipality": "Forfar",
-    "products": [],
-    "website": null,
-    "lat": 56.5870786,
-    "lon": -2.8937146,
-    "address": "Mill Of Inverarity, DD8 2JN",
     "source": "osm"
   },
   {
@@ -40668,18 +40737,6 @@
     "address": null
   },
   {
-    "id": 5196661098,
-    "name": "Smiths Farm Foods",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Northampton",
-    "products": [],
-    "website": null,
-    "lat": 52.2445425,
-    "lon": -0.8087182,
-    "address": "The Causeway"
-  },
-  {
     "id": 5313698323,
     "name": "Farm shop 5313698323",
     "country": "United Kingdom",
@@ -42249,18 +42306,6 @@
     "website": null,
     "lat": 51.1180386,
     "lon": 0.5684848,
-    "address": null
-  },
-  {
-    "id": 172149052,
-    "name": "The Olive Tree",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.3232251,
-    "lon": -1.8652983,
     "address": null
   },
   {
@@ -46008,18 +46053,6 @@
     "address": null
   },
   {
-    "id": 1087252868,
-    "name": "Albion Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.albionfarmshop.co.uk/",
-    "lat": 53.5586956,
-    "lon": -2.0333077,
-    "address": null
-  },
-  {
     "id": 1090747366,
     "name": "Farm shop 1090747366",
     "country": "United Kingdom",
@@ -47121,18 +47154,6 @@
     "website": null,
     "lat": 50.8636117,
     "lon": -1.6112483,
-    "address": null
-  },
-  {
-    "id": 13305034,
-    "name": "Coille Inbhirwick",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.1923453,
-    "lon": -4.7008687,
     "address": null
   },
   {
