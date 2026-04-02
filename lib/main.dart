@@ -380,7 +380,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _initialPrivacyMessage(BuildContext context) {
-    switch (_menuLanguageCode(context)) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? selectedLanguage).toLowerCase();
+    switch (code) {
       case 'en':
         return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
       case 'nb':
