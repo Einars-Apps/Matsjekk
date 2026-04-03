@@ -141,7 +141,7 @@
     "website": null,
     "lat": 48.1379654,
     "lon": 14.5665923,
-    "address": null
+    "address": "Reichhub"
   },
   {
     "id": 1252690347,
@@ -1044,18 +1044,6 @@
     "address": "Amtsgasse"
   },
   {
-    "id": 3770331132,
-    "name": "Fam. Nöbauer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2076299,
-    "lon": 14.2004261,
-    "address": null
-  },
-  {
     "id": 3780726341,
     "name": "Heilos",
     "country": "Austria",
@@ -1536,18 +1524,6 @@
     "address": "Stiftshof"
   },
   {
-    "id": 4433717972,
-    "name": "Laller",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Klöch",
-    "products": [],
-    "website": null,
-    "lat": 46.7838149,
-    "lon": 15.9764197,
-    "address": null
-  },
-  {
     "id": 4443390495,
     "name": "Reisinger Getreidemühlen",
     "country": "Austria",
@@ -1603,8 +1579,8 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://tüwi.at/farmshop",
-    "lat": 48.2376931,
-    "lon": 16.3347581,
+    "lat": 48.237653,
+    "lon": 16.3347764,
     "address": "Peter-Jordan-Straße"
   },
   {
@@ -2181,18 +2157,6 @@
     "website": "https://schoensteinhof.jimdofree.com",
     "lat": 47.5791928,
     "lon": 9.8065096,
-    "address": null
-  },
-  {
-    "id": 5281879066,
-    "name": "Bauernladen Ungerböck",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8131256,
-    "lon": 16.2438402,
     "address": null
   },
   {
@@ -3636,18 +3600,6 @@
     "address": null
   },
   {
-    "id": 7756999811,
-    "name": "Biohof Fraiß",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Josefsrotte",
-    "products": [],
-    "website": "https://www.regiohof-fraiss.at/",
-    "lat": 47.8321476,
-    "lon": 15.3070474,
-    "address": "Bergstraße"
-  },
-  {
     "id": 7775871920,
     "name": "Kirchberger Bauernladen",
     "country": "Austria",
@@ -3765,6 +3717,18 @@
     "website": "https://www.jaklhof.at/fuer-dich/",
     "lat": 47.1054214,
     "lon": 15.530154,
+    "address": null
+  },
+  {
+    "id": 8071896620,
+    "name": "No name",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8785237,
+    "lon": 15.8886418,
     "address": null
   },
   {
@@ -5344,7 +5308,7 @@
     "name": "Rupi's Ab-Hof Verkauf",
     "country": "Austria",
     "region": null,
-    "municipality": "Zeiselmauer-Wolfpassing",
+    "municipality": "Zeiselmauer",
     "products": [],
     "website": null,
     "lat": 48.3292315,
@@ -8844,6 +8808,18 @@
     "address": "Josefistraße"
   },
   {
+    "id": 12751800435,
+    "name": "Boku FoodCoop",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2380573,
+    "lon": 16.3311839,
+    "address": null
+  },
+  {
     "id": 12768184541,
     "name": "Ölladen",
     "country": "Austria",
@@ -9612,90 +9588,6 @@
     "address": null
   },
   {
-    "id": 13592550216,
-    "name": "Santlhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3090363,
-    "lon": 10.9455925,
-    "address": null
-  },
-  {
-    "id": 13593399228,
-    "name": "Stöckl's Schofkas",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.stoeckl-schofkas.at/",
-    "lat": 48.0417299,
-    "lon": 14.5640583,
-    "address": null
-  },
-  {
-    "id": 13606665202,
-    "name": "Hofladen Patz",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7978014,
-    "lon": 15.7781463,
-    "address": null
-  },
-  {
-    "id": 13611749520,
-    "name": "Pölzl Gemüse",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0668337,
-    "lon": 15.4673749,
-    "address": null
-  },
-  {
-    "id": 13612842102,
-    "name": "SteirerREIS",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://steirischerreis.at",
-    "lat": 46.7432017,
-    "lon": 15.9818429,
-    "address": null
-  },
-  {
-    "id": 13617524490,
-    "name": "Lambacherhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lambacherhof.com/ab-hof-verkauf",
-    "lat": 47.1220092,
-    "lon": 14.3710467,
-    "address": null
-  },
-  {
-    "id": 13688216872,
-    "name": "Villa Kunterbunt",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Gnadenwald",
-    "products": [],
-    "website": null,
-    "lat": 47.3222636,
-    "lon": 11.5875229,
-    "address": "Gnadenwald"
-  },
-  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -10344,18 +10236,6 @@
     "address": "Mühlweg"
   },
   {
-    "id": 185795916,
-    "name": "Inzinger Bauernladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Inzing",
-    "products": [],
-    "website": null,
-    "lat": 47.2726777,
-    "lon": 11.1996774,
-    "address": "Hauptstraße"
-  },
-  {
     "id": 189145393,
     "name": "Mühle Kianek",
     "country": "Austria",
@@ -10893,18 +10773,6 @@
     "website": "biohof-skofitsch.at",
     "lat": 46.6904779,
     "lon": 14.5425131,
-    "address": null
-  },
-  {
-    "id": 303647785,
-    "name": "Biomilch ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Neukirchen an der Enknach",
-    "products": [],
-    "website": null,
-    "lat": 48.1966434,
-    "lon": 13.0106229,
     "address": null
   },
   {
@@ -12153,7 +12021,7 @@
     "website": null,
     "lat": 47.6139541,
     "lon": 16.2380706,
-    "address": null
+    "address": "Stickelberg"
   },
   {
     "id": 1089750920,
@@ -12648,30 +12516,6 @@
     "address": "Obere"
   },
   {
-    "id": 1482240510,
-    "name": "Boku FoodCoop",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2380841,
-    "lon": 16.3311696,
-    "address": null
-  },
-  {
-    "id": 1487756181,
-    "name": "BIO-OststeierMARKT",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Hartberg",
-    "products": [],
-    "website": null,
-    "lat": 47.2829358,
-    "lon": 15.9839598,
-    "address": "Ferdinand-Leihs-Straße"
-  },
-  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -13147,7 +12991,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2666045,
+    "lat": 47.2666672,
     "lon": 16.451608,
     "address": null
   },
@@ -13788,6 +13632,30 @@
     "address": null
   },
   {
+    "id": 3770331132,
+    "name": "Fam. Nöbauer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2076299,
+    "lon": 14.2004261,
+    "address": null
+  },
+  {
+    "id": 4433717972,
+    "name": "Laller",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Klöch",
+    "products": [],
+    "website": null,
+    "lat": 46.7838149,
+    "lon": 15.9764197,
+    "address": null
+  },
+  {
     "id": 4530145086,
     "name": "TüWi Hofladen",
     "country": "Austria",
@@ -13795,33 +13663,165 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://tüwi.at/farmshop",
-    "lat": 48.237653,
-    "lon": 16.3347764,
+    "lat": 48.2376931,
+    "lon": 16.3347581,
     "address": "Peter-Jordan-Straße"
   },
   {
-    "id": 8071896620,
-    "name": "No name",
+    "id": 5281879066,
+    "name": "Bauernladen Ungerböck",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.8785237,
-    "lon": 15.8886418,
+    "lat": 47.8131256,
+    "lon": 16.2438402,
     "address": null
   },
   {
-    "id": 12751800435,
+    "id": 7756999811,
+    "name": "Biohof Fraiß",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Josefsrotte",
+    "products": [],
+    "website": "https://www.regiohof-fraiss.at/",
+    "lat": 47.8321476,
+    "lon": 15.3070474,
+    "address": "Bergstraße"
+  },
+  {
+    "id": 13592550216,
+    "name": "Santlhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3090363,
+    "lon": 10.9455925,
+    "address": null
+  },
+  {
+    "id": 13593399228,
+    "name": "Stöckl's Schofkas",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.stoeckl-schofkas.at/",
+    "lat": 48.0417299,
+    "lon": 14.5640583,
+    "address": null
+  },
+  {
+    "id": 13606665202,
+    "name": "Hofladen Patz",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7978014,
+    "lon": 15.7781463,
+    "address": null
+  },
+  {
+    "id": 13611749520,
+    "name": "Pölzl Gemüse",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0668337,
+    "lon": 15.4673749,
+    "address": null
+  },
+  {
+    "id": 13612842102,
+    "name": "SteirerREIS",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://steirischerreis.at",
+    "lat": 46.7432017,
+    "lon": 15.9818429,
+    "address": null
+  },
+  {
+    "id": 13617524490,
+    "name": "Lambacherhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lambacherhof.com/ab-hof-verkauf",
+    "lat": 47.1220092,
+    "lon": 14.3710467,
+    "address": null
+  },
+  {
+    "id": 13688216872,
+    "name": "Villa Kunterbunt",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Gnadenwald",
+    "products": [],
+    "website": null,
+    "lat": 47.3222636,
+    "lon": 11.5875229,
+    "address": "Gnadenwald"
+  },
+  {
+    "id": 185795916,
+    "name": "Inzinger Bauernladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Inzing",
+    "products": [],
+    "website": null,
+    "lat": 47.2726777,
+    "lon": 11.1996774,
+    "address": "Hauptstraße"
+  },
+  {
+    "id": 303647785,
+    "name": "Biomilch ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Neukirchen an der Enknach",
+    "products": [],
+    "website": null,
+    "lat": 48.1966434,
+    "lon": 13.0106229,
+    "address": null
+  },
+  {
+    "id": 1482240510,
     "name": "Boku FoodCoop",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.2380573,
-    "lon": 16.3311839,
+    "lat": 48.2380841,
+    "lon": 16.3311696,
     "address": null
+  },
+  {
+    "id": 1487756181,
+    "name": "BIO-OststeierMARKT",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Hartberg",
+    "products": [],
+    "website": null,
+    "lat": 47.2829358,
+    "lon": 15.9839598,
+    "address": "Ferdinand-Leihs-Straße"
   },
   {
     "id": 6456498,
@@ -13831,7 +13831,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.2666672,
+    "lat": 47.2666045,
     "lon": 16.451608,
     "address": null
   },

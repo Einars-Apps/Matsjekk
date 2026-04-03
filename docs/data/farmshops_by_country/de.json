@@ -63108,18 +63108,6 @@
     "address": "Mixdorfer Straße"
   },
   {
-    "id": 430082692,
-    "name": "Lehmanns Bauernhof",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Lahr/Schwarzwald",
-    "products": [],
-    "website": "http://www.lehmanns-bauernhof.de/",
-    "lat": 48.3392919,
-    "lon": 7.8538831,
-    "address": "Martin-Luther-Straße"
-  },
-  {
     "id": 434714740,
     "name": "Dorerhof",
     "country": "Germany",
@@ -69994,6 +69982,18 @@
     "lat": 52.1669522,
     "lon": 9.8675701,
     "address": null
+  },
+  {
+    "id": 430082692,
+    "name": "Lehmanns Bauernhof",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lahr/Schwarzwald",
+    "products": [],
+    "website": "http://www.lehmanns-bauernhof.de/",
+    "lat": 48.3392919,
+    "lon": 7.8538831,
+    "address": "Martin-Luther-Straße"
   },
   {
     "id": 379046435,

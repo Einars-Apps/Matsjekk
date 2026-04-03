@@ -624907,6 +624907,18 @@
       "lat": 47.6000185,
       "lon": 9.2409403,
       "address": null
+    },
+    {
+      "id": 1495709606,
+      "name": "Rohrbachs Hofprodukte",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Ostermundigen",
+      "products": [],
+      "website": "https://www.rohrbachs-hofprodukte.ch/",
+      "lat": 46.9536008,
+      "lon": 7.4915078,
+      "address": "Bühlweg"
     }
   ],
   "LI": [

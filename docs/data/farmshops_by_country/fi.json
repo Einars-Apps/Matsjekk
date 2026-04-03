@@ -1116,18 +1116,6 @@
     "address": "Harjulankatu"
   },
   {
-    "id": 13045862703,
-    "name": "Saimaan Maku",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://saimaanmaku.fi/",
-    "lat": 61.8689065,
-    "lon": 28.8817354,
-    "address": "Puistokatu"
-  },
-  {
     "id": 13173257489,
     "name": "Aholaisten luomutila",
     "country": "Finland",
@@ -1558,6 +1546,18 @@
     "lat": 64.9652763,
     "lon": 25.856806,
     "address": null
+  },
+  {
+    "id": 13045862703,
+    "name": "Saimaan Maku",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://saimaanmaku.fi/",
+    "lat": 61.8689065,
+    "lon": 28.8817354,
+    "address": "Puistokatu"
   },
   {
     "id": 304661047,

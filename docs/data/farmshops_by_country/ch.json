@@ -17292,6 +17292,18 @@
     "address": "Erliweg"
   },
   {
+    "id": 1495709606,
+    "name": "Rohrbachs Hofprodukte",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Ostermundigen",
+    "products": [],
+    "website": "https://www.rohrbachs-hofprodukte.ch/",
+    "lat": 46.9536008,
+    "lon": 7.4915078,
+    "address": "Bühlweg"
+  },
+  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
