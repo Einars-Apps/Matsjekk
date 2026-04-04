@@ -24610,6 +24610,54 @@
       "lon": 9.845828,
       "address": "Tennelsveien 5",
       "source": "https://www.hanen.no/bedrift/tenneltunet-lene-lysklett/"
+    },
+    {
+      "id": 13704348210,
+      "name": "Nyhuus Gard",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 59.3828939,
+      "lon": 9.2028653,
+      "address": null
+    },
+    {
+      "id": 13704412915,
+      "name": "Ramberg Su-Neset",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.rambergsuneset.no/",
+      "lat": 59.5329859,
+      "lon": 9.299933,
+      "address": null
+    },
+    {
+      "id": 1495929192,
+      "name": "Gvarv Frukt&Bær",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://visitbo.no/gvarv-frukt-baer/",
+      "lat": 59.382007,
+      "lon": 9.168065,
+      "address": null
+    },
+    {
+      "id": 1495934453,
+      "name": "Poteter og Egg",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 59.4076026,
+      "lon": 8.9480661,
+      "address": null
     }
   ],
   "SE": [
@@ -184333,6 +184381,18 @@
       "lon": 5.0770244,
       "address": "Haven 25, 1131EP",
       "source": "osm"
+    },
+    {
+      "id": 3016631720,
+      "name": "Vos Fruit",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Driel",
+      "products": [],
+      "website": null,
+      "lat": 51.9590799,
+      "lon": 5.8078207,
+      "address": "Rijnstraat"
     }
   ],
   "BE": [
@@ -574786,6 +574846,30 @@
       "lat": 47.3222636,
       "lon": 11.5875229,
       "address": "Gnadenwald"
+    },
+    {
+      "id": 7273106505,
+      "name": "Lacknerhof",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.lacknerhof.tirol/",
+      "lat": 47.5259634,
+      "lon": 12.0789138,
+      "address": null
+    },
+    {
+      "id": 2607960,
+      "name": "Kaiserwald",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 46.9435696,
+      "lon": 15.4139954,
+      "address": null
     }
   ],
   "CH": [
@@ -624919,6 +625003,18 @@
       "lat": 46.9536008,
       "lon": 7.4915078,
       "address": "Bühlweg"
+    },
+    {
+      "id": 23370687,
+      "name": "Lättenholz",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.3088205,
+      "lon": 8.9205587,
+      "address": null
     }
   ],
   "LI": [

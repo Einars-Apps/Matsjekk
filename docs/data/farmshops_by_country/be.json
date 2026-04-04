@@ -84,6 +84,18 @@
     "address": "Chaussée de Dinant"
   },
   {
+    "id": 2744852856,
+    "name": "Het Primeurke",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2514826,
+    "lon": 5.5455429,
+    "address": null
+  },
+  {
     "id": 2831317521,
     "name": "La Ferme Loly",
     "country": "Belgium",
@@ -3042,7 +3054,7 @@
     "region": null,
     "municipality": "Villers-le-bouillet",
     "products": [],
-    "website": "http://www.lafermedelacroix.be/",
+    "website": null,
     "lat": 50.5778548,
     "lon": 5.2586362,
     "address": "Rue de Waremme"
@@ -3064,12 +3076,12 @@
     "name": "La Préale",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Hamois",
     "products": [],
     "website": "https://www.preale.be/",
     "lat": 50.3257491,
     "lon": 5.1700833,
-    "address": null
+    "address": "Rue de la Préale"
   },
   {
     "id": 11758132688,
@@ -3642,21 +3654,9 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hoeve-heierveld.be/",
+    "website": "https://www.hoeve-heierveld.be",
     "lat": 50.9088663,
     "lon": 4.2331687,
-    "address": null
-  },
-  {
-    "id": 13590858487,
-    "name": "DaViculture Natur",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4793911,
-    "lon": 4.7176706,
     "address": null
   },
   {
@@ -5374,6 +5374,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 13590858487,
+    "name": "DaViculture Natur",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4793911,
+    "lon": 4.7176706,
+    "address": null
   },
   {
     "id": 392825373,
@@ -12750,18 +12762,6 @@
     "website": null,
     "lat": 51.2345808,
     "lon": 2.9733341,
-    "address": null
-  },
-  {
-    "id": 2744852856,
-    "name": "Het Primeurke",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2514826,
-    "lon": 5.5455429,
     "address": null
   },
   {

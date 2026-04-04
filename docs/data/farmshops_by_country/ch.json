@@ -15691,8 +15691,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.3087996,
-    "lon": 8.9204179,
+    "lat": 47.3088205,
+    "lon": 8.9205587,
     "address": null
   },
   {
@@ -17325,6 +17325,18 @@
     "website": null,
     "lat": 47.3109306,
     "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 23370687,
+    "name": "Lättenholz",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3087996,
+    "lon": 8.9204179,
     "address": null
   },
   {

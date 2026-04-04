@@ -924,6 +924,30 @@
     "address": null
   },
   {
+    "id": 13704348210,
+    "name": "Nyhuus Gard",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.3828939,
+    "lon": 9.2028653,
+    "address": null
+  },
+  {
+    "id": 13704412915,
+    "name": "Ramberg Su-Neset",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.rambergsuneset.no/",
+    "lat": 59.5329859,
+    "lon": 9.299933,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -1173,6 +1197,30 @@
     "website": "https://www.salaks.no/",
     "lat": 68.9087846,
     "lon": 17.7164071,
+    "address": null
+  },
+  {
+    "id": 1495929192,
+    "name": "Gvarv Frukt&Bær",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://visitbo.no/gvarv-frukt-baer/",
+    "lat": 59.382007,
+    "lon": 9.168065,
+    "address": null
+  },
+  {
+    "id": 1495934453,
+    "name": "Poteter og Egg",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 59.4076026,
+    "lon": 8.9480661,
     "address": null
   },
   {
