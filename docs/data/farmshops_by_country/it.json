@@ -9240,6 +9240,18 @@
     "address": "Via Cesare Battisti"
   },
   {
+    "id": 13706765955,
+    "name": "Frantoio Samminiatese",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.652667,
+    "lon": 10.8052772,
+    "address": null
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",

@@ -20143,8 +20143,8 @@
     "municipality": "Wakendorf I",
     "products": [],
     "website": "https://hof-burmeister.de/",
-    "lat": 53.863353,
-    "lon": 10.3550133,
+    "lat": 53.8633821,
+    "lon": 10.3551046,
     "address": "Hauptstraße"
   },
   {
@@ -57535,8 +57535,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 53.4552566,
-    "lon": 10.3466084,
+    "lat": 53.4553964,
+    "lon": 10.346711,
     "address": null
   },
   {
@@ -61342,18 +61342,6 @@
     "lat": 49.2778544,
     "lon": 8.4731246,
     "address": "Hauptstraße"
-  },
-  {
-    "id": 321333531,
-    "name": "Biohof Gessler",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Markdorf",
-    "products": [],
-    "website": null,
-    "lat": 47.7048356,
-    "lon": 9.3171963,
-    "address": null
   },
   {
     "id": 321367658,
@@ -69981,6 +69969,42 @@
     "website": null,
     "lat": 52.1669522,
     "lon": 9.8675701,
+    "address": null
+  },
+  {
+    "id": 5586351195,
+    "name": "Hof Burmeister",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Wakendorf I",
+    "products": [],
+    "website": "https://hof-burmeister.de/",
+    "lat": 53.863353,
+    "lon": 10.3550133,
+    "address": "Hauptstraße"
+  },
+  {
+    "id": 170189623,
+    "name": "Zillmann Frucht- und Pflanzenparadies",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.4552566,
+    "lon": 10.3466084,
+    "address": null
+  },
+  {
+    "id": 321333531,
+    "name": "Biohof Gessler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Markdorf",
+    "products": [],
+    "website": null,
+    "lat": 47.7048356,
+    "lon": 9.3171963,
     "address": null
   },
   {

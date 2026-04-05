@@ -673,7 +673,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Magasin des productions de Son Cart Bio",
+    "name": "Botiga de Produccions Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -2400,6 +2400,42 @@
     "address": "Carrer de Benet Cortada"
   },
   {
+    "id": 13578235401,
+    "name": "Formatges Sa Roqueta",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.9811958,
+    "lon": 4.0440713,
+    "address": null
+  },
+  {
+    "id": 13583403409,
+    "name": "Frutas Verduras Sara y Noelia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "San Pedro del Arroyo",
+    "products": [],
+    "website": null,
+    "lat": 40.8014086,
+    "lon": -4.8707355,
+    "address": "Calle Lagares"
+  },
+  {
+    "id": 13705058262,
+    "name": "Frutería El Melanas",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.7667956,
+    "lon": -2.6158706,
+    "address": "Calle Pablo Neruda"
+  },
+  {
     "id": 9727345,
     "name": "Parm Forest (Palmenallee)",
     "country": "Spain",
@@ -3529,14 +3565,14 @@
   },
   {
     "id": 227832087,
-    "name": "Casa de la Góndola",
+    "name": "La Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922553,
-    "lon": -3.9950025,
+    "lat": 40.8922414,
+    "lon": -3.9949771,
     "address": null
   },
   {
@@ -4260,6 +4296,18 @@
     "address": null
   },
   {
+    "id": 539423510,
+    "name": "Comercial Agraria El Llano",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.5601533,
+    "lon": -0.5707433,
+    "address": null
+  },
+  {
     "id": 541339815,
     "name": "Piscifactoría Torrebaja",
     "country": "Spain",
@@ -4393,13 +4441,13 @@
   },
   {
     "id": 583704407,
-    "name": "Piscifactoría",
+    "name": "Piscifactoría Aguas Blancas",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 37.1959056,
+    "lat": 37.1959097,
     "lon": -3.4512386,
     "address": null
   },
@@ -5868,18 +5916,6 @@
     "address": null
   },
   {
-    "id": 1317891719,
-    "name": "Fructeria El Melanas",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Roquetas de Mar",
-    "products": [],
-    "website": null,
-    "lat": 36.7668106,
-    "lon": -2.6158472,
-    "address": "Calle Pablo Neruda"
-  },
-  {
     "id": 1341664792,
     "name": "Frutas el Tío Ramón S.L.",
     "country": "Spain",
@@ -6120,6 +6156,18 @@
     "address": null
   },
   {
+    "id": 1489885403,
+    "name": "El Bosque de La Vega",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.6951045,
+    "lon": -5.3230982,
+    "address": null
+  },
+  {
     "id": 7961347,
     "name": "Olivar de la Partija",
     "country": "Spain",
@@ -6165,18 +6213,6 @@
     "website": null,
     "lat": 39.0325752,
     "lon": -0.2016227,
-    "address": null
-  },
-  {
-    "id": 16192590,
-    "name": "Viñedos de Agejas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.051563,
-    "lon": -4.1088091,
     "address": null
   },
   {
@@ -6385,7 +6421,7 @@
   },
   {
     "id": 5478305457,
-    "name": "Botiga de Produccions Son Cart Bio",
+    "name": "Magasin des productions de Son Cart Bio",
     "country": "Spain",
     "region": null,
     "municipality": null,
@@ -6396,63 +6432,51 @@
     "address": "Carretera de Son Bou"
   },
   {
-    "id": 13578235401,
-    "name": "Formatges Sa Roqueta",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.9811958,
-    "lon": 4.0440713,
-    "address": null
-  },
-  {
-    "id": 13583403409,
-    "name": "Frutas Verduras Sara y Noelia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "San Pedro del Arroyo",
-    "products": [],
-    "website": null,
-    "lat": 40.8014086,
-    "lon": -4.8707355,
-    "address": "Calle Lagares"
-  },
-  {
     "id": 227832087,
-    "name": "La Piscifactoría",
+    "name": "Casa de la Góndola",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 40.8922414,
-    "lon": -3.9949771,
+    "lat": 40.8922553,
+    "lon": -3.9950025,
     "address": null
   },
   {
-    "id": 539423510,
-    "name": "Comercial Agraria El Llano",
+    "id": 583704407,
+    "name": "Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 42.5601533,
-    "lon": -0.5707433,
+    "lat": 37.1959056,
+    "lon": -3.4512386,
     "address": null
   },
   {
-    "id": 1489885403,
-    "name": "El Bosque de La Vega",
+    "id": 1317891719,
+    "name": "Fructeria El Melanas",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Roquetas de Mar",
+    "products": [],
+    "website": null,
+    "lat": 36.7668106,
+    "lon": -2.6158472,
+    "address": "Calle Pablo Neruda"
+  },
+  {
+    "id": 16192590,
+    "name": "Viñedos de Agejas",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 37.6951045,
-    "lon": -5.3230982,
+    "lat": 41.051563,
+    "lon": -4.1088091,
     "address": null
   },
   {

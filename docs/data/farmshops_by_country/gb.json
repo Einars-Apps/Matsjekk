@@ -3972,18 +3972,6 @@
     "address": null
   },
   {
-    "id": 7878145372,
-    "name": "Ludbrooks Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Bingley",
-    "products": [],
-    "website": null,
-    "lat": 53.8260425,
-    "lon": -1.8131177,
-    "address": "Cottingley Cliffe Road"
-  },
-  {
     "id": 7896564309,
     "name": "McLauchlans of Boxted pick-your-own fruit farm",
     "country": "United Kingdom",
@@ -15876,6 +15864,18 @@
     "address": null
   },
   {
+    "id": 1496339696,
+    "name": "Ludbrooks Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.826055,
+    "lon": -1.8131324,
+    "address": "Cottingley Cliffe Road"
+  },
+  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -18442,6 +18442,18 @@
     "lat": 50.7224101,
     "lon": -2.1474983,
     "address": null
+  },
+  {
+    "id": 7878145372,
+    "name": "Ludbrooks Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Bingley",
+    "products": [],
+    "website": null,
+    "lat": 53.8260425,
+    "lon": -1.8131177,
+    "address": "Cottingley Cliffe Road"
   },
   {
     "id": 460412846,

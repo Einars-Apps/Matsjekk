@@ -948,6 +948,30 @@
     "address": null
   },
   {
+    "id": 13706867724,
+    "name": "Nordre Nes Fruktgard",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nordrenes.no/utslagsstader-2",
+    "lat": 59.3775994,
+    "lon": 9.2200675,
+    "address": null
+  },
+  {
+    "id": 13706908520,
+    "name": "Gåra veibod",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://hylleblomstsaft.no/",
+    "lat": 59.4183704,
+    "lon": 9.1149905,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",

@@ -4096,6 +4096,18 @@
     "address": "Groenekanseweg"
   },
   {
+    "id": 10933923526,
+    "name": "Hanekamp",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2702156,
+    "lon": 6.0954229,
+    "address": null
+  },
+  {
     "id": 10964802460,
     "name": "Rustpunt de Scharrelhof",
     "country": "Netherlands",
@@ -5246,6 +5258,18 @@
     "lat": 52.6756691,
     "lon": 5.2137606,
     "address": null
+  },
+  {
+    "id": 13705020169,
+    "name": "Het Melkmeisje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Culemborg",
+    "products": [],
+    "website": null,
+    "lat": 51.9416086,
+    "lon": 5.1925234,
+    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 43396672,
