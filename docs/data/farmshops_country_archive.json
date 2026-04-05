@@ -574954,6 +574954,18 @@
       "lat": 46.9435696,
       "lon": 15.4139954,
       "address": null
+    },
+    {
+      "id": 13705270086,
+      "name": "Honig aus eigener Produktion",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.3447593,
+      "lon": 13.7687643,
+      "address": "Hopfengasse"
     }
   ],
   "CH": [
