@@ -21403,8 +21403,8 @@
     "municipality": "Ostercappeln",
     "products": [],
     "website": "http://www.hof-buente.de",
-    "lat": 52.386602,
-    "lon": 8.1332487,
+    "lat": 52.386625,
+    "lon": 8.1334694,
     "address": "Schillingheide"
   },
   {
@@ -61084,12 +61084,12 @@
     "name": "Ge Greens GmbH",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Kevelaer",
     "products": [],
     "website": "www.gegreens.com",
     "lat": 51.5611688,
     "lon": 6.1809594,
-    "address": null
+    "address": "Ferienpark den Heyberg"
   },
   {
     "id": 313164792,
@@ -62890,6 +62890,18 @@
     "lat": 47.8602571,
     "lon": 11.1636856,
     "address": null
+  },
+  {
+    "id": 417061126,
+    "name": "SB-Märktle",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Holzgerlingen",
+    "products": [],
+    "website": "https://www.holzgerlingen.de/de/die-stadt/wirtschaftsstandort/lokal-einkaufen-sb-maerkte-am-bahnhof.php",
+    "lat": 48.638473,
+    "lon": 9.0071264,
+    "address": "Bahnhofstraße"
   },
   {
     "id": 419013449,
@@ -69958,6 +69970,18 @@
     "lat": 50.6765898,
     "lon": 6.8316748,
     "address": "Am Heiligenhäuschen"
+  },
+  {
+    "id": 5732728965,
+    "name": "Bio-Hof-Laden Bünte",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Ostercappeln",
+    "products": [],
+    "website": "http://www.hof-buente.de",
+    "lat": 52.386602,
+    "lon": 8.1332487,
+    "address": "Schillingheide"
   },
   {
     "id": 1389494854,

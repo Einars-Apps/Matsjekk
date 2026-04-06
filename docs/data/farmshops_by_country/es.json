@@ -2436,6 +2436,18 @@
     "address": "Calle Pablo Neruda"
   },
   {
+    "id": 13709327469,
+    "name": "Salsasón",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://salsason.es/",
+    "lat": 43.2848693,
+    "lon": -3.5379421,
+    "address": null
+  },
+  {
     "id": 9727345,
     "name": "Parm Forest (Palmenallee)",
     "country": "Spain",

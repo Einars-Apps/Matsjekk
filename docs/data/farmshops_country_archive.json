@@ -24682,6 +24682,66 @@
       "lat": 59.4183704,
       "lon": 9.1149905,
       "address": null
+    },
+    {
+      "id": 13709331803,
+      "name": "Haug Gård",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 60.9045704,
+      "lon": 10.9294777,
+      "address": null
+    },
+    {
+      "id": 13709717273,
+      "name": "Tjønnås Økogard",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.tjonnas.no/kafe",
+      "lat": 59.6394719,
+      "lon": 8.9706696,
+      "address": null
+    },
+    {
+      "id": 1496790021,
+      "name": "Honningbua Sauland",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://honningbua.as/",
+      "lat": 59.6197604,
+      "lon": 8.874819,
+      "address": null
+    },
+    {
+      "id": 1496791467,
+      "name": "Honningbua Notodden",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://honningbua.as/",
+      "lat": 59.5645089,
+      "lon": 9.2235137,
+      "address": null
+    },
+    {
+      "id": 1496791645,
+      "name": "Honningbua Aarnes",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://honningbua.as/",
+      "lat": 59.3672253,
+      "lon": 9.1793539,
+      "address": null
     }
   ],
   "SE": [
@@ -476483,6 +476543,18 @@
       "lat": 37.1959097,
       "lon": -3.4512386,
       "address": null
+    },
+    {
+      "id": 13709327469,
+      "name": "Salsasón",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://salsason.es/",
+      "lat": 43.2848693,
+      "lon": -3.5379421,
+      "address": null
     }
   ],
   "GB": [
@@ -625158,6 +625230,18 @@
       "website": null,
       "lat": 46.7116206,
       "lon": 6.5488818,
+      "address": null
+    },
+    {
+      "id": 13708492625,
+      "name": "Bolli's Määhfarm",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.775592,
+      "lon": 8.6587386,
       "address": null
     }
   ],
