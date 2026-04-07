@@ -51576,6 +51576,18 @@
     "address": null
   },
   {
+    "id": 11833531547,
+    "name": "Regio-Alm Vogelberg",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Schefflenz",
+    "products": [],
+    "website": "http://regio-alm-vogelberg.de",
+    "lat": 49.4088778,
+    "lon": 9.2650968,
+    "address": "Siedlung Heimental"
+  },
+  {
     "id": 11834577385,
     "name": "Hofladen Sternen",
     "country": "Germany",

@@ -8287,8 +8287,8 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0922012,
-    "lon": 9.7527416,
+    "lat": 56.0919088,
+    "lon": 9.7531699,
     "address": null
   },
   {
@@ -10209,6 +10209,18 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 12843767704,
+    "name": "Rye Nørskov Gods Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://rye-noerskov.dk/gardbutikken/",
+    "lat": 56.0922012,
+    "lon": 9.7527416,
     "address": null
   },
   {

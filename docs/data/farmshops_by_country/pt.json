@@ -229,14 +229,14 @@
   },
   {
     "id": 9556010424,
-    "name": "Covello - Aromas e Sabores",
+    "name": "Covello",
     "country": "Portugal",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.covello.pt/index.php",
-    "lat": 41.4118471,
-    "lon": -7.6880294,
+    "website": "https://covello.pt/",
+    "lat": 41.4118349,
+    "lon": -7.688044,
     "address": null
   },
   {
@@ -1041,6 +1041,18 @@
     "website": null,
     "lat": 41.077111,
     "lon": -8.5909307,
+    "address": null
+  },
+  {
+    "id": 9556010424,
+    "name": "Covello - Aromas e Sabores",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.covello.pt/index.php",
+    "lat": 41.4118471,
+    "lon": -7.6880294,
     "address": null
   },
   {
