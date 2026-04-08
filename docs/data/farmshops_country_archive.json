@@ -24742,6 +24742,34 @@
       "lat": 59.3672253,
       "lon": 9.1793539,
       "address": null
+    },
+    {
+      "id": "lokalmat_10928",
+      "name": "Langmyr Slakt AS",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Fosslandsosen",
+      "products": [
+        "Kjøtt"
+      ],
+      "website": null,
+      "lat": 64.5352809,
+      "lon": 11.3001328,
+      "address": "Moanvegen 325",
+      "source": "https://www.lokalmat.no/produsenter/langmyr-slakt-as/"
+    },
+    {
+      "id": "hanen_2852",
+      "name": "Sjøvold gårdsmeieri",
+      "country": "Norway",
+      "region": "Nordland",
+      "municipality": "SØMNA",
+      "products": [],
+      "website": "https://Sjovoldgardsmeieri.no",
+      "lat": 65.385009,
+      "lon": 12.170439,
+      "address": "Trælnessjøveien 23",
+      "source": "https://www.hanen.no/bedrift/sjovold-gaardsmeieri/"
     }
   ],
   "SE": [
@@ -184513,6 +184541,18 @@
       "lat": 51.9416086,
       "lon": 5.1925234,
       "address": "Wethouder Schoutenweg"
+    },
+    {
+      "id": 2853167815,
+      "name": "De Groene Schuur",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Groessen",
+      "products": [],
+      "website": "https://degroeneschuur.nl",
+      "lat": 51.9269796,
+      "lon": 6.0135697,
+      "address": "Lijkweg"
     }
   ],
   "BE": [
@@ -575074,6 +575114,18 @@
       "lat": 48.3447593,
       "lon": 13.7687643,
       "address": "Hopfengasse"
+    },
+    {
+      "id": 1497469837,
+      "name": "Hofladen Pfänderglück",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.5118998,
+      "lon": 9.7830147,
+      "address": null
     }
   ],
   "CH": [
@@ -625290,6 +625342,18 @@
       "website": null,
       "lat": 46.9494358,
       "lon": 8.6200897,
+      "address": null
+    },
+    {
+      "id": 13713606508,
+      "name": "Hofladen Holzhusen",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.2725848,
+      "lon": 8.7431417,
       "address": null
     }
   ],

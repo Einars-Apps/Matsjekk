@@ -12684,6 +12684,18 @@
     "address": "Ferdinand-Leihs-Straße"
   },
   {
+    "id": 1497469837,
+    "name": "Hofladen Pfänderglück",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5118998,
+    "lon": 9.7830147,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",

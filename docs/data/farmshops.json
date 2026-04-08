@@ -7118,14 +7118,14 @@
     "name": "Langmyr Slakt AS",
     "country": "Norway",
     "region": "Trøndelag",
-    "municipality": "Skage i namdalen",
+    "municipality": "Fosslandsosen",
     "products": [
       "Kjøtt"
     ],
     "website": null,
-    "lat": 64.462663486447,
-    "lon": 11.84503313848,
-    "address": "Langmyrvegen 166",
+    "lat": 64.5352809,
+    "lon": 11.3001328,
+    "address": "Moanvegen 325",
     "source": "https://www.lokalmat.no/produsenter/langmyr-slakt-as/"
   },
   {
@@ -15144,6 +15144,19 @@
     "source": "https://www.hanen.no/bedrift/siloen-gardsbutikk-as/"
   },
   {
+    "id": "hanen_2852",
+    "name": "Sjøvold gårdsmeieri",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "SØMNA",
+    "products": [],
+    "website": "https://Sjovoldgardsmeieri.no",
+    "lat": 65.385009,
+    "lon": 12.170439,
+    "address": "Trælnessjøveien 23",
+    "source": "https://www.hanen.no/bedrift/sjovold-gaardsmeieri/"
+  },
+  {
     "id": "hanen_1027",
     "name": "KARIN MO VALLAND / SJURAGARDEN",
     "country": "Norway",
@@ -15610,6 +15623,21 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_10928",
+    "name": "Langmyr Slakt AS",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Skage i namdalen",
+    "products": [
+      "Kjøtt"
+    ],
+    "website": null,
+    "lat": 64.462663486447,
+    "lon": 11.84503313848,
+    "address": "Langmyrvegen 166",
+    "source": "https://www.lokalmat.no/produsenter/langmyr-slakt-as/"
   },
   {
     "id": 13589678090,
@@ -34451,18 +34479,6 @@
     "address": null
   },
   {
-    "id": 5268079293,
-    "name": "Gundestrup Mejeri og Bryghus A/S",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.mejeri-bryg.dk/",
-    "lat": 55.0925456,
-    "lon": 10.4074429,
-    "address": null
-  },
-  {
     "id": 5419127838,
     "name": "Gårdcaféen Månsson",
     "country": "Denmark",
@@ -34604,6 +34620,18 @@
     "website": "https://tinggarden.dk/landhandel/",
     "lat": 56.018944,
     "lon": 12.061477,
+    "address": null
+  },
+  {
+    "id": 5936299114,
+    "name": "Seerupgaards Landkøkken",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://seerupgaard.dk/",
+    "lat": 55.5826017,
+    "lon": 12.6208574,
     "address": null
   },
   {
@@ -35723,6 +35751,18 @@
     "address": null
   },
   {
+    "id": 8704713845,
+    "name": "Mollwitz Mjød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.926028,
+    "lon": 9.925686,
+    "address": null
+  },
+  {
     "id": 8704713846,
     "name": "Limousine kød fra høstemark",
     "country": "Denmark",
@@ -35808,14 +35848,14 @@
   },
   {
     "id": 8714774474,
-    "name": "Nygården",
+    "name": "Nygårdens Gårdbutik",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.9174936,
-    "lon": 11.6437426,
+    "lat": 55.917331,
+    "lon": 11.643752,
     "address": null
   },
   {
@@ -36104,6 +36144,18 @@
     "website": null,
     "lat": 55.4099608,
     "lon": 11.2173986,
+    "address": null
+  },
+  {
+    "id": 8809189199,
+    "name": "Galloway godt kød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.347879,
+    "lon": 11.417437,
     "address": null
   },
   {
@@ -36860,6 +36912,18 @@
     "website": null,
     "lat": 54.707235,
     "lon": 11.726147,
+    "address": null
+  },
+  {
+    "id": 8907286062,
+    "name": "Torsøgård Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.649485,
+    "lon": 11.510596,
     "address": null
   },
   {
@@ -37883,6 +37947,18 @@
     "address": null
   },
   {
+    "id": 8996329796,
+    "name": "Bjarne Willer Jensen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.530944,
+    "lon": 10.086285,
+    "address": null
+  },
+  {
     "id": 8996518628,
     "name": "Nørreløkkegård",
     "country": "Denmark",
@@ -38804,6 +38880,18 @@
     "website": null,
     "lat": 56.112551,
     "lon": 12.285871,
+    "address": null
+  },
+  {
+    "id": 9203374295,
+    "name": "Julegåsen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.xn--julegsen-e0a.dk/",
+    "lat": 56.094789,
+    "lon": 8.7791877,
     "address": null
   },
   {
@@ -40577,7 +40665,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://undercanvasbornholm.dk/moenstergaard/",
+    "website": "https://gaarden.nu/da/gourmet-bornholm/moenstergaard/",
     "lat": 55.1054463,
     "lon": 14.9949661,
     "address": null
@@ -41000,6 +41088,18 @@
     "website": null,
     "lat": 56.1132754,
     "lon": 8.9139863,
+    "address": null
+  },
+  {
+    "id": 10931990072,
+    "name": "Frugt og grønt fra haven",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0233093,
+    "lon": 8.9003635,
     "address": null
   },
   {
@@ -41754,8 +41854,8 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0919088,
-    "lon": 9.7531699,
+    "lat": 56.0922012,
+    "lon": 9.7527416,
     "address": null
   },
   {
@@ -42443,6 +42543,18 @@
     "address": null
   },
   {
+    "id": 13001256043,
+    "name": "Grands Vin",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.1003713,
+    "lon": 10.1865706,
+    "address": null
+  },
+  {
     "id": 13006221188,
     "name": "Napati vejbod",
     "country": "Denmark",
@@ -42995,6 +43107,18 @@
     "address": null
   },
   {
+    "id": 13167352719,
+    "name": "Gundestrup Landmejeri og Bryghus",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0926196,
+    "lon": 10.4078513,
+    "address": null
+  },
+  {
     "id": 13278424112,
     "name": "Omfaun Landbrug",
     "country": "Denmark",
@@ -43002,8 +43126,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 57.155736,
-    "lon": 10.262023,
+    "lat": 57.1557342,
+    "lon": 10.2620069,
     "address": null
   },
   {
@@ -43235,6 +43359,18 @@
     "address": null
   },
   {
+    "id": 13517973347,
+    "name": "Mødrenes Naturgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3121925,
+    "lon": 10.3158482,
+    "address": null
+  },
+  {
     "id": 13525209384,
     "name": "Vinkelgaard Gårdbutik",
     "country": "Denmark",
@@ -43244,90 +43380,6 @@
     "website": "https://www.visitvinkelgaard.dk/",
     "lat": 55.4813162,
     "lon": 11.8849138,
-    "address": null
-  },
-  {
-    "id": 13585795321,
-    "name": "Hækbæk",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.haekbaek.dk/",
-    "lat": 55.7973534,
-    "lon": 11.5291682,
-    "address": null
-  },
-  {
-    "id": 13618993890,
-    "name": "Kød & Ko",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koedogko.dk/",
-    "lat": 54.9511771,
-    "lon": 9.7173669,
-    "address": null
-  },
-  {
-    "id": 13625255310,
-    "name": "Birkholm",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9139613,
-    "lon": 10.6035273,
-    "address": null
-  },
-  {
-    "id": 13629581522,
-    "name": "Strids Mølle",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://stridsmolle.dk/",
-    "lat": 55.638013,
-    "lon": 11.3590352,
-    "address": null
-  },
-  {
-    "id": 13645574164,
-    "name": "Egerødgaard",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.egerødgaard.dk/",
-    "lat": 55.9631626,
-    "lon": 12.2399231,
-    "address": null
-  },
-  {
-    "id": 13647243827,
-    "name": "Kroghs Grønt Gårdbutikken",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://kroghs-groent.dk/",
-    "lat": 54.9707438,
-    "lon": 9.0792593,
-    "address": null
-  },
-  {
-    "id": 13685734128,
-    "name": "Nygårdens Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.9173502,
-    "lon": 11.6435908,
     "address": null
   },
   {
@@ -43679,6 +43731,30 @@
     "address": null
   },
   {
+    "id": 5268079293,
+    "name": "Gundestrup Mejeri og Bryghus A/S",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mejeri-bryg.dk/",
+    "lat": 55.0925456,
+    "lon": 10.4074429,
+    "address": null
+  },
+  {
+    "id": 8714774474,
+    "name": "Nygården",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardenfrugt.dk/",
+    "lat": 55.9174936,
+    "lon": 11.6437426,
+    "address": null
+  },
+  {
     "id": 12843767704,
     "name": "Rye Nørskov Gods Gårdbutik",
     "country": "Denmark",
@@ -43686,128 +43762,8 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0922012,
-    "lon": 9.7527416,
-    "address": null
-  },
-  {
-    "id": 5936299114,
-    "name": "Seerupgaards Landkøkken",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://seerupgaard.dk/",
-    "lat": 55.5826017,
-    "lon": 12.6208574,
-    "address": null
-  },
-  {
-    "id": 8704713845,
-    "name": "Mollwitz Mjød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.926028,
-    "lon": 9.925686,
-    "address": null
-  },
-  {
-    "id": 8714774474,
-    "name": "Nygårdens Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.917331,
-    "lon": 11.643752,
-    "address": null
-  },
-  {
-    "id": 8809189199,
-    "name": "Galloway godt kød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.347879,
-    "lon": 11.417437,
-    "address": null
-  },
-  {
-    "id": 8907286062,
-    "name": "Torsøgård Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.649485,
-    "lon": 11.510596,
-    "address": null
-  },
-  {
-    "id": 8996329796,
-    "name": "Bjarne Willer Jensen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.530944,
-    "lon": 10.086285,
-    "address": null
-  },
-  {
-    "id": 9203374295,
-    "name": "Julegåsen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.xn--julegsen-e0a.dk/",
-    "lat": 56.094789,
-    "lon": 8.7791877,
-    "address": null
-  },
-  {
-    "id": 10931990072,
-    "name": "Frugt og grønt fra haven",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0233093,
-    "lon": 8.9003635,
-    "address": null
-  },
-  {
-    "id": 13001256043,
-    "name": "Grands Vin",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.1003713,
-    "lon": 10.1865706,
-    "address": null
-  },
-  {
-    "id": 13167352719,
-    "name": "Gundestrup Landmejeri og Bryghus",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.0926196,
-    "lon": 10.4078513,
+    "lat": 56.0919088,
+    "lon": 9.7531699,
     "address": null
   },
   {
@@ -43818,20 +43774,92 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 57.1557342,
-    "lon": 10.2620069,
+    "lat": 57.155736,
+    "lon": 10.262023,
     "address": null
   },
   {
-    "id": 13517973347,
-    "name": "Mødrenes Naturgård",
+    "id": 13585795321,
+    "name": "Hækbæk",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.haekbaek.dk/",
+    "lat": 55.7973534,
+    "lon": 11.5291682,
+    "address": null
+  },
+  {
+    "id": 13618993890,
+    "name": "Kød & Ko",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koedogko.dk/",
+    "lat": 54.9511771,
+    "lon": 9.7173669,
+    "address": null
+  },
+  {
+    "id": 13625255310,
+    "name": "Birkholm",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 55.3121925,
-    "lon": 10.3158482,
+    "lat": 54.9139613,
+    "lon": 10.6035273,
+    "address": null
+  },
+  {
+    "id": 13629581522,
+    "name": "Strids Mølle",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://stridsmolle.dk/",
+    "lat": 55.638013,
+    "lon": 11.3590352,
+    "address": null
+  },
+  {
+    "id": 13645574164,
+    "name": "Egerødgaard",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.egerødgaard.dk/",
+    "lat": 55.9631626,
+    "lon": 12.2399231,
+    "address": null
+  },
+  {
+    "id": 13647243827,
+    "name": "Kroghs Grønt Gårdbutikken",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kroghs-groent.dk/",
+    "lat": 54.9707438,
+    "lon": 9.0792593,
+    "address": null
+  },
+  {
+    "id": 13685734128,
+    "name": "Nygårdens Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardenfrugt.dk/",
+    "lat": 55.9173502,
+    "lon": 11.6435908,
     "address": null
   },
   {
@@ -88890,8 +88918,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.5848664,
-    "lon": 9.4488178,
+    "lat": 48.5848877,
+    "lon": 9.4488688,
     "address": null
   },
   {
@@ -137253,6 +137281,18 @@
     "lat": 50.3294253,
     "lon": 6.4231264,
     "address": "Siedlung"
+  },
+  {
+    "id": 5740771335,
+    "name": "Hofverkauf Däschler",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.5848664,
+    "lon": 9.4488178,
+    "address": null
   },
   {
     "id": 1373625077,
@@ -245659,6 +245699,18 @@
     "address": "Oude Dijk"
   },
   {
+    "id": 2853167815,
+    "name": "De Groene Schuur",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Groessen",
+    "products": [],
+    "website": "https://degroeneschuur.nl",
+    "lat": 51.9269796,
+    "lon": 6.0135697,
+    "address": "Lijkweg"
+  },
+  {
     "id": 2853315826,
     "name": "Rozenbotteltuin De Put",
     "country": "Netherlands",
@@ -338184,6 +338236,30 @@
     "website": null,
     "lat": 46.7641665,
     "lon": 1.4752599,
+    "address": null
+  },
+  {
+    "id": 13713826123,
+    "name": "La ferme de L'Arbre",
+    "country": "France",
+    "region": null,
+    "municipality": "Rouzède",
+    "products": [],
+    "website": "https://www.fermedelarbre.fr/",
+    "lat": 45.7385302,
+    "lon": 0.5415896,
+    "address": "Rue de l'Arbre"
+  },
+  {
+    "id": 13714557516,
+    "name": "Le P'tit champs",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.9441455,
+    "lon": 5.7841053,
     "address": null
   },
   {
@@ -497330,6 +497406,18 @@
     "website": null,
     "lat": 43.652667,
     "lon": 10.8052772,
+    "address": null
+  },
+  {
+    "id": 13712974488,
+    "name": "Angolo dei sapori",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.0606619,
+    "lon": 7.6708624,
     "address": null
   },
   {
@@ -705552,7 +705640,7 @@
     "name": "Natoora Counter",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "London",
     "products": [],
     "website": "https://www.natoora.co.uk/",
     "lat": 51.5149673,
@@ -705564,7 +705652,7 @@
     "name": "The Grocer On Elgin",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "London",
     "products": [],
     "website": "https://www.thegroceron.com/",
     "lat": 51.5151308,
@@ -707052,12 +707140,12 @@
     "name": "FarmHouse",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Gloucester",
     "products": [],
     "website": null,
     "lat": 51.8646341,
     "lon": -2.2464451,
-    "address": null
+    "address": "Southgate Street"
   },
   {
     "id": 11104993691,
@@ -766981,6 +767069,18 @@
     "address": "Ferdinand-Leihs-Straße"
   },
   {
+    "id": 1497469837,
+    "name": "Hofladen Pfänderglück",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5118998,
+    "lon": 9.7830147,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -816073,6 +816173,18 @@
     "website": null,
     "lat": 47.775592,
     "lon": 8.6587386,
+    "address": null
+  },
+  {
+    "id": 13713606508,
+    "name": "Hofladen Holzhusen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2725848,
+    "lon": 8.7431417,
     "address": null
   },
   {

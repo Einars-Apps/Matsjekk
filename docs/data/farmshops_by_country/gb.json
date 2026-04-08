@@ -3652,7 +3652,7 @@
     "name": "Natoora Counter",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "London",
     "products": [],
     "website": "https://www.natoora.co.uk/",
     "lat": 51.5149673,
@@ -3664,7 +3664,7 @@
     "name": "The Grocer On Elgin",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "London",
     "products": [],
     "website": "https://www.thegroceron.com/",
     "lat": 51.5151308,
@@ -5152,12 +5152,12 @@
     "name": "FarmHouse",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Gloucester",
     "products": [],
     "website": null,
     "lat": 51.8646341,
     "lon": -2.2464451,
-    "address": null
+    "address": "Southgate Street"
   },
   {
     "id": 11104993691,

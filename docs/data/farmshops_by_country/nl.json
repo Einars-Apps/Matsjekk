@@ -1718,6 +1718,18 @@
     "address": "Oude Dijk"
   },
   {
+    "id": 2853167815,
+    "name": "De Groene Schuur",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Groessen",
+    "products": [],
+    "website": "https://degroeneschuur.nl",
+    "lat": 51.9269796,
+    "lon": 6.0135697,
+    "address": "Lijkweg"
+  },
+  {
     "id": 2853315826,
     "name": "Rozenbotteltuin De Put",
     "country": "Netherlands",

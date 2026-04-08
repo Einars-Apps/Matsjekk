@@ -21547,8 +21547,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.5848664,
-    "lon": 9.4488178,
+    "lat": 48.5848877,
+    "lon": 9.4488688,
     "address": null
   },
   {
@@ -25546,18 +25546,6 @@
     "lat": 51.3646429,
     "lon": 14.2659159,
     "address": null
-  },
-  {
-    "id": 6640290450,
-    "name": "Leah's Snoopkram",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Brodersby-Goltoft",
-    "products": [],
-    "website": "https://www.leahs-snoopkram.de/",
-    "lat": 54.5474481,
-    "lon": 9.7234151,
-    "address": "Dorfstraße"
   },
   {
     "id": 6641125227,
@@ -53148,6 +53136,18 @@
     "address": null
   },
   {
+    "id": 12111487971,
+    "name": "Milchtankstelle Jakobshof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.6038221,
+    "lon": 10.1202812,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -69912,6 +69912,18 @@
     "address": "Siedlung"
   },
   {
+    "id": 5740771335,
+    "name": "Hofverkauf Däschler",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.5848664,
+    "lon": 9.4488178,
+    "address": null
+  },
+  {
     "id": 1373625077,
     "name": "Supergrün",
     "country": "Germany",
@@ -69946,6 +69958,18 @@
     "lat": 51.1862595,
     "lon": 6.9133416,
     "address": "Elb"
+  },
+  {
+    "id": 6640290450,
+    "name": "Leah's Snoopkram",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Brodersby-Goltoft",
+    "products": [],
+    "website": "https://www.leahs-snoopkram.de/",
+    "lat": 54.5474481,
+    "lon": 9.7234151,
+    "address": "Dorfstraße"
   },
   {
     "id": 1387394574,
@@ -70102,18 +70126,6 @@
     "lat": 49.4721078,
     "lon": 8.3230579,
     "address": "Fußgönheimer Straße"
-  },
-  {
-    "id": 12111487971,
-    "name": "Milchtankstelle Jakobshof",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.6038221,
-    "lon": 10.1202812,
-    "address": null
   },
   {
     "id": 12114192481,
