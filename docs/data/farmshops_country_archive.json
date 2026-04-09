@@ -476631,6 +476631,18 @@
       "lat": 40.501123,
       "lon": -2.5780664,
       "address": null
+    },
+    {
+      "id": 485186565,
+      "name": "Piscifactoria de Somines",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 43.3723021,
+      "lon": -5.9993086,
+      "address": null
     }
   ],
   "GB": [
@@ -524006,6 +524018,18 @@
       "lat": 53.826055,
       "lon": -1.8131324,
       "address": "Cottingley Cliffe Road"
+    },
+    {
+      "id": 162422656,
+      "name": "Cobbs",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.2280078,
+      "lon": -1.6949871,
+      "address": null
     }
   ],
   "IE": [

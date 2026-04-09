@@ -7303,8 +7303,8 @@
     "municipality": "Erlau",
     "products": [],
     "website": "https://www.agraset.de/",
-    "lat": 51.0176298,
-    "lon": 12.9013884,
+    "lat": 51.0179802,
+    "lon": 12.9013068,
     "address": "Am Lagerhaus"
   },
   {
@@ -61101,7 +61101,7 @@
     "website": "www.gegreens.com",
     "lat": 51.5611688,
     "lon": 6.1809594,
-    "address": "Ferienpark den Heyberg"
+    "address": "Eschenstraße"
   },
   {
     "id": 313164792,
@@ -69874,6 +69874,18 @@
     "lat": 49.4399461,
     "lon": 8.6079174,
     "address": "Bahnhofstraße"
+  },
+  {
+    "id": 2309770082,
+    "name": "Agraset Naundorf e.G. - Landmarkt",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Erlau",
+    "products": [],
+    "website": "https://www.agraset.de/",
+    "lat": 51.0176298,
+    "lon": 12.9013884,
+    "address": "Am Lagerhaus"
   },
   {
     "id": 1368073352,

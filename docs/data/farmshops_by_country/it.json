@@ -9264,6 +9264,18 @@
     "address": null
   },
   {
+    "id": 13715590511,
+    "name": "Azienda Agricola Ippolito Elisa",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Pagnacco",
+    "products": [],
+    "website": null,
+    "lat": 46.124503,
+    "lon": 13.1867755,
+    "address": "Via Colloredo"
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",

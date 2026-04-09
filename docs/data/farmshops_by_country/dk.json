@@ -1128,18 +1128,6 @@
     "address": null
   },
   {
-    "id": 5936299114,
-    "name": "Seerupgaards Landkøkken",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://seerupgaard.dk/",
-    "lat": 55.5826017,
-    "lon": 12.6208574,
-    "address": null
-  },
-  {
     "id": 5998092601,
     "name": "Bågø gårdslagteri",
     "country": "Denmark",
@@ -4452,18 +4440,6 @@
     "address": null
   },
   {
-    "id": 8996329796,
-    "name": "Bjarne Willer Jensen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.530944,
-    "lon": 10.086285,
-    "address": null
-  },
-  {
     "id": 8996518628,
     "name": "Nørreløkkegård",
     "country": "Denmark",
@@ -7170,7 +7146,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://gaarden.nu/da/gourmet-bornholm/moenstergaard/",
+    "website": "https://undercanvasbornholm.dk/moenstergaard/",
     "lat": 55.1054463,
     "lon": 14.9949661,
     "address": null
@@ -7593,18 +7569,6 @@
     "website": null,
     "lat": 56.1132754,
     "lon": 8.9139863,
-    "address": null
-  },
-  {
-    "id": 10931990072,
-    "name": "Frugt og grønt fra haven",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0233093,
-    "lon": 8.9003635,
     "address": null
   },
   {
@@ -9631,8 +9595,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 57.1557342,
-    "lon": 10.2620069,
+    "lat": 57.155736,
+    "lon": 10.262023,
     "address": null
   },
   {
@@ -9864,18 +9828,6 @@
     "address": null
   },
   {
-    "id": 13517973347,
-    "name": "Mødrenes Naturgård",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.3121925,
-    "lon": 10.3158482,
-    "address": null
-  },
-  {
     "id": 13525209384,
     "name": "Vinkelgaard Gårdbutik",
     "country": "Denmark",
@@ -9885,6 +9837,54 @@
     "website": "https://www.visitvinkelgaard.dk/",
     "lat": 55.4813162,
     "lon": 11.8849138,
+    "address": null
+  },
+  {
+    "id": 13585795321,
+    "name": "Hækbæk",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.haekbaek.dk/",
+    "lat": 55.7973534,
+    "lon": 11.5291682,
+    "address": null
+  },
+  {
+    "id": 13593493635,
+    "name": "Spirefryd",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.0522085,
+    "lon": 9.3945165,
+    "address": null
+  },
+  {
+    "id": 13618993890,
+    "name": "Kød & Ko",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koedogko.dk/",
+    "lat": 54.9511771,
+    "lon": 9.7173669,
+    "address": null
+  },
+  {
+    "id": 13625255310,
+    "name": "Birkholm",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.9139613,
+    "lon": 10.6035273,
     "address": null
   },
   {
@@ -10272,54 +10272,6 @@
     "address": null
   },
   {
-    "id": 13278424112,
-    "name": "Omfaun Landbrug",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.155736,
-    "lon": 10.262023,
-    "address": null
-  },
-  {
-    "id": 13585795321,
-    "name": "Hækbæk",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.haekbaek.dk/",
-    "lat": 55.7973534,
-    "lon": 11.5291682,
-    "address": null
-  },
-  {
-    "id": 13618993890,
-    "name": "Kød & Ko",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koedogko.dk/",
-    "lat": 54.9511771,
-    "lon": 9.7173669,
-    "address": null
-  },
-  {
-    "id": 13625255310,
-    "name": "Birkholm",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.9139613,
-    "lon": 10.6035273,
-    "address": null
-  },
-  {
     "id": 13629581522,
     "name": "Strids Mølle",
     "country": "Denmark",
@@ -10365,6 +10317,66 @@
     "website": "https://nygaardenfrugt.dk/",
     "lat": 55.9173502,
     "lon": 11.6435908,
+    "address": null
+  },
+  {
+    "id": 5936299114,
+    "name": "Seerupgaards Landkøkken",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://seerupgaard.dk/",
+    "lat": 55.5826017,
+    "lon": 12.6208574,
+    "address": null
+  },
+  {
+    "id": 8996329796,
+    "name": "Bjarne Willer Jensen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.530944,
+    "lon": 10.086285,
+    "address": null
+  },
+  {
+    "id": 10931990072,
+    "name": "Frugt og grønt fra haven",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0233093,
+    "lon": 8.9003635,
+    "address": null
+  },
+  {
+    "id": 13278424112,
+    "name": "Omfaun Landbrug",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.1557342,
+    "lon": 10.2620069,
+    "address": null
+  },
+  {
+    "id": 13517973347,
+    "name": "Mødrenes Naturgård",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.3121925,
+    "lon": 10.3158482,
     "address": null
   },
   {
@@ -17129,18 +17141,6 @@
     "website": null,
     "lat": 55.7076035,
     "lon": 12.5318447,
-    "address": null
-  },
-  {
-    "id": 13593493635,
-    "name": "Spirefryd",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.0522085,
-    "lon": 9.3945165,
     "address": null
   },
   {
