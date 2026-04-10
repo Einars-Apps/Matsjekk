@@ -55496,22 +55496,6 @@
         "mapsUrl": ""
       },
       {
-        "name": "Saimaan Maku",
-        "countryCode": "FI",
-        "country": "Finland",
-        "region": "",
-        "municipality": "",
-        "address": "Puistokatu",
-        "products": [],
-        "website": "https://saimaanmaku.fi/",
-        "lat": 61.8689065,
-        "lon": 28.8817354,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
         "name": "Aholaisten luomutila",
         "countryCode": "FI",
         "country": "Finland",
@@ -55538,6 +55522,22 @@
         "website": "",
         "lat": 62.513905,
         "lon": 24.014937,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
+        "name": "Vyrdegård",
+        "countryCode": "FI",
+        "country": "Finland",
+        "region": "",
+        "municipality": "Billnäs",
+        "address": "Sjösängsvägen",
+        "products": [],
+        "website": "https://www.vyrdegard.fi",
+        "lat": 60.0847533,
+        "lon": 23.620474,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
@@ -119629,6 +119629,22 @@
         "mapsUrl": ""
       },
       {
+        "name": "boerderijwinkel de kolke",
+        "countryCode": "NL",
+        "country": "Netherlands",
+        "region": "",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 52.1742476,
+        "lon": 6.1334132,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
         "name": "Schapenboerderij de Zeekraal",
         "countryCode": "NL",
         "country": "Netherlands",
@@ -119687,6 +119703,22 @@
         "website": "https://www.viermarken.nl",
         "lat": 52.2395455,
         "lon": 6.8685224,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
+        "name": "Groente- en Fruithandel J. Kraaij & Zoon",
+        "countryCode": "NL",
+        "country": "Netherlands",
+        "region": "",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 52.2128986,
+        "lon": 5.2855458,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
@@ -120111,7 +120143,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Remy Otten Groente en fruit",
+        "name": "Jan Otten",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -121449,38 +121481,6 @@
         "website": "https://buffalofarmtwente.nl/",
         "lat": 52.4012902,
         "lon": 6.9770382,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
-        "name": "Boerderijwinkel Oudebosch",
-        "countryCode": "NL",
-        "country": "Netherlands",
-        "region": "",
-        "municipality": "Niehove",
-        "address": "Heereburen",
-        "products": [],
-        "website": "https://www.oudeboschfruit.nl",
-        "lat": 53.2867951,
-        "lon": 6.334882,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
-        "name": "Boerderijwinkel Pijnen",
-        "countryCode": "NL",
-        "country": "Netherlands",
-        "region": "",
-        "municipality": "Hoogerheide",
-        "address": "Sportlaan",
-        "products": [],
-        "website": "",
-        "lat": 51.4184943,
-        "lon": 4.3396104,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
@@ -234816,7 +234816,7 @@
     "updatedAt": null,
     "shops": [
       {
-        "name": "Remy Otten Groente en fruit",
+        "name": "Jan Otten",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -234832,7 +234832,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Jan Otten",
+        "name": "Remy Otten Groente en fruit",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -235574,7 +235574,7 @@
     "updatedAt": null,
     "shops": [
       {
-        "name": "Remy Otten Groente en fruit",
+        "name": "Jan Otten",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -235590,7 +235590,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Jan Otten",
+        "name": "Remy Otten Groente en fruit",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -327212,7 +327212,7 @@
     "updatedAt": null,
     "shops": [
       {
-        "name": "Remy Otten Groente en fruit",
+        "name": "Jan Otten",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
@@ -327228,7 +327228,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Jan Otten",
+        "name": "Remy Otten Groente en fruit",
         "countryCode": "NL",
         "country": "Netherlands",
         "region": "",
