@@ -2751,14 +2751,14 @@
   },
   {
     "id": 5709336993,
-    "name": "Historische Tuinderij Warmoes",
+    "name": "Historische Tuinderij De Warmoes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Lent",
     "products": [],
     "website": "https://dewarmoes.nl",
-    "lat": 51.8670383,
-    "lon": 5.8560556,
+    "lat": 51.8667376,
+    "lon": 5.8556469,
     "address": "Griftdijk Noord"
   },
   {
@@ -6532,6 +6532,18 @@
     "lat": 51.4932275,
     "lon": 4.0532058,
     "address": null
+  },
+  {
+    "id": 5709336993,
+    "name": "Historische Tuinderij Warmoes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Lent",
+    "products": [],
+    "website": "https://dewarmoes.nl",
+    "lat": 51.8670383,
+    "lon": 5.8560556,
+    "address": "Griftdijk Noord"
   },
   {
     "id": 3016631720,

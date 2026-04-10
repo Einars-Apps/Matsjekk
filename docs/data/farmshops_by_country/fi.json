@@ -1116,6 +1116,18 @@
     "address": "Harjulankatu"
   },
   {
+    "id": 13045862703,
+    "name": "Saimaan Maku",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://saimaanmaku.fi/",
+    "lat": 61.8689065,
+    "lon": 28.8817354,
+    "address": "Puistokatu"
+  },
+  {
     "id": 13173257489,
     "name": "Aholaisten luomutila",
     "country": "Finland",
@@ -1138,18 +1150,6 @@
     "lat": 62.513905,
     "lon": 24.014937,
     "address": "Vääräkoskentie"
-  },
-  {
-    "id": 13652474587,
-    "name": "Vyrdegård",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Billnäs",
-    "products": [],
-    "website": "https://www.vyrdegard.fi",
-    "lat": 60.0847533,
-    "lon": 23.620474,
-    "address": "Sjösängsvägen"
   },
   {
     "id": 76736163,
@@ -1548,16 +1548,16 @@
     "address": null
   },
   {
-    "id": 13045862703,
-    "name": "Saimaan Maku",
+    "id": 13652474587,
+    "name": "Vyrdegård",
     "country": "Finland",
     "region": null,
-    "municipality": null,
+    "municipality": "Billnäs",
     "products": [],
-    "website": "https://saimaanmaku.fi/",
-    "lat": 61.8689065,
-    "lon": 28.8817354,
-    "address": "Puistokatu"
+    "website": "https://www.vyrdegard.fi",
+    "lat": 60.0847533,
+    "lon": 23.620474,
+    "address": "Sjösängsvägen"
   },
   {
     "id": 304661047,

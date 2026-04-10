@@ -37392,6 +37392,30 @@
     "address": null
   },
   {
+    "id": 13718952741,
+    "name": "Nos Jardins Imparfaits",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.nosjardinsimparfaits.com",
+    "lat": 46.4061491,
+    "lon": 5.3586269,
+    "address": "Rue Jean Pulevand"
+  },
+  {
+    "id": 13718962599,
+    "name": "Écopôle alimentaire La Chaponnière",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://legumes.c2s-vierzon.fr",
+    "lat": 47.2008346,
+    "lon": 2.0274785,
+    "address": null
+  },
+  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",

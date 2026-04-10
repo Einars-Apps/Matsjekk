@@ -9708,6 +9708,18 @@
     "address": "Hopfengasse"
   },
   {
+    "id": 13717889584,
+    "name": "Stockwerk Bioimkerei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stockwerkhonig.at/",
+    "lat": 47.9811689,
+    "lon": 13.7136438,
+    "address": null
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",

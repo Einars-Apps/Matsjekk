@@ -184553,6 +184553,18 @@
       "lat": 51.9269796,
       "lon": 6.0135697,
       "address": "Lijkweg"
+    },
+    {
+      "id": 5709336993,
+      "name": "Historische Tuinderij De Warmoes",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Lent",
+      "products": [],
+      "website": "https://dewarmoes.nl",
+      "lat": 51.8667376,
+      "lon": 5.8556469,
+      "address": "Griftdijk Noord"
     }
   ],
   "BE": [
@@ -209211,6 +209223,18 @@
       "lon": 5.2325025,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 13718474777,
+      "name": "Wallifungi",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.wallifungi.be/apropos",
+      "lat": 50.6497227,
+      "lon": 5.5946194,
+      "address": null
     }
   ],
   "FR": [
@@ -476643,6 +476667,18 @@
       "lat": 43.3723021,
       "lon": -5.9993086,
       "address": null
+    },
+    {
+      "id": 13719697682,
+      "name": "Ca la Rosina",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 41.7853707,
+      "lon": 1.8383627,
+      "address": null
     }
   ],
   "GB": [
@@ -529056,6 +529092,18 @@
       "lat": 53.4272187,
       "lon": -7.8635785,
       "address": null
+    },
+    {
+      "id": 1498081456,
+      "name": "International Garden",
+      "country": "Ireland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.8976413,
+      "lon": -8.4289847,
+      "address": null
     }
   ],
   "AT": [
@@ -575149,6 +575197,18 @@
       "website": null,
       "lat": 47.5118998,
       "lon": 9.7830147,
+      "address": null
+    },
+    {
+      "id": 13717889584,
+      "name": "Stockwerk Bioimkerei",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.stockwerkhonig.at/",
+      "lat": 47.9811689,
+      "lon": 13.7136438,
       "address": null
     }
   ],

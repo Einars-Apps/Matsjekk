@@ -732,6 +732,18 @@
     "address": null
   },
   {
+    "id": 1498081456,
+    "name": "International Garden",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.8976413,
+    "lon": -8.4289847,
+    "address": null
+  },
+  {
     "id": 11773698,
     "name": "Edenmore Farm",
     "country": "Ireland",

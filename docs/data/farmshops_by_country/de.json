@@ -6468,18 +6468,6 @@
     "address": "Werler Straße"
   },
   {
-    "id": 1997738109,
-    "name": "Bio-Hofmolkerei Dehlwes (Hofladen)",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://hofmolkerei-dehlwes.de/",
-    "lat": 53.1409992,
-    "lon": 8.889413,
-    "address": "Trupe"
-  },
-  {
     "id": 2001940544,
     "name": "Biolandhof Kastenbauer",
     "country": "Germany",
@@ -12036,18 +12024,6 @@
     "address": null
   },
   {
-    "id": 3656587422,
-    "name": "Hofladen Bayer",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://kartoffelbauerbayer.com/hofladen/",
-    "lat": 48.9667377,
-    "lon": 12.3883542,
-    "address": null
-  },
-  {
     "id": 3658496633,
     "name": "Löding's Land-Bote",
     "country": "Germany",
@@ -14854,18 +14830,6 @@
     "lat": 48.7249694,
     "lon": 8.9654423,
     "address": "Stuttgarter Straße"
-  },
-  {
-    "id": 4319173942,
-    "name": "HS Bauernladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.3383365,
-    "lon": 8.1315431,
-    "address": null
   },
   {
     "id": 4319375043,
@@ -53148,6 +53112,42 @@
     "address": null
   },
   {
+    "id": 12114192481,
+    "name": "Knapps Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.3944975,
+    "lon": 9.0948242,
+    "address": null
+  },
+  {
+    "id": 12114707791,
+    "name": "Billerhof",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Bad Aibling",
+    "products": [],
+    "website": null,
+    "lat": 47.8346776,
+    "lon": 11.9636768,
+    "address": null
+  },
+  {
+    "id": 12117087176,
+    "name": "Bruchbachbeef",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.167294,
+    "lon": 7.7210411,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -61512,6 +61512,18 @@
     "address": null
   },
   {
+    "id": 329344566,
+    "name": "Bio-Hofmolkerei Dehlwes (Hofladen)",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lilienthal",
+    "products": [],
+    "website": "https://hofmolkerei-dehlwes.de/hofladen",
+    "lat": 53.140974,
+    "lon": 8.8893758,
+    "address": "Trupe"
+  },
+  {
     "id": 329546774,
     "name": "Bio-Hofladen",
     "country": "Germany",
@@ -61917,6 +61929,18 @@
     "website": null,
     "lat": 49.0846923,
     "lon": 9.6123985,
+    "address": null
+  },
+  {
+    "id": 360191593,
+    "name": "Hofladen Bayer",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kartoffelbauerbayer.com/",
+    "lat": 48.9666469,
+    "lon": 12.3884253,
     "address": null
   },
   {
@@ -69864,6 +69888,42 @@
     "address": null
   },
   {
+    "id": 1997738109,
+    "name": "Bio-Hofmolkerei Dehlwes (Hofladen)",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://hofmolkerei-dehlwes.de/",
+    "lat": 53.1409992,
+    "lon": 8.889413,
+    "address": "Trupe"
+  },
+  {
+    "id": 3656587422,
+    "name": "Hofladen Bayer",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kartoffelbauerbayer.com/hofladen/",
+    "lat": 48.9667377,
+    "lon": 12.3883542,
+    "address": null
+  },
+  {
+    "id": 4319173942,
+    "name": "HS Bauernladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.3383365,
+    "lon": 8.1315431,
+    "address": null
+  },
+  {
     "id": 1365591667,
     "name": "Gemüseliebe",
     "country": "Germany",
@@ -70138,18 +70198,6 @@
     "lat": 49.4721078,
     "lon": 8.3230579,
     "address": "Fußgönheimer Straße"
-  },
-  {
-    "id": 12114192481,
-    "name": "Knapps Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.3944975,
-    "lon": 9.0948242,
-    "address": null
   },
   {
     "id": 11044370587,
@@ -127635,20 +127683,6 @@
     "source": "osm"
   },
   {
-    "id": 12114707791,
-    "name": "Billerhof",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Bad Aibling",
-    "products": [],
-    "website": null,
-    "lat": 47.8346776,
-    "lon": 11.9636768,
-    "address": "5, 83043",
-    "source": "osm",
-    "phone": "+49 8061 89 13"
-  },
-  {
     "id": 12116440328,
     "name": "Edelbrände & Single Malt Whisky Günther Busch",
     "country": "Germany",
@@ -127664,22 +127698,6 @@
     "address": "Württembergstraße 205, 70327",
     "source": "osm",
     "phone": "+49 711333437"
-  },
-  {
-    "id": 12117087176,
-    "name": "Bruchbachbeef",
-    "country": "Germany",
-    "region": "Nordrhein-Westfalen",
-    "municipality": null,
-    "products": [
-      "meat",
-      "sausages"
-    ],
-    "website": null,
-    "lat": 51.167294,
-    "lon": 7.7210411,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 12117222543,
