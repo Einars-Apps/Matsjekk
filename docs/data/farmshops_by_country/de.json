@@ -138,7 +138,7 @@
     "region": null,
     "municipality": "Handeloh",
     "products": [],
-    "website": "http://www.hofladen-woerme.de/",
+    "website": "https://www.hofwoerme.de/",
     "lat": 53.262508,
     "lon": 9.8655117,
     "address": "Im Dorf"
@@ -202,18 +202,6 @@
     "lat": 52.4478266,
     "lon": 7.3382502,
     "address": "Gleesener Hauptstraße"
-  },
-  {
-    "id": 282912931,
-    "name": "Helmut und Elsbeth Günther",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.730244,
-    "lon": 9.1462911,
-    "address": null
   },
   {
     "id": 283084008,
@@ -20683,8 +20671,8 @@
     "municipality": "Langenwetzendorf",
     "products": [],
     "website": "https://www.vogtland-tourismus.de/de/poi/hofladen/zog-ser-hofladen/35427767",
-    "lat": 50.6627128,
-    "lon": 12.1264579,
+    "lat": 50.6627041,
+    "lon": 12.1264797,
     "address": "Zoghaus"
   },
   {
@@ -53148,6 +53136,18 @@
     "address": null
   },
   {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -69886,6 +69886,30 @@
     "lat": 50.8881508,
     "lon": 6.8796009,
     "address": null
+  },
+  {
+    "id": 282912931,
+    "name": "Helmut und Elsbeth Günther",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.730244,
+    "lon": 9.1462911,
+    "address": null
+  },
+  {
+    "id": 5646276160,
+    "name": "Zog'ser Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Langenwetzendorf",
+    "products": [],
+    "website": "https://www.vogtland-tourismus.de/de/poi/hofladen/zog-ser-hofladen/35427767",
+    "lat": 50.6627128,
+    "lon": 12.1264579,
+    "address": "Zoghaus"
   },
   {
     "id": 1997738109,
@@ -127712,26 +127736,6 @@
     "address": null,
     "source": "osm",
     "phone": "+49 711 6406869"
-  },
-  {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": "Nordrhein-Westfalen",
-    "municipality": null,
-    "products": [
-      "meat",
-      "sausages",
-      "milk",
-      "potatoes",
-      "eggs",
-      "apple"
-    ],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null,
-    "source": "osm"
   },
   {
     "id": 12118136805,

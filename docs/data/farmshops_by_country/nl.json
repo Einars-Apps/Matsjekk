@@ -43,8 +43,8 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884448,
-    "lon": 5.8719171,
+    "lat": 51.8884481,
+    "lon": 5.8720601,
     "address": null
   },
   {
@@ -6534,28 +6534,16 @@
     "address": null
   },
   {
-    "id": 5709336993,
-    "name": "Historische Tuinderij Warmoes",
+    "id": 711819680,
+    "name": "Landwinkel De Woerdt",
     "country": "Netherlands",
     "region": null,
-    "municipality": "Lent",
+    "municipality": null,
     "products": [],
-    "website": "https://dewarmoes.nl",
-    "lat": 51.8670383,
-    "lon": 5.8560556,
-    "address": "Griftdijk Noord"
-  },
-  {
-    "id": 3016631720,
-    "name": "Vos Fruit",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Driel",
-    "products": [],
-    "website": null,
-    "lat": 51.959108,
-    "lon": 5.807823,
-    "address": "Rijnstraat"
+    "website": "https://dewoerdt.nl/landwinkel",
+    "lat": 51.8884448,
+    "lon": 5.8719171,
+    "address": null
   },
   {
     "id": 721331835,
@@ -6592,6 +6580,30 @@
     "lat": 52.0781982,
     "lon": 4.2696324,
     "address": "Abeelplein"
+  },
+  {
+    "id": 3016631720,
+    "name": "Vos Fruit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Driel",
+    "products": [],
+    "website": null,
+    "lat": 51.959108,
+    "lon": 5.807823,
+    "address": "Rijnstraat"
+  },
+  {
+    "id": 5709336993,
+    "name": "Historische Tuinderij Warmoes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Lent",
+    "products": [],
+    "website": "https://dewarmoes.nl",
+    "lat": 51.8670383,
+    "lon": 5.8560556,
+    "address": "Griftdijk Noord"
   },
   {
     "id": 5971944180,

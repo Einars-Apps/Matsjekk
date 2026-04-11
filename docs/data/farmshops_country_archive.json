@@ -184565,6 +184565,18 @@
       "lat": 51.8667376,
       "lon": 5.8556469,
       "address": "Griftdijk Noord"
+    },
+    {
+      "id": 711819680,
+      "name": "Landwinkel De Woerdt",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://dewoerdt.nl/landwinkel",
+      "lat": 51.8884481,
+      "lon": 5.8720601,
+      "address": null
     }
   ],
   "BE": [
@@ -625438,6 +625450,18 @@
       "website": null,
       "lat": 47.2725848,
       "lon": 8.7431417,
+      "address": null
+    },
+    {
+      "id": 10218728041,
+      "name": "Hofladen Schlattgut",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.2894981,
+      "lon": 8.6274105,
       "address": null
     }
   ],
