@@ -11404,7 +11404,7 @@
     "name": "Frankies Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Tonbridge",
     "products": [],
     "website": null,
     "lat": 51.1814943,
@@ -12574,6 +12574,18 @@
     "lat": 50.7760109,
     "lon": -1.765295,
     "address": null
+  },
+  {
+    "id": 947924072,
+    "name": "Taywell Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Cranbrook",
+    "products": [],
+    "website": null,
+    "lat": 51.1136904,
+    "lon": 0.475698,
+    "address": "Cranbrook Road"
   },
   {
     "id": 948482787,
@@ -15838,6 +15850,30 @@
     "lat": 57.066534,
     "lon": -2.4821323,
     "address": null
+  },
+  {
+    "id": 1477395755,
+    "name": "Chittenden Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.1469678,
+    "lon": 0.5498966,
+    "address": "Lovehurst Lane"
+  },
+  {
+    "id": 1477857008,
+    "name": "Henhurst Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1530653,
+    "lon": 0.5460781,
+    "address": "Pinnock Lane"
   },
   {
     "id": 1483450657,

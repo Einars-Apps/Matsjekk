@@ -3672,6 +3672,18 @@
     "address": null
   },
   {
+    "id": 13725201020,
+    "name": "Ferme de la Goyette",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.5923908,
+    "lon": 4.4400475,
+    "address": null
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",

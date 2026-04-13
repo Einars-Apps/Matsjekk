@@ -1836,18 +1836,6 @@
     "address": "Hauptstraße"
   },
   {
-    "id": 602060054,
-    "name": "Friesische Schafskäserei",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Tetenbüll",
-    "products": [],
-    "website": "https://friesische-schafskaeserei.de",
-    "lat": 54.3609111,
-    "lon": 8.8253481,
-    "address": "Kirchdeich"
-  },
-  {
     "id": 602085319,
     "name": "Hofladen Föhrer Inselkäse",
     "country": "Germany",
@@ -11527,8 +11515,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 53.8675899,
-    "lon": 10.6878064,
+    "lat": 53.8676068,
+    "lon": 10.6877716,
     "address": null
   },
   {
@@ -45909,7 +45897,7 @@
     "website": "https://www.osterhof-fehmarn.de/osterhof-hofladen",
     "lat": 54.4960347,
     "lon": 11.0917463,
-    "address": null
+    "address": "Gammendorfer Straße"
   },
   {
     "id": 10758873315,
@@ -53148,6 +53136,18 @@
     "address": null
   },
   {
+    "id": 12118136805,
+    "name": "Moierhof Batzenhofen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Gersthofen",
+    "products": [],
+    "website": null,
+    "lat": 48.4294326,
+    "lon": 10.8176624,
+    "address": "Martinstraße"
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -56086,6 +56086,18 @@
     "lat": 48.3630486,
     "lon": 11.702093,
     "address": "Flurstraße"
+  },
+  {
+    "id": 125605956,
+    "name": "Biohof Wahsner",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.biohof-wahsner.de",
+    "lat": 49.9460803,
+    "lon": 6.8977361,
+    "address": null
   },
   {
     "id": 125675521,
@@ -69850,6 +69862,30 @@
     "lat": 53.5276796,
     "lon": 9.7677913,
     "address": "Groß Hove"
+  },
+  {
+    "id": 602060054,
+    "name": "Friesische Schafskäserei",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Tetenbüll",
+    "products": [],
+    "website": "https://friesische-schafskaeserei.de",
+    "lat": 54.3609111,
+    "lon": 8.8253481,
+    "address": "Kirchdeich"
+  },
+  {
+    "id": 3594821307,
+    "name": "Karl's Erdbeerhof",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.8675899,
+    "lon": 10.6878064,
+    "address": null
   },
   {
     "id": 1361550350,
@@ -127736,19 +127772,6 @@
     "address": null,
     "source": "osm",
     "phone": "+49 711 6406869"
-  },
-  {
-    "id": 12118136805,
-    "name": "Moierhof Batzenhofen",
-    "country": "Germany",
-    "region": "Bayern",
-    "municipality": "Gersthofen",
-    "products": [],
-    "website": null,
-    "lat": 48.4294326,
-    "lon": 10.8176624,
-    "address": "Martinstraße 3, 86368",
-    "source": "osm"
   },
   {
     "id": 12118451782,

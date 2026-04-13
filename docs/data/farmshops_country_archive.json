@@ -60213,6 +60213,18 @@
       "lat": 56.0919088,
       "lon": 9.7531699,
       "address": null
+    },
+    {
+      "id": 13724967263,
+      "name": "Stalddørssalg af æg",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 55.104053,
+      "lon": 11.9407303,
+      "address": null
     }
   ],
   "FI": [
@@ -68282,6 +68294,18 @@
       "address": "Mustilantie 21, 47200",
       "source": "osm",
       "phone": "+358 53777466"
+    },
+    {
+      "id": 13725498583,
+      "name": "Mantereen tila",
+      "country": "Finland",
+      "region": null,
+      "municipality": "Lempäälä",
+      "products": [],
+      "website": null,
+      "lat": 61.2395043,
+      "lon": 23.7981251,
+      "address": "Perälänraitti"
     }
   ],
   "DE": [
@@ -209246,6 +209270,18 @@
       "website": "https://www.wallifungi.be/apropos",
       "lat": 50.6497227,
       "lon": 5.5946194,
+      "address": null
+    },
+    {
+      "id": 13725201020,
+      "name": "Ferme de la Goyette",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.5923908,
+      "lon": 4.4400475,
       "address": null
     }
   ],
@@ -524078,6 +524114,42 @@
       "lat": 52.2280078,
       "lon": -1.6949871,
       "address": null
+    },
+    {
+      "id": 947924072,
+      "name": "Taywell Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Cranbrook",
+      "products": [],
+      "website": null,
+      "lat": 51.1136904,
+      "lon": 0.475698,
+      "address": "Cranbrook Road"
+    },
+    {
+      "id": 1477395755,
+      "name": "Chittenden Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.1469678,
+      "lon": 0.5498966,
+      "address": "Lovehurst Lane"
+    },
+    {
+      "id": 1477857008,
+      "name": "Henhurst Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Tonbridge",
+      "products": [],
+      "website": null,
+      "lat": 51.1530653,
+      "lon": 0.5460781,
+      "address": "Pinnock Lane"
     }
   ],
   "IE": [

@@ -1152,6 +1152,18 @@
     "address": "Sjösängsvägen"
   },
   {
+    "id": 13725498583,
+    "name": "Mantereen tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Lempäälä",
+    "products": [],
+    "website": null,
+    "lat": 61.2395043,
+    "lon": 23.7981251,
+    "address": "Perälänraitti"
+  },
+  {
     "id": 76736163,
     "name": "Riista- ja kalatalouden tutkimuslaitos",
     "country": "Finland",
