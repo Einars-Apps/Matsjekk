@@ -13915,8 +13915,8 @@
     "municipality": "Auge",
     "products": [],
     "website": null,
-    "lat": 45.8317312,
-    "lon": -0.0890573,
+    "lat": 45.8316952,
+    "lon": -0.0890617,
     "address": "Le Bardonneau"
   },
   {
@@ -46029,9 +46029,9 @@
     "name": "La Bête Noire Sancerroise",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Thauvenay",
     "products": [],
-    "website": null,
+    "website": "https://www.crottinsdechavignol.com/",
     "lat": 47.3070328,
     "lon": 2.869946,
     "address": null
@@ -46611,6 +46611,18 @@
     "lat": 47.2509244,
     "lon": -1.5477749,
     "address": null
+  },
+  {
+    "id": 7416988653,
+    "name": "SCEA du Bardonneau",
+    "country": "France",
+    "region": null,
+    "municipality": "Auge",
+    "products": [],
+    "website": null,
+    "lat": 45.8317312,
+    "lon": -0.0890573,
+    "address": "Le Bardonneau"
   },
   {
     "id": 1014026341,

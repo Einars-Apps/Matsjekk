@@ -38251,8 +38251,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.9012277,
-    "lon": 13.1831744,
+    "lat": 48.9013543,
+    "lon": 13.1831615,
     "address": null
   },
   {
@@ -69790,6 +69790,18 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
+  },
+  {
+    "id": 9142585497,
+    "name": "Mühlbauer Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.9012277,
+    "lon": 13.1831744,
+    "address": null
   },
   {
     "id": 1350451814,

@@ -5203,8 +5203,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600501,
-    "lon": 3.6034127,
+    "lat": 51.1600502,
+    "lon": 3.6034124,
     "address": "Jagerpad"
   },
   {
@@ -5410,6 +5410,18 @@
     "lat": 51.2514826,
     "lon": 5.5455429,
     "address": null
+  },
+  {
+    "id": 1168475491,
+    "name": "Hoevezuivel Simoenstede",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Lievegem",
+    "products": [],
+    "website": null,
+    "lat": 51.1600501,
+    "lon": 3.6034127,
+    "address": "Jagerpad"
   },
   {
     "id": 392825373,

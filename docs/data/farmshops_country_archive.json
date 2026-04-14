@@ -209283,6 +209283,18 @@
       "lat": 50.5923908,
       "lon": 4.4400475,
       "address": null
+    },
+    {
+      "id": 1168475491,
+      "name": "Hoevezuivel Simoenstede",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Lievegem",
+      "products": [],
+      "website": null,
+      "lat": 51.1600502,
+      "lon": 3.6034124,
+      "address": "Jagerpad"
     }
   ],
   "FR": [
@@ -524150,6 +524162,18 @@
       "lat": 51.1530653,
       "lon": 0.5460781,
       "address": "Pinnock Lane"
+    },
+    {
+      "id": 13728468293,
+      "name": "Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 56.0082837,
+      "lon": -3.9054267,
+      "address": null
     }
   ],
   "IE": [
@@ -575294,6 +575318,30 @@
       "lat": 47.9811689,
       "lon": 13.7136438,
       "address": null
+    },
+    {
+      "id": 13728190771,
+      "name": "Biogemüse Gruber",
+      "country": "Austria",
+      "region": null,
+      "municipality": "St. Florian",
+      "products": [],
+      "website": null,
+      "lat": 48.1747491,
+      "lon": 14.4027904,
+      "address": "Oberweidlham"
+    },
+    {
+      "id": 48173327,
+      "name": "Abhof Höfinger",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Ollern",
+      "products": [],
+      "website": "https://abhof-hoefinger.at/wp/",
+      "lat": 48.2677666,
+      "lon": 16.0850036,
+      "address": "Hauptstraße"
     }
   ],
   "CH": [
