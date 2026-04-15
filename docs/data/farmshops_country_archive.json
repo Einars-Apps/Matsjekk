@@ -524174,6 +524174,18 @@
       "lat": 56.0082837,
       "lon": -3.9054267,
       "address": null
+    },
+    {
+      "id": 399555483,
+      "name": "Farmer's Depot",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 18.4227611,
+      "lon": -64.6226085,
+      "address": null
     }
   ],
   "IE": [
