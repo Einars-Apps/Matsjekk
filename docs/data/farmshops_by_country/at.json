@@ -8143,8 +8143,8 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3482028,
-    "lon": 9.6148441,
+    "lat": 47.3481006,
+    "lon": 9.6148273,
     "address": "Reichshofstraße"
   },
   {
@@ -12720,6 +12720,18 @@
     "address": null
   },
   {
+    "id": 1499287630,
+    "name": "Eisl Ei & Allerlei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8652051,
+    "lon": 13.0329918,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -13848,16 +13860,16 @@
     "address": null
   },
   {
-    "id": 8071896620,
-    "name": "No name",
+    "id": 12294534720,
+    "name": "Bsundrigs Guat - Hof Oberhauser",
     "country": "Austria",
     "region": null,
-    "municipality": null,
+    "municipality": "Mäder",
     "products": [],
-    "website": null,
-    "lat": 46.8785237,
-    "lon": 15.8886418,
-    "address": null
+    "website": "https://www.bsundrigsguat.at/",
+    "lat": 47.3482028,
+    "lon": 9.6148441,
+    "address": "Reichshofstraße"
   },
   {
     "id": 48173327,
@@ -13881,6 +13893,18 @@
     "website": null,
     "lat": 46.9432029,
     "lon": 15.4139954,
+    "address": null
+  },
+  {
+    "id": 8071896620,
+    "name": "No name",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8785237,
+    "lon": 15.8886418,
     "address": null
   },
   {

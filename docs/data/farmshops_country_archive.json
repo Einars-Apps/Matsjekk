@@ -575342,6 +575342,30 @@
       "lat": 48.2677666,
       "lon": 16.0850036,
       "address": "Hauptstraße"
+    },
+    {
+      "id": 12294534720,
+      "name": "Bsundrigs Guat - Hof Oberhauser",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Mäder",
+      "products": [],
+      "website": "https://www.bsundrigsguat.at/",
+      "lat": 47.3481006,
+      "lon": 9.6148273,
+      "address": "Reichshofstraße"
+    },
+    {
+      "id": 1499287630,
+      "name": "Eisl Ei & Allerlei",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.8652051,
+      "lon": 13.0329918,
+      "address": null
     }
   ],
   "CH": [

@@ -9408,6 +9408,18 @@
     "address": null
   },
   {
+    "id": 3007045662,
+    "name": "Hofladen Klemens",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Rudersberg",
+    "products": [],
+    "website": null,
+    "lat": 48.8840093,
+    "lon": 9.5128821,
+    "address": "Kirchenackerweg"
+  },
+  {
     "id": 3008986514,
     "name": "Hofladen",
     "country": "Germany",
@@ -19666,6 +19678,18 @@
     "lat": 52.9678069,
     "lon": 9.0466656,
     "address": null
+  },
+  {
+    "id": 5492050015,
+    "name": "KolbNatur (NaturDünger)",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Rudersberg",
+    "products": [],
+    "website": null,
+    "lat": 48.8845028,
+    "lon": 9.512119,
+    "address": "Kirchenackerhof"
   },
   {
     "id": 5502553623,
@@ -53136,18 +53160,6 @@
     "address": null
   },
   {
-    "id": 12118136805,
-    "name": "Moierhof Batzenhofen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Gersthofen",
-    "products": [],
-    "website": null,
-    "lat": 48.4294326,
-    "lon": 10.8176624,
-    "address": "Martinstraße"
-  },
-  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -69790,6 +69802,18 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
+  },
+  {
+    "id": 12118136805,
+    "name": "Moierhof Batzenhofen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Gersthofen",
+    "products": [],
+    "website": null,
+    "lat": 48.4294326,
+    "lon": 10.8176624,
+    "address": "Martinstraße"
   },
   {
     "id": 9142585497,
