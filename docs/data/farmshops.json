@@ -14157,7 +14157,7 @@
   },
   {
     "id": "hanen_822",
-    "name": "Haneborg gård (Tomtermais)",
+    "name": "Haneborg gård",
     "country": "Norway",
     "region": "Akershus",
     "municipality": "Drøbak",
@@ -14166,7 +14166,7 @@
     "lat": 59.687629,
     "lon": 10.675517,
     "address": "Haneborg gård Osloveien 160",
-    "source": "https://www.hanen.no/bedrift/haneborg-gaard-tomtermais/"
+    "source": "https://www.hanen.no/bedrift/haneborg-gaard/"
   },
   {
     "id": "hanen_1174",
@@ -15766,6 +15766,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_822",
+    "name": "Haneborg gård (Tomtermais)",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Drøbak",
+    "products": [],
+    "website": "https://tomtermais.no",
+    "lat": 59.687629,
+    "lon": 10.675517,
+    "address": "Haneborg gård Osloveien 160",
+    "source": "https://www.hanen.no/bedrift/haneborg-gaard-tomtermais/"
   },
   {
     "id": "hanen_908",
@@ -34743,18 +34756,6 @@
     "address": null
   },
   {
-    "id": 7198238002,
-    "name": "Grennessminde",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
-    "lat": 55.6417069,
-    "lon": 12.2945648,
-    "address": null
-  },
-  {
     "id": 7311230550,
     "name": "Aromagaarden",
     "country": "Denmark",
@@ -43716,6 +43717,18 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 7198238002,
+    "name": "Grennessminde",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
+    "lat": 55.6417069,
+    "lon": 12.2945648,
     "address": null
   },
   {
@@ -71545,6 +71558,18 @@
     "lat": 49.0743589,
     "lon": 8.4063528,
     "address": null
+  },
+  {
+    "id": 1338061831,
+    "name": "Hofladen Treller",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lamspringe",
+    "products": [],
+    "website": "https://www.trellereier.de/",
+    "lat": 51.9722076,
+    "lon": 9.9538862,
+    "address": "Postweg"
   },
   {
     "id": 1342152258,
@@ -120543,18 +120568,6 @@
     "address": null
   },
   {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null
-  },
-  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -137197,6 +137210,18 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
+  },
+  {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
   },
   {
     "id": 12118136805,
@@ -244141,8 +244166,8 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884481,
-    "lon": 5.8720601,
+    "lat": 51.8884448,
+    "lon": 5.8719171,
     "address": null
   },
   {
@@ -245816,18 +245841,6 @@
     "address": "Oude Dijk"
   },
   {
-    "id": 2853167815,
-    "name": "De Groene Schuur",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Groessen",
-    "products": [],
-    "website": "https://degroeneschuur.nl",
-    "lat": 51.9269796,
-    "lon": 6.0135697,
-    "address": "Lijkweg"
-  },
-  {
     "id": 2853315826,
     "name": "Rozenbotteltuin De Put",
     "country": "Netherlands",
@@ -246363,8 +246376,8 @@
     "municipality": "Driel",
     "products": [],
     "website": null,
-    "lat": 51.9590799,
-    "lon": 5.8078207,
+    "lat": 51.959108,
+    "lon": 5.807823,
     "address": "Rijnstraat"
   },
   {
@@ -246849,14 +246862,14 @@
   },
   {
     "id": 5709336993,
-    "name": "Historische Tuinderij De Warmoes",
+    "name": "Historische Tuinderij Warmoes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Lent",
     "products": [],
     "website": "https://dewarmoes.nl",
-    "lat": 51.8667376,
-    "lon": 5.8556469,
+    "lat": 51.8670383,
+    "lon": 5.8560556,
     "address": "Griftdijk Noord"
   },
   {
@@ -248206,18 +248219,6 @@
     "address": "Groenekanseweg"
   },
   {
-    "id": 10933923526,
-    "name": "Hanekamp",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2702156,
-    "lon": 6.0954229,
-    "address": null
-  },
-  {
     "id": 10964802460,
     "name": "Rustpunt de Scharrelhof",
     "country": "Netherlands",
@@ -249368,18 +249369,6 @@
     "lat": 52.6756691,
     "lon": 5.2137606,
     "address": null
-  },
-  {
-    "id": 13705020169,
-    "name": "Het Melkmeisje",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Culemborg",
-    "products": [],
-    "website": null,
-    "lat": 51.9416086,
-    "lon": 5.1925234,
-    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 43396672,
@@ -250639,9 +250628,69 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884448,
-    "lon": 5.8719171,
+    "lat": 51.8884481,
+    "lon": 5.8720601,
     "address": null
+  },
+  {
+    "id": 2853167815,
+    "name": "De Groene Schuur",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Groessen",
+    "products": [],
+    "website": "https://degroeneschuur.nl",
+    "lat": 51.9269796,
+    "lon": 6.0135697,
+    "address": "Lijkweg"
+  },
+  {
+    "id": 3016631720,
+    "name": "Vos Fruit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Driel",
+    "products": [],
+    "website": null,
+    "lat": 51.9590799,
+    "lon": 5.8078207,
+    "address": "Rijnstraat"
+  },
+  {
+    "id": 5709336993,
+    "name": "Historische Tuinderij De Warmoes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Lent",
+    "products": [],
+    "website": "https://dewarmoes.nl",
+    "lat": 51.8667376,
+    "lon": 5.8556469,
+    "address": "Griftdijk Noord"
+  },
+  {
+    "id": 10933923526,
+    "name": "Hanekamp",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2702156,
+    "lon": 6.0954229,
+    "address": null
+  },
+  {
+    "id": 13705020169,
+    "name": "Het Melkmeisje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Culemborg",
+    "products": [],
+    "website": null,
+    "lat": 51.9416086,
+    "lon": 5.1925234,
+    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 721331835,
@@ -250678,30 +250727,6 @@
     "lat": 52.0781982,
     "lon": 4.2696324,
     "address": "Abeelplein"
-  },
-  {
-    "id": 3016631720,
-    "name": "Vos Fruit",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Driel",
-    "products": [],
-    "website": null,
-    "lat": 51.959108,
-    "lon": 5.807823,
-    "address": "Rijnstraat"
-  },
-  {
-    "id": 5709336993,
-    "name": "Historische Tuinderij Warmoes",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Lent",
-    "products": [],
-    "website": "https://dewarmoes.nl",
-    "lat": 51.8670383,
-    "lon": 5.8560556,
-    "address": "Griftdijk Noord"
   },
   {
     "id": 5971944180,
@@ -279433,7 +279458,7 @@
     "region": null,
     "municipality": "Villers-le-bouillet",
     "products": [],
-    "website": "http://www.lafermedelacroix.be/",
+    "website": null,
     "lat": 50.5778548,
     "lon": 5.2586362,
     "address": "Rue de Waremme"
@@ -280033,7 +280058,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hoeve-heierveld.be/",
+    "website": "https://www.hoeve-heierveld.be",
     "lat": 50.9088663,
     "lon": 4.2331687,
     "address": null
@@ -280048,30 +280073,6 @@
     "website": null,
     "lat": 50.4793911,
     "lon": 4.7176706,
-    "address": null
-  },
-  {
-    "id": 13718474777,
-    "name": "Wallifungi",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wallifungi.be/apropos",
-    "lat": 50.6497227,
-    "lon": 5.5946194,
-    "address": null
-  },
-  {
-    "id": 13725201020,
-    "name": "Ferme de la Goyette",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.5923908,
-    "lon": 4.4400475,
     "address": null
   },
   {
@@ -281594,8 +281595,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600502,
-    "lon": 3.6034124,
+    "lat": 51.1600501,
+    "lon": 3.6034127,
     "address": "Jagerpad"
   },
   {
@@ -281791,6 +281792,30 @@
     "address": "Rue Estafflers"
   },
   {
+    "id": 13718474777,
+    "name": "Wallifungi",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.wallifungi.be/apropos",
+    "lat": 50.6497227,
+    "lon": 5.5946194,
+    "address": null
+  },
+  {
+    "id": 13725201020,
+    "name": "Ferme de la Goyette",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.5923908,
+    "lon": 4.4400475,
+    "address": null
+  },
+  {
     "id": 1168475491,
     "name": "Hoevezuivel Simoenstede",
     "country": "Belgium",
@@ -281798,8 +281823,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600501,
-    "lon": 3.6034127,
+    "lat": 51.1600502,
+    "lon": 3.6034124,
     "address": "Jagerpad"
   },
   {
@@ -605537,14 +605562,14 @@
   },
   {
     "id": 9556010424,
-    "name": "Covello - Aromas e Sabores",
+    "name": "Covello",
     "country": "Portugal",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.covello.pt/index.php",
-    "lat": 41.4118471,
-    "lon": -7.6880294,
+    "website": "https://covello.pt/",
+    "lat": 41.4118349,
+    "lon": -7.688044,
     "address": null
   },
   {
@@ -606035,7 +606060,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0274178,
+    "lat": 40.0268414,
     "lon": -8.6224196,
     "address": null
   },
@@ -606353,14 +606378,26 @@
   },
   {
     "id": 9556010424,
-    "name": "Covello",
+    "name": "Covello - Aromas e Sabores",
     "country": "Portugal",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://covello.pt/",
-    "lat": 41.4118349,
-    "lon": -7.688044,
+    "website": "http://www.covello.pt/index.php",
+    "lat": 41.4118471,
+    "lon": -7.6880294,
+    "address": null
+  },
+  {
+    "id": 666647099,
+    "name": "Lusiaves - Quinta da Cruz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lusiaves.pt/",
+    "lat": 40.0274178,
+    "lon": -8.6224196,
     "address": null
   },
   {
@@ -708945,6 +708982,18 @@
     "address": null
   },
   {
+    "id": 13733283001,
+    "name": "Home Farm Produce",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Retford",
+    "products": [],
+    "website": "https://www.homefarmproduce.co.uk/",
+    "lat": 53.3107523,
+    "lon": -0.8930338,
+    "address": "Grove Drive"
+  },
+  {
     "id": 3713847,
     "name": "Great Covert",
     "country": "United Kingdom",
@@ -711631,18 +711680,6 @@
     "lat": 52.189928,
     "lon": 1.4701589,
     "address": "Friday Street"
-  },
-  {
-    "id": 399555483,
-    "name": "Farmer's Depot",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 18.4227611,
-    "lon": -64.6226085,
-    "address": null
   },
   {
     "id": 401687339,
@@ -720822,6 +720859,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 399555483,
+    "name": "Farmer's Depot",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 18.4227611,
+    "lon": -64.6226085,
     "address": null
   },
   {
@@ -754931,7 +754980,7 @@
     "website": null,
     "lat": 48.1379654,
     "lon": 14.5665923,
-    "address": null
+    "address": "Reichhub"
   },
   {
     "id": 1252690347,
@@ -758145,8 +758194,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5259634,
-    "lon": 12.0789138,
+    "lat": 47.5260762,
+    "lon": 12.0781897,
     "address": null
   },
   {
@@ -760134,7 +760183,7 @@
     "name": "Rupi's Ab-Hof Verkauf",
     "country": "Austria",
     "region": null,
-    "municipality": "Zeiselmauer-Wolfpassing",
+    "municipality": "Zeiselmauer",
     "products": [],
     "website": null,
     "lat": 48.3292315,
@@ -762933,8 +762982,8 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3481006,
-    "lon": 9.6148273,
+    "lat": 47.3482028,
+    "lon": 9.6148441,
     "address": "Reichshofstraße"
   },
   {
@@ -764474,54 +764523,6 @@
     "address": null
   },
   {
-    "id": 13688216872,
-    "name": "Villa Kunterbunt",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Gnadenwald",
-    "products": [],
-    "website": null,
-    "lat": 47.3222636,
-    "lon": 11.5875229,
-    "address": "Gnadenwald"
-  },
-  {
-    "id": 13705270086,
-    "name": "Honig aus eigener Produktion",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.3447593,
-    "lon": 13.7687643,
-    "address": "Hopfengasse"
-  },
-  {
-    "id": 13717889584,
-    "name": "Stockwerk Bioimkerei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stockwerkhonig.at/",
-    "lat": 47.9811689,
-    "lon": 13.7136438,
-    "address": null
-  },
-  {
-    "id": 13728190771,
-    "name": "Biogemüse Gruber",
-    "country": "Austria",
-    "region": null,
-    "municipality": "St. Florian",
-    "products": [],
-    "website": null,
-    "lat": 48.1747491,
-    "lon": 14.4027904,
-    "address": "Oberweidlham"
-  },
-  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -764733,8 +764734,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.2677666,
-    "lon": 16.0850036,
+    "lat": 48.267763,
+    "lon": 16.0849996,
     "address": "Hauptstraße"
   },
   {
@@ -766979,7 +766980,7 @@
     "website": null,
     "lat": 47.6139541,
     "lon": 16.2380706,
-    "address": null
+    "address": "Stickelberg"
   },
   {
     "id": 1089750920,
@@ -767498,30 +767499,6 @@
     "address": "Ferdinand-Leihs-Straße"
   },
   {
-    "id": 1497469837,
-    "name": "Hofladen Pfänderglück",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5118998,
-    "lon": 9.7830147,
-    "address": null
-  },
-  {
-    "id": 1499287630,
-    "name": "Eisl Ei & Allerlei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8652051,
-    "lon": 13.0329918,
-    "address": null
-  },
-  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -767745,7 +767722,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9435696,
+    "lat": 46.9432029,
     "lon": 15.4139954,
     "address": null
   },
@@ -768645,8 +768622,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5260762,
-    "lon": 12.0781897,
+    "lat": 47.5259634,
+    "lon": 12.0789138,
     "address": null
   },
   {
@@ -768657,9 +768634,57 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3482028,
-    "lon": 9.6148441,
+    "lat": 47.3481006,
+    "lon": 9.6148273,
     "address": "Reichshofstraße"
+  },
+  {
+    "id": 13688216872,
+    "name": "Villa Kunterbunt",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Gnadenwald",
+    "products": [],
+    "website": null,
+    "lat": 47.3222636,
+    "lon": 11.5875229,
+    "address": "Gnadenwald"
+  },
+  {
+    "id": 13705270086,
+    "name": "Honig aus eigener Produktion",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.3447593,
+    "lon": 13.7687643,
+    "address": "Hopfengasse"
+  },
+  {
+    "id": 13717889584,
+    "name": "Stockwerk Bioimkerei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stockwerkhonig.at/",
+    "lat": 47.9811689,
+    "lon": 13.7136438,
+    "address": null
+  },
+  {
+    "id": 13728190771,
+    "name": "Biogemüse Gruber",
+    "country": "Austria",
+    "region": null,
+    "municipality": "St. Florian",
+    "products": [],
+    "website": null,
+    "lat": 48.1747491,
+    "lon": 14.4027904,
+    "address": "Oberweidlham"
   },
   {
     "id": 48173327,
@@ -768669,9 +768694,33 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.267763,
-    "lon": 16.0849996,
+    "lat": 48.2677666,
+    "lon": 16.0850036,
     "address": "Hauptstraße"
+  },
+  {
+    "id": 1497469837,
+    "name": "Hofladen Pfänderglück",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5118998,
+    "lon": 9.7830147,
+    "address": null
+  },
+  {
+    "id": 1499287630,
+    "name": "Eisl Ei & Allerlei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8652051,
+    "lon": 13.0329918,
+    "address": null
   },
   {
     "id": 2607960,
@@ -768681,7 +768730,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9432029,
+    "lat": 46.9435696,
     "lon": 15.4139954,
     "address": null
   },

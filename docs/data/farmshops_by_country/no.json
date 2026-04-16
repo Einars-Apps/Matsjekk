@@ -14157,7 +14157,7 @@
   },
   {
     "id": "hanen_822",
-    "name": "Haneborg gård (Tomtermais)",
+    "name": "Haneborg gård",
     "country": "Norway",
     "region": "Akershus",
     "municipality": "Drøbak",
@@ -14166,7 +14166,7 @@
     "lat": 59.687629,
     "lon": 10.675517,
     "address": "Haneborg gård Osloveien 160",
-    "source": "https://www.hanen.no/bedrift/haneborg-gaard-tomtermais/"
+    "source": "https://www.hanen.no/bedrift/haneborg-gaard/"
   },
   {
     "id": "hanen_1174",
@@ -15766,6 +15766,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_822",
+    "name": "Haneborg gård (Tomtermais)",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Drøbak",
+    "products": [],
+    "website": "https://tomtermais.no",
+    "lat": 59.687629,
+    "lon": 10.675517,
+    "address": "Haneborg gård Osloveien 160",
+    "source": "https://www.hanen.no/bedrift/haneborg-gaard-tomtermais/"
   },
   {
     "id": "hanen_908",

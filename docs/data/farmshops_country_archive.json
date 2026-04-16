@@ -24770,6 +24770,19 @@
       "lon": 12.170439,
       "address": "Trælnessjøveien 23",
       "source": "https://www.hanen.no/bedrift/sjovold-gaardsmeieri/"
+    },
+    {
+      "id": "hanen_822",
+      "name": "Haneborg gård",
+      "country": "Norway",
+      "region": "Akershus",
+      "municipality": "Drøbak",
+      "products": [],
+      "website": "https://tomtermais.no",
+      "lat": 59.687629,
+      "lon": 10.675517,
+      "address": "Haneborg gård Osloveien 160",
+      "source": "https://www.hanen.no/bedrift/haneborg-gaard/"
     }
   ],
   "SE": [
@@ -418086,6 +418099,18 @@
       "lat": 41.4118349,
       "lon": -7.688044,
       "address": null
+    },
+    {
+      "id": 666647099,
+      "name": "Lusiaves - Quinta da Cruz",
+      "country": "Portugal",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.lusiaves.pt/",
+      "lat": 40.0268414,
+      "lon": -8.6224196,
+      "address": null
     }
   ],
   "ES": [
@@ -524186,6 +524211,18 @@
       "lat": 18.4227611,
       "lon": -64.6226085,
       "address": null
+    },
+    {
+      "id": 13733283001,
+      "name": "Home Farm Produce",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Retford",
+      "products": [],
+      "website": "https://www.homefarmproduce.co.uk/",
+      "lat": 53.3107523,
+      "lon": -0.8930338,
+      "address": "Grove Drive"
     }
   ],
   "IE": [

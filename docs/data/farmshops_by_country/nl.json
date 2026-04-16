@@ -43,8 +43,8 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884481,
-    "lon": 5.8720601,
+    "lat": 51.8884448,
+    "lon": 5.8719171,
     "address": null
   },
   {
@@ -1718,18 +1718,6 @@
     "address": "Oude Dijk"
   },
   {
-    "id": 2853167815,
-    "name": "De Groene Schuur",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Groessen",
-    "products": [],
-    "website": "https://degroeneschuur.nl",
-    "lat": 51.9269796,
-    "lon": 6.0135697,
-    "address": "Lijkweg"
-  },
-  {
     "id": 2853315826,
     "name": "Rozenbotteltuin De Put",
     "country": "Netherlands",
@@ -2265,8 +2253,8 @@
     "municipality": "Driel",
     "products": [],
     "website": null,
-    "lat": 51.9590799,
-    "lon": 5.8078207,
+    "lat": 51.959108,
+    "lon": 5.807823,
     "address": "Rijnstraat"
   },
   {
@@ -2751,14 +2739,14 @@
   },
   {
     "id": 5709336993,
-    "name": "Historische Tuinderij De Warmoes",
+    "name": "Historische Tuinderij Warmoes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Lent",
     "products": [],
     "website": "https://dewarmoes.nl",
-    "lat": 51.8667376,
-    "lon": 5.8556469,
+    "lat": 51.8670383,
+    "lon": 5.8560556,
     "address": "Griftdijk Noord"
   },
   {
@@ -4108,18 +4096,6 @@
     "address": "Groenekanseweg"
   },
   {
-    "id": 10933923526,
-    "name": "Hanekamp",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2702156,
-    "lon": 6.0954229,
-    "address": null
-  },
-  {
     "id": 10964802460,
     "name": "Rustpunt de Scharrelhof",
     "country": "Netherlands",
@@ -5270,18 +5246,6 @@
     "lat": 52.6756691,
     "lon": 5.2137606,
     "address": null
-  },
-  {
-    "id": 13705020169,
-    "name": "Het Melkmeisje",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Culemborg",
-    "products": [],
-    "website": null,
-    "lat": 51.9416086,
-    "lon": 5.1925234,
-    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 43396672,
@@ -6541,9 +6505,69 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884448,
-    "lon": 5.8719171,
+    "lat": 51.8884481,
+    "lon": 5.8720601,
     "address": null
+  },
+  {
+    "id": 2853167815,
+    "name": "De Groene Schuur",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Groessen",
+    "products": [],
+    "website": "https://degroeneschuur.nl",
+    "lat": 51.9269796,
+    "lon": 6.0135697,
+    "address": "Lijkweg"
+  },
+  {
+    "id": 3016631720,
+    "name": "Vos Fruit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Driel",
+    "products": [],
+    "website": null,
+    "lat": 51.9590799,
+    "lon": 5.8078207,
+    "address": "Rijnstraat"
+  },
+  {
+    "id": 5709336993,
+    "name": "Historische Tuinderij De Warmoes",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Lent",
+    "products": [],
+    "website": "https://dewarmoes.nl",
+    "lat": 51.8667376,
+    "lon": 5.8556469,
+    "address": "Griftdijk Noord"
+  },
+  {
+    "id": 10933923526,
+    "name": "Hanekamp",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2702156,
+    "lon": 6.0954229,
+    "address": null
+  },
+  {
+    "id": 13705020169,
+    "name": "Het Melkmeisje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Culemborg",
+    "products": [],
+    "website": null,
+    "lat": 51.9416086,
+    "lon": 5.1925234,
+    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 721331835,
@@ -6580,30 +6604,6 @@
     "lat": 52.0781982,
     "lon": 4.2696324,
     "address": "Abeelplein"
-  },
-  {
-    "id": 3016631720,
-    "name": "Vos Fruit",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Driel",
-    "products": [],
-    "website": null,
-    "lat": 51.959108,
-    "lon": 5.807823,
-    "address": "Rijnstraat"
-  },
-  {
-    "id": 5709336993,
-    "name": "Historische Tuinderij Warmoes",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Lent",
-    "products": [],
-    "website": "https://dewarmoes.nl",
-    "lat": 51.8670383,
-    "lon": 5.8560556,
-    "address": "Griftdijk Noord"
   },
   {
     "id": 5971944180,

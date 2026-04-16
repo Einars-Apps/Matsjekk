@@ -4152,6 +4152,18 @@
     "address": null
   },
   {
+    "id": 1338061831,
+    "name": "Hofladen Treller",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Lamspringe",
+    "products": [],
+    "website": "https://www.trellereier.de/",
+    "lat": 51.9722076,
+    "lon": 9.9538862,
+    "address": "Postweg"
+  },
+  {
     "id": 1342152258,
     "name": "Hof Reverey",
     "country": "Germany",
@@ -53148,18 +53160,6 @@
     "address": null
   },
   {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null
-  },
-  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -69802,6 +69802,18 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
+  },
+  {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
   },
   {
     "id": 12118136805,

@@ -3042,7 +3042,7 @@
     "region": null,
     "municipality": "Villers-le-bouillet",
     "products": [],
-    "website": "http://www.lafermedelacroix.be/",
+    "website": null,
     "lat": 50.5778548,
     "lon": 5.2586362,
     "address": "Rue de Waremme"
@@ -3642,7 +3642,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hoeve-heierveld.be/",
+    "website": "https://www.hoeve-heierveld.be",
     "lat": 50.9088663,
     "lon": 4.2331687,
     "address": null
