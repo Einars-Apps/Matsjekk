@@ -34756,6 +34756,18 @@
     "address": null
   },
   {
+    "id": 7198238002,
+    "name": "Grennessminde",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
+    "lat": 55.6417069,
+    "lon": 12.2945648,
+    "address": null
+  },
+  {
     "id": 7311230550,
     "name": "Aromagaarden",
     "country": "Denmark",
@@ -35752,6 +35764,18 @@
     "address": null
   },
   {
+    "id": 8704713845,
+    "name": "Mollwitz Mjød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.926028,
+    "lon": 9.925686,
+    "address": null
+  },
+  {
     "id": 8704713846,
     "name": "Limousine kød fra høstemark",
     "country": "Denmark",
@@ -35837,14 +35861,14 @@
   },
   {
     "id": 8714774474,
-    "name": "Nygården",
+    "name": "Nygårdens Gårdbutik",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.9174936,
-    "lon": 11.6437426,
+    "lat": 55.917331,
+    "lon": 11.643752,
     "address": null
   },
   {
@@ -36133,6 +36157,18 @@
     "website": null,
     "lat": 55.4099608,
     "lon": 11.2173986,
+    "address": null
+  },
+  {
+    "id": 8809189199,
+    "name": "Galloway godt kød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.347879,
+    "lon": 11.417437,
     "address": null
   },
   {
@@ -36889,6 +36925,18 @@
     "website": null,
     "lat": 54.707235,
     "lon": 11.726147,
+    "address": null
+  },
+  {
+    "id": 8907286062,
+    "name": "Torsøgård Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.649485,
+    "lon": 11.510596,
     "address": null
   },
   {
@@ -38833,6 +38881,18 @@
     "website": null,
     "lat": 56.112551,
     "lon": 12.285871,
+    "address": null
+  },
+  {
+    "id": 9203374295,
+    "name": "Julegåsen",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.xn--julegsen-e0a.dk/",
+    "lat": 56.094789,
+    "lon": 8.7791877,
     "address": null
   },
   {
@@ -41783,8 +41843,8 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0919088,
-    "lon": 9.7531699,
+    "lat": 56.0922012,
+    "lon": 9.7527416,
     "address": null
   },
   {
@@ -43288,6 +43348,18 @@
     "address": null
   },
   {
+    "id": 13593493635,
+    "name": "Spirefryd",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.0522085,
+    "lon": 9.3945165,
+    "address": null
+  },
+  {
     "id": 13618993890,
     "name": "Kød & Ko",
     "country": "Denmark",
@@ -43321,54 +43393,6 @@
     "website": "https://stridsmolle.dk/",
     "lat": 55.638013,
     "lon": 11.3590352,
-    "address": null
-  },
-  {
-    "id": 13645574164,
-    "name": "Egerødgaard",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.egerødgaard.dk/",
-    "lat": 55.9631626,
-    "lon": 12.2399231,
-    "address": null
-  },
-  {
-    "id": 13647243827,
-    "name": "Kroghs Grønt Gårdbutikken",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://kroghs-groent.dk/",
-    "lat": 54.9707438,
-    "lon": 9.0792593,
-    "address": null
-  },
-  {
-    "id": 13685734128,
-    "name": "Nygårdens Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.9173502,
-    "lon": 11.6435908,
-    "address": null
-  },
-  {
-    "id": 13724967263,
-    "name": "Stalddørssalg af æg",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.104053,
-    "lon": 11.9407303,
     "address": null
   },
   {
@@ -43720,75 +43744,15 @@
     "address": null
   },
   {
-    "id": 7198238002,
-    "name": "Grennessminde",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
-    "lat": 55.6417069,
-    "lon": 12.2945648,
-    "address": null
-  },
-  {
-    "id": 8704713845,
-    "name": "Mollwitz Mjød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.926028,
-    "lon": 9.925686,
-    "address": null
-  },
-  {
     "id": 8714774474,
-    "name": "Nygårdens Gårdbutik",
+    "name": "Nygården",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://nygaardenfrugt.dk/",
-    "lat": 55.917331,
-    "lon": 11.643752,
-    "address": null
-  },
-  {
-    "id": 8809189199,
-    "name": "Galloway godt kød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.347879,
-    "lon": 11.417437,
-    "address": null
-  },
-  {
-    "id": 8907286062,
-    "name": "Torsøgård Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.649485,
-    "lon": 11.510596,
-    "address": null
-  },
-  {
-    "id": 9203374295,
-    "name": "Julegåsen",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.xn--julegsen-e0a.dk/",
-    "lat": 56.094789,
-    "lon": 8.7791877,
+    "lat": 55.9174936,
+    "lon": 11.6437426,
     "address": null
   },
   {
@@ -43799,8 +43763,56 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0922012,
-    "lon": 9.7527416,
+    "lat": 56.0919088,
+    "lon": 9.7531699,
+    "address": null
+  },
+  {
+    "id": 13645574164,
+    "name": "Egerødgaard",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.egerødgaard.dk/",
+    "lat": 55.9631626,
+    "lon": 12.2399231,
+    "address": null
+  },
+  {
+    "id": 13647243827,
+    "name": "Kroghs Grønt Gårdbutikken",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kroghs-groent.dk/",
+    "lat": 54.9707438,
+    "lon": 9.0792593,
+    "address": null
+  },
+  {
+    "id": 13685734128,
+    "name": "Nygårdens Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardenfrugt.dk/",
+    "lat": 55.9173502,
+    "lon": 11.6435908,
+    "address": null
+  },
+  {
+    "id": 13724967263,
+    "name": "Stalddørssalg af æg",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.104053,
+    "lon": 11.9407303,
     "address": null
   },
   {
@@ -43825,18 +43837,6 @@
     "website": null,
     "lat": 55.0926196,
     "lon": 10.4078513,
-    "address": null
-  },
-  {
-    "id": 13593493635,
-    "name": "Spirefryd",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.0522085,
-    "lon": 9.3945165,
     "address": null
   },
   {
@@ -244166,8 +244166,8 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884448,
-    "lon": 5.8719171,
+    "lat": 51.8884481,
+    "lon": 5.8720601,
     "address": null
   },
   {
@@ -245841,6 +245841,18 @@
     "address": "Oude Dijk"
   },
   {
+    "id": 2853167815,
+    "name": "De Groene Schuur",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Groessen",
+    "products": [],
+    "website": "https://degroeneschuur.nl",
+    "lat": 51.9269796,
+    "lon": 6.0135697,
+    "address": "Lijkweg"
+  },
+  {
     "id": 2853315826,
     "name": "Rozenbotteltuin De Put",
     "country": "Netherlands",
@@ -246376,8 +246388,8 @@
     "municipality": "Driel",
     "products": [],
     "website": null,
-    "lat": 51.959108,
-    "lon": 5.807823,
+    "lat": 51.9590799,
+    "lon": 5.8078207,
     "address": "Rijnstraat"
   },
   {
@@ -246862,14 +246874,14 @@
   },
   {
     "id": 5709336993,
-    "name": "Historische Tuinderij Warmoes",
+    "name": "Historische Tuinderij De Warmoes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Lent",
     "products": [],
     "website": "https://dewarmoes.nl",
-    "lat": 51.8670383,
-    "lon": 5.8560556,
+    "lat": 51.8667376,
+    "lon": 5.8556469,
     "address": "Griftdijk Noord"
   },
   {
@@ -248219,6 +248231,18 @@
     "address": "Groenekanseweg"
   },
   {
+    "id": 10933923526,
+    "name": "Hanekamp",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2702156,
+    "lon": 6.0954229,
+    "address": null
+  },
+  {
     "id": 10964802460,
     "name": "Rustpunt de Scharrelhof",
     "country": "Netherlands",
@@ -249369,6 +249393,18 @@
     "lat": 52.6756691,
     "lon": 5.2137606,
     "address": null
+  },
+  {
+    "id": 13705020169,
+    "name": "Het Melkmeisje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Culemborg",
+    "products": [],
+    "website": null,
+    "lat": 51.9416086,
+    "lon": 5.1925234,
+    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 43396672,
@@ -250628,21 +250664,9 @@
     "municipality": null,
     "products": [],
     "website": "https://dewoerdt.nl/landwinkel",
-    "lat": 51.8884481,
-    "lon": 5.8720601,
+    "lat": 51.8884448,
+    "lon": 5.8719171,
     "address": null
-  },
-  {
-    "id": 2853167815,
-    "name": "De Groene Schuur",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Groessen",
-    "products": [],
-    "website": "https://degroeneschuur.nl",
-    "lat": 51.9269796,
-    "lon": 6.0135697,
-    "address": "Lijkweg"
   },
   {
     "id": 3016631720,
@@ -250652,45 +250676,21 @@
     "municipality": "Driel",
     "products": [],
     "website": null,
-    "lat": 51.9590799,
-    "lon": 5.8078207,
+    "lat": 51.959108,
+    "lon": 5.807823,
     "address": "Rijnstraat"
   },
   {
     "id": 5709336993,
-    "name": "Historische Tuinderij De Warmoes",
+    "name": "Historische Tuinderij Warmoes",
     "country": "Netherlands",
     "region": null,
     "municipality": "Lent",
     "products": [],
     "website": "https://dewarmoes.nl",
-    "lat": 51.8667376,
-    "lon": 5.8556469,
+    "lat": 51.8670383,
+    "lon": 5.8560556,
     "address": "Griftdijk Noord"
-  },
-  {
-    "id": 10933923526,
-    "name": "Hanekamp",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2702156,
-    "lon": 6.0954229,
-    "address": null
-  },
-  {
-    "id": 13705020169,
-    "name": "Het Melkmeisje",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Culemborg",
-    "products": [],
-    "website": null,
-    "lat": 51.9416086,
-    "lon": 5.1925234,
-    "address": "Wethouder Schoutenweg"
   },
   {
     "id": 721331835,
@@ -279458,7 +279458,7 @@
     "region": null,
     "municipality": "Villers-le-bouillet",
     "products": [],
-    "website": null,
+    "website": "http://www.lafermedelacroix.be/",
     "lat": 50.5778548,
     "lon": 5.2586362,
     "address": "Rue de Waremme"
@@ -280058,7 +280058,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hoeve-heierveld.be",
+    "website": "https://www.hoeve-heierveld.be/",
     "lat": 50.9088663,
     "lon": 4.2331687,
     "address": null
@@ -280073,6 +280073,30 @@
     "website": null,
     "lat": 50.4793911,
     "lon": 4.7176706,
+    "address": null
+  },
+  {
+    "id": 13718474777,
+    "name": "Wallifungi",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.wallifungi.be/apropos",
+    "lat": 50.6497227,
+    "lon": 5.5946194,
+    "address": null
+  },
+  {
+    "id": 13725201020,
+    "name": "Ferme de la Goyette",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.5923908,
+    "lon": 4.4400475,
     "address": null
   },
   {
@@ -281595,8 +281619,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600501,
-    "lon": 3.6034127,
+    "lat": 51.1600502,
+    "lon": 3.6034124,
     "address": "Jagerpad"
   },
   {
@@ -281792,30 +281816,6 @@
     "address": "Rue Estafflers"
   },
   {
-    "id": 13718474777,
-    "name": "Wallifungi",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wallifungi.be/apropos",
-    "lat": 50.6497227,
-    "lon": 5.5946194,
-    "address": null
-  },
-  {
-    "id": 13725201020,
-    "name": "Ferme de la Goyette",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.5923908,
-    "lon": 4.4400475,
-    "address": null
-  },
-  {
     "id": 1168475491,
     "name": "Hoevezuivel Simoenstede",
     "country": "Belgium",
@@ -281823,8 +281823,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600502,
-    "lon": 3.6034124,
+    "lat": 51.1600501,
+    "lon": 3.6034127,
     "address": "Jagerpad"
   },
   {
@@ -646119,54 +646119,6 @@
     "address": "Calle Lagares"
   },
   {
-    "id": 13705058262,
-    "name": "Frutería El Melanas",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.7667956,
-    "lon": -2.6158706,
-    "address": "Calle Pablo Neruda"
-  },
-  {
-    "id": 13709327469,
-    "name": "Salsasón",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://salsason.es/",
-    "lat": 43.2848693,
-    "lon": -3.5379421,
-    "address": null
-  },
-  {
-    "id": 13711530969,
-    "name": "Avícola Lasarte",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.501123,
-    "lon": -2.5780664,
-    "address": null
-  },
-  {
-    "id": 13719697682,
-    "name": "Ca la Rosina",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 41.7853707,
-    "lon": 1.8383627,
-    "address": null
-  },
-  {
     "id": 9727345,
     "name": "Parm Forest (Palmenallee)",
     "country": "Spain",
@@ -647907,18 +647859,6 @@
     "address": null
   },
   {
-    "id": 485186565,
-    "name": "Piscifactoria de Somines",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.3723021,
-    "lon": -5.9993086,
-    "address": null
-  },
-  {
     "id": 489830444,
     "name": "Riberas del Río Martín",
     "country": "Spain",
@@ -648036,18 +647976,6 @@
     "website": null,
     "lat": 39.690238,
     "lon": 3.3516234,
-    "address": null
-  },
-  {
-    "id": 539423510,
-    "name": "Comercial Agraria El Llano",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5601533,
-    "lon": -0.5707433,
     "address": null
   },
   {
@@ -648184,13 +648112,13 @@
   },
   {
     "id": 583704407,
-    "name": "Piscifactoría Aguas Blancas",
+    "name": "Piscifactoría",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 37.1959097,
+    "lat": 37.1959056,
     "lon": -3.4512386,
     "address": null
   },
@@ -649431,6 +649359,186 @@
     "address": null
   },
   {
+    "id": 1277609782,
+    "name": "Cultivo1",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8857542,
+    "lon": -6.6270277,
+    "address": null
+  },
+  {
+    "id": 1277610875,
+    "name": "Cultivo3",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8832278,
+    "lon": -6.6276287,
+    "address": null
+  },
+  {
+    "id": 1277611047,
+    "name": "Cultivo4",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8830275,
+    "lon": -6.6299193,
+    "address": null
+  },
+  {
+    "id": 1277611542,
+    "name": "Cultivo5",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8816829,
+    "lon": -6.6281115,
+    "address": null
+  },
+  {
+    "id": 1277611543,
+    "name": "Cultivo6",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8806805,
+    "lon": -6.6279721,
+    "address": null
+  },
+  {
+    "id": 1277611646,
+    "name": "Cultivo7",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8806973,
+    "lon": -6.6312765,
+    "address": null
+  },
+  {
+    "id": 1277612831,
+    "name": "Cultivo8",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.878889,
+    "lon": -6.6280632,
+    "address": null
+  },
+  {
+    "id": 1277613080,
+    "name": "Cultivo9",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8774734,
+    "lon": -6.6282562,
+    "address": null
+  },
+  {
+    "id": 1277615962,
+    "name": "Cultivo10",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8751357,
+    "lon": -6.6284574,
+    "address": null
+  },
+  {
+    "id": 1277617507,
+    "name": "Cultivo11",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8768486,
+    "lon": -6.630546,
+    "address": null
+  },
+  {
+    "id": 1277617537,
+    "name": "Cultivo12",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8746226,
+    "lon": -6.6305835,
+    "address": null
+  },
+  {
+    "id": 1277621224,
+    "name": "Cultivo13",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8727474,
+    "lon": -6.6290813,
+    "address": null
+  },
+  {
+    "id": 1277624384,
+    "name": "Cultivo14",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.872309,
+    "lon": -6.630771,
+    "address": null
+  },
+  {
+    "id": 1277624798,
+    "name": "Cultivo15",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8701914,
+    "lon": -6.6297786,
+    "address": null
+  },
+  {
+    "id": 1277625050,
+    "name": "Cultivo16",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.8702123,
+    "lon": -6.6308032,
+    "address": null
+  },
+  {
     "id": 1281125526,
     "name": "Casa Colina Land",
     "country": "Spain",
@@ -649477,6 +649585,18 @@
     "lat": 40.5154316,
     "lon": 0.2329512,
     "address": null
+  },
+  {
+    "id": 1317891719,
+    "name": "Fructeria El Melanas",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Roquetas de Mar",
+    "products": [],
+    "website": null,
+    "lat": 36.7668106,
+    "lon": -2.6158472,
+    "address": "Calle Pablo Neruda"
   },
   {
     "id": 1341664792,
@@ -649983,183 +650103,87 @@
     "address": null
   },
   {
-    "id": 1277609782,
-    "name": "Cultivo1",
+    "id": 13705058262,
+    "name": "Frutería El Melanas",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8857542,
-    "lon": -6.6270277,
+    "lat": 36.7667956,
+    "lon": -2.6158706,
+    "address": "Calle Pablo Neruda"
+  },
+  {
+    "id": 13709327469,
+    "name": "Salsasón",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://salsason.es/",
+    "lat": 43.2848693,
+    "lon": -3.5379421,
     "address": null
   },
   {
-    "id": 1277610875,
-    "name": "Cultivo3",
+    "id": 13711530969,
+    "name": "Avícola Lasarte",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8832278,
-    "lon": -6.6276287,
+    "lat": 40.501123,
+    "lon": -2.5780664,
     "address": null
   },
   {
-    "id": 1277611047,
-    "name": "Cultivo4",
+    "id": 13719697682,
+    "name": "Ca la Rosina",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8830275,
-    "lon": -6.6299193,
+    "lat": 41.7853707,
+    "lon": 1.8383627,
     "address": null
   },
   {
-    "id": 1277611542,
-    "name": "Cultivo5",
+    "id": 485186565,
+    "name": "Piscifactoria de Somines",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8816829,
-    "lon": -6.6281115,
+    "lat": 43.3723021,
+    "lon": -5.9993086,
     "address": null
   },
   {
-    "id": 1277611543,
-    "name": "Cultivo6",
+    "id": 539423510,
+    "name": "Comercial Agraria El Llano",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8806805,
-    "lon": -6.6279721,
+    "lat": 42.5601533,
+    "lon": -0.5707433,
     "address": null
   },
   {
-    "id": 1277611646,
-    "name": "Cultivo7",
+    "id": 583704407,
+    "name": "Piscifactoría Aguas Blancas",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 38.8806973,
-    "lon": -6.6312765,
-    "address": null
-  },
-  {
-    "id": 1277612831,
-    "name": "Cultivo8",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.878889,
-    "lon": -6.6280632,
-    "address": null
-  },
-  {
-    "id": 1277613080,
-    "name": "Cultivo9",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8774734,
-    "lon": -6.6282562,
-    "address": null
-  },
-  {
-    "id": 1277615962,
-    "name": "Cultivo10",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8751357,
-    "lon": -6.6284574,
-    "address": null
-  },
-  {
-    "id": 1277617507,
-    "name": "Cultivo11",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8768486,
-    "lon": -6.630546,
-    "address": null
-  },
-  {
-    "id": 1277617537,
-    "name": "Cultivo12",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8746226,
-    "lon": -6.6305835,
-    "address": null
-  },
-  {
-    "id": 1277621224,
-    "name": "Cultivo13",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8727474,
-    "lon": -6.6290813,
-    "address": null
-  },
-  {
-    "id": 1277624384,
-    "name": "Cultivo14",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.872309,
-    "lon": -6.630771,
-    "address": null
-  },
-  {
-    "id": 1277624798,
-    "name": "Cultivo15",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8701914,
-    "lon": -6.6297786,
-    "address": null
-  },
-  {
-    "id": 1277625050,
-    "name": "Cultivo16",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.8702123,
-    "lon": -6.6308032,
+    "lat": 37.1959097,
+    "lon": -3.4512386,
     "address": null
   },
   {
@@ -650185,30 +650209,6 @@
     "lat": 40.8922553,
     "lon": -3.9950025,
     "address": null
-  },
-  {
-    "id": 583704407,
-    "name": "Piscifactoría",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 37.1959056,
-    "lon": -3.4512386,
-    "address": null
-  },
-  {
-    "id": 1317891719,
-    "name": "Fructeria El Melanas",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Roquetas de Mar",
-    "products": [],
-    "website": null,
-    "lat": 36.7668106,
-    "lon": -2.6158472,
-    "address": "Calle Pablo Neruda"
   },
   {
     "id": 16192590,
@@ -711682,6 +711682,18 @@
     "address": "Friday Street"
   },
   {
+    "id": 399555483,
+    "name": "Farmer's Depot",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 18.4227611,
+    "lon": -64.6226085,
+    "address": null
+  },
+  {
     "id": 401687339,
     "name": "Home Farm Estate",
     "country": "United Kingdom",
@@ -720859,18 +720871,6 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
-    "address": null
-  },
-  {
-    "id": 399555483,
-    "name": "Farmer's Depot",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 18.4227611,
-    "lon": -64.6226085,
     "address": null
   },
   {
@@ -750530,20 +750530,8 @@
     "municipality": null,
     "products": [],
     "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
-    "lat": 53.4272187,
+    "lat": 53.4272201,
     "lon": -7.8635785,
-    "address": null
-  },
-  {
-    "id": 1498081456,
-    "name": "International Garden",
-    "country": "Ireland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.8976413,
-    "lon": -8.4289847,
     "address": null
   },
   {
@@ -750578,8 +750566,20 @@
     "municipality": null,
     "products": [],
     "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
-    "lat": 53.4272201,
+    "lat": 53.4272187,
     "lon": -7.8635785,
+    "address": null
+  },
+  {
+    "id": 1498081456,
+    "name": "International Garden",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.8976413,
+    "lon": -8.4289847,
     "address": null
   },
   {
@@ -754980,7 +754980,7 @@
     "website": null,
     "lat": 48.1379654,
     "lon": 14.5665923,
-    "address": "Reichhub"
+    "address": null
   },
   {
     "id": 1252690347,
@@ -758194,8 +758194,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5260762,
-    "lon": 12.0781897,
+    "lat": 47.5259634,
+    "lon": 12.0789138,
     "address": null
   },
   {
@@ -760183,7 +760183,7 @@
     "name": "Rupi's Ab-Hof Verkauf",
     "country": "Austria",
     "region": null,
-    "municipality": "Zeiselmauer",
+    "municipality": "Zeiselmauer-Wolfpassing",
     "products": [],
     "website": null,
     "lat": 48.3292315,
@@ -762982,8 +762982,8 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3482028,
-    "lon": 9.6148441,
+    "lat": 47.3481006,
+    "lon": 9.6148273,
     "address": "Reichshofstraße"
   },
   {
@@ -764523,6 +764523,66 @@
     "address": null
   },
   {
+    "id": 13688216872,
+    "name": "Villa Kunterbunt",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Gnadenwald",
+    "products": [],
+    "website": null,
+    "lat": 47.3222636,
+    "lon": 11.5875229,
+    "address": "Gnadenwald"
+  },
+  {
+    "id": 13705270086,
+    "name": "Honig aus eigener Produktion",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.3447593,
+    "lon": 13.7687643,
+    "address": "Hopfengasse"
+  },
+  {
+    "id": 13717889584,
+    "name": "Stockwerk Bioimkerei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stockwerkhonig.at/",
+    "lat": 47.9811689,
+    "lon": 13.7136438,
+    "address": null
+  },
+  {
+    "id": 13728190771,
+    "name": "Biogemüse Gruber",
+    "country": "Austria",
+    "region": null,
+    "municipality": "St. Florian",
+    "products": [],
+    "website": null,
+    "lat": 48.1747491,
+    "lon": 14.4027904,
+    "address": "Oberweidlham"
+  },
+  {
+    "id": 13731641804,
+    "name": "Bauernladen - Bauernhof Jäger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
+    "address": null
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -764734,8 +764794,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.267763,
-    "lon": 16.0849996,
+    "lat": 48.2677666,
+    "lon": 16.0850036,
     "address": "Hauptstraße"
   },
   {
@@ -766980,7 +767040,7 @@
     "website": null,
     "lat": 47.6139541,
     "lon": 16.2380706,
-    "address": "Stickelberg"
+    "address": null
   },
   {
     "id": 1089750920,
@@ -767122,8 +767182,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.hoamatkastl.at",
-    "lat": 47.5354945,
-    "lon": 12.0937906,
+    "lat": 47.5350196,
+    "lon": 12.0929135,
     "address": null
   },
   {
@@ -767499,6 +767559,42 @@
     "address": "Ferdinand-Leihs-Straße"
   },
   {
+    "id": 1497469837,
+    "name": "Hofladen Pfänderglück",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5118998,
+    "lon": 9.7830147,
+    "address": null
+  },
+  {
+    "id": 1499287630,
+    "name": "Eisl Ei & Allerlei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8652051,
+    "lon": 13.0329918,
+    "address": null
+  },
+  {
+    "id": 1499588960,
+    "name": "Obstpark Laaerberg",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://wien.obststadt.at/laaerberg.html",
+    "lat": 48.1632549,
+    "lon": 16.4015542,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -767722,7 +767818,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9432029,
+    "lat": 46.9435696,
     "lon": 15.4139954,
     "address": null
   },
@@ -768622,8 +768718,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5259634,
-    "lon": 12.0789138,
+    "lat": 47.5260762,
+    "lon": 12.0781897,
     "address": null
   },
   {
@@ -768634,57 +768730,9 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3481006,
-    "lon": 9.6148273,
+    "lat": 47.3482028,
+    "lon": 9.6148441,
     "address": "Reichshofstraße"
-  },
-  {
-    "id": 13688216872,
-    "name": "Villa Kunterbunt",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Gnadenwald",
-    "products": [],
-    "website": null,
-    "lat": 47.3222636,
-    "lon": 11.5875229,
-    "address": "Gnadenwald"
-  },
-  {
-    "id": 13705270086,
-    "name": "Honig aus eigener Produktion",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.3447593,
-    "lon": 13.7687643,
-    "address": "Hopfengasse"
-  },
-  {
-    "id": 13717889584,
-    "name": "Stockwerk Bioimkerei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stockwerkhonig.at/",
-    "lat": 47.9811689,
-    "lon": 13.7136438,
-    "address": null
-  },
-  {
-    "id": 13728190771,
-    "name": "Biogemüse Gruber",
-    "country": "Austria",
-    "region": null,
-    "municipality": "St. Florian",
-    "products": [],
-    "website": null,
-    "lat": 48.1747491,
-    "lon": 14.4027904,
-    "address": "Oberweidlham"
   },
   {
     "id": 48173327,
@@ -768694,32 +768742,20 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.2677666,
-    "lon": 16.0850036,
+    "lat": 48.267763,
+    "lon": 16.0849996,
     "address": "Hauptstraße"
   },
   {
-    "id": 1497469837,
-    "name": "Hofladen Pfänderglück",
+    "id": 1175865191,
+    "name": "Hoamatkastl",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 47.5118998,
-    "lon": 9.7830147,
-    "address": null
-  },
-  {
-    "id": 1499287630,
-    "name": "Eisl Ei & Allerlei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8652051,
-    "lon": 13.0329918,
+    "website": "https://www.hoamatkastl.at",
+    "lat": 47.5354945,
+    "lon": 12.0937906,
     "address": null
   },
   {
@@ -768730,7 +768766,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9435696,
+    "lat": 46.9432029,
     "lon": 15.4139954,
     "address": null
   },

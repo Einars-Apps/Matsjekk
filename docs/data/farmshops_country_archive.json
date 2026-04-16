@@ -575415,6 +575415,42 @@
       "lat": 47.8652051,
       "lon": 13.0329918,
       "address": null
+    },
+    {
+      "id": 13731641804,
+      "name": "Bauernladen - Bauernhof Jäger",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.bauernhof-jaeger.com/",
+      "lat": 46.62794,
+      "lon": 14.6343338,
+      "address": null
+    },
+    {
+      "id": 1175865191,
+      "name": "Hoamatkastl",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.hoamatkastl.at",
+      "lat": 47.5350196,
+      "lon": 12.0929135,
+      "address": null
+    },
+    {
+      "id": 1499588960,
+      "name": "Obstpark Laaerberg",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://wien.obststadt.at/laaerberg.html",
+      "lat": 48.1632549,
+      "lon": 16.4015542,
+      "address": null
     }
   ],
   "CH": [
