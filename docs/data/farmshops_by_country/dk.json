@@ -10296,6 +10296,18 @@
     "address": null
   },
   {
+    "id": 13593493635,
+    "name": "Spirefryd",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.0522085,
+    "lon": 9.3945165,
+    "address": null
+  },
+  {
     "id": 13001256043,
     "name": "Grands Vin",
     "country": "Denmark",
@@ -10317,18 +10329,6 @@
     "website": null,
     "lat": 55.0926196,
     "lon": 10.4078513,
-    "address": null
-  },
-  {
-    "id": 13593493635,
-    "name": "Spirefryd",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.0522085,
-    "lon": 9.3945165,
     "address": null
   },
   {

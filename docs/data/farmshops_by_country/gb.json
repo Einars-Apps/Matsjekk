@@ -3103,8 +3103,8 @@
     "municipality": "Whetstone",
     "products": [],
     "website": null,
-    "lat": 52.5501307,
-    "lon": -1.1787661,
+    "lat": 52.5503159,
+    "lon": -1.1779373,
     "address": "Countesthorpe Road"
   },
   {
@@ -18514,6 +18514,18 @@
     "lat": 50.7224101,
     "lon": -2.1474983,
     "address": null
+  },
+  {
+    "id": 6085559800,
+    "name": "Attfields Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Whetstone",
+    "products": [],
+    "website": null,
+    "lat": 52.5501307,
+    "lon": -1.1787661,
+    "address": "Countesthorpe Road"
   },
   {
     "id": 399555483,

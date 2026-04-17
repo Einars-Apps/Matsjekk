@@ -524223,6 +524223,18 @@
       "lat": 53.3107523,
       "lon": -0.8930338,
       "address": "Grove Drive"
+    },
+    {
+      "id": 6085559800,
+      "name": "Attfields Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Whetstone",
+      "products": [],
+      "website": null,
+      "lat": 52.5503159,
+      "lon": -1.1779373,
+      "address": "Countesthorpe Road"
     }
   ],
   "IE": [

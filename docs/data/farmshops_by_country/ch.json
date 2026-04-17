@@ -4776,18 +4776,6 @@
     "address": null
   },
   {
-    "id": 5198667089,
-    "name": "Hofladen Tannenhof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.6000185,
-    "lon": 9.2409403,
-    "address": null
-  },
-  {
     "id": 5222862267,
     "name": "Marché Bio des Eterpis",
     "country": "Switzerland",
@@ -9108,6 +9096,18 @@
     "address": null
   },
   {
+    "id": 9702344862,
+    "name": "La Bouffathèque",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Lugnorre",
+    "products": [],
+    "website": "https://labouffatheque.ch/",
+    "lat": 46.9515615,
+    "lon": 7.0686492,
+    "address": "Route de Chenaux"
+  },
+  {
     "id": 9703659004,
     "name": "Mattenhof",
     "country": "Switzerland",
@@ -10533,18 +10533,6 @@
     "website": "http://www.haggenmacher.ch/",
     "lat": 47.2805173,
     "lon": 8.6396527,
-    "address": null
-  },
-  {
-    "id": 10218728041,
-    "name": "Hofladen Schlattgut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2894981,
-    "lon": 8.6274105,
     "address": null
   },
   {
@@ -15648,102 +15636,6 @@
     "address": "Im Hof"
   },
   {
-    "id": 13674794732,
-    "name": "Blumen zum selber schneiden.",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3710184,
-    "lon": 8.0399051,
-    "address": null
-  },
-  {
-    "id": 13685025444,
-    "name": "Bergs Hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5491161,
-    "lon": 7.5866876,
-    "address": null
-  },
-  {
-    "id": 13704987183,
-    "name": "See-Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9494358,
-    "lon": 8.6200897,
-    "address": null
-  },
-  {
-    "id": 13706004750,
-    "name": "Walker's Hoflädäli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8956928,
-    "lon": 8.6148424,
-    "address": null
-  },
-  {
-    "id": 13706004752,
-    "name": "Beat Stadler",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://alplen-aebnet.ch",
-    "lat": 46.8859908,
-    "lon": 8.6086134,
-    "address": null
-  },
-  {
-    "id": 13708492625,
-    "name": "Bolli's Määhfarm",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.775592,
-    "lon": 8.6587386,
-    "address": null
-  },
-  {
-    "id": 13713606508,
-    "name": "Hofladen Holzhusen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2725848,
-    "lon": 8.7431417,
-    "address": null
-  },
-  {
-    "id": 13722539054,
-    "name": "Orticoltura Regusci",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Camorino",
-    "products": [],
-    "website": null,
-    "lat": 46.1620381,
-    "lon": 8.9945506,
-    "address": "I Casasc"
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -15763,8 +15655,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.3088205,
-    "lon": 8.9205587,
+    "lat": 47.3087996,
+    "lon": 8.9204179,
     "address": null
   },
   {
@@ -17148,18 +17040,6 @@
     "address": null
   },
   {
-    "id": 1225850971,
-    "name": "Ecloserie Percitech",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Chavornay",
-    "products": [],
-    "website": null,
-    "lat": 46.7116206,
-    "lon": 6.5488818,
-    "address": null
-  },
-  {
     "id": 1227308967,
     "name": "Giessenhofladen",
     "country": "Switzerland",
@@ -17376,18 +17256,6 @@
     "address": "Erliweg"
   },
   {
-    "id": 1495709606,
-    "name": "Rohrbachs Hofprodukte",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Ostermundigen",
-    "products": [],
-    "website": "https://www.rohrbachs-hofprodukte.ch/",
-    "lat": 46.9536008,
-    "lon": 7.4915078,
-    "address": "Bühlweg"
-  },
-  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -17412,6 +17280,162 @@
     "address": null
   },
   {
+    "id": 5198667089,
+    "name": "Hofladen Tannenhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.6000185,
+    "lon": 9.2409403,
+    "address": null
+  },
+  {
+    "id": 10218728041,
+    "name": "Hofladen Schlattgut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2894981,
+    "lon": 8.6274105,
+    "address": null
+  },
+  {
+    "id": 13674794732,
+    "name": "Blumen zum selber schneiden.",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3710184,
+    "lon": 8.0399051,
+    "address": null
+  },
+  {
+    "id": 13685025444,
+    "name": "Bergs Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5491161,
+    "lon": 7.5866876,
+    "address": null
+  },
+  {
+    "id": 13704987183,
+    "name": "See-Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9494358,
+    "lon": 8.6200897,
+    "address": null
+  },
+  {
+    "id": 13706004750,
+    "name": "Walker's Hoflädäli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8956928,
+    "lon": 8.6148424,
+    "address": null
+  },
+  {
+    "id": 13706004752,
+    "name": "Beat Stadler",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://alplen-aebnet.ch",
+    "lat": 46.8859908,
+    "lon": 8.6086134,
+    "address": null
+  },
+  {
+    "id": 13708492625,
+    "name": "Bolli's Määhfarm",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.775592,
+    "lon": 8.6587386,
+    "address": null
+  },
+  {
+    "id": 13713606508,
+    "name": "Hofladen Holzhusen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2725848,
+    "lon": 8.7431417,
+    "address": null
+  },
+  {
+    "id": 13722539054,
+    "name": "Orticoltura Regusci",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Camorino",
+    "products": [],
+    "website": null,
+    "lat": 46.1620381,
+    "lon": 8.9945506,
+    "address": "I Casasc"
+  },
+  {
+    "id": 23370687,
+    "name": "Lättenholz",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3088205,
+    "lon": 8.9205587,
+    "address": null
+  },
+  {
+    "id": 1225850971,
+    "name": "Ecloserie Percitech",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Chavornay",
+    "products": [],
+    "website": null,
+    "lat": 46.7116206,
+    "lon": 6.5488818,
+    "address": null
+  },
+  {
+    "id": 1495709606,
+    "name": "Rohrbachs Hofprodukte",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Ostermundigen",
+    "products": [],
+    "website": "https://www.rohrbachs-hofprodukte.ch/",
+    "lat": 46.9536008,
+    "lon": 7.4915078,
+    "address": "Bühlweg"
+  },
+  {
     "id": 9257794218,
     "name": "Weidschöpli",
     "country": "Switzerland",
@@ -17422,18 +17446,6 @@
     "lat": 47.3530427,
     "lon": 7.9996401,
     "address": null
-  },
-  {
-    "id": 9702344862,
-    "name": "La Bouffathèque",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Lugnorre",
-    "products": [],
-    "website": "https://labouffatheque.ch/",
-    "lat": 46.9515615,
-    "lon": 7.0686492,
-    "address": "Route de Chenaux"
   },
   {
     "id": 10033695195,
@@ -17458,18 +17470,6 @@
     "lat": 47.4146941,
     "lon": 8.1875301,
     "address": "Steinackerstrasse"
-  },
-  {
-    "id": 23370687,
-    "name": "Lättenholz",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3087996,
-    "lon": 8.9204179,
-    "address": null
   },
   {
     "id": 13704987183,

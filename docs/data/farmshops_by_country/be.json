@@ -3042,7 +3042,7 @@
     "region": null,
     "municipality": "Villers-le-bouillet",
     "products": [],
-    "website": null,
+    "website": "http://www.lafermedelacroix.be/",
     "lat": 50.5778548,
     "lon": 5.2586362,
     "address": "Rue de Waremme"
@@ -3642,7 +3642,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hoeve-heierveld.be",
+    "website": "https://www.hoeve-heierveld.be/",
     "lat": 50.9088663,
     "lon": 4.2331687,
     "address": null
@@ -3657,6 +3657,30 @@
     "website": null,
     "lat": 50.4793911,
     "lon": 4.7176706,
+    "address": null
+  },
+  {
+    "id": 13718474777,
+    "name": "Wallifungi",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.wallifungi.be/apropos",
+    "lat": 50.6497227,
+    "lon": 5.5946194,
+    "address": null
+  },
+  {
+    "id": 13725201020,
+    "name": "Ferme de la Goyette",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.5923908,
+    "lon": 4.4400475,
     "address": null
   },
   {
@@ -5179,8 +5203,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600501,
-    "lon": 3.6034127,
+    "lat": 51.1600502,
+    "lon": 3.6034124,
     "address": "Jagerpad"
   },
   {
@@ -5376,30 +5400,6 @@
     "address": "Rue Estafflers"
   },
   {
-    "id": 13718474777,
-    "name": "Wallifungi",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wallifungi.be/apropos",
-    "lat": 50.6497227,
-    "lon": 5.5946194,
-    "address": null
-  },
-  {
-    "id": 13725201020,
-    "name": "Ferme de la Goyette",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.5923908,
-    "lon": 4.4400475,
-    "address": null
-  },
-  {
     "id": 1168475491,
     "name": "Hoevezuivel Simoenstede",
     "country": "Belgium",
@@ -5407,8 +5407,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600502,
-    "lon": 3.6034124,
+    "lat": 51.1600501,
+    "lon": 3.6034127,
     "address": "Jagerpad"
   },
   {
