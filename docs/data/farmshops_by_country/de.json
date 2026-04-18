@@ -35551,8 +35551,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.milchschaeferei-asbach.de/",
-    "lat": 51.2797345,
-    "lon": 10.0298245,
+    "lat": 51.2797428,
+    "lon": 10.0287465,
     "address": null
   },
   {
@@ -48525,6 +48525,18 @@
     "website": null,
     "lat": 51.947637,
     "lon": 7.0663307,
+    "address": null
+  },
+  {
+    "id": 11208541674,
+    "name": "Gaus",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.4162566,
+    "lon": 10.5303258,
     "address": null
   },
   {
@@ -69790,6 +69802,18 @@
     "lat": 52.9023045,
     "lon": 11.6531234,
     "address": "Am Holzweg"
+  },
+  {
+    "id": 8736442957,
+    "name": "Wander-Picknick der Milchschäferei Asbach",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.milchschaeferei-asbach.de/",
+    "lat": 51.2797345,
+    "lon": 10.0298245,
+    "address": null
   },
   {
     "id": 1349819839,

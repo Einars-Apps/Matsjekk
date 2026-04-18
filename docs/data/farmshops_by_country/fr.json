@@ -16896,18 +16896,6 @@
     "address": "Route d'Orthez"
   },
   {
-    "id": 7980502345,
-    "name": "Domaine Darmandieu",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.domaine-darmandieu.com",
-    "lat": 43.5797799,
-    "lon": -1.1611941,
-    "address": null
-  },
-  {
     "id": 7984565400,
     "name": "Le Fruit des Savoirs",
     "country": "France",
@@ -42245,6 +42233,18 @@
     "address": null
   },
   {
+    "id": 469921401,
+    "name": "A Fleur de Ceps",
+    "country": "France",
+    "region": null,
+    "municipality": "Monnières",
+    "products": [],
+    "website": null,
+    "lat": 47.1344607,
+    "lon": -1.3577018,
+    "address": "Rue du Paradis"
+  },
+  {
     "id": 480318847,
     "name": "Chez Robé",
     "country": "France",
@@ -46598,6 +46598,18 @@
     "website": null,
     "lat": 46.2091528,
     "lon": -1.1313236,
+    "address": null
+  },
+  {
+    "id": 7980502345,
+    "name": "Domaine Darmandieu",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.domaine-darmandieu.com",
+    "lat": 43.5797799,
+    "lon": -1.1611941,
     "address": null
   },
   {

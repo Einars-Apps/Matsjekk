@@ -625716,6 +625716,30 @@
       "lat": 46.1620381,
       "lon": 8.9945506,
       "address": "I Casasc"
+    },
+    {
+      "id": 4961709759,
+      "name": "Hof Sagel",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Bözberg",
+      "products": [],
+      "website": "https://www.landlaebe.ch/",
+      "lat": 47.4855323,
+      "lon": 8.1631313,
+      "address": null
+    },
+    {
+      "id": 13738234001,
+      "name": "Glace Artisanales, Bio Fleisch",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.3114057,
+      "lon": 7.0660992,
+      "address": null
     }
   ],
   "LI": [
