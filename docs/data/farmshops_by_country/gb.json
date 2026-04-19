@@ -15849,7 +15849,7 @@
     "website": null,
     "lat": 52.7068403,
     "lon": -1.1277844,
-    "address": null
+    "address": "Loughborough Road"
   },
   {
     "id": 1474781478,
@@ -15946,6 +15946,18 @@
     "lat": 53.826055,
     "lon": -1.8131324,
     "address": "Cottingley Cliffe Road"
+  },
+  {
+    "id": 1500887180,
+    "name": "W H Thimas",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2734229,
+    "lon": -0.7838712,
+    "address": "Washbrook Lane"
   },
   {
     "id": 1327612,

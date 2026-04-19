@@ -13332,18 +13332,6 @@
     "address": null
   },
   {
-    "id": 3953045355,
-    "name": "Senst Biofrucht",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Landsberg",
-    "products": [],
-    "website": "http://www.biofrucht.info/",
-    "lat": 51.5388469,
-    "lon": 12.0581761,
-    "address": "Am Mühlenfeld"
-  },
-  {
     "id": 3955589359,
     "name": "Bächlehof Rippolingen Hofladen",
     "country": "Germany",
@@ -14622,7 +14610,7 @@
     "region": null,
     "municipality": "Verl",
     "products": [],
-    "website": "http://www.spargelhof-grossewaechter.de/",
+    "website": "https://hofladen-grossewaechter.de/",
     "lat": 51.9074682,
     "lon": 8.5507953,
     "address": "Eckardtsheimer Straße"
@@ -34411,8 +34399,8 @@
     "municipality": "Erlangen",
     "products": [],
     "website": null,
-    "lat": 49.5983823,
-    "lon": 10.9331643,
+    "lat": 49.5985184,
+    "lon": 10.9329979,
     "address": "Reitersbergstraße"
   },
   {
@@ -34423,8 +34411,8 @@
     "municipality": "Erlangen",
     "products": [],
     "website": null,
-    "lat": 49.5983968,
-    "lon": 10.9331532,
+    "lat": 49.5984231,
+    "lon": 10.9332815,
     "address": "Reitersbergstraße"
   },
   {
@@ -53172,6 +53160,18 @@
     "address": null
   },
   {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -64056,6 +64056,18 @@
     "address": null
   },
   {
+    "id": 495966041,
+    "name": "Gemüsegarteb",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.657811,
+    "lon": 8.5742913,
+    "address": null
+  },
+  {
     "id": 498621706,
     "name": "Brocksee",
     "country": "Germany",
@@ -69804,6 +69816,42 @@
     "address": "Am Holzweg"
   },
   {
+    "id": 3953045355,
+    "name": "Senst Biofrucht",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Landsberg",
+    "products": [],
+    "website": "http://www.biofrucht.info/",
+    "lat": 51.5388469,
+    "lon": 12.0581761,
+    "address": "Am Mühlenfeld"
+  },
+  {
+    "id": 8462977315,
+    "name": "Hofladen Dengler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Erlangen",
+    "products": [],
+    "website": null,
+    "lat": 49.5983823,
+    "lon": 10.9331643,
+    "address": "Reitersbergstraße"
+  },
+  {
+    "id": 8462977316,
+    "name": "Milchautomat & Regiomat Dengler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Erlangen",
+    "products": [],
+    "website": null,
+    "lat": 49.5983968,
+    "lon": 10.9331532,
+    "address": "Reitersbergstraße"
+  },
+  {
     "id": 8736442957,
     "name": "Wander-Picknick der Milchschäferei Asbach",
     "country": "Germany",
@@ -69826,18 +69874,6 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
-  },
-  {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null
   },
   {
     "id": 12118136805,

@@ -4903,7 +4903,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.viangro.be",
-    "lat": 50.814948,
+    "lat": 50.8149436,
     "lon": 4.3046407,
     "address": null
   },
@@ -5398,6 +5398,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 915448210,
+    "name": "Viangros",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.viangro.be",
+    "lat": 50.814948,
+    "lon": 4.3046407,
+    "address": null
   },
   {
     "id": 1168475491,

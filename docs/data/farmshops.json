@@ -60444,6 +60444,18 @@
     "address": "Harjulankatu"
   },
   {
+    "id": 13045862703,
+    "name": "Saimaan Maku",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://saimaanmaku.fi/",
+    "lat": 61.8689065,
+    "lon": 28.8817354,
+    "address": "Puistokatu"
+  },
+  {
     "id": 13173257489,
     "name": "Aholaisten luomutila",
     "country": "Finland",
@@ -60478,18 +60490,6 @@
     "lat": 60.0847533,
     "lon": 23.620474,
     "address": "Sjösängsvägen"
-  },
-  {
-    "id": 13725498583,
-    "name": "Mantereen tila",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Lempäälä",
-    "products": [],
-    "website": null,
-    "lat": 61.2395043,
-    "lon": 23.7981251,
-    "address": "Perälänraitti"
   },
   {
     "id": 76736163,
@@ -60888,16 +60888,16 @@
     "address": null
   },
   {
-    "id": 13045862703,
-    "name": "Saimaan Maku",
+    "id": 13725498583,
+    "name": "Mantereen tila",
     "country": "Finland",
     "region": null,
-    "municipality": null,
+    "municipality": "Lempäälä",
     "products": [],
-    "website": "https://saimaanmaku.fi/",
-    "lat": 61.8689065,
-    "lon": 28.8817354,
-    "address": "Puistokatu"
+    "website": null,
+    "lat": 61.2395043,
+    "lon": 23.7981251,
+    "address": "Perälänraitti"
   },
   {
     "id": 304661047,
@@ -80740,18 +80740,6 @@
     "address": null
   },
   {
-    "id": 3953045355,
-    "name": "Senst Biofrucht",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Landsberg",
-    "products": [],
-    "website": "http://www.biofrucht.info/",
-    "lat": 51.5388469,
-    "lon": 12.0581761,
-    "address": "Am Mühlenfeld"
-  },
-  {
     "id": 3955589359,
     "name": "Bächlehof Rippolingen Hofladen",
     "country": "Germany",
@@ -82030,7 +82018,7 @@
     "region": null,
     "municipality": "Verl",
     "products": [],
-    "website": "http://www.spargelhof-grossewaechter.de/",
+    "website": "https://hofladen-grossewaechter.de/",
     "lat": 51.9074682,
     "lon": 8.5507953,
     "address": "Eckardtsheimer Straße"
@@ -101819,8 +101807,8 @@
     "municipality": "Erlangen",
     "products": [],
     "website": null,
-    "lat": 49.5983823,
-    "lon": 10.9331643,
+    "lat": 49.5985184,
+    "lon": 10.9329979,
     "address": "Reitersbergstraße"
   },
   {
@@ -101831,8 +101819,8 @@
     "municipality": "Erlangen",
     "products": [],
     "website": null,
-    "lat": 49.5983968,
-    "lon": 10.9331532,
+    "lat": 49.5984231,
+    "lon": 10.9332815,
     "address": "Reitersbergstraße"
   },
   {
@@ -120580,6 +120568,18 @@
     "address": null
   },
   {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -131464,6 +131464,18 @@
     "address": null
   },
   {
+    "id": 495966041,
+    "name": "Gemüsegarteb",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.657811,
+    "lon": 8.5742913,
+    "address": null
+  },
+  {
     "id": 498621706,
     "name": "Brocksee",
     "country": "Germany",
@@ -137212,6 +137224,42 @@
     "address": "Am Holzweg"
   },
   {
+    "id": 3953045355,
+    "name": "Senst Biofrucht",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Landsberg",
+    "products": [],
+    "website": "http://www.biofrucht.info/",
+    "lat": 51.5388469,
+    "lon": 12.0581761,
+    "address": "Am Mühlenfeld"
+  },
+  {
+    "id": 8462977315,
+    "name": "Hofladen Dengler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Erlangen",
+    "products": [],
+    "website": null,
+    "lat": 49.5983823,
+    "lon": 10.9331643,
+    "address": "Reitersbergstraße"
+  },
+  {
+    "id": 8462977316,
+    "name": "Milchautomat & Regiomat Dengler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Erlangen",
+    "products": [],
+    "website": null,
+    "lat": 49.5983968,
+    "lon": 10.9331532,
+    "address": "Reitersbergstraße"
+  },
+  {
     "id": 8736442957,
     "name": "Wander-Picknick der Milchschäferei Asbach",
     "country": "Germany",
@@ -137234,18 +137282,6 @@
     "lat": 51.0314772,
     "lon": 6.6991495,
     "address": "Am Blöcherhof"
-  },
-  {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null
   },
   {
     "id": 12118136805,
@@ -281343,7 +281379,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.viangro.be",
-    "lat": 50.814948,
+    "lat": 50.8149436,
     "lon": 4.3046407,
     "address": null
   },
@@ -281838,6 +281874,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 915448210,
+    "name": "Viangros",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.viangro.be",
+    "lat": 50.814948,
+    "lon": 4.3046407,
+    "address": null
   },
   {
     "id": 1168475491,
@@ -495127,6 +495175,18 @@
     "address": null
   },
   {
+    "id": 11004082405,
+    "name": "La Regale Nocciole di Langa di Andreev Ilija",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.5992278,
+    "lon": 8.0171366,
+    "address": null
+  },
+  {
     "id": 11005881805,
     "name": "Azienda Agricola Capiaghi Ferdinando",
     "country": "Italy",
@@ -497777,6 +497837,18 @@
     "lat": 36.7716499,
     "lon": 14.7380271,
     "address": null
+  },
+  {
+    "id": 13740436239,
+    "name": "Arti e Orti",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.118916,
+    "lon": 11.3784056,
+    "address": "Via Sant'Antonio"
   },
   {
     "id": 35731759,
@@ -718231,7 +718303,7 @@
     "website": null,
     "lat": 52.7068403,
     "lon": -1.1277844,
-    "address": null
+    "address": "Loughborough Road"
   },
   {
     "id": 1474781478,
@@ -718328,6 +718400,18 @@
     "lat": 53.826055,
     "lon": -1.8131324,
     "address": "Cottingley Cliffe Road"
+  },
+  {
+    "id": 1500887180,
+    "name": "W H Thimas",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2734229,
+    "lon": -0.7838712,
+    "address": "Washbrook Lane"
   },
   {
     "id": 1327612,
@@ -755028,7 +755112,7 @@
     "website": null,
     "lat": 48.1379654,
     "lon": 14.5665923,
-    "address": "Reichhub"
+    "address": null
   },
   {
     "id": 1252690347,
@@ -758242,8 +758326,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5260762,
-    "lon": 12.0781897,
+    "lat": 47.5259634,
+    "lon": 12.0789138,
     "address": null
   },
   {
@@ -760231,7 +760315,7 @@
     "name": "Rupi's Ab-Hof Verkauf",
     "country": "Austria",
     "region": null,
-    "municipality": "Zeiselmauer",
+    "municipality": "Zeiselmauer-Wolfpassing",
     "products": [],
     "website": null,
     "lat": 48.3292315,
@@ -763030,8 +763114,8 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3482028,
-    "lon": 9.6148441,
+    "lat": 47.3481006,
+    "lon": 9.6148273,
     "address": "Reichshofstraße"
   },
   {
@@ -764571,6 +764655,66 @@
     "address": null
   },
   {
+    "id": 13688216872,
+    "name": "Villa Kunterbunt",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Gnadenwald",
+    "products": [],
+    "website": null,
+    "lat": 47.3222636,
+    "lon": 11.5875229,
+    "address": "Gnadenwald"
+  },
+  {
+    "id": 13705270086,
+    "name": "Honig aus eigener Produktion",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.3447593,
+    "lon": 13.7687643,
+    "address": "Hopfengasse"
+  },
+  {
+    "id": 13717889584,
+    "name": "Stockwerk Bioimkerei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stockwerkhonig.at/",
+    "lat": 47.9811689,
+    "lon": 13.7136438,
+    "address": null
+  },
+  {
+    "id": 13728190771,
+    "name": "Biogemüse Gruber",
+    "country": "Austria",
+    "region": null,
+    "municipality": "St. Florian",
+    "products": [],
+    "website": null,
+    "lat": 48.1747491,
+    "lon": 14.4027904,
+    "address": "Oberweidlham"
+  },
+  {
+    "id": 13731641804,
+    "name": "Bauernladen - Bauernhof Jäger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
+    "address": null
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -764782,8 +764926,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.267763,
-    "lon": 16.0849996,
+    "lat": 48.2677666,
+    "lon": 16.0850036,
     "address": "Hauptstraße"
   },
   {
@@ -767028,7 +767172,7 @@
     "website": null,
     "lat": 47.6139541,
     "lon": 16.2380706,
-    "address": "Stickelberg"
+    "address": null
   },
   {
     "id": 1089750920,
@@ -767170,8 +767314,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.hoamatkastl.at",
-    "lat": 47.5354945,
-    "lon": 12.0937906,
+    "lat": 47.5350196,
+    "lon": 12.0929135,
     "address": null
   },
   {
@@ -767547,6 +767691,42 @@
     "address": "Ferdinand-Leihs-Straße"
   },
   {
+    "id": 1497469837,
+    "name": "Hofladen Pfänderglück",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5118998,
+    "lon": 9.7830147,
+    "address": null
+  },
+  {
+    "id": 1499287630,
+    "name": "Eisl Ei & Allerlei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8652051,
+    "lon": 13.0329918,
+    "address": null
+  },
+  {
+    "id": 1499588960,
+    "name": "Obstpark Laaerberg",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://wien.obststadt.at/laaerberg.html",
+    "lat": 48.1632549,
+    "lon": 16.4015542,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -767770,7 +767950,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9432029,
+    "lat": 46.9435696,
     "lon": 15.4139954,
     "address": null
   },
@@ -768670,8 +768850,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5259634,
-    "lon": 12.0789138,
+    "lat": 47.5260762,
+    "lon": 12.0781897,
     "address": null
   },
   {
@@ -768682,69 +768862,9 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3481006,
-    "lon": 9.6148273,
+    "lat": 47.3482028,
+    "lon": 9.6148441,
     "address": "Reichshofstraße"
-  },
-  {
-    "id": 13688216872,
-    "name": "Villa Kunterbunt",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Gnadenwald",
-    "products": [],
-    "website": null,
-    "lat": 47.3222636,
-    "lon": 11.5875229,
-    "address": "Gnadenwald"
-  },
-  {
-    "id": 13705270086,
-    "name": "Honig aus eigener Produktion",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.3447593,
-    "lon": 13.7687643,
-    "address": "Hopfengasse"
-  },
-  {
-    "id": 13717889584,
-    "name": "Stockwerk Bioimkerei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stockwerkhonig.at/",
-    "lat": 47.9811689,
-    "lon": 13.7136438,
-    "address": null
-  },
-  {
-    "id": 13728190771,
-    "name": "Biogemüse Gruber",
-    "country": "Austria",
-    "region": null,
-    "municipality": "St. Florian",
-    "products": [],
-    "website": null,
-    "lat": 48.1747491,
-    "lon": 14.4027904,
-    "address": "Oberweidlham"
-  },
-  {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
-    "address": null
   },
   {
     "id": 48173327,
@@ -768754,8 +768874,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.2677666,
-    "lon": 16.0850036,
+    "lat": 48.267763,
+    "lon": 16.0849996,
     "address": "Hauptstraße"
   },
   {
@@ -768766,44 +768886,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.hoamatkastl.at",
-    "lat": 47.5350196,
-    "lon": 12.0929135,
-    "address": null
-  },
-  {
-    "id": 1497469837,
-    "name": "Hofladen Pfänderglück",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5118998,
-    "lon": 9.7830147,
-    "address": null
-  },
-  {
-    "id": 1499287630,
-    "name": "Eisl Ei & Allerlei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8652051,
-    "lon": 13.0329918,
-    "address": null
-  },
-  {
-    "id": 1499588960,
-    "name": "Obstpark Laaerberg",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://wien.obststadt.at/laaerberg.html",
-    "lat": 48.1632549,
-    "lon": 16.4015542,
+    "lat": 47.5354945,
+    "lon": 12.0937906,
     "address": null
   },
   {
@@ -768814,7 +768898,7 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.9435696,
+    "lat": 46.9432029,
     "lon": 15.4139954,
     "address": null
   },

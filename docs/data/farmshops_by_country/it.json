@@ -6636,6 +6636,18 @@
     "address": null
   },
   {
+    "id": 11004082405,
+    "name": "La Regale Nocciole di Langa di Andreev Ilija",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.5992278,
+    "lon": 8.0171366,
+    "address": null
+  },
+  {
     "id": 11005881805,
     "name": "Azienda Agricola Capiaghi Ferdinando",
     "country": "Italy",
@@ -9286,6 +9298,18 @@
     "lat": 36.7716499,
     "lon": 14.7380271,
     "address": null
+  },
+  {
+    "id": 13740436239,
+    "name": "Arti e Orti",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.118916,
+    "lon": 11.3784056,
+    "address": "Via Sant'Antonio"
   },
   {
     "id": 35731759,
