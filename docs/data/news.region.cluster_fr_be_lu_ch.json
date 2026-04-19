@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T04:58:53.013684+00:00",
+  "generatedAt": "2026-04-19T05:13:54.087846+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -9,14 +9,14 @@
   "items": [
     {
       "title": "Nach Sicherheitsbedenken keine Bovaer-Pflicht - Der Schweizer Bauer",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUk4yZ2Z6RmdsSG5mOXFZMUs3N2hUNDJsNjdjTmNqdUdYcWtCV1lwbVNFSkk5TGhwNWVHdS1CTXZoVDBwWjJBWlRnTmNKRExiRWpnUlg5T2VMTDBjU0dtT1ZSN0psUXJ6VUotdE91WUhlSEdXNnFWb05sblBnbUxXOU9YSzVWcC1Qa1FsQkl4eTROblM5aEo1Q1lCV3FWNWM?oc=5",
       "pubDate": "2026-04-17T11:20:55+00:00",
       "source": "Der Schweizer Bauer",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
-      "id": "8c6898b4787fd9ca"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNUk4yZ2Z6RmdsSG5mOXFZMUs3N2hUNDJsNjdjTmNqdUdYcWtCV1lwbVNFSkk5TGhwNWVHdS1CTXZoVDBwWjJBWlRnTmNKRExiRWpnUlg5T2VMTDBjU0dtT1ZSN0psUXJ6VUotdE91WUhlSEdXNnFWb05sblBnbUxXOU9YSzVWcC1Qa1FsQkl4eTROblM5aEo1Q1lCV3FWNWM?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
+      "id": "aff1bc6d771decd9"
     },
     {
       "title": "Geen verplichting voor gebruik Bovaer in Duitsland - Boerderij",
@@ -46,8 +46,8 @@
       "pubDate": "2026-04-14T05:24:08+00:00",
       "source": "NWTV",
       "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "country": "BE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNcEl2dEg1RWtYbVZfN09CTW5yZHpMUGRlX3FjRW1HWGhrcWRUVllNMU1mTHQyenB6QTFacFJRU2E5MWZsSkJDUzdjbWgyN0xSSmhlZUtORGR2QmlmVG1BRTZSeFUtbnoxUEliRkZuMXBZbm5ZbG5rTFVBY1BKdHVSOGVQTHhlbkx5NDEzQjV1UWdDblBxR2JaNi0tNzY?oc=5\" target=\"_blank\">Dit is de Sustainability Week Pose die je uit de GO Pass kunt krijgen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NWTV</font>",
       "id": "180214a02d19cab9"
     },
@@ -61,28 +61,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQbDBncXlQdkY5ZkZKTU1DSWxIU0RmV3NhZU5NbEtNNlZ0bVdIVFA1MVB0V0FMenRUMlBLZVVZN3pEUlppeEMzLWlib1NTNE9IaW45V1h1TXc2TVFjeGpjdDh1QXVZRDlJWlNnUmpKUERNVU5sVDFYb0RUQlpVV1lmNWk0RHlBZ3FjS3FETFdR?oc=5\" target=\"_blank\">Sustainability Update Service | April 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Grant Thornton Austria</font>",
       "id": "d2f2bed2366eaac8"
-    },
-    {
-      "title": "Lonza Announces 2026 AGM & 2025 Sustainability Reports - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONEdxYl8zeElGZ0lKMFVORmg1WGs5RTQ0YjV4VTJNa1BvQTNJUG1IcmlXZkRxdlU1OFh3Vmo5ckw5Q0pETGdZWGY5V0hkRElOeHJxZFI1azBUbHZKOUV4ckMtaGJXUzBDRkZnWnU5RXJCYlo2eGFKU2NkWE9sS0ZOeENQM3ZHdWxrekpGell1dzBNX0w2ZE1SQUtkc01rLWJtY0lWU0E2NA?oc=5",
-      "pubDate": "2026-04-01T07:00:00+00:00",
-      "source": "Wallstreet Online",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxONEdxYl8zeElGZ0lKMFVORmg1WGs5RTQ0YjV4VTJNa1BvQTNJUG1IcmlXZkRxdlU1OFh3Vmo5ckw5Q0pETGdZWGY5V0hkRElOeHJxZFI1azBUbHZKOUV4ckMtaGJXUzBDRkZnWnU5RXJCYlo2eGFKU2NkWE9sS0ZOeENQM3ZHdWxrekpGell1dzBNX0w2ZE1SQUtkc01rLWJtY0lWU0E2NA?oc=5\" target=\"_blank\">Lonza Announces 2026 AGM & 2025 Sustainability Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wallstreet Online</font>",
-      "id": "cd251174a7af0d2c"
-    },
-    {
-      "title": "Orascom Development Holding Releases FY 2025 Financial & Sustainability Reports - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUIzdWdXbk1nZDBNLVkyV1VfekJFS01xWGJRRUh4QTVQTE01dV9ZclhqYkgya1U0OTVaV1h3RDd3ek1sTjR1NWNMRkxGQmlJQWhxY2xGbU9mdUNDOEt3VW5sTXR2SlVjb3VtTVJid3pDQ1JYQjl1RVB2Y051aXVGM2NkUUQ2Sm5mREZselAzSWMyZ3IyNmNsT1I0dkMzUm0xc1VlbVVJRm5fU2FoNVVxQzhTOXdsRTBqTEIyVjJ5QlV2eW03dzR1eg?oc=5",
-      "pubDate": "2026-03-30T07:00:00+00:00",
-      "source": "Wallstreet Online",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUIzdWdXbk1nZDBNLVkyV1VfekJFS01xWGJRRUh4QTVQTE01dV9ZclhqYkgya1U0OTVaV1h3RDd3ek1sTjR1NWNMRkxGQmlJQWhxY2xGbU9mdUNDOEt3VW5sTXR2SlVjb3VtTVJid3pDQ1JYQjl1RVB2Y051aXVGM2NkUUQ2Sm5mREZselAzSWMyZ3IyNmNsT1I0dkMzUm0xc1VlbVVJRm5fU2FoNVVxQzhTOXdsRTBqTEIyVjJ5QlV2eW03dzR1eg?oc=5\" target=\"_blank\">Orascom Development Holding Releases FY 2025 Financial & Sustainability Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wallstreet Online</font>",
-      "id": "fd390207ce18806e"
     },
     {
       "title": "Certification Dilemma: Balancing Sustainability and Survival - Foodlog",
@@ -140,17 +118,6 @@
       "id": "3ad80b21e67155dc"
     },
     {
-      "title": "#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations - trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcnRkTEFOM1NBek5jdnVtUXl2Z29yTFltMW1RTWZIVlcwVi1qQ3p0ckQ3bDhfMVFQU1QwS1AxVmk0QXgxYWo0Uk8yamdwZFRGYmg5aWpxeHBwMVhyZTlqRXJNMExJcFFpZ2xkcGVIVGNPSXhlM0tsNno4ZER1SVo3OXZKdGhDRlE3TXBlaXlINEdtMUpPbGhWdlg4aGVVLTQzRDA3N05FZHc2UzV5RWtFeWtHM2RSTjM0Y1Fr?oc=5",
-      "pubDate": "2026-02-26T08:00:00+00:00",
-      "source": "trendingtopics.eu",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcnRkTEFOM1NBek5jdnVtUXl2Z29yTFltMW1RTWZIVlcwVi1qQ3p0ckQ3bDhfMVFQU1QwS1AxVmk0QXgxYWo0Uk8yamdwZFRGYmg5aWpxeHBwMVhyZTlqRXJNMExJcFFpZ2xkcGVIVGNPSXhlM0tsNno4ZER1SVo3OXZKdGhDRlE3TXBlaXlINEdtMUpPbGhWdlg4aGVVLTQzRDA3N05FZHc2UzV5RWtFeWtHM2RSTjM0Y1Fr?oc=5\" target=\"_blank\">#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">trendingtopics.eu</font>",
-      "id": "2b43f08f12215124"
-    },
-    {
       "title": "Sustainable Packaging Summit 2026: verdienmodellen en technologie - VerpakkingsManagement",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOclBNMm81M2dMaTlqQmNqNl8wMHdieGhVMUR3Smp0TDZuREVHZmI0c0hOY1J3bW8wVlJsRExBMjk1WENIY3VSdGtiOXl5MV83V0hVbHFNbFNFb3pjWlo1Y1VFQTlQVkhJWFRHaS1rT2hNb0o1NklNalQtcXA4N2dqOWVrLTdmWmpxV2JWQ0pseWdKbkVSUjAwRjIyS3Fid01tWk9xRGRCUTFDNWkzT2NzaHY5OA?oc=5",
       "pubDate": "2026-02-19T08:00:00+00:00",
@@ -184,15 +151,26 @@
       "id": "901ac0cd52806998"
     },
     {
-      "title": "EU roept op ervaringen met Bovaer te delen - veeteelt.nl",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52Y0gwTFkwcDFtSC1mYmlQRzl3Y3Q5RlJEWUVDMDhlQ3M5LXZUZmtoNF85R1c4b1lINTdPOWQyWjR6a0RzWWNCWFJNM0tDQk54bW5aczNFcnkwZ3JDbWNhSUkyaGlVaWw3TjlCUjFFR2pJa01Sa1R4V1lR?oc=5",
+      "title": "Efsa vraagt om ervaringen met Bovaer - Melkvee.nl",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeGxZalRjaVEtME8wLVhCaml1ajVrelNvbUludWNkUm11eS0xeUptQUZEMUVtS2FvSHBubVBYc3daRjRDeXpQQ29xRkkwOXozZ1hYSUozZ19tMkp3MnNlTmlUbGJlT3Z2Z3lsUl9jWmZGUUoxR3V5NXVwdHc4dWluMzBB?oc=5",
       "pubDate": "2026-02-16T08:00:00+00:00",
-      "source": "veeteelt.nl",
+      "source": "Melkvee.nl",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE52Y0gwTFkwcDFtSC1mYmlQRzl3Y3Q5RlJEWUVDMDhlQ3M5LXZUZmtoNF85R1c4b1lINTdPOWQyWjR6a0RzWWNCWFJNM0tDQk54bW5aczNFcnkwZ3JDbWNhSUkyaGlVaWw3TjlCUjFFR2pJa01Sa1R4V1lR?oc=5\" target=\"_blank\">EU roept op ervaringen met Bovaer te delen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
-      "id": "852c39e0fe0ca6fe"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOeGxZalRjaVEtME8wLVhCaml1ajVrelNvbUludWNkUm11eS0xeUptQUZEMUVtS2FvSHBubVBYc3daRjRDeXpQQ29xRkkwOXozZ1hYSUozZ19tMkp3MnNlTmlUbGJlT3Z2Z3lsUl9jWmZGUUoxR3V5NXVwdHc4dWluMzBB?oc=5\" target=\"_blank\">Efsa vraagt om ervaringen met Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Melkvee.nl</font>",
+      "id": "ec1a572e21493377"
+    },
+    {
+      "title": "EU roept op ervaringen met Bovaer te delen - Veeteelt",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52Y0gwTFkwcDFtSC1mYmlQRzl3Y3Q5RlJEWUVDMDhlQ3M5LXZUZmtoNF85R1c4b1lINTdPOWQyWjR6a0RzWWNCWFJNM0tDQk54bW5aczNFcnkwZ3JDbWNhSUkyaGlVaWw3TjlCUjFFR2pJa01Sa1R4V1lR?oc=5",
+      "pubDate": "2026-02-16T08:00:00+00:00",
+      "source": "Veeteelt",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE52Y0gwTFkwcDFtSC1mYmlQRzl3Y3Q5RlJEWUVDMDhlQ3M5LXZUZmtoNF85R1c4b1lINTdPOWQyWjR6a0RzWWNCWFJNM0tDQk54bW5aczNFcnkwZ3JDbWNhSUkyaGlVaWw3TjlCUjFFR2pJa01Sa1R4V1lR?oc=5\" target=\"_blank\">EU roept op ervaringen met Bovaer te delen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "0da55607daad7968"
     },
     {
       "title": "EFSA roept veehouders op ervaringen Bovaer te delen - Boerderij",
@@ -294,17 +272,6 @@
       "id": "9a8c223635c8e832"
     },
     {
-      "title": "Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte - Boerderij",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5",
-      "pubDate": "2026-01-13T08:00:00+00:00",
-      "source": "Boerderij",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5\" target=\"_blank\">Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boerderij</font>",
-      "id": "74e176874cad4567"
-    },
-    {
       "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
       "pubDate": "2026-01-13T08:00:00+00:00",
@@ -314,6 +281,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
       "id": "e9a3835456510718"
+    },
+    {
+      "title": "Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte - Boerderij",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5",
+      "pubDate": "2026-01-13T08:00:00+00:00",
+      "source": "Boerderij",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5\" target=\"_blank\">Zwavelgehalte in rantsoen mogelijk oorzaak van stofwisselingsproblemen na Bovaer-voergifte</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boerderij</font>",
+      "id": "74e176874cad4567"
     },
     {
       "title": "Interview Nachhaltigkeit und Change Management | Sustainability - Haufe. Intelligenz, die bewegt.",
@@ -336,6 +314,28 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOU3JRQ1VwOGliT0pLTjBvdEc0WTZ4UlpCSFJ4bVJnSmwyOTF2N0VRRlpuNjN5ZWlJVEo0ZGJjbFJqUWtqU1Z2WjVrRkVmVmNqYjc4Q1kzdlp4UGs3WkFYQlVwc3V2SXJFbVhhNGd5WkxvNnZ4ZGV6bDlydVdETWVjdzAwVVlCREp2cXhWbW9BMi1reHZVZDU0empJaUFneU1rSUVj?oc=5\" target=\"_blank\">Bovaer-problemen niet gecorreleerd aan ras of productieniveau</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Melkvee.nl</font>",
       "id": "c3dc61a4c915a58b"
+    },
+    {
+      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - Veeteelt",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5",
+      "pubDate": "2025-12-24T08:00:00+00:00",
+      "source": "Veeteelt",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "1bbfcbdc9a309fda"
+    },
+    {
+      "title": "Wat is waar over Bovaer? - Landbouwleven",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fb0IxeG9DOUw5eVJtZ0ZXZldaSmNnMDBSZ3dvLUp2MmJVNzR3SmhXMnJYZzhKa1lFWE1jNUEzM2JhQ0xSb2piYnJCaHhUUHVCS1RlOWVYUmkyUzlEdUhOTzRyTHlHYUJ3ZTg5Y3BKMlJyaFQ4bTFpNWpWc25MT2c?oc=5",
+      "pubDate": "2025-12-19T08:00:00+00:00",
+      "source": "Landbouwleven",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9fb0IxeG9DOUw5eVJtZ0ZXZldaSmNnMDBSZ3dvLUp2MmJVNzR3SmhXMnJYZzhKa1lFWE1jNUEzM2JhQ0xSb2piYnJCaHhUUHVCS1RlOWVYUmkyUzlEdUhOTzRyTHlHYUJ3ZTg5Y3BKMlJyaFQ4bTFpNWpWc25MT2c?oc=5\" target=\"_blank\">Wat is waar over Bovaer?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Landbouwleven</font>",
+      "id": "e53635661adb1d1f"
     }
   ]
 }

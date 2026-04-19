@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-04-18T04:58:53.014646+00:00",
+  "generatedAt": "2026-04-19T05:13:54.088721+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 27,
+  "total": 24,
   "errors": [],
   "items": [
     {
       "title": "Nach Sicherheitsbedenken keine Bovaer-Pflicht - Der Schweizer Bauer",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUk4yZ2Z6RmdsSG5mOXFZMUs3N2hUNDJsNjdjTmNqdUdYcWtCV1lwbVNFSkk5TGhwNWVHdS1CTXZoVDBwWjJBWlRnTmNKRExiRWpnUlg5T2VMTDBjU0dtT1ZSN0psUXJ6VUotdE91WUhlSEdXNnFWb05sblBnbUxXOU9YSzVWcC1Qa1FsQkl4eTROblM5aEo1Q1lCV3FWNWM?oc=5",
       "pubDate": "2026-04-17T11:20:55+00:00",
       "source": "Der Schweizer Bauer",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
-      "id": "8c6898b4787fd9ca"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNUk4yZ2Z6RmdsSG5mOXFZMUs3N2hUNDJsNjdjTmNqdUdYcWtCV1lwbVNFSkk5TGhwNWVHdS1CTXZoVDBwWjJBWlRnTmNKRExiRWpnUlg5T2VMTDBjU0dtT1ZSN0psUXJ6VUotdE91WUhlSEdXNnFWb05sblBnbUxXOU9YSzVWcC1Qa1FsQkl4eTROblM5aEo1Q1lCV3FWNWM?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
+      "id": "aff1bc6d771decd9"
     },
     {
       "title": "„Sustainability: Turning Intentions into Impact“ – Das ÖGNI Symposium findet im Herbst zum zweiten Mal statt - OTS.at",
@@ -41,28 +41,6 @@
       "id": "d2f2bed2366eaac8"
     },
     {
-      "title": "Lonza Announces 2026 AGM & 2025 Sustainability Reports - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONEdxYl8zeElGZ0lKMFVORmg1WGs5RTQ0YjV4VTJNa1BvQTNJUG1IcmlXZkRxdlU1OFh3Vmo5ckw5Q0pETGdZWGY5V0hkRElOeHJxZFI1azBUbHZKOUV4ckMtaGJXUzBDRkZnWnU5RXJCYlo2eGFKU2NkWE9sS0ZOeENQM3ZHdWxrekpGell1dzBNX0w2ZE1SQUtkc01rLWJtY0lWU0E2NA?oc=5",
-      "pubDate": "2026-04-01T07:00:00+00:00",
-      "source": "Wallstreet Online",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxONEdxYl8zeElGZ0lKMFVORmg1WGs5RTQ0YjV4VTJNa1BvQTNJUG1IcmlXZkRxdlU1OFh3Vmo5ckw5Q0pETGdZWGY5V0hkRElOeHJxZFI1azBUbHZKOUV4ckMtaGJXUzBDRkZnWnU5RXJCYlo2eGFKU2NkWE9sS0ZOeENQM3ZHdWxrekpGell1dzBNX0w2ZE1SQUtkc01rLWJtY0lWU0E2NA?oc=5\" target=\"_blank\">Lonza Announces 2026 AGM & 2025 Sustainability Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wallstreet Online</font>",
-      "id": "cd251174a7af0d2c"
-    },
-    {
-      "title": "Orascom Development Holding Releases FY 2025 Financial & Sustainability Reports - Wallstreet Online",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUIzdWdXbk1nZDBNLVkyV1VfekJFS01xWGJRRUh4QTVQTE01dV9ZclhqYkgya1U0OTVaV1h3RDd3ek1sTjR1NWNMRkxGQmlJQWhxY2xGbU9mdUNDOEt3VW5sTXR2SlVjb3VtTVJid3pDQ1JYQjl1RVB2Y051aXVGM2NkUUQ2Sm5mREZselAzSWMyZ3IyNmNsT1I0dkMzUm0xc1VlbVVJRm5fU2FoNVVxQzhTOXdsRTBqTEIyVjJ5QlV2eW03dzR1eg?oc=5",
-      "pubDate": "2026-03-30T07:00:00+00:00",
-      "source": "Wallstreet Online",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUUIzdWdXbk1nZDBNLVkyV1VfekJFS01xWGJRRUh4QTVQTE01dV9ZclhqYkgya1U0OTVaV1h3RDd3ek1sTjR1NWNMRkxGQmlJQWhxY2xGbU9mdUNDOEt3VW5sTXR2SlVjb3VtTVJid3pDQ1JYQjl1RVB2Y051aXVGM2NkUUQ2Sm5mREZselAzSWMyZ3IyNmNsT1I0dkMzUm0xc1VlbVVJRm5fU2FoNVVxQzhTOXdsRTBqTEIyVjJ5QlV2eW03dzR1eg?oc=5\" target=\"_blank\">Orascom Development Holding Releases FY 2025 Financial & Sustainability Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wallstreet Online</font>",
-      "id": "fd390207ce18806e"
-    },
-    {
       "title": "Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri - Maritima",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1FwR3dpeWk4clF6cE9xN0pqS3pld2l4SmNaMFdkc1h6cjZ5QVlLZ0xJSlZlTEJOT3pPbTZjUkRBODNBSGJkTDJnN3F5SnJqVFBDT2d3NEFlcTRTVFlnYWhsVURmRnJxOUU0aF9xS3lLelpGdUlBQjFGdFhFN3ZZMWJOc3JWYWJnblpSUjV5ejBtT1RBMzNvNm9HVk1Gc21Ia0FZeWMxbEhpT1ZFWlZILVYwdlBHUEhQbDhxcF94cTFPc0ZxdGREaWcta29VeWtONmV4ZnV5WHJCZnMzUWxlNndiS3lKNE9Oakk1LXJQM2ZlQjQ?oc=5",
       "pubDate": "2026-03-24T07:00:00+00:00",
@@ -83,17 +61,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPcFM3OE40NTZKaWpqakhXSE12RjZwQU9rYzNwRWY5S3U4UE5BNUdfSmNMRy1VSVN0a0EzY2JXeDFTRnlVcFdGYVBYcDlINnZtR29pVFNBTnprc295MVVqMldUaTFYSmRTRTY0cDRueU56UVhicVhLWjJJUFJoZElCUnpZZl94VWFlZENBQ2RJV1QyTExUS19BVXU3VUkwMERGX3pSUw?oc=5\" target=\"_blank\">Sustainability Transformation Monitor 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
       "id": "b2ef0792d0baf9dd"
-    },
-    {
-      "title": "#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations - trendingtopics.eu",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcnRkTEFOM1NBek5jdnVtUXl2Z29yTFltMW1RTWZIVlcwVi1qQ3p0ckQ3bDhfMVFQU1QwS1AxVmk0QXgxYWo0Uk8yamdwZFRGYmg5aWpxeHBwMVhyZTlqRXJNMExJcFFpZ2xkcGVIVGNPSXhlM0tsNno4ZER1SVo3OXZKdGhDRlE3TXBlaXlINEdtMUpPbGhWdlg4aGVVLTQzRDA3N05FZHc2UzV5RWtFeWtHM2RSTjM0Y1Fr?oc=5",
-      "pubDate": "2026-02-26T08:00:00+00:00",
-      "source": "trendingtopics.eu",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcnRkTEFOM1NBek5jdnVtUXl2Z29yTFltMW1RTWZIVlcwVi1qQ3p0ckQ3bDhfMVFQU1QwS1AxVmk0QXgxYWo0Uk8yamdwZFRGYmg5aWpxeHBwMVhyZTlqRXJNMExJcFFpZ2xkcGVIVGNPSXhlM0tsNno4ZER1SVo3OXZKdGhDRlE3TXBlaXlINEdtMUpPbGhWdlg4aGVVLTQzRDA3N05FZHc2UzV5RWtFeWtHM2RSTjM0Y1Fr?oc=5\" target=\"_blank\">#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">trendingtopics.eu</font>",
-      "id": "2b43f08f12215124"
     },
     {
       "title": "fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren - TU Wien",
@@ -162,26 +129,26 @@
       "id": "6cea09a2b3ecf6b6"
     },
     {
-      "title": "Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff? - Euronews.com",
+      "title": "Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff? - Euronews",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ28takhiTVR0bXJpV1d4Q29QMThoYXFqRXdqU0haWG50UTVxTkRMN0lDdXdVZHZrQmlyY2c3YlhFWFdPWEN2RlU0OVVhQXdJakJ1WmJHWHB5dXJDZFZIVzNfQXpfa2VHeXBIa3lsWEEwUUJnTDE0a2Y0emI0N3lYdmhZQUFTRFpUV0dFRFFKVkhCVTktNHBld1Fn?oc=5",
       "pubDate": "2025-11-25T08:00:00+00:00",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ28takhiTVR0bXJpV1d4Q29QMThoYXFqRXdqU0haWG50UTVxTkRMN0lDdXdVZHZrQmlyY2c3YlhFWFdPWEN2RlU0OVVhQXdJakJ1WmJHWHB5dXJDZFZIVzNfQXpfa2VHeXBIa3lsWEEwUUJnTDE0a2Y0emI0N3lYdmhZQUFTRFpUV0dFRFFKVkhCVTktNHBld1Fn?oc=5\" target=\"_blank\">Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Euronews.com</font>",
-      "id": "a106a5a6aa4216b1"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ28takhiTVR0bXJpV1d4Q29QMThoYXFqRXdqU0haWG50UTVxTkRMN0lDdXdVZHZrQmlyY2c3YlhFWFdPWEN2RlU0OVVhQXdJakJ1WmJHWHB5dXJDZFZIVzNfQXpfa2VHeXBIa3lsWEEwUUJnTDE0a2Y0emI0N3lYdmhZQUFTRFpUV0dFRFFKVkhCVTktNHBld1Fn?oc=5\" target=\"_blank\">Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Euronews</font>",
+      "id": "b6092386a7962b33"
     },
     {
-      "title": "Video. Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff? - Euronews.com",
+      "title": "Video. Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff? - Euronews",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ0VUeEFCV3dITDBnMjVWelA2YnBmSTVDaGZocU9WV3ZKelliRzBYQ2REU3FBRXFBdk1WQ1RTVzU5bEhVc05tbTh5dm5kOFRhZDlJektHdGFyOXRDek11ZHdqVVd4S25uQ25uX242MWh1aXN6RERjUjgyQmRTSGdyNHUxOXBxTFFLZjk1UU5oa2pQTC1h?oc=5",
       "pubDate": "2025-11-25T08:00:00+00:00",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ0VUeEFCV3dITDBnMjVWelA2YnBmSTVDaGZocU9WV3ZKelliRzBYQ2REU3FBRXFBdk1WQ1RTVzU5bEhVc05tbTh5dm5kOFRhZDlJektHdGFyOXRDek11ZHdqVVd4S25uQ25uX242MWh1aXN6RERjUjgyQmRTSGdyNHUxOXBxTFFLZjk1UU5oa2pQTC1h?oc=5\" target=\"_blank\">Video. Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Euronews.com</font>",
-      "id": "0a2b23baa0aae19a"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ0VUeEFCV3dITDBnMjVWelA2YnBmSTVDaGZocU9WV3ZKelliRzBYQ2REU3FBRXFBdk1WQ1RTVzU5bEhVc05tbTh5dm5kOFRhZDlJektHdGFyOXRDek11ZHdqVVd4S25uQ25uX242MWh1aXN6RERjUjgyQmRTSGdyNHUxOXBxTFFLZjk1UU5oa2pQTC1h?oc=5\" target=\"_blank\">Video. Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Euronews</font>",
+      "id": "cb02dbc996505a6f"
     },
     {
       "title": "Kontroverse um Bovaer: Ist der Klimaschutz-Zusatz eine Gefahr für Kühe? - Telepolis",
@@ -239,28 +206,6 @@
       "id": "3d7f5a96df8c0cc8"
     },
     {
-      "title": "GYT: SciSure and My Green Lab Unite to Champion Safety and Sustainability in Science - FinanzNachrichten.de",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUDBIZmxvQUFqNXZGdjQzbWJhM3JEZHQ5TDFkQXBXbjRLWm94eFBkUjFYOVlHOVVwM1R6X1BNcG8xSkZWdGZLQU1UcHR4dTlSZWo4RlU5ZGQyVFNkalNfTUN6algtcVBEWElkd2dBX2pRV2Q2MWI5emp2ZmJiN1RkdkNXd01kbzFHcXNYLVpYT0dQeldpVF9UVUlRLTBIVGJUUkFFNWpLbTd2UTM1NEpOanZkVHhKX0hyUGpiYmVrd0NNNVQtQnJpUGNCSkpTUnpDMjlRbnRoOHE1TGxHNXlHX0N5dk83TWRl?oc=5",
-      "pubDate": "2025-09-26T07:00:00+00:00",
-      "source": "FinanzNachrichten.de",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUDBIZmxvQUFqNXZGdjQzbWJhM3JEZHQ5TDFkQXBXbjRLWm94eFBkUjFYOVlHOVVwM1R6X1BNcG8xSkZWdGZLQU1UcHR4dTlSZWo4RlU5ZGQyVFNkalNfTUN6algtcVBEWElkd2dBX2pRV2Q2MWI5emp2ZmJiN1RkdkNXd01kbzFHcXNYLVpYT0dQeldpVF9UVUlRLTBIVGJUUkFFNWpLbTd2UTM1NEpOanZkVHhKX0hyUGpiYmVrd0NNNVQtQnJpUGNCSkpTUnpDMjlRbnRoOHE1TGxHNXlHX0N5dk83TWRl?oc=5\" target=\"_blank\">GYT: SciSure and My Green Lab Unite to Champion Safety and Sustainability in Science</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanzNachrichten.de</font>",
-      "id": "f51e4be63ecfaa31"
-    },
-    {
-      "title": "Bracco Imaging erhält EcoVadis-Platinmedaille für Global Sustainability Leadership - PR Newswire",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYi1wb1pRWlFYa0NPbGQ3a2lZUmdvZ2FUOFNndGpsMi1BR3E1VHZjVi1yTVJLZ1VKenQ5MG1NNkVaY2JXS2trNHByaE1FSEp0QUVicm5iMV92NjVGcldWTUkxS3lVWUNnVjRDa0Y0Vi0tWDNmRWFhV1ZkdnJfZ1loNjNBaXVXME1NTy1xMU5qc1gzY25XdFpIeHJMd2tsZnRXUVdZTkd5cWFkUzB5Uy1YTk4yV2ZWaU9vaktLYmlWYU9pV0lvR2tKdXQ4Q2NlTzRONHlmWg?oc=5",
-      "pubDate": "2025-07-10T07:00:00+00:00",
-      "source": "PR Newswire",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYi1wb1pRWlFYa0NPbGQ3a2lZUmdvZ2FUOFNndGpsMi1BR3E1VHZjVi1yTVJLZ1VKenQ5MG1NNkVaY2JXS2trNHByaE1FSEp0QUVicm5iMV92NjVGcldWTUkxS3lVWUNnVjRDa0Y0Vi0tWDNmRWFhV1ZkdnJfZ1loNjNBaXVXME1NTy1xMU5qc1gzY25XdFpIeHJMd2tsZnRXUVdZTkd5cWFkUzB5Uy1YTk4yV2ZWaU9vaktLYmlWYU9pV0lvR2tKdXQ4Q2NlTzRONHlmWg?oc=5\" target=\"_blank\">Bracco Imaging erhält EcoVadis-Platinmedaille für Global Sustainability Leadership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
-      "id": "3def2341471dcd4f"
-    },
-    {
       "title": "3. Internationale Konferenz \"Sustainability in Hydropower\" in Wien - Bundesministerium für Land",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3JUbVM3eGR6eE1rR1VZQ01tTDUxcUxJVTFCdWc3YnVjNENxU1BYR1l4a00xaGU0RDRzcU1FblV3ZGU1VklLQmowcVdsR3FTVGF2QldqSjlnSDBITk56WWRkU09NNGJoWWIyZDBxN1BlNzNWaGRUeVNHaF9UU3I0dU0xcFhMRkZENVBKY09XZ2pyREJwNEJpU2YtbDA?oc=5",
       "pubDate": "2025-06-26T14:18:24+00:00",
@@ -283,6 +228,17 @@
       "id": "df154964a8879757"
     },
     {
+      "title": "Insektenmehl & Co: Achtung, Allergiealarm! - netDoktor.at",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYlJXZGZiMUl4LVJGbFRyU0xFOHFjekQ0Rl9yeFMzOG9KMnpDWFo5MTBlelpjT1dqZjluc3hmUGloa1c1VDdfTFdpWXh2OXJCdk5sRHNBNnQxNzdKYlpxSUFyZ3hNanpKS3dHSl9xWDZnVDdZaW94Xy1n?oc=5",
+      "pubDate": "2025-06-04T07:00:00+00:00",
+      "source": "netDoktor.at",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBNYlJXZGZiMUl4LVJGbFRyU0xFOHFjekQ0Rl9yeFMzOG9KMnpDWFo5MTBlelpjT1dqZjluc3hmUGloa1c1VDdfTFdpWXh2OXJCdk5sRHNBNnQxNzdKYlpxSUFyZ3hNanpKS3dHSl9xWDZnVDdZaW94Xy1n?oc=5\" target=\"_blank\">Insektenmehl & Co: Achtung, Allergiealarm!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">netDoktor.at</font>",
+      "id": "1406b47d5b5de41f"
+    },
+    {
       "title": "\"Hamburg Sustainability Conference\": Nachhaltigkeit im Fokus - NDR.de",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZTFhOGRoNEc0WEtXNzdGN0hldk5SSTJpR2hoRmdMMzVHa2drSEczakhzWjhyUHJBV2ZraU9RY1VlYUR2dEFwdVhRVnl5NUE4WXZjcmJxUzBJNFJMbHRNbUIyZVAwQ3gtYzNESC1FTGVGV2RPSEhBM0NyS29hZk9HS19xY0tFa3JrbDhFaEh1U0hhcFluYW5kaGZPRC1hS1hyME90anlDRm0wdGJQS1R4YUxKOUlsUmRDTzhr?oc=5",
       "pubDate": "2025-06-03T07:00:00+00:00",
@@ -303,6 +259,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOUkxVbHdzTzYwc3p1N0prQXQ0UU0xanRuX0l0bXJFV3ljRUdEeVgtc282ZUNicG9MbDg0MnFGQ0NXcTBLSXBvRENoLXRDOXpIZXFFemczMUZpbEFVdDRreF9meFIyNTBISWptejdiOVZmaFJQdG1NejFRcWxnTDdyNjlQREZhV2w4UE43anh6Z05wcFVVUEdaS2twTjU0a3BYSktFUVhLczdMYWswVVc5eFVlUENDa0tSaFdreUx3?oc=5\" target=\"_blank\">Hamburg Sustainability Conference vereint eine Welt im Umbruch für nachhaltige Zukunftsallianzen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung</font>",
       "id": "1c2081bd47634b5c"
+    },
+    {
+      "title": "Dietrofront sulla farina di insetti: inquina più della soia (lo dice un nuovo studio) - greenMe",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNVRkQnItSnQ3M1BJeUl4cl9uQXZBbnZDQUcwYWZYLUhNU01Xbnp1XzdSd2o3UmNwMXdNWnRqUGNxMWJuampzaFJaaGJYOHBiWkpaZE1hMVZWYWFpTWZaOGJWNTV1REltQ09Da1Q0eGJMa0pSTGtHNTd4MWtxMm9RbmY2TFJTekVrVmRpTGN1SkN5aGZIcHJRSTFqclQtdzNaMzdEaU4wYWFJZ2lTbFRjZWYtcWhuY3QwZlYyWmZtMHJuTE1mRnNxR1VDV1RxdEliSzdibWl2a2VhS3BURFBJMllXVHQ?oc=5",
+      "pubDate": "2025-05-28T07:00:00+00:00",
+      "source": "greenMe",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=CH&ceid=CH%3Ait",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNVRkQnItSnQ3M1BJeUl4cl9uQXZBbnZDQUcwYWZYLUhNU01Xbnp1XzdSd2o3UmNwMXdNWnRqUGNxMWJuampzaFJaaGJYOHBiWkpaZE1hMVZWYWFpTWZaOGJWNTV1REltQ09Da1Q0eGJMa0pSTGtHNTd4MWtxMm9RbmY2TFJTekVrVmRpTGN1SkN5aGZIcHJRSTFqclQtdzNaMzdEaU4wYWFJZ2lTbFRjZWYtcWhuY3QwZlYyWmZtMHJuTE1mRnNxR1VDV1RxdEliSzdibWl2a2VhS3BURFBJMllXVHQ?oc=5\" target=\"_blank\">Dietrofront sulla farina di insetti: inquina più della soia (lo dice un nuovo studio)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">greenMe</font>",
+      "id": "d9ba5d4cc59cc152"
     }
   ]
 }
