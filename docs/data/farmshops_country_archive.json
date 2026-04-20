@@ -209320,6 +209320,30 @@
       "lat": 50.8149436,
       "lon": 4.3046407,
       "address": null
+    },
+    {
+      "id": 13743150976,
+      "name": "Waerebrughoeve",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.facebook.com/profile.php?id=100064727047914",
+      "lat": 51.1605069,
+      "lon": 3.000715,
+      "address": null
+    },
+    {
+      "id": 33870841,
+      "name": "Viangros",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.viangro.be",
+      "lat": 50.8150021,
+      "lon": 4.3047807,
+      "address": "Rue de la Bienvenue - Verwelkomingsstraat"
     }
   ],
   "FR": [
