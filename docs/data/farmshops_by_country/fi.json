@@ -1116,18 +1116,6 @@
     "address": "Harjulankatu"
   },
   {
-    "id": 13045862703,
-    "name": "Saimaan Maku",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://saimaanmaku.fi/",
-    "lat": 61.8689065,
-    "lon": 28.8817354,
-    "address": "Puistokatu"
-  },
-  {
     "id": 13173257489,
     "name": "Aholaisten luomutila",
     "country": "Finland",
@@ -1162,6 +1150,18 @@
     "lat": 60.0847533,
     "lon": 23.620474,
     "address": "Sjösängsvägen"
+  },
+  {
+    "id": 13725498583,
+    "name": "Mantereen tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Lempäälä",
+    "products": [],
+    "website": null,
+    "lat": 61.2395043,
+    "lon": 23.7981251,
+    "address": "Perälänraitti"
   },
   {
     "id": 76736163,
@@ -1560,16 +1560,16 @@
     "address": null
   },
   {
-    "id": 13725498583,
-    "name": "Mantereen tila",
+    "id": 13045862703,
+    "name": "Saimaan Maku",
     "country": "Finland",
     "region": null,
-    "municipality": "Lempäälä",
+    "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 61.2395043,
-    "lon": 23.7981251,
-    "address": "Perälänraitti"
+    "website": "https://saimaanmaku.fi/",
+    "lat": 61.8689065,
+    "lon": 28.8817354,
+    "address": "Puistokatu"
   },
   {
     "id": 304661047,
