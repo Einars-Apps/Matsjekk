@@ -524283,6 +524283,18 @@
       "lat": 52.2734229,
       "lon": -0.7838712,
       "address": "Washbrook Lane"
+    },
+    {
+      "id": 13742139628,
+      "name": "Whetstone Gorse Fishery",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.5331781,
+      "lon": -1.1517838,
+      "address": null
     }
   ],
   "IE": [
@@ -625787,6 +625799,18 @@
       "website": null,
       "lat": 47.3114057,
       "lon": 7.0660992,
+      "address": null
+    },
+    {
+      "id": 13742616467,
+      "name": "Honig vom Siegelimker",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 46.8293415,
+      "lon": 7.7046042,
       "address": null
     }
   ],

@@ -3660,30 +3660,6 @@
     "address": null
   },
   {
-    "id": 13718474777,
-    "name": "Wallifungi",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.wallifungi.be/apropos",
-    "lat": 50.6497227,
-    "lon": 5.5946194,
-    "address": null
-  },
-  {
-    "id": 13725201020,
-    "name": "Ferme de la Goyette",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.5923908,
-    "lon": 4.4400475,
-    "address": null
-  },
-  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -4903,7 +4879,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.viangro.be",
-    "lat": 50.8149436,
+    "lat": 50.814948,
     "lon": 4.3046407,
     "address": null
   },
@@ -5203,8 +5179,8 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600502,
-    "lon": 3.6034124,
+    "lat": 51.1600501,
+    "lon": 3.6034127,
     "address": "Jagerpad"
   },
   {
@@ -5400,16 +5376,52 @@
     "address": "Rue Estafflers"
   },
   {
-    "id": 915448210,
+    "id": 13718474777,
+    "name": "Wallifungi",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.wallifungi.be/apropos",
+    "lat": 50.6497227,
+    "lon": 5.5946194,
+    "address": null
+  },
+  {
+    "id": 13725201020,
+    "name": "Ferme de la Goyette",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.5923908,
+    "lon": 4.4400475,
+    "address": null
+  },
+  {
+    "id": 13743150976,
+    "name": "Waerebrughoeve",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.facebook.com/profile.php?id=100064727047914",
+    "lat": 51.1605069,
+    "lon": 3.000715,
+    "address": null
+  },
+  {
+    "id": 33870841,
     "name": "Viangros",
     "country": "Belgium",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://www.viangro.be",
-    "lat": 50.814948,
-    "lon": 4.3046407,
-    "address": null
+    "lat": 50.8150021,
+    "lon": 4.3047807,
+    "address": "Rue de la Bienvenue - Verwelkomingsstraat"
   },
   {
     "id": 1168475491,
@@ -5419,9 +5431,21 @@
     "municipality": "Lievegem",
     "products": [],
     "website": null,
-    "lat": 51.1600501,
-    "lon": 3.6034127,
+    "lat": 51.1600502,
+    "lon": 3.6034124,
     "address": "Jagerpad"
+  },
+  {
+    "id": 915448210,
+    "name": "Viangros",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.viangro.be",
+    "lat": 50.8149436,
+    "lon": 4.3046407,
+    "address": null
   },
   {
     "id": 2744852856,
