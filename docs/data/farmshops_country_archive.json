@@ -24783,6 +24783,18 @@
       "lon": 10.675517,
       "address": "Haneborg gård Osloveien 160",
       "source": "https://www.hanen.no/bedrift/haneborg-gaard/"
+    },
+    {
+      "id": 13742007783,
+      "name": "Røds Frukt",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.rodsfrukt.no",
+      "lat": 59.070377,
+      "lon": 10.2653986,
+      "address": null
     }
   ],
   "SE": [
