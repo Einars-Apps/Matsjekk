@@ -209356,6 +209356,18 @@
       "lat": 50.8150021,
       "lon": 4.3047807,
       "address": "Rue de la Bienvenue - Verwelkomingsstraat"
+    },
+    {
+      "id": 7449906925,
+      "name": "Hoevewinkel Bresseleers",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.3438037,
+      "lon": 4.4027462,
+      "address": "Ertbrandstraat"
     }
   ],
   "FR": [

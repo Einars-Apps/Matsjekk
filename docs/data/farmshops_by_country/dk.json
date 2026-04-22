@@ -10224,6 +10224,30 @@
     "address": null
   },
   {
+    "id": 8809189199,
+    "name": "Galloway godt kød",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.347879,
+    "lon": 11.417437,
+    "address": null
+  },
+  {
+    "id": 12843767704,
+    "name": "Rye Nørskov Gods Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://rye-noerskov.dk/gardbutikken/",
+    "lat": 56.0922012,
+    "lon": 9.7527416,
+    "address": null
+  },
+  {
     "id": 8704713845,
     "name": "Mollwitz Mjød",
     "country": "Denmark",
@@ -10248,18 +10272,6 @@
     "address": null
   },
   {
-    "id": 8809189199,
-    "name": "Galloway godt kød",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.347879,
-    "lon": 11.417437,
-    "address": null
-  },
-  {
     "id": 8907286062,
     "name": "Torsøgård Gårdbutik",
     "country": "Denmark",
@@ -10281,18 +10293,6 @@
     "website": "http://www.xn--julegsen-e0a.dk/",
     "lat": 56.094789,
     "lon": 8.7791877,
-    "address": null
-  },
-  {
-    "id": 12843767704,
-    "name": "Rye Nørskov Gods Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0922012,
-    "lon": 9.7527416,
     "address": null
   },
   {
