@@ -1248,6 +1248,18 @@
     "address": null
   },
   {
+    "id": 7198238002,
+    "name": "Grennessminde",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
+    "lat": 55.6417069,
+    "lon": 12.2945648,
+    "address": null
+  },
+  {
     "id": 7311230550,
     "name": "Aromagaarden",
     "country": "Denmark",
@@ -8275,8 +8287,8 @@
     "municipality": null,
     "products": [],
     "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0919088,
-    "lon": 9.7531699,
+    "lat": 56.0922012,
+    "lon": 9.7527416,
     "address": null
   },
   {
@@ -9852,18 +9864,6 @@
     "address": null
   },
   {
-    "id": 13724967263,
-    "name": "Stalddørssalg af æg",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 55.104053,
-    "lon": 11.9407303,
-    "address": null
-  },
-  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -10212,15 +10212,27 @@
     "address": null
   },
   {
-    "id": 7198238002,
-    "name": "Grennessminde",
+    "id": 12843767704,
+    "name": "Rye Nørskov Gods Gårdbutik",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
-    "lat": 55.6417069,
-    "lon": 12.2945648,
+    "website": "https://rye-noerskov.dk/gardbutikken/",
+    "lat": 56.0919088,
+    "lon": 9.7531699,
+    "address": null
+  },
+  {
+    "id": 13724967263,
+    "name": "Stalddørssalg af æg",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.104053,
+    "lon": 11.9407303,
     "address": null
   },
   {
@@ -10233,18 +10245,6 @@
     "website": null,
     "lat": 55.347879,
     "lon": 11.417437,
-    "address": null
-  },
-  {
-    "id": 12843767704,
-    "name": "Rye Nørskov Gods Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://rye-noerskov.dk/gardbutikken/",
-    "lat": 56.0922012,
-    "lon": 9.7527416,
     "address": null
   },
   {

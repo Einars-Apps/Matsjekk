@@ -7049,6 +7049,19 @@
     "source": "https://www.lokalmat.no/produsenter/kompani-surdeig-as/"
   },
   {
+    "id": "lokalmat_12014",
+    "name": "Kongshaug Krabbe AS",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Smøla",
+    "products": [],
+    "website": null,
+    "lat": 63.3076152,
+    "lon": 8.1030417,
+    "address": "Hestøyveien 63",
+    "source": "https://www.lokalmat.no/produsenter/kongshaug-krabbe-as/"
+  },
+  {
     "id": "lokalmat_12092",
     "name": "Kraftgutta AS",
     "country": "Norway",
@@ -11022,8 +11035,7 @@
     "region": "Troms",
     "municipality": "Borkenes",
     "products": [
-      "Annet",
-      "Saft, syltetøy, geleer"
+      "Annet"
     ],
     "website": null,
     "lat": 68.772553396532,
@@ -11874,6 +11886,19 @@
     "lon": 10.364506,
     "address": "Åshaugveien 182",
     "source": "https://www.lokalmat.no/produsenter/tangent/"
+  },
+  {
+    "id": "lokalmat_12370",
+    "name": "Tastes Of Norway",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Hokksund",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Sundmoen næringsområde 2",
+    "source": "https://www.lokalmat.no/produsenter/tastes-of-norway/"
   },
   {
     "id": "lokalmat_11622",
@@ -13531,19 +13556,6 @@
     "source": "https://www.hanen.no/bedrift/aamli-gaardsmeieri/"
   },
   {
-    "id": "hanen_971",
-    "name": "Åsvang Gård",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Inderøy",
-    "products": [],
-    "website": "https://www.facebook.com/Aasvanggaard",
-    "lat": 63.852735,
-    "lon": 11.106981,
-    "address": "Utøyvegen 983",
-    "source": "https://www.hanen.no/bedrift/aasvang-gaard/"
-  },
-  {
     "id": "hanen_223",
     "name": "Aukrust gard og urteri",
     "country": "Norway",
@@ -14610,6 +14622,19 @@
     "source": "https://www.hanen.no/bedrift/landro-lensvik/"
   },
   {
+    "id": "hanen_2900",
+    "name": "Landsverk gård",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Sauland",
+    "products": [],
+    "website": "https://www.facebook.com/landsverkgaard",
+    "lat": 59.610446,
+    "lon": 8.971952,
+    "address": "Saulandsvegen 269",
+    "source": "https://www.hanen.no/bedrift/landsverk-gaard/"
+  },
+  {
     "id": "hanen_1116",
     "name": "Leksås gårdsmat AS",
     "country": "Norway",
@@ -14767,7 +14792,7 @@
   },
   {
     "id": "hanen_2993",
-    "name": "TRINE HASVANG VAAG",
+    "name": "Trine Hasvang Vaag Mediaas Søndre",
     "country": "Norway",
     "region": null,
     "municipality": "SNÅSA",
@@ -14776,7 +14801,7 @@
     "lat": 64.211422,
     "lon": 12.303895,
     "address": "Søndre Mediås, Holsingvegen 57",
-    "source": "https://www.hanen.no/bedrift/trine-hasvang-vaag/"
+    "source": "https://www.hanen.no/bedrift/trine-hasvang-vaag-mediaas-sondre/"
   },
   {
     "id": "hanen_2957",
@@ -15778,6 +15803,32 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_971",
+    "name": "Åsvang Gård",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Inderøy",
+    "products": [],
+    "website": "https://www.facebook.com/Aasvanggaard",
+    "lat": 63.852735,
+    "lon": 11.106981,
+    "address": "Utøyvegen 983",
+    "source": "https://www.hanen.no/bedrift/aasvang-gaard/"
+  },
+  {
+    "id": "hanen_2993",
+    "name": "TRINE HASVANG VAAG",
+    "country": "Norway",
+    "region": null,
+    "municipality": "SNÅSA",
+    "products": [],
+    "website": "https://mediaasgard.no",
+    "lat": 64.211422,
+    "lon": 12.303895,
+    "address": "Søndre Mediås, Holsingvegen 57",
+    "source": "https://www.hanen.no/bedrift/trine-hasvang-vaag/"
   },
   {
     "id": "hanen_822",
