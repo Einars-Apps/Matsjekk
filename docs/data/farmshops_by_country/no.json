@@ -996,18 +996,6 @@
     "address": null
   },
   {
-    "id": 13742007783,
-    "name": "Røds Frukt",
-    "country": "Norway",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.rodsfrukt.no",
-    "lat": 59.070377,
-    "lon": 10.2653986,
-    "address": null
-  },
-  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -7813,6 +7801,19 @@
     "lon": 10.03,
     "address": "Nansetgata 23",
     "source": "https://www.lokalmat.no/produsenter/karin-oestensen/"
+  },
+  {
+    "id": "lokalmat_12031",
+    "name": "Løkken Gård Hvaler",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": "Vesterøy",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Vauerveien 197",
+    "source": "https://www.lokalmat.no/produsenter/lokken-gard-hvaler/"
   },
   {
     "id": "lokalmat_11332",
@@ -15803,6 +15804,18 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": 13742007783,
+    "name": "Røds Frukt",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.rodsfrukt.no",
+    "lat": 59.070377,
+    "lon": 10.2653986,
+    "address": null
   },
   {
     "id": "hanen_971",

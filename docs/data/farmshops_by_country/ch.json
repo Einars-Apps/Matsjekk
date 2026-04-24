@@ -17472,6 +17472,18 @@
     "address": null
   },
   {
+    "id": 13704987183,
+    "name": "See-Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.949497,
+    "lon": 8.6200643,
+    "address": null
+  },
+  {
     "id": 9702344862,
     "name": "La Bouffathèque",
     "country": "Switzerland",
@@ -17530,18 +17542,6 @@
     "lat": 47.4146941,
     "lon": 8.1875301,
     "address": "Steinackerstrasse"
-  },
-  {
-    "id": 13704987183,
-    "name": "See-Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.949497,
-    "lon": 8.6200643,
-    "address": null
   },
   {
     "id": 11298779978,

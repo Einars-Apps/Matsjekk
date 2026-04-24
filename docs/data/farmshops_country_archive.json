@@ -24847,6 +24847,19 @@
       "lon": 12.303895,
       "address": "Søndre Mediås, Holsingvegen 57",
       "source": "https://www.hanen.no/bedrift/trine-hasvang-vaag-mediaas-sondre/"
+    },
+    {
+      "id": "lokalmat_12031",
+      "name": "Løkken Gård Hvaler",
+      "country": "Norway",
+      "region": "Oslo",
+      "municipality": "Vesterøy",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Vauerveien 197",
+      "source": "https://www.lokalmat.no/produsenter/lokken-gard-hvaler/"
     }
   ],
   "SE": [
@@ -524394,6 +524407,30 @@
       "website": null,
       "lat": 51.1892762,
       "lon": 0.5804174,
+      "address": null
+    },
+    {
+      "id": 318387860,
+      "name": "Archers Cafe",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Carnforth",
+      "products": [],
+      "website": "http://www.redbankfarm.co.uk/",
+      "lat": 54.1061919,
+      "lon": -2.8090271,
+      "address": "The Shore"
+    },
+    {
+      "id": 1502915597,
+      "name": "Bee Hives",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.9933997,
+      "lon": -1.0806409,
       "address": null
     }
   ],

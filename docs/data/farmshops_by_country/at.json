@@ -8143,8 +8143,8 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3481006,
-    "lon": 9.6148273,
+    "lat": 47.3482028,
+    "lon": 9.6148441,
     "address": "Reichshofstraße"
   },
   {
@@ -9708,54 +9708,6 @@
     "address": "Hopfengasse"
   },
   {
-    "id": 13717889584,
-    "name": "Stockwerk Bioimkerei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stockwerkhonig.at/",
-    "lat": 47.9811689,
-    "lon": 13.7136438,
-    "address": null
-  },
-  {
-    "id": 13728190771,
-    "name": "Biogemüse Gruber",
-    "country": "Austria",
-    "region": null,
-    "municipality": "St. Florian",
-    "products": [],
-    "website": null,
-    "lat": 48.1747491,
-    "lon": 14.4027904,
-    "address": "Oberweidlham"
-  },
-  {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
-    "address": null
-  },
-  {
-    "id": 13750149702,
-    "name": "Bauernladen Schalhas",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koglmuehle-schalhas.at/",
-    "lat": 48.2956062,
-    "lon": 15.5894324,
-    "address": "Nibelungenstraße"
-  },
-  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -9967,8 +9919,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.2677666,
-    "lon": 16.0850036,
+    "lat": 48.267763,
+    "lon": 16.0849996,
     "address": "Hauptstraße"
   },
   {
@@ -12355,8 +12307,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.hoamatkastl.at",
-    "lat": 47.5350196,
-    "lon": 12.0929135,
+    "lat": 47.5354945,
+    "lon": 12.0937906,
     "address": null
   },
   {
@@ -12741,30 +12693,6 @@
     "website": null,
     "lat": 47.5118998,
     "lon": 9.7830147,
-    "address": null
-  },
-  {
-    "id": 1499287630,
-    "name": "Eisl Ei & Allerlei",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8652051,
-    "lon": 13.0329918,
-    "address": null
-  },
-  {
-    "id": 1499588960,
-    "name": "Obstpark Laaerberg",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://wien.obststadt.at/laaerberg.html",
-    "lat": 48.1632549,
-    "lon": 16.4015542,
     "address": null
   },
   {
@@ -13884,18 +13812,6 @@
     "address": null
   },
   {
-    "id": 7273106505,
-    "name": "Lacknerhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lacknerhof.tirol/",
-    "lat": 47.5260762,
-    "lon": 12.0781897,
-    "address": null
-  },
-  {
     "id": 12294534720,
     "name": "Bsundrigs Guat - Hof Oberhauser",
     "country": "Austria",
@@ -13903,9 +13819,57 @@
     "municipality": "Mäder",
     "products": [],
     "website": "https://www.bsundrigsguat.at/",
-    "lat": 47.3482028,
-    "lon": 9.6148441,
+    "lat": 47.3481006,
+    "lon": 9.6148273,
     "address": "Reichshofstraße"
+  },
+  {
+    "id": 13717889584,
+    "name": "Stockwerk Bioimkerei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stockwerkhonig.at/",
+    "lat": 47.9811689,
+    "lon": 13.7136438,
+    "address": null
+  },
+  {
+    "id": 13728190771,
+    "name": "Biogemüse Gruber",
+    "country": "Austria",
+    "region": null,
+    "municipality": "St. Florian",
+    "products": [],
+    "website": null,
+    "lat": 48.1747491,
+    "lon": 14.4027904,
+    "address": "Oberweidlham"
+  },
+  {
+    "id": 13731641804,
+    "name": "Bauernladen - Bauernhof Jäger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
+    "address": null
+  },
+  {
+    "id": 13750149702,
+    "name": "Bauernladen Schalhas",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koglmuehle-schalhas.at/",
+    "lat": 48.2956062,
+    "lon": 15.5894324,
+    "address": "Nibelungenstraße"
   },
   {
     "id": 48173327,
@@ -13915,8 +13879,8 @@
     "municipality": "Ollern",
     "products": [],
     "website": "https://abhof-hoefinger.at/wp/",
-    "lat": 48.267763,
-    "lon": 16.0849996,
+    "lat": 48.2677666,
+    "lon": 16.0850036,
     "address": "Hauptstraße"
   },
   {
@@ -13927,8 +13891,44 @@
     "municipality": null,
     "products": [],
     "website": "https://www.hoamatkastl.at",
-    "lat": 47.5354945,
-    "lon": 12.0937906,
+    "lat": 47.5350196,
+    "lon": 12.0929135,
+    "address": null
+  },
+  {
+    "id": 1499287630,
+    "name": "Eisl Ei & Allerlei",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8652051,
+    "lon": 13.0329918,
+    "address": null
+  },
+  {
+    "id": 1499588960,
+    "name": "Obstpark Laaerberg",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://wien.obststadt.at/laaerberg.html",
+    "lat": 48.1632549,
+    "lon": 16.4015542,
+    "address": null
+  },
+  {
+    "id": 7273106505,
+    "name": "Lacknerhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lacknerhof.tirol/",
+    "lat": 47.5260762,
+    "lon": 12.0781897,
     "address": null
   },
   {
