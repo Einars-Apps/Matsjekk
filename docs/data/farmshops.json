@@ -996,6 +996,18 @@
     "address": null
   },
   {
+    "id": 13742007783,
+    "name": "Røds Frukt",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.rodsfrukt.no",
+    "lat": 59.070377,
+    "lon": 10.2653986,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -15843,18 +15855,6 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
-  },
-  {
-    "id": 13742007783,
-    "name": "Røds Frukt",
-    "country": "Norway",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.rodsfrukt.no",
-    "lat": 59.070377,
-    "lon": 10.2653986,
-    "address": null
   },
   {
     "id": "hanen_971",
@@ -34871,18 +34871,6 @@
     "address": null
   },
   {
-    "id": 7198238002,
-    "name": "Grennessminde",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
-    "lat": 55.6417069,
-    "lon": 12.2945648,
-    "address": null
-  },
-  {
     "id": 7311230550,
     "name": "Aromagaarden",
     "country": "Denmark",
@@ -43844,6 +43832,18 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 7198238002,
+    "name": "Grennessminde",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
+    "lat": 55.6417069,
+    "lon": 12.2945648,
     "address": null
   },
   {
@@ -314920,6 +314920,18 @@
     "address": null
   },
   {
+    "id": 7405129104,
+    "name": "Les Nouvelles Halles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.506671,
+    "lon": 6.998132,
+    "address": null
+  },
+  {
     "id": 7405466953,
     "name": "La Cueillette de la Pompelle",
     "country": "France",
@@ -334409,15 +334421,15 @@
   },
   {
     "id": 12755180439,
-    "name": "Les Escargots du Danjon",
+    "name": "vendeur d'escargot",
     "country": "France",
     "region": null,
     "municipality": "Crevant",
     "products": [],
-    "website": "https://les-escargots-du-danjon.webnode.fr/",
-    "lat": 46.4906131,
-    "lon": 1.9442378,
-    "address": "Z.A. des Ébaudons"
+    "website": null,
+    "lat": 46.490586,
+    "lon": 1.9442172,
+    "address": "Route de La Châtre"
   },
   {
     "id": 12756996566,
@@ -338542,7 +338554,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://aupotagermignon.bio/",
+    "website": "http://aupotagermignon.bio",
     "lat": 46.2147606,
     "lon": -0.65619,
     "address": "Le champ gâté Prin-Deyrançon"
@@ -338797,78 +338809,6 @@
     "website": null,
     "lat": 48.3487796,
     "lon": 7.1212896,
-    "address": null
-  },
-  {
-    "id": 13750038322,
-    "name": "Ferme de Sçay",
-    "country": "France",
-    "region": null,
-    "municipality": "Venesme",
-    "products": [],
-    "website": null,
-    "lat": 49.3196196,
-    "lon": 4.5506794,
-    "address": null
-  },
-  {
-    "id": 13752182325,
-    "name": "Les Jardins du Riau",
-    "country": "France",
-    "region": null,
-    "municipality": "Saint-Hilaire-en-Lignières",
-    "products": [],
-    "website": "https://www.facebook.com/61550722709965/",
-    "lat": 46.7368764,
-    "lon": 2.1661955,
-    "address": null
-  },
-  {
-    "id": 13754465432,
-    "name": "Magasin de Producteurs du Pays Midi-Quercy",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.0507979,
-    "lon": 1.4597212,
-    "address": null
-  },
-  {
-    "id": 13755697474,
-    "name": "Le Maraîcher de Bourcia",
-    "country": "France",
-    "region": null,
-    "municipality": "Bourcia",
-    "products": [],
-    "website": null,
-    "lat": 46.3563044,
-    "lon": 5.4075991,
-    "address": "Rue des Moulins"
-  },
-  {
-    "id": 13756250633,
-    "name": "La Ferme du Bas-Berry",
-    "country": "France",
-    "region": null,
-    "municipality": "Crevant",
-    "products": [],
-    "website": null,
-    "lat": 46.5012427,
-    "lon": 1.93408,
-    "address": null
-  },
-  {
-    "id": 13759405522,
-    "name": "La Fraiseraie du Plessis",
-    "country": "France",
-    "region": null,
-    "municipality": "Le Plessis-Gassot",
-    "products": [],
-    "website": null,
-    "lat": 49.03347,
-    "lon": 2.4152037,
     "address": null
   },
   {
@@ -348081,28 +348021,88 @@
     "address": null
   },
   {
-    "id": 7405129104,
-    "name": "Les Nouvelles Halles",
+    "id": 12755180439,
+    "name": "Les Escargots du Danjon",
+    "country": "France",
+    "region": null,
+    "municipality": "Crevant",
+    "products": [],
+    "website": "https://les-escargots-du-danjon.webnode.fr/",
+    "lat": 46.4906131,
+    "lon": 1.9442378,
+    "address": "Z.A. des Ébaudons"
+  },
+  {
+    "id": 13750038322,
+    "name": "Ferme de Sçay",
+    "country": "France",
+    "region": null,
+    "municipality": "Venesme",
+    "products": [],
+    "website": null,
+    "lat": 49.3196196,
+    "lon": 4.5506794,
+    "address": null
+  },
+  {
+    "id": 13752182325,
+    "name": "Les Jardins du Riau",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Hilaire-en-Lignières",
+    "products": [],
+    "website": "https://www.facebook.com/61550722709965/",
+    "lat": 46.7368764,
+    "lon": 2.1661955,
+    "address": null
+  },
+  {
+    "id": 13754465432,
+    "name": "Magasin de Producteurs du Pays Midi-Quercy",
     "country": "France",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.506671,
-    "lon": 6.998132,
+    "lat": 44.0507979,
+    "lon": 1.4597212,
     "address": null
   },
   {
-    "id": 12755180439,
-    "name": "vendeur d'escargot",
+    "id": 13755697474,
+    "name": "Le Maraîcher de Bourcia",
+    "country": "France",
+    "region": null,
+    "municipality": "Bourcia",
+    "products": [],
+    "website": null,
+    "lat": 46.3563044,
+    "lon": 5.4075991,
+    "address": "Rue des Moulins"
+  },
+  {
+    "id": 13756250633,
+    "name": "La Ferme du Bas-Berry",
     "country": "France",
     "region": null,
     "municipality": "Crevant",
     "products": [],
     "website": null,
-    "lat": 46.490586,
-    "lon": 1.9442172,
-    "address": "Route de La Châtre"
+    "lat": 46.5012427,
+    "lon": 1.93408,
+    "address": null
+  },
+  {
+    "id": 13759405522,
+    "name": "La Fraiseraie du Plessis",
+    "country": "France",
+    "region": null,
+    "municipality": "Le Plessis-Gassot",
+    "products": [],
+    "website": null,
+    "lat": 49.03347,
+    "lon": 2.4152037,
+    "address": null
   },
   {
     "id": 723133463,
@@ -606551,7 +606551,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268414,
+    "lat": 40.0274178,
     "lon": -8.6224196,
     "address": null
   },
@@ -606868,6 +606868,18 @@
     "address": null
   },
   {
+    "id": 666647099,
+    "name": "Lusiaves - Quinta da Cruz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lusiaves.pt/",
+    "lat": 40.0268414,
+    "lon": -8.6224196,
+    "address": null
+  },
+  {
     "id": 9556010424,
     "name": "Covello - Aromas e Sabores",
     "country": "Portugal",
@@ -606877,18 +606889,6 @@
     "website": "http://www.covello.pt/index.php",
     "lat": 41.4118471,
     "lon": -7.6880294,
-    "address": null
-  },
-  {
-    "id": 666647099,
-    "name": "Lusiaves - Quinta da Cruz",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lusiaves.pt/",
-    "lat": 40.0274178,
-    "lon": -8.6224196,
     "address": null
   },
   {
@@ -711520,8 +711520,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
@@ -714297,18 +714297,6 @@
     "address": null
   },
   {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tonbridge",
-    "products": [],
-    "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
-  },
-  {
     "id": 839396756,
     "name": "Bailey's Country Store",
     "country": "United Kingdom",
@@ -716106,6 +716094,18 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
+    "address": null
+  },
+  {
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
     "address": null
   },
   {
@@ -718845,6 +718845,18 @@
     "address": null
   },
   {
+    "id": 1502915597,
+    "name": "Bee Hives",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.9933997,
+    "lon": -1.0806409,
+    "address": null
+  },
+  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -721413,6 +721425,30 @@
     "address": null
   },
   {
+    "id": 318387860,
+    "name": "Archers Cafe",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Carnforth",
+    "products": [],
+    "website": "http://www.redbankfarm.co.uk/",
+    "lat": 54.106181,
+    "lon": -2.8090358,
+    "address": "The Shore"
+  },
+  {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
+  },
+  {
     "id": 6085559800,
     "name": "Attfields Farm Shop",
     "country": "United Kingdom",
@@ -721423,30 +721459,6 @@
     "lat": 52.5501307,
     "lon": -1.1787661,
     "address": "Countesthorpe Road"
-  },
-  {
-    "id": 318387860,
-    "name": "Archers Cafe",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Carnforth",
-    "products": [],
-    "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
-    "address": "The Shore"
-  },
-  {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
   },
   {
     "id": 7878145372,
@@ -806052,8 +806064,8 @@
     "municipality": "Bözberg",
     "products": [],
     "website": "https://www.landlaebe.ch/",
-    "lat": 47.4856142,
-    "lon": 8.1632387,
+    "lat": 47.4855323,
+    "lon": 8.1631313,
     "address": null
   },
   {
@@ -815021,6 +815033,18 @@
     "address": null
   },
   {
+    "id": 12063563655,
+    "name": "Alpkäserei Bissig",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9342438,
+    "lon": 8.6916899,
+    "address": "Liedernen"
+  },
+  {
     "id": 12065005875,
     "name": "La Ferme de Frience",
     "country": "Switzerland",
@@ -817385,6 +817409,42 @@
     "address": "I Casasc"
   },
   {
+    "id": 13738234001,
+    "name": "Glace Artisanales, Bio Fleisch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3114057,
+    "lon": 7.0660992,
+    "address": null
+  },
+  {
+    "id": 13742616467,
+    "name": "Honig vom Siegelimker",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8293415,
+    "lon": 7.7046042,
+    "address": null
+  },
+  {
+    "id": 13752150919,
+    "name": "La Ferme Du Sonneur",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.1720447,
+    "lon": 5.9928215,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -819060,56 +819120,8 @@
     "municipality": "Bözberg",
     "products": [],
     "website": "https://www.landlaebe.ch/",
-    "lat": 47.4855323,
-    "lon": 8.1631313,
-    "address": null
-  },
-  {
-    "id": 12063563655,
-    "name": "Alpkäserei Bissig",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9342438,
-    "lon": 8.6916899,
-    "address": "Liedernen"
-  },
-  {
-    "id": 13738234001,
-    "name": "Glace Artisanales, Bio Fleisch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3114057,
-    "lon": 7.0660992,
-    "address": null
-  },
-  {
-    "id": 13742616467,
-    "name": "Honig vom Siegelimker",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8293415,
-    "lon": 7.7046042,
-    "address": null
-  },
-  {
-    "id": 13752150919,
-    "name": "La Ferme Du Sonneur",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.1720447,
-    "lon": 5.9928215,
+    "lat": 47.4856142,
+    "lon": 8.1632387,
     "address": null
   },
   {
