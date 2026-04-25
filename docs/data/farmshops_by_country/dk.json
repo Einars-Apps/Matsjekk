@@ -1248,6 +1248,18 @@
     "address": null
   },
   {
+    "id": 7198238002,
+    "name": "Grennessminde",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
+    "lat": 55.6417069,
+    "lon": 12.2945648,
+    "address": null
+  },
+  {
     "id": 7311230550,
     "name": "Aromagaarden",
     "country": "Denmark",
@@ -10209,18 +10221,6 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
-    "address": null
-  },
-  {
-    "id": 7198238002,
-    "name": "Grennessminde",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://gminde.dk/det-goer-vi/gaa-paa-pluk-selv-eventyr/",
-    "lat": 55.6417069,
-    "lon": 12.2945648,
     "address": null
   },
   {

@@ -49453,7 +49453,7 @@
   },
   {
     "id": 11459382360,
-    "name": "Obsthof Kießling",
+    "name": "Kießling",
     "country": "Germany",
     "region": null,
     "municipality": "Grafschaft",
@@ -69844,6 +69844,18 @@
     "address": "Am Holzweg"
   },
   {
+    "id": 11459382360,
+    "name": "Obsthof Kießling",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Grafschaft",
+    "products": [],
+    "website": null,
+    "lat": 50.5567927,
+    "lon": 7.0192207,
+    "address": "Schönbergstraße"
+  },
+  {
     "id": 1523838373,
     "name": "Bauer Sippel",
     "country": "Germany",
@@ -69902,18 +69914,6 @@
     "lat": 51.6118524,
     "lon": 6.5110793,
     "address": "Xantener Straße"
-  },
-  {
-    "id": 11459382360,
-    "name": "Kießling",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Grafschaft",
-    "products": [],
-    "website": null,
-    "lat": 50.5567927,
-    "lon": 7.0192207,
-    "address": "Schönbergstraße"
   },
   {
     "id": 3953045355,

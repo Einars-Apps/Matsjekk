@@ -4411,8 +4411,8 @@
     "municipality": "Bözberg",
     "products": [],
     "website": "https://www.landlaebe.ch/",
-    "lat": 47.4855323,
-    "lon": 8.1631313,
+    "lat": 47.4856142,
+    "lon": 8.1632387,
     "address": null
   },
   {
@@ -13380,18 +13380,6 @@
     "address": null
   },
   {
-    "id": 12063563655,
-    "name": "Alpkäserei Bissig",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9342438,
-    "lon": 8.6916899,
-    "address": "Liedernen"
-  },
-  {
     "id": 12065005875,
     "name": "La Ferme de Frience",
     "country": "Switzerland",
@@ -15756,42 +15744,6 @@
     "address": "I Casasc"
   },
   {
-    "id": 13738234001,
-    "name": "Glace Artisanales, Bio Fleisch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3114057,
-    "lon": 7.0660992,
-    "address": null
-  },
-  {
-    "id": 13742616467,
-    "name": "Honig vom Siegelimker",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8293415,
-    "lon": 7.7046042,
-    "address": null
-  },
-  {
-    "id": 13752150919,
-    "name": "La Ferme Du Sonneur",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.1720447,
-    "lon": 5.9928215,
-    "address": null
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -17467,8 +17419,56 @@
     "municipality": "Bözberg",
     "products": [],
     "website": "https://www.landlaebe.ch/",
-    "lat": 47.4856142,
-    "lon": 8.1632387,
+    "lat": 47.4855323,
+    "lon": 8.1631313,
+    "address": null
+  },
+  {
+    "id": 12063563655,
+    "name": "Alpkäserei Bissig",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9342438,
+    "lon": 8.6916899,
+    "address": "Liedernen"
+  },
+  {
+    "id": 13738234001,
+    "name": "Glace Artisanales, Bio Fleisch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3114057,
+    "lon": 7.0660992,
+    "address": null
+  },
+  {
+    "id": 13742616467,
+    "name": "Honig vom Siegelimker",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8293415,
+    "lon": 7.7046042,
+    "address": null
+  },
+  {
+    "id": 13752150919,
+    "name": "La Ferme Du Sonneur",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.1720447,
+    "lon": 5.9928215,
     "address": null
   },
   {

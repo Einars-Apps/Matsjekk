@@ -24860,6 +24860,45 @@
       "lon": 10.7149058,
       "address": "Vauerveien 197",
       "source": "https://www.lokalmat.no/produsenter/lokken-gard-hvaler/"
+    },
+    {
+      "id": "hanen_3051",
+      "name": "Bråstein gård",
+      "country": "Norway",
+      "region": "Rogaland",
+      "municipality": "Sandnes",
+      "products": [],
+      "website": "https://harikkeennå.no",
+      "lat": 58.803041,
+      "lon": 5.77983,
+      "address": "Ålgårdsveien 171",
+      "source": "https://www.hanen.no/bedrift/braastein-gaard/"
+    },
+    {
+      "id": "hanen_970",
+      "name": "Potetrampa",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Stjørdal",
+      "products": [],
+      "website": "https://Potetrampa.no",
+      "lat": 63.46317,
+      "lon": 11.02207,
+      "address": "Mellomriksvegen 581",
+      "source": "https://www.hanen.no/bedrift/potetrampa/"
+    },
+    {
+      "id": "hanen_2896",
+      "name": "Tveita Gardsmat",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Eivindvik",
+      "products": [],
+      "website": "https://Tveitagardsmat.no",
+      "lat": 61.00973,
+      "lon": 5.20064,
+      "address": "Tveitevegen30",
+      "source": "https://www.hanen.no/bedrift/tveita-gardsmat/"
     }
   ],
   "SE": [
@@ -209433,6 +209472,18 @@
       "lat": 51.3438037,
       "lon": 4.4027462,
       "address": "Ertbrandstraat"
+    },
+    {
+      "id": 176724751,
+      "name": "Boer Maarten",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Attenrode",
+      "products": [],
+      "website": null,
+      "lat": 50.8707873,
+      "lon": 4.9157722,
+      "address": "Langstraat"
     }
   ],
   "FR": [
@@ -575672,6 +575723,42 @@
       "lat": 48.2956062,
       "lon": 15.5894324,
       "address": "Nibelungenstraße"
+    },
+    {
+      "id": 13758006809,
+      "name": "Steinerwirt",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.7394027,
+      "lon": 12.9261127,
+      "address": null
+    },
+    {
+      "id": 13758655092,
+      "name": "Bauernladen Edhof",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.1051808,
+      "lon": 14.550437,
+      "address": null
+    },
+    {
+      "id": 1503481253,
+      "name": "Eisnerforst",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.0300323,
+      "lon": 14.2190271,
+      "address": null
     }
   ],
   "CH": [

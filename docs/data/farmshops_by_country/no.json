@@ -13687,6 +13687,19 @@
     "source": "https://www.hanen.no/bedrift/botun-gard-okologisk-smaabruk/"
   },
   {
+    "id": "hanen_3051",
+    "name": "Bråstein gård",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Sandnes",
+    "products": [],
+    "website": "https://harikkeennå.no",
+    "lat": 58.803041,
+    "lon": 5.77983,
+    "address": "Ålgårdsveien 171",
+    "source": "https://www.hanen.no/bedrift/braastein-gaard/"
+  },
+  {
     "id": "hanen_2855",
     "name": "Breievne gard",
     "country": "Norway",
@@ -15091,6 +15104,19 @@
     "source": "https://www.hanen.no/bedrift/piltingsrud-gard-as/"
   },
   {
+    "id": "hanen_970",
+    "name": "Potetrampa",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Stjørdal",
+    "products": [],
+    "website": "https://Potetrampa.no",
+    "lat": 63.46317,
+    "lon": 11.02207,
+    "address": "Mellomriksvegen 581",
+    "source": "https://www.hanen.no/bedrift/potetrampa/"
+  },
+  {
     "id": "hanen_3050",
     "name": "Rabben Gård",
     "country": "Norway",
@@ -15713,6 +15739,19 @@
     "lon": 18.863334,
     "address": "Kobbevågvegen 562",
     "source": "https://www.hanen.no/bedrift/toves-tradisjonsmat-as/"
+  },
+  {
+    "id": "hanen_2896",
+    "name": "Tveita Gardsmat",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Eivindvik",
+    "products": [],
+    "website": "https://Tveitagardsmat.no",
+    "lat": 61.00973,
+    "lon": 5.20064,
+    "address": "Tveitevegen30",
+    "source": "https://www.hanen.no/bedrift/tveita-gardsmat/"
   },
   {
     "id": "hanen_482",
