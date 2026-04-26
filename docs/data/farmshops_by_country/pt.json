@@ -727,7 +727,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268414,
+    "lat": 40.0274178,
     "lon": -8.6224196,
     "address": null
   },
@@ -1044,6 +1044,18 @@
     "address": null
   },
   {
+    "id": 666647099,
+    "name": "Lusiaves - Quinta da Cruz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lusiaves.pt/",
+    "lat": 40.0268414,
+    "lon": -8.6224196,
+    "address": null
+  },
+  {
     "id": 9556010424,
     "name": "Covello - Aromas e Sabores",
     "country": "Portugal",
@@ -1053,18 +1065,6 @@
     "website": "http://www.covello.pt/index.php",
     "lat": 41.4118471,
     "lon": -7.6880294,
-    "address": null
-  },
-  {
-    "id": 666647099,
-    "name": "Lusiaves - Quinta da Cruz",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lusiaves.pt/",
-    "lat": 40.0274178,
-    "lon": -8.6224196,
     "address": null
   },
   {

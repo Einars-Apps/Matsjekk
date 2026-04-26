@@ -996,6 +996,18 @@
     "address": null
   },
   {
+    "id": 13742007783,
+    "name": "Røds Frukt",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.rodsfrukt.no",
+    "lat": 59.070377,
+    "lon": 10.2653986,
+    "address": null
+  },
+  {
     "id": 254198418,
     "name": "Frukthagen",
     "country": "Norway",
@@ -15843,18 +15855,6 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
-  },
-  {
-    "id": 13742007783,
-    "name": "Røds Frukt",
-    "country": "Norway",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.rodsfrukt.no",
-    "lat": 59.070377,
-    "lon": 10.2653986,
-    "address": null
   },
   {
     "id": "hanen_971",
