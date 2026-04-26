@@ -60354,6 +60354,18 @@
       "lat": 55.104053,
       "lon": 11.9407303,
       "address": null
+    },
+    {
+      "id": 4641259198,
+      "name": "Nygaards Gårdbutik",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
+      "lat": 55.8052348,
+      "lon": 8.3446875,
+      "address": null
     }
   ],
   "FI": [
@@ -476952,6 +476964,18 @@
       "lat": 28.6627059,
       "lon": -17.7650567,
       "address": null
+    },
+    {
+      "id": 1503582924,
+      "name": "Agro Vilanoviña",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.agrovilanoviña.es",
+      "lat": 42.5508147,
+      "lon": -8.7036466,
+      "address": null
     }
   ],
   "GB": [
@@ -575770,6 +575794,18 @@
       "website": null,
       "lat": 47.0300323,
       "lon": 14.2190271,
+      "address": null
+    },
+    {
+      "id": 13534806501,
+      "name": "S' Hofladl",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.1821922,
+      "lon": 15.9780387,
       "address": null
     }
   ],
