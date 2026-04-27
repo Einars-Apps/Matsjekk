@@ -209496,6 +209496,18 @@
       "lat": 50.8707873,
       "lon": 4.9157722,
       "address": "Langstraat"
+    },
+    {
+      "id": 13764337580,
+      "name": "Cocottes en Ribotte",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.614868,
+      "lon": 4.4976924,
+      "address": null
     }
   ],
   "FR": [
@@ -575806,6 +575818,18 @@
       "website": null,
       "lat": 48.1821922,
       "lon": 15.9780387,
+      "address": null
+    },
+    {
+      "id": 13764352066,
+      "name": "s'Ronklädele",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Bezau",
+      "products": [],
+      "website": null,
+      "lat": 47.3766881,
+      "lon": 9.8955162,
       "address": null
     }
   ],

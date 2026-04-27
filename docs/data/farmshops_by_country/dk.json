@@ -804,6 +804,18 @@
     "address": null
   },
   {
+    "id": 4641259198,
+    "name": "Nygaards Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
+    "lat": 55.8052348,
+    "lon": 8.3446875,
+    "address": null
+  },
+  {
     "id": 4660305748,
     "name": "Maileg",
     "country": "Denmark",

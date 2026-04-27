@@ -5916,18 +5916,6 @@
     "address": "Calle Tufas"
   },
   {
-    "id": 1360416986,
-    "name": "Agro Vilanoviña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5499914,
-    "lon": -8.7046065,
-    "address": null
-  },
-  {
     "id": 1364891653,
     "name": "Piensos Muga",
     "country": "Spain",
@@ -6045,6 +6033,18 @@
     "website": null,
     "lat": 37.6951045,
     "lon": -5.3230982,
+    "address": null
+  },
+  {
+    "id": 1503582924,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5508147,
+    "lon": -8.7036466,
     "address": null
   },
   {
@@ -6297,6 +6297,18 @@
     "website": "https://www.verescenceinsulators.com/",
     "lat": 40.9040229,
     "lon": -4.0034578,
+    "address": null
+  },
+  {
+    "id": 1360416986,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5499914,
+    "lon": -8.7046065,
     "address": null
   },
   {
