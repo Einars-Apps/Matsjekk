@@ -1812,18 +1812,6 @@
     "address": null
   },
   {
-    "id": 98286911,
-    "name": "Hühnerfarm",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.7472712,
-    "lon": 8.6375106,
-    "address": null
-  },
-  {
     "id": 98341443,
     "name": "Rellinger Hofladen",
     "country": "Germany",
@@ -2857,7 +2845,7 @@
   },
   {
     "id": 123463531,
-    "name": "Kaiser's Hofcafé",
+    "name": "Kaiser's Hofladen",
     "country": "Germany",
     "region": null,
     "municipality": "Salem",
@@ -6892,7 +6880,7 @@
     "name": "Bauernhof-Eis Stangl",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Wörth",
     "products": [],
     "website": "https://bauernhofeis-stangl.de/",
     "lat": 48.2403716,
@@ -8196,18 +8184,6 @@
     "address": null
   },
   {
-    "id": 321016732,
-    "name": "Heinz Lehneis Gmiäs- & Blumalodn",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Nürnberg",
-    "products": [],
-    "website": null,
-    "lat": 49.4776062,
-    "lon": 11.0356172,
-    "address": "Raiffeisenstraße"
-  },
-  {
     "id": 321151358,
     "name": "Großhans Hockenheim",
     "country": "Germany",
@@ -9318,10 +9294,10 @@
     "region": null,
     "municipality": "Bad Endorf",
     "products": [],
-    "website": null,
+    "website": "https://www.gmiasvomhans.com",
     "lat": 47.8707456,
     "lon": 12.2842511,
-    "address": null
+    "address": "Ulperting"
   },
   {
     "id": 396047342,
@@ -16622,6 +16598,42 @@
     "lat": 49.737069,
     "lon": 8.742888,
     "address": "Odenwaldstraße"
+  },
+  {
+    "id": 98286911,
+    "name": "Hühnerfarm",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.7472712,
+    "lon": 8.6375106,
+    "address": null
+  },
+  {
+    "id": 123463531,
+    "name": "Kaiser's Hofcafé",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Salem",
+    "products": [],
+    "website": "http://www.hofladen-kaiserhof.de",
+    "lat": 53.6533267,
+    "lon": 10.8333867,
+    "address": "Seestraße"
+  },
+  {
+    "id": 321016732,
+    "name": "Heinz Lehneis Gmiäs- & Blumalodn",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Nürnberg",
+    "products": [],
+    "website": null,
+    "lat": 49.4776062,
+    "lon": 11.0356172,
+    "address": "Raiffeisenstraße"
   },
   {
     "id": 1346235035,

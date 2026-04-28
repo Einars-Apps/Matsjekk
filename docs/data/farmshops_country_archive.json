@@ -24899,6 +24899,45 @@
       "lon": 5.20064,
       "address": "Tveitevegen30",
       "source": "https://www.hanen.no/bedrift/tveita-gardsmat/"
+    },
+    {
+      "id": "hanen_3053",
+      "name": "Frøya Markedshage AS",
+      "country": "Norway",
+      "region": null,
+      "municipality": "Dyrvik",
+      "products": [],
+      "website": "https://www.facebook.com/froyamarkedshage",
+      "lat": 63.732958,
+      "lon": 8.830909,
+      "address": "Stølan 9",
+      "source": "https://www.hanen.no/bedrift/froya-markedshage-as/"
+    },
+    {
+      "id": "hanen_3031",
+      "name": "Kronen Landhandleri",
+      "country": "Norway",
+      "region": "Buskerud",
+      "municipality": "Vikersund",
+      "products": [],
+      "website": "https://www.kronens.no",
+      "lat": 59.985857,
+      "lon": 9.978937,
+      "address": "Jonsrudveien 17",
+      "source": "https://www.hanen.no/bedrift/kronen-landhandleri/"
+    },
+    {
+      "id": "hanen_2503",
+      "name": "Per-Hansagarden Gardsysteri",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Tydal",
+      "products": [],
+      "website": "https://www.facebook.com/profile.php?id=100067066127209",
+      "lat": 63.059942,
+      "lon": 11.454622,
+      "address": "Tydalsvegen 1211",
+      "source": "https://www.hanen.no/bedrift/per-hansagarden-gardsysteri/"
     }
   ],
   "SE": [
@@ -209568,6 +209607,18 @@
       "lat": 50.614868,
       "lon": 4.4976924,
       "address": null
+    },
+    {
+      "id": 233873758,
+      "name": "Viskwekerij Vandeput",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Zonhoven",
+      "products": [],
+      "website": "https://sites.google.com/site/viskwekerijvandeput/",
+      "lat": 50.9877343,
+      "lon": 5.3412821,
+      "address": "Boomsteeg"
     }
   ],
   "FR": [
@@ -626204,6 +626255,18 @@
       "lat": 46.1720447,
       "lon": 5.9928215,
       "address": null
+    },
+    {
+      "id": 13768252001,
+      "name": "Ferme de Bassenges",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://fermedebassenges.ch/",
+      "lat": 46.5239763,
+      "lon": 6.5629105,
+      "address": "Chemin de la Raye"
     }
   ],
   "LI": [

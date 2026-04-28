@@ -15792,6 +15792,18 @@
     "address": null
   },
   {
+    "id": 13768252001,
+    "name": "Ferme de Bassenges",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://fermedebassenges.ch/",
+    "lat": 46.5239763,
+    "lon": 6.5629105,
+    "address": "Chemin de la Raye"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",

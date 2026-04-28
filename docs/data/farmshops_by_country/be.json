@@ -4080,6 +4080,18 @@
     "address": null
   },
   {
+    "id": 233873758,
+    "name": "Viskwekerij Vandeput",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Zonhoven",
+    "products": [],
+    "website": "https://sites.google.com/site/viskwekerijvandeput/",
+    "lat": 50.9877343,
+    "lon": 5.3412821,
+    "address": "Boomsteeg"
+  },
+  {
     "id": 250412766,
     "name": "Au fil des saisons",
     "country": "Belgium",
