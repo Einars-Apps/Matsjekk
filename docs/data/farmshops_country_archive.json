@@ -24938,6 +24938,19 @@
       "lon": 11.454622,
       "address": "Tydalsvegen 1211",
       "source": "https://www.hanen.no/bedrift/per-hansagarden-gardsysteri/"
+    },
+    {
+      "id": "lokalmat_12371",
+      "name": "De Maiz",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Fyllingsdalen",
+      "products": [],
+      "website": null,
+      "lat": 60.35408899999999,
+      "lon": 5.2721525,
+      "address": "Spelhaugen 22",
+      "source": "https://www.lokalmat.no/produsenter/de-maiz/"
     }
   ],
   "SE": [

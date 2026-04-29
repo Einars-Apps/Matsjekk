@@ -10579,7 +10579,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.ggp-gruppe.de/teilhabeleistungen-erwachsene/tagesstrukturierende-angebote/arbeitstagesstaette-in-der-lehmkuhl/",
-    "lat": 54.1960898,
+    "lat": 54.1960875,
     "lon": 12.1645012,
     "address": null
   },
@@ -15607,8 +15607,8 @@
     "municipality": "Bockenem",
     "products": [],
     "website": "https://www.niehoffs-hofmolkerei.de/",
-    "lat": 52.024925,
-    "lon": 10.0632584,
+    "lat": 52.0249287,
+    "lon": 10.0632373,
     "address": "Nordholz"
   },
   {
@@ -16598,6 +16598,30 @@
     "lat": 49.737069,
     "lon": 8.742888,
     "address": "Odenwaldstraße"
+  },
+  {
+    "id": 479010033,
+    "name": "Arbeitsstätte \"In der Lehmkuhl\"",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ggp-gruppe.de/teilhabeleistungen-erwachsene/tagesstrukturierende-angebote/arbeitstagesstaette-in-der-lehmkuhl/",
+    "lat": 54.1960898,
+    "lon": 12.1645012,
+    "address": null
+  },
+  {
+    "id": 1160168686,
+    "name": "Niehoffs Hofmolkerei",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Bockenem",
+    "products": [],
+    "website": "https://www.niehoffs-hofmolkerei.de/",
+    "lat": 52.024925,
+    "lon": 10.0632584,
+    "address": "Nordholz"
   },
   {
     "id": 98286911,
