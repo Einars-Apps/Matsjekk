@@ -209632,6 +209632,42 @@
       "lat": 50.9877343,
       "lon": 5.3412821,
       "address": "Boomsteeg"
+    },
+    {
+      "id": 13776306636,
+      "name": "Jerseyhoeve De Haan automatenshop",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Klemskerke",
+      "products": [],
+      "website": null,
+      "lat": 51.2556942,
+      "lon": 3.0442422,
+      "address": "Bredeweg"
+    },
+    {
+      "id": 294169618,
+      "name": "Jerseyhoeve De Haan automatenshop",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Klemskerke",
+      "products": [],
+      "website": null,
+      "lat": 51.2556962,
+      "lon": 3.0441037,
+      "address": "Bredeweg"
+    },
+    {
+      "id": 1092175388,
+      "name": "Jerseyhoeve De Haan automatenshop",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.2557506,
+      "lon": 3.0442608,
+      "address": null
     }
   ],
   "FR": [
