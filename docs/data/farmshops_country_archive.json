@@ -576003,6 +576003,18 @@
       "lat": 47.3766881,
       "lon": 9.8955162,
       "address": null
+    },
+    {
+      "id": 13699216753,
+      "name": "Freche Biene",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Langenlois",
+      "products": [],
+      "website": null,
+      "lat": 48.4728423,
+      "lon": 15.6855213,
+      "address": "Fliederweg"
     }
   ],
   "CH": [
