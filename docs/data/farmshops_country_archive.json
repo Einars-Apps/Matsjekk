@@ -524691,6 +524691,18 @@
       "lat": 51.1871543,
       "lon": -2.1909185,
       "address": null
+    },
+    {
+      "id": 88519248,
+      "name": "Myatts of Mockbeggar Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Rochester",
+      "products": [],
+      "website": null,
+      "lat": 51.4214311,
+      "lon": 0.4903169,
+      "address": null
     }
   ],
   "IE": [
@@ -626316,6 +626328,18 @@
       "lat": 46.5239763,
       "lon": 6.5629105,
       "address": "Chemin de la Raye"
+    },
+    {
+      "id": 961780288,
+      "name": "Hofladen Chilchbüelhof",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.1242808,
+      "lon": 8.5910707,
+      "address": null
     }
   ],
   "LI": [

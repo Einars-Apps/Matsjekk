@@ -181,14 +181,14 @@
   },
   {
     "id": 961780288,
-    "name": "24h Milch-Automat",
+    "name": "Hofladen Chilchbüelhof",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.1238669,
-    "lon": 8.5907485,
+    "lat": 47.1242808,
+    "lon": 8.5910707,
     "address": null
   },
   {
@@ -17469,6 +17469,18 @@
     "website": null,
     "lat": 47.3109306,
     "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 961780288,
+    "name": "24h Milch-Automat",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.1238669,
+    "lon": 8.5907485,
     "address": null
   },
   {

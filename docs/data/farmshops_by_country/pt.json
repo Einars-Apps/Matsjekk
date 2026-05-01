@@ -460,12 +460,12 @@
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": null,
+    "municipality": "Bom Vento",
     "products": [],
-    "website": null,
+    "website": "https://bio-rui-e-ines.webnode.pt/",
     "lat": 39.3193307,
     "lon": -9.1354776,
-    "address": "R. Nossa Sra. do Socorro"
+    "address": "Rua Nossa Senhora do Socorro"
   },
   {
     "id": 13434502610,
@@ -984,18 +984,6 @@
     "address": null
   },
   {
-    "id": 1243166539,
-    "name": "Amendoal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1777387,
-    "lon": -8.1841701,
-    "address": null
-  },
-  {
     "id": 1247100935,
     "name": "Mandelfruit",
     "country": "Portugal",
@@ -1041,6 +1029,18 @@
     "website": null,
     "lat": 41.077111,
     "lon": -8.5909307,
+    "address": null
+  },
+  {
+    "id": 1243166539,
+    "name": "Amendoal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1777387,
+    "lon": -8.1841701,
     "address": null
   },
   {
