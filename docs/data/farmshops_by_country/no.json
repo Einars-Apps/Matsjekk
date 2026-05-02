@@ -10034,7 +10034,7 @@
   },
   {
     "id": "lokalmat_11578",
-    "name": "Roma | Den lille brusfabrikken",
+    "name": "Roma",
     "country": "Norway",
     "region": "Akershus",
     "municipality": "Lillestrøm",
@@ -10043,10 +10043,10 @@
       "Drikkevarer"
     ],
     "website": null,
-    "lat": 59.947918636304,
-    "lon": 11.066979318918,
+    "lat": 59.9186729,
+    "lon": 10.7392585,
     "address": "Nordahl Bruns gate 18",
-    "source": "https://www.lokalmat.no/produsenter/roma--den-lille-brusfabrikken/"
+    "source": "https://www.lokalmat.no/produsenter/roma/"
   },
   {
     "id": "lokalmat_11013",
@@ -15894,6 +15894,22 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_11578",
+    "name": "Roma | Den lille brusfabrikken",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Lillestrøm",
+    "products": [
+      "Alkoholholdige drikker",
+      "Drikkevarer"
+    ],
+    "website": null,
+    "lat": 59.947918636304,
+    "lon": 11.066979318918,
+    "address": "Nordahl Bruns gate 18",
+    "source": "https://www.lokalmat.no/produsenter/roma--den-lille-brusfabrikken/"
   },
   {
     "id": "hanen_3031",

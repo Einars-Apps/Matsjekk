@@ -9708,6 +9708,18 @@
     "address": "Gnadenwald"
   },
   {
+    "id": 13699216753,
+    "name": "Freche Biene",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Langenlois",
+    "products": [],
+    "website": null,
+    "lat": 48.4728423,
+    "lon": 15.6855213,
+    "address": "Fliederweg"
+  },
+  {
     "id": 13705270086,
     "name": "Honig aus eigener Produktion",
     "country": "Austria",
@@ -12825,6 +12837,18 @@
     "website": null,
     "lat": 47.0300323,
     "lon": 14.2190271,
+    "address": null
+  },
+  {
+    "id": 1507511323,
+    "name": "Pepi's Bunte Kartoffel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.buntekartoffel.com/Startseite/",
+    "lat": 48.4324558,
+    "lon": 16.0640101,
     "address": null
   },
   {

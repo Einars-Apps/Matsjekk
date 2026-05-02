@@ -5826,7 +5826,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://trentsfoods.com/",
+    "website": "trentsfoods.com",
     "lat": 51.5406089,
     "lon": -2.4873818,
     "address": null
@@ -7006,18 +7006,6 @@
     "lat": 51.4257683,
     "lon": 0.4914142,
     "address": "Town road"
-  },
-  {
-    "id": 88519248,
-    "name": "Myatts of Mockbeggar Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Rochester",
-    "products": [],
-    "website": null,
-    "lat": 51.4214311,
-    "lon": 0.4903169,
-    "address": null
   },
   {
     "id": 88813278,
@@ -8683,8 +8671,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
+    "lat": 54.106181,
+    "lon": -2.8090358,
     "address": "The Shore"
   },
   {
@@ -11460,6 +11448,18 @@
     "address": null
   },
   {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
+  },
+  {
     "id": 839396756,
     "name": "Bailey's Country Store",
     "country": "United Kingdom",
@@ -13257,18 +13257,6 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
-    "address": null
-  },
-  {
-    "id": 992200946,
-    "name": "Wylye Valley Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.instagram.com/wylye_valley_farmshop/",
-    "lat": 51.1871543,
-    "lon": -2.1909185,
     "address": null
   },
   {
@@ -16008,18 +15996,6 @@
     "address": null
   },
   {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
-  },
-  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -18588,6 +18564,18 @@
     "address": null
   },
   {
+    "id": 88519248,
+    "name": "Myatts of Mockbeggar Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Rochester",
+    "products": [],
+    "website": null,
+    "lat": 51.4214311,
+    "lon": 0.4903169,
+    "address": null
+  },
+  {
     "id": 318387860,
     "name": "Archers Cafe",
     "country": "United Kingdom",
@@ -18595,21 +18583,33 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Tonbridge",
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
+    "address": null
+  },
+  {
+    "id": 1502915597,
+    "name": "Bee Hives",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
+    "lat": 52.9933997,
+    "lon": -1.0806409,
+    "address": null
   },
   {
     "id": 6085559800,

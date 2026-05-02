@@ -3696,6 +3696,30 @@
     "address": null
   },
   {
+    "id": 13764337580,
+    "name": "Cocottes en Ribotte",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.614868,
+    "lon": 4.4976924,
+    "address": null
+  },
+  {
+    "id": 13776306636,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Klemskerke",
+    "products": [],
+    "website": null,
+    "lat": 51.2556942,
+    "lon": 3.0442422,
+    "address": "Bredeweg"
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -3973,15 +3997,15 @@
   },
   {
     "id": 176724751,
-    "name": "Levensbron",
+    "name": "Boer Maarten",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Attenrode",
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": null
+    "address": "Langstraat"
   },
   {
     "id": 184544766,
@@ -4068,6 +4092,18 @@
     "address": null
   },
   {
+    "id": 233873758,
+    "name": "Viskwekerij Vandeput",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Zonhoven",
+    "products": [],
+    "website": "https://sites.google.com/site/viskwekerijvandeput/",
+    "lat": 50.9877343,
+    "lon": 5.3412821,
+    "address": "Boomsteeg"
+  },
+  {
     "id": 250412766,
     "name": "Au fil des saisons",
     "country": "Belgium",
@@ -4117,15 +4153,15 @@
   },
   {
     "id": 294169618,
-    "name": "De Melkautomaat",
+    "name": "Jerseyhoeve De Haan automatenshop",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Klemskerke",
     "products": [],
     "website": null,
     "lat": 51.2556962,
     "lon": 3.0441037,
-    "address": null
+    "address": "Bredeweg"
   },
   {
     "id": 297121323,
@@ -5136,6 +5172,18 @@
     "address": "De Lusthoven"
   },
   {
+    "id": 1092175388,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2557506,
+    "lon": 3.0442608,
+    "address": null
+  },
+  {
     "id": 1097455780,
     "name": "Les paniers de Maryse",
     "country": "Belgium",
@@ -5412,75 +5460,27 @@
     "address": "Rue Estafflers"
   },
   {
-    "id": 13764337580,
-    "name": "Cocottes en Ribotte",
+    "id": 176724751,
+    "name": "Levensbron",
     "country": "Belgium",
     "region": null,
     "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.614868,
-    "lon": 4.4976924,
-    "address": null
-  },
-  {
-    "id": 13776306636,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556942,
-    "lon": 3.0442422,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 176724751,
-    "name": "Boer Maarten",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Attenrode",
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": "Langstraat"
-  },
-  {
-    "id": 233873758,
-    "name": "Viskwekerij Vandeput",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Zonhoven",
-    "products": [],
-    "website": "https://sites.google.com/site/viskwekerijvandeput/",
-    "lat": 50.9877343,
-    "lon": 5.3412821,
-    "address": "Boomsteeg"
+    "address": null
   },
   {
     "id": 294169618,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556962,
-    "lon": 3.0441037,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 1092175388,
-    "name": "Jerseyhoeve De Haan automatenshop",
+    "name": "De Melkautomaat",
     "country": "Belgium",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.2557506,
-    "lon": 3.0442608,
+    "lat": 51.2556962,
+    "lon": 3.0441037,
     "address": null
   },
   {
