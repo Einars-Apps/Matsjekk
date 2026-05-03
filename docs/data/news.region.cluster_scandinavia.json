@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T05:19:27.787227+00:00",
+  "generatedAt": "2026-05-03T05:26:56.730342+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,15 +8,26 @@
   "errors": [],
   "items": [
     {
-      "title": "DSV Söker en Sustainability Manager till Landskrona alt. Göteborg!, Landskrona, SE - DSV",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPc0hwVl9kUzgyaHFuNFBwR1RITm5OYjNrN2gzNGNScjEyWHVqajZOQmV6dUZ4NzZpMWRHbWNRVzBWVFlPaW5kb2s0dzM5Q05ZX2dqUjM3a3Q2czJNNDloQ0V3Q2VTbzd1b3ZXcl9xMlRqRXMyR2dSeXpob1BpWTRBU1FkZHI1NWg5b2NQMHA2d2Y5bVZLWHA0TkhUUHEzb2o4eXh4Ty1WaGY5dndtcmU3VHZnNlFweEtPT2NtZmZKTTVXX180cDl6bUpycUU?oc=5",
-      "pubDate": "2026-04-30T17:21:52+00:00",
-      "source": "DSV",
+      "title": "Inget problem med Bovaer - Lantbruksnytt",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FM29WZHBLdkZOOXp2R0JFcWtwMXBjS2xIaXlQdDhlSzEyOE1sbXFESk9LNkZSdXBIRXpSTWpSSnF6UGRvY3V0MDR0TC1oWVFDMm9NVVJjdG9maWY1TUdB?oc=5",
+      "pubDate": "2026-05-03T04:22:38+00:00",
+      "source": "Lantbruksnytt",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FM29WZHBLdkZOOXp2R0JFcWtwMXBjS2xIaXlQdDhlSzEyOE1sbXFESk9LNkZSdXBIRXpSTWpSSnF6UGRvY3V0MDR0TC1oWVFDMm9NVVJjdG9maWY1TUdB?oc=5\" target=\"_blank\">Inget problem med Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lantbruksnytt</font>",
+      "id": "bf980bbd84aac1f4"
+    },
+    {
+      "title": "Sustainability och energiomställningstjänster - Siemens",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV1g2V1psc1JKa3F4czNVTENBczJ5RFZFU19jaGpVR3NtT2ZiVXMxS1dwUG5CanhKazVuaGtVRTJJcUozamZLSlVGelplV1NkUG5PVE4zZjFrLW9mUlVCOHpBLV9xakdIM3QtbjlWOGhtZXRGalhrbVlSYmVoNkR2MF9NZndDZXc?oc=5",
+      "pubDate": "2026-05-02T13:02:44+00:00",
+      "source": "Siemens",
       "language": "sv",
       "country": "SE",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPc0hwVl9kUzgyaHFuNFBwR1RITm5OYjNrN2gzNGNScjEyWHVqajZOQmV6dUZ4NzZpMWRHbWNRVzBWVFlPaW5kb2s0dzM5Q05ZX2dqUjM3a3Q2czJNNDloQ0V3Q2VTbzd1b3ZXcl9xMlRqRXMyR2dSeXpob1BpWTRBU1FkZHI1NWg5b2NQMHA2d2Y5bVZLWHA0TkhUUHEzb2o4eXh4Ty1WaGY5dndtcmU3VHZnNlFweEtPT2NtZmZKTTVXX180cDl6bUpycUU?oc=5\" target=\"_blank\">DSV Söker en Sustainability Manager till Landskrona alt. Göteborg!, Landskrona, SE</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DSV</font>",
-      "id": "a3c2d00046c4a415"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNV1g2V1psc1JKa3F4czNVTENBczJ5RFZFU19jaGpVR3NtT2ZiVXMxS1dwUG5CanhKazVuaGtVRTJJcUozamZLSlVGelplV1NkUG5PVE4zZjFrLW9mUlVCOHpBLV9xakdIM3QtbjlWOGhtZXRGalhrbVlSYmVoNkR2MF9NZndDZXc?oc=5\" target=\"_blank\">Sustainability och energiomställningstjänster</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Siemens</font>",
+      "id": "358c6719ab23c1ca"
     },
     {
       "title": "NTS-NO-067737 : MetanHub-Bovaer til melkeku-effekt av surfôrkvalitet - webgate.ec.europa.eu",
@@ -28,6 +39,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgJBVV95cUxPRVNacmR5bHBtXzN3TFZXQzJYdWs2Ym1IN29yV1pOcGZzTjhZbDFac1VOTzN4aDhfQnhfMWZ2ajB5clE2TE5QLTZVenpkSDlPWmI0c1Byd0VqWjRmNmMwbGRLYjNtNks1czZjY2EyS1g3MFZVZU1vQWFpZnNyNm5ENzdTYVk2b3lhanZwcmhycmRtVVUwLXFSNmVrUWw4bHlWMmhzNnFXdC1rakMxOXhrblpfTGRfQ0xjZnJzWnUtTHRVbXhZZnZGeUdXeTF3QXNnNWRMd19GanlCNG1KbndoT3luenlhckNzU2xGWGNPbm0wcHp5OTZ3dzRmbGpvU2xNSWoybm82N2ExbzFpTzRHYThBWVItTHhLZVdxaUF5b0pOelozY201SGtqb2txNmVMNmdsY3dad1hfcFFPc0VSOXl3?oc=5\" target=\"_blank\">NTS-NO-067737 : MetanHub-Bovaer til melkeku-effekt av surfôrkvalitet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">webgate.ec.europa.eu</font>",
       "id": "1836979eb5ce14e0"
+    },
+    {
+      "title": "Kunstig intelligens og bærekraft: Skape fremgang med kunstig intelligens-løsninger - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExiXzFEZ3ZKZVM5bFpxNGpNT2VHcGpUbWdITm9SQkQxSDhoZTNaVmpLMWpKSV96b0RiVnlKVTh0aWVDR0p2Q3E2d2RPQlpyYjRUc1pMRjFxSlZIVVFRMUJjbFp1bEpUYzRSTlB3VFRhczNrak5MdW9xOFFubDdQbnh1bGItaGVnS21pMA?oc=5",
+      "pubDate": "2026-04-13T21:14:46+00:00",
+      "source": "Microsoft",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExiXzFEZ3ZKZVM5bFpxNGpNT2VHcGpUbWdITm9SQkQxSDhoZTNaVmpLMWpKSV96b0RiVnlKVTh0aWVDR0p2Q3E2d2RPQlpyYjRUc1pMRjFxSlZIVVFRMUJjbFp1bEpUYzRSTlB3VFRhczNrak5MdW9xOFFubDdQbnh1bGItaGVnS21pMA?oc=5\" target=\"_blank\">Kunstig intelligens og bærekraft: Skape fremgang med kunstig intelligens-løsninger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Microsoft</font>",
+      "id": "8ab699b662bad7ad"
     },
     {
       "title": "Nordic Esports Sustainability Summit kokosi kansainvälisen e-urheiluyhteisön Espooseen - Espoon kaupunki",
@@ -242,17 +264,6 @@
       "id": "95396880def940d3"
     },
     {
-      "title": "Bovaer granskas igen: Efsa utreder säkerhetsrisker - ATL.nu",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00MUlaWVRHVWZaODJJUkNENENVV2FGVEVOd2d6cUhvVUlKamEyZFVCbEdBcVZnV0FLNXAwRk85RENFNHNicFktcHJ1SXR4bGFCZW5pbVFfbU1iWHlFTGljTE1oNFlVZGRtOWhpbUUwblBtOWdROXU0?oc=5",
-      "pubDate": "2026-02-10T08:00:00+00:00",
-      "source": "ATL.nu",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE00MUlaWVRHVWZaODJJUkNENENVV2FGVEVOd2d6cUhvVUlKamEyZFVCbEdBcVZnV0FLNXAwRk85RENFNHNicFktcHJ1SXR4bGFCZW5pbVFfbU1iWHlFTGljTE1oNFlVZGRtOWhpbUUwblBtOWdROXU0?oc=5\" target=\"_blank\">Bovaer granskas igen: Efsa utreder säkerhetsrisker</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ATL.nu</font>",
-      "id": "8f0c6e5b3e085542"
-    },
-    {
       "title": "Information om Bovaer - Valio Sverige",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFSmFONVdlM2hVS2ZPS21taTJZZmN6Tnp2NVVoYzdEd2VTdk4zVXM4aTkzNjFxUVFCaG93ZTBBYnB6aC00ODdheHRUTHFMTndyclROWnByYnpxM1RoenhONHhn?oc=5",
       "pubDate": "2026-02-10T08:00:00+00:00",
@@ -284,6 +295,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTlLNUZGQTA3bktCZnVIRFdPN25IUS1tYnc4bGkzdUZaY3owVmhiVmNzVURldG1vUlFmMHdIcVhOOTh0NEdUaEtYQUJmaW9JRlEzX0VoVHBrM055NlRfbGViaDRVZVpCcHhyak02MDdtdG9vZmx1RG5NeDNHOVBoRWpiZUZEcUNPcEE?oc=5\" target=\"_blank\">Valio keskeyttää Bovaerin käytön</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
       "id": "10995a18b0df3423"
+    },
+    {
+      "title": "Bovaerin kieltämiseksi käynnistetty kansalaisaloite - Maaseudun Tulevaisuus",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5",
+      "pubDate": "2026-02-09T08:00:00+00:00",
+      "source": "Maaseudun Tulevaisuus",
+      "language": "fi",
+      "country": "FI",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5\" target=\"_blank\">Bovaerin kieltämiseksi käynnistetty kansalaisaloite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
+      "id": "7308dc15249ee9c4"
     },
     {
       "title": "Bovaer ska granskas i EU - Lantbruksnytt",
@@ -361,28 +383,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBCRzlGVWZ1dGFYMDRKQ21WYjczcDk5bEFsUzAtMWotbnRWZWluSW9YUTFxWmgtMEdGSXZ5VVNaOXNIODJmSmlpUGVBTWV6QlNUdm9lSE5tUTZ1WEJyM0JDaXdHdWpJSlNGTE5vdzVVQnNvRXJ3N2luNA?oc=5\" target=\"_blank\">Norska Tine stoppar mjölk från kor som fått Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ATL.nu</font>",
       "id": "a7e23d90085d4896"
-    },
-    {
-      "title": "Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre - Naturpress",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5",
-      "pubDate": "2026-01-29T08:00:00+00:00",
-      "source": "Naturpress",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aaftenposten.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5\" target=\"_blank\">Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Naturpress</font>",
-      "id": "567c81c7cdb83f89"
-    },
-    {
-      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - Nettavisen",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5",
-      "pubDate": "2026-01-29T08:00:00+00:00",
-      "source": "Nettavisen",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
-      "id": "15d962535e8366ec"
     }
   ]
 }
