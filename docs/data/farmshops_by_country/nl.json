@@ -6251,8 +6251,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940826,
-    "lon": 4.417777,
+    "lat": 52.1940771,
+    "lon": 4.417784,
     "address": null
   },
   {
@@ -6579,6 +6579,18 @@
     "website": null,
     "lat": 51.4932275,
     "lon": 4.0532058,
+    "address": null
+  },
+  {
+    "id": 538330333,
+    "name": "Biologische tuinderij Kievit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.kievitamines.nl",
+    "lat": 52.1940826,
+    "lon": 4.417777,
     "address": null
   },
   {

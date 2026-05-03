@@ -15852,6 +15852,30 @@
     "address": null
   },
   {
+    "id": 13787485900,
+    "name": "Hofladen Wengi Chinzi Hof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.chinzi-hof.ch/hofladen",
+    "lat": 47.084675,
+    "lon": 7.4026774,
+    "address": null
+  },
+  {
+    "id": 13787980146,
+    "name": "Alice + Pius Mayer",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5355636,
+    "lon": 9.3397851,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",

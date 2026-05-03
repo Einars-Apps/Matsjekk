@@ -5712,18 +5712,6 @@
     "address": "Calle los Reyes"
   },
   {
-    "id": 1237862620,
-    "name": "Bosque Natural",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.8112662,
-    "lon": -3.4562661,
-    "address": null
-  },
-  {
     "id": 1243590352,
     "name": "Agricentro",
     "country": "Spain",
@@ -5916,18 +5904,6 @@
     "address": "Calle Tufas"
   },
   {
-    "id": 1360416986,
-    "name": "Agro Vilanoviña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5499914,
-    "lon": -8.7046065,
-    "address": null
-  },
-  {
     "id": 1364891653,
     "name": "Piensos Muga",
     "country": "Spain",
@@ -6045,6 +6021,18 @@
     "website": null,
     "lat": 37.6951045,
     "lon": -5.3230982,
+    "address": null
+  },
+  {
+    "id": 1503582924,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5508147,
+    "lon": -8.7036466,
     "address": null
   },
   {
@@ -6300,15 +6288,27 @@
     "address": null
   },
   {
-    "id": 1503582924,
+    "id": 1237862620,
+    "name": "Bosque Natural",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.8112662,
+    "lon": -3.4562661,
+    "address": null
+  },
+  {
+    "id": 1360416986,
     "name": "Agro Vilanoviña",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5508147,
-    "lon": -8.7036466,
+    "lat": 42.5499914,
+    "lon": -8.7046065,
     "address": null
   },
   {
