@@ -16600,6 +16600,66 @@
     "address": "Odenwaldstraße"
   },
   {
+    "id": 98286911,
+    "name": "Hühnerfarm",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.7472712,
+    "lon": 8.6375106,
+    "address": null
+  },
+  {
+    "id": 123463531,
+    "name": "Kaiser's Hofcafé",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Salem",
+    "products": [],
+    "website": "http://www.hofladen-kaiserhof.de",
+    "lat": 53.6533267,
+    "lon": 10.8333867,
+    "address": "Seestraße"
+  },
+  {
+    "id": 183822566,
+    "name": "Kartoffelhof Neutze",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Grebenstein",
+    "products": [],
+    "website": "https://www.kartoffelhofneutze.de/",
+    "lat": 51.4342039,
+    "lon": 9.3809613,
+    "address": "Grebensteiner Straße"
+  },
+  {
+    "id": 321016732,
+    "name": "Heinz Lehneis Gmiäs- & Blumalodn",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Nürnberg",
+    "products": [],
+    "website": null,
+    "lat": 49.4776062,
+    "lon": 11.0356172,
+    "address": "Raiffeisenstraße"
+  },
+  {
+    "id": 479010033,
+    "name": "Arbeitsstätte \"In der Lehmkuhl\"",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ggp-gruppe.de/teilhabeleistungen-erwachsene/tagesstrukturierende-angebote/arbeitstagesstaette-in-der-lehmkuhl/",
+    "lat": 54.1960898,
+    "lon": 12.1645012,
+    "address": null
+  },
+  {
     "id": 1062978849,
     "name": "Früchtehof Schindler",
     "country": "Germany",
@@ -16610,6 +16670,54 @@
     "lat": 52.6601988,
     "lon": 9.1556188,
     "address": null
+  },
+  {
+    "id": 1160168686,
+    "name": "Niehoffs Hofmolkerei",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Bockenem",
+    "products": [],
+    "website": "https://www.niehoffs-hofmolkerei.de/",
+    "lat": 52.024925,
+    "lon": 10.0632584,
+    "address": "Nordholz"
+  },
+  {
+    "id": 1346235035,
+    "name": "Verkaufsautomat Hofladen (Eier, Obst, Regionales)",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Wasserburg (Bodensee)",
+    "products": [],
+    "website": null,
+    "lat": 47.5866362,
+    "lon": 9.6405783,
+    "address": "Hengnau"
+  },
+  {
+    "id": 1347329905,
+    "name": "Lansings Wiesenei",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Vreden",
+    "products": [],
+    "website": null,
+    "lat": 52.0925469,
+    "lon": 6.7931205,
+    "address": "Ammeloe"
+  },
+  {
+    "id": 1347431531,
+    "name": "darumBio!",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Zehrental",
+    "products": [],
+    "website": "https://www.darumbio.de",
+    "lat": 52.9023045,
+    "lon": 11.6531234,
+    "address": "Am Holzweg"
   },
   {
     "id": 33407305,
@@ -69820,18 +69928,6 @@
     "address": null
   },
   {
-    "id": 183822566,
-    "name": "Kartoffelhof Neutze",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Grebenstein",
-    "products": [],
-    "website": "https://www.kartoffelhofneutze.de/",
-    "lat": 51.4342039,
-    "lon": 9.3809613,
-    "address": "Grebensteiner Straße"
-  },
-  {
     "id": 12118136805,
     "name": "Moierhof Batzenhofen",
     "country": "Germany",
@@ -69854,102 +69950,6 @@
     "lat": 54.1310925,
     "lon": 11.7303327,
     "address": null
-  },
-  {
-    "id": 479010033,
-    "name": "Arbeitsstätte \"In der Lehmkuhl\"",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ggp-gruppe.de/teilhabeleistungen-erwachsene/tagesstrukturierende-angebote/arbeitstagesstaette-in-der-lehmkuhl/",
-    "lat": 54.1960898,
-    "lon": 12.1645012,
-    "address": null
-  },
-  {
-    "id": 1160168686,
-    "name": "Niehoffs Hofmolkerei",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Bockenem",
-    "products": [],
-    "website": "https://www.niehoffs-hofmolkerei.de/",
-    "lat": 52.024925,
-    "lon": 10.0632584,
-    "address": "Nordholz"
-  },
-  {
-    "id": 98286911,
-    "name": "Hühnerfarm",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.7472712,
-    "lon": 8.6375106,
-    "address": null
-  },
-  {
-    "id": 123463531,
-    "name": "Kaiser's Hofcafé",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Salem",
-    "products": [],
-    "website": "http://www.hofladen-kaiserhof.de",
-    "lat": 53.6533267,
-    "lon": 10.8333867,
-    "address": "Seestraße"
-  },
-  {
-    "id": 321016732,
-    "name": "Heinz Lehneis Gmiäs- & Blumalodn",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Nürnberg",
-    "products": [],
-    "website": null,
-    "lat": 49.4776062,
-    "lon": 11.0356172,
-    "address": "Raiffeisenstraße"
-  },
-  {
-    "id": 1346235035,
-    "name": "Verkaufsautomat Hofladen (Eier, Obst, Regionales)",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Wasserburg (Bodensee)",
-    "products": [],
-    "website": null,
-    "lat": 47.5866362,
-    "lon": 9.6405783,
-    "address": "Hengnau"
-  },
-  {
-    "id": 1347329905,
-    "name": "Lansings Wiesenei",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Vreden",
-    "products": [],
-    "website": null,
-    "lat": 52.0925469,
-    "lon": 6.7931205,
-    "address": "Ammeloe"
-  },
-  {
-    "id": 1347431531,
-    "name": "darumBio!",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Zehrental",
-    "products": [],
-    "website": "https://www.darumbio.de",
-    "lat": 52.9023045,
-    "lon": 11.6531234,
-    "address": "Am Holzweg"
   },
   {
     "id": 1190099281,

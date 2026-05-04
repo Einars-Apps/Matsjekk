@@ -576079,6 +576079,18 @@
       "lat": 48.1158312,
       "lon": 15.5881415,
       "address": null
+    },
+    {
+      "id": 13791117613,
+      "name": "Gemüse Späti",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.2043105,
+      "lon": 16.4574336,
+      "address": null
     }
   ],
   "CH": [

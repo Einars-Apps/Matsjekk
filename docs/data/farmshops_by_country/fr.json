@@ -27252,6 +27252,18 @@
     "address": "Chemin de Melet"
   },
   {
+    "id": 11180581738,
+    "name": "Paysans Gourmands",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Beauzire",
+    "products": [],
+    "website": "https://www.paysans-gourmands.fr/",
+    "lat": 45.8656882,
+    "lon": 3.1624309,
+    "address": "La Grande Bogne"
+  },
+  {
     "id": 11183235863,
     "name": "Le Goût des saisons",
     "country": "France",
@@ -37605,6 +37617,18 @@
     "website": null,
     "lat": 43.7253805,
     "lon": 3.604274,
+    "address": null
+  },
+  {
+    "id": 13789099517,
+    "name": "La Foret du Puy",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.la-foret-du-puy.com/",
+    "lat": 44.9147451,
+    "lon": 4.5500793,
     "address": null
   },
   {
