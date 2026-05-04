@@ -60434,6 +60434,18 @@
       "lat": 55.8052348,
       "lon": 8.3446875,
       "address": null
+    },
+    {
+      "id": 13788930013,
+      "name": "Rikke og Franks Svineri",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 56.5039062,
+      "lon": 8.1462006,
+      "address": null
     }
   ],
   "FI": [
@@ -418511,6 +418523,18 @@
       "lat": 40.0268414,
       "lon": -8.6224196,
       "address": null
+    },
+    {
+      "id": 13261269282,
+      "name": "Bio Rui e Inês",
+      "country": "Portugal",
+      "region": null,
+      "municipality": "Bom Vento",
+      "products": [],
+      "website": "https://bio-rui-e-ines.webnode.pt/",
+      "lat": 39.3193042,
+      "lon": -9.1355355,
+      "address": "Rua Nossa Senhora do Socorro"
     }
   ],
   "ES": [
