@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-03T05:26:56.734865+00:00",
+  "generatedAt": "2026-05-04T05:27:27.878937+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 25,
+  "total": 26,
   "errors": [],
   "items": [
     {
@@ -134,8 +134,8 @@
       "pubDate": "2025-12-01T08:00:00+00:00",
       "source": "DairyReporter.com",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "NZ",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3YzQk9QbVlDNFhacnlXbEx3WlNQN1NwcUo5R0lxcW1XbEpDc2J4SkYySWhjakF5VUZjTlpCTzF2NDNlLWpKWFBvUHQyT0lPQ2N3SzB3OGt3TUp3a0xQRzM1RGxrQXdWcFFWb05FbF9uM0Q5dVluaTdpVVBSX3lzU0xJb1dNS3V6QjlUaV9fNUZEb3o3RUhoZy1YbFpxeVNVMXdXOEFqbU9WQm1RejhrMXk5Ty11SEk?oc=5\" target=\"_blank\">Mars Snacking’s methane playbook: Lessons from Bovaer and a focus on next-gen tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DairyReporter.com</font>",
       "id": "f43dcc42b4eddf80"
     },
@@ -270,6 +270,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdmNkQnVYcE5KNElCRE5XdUVGMnliUXVLTFpXM0ZDbUpKU1ZuYms4VWstT1pTS0U3ZHRNVWMwM0Z0aUh1Vk51Zm5EQ2xVMTNhajZhUUNwVFl1ZnBQbV9TU0I3dzFrTGhoV0l6M3hiZnhiemxRX0dhcjBDTkpXRTBkV0J6cTJGNXE3aXVBLS1iSENSdkxfOGdfbEVYOE5Ldw?oc=5\" target=\"_blank\">Volare raises €26M to advance sustainable insect protein production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tech.eu</font>",
       "id": "9671ba5639b2f2d1"
+    },
+    {
+      "title": "New guidelines offer sustainable management solutions for eight priority pests, diseases - Food and Agriculture Organization",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdzJXSTVkWUM4bTB3c2V6bzdxTi1CNE9iM3U0UWp2S19BdDRoWWg2aThlc2hTN0pfZVpwek04UUlfZUc3aWpiVmdwb2k0dHF3SDNWVm1QNUFIWU0yQXVZVlFiRGZNcEliRldCbUlYS3hkNDYwUGVyTXNiMXBtQVJvdQ?oc=5",
+      "pubDate": "2025-05-09T07:00:00+00:00",
+      "source": "Food and Agriculture Organization",
+      "language": "en",
+      "country": "AU",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOdzJXSTVkWUM4bTB3c2V6bzdxTi1CNE9iM3U0UWp2S19BdDRoWWg2aThlc2hTN0pfZVpwek04UUlfZUc3aWpiVmdwb2k0dHF3SDNWVm1QNUFIWU0yQXVZVlFiRGZNcEliRldCbUlYS3hkNDYwUGVyTXNiMXBtQVJvdQ?oc=5\" target=\"_blank\">New guidelines offer sustainable management solutions for eight priority pests, diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Food and Agriculture Organization</font>",
+      "id": "8914a5d5218e717c"
     },
     {
       "title": "Insect meal as aquafeed in Africa: It’s a matter of scale - Aquafeed.com",
