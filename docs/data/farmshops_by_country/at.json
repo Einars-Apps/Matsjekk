@@ -8491,8 +8491,8 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://wald-gut.at/",
-    "lat": 48.1487789,
-    "lon": 16.2683498,
+    "lat": 48.1487802,
+    "lon": 16.2683377,
     "address": "Geßlgasse"
   },
   {
@@ -13990,6 +13990,18 @@
     "lat": 47.0136174,
     "lon": 14.2436819,
     "address": null
+  },
+  {
+    "id": 12475401942,
+    "name": "Waldgut",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Wien",
+    "products": [],
+    "website": "https://wald-gut.at/",
+    "lat": 48.1487789,
+    "lon": 16.2683498,
+    "address": "Geßlgasse"
   },
   {
     "id": 12294534720,

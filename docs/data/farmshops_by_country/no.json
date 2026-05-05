@@ -3144,16 +3144,16 @@
     "name": "Ebbas matgleder Linnea Finnskogen",
     "country": "Norway",
     "region": "Innlandet",
-    "municipality": "Gardvik",
+    "municipality": "Hernes",
     "products": [
       "Annet",
       "Saft, syltetøy, geleer"
     ],
     "website": null,
-    "lat": 60.425700456133,
-    "lon": 11.640112515592,
-    "address": "Engevegen 12",
-    "source": "https://www.lokalmat.no/produsenter/ebbas-matgleder/"
+    "lat": 60.94385779999999,
+    "lon": 11.6694603,
+    "address": "Hernesvegen 354",
+    "source": "https://www.lokalmat.no/produsenter/ebbas-matgleder-linnea-finnskogen/"
   },
   {
     "id": "lokalmat_11640",
@@ -15428,19 +15428,6 @@
     "source": "https://www.hanen.no/bedrift/karin-mo-valland-sjuragarden/"
   },
   {
-    "id": "hanen_1311",
-    "name": "Skogset Gårdsmat",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Inderøy",
-    "products": [],
-    "website": "https://skogsetGårdsmat.no",
-    "lat": 63.908354,
-    "lon": 11.298115,
-    "address": "Sandvollanv 440",
-    "source": "https://www.hanen.no/bedrift/skogset-gaardsmat/"
-  },
-  {
     "id": "hanen_2889",
     "name": "Slettå gårdsutsalg DA",
     "country": "Norway",
@@ -15894,6 +15881,35 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_11211",
+    "name": "Ebbas matgleder Linnea Finnskogen",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Gardvik",
+    "products": [
+      "Annet",
+      "Saft, syltetøy, geleer"
+    ],
+    "website": null,
+    "lat": 60.425700456133,
+    "lon": 11.640112515592,
+    "address": "Engevegen 12",
+    "source": "https://www.lokalmat.no/produsenter/ebbas-matgleder/"
+  },
+  {
+    "id": "hanen_1311",
+    "name": "Skogset Gårdsmat",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Inderøy",
+    "products": [],
+    "website": "https://skogsetGårdsmat.no",
+    "lat": 63.908354,
+    "lon": 11.298115,
+    "address": "Sandvollanv 440",
+    "source": "https://www.hanen.no/bedrift/skogset-gaardsmat/"
   },
   {
     "id": "lokalmat_11578",

@@ -336,18 +336,6 @@
     "address": null
   },
   {
-    "id": 11078723217,
-    "name": "Bio Rui e Inês",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3604716,
-    "lon": -9.379938,
-    "address": null
-  },
-  {
     "id": 11420351025,
     "name": "Finisterra",
     "country": "Portugal",
@@ -463,8 +451,8 @@
     "municipality": "Bom Vento",
     "products": [],
     "website": "https://bio-rui-e-ines.webnode.pt/",
-    "lat": 39.3193307,
-    "lon": -9.1354776,
+    "lat": 39.3193042,
+    "lon": -9.1355355,
     "address": "Rua Nossa Senhora do Socorro"
   },
   {
@@ -1030,6 +1018,30 @@
     "lat": 41.077111,
     "lon": -8.5909307,
     "address": null
+  },
+  {
+    "id": 11078723217,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3604716,
+    "lon": -9.379938,
+    "address": null
+  },
+  {
+    "id": 13261269282,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Bom Vento",
+    "products": [],
+    "website": "https://bio-rui-e-ines.webnode.pt/",
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "Rua Nossa Senhora do Socorro"
   },
   {
     "id": 1243166539,

@@ -7878,7 +7878,7 @@
     "region": null,
     "municipality": "La Haie Fouassière",
     "products": [],
-    "website": "http://www.fermeduhallay.com",
+    "website": "https://www.fermeduhallay.com/",
     "lat": 47.1721611,
     "lon": -1.409111,
     "address": "Rue des Noëlles"
@@ -9366,7 +9366,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://lescalepaysanne.com/",
+    "website": "https://lescalepaysanne.com/",
     "lat": 47.8099905,
     "lon": -2.3838052,
     "address": null
@@ -17601,7 +17601,7 @@
     "website": null,
     "lat": 47.2118013,
     "lon": -0.3714757,
-    "address": null
+    "address": "Les Renardières"
   },
   {
     "id": 8267273096,
@@ -24777,7 +24777,7 @@
     "website": null,
     "lat": 47.1922857,
     "lon": -0.3964007,
-    "address": null
+    "address": "Lieu Dit le Petit Champloin"
   },
   {
     "id": 10608935830,
@@ -27597,7 +27597,7 @@
     "website": null,
     "lat": 47.2327376,
     "lon": -0.2103234,
-    "address": null
+    "address": "Rue Principale"
   },
   {
     "id": 11336135584,
@@ -37630,6 +37630,18 @@
     "lat": 44.9147451,
     "lon": 4.5500793,
     "address": null
+  },
+  {
+    "id": 13795684167,
+    "name": "Ferme Bastebieille",
+    "country": "France",
+    "region": null,
+    "municipality": "Mimbaste",
+    "products": [],
+    "website": null,
+    "lat": 43.6471947,
+    "lon": -0.9398891,
+    "address": "Chemin des Bastes"
   },
   {
     "id": 24528129,

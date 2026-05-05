@@ -5737,14 +5737,14 @@
   },
   {
     "id": 9700822713,
-    "name": "Nonno Andrea",
+    "name": "Nonno Andrea Bistrot Agricolo e Shop",
     "country": "Italy",
     "region": null,
     "municipality": "Villorba",
     "products": [],
     "website": "https://www.nonnoandrea.it/",
-    "lat": 45.7599531,
-    "lon": 12.2318655,
+    "lat": 45.7599311,
+    "lon": 12.2318233,
     "address": "Via Campagnola"
   },
   {
@@ -13762,6 +13762,18 @@
     "lat": 44.7961349,
     "lon": 12.2560239,
     "address": null
+  },
+  {
+    "id": 9700822713,
+    "name": "Nonno Andrea",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Villorba",
+    "products": [],
+    "website": "https://www.nonnoandrea.it/",
+    "lat": 45.7599531,
+    "lon": 12.2318655,
+    "address": "Via Campagnola"
   },
   {
     "id": 386178312,

@@ -24967,6 +24967,22 @@
       "lon": 10.7392585,
       "address": "Nordahl Bruns gate 18",
       "source": "https://www.lokalmat.no/produsenter/roma/"
+    },
+    {
+      "id": "lokalmat_11211",
+      "name": "Ebbas matgleder Linnea Finnskogen",
+      "country": "Norway",
+      "region": "Innlandet",
+      "municipality": "Hernes",
+      "products": [
+        "Annet",
+        "Saft, syltetøy, geleer"
+      ],
+      "website": null,
+      "lat": 60.94385779999999,
+      "lon": 11.6694603,
+      "address": "Hernesvegen 354",
+      "source": "https://www.lokalmat.no/produsenter/ebbas-matgleder-linnea-finnskogen/"
     }
   ],
   "SE": [
@@ -576115,6 +576131,18 @@
       "lat": 48.2043105,
       "lon": 16.4574336,
       "address": null
+    },
+    {
+      "id": 12475401942,
+      "name": "Waldgut",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Wien",
+      "products": [],
+      "website": "https://wald-gut.at/",
+      "lat": 48.1487802,
+      "lon": 16.2683377,
+      "address": "Geßlgasse"
     }
   ],
   "CH": [
