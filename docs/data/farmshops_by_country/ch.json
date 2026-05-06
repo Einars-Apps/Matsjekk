@@ -2203,8 +2203,8 @@
     "municipality": "Muttenz",
     "products": [],
     "website": "https://www.kuerbisegge.ch/",
-    "lat": 47.5244823,
-    "lon": 7.640917,
+    "lat": 47.5246046,
+    "lon": 7.6410672,
     "address": "Sevogelstrasse"
   },
   {
@@ -5682,7 +5682,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.elevagedupredeissy.ch/?page_id=4145",
+    "website": "https://www.elevagedupredeissy.ch/?page_id=4145",
     "lat": 46.870358,
     "lon": 7.0011878,
     "address": null
@@ -5826,7 +5826,7 @@
     "region": null,
     "municipality": "Penthalaz",
     "products": [],
-    "website": "http://www.marchelavigne.sitew.ch/",
+    "website": "https://marchelavigne.sitew.ch/",
     "lat": 46.6137137,
     "lon": 6.5301597,
     "address": "Route de Penthaz"
@@ -17578,6 +17578,18 @@
     "lat": 47.1238669,
     "lon": 8.5907485,
     "address": null
+  },
+  {
+    "id": 4949636703,
+    "name": "Hof Ruedi Brunner",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Muttenz",
+    "products": [],
+    "website": "https://www.kuerbisegge.ch/",
+    "lat": 47.5244823,
+    "lon": 7.640917,
+    "address": "Sevogelstrasse"
   },
   {
     "id": 4961709759,

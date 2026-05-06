@@ -626576,6 +626576,18 @@
       "lat": 47.5355636,
       "lon": 9.3397851,
       "address": null
+    },
+    {
+      "id": 4949636703,
+      "name": "Hof Ruedi Brunner",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Muttenz",
+      "products": [],
+      "website": "https://www.kuerbisegge.ch/",
+      "lat": 47.5246046,
+      "lon": 7.6410672,
+      "address": "Sevogelstrasse"
     }
   ],
   "LI": [

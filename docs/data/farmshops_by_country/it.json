@@ -486,7 +486,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.malgaverde.com/",
+    "website": "https://www.malgaverde.com/",
     "lat": 45.8170369,
     "lon": 11.6364707,
     "address": null
@@ -8226,7 +8226,7 @@
     "region": null,
     "municipality": "Montalto Dora",
     "products": [],
-    "website": "http://www.cascinaescuelita.it/",
+    "website": "https://www.cascinaescuelita.it/",
     "lat": 45.4894266,
     "lon": 7.8633603,
     "address": "Via Giacomo Matteotti"
@@ -8442,7 +8442,7 @@
     "region": null,
     "municipality": "Triuggio",
     "products": [],
-    "website": "http://lafattorianelverde.it/",
+    "website": "https://lafattorianelverde.it/",
     "lat": 45.675878,
     "lon": 9.281718,
     "address": "Via Luigi Cagnola"
