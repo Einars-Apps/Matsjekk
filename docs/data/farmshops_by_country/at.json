@@ -1206,7 +1206,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.imkerei-reichl.at/wb/pages/home.php",
+    "website": "https://www.imkerei-reichl.at/wb/pages/home.php",
     "lat": 48.027105,
     "lon": 13.0222162,
     "address": null
@@ -9757,12 +9757,12 @@
   },
   {
     "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
+    "name": "SB - Bauernladen Kühnsdorf",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
     "lat": 46.62794,
     "lon": 14.6343338,
     "address": null
@@ -9837,6 +9837,18 @@
     "website": null,
     "lat": 48.2043105,
     "lon": 16.4574336,
+    "address": null
+  },
+  {
+    "id": 13800970542,
+    "name": "Bauernhof Jäger - Ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5724726,
+    "lon": 14.5557935,
     "address": null
   },
   {
@@ -12876,6 +12888,18 @@
     "address": null
   },
   {
+    "id": 1509746903,
+    "name": "SB - Bauernladen Pogerschitzen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5651407,
+    "lon": 14.5543197,
+    "address": null
+  },
+  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -13989,6 +14013,18 @@
     "website": null,
     "lat": 47.0136174,
     "lon": 14.2436819,
+    "address": null
+  },
+  {
+    "id": 13731641804,
+    "name": "Bauernladen - Bauernhof Jäger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
     "address": null
   },
   {

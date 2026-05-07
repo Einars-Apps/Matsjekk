@@ -209736,6 +209736,18 @@
       "lat": 50.7373829,
       "lon": 4.2700518,
       "address": null
+    },
+    {
+      "id": 13801006290,
+      "name": "Ferme du Montaval",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.1812477,
+      "lon": 4.456854,
+      "address": null
     }
   ],
   "FR": [
@@ -576143,6 +576155,42 @@
       "lat": 48.1487802,
       "lon": 16.2683377,
       "address": "Geßlgasse"
+    },
+    {
+      "id": 13731641804,
+      "name": "SB - Bauernladen Kühnsdorf",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+      "lat": 46.62794,
+      "lon": 14.6343338,
+      "address": null
+    },
+    {
+      "id": 13800970542,
+      "name": "Bauernhof Jäger - Ab Hof",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+      "lat": 46.5724726,
+      "lon": 14.5557935,
+      "address": null
+    },
+    {
+      "id": 1509746903,
+      "name": "SB - Bauernladen Pogerschitzen",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+      "lat": 46.5651407,
+      "lon": 14.5543197,
+      "address": null
     }
   ],
   "CH": [

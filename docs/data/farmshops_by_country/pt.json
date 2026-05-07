@@ -1036,12 +1036,12 @@
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": "Bom Vento",
+    "municipality": null,
     "products": [],
-    "website": "https://bio-rui-e-ines.webnode.pt/",
+    "website": null,
     "lat": 39.3193307,
     "lon": -9.1354776,
-    "address": "Rua Nossa Senhora do Socorro"
+    "address": "R. Nossa Sra. do Socorro"
   },
   {
     "id": 1243166539,

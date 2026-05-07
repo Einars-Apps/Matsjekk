@@ -3720,6 +3720,18 @@
     "address": "Bredeweg"
   },
   {
+    "id": 13801006290,
+    "name": "Ferme du Montaval",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.1812477,
+    "lon": 4.456854,
+    "address": null
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
