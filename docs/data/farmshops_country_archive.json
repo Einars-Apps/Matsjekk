@@ -524795,6 +524795,30 @@
       "lat": 51.4214311,
       "lon": 0.4903169,
       "address": null
+    },
+    {
+      "id": 1509987603,
+      "name": "Fairlawne",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.2476721,
+      "lon": 0.2869361,
+      "address": null
+    },
+    {
+      "id": 1509987604,
+      "name": "Fairlawne",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.2499212,
+      "lon": 0.2929966,
+      "address": null
     }
   ],
   "IE": [
