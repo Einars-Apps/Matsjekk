@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T05:26:47.962387+00:00",
+  "generatedAt": "2026-05-07T05:27:02.225291+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,15 +8,37 @@
   "errors": [],
   "items": [
     {
+      "title": "Mjölkproducenter tror inte på Bovaer-rapport - Lantbruksnytt",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52N0hCZzVnbWxUMU0yUUFvRTRveXhNMFF6UXNwTGloMloyZVpsSzJQY08tX2N5RnRQUFJCcTVPQWt6bUZFZFJpTlN6SHBsZjczaDFtbG41RzY3bU5aYklkc19iY0s1RGRmaVVlcmgyTm92S2JISVJ2QjlR?oc=5",
+      "pubDate": "2026-05-06T06:46:49+00:00",
+      "source": "Lantbruksnytt",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE52N0hCZzVnbWxUMU0yUUFvRTRveXhNMFF6UXNwTGloMloyZVpsSzJQY08tX2N5RnRQUFJCcTVPQWt6bUZFZFJpTlN6SHBsZjczaDFtbG41RzY3bU5aYklkc19iY0s1RGRmaVVlcmgyTm92S2JISVJ2QjlR?oc=5\" target=\"_blank\">Mjölkproducenter tror inte på Bovaer-rapport</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lantbruksnytt</font>",
+      "id": "c88029a76395de15"
+    },
+    {
       "title": "Bovaer, Melkeproduksjon | Ny rapport viser ingen negativ effekt av Bovaer - Norsk Landbruk",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTd1Q25tX24yRUo5Y1VLX2V4c084RENPT0NkNjZVNWVTeEdES2lVV2t1V1U3c3dzdkUzTW5TWHpLQnFod2tPUHdzdTB5WHIyTWdod0ExUmVadFBBRjJzT0ZJYnBHQlVzZ2hHbVJEeERvMm0zYTlNczA0X0JuZk1USzl5OUNjS0dPTk5idjlIR1MzTFBxZlE?oc=5",
       "pubDate": "2026-05-04T10:09:22+00:00",
       "source": "Norsk Landbruk",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Avg.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTd1Q25tX24yRUo5Y1VLX2V4c084RENPT0NkNjZVNWVTeEdES2lVV2t1V1U3c3dzdkUzTW5TWHpLQnFod2tPUHdzdTB5WHIyTWdod0ExUmVadFBBRjJzT0ZJYnBHQlVzZ2hHbVJEeERvMm0zYTlNczA0X0JuZk1USzl5OUNjS0dPTk5idjlIR1MzTFBxZlE?oc=5\" target=\"_blank\">Bovaer, Melkeproduksjon | Ny rapport viser ingen negativ effekt av Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Norsk Landbruk</font>",
       "id": "a0d83b85983874b0"
+    },
+    {
+      "title": "SCA benoemt Klas Nilsson tot nieuwe SVP Sustainability & Communications met ingang van najaar 2026 - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeXZONGRyUjFoUF9SUktuRTVrSTVtT2tkUVl0aDd2UnVFQTljSjdHcVg1M3BSQXFzQzhGYTgweWlwNUNEV01zY1Rjb0I1OHFOcm91Zy05WmZkcnFQSTNXeWV4TzBaYlA3TVFTSUlVUGlBc0xEOFE3dTRHZmVOcHR1cWtISTM5SDg0dm1jUVV0bGFYWnoxbGhISEp3REx2Z3dNV1lESkk3TTZ0NkJSc0x3elB1dFVwaTY3WDhrQi1UMnA0ZnJwRUgzaFFkYkN3bGF1c2dXOWtlN2pXSk1TSGNlSjJOeXNsNzhUc2lz?oc=5",
+      "pubDate": "2026-05-04T09:17:00+00:00",
+      "source": "MarketScreener Nederland",
+      "language": "nl",
+      "country": "BE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNeXZONGRyUjFoUF9SUktuRTVrSTVtT2tkUVl0aDd2UnVFQTljSjdHcVg1M3BSQXFzQzhGYTgweWlwNUNEV01zY1Rjb0I1OHFOcm91Zy05WmZkcnFQSTNXeWV4TzBaYlA3TVFTSUlVUGlBc0xEOFE3dTRHZmVOcHR1cWtISTM5SDg0dm1jUVV0bGFYWnoxbGhISEp3REx2Z3dNV1lESkk3TTZ0NkJSc0x3elB1dFVwaTY3WDhrQi1UMnA0ZnJwRUgzaFFkYkN3bGF1c2dXOWtlN2pXSk1TSGNlSjJOeXNsNzhUc2lz?oc=5\" target=\"_blank\">SCA benoemt Klas Nilsson tot nieuwe SVP Sustainability & Communications met ingang van najaar 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketScreener Nederland</font>",
+      "id": "dc8d84e718032d39"
     },
     {
       "title": "Inget problem med Bovaer - Lantbruksnytt",
@@ -52,26 +74,15 @@
       "id": "88b3002429e3e5c5"
     },
     {
-      "title": "Shifting Minds: Nachhaltigkeit und Dialektik mit Henrik Pontzen | Sustainability - Haufe. Intelligenz, die bewegt.",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN0VFVDgtTWoyRWIzWUoxamxraWI2cjJkUGcyV0lqQU8xRHh4Y0IwbUF6Q1Z0c3BLODBPXzVaZzc2ekhwVTBCaTRieWRXTm5oWWNuVTdGaTdVcFQyMC0tUUJtUmZGQzNFaGpuVE1ZTUFmQW1oTUh4X1BJcUhNMlk0WUp1WUtncWtrWERFdU8xeWdvQ25WVzhQNEFzem1DOFN0ZUphag?oc=5",
-      "pubDate": "2026-04-29T04:17:00+00:00",
-      "source": "Haufe. Intelligenz, die bewegt.",
-      "language": "de",
-      "country": "DE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNN0VFVDgtTWoyRWIzWUoxamxraWI2cjJkUGcyV0lqQU8xRHh4Y0IwbUF6Q1Z0c3BLODBPXzVaZzc2ekhwVTBCaTRieWRXTm5oWWNuVTdGaTdVcFQyMC0tUUJtUmZGQzNFaGpuVE1ZTUFmQW1oTUh4X1BJcUhNMlk0WUp1WUtncWtrWERFdU8xeWdvQ25WVzhQNEFzem1DOFN0ZUphag?oc=5\" target=\"_blank\">Shifting Minds: Nachhaltigkeit und Dialektik mit Henrik Pontzen | Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
-      "id": "a4dd50862a3fce2a"
-    },
-    {
-      "title": "Templeton Emerging Markets Sustainability Fund A (Acc) EUR Fonds | Kurs | Realtime | Chart - boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb3IteDMzNTQwcXJOU2swcTVjU0Z4WDdjQnFOZk5xdFF3U1ZhZEhCcTc3VlFzUHJQVEtEX2xTbFJFVjVhY1NhMlhvV3J5dGhxS21nblNTenZSYzd0VlNIek9zRi1idEFBajdCOU1ybFIxcEVDb2ZpemlzRmZ4Z0hfbkt6Z0xnRUtERlN6Ri1EelB0OHRkaVI0RW5ieFQtdw?oc=5",
-      "pubDate": "2026-04-29T00:05:36+00:00",
-      "source": "boerse.de",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPb3IteDMzNTQwcXJOU2swcTVjU0Z4WDdjQnFOZk5xdFF3U1ZhZEhCcTc3VlFzUHJQVEtEX2xTbFJFVjVhY1NhMlhvV3J5dGhxS21nblNTenZSYzd0VlNIek9zRi1idEFBajdCOU1ybFIxcEVDb2ZpemlzRmZ4Z0hfbkt6Z0xnRUtERlN6Ri1EelB0OHRkaVI0RW5ieFQtdw?oc=5\" target=\"_blank\">Templeton Emerging Markets Sustainability Fund A (Acc) EUR Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
-      "id": "a6402034c82972bc"
+      "title": "The LYCRA Company versterkt zijn leiderschap in duurzaamheid en benoemt Alistair Williamson tot vicevoorzitter Product Sustainability - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XalY0aHRaWnZ4NXhNZm5tYTdHSnBtYUktdjhOdEl5MzVETHpTWVRiUl92ZVN2aVZsRVJpMUhRWGZhQ044c0swNmhQeHJsdDJ5YUFYZm4wcFNDZWlEaXRneGhSU0lORkU?oc=5",
+      "pubDate": "2026-04-30T12:00:00+00:00",
+      "source": "Business Wire",
+      "language": "nl",
+      "country": "BE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XalY0aHRaWnZ4NXhNZm5tYTdHSnBtYUktdjhOdEl5MzVETHpTWVRiUl92ZVN2aVZsRVJpMUhRWGZhQ044c0swNmhQeHJsdDJ5YUFYZm4wcFNDZWlEaXRneGhSU0lORkU?oc=5\" target=\"_blank\">The LYCRA Company versterkt zijn leiderschap in duurzaamheid en benoemt Alistair Williamson tot vicevoorzitter Product Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Wire</font>",
+      "id": "8b5eaeaf9ab3d225"
     },
     {
       "title": "AGIF - Allianz Global Sustainability - IT - EUR Fonds | Kurs | Realtime | Chart - boerse.de",
@@ -107,26 +118,15 @@
       "id": "e5bbab7b747fc3bc"
     },
     {
-      "title": "Nord University: study points to insect meal and algae oil as alternatives in feed - SalmonBusiness",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTJZeTBnZm5KY1VkT1dSTzJhUkdZa3J3NWhLOF9pWnJFTHdkUHFxWGNXWm1iLXpHR0FTQW43VXplMjNfbzBkeTBORkxpZ2dWdW02S0FVSnVaQk5uYTZCeFA1ajJfSDZVWC1STHZJSkp4NzdpVEhsdElRcTFNTEMtY2JlZ3liMmZiMHE1LU9HaVByU2g0OExWMDZOeUNkWkZWN2VVLWR2UjBnT2Rqa1U4bDVCb9IBswFBVV95cUxQNTJZeTBnZm5KY1VkT1dSTzJhUkdZa3J3NWhLOF9pWnJFTHdkUHFxWGNXWm1iLXpHR0FTQW43VXplMjNfbzBkeTBORkxpZ2dWdW02S0FVSnVaQk5uYTZCeFA1ajJfSDZVWC1STHZJSkp4NzdpVEhsdElRcTFNTEMtY2JlZ3liMmZiMHE1LU9HaVByU2g0OExWMDZOeUNkWkZWN2VVLWR2UjBnT2Rqa1U4bDVCbw?oc=5",
-      "pubDate": "2026-04-24T13:56:26+00:00",
-      "source": "SalmonBusiness",
-      "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTJZeTBnZm5KY1VkT1dSTzJhUkdZa3J3NWhLOF9pWnJFTHdkUHFxWGNXWm1iLXpHR0FTQW43VXplMjNfbzBkeTBORkxpZ2dWdW02S0FVSnVaQk5uYTZCeFA1ajJfSDZVWC1STHZJSkp4NzdpVEhsdElRcTFNTEMtY2JlZ3liMmZiMHE1LU9HaVByU2g0OExWMDZOeUNkWkZWN2VVLWR2UjBnT2Rqa1U4bDVCb9IBswFBVV95cUxQNTJZeTBnZm5KY1VkT1dSTzJhUkdZa3J3NWhLOF9pWnJFTHdkUHFxWGNXWm1iLXpHR0FTQW43VXplMjNfbzBkeTBORkxpZ2dWdW02S0FVSnVaQk5uYTZCeFA1ajJfSDZVWC1STHZJSkp4NzdpVEhsdElRcTFNTEMtY2JlZ3liMmZiMHE1LU9HaVByU2g0OExWMDZOeUNkWkZWN2VVLWR2UjBnT2Rqa1U4bDVCbw?oc=5\" target=\"_blank\">Nord University: study points to insect meal and algae oil as alternatives in feed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SalmonBusiness</font>",
-      "id": "496992d0913b1449"
-    },
-    {
-      "title": "Was Sustainability bei Cloud-Sicherheit bedeutet || Bild 1 / 4 - Storage-Insider",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnFNZXZPbHZzZ2ZmRk12X0xEVmFQN1cycHlNYmpWV2NIQlo1SkVuQTBDaGtrOHBsRWY5Z2pBMkp0V3ZseXRuX3kteDdxMjVGZUZpejJKUE9zTFQxVHNyUDgzTGtrcEQ3dklsejNqTVBPMHRMbll3Z0Rzang1eG9nMHNvSGJEWHpvWFRBVnI3ZzRPTnA1ZnFaazZSNDI2eXc3alBiYktrMjNsT1NLMUdFRWRCSmFKaTBi?oc=5",
-      "pubDate": "2026-04-23T06:14:14+00:00",
-      "source": "Storage-Insider",
+      "title": "Vielfältiges Programm: „Summer of Sustainability 2026“ an der Universität zu Köln - Universität zu Köln",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcWd6OGdUMFVDQXJvN2Frb2ctMy1xbXQteUE3aGlBdERTbXBheWZscDVzQUY4aFRQeldzYjJ3ODFvT0gxZDRqb3gxV3p1dnZyWHNVejIzRmsybGVuOVpwLXZkQ1FaVUh3d3ViUUpBcHJJQXRLcC1qZUNaa1NKUTRmOGRobHc4eVJYUUFLMmhlUm1CemJPSFhjUloxNzZHVUN6cEFxVm53NVlxSnFfVi1MSXNTSHpKVmpYNU1BRlNJSFdZV3NTTEJ2TTJPRUYxaHp6NV9XTTNncGQ0VTlqNkdIbXI2LVNONmFJVzk5LVViWkpNNy1ZQWpZSVN6Y1M?oc=5",
+      "pubDate": "2026-04-20T07:46:00+00:00",
+      "source": "Universität zu Köln",
       "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnFNZXZPbHZzZ2ZmRk12X0xEVmFQN1cycHlNYmpWV2NIQlo1SkVuQTBDaGtrOHBsRWY5Z2pBMkp0V3ZseXRuX3kteDdxMjVGZUZpejJKUE9zTFQxVHNyUDgzTGtrcEQ3dklsejNqTVBPMHRMbll3Z0Rzang1eG9nMHNvSGJEWHpvWFRBVnI3ZzRPTnA1ZnFaazZSNDI2eXc3alBiYktrMjNsT1NLMUdFRWRCSmFKaTBi?oc=5\" target=\"_blank\">Was Sustainability bei Cloud-Sicherheit bedeutet || Bild 1 / 4</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Storage-Insider</font>",
-      "id": "c36d2dbb038f5955"
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcWd6OGdUMFVDQXJvN2Frb2ctMy1xbXQteUE3aGlBdERTbXBheWZscDVzQUY4aFRQeldzYjJ3ODFvT0gxZDRqb3gxV3p1dnZyWHNVejIzRmsybGVuOVpwLXZkQ1FaVUh3d3ViUUpBcHJJQXRLcC1qZUNaa1NKUTRmOGRobHc4eVJYUUFLMmhlUm1CemJPSFhjUloxNzZHVUN6cEFxVm53NVlxSnFfVi1MSXNTSHpKVmpYNU1BRlNJSFdZV3NTTEJ2TTJPRUYxaHp6NV9XTTNncGQ0VTlqNkdIbXI2LVNONmFJVzk5LVViWkpNNy1ZQWpZSVN6Y1M?oc=5\" target=\"_blank\">Vielfältiges Programm: „Summer of Sustainability 2026“ an der Universität zu Köln</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Universität zu Köln</font>",
+      "id": "55fe05c1033f803b"
     },
     {
       "title": "Nach Sicherheitsbedenken keine Bovaer-Pflicht - Der Schweizer Bauer",
@@ -134,10 +134,21 @@
       "pubDate": "2026-04-17T18:33:14+00:00",
       "source": "Der Schweizer Bauer",
       "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNUk4yZ2Z6RmdsSG5mOXFZMUs3N2hUNDJsNjdjTmNqdUdYcWtCV1lwbVNFSkk5TGhwNWVHdS1CTXZoVDBwWjJBWlRnTmNKRExiRWpnUlg5T2VMTDBjU0dtT1ZSN0psUXJ6VUotdE91WUhlSEdXNnFWb05sblBnbUxXOU9YSzVWcC1Qa1FsQkl4eTROblM5aEo1Q1lCV3FWNWM?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
       "id": "aff1bc6d771decd9"
+    },
+    {
+      "title": "Nuevo hallazgo: Harina de insectos inhibe el desarrollo de patógenos en salmones - Salmonexpert",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQb3NHSE1RdEY3RXZwX0ZEWlJDS05vdzY4R05OT2IyY3Jsck95clBRbUl2TzJfOFFmTUhYQlMtc0l6VV9xV1hNMlA0VGN4OXBZeENlU2thRjVDYTJOZlVtaUVUVUhNekQ4NExzNEY4V1hCaXZrcEpmMmhkOGUydDFUVV8zLWZ6ZmZSSnI3ZlRRTG9heDhScUdFNURFMUlNaDl0SU0yMVJqSkFtRlhWUUptSDUzZXpOY0ZEdWk3SWlxRVp1UWxFQUlUTmR5U0FGUUgxY240YzVkSUhPaWVvS0c2X1dWMThpNnh3SUNN?oc=5",
+      "pubDate": "2026-04-10T09:20:00+00:00",
+      "source": "Salmonexpert",
+      "language": "es",
+      "country": "ES",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+harina+de+insecto%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=es&gl=ES&ceid=ES%3Aes",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQb3NHSE1RdEY3RXZwX0ZEWlJDS05vdzY4R05OT2IyY3Jsck95clBRbUl2TzJfOFFmTUhYQlMtc0l6VV9xV1hNMlA0VGN4OXBZeENlU2thRjVDYTJOZlVtaUVUVUhNekQ4NExzNEY4V1hCaXZrcEpmMmhkOGUydDFUVV8zLWZ6ZmZSSnI3ZlRRTG9heDhScUdFNURFMUlNaDl0SU0yMVJqSkFtRlhWUUptSDUzZXpOY0ZEdWk3SWlxRVp1UWxFQUlUTmR5U0FGUUgxY240YzVkSUhPaWVvS0c2X1dWMThpNnh3SUNN?oc=5\" target=\"_blank\">Nuevo hallazgo: Harina de insectos inhibe el desarrollo de patógenos en salmones</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Salmonexpert</font>",
+      "id": "d17317a9f09de422"
     },
     {
       "title": "IPIFF urges EU to set mandatory insect meal targets for aquafeed - WEAREAQUACULTURE",
@@ -167,8 +178,8 @@
       "pubDate": "2026-04-01T07:00:00+00:00",
       "source": "Aquafeed.com",
       "language": "en",
-      "country": "US",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlJWajlpNEx3WnZvSWNFdGVxcW9hak9URWxvYW5NZGlnLW5qX1NNaVg2cTI1WkZWYXNNYkVxVVpZVjN2Qk5YS1YtSGVsSUpCRVg3TGJmNThJQ2Nja29QTkdmYkFOUmFsQXM0RGVaNjRWQkphTl83RW5lTFJualhfMnI4VVIwckJrY3JzaDg2a0pRVk0yc1YxVVNPY0s5eThsQm5uLVl6UkFqVEl6T25wdGZQNTAzZWc?oc=5\" target=\"_blank\">IPIFF urges EU to set measures to increase insect meal inclusion in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
       "id": "f1d9ea15e553d750"
     },
@@ -306,6 +317,17 @@
       "manuallyAdded": true
     },
     {
+      "title": "Bovaer, Metanhemmer | Danske forskere: Tror de har funnet grunn til at Bovaer gjorde kuer syke - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWElLa013bXItbEl3Q2FUN2pnUnVaX0cya1luamd5NzJFUm56bnZSRUVEcVlvM2p2akktT3FwVEh3YUtrRjBCVnRhVVJZS19obzk0dENkR1ZCdG5VZmV5ZURHNC1qNVFYSEpETkVhZXJSMFlWVC1yV0NNdWdIVnZMX0NMQmR6MG1PYmE1b2tYNHU5RHFPLW1CdDFqODVUS0dzLTgxRXF2cU1ZRm9zYjE4?oc=5",
+      "pubDate": "2026-03-06T08:00:00+00:00",
+      "source": "Nationen",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOWElLa013bXItbEl3Q2FUN2pnUnVaX0cya1luamd5NzJFUm56bnZSRUVEcVlvM2p2akktT3FwVEh3YUtrRjBCVnRhVVJZS19obzk0dENkR1ZCdG5VZmV5ZURHNC1qNVFYSEpETkVhZXJSMFlWVC1yV0NNdWdIVnZMX0NMQmR6MG1PYmE1b2tYNHU5RHFPLW1CdDFqODVUS0dzLTgxRXF2cU1ZRm9zYjE4?oc=5\" target=\"_blank\">Bovaer, Metanhemmer | Danske forskere: Tror de har funnet grunn til at Bovaer gjorde kuer syke</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "a51166b277ec5d64"
+    },
+    {
       "title": "Bovaer granskas – detta visar analysen - ATL.nu",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54aW94NEdBMU1BRUZ0WWhLMkx2eXZGMk50QUNNNVdQenE2ci1jaDdySFJzamw2R044bGhhamR5UUFoUkp0R09od0xtT0QtLWRyVmcwcFJBdVpuNUUwcDNleU5tbUNEcE1PczVqbXQtVzJzZw?oc=5",
       "pubDate": "2026-03-05T08:00:00+00:00",
@@ -317,17 +339,6 @@
       "id": "9b01c6905d968822"
     },
     {
-      "title": "Sustainability Transformation Monitor 2026 - Haufe. Intelligenz, die bewegt.",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcFM3OE40NTZKaWpqakhXSE12RjZwQU9rYzNwRWY5S3U4UE5BNUdfSmNMRy1VSVN0a0EzY2JXeDFTRnlVcFdGYVBYcDlINnZtR29pVFNBTnprc295MVVqMldUaTFYSmRTRTY0cDRueU56UVhicVhLWjJJUFJoZElCUnpZZl94VWFlZENBQ2RJV1QyTExUS19BVXU3VUkwMERGX3pSUw?oc=5",
-      "pubDate": "2026-03-05T08:00:00+00:00",
-      "source": "Haufe. Intelligenz, die bewegt.",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPcFM3OE40NTZKaWpqakhXSE12RjZwQU9rYzNwRWY5S3U4UE5BNUdfSmNMRy1VSVN0a0EzY2JXeDFTRnlVcFdGYVBYcDlINnZtR29pVFNBTnprc295MVVqMldUaTFYSmRTRTY0cDRueU56UVhicVhLWjJJUFJoZElCUnpZZl94VWFlZENBQ2RJV1QyTExUS19BVXU3VUkwMERGX3pSUw?oc=5\" target=\"_blank\">Sustainability Transformation Monitor 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
-      "id": "b2ef0792d0baf9dd"
-    },
-    {
       "title": "Politikk, Metanhemmer | Konfronterer Sandtrøen: Frykter ny snikinnføring av Bovaer - Nationen",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWJSMllrclc3MXk0Uy01ekdOaC03dTBmeHNQMWhtQTFiYXhPTlFCYmV0YmJ1SEROYmhpYmVCQ01JRHZ2VDh3TVhhRFRsbzdPeXFfX011UGU2TkdjMUw1M01LLTJtSHFHWG5JbWxQQmhxeVRoZ3FDWUk5LUFrbGhXNkJ3a0doeFRGRWVKZXQwSW1tUExXTlhCTmhxLTBDQQ?oc=5",
       "pubDate": "2026-02-27T08:00:00+00:00",
@@ -337,17 +348,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQTWJSMllrclc3MXk0Uy01ekdOaC03dTBmeHNQMWhtQTFiYXhPTlFCYmV0YmJ1SEROYmhpYmVCQ01JRHZ2VDh3TVhhRFRsbzdPeXFfX011UGU2TkdjMUw1M01LLTJtSHFHWG5JbWxQQmhxeVRoZ3FDWUk5LUFrbGhXNkJ3a0doeFRGRWVKZXQwSW1tUExXTlhCTmhxLTBDQQ?oc=5\" target=\"_blank\">Politikk, Metanhemmer | Konfronterer Sandtrøen: Frykter ny snikinnføring av Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
       "id": "c6083a93ed8344c7"
-    },
-    {
-      "title": "Elektromobilität: Sustainability Battery Giga-Fabs - Siemens",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5",
-      "pubDate": "2026-02-26T12:31:31+00:00",
-      "source": "Siemens",
-      "language": "de",
-      "country": "DE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5\" target=\"_blank\">Elektromobilität: Sustainability Battery Giga-Fabs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Siemens</font>",
-      "id": "5da6f3b5b635bb63"
     },
     {
       "title": "Bønder raser mot Bondelaget: Melkeprodusentenes verste fiende",
