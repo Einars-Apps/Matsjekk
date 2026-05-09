@@ -524845,6 +524845,30 @@
       "lat": 51.2499212,
       "lon": 0.2929966,
       "address": null
+    },
+    {
+      "id": 5485947407,
+      "name": "Mee Market Korean Food Hall",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "London",
+      "products": [],
+      "website": "http://meemarket.co.uk/",
+      "lat": 51.5118071,
+      "lon": -0.1335966,
+      "address": "Archer Street"
+    },
+    {
+      "id": 1509987603,
+      "name": "Fairlawne",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.2476721,
+      "lon": 0.2869368,
+      "address": null
     }
   ],
   "IE": [
