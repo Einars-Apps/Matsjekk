@@ -3210,7 +3210,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.abhof-luftensteiner.at/",
+    "website": "https://www.abhof-luftensteiner.at/",
     "lat": 48.1888646,
     "lon": 14.6870846,
     "address": null
@@ -8682,7 +8682,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.marille-ab-hof.at/kuerbisse/",
+    "website": "https://www.marille-ab-hof.at/kuerbisse/",
     "lat": 48.1751874,
     "lon": 14.3439119,
     "address": null
@@ -14016,18 +14016,6 @@
     "address": null
   },
   {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
-    "address": null
-  },
-  {
     "id": 12475401942,
     "name": "Waldgut",
     "country": "Austria",
@@ -14038,6 +14026,18 @@
     "lat": 48.1487789,
     "lon": 16.2683498,
     "address": "Geßlgasse"
+  },
+  {
+    "id": 13731641804,
+    "name": "Bauernladen - Bauernhof Jäger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
+    "address": null
   },
   {
     "id": 12294534720,

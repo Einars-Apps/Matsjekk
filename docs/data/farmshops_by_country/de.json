@@ -9906,7 +9906,7 @@
     "region": null,
     "municipality": "Albessen",
     "products": [],
-    "website": null,
+    "website": "http://www.hof-am-weiher.de",
     "lat": 49.5165608,
     "lon": 7.3306771,
     "address": "Burgweg"
@@ -12018,7 +12018,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://feines-vom-bauernhof.com",
+    "website": "https://feines-vom-bauernhof.com/",
     "lat": 49.9844347,
     "lon": 10.213573,
     "address": "Hauptstraße"
@@ -12822,7 +12822,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://www.feines-vom-bauernhof.com/",
+    "website": "https://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
     "address": "Hauptstraße"

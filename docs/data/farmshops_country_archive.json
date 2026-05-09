@@ -24996,6 +24996,19 @@
       "lon": 10.414695739746094,
       "address": "Jarleveien 12",
       "source": "https://www.lokalmat.no/produsenter/the-farm-societytm/"
+    },
+    {
+      "id": "lokalmat_12110",
+      "name": "Eplehagen Havna",
+      "country": "Norway",
+      "region": "Østfold",
+      "municipality": "VESTERØY",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Havna 31",
+      "source": "https://www.lokalmat.no/produsenter/eplehagen-havna/"
     }
   ],
   "SE": [
