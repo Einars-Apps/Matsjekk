@@ -626710,6 +626710,18 @@
       "lat": 47.5246046,
       "lon": 7.6410672,
       "address": "Sevogelstrasse"
+    },
+    {
+      "id": 13811034747,
+      "name": "Azienda Agricola Poma",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Tremona",
+      "products": [],
+      "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+      "lat": 45.8806573,
+      "lon": 8.9528781,
+      "address": "Via Monte San Giorgio"
     }
   ],
   "LI": [

@@ -1578,7 +1578,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://leclosdelogette.over-blog.com/",
+    "website": "https://leclosdelogette.over-blog.com/",
     "lat": 49.4390239,
     "lon": 2.6102082,
     "address": null
@@ -3103,8 +3103,8 @@
     "municipality": "Saint-Cézaire-sur-Siagne",
     "products": [],
     "website": null,
-    "lat": 43.6507818,
-    "lon": 6.7926176,
+    "lat": 43.6507692,
+    "lon": 6.7926035,
     "address": "Boulevard Courmes"
   },
   {
@@ -4878,7 +4878,7 @@
     "region": null,
     "municipality": "Oloron-Sainte-Marie",
     "products": [],
-    "website": "http://totdecasa.fr/",
+    "website": "https://totdecasa.fr/",
     "lat": 43.1919505,
     "lon": -0.6131736,
     "address": "Rue Carrerot"
@@ -14598,7 +14598,7 @@
     "region": null,
     "municipality": "La Table",
     "products": [],
-    "website": "http://www.lenantdelaguire.com/",
+    "website": "https://www.lenantdelaguire.com/",
     "lat": 45.4734735,
     "lon": 6.1843478,
     "address": "Route de la Table au Villard"
@@ -15282,7 +15282,7 @@
     "region": null,
     "municipality": "Tournon",
     "products": [],
-    "website": "lafermeducoteau.fr",
+    "website": "https://lafermeducoteau.fr/",
     "lat": 45.641432,
     "lon": 6.3194328,
     "address": "Route des vignes"
@@ -15450,7 +15450,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.lesjardinsdemontplaisir.fr/index.html",
+    "website": "https://www.lesjardinsdemontplaisir.fr/index.html",
     "lat": 49.4056346,
     "lon": 2.7449298,
     "address": null
@@ -17056,12 +17056,12 @@
     "name": "AMAP de le Glacière",
     "country": "France",
     "region": null,
-    "municipality": "Saint-Vincent-de-Paul",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 43.7697815,
     "lon": -0.9874478,
-    "address": "Route des Gravières"
+    "address": null
   },
   {
     "id": 8104334334,
@@ -17214,7 +17214,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://lafermeducoteau.fr/",
+    "website": "https://lafermeducoteau.fr/",
     "lat": 45.6414527,
     "lon": 6.3197334,
     "address": null
@@ -37717,7 +37717,7 @@
   },
   {
     "id": 13809160962,
-    "name": "Gaec de la Carriere",
+    "name": "Gaec de la Carrière",
     "country": "France",
     "region": null,
     "municipality": null,
@@ -37750,6 +37750,54 @@
     "lat": 45.0169328,
     "lon": 5.4453775,
     "address": "Chemin de Toulouze"
+  },
+  {
+    "id": 13810673767,
+    "name": "Herba Humana",
+    "country": "France",
+    "region": null,
+    "municipality": "Neuillay-les-Bois",
+    "products": [],
+    "website": "www.herba-hulana.fr",
+    "lat": 46.7210567,
+    "lon": 1.4622621,
+    "address": null
+  },
+  {
+    "id": 13810833479,
+    "name": "Le Gargilesse - Chèvrerie",
+    "country": "France",
+    "region": null,
+    "municipality": "Gargilesse-Dampierre",
+    "products": [],
+    "website": null,
+    "lat": 46.5008965,
+    "lon": 1.6095434,
+    "address": null
+  },
+  {
+    "id": 13810921501,
+    "name": "Ferme des Tournelles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://://www.fermedestournelles.com",
+    "lat": 49.0772906,
+    "lon": 2.1792608,
+    "address": "Rue des Tournelles"
+  },
+  {
+    "id": 13812369535,
+    "name": "Gaec du Patis Candé",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3877442,
+    "lon": -0.7442199,
+    "address": null
   },
   {
     "id": 24528129,
@@ -46922,6 +46970,30 @@
     "website": null,
     "lat": 43.7050338,
     "lon": 3.8779576,
+    "address": null
+  },
+  {
+    "id": 3982196508,
+    "name": "L'oliveraie des Fons Bourdouos",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Cézaire-sur-Siagne",
+    "products": [],
+    "website": null,
+    "lat": 43.6507818,
+    "lon": 6.7926176,
+    "address": "Boulevard Courmes"
+  },
+  {
+    "id": 13809160962,
+    "name": "Gaec de la Carriere",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7494365,
+    "lon": 1.1899231,
     "address": null
   },
   {

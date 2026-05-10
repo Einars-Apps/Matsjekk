@@ -1098,7 +1098,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.poderelafonte.com",
+    "website": "https://www.poderelafonte.com/",
     "lat": 43.2634193,
     "lon": 11.0417058,
     "address": null
@@ -4629,18 +4629,6 @@
     "website": "https://www.laferula.it/",
     "lat": 45.8059973,
     "lon": 13.5032479,
-    "address": null
-  },
-  {
-    "id": 7626026736,
-    "name": "La Botte",
-    "country": "Italy",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.1724495,
-    "lon": 15.5445885,
     "address": null
   },
   {
@@ -9396,6 +9384,18 @@
     "address": null
   },
   {
+    "id": 13807762448,
+    "name": "Farmagricola Zingarelli Nicola",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2847053,
+    "lon": 15.766478,
+    "address": null
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",
@@ -13845,6 +13845,18 @@
     "website": null,
     "lat": 44.7961349,
     "lon": 12.2560239,
+    "address": null
+  },
+  {
+    "id": 7626026736,
+    "name": "La Botte",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1724495,
+    "lon": 15.5445885,
     "address": null
   },
   {

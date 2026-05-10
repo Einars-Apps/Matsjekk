@@ -90643,7 +90643,7 @@
     "region": null,
     "municipality": "Hochstadt (Pfalz)",
     "products": [],
-    "website": "http://www.obsthof-wicke.de/",
+    "website": "https://www.obsthof-wicke.de/",
     "lat": 49.2393039,
     "lon": 8.2009098,
     "address": "Obere Brückengärten"
@@ -95383,7 +95383,7 @@
     "region": null,
     "municipality": "Bad Herrenalb",
     "products": [],
-    "website": "http://www.schwalbenhof-gbr.de",
+    "website": "https://schwalbenhof-gbr.de",
     "lat": 48.8176273,
     "lon": 8.4805971,
     "address": "Uhlandstraße"
@@ -99391,7 +99391,7 @@
     "region": null,
     "municipality": "Abensberg",
     "products": [],
-    "website": "http://www.spargelhof-bluemel.de",
+    "website": "https://www.spargelhof-bluemel.de/",
     "lat": 48.8376808,
     "lon": 11.8153378,
     "address": "Abensberger Straße"
@@ -119503,7 +119503,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.zumhofer-hausnudeln.de",
+    "website": "https://www.zumhofer-hausnudeln.de/",
     "lat": 48.8864244,
     "lon": 9.5466068,
     "address": null
@@ -122479,7 +122479,7 @@
     "region": null,
     "municipality": "Stuttgart",
     "products": [],
-    "website": "http://www.hof-am-eichenhain.de/",
+    "website": "https://hof-am-eichenhain.de/",
     "lat": 48.733226,
     "lon": 9.2106078,
     "address": "Eichenparkstraße"
@@ -126157,6 +126157,18 @@
     "address": "Karlsruher Straße"
   },
   {
+    "id": 204039880,
+    "name": "Gemüsehof Humbold",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.729365,
+    "lon": 11.435039,
+    "address": "Dorfstraße"
+  },
+  {
     "id": 204899555,
     "name": "Obstwiese",
     "country": "Germany",
@@ -126187,7 +126199,7 @@
     "region": null,
     "municipality": "Steinhöring",
     "products": [],
-    "website": "http://evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
+    "website": "https://www.evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
     "lat": 48.0843833,
     "lon": 12.0250788,
     "address": "Münchener Straße"
@@ -279075,8 +279087,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7374074,
-    "lon": 4.2700674,
+    "lat": 50.7373829,
+    "lon": 4.2700518,
     "address": null
   },
   {
@@ -280796,6 +280808,42 @@
     "address": null
   },
   {
+    "id": 13764337580,
+    "name": "Cocottes en Ribotte",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.614868,
+    "lon": 4.4976924,
+    "address": null
+  },
+  {
+    "id": 13776306636,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Klemskerke",
+    "products": [],
+    "website": null,
+    "lat": 51.2556942,
+    "lon": 3.0442422,
+    "address": "Bredeweg"
+  },
+  {
+    "id": 13801006290,
+    "name": "Ferme du Montaval",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.1812477,
+    "lon": 4.456854,
+    "address": null
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -281073,15 +281121,15 @@
   },
   {
     "id": 176724751,
-    "name": "Levensbron",
+    "name": "Boer Maarten",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Attenrode",
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": null
+    "address": "Langstraat"
   },
   {
     "id": 184544766,
@@ -281168,6 +281216,18 @@
     "address": null
   },
   {
+    "id": 233873758,
+    "name": "Viskwekerij Vandeput",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Zonhoven",
+    "products": [],
+    "website": "https://sites.google.com/site/viskwekerijvandeput/",
+    "lat": 50.9877343,
+    "lon": 5.3412821,
+    "address": "Boomsteeg"
+  },
+  {
     "id": 250412766,
     "name": "Au fil des saisons",
     "country": "Belgium",
@@ -281217,15 +281277,15 @@
   },
   {
     "id": 294169618,
-    "name": "De Melkautomaat",
+    "name": "Jerseyhoeve De Haan automatenshop",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Klemskerke",
     "products": [],
     "website": null,
     "lat": 51.2556962,
     "lon": 3.0441037,
-    "address": null
+    "address": "Bredeweg"
   },
   {
     "id": 297121323,
@@ -282236,6 +282296,18 @@
     "address": "De Lusthoven"
   },
   {
+    "id": 1092175388,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2557506,
+    "lon": 3.0442608,
+    "address": null
+  },
+  {
     "id": 1097455780,
     "name": "Les paniers de Maryse",
     "country": "Belgium",
@@ -282519,92 +282591,32 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7373829,
-    "lon": 4.2700518,
-    "address": null
-  },
-  {
-    "id": 13764337580,
-    "name": "Cocottes en Ribotte",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.614868,
-    "lon": 4.4976924,
-    "address": null
-  },
-  {
-    "id": 13776306636,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556942,
-    "lon": 3.0442422,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 13801006290,
-    "name": "Ferme du Montaval",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.1812477,
-    "lon": 4.456854,
+    "lat": 50.7374074,
+    "lon": 4.2700674,
     "address": null
   },
   {
     "id": 176724751,
-    "name": "Boer Maarten",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Attenrode",
-    "products": [],
-    "website": null,
-    "lat": 50.8707873,
-    "lon": 4.9157722,
-    "address": "Langstraat"
-  },
-  {
-    "id": 233873758,
-    "name": "Viskwekerij Vandeput",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Zonhoven",
-    "products": [],
-    "website": "https://sites.google.com/site/viskwekerijvandeput/",
-    "lat": 50.9877343,
-    "lon": 5.3412821,
-    "address": "Boomsteeg"
-  },
-  {
-    "id": 294169618,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556962,
-    "lon": 3.0441037,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 1092175388,
-    "name": "Jerseyhoeve De Haan automatenshop",
+    "name": "Levensbron",
     "country": "Belgium",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.2557506,
-    "lon": 3.0442608,
+    "lat": 50.8707873,
+    "lon": 4.9157722,
+    "address": null
+  },
+  {
+    "id": 294169618,
+    "name": "De Melkautomaat",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2556962,
+    "lon": 3.0441037,
     "address": null
   },
   {
@@ -303503,7 +303515,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://leclosdelogette.over-blog.com/",
+    "website": "https://leclosdelogette.over-blog.com/",
     "lat": 49.4390239,
     "lon": 2.6102082,
     "address": null
@@ -305028,8 +305040,8 @@
     "municipality": "Saint-Cézaire-sur-Siagne",
     "products": [],
     "website": null,
-    "lat": 43.6507818,
-    "lon": 6.7926176,
+    "lat": 43.6507692,
+    "lon": 6.7926035,
     "address": "Boulevard Courmes"
   },
   {
@@ -306803,7 +306815,7 @@
     "region": null,
     "municipality": "Oloron-Sainte-Marie",
     "products": [],
-    "website": "http://totdecasa.fr/",
+    "website": "https://totdecasa.fr/",
     "lat": 43.1919505,
     "lon": -0.6131736,
     "address": "Rue Carrerot"
@@ -316523,7 +316535,7 @@
     "region": null,
     "municipality": "La Table",
     "products": [],
-    "website": "http://www.lenantdelaguire.com/",
+    "website": "https://www.lenantdelaguire.com/",
     "lat": 45.4734735,
     "lon": 6.1843478,
     "address": "Route de la Table au Villard"
@@ -317207,7 +317219,7 @@
     "region": null,
     "municipality": "Tournon",
     "products": [],
-    "website": "lafermeducoteau.fr",
+    "website": "https://lafermeducoteau.fr/",
     "lat": 45.641432,
     "lon": 6.3194328,
     "address": "Route des vignes"
@@ -317375,7 +317387,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.lesjardinsdemontplaisir.fr/index.html",
+    "website": "https://www.lesjardinsdemontplaisir.fr/index.html",
     "lat": 49.4056346,
     "lon": 2.7449298,
     "address": null
@@ -318981,12 +318993,12 @@
     "name": "AMAP de le Glacière",
     "country": "France",
     "region": null,
-    "municipality": "Saint-Vincent-de-Paul",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 43.7697815,
     "lon": -0.9874478,
-    "address": "Route des Gravières"
+    "address": null
   },
   {
     "id": 8104334334,
@@ -319139,7 +319151,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://lafermeducoteau.fr/",
+    "website": "https://lafermeducoteau.fr/",
     "lat": 45.6414527,
     "lon": 6.3197334,
     "address": null
@@ -339642,7 +339654,7 @@
   },
   {
     "id": 13809160962,
-    "name": "Gaec de la Carriere",
+    "name": "Gaec de la Carrière",
     "country": "France",
     "region": null,
     "municipality": null,
@@ -339675,6 +339687,54 @@
     "lat": 45.0169328,
     "lon": 5.4453775,
     "address": "Chemin de Toulouze"
+  },
+  {
+    "id": 13810673767,
+    "name": "Herba Humana",
+    "country": "France",
+    "region": null,
+    "municipality": "Neuillay-les-Bois",
+    "products": [],
+    "website": "www.herba-hulana.fr",
+    "lat": 46.7210567,
+    "lon": 1.4622621,
+    "address": null
+  },
+  {
+    "id": 13810833479,
+    "name": "Le Gargilesse - Chèvrerie",
+    "country": "France",
+    "region": null,
+    "municipality": "Gargilesse-Dampierre",
+    "products": [],
+    "website": null,
+    "lat": 46.5008965,
+    "lon": 1.6095434,
+    "address": null
+  },
+  {
+    "id": 13810921501,
+    "name": "Ferme des Tournelles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://://www.fermedestournelles.com",
+    "lat": 49.0772906,
+    "lon": 2.1792608,
+    "address": "Rue des Tournelles"
+  },
+  {
+    "id": 13812369535,
+    "name": "Gaec du Patis Candé",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3877442,
+    "lon": -0.7442199,
+    "address": null
   },
   {
     "id": 24528129,
@@ -348847,6 +348907,30 @@
     "website": null,
     "lat": 43.7050338,
     "lon": 3.8779576,
+    "address": null
+  },
+  {
+    "id": 3982196508,
+    "name": "L'oliveraie des Fons Bourdouos",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Cézaire-sur-Siagne",
+    "products": [],
+    "website": null,
+    "lat": 43.6507818,
+    "lon": 6.7926176,
+    "address": "Boulevard Courmes"
+  },
+  {
+    "id": 13809160962,
+    "name": "Gaec de la Carriere",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7494365,
+    "lon": 1.1899231,
     "address": null
   },
   {
@@ -490885,7 +490969,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.poderelafonte.com",
+    "website": "https://www.poderelafonte.com/",
     "lat": 43.2634193,
     "lon": 11.0417058,
     "address": null
@@ -494416,18 +494500,6 @@
     "website": "https://www.laferula.it/",
     "lat": 45.8059973,
     "lon": 13.5032479,
-    "address": null
-  },
-  {
-    "id": 7626026736,
-    "name": "La Botte",
-    "country": "Italy",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 40.1724495,
-    "lon": 15.5445885,
     "address": null
   },
   {
@@ -499183,6 +499255,18 @@
     "address": null
   },
   {
+    "id": 13807762448,
+    "name": "Farmagricola Zingarelli Nicola",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 41.2847053,
+    "lon": 15.766478,
+    "address": null
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",
@@ -503632,6 +503716,18 @@
     "website": null,
     "lat": 44.7961349,
     "lon": 12.2560239,
+    "address": null
+  },
+  {
+    "id": 7626026736,
+    "name": "La Botte",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 40.1724495,
+    "lon": 15.5445885,
     "address": null
   },
   {
@@ -647073,7 +647169,7 @@
     "region": null,
     "municipality": "Valls",
     "products": [],
-    "website": "www.coopvalls.cat",
+    "website": "https://www.coopvalls.cat/",
     "lat": 41.2820589,
     "lon": 1.250297,
     "address": "Plaça del Carme"
@@ -712456,7 +712552,7 @@
     "region": null,
     "municipality": "Bishop Auckland",
     "products": [],
-    "website": null,
+    "website": "https://www.bradleyburn.co.uk/",
     "lat": 54.721956,
     "lon": -1.8382827,
     "address": null
@@ -721222,18 +721318,6 @@
     "address": null
   },
   {
-    "id": 13578056,
-    "name": "Leckford Estate",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
-    "address": null
-  },
-  {
     "id": 13580414,
     "name": "Little Holmhill Inclosure",
     "country": "United Kingdom",
@@ -722479,6 +722563,18 @@
     "website": null,
     "lat": 50.7224101,
     "lon": -2.1474983,
+    "address": null
+  },
+  {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
     "address": null
   },
   {
@@ -757713,7 +757809,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.imkerei-reichl.at/wb/pages/home.php",
+    "website": "http://www.imkerei-reichl.at/wb/pages/home.php",
     "lat": 48.027105,
     "lon": 13.0222162,
     "address": null
@@ -759717,7 +759813,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.abhof-luftensteiner.at/",
+    "website": "http://www.abhof-luftensteiner.at/",
     "lat": 48.1888646,
     "lon": 14.6870846,
     "address": null
@@ -765189,7 +765285,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.marille-ab-hof.at/kuerbisse/",
+    "website": "http://www.marille-ab-hof.at/kuerbisse/",
     "lat": 48.1751874,
     "lon": 14.3439119,
     "address": null
@@ -766264,12 +766360,12 @@
   },
   {
     "id": 13731641804,
-    "name": "SB - Bauernladen Kühnsdorf",
+    "name": "Bauernladen - Bauernhof Jäger",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "website": "https://www.bauernhof-jaeger.com/",
     "lat": 46.62794,
     "lon": 14.6343338,
     "address": null
@@ -766344,18 +766440,6 @@
     "website": null,
     "lat": 48.2043105,
     "lon": 16.4574336,
-    "address": null
-  },
-  {
-    "id": 13800970542,
-    "name": "Bauernhof Jäger - Ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5724726,
-    "lon": 14.5557935,
     "address": null
   },
   {
@@ -769395,18 +769479,6 @@
     "address": null
   },
   {
-    "id": 1509746903,
-    "name": "SB - Bauernladen Pogerschitzen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5651407,
-    "lon": 14.5543197,
-    "address": null
-  },
-  {
     "id": 22203,
     "name": "Leechwald",
     "country": "Austria",
@@ -770523,6 +770595,42 @@
     "address": null
   },
   {
+    "id": 13731641804,
+    "name": "SB - Bauernladen Kühnsdorf",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.62794,
+    "lon": 14.6343338,
+    "address": null
+  },
+  {
+    "id": 13800970542,
+    "name": "Bauernhof Jäger - Ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5724726,
+    "lon": 14.5557935,
+    "address": null
+  },
+  {
+    "id": 1509746903,
+    "name": "SB - Bauernladen Pogerschitzen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5651407,
+    "lon": 14.5543197,
+    "address": null
+  },
+  {
     "id": 12475401942,
     "name": "Waldgut",
     "country": "Austria",
@@ -770533,18 +770641,6 @@
     "lat": 48.1487789,
     "lon": 16.2683498,
     "address": "Geßlgasse"
-  },
-  {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
-    "address": null
   },
   {
     "id": 12294534720,
@@ -818728,6 +818824,18 @@
     "lat": 47.5355636,
     "lon": 9.3397851,
     "address": null
+  },
+  {
+    "id": 13811034747,
+    "name": "Azienda Agricola Poma",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Tremona",
+    "products": [],
+    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+    "lat": 45.8806573,
+    "lon": 8.9528781,
+    "address": "Via Monte San Giorgio"
   },
   {
     "id": 8803584,
