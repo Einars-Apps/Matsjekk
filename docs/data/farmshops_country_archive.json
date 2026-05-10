@@ -576265,6 +576265,18 @@
       "lat": 46.5651407,
       "lon": 14.5543197,
       "address": null
+    },
+    {
+      "id": 13810833501,
+      "name": "Erdbeeren, Spargel",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.2107881,
+      "lon": 16.2544697,
+      "address": null
     }
   ],
   "CH": [
