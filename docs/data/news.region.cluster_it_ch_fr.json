@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-10T05:28:12.438114+00:00",
+  "generatedAt": "2026-05-11T05:39:23.672557+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 23,
+  "total": 22,
   "errors": [],
   "items": [
     {
@@ -17,6 +17,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQc0ljalF5NWZvZlJ5Y2kxMWxWc3FBS2N5N0lqY1RQUGtXTFNvc2hwaUgybXNpaEJlc1lqRFI0TVVDQzN3VkdDaGhoeEEwdjMwQ0h6XzU3ZUtzcjN5a3FHRXlaWFJNazNIZHUtbDBrSEpnT191THJpcVZkUjZPVkszVzh3?oc=5\" target=\"_blank\">STOXX Sustainability 40 Return USD Charts | Jahresverlauf | Tageschart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
       "id": "f688ea82427b346b"
+    },
+    {
+      "title": "STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjJLV280ZlVGUFprTzVBa1l5aVRYUkFIcGdBbU54WHY0SFhfN2tDRXNuOGNzaXc1anRpMDVIVlMydTdhRUItWmJpNzYzNkZLUExDN2dTMk82QnBmVWJBaXBBQVVscFJYRkVfUXJFb3dQNTFvdkl2VWdFbWJDSVRMa3llNk80dFR4UEJ5RlhWZWxOWklZajBFdEUyVkUtVGRWbGlMaHpGMlNwNzhySWpXR3JpT3k0c2VBMEJOQUlGUHRvM0RfWnc1blE5bWNsZ0Ria3BjaWdrSE9kZlFySVppZmxhbk85dDg4V0NCYy00NjZhNGc?oc=5",
+      "pubDate": "2026-05-08T07:00:00+00:00",
+      "source": "boerse.de",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjJLV280ZlVGUFprTzVBa1l5aVRYUkFIcGdBbU54WHY0SFhfN2tDRXNuOGNzaXc1anRpMDVIVlMydTdhRUItWmJpNzYzNkZLUExDN2dTMk82QnBmVWJBaXBBQVVscFJYRkVfUXJFb3dQNTFvdkl2VWdFbWJDSVRMa3llNk80dFR4UEJ5RlhWZWxOWklZajBFdEUyVkUtVGRWbGlMaHpGMlNwNzhySWpXR3JpT3k0c2VBMEJOQUlGUHRvM0RfWnc1blE5bWNsZ0Ria3BjaWdrSE9kZlFySVppZmxhbk85dDg4V0NCYy00NjZhNGc?oc=5\" target=\"_blank\">STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "27076110f5741777"
     },
     {
       "title": "Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert - aerokurier",
@@ -50,28 +61,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1FwR3dpeWk4clF6cE9xN0pqS3pld2l4SmNaMFdkc1h6cjZ5QVlLZ0xJSlZlTEJOT3pPbTZjUkRBODNBSGJkTDJnN3F5SnJqVFBDT2d3NEFlcTRTVFlnYWhsVURmRnJxOUU0aF9xS3lLelpGdUlBQjFGdFhFN3ZZMWJOc3JWYWJnblpSUjV5ejBtT1RBMzNvNm9HVk1Gc21Ia0FZeWMxbEhpT1ZFWlZILVYwdlBHUEhQbDhxcF94cTFPc0ZxdGREaWcta29VeWtONmV4ZnV5WHJCZnMzUWxlNndiS3lKNE9Oakk1LXJQM2ZlQjQ?oc=5\" target=\"_blank\">Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maritima</font>",
       "id": "1eabcf9698f75c66"
-    },
-    {
-      "title": "Digital Sustainability Summit 2026 | Programm - Bitkom e. V.",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yTHZwOWhFLWZoNkFYem1UWV9lNGs0M2JmZXFQSEtEMF8tenl2VkRnUVFXV3lDbkVvanZoZTA0YW9QXzVKUUZTNXJLX244YWNsQ0RaZERGN2tSUG5NWWRZRHlaeVRfTUV6VU5hcUdVVnJYdmRh?oc=5",
-      "pubDate": "2026-03-20T17:14:09+00:00",
-      "source": "Bitkom e. V.",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9yTHZwOWhFLWZoNkFYem1UWV9lNGs0M2JmZXFQSEtEMF8tenl2VkRnUVFXV3lDbkVvanZoZTA0YW9QXzVKUUZTNXJLX244YWNsQ0RaZERGN2tSUG5NWWRZRHlaeVRfTUV6VU5hcUdVVnJYdmRh?oc=5\" target=\"_blank\">Digital Sustainability Summit 2026 | Programm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitkom e. V.</font>",
-      "id": "77d6e258982c2972"
-    },
-    {
-      "title": "Elektromobilität: Sustainability Battery Giga-Fabs - Siemens",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5",
-      "pubDate": "2026-02-26T12:31:31+00:00",
-      "source": "Siemens",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5\" target=\"_blank\">Elektromobilität: Sustainability Battery Giga-Fabs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Siemens</font>",
-      "id": "5da6f3b5b635bb63"
     },
     {
       "title": "#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations - trendingtopics.eu",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T05:28:12.436309+00:00",
+  "generatedAt": "2026-05-11T05:39:23.670823+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -13,21 +13,10 @@
       "pubDate": "2026-05-08T21:25:08+00:00",
       "source": "boerse.de",
       "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQc0ljalF5NWZvZlJ5Y2kxMWxWc3FBS2N5N0lqY1RQUGtXTFNvc2hwaUgybXNpaEJlc1lqRFI0TVVDQzN3VkdDaGhoeEEwdjMwQ0h6XzU3ZUtzcjN5a3FHRXlaWFJNazNIZHUtbDBrSEpnT191THJpcVZkUjZPVkszVzh3?oc=5\" target=\"_blank\">STOXX Sustainability 40 Return USD Charts | Jahresverlauf | Tageschart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
       "id": "f688ea82427b346b"
-    },
-    {
-      "title": "Start Chief Sustainability Officer (CSO) – 4-daagse opleiding - Duurzaam Ondernemen",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeHdyejg5WmEyODIxUFhTTll5NERWbmxEcTQ3TkdBb1pWRXJRRXIwbHBfUmJ3eWJyeWFYSkR0N1J1ZkJNQ2JaVGdhUTZUUmloc0l3LWowSHhPLVJEUGtoUml3NWFiT3ZoZG8zRzNpYks5ajRKUlBQWFc4QlBkNU9hNmJDd0JjS09oSWUtMnBVMmpQX0Z4Yld3c1p6U2d1MFF0aFE?oc=5",
-      "pubDate": "2026-05-08T20:27:28+00:00",
-      "source": "Duurzaam Ondernemen",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNeHdyejg5WmEyODIxUFhTTll5NERWbmxEcTQ3TkdBb1pWRXJRRXIwbHBfUmJ3eWJyeWFYSkR0N1J1ZkJNQ2JaVGdhUTZUUmloc0l3LWowSHhPLVJEUGtoUml3NWFiT3ZoZG8zRzNpYks5ajRKUlBQWFc4QlBkNU9hNmJDd0JjS09oSWUtMnBVMmpQX0Z4Yld3c1p6U2d1MFF0aFE?oc=5\" target=\"_blank\">Start Chief Sustainability Officer (CSO) – 4-daagse opleiding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duurzaam Ondernemen</font>",
-      "id": "a4c82232bc397e18"
     },
     {
       "title": "Stewart Investors Asia Pacific Leaders Sustainability B Acc Fonds | Kurs | Realtime | Chart - boerse.de",
@@ -41,26 +30,48 @@
       "id": "630a2a59330ea69f"
     },
     {
-      "title": "Stewart Investors Worldwide Leaders Sustainability Fd B Acc Fonds | Kurs | Realtime | Chart - boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkJhVmtxTDA2UDBTbkZXOC1GXzV3cXNCTk0tbGQ4UXlnWGRoMTJRVUZocHMwbS0tM2pQSEFRV1I0OGFUbm1VUzFsSGkzWGQwV2tCV1MyZnNBTzA1VzROdEw0UXhTaVVxdnBkcGtkMGFTZjl1NEtSUWFQMXhFRXlaaXhEdXJ4MmtLSHRLVmJPQXNkTGtCY0FrZ05wM05VdDZJRUE?oc=5",
-      "pubDate": "2026-05-08T11:12:43+00:00",
-      "source": "boerse.de",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkJhVmtxTDA2UDBTbkZXOC1GXzV3cXNCTk0tbGQ4UXlnWGRoMTJRVUZocHMwbS0tM2pQSEFRV1I0OGFUbm1VUzFsSGkzWGQwV2tCV1MyZnNBTzA1VzROdEw0UXhTaVVxdnBkcGtkMGFTZjl1NEtSUWFQMXhFRXlaaXhEdXJ4MmtLSHRLVmJPQXNkTGtCY0FrZ05wM05VdDZJRUE?oc=5\" target=\"_blank\">Stewart Investors Worldwide Leaders Sustainability Fd B Acc Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
-      "id": "c52e823736157cbc"
-    },
-    {
-      "title": "Stewart Investors Indian Subcontinent Sustainability Fund Class B (Accumulation) USD Fonds | Kurs | Realtime | Chart - boerse.de",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenZkd2k2eFpZMzlHOFUxM3M2U0xlX1Zwa21jbkdoMk1rc1N6UWJYeUlsblFDTlRUUHVFdlFoUThRYzBBeGpVdGl2b2Y2V3VxX1lTZGEyYTVqVExFcXlPMjI1d2p5dWtIX0dORFhpQThISGMzeGl5ZXgxb3RrUlhuWDM5bEEyYVE5VHZWNEh5bXJXenI5SVE0UTJpOGhvSnY4eUhBOFJDclpzZU9UTjhFTjh3QWpKT3V2WjN1WEhwdFM?oc=5",
+      "title": "AGIF - Allianz Global Sustainability - A - USD Fonds | Kurs | Realtime | Chart - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1dWYmxIbWY5LVVQakRwYVpmXzI3dTZTaTlZbnNQSHpYRXJwUC01OXFVYkgyYmlObkZYeTNRUVJkdERWMHJoUWxMdUdnRFlVRVdTOEdwekVpWFk4TGFIRkZjUDFpb1J3cW4tWnRpN1hNUE5Cd2VSSGJwRlpBVkFVWTlwYV85UTlG?oc=5",
       "pubDate": "2026-05-08T07:00:00+00:00",
       "source": "boerse.de",
       "language": "de",
       "country": "AT",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenZkd2k2eFpZMzlHOFUxM3M2U0xlX1Zwa21jbkdoMk1rc1N6UWJYeUlsblFDTlRUUHVFdlFoUThRYzBBeGpVdGl2b2Y2V3VxX1lTZGEyYTVqVExFcXlPMjI1d2p5dWtIX0dORFhpQThISGMzeGl5ZXgxb3RrUlhuWDM5bEEyYVE5VHZWNEh5bXJXenI5SVE0UTJpOGhvSnY4eUhBOFJDclpzZU9UTjhFTjh3QWpKT3V2WjN1WEhwdFM?oc=5\" target=\"_blank\">Stewart Investors Indian Subcontinent Sustainability Fund Class B (Accumulation) USD Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
-      "id": "9456ac0d2a61ccdf"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1dWYmxIbWY5LVVQakRwYVpmXzI3dTZTaTlZbnNQSHpYRXJwUC01OXFVYkgyYmlObkZYeTNRUVJkdERWMHJoUWxMdUdnRFlVRVdTOEdwekVpWFk4TGFIRkZjUDFpb1J3cW4tWnRpN1hNUE5Cd2VSSGJwRlpBVkFVWTlwYV85UTlG?oc=5\" target=\"_blank\">AGIF - Allianz Global Sustainability - A - USD Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "963f569c9bcfd79b"
+    },
+    {
+      "title": "STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQWhEakRnVzV0M3lKUTMtOXMzTG9lUm84RUxqcjFOMDVJOEQ2X05tWVJjRUVKOGp3bkptRU82XzdfbDVjN29qQm51NmM5YlhTNWRMOE1aWlRLdXlOcmVjQkJXSkNkeWpiWE1NbnQ4cXd6N21mTEF6QVlRbkVpT2FUR3V1a1ZtWGw2Z3VwbmpEQjdoR0VmN29sV3RkMnUyTzFoZ3Z1czVuLWRtam5qbm1HOElFVW1lcEw0YXZBNEhBWWRDSk1UMG5BS20zVnBMR0U?oc=5",
+      "pubDate": "2026-05-08T07:00:00+00:00",
+      "source": "boerse.de",
+      "language": "de",
+      "country": "AT",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPQWhEakRnVzV0M3lKUTMtOXMzTG9lUm84RUxqcjFOMDVJOEQ2X05tWVJjRUVKOGp3bkptRU82XzdfbDVjN29qQm51NmM5YlhTNWRMOE1aWlRLdXlOcmVjQkJXSkNkeWpiWE1NbnQ4cXd6N21mTEF6QVlRbkVpT2FUR3V1a1ZtWGw2Z3VwbmpEQjdoR0VmN29sV3RkMnUyTzFoZ3Z1czVuLWRtam5qbm1HOElFVW1lcEw0YXZBNEhBWWRDSk1UMG5BS20zVnBMR0U?oc=5\" target=\"_blank\">STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "6534bf1a861ad101"
+    },
+    {
+      "title": "AGIF - Allianz Global Sustainability - WT - EUR Fonds | Kurs | Realtime | Chart - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2k3QnFXcjdFOUljRGROZEtfVGZ0amI1NGRnLVZ3aXV2Z2I4aHNWclM2c2dFU3VnYVZkUVRnYnVNU0tzYzl0YUNYLVZ2djJmSDRZTklIb2xYVXFOaVl5bDZFMlRjUDZQT1p2WmRGbnowYUZVem5SUl9SazhuSzBsdmt2eTl0WHBVRGc?oc=5",
+      "pubDate": "2026-05-08T07:00:00+00:00",
+      "source": "boerse.de",
+      "language": "de",
+      "country": "AT",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPc2k3QnFXcjdFOUljRGROZEtfVGZ0amI1NGRnLVZ3aXV2Z2I4aHNWclM2c2dFU3VnYVZkUVRnYnVNU0tzYzl0YUNYLVZ2djJmSDRZTklIb2xYVXFOaVl5bDZFMlRjUDZQT1p2WmRGbnowYUZVem5SUl9SazhuSzBsdmt2eTl0WHBVRGc?oc=5\" target=\"_blank\">AGIF - Allianz Global Sustainability - WT - EUR Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "89e4b0d86f9a9a9d"
+    },
+    {
+      "title": "STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjJLV280ZlVGUFprTzVBa1l5aVRYUkFIcGdBbU54WHY0SFhfN2tDRXNuOGNzaXc1anRpMDVIVlMydTdhRUItWmJpNzYzNkZLUExDN2dTMk82QnBmVWJBaXBBQVVscFJYRkVfUXJFb3dQNTFvdkl2VWdFbWJDSVRMa3llNk80dFR4UEJ5RlhWZWxOWklZajBFdEUyVkUtVGRWbGlMaHpGMlNwNzhySWpXR3JpT3k0c2VBMEJOQUlGUHRvM0RfWnc1blE5bWNsZ0Ria3BjaWdrSE9kZlFySVppZmxhbk85dDg4V0NCYy00NjZhNGc?oc=5",
+      "pubDate": "2026-05-08T07:00:00+00:00",
+      "source": "boerse.de",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNSjJLV280ZlVGUFprTzVBa1l5aVRYUkFIcGdBbU54WHY0SFhfN2tDRXNuOGNzaXc1anRpMDVIVlMydTdhRUItWmJpNzYzNkZLUExDN2dTMk82QnBmVWJBaXBBQVVscFJYRkVfUXJFb3dQNTFvdkl2VWdFbWJDSVRMa3llNk80dFR4UEJ5RlhWZWxOWklZajBFdEUyVkUtVGRWbGlMaHpGMlNwNzhySWpXR3JpT3k0c2VBMEJOQUlGUHRvM0RfWnc1blE5bWNsZ0Ria3BjaWdrSE9kZlFySVppZmxhbk85dDg4V0NCYy00NjZhNGc?oc=5\" target=\"_blank\">STOXX Sustainability Index Ex Alcohol, Gambling, Tobacco, Armaments & Firearms Return USD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "27076110f5741777"
     },
     {
       "title": "Legg Mason ClearBridge US Equity Sustainability Leaders Fund Premier US$ Dis. (A) Fonds | Kurs | Realtime | Chart - boerse.de",
@@ -83,17 +94,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWFzcFdpZnpKVDU5bkVIRGd4SXI2WkRlbVNUMFJvUDlFRGtqVFlwMml2eEFyYk9PdnBuNUMxazBqNnRFUEtlODVXSEJBQUI2R2lwZVBmVDdILXNGRUJYdmhqbEY3QXhOMzFSenh0MGdVeXRuc1RRaGFsMjJKZ0RvcTdxZG40OUp2STFDYXJEeXlURVU?oc=5\" target=\"_blank\">Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aerokurier</font>",
       "id": "e5bbab7b747fc3bc"
-    },
-    {
-      "title": "Vielfältiges Programm: „Summer of Sustainability 2026“ an der Universität zu Köln - Universität zu Köln",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcWd6OGdUMFVDQXJvN2Frb2ctMy1xbXQteUE3aGlBdERTbXBheWZscDVzQUY4aFRQeldzYjJ3ODFvT0gxZDRqb3gxV3p1dnZyWHNVejIzRmsybGVuOVpwLXZkQ1FaVUh3d3ViUUpBcHJJQXRLcC1qZUNaa1NKUTRmOGRobHc4eVJYUUFLMmhlUm1CemJPSFhjUloxNzZHVUN6cEFxVm53NVlxSnFfVi1MSXNTSHpKVmpYNU1BRlNJSFdZV3NTTEJ2TTJPRUYxaHp6NV9XTTNncGQ0VTlqNkdIbXI2LVNONmFJVzk5LVViWkpNNy1ZQWpZSVN6Y1M?oc=5",
-      "pubDate": "2026-04-20T07:46:00+00:00",
-      "source": "Universität zu Köln",
-      "language": "de",
-      "country": "DE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxNcWd6OGdUMFVDQXJvN2Frb2ctMy1xbXQteUE3aGlBdERTbXBheWZscDVzQUY4aFRQeldzYjJ3ODFvT0gxZDRqb3gxV3p1dnZyWHNVejIzRmsybGVuOVpwLXZkQ1FaVUh3d3ViUUpBcHJJQXRLcC1qZUNaa1NKUTRmOGRobHc4eVJYUUFLMmhlUm1CemJPSFhjUloxNzZHVUN6cEFxVm53NVlxSnFfVi1MSXNTSHpKVmpYNU1BRlNJSFdZV3NTTEJ2TTJPRUYxaHp6NV9XTTNncGQ0VTlqNkdIbXI2LVNONmFJVzk5LVViWkpNNy1ZQWpZSVN6Y1M?oc=5\" target=\"_blank\">Vielfältiges Programm: „Summer of Sustainability 2026“ an der Universität zu Köln</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Universität zu Köln</font>",
-      "id": "55fe05c1033f803b"
     },
     {
       "title": "Geen verplichting voor gebruik Bovaer in Duitsland - Boerderij",
@@ -160,28 +160,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQb1FwR3dpeWk4clF6cE9xN0pqS3pld2l4SmNaMFdkc1h6cjZ5QVlLZ0xJSlZlTEJOT3pPbTZjUkRBODNBSGJkTDJnN3F5SnJqVFBDT2d3NEFlcTRTVFlnYWhsVURmRnJxOUU0aF9xS3lLelpGdUlBQjFGdFhFN3ZZMWJOc3JWYWJnblpSUjV5ejBtT1RBMzNvNm9HVk1Gc21Ia0FZeWMxbEhpT1ZFWlZILVYwdlBHUEhQbDhxcF94cTFPc0ZxdGREaWcta29VeWtONmV4ZnV5WHJCZnMzUWxlNndiS3lKNE9Oakk1LXJQM2ZlQjQ?oc=5\" target=\"_blank\">Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maritima</font>",
       "id": "1eabcf9698f75c66"
-    },
-    {
-      "title": "Digital Sustainability Summit 2026 | Programm - Bitkom e. V.",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yTHZwOWhFLWZoNkFYem1UWV9lNGs0M2JmZXFQSEtEMF8tenl2VkRnUVFXV3lDbkVvanZoZTA0YW9QXzVKUUZTNXJLX244YWNsQ0RaZERGN2tSUG5NWWRZRHlaeVRfTUV6VU5hcUdVVnJYdmRh?oc=5",
-      "pubDate": "2026-03-20T17:14:09+00:00",
-      "source": "Bitkom e. V.",
-      "language": "de",
-      "country": "DE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9yTHZwOWhFLWZoNkFYem1UWV9lNGs0M2JmZXFQSEtEMF8tenl2VkRnUVFXV3lDbkVvanZoZTA0YW9QXzVKUUZTNXJLX244YWNsQ0RaZERGN2tSUG5NWWRZRHlaeVRfTUV6VU5hcUdVVnJYdmRh?oc=5\" target=\"_blank\">Digital Sustainability Summit 2026 | Programm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bitkom e. V.</font>",
-      "id": "77d6e258982c2972"
-    },
-    {
-      "title": "Elektromobilität: Sustainability Battery Giga-Fabs - Siemens",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5",
-      "pubDate": "2026-02-26T12:31:31+00:00",
-      "source": "Siemens",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFhUZnFaZWJfNEJrdWprTHA0UzdNVE9VUWtwV1B3ZGVKUG5USW1DVXBmbkR0ZkdiS1BnM2gtZHNHUE5UNVUyRnVvaUI2ZHR6b295MWNQNDN0Y3dFem1ESlp6YTFHTFF5TWxubl9vc1dDaGV4VnQzMkdRZTBTTzRIZlh4WkhiQThMRjY0TUZfMTA0bUdybjV0X0hySFYwdjA3bjBLVlo3aw?oc=5\" target=\"_blank\">Elektromobilität: Sustainability Battery Giga-Fabs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Siemens</font>",
-      "id": "5da6f3b5b635bb63"
     },
     {
       "title": "#glaubandich CHALLENGE: Greenjet siegt bei Sustainability, BIO und Agricultural Innovations - trendingtopics.eu",
@@ -283,17 +261,6 @@
       "id": "9a8c223635c8e832"
     },
     {
-      "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
-      "pubDate": "2026-01-13T08:00:00+00:00",
-      "source": "Nieuwe Oogst",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
-      "id": "e9a3835456510718"
-    },
-    {
       "title": "Hoog zwavelgehalte in rantsoen mogelijk oorzaak stofwisselingsproblemen na Bovaer-voer - Boerderij",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5",
       "pubDate": "2026-01-13T08:00:00+00:00",
@@ -303,6 +270,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5\" target=\"_blank\">Hoog zwavelgehalte in rantsoen mogelijk oorzaak stofwisselingsproblemen na Bovaer-voer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boerderij</font>",
       "id": "48772de53e7a33a1"
+    },
+    {
+      "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
+      "pubDate": "2026-01-13T08:00:00+00:00",
+      "source": "Nieuwe Oogst",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
+      "id": "e9a3835456510718"
     },
     {
       "title": "Interview Nachhaltigkeit und Change Management | Sustainability - Haufe. Intelligenz, die bewegt.",
@@ -316,15 +294,15 @@
       "id": "6cea09a2b3ecf6b6"
     },
     {
-      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - veeteelt.nl",
+      "title": "Rantsoenanalyse linkt Bovaer-problemen aan raapzaad - Veeteelt",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5",
       "pubDate": "2025-12-24T08:00:00+00:00",
-      "source": "veeteelt.nl",
+      "source": "Veeteelt",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">veeteelt.nl</font>",
-      "id": "e92961693742bdf6"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1FtQnV2RHJNLXJjZnFuS0xsczNrMUlCZ3p0Q3U2TC0zWDZUVUdwUmt1NkU1dEstQWpvT2lJTFdiWDlZYzM3bTBUSkxQT1QzdFdpcUtIYVdsM1RXTnpDMnBpTG9ZV25RcXZ3OUhMS1BqNTJ2aHNoZ0I2bWQ4eGktWXo0bzF5dw?oc=5\" target=\"_blank\">Rantsoenanalyse linkt Bovaer-problemen aan raapzaad</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Veeteelt</font>",
+      "id": "1bbfcbdc9a309fda"
     },
     {
       "title": "Wat is waar over Bovaer? - Landbouwleven",
@@ -336,6 +314,28 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9fb0IxeG9DOUw5eVJtZ0ZXZldaSmNnMDBSZ3dvLUp2MmJVNzR3SmhXMnJYZzhKa1lFWE1jNUEzM2JhQ0xSb2piYnJCaHhUUHVCS1RlOWVYUmkyUzlEdUhOTzRyTHlHYUJ3ZTg5Y3BKMlJyaFQ4bTFpNWpWc25MT2c?oc=5\" target=\"_blank\">Wat is waar over Bovaer?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Landbouwleven</font>",
       "id": "e53635661adb1d1f"
+    },
+    {
+      "title": "Farine d'insectes : le fiasco industriel à 600 millions d’euros de l’entreprise Ynsect dans la Somme - epochtimes.fr",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM01vSGZDcXJLVFVzRmxBQnpyYk1PdUFSWVcySGtBdlF5RUJvS2tFdDh2dlMxUW1rNGFFQXl5S1pBS0lLcGFrVmtjeGY5Q21mWlE0Nkg0OFpscFRod1NHaGhaLVhjN3Y2VDdGWnpFWlY4R0Y4XzFBY05EdTkzd0hiaF8tMHJabkp1Q2ZDTGdKMmFNeGVyQ29pTDYtRTI5V0dweGlXNjhxTGZNTVl2aEYxZkxaT05MT1gwSlM3Rk41aGk5cFR6ZnZSaXBOOFU4N1k?oc=5",
+      "pubDate": "2025-12-19T08:00:00+00:00",
+      "source": "epochtimes.fr",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOM01vSGZDcXJLVFVzRmxBQnpyYk1PdUFSWVcySGtBdlF5RUJvS2tFdDh2dlMxUW1rNGFFQXl5S1pBS0lLcGFrVmtjeGY5Q21mWlE0Nkg0OFpscFRod1NHaGhaLVhjN3Y2VDdGWnpFWlY4R0Y4XzFBY05EdTkzd0hiaF8tMHJabkp1Q2ZDTGdKMmFNeGVyQ29pTDYtRTI5V0dweGlXNjhxTGZNTVl2aEYxZkxaT05MT1gwSlM3Rk41aGk5cFR6ZnZSaXBOOFU4N1k?oc=5\" target=\"_blank\">Farine d'insectes : le fiasco industriel à 600 millions d’euros de l’entreprise Ynsect dans la Somme</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">epochtimes.fr</font>",
+      "id": "c2600c107cc58e91"
+    },
+    {
+      "title": "Wereldwijde kritiek op Bovaer - deanderekrant.nl",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15QTROX2RZUlE0MjYxVms2dzFLdW1ETVliaUJiRnU4QzdfWDNsNjA5ejhUX3kwVXg5Q2VuemkwaUx0ampEaUl4MFhDQi1kNzFkN1JINXcxMHlCdjdPY0FsVUhJYkx5QQ?oc=5",
+      "pubDate": "2025-12-01T08:00:00+00:00",
+      "source": "deanderekrant.nl",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE15QTROX2RZUlE0MjYxVms2dzFLdW1ETVliaUJiRnU4QzdfWDNsNjA5ejhUX3kwVXg5Q2VuemkwaUx0ampEaUl4MFhDQi1kNzFkN1JINXcxMHlCdjdPY0FsVUhJYkx5QQ?oc=5\" target=\"_blank\">Wereldwijde kritiek op Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">deanderekrant.nl</font>",
+      "id": "93c585be9cb0b8e0"
     }
   ]
 }
