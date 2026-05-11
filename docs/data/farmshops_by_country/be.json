@@ -2766,7 +2766,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.fermedelageronne.be",
+    "website": "https://www.fermedelageronne.be/",
     "lat": 49.8630028,
     "lon": 5.5608512,
     "address": null
@@ -4578,7 +4578,7 @@
     "region": null,
     "municipality": "Nivelles",
     "products": [],
-    "website": "http://fermedelabaraque.be/",
+    "website": "https://fermedelabaraque.be/",
     "lat": 50.5694819,
     "lon": 4.3638693,
     "address": "Vieux chemin de Bruxelles"

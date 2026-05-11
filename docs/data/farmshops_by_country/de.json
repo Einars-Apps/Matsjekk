@@ -8418,7 +8418,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.wohngruppe-miteinander.de/",
+    "website": "https://www.wohngruppe-miteinander.de/",
     "lat": 53.7967775,
     "lon": 10.1340824,
     "address": "Dorfstraße"
@@ -14046,7 +14046,7 @@
     "region": null,
     "municipality": "Kirchdorf",
     "products": [],
-    "website": "http://www.thiermannspargel.de/",
+    "website": "https://www.thiermannspargel.de/",
     "lat": 52.5885261,
     "lon": 8.8050833,
     "address": "Scharringhausen"
@@ -18150,7 +18150,7 @@
     "region": null,
     "municipality": "Nettetal",
     "products": [],
-    "website": "http://www.naturpark-msn.de/Naturpark-erleben/Bauernh%C3%B6fe/Helfeshof.html",
+    "website": "https://www.naturpark-msn.de/Naturpark-erleben/Bauernh%C3%B6fe/Helfeshof.html",
     "lat": 51.3203692,
     "lon": 6.2719423,
     "address": "Wevelinghoven"
@@ -30138,7 +30138,7 @@
     "region": null,
     "municipality": "Kerpen",
     "products": [],
-    "website": "http://www.gemuesehof-pohl.de/",
+    "website": "https://www.gemuesehof-pohl.de/",
     "lat": 50.8594277,
     "lon": 6.579747,
     "address": "Merzenicher Straße"
@@ -47760,18 +47760,6 @@
     "address": "Tarnewitzer Straße"
   },
   {
-    "id": 11057175249,
-    "name": "Hofladen Kloevensteen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Pinneberg",
-    "products": [],
-    "website": null,
-    "lat": 53.6108344,
-    "lon": 9.7959315,
-    "address": "Studelskamp"
-  },
-  {
     "id": 11059564272,
     "name": "Hofladen Obsthof Specht",
     "country": "Germany",
@@ -53232,6 +53220,18 @@
     "address": null
   },
   {
+    "id": 12118136805,
+    "name": "Moierhof Batzenhofen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Gersthofen",
+    "products": [],
+    "website": null,
+    "lat": 48.4294326,
+    "lon": 10.8176624,
+    "address": "Martinstraße"
+  },
+  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -54822,7 +54822,7 @@
     "region": null,
     "municipality": "Stuttgart",
     "products": [],
-    "website": "https://hof-am-eichenhain.de/",
+    "website": "http://www.hof-am-eichenhain.de/",
     "lat": 48.733226,
     "lon": 9.2106078,
     "address": "Eichenparkstraße"
@@ -58500,18 +58500,6 @@
     "address": "Karlsruher Straße"
   },
   {
-    "id": 204039880,
-    "name": "Gemüsehof Humbold",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.729365,
-    "lon": 11.435039,
-    "address": "Dorfstraße"
-  },
-  {
     "id": 204899555,
     "name": "Obstwiese",
     "country": "Germany",
@@ -58542,7 +58530,7 @@
     "region": null,
     "municipality": "Steinhöring",
     "products": [],
-    "website": "https://www.evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
+    "website": "http://evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
     "lat": 48.0843833,
     "lon": 12.0250788,
     "address": "Münchener Straße"
@@ -63150,7 +63138,7 @@
     "region": null,
     "municipality": "Albessen",
     "products": [],
-    "website": "http://www.hof-am-weiher.de",
+    "website": null,
     "lat": 49.5165608,
     "lon": 7.3306771,
     "address": "Burgweg"
@@ -65262,7 +65250,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "https://feines-vom-bauernhof.com/",
+    "website": "http://feines-vom-bauernhof.com",
     "lat": 49.9844347,
     "lon": 10.213573,
     "address": "Hauptstraße"
@@ -66066,7 +66054,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "https://www.feines-vom-bauernhof.com/",
+    "website": "http://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
     "address": "Hauptstraße"
@@ -69832,6 +69820,30 @@
     "address": "Odenwaldstraße"
   },
   {
+    "id": 204039880,
+    "name": "Gemüsehof Humbold",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.729365,
+    "lon": 11.435039,
+    "address": "Dorfstraße"
+  },
+  {
+    "id": 11057175249,
+    "name": "Hofladen Kloevensteen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Pinneberg",
+    "products": [],
+    "website": null,
+    "lat": 53.6108344,
+    "lon": 9.7959315,
+    "address": "Studelskamp"
+  },
+  {
     "id": 11699136336,
     "name": "Bauernhofprodukte, Familie Hagg, Hofladen",
     "country": "Germany",
@@ -70022,18 +70034,6 @@
     "lat": 47.6149645,
     "lon": 9.6313578,
     "address": null
-  },
-  {
-    "id": 12118136805,
-    "name": "Moierhof Batzenhofen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Gersthofen",
-    "products": [],
-    "website": null,
-    "lat": 48.4294326,
-    "lon": 10.8176624,
-    "address": "Martinstraße"
   },
   {
     "id": 12118451782,

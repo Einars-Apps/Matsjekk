@@ -18600,18 +18600,6 @@
     "address": null
   },
   {
-    "id": 13578056,
-    "name": "Leckford Estate",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
-    "address": null
-  },
-  {
     "id": 5485947407,
     "name": "Mee Market Korean Food Hall",
     "country": "United Kingdom",
@@ -18646,6 +18634,18 @@
     "lat": 51.1814943,
     "lon": 0.5478511,
     "address": "Clapper Lane"
+  },
+  {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
+    "address": null
   },
   {
     "id": 1509987603,

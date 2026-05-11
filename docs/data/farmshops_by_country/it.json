@@ -9396,6 +9396,18 @@
     "address": null
   },
   {
+    "id": 13815408344,
+    "name": "La bottega italiana",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.8415053,
+    "lon": 11.1870829,
+    "address": null
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",

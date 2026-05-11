@@ -2358,7 +2358,7 @@
     "region": null,
     "municipality": "Arisdorf",
     "products": [],
-    "website": "https://www.egghof-kunz.ch/",
+    "website": "http://www.egghof-kunz.ch/",
     "lat": 47.5147896,
     "lon": 7.7788638,
     "address": "Egghof"
@@ -3018,7 +3018,7 @@
     "region": null,
     "municipality": "Sissach",
     "products": [],
-    "website": "https://www.imhof-weine.ch/",
+    "website": "http://www.imhof-weine.ch/",
     "lat": 47.4675558,
     "lon": 7.8208096,
     "address": "Kienberg"
@@ -3222,7 +3222,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hochstamm-liestal.ch/",
+    "website": "http://www.hochstamm-liestal.ch",
     "lat": 47.4708832,
     "lon": 7.7384406,
     "address": null
@@ -3294,7 +3294,7 @@
     "region": null,
     "municipality": "Bubendorf",
     "products": [],
-    "website": "https://www.hofwildenstein.ch/",
+    "website": "http://www.hofwildenstein.ch/",
     "lat": 47.4308859,
     "lon": 7.737811,
     "address": "Schloss Wildenstein"
@@ -4638,7 +4638,7 @@
     "region": null,
     "municipality": "Riniken",
     "products": [],
-    "website": "https://www.schaffnerhof.ch/",
+    "website": "http://www.schaffnerhof.ch/",
     "lat": 47.4947491,
     "lon": 8.1871127,
     "address": "Unterdorfstrasse"
@@ -11262,7 +11262,7 @@
     "region": null,
     "municipality": "Trimbach",
     "products": [],
-    "website": "https://www.thalmann-hof.ch/verkaufabhof.php",
+    "website": "http://www.thalmann-hof.ch/verkaufabhof.php",
     "lat": 47.3690348,
     "lon": 7.8826225,
     "address": "Hauensteinstrasse"
@@ -15876,18 +15876,6 @@
     "address": null
   },
   {
-    "id": 13811034747,
-    "name": "Azienda Agricola Poma",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Tremona",
-    "products": [],
-    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
-    "lat": 45.8806573,
-    "lon": 8.9528781,
-    "address": "Via Monte San Giorgio"
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -17166,7 +17154,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tomsbiohof.ch/",
+    "website": "tomsbiohof.ch",
     "lat": 46.4849522,
     "lon": 7.2872812,
     "address": null
@@ -17578,6 +17566,18 @@
     "lat": 47.3109306,
     "lon": 8.9341511,
     "address": null
+  },
+  {
+    "id": 13811034747,
+    "name": "Azienda Agricola Poma",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Tremona",
+    "products": [],
+    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+    "lat": 45.8806573,
+    "lon": 8.9528781,
+    "address": "Via Monte San Giorgio"
   },
   {
     "id": 961780288,
