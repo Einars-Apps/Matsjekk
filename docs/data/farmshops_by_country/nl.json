@@ -6534,6 +6534,18 @@
     "address": null
   },
   {
+    "id": 2828037036,
+    "name": "Streekproduct Limburg",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Leveroy",
+    "products": [],
+    "website": null,
+    "lat": 51.2592632,
+    "lon": 5.8259972,
+    "address": "Leveroysedijk"
+  },
+  {
     "id": 2929710681,
     "name": "Fruitbedrijf Heijnen",
     "country": "Netherlands",
@@ -6580,6 +6592,18 @@
     "lat": 52.0617975,
     "lon": 5.0745223,
     "address": "Reinesteijnseweg"
+  },
+  {
+    "id": 289441233,
+    "name": "Tuinbedrijf Bonten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Baexem",
+    "products": [],
+    "website": "http://www.tuinbouwbedrijf-bonten.nl/",
+    "lat": 51.2363061,
+    "lon": 5.8873631,
+    "address": "Koelenstraat"
   },
   {
     "id": 538330333,

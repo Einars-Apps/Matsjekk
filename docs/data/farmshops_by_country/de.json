@@ -2370,7 +2370,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.spargelausbornheim.de/mertens.htm",
+    "website": "https://www.spargelausbornheim.de/mertens.htm",
     "lat": 50.7733217,
     "lon": 7.0449156,
     "address": null
@@ -5142,7 +5142,7 @@
     "region": null,
     "municipality": "Leverkusen",
     "products": [],
-    "website": "http://www.obst-oderwald.de",
+    "website": "https://www.obst-oderwald.de/",
     "lat": 51.0828402,
     "lon": 7.0353459,
     "address": "Hüscheider Straße"
@@ -11073,6 +11073,18 @@
     "website": null,
     "lat": 48.8651135,
     "lon": 9.0108402,
+    "address": null
+  },
+  {
+    "id": 3484143887,
+    "name": "Der Dorf- & Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.7323898,
+    "lon": 8.1297165,
     "address": null
   },
   {
@@ -19506,7 +19518,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.spargelausbornheim.de/mertens.htm",
+    "website": "https://www.spargelausbornheim.de/mertens.htm",
     "lat": 50.773108,
     "lon": 7.045145,
     "address": null
@@ -20514,7 +20526,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.bergundmark-regional.de/",
+    "website": "https://www.bergundmark-regional.de/",
     "lat": 51.1725863,
     "lon": 7.4358532,
     "address": null
@@ -53220,18 +53232,6 @@
     "address": null
   },
   {
-    "id": 12118136805,
-    "name": "Moierhof Batzenhofen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Gersthofen",
-    "products": [],
-    "website": null,
-    "lat": 48.4294326,
-    "lon": 10.8176624,
-    "address": "Martinstraße"
-  },
-  {
     "id": 4855459,
     "name": "Braunäcker",
     "country": "Germany",
@@ -54822,7 +54822,7 @@
     "region": null,
     "municipality": "Stuttgart",
     "products": [],
-    "website": "http://www.hof-am-eichenhain.de/",
+    "website": "https://hof-am-eichenhain.de/",
     "lat": 48.733226,
     "lon": 9.2106078,
     "address": "Eichenparkstraße"
@@ -55506,7 +55506,7 @@
     "region": null,
     "municipality": "Grevenbroich",
     "products": [],
-    "website": "http://www.pfannenschuppen.de/",
+    "website": "https://pfannenschuppen.de/",
     "lat": 51.1231705,
     "lon": 6.7029398,
     "address": "Pfannenschuppen"
@@ -58500,6 +58500,18 @@
     "address": "Karlsruher Straße"
   },
   {
+    "id": 204039880,
+    "name": "Gemüsehof Humbold",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.729365,
+    "lon": 11.435039,
+    "address": "Dorfstraße"
+  },
+  {
     "id": 204899555,
     "name": "Obstwiese",
     "country": "Germany",
@@ -58530,7 +58542,7 @@
     "region": null,
     "municipality": "Steinhöring",
     "products": [],
-    "website": "http://evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
+    "website": "https://www.evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
     "lat": 48.0843833,
     "lon": 12.0250788,
     "address": "Münchener Straße"
@@ -63138,7 +63150,7 @@
     "region": null,
     "municipality": "Albessen",
     "products": [],
-    "website": null,
+    "website": "http://www.hof-am-weiher.de",
     "lat": 49.5165608,
     "lon": 7.3306771,
     "address": "Burgweg"
@@ -63582,7 +63594,7 @@
     "region": null,
     "municipality": "Erftstadt",
     "products": [],
-    "website": "http://www.spargelausbornheim.de/wolf.htm",
+    "website": "https://www.spargelausbornheim.de/wolf.htm",
     "lat": 50.839147,
     "lon": 6.7364716,
     "address": "Vorpforte"
@@ -65250,7 +65262,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://feines-vom-bauernhof.com",
+    "website": "https://feines-vom-bauernhof.com/",
     "lat": 49.9844347,
     "lon": 10.213573,
     "address": "Hauptstraße"
@@ -66054,7 +66066,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://www.feines-vom-bauernhof.com/",
+    "website": "https://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
     "address": "Hauptstraße"
@@ -69820,16 +69832,16 @@
     "address": "Odenwaldstraße"
   },
   {
-    "id": 204039880,
-    "name": "Gemüsehof Humbold",
+    "id": 12118136805,
+    "name": "Moierhof Batzenhofen",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Gersthofen",
     "products": [],
     "website": null,
-    "lat": 48.729365,
-    "lon": 11.435039,
-    "address": "Dorfstraße"
+    "lat": 48.4294326,
+    "lon": 10.8176624,
+    "address": "Martinstraße"
   },
   {
     "id": 11057175249,

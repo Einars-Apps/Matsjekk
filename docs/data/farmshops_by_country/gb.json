@@ -6576,6 +6576,18 @@
     "address": null
   },
   {
+    "id": 13615171555,
+    "name": "Upper Dysart Larder",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Montrose",
+    "products": [],
+    "website": null,
+    "lat": 56.6708665,
+    "lon": -2.5133908,
+    "address": "Upper Dysart"
+  },
+  {
     "id": 13621440840,
     "name": "Leedham Farm shop",
     "country": "United Kingdom",

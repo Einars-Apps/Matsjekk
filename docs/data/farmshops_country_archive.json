@@ -524893,6 +524893,18 @@
       "lat": 51.2476721,
       "lon": 0.2869368,
       "address": null
+    },
+    {
+      "id": 13615171555,
+      "name": "Upper Dysart Larder",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Montrose",
+      "products": [],
+      "website": null,
+      "lat": 56.6708665,
+      "lon": -2.5133908,
+      "address": "Upper Dysart"
     }
   ],
   "IE": [
@@ -626758,6 +626770,30 @@
       "lat": 45.8806573,
       "lon": 8.9528781,
       "address": "Via Monte San Giorgio"
+    },
+    {
+      "id": 9677787378,
+      "name": "Azienda Agricola",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 46.3179006,
+      "lon": 8.4976103,
+      "address": null
+    },
+    {
+      "id": 13813310789,
+      "name": "Biohof Dusch",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Paspels",
+      "products": [],
+      "website": null,
+      "lat": 46.7530339,
+      "lon": 9.4509399,
+      "address": null
     }
   ],
   "LI": [
