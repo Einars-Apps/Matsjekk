@@ -1362,7 +1362,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://tomatenshus.com",
+    "website": "https://tomatenshus.com/",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -2118,7 +2118,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/the-project",
+    "website": "https://www.alnarpsfarm.se/",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"

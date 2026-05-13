@@ -2066,6 +2066,18 @@
     "address": "Beekkant"
   },
   {
+    "id": 2929710681,
+    "name": "Fruitbedrijf Heijnen",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Roggel",
+    "products": [],
+    "website": "https://www.fruitbedrijfheijnen.nl",
+    "lat": 51.2609289,
+    "lon": 5.9003102,
+    "address": "Roligt"
+  },
+  {
     "id": 2929829516,
     "name": "De Laarhoeve",
     "country": "Netherlands",
@@ -4553,12 +4565,12 @@
   },
   {
     "id": 11594956181,
-    "name": "Land in Zicht",
+    "name": "Theehuis & Winkel - Land in Zicht",
     "country": "Netherlands",
     "region": null,
     "municipality": "Amersfoort",
     "products": [],
-    "website": "https://landinzicht.net",
+    "website": "https://landinzicht.net/theehuis/",
     "lat": 52.212565,
     "lon": 5.4124788,
     "address": "Achterhoekerweg"
@@ -5282,6 +5294,30 @@
     "lat": 51.9416086,
     "lon": 5.1925234,
     "address": "Wethouder Schoutenweg"
+  },
+  {
+    "id": 13760264610,
+    "name": "Meer Asperges",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.3462322,
+    "lon": 4.7523356,
+    "address": null
+  },
+  {
+    "id": 13761592247,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0617975,
+    "lon": 5.0745223,
+    "address": "Reinesteijnseweg"
   },
   {
     "id": 43396672,
@@ -6215,8 +6251,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940826,
-    "lon": 4.417777,
+    "lat": 52.1940771,
+    "lon": 4.417784,
     "address": null
   },
   {
@@ -6462,6 +6498,18 @@
     "address": null
   },
   {
+    "id": 1503726682,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0619632,
+    "lon": 5.0753055,
+    "address": "Reinesteijnseweg"
+  },
+  {
     "id": 5450302,
     "name": "Welgelegen",
     "country": "Netherlands",
@@ -6546,54 +6594,6 @@
     "address": "Leveroysedijk"
   },
   {
-    "id": 2929710681,
-    "name": "Fruitbedrijf Heijnen",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Roggel",
-    "products": [],
-    "website": "https://www.fruitbedrijfheijnen.nl",
-    "lat": 51.2609289,
-    "lon": 5.9003102,
-    "address": "Roligt"
-  },
-  {
-    "id": 11594956181,
-    "name": "Theehuis & Winkel - Land in Zicht",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Amersfoort",
-    "products": [],
-    "website": "https://landinzicht.net/theehuis/",
-    "lat": 52.212565,
-    "lon": 5.4124788,
-    "address": "Achterhoekerweg"
-  },
-  {
-    "id": 13760264610,
-    "name": "Meer Asperges",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.3462322,
-    "lon": 4.7523356,
-    "address": null
-  },
-  {
-    "id": 13761592247,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0617975,
-    "lon": 5.0745223,
-    "address": "Reinesteijnseweg"
-  },
-  {
     "id": 289441233,
     "name": "Tuinbedrijf Bonten",
     "country": "Netherlands",
@@ -6606,6 +6606,18 @@
     "address": "Koelenstraat"
   },
   {
+    "id": 11594956181,
+    "name": "Land in Zicht",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Amersfoort",
+    "products": [],
+    "website": "https://landinzicht.net",
+    "lat": 52.212565,
+    "lon": 5.4124788,
+    "address": "Achterhoekerweg"
+  },
+  {
     "id": 538330333,
     "name": "Biologische tuinderij Kievit",
     "country": "Netherlands",
@@ -6613,21 +6625,9 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940771,
-    "lon": 4.417784,
+    "lat": 52.1940826,
+    "lon": 4.417777,
     "address": null
-  },
-  {
-    "id": 1503726682,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0619632,
-    "lon": 5.0753055,
-    "address": "Reinesteijnseweg"
   },
   {
     "id": 711819680,

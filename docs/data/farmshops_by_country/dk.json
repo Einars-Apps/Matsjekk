@@ -300,6 +300,18 @@
     "address": null
   },
   {
+    "id": 3885138370,
+    "name": "Sofienlund Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.884933,
+    "lon": 10.369584,
+    "address": null
+  },
+  {
     "id": 3935763608,
     "name": "Stengården",
     "country": "Denmark",
@@ -789,18 +801,6 @@
     "website": "https://kongelundgaard.dk/",
     "lat": 55.5784036,
     "lon": 12.5776993,
-    "address": null
-  },
-  {
-    "id": 4641259198,
-    "name": "Nygaards Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
-    "lat": 55.8052348,
-    "lon": 8.3446875,
     "address": null
   },
   {
@@ -9864,18 +9864,6 @@
     "address": null
   },
   {
-    "id": 13788930013,
-    "name": "Rikke og Franks Svineri",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.5039062,
-    "lon": 8.1462006,
-    "address": null
-  },
-  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -10224,15 +10212,27 @@
     "address": null
   },
   {
-    "id": 3885138370,
-    "name": "Sofienlund Gårdbutik",
+    "id": 4641259198,
+    "name": "Nygaards Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
+    "lat": 55.8052348,
+    "lon": 8.3446875,
+    "address": null
+  },
+  {
+    "id": 13788930013,
+    "name": "Rikke og Franks Svineri",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 54.884933,
-    "lon": 10.369584,
+    "lat": 56.5039062,
+    "lon": 8.1462006,
     "address": null
   },
   {
