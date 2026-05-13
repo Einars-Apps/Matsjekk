@@ -626794,6 +626794,30 @@
       "lat": 46.7530339,
       "lon": 9.4509399,
       "address": null
+    },
+    {
+      "id": 13815368021,
+      "name": "Hofladen Familie Peter",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Rickenbach ZH",
+      "products": [],
+      "website": "https://peter-rickenbach.ch",
+      "lat": 47.5521,
+      "lon": 8.7950151,
+      "address": null
+    },
+    {
+      "id": 988674600,
+      "name": "Azienda agricola monti di Condra",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
+      "lat": 46.0800899,
+      "lon": 8.9555316,
+      "address": null
     }
   ],
   "LI": [
