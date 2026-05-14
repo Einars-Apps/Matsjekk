@@ -10183,6 +10183,19 @@
     "source": "https://www.lokalmat.no/produsenter/roros-bryggeri-og-mineralvannfabrikk-as/"
   },
   {
+    "id": "lokalmat_12140",
+    "name": "RørosFisk AS",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Glåmos",
+    "products": [],
+    "website": null,
+    "lat": 62.69173019999999,
+    "lon": 11.5707028,
+    "address": "Aursundveien 1272",
+    "source": "https://www.lokalmat.no/produsenter/rorosfisk-as/"
+  },
+  {
     "id": "lokalmat_11469",
     "name": "Røroskjøtt",
     "country": "Norway",
@@ -15649,19 +15662,6 @@
     "source": "https://www.hanen.no/bedrift/storeggen-gaard/"
   },
   {
-    "id": "hanen_1257",
-    "name": "Syltern gård",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "Brønnøysund",
-    "products": [],
-    "website": "https://www.hjertebuagardsbutikk.com/",
-    "lat": 65.50173,
-    "lon": 12.30894,
-    "address": "Sylternveien 9",
-    "source": "https://www.hanen.no/bedrift/syltern-gaard/"
-  },
-  {
     "id": "hanen_816",
     "name": "Syse Gard",
     "country": "Norway",
@@ -15907,6 +15907,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_1257",
+    "name": "Syltern gård",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Brønnøysund",
+    "products": [],
+    "website": "https://www.hjertebuagardsbutikk.com/",
+    "lat": 65.50173,
+    "lon": 12.30894,
+    "address": "Sylternveien 9",
+    "source": "https://www.hanen.no/bedrift/syltern-gaard/"
   },
   {
     "id": "lokalmat_11211",

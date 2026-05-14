@@ -678,7 +678,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.blauwebessen.be",
+    "website": "https://www.blauwebessen.be/",
     "lat": 51.0742107,
     "lon": 5.5863289,
     "address": null
@@ -726,7 +726,7 @@
     "region": null,
     "municipality": "Edegem",
     "products": [],
-    "website": "http://plukjefruit.be/",
+    "website": "https://plukjefruit.be/",
     "lat": 51.1588159,
     "lon": 4.4402444,
     "address": "Drie Eikenstraat"
@@ -1134,7 +1134,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.aspergehoeve.be/",
+    "website": "https://www.aspergehoeve.be/",
     "lat": 51.1367084,
     "lon": 4.9570255,
     "address": "Doornboomstraat"
@@ -1230,7 +1230,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://ferme-les-bleuets.be",
+    "website": "https://ferme-les-bleuets.be/",
     "lat": 49.5838129,
     "lon": 5.8340848,
     "address": null
@@ -1650,7 +1650,7 @@
     "region": null,
     "municipality": "Halen",
     "products": [],
-    "website": "http://www.degroene-goesting.be/",
+    "website": "https://www.degroene-goesting.be/",
     "lat": 50.9531108,
     "lon": 5.0861308,
     "address": "Liebroekstraat"
@@ -3349,15 +3349,15 @@
   },
   {
     "id": 12563844681,
-    "name": "La ferme du grand feu",
+    "name": "La Ferme du Grand Feu",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Bouge",
     "products": [],
     "website": "https://lafermedugrandfeu.be/",
-    "lat": 50.4778716,
-    "lon": 4.8941007,
-    "address": null
+    "lat": 50.4801945,
+    "lon": 4.895022,
+    "address": "Rue de la Poteresse"
   },
   {
     "id": 12620825293,
@@ -3730,6 +3730,18 @@
     "lat": 50.1812477,
     "lon": 4.456854,
     "address": null
+  },
+  {
+    "id": 13825142133,
+    "name": "De Zaaier",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://zaaier.be/",
+    "lat": 51.1070842,
+    "lon": 3.2334347,
+    "address": "Korte Akkerstraat"
   },
   {
     "id": 26986202,
@@ -4482,7 +4494,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.larchenterre.be",
+    "website": "https://www.larchenterre.be/",
     "lat": 50.6299984,
     "lon": 4.7079553,
     "address": "Chemin de la Scierie"
@@ -4542,7 +4554,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.lafermedejulien.be",
+    "website": "https://www.lafermedejulien.be/",
     "lat": 50.7370029,
     "lon": 4.7714875,
     "address": null
@@ -4734,7 +4746,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.kempengoud.be/",
+    "website": "https://kempengoud.be/",
     "lat": 51.4316873,
     "lon": 4.4911687,
     "address": "Spurrieveld"
@@ -5470,6 +5482,18 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 12563844681,
+    "name": "La ferme du grand feu",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://lafermedugrandfeu.be/",
+    "lat": 50.4778716,
+    "lon": 4.8941007,
+    "address": null
   },
   {
     "id": 8734787335,

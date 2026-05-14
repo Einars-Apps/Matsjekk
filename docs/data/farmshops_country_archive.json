@@ -25009,6 +25009,19 @@
       "lon": 10.7149058,
       "address": "Havna 31",
       "source": "https://www.lokalmat.no/produsenter/eplehagen-havna/"
+    },
+    {
+      "id": "lokalmat_12140",
+      "name": "RørosFisk AS",
+      "country": "Norway",
+      "region": "Trøndelag",
+      "municipality": "Glåmos",
+      "products": [],
+      "website": null,
+      "lat": 62.69173019999999,
+      "lon": 11.5707028,
+      "address": "Aursundveien 1272",
+      "source": "https://www.lokalmat.no/produsenter/rorosfisk-as/"
     }
   ],
   "SE": [
@@ -209798,6 +209811,30 @@
       "lat": 50.1812477,
       "lon": 4.456854,
       "address": null
+    },
+    {
+      "id": 12563844681,
+      "name": "La Ferme du Grand Feu",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Bouge",
+      "products": [],
+      "website": "https://lafermedugrandfeu.be/",
+      "lat": 50.4801945,
+      "lon": 4.895022,
+      "address": "Rue de la Poteresse"
+    },
+    {
+      "id": 13825142133,
+      "name": "De Zaaier",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://zaaier.be/",
+      "lat": 51.1070842,
+      "lon": 3.2334347,
+      "address": "Korte Akkerstraat"
     }
   ],
   "FR": [
