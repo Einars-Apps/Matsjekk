@@ -576362,6 +576362,30 @@
       "lat": 48.2107881,
       "lon": 16.2544697,
       "address": null
+    },
+    {
+      "id": 11014434311,
+      "name": "Gemüsehütte Stechaubauer",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.stechaubauer.at/",
+      "lat": 47.4471057,
+      "lon": 12.8086799,
+      "address": null
+    },
+    {
+      "id": 699498385,
+      "name": "Da Erdwurm - Regenwurmfarm",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Spannberg",
+      "products": [],
+      "website": null,
+      "lat": 48.4623412,
+      "lon": 16.7441904,
+      "address": "Neugasse"
     }
   ],
   "CH": [
