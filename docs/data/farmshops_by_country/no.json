@@ -2358,14 +2358,14 @@
     "name": "Braastad epler",
     "country": "Norway",
     "region": "Innlandet",
-    "municipality": null,
+    "municipality": "Stavsjø",
     "products": [
       "Drikkevarer"
     ],
     "website": null,
     "lat": 60.782136,
     "lon": 10.850724,
-    "address": "",
+    "address": "Retterstadvegen",
     "source": "https://www.lokalmat.no/produsenter/braastad-epler/"
   },
   {

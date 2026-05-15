@@ -3714,7 +3714,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.gatscansano.it/",
+    "website": "https://www.gatscansano.it/",
     "lat": 42.7562258,
     "lon": 11.362583,
     "address": null
@@ -4686,7 +4686,7 @@
     "region": null,
     "municipality": "Cesi",
     "products": [],
-    "website": "http://www.terramajura.it/",
+    "website": "https://www.terramajura.it/",
     "lat": 42.609113,
     "lon": 12.5851882,
     "address": "Viale Regina Elena"
@@ -5958,7 +5958,7 @@
     "region": null,
     "municipality": "Monghidoro",
     "products": [],
-    "website": "http://www.castagnetodelcasone.it/",
+    "website": "https://www.castagnetodelcasone.it/",
     "lat": 44.2326386,
     "lon": 11.3295443,
     "address": "Via Nazionale"
