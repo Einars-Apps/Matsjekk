@@ -477339,6 +477339,30 @@
       "lat": 42.5508147,
       "lon": -8.7036466,
       "address": null
+    },
+    {
+      "id": 13081379299,
+      "name": "Mca Algas y derivados",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://mcaalgasyderivados.es/",
+      "lat": 36.7281417,
+      "lon": -3.5386011,
+      "address": null
+    },
+    {
+      "id": 13831044587,
+      "name": "Frutas Mercamotril",
+      "country": "Spain",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.mercamotril.com/",
+      "lat": 36.7311079,
+      "lon": -3.5335561,
+      "address": null
     }
   ],
   "GB": [
@@ -576386,6 +576410,18 @@
       "lat": 48.4623412,
       "lon": 16.7441904,
       "address": "Neugasse"
+    },
+    {
+      "id": 13831111118,
+      "name": "Margit's Kisteneck Hofladen",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.0792756,
+      "lon": 15.9181529,
+      "address": null
     }
   ],
   "CH": [

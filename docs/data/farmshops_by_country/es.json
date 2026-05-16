@@ -2275,8 +2275,8 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281494,
-    "lon": -3.5385964,
+    "lat": 36.7281417,
+    "lon": -3.5386011,
     "address": null
   },
   {
@@ -2481,6 +2481,18 @@
     "website": null,
     "lat": 28.6627059,
     "lon": -17.7650567,
+    "address": null
+  },
+  {
+    "id": 13831044587,
+    "name": "Frutas Mercamotril",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mercamotril.com/",
+    "lat": 36.7311079,
+    "lon": -3.5335561,
     "address": null
   },
   {
@@ -6285,6 +6297,18 @@
     "website": "https://www.verescenceinsulators.com/",
     "lat": 40.9040229,
     "lon": -4.0034578,
+    "address": null
+  },
+  {
+    "id": 13081379299,
+    "name": "Mca Algas y derivados",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://mcaalgasyderivados.es/",
+    "lat": 36.7281494,
+    "lon": -3.5385964,
     "address": null
   },
   {

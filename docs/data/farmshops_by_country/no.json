@@ -12975,12 +12975,12 @@
     "name": "Villbrygg",
     "country": "Norway",
     "region": "Oslo",
-    "municipality": "Oslo",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 59.914309995311,
     "lon": 10.757839636879,
-    "address": "Christian Krohgs gate 2",
+    "address": "",
     "source": "https://www.lokalmat.no/produsenter/villbrygg/"
   },
   {
@@ -13775,6 +13775,19 @@
     "lon": 5.995801,
     "address": "omavegen 44",
     "source": "https://www.hanen.no/bedrift/breievne-gard/"
+  },
+  {
+    "id": "hanen_2957",
+    "name": "Moe gård",
+    "country": "Norway",
+    "region": "Oppland",
+    "municipality": "Øyer",
+    "products": [],
+    "website": "https://www.matfraoyer.no/moe",
+    "lat": 61.24491,
+    "lon": 10.459442,
+    "address": "Sørbygdsvegen 476",
+    "source": "https://www.hanen.no/bedrift/moe-gaard/"
   },
   {
     "id": "hanen_927",
@@ -14893,19 +14906,6 @@
     "lon": 12.303895,
     "address": "Søndre Mediås, Holsingvegen 57",
     "source": "https://www.hanen.no/bedrift/trine-hasvang-vaag-mediaas-sondre/"
-  },
-  {
-    "id": "hanen_2957",
-    "name": "Moe gård",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Øyer",
-    "products": [],
-    "website": "https://www.matfraoyer.no/moe",
-    "lat": 61.24491,
-    "lon": 10.459442,
-    "address": "Sørbygdsvegen 476",
-    "source": "https://www.hanen.no/bedrift/moe-gaard/"
   },
   {
     "id": "hanen_2842",

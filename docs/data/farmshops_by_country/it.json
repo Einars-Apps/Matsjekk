@@ -2070,7 +2070,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.zappalombrico.it/index.php",
+    "website": "https://www.zappalombrico.it/index.php",
     "lat": 38.138528,
     "lon": 15.1787258,
     "address": null
@@ -2178,7 +2178,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.arbaree.com",
+    "website": "https://www.arbaree.com/",
     "lat": 39.9340139,
     "lon": 8.7009728,
     "address": null
