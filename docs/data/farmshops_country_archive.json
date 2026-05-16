@@ -184985,6 +184985,30 @@
       "lat": 52.0132824,
       "lon": 4.2060127,
       "address": "Bospolder"
+    },
+    {
+      "id": 2752477851,
+      "name": "De Santspuy",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Etten-Leur",
+      "products": [],
+      "website": null,
+      "lat": 51.5524347,
+      "lon": 4.6788611,
+      "address": "Zandspui"
+    },
+    {
+      "id": 2780652519,
+      "name": "Kukelekoe",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Baarle-Nassau",
+      "products": [],
+      "website": "https://kukelekoe.nl/onze-boerderijwinkel",
+      "lat": 51.4451204,
+      "lon": 4.9676818,
+      "address": "Heikant"
     }
   ],
   "BE": [
