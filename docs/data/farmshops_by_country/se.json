@@ -1026,10 +1026,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.svartbackens.com/",
+    "website": null,
     "lat": 59.8243714,
     "lon": 17.1905136,
-    "address": "Nysätra Svartbäcken"
+    "address": null
   },
   {
     "id": 7772874673,
@@ -1362,7 +1362,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tomatenshus.com/",
+    "website": "http://tomatenshus.com",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -2118,7 +2118,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/",
+    "website": "https://www.alnarpsfarm.se/the-project",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"

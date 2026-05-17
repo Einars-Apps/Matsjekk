@@ -9408,6 +9408,18 @@
     "address": null
   },
   {
+    "id": 13836620642,
+    "name": "Azienda Agricola Laganà Anna",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 37.9414815,
+    "lon": 15.880653,
+    "address": "Via Cariddi"
+  },
+  {
     "id": 35731759,
     "name": "Kräuterhof Hauser",
     "country": "Italy",

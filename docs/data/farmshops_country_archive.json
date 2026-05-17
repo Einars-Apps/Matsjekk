@@ -525002,6 +525002,30 @@
       "lat": 56.6708665,
       "lon": -2.5133908,
       "address": "Upper Dysart"
+    },
+    {
+      "id": 165613955,
+      "name": "Lincoln Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.5726961,
+      "lon": -0.0062858,
+      "address": null
+    },
+    {
+      "id": 640518313,
+      "name": "Willow Grange Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.willowgrangefarm.co.uk/farm-shop",
+      "lat": 52.3188514,
+      "lon": 0.1968571,
+      "address": null
     }
   ],
   "IE": [

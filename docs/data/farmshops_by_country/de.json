@@ -10542,7 +10542,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.obsthof-zurell.de/hofladen/",
+    "website": "https://www.obsthof-zurell.de/hofladen/",
     "lat": 47.7197699,
     "lon": 9.3878136,
     "address": null
@@ -19254,7 +19254,7 @@
     "region": null,
     "municipality": "Grasellenbach",
     "products": [],
-    "website": "http://www.bauernhof-jaeigs.de/hofladen.htm",
+    "website": "https://www.bauernhof-jaeigs.de/hofladen.htm",
     "lat": 49.6273357,
     "lon": 8.8570391,
     "address": "Siegfriedstraße"
@@ -42607,8 +42607,8 @@
     "municipality": null,
     "products": [],
     "website": "https://gemuesehof-buntesgruen.de/",
-    "lat": 49.489924,
-    "lon": 6.8337496,
+    "lat": 49.4899115,
+    "lon": 6.8337432,
     "address": null
   },
   {
@@ -49590,7 +49590,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.kilbs-bauernladen.de/",
+    "website": "https://kilbs-bauernladen.de/",
     "lat": 49.3576413,
     "lon": 9.531876,
     "address": null
@@ -54822,7 +54822,7 @@
     "region": null,
     "municipality": "Stuttgart",
     "products": [],
-    "website": "http://www.hof-am-eichenhain.de/",
+    "website": "https://hof-am-eichenhain.de/",
     "lat": 48.733226,
     "lon": 9.2106078,
     "address": "Eichenparkstraße"
@@ -55506,7 +55506,7 @@
     "region": null,
     "municipality": "Grevenbroich",
     "products": [],
-    "website": "http://www.pfannenschuppen.de/",
+    "website": "https://pfannenschuppen.de/",
     "lat": 51.1231705,
     "lon": 6.7029398,
     "address": "Pfannenschuppen"
@@ -58500,6 +58500,18 @@
     "address": "Karlsruher Straße"
   },
   {
+    "id": 204039880,
+    "name": "Gemüsehof Humbold",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.729365,
+    "lon": 11.435039,
+    "address": "Dorfstraße"
+  },
+  {
     "id": 204899555,
     "name": "Obstwiese",
     "country": "Germany",
@@ -58530,7 +58542,7 @@
     "region": null,
     "municipality": "Steinhöring",
     "products": [],
-    "website": "http://evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
+    "website": "https://www.evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
     "lat": 48.0843833,
     "lon": 12.0250788,
     "address": "Münchener Straße"
@@ -60477,6 +60489,18 @@
     "website": "www.hofkaeserei-haindl.de",
     "lat": 48.5399977,
     "lon": 13.3518888,
+    "address": null
+  },
+  {
+    "id": 276560813,
+    "name": "Dörnaer Wald",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2318639,
+    "lon": 10.3330307,
     "address": null
   },
   {
@@ -63031,8 +63055,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.955357,
-    "lon": 11.9739026,
+    "lat": 50.955346,
+    "lon": 11.9739118,
     "address": null
   },
   {
@@ -63130,30 +63154,6 @@
     "lat": 51.4159335,
     "lon": 10.3704045,
     "address": "Nordhäuser Straße"
-  },
-  {
-    "id": 422822193,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Albessen",
-    "products": [],
-    "website": null,
-    "lat": 49.5165608,
-    "lon": 7.3306771,
-    "address": "Burgweg"
-  },
-  {
-    "id": 422822690,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.5166102,
-    "lon": 7.3304403,
-    "address": null
   },
   {
     "id": 422980648,
@@ -63582,7 +63582,7 @@
     "region": null,
     "municipality": "Erftstadt",
     "products": [],
-    "website": "http://www.spargelausbornheim.de/wolf.htm",
+    "website": "https://www.spargelausbornheim.de/wolf.htm",
     "lat": 50.839147,
     "lon": 6.7364716,
     "address": "Vorpforte"
@@ -64698,7 +64698,7 @@
     "region": null,
     "municipality": "Pegestorf",
     "products": [],
-    "website": "http://biohof-bossow.de",
+    "website": "https://biohof-bossow.de/",
     "lat": 51.926295,
     "lon": 9.4942025,
     "address": "Hauptstraße"
@@ -65250,7 +65250,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://feines-vom-bauernhof.com",
+    "website": "https://feines-vom-bauernhof.com/",
     "lat": 49.9844347,
     "lon": 10.213573,
     "address": "Hauptstraße"
@@ -66054,7 +66054,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "http://www.feines-vom-bauernhof.com/",
+    "website": "https://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
     "address": "Hauptstraße"
@@ -69820,27 +69820,15 @@
     "address": "Odenwaldstraße"
   },
   {
-    "id": 204039880,
-    "name": "Gemüsehof Humbold",
+    "id": 9864507199,
+    "name": "Gemüsehof Buntes Grün",
     "country": "Germany",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 48.729365,
-    "lon": 11.435039,
-    "address": "Dorfstraße"
-  },
-  {
-    "id": 276560813,
-    "name": "Dörnaer Wald",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2318639,
-    "lon": 10.3330307,
+    "website": "https://gemuesehof-buntesgruen.de/",
+    "lat": 49.489924,
+    "lon": 6.8337496,
     "address": null
   },
   {
@@ -69851,8 +69839,32 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.955346,
-    "lon": 11.9739118,
+    "lat": 50.955357,
+    "lon": 11.9739026,
+    "address": null
+  },
+  {
+    "id": 422822193,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Albessen",
+    "products": [],
+    "website": null,
+    "lat": 49.5165608,
+    "lon": 7.3306771,
+    "address": "Burgweg"
+  },
+  {
+    "id": 422822690,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5166102,
+    "lon": 7.3304403,
     "address": null
   },
   {
