@@ -1522,6 +1522,19 @@
     "source": "https://www.lokalmat.no/produsenter/ankeret-mat-as/"
   },
   {
+    "id": "lokalmat_11885",
+    "name": "Arctic Botanics",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "BODO",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Parkveien 51",
+    "source": "https://www.lokalmat.no/produsenter/arctic-botanics/"
+  },
+  {
     "id": "lokalmat_11429",
     "name": "Arctic Mustard AS",
     "country": "Norway",
@@ -3570,7 +3583,9 @@
     "country": "Norway",
     "region": "Østfold",
     "municipality": "VESTERØY",
-    "products": [],
+    "products": [
+      "Drikkevarer"
+    ],
     "website": null,
     "lat": 59.8939224,
     "lon": 10.7149058,
