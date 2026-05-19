@@ -185022,6 +185022,18 @@
       "lat": 51.4451204,
       "lon": 4.9676818,
       "address": "Heikant"
+    },
+    {
+      "id": 2993009681,
+      "name": "Tuinbouwbedrijf De Haas",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Nuenen",
+      "products": [],
+      "website": "https://www.tuinbouwbedrijfdehaas.nl",
+      "lat": 51.4699408,
+      "lon": 5.5128587,
+      "address": "Soeterbeek"
     }
   ],
   "BE": [
