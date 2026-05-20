@@ -2604,6 +2604,18 @@
     "address": "Via Converselle"
   },
   {
+    "id": 4771011862,
+    "name": "Punto Vendita Agrintesa",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Castelfranco Emilia",
+    "products": [],
+    "website": "https://www.agrintesa.it/",
+    "lat": 44.5775677,
+    "lon": 11.042845,
+    "address": "Via Loda"
+  },
+  {
     "id": 4782358771,
     "name": "Azienda Agricola Ca' di Minghetti",
     "country": "Italy",
@@ -3277,14 +3289,14 @@
   },
   {
     "id": 5763769922,
-    "name": "Punto vendita dell'istituto",
+    "name": "Punto vendita dell'Istituto",
     "country": "Italy",
     "region": null,
     "municipality": "Castelfranco Emilia",
     "products": [],
     "website": null,
-    "lat": 44.5904296,
-    "lon": 11.0538852,
+    "lat": 44.590425,
+    "lon": 11.0538954,
     "address": "Via Solimei"
   },
   {
@@ -3369,6 +3381,18 @@
     "website": null,
     "lat": 38.1444444,
     "lon": 15.2181234,
+    "address": null
+  },
+  {
+    "id": 6103029741,
+    "name": "Azienda Agricola Michele Franzese",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.6411951,
+    "lon": 10.2693123,
     "address": null
   },
   {
@@ -5326,6 +5350,18 @@
     "lat": 45.5841989,
     "lon": 9.5731139,
     "address": "Via dell'Industria"
+  },
+  {
+    "id": 8808411533,
+    "name": "Azienda Agricola Pelizzari Daniele",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Sarezzo",
+    "products": [],
+    "website": null,
+    "lat": 45.6687762,
+    "lon": 10.2231297,
+    "address": "Via 1850"
   },
   {
     "id": 8808914408,
@@ -9696,6 +9732,18 @@
     "address": null
   },
   {
+    "id": 78191378,
+    "name": "Bigs Labs Nuovocorso",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.4878808,
+    "lon": 10.5714513,
+    "address": null
+  },
+  {
     "id": 81151511,
     "name": "Tecnografica srl",
     "country": "Italy",
@@ -13858,6 +13906,18 @@
     "lat": 44.7961349,
     "lon": 12.2560239,
     "address": null
+  },
+  {
+    "id": 5763769922,
+    "name": "Punto vendita dell'istituto",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Castelfranco Emilia",
+    "products": [],
+    "website": null,
+    "lat": 44.5904296,
+    "lon": 11.0538852,
+    "address": "Via Solimei"
   },
   {
     "id": 198395190,
