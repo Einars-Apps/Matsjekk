@@ -69820,78 +69820,6 @@
     "address": "Odenwaldstraße"
   },
   {
-    "id": 5077063170,
-    "name": "Schillings Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Schaprode",
-    "products": [],
-    "website": "https://www.schillings-gasthof.de/de_hofladen.php",
-    "lat": 54.5131722,
-    "lon": 13.1656084,
-    "address": "Hafenweg"
-  },
-  {
-    "id": 12117269247,
-    "name": "Hof Crone",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2420075,
-    "lon": 7.7357423,
-    "address": null
-  },
-  {
-    "id": 9864507199,
-    "name": "Gemüsehof Buntes Grün",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://gemuesehof-buntesgruen.de/",
-    "lat": 49.489924,
-    "lon": 6.8337496,
-    "address": null
-  },
-  {
-    "id": 419066542,
-    "name": "alter Obstbau",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.955357,
-    "lon": 11.9739026,
-    "address": null
-  },
-  {
-    "id": 422822193,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Albessen",
-    "products": [],
-    "website": null,
-    "lat": 49.5165608,
-    "lon": 7.3306771,
-    "address": "Burgweg"
-  },
-  {
-    "id": 422822690,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.5166102,
-    "lon": 7.3304403,
-    "address": null
-  },
-  {
     "id": 98286911,
     "name": "Hühnerfarm",
     "country": "Germany",
@@ -69938,6 +69866,42 @@
     "lat": 49.4776062,
     "lon": 11.0356172,
     "address": "Raiffeisenstraße"
+  },
+  {
+    "id": 419066542,
+    "name": "alter Obstbau",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.955357,
+    "lon": 11.9739026,
+    "address": null
+  },
+  {
+    "id": 422822193,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Albessen",
+    "products": [],
+    "website": null,
+    "lat": 49.5165608,
+    "lon": 7.3306771,
+    "address": "Burgweg"
+  },
+  {
+    "id": 422822690,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5166102,
+    "lon": 7.3304403,
+    "address": null
   },
   {
     "id": 479010033,
@@ -70034,6 +69998,42 @@
     "lat": 52.9023045,
     "lon": 11.6531234,
     "address": "Am Holzweg"
+  },
+  {
+    "id": 5077063170,
+    "name": "Schillings Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Schaprode",
+    "products": [],
+    "website": "https://www.schillings-gasthof.de/de_hofladen.php",
+    "lat": 54.5131722,
+    "lon": 13.1656084,
+    "address": "Hafenweg"
+  },
+  {
+    "id": 12117269247,
+    "name": "Hof Crone",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2420075,
+    "lon": 7.7357423,
+    "address": null
+  },
+  {
+    "id": 9864507199,
+    "name": "Gemüsehof Buntes Grün",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://gemuesehof-buntesgruen.de/",
+    "lat": 49.489924,
+    "lon": 6.8337496,
+    "address": null
   },
   {
     "id": 1823560428,

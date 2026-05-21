@@ -25035,6 +25035,47 @@
       "lon": 10.7149058,
       "address": "Parkveien 51",
       "source": "https://www.lokalmat.no/produsenter/arctic-botanics/"
+    },
+    {
+      "id": "lokalmat_11670",
+      "name": "OLE LØVOLD AS",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": "Averøy",
+      "products": [
+        "Fisk og sjømat"
+      ],
+      "website": null,
+      "lat": 63.067585,
+      "lon": 7.4802269,
+      "address": "Reksundveien 151",
+      "source": "https://www.lokalmat.no/produsenter/ole-lovold-as/"
+    },
+    {
+      "id": "hanen_988",
+      "name": "Apal Sideri",
+      "country": "Norway",
+      "region": "Rogaland",
+      "municipality": "Hjelmeland",
+      "products": [],
+      "website": "https://apalsideri.no",
+      "lat": 59.236703,
+      "lon": 6.184172,
+      "address": "Sæbøvegen 35",
+      "source": "https://www.hanen.no/bedrift/apal-sideri/"
+    },
+    {
+      "id": "hanen_236",
+      "name": "Nesheimstunet AS",
+      "country": "Norway",
+      "region": "Rogaland",
+      "municipality": "Nedre Vats",
+      "products": [],
+      "website": "https://www.nesheimstunet.no",
+      "lat": 59.507686,
+      "lon": 5.712307,
+      "address": "Saudavegen 7194",
+      "source": "https://www.hanen.no/bedrift/nesheimstunet-as/"
     }
   ],
   "SE": [
@@ -185034,6 +185075,18 @@
       "lat": 51.4699408,
       "lon": 5.5128587,
       "address": "Soeterbeek"
+    },
+    {
+      "id": 2796498132,
+      "name": "Puur Brabant",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Sint-Oedenrode",
+      "products": [],
+      "website": "https://puurbrabant.nl",
+      "lat": 51.5517636,
+      "lon": 5.4835682,
+      "address": "Lieshoutseweg"
     }
   ],
   "BE": [
