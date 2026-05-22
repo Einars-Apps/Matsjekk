@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T05:42:01.498844+00:00",
+  "generatedAt": "2026-05-22T05:40:33.696897+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -25,7 +25,7 @@
       "source": "Norsk Landbruk",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Afvn.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTd1Q25tX24yRUo5Y1VLX2V4c084RENPT0NkNjZVNWVTeEdES2lVV2t1V1U3c3dzdkUzTW5TWHpLQnFod2tPUHdzdTB5WHIyTWdod0ExUmVadFBBRjJzT0ZJYnBHQlVzZ2hHbVJEeERvMm0zYTlNczA0X0JuZk1USzl5OUNjS0dPTk5idjlIR1MzTFBxZlE?oc=5\" target=\"_blank\">Bovaer, Melkeproduksjon | Ny rapport viser ingen negativ effekt av Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Norsk Landbruk</font>",
       "id": "a0d83b85983874b0"
     },
@@ -141,15 +141,26 @@
       "id": "04a30e773e6664b8"
     },
     {
-      "title": "I dag avgjør Stortinget skjebnen til Bovaer-Vil de stanse bruken av dette kjemikalie i norsk landbruk eller bukke for EU og storkapitalen? - Steigan.no",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNEJMZnVKa2I4Q3VqQmgzVG1IejB6T0VRR3c2SV9DVlRkWEs2RHNiYW9fWmlMMXBrMm5MbGhsc3ZLNk9DUzFhYXg5VFM3TzNIeGgtb1BGVkFOODA5QWhxSVh2S0szVnhoUmoxRlpiMUFOM05GOEJxTW9iU3hFc3lfN0Q3LXg0S0tMaVhhMXhSdm04VllPbWNidjl3VUROa3AxRlQ0VW1DSHBhQUh5UVR3NE1MUkZOYWpQMUthNFBMQ1hUem5OUGotcXB4VUxLOWd4VUQwWmpCcFFNOHJRTi1uZWh3UkVYOGJvQWV6RFk1YVhMbWk1UWlhNw?oc=5",
+      "title": "Meld deg på Unios tillitsvalgtkurs i klima og bærekraft - Politiets Fellesforbund",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZXlqUlB0ZFJuLVZWWkRGc25PVTFOUWZjUVN6TzNTZTFMaW1NNzNSbllzamJrR19xR3JPdURITGNGMko3VnhjcXhfTUNtNVE1RUlBalFmazhXNHV2TnZhbmlPVkFjbW1kbkRVd2VOMmVuWk1jSFU2WHJLTXpZTi12S0lXelkwTlg2Y3ZSamc0dnY4QQ?oc=5",
       "pubDate": "2026-02-26T08:00:00+00:00",
-      "source": "Steigan.no",
+      "source": "Politiets Fellesforbund",
       "language": "da",
       "country": "DK",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNEJMZnVKa2I4Q3VqQmgzVG1IejB6T0VRR3c2SV9DVlRkWEs2RHNiYW9fWmlMMXBrMm5MbGhsc3ZLNk9DUzFhYXg5VFM3TzNIeGgtb1BGVkFOODA5QWhxSVh2S0szVnhoUmoxRlpiMUFOM05GOEJxTW9iU3hFc3lfN0Q3LXg0S0tMaVhhMXhSdm04VllPbWNidjl3VUROa3AxRlQ0VW1DSHBhQUh5UVR3NE1MUkZOYWpQMUthNFBMQ1hUem5OUGotcXB4VUxLOWd4VUQwWmpCcFFNOHJRTi1uZWh3UkVYOGJvQWV6RFk1YVhMbWk1UWlhNw?oc=5\" target=\"_blank\">I dag avgjør Stortinget skjebnen til Bovaer-Vil de stanse bruken av dette kjemikalie i norsk landbruk eller bukke for EU og storkapitalen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Steigan.no</font>",
-      "id": "83cf1f6af13589ea"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQZXlqUlB0ZFJuLVZWWkRGc25PVTFOUWZjUVN6TzNTZTFMaW1NNzNSbllzamJrR19xR3JPdURITGNGMko3VnhjcXhfTUNtNVE1RUlBalFmazhXNHV2TnZhbmlPVkFjbW1kbkRVd2VOMmVuWk1jSFU2WHJLTXpZTi12S0lXelkwTlg2Y3ZSamc0dnY4QQ?oc=5\" target=\"_blank\">Meld deg på Unios tillitsvalgtkurs i klima og bærekraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politiets Fellesforbund</font>",
+      "id": "dbdd8e3c76b712bf"
+    },
+    {
+      "title": "I dag avgjør Stortinget skjebnen til Bovaer-Vil de stanse bruken av dette kjemikalie i norsk landbruk eller bukke for EU og storkapitalen? - steigan.no",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNEJMZnVKa2I4Q3VqQmgzVG1IejB6T0VRR3c2SV9DVlRkWEs2RHNiYW9fWmlMMXBrMm5MbGhsc3ZLNk9DUzFhYXg5VFM3TzNIeGgtb1BGVkFOODA5QWhxSVh2S0szVnhoUmoxRlpiMUFOM05GOEJxTW9iU3hFc3lfN0Q3LXg0S0tMaVhhMXhSdm04VllPbWNidjl3VUROa3AxRlQ0VW1DSHBhQUh5UVR3NE1MUkZOYWpQMUthNFBMQ1hUem5OUGotcXB4VUxLOWd4VUQwWmpCcFFNOHJRTi1uZWh3UkVYOGJvQWV6RFk1YVhMbWk1UWlhNw?oc=5",
+      "pubDate": "2026-02-26T08:00:00+00:00",
+      "source": "steigan.no",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNEJMZnVKa2I4Q3VqQmgzVG1IejB6T0VRR3c2SV9DVlRkWEs2RHNiYW9fWmlMMXBrMm5MbGhsc3ZLNk9DUzFhYXg5VFM3TzNIeGgtb1BGVkFOODA5QWhxSVh2S0szVnhoUmoxRlpiMUFOM05GOEJxTW9iU3hFc3lfN0Q3LXg0S0tMaVhhMXhSdm04VllPbWNidjl3VUROa3AxRlQ0VW1DSHBhQUh5UVR3NE1MUkZOYWpQMUthNFBMQ1hUem5OUGotcXB4VUxLOWd4VUQwWmpCcFFNOHJRTi1uZWh3UkVYOGJvQWV6RFk1YVhMbWk1UWlhNw?oc=5\" target=\"_blank\">I dag avgjør Stortinget skjebnen til Bovaer-Vil de stanse bruken av dette kjemikalie i norsk landbruk eller bukke for EU og storkapitalen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">steigan.no</font>",
+      "id": "1f2bd3b8e7f0d61e"
     },
     {
       "title": "(+) Bovaer-saka til Stortinget - vtb.no",
@@ -242,15 +253,15 @@
       "manuallyAdded": true
     },
     {
-      "title": "Men er vi ikke ferdige med Metanhemmeren Bovaer nå ? - Steigan.no",
+      "title": "Men er vi ikke ferdige med Metanhemmeren Bovaer nå ? - steigan.no",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPam94ZjBrSGVHLTdHZnQ1TFdZN3BEcXMwOFE1UDR4MWw0VHRGdVFBaTdYZG9UYktmRU9JRTlwWkFCeTQzR3AybHBNSTlRZ3Q1SThHR3B6T2RJZlJLbHRhX0VFVjU1ZnZEVHlCWE1WVlN2dF9HV0VvcjNHaU9XV0lQUjJ4dzE?oc=5",
       "pubDate": "2026-02-13T08:00:00+00:00",
-      "source": "Steigan.no",
+      "source": "steigan.no",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Avg.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPam94ZjBrSGVHLTdHZnQ1TFdZN3BEcXMwOFE1UDR4MWw0VHRGdVFBaTdYZG9UYktmRU9JRTlwWkFCeTQzR3AybHBNSTlRZ3Q1SThHR3B6T2RJZlJLbHRhX0VFVjU1ZnZEVHlCWE1WVlN2dF9HV0VvcjNHaU9XV0lQUjJ4dzE?oc=5\" target=\"_blank\">Men er vi ikke ferdige med Metanhemmeren Bovaer nå ?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Steigan.no</font>",
-      "id": "93fd9e4ca3ffd274"
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aaftenposten.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPam94ZjBrSGVHLTdHZnQ1TFdZN3BEcXMwOFE1UDR4MWw0VHRGdVFBaTdYZG9UYktmRU9JRTlwWkFCeTQzR3AybHBNSTlRZ3Q1SThHR3B6T2RJZlJLbHRhX0VFVjU1ZnZEVHlCWE1WVlN2dF9HV0VvcjNHaU9XV0lQUjJ4dzE?oc=5\" target=\"_blank\">Men er vi ikke ferdige med Metanhemmeren Bovaer nå ?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">steigan.no</font>",
+      "id": "b6edd49d99452805"
     },
     {
       "title": "Landbruk, Metanhemmere | Stortinget skroter krav om Bovaer: – Helt feil å tvinge norske bønder - Bondebladet",
@@ -270,7 +281,7 @@
       "source": "Tidningen Husdjur",
       "language": "sv",
       "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Adn.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
       "id": "95396880def940d3"
     },
@@ -317,17 +328,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTlLNUZGQTA3bktCZnVIRFdPN25IUS1tYnc4bGkzdUZaY3owVmhiVmNzVURldG1vUlFmMHdIcVhOOTh0NEdUaEtYQUJmaW9JRlEzX0VoVHBrM055NlRfbGViaDRVZVpCcHhyak02MDdtdG9vZmx1RG5NeDNHOVBoRWpiZUZEcUNPcEE?oc=5\" target=\"_blank\">Valio keskeyttää Bovaerin käytön</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
       "id": "10995a18b0df3423"
-    },
-    {
-      "title": "Bovaer: EU-organ ber om ny vurdering – vil vite mer om virkningene - Bondebladet",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjBUVFVpVzNyTEplckhuZzN1eVg1V1QySjhnLV9kNEN0bEVGQXlQeUViemlaNV92Y281Z1JlQVlaOEVpaEd3TU02ZGRmamhqTjJlZm9wLUtDT1Q5S0hTNHR2TDdMRkoxY0JJZVVQUENEQW9acmdwR25vNXQ2QXp6dWtvcW9HLVJkVVllMTdaaHEtcXRkckV2RE10WTBlR0pEYVg2d2lpcDhRMEl4c0F6aGEydWgzYUNleWN3dlFR?oc=5",
-      "pubDate": "2026-02-07T08:00:00+00:00",
-      "source": "Bondebladet",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjBUVFVpVzNyTEplckhuZzN1eVg1V1QySjhnLV9kNEN0bEVGQXlQeUViemlaNV92Y281Z1JlQVlaOEVpaEd3TU02ZGRmamhqTjJlZm9wLUtDT1Q5S0hTNHR2TDdMRkoxY0JJZVVQUENEQW9acmdwR25vNXQ2QXp6dWtvcW9HLVJkVVllMTdaaHEtcXRkckV2RE10WTBlR0pEYVg2d2lpcDhRMEl4c0F6aGEydWgzYUNleWN3dlFR?oc=5\" target=\"_blank\">Bovaer: EU-organ ber om ny vurdering – vil vite mer om virkningene</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
-      "id": "7b94762e5eb19c3c"
     },
     {
       "title": "Sosial bærekraft som konkurransefortrinn i offentlige anskaffelser - Anbud365",
