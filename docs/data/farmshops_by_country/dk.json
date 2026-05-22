@@ -462,7 +462,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tolykkegaard.dk/",
+    "website": "http://tolykkegaard.dk/",
     "lat": 56.0319866,
     "lon": 12.2332647,
     "address": null
@@ -2370,7 +2370,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.skovlygrisen.dk/",
+    "website": "http://www.skovlygrisen.dk/",
     "lat": 55.557248,
     "lon": 9.365305,
     "address": null

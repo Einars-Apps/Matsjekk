@@ -702,7 +702,7 @@
     "region": null,
     "municipality": "Kalanti",
     "products": [],
-    "website": null,
+    "website": "https://fi-fi.facebook.com/linnanpuistontila/",
     "lat": 60.8162868,
     "lon": 21.5325097,
     "address": "Kehäntie"
@@ -1098,7 +1098,7 @@
     "region": null,
     "municipality": "Kärkölä",
     "products": [],
-    "website": "https://www.yli-karkelantila.fi/",
+    "website": "http://www.yli-karkelantila.fi/",
     "lat": 60.8798751,
     "lon": 25.1747619,
     "address": "Seppäläntie"

@@ -13992,18 +13992,6 @@
     "address": null
   },
   {
-    "id": 12475401942,
-    "name": "Waldgut",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Wien",
-    "products": [],
-    "website": "https://wald-gut.at/",
-    "lat": 48.1487789,
-    "lon": 16.2683498,
-    "address": "Geßlgasse"
-  },
-  {
     "id": 11014434311,
     "name": "Gemüsehütte Stechaubauer",
     "country": "Austria",
@@ -14064,6 +14052,18 @@
     "address": null
   },
   {
+    "id": 283739301,
+    "name": "Kreithwald",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4808022,
+    "lon": 11.9658879,
+    "address": null
+  },
+  {
     "id": 699498385,
     "name": "Da Erdwurm - Regenwurmfarm",
     "country": "Austria",
@@ -14086,6 +14086,18 @@
     "lat": 46.5651407,
     "lon": 14.5543197,
     "address": null
+  },
+  {
+    "id": 12475401942,
+    "name": "Waldgut",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Wien",
+    "products": [],
+    "website": "https://wald-gut.at/",
+    "lat": 48.1487789,
+    "lon": 16.2683498,
+    "address": "Geßlgasse"
   },
   {
     "id": 12294534720,

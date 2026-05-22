@@ -3036,6 +3036,66 @@
     "address": "Via per le Alpi"
   },
   {
+    "id": 5305426186,
+    "name": "Azienda Agricola Miorini Valerio & Franco",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Borno",
+    "products": [],
+    "website": null,
+    "lat": 45.9494065,
+    "lon": 10.1386506,
+    "address": "Via Giallo"
+  },
+  {
+    "id": 5305426187,
+    "name": "Azienda Agricola Il Quadrifoglio",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Borno",
+    "products": [],
+    "website": null,
+    "lat": 45.9496905,
+    "lon": 10.140694,
+    "address": null
+  },
+  {
+    "id": 5305426477,
+    "name": "Azienda Agricola Il Cigno",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.9442148,
+    "lon": 10.2192853,
+    "address": null
+  },
+  {
+    "id": 5305430035,
+    "name": "Azienda Agricola Miorini Mario Clemente",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Borno",
+    "products": [],
+    "website": null,
+    "lat": 45.9582019,
+    "lon": 10.1993849,
+    "address": null
+  },
+  {
+    "id": 5305522720,
+    "name": "Azienda Agricola Filippi Franco",
+    "country": "Italy",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.9510197,
+    "lon": 10.2220818,
+    "address": null
+  },
+  {
     "id": 5308011900,
     "name": "Le Moiacche - Azienda Agricola Ortofrutta",
     "country": "Italy",
@@ -9454,6 +9514,18 @@
     "lat": 37.9414815,
     "lon": 15.880653,
     "address": "Via Cariddi"
+  },
+  {
+    "id": 27638767,
+    "name": "Centro Agroalimentare \"La Valle della Pescara\"",
+    "country": "Italy",
+    "region": null,
+    "municipality": "Cepagatti",
+    "products": [],
+    "website": "http://www.lavalledellapescara.it",
+    "lat": 42.3989411,
+    "lon": 14.1455559,
+    "address": "Strada statale 602 di Forca di Penne"
   },
   {
     "id": 35731759,

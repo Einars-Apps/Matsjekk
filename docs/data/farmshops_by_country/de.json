@@ -2713,7 +2713,7 @@
   },
   {
     "id": 845263652,
-    "name": "Ranch am Torfmoor",
+    "name": "Ökohof \"Ranch am Torfmoor\" - Hofladen Göhren",
     "country": "Germany",
     "region": null,
     "municipality": "Göhren",
@@ -54822,7 +54822,7 @@
     "region": null,
     "municipality": "Stuttgart",
     "products": [],
-    "website": "https://hof-am-eichenhain.de/",
+    "website": "http://www.hof-am-eichenhain.de/",
     "lat": 48.733226,
     "lon": 9.2106078,
     "address": "Eichenparkstraße"
@@ -55506,7 +55506,7 @@
     "region": null,
     "municipality": "Grevenbroich",
     "products": [],
-    "website": "https://pfannenschuppen.de/",
+    "website": "http://www.pfannenschuppen.de/",
     "lat": 51.1231705,
     "lon": 6.7029398,
     "address": "Pfannenschuppen"
@@ -58500,18 +58500,6 @@
     "address": "Karlsruher Straße"
   },
   {
-    "id": 204039880,
-    "name": "Gemüsehof Humbold",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.729365,
-    "lon": 11.435039,
-    "address": "Dorfstraße"
-  },
-  {
     "id": 204899555,
     "name": "Obstwiese",
     "country": "Germany",
@@ -58542,7 +58530,7 @@
     "region": null,
     "municipality": "Steinhöring",
     "products": [],
-    "website": "https://www.evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
+    "website": "http://evs-steinhoering.de/de/component/content/article/2-uncategorised/86-werkstattladen.html",
     "lat": 48.0843833,
     "lon": 12.0250788,
     "address": "Münchener Straße"
@@ -60489,18 +60477,6 @@
     "website": "www.hofkaeserei-haindl.de",
     "lat": 48.5399977,
     "lon": 13.3518888,
-    "address": null
-  },
-  {
-    "id": 276560813,
-    "name": "Dörnaer Wald",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2318639,
-    "lon": 10.3330307,
     "address": null
   },
   {
@@ -63055,8 +63031,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.955346,
-    "lon": 11.9739118,
+    "lat": 50.955357,
+    "lon": 11.9739026,
     "address": null
   },
   {
@@ -63154,6 +63130,30 @@
     "lat": 51.4159335,
     "lon": 10.3704045,
     "address": "Nordhäuser Straße"
+  },
+  {
+    "id": 422822193,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Albessen",
+    "products": [],
+    "website": null,
+    "lat": 49.5165608,
+    "lon": 7.3306771,
+    "address": "Burgweg"
+  },
+  {
+    "id": 422822690,
+    "name": "Hof am Weiher",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 49.5166102,
+    "lon": 7.3304403,
+    "address": null
   },
   {
     "id": 422980648,
@@ -63582,7 +63582,7 @@
     "region": null,
     "municipality": "Erftstadt",
     "products": [],
-    "website": "https://www.spargelausbornheim.de/wolf.htm",
+    "website": "http://www.spargelausbornheim.de/wolf.htm",
     "lat": 50.839147,
     "lon": 6.7364716,
     "address": "Vorpforte"
@@ -64698,7 +64698,7 @@
     "region": null,
     "municipality": "Pegestorf",
     "products": [],
-    "website": "https://biohof-bossow.de/",
+    "website": "http://biohof-bossow.de",
     "lat": 51.926295,
     "lon": 9.4942025,
     "address": "Hauptstraße"
@@ -65250,7 +65250,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "https://feines-vom-bauernhof.com/",
+    "website": "http://feines-vom-bauernhof.com",
     "lat": 49.9844347,
     "lon": 10.213573,
     "address": "Hauptstraße"
@@ -66054,7 +66054,7 @@
     "region": null,
     "municipality": "Röthlein",
     "products": [],
-    "website": "https://www.feines-vom-bauernhof.com/",
+    "website": "http://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
     "address": "Hauptstraße"
@@ -69820,6 +69820,54 @@
     "address": "Odenwaldstraße"
   },
   {
+    "id": 845263652,
+    "name": "Ranch am Torfmoor",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Göhren",
+    "products": [],
+    "website": "https://www.ruegener-insellamm-rudenlamm.de/",
+    "lat": 54.3372557,
+    "lon": 13.7296166,
+    "address": "Am Törf"
+  },
+  {
+    "id": 204039880,
+    "name": "Gemüsehof Humbold",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.729365,
+    "lon": 11.435039,
+    "address": "Dorfstraße"
+  },
+  {
+    "id": 276560813,
+    "name": "Dörnaer Wald",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2318639,
+    "lon": 10.3330307,
+    "address": null
+  },
+  {
+    "id": 419066542,
+    "name": "alter Obstbau",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.955346,
+    "lon": 11.9739118,
+    "address": null
+  },
+  {
     "id": 98286911,
     "name": "Hühnerfarm",
     "country": "Germany",
@@ -69866,42 +69914,6 @@
     "lat": 49.4776062,
     "lon": 11.0356172,
     "address": "Raiffeisenstraße"
-  },
-  {
-    "id": 419066542,
-    "name": "alter Obstbau",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.955357,
-    "lon": 11.9739026,
-    "address": null
-  },
-  {
-    "id": 422822193,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Albessen",
-    "products": [],
-    "website": null,
-    "lat": 49.5165608,
-    "lon": 7.3306771,
-    "address": "Burgweg"
-  },
-  {
-    "id": 422822690,
-    "name": "Hof am Weiher",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 49.5166102,
-    "lon": 7.3304403,
-    "address": null
   },
   {
     "id": 479010033,

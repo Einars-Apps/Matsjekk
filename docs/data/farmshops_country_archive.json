@@ -185099,6 +185099,18 @@
       "lat": 52.0137397,
       "lon": 4.4010896,
       "address": "Kooltuin"
+    },
+    {
+      "id": 2629214824,
+      "name": "PURE Gerbera",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Delfgauw",
+      "products": [],
+      "website": "http://www.puregerbera.nl",
+      "lat": 52.0137392,
+      "lon": 4.4010765,
+      "address": "Kooltuin"
     }
   ],
   "BE": [
@@ -209961,6 +209973,18 @@
       "lat": 51.1070842,
       "lon": 3.2334347,
       "address": "Korte Akkerstraat"
+    },
+    {
+      "id": 1516907841,
+      "name": "Hoevewinkel",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.1342487,
+      "lon": 4.8835409,
+      "address": null
     }
   ],
   "FR": [
@@ -525139,6 +525163,18 @@
       "website": null,
       "lat": 51.7917439,
       "lon": -0.1022779,
+      "address": null
+    },
+    {
+      "id": 13856263617,
+      "name": "Saturday Farm Market",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
+      "lat": 51.7358037,
+      "lon": -1.2307511,
       "address": null
     }
   ],

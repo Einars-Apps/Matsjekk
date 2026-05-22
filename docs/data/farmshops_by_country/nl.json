@@ -132,6 +132,18 @@
     "address": "Vrij-Harnasch"
   },
   {
+    "id": 2629214824,
+    "name": "PURE Gerbera",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Delfgauw",
+    "products": [],
+    "website": "http://www.puregerbera.nl",
+    "lat": 52.0137392,
+    "lon": 4.4010765,
+    "address": "Kooltuin"
+  },
+  {
     "id": 2629216640,
     "name": "Lemuco",
     "country": "Netherlands",
@@ -6652,6 +6664,18 @@
     "lat": 51.4932275,
     "lon": 4.0532058,
     "address": null
+  },
+  {
+    "id": 13855450203,
+    "name": "PURE Gerbera",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.puregerbera.nl",
+    "lat": 52.0137397,
+    "lon": 4.4010896,
+    "address": "Kooltuin"
   },
   {
     "id": 11594956181,
