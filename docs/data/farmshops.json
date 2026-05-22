@@ -25196,10 +25196,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.svartbackens.com/",
+    "website": null,
     "lat": 59.8243714,
     "lon": 17.1905136,
-    "address": "Nysätra Svartbäcken"
+    "address": null
   },
   {
     "id": 7772874673,
@@ -25532,7 +25532,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tomatenshus.com/",
+    "website": "http://tomatenshus.com",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -26288,7 +26288,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/",
+    "website": "https://www.alnarpsfarm.se/the-project",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"
@@ -302354,7 +302354,7 @@
   },
   {
     "id": 577774331,
-    "name": "La ferme du marché",
+    "name": "La grignote",
     "country": "France",
     "region": null,
     "municipality": "Vichy",
@@ -303595,7 +303595,7 @@
     "region": null,
     "municipality": "Montpellier",
     "products": [],
-    "website": "https://boutiquespaysannes-lr.fr/lire/index.php?rubid=50",
+    "website": "http://www.boutiquespaysannes-lr.fr/lire/index.php?rubid=50",
     "lat": 43.6065188,
     "lon": 3.8754593,
     "address": "Rue Paul Brousse"
@@ -303659,18 +303659,6 @@
     "lat": 44.9801691,
     "lon": 1.2233842,
     "address": null
-  },
-  {
-    "id": 2322154860,
-    "name": "Montagne et Terroirs",
-    "country": "France",
-    "region": null,
-    "municipality": "Lutzelhouse",
-    "products": [],
-    "website": null,
-    "lat": 48.5127216,
-    "lon": 7.2783994,
-    "address": "Rue Principale"
   },
   {
     "id": 2327889948,
@@ -303859,7 +303847,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://leclosdelogette.over-blog.com/",
+    "website": "http://leclosdelogette.over-blog.com/",
     "lat": 49.4390239,
     "lon": 2.6102082,
     "address": null
@@ -304543,7 +304531,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.leslegumesoyeens.fr/",
+    "website": "http://www.leslegumesoyeens.fr",
     "lat": 46.3453155,
     "lon": 4.1774667,
     "address": null
@@ -304702,18 +304690,6 @@
     "website": null,
     "lat": 45.6199056,
     "lon": 2.729397,
-    "address": null
-  },
-  {
-    "id": 3667607447,
-    "name": "Traon Velar",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.621541,
-    "lon": -4.1090959,
     "address": null
   },
   {
@@ -305335,7 +305311,7 @@
     "region": null,
     "municipality": "Eugénie-les-Bains",
     "products": [],
-    "website": "https://www.moulindelabat.fr/",
+    "website": "http://www.moulindelabat.fr/",
     "lat": 43.6996308,
     "lon": -0.3794874,
     "address": "Route de Nicolas"
@@ -305384,8 +305360,8 @@
     "municipality": "Saint-Cézaire-sur-Siagne",
     "products": [],
     "website": null,
-    "lat": 43.6507692,
-    "lon": 6.7926035,
+    "lat": 43.6507818,
+    "lon": 6.7926176,
     "address": "Boulevard Courmes"
   },
   {
@@ -305707,7 +305683,7 @@
     "region": null,
     "municipality": "La Penne",
     "products": [],
-    "website": "https://www.la-spiruline-naturelle.org/",
+    "website": "http://www.la-spiruline-naturelle.org",
     "lat": 43.9239355,
     "lon": 6.9465143,
     "address": "la ferme du Collet"
@@ -306763,7 +306739,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.chevreriedescantiaux.fr/",
+    "website": "http://www.chevreriedescantiaux.fr",
     "lat": 46.3500899,
     "lon": 4.2509768,
     "address": null
@@ -306967,7 +306943,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lepanierasalade.over-blog.com/",
+    "website": "http://lepanierasalade.over-blog.com/",
     "lat": 43.7663113,
     "lon": 1.2791685,
     "address": "Route de Larra"
@@ -307159,7 +307135,7 @@
     "region": null,
     "municipality": "Oloron-Sainte-Marie",
     "products": [],
-    "website": "https://totdecasa.fr/",
+    "website": "http://totdecasa.fr/",
     "lat": 43.1919505,
     "lon": -0.6131736,
     "address": "Rue Carrerot"
@@ -307435,7 +307411,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://fermedelafitte.com/",
+    "website": "http://fermedelafitte.com/",
     "lat": 44.2027191,
     "lon": 0.2883482,
     "address": null
@@ -307655,6 +307631,18 @@
     "lat": 47.4445865,
     "lon": -2.0428445,
     "address": "La Barre"
+  },
+  {
+    "id": 4947602898,
+    "name": "Ferme Ty R'nao Jérémy Renaud",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.7135233,
+    "lon": -1.7961894,
+    "address": null
   },
   {
     "id": 4948661189,
@@ -308012,8 +308000,8 @@
     "municipality": "Ambert",
     "products": [],
     "website": null,
-    "lat": 45.5509729,
-    "lon": 3.7405588,
+    "lat": 45.5509499,
+    "lon": 3.7405544,
     "address": "Place Saint-Jean"
   },
   {
@@ -308792,9 +308780,9 @@
     "municipality": null,
     "products": [],
     "website": "https://vergersdesmoncels.fr/",
-    "lat": 48.731035,
-    "lon": 5.8404859,
-    "address": "Rue des Moncels"
+    "lat": 48.7311249,
+    "lon": 5.8403569,
+    "address": null
   },
   {
     "id": 5425592128,
@@ -309271,7 +309259,7 @@
     "region": null,
     "municipality": "Lucenay",
     "products": [],
-    "website": "https://coeurdeferme.com/",
+    "website": "http://www.coeurdeferme.com",
     "lat": 45.9172296,
     "lon": 4.7062673,
     "address": "Rue du Stade"
@@ -309452,8 +309440,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.vergers-boismace.com/",
-    "lat": 47.3579743,
-    "lon": -1.3379195,
+    "lat": 47.3565607,
+    "lon": -1.3366428,
     "address": null
   },
   {
@@ -309890,7 +309878,7 @@
   },
   {
     "id": 5924216998,
-    "name": "Bastide Le confort médical",
+    "name": "Générations Confort",
     "country": "France",
     "region": null,
     "municipality": "Paris",
@@ -310111,7 +310099,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.mirabio.fr/",
+    "website": "http://www.mirabio.fr",
     "lat": 49.0153076,
     "lon": 5.6775344,
     "address": "Rue de l'Église"
@@ -310159,7 +310147,7 @@
     "region": null,
     "municipality": "La Haie Fouassière",
     "products": [],
-    "website": "https://www.fermeduhallay.com/",
+    "website": "http://www.fermeduhallay.com",
     "lat": 47.1721611,
     "lon": -1.409111,
     "address": "Rue des Noëlles"
@@ -310375,7 +310363,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.lespetitschapelais.fr/",
+    "website": "http://lespetitschapelais.fr/",
     "lat": 48.0712687,
     "lon": -1.7632954,
     "address": null
@@ -310621,18 +310609,6 @@
     "address": "Chemin de Caparon"
   },
   {
-    "id": 6356642320,
-    "name": "Maison Raspide",
-    "country": "France",
-    "region": null,
-    "municipality": "Verdun Sur Garonne",
-    "products": [],
-    "website": null,
-    "lat": 43.8550791,
-    "lon": 1.224841,
-    "address": "Rue Gustave Eiffel"
-  },
-  {
     "id": 6372867516,
     "name": "Les Fermes Normandes",
     "country": "France",
@@ -310831,7 +310807,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://ferme-de-trevarn.fr/",
+    "website": "http://ferme-de-trevarn.fr",
     "lat": 48.3822431,
     "lon": -4.2473678,
     "address": null
@@ -311035,7 +311011,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.masdelane.com/",
+    "website": "http://www.masdelane.com/",
     "lat": 44.7815108,
     "lon": 5.0357583,
     "address": null
@@ -311131,7 +311107,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lechampdegaia.jimdo.com/",
+    "website": "lechampdegaia.jimdo.com",
     "lat": 47.6138351,
     "lon": 6.7847149,
     "address": null
@@ -311647,7 +311623,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lescalepaysanne.com/",
+    "website": "http://lescalepaysanne.com/",
     "lat": 47.8099905,
     "lon": -2.3838052,
     "address": null
@@ -312226,6 +312202,18 @@
     "website": null,
     "lat": 47.4012907,
     "lon": 6.7188823,
+    "address": null
+  },
+  {
+    "id": 7067352578,
+    "name": "Le jardin de la Baume",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.295375,
+    "lon": 6.6154618,
     "address": null
   },
   {
@@ -315427,7 +315415,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://fermebiovallee.sitew.fr/",
+    "website": "http://www.fermebiovallee.sitew.fr",
     "lat": 48.5064175,
     "lon": -4.5765446,
     "address": null
@@ -315617,12 +315605,12 @@
     "name": "L'armoire à conserves",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Castets",
     "products": [],
     "website": "https://www.larmoireaconserves.com",
     "lat": 43.8416084,
     "lon": -1.1775827,
-    "address": null
+    "address": "Route de Chanchon"
   },
   {
     "id": 7401039082,
@@ -315790,6 +315778,18 @@
     "website": null,
     "lat": 48.8392833,
     "lon": 2.3916807,
+    "address": null
+  },
+  {
+    "id": 7405129104,
+    "name": "Les Nouvelles Halles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.506671,
+    "lon": 6.998132,
     "address": null
   },
   {
@@ -315967,7 +315967,7 @@
     "region": null,
     "municipality": "Saint-Malon-sur-Mel",
     "products": [],
-    "website": "https://cidreriehuby.fr/",
+    "website": "http://www.cidreriehuby.fr/",
     "lat": 48.0991259,
     "lon": -2.1020389,
     "address": null
@@ -316421,12 +316421,12 @@
     "name": "Ferme Lesca",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Castets",
     "products": [],
     "website": "http://www.ferme-lesca.fr/index.html",
     "lat": 43.9172097,
     "lon": -1.1132745,
-    "address": null
+    "address": "Chemin des Tucs"
   },
   {
     "id": 7433137453,
@@ -316867,7 +316867,7 @@
     "region": null,
     "municipality": "La Table",
     "products": [],
-    "website": "https://www.lenantdelaguire.com/",
+    "website": "http://www.lenantdelaguire.com/",
     "lat": 45.4734735,
     "lon": 6.1843478,
     "address": "Route de la Table au Villard"
@@ -317174,7 +317174,7 @@
   },
   {
     "id": 7514854766,
-    "name": "Les Emplettes Fermières",
+    "name": "Les Emplettes fermières - Drive fermier",
     "country": "France",
     "region": null,
     "municipality": "Ayzac-Ost",
@@ -317551,7 +317551,7 @@
     "region": null,
     "municipality": "Tournon",
     "products": [],
-    "website": "https://lafermeducoteau.fr/",
+    "website": "lafermeducoteau.fr",
     "lat": 45.641432,
     "lon": 6.3194328,
     "address": "Route des vignes"
@@ -317719,7 +317719,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.lesjardinsdemontplaisir.fr/index.html",
+    "website": "http://www.lesjardinsdemontplaisir.fr/index.html",
     "lat": 49.4056346,
     "lon": 2.7449298,
     "address": null
@@ -318235,7 +318235,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://cueillettefabull.canalblog.com/",
+    "website": "http://cueillettefabull.canalblog.com/",
     "lat": 45.6345386,
     "lon": 0.1822256,
     "address": null
@@ -318619,7 +318619,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://icarespiruline.canalblog.com/",
+    "website": "http://icarespiruline.canalblog.com/",
     "lat": 45.7420851,
     "lon": 0.6287003,
     "address": null
@@ -319289,12 +319289,12 @@
     "name": "Ferme Du Pont",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Bénesse Maremne",
     "products": [],
     "website": "https://ferme-du-pont.business.site/",
     "lat": 43.6463788,
     "lon": -1.3535283,
-    "address": null
+    "address": "Chemin de la Téoulère"
   },
   {
     "id": 8082015690,
@@ -319325,12 +319325,12 @@
     "name": "AMAP de le Glacière",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Saint-Vincent-de-Paul",
     "products": [],
     "website": null,
     "lat": 43.7697815,
     "lon": -0.9874478,
-    "address": null
+    "address": "Route des Gravières"
   },
   {
     "id": 8104334334,
@@ -319483,7 +319483,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lafermeducoteau.fr/",
+    "website": "http://lafermeducoteau.fr/",
     "lat": 45.6414527,
     "lon": 6.3197334,
     "address": null
@@ -319625,12 +319625,12 @@
     "name": "La forêt d'Emeraude",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Pey",
     "products": [],
     "website": "https://laforetdemeraude.fr/",
     "lat": 43.6427655,
     "lon": -1.3797501,
-    "address": null
+    "address": "Chemin du Hagnat"
   },
   {
     "id": 8184017676,
@@ -319651,7 +319651,7 @@
     "region": null,
     "municipality": "Herm",
     "products": [],
-    "website": "https://www.champiland.com/",
+    "website": "http://www.champiland.com/",
     "lat": 43.8109649,
     "lon": -1.1456077,
     "address": "Avenue Joseph Lacoste"
@@ -319807,7 +319807,7 @@
     "region": null,
     "municipality": "Treize-Septiers",
     "products": [],
-    "website": "https://www.lagouriniere.fr/",
+    "website": "http://www.lagouriniere.fr/",
     "lat": 46.9987674,
     "lon": -1.2793019,
     "address": "La Gourinière"
@@ -319870,7 +319870,7 @@
     "website": null,
     "lat": 47.2118013,
     "lon": -0.3714757,
-    "address": "Les Renardières"
+    "address": null
   },
   {
     "id": 8267273096,
@@ -319991,6 +319991,18 @@
     "lat": 50.4952361,
     "lon": 2.5847496,
     "address": null
+  },
+  {
+    "id": 8325329077,
+    "name": "Prise Direct' (dans Gamm Vert)",
+    "country": "France",
+    "region": null,
+    "municipality": "Cambrai",
+    "products": [],
+    "website": null,
+    "lat": 50.1801201,
+    "lon": 3.2259228,
+    "address": "Boulevard Jean Bart"
   },
   {
     "id": 8325459264,
@@ -322591,7 +322603,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.les-simples-de-sophie.com/",
+    "website": "http://www.les-simples-de-sophie.com/",
     "lat": 44.9650571,
     "lon": 1.776174,
     "address": null
@@ -322784,8 +322796,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 49.2093782,
-    "lon": -0.1765178,
+    "lat": 49.2091784,
+    "lon": -0.1782559,
     "address": null
   },
   {
@@ -322807,9 +322819,9 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.gonnegirls.farm",
-    "lat": 49.2623724,
-    "lon": -0.196117,
+    "website": "https://www.gonnegirls.farm/",
+    "lat": 49.2615725,
+    "lon": -0.1936252,
     "address": null
   },
   {
@@ -323995,7 +324007,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://grainsdeferme.com/",
+    "website": "http://grainsdeferme.com/",
     "lat": 45.8182465,
     "lon": 4.723677,
     "address": "Avenue des Monts d'Or"
@@ -324115,7 +324127,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.maree-des-iles.fr/",
+    "website": "http://www.maree-des-iles.fr/",
     "lat": 49.1548379,
     "lon": -1.5915692,
     "address": null
@@ -324407,18 +324419,6 @@
     "lat": 44.1606112,
     "lon": 4.7809106,
     "address": null
-  },
-  {
-    "id": 9513989261,
-    "name": "La ferme de Barouilley",
-    "country": "France",
-    "region": null,
-    "municipality": "Aubie-et-Espessas",
-    "products": [],
-    "website": "https://www.producteurs-haute-gironde.fr/fiche/benjamin-hanzel-ferme-de-barouilley-earl-hanzel/",
-    "lat": 45.0095782,
-    "lon": -0.4139688,
-    "address": "Chemin de Barouilley Nord"
   },
   {
     "id": 9520176464,
@@ -325318,7 +325318,7 @@
     "website": "https://www.facebook.com/lesfermiersdulandesmain/",
     "lat": 43.8296271,
     "lon": -0.5007609,
-    "address": null
+    "address": "Avenue d'Alsace"
   },
   {
     "id": 9876023248,
@@ -327046,7 +327046,7 @@
     "website": null,
     "lat": 47.1922857,
     "lon": -0.3964007,
-    "address": "Lieu Dit le Petit Champloin"
+    "address": null
   },
   {
     "id": 10608935830,
@@ -327980,8 +327980,8 @@
     "municipality": null,
     "products": [],
     "website": "https://lepanierdelatourpenchee.org/",
-    "lat": 48.4392981,
-    "lon": 2.1496102,
+    "lat": 48.4396876,
+    "lon": 2.1498039,
     "address": null
   },
   {
@@ -328441,6 +328441,18 @@
     "address": null
   },
   {
+    "id": 10962213648,
+    "name": "Élevage de Penoën",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.24308,
+    "lon": -3.5225827,
+    "address": null
+  },
+  {
     "id": 10962984793,
     "name": "Ferme de la Durette",
     "country": "France",
@@ -328603,7 +328615,7 @@
     "region": null,
     "municipality": "Castelnau-Tursan",
     "products": [],
-    "website": "https://tursane.fr/",
+    "website": "www.tursane.fr",
     "lat": 43.6594357,
     "lon": -0.4044092,
     "address": "Rue du Village"
@@ -329261,12 +329273,12 @@
     "name": "Les Jardins de Brangoulo",
     "country": "France",
     "region": null,
-    "municipality": "Guidel",
+    "municipality": null,
     "products": [],
     "website": "https://jardins.brangoulo.fr/",
-    "lat": 47.8044328,
-    "lon": -3.5076344,
-    "address": "lieu-dit Brangoulo"
+    "lat": 47.8042121,
+    "lon": -3.5085239,
+    "address": null
   },
   {
     "id": 11091392626,
@@ -329519,18 +329531,6 @@
     "lat": 43.6557783,
     "lon": -0.6038492,
     "address": "Chemin de Melet"
-  },
-  {
-    "id": 11180581738,
-    "name": "Paysans Gourmands",
-    "country": "France",
-    "region": null,
-    "municipality": "Saint-Beauzire",
-    "products": [],
-    "website": "https://www.paysans-gourmands.fr/",
-    "lat": 45.8656882,
-    "lon": 3.1624309,
-    "address": "La Grande Bogne"
   },
   {
     "id": 11183235863,
@@ -329866,7 +329866,7 @@
     "website": null,
     "lat": 47.2327376,
     "lon": -0.2103234,
-    "address": "Rue Principale"
+    "address": null
   },
   {
     "id": 11336135584,
@@ -330559,7 +330559,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.ferme-cantegril.fr/",
+    "website": "http://www.ferme-cantegril.fr/",
     "lat": 43.8190749,
     "lon": 1.5061865,
     "address": null
@@ -331423,7 +331423,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lafermepaideia.fr",
+    "website": "https://commande.kuupanda.com/producteur/5837/part/boutique/vente_en_ligne",
     "lat": 46.6640793,
     "lon": 5.5103484,
     "address": "Rue de la Fontaine"
@@ -332341,18 +332341,6 @@
     "address": null
   },
   {
-    "id": 12106284404,
-    "name": "GAEC des Petits Ruisseaux",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5719499,
-    "lon": -1.4778704,
-    "address": null
-  },
-  {
     "id": 12107811768,
     "name": "Com à la ferme",
     "country": "France",
@@ -332567,6 +332555,18 @@
     "lat": 48.5228393,
     "lon": 7.7050033,
     "address": "Rue Krafft"
+  },
+  {
+    "id": 12141492002,
+    "name": "Point de livraison de paniers bio",
+    "country": "France",
+    "region": null,
+    "municipality": "Plobsheim",
+    "products": [],
+    "website": null,
+    "lat": 48.473403,
+    "lon": 7.7306758,
+    "address": "Rue du Général Leclerc"
   },
   {
     "id": 12141817080,
@@ -333895,7 +333895,7 @@
     "region": null,
     "municipality": "Coussegrey",
     "products": [],
-    "website": "https://mademoiselle-chevre.com/",
+    "website": "http://mademoiselle-chevre.com/",
     "lat": 47.9579789,
     "lon": 4.0184001,
     "address": "Route de Prusy"
@@ -334985,12 +334985,12 @@
     "name": "Modenx Christiane",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Benquet",
     "products": [],
     "website": null,
     "lat": 43.8223671,
     "lon": -0.5007473,
-    "address": null
+    "address": "Route de Saint-Christau"
   },
   {
     "id": 12698730193,
@@ -335009,12 +335009,12 @@
     "name": "Apis Mellona",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Seignosse",
     "products": [],
     "website": "https://apismellona.fr",
-    "lat": 43.6870918,
-    "lon": -1.3480799,
-    "address": null
+    "lat": 43.6871102,
+    "lon": -1.3482703,
+    "address": "Rue du Maresq"
   },
   {
     "id": 12708370203,
@@ -335282,15 +335282,15 @@
   },
   {
     "id": 12755180439,
-    "name": "Les Escargots du Danjon",
+    "name": "vendeur d'escargot",
     "country": "France",
     "region": null,
     "municipality": "Crevant",
     "products": [],
-    "website": "https://les-escargots-du-danjon.webnode.fr/",
-    "lat": 46.4906131,
-    "lon": 1.9442378,
-    "address": "Z.A. des Ébaudons"
+    "website": null,
+    "lat": 46.490586,
+    "lon": 1.9442172,
+    "address": "Route de La Châtre"
   },
   {
     "id": 12756996566,
@@ -336571,7 +336571,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.lafermefleurauxbecs41.fr/boutique.html",
+    "website": "http://www.lafermefleurauxbecs41.fr/boutique.html",
     "lat": 47.5390437,
     "lon": 1.5954336,
     "address": "Route de Bracieux"
@@ -336830,7 +336830,7 @@
   },
   {
     "id": 13084927852,
-    "name": "La Benarderie",
+    "name": "La Bernarderie",
     "country": "France",
     "region": null,
     "municipality": null,
@@ -337201,6 +337201,18 @@
     "address": null
   },
   {
+    "id": 13142969353,
+    "name": "Les Jardins de la Limougère",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.418686,
+    "lon": 0.6149191,
+    "address": null
+  },
+  {
     "id": 13143932707,
     "name": "Ferme du Chant des Oiseaux",
     "country": "France",
@@ -337319,18 +337331,6 @@
     "lat": 47.6932151,
     "lon": 0.1564878,
     "address": null
-  },
-  {
-    "id": 13175989684,
-    "name": "Boutique Safran d'Auvergne",
-    "country": "France",
-    "region": null,
-    "municipality": "Marsac-en-Livradois",
-    "products": [],
-    "website": "https://safrandauvergne.com/",
-    "lat": 45.4492898,
-    "lon": 3.7123139,
-    "address": "Rue des Violettes"
   },
   {
     "id": 13180296810,
@@ -338474,15 +338474,15 @@
   },
   {
     "id": 13432236030,
-    "name": "Le Champ des Mêlés",
+    "name": "Le champ des Mêlés",
     "country": "France",
     "region": null,
-    "municipality": "Montchevrier",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.4794359,
-    "lon": 1.7201033,
-    "address": "Le Champ des Mêlés"
+    "lat": 46.4796331,
+    "lon": 1.7200307,
+    "address": null
   },
   {
     "id": 13445030391,
@@ -338671,7 +338671,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.aufildescesson.fr/",
+    "website": "http://aufildescesson.fr",
     "lat": 48.1166109,
     "lon": -1.5787347,
     "address": "Rue de la Rigourdière"
@@ -338921,12 +338921,12 @@
     "name": "Lafin",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Vesdun",
     "products": [],
     "website": null,
     "lat": 46.5733937,
     "lon": 2.4214892,
-    "address": null
+    "address": "Route des Champs Rouges"
   },
   {
     "id": 13598084369,
@@ -338969,12 +338969,12 @@
     "name": "Magazines à la ferme (canards à la mag)",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Beddes",
     "products": [],
     "website": null,
     "lat": 46.6171588,
     "lon": 2.2183802,
-    "address": null
+    "address": "Route des Sapins"
   },
   {
     "id": 13610158086,
@@ -339209,12 +339209,12 @@
     "name": "Légumerie du Domaine de Châteaufer",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Bruère-Allichamps",
     "products": [],
     "website": null,
     "lat": 46.7950958,
     "lon": 2.4239946,
-    "address": null
+    "address": "Route de Bruère"
   },
   {
     "id": 13658912600,
@@ -339245,24 +339245,24 @@
     "name": "La Ferme du Bois Bertrand",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Montchevrier",
     "products": [],
     "website": "https://www.facebook.com/famillethoonsen",
     "lat": 46.5036217,
     "lon": 1.7414552,
-    "address": null
+    "address": "Rue des Peupliers"
   },
   {
     "id": 13666718964,
     "name": "GAEC du Ris",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Mers-Sur-Indre",
     "products": [],
     "website": "https://www.facebook.com/61575530663254/",
     "lat": 46.6778123,
     "lon": 1.8855026,
-    "address": null
+    "address": "Route du Ris"
   },
   {
     "id": 13666765364,
@@ -339415,7 +339415,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://aupotagermignon.bio/",
+    "website": "http://aupotagermignon.bio",
     "lat": 46.2147606,
     "lon": -0.65619,
     "address": "Le champ gâté Prin-Deyrançon"
@@ -339673,570 +339673,6 @@
     "address": null
   },
   {
-    "id": 13750038322,
-    "name": "Ferme de Sçay",
-    "country": "France",
-    "region": null,
-    "municipality": "Venesme",
-    "products": [],
-    "website": null,
-    "lat": 49.3196196,
-    "lon": 4.5506794,
-    "address": null
-  },
-  {
-    "id": 13752182325,
-    "name": "Les Jardins du Riau",
-    "country": "France",
-    "region": null,
-    "municipality": "Saint-Hilaire-en-Lignières",
-    "products": [],
-    "website": "https://www.facebook.com/61550722709965/",
-    "lat": 46.7368764,
-    "lon": 2.1661955,
-    "address": null
-  },
-  {
-    "id": 13754465432,
-    "name": "Magasin de Producteurs du Pays Midi-Quercy",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.0507979,
-    "lon": 1.4597212,
-    "address": null
-  },
-  {
-    "id": 13755697474,
-    "name": "Le Maraîcher de Bourcia",
-    "country": "France",
-    "region": null,
-    "municipality": "Bourcia",
-    "products": [],
-    "website": null,
-    "lat": 46.3563044,
-    "lon": 5.4075991,
-    "address": "Rue des Moulins"
-  },
-  {
-    "id": 13756250633,
-    "name": "La Ferme du Bas-Berry",
-    "country": "France",
-    "region": null,
-    "municipality": "Crevant",
-    "products": [],
-    "website": null,
-    "lat": 46.5012427,
-    "lon": 1.93408,
-    "address": null
-  },
-  {
-    "id": 13759405522,
-    "name": "La Fraiseraie du Plessis",
-    "country": "France",
-    "region": null,
-    "municipality": "Le Plessis-Gassot",
-    "products": [],
-    "website": null,
-    "lat": 49.03347,
-    "lon": 2.4152037,
-    "address": null
-  },
-  {
-    "id": 13761788246,
-    "name": "La Mie des Vaches",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.7161838,
-    "lon": -1.0699092,
-    "address": null
-  },
-  {
-    "id": 13761788247,
-    "name": "Fournil de la Mie des Vaches",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.7152244,
-    "lon": -1.066879,
-    "address": null
-  },
-  {
-    "id": 13764036874,
-    "name": "La Rouge Jouvence",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.3205917,
-    "lon": 4.8627931,
-    "address": null
-  },
-  {
-    "id": 13767233050,
-    "name": "La Ferme des Pailles",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.447634,
-    "lon": -1.9433491,
-    "address": null
-  },
-  {
-    "id": 13769291856,
-    "name": "La boutique-bar",
-    "country": "France",
-    "region": null,
-    "municipality": "Auffargis",
-    "products": [],
-    "website": null,
-    "lat": 48.6601703,
-    "lon": 1.8985275,
-    "address": null
-  },
-  {
-    "id": 13769994076,
-    "name": "Lorre Safran",
-    "country": "France",
-    "region": null,
-    "municipality": "Baraize",
-    "products": [],
-    "website": "https://www.facebook.com/100064575347301/",
-    "lat": 46.4767128,
-    "lon": 1.5879026,
-    "address": "Rue de la Modère"
-  },
-  {
-    "id": 13771449618,
-    "name": "La Ferme de Saint-Jean",
-    "country": "France",
-    "region": null,
-    "municipality": "Vicq-sur-Mer",
-    "products": [],
-    "website": "https://www.lafermedesaintjean.fr",
-    "lat": 49.6789902,
-    "lon": -1.4220925,
-    "address": "Route du Saint-Jean"
-  },
-  {
-    "id": 13772766197,
-    "name": "Ferme du Cèdre",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.3147092,
-    "lon": 2.3354858,
-    "address": "Route de Salettes"
-  },
-  {
-    "id": 13779391801,
-    "name": "La Ferme du Crêt Joli",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lecretjoli.fr",
-    "lat": 46.0502614,
-    "lon": 5.9908579,
-    "address": "Route du Crêt"
-  },
-  {
-    "id": 13783578112,
-    "name": "Société Nouvelle Les Vergers de Muant",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.6572948,
-    "lon": 1.0571636,
-    "address": null
-  },
-  {
-    "id": 13783578118,
-    "name": "La Ferme de Ludovic",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.6955777,
-    "lon": 1.0705372,
-    "address": null
-  },
-  {
-    "id": 13786553213,
-    "name": "Didier Porcheron",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6214254,
-    "lon": 1.577282,
-    "address": "Rue de Gobienne"
-  },
-  {
-    "id": 13787077023,
-    "name": "L'Orée des Chênes",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.7253805,
-    "lon": 3.604274,
-    "address": null
-  },
-  {
-    "id": 13789099517,
-    "name": "La Foret du Puy",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.la-foret-du-puy.com/",
-    "lat": 44.9147451,
-    "lon": 4.5500793,
-    "address": null
-  },
-  {
-    "id": 13795684167,
-    "name": "Ferme Bastebieille",
-    "country": "France",
-    "region": null,
-    "municipality": "Mimbaste",
-    "products": [],
-    "website": null,
-    "lat": 43.6471947,
-    "lon": -0.9398891,
-    "address": "Chemin des Bastes"
-  },
-  {
-    "id": 13801708946,
-    "name": "SARL Joseph de La Bouvrie",
-    "country": "France",
-    "region": null,
-    "municipality": "Casson",
-    "products": [],
-    "website": null,
-    "lat": 47.3900029,
-    "lon": -1.5827422,
-    "address": "l'hébergement"
-  },
-  {
-    "id": 13801708947,
-    "name": "La F'hermaphrodite",
-    "country": "France",
-    "region": null,
-    "municipality": "Casson",
-    "products": [],
-    "website": null,
-    "lat": 47.3905947,
-    "lon": -1.5320067,
-    "address": null
-  },
-  {
-    "id": 13806090760,
-    "name": "Ferme du Bois de Cosset",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lafermeduboisdecosset.fr/",
-    "lat": 46.5620906,
-    "lon": 1.9235388,
-    "address": null
-  },
-  {
-    "id": 13809160960,
-    "name": "Earl Des Benismes",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.6829491,
-    "lon": 1.2187877,
-    "address": null
-  },
-  {
-    "id": 13809160961,
-    "name": "Gaec de Gommiers",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.6769703,
-    "lon": 1.2035608,
-    "address": null
-  },
-  {
-    "id": 13809160962,
-    "name": "Gaec de la Carrière",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7494365,
-    "lon": 1.1899231,
-    "address": null
-  },
-  {
-    "id": 13809160984,
-    "name": "Earl des Buttons",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bienvenue-a-la-ferme.com/centre/indre/rosnay/ferme/la-ferme-des-buttons/457245",
-    "lat": 46.7320295,
-    "lon": 1.2041751,
-    "address": null
-  },
-  {
-    "id": 13809385659,
-    "name": "Pépinière d'Adeline",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://lesplantsdadeline.wixsite.com/lesplantsdadeline",
-    "lat": 45.0169328,
-    "lon": 5.4453775,
-    "address": "Chemin de Toulouze"
-  },
-  {
-    "id": 13810673767,
-    "name": "Herba Humana",
-    "country": "France",
-    "region": null,
-    "municipality": "Neuillay-les-Bois",
-    "products": [],
-    "website": "www.herba-hulana.fr",
-    "lat": 46.7210567,
-    "lon": 1.4622621,
-    "address": null
-  },
-  {
-    "id": 13810833479,
-    "name": "Le Gargilesse - Chèvrerie",
-    "country": "France",
-    "region": null,
-    "municipality": "Gargilesse-Dampierre",
-    "products": [],
-    "website": null,
-    "lat": 46.5008965,
-    "lon": 1.6095434,
-    "address": null
-  },
-  {
-    "id": 13810921501,
-    "name": "Ferme des Tournelles",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://://www.fermedestournelles.com",
-    "lat": 49.0772906,
-    "lon": 2.1792608,
-    "address": "Rue des Tournelles"
-  },
-  {
-    "id": 13812369535,
-    "name": "Gaec du Patis Candé",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3877442,
-    "lon": -0.7442199,
-    "address": null
-  },
-  {
-    "id": 13814089530,
-    "name": "Ets Berder Les huîtres de Pen Al Lann",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.huitres-pen-al-lann.fr/",
-    "lat": 48.6663212,
-    "lon": -3.8930023,
-    "address": null
-  },
-  {
-    "id": 13814089531,
-    "name": "Prat Ar Coum La maison de l'huître",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://soccialdesetsalainmadec.site-solocal.com/",
-    "lat": 48.6666066,
-    "lon": -3.8942111,
-    "address": null
-  },
-  {
-    "id": 13820361266,
-    "name": "Poul'et Compagnie",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2096917,
-    "lon": 5.0867712,
-    "address": null
-  },
-  {
-    "id": 13820995262,
-    "name": "Les Châtaignes Ardèchoises",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.chataignes-ardechoises.fr",
-    "lat": 44.9028098,
-    "lon": 4.5767471,
-    "address": null
-  },
-  {
-    "id": 13825055115,
-    "name": "Terra Fermes",
-    "country": "France",
-    "region": null,
-    "municipality": "Terrasson-Lavilledieu",
-    "products": [],
-    "website": null,
-    "lat": 45.1304446,
-    "lon": 1.3012944,
-    "address": "Avenue Jean Jaurès"
-  },
-  {
-    "id": 13826763528,
-    "name": "Mademoiselle Châtaigne",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.mademoiselle-chataigne.fr/",
-    "lat": 44.900302,
-    "lon": 4.5702991,
-    "address": null
-  },
-  {
-    "id": 13827554686,
-    "name": "Chez Maria",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 43.541659,
-    "lon": 3.8496592,
-    "address": null
-  },
-  {
-    "id": 13831196733,
-    "name": "Gaec des Rouchoux",
-    "country": "France",
-    "region": null,
-    "municipality": "Saulzet le Froid",
-    "products": [],
-    "website": null,
-    "lat": 45.6413288,
-    "lon": 2.9389607,
-    "address": "Zanières"
-  },
-  {
-    "id": 13831419156,
-    "name": "Les volailles à l'ancienne",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.volaillesalancienne.com/",
-    "lat": 47.2556565,
-    "lon": 6.6572386,
-    "address": null
-  },
-  {
-    "id": 13841198906,
-    "name": "Myrtille et Ortensia",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.9502868,
-    "lon": 0.1394829,
-    "address": null
-  },
-  {
-    "id": 13841836729,
-    "name": "La Ferme des Douces Prairies",
-    "country": "France",
-    "region": null,
-    "municipality": "Gonneville-le-Theil",
-    "products": [],
-    "website": "https://lafermedesdoucesprairies.fr",
-    "lat": 49.5952696,
-    "lon": -1.4625321,
-    "address": "Route de Barnavast"
-  },
-  {
-    "id": 13849367006,
-    "name": "Rendez-vous Gourmands",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://rdv-gourmands.fr/",
-    "lat": 45.0530463,
-    "lon": 4.9530995,
-    "address": null
-  },
-  {
-    "id": 13856894582,
-    "name": "La Coccinelle",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 45.3856336,
-    "lon": 4.836296,
-    "address": null
-  },
-  {
-    "id": 13858239468,
-    "name": "La Ferme des Petit-Minil",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://petitminil.fr/",
-    "lat": 46.4384891,
-    "lon": 2.1034285,
-    "address": null
-  },
-  {
     "id": 24528129,
     "name": "Vignes d'Argenteuil",
     "country": "France",
@@ -340423,7 +339859,7 @@
     "region": null,
     "municipality": "Bagnolet",
     "products": [],
-    "website": null,
+    "website": "http://www.clos-a-peche.sitew.com/",
     "lat": 48.8693975,
     "lon": 2.4177521,
     "address": "Rue Charles Graindorge"
@@ -341005,18 +340441,6 @@
     "address": null
   },
   {
-    "id": 72412441,
-    "name": "Ferme de Kerantosfal",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6487626,
-    "lon": -4.1366802,
-    "address": null
-  },
-  {
     "id": 72679487,
     "name": "Farmily and Co",
     "country": "France",
@@ -341503,7 +340927,7 @@
     "region": null,
     "municipality": "Saint-Philippe",
     "products": [],
-    "website": "https://escale-bleue.fr/",
+    "website": "http://escale-bleue.fr/",
     "lat": -21.325045,
     "lon": 55.799796,
     "address": "Route Nationale 2 Le Tremblet"
@@ -341965,18 +341389,6 @@
     "address": null
   },
   {
-    "id": 115172293,
-    "name": "Les œufs de la ferme des Parrichets",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.8024106,
-    "lon": 3.0635147,
-    "address": null
-  },
-  {
     "id": 115894235,
     "name": "Les trésors de nos villages",
     "country": "France",
@@ -342349,6 +341761,18 @@
     "address": "La Commanderie"
   },
   {
+    "id": 142244951,
+    "name": "Maison du Fromage et des Produits locaux",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.maisondufromage.fr/",
+    "lat": 46.681742,
+    "lon": 1.0402065,
+    "address": null
+  },
+  {
     "id": 142636783,
     "name": "L'Epi d'Or",
     "country": "France",
@@ -342415,7 +341839,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.coeur-de-fermier.com/",
+    "website": "http://www.coeur-de-fermier.com/",
     "lat": 45.7752909,
     "lon": 2.7584046,
     "address": null
@@ -343175,18 +342599,6 @@
     "lat": 44.090825,
     "lon": 6.502577,
     "address": null
-  },
-  {
-    "id": 197008812,
-    "name": "Trikome - Producteur de CBD Bio en Savoie",
-    "country": "France",
-    "region": null,
-    "municipality": "Domessin",
-    "products": [],
-    "website": "https://trikome.fr/",
-    "lat": 45.5483485,
-    "lon": 5.7150105,
-    "address": "Route de Verel-de-Montbel"
   },
   {
     "id": 197010056,
@@ -344263,7 +343675,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://brinsdeterroir.fr/",
+    "website": "http://www.brinsdeterroir.fr/",
     "lat": 44.7750446,
     "lon": 5.0223105,
     "address": "Quartier La Gare"
@@ -345207,18 +344619,6 @@
     "website": null,
     "lat": 48.4454712,
     "lon": -4.5640107,
-    "address": null
-  },
-  {
-    "id": 495684972,
-    "name": "Cevenat Huiles essentielles",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.cevenat.fr/",
-    "lat": 44.1934605,
-    "lon": 3.6580594,
     "address": null
   },
   {
@@ -346962,30 +346362,6 @@
     "address": null
   },
   {
-    "id": 771710438,
-    "name": "Parc à Huitres",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6687498,
-    "lon": -3.8676283,
-    "address": null
-  },
-  {
-    "id": 771711936,
-    "name": "Parc à Huitres",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6563047,
-    "lon": -3.8644555,
-    "address": null
-  },
-  {
     "id": 775391311,
     "name": "Algosud",
     "country": "France",
@@ -347794,12 +347170,12 @@
     "name": "Le Papillon Bleu",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Bénesse-Maremne",
     "products": [],
     "website": "https://boutique-papillonbleu.fr/",
     "lat": 43.6313986,
     "lon": -1.3679763,
-    "address": null
+    "address": "Route d'Angresse"
   },
   {
     "id": 856656867,
@@ -348070,12 +347446,12 @@
     "name": "Ferme Du Pont",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Bénesse Maremne",
     "products": [],
     "website": "https://ferme-du-pont.business.site/",
     "lat": 43.6462664,
     "lon": -1.3534073,
-    "address": null
+    "address": "Chemin de la Téoulère"
   },
   {
     "id": 870725325,
@@ -349470,18 +348846,6 @@
     "address": null
   },
   {
-    "id": 142244951,
-    "name": "Maison du Fromage et des Produits locaux",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.maisondufromage.fr/",
-    "lat": 46.681742,
-    "lon": 1.0402065,
-    "address": null
-  },
-  {
     "id": 998810776,
     "name": "Le Potager des Castors",
     "country": "France",
@@ -349518,80 +348882,8 @@
     "address": null
   },
   {
-    "id": 5423212132,
-    "name": "Les Vergers des Moncels",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://vergersdesmoncels.fr/",
-    "lat": 48.7311249,
-    "lon": 5.8403569,
-    "address": null
-  },
-  {
-    "id": 5924216998,
-    "name": "Générations Confort",
-    "country": "France",
-    "region": null,
-    "municipality": "Paris",
-    "products": [],
-    "website": null,
-    "lat": 48.8257314,
-    "lon": 2.3133074,
-    "address": "Boulevard Brune"
-  },
-  {
-    "id": 12704192737,
-    "name": "Apis Mellona",
-    "country": "France",
-    "region": null,
-    "municipality": "Seignosse",
-    "products": [],
-    "website": "https://apismellona.fr",
-    "lat": 43.6871102,
-    "lon": -1.3482703,
-    "address": "Rue du Maresq"
-  },
-  {
-    "id": 7067352578,
-    "name": "Le jardin de la Baume",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.295375,
-    "lon": 6.6154618,
-    "address": null
-  },
-  {
-    "id": 10908496625,
-    "name": "AMAP Le Panier de la Tour Penchée",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://lepanierdelatourpenchee.org/",
-    "lat": 48.4396876,
-    "lon": 2.1498039,
-    "address": null
-  },
-  {
-    "id": 8325329077,
-    "name": "Prise Direct' (dans Gamm Vert)",
-    "country": "France",
-    "region": null,
-    "municipality": "Cambrai",
-    "products": [],
-    "website": null,
-    "lat": 50.1801201,
-    "lon": 3.2259228,
-    "address": "Boulevard Jean Bart"
-  },
-  {
     "id": 577774331,
-    "name": "La grignote",
+    "name": "La ferme du marché",
     "country": "France",
     "region": null,
     "municipality": "Vichy",
@@ -349602,6 +348894,30 @@
     "address": "Place Pierre-Victor Léger"
   },
   {
+    "id": 2322154860,
+    "name": "Montagne et Terroirs",
+    "country": "France",
+    "region": null,
+    "municipality": "Lutzelhouse",
+    "products": [],
+    "website": null,
+    "lat": 48.5127216,
+    "lon": 7.2783994,
+    "address": "Rue Principale"
+  },
+  {
+    "id": 3667607447,
+    "name": "Traon Velar",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.621541,
+    "lon": -4.1090959,
+    "address": null
+  },
+  {
     "id": 3982196508,
     "name": "L'oliveraie des Fons Bourdouos",
     "country": "France",
@@ -349609,21 +348925,9 @@
     "municipality": "Saint-Cézaire-sur-Siagne",
     "products": [],
     "website": null,
-    "lat": 43.6507818,
-    "lon": 6.7926176,
+    "lat": 43.6507692,
+    "lon": 6.7926035,
     "address": "Boulevard Courmes"
-  },
-  {
-    "id": 4947602898,
-    "name": "Ferme Ty R'nao Jérémy Renaud",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.7135233,
-    "lon": -1.7961894,
-    "address": null
   },
   {
     "id": 5072282151,
@@ -349633,9 +348937,21 @@
     "municipality": "Ambert",
     "products": [],
     "website": null,
-    "lat": 45.5509499,
-    "lon": 3.7405544,
+    "lat": 45.5509729,
+    "lon": 3.7405588,
     "address": "Place Saint-Jean"
+  },
+  {
+    "id": 5423212132,
+    "name": "Les Vergers des Moncels",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://vergersdesmoncels.fr/",
+    "lat": 48.731035,
+    "lon": 5.8404859,
+    "address": "Rue des Moncels"
   },
   {
     "id": 5730476112,
@@ -349645,25 +348961,37 @@
     "municipality": null,
     "products": [],
     "website": "https://www.vergers-boismace.com/",
-    "lat": 47.3565607,
-    "lon": -1.3366428,
+    "lat": 47.3579743,
+    "lon": -1.3379195,
     "address": null
   },
   {
-    "id": 7405129104,
-    "name": "Les Nouvelles Halles",
+    "id": 5924216998,
+    "name": "Bastide Le confort médical",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Paris",
     "products": [],
     "website": null,
-    "lat": 47.506671,
-    "lon": 6.998132,
-    "address": null
+    "lat": 48.8257314,
+    "lon": 2.3133074,
+    "address": "Boulevard Brune"
+  },
+  {
+    "id": 6356642320,
+    "name": "Maison Raspide",
+    "country": "France",
+    "region": null,
+    "municipality": "Verdun Sur Garonne",
+    "products": [],
+    "website": null,
+    "lat": 43.8550791,
+    "lon": 1.224841,
+    "address": "Rue Gustave Eiffel"
   },
   {
     "id": 7514854766,
-    "name": "Les Emplettes fermières - Drive fermier",
+    "name": "Les Emplettes Fermières",
     "country": "France",
     "region": null,
     "municipality": "Ayzac-Ost",
@@ -349681,8 +349009,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 49.2091784,
-    "lon": -0.1782559,
+    "lat": 49.2093782,
+    "lon": -0.1765178,
     "address": null
   },
   {
@@ -349692,21 +349020,33 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.gonnegirls.farm/",
-    "lat": 49.2615725,
-    "lon": -0.1936252,
+    "website": "https://www.gonnegirls.farm",
+    "lat": 49.2623724,
+    "lon": -0.196117,
     "address": null
   },
   {
-    "id": 10962213648,
-    "name": "Élevage de Penoën",
+    "id": 9513989261,
+    "name": "La ferme de Barouilley",
+    "country": "France",
+    "region": null,
+    "municipality": "Aubie-et-Espessas",
+    "products": [],
+    "website": "https://www.producteurs-haute-gironde.fr/fiche/benjamin-hanzel-ferme-de-barouilley-earl-hanzel/",
+    "lat": 45.0095782,
+    "lon": -0.4139688,
+    "address": "Chemin de Barouilley Nord"
+  },
+  {
+    "id": 10908496625,
+    "name": "AMAP Le Panier de la Tour Penchée",
     "country": "France",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 48.24308,
-    "lon": -3.5225827,
+    "website": "https://lepanierdelatourpenchee.org/",
+    "lat": 48.4392981,
+    "lon": 2.1496102,
     "address": null
   },
   {
@@ -349714,40 +349054,64 @@
     "name": "Les Jardins de Brangoulo",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Guidel",
     "products": [],
     "website": "https://jardins.brangoulo.fr/",
-    "lat": 47.8042121,
-    "lon": -3.5085239,
+    "lat": 47.8044328,
+    "lon": -3.5076344,
+    "address": "lieu-dit Brangoulo"
+  },
+  {
+    "id": 11180581738,
+    "name": "Paysans Gourmands",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Beauzire",
+    "products": [],
+    "website": "https://www.paysans-gourmands.fr/",
+    "lat": 45.8656882,
+    "lon": 3.1624309,
+    "address": "La Grande Bogne"
+  },
+  {
+    "id": 12106284404,
+    "name": "GAEC des Petits Ruisseaux",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5719499,
+    "lon": -1.4778704,
     "address": null
   },
   {
-    "id": 12141492002,
-    "name": "Point de livraison de paniers bio",
+    "id": 12704192737,
+    "name": "Apis Mellona",
     "country": "France",
     "region": null,
-    "municipality": "Plobsheim",
+    "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 48.473403,
-    "lon": 7.7306758,
-    "address": "Rue du Général Leclerc"
+    "website": "https://apismellona.fr",
+    "lat": 43.6870918,
+    "lon": -1.3480799,
+    "address": null
   },
   {
     "id": 12755180439,
-    "name": "vendeur d'escargot",
+    "name": "Les Escargots du Danjon",
     "country": "France",
     "region": null,
     "municipality": "Crevant",
     "products": [],
-    "website": null,
-    "lat": 46.490586,
-    "lon": 1.9442172,
-    "address": "Route de La Châtre"
+    "website": "https://les-escargots-du-danjon.webnode.fr/",
+    "lat": 46.4906131,
+    "lon": 1.9442378,
+    "address": "Z.A. des Ébaudons"
   },
   {
     "id": 13084927852,
-    "name": "La Bernarderie",
+    "name": "La Benarderie",
     "country": "France",
     "region": null,
     "municipality": null,
@@ -349758,27 +349122,663 @@
     "address": null
   },
   {
-    "id": 13142969353,
-    "name": "Les Jardins de la Limougère",
+    "id": 13175989684,
+    "name": "Boutique Safran d'Auvergne",
     "country": "France",
     "region": null,
-    "municipality": null,
+    "municipality": "Marsac-en-Livradois",
     "products": [],
-    "website": null,
-    "lat": 47.418686,
-    "lon": 0.6149191,
-    "address": null
+    "website": "https://safrandauvergne.com/",
+    "lat": 45.4492898,
+    "lon": 3.7123139,
+    "address": "Rue des Violettes"
   },
   {
     "id": 13432236030,
-    "name": "Le champ des Mêlés",
+    "name": "Le Champ des Mêlés",
+    "country": "France",
+    "region": null,
+    "municipality": "Montchevrier",
+    "products": [],
+    "website": null,
+    "lat": 46.4794359,
+    "lon": 1.7201033,
+    "address": "Le Champ des Mêlés"
+  },
+  {
+    "id": 13750038322,
+    "name": "Ferme de Sçay",
+    "country": "France",
+    "region": null,
+    "municipality": "Venesme",
+    "products": [],
+    "website": null,
+    "lat": 49.3196196,
+    "lon": 4.5506794,
+    "address": null
+  },
+  {
+    "id": 13752182325,
+    "name": "Les Jardins du Riau",
+    "country": "France",
+    "region": null,
+    "municipality": "Saint-Hilaire-en-Lignières",
+    "products": [],
+    "website": "https://www.facebook.com/61550722709965/",
+    "lat": 46.7368764,
+    "lon": 2.1661955,
+    "address": null
+  },
+  {
+    "id": 13754465432,
+    "name": "Magasin de Producteurs du Pays Midi-Quercy",
     "country": "France",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.4796331,
-    "lon": 1.7200307,
+    "lat": 44.0507979,
+    "lon": 1.4597212,
+    "address": null
+  },
+  {
+    "id": 13755697474,
+    "name": "Le Maraîcher de Bourcia",
+    "country": "France",
+    "region": null,
+    "municipality": "Bourcia",
+    "products": [],
+    "website": null,
+    "lat": 46.3563044,
+    "lon": 5.4075991,
+    "address": "Rue des Moulins"
+  },
+  {
+    "id": 13756250633,
+    "name": "La Ferme du Bas-Berry",
+    "country": "France",
+    "region": null,
+    "municipality": "Crevant",
+    "products": [],
+    "website": null,
+    "lat": 46.5012427,
+    "lon": 1.93408,
+    "address": null
+  },
+  {
+    "id": 13759405522,
+    "name": "La Fraiseraie du Plessis",
+    "country": "France",
+    "region": null,
+    "municipality": "Le Plessis-Gassot",
+    "products": [],
+    "website": null,
+    "lat": 49.03347,
+    "lon": 2.4152037,
+    "address": null
+  },
+  {
+    "id": 13761788246,
+    "name": "La Mie des Vaches",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.7161838,
+    "lon": -1.0699092,
+    "address": null
+  },
+  {
+    "id": 13761788247,
+    "name": "Fournil de la Mie des Vaches",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.7152244,
+    "lon": -1.066879,
+    "address": null
+  },
+  {
+    "id": 13764036874,
+    "name": "La Rouge Jouvence",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.3205917,
+    "lon": 4.8627931,
+    "address": null
+  },
+  {
+    "id": 13767233050,
+    "name": "La Ferme des Pailles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.447634,
+    "lon": -1.9433491,
+    "address": null
+  },
+  {
+    "id": 13769291856,
+    "name": "La boutique-bar",
+    "country": "France",
+    "region": null,
+    "municipality": "Auffargis",
+    "products": [],
+    "website": null,
+    "lat": 48.6601703,
+    "lon": 1.8985275,
+    "address": null
+  },
+  {
+    "id": 13769994076,
+    "name": "Lorre Safran",
+    "country": "France",
+    "region": null,
+    "municipality": "Baraize",
+    "products": [],
+    "website": "https://www.facebook.com/100064575347301/",
+    "lat": 46.4767128,
+    "lon": 1.5879026,
+    "address": "Rue de la Modère"
+  },
+  {
+    "id": 13771449618,
+    "name": "La Ferme de Saint-Jean",
+    "country": "France",
+    "region": null,
+    "municipality": "Vicq-sur-Mer",
+    "products": [],
+    "website": "https://www.lafermedesaintjean.fr",
+    "lat": 49.6789902,
+    "lon": -1.4220925,
+    "address": "Route du Saint-Jean"
+  },
+  {
+    "id": 13772766197,
+    "name": "Ferme du Cèdre",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.3147092,
+    "lon": 2.3354858,
+    "address": "Route de Salettes"
+  },
+  {
+    "id": 13779391801,
+    "name": "La Ferme du Crêt Joli",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lecretjoli.fr",
+    "lat": 46.0502614,
+    "lon": 5.9908579,
+    "address": "Route du Crêt"
+  },
+  {
+    "id": 13783578112,
+    "name": "Société Nouvelle Les Vergers de Muant",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6572948,
+    "lon": 1.0571636,
+    "address": null
+  },
+  {
+    "id": 13783578118,
+    "name": "La Ferme de Ludovic",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6955777,
+    "lon": 1.0705372,
+    "address": null
+  },
+  {
+    "id": 13786553213,
+    "name": "Didier Porcheron",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6214254,
+    "lon": 1.577282,
+    "address": "Rue de Gobienne"
+  },
+  {
+    "id": 13787077023,
+    "name": "L'Orée des Chênes",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.7253805,
+    "lon": 3.604274,
+    "address": null
+  },
+  {
+    "id": 13789099517,
+    "name": "La Foret du Puy",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.la-foret-du-puy.com/",
+    "lat": 44.9147451,
+    "lon": 4.5500793,
+    "address": null
+  },
+  {
+    "id": 13795684167,
+    "name": "Ferme Bastebieille",
+    "country": "France",
+    "region": null,
+    "municipality": "Mimbaste",
+    "products": [],
+    "website": null,
+    "lat": 43.6471947,
+    "lon": -0.9398891,
+    "address": "Chemin des Bastes"
+  },
+  {
+    "id": 13801708946,
+    "name": "SARL Joseph de La Bouvrie",
+    "country": "France",
+    "region": null,
+    "municipality": "Casson",
+    "products": [],
+    "website": null,
+    "lat": 47.3900029,
+    "lon": -1.5827422,
+    "address": "l'hébergement"
+  },
+  {
+    "id": 13801708947,
+    "name": "La F'hermaphrodite",
+    "country": "France",
+    "region": null,
+    "municipality": "Casson",
+    "products": [],
+    "website": null,
+    "lat": 47.3905947,
+    "lon": -1.5320067,
+    "address": null
+  },
+  {
+    "id": 13806090760,
+    "name": "Ferme du Bois de Cosset",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lafermeduboisdecosset.fr/",
+    "lat": 46.5620906,
+    "lon": 1.9235388,
+    "address": null
+  },
+  {
+    "id": 13809160960,
+    "name": "Earl Des Benismes",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6829491,
+    "lon": 1.2187877,
+    "address": null
+  },
+  {
+    "id": 13809160961,
+    "name": "Gaec de Gommiers",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6769703,
+    "lon": 1.2035608,
+    "address": null
+  },
+  {
+    "id": 13809160962,
+    "name": "Gaec de la Carrière",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7494365,
+    "lon": 1.1899231,
+    "address": null
+  },
+  {
+    "id": 13809160984,
+    "name": "Earl des Buttons",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bienvenue-a-la-ferme.com/centre/indre/rosnay/ferme/la-ferme-des-buttons/457245",
+    "lat": 46.7320295,
+    "lon": 1.2041751,
+    "address": null
+  },
+  {
+    "id": 13809385659,
+    "name": "Pépinière d'Adeline",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://lesplantsdadeline.wixsite.com/lesplantsdadeline",
+    "lat": 45.0169328,
+    "lon": 5.4453775,
+    "address": "Chemin de Toulouze"
+  },
+  {
+    "id": 13810673767,
+    "name": "Herba Humana",
+    "country": "France",
+    "region": null,
+    "municipality": "Neuillay-les-Bois",
+    "products": [],
+    "website": "www.herba-hulana.fr",
+    "lat": 46.7210567,
+    "lon": 1.4622621,
+    "address": null
+  },
+  {
+    "id": 13810833479,
+    "name": "Le Gargilesse - Chèvrerie",
+    "country": "France",
+    "region": null,
+    "municipality": "Gargilesse-Dampierre",
+    "products": [],
+    "website": null,
+    "lat": 46.5008965,
+    "lon": 1.6095434,
+    "address": null
+  },
+  {
+    "id": 13810921501,
+    "name": "Ferme des Tournelles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://://www.fermedestournelles.com",
+    "lat": 49.0772906,
+    "lon": 2.1792608,
+    "address": "Rue des Tournelles"
+  },
+  {
+    "id": 13812369535,
+    "name": "Gaec du Patis Candé",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3877442,
+    "lon": -0.7442199,
+    "address": null
+  },
+  {
+    "id": 13814089530,
+    "name": "Ets Berder Les huîtres de Pen Al Lann",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.huitres-pen-al-lann.fr/",
+    "lat": 48.6663212,
+    "lon": -3.8930023,
+    "address": null
+  },
+  {
+    "id": 13814089531,
+    "name": "Prat Ar Coum La maison de l'huître",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://soccialdesetsalainmadec.site-solocal.com/",
+    "lat": 48.6666066,
+    "lon": -3.8942111,
+    "address": null
+  },
+  {
+    "id": 13820361266,
+    "name": "Poul'et Compagnie",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2096917,
+    "lon": 5.0867712,
+    "address": null
+  },
+  {
+    "id": 13820995262,
+    "name": "Les Châtaignes Ardèchoises",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.chataignes-ardechoises.fr",
+    "lat": 44.9028098,
+    "lon": 4.5767471,
+    "address": null
+  },
+  {
+    "id": 13825055115,
+    "name": "Terra Fermes",
+    "country": "France",
+    "region": null,
+    "municipality": "Terrasson-Lavilledieu",
+    "products": [],
+    "website": null,
+    "lat": 45.1304446,
+    "lon": 1.3012944,
+    "address": "Avenue Jean Jaurès"
+  },
+  {
+    "id": 13826763528,
+    "name": "Mademoiselle Châtaigne",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mademoiselle-chataigne.fr/",
+    "lat": 44.900302,
+    "lon": 4.5702991,
+    "address": null
+  },
+  {
+    "id": 13827554686,
+    "name": "Chez Maria",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 43.541659,
+    "lon": 3.8496592,
+    "address": null
+  },
+  {
+    "id": 13831196733,
+    "name": "Gaec des Rouchoux",
+    "country": "France",
+    "region": null,
+    "municipality": "Saulzet le Froid",
+    "products": [],
+    "website": null,
+    "lat": 45.6413288,
+    "lon": 2.9389607,
+    "address": "Zanières"
+  },
+  {
+    "id": 13831419156,
+    "name": "Les volailles à l'ancienne",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.volaillesalancienne.com/",
+    "lat": 47.2556565,
+    "lon": 6.6572386,
+    "address": null
+  },
+  {
+    "id": 13841198906,
+    "name": "Myrtille et Ortensia",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.9502868,
+    "lon": 0.1394829,
+    "address": null
+  },
+  {
+    "id": 13841836729,
+    "name": "La Ferme des Douces Prairies",
+    "country": "France",
+    "region": null,
+    "municipality": "Gonneville-le-Theil",
+    "products": [],
+    "website": "https://lafermedesdoucesprairies.fr",
+    "lat": 49.5952696,
+    "lon": -1.4625321,
+    "address": "Route de Barnavast"
+  },
+  {
+    "id": 13849367006,
+    "name": "Rendez-vous Gourmands",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://rdv-gourmands.fr/",
+    "lat": 45.0530463,
+    "lon": 4.9530995,
+    "address": null
+  },
+  {
+    "id": 13856894582,
+    "name": "La Coccinelle",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 45.3856336,
+    "lon": 4.836296,
+    "address": null
+  },
+  {
+    "id": 13858239468,
+    "name": "La Ferme des Petit-Minil",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://petitminil.fr/",
+    "lat": 46.4384891,
+    "lon": 2.1034285,
+    "address": null
+  },
+  {
+    "id": 72412441,
+    "name": "Ferme de Kerantosfal",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6487626,
+    "lon": -4.1366802,
+    "address": null
+  },
+  {
+    "id": 115172293,
+    "name": "Les œufs de la ferme des Parrichets",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.8024106,
+    "lon": 3.0635147,
+    "address": null
+  },
+  {
+    "id": 197008812,
+    "name": "Trikome - Producteur de CBD Bio en Savoie",
+    "country": "France",
+    "region": null,
+    "municipality": "Domessin",
+    "products": [],
+    "website": "https://trikome.fr/",
+    "lat": 45.5483485,
+    "lon": 5.7150105,
+    "address": "Route de Verel-de-Montbel"
+  },
+  {
+    "id": 495684972,
+    "name": "Cevenat Huiles essentielles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.cevenat.fr/",
+    "lat": 44.1934605,
+    "lon": 3.6580594,
+    "address": null
+  },
+  {
+    "id": 771710438,
+    "name": "Parc à Huitres",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6687498,
+    "lon": -3.8676283,
+    "address": null
+  },
+  {
+    "id": 771711936,
+    "name": "Parc à Huitres",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6563047,
+    "lon": -3.8644555,
     "address": null
   },
   {
@@ -608111,18 +608111,6 @@
     "address": null
   },
   {
-    "id": 11078723217,
-    "name": "Bio Rui e Inês",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3604716,
-    "lon": -9.379938,
-    "address": null
-  },
-  {
     "id": 11420351025,
     "name": "Finisterra",
     "country": "Portugal",
@@ -608235,12 +608223,12 @@
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": null,
+    "municipality": "Bom Vento",
     "products": [],
-    "website": null,
-    "lat": 39.3193307,
-    "lon": -9.1354776,
-    "address": "R. Nossa Sra. do Socorro"
+    "website": "https://bio-rui-e-ines.webnode.pt/",
+    "lat": 39.3193042,
+    "lon": -9.1355355,
+    "address": "Rua Nossa Senhora do Socorro"
   },
   {
     "id": 13434502610,
@@ -608759,18 +608747,6 @@
     "address": null
   },
   {
-    "id": 1243166539,
-    "name": "Amendoal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1777387,
-    "lon": -8.1841701,
-    "address": null
-  },
-  {
     "id": 1247100935,
     "name": "Mandelfruit",
     "country": "Portugal",
@@ -608819,16 +608795,40 @@
     "address": null
   },
   {
+    "id": 11078723217,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3604716,
+    "lon": -9.379938,
+    "address": null
+  },
+  {
     "id": 13261269282,
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": "Bom Vento",
+    "municipality": null,
     "products": [],
-    "website": "https://bio-rui-e-ines.webnode.pt/",
-    "lat": 39.3193042,
-    "lon": -9.1355355,
-    "address": "Rua Nossa Senhora do Socorro"
+    "website": null,
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "R. Nossa Sra. do Socorro"
+  },
+  {
+    "id": 1243166539,
+    "name": "Amendoal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1777387,
+    "lon": -8.1841701,
+    "address": null
   },
   {
     "id": 666647099,
@@ -647079,7 +647079,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
+    "website": "http://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
     "lat": 42.8037863,
     "lon": -1.6449764,
     "address": null
@@ -648027,7 +648027,7 @@
     "region": null,
     "municipality": "Valls",
     "products": [],
-    "website": "https://www.coopvalls.cat/",
+    "website": "www.coopvalls.cat",
     "lat": 41.2820589,
     "lon": 1.250297,
     "address": "Plaça del Carme"
@@ -648424,8 +648424,8 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281417,
-    "lon": -3.5386011,
+    "lat": 36.7281494,
+    "lon": -3.5385964,
     "address": null
   },
   {
@@ -648630,18 +648630,6 @@
     "website": null,
     "lat": 28.6627059,
     "lon": -17.7650567,
-    "address": null
-  },
-  {
-    "id": 13831044587,
-    "name": "Frutas Mercamotril",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.mercamotril.com/",
-    "lat": 36.7311079,
-    "lon": -3.5335561,
     "address": null
   },
   {
@@ -652456,8 +652444,20 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281494,
-    "lon": -3.5385964,
+    "lat": 36.7281417,
+    "lon": -3.5386011,
+    "address": null
+  },
+  {
+    "id": 13831044587,
+    "name": "Frutas Mercamotril",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mercamotril.com/",
+    "lat": 36.7311079,
+    "lon": -3.5335561,
     "address": null
   },
   {
@@ -705392,7 +705392,7 @@
     "name": "Pearce's Farm Shop & Cafe",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Buntingford",
+    "municipality": null,
     "products": [],
     "website": "https://pearcesfarmshop.com/",
     "lat": 51.9003723,
@@ -706412,7 +706412,7 @@
     "name": "Bradmoor Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": "Haddenham",
     "products": [],
     "website": null,
     "lat": 51.7775417,
@@ -706642,7 +706642,7 @@
     "region": null,
     "municipality": "Leeds",
     "products": [],
-    "website": "https://www.horsforthpickyourown.co.uk/",
+    "website": "http://www.horsforthpickyourown.co.uk/",
     "lat": 53.8338599,
     "lon": -1.6572352,
     "address": "Calverley Lane"
@@ -706880,7 +706880,7 @@
     "name": "Munns Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Berkhamsted",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.8357369,
@@ -707350,7 +707350,7 @@
     "region": null,
     "municipality": "Bruton",
     "products": [],
-    "website": "https://www.gilcombefarm.co.uk/",
+    "website": "http://www.gilcombefarm.co.uk/",
     "lat": 51.1264113,
     "lon": -2.4362558,
     "address": "Cuckoo Hill"
@@ -707543,8 +707543,8 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118071,
-    "lon": -0.1335966,
+    "lat": 51.5118118,
+    "lon": -0.1335462,
     "address": "Archer Street"
   },
   {
@@ -707888,7 +707888,7 @@
     "name": "Hill View Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Princes Risborough",
+    "municipality": "Saunderton Lee",
     "products": [],
     "website": "https://www.hillviewmoments.com/",
     "lat": 51.6925501,
@@ -708260,7 +708260,7 @@
     "name": "Hillfoot Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Biggleswade",
+    "municipality": "Langford",
     "products": [],
     "website": null,
     "lat": 52.0472006,
@@ -708284,7 +708284,7 @@
     "name": "Franklins of Thorncote Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Hatch",
     "products": [],
     "website": null,
     "lat": 52.1166949,
@@ -708296,7 +708296,7 @@
     "name": "Knotts of Tempsford",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Tempsford",
     "products": [],
     "website": "https://www.knottsoftempsford.co.uk/farm-shop",
     "lat": 52.1711501,
@@ -708466,7 +708466,7 @@
     "region": null,
     "municipality": "Cote",
     "products": [],
-    "website": "https://ransons-nurseries.co.uk/",
+    "website": "http://ransons-nurseries.co.uk/",
     "lat": 51.7240761,
     "lon": -1.4948333,
     "address": null
@@ -710674,7 +710674,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://trentsfoods.com/",
+    "website": "trentsfoods.com",
     "lat": 51.5406089,
     "lon": -2.4873818,
     "address": null
@@ -711424,18 +711424,6 @@
     "address": null
   },
   {
-    "id": 13615171555,
-    "name": "Upper Dysart Larder",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Montrose",
-    "products": [],
-    "website": null,
-    "lat": 56.6708665,
-    "lon": -2.5133908,
-    "address": "Upper Dysart"
-  },
-  {
     "id": 13621440840,
     "name": "Leedham Farm shop",
     "country": "United Kingdom",
@@ -711517,18 +711505,6 @@
     "website": null,
     "lat": 52.5331781,
     "lon": -1.1517838,
-    "address": null
-  },
-  {
-    "id": 13856263617,
-    "name": "Saturday Farm Market",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
-    "lat": 51.7358037,
-    "lon": -1.2307511,
     "address": null
   },
   {
@@ -711778,7 +711754,7 @@
     "region": null,
     "municipality": "Wokingham",
     "products": [],
-    "website": "https://www.graysfarm.co.uk/",
+    "website": "http://www.graysfarm.co.uk/",
     "lat": 51.3959203,
     "lon": -0.8200209,
     "address": "Heathlands Road"
@@ -711878,18 +711854,6 @@
     "lat": 51.4257683,
     "lon": 0.4914142,
     "address": "Town road"
-  },
-  {
-    "id": 88519248,
-    "name": "Myatts of Mockbeggar Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Rochester",
-    "products": [],
-    "website": null,
-    "lat": 51.4214311,
-    "lon": 0.4903169,
-    "address": null
   },
   {
     "id": 88813278,
@@ -712150,7 +712114,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.manorfarm-shop.co.uk/",
+    "website": "http://www.manorfarm-shop.co.uk/",
     "lat": 51.42818,
     "lon": -2.442286,
     "address": "Wick Lane"
@@ -712393,18 +712357,6 @@
     "website": "http://churchstile.co.uk/",
     "lat": 54.4259937,
     "lon": -3.34983,
-    "address": null
-  },
-  {
-    "id": 165613955,
-    "name": "Lincoln Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.5726961,
-    "lon": -0.0062858,
     "address": null
   },
   {
@@ -712714,7 +712666,7 @@
     "region": null,
     "municipality": "Belper",
     "products": [],
-    "website": "https://croots.co.uk/",
+    "website": "https://www.croots.co.uk/",
     "lat": 52.9845695,
     "lon": -1.5114125,
     "address": "Wirksworth Road"
@@ -713470,7 +713422,7 @@
     "region": null,
     "municipality": "Bishop Auckland",
     "products": [],
-    "website": "https://www.bradleyburn.co.uk/",
+    "website": null,
     "lat": 54.721956,
     "lon": -1.8382827,
     "address": null
@@ -713482,7 +713434,7 @@
     "region": null,
     "municipality": "Saxmundham",
     "products": [],
-    "website": "https://www.emmerdalefarmshop.co.uk/",
+    "website": "http://www.emmerdalefarmshop.co.uk/",
     "lat": 52.268357,
     "lon": 1.5331065,
     "address": "Westleton Road"
@@ -713567,8 +713519,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
+    "lat": 54.106181,
+    "lon": -2.8090358,
     "address": "The Shore"
   },
   {
@@ -713914,7 +713866,7 @@
     "region": null,
     "municipality": "Clapham",
     "products": [],
-    "website": "https://www.growingwithgrace.org.uk/",
+    "website": "http://www.growingwithgrace.org.uk/",
     "lat": 54.1149647,
     "lon": -2.3967964,
     "address": null
@@ -713998,7 +713950,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.newmanorfarmshop.co.uk/",
+    "website": "newmanorfarmshop.co.uk",
     "lat": 51.3233101,
     "lon": -2.6133171,
     "address": "Bath Road"
@@ -714812,7 +714764,7 @@
     "name": "Pound Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Swindon",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.5186469,
@@ -715340,7 +715292,7 @@
     "name": "Buckmoreland Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.7361437,
@@ -715562,18 +715514,6 @@
     "lat": 53.9087685,
     "lon": -1.404554,
     "address": "Jewitt Lane"
-  },
-  {
-    "id": 640518313,
-    "name": "Willow Grange Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
-    "lat": 52.3188514,
-    "lon": 0.1968571,
-    "address": null
   },
   {
     "id": 645288057,
@@ -716088,7 +716028,7 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3575978,
+    "lon": -0.3576796,
     "address": "High Street Whitton"
   },
   {
@@ -716354,6 +716294,18 @@
     "lat": 50.9817807,
     "lon": -0.2777906,
     "address": null
+  },
+  {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
   },
   {
     "id": 839396756,
@@ -717563,8 +717515,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.7917439,
-    "lon": -0.1022779,
+    "lat": 51.791747,
+    "lon": -0.1023128,
     "address": null
   },
   {
@@ -718153,18 +718105,6 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
-    "address": null
-  },
-  {
-    "id": 992200946,
-    "name": "Wylye Valley Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.instagram.com/wylye_valley_farmshop/",
-    "lat": 51.1871543,
-    "lon": -2.1909185,
     "address": null
   },
   {
@@ -718892,12 +718832,12 @@
     "name": "Wyborn's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Barnstaple",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.0803174,
     "lon": -4.0584426,
-    "address": "Boutport Street"
+    "address": null
   },
   {
     "id": 1144895756,
@@ -719156,7 +719096,7 @@
     "name": "Lacey's Family Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Lane End",
     "products": [],
     "website": "https://www.laceysfamilyfarm.co.uk/farm-shop",
     "lat": 51.6207789,
@@ -719456,7 +719396,7 @@
     "name": "T Rayner & Son (Castlemans Farm Shop)",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Wooburn Green",
     "products": [],
     "website": null,
     "lat": 51.5810484,
@@ -720904,42 +720844,6 @@
     "address": null
   },
   {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
-  },
-  {
-    "id": 1509987603,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2476721,
-    "lon": 0.2869368,
-    "address": null
-  },
-  {
-    "id": 1509987604,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2499212,
-    "lon": 0.2929966,
-    "address": null
-  },
-  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -722248,6 +722152,18 @@
     "address": null
   },
   {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
+    "address": null
+  },
+  {
     "id": 13580414,
     "name": "Little Holmhill Inclosure",
     "country": "United Kingdom",
@@ -723503,44 +723419,56 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118118,
-    "lon": -0.1335462,
+    "lat": 51.5118071,
+    "lon": -0.1335966,
     "address": "Archer Street"
   },
   {
-    "id": 762732572,
-    "name": "Whitton Fresh Fruits & Vegetables",
+    "id": 13615171555,
+    "name": "Upper Dysart Larder",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Whitton",
+    "municipality": "Montrose",
     "products": [],
     "website": null,
-    "lat": 51.4510676,
-    "lon": -0.3576796,
-    "address": "High Street Whitton"
+    "lat": 56.6708665,
+    "lon": -2.5133908,
+    "address": "Upper Dysart"
   },
   {
-    "id": 952066576,
-    "name": "Lanbrook Field",
+    "id": 13856263617,
+    "name": "Saturday Farm Market",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 51.791747,
-    "lon": -0.1023128,
+    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
+    "lat": 51.7358037,
+    "lon": -1.2307511,
     "address": null
   },
   {
-    "id": 13578056,
-    "name": "Leckford Estate",
+    "id": 88519248,
+    "name": "Myatts of Mockbeggar Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Rochester",
+    "products": [],
+    "website": null,
+    "lat": 51.4214311,
+    "lon": 0.4903169,
+    "address": null
+  },
+  {
+    "id": 165613955,
+    "name": "Lincoln Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
+    "website": null,
+    "lat": 52.5726961,
+    "lon": -0.0062858,
     "address": null
   },
   {
@@ -723551,21 +723479,93 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
+    "id": 640518313,
+    "name": "Willow Grange Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Tonbridge",
+    "municipality": null,
+    "products": [],
+    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
+    "lat": 52.3188514,
+    "lon": 0.1968571,
+    "address": null
+  },
+  {
+    "id": 762732572,
+    "name": "Whitton Fresh Fruits & Vegetables",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Whitton",
     "products": [],
     "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
+    "lat": 51.4510676,
+    "lon": -0.3575978,
+    "address": "High Street Whitton"
+  },
+  {
+    "id": 952066576,
+    "name": "Lanbrook Field",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.7917439,
+    "lon": -0.1022779,
+    "address": null
+  },
+  {
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
+    "address": null
+  },
+  {
+    "id": 1502915597,
+    "name": "Bee Hives",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.9933997,
+    "lon": -1.0806409,
+    "address": null
+  },
+  {
+    "id": 1509987603,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2476721,
+    "lon": 0.2869368,
+    "address": null
+  },
+  {
+    "id": 1509987604,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2499212,
+    "lon": 0.2929966,
+    "address": null
   },
   {
     "id": 1509987603,
@@ -758763,7 +758763,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.imkerei-reichl.at/wb/pages/home.php",
+    "website": "https://www.imkerei-reichl.at/wb/pages/home.php",
     "lat": 48.027105,
     "lon": 13.0222162,
     "address": null
@@ -759603,7 +759603,7 @@
     "region": null,
     "municipality": "Wien",
     "products": [],
-    "website": "http://www.raritaeten-eck.at/",
+    "website": "https://www.raritaeten-eck.at/",
     "lat": 48.1898076,
     "lon": 16.3519852,
     "address": "Rechte Wienzeile"
@@ -760719,7 +760719,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.mairs-beerengarten.at/",
+    "website": "https://www.mairs-beerengarten.at/",
     "lat": 47.3048138,
     "lon": 11.0704319,
     "address": null
@@ -760767,7 +760767,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.abhof-luftensteiner.at/",
+    "website": "https://www.abhof-luftensteiner.at/",
     "lat": 48.1888646,
     "lon": 14.6870846,
     "address": null
@@ -764181,6 +764181,18 @@
     "address": null
   },
   {
+    "id": 11014434311,
+    "name": "Gemüsehütte Stechaubauer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stechaubauer.at/",
+    "lat": 47.4471057,
+    "lon": 12.8086799,
+    "address": null
+  },
+  {
     "id": 11034011490,
     "name": "SB-Hofladen",
     "country": "Austria",
@@ -766239,7 +766251,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.marille-ab-hof.at/kuerbisse/",
+    "website": "https://www.marille-ab-hof.at/kuerbisse/",
     "lat": 48.1751874,
     "lon": 14.3439119,
     "address": null
@@ -767314,12 +767326,12 @@
   },
   {
     "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
+    "name": "SB - Bauernladen Kühnsdorf",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
     "lat": 46.62794,
     "lon": 14.6343338,
     "address": null
@@ -767394,6 +767406,42 @@
     "website": null,
     "lat": 48.2043105,
     "lon": 16.4574336,
+    "address": null
+  },
+  {
+    "id": 13800970542,
+    "name": "Bauernhof Jäger - Ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5724726,
+    "lon": 14.5557935,
+    "address": null
+  },
+  {
+    "id": 13810833501,
+    "name": "Erdbeeren, Spargel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2107881,
+    "lon": 16.2544697,
+    "address": null
+  },
+  {
+    "id": 13831111118,
+    "name": "Margit's Kisteneck Hofladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0792756,
+    "lon": 15.9181529,
     "address": null
   },
   {
@@ -768573,6 +768621,18 @@
     "address": null
   },
   {
+    "id": 283739301,
+    "name": "Kreithwald",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4808022,
+    "lon": 11.9658879,
+    "address": null
+  },
+  {
     "id": 285102389,
     "name": "Hofladen Kröpfl",
     "country": "Austria",
@@ -768891,7 +768951,7 @@
     "region": null,
     "municipality": "Oberschützen",
     "products": [],
-    "website": "http://www.biohof-unger.at/",
+    "website": "https://www.biohof-unger.at/",
     "lat": 47.3564947,
     "lon": 16.2081015,
     "address": "Aschauer Straße"
@@ -769395,10 +769455,22 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://biosain.at/",
+    "website": "https://biosain.at/",
     "lat": 48.5791773,
     "lon": 15.6458317,
     "address": null
+  },
+  {
+    "id": 699498385,
+    "name": "Da Erdwurm - Regenwurmfarm",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Spannberg",
+    "products": [],
+    "website": null,
+    "lat": 48.4623412,
+    "lon": 16.7441904,
+    "address": "Neugasse"
   },
   {
     "id": 712450479,
@@ -770430,6 +770502,18 @@
     "website": "http://www.buntekartoffel.com/Startseite/",
     "lat": 48.4324558,
     "lon": 16.0640101,
+    "address": null
+  },
+  {
+    "id": 1509746903,
+    "name": "SB - Bauernladen Pogerschitzen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5651407,
+    "lon": 14.5543197,
     "address": null
   },
   {
@@ -771549,99 +771633,15 @@
     "address": null
   },
   {
-    "id": 11014434311,
-    "name": "Gemüsehütte Stechaubauer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stechaubauer.at/",
-    "lat": 47.4471057,
-    "lon": 12.8086799,
-    "address": null
-  },
-  {
     "id": 13731641804,
-    "name": "SB - Bauernladen Kühnsdorf",
+    "name": "Bauernladen - Bauernhof Jäger",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "website": "https://www.bauernhof-jaeger.com/",
     "lat": 46.62794,
     "lon": 14.6343338,
-    "address": null
-  },
-  {
-    "id": 13800970542,
-    "name": "Bauernhof Jäger - Ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5724726,
-    "lon": 14.5557935,
-    "address": null
-  },
-  {
-    "id": 13810833501,
-    "name": "Erdbeeren, Spargel",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2107881,
-    "lon": 16.2544697,
-    "address": null
-  },
-  {
-    "id": 13831111118,
-    "name": "Margit's Kisteneck Hofladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0792756,
-    "lon": 15.9181529,
-    "address": null
-  },
-  {
-    "id": 283739301,
-    "name": "Kreithwald",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4808022,
-    "lon": 11.9658879,
-    "address": null
-  },
-  {
-    "id": 699498385,
-    "name": "Da Erdwurm - Regenwurmfarm",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Spannberg",
-    "products": [],
-    "website": null,
-    "lat": 48.4623412,
-    "lon": 16.7441904,
-    "address": "Neugasse"
-  },
-  {
-    "id": 1509746903,
-    "name": "SB - Bauernladen Pogerschitzen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5651407,
-    "lon": 14.5543197,
     "address": null
   },
   {
@@ -804145,14 +804145,14 @@
   },
   {
     "id": 961780288,
-    "name": "24h Milch-Automat",
+    "name": "Hofladen Chilchbüelhof",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.1238669,
-    "lon": 8.5907485,
+    "lat": 47.1242808,
+    "lon": 8.5910707,
     "address": null
   },
   {
@@ -804880,7 +804880,7 @@
     "name": "Walter Stettler",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Bolligen",
     "products": [],
     "website": null,
     "lat": 46.9741855,
@@ -805182,7 +805182,7 @@
     "region": null,
     "municipality": "Hombrechtikon",
     "products": [],
-    "website": "http://demeterhof.ch/",
+    "website": "https://demeterhof.ch/",
     "lat": 47.2536326,
     "lon": 8.7694319,
     "address": "Hof Breitlen"
@@ -805446,7 +805446,7 @@
     "region": null,
     "municipality": "Wald (ZH)",
     "products": [],
-    "website": "http://wettstei.ch",
+    "website": "https://wettstei.ch/",
     "lat": 47.2779699,
     "lon": 8.8957316,
     "address": "Rickenbach"
@@ -806167,8 +806167,8 @@
     "municipality": "Muttenz",
     "products": [],
     "website": "https://www.kuerbisegge.ch/",
-    "lat": 47.5244823,
-    "lon": 7.640917,
+    "lat": 47.5246046,
+    "lon": 7.6410672,
     "address": "Sevogelstrasse"
   },
   {
@@ -806322,7 +806322,7 @@
     "region": null,
     "municipality": "Arisdorf",
     "products": [],
-    "website": "http://www.egghof-kunz.ch/",
+    "website": "https://www.egghof-kunz.ch/",
     "lat": 47.5147896,
     "lon": 7.7788638,
     "address": "Egghof"
@@ -806982,7 +806982,7 @@
     "region": null,
     "municipality": "Sissach",
     "products": [],
-    "website": "http://www.imhof-weine.ch/",
+    "website": "https://www.imhof-weine.ch/",
     "lat": 47.4675558,
     "lon": 7.8208096,
     "address": "Kienberg"
@@ -807186,7 +807186,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.hochstamm-liestal.ch",
+    "website": "https://www.hochstamm-liestal.ch/",
     "lat": 47.4708832,
     "lon": 7.7384406,
     "address": null
@@ -807258,7 +807258,7 @@
     "region": null,
     "municipality": "Bubendorf",
     "products": [],
-    "website": "http://www.hofwildenstein.ch/",
+    "website": "https://www.hofwildenstein.ch/",
     "lat": 47.4308859,
     "lon": 7.737811,
     "address": "Schloss Wildenstein"
@@ -808602,7 +808602,7 @@
     "region": null,
     "municipality": "Riniken",
     "products": [],
-    "website": "http://www.schaffnerhof.ch/",
+    "website": "https://www.schaffnerhof.ch/",
     "lat": 47.4947491,
     "lon": 8.1871127,
     "address": "Unterdorfstrasse"
@@ -809178,7 +809178,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.rueegg4you.ch/hofladen/",
+    "website": "https://rueegg4you.ch/hofladen/",
     "lat": 47.2428762,
     "lon": 8.8961648,
     "address": null
@@ -809646,7 +809646,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.elevagedupredeissy.ch/?page_id=4145",
+    "website": "https://www.elevagedupredeissy.ch/?page_id=4145",
     "lat": 46.870358,
     "lon": 7.0011878,
     "address": null
@@ -809790,7 +809790,7 @@
     "region": null,
     "municipality": "Penthalaz",
     "products": [],
-    "website": "http://www.marchelavigne.sitew.ch/",
+    "website": "https://marchelavigne.sitew.ch/",
     "lat": 46.6137137,
     "lon": 6.5301597,
     "address": "Route de Penthaz"
@@ -810798,7 +810798,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.frei-hoerhausen.ch/hofladen.php",
+    "website": "https://www.frei-hoerhausen.ch/hofladen.php",
     "lat": 47.6324333,
     "lon": 8.9704189,
     "address": null
@@ -811344,7 +811344,7 @@
     "address": null
   },
   {
-    "id": 8009305566,
+    "id": 8009305567,
     "name": "Biohof Honig",
     "country": "Switzerland",
     "region": null,
@@ -812736,6 +812736,18 @@
     "address": null
   },
   {
+    "id": 9379438137,
+    "name": "Hoflädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8776324,
+    "lon": 7.4839535,
+    "address": null
+  },
+  {
     "id": 9383453489,
     "name": "Hofladen Zingel",
     "country": "Switzerland",
@@ -812970,7 +812982,7 @@
     "region": null,
     "municipality": "Davos Dorf",
     "products": [],
-    "website": "http://www.hoffmann-davos.ch/",
+    "website": "https://www.hoffmann-davos.ch/",
     "lat": 46.8037905,
     "lon": 9.8405656,
     "address": "Dischmastrasse"
@@ -813043,8 +813055,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.3179324,
-    "lon": 8.4975852,
+    "lat": 46.3179006,
+    "lon": 8.4976103,
     "address": null
   },
   {
@@ -813870,7 +813882,7 @@
     "region": null,
     "municipality": "Niederglatt SG",
     "products": [],
-    "website": "http://www.dudli-ochsenweid.ch/",
+    "website": "https://dudli-ochsenweid.ch/",
     "lat": 47.4311917,
     "lon": 9.1591456,
     "address": null
@@ -814698,7 +814710,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.naturnoech.ch/",
+    "website": "https://www.naturnoech.ch/",
     "lat": 47.126909,
     "lon": 8.5747913,
     "address": null
@@ -814914,7 +814926,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "www.biohof-frohberg.ch",
+    "website": "https://www.biohof-frohberg.ch/",
     "lat": 47.3016358,
     "lon": 8.7149168,
     "address": null
@@ -815214,7 +815226,7 @@
     "region": null,
     "municipality": "Trimbach",
     "products": [],
-    "website": "http://www.thalmann-hof.ch/verkaufabhof.php",
+    "website": "https://www.thalmann-hof.ch/verkaufabhof.php",
     "lat": 47.3690348,
     "lon": 7.8826225,
     "address": "Hauensteinstrasse"
@@ -816222,7 +816234,7 @@
     "region": null,
     "municipality": "Laax",
     "products": [],
-    "website": "http://myfarm.ch/DTtRsm",
+    "website": "https://myfarm.ch/DTtRsm",
     "lat": 46.8271258,
     "lon": 9.2553934,
     "address": "Via Pardatsch"
@@ -817342,6 +817354,18 @@
     "lat": 47.4423863,
     "lon": 8.482833,
     "address": null
+  },
+  {
+    "id": 12063563655,
+    "name": "Alpkäserei Bissig",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9342438,
+    "lon": 8.6916899,
+    "address": "Liedernen"
   },
   {
     "id": 12065005875,
@@ -819732,6 +819756,150 @@
     "address": null
   },
   {
+    "id": 13752150919,
+    "name": "La Ferme Du Sonneur",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.1720447,
+    "lon": 5.9928215,
+    "address": null
+  },
+  {
+    "id": 13768252001,
+    "name": "Ferme de Bassenges",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://fermedebassenges.ch/",
+    "lat": 46.5239763,
+    "lon": 6.5629105,
+    "address": "Chemin de la Raye"
+  },
+  {
+    "id": 13785018550,
+    "name": "Hof Brüschhalde",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0745502,
+    "lon": 8.437199,
+    "address": null
+  },
+  {
+    "id": 13785018552,
+    "name": "Hofladä Hangbühl",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0450714,
+    "lon": 8.4245088,
+    "address": null
+  },
+  {
+    "id": 13785018556,
+    "name": "Hofladen Eggisbühl",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0322863,
+    "lon": 8.4098378,
+    "address": null
+  },
+  {
+    "id": 13787485900,
+    "name": "Hofladen Wengi Chinzi Hof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.chinzi-hof.ch/hofladen",
+    "lat": 47.084675,
+    "lon": 7.4026774,
+    "address": null
+  },
+  {
+    "id": 13787980146,
+    "name": "Alice + Pius Mayer",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5355636,
+    "lon": 9.3397851,
+    "address": null
+  },
+  {
+    "id": 13811034747,
+    "name": "Azienda Agricola Poma",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Tremona",
+    "products": [],
+    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+    "lat": 45.8806573,
+    "lon": 8.9528781,
+    "address": "Via Monte San Giorgio"
+  },
+  {
+    "id": 13813310789,
+    "name": "Biohof Dusch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Paspels",
+    "products": [],
+    "website": null,
+    "lat": 46.7530339,
+    "lon": 9.4509399,
+    "address": null
+  },
+  {
+    "id": 13815368021,
+    "name": "Hofladen Familie Peter",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Rickenbach ZH",
+    "products": [],
+    "website": "https://peter-rickenbach.ch",
+    "lat": 47.5521,
+    "lon": 8.7950151,
+    "address": null
+  },
+  {
+    "id": 13835528950,
+    "name": "bioverger.ch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bioverger.ch/",
+    "lat": 46.237573,
+    "lon": 7.4084948,
+    "address": null
+  },
+  {
+    "id": 13840961701,
+    "name": "Ferme Vuissoz",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ferme-vuissoz.ch/",
+    "lat": 46.2238712,
+    "lon": 7.3808934,
+    "address": "Chemin de Maragnène"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -820326,7 +820494,7 @@
     "region": null,
     "municipality": "Uttwil",
     "products": [],
-    "website": "http://habei.ch",
+    "website": "https://www.habei.ch/",
     "lat": 47.5748678,
     "lon": 9.3288057,
     "address": null
@@ -820662,7 +820830,7 @@
     "region": null,
     "municipality": "Pura",
     "products": [],
-    "website": "http://www.piscicolturapura.ch/",
+    "website": "https://www.piscicolturapura.ch/",
     "lat": 45.9870741,
     "lon": 8.8752385,
     "address": "Via Mulini"
@@ -820908,6 +821076,18 @@
     "address": null
   },
   {
+    "id": 988674600,
+    "name": "Azienda agricola monti di Condra",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
+    "lat": 46.0800899,
+    "lon": 8.9555316,
+    "address": null
+  },
+  {
     "id": 1014284328,
     "name": "agroservice.ch",
     "country": "Switzerland",
@@ -821010,7 +821190,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "tomsbiohof.ch",
+    "website": "https://tomsbiohof.ch/",
     "lat": 46.4849522,
     "lon": 7.2872812,
     "address": null
@@ -821376,6 +821556,30 @@
     "address": "Bühlweg"
   },
   {
+    "id": 1507505039,
+    "name": "Zelgenhof-Laden",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.hzo.ch/",
+    "lat": 47.3511319,
+    "lon": 8.0564776,
+    "address": null
+  },
+  {
+    "id": 1507541137,
+    "name": "Familie Stocker",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.050695,
+    "lon": 8.4292499,
+    "address": null
+  },
+  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -821401,14 +821605,14 @@
   },
   {
     "id": 961780288,
-    "name": "Hofladen Chilchbüelhof",
+    "name": "24h Milch-Automat",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.1242808,
-    "lon": 8.5910707,
+    "lat": 47.1238669,
+    "lon": 8.5907485,
     "address": null
   },
   {
@@ -821419,141 +821623,9 @@
     "municipality": "Muttenz",
     "products": [],
     "website": "https://www.kuerbisegge.ch/",
-    "lat": 47.5246046,
-    "lon": 7.6410672,
+    "lat": 47.5244823,
+    "lon": 7.640917,
     "address": "Sevogelstrasse"
-  },
-  {
-    "id": 9379438137,
-    "name": "Hoflädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8776324,
-    "lon": 7.4839535,
-    "address": null
-  },
-  {
-    "id": 12063563655,
-    "name": "Alpkäserei Bissig",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9342438,
-    "lon": 8.6916899,
-    "address": "Liedernen"
-  },
-  {
-    "id": 13752150919,
-    "name": "La Ferme Du Sonneur",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.1720447,
-    "lon": 5.9928215,
-    "address": null
-  },
-  {
-    "id": 13768252001,
-    "name": "Ferme de Bassenges",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://fermedebassenges.ch/",
-    "lat": 46.5239763,
-    "lon": 6.5629105,
-    "address": "Chemin de la Raye"
-  },
-  {
-    "id": 13785018550,
-    "name": "Hof Brüschhalde",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0745502,
-    "lon": 8.437199,
-    "address": null
-  },
-  {
-    "id": 13785018552,
-    "name": "Hofladä Hangbühl",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0450714,
-    "lon": 8.4245088,
-    "address": null
-  },
-  {
-    "id": 13785018556,
-    "name": "Hofladen Eggisbühl",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0322863,
-    "lon": 8.4098378,
-    "address": null
-  },
-  {
-    "id": 13787485900,
-    "name": "Hofladen Wengi Chinzi Hof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.chinzi-hof.ch/hofladen",
-    "lat": 47.084675,
-    "lon": 7.4026774,
-    "address": null
-  },
-  {
-    "id": 13787980146,
-    "name": "Alice + Pius Mayer",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5355636,
-    "lon": 9.3397851,
-    "address": null
-  },
-  {
-    "id": 1507505039,
-    "name": "Zelgenhof-Laden",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.hzo.ch/",
-    "lat": 47.3511319,
-    "lon": 8.0564776,
-    "address": null
-  },
-  {
-    "id": 1507541137,
-    "name": "Familie Stocker",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.050695,
-    "lon": 8.4292499,
-    "address": null
   },
   {
     "id": 9677787378,
@@ -821563,80 +821635,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.3179006,
-    "lon": 8.4976103,
-    "address": null
-  },
-  {
-    "id": 13811034747,
-    "name": "Azienda Agricola Poma",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Tremona",
-    "products": [],
-    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
-    "lat": 45.8806573,
-    "lon": 8.9528781,
-    "address": "Via Monte San Giorgio"
-  },
-  {
-    "id": 13813310789,
-    "name": "Biohof Dusch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Paspels",
-    "products": [],
-    "website": null,
-    "lat": 46.7530339,
-    "lon": 9.4509399,
-    "address": null
-  },
-  {
-    "id": 13815368021,
-    "name": "Hofladen Familie Peter",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Rickenbach ZH",
-    "products": [],
-    "website": "https://peter-rickenbach.ch",
-    "lat": 47.5521,
-    "lon": 8.7950151,
-    "address": null
-  },
-  {
-    "id": 13835528950,
-    "name": "bioverger.ch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bioverger.ch/",
-    "lat": 46.237573,
-    "lon": 7.4084948,
-    "address": null
-  },
-  {
-    "id": 13840961701,
-    "name": "Ferme Vuissoz",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ferme-vuissoz.ch/",
-    "lat": 46.2238712,
-    "lon": 7.3808934,
-    "address": "Chemin de Maragnène"
-  },
-  {
-    "id": 988674600,
-    "name": "Azienda agricola monti di Condra",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
-    "lat": 46.0800899,
-    "lon": 8.9555316,
+    "lat": 46.3179324,
+    "lon": 8.4975852,
     "address": null
   },
   {
