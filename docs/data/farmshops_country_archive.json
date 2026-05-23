@@ -576632,6 +576632,18 @@
       "lat": 47.4808022,
       "lon": 11.9658879,
       "address": null
+    },
+    {
+      "id": 13731641804,
+      "name": "SB - Bauernladen Kühnsdorf",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+      "lat": 46.6279457,
+      "lon": 14.6343365,
+      "address": null
     }
   ],
   "CH": [
