@@ -627161,6 +627161,18 @@
       "lat": 46.2238712,
       "lon": 7.3808934,
       "address": "Chemin de Maragnène"
+    },
+    {
+      "id": 13859804463,
+      "name": "Früchte vom Chalchbrünnli",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://fruechte-vom-chalchbruennli.ch/",
+      "lat": 47.5896745,
+      "lon": 8.1734938,
+      "address": null
     }
   ],
   "LI": [
