@@ -15948,6 +15948,18 @@
     "address": null
   },
   {
+    "id": 13868293893,
+    "name": "Bio-Betrieb Schüttel",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Hirschthal",
+    "products": [],
+    "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
+    "lat": 47.3193072,
+    "lon": 8.0774032,
+    "address": "Talstrasse"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -17625,6 +17637,18 @@
     "website": null,
     "lat": 47.050695,
     "lon": 8.4292499,
+    "address": null
+  },
+  {
+    "id": 1519862271,
+    "name": "Petershof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.petershof-kaerselen.ch/",
+    "lat": 46.7484084,
+    "lon": 7.5417979,
     "address": null
   },
   {

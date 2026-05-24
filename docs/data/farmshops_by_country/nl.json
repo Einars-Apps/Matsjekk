@@ -6582,6 +6582,30 @@
     "address": null
   },
   {
+    "id": 11594956181,
+    "name": "Land in Zicht",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Amersfoort",
+    "products": [],
+    "website": "https://landinzicht.net",
+    "lat": 52.212565,
+    "lon": 5.4124788,
+    "address": "Achterhoekerweg"
+  },
+  {
+    "id": 538330333,
+    "name": "Biologische tuinderij Kievit",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.kievitamines.nl",
+    "lat": 52.1940826,
+    "lon": 4.417777,
+    "address": null
+  },
+  {
     "id": 2629214824,
     "name": "PURE Gerbera",
     "country": "Netherlands",
@@ -6688,30 +6712,6 @@
     "lat": 52.0137397,
     "lon": 4.4010896,
     "address": "Kooltuin"
-  },
-  {
-    "id": 11594956181,
-    "name": "Land in Zicht",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Amersfoort",
-    "products": [],
-    "website": "https://landinzicht.net",
-    "lat": 52.212565,
-    "lon": 5.4124788,
-    "address": "Achterhoekerweg"
-  },
-  {
-    "id": 538330333,
-    "name": "Biologische tuinderij Kievit",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.kievitamines.nl",
-    "lat": 52.1940826,
-    "lon": 4.417777,
-    "address": null
   },
   {
     "id": 711819680,

@@ -34709,6 +34709,18 @@
       "lon": 18.0623763,
       "address": null,
       "source": "osm"
+    },
+    {
+      "id": 13866436939,
+      "name": "Axelssons i Aby",
+      "country": "Sweden",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.axelssonsiaby.se/",
+      "lat": 57.3496625,
+      "lon": 15.8371386,
+      "address": null
     }
   ],
   "DK": [
@@ -525176,6 +525188,30 @@
       "lat": 51.7358037,
       "lon": -1.2307511,
       "address": null
+    },
+    {
+      "id": 5866061835,
+      "name": "The Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Great Missenden",
+      "products": [],
+      "website": null,
+      "lat": 51.6865254,
+      "lon": -0.7247087,
+      "address": "Peterley Lane"
+    },
+    {
+      "id": 13118072,
+      "name": "Home Farm Estate",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Winchester",
+      "products": [],
+      "website": "https://www.homefarmhursley.com/",
+      "lat": 51.026543,
+      "lon": -1.4082543,
+      "address": "Hursley Park Road"
     }
   ],
   "IE": [
@@ -627184,6 +627220,30 @@
       "website": "https://fruechte-vom-chalchbruennli.ch/",
       "lat": 47.5896745,
       "lon": 8.1734938,
+      "address": null
+    },
+    {
+      "id": 13868293893,
+      "name": "Bio-Betrieb Schüttel",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Hirschthal",
+      "products": [],
+      "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
+      "lat": 47.3193072,
+      "lon": 8.0774032,
+      "address": "Talstrasse"
+    },
+    {
+      "id": 1519862271,
+      "name": "Petershof",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.petershof-kaerselen.ch/",
+      "lat": 46.7484084,
+      "lon": 7.5417979,
       "address": null
     }
   ],
