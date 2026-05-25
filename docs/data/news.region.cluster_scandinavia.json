@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T05:39:52.262461+00:00",
+  "generatedAt": "2026-05-25T05:49:00.480026+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -14,20 +14,20 @@
       "source": "Norsk Landbruk",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Atv2.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTd1Q25tX24yRUo5Y1VLX2V4c084RENPT0NkNjZVNWVTeEdES2lVV2t1V1U3c3dzdkUzTW5TWHpLQnFod2tPUHdzdTB5WHIyTWdod0ExUmVadFBBRjJzT0ZJYnBHQlVzZ2hHbVJEeERvMm0zYTlNczA0X0JuZk1USzl5OUNjS0dPTk5idjlIR1MzTFBxZlE?oc=5\" target=\"_blank\">Bovaer, Melkeproduksjon | Ny rapport viser ingen negativ effekt av Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Norsk Landbruk</font>",
       "id": "a0d83b85983874b0"
     },
     {
-      "title": "Wallenberg Initiative Materials Science for Sustainability - Umeå universitet",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rbUxvMTJEbk5hWUFrbzJZbW1xcF94d2cxblloSVZyMjVYb2NVcm1sWWVubXd5OXQzT0d0RzdvZldwM1E0LXdEZV9GSHgzNnQ4SXRuVnBIZDhpaTQ?oc=5",
-      "pubDate": "2026-04-23T12:03:14+00:00",
-      "source": "Umeå universitet",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rbUxvMTJEbk5hWUFrbzJZbW1xcF94d2cxblloSVZyMjVYb2NVcm1sWWVubXd5OXQzT0d0RzdvZldwM1E0LXdEZV9GSHgzNnQ4SXRuVnBIZDhpaTQ?oc=5\" target=\"_blank\">Wallenberg Initiative Materials Science for Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Umeå universitet</font>",
-      "id": "1eb20378ac039e21"
+      "title": "Kunstig intelligens og bærekraft: Skape fremgang med kunstig intelligens-løsninger - Microsoft",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExiXzFEZ3ZKZVM5bFpxNGpNT2VHcGpUbWdITm9SQkQxSDhoZTNaVmpLMWpKSV96b0RiVnlKVTh0aWVDR0p2Q3E2d2RPQlpyYjRUc1pMRjFxSlZIVVFRMUJjbFp1bEpUYzRSTlB3VFRhczNrak5MdW9xOFFubDdQbnh1bGItaGVnS21pMA?oc=5",
+      "pubDate": "2026-04-13T21:14:46+00:00",
+      "source": "Microsoft",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExiXzFEZ3ZKZVM5bFpxNGpNT2VHcGpUbWdITm9SQkQxSDhoZTNaVmpLMWpKSV96b0RiVnlKVTh0aWVDR0p2Q3E2d2RPQlpyYjRUc1pMRjFxSlZIVVFRMUJjbFp1bEpUYzRSTlB3VFRhczNrak5MdW9xOFFubDdQbnh1bGItaGVnS21pMA?oc=5\" target=\"_blank\">Kunstig intelligens og bærekraft: Skape fremgang med kunstig intelligens-løsninger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Microsoft</font>",
+      "id": "8ab699b662bad7ad"
     },
     {
       "title": "Nordic Esports Sustainability Summit kokosi kansainvälisen e-urheiluyhteisön Espooseen - Espoon kaupunki",
@@ -146,9 +146,9 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORURmYkdoQmt1YllTdXBkR1lOMXdIdGVqRW95VHg4MGpkS0MyRXZFb2thMUE4M0tIM2dTS0FoLTFIS3BlOXM5T3hXdTVVTHFGeGUxUm0xQy1TNExVZ2VhejFLNFdGWEM2bWo0UjBpbGtjMHVQcEtUSEFRY3hwbG4tUGJBX0RwdUJYaDNvMnFnMzRJTWFQRjJhbDY4WUxPRGNIT2VlLTJETzlLcUE3Q1E?oc=5",
       "pubDate": "2026-02-20T08:00:00+00:00",
       "source": "Bondebladet",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxORURmYkdoQmt1YllTdXBkR1lOMXdIdGVqRW95VHg4MGpkS0MyRXZFb2thMUE4M0tIM2dTS0FoLTFIS3BlOXM5T3hXdTVVTHFGeGUxUm0xQy1TNExVZ2VhejFLNFdGWEM2bWo0UjBpbGtjMHVQcEtUSEFRY3hwbG4tUGJBX0RwdUJYaDNvMnFnMzRJTWFQRjJhbDY4WUxPRGNIT2VlLTJETzlLcUE3Q1E?oc=5\" target=\"_blank\">Fant fellestrekk hos syke kyr – men koblingen til Bovaer er usikker</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "dd61d69388738146"
     },
@@ -264,15 +264,15 @@
       "id": "10995a18b0df3423"
     },
     {
-      "title": "Bovaer: EU-organ ber om ny vurdering – vil vite mer om virkningene - Bondebladet",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjBUVFVpVzNyTEplckhuZzN1eVg1V1QySjhnLV9kNEN0bEVGQXlQeUViemlaNV92Y281Z1JlQVlaOEVpaEd3TU02ZGRmamhqTjJlZm9wLUtDT1Q5S0hTNHR2TDdMRkoxY0JJZVVQUENEQW9acmdwR25vNXQ2QXp6dWtvcW9HLVJkVVllMTdaaHEtcXRkckV2RE10WTBlR0pEYVg2d2lpcDhRMEl4c0F6aGEydWgzYUNleWN3dlFR?oc=5",
-      "pubDate": "2026-02-07T08:00:00+00:00",
-      "source": "Bondebladet",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOWjBUVFVpVzNyTEplckhuZzN1eVg1V1QySjhnLV9kNEN0bEVGQXlQeUViemlaNV92Y281Z1JlQVlaOEVpaEd3TU02ZGRmamhqTjJlZm9wLUtDT1Q5S0hTNHR2TDdMRkoxY0JJZVVQUENEQW9acmdwR25vNXQ2QXp6dWtvcW9HLVJkVVllMTdaaHEtcXRkckV2RE10WTBlR0pEYVg2d2lpcDhRMEl4c0F6aGEydWgzYUNleWN3dlFR?oc=5\" target=\"_blank\">Bovaer: EU-organ ber om ny vurdering – vil vite mer om virkningene</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
-      "id": "7b94762e5eb19c3c"
+      "title": "Bovaerin kieltämiseksi käynnistetty kansalaisaloite - Maaseudun Tulevaisuus",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5",
+      "pubDate": "2026-02-09T08:00:00+00:00",
+      "source": "Maaseudun Tulevaisuus",
+      "language": "fi",
+      "country": "FI",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5\" target=\"_blank\">Bovaerin kieltämiseksi käynnistetty kansalaisaloite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
+      "id": "7308dc15249ee9c4"
     },
     {
       "title": "Bovaer ska granskas i EU - Lantbruksnytt",
@@ -319,17 +319,6 @@
       "id": "6a13b52cea264743"
     },
     {
-      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - Nettavisen",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5",
-      "pubDate": "2026-01-29T08:00:00+00:00",
-      "source": "Nettavisen",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
-      "id": "15d962535e8366ec"
-    },
-    {
       "title": "Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre - Naturpress",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5",
       "pubDate": "2026-01-29T08:00:00+00:00",
@@ -339,6 +328,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWVpYVgwTUItWVZHQzU2T3g2dFdsX2cyWldtWU8xNVliU2VnaGJWeWhIal9qSlk4VmxIUUItaXZiTVN3eDc3MDR4X0NBTXJOeEtfazJRSHowbkZrVzJvQ29JbDQ3SnVtLTd2UnlWNnVpQkxtLUtTVUt1dTVuQnRjQnhOWDRKY1lRVTZnX0JIQ0d5R2wzRnZGWE9LSl9RNnhV?oc=5\" target=\"_blank\">Ikke klare Bovaer-svar: – Har ikke bevis for det ene eller andre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Naturpress</font>",
       "id": "567c81c7cdb83f89"
+    },
+    {
+      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - Nettavisen",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5",
+      "pubDate": "2026-01-29T08:00:00+00:00",
+      "source": "Nettavisen",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWZVS3puUnVYUHI3dWZYMEhQc2hsM1g2bU1ucjFnODZhaDdxTFJnZFlfbERjSngxOGNqb0tTbU52NnpuX0R5TVhxdGdkU2cxQ3FKTDJDTkphTnVaY2JYRUpKYXJEVlFDVlF4SndpYW1IRVRtZXdRb0hVdi1vdURiMGoyX21IRHh5Slk3Y3NfR2phT3Y0ZUl6YV83LS1SQUh6bTN0TlIzU3EwMkU?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nettavisen</font>",
+      "id": "15d962535e8366ec"
     },
     {
       "title": "Norjan suurin meijeri lopettaa Bovaer-maidon vastaanottamisen - Maaseudun Tulevaisuus",
@@ -352,6 +352,17 @@
       "id": "67748eaeffef1607"
     },
     {
+      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - altaposten.no",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFlmVVlHMTVyUkc2NTBKRF9tckVxQURtZTd5MTQxMEJ5U09NT2tWa2E2Z2pMYUNndUFSdVhTMlpvSmwtbjBBVzhTYVFKQld0TWQ5ZnBXOWtCbFdyV0NNRlhHYm50SUxEQjdHeWd6MmR6elA2bGJjSFdHOU0tX0ZYWFVRbGd6Q0xuT2hsYnhPR3o4U2FkRXRMc1IzMDhmLXJHRmx3ZzVFSjNyREFL?oc=5",
+      "pubDate": "2026-01-28T08:00:00+00:00",
+      "source": "altaposten.no",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFlmVVlHMTVyUkc2NTBKRF9tckVxQURtZTd5MTQxMEJ5U09NT2tWa2E2Z2pMYUNndUFSdVhTMlpvSmwtbjBBVzhTYVFKQld0TWQ5ZnBXOWtCbFdyV0NNRlhHYm50SUxEQjdHeWd6MmR6elA2bGJjSFdHOU0tX0ZYWFVRbGd6Q0xuT2hsYnhPR3o4U2FkRXRMc1IzMDhmLXJHRmx3ZzVFSjNyREFL?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">altaposten.no</font>",
+      "id": "5c38f0926a6c37e3"
+    },
+    {
       "title": "Hit havner melka fra Bovaer-kyr - rbnett.no",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGZCeGhBMHZNSGVHSFBPTkNfWTd0VWd3djRZYm42MGpDcTJmanZEVXFScXRaendNa1VYR3RmeUZCMzdvMXEwWC02UkZSek1kZDRPa3J1YjN2UFlmSGI2blRjZ0VSaGZQcWdvcVllZDQzUjNxbjFvQXZPZkpITkJVSUlSdHpmNlFxY2l2aEh4YkdWeXh2dk12VWhOb1FNN1k?oc=5",
       "pubDate": "2026-01-28T08:00:00+00:00",
@@ -363,26 +374,15 @@
       "id": "e74cf5d8e964205a"
     },
     {
-      "title": "Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel - adressa.no",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkwta2htcjV6V3dicGtVbVd5cmZCSHZqRWNLZnVNZjJOQ0NXX0tqRV9mQ3d5T25lU2xDelg5bXlySWt6ajJGcjB5c0NSSDAwcnBrRnJuSTV2M29pdlJlN1RIRlhGZURkY2lfUXNoUWdGMktmTDJoTXgydzdNNVFCX2pKRmhKcjdtSXRYWFZQbVB6ZFNfM2NNczBMNXRhT29tQ1JzX25BQi1kSGRlUXc?oc=5",
+      "title": "MDG sikrer flertall mot bruk av Bovaer - Økologisk24",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVVNRa25HVzFmSW9KN2FOb1JJVG5GaFgtWXJIMk44YlJfYWI3YjlwaVo2TGNYZUxneVdRMzdJTFZxRlFFS0pnRVY4aDlNemdLWU1QUlh3OVNEQjRKci1Na2ZoVWRXMXhIMHozbG9TWk5GNF9WUHp1cTFkVzVSNmx3UXkzUTVuWGRG?oc=5",
       "pubDate": "2026-01-28T08:00:00+00:00",
-      "source": "adressa.no",
+      "source": "Økologisk24",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aadressa.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkwta2htcjV6V3dicGtVbVd5cmZCSHZqRWNLZnVNZjJOQ0NXX0tqRV9mQ3d5T25lU2xDelg5bXlySWt6ajJGcjB5c0NSSDAwcnBrRnJuSTV2M29pdlJlN1RIRlhGZURkY2lfUXNoUWdGMktmTDJoTXgydzdNNVFCX2pKRmhKcjdtSXRYWFZQbVB6ZFNfM2NNczBMNXRhT29tQ1JzX25BQi1kSGRlUXc?oc=5\" target=\"_blank\">Melk fra Bovaer-kyr gis til kalver eller ender som gjødsel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">adressa.no</font>",
-      "id": "338bfdd6cad5b773"
-    },
-    {
-      "title": "”Bovaer är fel strid för mjölkbranschen att ta” - atl.nu",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kckFsSjFadWhxc2dsZmNkZkdJdXJkWW5OQVkxNUFrLVJZX0VSbFNGbzRVZHh1MHRCOF93N3R6SklramZOR05XeXlDdHVsS1RTcXZvdEh2WkZTOUtRdVJXQVMxcjd4eDkzcFlxTGFVWWFZQQ?oc=5",
-      "pubDate": "2026-01-26T08:00:00+00:00",
-      "source": "atl.nu",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9kckFsSjFadWhxc2dsZmNkZkdJdXJkWW5OQVkxNUFrLVJZX0VSbFNGbzRVZHh1MHRCOF93N3R6SklramZOR05XeXlDdHVsS1RTcXZvdEh2WkZTOUtRdVJXQVMxcjd4eDkzcFlxTGFVWWFZQQ?oc=5\" target=\"_blank\">”Bovaer är fel strid för mjölkbranschen att ta”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">atl.nu</font>",
-      "id": "200fbf100d626f51"
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVVNRa25HVzFmSW9KN2FOb1JJVG5GaFgtWXJIMk44YlJfYWI3YjlwaVo2TGNYZUxneVdRMzdJTFZxRlFFS0pnRVY4aDlNemdLWU1QUlh3OVNEQjRKci1Na2ZoVWRXMXhIMHozbG9TWk5GNF9WUHp1cTFkVzVSNmx3UXkzUTVuWGRG?oc=5\" target=\"_blank\">MDG sikrer flertall mot bruk av Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Økologisk24</font>",
+      "id": "a6b7280c7cb52685"
     }
   ]
 }
