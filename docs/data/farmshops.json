@@ -13375,6 +13375,32 @@
     "source": "https://www.hanen.no/bedrift/bjorklund-gaard/"
   },
   {
+    "id": "hanen_97",
+    "name": "Eiker Gårdsysteri",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Hokksund",
+    "products": [],
+    "website": "https://www.eikergardsysteri.no",
+    "lat": 59.788426,
+    "lon": 9.83126,
+    "address": "Bermingrudveien 221",
+    "source": "https://www.hanen.no/bedrift/eiker-gaardsysteri/"
+  },
+  {
+    "id": "hanen_151",
+    "name": "Gangstad Gårdsysteri",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Inderøy",
+    "products": [],
+    "website": "https://www.ysteri.no",
+    "lat": 63.959866,
+    "lon": 11.33784,
+    "address": "Nessetvegen 11",
+    "source": "https://www.hanen.no/bedrift/gangstad-gaardsysteri/"
+  },
+  {
     "id": "hanen_1031",
     "name": "Merete Hyggen",
     "country": "Norway",
@@ -13401,6 +13427,32 @@
     "source": "https://www.hanen.no/bedrift/inderoy-gaardsbryggeri-as/"
   },
   {
+    "id": "hanen_235",
+    "name": "Klostergården Tautra",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Frosta",
+    "products": [],
+    "website": "https://www.klostergardentautra.no",
+    "lat": 63.583897,
+    "lon": 10.623612,
+    "address": "Tautra Nordre, Klostergårdsvegen 90",
+    "source": "https://www.hanen.no/bedrift/klostergaarden-tautra/"
+  },
+  {
+    "id": "hanen_1432",
+    "name": "Kollerud gård",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Hemnes",
+    "products": [],
+    "website": "https://www.kollerudgard.no",
+    "lat": 59.714136,
+    "lon": 11.44173,
+    "address": "Kollerudveien 84",
+    "source": "https://www.hanen.no/bedrift/kollerud-gaard/"
+  },
+  {
     "id": "hanen_2537",
     "name": "Kråen Gard AS",
     "country": "Norway",
@@ -13414,6 +13466,19 @@
     "source": "https://www.hanen.no/bedrift/kraaen-gard-as/"
   },
   {
+    "id": "hanen_848",
+    "name": "Haugen Gård",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Kvål",
+    "products": [],
+    "website": "http://www.haugengard.com",
+    "lat": 63.208842,
+    "lon": 10.253702,
+    "address": "Bennaveien 300",
+    "source": "https://www.hanen.no/bedrift/haugen-gaard/"
+  },
+  {
     "id": "hanen_1354",
     "name": "Myrdal Gaard Ysteri AS",
     "country": "Norway",
@@ -13425,6 +13490,32 @@
     "lon": 5.61854,
     "address": "Myrdalsvegen 202",
     "source": "https://www.hanen.no/bedrift/myrdal-gaard-ysteri-as/"
+  },
+  {
+    "id": "hanen_855",
+    "name": "Røyland Gård AS",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "ENGESLAND",
+    "products": [],
+    "website": "https://roylandgard.no",
+    "lat": 58.532012,
+    "lon": 8.049259,
+    "address": "Vestbygdveien 486",
+    "source": "https://www.hanen.no/bedrift/royland-gaard-as/"
+  },
+  {
+    "id": "hanen_442",
+    "name": "Skott Gård Nordre",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Skotselv",
+    "products": [],
+    "website": "https://www.skottgard.no",
+    "lat": 59.826586,
+    "lon": 9.881927,
+    "address": "Skottveien 73",
+    "source": "https://www.hanen.no/bedrift/skott-gaard-nordre/"
   },
   {
     "id": "hanen_298",
@@ -13451,6 +13542,19 @@
     "lon": 10.676762,
     "address": "Stokkevegen 139",
     "source": "https://www.hanen.no/bedrift/stokke-nedre/"
+  },
+  {
+    "id": "hanen_634",
+    "name": "Stolt Mat",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Sjøholt",
+    "products": [],
+    "website": "https://www.stoltmat.com",
+    "lat": 62.483372,
+    "lon": 6.814362,
+    "address": "Stolt Mat AS\r\n\r\nSjøholtvegen 11",
+    "source": "https://www.hanen.no/bedrift/stolt-mat/"
   },
   {
     "id": "hanen_850",
@@ -13490,6 +13594,19 @@
     "lon": 5.68016,
     "address": "Skrettinglandsvegen 50",
     "source": "https://www.hanen.no/bedrift/ystepikene/"
+  },
+  {
+    "id": "hanen_123",
+    "name": "Aalan Gård",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Bøstad",
+    "products": [],
+    "website": "https://www.aalan.no",
+    "lat": 68.24534,
+    "lon": 13.89789,
+    "address": "Lauvdalen",
+    "source": "https://www.hanen.no/bedrift/aalan-gaard/"
   },
   {
     "id": "hanen_919",
@@ -13555,6 +13672,19 @@
     "lon": 11.555445,
     "address": "Østre Skogbygdvei 601",
     "source": "https://www.hanen.no/bedrift/bakken-ovre-gaardsmat/"
+  },
+  {
+    "id": "hanen_333",
+    "name": "Bamsrudlåven",
+    "country": "Norway",
+    "region": "Østfold",
+    "municipality": "Mysen",
+    "products": [],
+    "website": "https://www.bamsrudlaven.no",
+    "lat": 59.547436,
+    "lon": 11.366858,
+    "address": "Bamsrudveien 57",
+    "source": "https://www.hanen.no/bedrift/bamsrudlaaven/"
   },
   {
     "id": "hanen_38",
@@ -13674,6 +13804,19 @@
     "source": "https://www.hanen.no/bedrift/breievne-gard/"
   },
   {
+    "id": "hanen_2957",
+    "name": "Moe gård",
+    "country": "Norway",
+    "region": "Oppland",
+    "municipality": "Øyer",
+    "products": [],
+    "website": "https://www.matfraoyer.no/moe",
+    "lat": 61.24491,
+    "lon": 10.459442,
+    "address": "Sørbygdsvegen 476",
+    "source": "https://www.hanen.no/bedrift/moe-gaard/"
+  },
+  {
     "id": "hanen_927",
     "name": "Balholm AS",
     "country": "Norway",
@@ -13726,6 +13869,19 @@
     "source": "https://www.hanen.no/bedrift/tveter-gaard-foredling/"
   },
   {
+    "id": "hanen_169",
+    "name": "Derinngarden",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Eide",
+    "products": [],
+    "website": "https://www.derinngarden.no",
+    "lat": 62.88794,
+    "lon": 7.40966,
+    "address": "Øvre Halåsveg 18",
+    "source": "https://www.hanen.no/bedrift/derinngarden/"
+  },
+  {
     "id": "hanen_1216",
     "name": "Dirdalstraen AS",
     "country": "Norway",
@@ -13765,6 +13921,19 @@
     "source": "https://www.hanen.no/bedrift/dyster-slakteri-as/"
   },
   {
+    "id": "hanen_41",
+    "name": "Eggen Gardsysteri SA",
+    "country": "Norway",
+    "region": "Hedmark",
+    "municipality": "Vingelen",
+    "products": [],
+    "website": "https://www.eggenost.no/",
+    "lat": 62.402924,
+    "lon": 10.855011,
+    "address": "Eggen",
+    "source": "https://www.hanen.no/bedrift/eggen-gardsysteri-sa/"
+  },
+  {
     "id": "hanen_1302",
     "name": "Maison Eiane AS",
     "country": "Norway",
@@ -13789,6 +13958,19 @@
     "lon": 9.84594,
     "address": "Holteveien 193",
     "source": "https://www.hanen.no/bedrift/eiker-hjort/"
+  },
+  {
+    "id": "hanen_12",
+    "name": "Eplegården Storsand",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Sætre",
+    "products": [],
+    "website": "https://www.eple.no",
+    "lat": 59.649894,
+    "lon": 10.596606,
+    "address": "Børsandveien 1",
+    "source": "https://www.hanen.no/bedrift/eplegaarden-storsand/"
   },
   {
     "id": "hanen_686",
@@ -13843,6 +14025,19 @@
     "source": "https://www.hanen.no/bedrift/fioriblomster-as/"
   },
   {
+    "id": "hanen_975",
+    "name": "FJELLEVENTYRET AS",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Skjåk",
+    "products": [],
+    "website": "https://www.fjelleventyret.no",
+    "lat": 61.872789,
+    "lon": 8.313804,
+    "address": "Vassgangen 24",
+    "source": "https://www.hanen.no/bedrift/fjelleventyret-as/"
+  },
+  {
     "id": "hanen_2848",
     "name": "Fjellfell",
     "country": "Norway",
@@ -13854,6 +14049,19 @@
     "lon": 6.122025,
     "address": "Eksingedalsvegen 2284",
     "source": "https://www.hanen.no/bedrift/fjellfell/"
+  },
+  {
+    "id": "hanen_3041",
+    "name": "Fladmark  Gård",
+    "country": "Norway",
+    "region": "Østfold",
+    "municipality": "Askim",
+    "products": [],
+    "website": "https://fladmarkgard.no/",
+    "lat": 59.557634,
+    "lon": 11.138232,
+    "address": "Skjoldenveien 329",
+    "source": "https://www.hanen.no/bedrift/fladmark-gaard/"
   },
   {
     "id": "hanen_989",
@@ -13908,6 +14116,19 @@
     "source": "https://www.hanen.no/bedrift/fuglestein-frukt-og-sideri/"
   },
   {
+    "id": "hanen_351",
+    "name": "Galåvolden Gård",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Røros",
+    "products": [],
+    "website": "https://www.galaavolden.no",
+    "lat": 62.561781,
+    "lon": 11.270401,
+    "address": "Galåvollveien 108",
+    "source": "https://www.hanen.no/bedrift/galaavolden-gaard/"
+  },
+  {
     "id": "hanen_774",
     "name": "Garden Oppheim",
     "country": "Norway",
@@ -13919,6 +14140,19 @@
     "lon": 8.679283,
     "address": "Oppheimsveien 288",
     "source": "https://www.hanen.no/bedrift/garden-oppheim/"
+  },
+  {
+    "id": "hanen_363",
+    "name": "Sogn Jord- og Hagebruksskule",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Aurland",
+    "products": [],
+    "website": "https://www.sjh.vgs.no",
+    "lat": 60.903135,
+    "lon": 7.200768,
+    "address": "Skulevegen 24",
+    "source": "https://www.hanen.no/bedrift/sogn-jord-og-hagebruksskule/"
   },
   {
     "id": "hanen_2785",
@@ -13986,6 +14220,32 @@
     "source": "https://www.hanen.no/bedrift/grini-hjemmebakeri-as/"
   },
   {
+    "id": "hanen_19",
+    "name": "Grøndalen gårdsmeieri",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Auli",
+    "products": [],
+    "website": "https://www.nyr.no",
+    "lat": 60.045524,
+    "lon": 11.366591,
+    "address": "Grøndalsveien 17",
+    "source": "https://www.hanen.no/bedrift/grondalen-gaardsmeieri/"
+  },
+  {
+    "id": "hanen_487",
+    "name": "Grønset Gard",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Vinjeøra",
+    "products": [],
+    "website": "https://www.gronset.net/",
+    "lat": 63.194717,
+    "lon": 8.883316,
+    "address": "Vinjefjordsveien 766a",
+    "source": "https://www.hanen.no/bedrift/gronset-gard/"
+  },
+  {
     "id": "hanen_2905",
     "name": "Grøntbua",
     "country": "Norway",
@@ -13997,6 +14257,19 @@
     "lon": 10.26983,
     "address": "Linnesstranda 1",
     "source": "https://www.hanen.no/bedrift/grontbua/"
+  },
+  {
+    "id": "hanen_439",
+    "name": "Grønvik Gard",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Fister",
+    "products": [],
+    "website": "https://www.gronvikgard.no",
+    "lat": 59.142267,
+    "lon": 6.037159,
+    "address": "Grønvikvegen 89",
+    "source": "https://www.hanen.no/bedrift/gronvik-gard/"
   },
   {
     "id": "hanen_3047",
@@ -14077,6 +14350,19 @@
     "source": "https://www.hanen.no/bedrift/hasle-gaard-sundby/"
   },
   {
+    "id": "hanen_319",
+    "name": "Håvardsrud Seterliv",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Tinn Austbygd",
+    "products": [],
+    "website": "https://www.seterliv.no",
+    "lat": 60.04729,
+    "lon": 8.83044,
+    "address": "Skirvedalsvegen 86",
+    "source": "https://www.hanen.no/bedrift/haavardsrud-seterliv/"
+  },
+  {
     "id": "hanen_2474",
     "name": "Hebnes vingard",
     "country": "Norway",
@@ -14103,6 +14389,19 @@
     "source": "https://www.hanen.no/bedrift/heggerud-gard/"
   },
   {
+    "id": "hanen_258",
+    "name": "Heidal Hjemmebakeri",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Heidal",
+    "products": [],
+    "website": null,
+    "lat": 61.732398,
+    "lon": 9.166534,
+    "address": "heidalsvegen 2443",
+    "source": "https://www.hanen.no/bedrift/heidal-hjemmebakeri/"
+  },
+  {
     "id": "hanen_2853",
     "name": "Heier Du Rietz",
     "country": "Norway",
@@ -14114,6 +14413,58 @@
     "lon": 10.421931,
     "address": "Heierkleiva 18",
     "source": "https://www.hanen.no/bedrift/heier-du-rietz/"
+  },
+  {
+    "id": "hanen_88",
+    "name": "Hemlaga på Næs",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Brandbu",
+    "products": [],
+    "website": "https://www.facebook.com/ektehemlaga",
+    "lat": 60.434233,
+    "lon": 10.462804,
+    "address": "Næsgutua 3",
+    "source": "https://www.hanen.no/bedrift/hemlaga-paa-naes/"
+  },
+  {
+    "id": "hanen_620",
+    "name": "Hemsedal Flatbrødbakeri A/S",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Hemsedal",
+    "products": [],
+    "website": "https://www.hemsedalflatbrodbakeri.no",
+    "lat": 60.878934,
+    "lon": 8.483056,
+    "address": "Hemsedalsvegen 3445",
+    "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
+  },
+  {
+    "id": "hanen_1308",
+    "name": "Herfra gårdsmat og matkultursenter",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Sokna",
+    "products": [],
+    "website": "https://www.facebook.com/groups/721960321302564/",
+    "lat": 60.26335,
+    "lon": 9.94324,
+    "address": "Strømsoddveien 167",
+    "source": "https://www.hanen.no/bedrift/herfra-gaardsmat-og-matkultursenter/"
+  },
+  {
+    "id": "hanen_1156",
+    "name": "Hesla Farm",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "GOL",
+    "products": [],
+    "website": "https://www.heslafarm.com",
+    "lat": 60.701968,
+    "lon": 8.92717,
+    "address": "Hemsedalsvegen 23",
+    "source": "https://www.hanen.no/bedrift/hesla-farm/"
   },
   {
     "id": "hanen_2835",
@@ -14168,6 +14519,45 @@
     "source": "https://www.hanen.no/bedrift/hole-gardsutsalg/"
   },
   {
+    "id": "hanen_2893",
+    "name": "HonningMoen",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Vegårshei",
+    "products": [],
+    "website": "https://www.facebook.com/HonningMoen/",
+    "lat": 58.67789,
+    "lon": 8.825274,
+    "address": "Telemarksveien 185",
+    "source": "https://www.hanen.no/bedrift/honningmoen/"
+  },
+  {
+    "id": "hanen_783",
+    "name": "Humstad Gård",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Åfjord",
+    "products": [],
+    "website": "https://www.facebook.com/humstadgard/",
+    "lat": 63.974467,
+    "lon": 10.160843,
+    "address": "Humstadveien 265",
+    "source": "https://www.hanen.no/bedrift/humstad-gaard/"
+  },
+  {
+    "id": "hanen_587",
+    "name": "HUSEBY GÅRD Karine Huseby",
+    "country": "Norway",
+    "region": "Vestfold",
+    "municipality": "Tjodalyng",
+    "products": [],
+    "website": "https://www.hanen.no/bedrift/587",
+    "lat": 59.048495,
+    "lon": 10.113704,
+    "address": "Husebyveien 70",
+    "source": "https://www.hanen.no/bedrift/huseby-gaard-karine-huseby/"
+  },
+  {
     "id": "hanen_190",
     "name": "Husfrua A/S",
     "country": "Norway",
@@ -14207,6 +14597,19 @@
     "source": "https://www.hanen.no/bedrift/ims-gard/"
   },
   {
+    "id": "hanen_2736",
+    "name": "Inderdalen gård",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Korgen",
+    "products": [],
+    "website": "https://www.facebook.com/groups/1523522304530561/",
+    "lat": 66.007644,
+    "lon": 13.931686,
+    "address": "Bryggfjelldalsveien 122",
+    "source": "https://www.hanen.no/bedrift/inderdalen-gaard/"
+  },
+  {
     "id": "hanen_1171",
     "name": "Inderøy Mosteri AS",
     "country": "Norway",
@@ -14218,6 +14621,19 @@
     "lon": 11.268199,
     "address": "Sakshaugvegen 36 (levering/besøk)",
     "source": "https://www.hanen.no/bedrift/inderoy-mosteri-as/"
+  },
+  {
+    "id": "hanen_1439",
+    "name": "Jelsa Hotell AS",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Jelsa",
+    "products": [],
+    "website": "https://www.jelsahotell.no",
+    "lat": 59.339823,
+    "lon": 6.027879,
+    "address": "Jelsavegen 73",
+    "source": "https://www.hanen.no/bedrift/jelsa-hotell-as/"
   },
   {
     "id": "hanen_1399",
@@ -14246,6 +14662,19 @@
     "source": "https://www.hanen.no/bedrift/jondal-gaardsbutikk/"
   },
   {
+    "id": "hanen_2828",
+    "name": "Jørem ved Namsen v/Sven Åge Domås",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Grong",
+    "products": [],
+    "website": "https://jorem.no",
+    "lat": 64.456576,
+    "lon": 12.187689,
+    "address": "Jøresvegen 29",
+    "source": "https://www.hanen.no/bedrift/jorem-ved-namsen-vsven-aage-domaas/"
+  },
+  {
     "id": "hanen_2745",
     "name": "Kjøkkenhagen Gårdsutsalg & Kafe",
     "country": "Norway",
@@ -14257,6 +14686,19 @@
     "lon": 10.74912,
     "address": "Frostavegen 1810",
     "source": "https://www.hanen.no/bedrift/kjokkenhagen-gaardsutsalg-and-kafe/"
+  },
+  {
+    "id": "hanen_721",
+    "name": "Klostergarden",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Mosterøy",
+    "products": [],
+    "website": "https://klostergarden.no",
+    "lat": 59.102795,
+    "lon": 5.588272,
+    "address": "Utstein Gard, Mosterøyveien 802",
+    "source": "https://www.hanen.no/bedrift/klostergarden/"
   },
   {
     "id": "hanen_2609",
@@ -14285,6 +14727,19 @@
     "source": "https://www.hanen.no/bedrift/krokeborg-gaard/"
   },
   {
+    "id": "hanen_3031",
+    "name": "Kronen Landhandleri",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Vikersund",
+    "products": [],
+    "website": "https://www.kronens.no",
+    "lat": 59.985857,
+    "lon": 9.978937,
+    "address": "Jonsrudveien 17",
+    "source": "https://www.hanen.no/bedrift/kronen-landhandleri/"
+  },
+  {
     "id": "hanen_1448",
     "name": "Landrø Lensvik",
     "country": "Norway",
@@ -14309,6 +14764,19 @@
     "lon": 8.971952,
     "address": "Saulandsvegen 269",
     "source": "https://www.hanen.no/bedrift/landsverk-gaard/"
+  },
+  {
+    "id": "hanen_1116",
+    "name": "Leksås gårdsmat AS",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Grong",
+    "products": [],
+    "website": "https://www.facebook.com/leksaasgaardsmat/",
+    "lat": 64.467,
+    "lon": 12.29928,
+    "address": "Grongvegen 10",
+    "source": "https://www.hanen.no/bedrift/leksaas-gaardsmat-as/"
   },
   {
     "id": "hanen_748",
@@ -14337,6 +14805,19 @@
     "source": "https://www.hanen.no/bedrift/lia-gard/"
   },
   {
+    "id": "hanen_856",
+    "name": "Lien Gård",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Akkerhaugen",
+    "products": [],
+    "website": "https://www.liengard-telemark.no",
+    "lat": 59.371343,
+    "lon": 9.262744,
+    "address": "Liagrendveien 262",
+    "source": "https://www.hanen.no/bedrift/lien-gaard/"
+  },
+  {
     "id": "hanen_1422",
     "name": "Lindesnes Gård",
     "country": "Norway",
@@ -14361,6 +14842,45 @@
     "lon": 7.525195,
     "address": "Lindlandsveien 23",
     "source": "https://www.hanen.no/bedrift/lindland-gaard-as/"
+  },
+  {
+    "id": "hanen_327",
+    "name": "Lista Lam og Gårdsmat",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Vanse",
+    "products": [],
+    "website": "https://www.listalam.no",
+    "lat": 58.12003,
+    "lon": 6.602943,
+    "address": "Stave",
+    "source": "https://www.hanen.no/bedrift/lista-lam-og-gaardsmat/"
+  },
+  {
+    "id": "hanen_110",
+    "name": "Lofoten Gårdsysteri",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "Bøstad",
+    "products": [],
+    "website": "https://www.lofoten-gardsysteri.no",
+    "lat": 68.253994,
+    "lon": 13.646748,
+    "address": "Saupstadveien 235",
+    "source": "https://www.hanen.no/bedrift/lofoten-gaardsysteri/"
+  },
+  {
+    "id": "hanen_809",
+    "name": "Lofoten Wool & Art as",
+    "country": "Norway",
+    "region": "Nordland",
+    "municipality": "STAMSUND",
+    "products": [],
+    "website": "https://www.lofoten-wool.no",
+    "lat": 68.149013,
+    "lon": 13.763517,
+    "address": "Steineveien 294",
+    "source": "https://www.hanen.no/bedrift/lofoten-wool-and-art-as/"
   },
   {
     "id": "hanen_835",
@@ -14480,6 +15000,32 @@
     "source": "https://www.hanen.no/bedrift/nero-sideri/"
   },
   {
+    "id": "hanen_236",
+    "name": "Nesheimstunet AS",
+    "country": "Norway",
+    "region": "Rogaland",
+    "municipality": "Nedre Vats",
+    "products": [],
+    "website": "https://www.nesheimstunet.no",
+    "lat": 59.507686,
+    "lon": 5.712307,
+    "address": "Saudavegen 7194",
+    "source": "https://www.hanen.no/bedrift/nesheimstunet-as/"
+  },
+  {
+    "id": "hanen_225",
+    "name": "Noraker Rakfisk AS",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Aurdal",
+    "products": [],
+    "website": "https://www.noraker.no",
+    "lat": 60.945342,
+    "lon": 9.353926,
+    "address": null,
+    "source": "https://www.hanen.no/bedrift/noraker-rakfisk-as/"
+  },
+  {
     "id": "hanen_2742",
     "name": "Nordre Bergan gård",
     "country": "Norway",
@@ -14530,6 +15076,19 @@
     "lon": 11.282087,
     "address": "Øyestadveien 249",
     "source": "https://www.hanen.no/bedrift/norsk-urkorn-as/"
+  },
+  {
+    "id": "hanen_770",
+    "name": "Oddan alpakka",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Kyrksæterøra",
+    "products": [],
+    "website": "https://oddanalpakka.no/",
+    "lat": 63.368866,
+    "lon": 9.1459,
+    "address": "Oddan, Lernestranda 912",
+    "source": "https://www.hanen.no/bedrift/oddan-alpakka/"
   },
   {
     "id": "hanen_1172",
@@ -14610,6 +15169,32 @@
     "source": "https://www.hanen.no/bedrift/ovre-dale-gaard/"
   },
   {
+    "id": "hanen_2481",
+    "name": "Øvre Ellingsrud gård",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Jevnaker",
+    "products": [],
+    "website": "https://ovreellingsrud.no",
+    "lat": 60.281453,
+    "lon": 10.488371,
+    "address": "Klinkenbergveien 350",
+    "source": "https://www.hanen.no/bedrift/ovre-ellingsrud-gaard/"
+  },
+  {
+    "id": "hanen_1157",
+    "name": "Øvrejorde",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "HOVET",
+    "products": [],
+    "website": "https://Ovrejorde.no",
+    "lat": 60.62588,
+    "lon": 8.20422,
+    "address": "Villandsvegen 38",
+    "source": "https://www.hanen.no/bedrift/ovrejorde/"
+  },
+  {
     "id": "hanen_1214",
     "name": "Øvstabø Gard",
     "country": "Norway",
@@ -14634,6 +15219,19 @@
     "lon": 11.454622,
     "address": "Tydalsvegen 1211",
     "source": "https://www.hanen.no/bedrift/per-hansagarden-gardsysteri/"
+  },
+  {
+    "id": "hanen_238",
+    "name": "Piltingsrud Gard AS",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Begna",
+    "products": [],
+    "website": "https://www.piltingsrudgard.no",
+    "lat": 60.655677,
+    "lon": 9.771285,
+    "address": "Austsidevegen 1521",
+    "source": "https://www.hanen.no/bedrift/piltingsrud-gard-as/"
   },
   {
     "id": "hanen_970",
@@ -14686,6 +15284,19 @@
     "lon": 9.298,
     "address": "Tinnegrendvegen 307",
     "source": "https://www.hanen.no/bedrift/ramberg-su-neset/"
+  },
+  {
+    "id": "hanen_73",
+    "name": "Ramme",
+    "country": "Norway",
+    "region": "Akershus",
+    "municipality": "Hvitsten",
+    "products": [],
+    "website": "https://www.ramme.no",
+    "lat": 59.60803,
+    "lon": 10.65311,
+    "address": "Rammeveien 90",
+    "source": "https://www.hanen.no/bedrift/ramme/"
   },
   {
     "id": "hanen_693",
@@ -14909,6 +15520,19 @@
     "source": "https://www.hanen.no/bedrift/smaabruket-dolhus/"
   },
   {
+    "id": "hanen_145",
+    "name": "Ivar Løne AS - Smalahovetunet Voss",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Skulestadmo",
+    "products": [],
+    "website": "https://www.smalahovetunet.no",
+    "lat": 60.692962,
+    "lon": 6.472726,
+    "address": "Strandavegen 785",
+    "source": "https://www.hanen.no/bedrift/ivar-lone-as-smalahovetunet-voss/"
+  },
+  {
     "id": "hanen_2476",
     "name": "Sognasmak AS",
     "country": "Norway",
@@ -15052,773 +15676,6 @@
     "source": "https://www.hanen.no/bedrift/stordal-gaard-as/"
   },
   {
-    "id": "hanen_1398",
-    "name": "Kirsten Slagstads gårdsdrift",
-    "country": "Norway",
-    "region": "Troms",
-    "municipality": "SANDSØY",
-    "products": [],
-    "website": "https://www.nordsandgard.no/",
-    "lat": 68.953125,
-    "lon": 16.65624,
-    "address": "Hammarveien 12",
-    "source": "https://www.hanen.no/bedrift/kirsten-slagstads-gaardsdrift/"
-  },
-  {
-    "id": "hanen_1043",
-    "name": "Tingvoll Sider AS",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Tingvoll",
-    "products": [],
-    "website": "https://tingvollsider.no",
-    "lat": 62.953684,
-    "lon": 8.315879,
-    "address": "Holmeidstranda 380",
-    "source": "https://www.hanen.no/bedrift/tingvoll-sider-as/"
-  },
-  {
-    "id": "hanen_2614",
-    "name": "Tingvoll Ull",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "TINGVOLL",
-    "products": [],
-    "website": "https://www.tingvoll-ull.no/",
-    "lat": 62.92534,
-    "lon": 8.27403,
-    "address": "Vågbøveien 399",
-    "source": "https://www.hanen.no/bedrift/tingvoll-ull/"
-  },
-  {
-    "id": "hanen_2558",
-    "name": "Toddum Gårdsysteri AS",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Namsos",
-    "products": [],
-    "website": "https://www.toddum.com",
-    "lat": 64.485267,
-    "lon": 11.478043,
-    "address": "Gullvikvegen 193",
-    "source": "https://www.hanen.no/bedrift/toddum-gaardsysteri-as/"
-  },
-  {
-    "id": "hanen_3033",
-    "name": "Torghandleriet",
-    "country": "Norway",
-    "region": "Telemark",
-    "municipality": "Kragerø",
-    "products": [],
-    "website": "https://www.barland.no",
-    "lat": 58.8691,
-    "lon": 9.41166,
-    "address": "Kirkegata 5",
-    "source": "https://www.hanen.no/bedrift/torghandleriet/"
-  },
-  {
-    "id": "hanen_2896",
-    "name": "Tveita Gardsmat",
-    "country": "Norway",
-    "region": "Vestland",
-    "municipality": "Eivindvik",
-    "products": [],
-    "website": "https://Tveitagardsmat.no",
-    "lat": 61.00973,
-    "lon": 5.20064,
-    "address": "Tveitevegen30",
-    "source": "https://www.hanen.no/bedrift/tveita-gardsmat/"
-  },
-  {
-    "id": "hanen_482",
-    "name": "Utistu på Gikling",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Grøa",
-    "products": [],
-    "website": "https://www.gikling.no",
-    "lat": 62.636709,
-    "lon": 8.832073,
-    "address": "Hoåsvegen 892, Utistu på Gikling",
-    "source": "https://www.hanen.no/bedrift/utistu-paa-gikling/"
-  },
-  {
-    "id": "hanen_2819",
-    "name": "Valdres Vilt",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Ulnes",
-    "products": [],
-    "website": "https://www.valdresvilt.no",
-    "lat": 61.00556,
-    "lon": 9.1056,
-    "address": "Tyinvegen 960",
-    "source": "https://www.hanen.no/bedrift/valdres-vilt/"
-  },
-  {
-    "id": "hanen_2830",
-    "name": "Vedervang økologiske poteter og grønnsaker",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "LENA",
-    "products": [],
-    "website": "https://www.facebook.com/profile.php?id=100057060985445",
-    "lat": 60.6488,
-    "lon": 10.82706,
-    "address": "Lensbygdavegen 210",
-    "source": "https://www.hanen.no/bedrift/vedervang-okologiske-poteter-og-gronnsaker/"
-  },
-  {
-    "id": "hanen_2479",
-    "name": "Vintlands bringebær",
-    "country": "Norway",
-    "region": "Agder",
-    "municipality": "Lyngdal",
-    "products": [],
-    "website": "https://Vintland.no",
-    "lat": 58.158408,
-    "lon": 7.1064,
-    "address": "Romsveien 20",
-    "source": "https://www.hanen.no/bedrift/vintlands-bringebaer/"
-  },
-  {
-    "id": "hanen_2851",
-    "name": "Ystgård gartneri og blomster as",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Inderøy",
-    "products": [],
-    "website": "https://Gartneri.no",
-    "lat": 63.877646,
-    "lon": 11.296038,
-    "address": "Gartnerivegen 20",
-    "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
-  },
-  {
-    "id": "hanen_97",
-    "name": "Eiker Gårdsysteri",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "Hokksund",
-    "products": [],
-    "website": "https://www.eikergardsysteri.no",
-    "lat": 59.788426,
-    "lon": 9.83126,
-    "address": "Bermingrudveien 221",
-    "source": "https://www.hanen.no/bedrift/eiker-gaardsysteri/"
-  },
-  {
-    "id": "hanen_151",
-    "name": "Gangstad Gårdsysteri",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Inderøy",
-    "products": [],
-    "website": "https://www.ysteri.no",
-    "lat": 63.959866,
-    "lon": 11.33784,
-    "address": "Nessetvegen 11",
-    "source": "https://www.hanen.no/bedrift/gangstad-gaardsysteri/"
-  },
-  {
-    "id": "hanen_235",
-    "name": "Klostergården Tautra",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Frosta",
-    "products": [],
-    "website": "https://www.klostergardentautra.no",
-    "lat": 63.583897,
-    "lon": 10.623612,
-    "address": "Tautra Nordre, Klostergårdsvegen 90",
-    "source": "https://www.hanen.no/bedrift/klostergaarden-tautra/"
-  },
-  {
-    "id": "hanen_1432",
-    "name": "Kollerud gård",
-    "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Hemnes",
-    "products": [],
-    "website": "https://www.kollerudgard.no",
-    "lat": 59.714136,
-    "lon": 11.44173,
-    "address": "Kollerudveien 84",
-    "source": "https://www.hanen.no/bedrift/kollerud-gaard/"
-  },
-  {
-    "id": "hanen_848",
-    "name": "Haugen Gård",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Kvål",
-    "products": [],
-    "website": "http://www.haugengard.com",
-    "lat": 63.208842,
-    "lon": 10.253702,
-    "address": "Bennaveien 300",
-    "source": "https://www.hanen.no/bedrift/haugen-gaard/"
-  },
-  {
-    "id": "hanen_855",
-    "name": "Røyland Gård AS",
-    "country": "Norway",
-    "region": "Agder",
-    "municipality": "ENGESLAND",
-    "products": [],
-    "website": "https://roylandgard.no",
-    "lat": 58.532012,
-    "lon": 8.049259,
-    "address": "Vestbygdveien 486",
-    "source": "https://www.hanen.no/bedrift/royland-gaard-as/"
-  },
-  {
-    "id": "hanen_442",
-    "name": "Skott Gård Nordre",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "Skotselv",
-    "products": [],
-    "website": "https://www.skottgard.no",
-    "lat": 59.826586,
-    "lon": 9.881927,
-    "address": "Skottveien 73",
-    "source": "https://www.hanen.no/bedrift/skott-gaard-nordre/"
-  },
-  {
-    "id": "hanen_634",
-    "name": "Stolt Mat",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Sjøholt",
-    "products": [],
-    "website": "https://www.stoltmat.com",
-    "lat": 62.483372,
-    "lon": 6.814362,
-    "address": "Stolt Mat AS\r\n\r\nSjøholtvegen 11",
-    "source": "https://www.hanen.no/bedrift/stolt-mat/"
-  },
-  {
-    "id": "hanen_123",
-    "name": "Aalan Gård",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "Bøstad",
-    "products": [],
-    "website": "https://www.aalan.no",
-    "lat": 68.24534,
-    "lon": 13.89789,
-    "address": "Lauvdalen",
-    "source": "https://www.hanen.no/bedrift/aalan-gaard/"
-  },
-  {
-    "id": "hanen_333",
-    "name": "Bamsrudlåven",
-    "country": "Norway",
-    "region": "Østfold",
-    "municipality": "Mysen",
-    "products": [],
-    "website": "https://www.bamsrudlaven.no",
-    "lat": 59.547436,
-    "lon": 11.366858,
-    "address": "Bamsrudveien 57",
-    "source": "https://www.hanen.no/bedrift/bamsrudlaaven/"
-  },
-  {
-    "id": "hanen_2957",
-    "name": "Moe gård",
-    "country": "Norway",
-    "region": "Oppland",
-    "municipality": "Øyer",
-    "products": [],
-    "website": "https://www.matfraoyer.no/moe",
-    "lat": 61.24491,
-    "lon": 10.459442,
-    "address": "Sørbygdsvegen 476",
-    "source": "https://www.hanen.no/bedrift/moe-gaard/"
-  },
-  {
-    "id": "hanen_169",
-    "name": "Derinngarden",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Eide",
-    "products": [],
-    "website": "https://www.derinngarden.no",
-    "lat": 62.88794,
-    "lon": 7.40966,
-    "address": "Øvre Halåsveg 18",
-    "source": "https://www.hanen.no/bedrift/derinngarden/"
-  },
-  {
-    "id": "hanen_41",
-    "name": "Eggen Gardsysteri SA",
-    "country": "Norway",
-    "region": "Hedmark",
-    "municipality": "Vingelen",
-    "products": [],
-    "website": "https://www.eggenost.no/",
-    "lat": 62.402924,
-    "lon": 10.855011,
-    "address": "Eggen",
-    "source": "https://www.hanen.no/bedrift/eggen-gardsysteri-sa/"
-  },
-  {
-    "id": "hanen_12",
-    "name": "Eplegården Storsand",
-    "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Sætre",
-    "products": [],
-    "website": "https://www.eple.no",
-    "lat": 59.649894,
-    "lon": 10.596606,
-    "address": "Børsandveien 1",
-    "source": "https://www.hanen.no/bedrift/eplegaarden-storsand/"
-  },
-  {
-    "id": "hanen_975",
-    "name": "FJELLEVENTYRET AS",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Skjåk",
-    "products": [],
-    "website": "https://www.fjelleventyret.no",
-    "lat": 61.872789,
-    "lon": 8.313804,
-    "address": "Vassgangen 24",
-    "source": "https://www.hanen.no/bedrift/fjelleventyret-as/"
-  },
-  {
-    "id": "hanen_3041",
-    "name": "Fladmark  Gård",
-    "country": "Norway",
-    "region": "Østfold",
-    "municipality": "Askim",
-    "products": [],
-    "website": "https://fladmarkgard.no/",
-    "lat": 59.557634,
-    "lon": 11.138232,
-    "address": "Skjoldenveien 329",
-    "source": "https://www.hanen.no/bedrift/fladmark-gaard/"
-  },
-  {
-    "id": "hanen_351",
-    "name": "Galåvolden Gård",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Røros",
-    "products": [],
-    "website": "https://www.galaavolden.no",
-    "lat": 62.561781,
-    "lon": 11.270401,
-    "address": "Galåvollveien 108",
-    "source": "https://www.hanen.no/bedrift/galaavolden-gaard/"
-  },
-  {
-    "id": "hanen_363",
-    "name": "Sogn Jord- og Hagebruksskule",
-    "country": "Norway",
-    "region": "Vestland",
-    "municipality": "Aurland",
-    "products": [],
-    "website": "https://www.sjh.vgs.no",
-    "lat": 60.903135,
-    "lon": 7.200768,
-    "address": "Skulevegen 24",
-    "source": "https://www.hanen.no/bedrift/sogn-jord-og-hagebruksskule/"
-  },
-  {
-    "id": "hanen_19",
-    "name": "Grøndalen gårdsmeieri",
-    "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Auli",
-    "products": [],
-    "website": "https://www.nyr.no",
-    "lat": 60.045524,
-    "lon": 11.366591,
-    "address": "Grøndalsveien 17",
-    "source": "https://www.hanen.no/bedrift/grondalen-gaardsmeieri/"
-  },
-  {
-    "id": "hanen_487",
-    "name": "Grønset Gard",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Vinjeøra",
-    "products": [],
-    "website": "https://www.gronset.net/",
-    "lat": 63.194717,
-    "lon": 8.883316,
-    "address": "Vinjefjordsveien 766a",
-    "source": "https://www.hanen.no/bedrift/gronset-gard/"
-  },
-  {
-    "id": "hanen_439",
-    "name": "Grønvik Gard",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "Fister",
-    "products": [],
-    "website": "https://www.gronvikgard.no",
-    "lat": 59.142267,
-    "lon": 6.037159,
-    "address": "Grønvikvegen 89",
-    "source": "https://www.hanen.no/bedrift/gronvik-gard/"
-  },
-  {
-    "id": "hanen_319",
-    "name": "Håvardsrud Seterliv",
-    "country": "Norway",
-    "region": "Telemark",
-    "municipality": "Tinn Austbygd",
-    "products": [],
-    "website": "https://www.seterliv.no",
-    "lat": 60.04729,
-    "lon": 8.83044,
-    "address": "Skirvedalsvegen 86",
-    "source": "https://www.hanen.no/bedrift/haavardsrud-seterliv/"
-  },
-  {
-    "id": "hanen_258",
-    "name": "Heidal Hjemmebakeri",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Heidal",
-    "products": [],
-    "website": null,
-    "lat": 61.732398,
-    "lon": 9.166534,
-    "address": "heidalsvegen 2443",
-    "source": "https://www.hanen.no/bedrift/heidal-hjemmebakeri/"
-  },
-  {
-    "id": "hanen_88",
-    "name": "Hemlaga på Næs",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Brandbu",
-    "products": [],
-    "website": "https://www.facebook.com/ektehemlaga",
-    "lat": 60.434233,
-    "lon": 10.462804,
-    "address": "Næsgutua 3",
-    "source": "https://www.hanen.no/bedrift/hemlaga-paa-naes/"
-  },
-  {
-    "id": "hanen_620",
-    "name": "Hemsedal Flatbrødbakeri A/S",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "Hemsedal",
-    "products": [],
-    "website": "https://www.hemsedalflatbrodbakeri.no",
-    "lat": 60.878934,
-    "lon": 8.483056,
-    "address": "Hemsedalsvegen 3445",
-    "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
-  },
-  {
-    "id": "hanen_1308",
-    "name": "Herfra gårdsmat og matkultursenter",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "Sokna",
-    "products": [],
-    "website": "https://www.facebook.com/groups/721960321302564/",
-    "lat": 60.26335,
-    "lon": 9.94324,
-    "address": "Strømsoddveien 167",
-    "source": "https://www.hanen.no/bedrift/herfra-gaardsmat-og-matkultursenter/"
-  },
-  {
-    "id": "hanen_1156",
-    "name": "Hesla Farm",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "GOL",
-    "products": [],
-    "website": "https://www.heslafarm.com",
-    "lat": 60.701968,
-    "lon": 8.92717,
-    "address": "Hemsedalsvegen 23",
-    "source": "https://www.hanen.no/bedrift/hesla-farm/"
-  },
-  {
-    "id": "hanen_2893",
-    "name": "HonningMoen",
-    "country": "Norway",
-    "region": "Agder",
-    "municipality": "Vegårshei",
-    "products": [],
-    "website": "https://www.facebook.com/HonningMoen/",
-    "lat": 58.67789,
-    "lon": 8.825274,
-    "address": "Telemarksveien 185",
-    "source": "https://www.hanen.no/bedrift/honningmoen/"
-  },
-  {
-    "id": "hanen_783",
-    "name": "Humstad Gård",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Åfjord",
-    "products": [],
-    "website": "https://www.facebook.com/humstadgard/",
-    "lat": 63.974467,
-    "lon": 10.160843,
-    "address": "Humstadveien 265",
-    "source": "https://www.hanen.no/bedrift/humstad-gaard/"
-  },
-  {
-    "id": "hanen_587",
-    "name": "HUSEBY GÅRD Karine Huseby",
-    "country": "Norway",
-    "region": "Vestfold",
-    "municipality": "Tjodalyng",
-    "products": [],
-    "website": "https://www.hanen.no/bedrift/587",
-    "lat": 59.048495,
-    "lon": 10.113704,
-    "address": "Husebyveien 70",
-    "source": "https://www.hanen.no/bedrift/huseby-gaard-karine-huseby/"
-  },
-  {
-    "id": "hanen_2736",
-    "name": "Inderdalen gård",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "Korgen",
-    "products": [],
-    "website": "https://www.facebook.com/groups/1523522304530561/",
-    "lat": 66.007644,
-    "lon": 13.931686,
-    "address": "Bryggfjelldalsveien 122",
-    "source": "https://www.hanen.no/bedrift/inderdalen-gaard/"
-  },
-  {
-    "id": "hanen_1439",
-    "name": "Jelsa Hotell AS",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "Jelsa",
-    "products": [],
-    "website": "https://www.jelsahotell.no",
-    "lat": 59.339823,
-    "lon": 6.027879,
-    "address": "Jelsavegen 73",
-    "source": "https://www.hanen.no/bedrift/jelsa-hotell-as/"
-  },
-  {
-    "id": "hanen_2828",
-    "name": "Jørem ved Namsen v/Sven Åge Domås",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Grong",
-    "products": [],
-    "website": "https://jorem.no",
-    "lat": 64.456576,
-    "lon": 12.187689,
-    "address": "Jøresvegen 29",
-    "source": "https://www.hanen.no/bedrift/jorem-ved-namsen-vsven-aage-domaas/"
-  },
-  {
-    "id": "hanen_721",
-    "name": "Klostergarden",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "Mosterøy",
-    "products": [],
-    "website": "https://klostergarden.no",
-    "lat": 59.102795,
-    "lon": 5.588272,
-    "address": "Utstein Gard, Mosterøyveien 802",
-    "source": "https://www.hanen.no/bedrift/klostergarden/"
-  },
-  {
-    "id": "hanen_3031",
-    "name": "Kronen Landhandleri",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "Vikersund",
-    "products": [],
-    "website": "https://www.kronens.no",
-    "lat": 59.985857,
-    "lon": 9.978937,
-    "address": "Jonsrudveien 17",
-    "source": "https://www.hanen.no/bedrift/kronen-landhandleri/"
-  },
-  {
-    "id": "hanen_1116",
-    "name": "Leksås gårdsmat AS",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Grong",
-    "products": [],
-    "website": "https://www.facebook.com/leksaasgaardsmat/",
-    "lat": 64.467,
-    "lon": 12.29928,
-    "address": "Grongvegen 10",
-    "source": "https://www.hanen.no/bedrift/leksaas-gaardsmat-as/"
-  },
-  {
-    "id": "hanen_856",
-    "name": "Lien Gård",
-    "country": "Norway",
-    "region": "Telemark",
-    "municipality": "Akkerhaugen",
-    "products": [],
-    "website": "https://www.liengard-telemark.no",
-    "lat": 59.371343,
-    "lon": 9.262744,
-    "address": "Liagrendveien 262",
-    "source": "https://www.hanen.no/bedrift/lien-gaard/"
-  },
-  {
-    "id": "hanen_327",
-    "name": "Lista Lam og Gårdsmat",
-    "country": "Norway",
-    "region": "Agder",
-    "municipality": "Vanse",
-    "products": [],
-    "website": "https://www.listalam.no",
-    "lat": 58.12003,
-    "lon": 6.602943,
-    "address": "Stave",
-    "source": "https://www.hanen.no/bedrift/lista-lam-og-gaardsmat/"
-  },
-  {
-    "id": "hanen_110",
-    "name": "Lofoten Gårdsysteri",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "Bøstad",
-    "products": [],
-    "website": "https://www.lofoten-gardsysteri.no",
-    "lat": 68.253994,
-    "lon": 13.646748,
-    "address": "Saupstadveien 235",
-    "source": "https://www.hanen.no/bedrift/lofoten-gaardsysteri/"
-  },
-  {
-    "id": "hanen_809",
-    "name": "Lofoten Wool & Art as",
-    "country": "Norway",
-    "region": "Nordland",
-    "municipality": "STAMSUND",
-    "products": [],
-    "website": "https://www.lofoten-wool.no",
-    "lat": 68.149013,
-    "lon": 13.763517,
-    "address": "Steineveien 294",
-    "source": "https://www.hanen.no/bedrift/lofoten-wool-and-art-as/"
-  },
-  {
-    "id": "hanen_236",
-    "name": "Nesheimstunet AS",
-    "country": "Norway",
-    "region": "Rogaland",
-    "municipality": "Nedre Vats",
-    "products": [],
-    "website": "https://www.nesheimstunet.no",
-    "lat": 59.507686,
-    "lon": 5.712307,
-    "address": "Saudavegen 7194",
-    "source": "https://www.hanen.no/bedrift/nesheimstunet-as/"
-  },
-  {
-    "id": "hanen_225",
-    "name": "Noraker Rakfisk AS",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Aurdal",
-    "products": [],
-    "website": "https://www.noraker.no",
-    "lat": 60.945342,
-    "lon": 9.353926,
-    "address": null,
-    "source": "https://www.hanen.no/bedrift/noraker-rakfisk-as/"
-  },
-  {
-    "id": "hanen_770",
-    "name": "Oddan alpakka",
-    "country": "Norway",
-    "region": "Trøndelag",
-    "municipality": "Kyrksæterøra",
-    "products": [],
-    "website": "https://oddanalpakka.no/",
-    "lat": 63.368866,
-    "lon": 9.1459,
-    "address": "Oddan, Lernestranda 912",
-    "source": "https://www.hanen.no/bedrift/oddan-alpakka/"
-  },
-  {
-    "id": "hanen_2481",
-    "name": "Øvre Ellingsrud gård",
-    "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Jevnaker",
-    "products": [],
-    "website": "https://ovreellingsrud.no",
-    "lat": 60.281453,
-    "lon": 10.488371,
-    "address": "Klinkenbergveien 350",
-    "source": "https://www.hanen.no/bedrift/ovre-ellingsrud-gaard/"
-  },
-  {
-    "id": "hanen_1157",
-    "name": "Øvrejorde",
-    "country": "Norway",
-    "region": "Buskerud",
-    "municipality": "HOVET",
-    "products": [],
-    "website": "https://Ovrejorde.no",
-    "lat": 60.62588,
-    "lon": 8.20422,
-    "address": "Villandsvegen 38",
-    "source": "https://www.hanen.no/bedrift/ovrejorde/"
-  },
-  {
-    "id": "hanen_238",
-    "name": "Piltingsrud Gard AS",
-    "country": "Norway",
-    "region": "Innlandet",
-    "municipality": "Begna",
-    "products": [],
-    "website": "https://www.piltingsrudgard.no",
-    "lat": 60.655677,
-    "lon": 9.771285,
-    "address": "Austsidevegen 1521",
-    "source": "https://www.hanen.no/bedrift/piltingsrud-gard-as/"
-  },
-  {
-    "id": "hanen_73",
-    "name": "Ramme",
-    "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Hvitsten",
-    "products": [],
-    "website": "https://www.ramme.no",
-    "lat": 59.60803,
-    "lon": 10.65311,
-    "address": "Rammeveien 90",
-    "source": "https://www.hanen.no/bedrift/ramme/"
-  },
-  {
-    "id": "hanen_145",
-    "name": "Ivar Løne AS - Smalahovetunet Voss",
-    "country": "Norway",
-    "region": "Vestland",
-    "municipality": "Skulestadmo",
-    "products": [],
-    "website": "https://www.smalahovetunet.no",
-    "lat": 60.692962,
-    "lon": 6.472726,
-    "address": "Strandavegen 785",
-    "source": "https://www.hanen.no/bedrift/ivar-lone-as-smalahovetunet-voss/"
-  },
-  {
     "id": "hanen_2696",
     "name": "Storeggen gård",
     "country": "Norway",
@@ -15858,6 +15715,19 @@
     "source": "https://www.hanen.no/bedrift/tenneltunet-lene-lysklett/"
   },
   {
+    "id": "hanen_1398",
+    "name": "Kirsten Slagstads gårdsdrift",
+    "country": "Norway",
+    "region": "Troms",
+    "municipality": "SANDSØY",
+    "products": [],
+    "website": "https://www.nordsandgard.no/",
+    "lat": 68.953125,
+    "lon": 16.65624,
+    "address": "Hammarveien 12",
+    "source": "https://www.hanen.no/bedrift/kirsten-slagstads-gaardsdrift/"
+  },
+  {
     "id": "hanen_166",
     "name": "Tingvollost AS",
     "country": "Norway",
@@ -15871,6 +15741,32 @@
     "source": "https://www.hanen.no/bedrift/tingvollost-as/"
   },
   {
+    "id": "hanen_1043",
+    "name": "Tingvoll Sider AS",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Tingvoll",
+    "products": [],
+    "website": "https://tingvollsider.no",
+    "lat": 62.953684,
+    "lon": 8.315879,
+    "address": "Holmeidstranda 380",
+    "source": "https://www.hanen.no/bedrift/tingvoll-sider-as/"
+  },
+  {
+    "id": "hanen_2614",
+    "name": "Tingvoll Ull",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "TINGVOLL",
+    "products": [],
+    "website": "https://www.tingvoll-ull.no/",
+    "lat": 62.92534,
+    "lon": 8.27403,
+    "address": "Vågbøveien 399",
+    "source": "https://www.hanen.no/bedrift/tingvoll-ull/"
+  },
+  {
     "id": "hanen_921",
     "name": "Tjønnås økogard",
     "country": "Norway",
@@ -15882,6 +15778,32 @@
     "lon": 8.970832,
     "address": "Tjønnåsvegen 284",
     "source": "https://www.hanen.no/bedrift/tjonnaas-okogard/"
+  },
+  {
+    "id": "hanen_2558",
+    "name": "Toddum Gårdsysteri AS",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Namsos",
+    "products": [],
+    "website": "https://www.toddum.com",
+    "lat": 64.485267,
+    "lon": 11.478043,
+    "address": "Gullvikvegen 193",
+    "source": "https://www.hanen.no/bedrift/toddum-gaardsysteri-as/"
+  },
+  {
+    "id": "hanen_3033",
+    "name": "Torghandleriet",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Kragerø",
+    "products": [],
+    "website": "https://www.barland.no",
+    "lat": 58.8691,
+    "lon": 9.41166,
+    "address": "Kirkegata 5",
+    "source": "https://www.hanen.no/bedrift/torghandleriet/"
   },
   {
     "id": "hanen_2901",
@@ -15910,6 +15832,32 @@
     "source": "https://www.hanen.no/bedrift/toves-tradisjonsmat-as/"
   },
   {
+    "id": "hanen_2896",
+    "name": "Tveita Gardsmat",
+    "country": "Norway",
+    "region": "Vestland",
+    "municipality": "Eivindvik",
+    "products": [],
+    "website": "https://Tveitagardsmat.no",
+    "lat": 61.00973,
+    "lon": 5.20064,
+    "address": "Tveitevegen30",
+    "source": "https://www.hanen.no/bedrift/tveita-gardsmat/"
+  },
+  {
+    "id": "hanen_482",
+    "name": "Utistu på Gikling",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Grøa",
+    "products": [],
+    "website": "https://www.gikling.no",
+    "lat": 62.636709,
+    "lon": 8.832073,
+    "address": "Hoåsvegen 892, Utistu på Gikling",
+    "source": "https://www.hanen.no/bedrift/utistu-paa-gikling/"
+  },
+  {
     "id": "hanen_239",
     "name": "Valbjør Gard",
     "country": "Norway",
@@ -15923,6 +15871,19 @@
     "source": "https://www.hanen.no/bedrift/valbjor-gard/"
   },
   {
+    "id": "hanen_2819",
+    "name": "Valdres Vilt",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Ulnes",
+    "products": [],
+    "website": "https://www.valdresvilt.no",
+    "lat": 61.00556,
+    "lon": 9.1056,
+    "address": "Tyinvegen 960",
+    "source": "https://www.hanen.no/bedrift/valdres-vilt/"
+  },
+  {
     "id": "hanen_2741",
     "name": "Vang Gård DA",
     "country": "Norway",
@@ -15934,6 +15895,45 @@
     "lon": 19.582259,
     "address": "Grunnfjordveien 921",
     "source": "https://www.hanen.no/bedrift/vang-gaard-da/"
+  },
+  {
+    "id": "hanen_2830",
+    "name": "Vedervang økologiske poteter og grønnsaker",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "LENA",
+    "products": [],
+    "website": "https://www.facebook.com/profile.php?id=100057060985445",
+    "lat": 60.6488,
+    "lon": 10.82706,
+    "address": "Lensbygdavegen 210",
+    "source": "https://www.hanen.no/bedrift/vedervang-okologiske-poteter-og-gronnsaker/"
+  },
+  {
+    "id": "hanen_2479",
+    "name": "Vintlands bringebær",
+    "country": "Norway",
+    "region": "Agder",
+    "municipality": "Lyngdal",
+    "products": [],
+    "website": "https://Vintland.no",
+    "lat": 58.158408,
+    "lon": 7.1064,
+    "address": "Romsveien 20",
+    "source": "https://www.hanen.no/bedrift/vintlands-bringebaer/"
+  },
+  {
+    "id": "hanen_2851",
+    "name": "Ystgård gartneri og blomster as",
+    "country": "Norway",
+    "region": "Trøndelag",
+    "municipality": "Inderøy",
+    "products": [],
+    "website": "https://Gartneri.no",
+    "lat": 63.877646,
+    "lon": 11.296038,
+    "address": "Gartnerivegen 20",
+    "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
   },
   {
     "id": "lokalmat_11670",
@@ -25196,10 +25196,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.svartbackens.com/",
     "lat": 59.8243714,
     "lon": 17.1905136,
-    "address": null
+    "address": "Nysätra Svartbäcken"
   },
   {
     "id": 7772874673,
@@ -25532,7 +25532,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://tomatenshus.com",
+    "website": "https://tomatenshus.com/",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -26288,7 +26288,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/the-project",
+    "website": "https://www.alnarpsfarm.se/",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"
@@ -26340,6 +26340,18 @@
     "lat": 60.0617884,
     "lon": 18.7369673,
     "address": "Norrby byaväg"
+  },
+  {
+    "id": 13866436939,
+    "name": "Axelssons i Aby",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.axelssonsiaby.se/",
+    "lat": 57.3496625,
+    "lon": 15.8371386,
+    "address": null
   },
   {
     "id": 41684535,
@@ -27119,18 +27131,6 @@
     "website": null,
     "lat": 56.681426,
     "lon": 15.7070999,
-    "address": null
-  },
-  {
-    "id": 13866436939,
-    "name": "Axelssons i Aby",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.axelssonsiaby.se/",
-    "lat": 57.3496625,
-    "lon": 15.8371386,
     "address": null
   },
   {
@@ -34275,7 +34275,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://tolykkegaard.dk/",
+    "website": "https://tolykkegaard.dk/",
     "lat": 56.0319866,
     "lon": 12.2332647,
     "address": null
@@ -34542,18 +34542,6 @@
     "website": "https://www.stampenborg.dk/",
     "lat": 55.152607,
     "lon": 9.4010364,
-    "address": null
-  },
-  {
-    "id": 4462469305,
-    "name": "Heddahgaarden",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://heddahgaarden.dk/",
-    "lat": 55.7391766,
-    "lon": 9.6133071,
     "address": null
   },
   {
@@ -36183,7 +36171,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.skovlygrisen.dk/",
+    "website": "https://www.skovlygrisen.dk/",
     "lat": 55.557248,
     "lon": 9.365305,
     "address": null
@@ -39423,7 +39411,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.tolstrupaebler.dk/",
+    "website": null,
     "lat": 55.920133,
     "lon": 9.879711,
     "address": null
@@ -44034,6 +44022,18 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 4462469305,
+    "name": "Heddahgaarden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://heddahgaarden.dk/",
+    "lat": 55.7391766,
+    "lon": 9.6133071,
     "address": null
   },
   {
@@ -705440,7 +705440,7 @@
     "name": "Pearce's Farm Shop & Cafe",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Buntingford",
     "products": [],
     "website": "https://pearcesfarmshop.com/",
     "lat": 51.9003723,
@@ -706460,7 +706460,7 @@
     "name": "Bradmoor Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Haddenham",
+    "municipality": "Aylesbury",
     "products": [],
     "website": null,
     "lat": 51.7775417,
@@ -706690,7 +706690,7 @@
     "region": null,
     "municipality": "Leeds",
     "products": [],
-    "website": "http://www.horsforthpickyourown.co.uk/",
+    "website": "https://www.horsforthpickyourown.co.uk/",
     "lat": 53.8338599,
     "lon": -1.6572352,
     "address": "Calverley Lane"
@@ -706928,7 +706928,7 @@
     "name": "Munns Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Berkhamsted",
     "products": [],
     "website": null,
     "lat": 51.8357369,
@@ -707398,7 +707398,7 @@
     "region": null,
     "municipality": "Bruton",
     "products": [],
-    "website": "http://www.gilcombefarm.co.uk/",
+    "website": "https://www.gilcombefarm.co.uk/",
     "lat": 51.1264113,
     "lon": -2.4362558,
     "address": "Cuckoo Hill"
@@ -707591,8 +707591,8 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118118,
-    "lon": -0.1335462,
+    "lat": 51.5118071,
+    "lon": -0.1335966,
     "address": "Archer Street"
   },
   {
@@ -707693,7 +707693,7 @@
   },
   {
     "id": 5866061835,
-    "name": "Peterley Manor Farm",
+    "name": "The Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -707936,7 +707936,7 @@
     "name": "Hill View Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Saunderton Lee",
+    "municipality": "Princes Risborough",
     "products": [],
     "website": "https://www.hillviewmoments.com/",
     "lat": 51.6925501,
@@ -708308,7 +708308,7 @@
     "name": "Hillfoot Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Langford",
+    "municipality": "Biggleswade",
     "products": [],
     "website": null,
     "lat": 52.0472006,
@@ -708332,7 +708332,7 @@
     "name": "Franklins of Thorncote Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Hatch",
+    "municipality": "Sandy",
     "products": [],
     "website": null,
     "lat": 52.1166949,
@@ -708344,7 +708344,7 @@
     "name": "Knotts of Tempsford",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Tempsford",
+    "municipality": "Sandy",
     "products": [],
     "website": "https://www.knottsoftempsford.co.uk/farm-shop",
     "lat": 52.1711501,
@@ -708514,7 +708514,7 @@
     "region": null,
     "municipality": "Cote",
     "products": [],
-    "website": "http://ransons-nurseries.co.uk/",
+    "website": "https://ransons-nurseries.co.uk/",
     "lat": 51.7240761,
     "lon": -1.4948333,
     "address": null
@@ -710722,7 +710722,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "trentsfoods.com",
+    "website": "https://trentsfoods.com/",
     "lat": 51.5406089,
     "lon": -2.4873818,
     "address": null
@@ -711472,6 +711472,18 @@
     "address": null
   },
   {
+    "id": 13615171555,
+    "name": "Upper Dysart Larder",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Montrose",
+    "products": [],
+    "website": null,
+    "lat": 56.6708665,
+    "lon": -2.5133908,
+    "address": "Upper Dysart"
+  },
+  {
     "id": 13621440840,
     "name": "Leedham Farm shop",
     "country": "United Kingdom",
@@ -711553,6 +711565,18 @@
     "website": null,
     "lat": 52.5331781,
     "lon": -1.1517838,
+    "address": null
+  },
+  {
+    "id": 13856263617,
+    "name": "Saturday Farm Market",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
+    "lat": 51.7358037,
+    "lon": -1.2307511,
     "address": null
   },
   {
@@ -711802,7 +711826,7 @@
     "region": null,
     "municipality": "Wokingham",
     "products": [],
-    "website": "http://www.graysfarm.co.uk/",
+    "website": "https://www.graysfarm.co.uk/",
     "lat": 51.3959203,
     "lon": -0.8200209,
     "address": "Heathlands Road"
@@ -711902,6 +711926,18 @@
     "lat": 51.4257683,
     "lon": 0.4914142,
     "address": "Town road"
+  },
+  {
+    "id": 88519248,
+    "name": "Myatts of Mockbeggar Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Rochester",
+    "products": [],
+    "website": null,
+    "lat": 51.4214311,
+    "lon": 0.4903169,
+    "address": null
   },
   {
     "id": 88813278,
@@ -712162,7 +712198,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "http://www.manorfarm-shop.co.uk/",
+    "website": "https://www.manorfarm-shop.co.uk/",
     "lat": 51.42818,
     "lon": -2.442286,
     "address": "Wick Lane"
@@ -712405,6 +712441,18 @@
     "website": "http://churchstile.co.uk/",
     "lat": 54.4259937,
     "lon": -3.34983,
+    "address": null
+  },
+  {
+    "id": 165613955,
+    "name": "Lincoln Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.5726961,
+    "lon": -0.0062858,
     "address": null
   },
   {
@@ -712714,7 +712762,7 @@
     "region": null,
     "municipality": "Belper",
     "products": [],
-    "website": "https://www.croots.co.uk/",
+    "website": "https://croots.co.uk/",
     "lat": 52.9845695,
     "lon": -1.5114125,
     "address": "Wirksworth Road"
@@ -713470,7 +713518,7 @@
     "region": null,
     "municipality": "Bishop Auckland",
     "products": [],
-    "website": null,
+    "website": "https://www.bradleyburn.co.uk/",
     "lat": 54.721956,
     "lon": -1.8382827,
     "address": null
@@ -713482,7 +713530,7 @@
     "region": null,
     "municipality": "Saxmundham",
     "products": [],
-    "website": "http://www.emmerdalefarmshop.co.uk/",
+    "website": "https://www.emmerdalefarmshop.co.uk/",
     "lat": 52.268357,
     "lon": 1.5331065,
     "address": "Westleton Road"
@@ -713567,8 +713615,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
@@ -713914,7 +713962,7 @@
     "region": null,
     "municipality": "Clapham",
     "products": [],
-    "website": "http://www.growingwithgrace.org.uk/",
+    "website": "https://www.growingwithgrace.org.uk/",
     "lat": 54.1149647,
     "lon": -2.3967964,
     "address": null
@@ -713998,7 +714046,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "newmanorfarmshop.co.uk",
+    "website": "https://www.newmanorfarmshop.co.uk/",
     "lat": 51.3233101,
     "lon": -2.6133171,
     "address": "Bath Road"
@@ -714812,7 +714860,7 @@
     "name": "Pound Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Swindon",
     "products": [],
     "website": null,
     "lat": 51.5186469,
@@ -715340,7 +715388,7 @@
     "name": "Buckmoreland Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Aylesbury",
     "products": [],
     "website": null,
     "lat": 51.7361437,
@@ -715562,6 +715610,18 @@
     "lat": 53.9087685,
     "lon": -1.404554,
     "address": "Jewitt Lane"
+  },
+  {
+    "id": 640518313,
+    "name": "Willow Grange Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
+    "lat": 52.3188514,
+    "lon": 0.1968571,
+    "address": null
   },
   {
     "id": 645288057,
@@ -716076,7 +716136,7 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3576796,
+    "lon": -0.3575978,
     "address": "High Street Whitton"
   },
   {
@@ -716342,18 +716402,6 @@
     "lat": 50.9817807,
     "lon": -0.2777906,
     "address": null
-  },
-  {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tonbridge",
-    "products": [],
-    "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
   },
   {
     "id": 839396756,
@@ -717563,8 +717611,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.791747,
-    "lon": -0.1023128,
+    "lat": 51.7917439,
+    "lon": -0.1022779,
     "address": null
   },
   {
@@ -718153,6 +718201,18 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
+    "address": null
+  },
+  {
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
     "address": null
   },
   {
@@ -718880,12 +718940,12 @@
     "name": "Wyborn's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Barnstaple",
     "products": [],
     "website": null,
     "lat": 51.0803174,
     "lon": -4.0584426,
-    "address": null
+    "address": "Boutport Street"
   },
   {
     "id": 1144895756,
@@ -719144,7 +719204,7 @@
     "name": "Lacey's Family Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Lane End",
+    "municipality": "High Wycombe",
     "products": [],
     "website": "https://www.laceysfamilyfarm.co.uk/farm-shop",
     "lat": 51.6207789,
@@ -719444,7 +719504,7 @@
     "name": "T Rayner & Son (Castlemans Farm Shop)",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Wooburn Green",
+    "municipality": "High Wycombe",
     "products": [],
     "website": null,
     "lat": 51.5810484,
@@ -720892,6 +720952,42 @@
     "address": null
   },
   {
+    "id": 1502915597,
+    "name": "Bee Hives",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.9933997,
+    "lon": -1.0806409,
+    "address": null
+  },
+  {
+    "id": 1509987603,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2476721,
+    "lon": 0.2869368,
+    "address": null
+  },
+  {
+    "id": 1509987604,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2499212,
+    "lon": 0.2929966,
+    "address": null
+  },
+  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -721355,7 +721451,7 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.0259881,
+    "lat": 51.026543,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
   },
@@ -722197,18 +722293,6 @@
     "website": null,
     "lat": 50.8627891,
     "lon": -1.561172,
-    "address": null
-  },
-  {
-    "id": 13578056,
-    "name": "Leckford Estate",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
     "address": null
   },
   {
@@ -723467,13 +723551,13 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118071,
-    "lon": -0.1335966,
+    "lat": 51.5118118,
+    "lon": -0.1335462,
     "address": "Archer Street"
   },
   {
     "id": 5866061835,
-    "name": "The Farm Shop",
+    "name": "Peterley Manor Farm",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -723484,54 +723568,6 @@
     "address": "Peterley Lane"
   },
   {
-    "id": 13615171555,
-    "name": "Upper Dysart Larder",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Montrose",
-    "products": [],
-    "website": null,
-    "lat": 56.6708665,
-    "lon": -2.5133908,
-    "address": "Upper Dysart"
-  },
-  {
-    "id": 13856263617,
-    "name": "Saturday Farm Market",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
-    "lat": 51.7358037,
-    "lon": -1.2307511,
-    "address": null
-  },
-  {
-    "id": 88519248,
-    "name": "Myatts of Mockbeggar Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Rochester",
-    "products": [],
-    "website": null,
-    "lat": 51.4214311,
-    "lon": 0.4903169,
-    "address": null
-  },
-  {
-    "id": 165613955,
-    "name": "Lincoln Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.5726961,
-    "lon": -0.0062858,
-    "address": null
-  },
-  {
     "id": 318387860,
     "name": "Archers Cafe",
     "country": "United Kingdom",
@@ -723539,21 +723575,9 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
+    "lat": 54.106181,
+    "lon": -2.8090358,
     "address": "The Shore"
-  },
-  {
-    "id": 640518313,
-    "name": "Willow Grange Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
-    "lat": 52.3188514,
-    "lon": 0.1968571,
-    "address": null
   },
   {
     "id": 762732572,
@@ -723564,8 +723588,20 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3575978,
+    "lon": -0.3576796,
     "address": "High Street Whitton"
+  },
+  {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
   },
   {
     "id": 952066576,
@@ -723575,56 +723611,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.7917439,
-    "lon": -0.1022779,
-    "address": null
-  },
-  {
-    "id": 992200946,
-    "name": "Wylye Valley Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.instagram.com/wylye_valley_farmshop/",
-    "lat": 51.1871543,
-    "lon": -2.1909185,
-    "address": null
-  },
-  {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
-  },
-  {
-    "id": 1509987603,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2476721,
-    "lon": 0.2869368,
-    "address": null
-  },
-  {
-    "id": 1509987604,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2499212,
-    "lon": 0.2929966,
+    "lat": 51.791747,
+    "lon": -0.1023128,
     "address": null
   },
   {
@@ -723635,9 +723623,21 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.026543,
+    "lat": 51.0259881,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
+  },
+  {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
+    "address": null
   },
   {
     "id": 1509987603,
