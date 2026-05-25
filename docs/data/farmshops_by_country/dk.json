@@ -462,7 +462,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tolykkegaard.dk/",
+    "website": "http://tolykkegaard.dk/",
     "lat": 56.0319866,
     "lon": 12.2332647,
     "address": null
@@ -729,6 +729,18 @@
     "website": "https://www.stampenborg.dk/",
     "lat": 55.152607,
     "lon": 9.4010364,
+    "address": null
+  },
+  {
+    "id": 4462469305,
+    "name": "Heddahgaarden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://heddahgaarden.dk/",
+    "lat": 55.7391766,
+    "lon": 9.6133071,
     "address": null
   },
   {
@@ -2358,7 +2370,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.skovlygrisen.dk/",
+    "website": "http://www.skovlygrisen.dk/",
     "lat": 55.557248,
     "lon": 9.365305,
     "address": null
@@ -5598,7 +5610,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.tolstrupaebler.dk/",
     "lat": 55.920133,
     "lon": 9.879711,
     "address": null
@@ -10209,18 +10221,6 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
-    "address": null
-  },
-  {
-    "id": 4462469305,
-    "name": "Heddahgaarden",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://heddahgaarden.dk/",
-    "lat": 55.7391766,
-    "lon": 9.6133071,
     "address": null
   },
   {

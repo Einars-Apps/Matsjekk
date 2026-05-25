@@ -185123,6 +185123,30 @@
       "lat": 52.0137392,
       "lon": 4.4010765,
       "address": "Kooltuin"
+    },
+    {
+      "id": 2887637761,
+      "name": "Boer Peter",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Haarzuilens",
+      "products": [],
+      "website": "https://www.boerpeter.com/",
+      "lat": 52.1183774,
+      "lon": 5.0015154,
+      "address": "Thematerweg"
+    },
+    {
+      "id": 2891121512,
+      "name": "De Themaat",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Haarzuilens",
+      "products": [],
+      "website": null,
+      "lat": 52.1176507,
+      "lon": 5.0073112,
+      "address": "Thematerweg"
     }
   ],
   "BE": [
