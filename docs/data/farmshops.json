@@ -34113,6 +34113,18 @@
     "address": null
   },
   {
+    "id": 3885138370,
+    "name": "Sofienlund Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.884933,
+    "lon": 10.369584,
+    "address": null
+  },
+  {
     "id": 3935763608,
     "name": "Stengården",
     "country": "Denmark",
@@ -34275,7 +34287,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tolykkegaard.dk/",
+    "website": "http://tolykkegaard.dk/",
     "lat": 56.0319866,
     "lon": 12.2332647,
     "address": null
@@ -34545,6 +34557,18 @@
     "address": null
   },
   {
+    "id": 4462469305,
+    "name": "Heddahgaarden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://heddahgaarden.dk/",
+    "lat": 55.7391766,
+    "lon": 9.6133071,
+    "address": null
+  },
+  {
     "id": 4484035746,
     "name": "Storhaven",
     "country": "Denmark",
@@ -34590,18 +34614,6 @@
     "website": "https://kongelundgaard.dk/",
     "lat": 55.5784036,
     "lon": 12.5776993,
-    "address": null
-  },
-  {
-    "id": 4641259198,
-    "name": "Nygaards Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
-    "lat": 55.8052348,
-    "lon": 8.3446875,
     "address": null
   },
   {
@@ -36171,7 +36183,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.skovlygrisen.dk/",
+    "website": "http://www.skovlygrisen.dk/",
     "lat": 55.557248,
     "lon": 9.365305,
     "address": null
@@ -39411,7 +39423,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.tolstrupaebler.dk/",
     "lat": 55.920133,
     "lon": 9.879711,
     "address": null
@@ -43665,18 +43677,6 @@
     "address": null
   },
   {
-    "id": 13788930013,
-    "name": "Rikke og Franks Svineri",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.5039062,
-    "lon": 8.1462006,
-    "address": null
-  },
-  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -44025,27 +44025,27 @@
     "address": null
   },
   {
-    "id": 4462469305,
-    "name": "Heddahgaarden",
+    "id": 4641259198,
+    "name": "Nygaards Gårdbutik",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://heddahgaarden.dk/",
-    "lat": 55.7391766,
-    "lon": 9.6133071,
+    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
+    "lat": 55.8052348,
+    "lon": 8.3446875,
     "address": null
   },
   {
-    "id": 3885138370,
-    "name": "Sofienlund Gårdbutik",
+    "id": 13788930013,
+    "name": "Rikke og Franks Svineri",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 54.884933,
-    "lon": 10.369584,
+    "lat": 56.5039062,
+    "lon": 8.1462006,
     "address": null
   },
   {
@@ -60359,7 +60359,7 @@
     "region": null,
     "municipality": "Kalanti",
     "products": [],
-    "website": "https://fi-fi.facebook.com/linnanpuistontila/",
+    "website": null,
     "lat": 60.8162868,
     "lon": 21.5325097,
     "address": "Kehäntie"
@@ -60755,7 +60755,7 @@
     "region": null,
     "municipality": "Kärkölä",
     "products": [],
-    "website": "http://www.yli-karkelantila.fi/",
+    "website": "https://www.yli-karkelantila.fi/",
     "lat": 60.8798751,
     "lon": 25.1747619,
     "address": "Seppäläntie"
@@ -245091,18 +245091,6 @@
     "address": "Vrij-Harnasch"
   },
   {
-    "id": 2629214824,
-    "name": "PURE Gerbera",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Delfgauw",
-    "products": [],
-    "website": "http://www.puregerbera.nl",
-    "lat": 52.0137392,
-    "lon": 4.4010765,
-    "address": "Kooltuin"
-  },
-  {
     "id": 2629216640,
     "name": "Lemuco",
     "country": "Netherlands",
@@ -245585,18 +245573,6 @@
     "address": "Groeneveld"
   },
   {
-    "id": 2745968481,
-    "name": "Voort Horticulture BV",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Honselersdijk",
-    "products": [],
-    "website": null,
-    "lat": 52.0132824,
-    "lon": 4.2060127,
-    "address": "Bospolder"
-  },
-  {
     "id": 2748403922,
     "name": "Landwinkel De Verse Kers",
     "country": "Netherlands",
@@ -245631,18 +245607,6 @@
     "lat": 52.1609112,
     "lon": 5.3289941,
     "address": "Birkstraat"
-  },
-  {
-    "id": 2752477851,
-    "name": "De Santspuy",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Etten-Leur",
-    "products": [],
-    "website": null,
-    "lat": 51.5524347,
-    "lon": 4.6788611,
-    "address": "Zandspui"
   },
   {
     "id": 2753636931,
@@ -245873,18 +245837,6 @@
     "address": "Zuid Haffel"
   },
   {
-    "id": 2780652519,
-    "name": "Kukelekoe",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Baarle-Nassau",
-    "products": [],
-    "website": "https://kukelekoe.nl/onze-boerderijwinkel",
-    "lat": 51.4451204,
-    "lon": 4.9676818,
-    "address": "Heikant"
-  },
-  {
     "id": 2781213574,
     "name": "Mariahoeve",
     "country": "Netherlands",
@@ -245967,18 +245919,6 @@
     "lat": 52.634646,
     "lon": 4.6783106,
     "address": "Hoeverweg"
-  },
-  {
-    "id": 2796498132,
-    "name": "Puur Brabant",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Sint-Oedenrode",
-    "products": [],
-    "website": "https://puurbrabant.nl",
-    "lat": 51.5517636,
-    "lon": 5.4835682,
-    "address": "Lieshoutseweg"
   },
   {
     "id": 2797198053,
@@ -246303,18 +246243,6 @@
     "lat": 51.2922886,
     "lon": 5.7415856,
     "address": "Strateris"
-  },
-  {
-    "id": 2828037036,
-    "name": "Streekproduct Limburg",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Leveroy",
-    "products": [],
-    "website": null,
-    "lat": 51.2592632,
-    "lon": 5.8259972,
-    "address": "Leveroysedijk"
   },
   {
     "id": 2828819097,
@@ -246941,18 +246869,6 @@
     "address": "Laan van Gunterstein"
   },
   {
-    "id": 2887637761,
-    "name": "Boer Peter",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Haarzuilens",
-    "products": [],
-    "website": "https://www.boerpeter.com/",
-    "lat": 52.1183774,
-    "lon": 5.0015154,
-    "address": "Thematerweg"
-  },
-  {
     "id": 2887638000,
     "name": "De Haarse Gaard",
     "country": "Netherlands",
@@ -246966,7 +246882,7 @@
   },
   {
     "id": 2891121512,
-    "name": "De Themaat",
+    "name": "Oosterom Kersen",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarzuilens",
@@ -247109,18 +247025,6 @@
     "address": "Beekkant"
   },
   {
-    "id": 2929710681,
-    "name": "Fruitbedrijf Heijnen",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Roggel",
-    "products": [],
-    "website": "https://www.fruitbedrijfheijnen.nl",
-    "lat": 51.2609289,
-    "lon": 5.9003102,
-    "address": "Roligt"
-  },
-  {
     "id": 2929829516,
     "name": "De Laarhoeve",
     "country": "Netherlands",
@@ -247215,18 +247119,6 @@
     "lat": 52.1716686,
     "lon": 4.7730533,
     "address": "Nieuwveenseweg"
-  },
-  {
-    "id": 2993009681,
-    "name": "Tuinbouwbedrijf De Haas",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nuenen",
-    "products": [],
-    "website": "https://www.tuinbouwbedrijfdehaas.nl",
-    "lat": 51.4699408,
-    "lon": 5.5128587,
-    "address": "Soeterbeek"
   },
   {
     "id": 2996123131,
@@ -247895,7 +247787,7 @@
     "region": null,
     "municipality": "Elst",
     "products": [],
-    "website": "https://fruitben.nl/",
+    "website": "http://fruitben.nl/",
     "lat": 51.9324474,
     "lon": 5.8592601,
     "address": "Kerkstraat"
@@ -247907,7 +247799,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.boerderijkorenblik.nl/",
+    "website": "http://www.boerderijkorenblik.nl/",
     "lat": 52.128933,
     "lon": 6.2753847,
     "address": null
@@ -248663,7 +248555,7 @@
     "region": null,
     "municipality": "Achterveld",
     "products": [],
-    "website": "https://blauwebessen.eu",
+    "website": "https://blauwebessen.eu/",
     "lat": 52.1490302,
     "lon": 5.4578806,
     "address": "Emelaarseweg"
@@ -249620,12 +249512,12 @@
   },
   {
     "id": 11594956181,
-    "name": "Theehuis & Winkel - Land in Zicht",
+    "name": "Land in Zicht",
     "country": "Netherlands",
     "region": null,
     "municipality": "Amersfoort",
     "products": [],
-    "website": "https://landinzicht.net/theehuis/",
+    "website": "https://landinzicht.net",
     "lat": 52.212565,
     "lon": 5.4124788,
     "address": "Achterhoekerweg"
@@ -249725,6 +249617,18 @@
     "lat": 51.9986093,
     "lon": 4.5891739,
     "address": "Zuideinde"
+  },
+  {
+    "id": 11985805443,
+    "name": "Tuinbouwbedrijf De Haas",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.tuinbouwbedrijfdehaas.nl/",
+    "lat": 51.4698651,
+    "lon": 5.5127845,
+    "address": "Soeterbeek"
   },
   {
     "id": 12078001109,
@@ -250339,30 +250243,6 @@
     "address": "Wethouder Schoutenweg"
   },
   {
-    "id": 13760264610,
-    "name": "Meer Asperges",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.3462322,
-    "lon": 4.7523356,
-    "address": null
-  },
-  {
-    "id": 13761592247,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0617975,
-    "lon": 5.0745223,
-    "address": "Reinesteijnseweg"
-  },
-  {
     "id": 43396672,
     "name": "biologische boerderij achtervennen",
     "country": "Netherlands",
@@ -250601,18 +250481,6 @@
     "lat": 51.7874484,
     "lon": 5.5184422,
     "address": "Oijenseweg"
-  },
-  {
-    "id": 289441233,
-    "name": "Tuinbedrijf Bonten",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Baexem",
-    "products": [],
-    "website": "http://www.tuinbouwbedrijf-bonten.nl/",
-    "lat": 51.2363061,
-    "lon": 5.8873631,
-    "address": "Koelenstraat"
   },
   {
     "id": 480943280,
@@ -251306,8 +251174,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940771,
-    "lon": 4.417784,
+    "lat": 52.1940826,
+    "lon": 4.417777,
     "address": null
   },
   {
@@ -251553,18 +251421,6 @@
     "address": null
   },
   {
-    "id": 1503726682,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0619632,
-    "lon": 5.0753055,
-    "address": "Reinesteijnseweg"
-  },
-  {
     "id": 5450302,
     "name": "Welgelegen",
     "country": "Netherlands",
@@ -251637,8 +251493,92 @@
     "address": null
   },
   {
+    "id": 2629214824,
+    "name": "PURE Gerbera",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Delfgauw",
+    "products": [],
+    "website": "http://www.puregerbera.nl",
+    "lat": 52.0137392,
+    "lon": 4.4010765,
+    "address": "Kooltuin"
+  },
+  {
+    "id": 2745968481,
+    "name": "Voort Horticulture BV",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Honselersdijk",
+    "products": [],
+    "website": null,
+    "lat": 52.0132824,
+    "lon": 4.2060127,
+    "address": "Bospolder"
+  },
+  {
+    "id": 2752477851,
+    "name": "De Santspuy",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Etten-Leur",
+    "products": [],
+    "website": null,
+    "lat": 51.5524347,
+    "lon": 4.6788611,
+    "address": "Zandspui"
+  },
+  {
+    "id": 2780652519,
+    "name": "Kukelekoe",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Baarle-Nassau",
+    "products": [],
+    "website": "https://kukelekoe.nl/onze-boerderijwinkel",
+    "lat": 51.4451204,
+    "lon": 4.9676818,
+    "address": "Heikant"
+  },
+  {
+    "id": 2796498132,
+    "name": "Puur Brabant",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Sint-Oedenrode",
+    "products": [],
+    "website": "https://puurbrabant.nl",
+    "lat": 51.5517636,
+    "lon": 5.4835682,
+    "address": "Lieshoutseweg"
+  },
+  {
+    "id": 2828037036,
+    "name": "Streekproduct Limburg",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Leveroy",
+    "products": [],
+    "website": null,
+    "lat": 51.2592632,
+    "lon": 5.8259972,
+    "address": "Leveroysedijk"
+  },
+  {
+    "id": 2887637761,
+    "name": "Boer Peter",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Haarzuilens",
+    "products": [],
+    "website": "https://www.boerpeter.com/",
+    "lat": 52.1183774,
+    "lon": 5.0015154,
+    "address": "Thematerweg"
+  },
+  {
     "id": 2891121512,
-    "name": "Oosterom Kersen",
+    "name": "De Themaat",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarzuilens",
@@ -251649,28 +251589,76 @@
     "address": "Thematerweg"
   },
   {
-    "id": 11985805443,
+    "id": 2929710681,
+    "name": "Fruitbedrijf Heijnen",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Roggel",
+    "products": [],
+    "website": "https://www.fruitbedrijfheijnen.nl",
+    "lat": 51.2609289,
+    "lon": 5.9003102,
+    "address": "Roligt"
+  },
+  {
+    "id": 2993009681,
     "name": "Tuinbouwbedrijf De Haas",
     "country": "Netherlands",
     "region": null,
-    "municipality": null,
+    "municipality": "Nuenen",
     "products": [],
-    "website": "https://www.tuinbouwbedrijfdehaas.nl/",
-    "lat": 51.4698651,
-    "lon": 5.5127845,
+    "website": "https://www.tuinbouwbedrijfdehaas.nl",
+    "lat": 51.4699408,
+    "lon": 5.5128587,
     "address": "Soeterbeek"
   },
   {
     "id": 11594956181,
-    "name": "Land in Zicht",
+    "name": "Theehuis & Winkel - Land in Zicht",
     "country": "Netherlands",
     "region": null,
     "municipality": "Amersfoort",
     "products": [],
-    "website": "https://landinzicht.net",
+    "website": "https://landinzicht.net/theehuis/",
     "lat": 52.212565,
     "lon": 5.4124788,
     "address": "Achterhoekerweg"
+  },
+  {
+    "id": 13760264610,
+    "name": "Meer Asperges",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.3462322,
+    "lon": 4.7523356,
+    "address": null
+  },
+  {
+    "id": 13761592247,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0617975,
+    "lon": 5.0745223,
+    "address": "Reinesteijnseweg"
+  },
+  {
+    "id": 289441233,
+    "name": "Tuinbedrijf Bonten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Baexem",
+    "products": [],
+    "website": "http://www.tuinbouwbedrijf-bonten.nl/",
+    "lat": 51.2363061,
+    "lon": 5.8873631,
+    "address": "Koelenstraat"
   },
   {
     "id": 538330333,
@@ -251680,9 +251668,21 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940826,
-    "lon": 4.417777,
+    "lat": 52.1940771,
+    "lon": 4.417784,
     "address": null
+  },
+  {
+    "id": 1503726682,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0619632,
+    "lon": 5.0753055,
+    "address": "Reinesteijnseweg"
   },
   {
     "id": 13855450203,
@@ -277996,6 +277996,18 @@
     "address": "Rue des Combattants"
   },
   {
+    "id": 5197589345,
+    "name": "Fruitpaleis",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Sint-Andries",
+    "products": [],
+    "website": null,
+    "lat": 51.2055168,
+    "lon": 3.20165,
+    "address": "Hogeweg"
+  },
+  {
     "id": 5228804760,
     "name": "Les Jardins de l'Escalier",
     "country": "Belgium",
@@ -278122,7 +278134,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.blauwebessen.be/",
+    "website": "http://www.blauwebessen.be",
     "lat": 51.0742107,
     "lon": 5.5863289,
     "address": null
@@ -278170,7 +278182,7 @@
     "region": null,
     "municipality": "Edegem",
     "products": [],
-    "website": "https://plukjefruit.be/",
+    "website": "http://plukjefruit.be/",
     "lat": 51.1588159,
     "lon": 4.4402444,
     "address": "Drie Eikenstraat"
@@ -278578,7 +278590,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.aspergehoeve.be/",
+    "website": "http://www.aspergehoeve.be/",
     "lat": 51.1367084,
     "lon": 4.9570255,
     "address": "Doornboomstraat"
@@ -278674,7 +278686,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://ferme-les-bleuets.be/",
+    "website": "http://ferme-les-bleuets.be",
     "lat": 49.5838129,
     "lon": 5.8340848,
     "address": null
@@ -278950,7 +278962,7 @@
     "region": null,
     "municipality": "Wodecq",
     "products": [],
-    "website": "https://www.fermedorlou.be/",
+    "website": "http://www.fermedorlou.be",
     "lat": 50.7189663,
     "lon": 3.7256221,
     "address": "Vieux Moulin"
@@ -279094,7 +279106,7 @@
     "region": null,
     "municipality": "Halen",
     "products": [],
-    "website": "https://www.degroene-goesting.be/",
+    "website": "http://www.degroene-goesting.be/",
     "lat": 50.9531108,
     "lon": 5.0861308,
     "address": "Liebroekstraat"
@@ -279110,6 +279122,18 @@
     "lat": 51.1450895,
     "lon": 4.3634082,
     "address": "Groenenhoek"
+  },
+  {
+    "id": 7887104938,
+    "name": "Para Ti",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://para-ti.be/",
+    "lat": 51.219914,
+    "lon": 3.220316,
+    "address": null
   },
   {
     "id": 7900456794,
@@ -279407,8 +279431,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7373829,
-    "lon": 4.2700518,
+    "lat": 50.7374074,
+    "lon": 4.2700674,
     "address": null
   },
   {
@@ -280198,7 +280222,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.fermedelageronne.be/",
+    "website": "http://www.fermedelageronne.be",
     "lat": 49.8630028,
     "lon": 5.5608512,
     "address": null
@@ -280781,15 +280805,15 @@
   },
   {
     "id": 12563844681,
-    "name": "La Ferme du Grand Feu",
+    "name": "La ferme du grand feu",
     "country": "Belgium",
     "region": null,
-    "municipality": "Bouge",
+    "municipality": null,
     "products": [],
     "website": "https://lafermedugrandfeu.be/",
-    "lat": 50.4801945,
-    "lon": 4.895022,
-    "address": "Rue de la Poteresse"
+    "lat": 50.4778716,
+    "lon": 4.8941007,
+    "address": null
   },
   {
     "id": 12620825293,
@@ -281128,54 +281152,6 @@
     "address": null
   },
   {
-    "id": 13764337580,
-    "name": "Cocottes en Ribotte",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.614868,
-    "lon": 4.4976924,
-    "address": null
-  },
-  {
-    "id": 13776306636,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556942,
-    "lon": 3.0442422,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 13801006290,
-    "name": "Ferme du Montaval",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.1812477,
-    "lon": 4.456854,
-    "address": null
-  },
-  {
-    "id": 13825142133,
-    "name": "De Zaaier",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://zaaier.be/",
-    "lat": 51.1070842,
-    "lon": 3.2334347,
-    "address": "Korte Akkerstraat"
-  },
-  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -281434,7 +281410,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.fermedorlou.be/",
+    "website": "http://www.fermedorlou.be/",
     "lat": 50.7188709,
     "lon": 3.7250729,
     "address": null
@@ -281453,15 +281429,15 @@
   },
   {
     "id": 176724751,
-    "name": "Boer Maarten",
+    "name": "Levensbron",
     "country": "Belgium",
     "region": null,
-    "municipality": "Attenrode",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": "Langstraat"
+    "address": null
   },
   {
     "id": 184544766,
@@ -281548,18 +281524,6 @@
     "address": null
   },
   {
-    "id": 233873758,
-    "name": "Viskwekerij Vandeput",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Zonhoven",
-    "products": [],
-    "website": "https://sites.google.com/site/viskwekerijvandeput/",
-    "lat": 50.9877343,
-    "lon": 5.3412821,
-    "address": "Boomsteeg"
-  },
-  {
     "id": 250412766,
     "name": "Au fil des saisons",
     "country": "Belgium",
@@ -281609,15 +281573,15 @@
   },
   {
     "id": 294169618,
-    "name": "Jerseyhoeve De Haan automatenshop",
+    "name": "De Melkautomaat",
     "country": "Belgium",
     "region": null,
-    "municipality": "Klemskerke",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.2556962,
     "lon": 3.0441037,
-    "address": "Bredeweg"
+    "address": null
   },
   {
     "id": 297121323,
@@ -281926,7 +281890,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.larchenterre.be/",
+    "website": "http://www.larchenterre.be",
     "lat": 50.6299984,
     "lon": 4.7079553,
     "address": "Chemin de la Scierie"
@@ -281986,7 +281950,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.lafermedejulien.be/",
+    "website": "http://www.lafermedejulien.be",
     "lat": 50.7370029,
     "lon": 4.7714875,
     "address": null
@@ -282022,7 +281986,7 @@
     "region": null,
     "municipality": "Nivelles",
     "products": [],
-    "website": "https://fermedelabaraque.be/",
+    "website": "http://fermedelabaraque.be/",
     "lat": 50.5694819,
     "lon": 4.3638693,
     "address": "Vieux chemin de Bruxelles"
@@ -282178,7 +282142,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://kempengoud.be/",
+    "website": "http://www.kempengoud.be/",
     "lat": 51.4316873,
     "lon": 4.4911687,
     "address": "Spurrieveld"
@@ -282628,18 +282592,6 @@
     "address": "De Lusthoven"
   },
   {
-    "id": 1092175388,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2557506,
-    "lon": 3.0442608,
-    "address": null
-  },
-  {
     "id": 1097455780,
     "name": "Les paniers de Maryse",
     "country": "Belgium",
@@ -282868,18 +282820,6 @@
     "address": null
   },
   {
-    "id": 1516907841,
-    "name": "Hoevewinkel",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1342487,
-    "lon": 4.8835409,
-    "address": null
-  },
-  {
     "id": 8690,
     "name": "Hallerbos - Bois de Hal",
     "country": "Belgium",
@@ -282928,30 +282868,6 @@
     "address": "Rue Estafflers"
   },
   {
-    "id": 5197589345,
-    "name": "Fruitpaleis",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Sint-Andries",
-    "products": [],
-    "website": null,
-    "lat": 51.2055168,
-    "lon": 3.20165,
-    "address": "Hogeweg"
-  },
-  {
-    "id": 7887104938,
-    "name": "Para Ti",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://para-ti.be/",
-    "lat": 51.219914,
-    "lon": 3.220316,
-    "address": null
-  },
-  {
     "id": 8734787335,
     "name": "'t Hoeveke",
     "country": "Belgium",
@@ -282959,44 +282875,128 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7374074,
-    "lon": 4.2700674,
+    "lat": 50.7373829,
+    "lon": 4.2700518,
     "address": null
   },
   {
     "id": 12563844681,
-    "name": "La ferme du grand feu",
+    "name": "La Ferme du Grand Feu",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Bouge",
+    "products": [],
+    "website": "https://lafermedugrandfeu.be/",
+    "lat": 50.4801945,
+    "lon": 4.895022,
+    "address": "Rue de la Poteresse"
+  },
+  {
+    "id": 13764337580,
+    "name": "Cocottes en Ribotte",
     "country": "Belgium",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://lafermedugrandfeu.be/",
-    "lat": 50.4778716,
-    "lon": 4.8941007,
+    "website": null,
+    "lat": 50.614868,
+    "lon": 4.4976924,
     "address": null
   },
   {
-    "id": 176724751,
-    "name": "Levensbron",
+    "id": 13776306636,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Klemskerke",
+    "products": [],
+    "website": null,
+    "lat": 51.2556942,
+    "lon": 3.0442422,
+    "address": "Bredeweg"
+  },
+  {
+    "id": 13801006290,
+    "name": "Ferme du Montaval",
     "country": "Belgium",
     "region": null,
     "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.1812477,
+    "lon": 4.456854,
+    "address": null
+  },
+  {
+    "id": 13825142133,
+    "name": "De Zaaier",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://zaaier.be/",
+    "lat": 51.1070842,
+    "lon": 3.2334347,
+    "address": "Korte Akkerstraat"
+  },
+  {
+    "id": 176724751,
+    "name": "Boer Maarten",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Attenrode",
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": null
+    "address": "Langstraat"
+  },
+  {
+    "id": 233873758,
+    "name": "Viskwekerij Vandeput",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Zonhoven",
+    "products": [],
+    "website": "https://sites.google.com/site/viskwekerijvandeput/",
+    "lat": 50.9877343,
+    "lon": 5.3412821,
+    "address": "Boomsteeg"
   },
   {
     "id": 294169618,
-    "name": "De Melkautomaat",
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Klemskerke",
+    "products": [],
+    "website": null,
+    "lat": 51.2556962,
+    "lon": 3.0441037,
+    "address": "Bredeweg"
+  },
+  {
+    "id": 1092175388,
+    "name": "Jerseyhoeve De Haan automatenshop",
     "country": "Belgium",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.2556962,
-    "lon": 3.0441037,
+    "lat": 51.2557506,
+    "lon": 3.0442608,
+    "address": null
+  },
+  {
+    "id": 1516907841,
+    "name": "Hoevewinkel",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.1342487,
+    "lon": 4.8835409,
     "address": null
   },
   {
@@ -304165,6 +304165,18 @@
     "address": null
   },
   {
+    "id": 2906961562,
+    "name": "Romain Dubois",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3370951,
+    "lon": 2.7981819,
+    "address": null
+  },
+  {
     "id": 2924489636,
     "name": "La petite ferme",
     "country": "France",
@@ -316802,14 +316814,14 @@
   },
   {
     "id": 7462617964,
-    "name": "Martine à la montagne",
+    "name": "Martine à la Montagne",
     "country": "France",
     "region": null,
     "municipality": "Barèges",
     "products": [],
     "website": null,
-    "lat": 42.896542,
-    "lon": 0.0640518,
+    "lat": 42.8965469,
+    "lon": 0.0640478,
     "address": "Rue Ramond"
   },
   {
@@ -335611,7 +335623,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://entreprises.valsdudauphine.fr/etablissements/17912-les-jardins-de-brieuc",
+    "website": "https://lesjardinsdebrieuc.wixsite.com/romagnieu",
     "lat": 45.5510301,
     "lon": 5.6143416,
     "address": "Route de la Bruyère"
@@ -339992,8 +340004,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lafermeduboisdecosset.fr/",
-    "lat": 46.5620906,
-    "lon": 1.9235388,
+    "lat": 46.562767,
+    "lon": 1.9223444,
     "address": null
   },
   {
@@ -340283,6 +340295,30 @@
     "lat": 47.4437907,
     "lon": -0.5688484,
     "address": "Rue François Mauriac"
+  },
+  {
+    "id": 13876117800,
+    "name": "Les Huiles de Joséphine / Hippiqhuiles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.hippiqhuiles.fr",
+    "lat": 46.7408969,
+    "lon": 2.0971125,
+    "address": null
+  },
+  {
+    "id": 13877143804,
+    "name": "Colibio - La boutique paysanne",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.1867505,
+    "lon": -2.7615584,
+    "address": null
   },
   {
     "id": 24528129,
@@ -349419,6 +349455,30 @@
     "website": null,
     "lat": 50.5921888,
     "lon": 2.5177697,
+    "address": null
+  },
+  {
+    "id": 7462617964,
+    "name": "Martine à la montagne",
+    "country": "France",
+    "region": null,
+    "municipality": "Barèges",
+    "products": [],
+    "website": null,
+    "lat": 42.896542,
+    "lon": 0.0640518,
+    "address": "Rue Ramond"
+  },
+  {
+    "id": 13806090760,
+    "name": "Ferme du Bois de Cosset",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lafermeduboisdecosset.fr/",
+    "lat": 46.5620906,
+    "lon": 1.9235388,
     "address": null
   },
   {
@@ -608159,6 +608219,18 @@
     "address": null
   },
   {
+    "id": 11078723217,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3604716,
+    "lon": -9.379938,
+    "address": null
+  },
+  {
     "id": 11420351025,
     "name": "Finisterra",
     "country": "Portugal",
@@ -608271,12 +608343,12 @@
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": "Bom Vento",
+    "municipality": null,
     "products": [],
-    "website": "https://bio-rui-e-ines.webnode.pt/",
-    "lat": 39.3193042,
-    "lon": -9.1355355,
-    "address": "Rua Nossa Senhora do Socorro"
+    "website": null,
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "R. Nossa Sra. do Socorro"
   },
   {
     "id": 13434502610,
@@ -608795,6 +608867,18 @@
     "address": null
   },
   {
+    "id": 1243166539,
+    "name": "Amendoal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1777387,
+    "lon": -8.1841701,
+    "address": null
+  },
+  {
     "id": 1247100935,
     "name": "Mandelfruit",
     "country": "Portugal",
@@ -608843,40 +608927,16 @@
     "address": null
   },
   {
-    "id": 11078723217,
-    "name": "Bio Rui e Inês",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3604716,
-    "lon": -9.379938,
-    "address": null
-  },
-  {
     "id": 13261269282,
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": null,
+    "municipality": "Bom Vento",
     "products": [],
-    "website": null,
-    "lat": 39.3193307,
-    "lon": -9.1354776,
-    "address": "R. Nossa Sra. do Socorro"
-  },
-  {
-    "id": 1243166539,
-    "name": "Amendoal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1777387,
-    "lon": -8.1841701,
-    "address": null
+    "website": "https://bio-rui-e-ines.webnode.pt/",
+    "lat": 39.3193042,
+    "lon": -9.1355355,
+    "address": "Rua Nossa Senhora do Socorro"
   },
   {
     "id": 666647099,
@@ -758835,7 +758895,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.imkerei-reichl.at/wb/pages/home.php",
+    "website": "http://www.imkerei-reichl.at/wb/pages/home.php",
     "lat": 48.027105,
     "lon": 13.0222162,
     "address": null
@@ -759675,7 +759735,7 @@
     "region": null,
     "municipality": "Wien",
     "products": [],
-    "website": "https://www.raritaeten-eck.at/",
+    "website": "http://www.raritaeten-eck.at/",
     "lat": 48.1898076,
     "lon": 16.3519852,
     "address": "Rechte Wienzeile"
@@ -760791,7 +760851,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.mairs-beerengarten.at/",
+    "website": "http://www.mairs-beerengarten.at/",
     "lat": 47.3048138,
     "lon": 11.0704319,
     "address": null
@@ -760839,7 +760899,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.abhof-luftensteiner.at/",
+    "website": "http://www.abhof-luftensteiner.at/",
     "lat": 48.1888646,
     "lon": 14.6870846,
     "address": null
@@ -764253,18 +764313,6 @@
     "address": null
   },
   {
-    "id": 11014434311,
-    "name": "Gemüsehütte Stechaubauer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stechaubauer.at/",
-    "lat": 47.4471057,
-    "lon": 12.8086799,
-    "address": null
-  },
-  {
     "id": 11034011490,
     "name": "SB-Hofladen",
     "country": "Austria",
@@ -766132,8 +766180,8 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://wald-gut.at/",
-    "lat": 48.1487802,
-    "lon": 16.2683377,
+    "lat": 48.1487789,
+    "lon": 16.2683498,
     "address": "Geßlgasse"
   },
   {
@@ -766323,7 +766371,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.marille-ab-hof.at/kuerbisse/",
+    "website": "http://www.marille-ab-hof.at/kuerbisse/",
     "lat": 48.1751874,
     "lon": 14.3439119,
     "address": null
@@ -767253,18 +767301,6 @@
     "address": null
   },
   {
-    "id": 13534806501,
-    "name": "S' Hofladl",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1821922,
-    "lon": 15.9780387,
-    "address": null
-  },
-  {
     "id": 13592550216,
     "name": "Santlhof",
     "country": "Austria",
@@ -767319,7 +767355,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://steirischerreis.at/",
+    "website": "http://steirischerreis.at",
     "lat": 46.7432017,
     "lon": 15.9818429,
     "address": null
@@ -767347,18 +767383,6 @@
     "lat": 47.3222636,
     "lon": 11.5875229,
     "address": "Gnadenwald"
-  },
-  {
-    "id": 13699216753,
-    "name": "Freche Biene",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Langenlois",
-    "products": [],
-    "website": null,
-    "lat": 48.4728423,
-    "lon": 15.6855213,
-    "address": "Fliederweg"
   },
   {
     "id": 13705270086,
@@ -767398,122 +767422,14 @@
   },
   {
     "id": 13731641804,
-    "name": "SB - Bauernladen Kühnsdorf",
+    "name": "Bauernladen - Bauernhof Jäger",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.6279457,
-    "lon": 14.6343365,
-    "address": null
-  },
-  {
-    "id": 13750149702,
-    "name": "Bauernladen Schalhas",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koglmuehle-schalhas.at/",
-    "lat": 48.2956062,
-    "lon": 15.5894324,
-    "address": "Nibelungenstraße"
-  },
-  {
-    "id": 13758006809,
-    "name": "Steinerwirt",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.7394027,
-    "lon": 12.9261127,
-    "address": null
-  },
-  {
-    "id": 13758655092,
-    "name": "Bauernladen Edhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1051808,
-    "lon": 14.550437,
-    "address": null
-  },
-  {
-    "id": 13764352066,
-    "name": "s'Ronklädele",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Bezau",
-    "products": [],
-    "website": null,
-    "lat": 47.3766881,
-    "lon": 9.8955162,
-    "address": null
-  },
-  {
-    "id": 13786305275,
-    "name": "Wilhelmsburger Hoflieferanten",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Wilhelmsburg",
-    "products": [],
-    "website": "https://hoflieferanten.at/",
-    "lat": 48.1158312,
-    "lon": 15.5881415,
-    "address": null
-  },
-  {
-    "id": 13791117613,
-    "name": "Gemüse Späti",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2043105,
-    "lon": 16.4574336,
-    "address": null
-  },
-  {
-    "id": 13800970542,
-    "name": "Bauernhof Jäger - Ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5724726,
-    "lon": 14.5557935,
-    "address": null
-  },
-  {
-    "id": 13810833501,
-    "name": "Erdbeeren, Spargel",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2107881,
-    "lon": 16.2544697,
-    "address": null
-  },
-  {
-    "id": 13831111118,
-    "name": "Margit's Kisteneck Hofladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0792756,
-    "lon": 15.9181529,
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
     "address": null
   },
   {
@@ -768693,18 +768609,6 @@
     "address": null
   },
   {
-    "id": 283739301,
-    "name": "Kreithwald",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4808022,
-    "lon": 11.9658879,
-    "address": null
-  },
-  {
     "id": 285102389,
     "name": "Hofladen Kröpfl",
     "country": "Austria",
@@ -769023,7 +768927,7 @@
     "region": null,
     "municipality": "Oberschützen",
     "products": [],
-    "website": "https://www.biohof-unger.at/",
+    "website": "http://www.biohof-unger.at/",
     "lat": 47.3564947,
     "lon": 16.2081015,
     "address": "Aschauer Straße"
@@ -769527,22 +769431,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://biosain.at/",
+    "website": "http://biosain.at/",
     "lat": 48.5791773,
     "lon": 15.6458317,
     "address": null
-  },
-  {
-    "id": 699498385,
-    "name": "Da Erdwurm - Regenwurmfarm",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Spannberg",
-    "products": [],
-    "website": null,
-    "lat": 48.4623412,
-    "lon": 16.7441904,
-    "address": "Neugasse"
   },
   {
     "id": 712450479,
@@ -770550,42 +770442,6 @@
     "website": "https://wien.obststadt.at/laaerberg.html",
     "lat": 48.1632549,
     "lon": 16.4015542,
-    "address": null
-  },
-  {
-    "id": 1503481253,
-    "name": "Eisnerforst",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0300323,
-    "lon": 14.2190271,
-    "address": null
-  },
-  {
-    "id": 1507511323,
-    "name": "Pepi's Bunte Kartoffel",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.buntekartoffel.com/Startseite/",
-    "lat": 48.4324558,
-    "lon": 16.0640101,
-    "address": null
-  },
-  {
-    "id": 1509746903,
-    "name": "SB - Bauernladen Pogerschitzen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5651407,
-    "lon": 14.5543197,
     "address": null
   },
   {
@@ -771705,6 +771561,18 @@
     "address": null
   },
   {
+    "id": 11014434311,
+    "name": "Gemüsehütte Stechaubauer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stechaubauer.at/",
+    "lat": 47.4471057,
+    "lon": 12.8086799,
+    "address": null
+  },
+  {
     "id": 12475401942,
     "name": "Waldgut",
     "country": "Austria",
@@ -771712,20 +771580,212 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://wald-gut.at/",
-    "lat": 48.1487789,
-    "lon": 16.2683498,
+    "lat": 48.1487802,
+    "lon": 16.2683377,
     "address": "Geßlgasse"
   },
   {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
+    "id": 13534806501,
+    "name": "S' Hofladl",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
+    "website": null,
+    "lat": 48.1821922,
+    "lon": 15.9780387,
+    "address": null
+  },
+  {
+    "id": 13699216753,
+    "name": "Freche Biene",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Langenlois",
+    "products": [],
+    "website": null,
+    "lat": 48.4728423,
+    "lon": 15.6855213,
+    "address": "Fliederweg"
+  },
+  {
+    "id": 13731641804,
+    "name": "SB - Bauernladen Kühnsdorf",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.6279457,
+    "lon": 14.6343365,
+    "address": null
+  },
+  {
+    "id": 13750149702,
+    "name": "Bauernladen Schalhas",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koglmuehle-schalhas.at/",
+    "lat": 48.2956062,
+    "lon": 15.5894324,
+    "address": "Nibelungenstraße"
+  },
+  {
+    "id": 13758006809,
+    "name": "Steinerwirt",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.7394027,
+    "lon": 12.9261127,
+    "address": null
+  },
+  {
+    "id": 13758655092,
+    "name": "Bauernladen Edhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.1051808,
+    "lon": 14.550437,
+    "address": null
+  },
+  {
+    "id": 13764352066,
+    "name": "s'Ronklädele",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Bezau",
+    "products": [],
+    "website": null,
+    "lat": 47.3766881,
+    "lon": 9.8955162,
+    "address": null
+  },
+  {
+    "id": 13786305275,
+    "name": "Wilhelmsburger Hoflieferanten",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Wilhelmsburg",
+    "products": [],
+    "website": "https://hoflieferanten.at/",
+    "lat": 48.1158312,
+    "lon": 15.5881415,
+    "address": null
+  },
+  {
+    "id": 13791117613,
+    "name": "Gemüse Späti",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2043105,
+    "lon": 16.4574336,
+    "address": null
+  },
+  {
+    "id": 13800970542,
+    "name": "Bauernhof Jäger - Ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5724726,
+    "lon": 14.5557935,
+    "address": null
+  },
+  {
+    "id": 13810833501,
+    "name": "Erdbeeren, Spargel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2107881,
+    "lon": 16.2544697,
+    "address": null
+  },
+  {
+    "id": 13831111118,
+    "name": "Margit's Kisteneck Hofladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0792756,
+    "lon": 15.9181529,
+    "address": null
+  },
+  {
+    "id": 283739301,
+    "name": "Kreithwald",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4808022,
+    "lon": 11.9658879,
+    "address": null
+  },
+  {
+    "id": 699498385,
+    "name": "Da Erdwurm - Regenwurmfarm",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Spannberg",
+    "products": [],
+    "website": null,
+    "lat": 48.4623412,
+    "lon": 16.7441904,
+    "address": "Neugasse"
+  },
+  {
+    "id": 1503481253,
+    "name": "Eisnerforst",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0300323,
+    "lon": 14.2190271,
+    "address": null
+  },
+  {
+    "id": 1507511323,
+    "name": "Pepi's Bunte Kartoffel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.buntekartoffel.com/Startseite/",
+    "lat": 48.4324558,
+    "lon": 16.0640101,
+    "address": null
+  },
+  {
+    "id": 1509746903,
+    "name": "SB - Bauernladen Pogerschitzen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5651407,
+    "lon": 14.5543197,
     "address": null
   },
   {
@@ -805266,7 +805326,7 @@
     "region": null,
     "municipality": "Hombrechtikon",
     "products": [],
-    "website": "http://demeterhof.ch/",
+    "website": "https://demeterhof.ch/",
     "lat": 47.2536326,
     "lon": 8.7694319,
     "address": "Hof Breitlen"
@@ -805422,7 +805482,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://luescherhof.ch/",
     "lat": 47.4571422,
     "lon": 8.3402986,
     "address": null
@@ -805530,7 +805590,7 @@
     "region": null,
     "municipality": "Wald (ZH)",
     "products": [],
-    "website": "http://wettstei.ch",
+    "website": "https://wettstei.ch/",
     "lat": 47.2779699,
     "lon": 8.8957316,
     "address": "Rickenbach"
@@ -806406,7 +806466,7 @@
     "region": null,
     "municipality": "Arisdorf",
     "products": [],
-    "website": "http://www.egghof-kunz.ch/",
+    "website": "https://www.egghof-kunz.ch/",
     "lat": 47.5147896,
     "lon": 7.7788638,
     "address": "Egghof"
@@ -807066,7 +807126,7 @@
     "region": null,
     "municipality": "Sissach",
     "products": [],
-    "website": "http://www.imhof-weine.ch/",
+    "website": "https://www.imhof-weine.ch/",
     "lat": 47.4675558,
     "lon": 7.8208096,
     "address": "Kienberg"
@@ -807270,7 +807330,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.hochstamm-liestal.ch",
+    "website": "https://www.hochstamm-liestal.ch/",
     "lat": 47.4708832,
     "lon": 7.7384406,
     "address": null
@@ -807342,7 +807402,7 @@
     "region": null,
     "municipality": "Bubendorf",
     "products": [],
-    "website": "http://www.hofwildenstein.ch/",
+    "website": "https://www.hofwildenstein.ch/",
     "lat": 47.4308859,
     "lon": 7.737811,
     "address": "Schloss Wildenstein"
@@ -808686,7 +808746,7 @@
     "region": null,
     "municipality": "Riniken",
     "products": [],
-    "website": "http://www.schaffnerhof.ch/",
+    "website": "https://www.schaffnerhof.ch/",
     "lat": 47.4947491,
     "lon": 8.1871127,
     "address": "Unterdorfstrasse"
@@ -809215,8 +809275,8 @@
     "municipality": "Eptingen",
     "products": [],
     "website": null,
-    "lat": 47.3778413,
-    "lon": 7.8413416,
+    "lat": 47.3779362,
+    "lon": 7.8418139,
     "address": "Schmutzberg"
   },
   {
@@ -809262,7 +809322,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.rueegg4you.ch/hofladen/",
+    "website": "https://rueegg4you.ch/hofladen/",
     "lat": 47.2428762,
     "lon": 8.8961648,
     "address": null
@@ -810882,7 +810942,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.frei-hoerhausen.ch/hofladen.php",
+    "website": "https://www.frei-hoerhausen.ch/hofladen.php",
     "lat": 47.6324333,
     "lon": 8.9704189,
     "address": null
@@ -811428,7 +811488,7 @@
     "address": null
   },
   {
-    "id": 8009305566,
+    "id": 8009305567,
     "name": "Biohof Honig",
     "country": "Switzerland",
     "region": null,
@@ -813066,7 +813126,7 @@
     "region": null,
     "municipality": "Davos Dorf",
     "products": [],
-    "website": "http://www.hoffmann-davos.ch/",
+    "website": "https://www.hoffmann-davos.ch/",
     "lat": 46.8037905,
     "lon": 9.8405656,
     "address": "Dischmastrasse"
@@ -813139,8 +813199,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.3179324,
-    "lon": 8.4975852,
+    "lat": 46.3179006,
+    "lon": 8.4976103,
     "address": null
   },
   {
@@ -813966,7 +814026,7 @@
     "region": null,
     "municipality": "Niederglatt SG",
     "products": [],
-    "website": "http://www.dudli-ochsenweid.ch/",
+    "website": "https://dudli-ochsenweid.ch/",
     "lat": 47.4311917,
     "lon": 9.1591456,
     "address": null
@@ -814794,7 +814854,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.naturnoech.ch/",
+    "website": "https://www.naturnoech.ch/",
     "lat": 47.126909,
     "lon": 8.5747913,
     "address": null
@@ -815010,7 +815070,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "www.biohof-frohberg.ch",
+    "website": "https://www.biohof-frohberg.ch/",
     "lat": 47.3016358,
     "lon": 8.7149168,
     "address": null
@@ -815310,7 +815370,7 @@
     "region": null,
     "municipality": "Trimbach",
     "products": [],
-    "website": "http://www.thalmann-hof.ch/verkaufabhof.php",
+    "website": "https://www.thalmann-hof.ch/verkaufabhof.php",
     "lat": 47.3690348,
     "lon": 7.8826225,
     "address": "Hauensteinstrasse"
@@ -816318,7 +816378,7 @@
     "region": null,
     "municipality": "Laax",
     "products": [],
-    "website": "http://myfarm.ch/DTtRsm",
+    "website": "https://myfarm.ch/DTtRsm",
     "lat": 46.8271258,
     "lon": 9.2553934,
     "address": "Via Pardatsch"
@@ -818172,6 +818232,18 @@
     "address": "Törliweg"
   },
   {
+    "id": 12587591789,
+    "name": "Markststand Biohof Fräschels",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9464864,
+    "lon": 7.4156287,
+    "address": null
+  },
+  {
     "id": 12596537744,
     "name": "Belmont Oeufs + Fruits",
     "country": "Switzerland",
@@ -819924,6 +819996,90 @@
     "address": null
   },
   {
+    "id": 13811034747,
+    "name": "Azienda Agricola Poma",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Tremona",
+    "products": [],
+    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+    "lat": 45.8806573,
+    "lon": 8.9528781,
+    "address": "Via Monte San Giorgio"
+  },
+  {
+    "id": 13813310789,
+    "name": "Biohof Dusch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Paspels",
+    "products": [],
+    "website": null,
+    "lat": 46.7530339,
+    "lon": 9.4509399,
+    "address": null
+  },
+  {
+    "id": 13815368021,
+    "name": "Hofladen Familie Peter",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Rickenbach ZH",
+    "products": [],
+    "website": "https://peter-rickenbach.ch",
+    "lat": 47.5521,
+    "lon": 8.7950151,
+    "address": null
+  },
+  {
+    "id": 13835528950,
+    "name": "bioverger.ch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bioverger.ch/",
+    "lat": 46.237573,
+    "lon": 7.4084948,
+    "address": null
+  },
+  {
+    "id": 13840961701,
+    "name": "Ferme Vuissoz",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ferme-vuissoz.ch/",
+    "lat": 46.2238712,
+    "lon": 7.3808934,
+    "address": "Chemin de Maragnène"
+  },
+  {
+    "id": 13859804463,
+    "name": "Früchte vom Chalchbrünnli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://fruechte-vom-chalchbruennli.ch/",
+    "lat": 47.5896745,
+    "lon": 8.1734938,
+    "address": null
+  },
+  {
+    "id": 13868293893,
+    "name": "Bio-Betrieb Schüttel",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Hirschthal",
+    "products": [],
+    "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
+    "lat": 47.3193072,
+    "lon": 8.0774032,
+    "address": "Talstrasse"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -820518,7 +820674,7 @@
     "region": null,
     "municipality": "Uttwil",
     "products": [],
-    "website": "http://habei.ch",
+    "website": "https://www.habei.ch/",
     "lat": 47.5748678,
     "lon": 9.3288057,
     "address": null
@@ -820854,7 +821010,7 @@
     "region": null,
     "municipality": "Pura",
     "products": [],
-    "website": "http://www.piscicolturapura.ch/",
+    "website": "https://www.piscicolturapura.ch/",
     "lat": 45.9870741,
     "lon": 8.8752385,
     "address": "Via Mulini"
@@ -821100,6 +821256,18 @@
     "address": null
   },
   {
+    "id": 988674600,
+    "name": "Azienda agricola monti di Condra",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
+    "lat": 46.0800899,
+    "lon": 8.9555316,
+    "address": null
+  },
+  {
     "id": 1014284328,
     "name": "agroservice.ch",
     "country": "Switzerland",
@@ -821202,7 +821370,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "tomsbiohof.ch",
+    "website": "https://tomsbiohof.ch/",
     "lat": 46.4849522,
     "lon": 7.2872812,
     "address": null
@@ -821592,6 +821760,18 @@
     "address": null
   },
   {
+    "id": 1519862271,
+    "name": "Petershof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.petershof-kaerselen.ch/",
+    "lat": 46.7484084,
+    "lon": 7.5417979,
+    "address": null
+  },
+  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -821616,6 +821796,18 @@
     "address": null
   },
   {
+    "id": 5425594856,
+    "name": "Hof Schmutzberg",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Eptingen",
+    "products": [],
+    "website": null,
+    "lat": 47.3778413,
+    "lon": 7.8413416,
+    "address": "Schmutzberg"
+  },
+  {
     "id": 9677787378,
     "name": "Azienda Agricola",
     "country": "Switzerland",
@@ -821623,116 +821815,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.3179006,
-    "lon": 8.4976103,
-    "address": null
-  },
-  {
-    "id": 13811034747,
-    "name": "Azienda Agricola Poma",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Tremona",
-    "products": [],
-    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
-    "lat": 45.8806573,
-    "lon": 8.9528781,
-    "address": "Via Monte San Giorgio"
-  },
-  {
-    "id": 13813310789,
-    "name": "Biohof Dusch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Paspels",
-    "products": [],
-    "website": null,
-    "lat": 46.7530339,
-    "lon": 9.4509399,
-    "address": null
-  },
-  {
-    "id": 13815368021,
-    "name": "Hofladen Familie Peter",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Rickenbach ZH",
-    "products": [],
-    "website": "https://peter-rickenbach.ch",
-    "lat": 47.5521,
-    "lon": 8.7950151,
-    "address": null
-  },
-  {
-    "id": 13835528950,
-    "name": "bioverger.ch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bioverger.ch/",
-    "lat": 46.237573,
-    "lon": 7.4084948,
-    "address": null
-  },
-  {
-    "id": 13840961701,
-    "name": "Ferme Vuissoz",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ferme-vuissoz.ch/",
-    "lat": 46.2238712,
-    "lon": 7.3808934,
-    "address": "Chemin de Maragnène"
-  },
-  {
-    "id": 13859804463,
-    "name": "Früchte vom Chalchbrünnli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://fruechte-vom-chalchbruennli.ch/",
-    "lat": 47.5896745,
-    "lon": 8.1734938,
-    "address": null
-  },
-  {
-    "id": 13868293893,
-    "name": "Bio-Betrieb Schüttel",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Hirschthal",
-    "products": [],
-    "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
-    "lat": 47.3193072,
-    "lon": 8.0774032,
-    "address": "Talstrasse"
-  },
-  {
-    "id": 988674600,
-    "name": "Azienda agricola monti di Condra",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
-    "lat": 46.0800899,
-    "lon": 8.9555316,
-    "address": null
-  },
-  {
-    "id": 1519862271,
-    "name": "Petershof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.petershof-kaerselen.ch/",
-    "lat": 46.7484084,
-    "lon": 7.5417979,
+    "lat": 46.3179324,
+    "lon": 8.4975852,
     "address": null
   },
   {
@@ -855037,18 +855121,6 @@
     "address": null
   },
   {
-    "id": 894035486,
-    "name": "De klenge Buttik",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.naturparkhaff.lu",
-    "lat": 49.9095103,
-    "lon": 5.8756055,
-    "address": null
-  },
-  {
     "id": 1282590236,
     "name": "Regio Shop A Lill",
     "country": "Luxembourg",
@@ -855071,6 +855143,18 @@
     "lat": 49.5762625,
     "lon": 5.9572841,
     "address": "Rue de la Croix"
+  },
+  {
+    "id": 894035486,
+    "name": "De klenge Buttik",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.naturparkhaff.lu",
+    "lat": 49.9095103,
+    "lon": 5.8756055,
+    "address": null
   },
   {
     "id": 1655727084,

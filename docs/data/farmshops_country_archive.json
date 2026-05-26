@@ -627269,6 +627269,30 @@
       "lat": 46.7484084,
       "lon": 7.5417979,
       "address": null
+    },
+    {
+      "id": 5425594856,
+      "name": "Hof Schmutzberg",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Eptingen",
+      "products": [],
+      "website": null,
+      "lat": 47.3779362,
+      "lon": 7.8418139,
+      "address": "Schmutzberg"
+    },
+    {
+      "id": 12587591789,
+      "name": "Markststand Biohof Fräschels",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 46.9464864,
+      "lon": 7.4156287,
+      "address": null
     }
   ],
   "LI": [
