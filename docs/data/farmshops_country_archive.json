@@ -576704,6 +576704,18 @@
       "lat": 46.6279457,
       "lon": 14.6343365,
       "address": null
+    },
+    {
+      "id": 13875466702,
+      "name": "Saftverkauf der Gartenbauschule",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.4728183,
+      "lon": 15.697616,
+      "address": null
     }
   ],
   "CH": [
