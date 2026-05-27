@@ -228,6 +228,18 @@
     "address": null
   },
   {
+    "id": 894035486,
+    "name": "De klenge Buttik",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.naturparkhaff.lu",
+    "lat": 49.9095103,
+    "lon": 5.8756055,
+    "address": null
+  },
+  {
     "id": 1282590236,
     "name": "Regio Shop A Lill",
     "country": "Luxembourg",
@@ -250,18 +262,6 @@
     "lat": 49.5762625,
     "lon": 5.9572841,
     "address": "Rue de la Croix"
-  },
-  {
-    "id": 894035486,
-    "name": "De klenge Buttik",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.naturparkhaff.lu",
-    "lat": 49.9095103,
-    "lon": 5.8756055,
-    "address": null
   },
   {
     "id": 1655727084,
