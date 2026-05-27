@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-26T05:40:35.061834+00:00",
+  "generatedAt": "2026-05-27T05:43:25.883614+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 28,
+  "total": 24,
   "errors": [],
   "items": [
     {
@@ -17,17 +17,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=IT&ceid=IT%3Ait",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgJBVV95cUxOT1A0bXBEN21xblNBOS1objlnQmxFUk54NGVnVHFTT0RvUTlUVnFxMVZhS1F5ZkwwUlc3WnY2TTVhMTNvdVZXazUxRUVXYkduNnR5QW85QkdEQlFVWVBIV2xBeG9HdXFvak4tbUlOYXE2WEtnYkxzUm1EYnVTVEw5V0g4M0RiZElacjNNYS1ZOE1EbzhsOE9kZTJZcGZTS3E4Wk9mMVhXUFQtd2MtTnk3X3FyOGpRSGRGMW1zaWI3Vm5kdWVXWGgtTlhVZUJoVlBuRFNzalBoLVVqeVlZQWZGNFNBcHdYYktHOTFZR0FfM2FDcWo3Z1dtanlZUVA2eklVdTZkN2ZWNzJMX1BpMmdoSzNRc2ZhVUk5V2dTTmUwSzAyV0I1TlAyWFhfSkZMTXlWNWfSAbcCQVVfeXFMT2hJRzlySWFGUUxLQzNRMlM0R1Y3bFVkTzg0d0JNOXh4aVJxSFZ1OUlGNGdjUHY5MTZTaWhPRy1rYlF6Mk1lcFl6d2lWYk1YNGJuRndlSFVkZmlCZ1NMWl9BemU4TmRaajhXYXNwNFU5allySG0tRW1GRU5tTDZodkFneVBWRVZ3ZmlLWXIycU5ZT0NyeDR2NW9jRGhOUjNiM2dyRzZ4MC1kZUI5MFF5SlFKa2hndFhmWWRlSFBqR0lpbkxiOVRib3BTTzhqV0ZmbEJYT3U5MTlHZGdTd0l6TTFPaXg3cjNfQ2hlbmVNVzkxUy1aODlQSHhRNzE0U2ZuS1RKc3pia04xSUlKdXByUTlZT1JKX3U4UFdNRlFlQWxLM00zQWpYMElCYklCeFFodW56MUlpZU0?oc=5\" target=\"_blank\">Mangeresti pollo o maiale nutriti con farina di insetti? Gli italiani restano cauti. Lo studio internazionale</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Corriere della Sera</font>",
       "id": "fa40140f8813b577"
-    },
-    {
-      "title": "From maritime algae farming via sustainability transition in economically difficult times to military, war and the impacts of war - Umweltbundesamt",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMU5oV2J1QVRNRXROQ1B2ZG9fcGhmQk1DR3d6X2U0eWlYSEhpV2FuR2JmY25IV3BScDZEUmJsLVk5VGtEOE5MVVNlaXNhRFBXT0hXWFpJYzNncVVVTy1PQlhXRmtfQTQ2UlItSEFDcDBSTjJlVW5KblRlRXdCakNzQVh2N3Nwd3pBQUtaMjJ0WWZsR1VtVHc?oc=5",
-      "pubDate": "2026-05-19T08:35:57+00:00",
-      "source": "Umweltbundesamt",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOMU5oV2J1QVRNRXROQ1B2ZG9fcGhmQk1DR3d6X2U0eWlYSEhpV2FuR2JmY25IV3BScDZEUmJsLVk5VGtEOE5MVVNlaXNhRFBXT0hXWFpJYzNncVVVTy1PQlhXRmtfQTQ2UlItSEFDcDBSTjJlVW5KblRlRXdCakNzQVh2N3Nwd3pBQUtaMjJ0WWZsR1VtVHc?oc=5\" target=\"_blank\">From maritime algae farming via sustainability transition in economically difficult times to military, war and the impacts of war</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Umweltbundesamt</font>",
-      "id": "3b003d2f0a07a855"
     },
     {
       "title": "La farina di insetti, ecco i nuovi alimenti - Il Punto Quotidiano",
@@ -72,6 +61,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5\" target=\"_blank\">Nach Sicherheitsbedenken keine Bovaer-Pflicht</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Der Schweizer Bauer</font>",
       "id": "8c6898b4787fd9ca"
+    },
+    {
+      "title": "„Sustainability: Turning Intentions into Impact“ – Das ÖGNI Symposium findet im Herbst zum zweiten Mal statt - OTS.at",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRzUybWJ1MGViX0FVcmQ2aUdIV0lDSGhQbXVSWEprMXpCalA2VHpraXpVQzhtMUliNkQtMTZzNmg3Mmo0RXdpa3N2bXBJbHp0M3VoemZYMThMZFRuTGxRRHdvTjBBSVVsUHBla3RZZnQ1TVYtX3ZtZi1pVzJSRG9KUko3MFN5cDU1RENHcGFYNE9kMkF1OFp4Q2lnMGtjNi1sRjFYOWJpcXU0Rk5XTjVKTjFJenBMNlM5QjF6RTBPWUJJWWQ2WENFM1dkejlmZG45MEtkaVZfMDZNR2gyM0hoWFB0LUJFRWZhUi1XekZDU1NHY1k?oc=5",
+      "pubDate": "2026-04-14T07:00:00+00:00",
+      "source": "OTS.at",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRzUybWJ1MGViX0FVcmQ2aUdIV0lDSGhQbXVSWEprMXpCalA2VHpraXpVQzhtMUliNkQtMTZzNmg3Mmo0RXdpa3N2bXBJbHp0M3VoemZYMThMZFRuTGxRRHdvTjBBSVVsUHBla3RZZnQ1TVYtX3ZtZi1pVzJSRG9KUko3MFN5cDU1RENHcGFYNE9kMkF1OFp4Q2lnMGtjNi1sRjFYOWJpcXU0Rk5XTjVKTjFJenBMNlM5QjF6RTBPWUJJWWQ2WENFM1dkejlmZG45MEtkaVZfMDZNR2gyM0hoWFB0LUJFRWZhUi1XekZDU1NHY1k?oc=5\" target=\"_blank\">„Sustainability: Turning Intentions into Impact“ – Das ÖGNI Symposium findet im Herbst zum zweiten Mal statt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OTS.at</font>",
+      "id": "026b2fb4dfbddebd"
     },
     {
       "title": "DGNB Sustainability Challenge 2026 Vom Bio-Klebstoff bis zur klimaneutralen Speicherstadt - energiezukunft",
@@ -129,17 +129,6 @@
       "id": "db7f768c61c30c3d"
     },
     {
-      "title": "fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren - TU Wien",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5",
-      "pubDate": "2026-02-05T08:00:00+00:00",
-      "source": "TU Wien",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5\" target=\"_blank\">fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TU Wien</font>",
-      "id": "e23524d243a1fc09"
-    },
-    {
       "title": "Bovaer macht Probleme – Molkerei nimmt Milch nicht mehr an - Der Schweizer Bauer",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVVVWaXduYVdMUlJXbkFUUlRUa0dvdEI3YndONU1JbWRXbHhpTkRJMUtBMWdjckw1RmpmNDhGZG5wNUVmTEl6R3JoZC1YQTJ1Wnc4UU16SnhXSUxScFFrMUc1QmdtXzhkZzB2ckV4RDE4Rk9sRmZZOEJtYVl2aXN5QjZrUHdVX2R4cGV0ZzlYdk41RlJJZ1JzRkhsQTJSVEhEVUVLWFNIbGNRU1lBS0NwdQ?oc=5",
       "pubDate": "2026-01-29T08:00:00+00:00",
@@ -173,17 +162,6 @@
       "id": "8eeadf37fbf22171"
     },
     {
-      "title": "Interview Nachhaltigkeit und Change Management | Sustainability - Haufe. Intelligenz, die bewegt.",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVFueU5yQjZkcTJyQTNTcUZPTUFYRHJ4emFNVFFGM01GVGlydFhRckdkb05JVkRkWERRZGh3bW1UWm9rUGZSbFJGdWdxbkdYaEpBZWtHUTVpakRhQ2E2RVRScUstcnptcnA0ZnF0b0tRT1JnZERNZ1JuSldKTllmU2htLWZFdllVdmU2LUNnbXlmcWVLNHlqYnYwazhPclg0aGtkUFNLUXk5bDEwVFExdw?oc=5",
-      "pubDate": "2026-01-07T08:00:00+00:00",
-      "source": "Haufe. Intelligenz, die bewegt.",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVFueU5yQjZkcTJyQTNTcUZPTUFYRHJ4emFNVFFGM01GVGlydFhRckdkb05JVkRkWERRZGh3bW1UWm9rUGZSbFJGdWdxbkdYaEpBZWtHUTVpakRhQ2E2RVRScUstcnptcnA0ZnF0b0tRT1JnZERNZ1JuSldKTllmU2htLWZFdllVdmU2LUNnbXlmcWVLNHlqYnYwazhPclg0aGtkUFNLUXk5bDEwVFExdw?oc=5\" target=\"_blank\">Interview Nachhaltigkeit und Change Management | Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
-      "id": "6cea09a2b3ecf6b6"
-    },
-    {
       "title": "Sterben Kühe in Dänemark wegen Bovaer-Zusatzstoff? - Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ28takhiTVR0bXJpV1d4Q29QMThoYXFqRXdqU0haWG50UTVxTkRMN0lDdXdVZHZrQmlyY2c3YlhFWFdPWEN2RlU0OVVhQXdJakJ1WmJHWHB5dXJDZFZIVzNfQXpfa2VHeXBIa3lsWEEwUUJnTDE0a2Y0emI0N3lYdmhZQUFTRFpUV0dFRFFKVkhCVTktNHBld1Fn?oc=5",
       "pubDate": "2025-11-25T08:00:00+00:00",
@@ -215,17 +193,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2FsS2tUeUdHS3F2MUI3WXpnd0JFOW1wbDVUQm9UNVNsUFdaczdETV9QRlBWblpaV040SFBuRVpKUjZwbVk0dnFJZ2VIQnAySG5uTTRBaWFDN2dxc29faFZWR2hEcXc5U3JaQVg2cFB1TFUzQ2FFX2xzd2xDWnc4b0tFbEczYmlob3JFN0w1ZUxEQ1ctTE5GdHFvTlNzQWU5SHByb1JTOFJhalROVVdsLVF3blpaX3BwaEE?oc=5\" target=\"_blank\">Kontroverse um Bovaer: Ist der Klimaschutz-Zusatz eine Gefahr für Kühe?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Telepolis</font>",
       "id": "200bc09d41c0d224"
-    },
-    {
-      "title": "QS World University Rankings: Sustainability 2026 – Universität Freiburg national führend im Bereich Environmental Education – Universität Freiburg - Universität Freiburg",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUkdGRlB1WlF3TE1YcUJuZGdxcEY1Rk9ZUk9QN1pORGF6Tk5ySXl5TFBaNk5kUUtmTFRSLTkzVEZka0R5cTR2ODVqQmlocTRnSm01cGE3cmljV085SS12aUszOXozVzFQTVdWMzdTR3l3em1nUm9DUVdqRVU0N0RSOTY0bENHRDRfaFhPT2dtUUdXbldNenRjVnlsSDVGRFlaYmRib1haQmVYbUNsWFB0Q1p0cWJvSEJKaUZZNWctMXpMTEtGZVZtM09HQy1nNFEyMC1vczBRZnZGMEszWFVCR0Jn?oc=5",
-      "pubDate": "2025-11-21T08:00:00+00:00",
-      "source": "Universität Freiburg",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNUkdGRlB1WlF3TE1YcUJuZGdxcEY1Rk9ZUk9QN1pORGF6Tk5ySXl5TFBaNk5kUUtmTFRSLTkzVEZka0R5cTR2ODVqQmlocTRnSm01cGE3cmljV085SS12aUszOXozVzFQTVdWMzdTR3l3em1nUm9DUVdqRVU0N0RSOTY0bENHRDRfaFhPT2dtUUdXbldNenRjVnlsSDVGRFlaYmRib1haQmVYbUNsWFB0Q1p0cWJvSEJKaUZZNWctMXpMTEtGZVZtM09HQy1nNFEyMC1vczBRZnZGMEszWFVCR0Jn?oc=5\" target=\"_blank\">QS World University Rankings: Sustainability 2026 – Universität Freiburg national führend im Bereich Environmental Education – Universität Freiburg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Universität Freiburg</font>",
-      "id": "b76993b0f69cb7e0"
     },
     {
       "title": "Tote Kühe nach Bovaer? Norwegen bremst – Dänemark rebelliert - agrarheute.com",
@@ -281,17 +248,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3JUbVM3eGR6eE1rR1VZQ01tTDUxcUxJVTFCdWc3YnVjNENxU1BYR1l4a00xaGU0RDRzcU1FblV3ZGU1VklLQmowcVdsR3FTVGF2QldqSjlnSDBITk56WWRkU09NNGJoWWIyZDBxN1BlNzNWaGRUeVNHaF9UU3I0dU0xcFhMRkZENVBKY09XZ2pyREJwNEJpU2YtbDA?oc=5\" target=\"_blank\">3. Internationale Konferenz \"Sustainability in Hydropower\" in Wien</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bundesministerium für Land</font>",
       "id": "df10107685738243"
-    },
-    {
-      "title": "Insektenmehl & Co: Achtung, Allergiealarm! - netDoktor",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OdzBJMmVwR3V1YU50RFZsUU9IcE9aeEUxZVRqWUx1enNFNTlockJYVmd6blRROE53ZlhpVGhoOWgxRVhENXlMaW9UUi13alpmRmNpQjJSTENRRDBuUmk0NGZmZVRCbXM0aUFBZ09KX3hPNjBObGdqOFdn?oc=5",
-      "pubDate": "2025-06-04T07:00:00+00:00",
-      "source": "netDoktor",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9OdzBJMmVwR3V1YU50RFZsUU9IcE9aeEUxZVRqWUx1enNFNTlockJYVmd6blRROE53ZlhpVGhoOWgxRVhENXlMaW9UUi13alpmRmNpQjJSTENRRDBuUmk0NGZmZVRCbXM0aUFBZ09KX3hPNjBObGdqOFdn?oc=5\" target=\"_blank\">Insektenmehl & Co: Achtung, Allergiealarm!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">netDoktor</font>",
-      "id": "5931333519103064"
     },
     {
       "title": "\"Hamburg Sustainability Conference\": Nachhaltigkeit im Fokus - NDR.de",
