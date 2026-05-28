@@ -210045,6 +210045,18 @@
       "lat": 51.1342487,
       "lon": 4.8835409,
       "address": null
+    },
+    {
+      "id": 5102336578,
+      "name": "De Blijdenberghoeve",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.blijdenberghoeve.be/",
+      "lat": 51.028473,
+      "lon": 4.5402971,
+      "address": null
     }
   ],
   "FR": [
