@@ -185159,6 +185159,18 @@
       "lat": 52.1383046,
       "lon": 6.3908739,
       "address": null
+    },
+    {
+      "id": 2860463269,
+      "name": "Boerderijwinkel De Geer",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Gendt",
+      "products": [],
+      "website": "https://boerderijwinkeldegeer.nl",
+      "lat": 51.8884178,
+      "lon": 5.956413,
+      "address": "Flierensestraat"
     }
   ],
   "BE": [
@@ -576727,6 +576739,42 @@
       "website": null,
       "lat": 48.4728183,
       "lon": 15.697616,
+      "address": null
+    },
+    {
+      "id": 13887147703,
+      "name": "Hofladen Weißenberger",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.8880783,
+      "lon": 15.9598128,
+      "address": null
+    },
+    {
+      "id": 13887176506,
+      "name": "Do schmeckts Automat",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.doschmeckts.at/",
+      "lat": 47.8975719,
+      "lon": 15.9601843,
+      "address": null
+    },
+    {
+      "id": 13887892201,
+      "name": "Digles",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.2489702,
+      "lon": 16.3657285,
       "address": null
     }
   ],

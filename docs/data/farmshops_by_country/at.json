@@ -9900,6 +9900,42 @@
     "address": null
   },
   {
+    "id": 13887147703,
+    "name": "Hofladen Weißenberger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8880783,
+    "lon": 15.9598128,
+    "address": null
+  },
+  {
+    "id": 13887176506,
+    "name": "Do schmeckts Automat",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.doschmeckts.at/",
+    "lat": 47.8975719,
+    "lon": 15.9601843,
+    "address": null
+  },
+  {
+    "id": 13887892201,
+    "name": "Digles",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2489702,
+    "lon": 16.3657285,
+    "address": null
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",

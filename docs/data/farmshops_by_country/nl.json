@@ -1874,6 +1874,18 @@
     "address": "Zijp"
   },
   {
+    "id": 2860463269,
+    "name": "Boerderijwinkel De Geer",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Gendt",
+    "products": [],
+    "website": "https://boerderijwinkeldegeer.nl",
+    "lat": 51.8884178,
+    "lon": 5.956413,
+    "address": "Flierensestraat"
+  },
+  {
     "id": 2861218003,
     "name": "'t Boerenwinkeltje",
     "country": "Netherlands",
