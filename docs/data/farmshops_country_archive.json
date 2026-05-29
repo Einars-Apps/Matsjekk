@@ -25076,6 +25076,19 @@
       "lon": 5.712307,
       "address": "Saudavegen 7194",
       "source": "https://www.hanen.no/bedrift/nesheimstunet-as/"
+    },
+    {
+      "id": "hanen_620",
+      "name": "Hemsedal Flatbrødbakeri A/S",
+      "country": "Norway",
+      "region": "Buskerud",
+      "municipality": "Hemsedal",
+      "products": [],
+      "website": "https://www.hemsedalflatbrodbakeri.no",
+      "lat": 60.878892,
+      "lon": 8.482519,
+      "address": "Hemsedalsvegen 3445",
+      "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
     }
   ],
   "SE": [

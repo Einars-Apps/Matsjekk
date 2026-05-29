@@ -14435,8 +14435,8 @@
     "municipality": "Hemsedal",
     "products": [],
     "website": "https://www.hemsedalflatbrodbakeri.no",
-    "lat": 60.878934,
-    "lon": 8.483056,
+    "lat": 60.878892,
+    "lon": 8.482519,
     "address": "Hemsedalsvegen 3445",
     "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
   },
@@ -15934,6 +15934,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_620",
+    "name": "Hemsedal Flatbrødbakeri A/S",
+    "country": "Norway",
+    "region": "Buskerud",
+    "municipality": "Hemsedal",
+    "products": [],
+    "website": "https://www.hemsedalflatbrodbakeri.no",
+    "lat": 60.878934,
+    "lon": 8.483056,
+    "address": "Hemsedalsvegen 3445",
+    "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
   },
   {
     "id": "lokalmat_11670",
