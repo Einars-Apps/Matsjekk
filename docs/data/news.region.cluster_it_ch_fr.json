@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T05:42:46.906666+00:00",
+  "generatedAt": "2026-05-30T05:33:55.140947+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 21,
+  "total": 22,
   "errors": [],
   "items": [
     {
@@ -52,15 +52,26 @@
       "id": "8c6898b4787fd9ca"
     },
     {
-      "title": "DGNB Sustainability Challenge 2026 Vom Bio-Klebstoff bis zur klimaneutralen Speicherstadt - energiezukunft",
+      "title": "„Sustainability: Turning Intentions into Impact“ – Das ÖGNI Symposium findet im Herbst zum zweiten Mal statt - OTS.at",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRzUybWJ1MGViX0FVcmQ2aUdIV0lDSGhQbXVSWEprMXpCalA2VHpraXpVQzhtMUliNkQtMTZzNmg3Mmo0RXdpa3N2bXBJbHp0M3VoemZYMThMZFRuTGxRRHdvTjBBSVVsUHBla3RZZnQ1TVYtX3ZtZi1pVzJSRG9KUko3MFN5cDU1RENHcGFYNE9kMkF1OFp4Q2lnMGtjNi1sRjFYOWJpcXU0Rk5XTjVKTjFJenBMNlM5QjF6RTBPWUJJWWQ2WENFM1dkejlmZG45MEtkaVZfMDZNR2gyM0hoWFB0LUJFRWZhUi1XekZDU1NHY1k?oc=5",
+      "pubDate": "2026-04-14T07:00:00+00:00",
+      "source": "OTS.at",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRzUybWJ1MGViX0FVcmQ2aUdIV0lDSGhQbXVSWEprMXpCalA2VHpraXpVQzhtMUliNkQtMTZzNmg3Mmo0RXdpa3N2bXBJbHp0M3VoemZYMThMZFRuTGxRRHdvTjBBSVVsUHBla3RZZnQ1TVYtX3ZtZi1pVzJSRG9KUko3MFN5cDU1RENHcGFYNE9kMkF1OFp4Q2lnMGtjNi1sRjFYOWJpcXU0Rk5XTjVKTjFJenBMNlM5QjF6RTBPWUJJWWQ2WENFM1dkejlmZG45MEtkaVZfMDZNR2gyM0hoWFB0LUJFRWZhUi1XekZDU1NHY1k?oc=5\" target=\"_blank\">„Sustainability: Turning Intentions into Impact“ – Das ÖGNI Symposium findet im Herbst zum zweiten Mal statt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OTS.at</font>",
+      "id": "026b2fb4dfbddebd"
+    },
+    {
+      "title": "DGNB Sustainability Challenge 2026: Vom Bio-Klebstoff bis zur klimaneutralen Speicherstadt - energiezukunft",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeERITU9GbVU2M0I2dDdvUDBLa0wzSXUtRkhZSHRDWjJpV2lVcXNpN1JyUGRSeHJ4RVNLQVJXbE4yYkJ5eE1UZTAtT2ZVSUtWaDNXcnR3ZUFWUlU0MHdDREZxY0lnM0l0aFJUeGp2ekNKMjAzU1JHeDJpX0ZsemdhTS0zLUtiREp5Y1JVem5nX3FUV3Bk?oc=5",
       "pubDate": "2026-04-14T04:03:58+00:00",
       "source": "energiezukunft",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNeERITU9GbVU2M0I2dDdvUDBLa0wzSXUtRkhZSHRDWjJpV2lVcXNpN1JyUGRSeHJ4RVNLQVJXbE4yYkJ5eE1UZTAtT2ZVSUtWaDNXcnR3ZUFWUlU0MHdDREZxY0lnM0l0aFJUeGp2ekNKMjAzU1JHeDJpX0ZsemdhTS0zLUtiREp5Y1JVem5nX3FUV3Bk?oc=5\" target=\"_blank\">DGNB Sustainability Challenge 2026 Vom Bio-Klebstoff bis zur klimaneutralen Speicherstadt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">energiezukunft</font>",
-      "id": "106d5f480b8932b0"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNeERITU9GbVU2M0I2dDdvUDBLa0wzSXUtRkhZSHRDWjJpV2lVcXNpN1JyUGRSeHJ4RVNLQVJXbE4yYkJ5eE1UZTAtT2ZVSUtWaDNXcnR3ZUFWUlU0MHdDREZxY0lnM0l0aFJUeGp2ekNKMjAzU1JHeDJpX0ZsemdhTS0zLUtiREp5Y1JVem5nX3FUV3Bk?oc=5\" target=\"_blank\">DGNB Sustainability Challenge 2026: Vom Bio-Klebstoff bis zur klimaneutralen Speicherstadt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">energiezukunft</font>",
+      "id": "bc328549855d2554"
     },
     {
       "title": "Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri - Maritima",
@@ -107,15 +118,15 @@
       "id": "2b43f08f12215124"
     },
     {
-      "title": "ETH Zürich erneuert Partnerschaft mit NZZ Sustainable Switzerland – Staffnet - ETH Zürich",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORWYxbU5NUE9fNF9WU0NTeDlJNGY2NTRMelhLcWFINnJDTlZTd0RfQ1llZXJpMjh6OG5IdnFrN3FMSTNkU0JoSWFsNDQxTXU0WE4ySmdUOV94SXo4Ym5TYVo2MDY3a0VmLWkydHFuaDRRNDl3eWVHaUg3WV9IWnhvdGh0aE1OT3I3UUdOMUVQNDBUV25qckRUbTY4WjZWYVJXYnVTXzZYNzAyZzQxc1diMkhreXpOQTNlZmlWeXZKUkItaWdMVlZlNnZQTUhidkR4Mm1qWkp2ZlpiVEFIc3cySzQzRnJQMGdJZ2c?oc=5",
-      "pubDate": "2026-02-16T08:00:00+00:00",
-      "source": "ETH Zürich",
+      "title": "fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren - TU Wien",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5",
+      "pubDate": "2026-02-05T08:00:00+00:00",
+      "source": "TU Wien",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxORWYxbU5NUE9fNF9WU0NTeDlJNGY2NTRMelhLcWFINnJDTlZTd0RfQ1llZXJpMjh6OG5IdnFrN3FMSTNkU0JoSWFsNDQxTXU0WE4ySmdUOV94SXo4Ym5TYVo2MDY3a0VmLWkydHFuaDRRNDl3eWVHaUg3WV9IWnhvdGh0aE1OT3I3UUdOMUVQNDBUV25qckRUbTY4WjZWYVJXYnVTXzZYNzAyZzQxc1diMkhreXpOQTNlZmlWeXZKUkItaWdMVlZlNnZQTUhidkR4Mm1qWkp2ZlpiVEFIc3cySzQzRnJQMGdJZ2c?oc=5\" target=\"_blank\">ETH Zürich erneuert Partnerschaft mit NZZ Sustainable Switzerland – Staffnet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ETH Zürich</font>",
-      "id": "db7f768c61c30c3d"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQc0FLalUyRG9LY3l6Mnh3UExWdURwaTQ1VFo0UTJadkZROGdNOG9iaTZsakU0ZTRfSEYwRTA1R3lPbFh0Q1c3MTV6aUQtY3ZkcGZ2S2RPLTJ6djhKZEFrQWtlb2dya3NMVnh6MldCUW9aWmRwckNGdG1ZaU82ZGpOb2lwV3htZTRjSTl6NFdhNmhmUWtkZ0VNZUE2bDAxZw?oc=5\" target=\"_blank\">fuTUre fit Projekt TU SustainAbility – Nachhaltigkeit interdisziplinär studieren</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TU Wien</font>",
+      "id": "e23524d243a1fc09"
     },
     {
       "title": "Bovaer macht Probleme – Molkerei nimmt Milch nicht mehr an - Der Schweizer Bauer",
@@ -195,15 +206,15 @@
       "id": "22d435d1b870d1eb"
     },
     {
-      "title": "Dänische Behörden untersuchen Berichte über Bovaer-Einsatz - De Molenaar",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2pCVVE0eWFIZ1NtNElNMTM4dW9nNXpQU3FycTlUT1l5dV9GS1hlRWJELTdOWm9Hd1h0YWtZeGctX1B6eWc1QjZKSXBwcUdpUjBaTHoxdlliYkJrYjUxbHZRYjJLb1pmU0VXYkYzMF9maTJ4TjdCOGxEMEtPc1J2WHQyWURWTkxEd2R0M1NZTWtXd0NzajMzekhzT2RpY3ltcmxMLThpSkRKUzFXUEJoYUlTSlFDV092S0FYTjJncTU4Njl6blE?oc=5",
-      "pubDate": "2025-11-04T08:00:00+00:00",
-      "source": "De Molenaar",
+      "title": "Nachhaltigkeit | Sustainability Award in Automotive 2026 startet - springerprofessional.de",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSTJfZVhJUVBSTFZyanowZ0NsUlBKbXlRMnJYTTFjZVV4bHZFT3JfS1VFN2NJREtwa05QeE5JSWlWUUFDenN4SEUzOVJuM0hYNURRMHRzSTR6OGRjbkhqd1A2WFkwcnlQSHNCeUdKYnl2Y2tEb3p4Y3NkaUllRVBjYXZzT3dHU2xDS09NemVqWmlVRFNiOTBhWkRhVUpVR1pvR1ZVUXplTWdRdkJQUkU0Ymw3ZlRTdkFMQk9ZYzFVU2I4TGFJdWFqUF9FZEtLT3FN?oc=5",
+      "pubDate": "2025-11-01T07:00:00+00:00",
+      "source": "springerprofessional.de",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2pCVVE0eWFIZ1NtNElNMTM4dW9nNXpQU3FycTlUT1l5dV9GS1hlRWJELTdOWm9Hd1h0YWtZeGctX1B6eWc1QjZKSXBwcUdpUjBaTHoxdlliYkJrYjUxbHZRYjJLb1pmU0VXYkYzMF9maTJ4TjdCOGxEMEtPc1J2WHQyWURWTkxEd2R0M1NZTWtXd0NzajMzekhzT2RpY3ltcmxMLThpSkRKUzFXUEJoYUlTSlFDV092S0FYTjJncTU4Njl6blE?oc=5\" target=\"_blank\">Dänische Behörden untersuchen Berichte über Bovaer-Einsatz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">De Molenaar</font>",
-      "id": "f81f279066be03f7"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSTJfZVhJUVBSTFZyanowZ0NsUlBKbXlRMnJYTTFjZVV4bHZFT3JfS1VFN2NJREtwa05QeE5JSWlWUUFDenN4SEUzOVJuM0hYNURRMHRzSTR6OGRjbkhqd1A2WFkwcnlQSHNCeUdKYnl2Y2tEb3p4Y3NkaUllRVBjYXZzT3dHU2xDS09NemVqWmlVRFNiOTBhWkRhVUpVR1pvR1ZVUXplTWdRdkJQUkU0Ymw3ZlRTdkFMQk9ZYzFVU2I4TGFJdWFqUF9FZEtLT3FN?oc=5\" target=\"_blank\">Nachhaltigkeit | Sustainability Award in Automotive 2026 startet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">springerprofessional.de</font>",
+      "id": "3d7f5a96df8c0cc8"
     },
     {
       "title": "3. Internationale Konferenz \"Sustainability in Hydropower\" in Wien - Bundesministerium für Land",

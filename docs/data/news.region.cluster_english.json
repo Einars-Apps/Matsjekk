@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T05:42:46.907280+00:00",
+  "generatedAt": "2026-05-30T05:33:55.141824+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 26,
+  "total": 25,
   "errors": [],
   "items": [
     {
@@ -24,10 +24,21 @@
       "pubDate": "2026-05-21T15:03:42+00:00",
       "source": "PetfoodIndustry",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRGF6azUtQTVIWS1QM1JPZFZ4U1dXRm12ZkROamNPN1dXSzhPNUpPZ0pVUGh0YlA1VkpsVzFGMmw2TXFsckItQUFRTTFTekhlWUJEYzJTa1pzcjZONDFHVVdRNTN5VlpDTGl6Z29Mak9VZ2xFVFBBMy1kYWVzSHNhRDh1cy1vU0EtVHRHVjJUUVNZU0VlMnpxSmI3N295UExOZ2pZSEJwdndud1J6bUZ5eW9HNzlLX0x2M0VWQURuTmZubWd2eGl4N2JzYUw2ZVc5ZVV0N2JFMkFOblBiLXhIVHlR?oc=5\" target=\"_blank\">Health beats sustainability in alternative protein pet food purchases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
       "id": "c56061ad040abab9"
+    },
+    {
+      "title": "Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture” - Insider Media Ltd",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5",
+      "pubDate": "2026-05-02T07:00:00+00:00",
+      "source": "Insider Media Ltd",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5\" target=\"_blank\">Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insider Media Ltd</font>",
+      "id": "88b3002429e3e5c5"
     },
     {
       "title": "Nord University: study points to insect meal and algae oil as alternatives in feed - SalmonBusiness",
@@ -228,17 +239,6 @@
       "id": "4eca252d0b1607fd"
     },
     {
-      "title": "Insect Meal Startup Finds Rapid Growth with Innovative Aquafeed - Feed Strategy",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEJoN2pFdkpoWkc0dmxzcEJ5bWhncTljalp1bjVZZXlobnhob2xMajJqNE0ybzUwTFE4Z2hXUXFSalRaYzdxdzM4S204RXE1RUUwaHFGbE9XZWluTnFjSHFFWU05Z0E2N25OT0NhLTl1U3B0Q2RETHZaV09xY2lQbHFkYVdLbE01SzIyRGZUVkR3Yko4TXJSRmd4TDQ2Z1FOVGxiWEZHYzlGMlNMMU5HajlRZkV3YXBabnJDV3dBVEFLZVJpWVNzenFJSGFrMFA4TjZBag?oc=5",
-      "pubDate": "2025-09-23T07:00:00+00:00",
-      "source": "Feed Strategy",
-      "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEJoN2pFdkpoWkc0dmxzcEJ5bWhncTljalp1bjVZZXlobnhob2xMajJqNE0ybzUwTFE4Z2hXUXFSalRaYzdxdzM4S204RXE1RUUwaHFGbE9XZWluTnFjSHFFWU05Z0E2N25OT0NhLTl1U3B0Q2RETHZaV09xY2lQbHFkYVdLbE01SzIyRGZUVkR3Yko4TXJSRmd4TDQ2Z1FOVGxiWEZHYzlGMlNMMU5HajlRZkV3YXBabnJDV3dBVEFLZVJpWVNzenFJSGFrMFA4TjZBag?oc=5\" target=\"_blank\">Insect Meal Startup Finds Rapid Growth with Innovative Aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Feed Strategy</font>",
-      "id": "76f628322d34e92b"
-    },
-    {
       "title": "New 7,000-tonne insect meal factory announced in Thailand - The Fish Site",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTk2Z3ZLLTBwRXZKUUxHWHFlN29EUzFfbDdVQi1IejhxWVR0Wl9rZXAwRXJ6TTYtbV9XMGF4WjhSeHkxUkNvRWs0SWJNbEF1WmlNTnhqNWpHZnF4UU94REs2XzVONlYyZVZBeklWaDFJWllGZ2NWd0JJUFY1Ui14Mm1pRHpVZWNfQWZ3Ql83WVBVWHMx?oc=5",
       "pubDate": "2025-09-08T07:00:00+00:00",
@@ -281,17 +281,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHU1NqeTVLbGFxaV9tS0dfQTYwN2hYamhZZWcwSnRBTHFjMEFTRmlld1lkeDNGUUVKcWE0WVRyWWUxOGEyX1RtSVo3eUtxdnp4Y2VGeExtYjVIMXZLYWVr?oc=5\" target=\"_blank\">Beyond the buzz: insect-based foods are unlikely to significantly reduce meat consumption | npj Sustainable Agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "0a6c0e1a059d45c7"
-    },
-    {
-      "title": "CGIAR Sustainable Farming Program deploying scientific tools to ensure food security from pests and disease - CGIAR",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ0hFZ3hGSEdmZXpaVUpfZTBkeTBqZmNVYUFraXZsTnpRNS1qbmxuN21NdVR2R3FRbTJ1UGdNV0k3eXFqWkV3OVp0TmxfdE13YW5qRVd3WjNCTE9vaDJhdFoyUzZ1SWZHalVONEo3UzE4eVBWZHFLZ0NyQzVMUEc1d3BlM3cwajB3a2R4ckJsZzgwOXJVc0pjQ3MwVTU5clNpZ0h1dzgyeGE4eUNLQ3hNLXZlMlRqbzBOcmhwZ0pRLU1WakNPTF9UTzdXWEtJMnltOW5VS0ZkS0hiekoxcWdF?oc=5",
-      "pubDate": "2025-06-06T07:00:00+00:00",
-      "source": "CGIAR",
-      "language": "en",
-      "country": "NZ",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ0hFZ3hGSEdmZXpaVUpfZTBkeTBqZmNVYUFraXZsTnpRNS1qbmxuN21NdVR2R3FRbTJ1UGdNV0k3eXFqWkV3OVp0TmxfdE13YW5qRVd3WjNCTE9vaDJhdFoyUzZ1SWZHalVONEo3UzE4eVBWZHFLZ0NyQzVMUEc1d3BlM3cwajB3a2R4ckJsZzgwOXJVc0pjQ3MwVTU5clNpZ0h1dzgyeGE4eUNLQ3hNLXZlMlRqbzBOcmhwZ0pRLU1WakNPTF9UTzdXWEtJMnltOW5VS0ZkS0hiekoxcWdF?oc=5\" target=\"_blank\">CGIAR Sustainable Farming Program deploying scientific tools to ensure food security from pests and disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CGIAR</font>",
-      "id": "e466e44f11c685bd"
     }
   ]
 }
