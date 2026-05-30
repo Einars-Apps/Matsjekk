@@ -525285,6 +525285,18 @@
       "lat": 51.026543,
       "lon": -1.4082543,
       "address": "Hursley Park Road"
+    },
+    {
+      "id": 12148375750,
+      "name": "Quayside Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.3548643,
+      "lon": -4.4549652,
+      "address": null
     }
   ],
   "IE": [
@@ -576800,6 +576812,18 @@
       "website": null,
       "lat": 48.2489702,
       "lon": 16.3657285,
+      "address": null
+    },
+    {
+      "id": 1121207001,
+      "name": "Kirchtalfisch",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Hainfeld",
+      "products": [],
+      "website": "https://kirchtalfisch.at/",
+      "lat": 48.0313755,
+      "lon": 15.7638611,
       "address": null
     }
   ],
@@ -629103,6 +629127,18 @@
       "address": null,
       "source": "osm",
       "phone": "+352 26 26 21 26"
+    },
+    {
+      "id": 1121638233,
+      "name": "Kaaschbësch",
+      "country": "Luxembourg",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 49.7663931,
+      "lon": 5.8307245,
+      "address": null
     }
   ]
 }
