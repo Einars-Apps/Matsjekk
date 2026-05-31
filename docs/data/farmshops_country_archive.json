@@ -418897,6 +418897,18 @@
       "lat": 39.3193042,
       "lon": -9.1355355,
       "address": "Rua Nossa Senhora do Socorro"
+    },
+    {
+      "id": 13897241073,
+      "name": "Rocas Vale Ouro",
+      "country": "Portugal",
+      "region": null,
+      "municipality": "Vila Real",
+      "products": [],
+      "website": null,
+      "lat": 41.2957604,
+      "lon": -7.7455804,
+      "address": "Rua Camilo Castelo Branco"
     }
   ],
   "ES": [
