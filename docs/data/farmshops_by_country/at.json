@@ -14112,6 +14112,18 @@
     "address": "Neugasse"
   },
   {
+    "id": 1121207001,
+    "name": "Kirchtalfisch",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Hainfeld",
+    "products": [],
+    "website": "https://kirchtalfisch.at/",
+    "lat": 48.0313755,
+    "lon": 15.7638611,
+    "address": null
+  },
+  {
     "id": 1503481253,
     "name": "Eisnerforst",
     "country": "Austria",

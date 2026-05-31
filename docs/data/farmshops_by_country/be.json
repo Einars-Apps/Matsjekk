@@ -3720,6 +3720,18 @@
     "address": "Korte Akkerstraat"
   },
   {
+    "id": 13897275429,
+    "name": "Schapenmelkerij Bosschelle",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Denderhoutem",
+    "products": [],
+    "website": "http://www.onlinehoevewinkel.be",
+    "lat": 50.8721645,
+    "lon": 4.0225343,
+    "address": "Teerlingstraat"
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",

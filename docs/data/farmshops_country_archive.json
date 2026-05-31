@@ -210070,6 +210070,18 @@
       "lat": 51.028473,
       "lon": 4.5402971,
       "address": null
+    },
+    {
+      "id": 13897275429,
+      "name": "Schapenmelkerij Bosschelle",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Denderhoutem",
+      "products": [],
+      "website": "http://www.onlinehoevewinkel.be",
+      "lat": 50.8721645,
+      "lon": 4.0225343,
+      "address": "Teerlingstraat"
     }
   ],
   "FR": [
