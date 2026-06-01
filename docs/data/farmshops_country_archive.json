@@ -576897,6 +576897,18 @@
       "lat": 48.0313755,
       "lon": 15.7638611,
       "address": null
+    },
+    {
+      "id": 13897258796,
+      "name": "Vorratskammer",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Nenzing",
+      "products": [],
+      "website": "https://vorratskammer-beschling.at/",
+      "lat": 47.1907698,
+      "lon": 9.68439,
+      "address": "Badaila"
     }
   ],
   "CH": [
