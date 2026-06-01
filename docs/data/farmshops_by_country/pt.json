@@ -468,6 +468,18 @@
     "address": "Rua da Póvoa"
   },
   {
+    "id": 13897241073,
+    "name": "Rocas Vale Ouro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Real",
+    "products": [],
+    "website": "https://bcdvilareal.pt/lojas/rocas-vale-ouro/",
+    "lat": 41.2957604,
+    "lon": -7.7455804,
+    "address": "Rua Camilo Castelo Branco"
+  },
+  {
     "id": 99721279,
     "name": "Quinta da Fonte Santa",
     "country": "Portugal",

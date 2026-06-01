@@ -883,8 +883,8 @@
     "municipality": "Saundersfoot",
     "products": [],
     "website": null,
-    "lat": 51.7029356,
-    "lon": -4.7212876,
+    "lat": 51.7028309,
+    "lon": -4.7212527,
     "address": "Narberth Road"
   },
   {
@@ -6696,6 +6696,18 @@
     "address": null
   },
   {
+    "id": 13895415103,
+    "name": "The Piggery Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.3765665,
+    "lon": -1.9550574,
+    "address": "West End"
+  },
+  {
     "id": 3713847,
     "name": "Great Covert",
     "country": "United Kingdom",
@@ -10663,8 +10675,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9717549,
-    "lon": 0.9852476,
+    "lat": 51.9717651,
+    "lon": 0.9852387,
     "address": null
   },
   {
@@ -11071,8 +11083,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9244996,
-    "lon": 0.9718531,
+    "lat": 51.9245307,
+    "lon": 0.9718582,
     "address": null
   },
   {
@@ -18636,6 +18648,18 @@
     "address": null
   },
   {
+    "id": 2102934550,
+    "name": "Four Seasons Farm Shop and Deli",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Saundersfoot",
+    "products": [],
+    "website": null,
+    "lat": 51.7029356,
+    "lon": -4.7212876,
+    "address": "Narberth Road"
+  },
+  {
     "id": 5485947407,
     "name": "Mee Market Korean Food Hall",
     "country": "United Kingdom",
@@ -18672,6 +18696,18 @@
     "address": "The Shore"
   },
   {
+    "id": 617649952,
+    "name": "Hall Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.9717549,
+    "lon": 0.9852476,
+    "address": null
+  },
+  {
     "id": 676284558,
     "name": "Berkenshaw",
     "country": "United Kingdom",
@@ -18681,6 +18717,18 @@
     "website": null,
     "lat": 53.4920215,
     "lon": -3.0460179,
+    "address": null
+  },
+  {
+    "id": 720488196,
+    "name": "Skylark",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.9244996,
+    "lon": 0.9718531,
     "address": null
   },
   {
