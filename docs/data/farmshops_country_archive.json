@@ -576909,6 +576909,18 @@
       "lat": 47.1907698,
       "lon": 9.68439,
       "address": "Badaila"
+    },
+    {
+      "id": 10699760698,
+      "name": "Mosberger Pilzmanufaktur",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 48.2731718,
+      "lon": 14.451819,
+      "address": null
     }
   ],
   "CH": [
@@ -627497,6 +627509,30 @@
       "website": null,
       "lat": 46.9464864,
       "lon": 7.4156287,
+      "address": null
+    },
+    {
+      "id": 13899712900,
+      "name": "Zürich-Grünwald",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.4169942,
+      "lon": 8.4833638,
+      "address": null
+    },
+    {
+      "id": 1524746085,
+      "name": "Hof Wildsberg",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.35767,
+      "lon": 8.6915284,
       "address": null
     }
   ],
