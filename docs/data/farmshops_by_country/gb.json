@@ -544,7 +544,7 @@
     "name": "Pearce's Farm Shop & Cafe",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Buntingford",
+    "municipality": null,
     "products": [],
     "website": "https://pearcesfarmshop.com/",
     "lat": 51.9003723,
@@ -883,8 +883,8 @@
     "municipality": "Saundersfoot",
     "products": [],
     "website": null,
-    "lat": 51.7028309,
-    "lon": -4.7212527,
+    "lat": 51.7029356,
+    "lon": -4.7212876,
     "address": "Narberth Road"
   },
   {
@@ -1564,7 +1564,7 @@
     "name": "Bradmoor Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": "Haddenham",
     "products": [],
     "website": null,
     "lat": 51.7775417,
@@ -1794,7 +1794,7 @@
     "region": null,
     "municipality": "Leeds",
     "products": [],
-    "website": "https://www.horsforthpickyourown.co.uk/",
+    "website": "http://www.horsforthpickyourown.co.uk/",
     "lat": 53.8338599,
     "lon": -1.6572352,
     "address": "Calverley Lane"
@@ -2032,7 +2032,7 @@
     "name": "Munns Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Berkhamsted",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.8357369,
@@ -2502,7 +2502,7 @@
     "region": null,
     "municipality": "Bruton",
     "products": [],
-    "website": "https://www.gilcombefarm.co.uk/",
+    "website": "http://www.gilcombefarm.co.uk/",
     "lat": 51.1264113,
     "lon": -2.4362558,
     "address": "Cuckoo Hill"
@@ -2695,8 +2695,8 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118071,
-    "lon": -0.1335966,
+    "lat": 51.5118118,
+    "lon": -0.1335462,
     "address": "Archer Street"
   },
   {
@@ -2797,7 +2797,7 @@
   },
   {
     "id": 5866061835,
-    "name": "The Farm Shop",
+    "name": "Peterley Manor Farm",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -3040,7 +3040,7 @@
     "name": "Hill View Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Princes Risborough",
+    "municipality": "Saunderton Lee",
     "products": [],
     "website": "https://www.hillviewmoments.com/",
     "lat": 51.6925501,
@@ -3412,7 +3412,7 @@
     "name": "Hillfoot Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Biggleswade",
+    "municipality": "Langford",
     "products": [],
     "website": null,
     "lat": 52.0472006,
@@ -3436,7 +3436,7 @@
     "name": "Franklins of Thorncote Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Hatch",
     "products": [],
     "website": null,
     "lat": 52.1166949,
@@ -3448,7 +3448,7 @@
     "name": "Knotts of Tempsford",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Tempsford",
     "products": [],
     "website": "https://www.knottsoftempsford.co.uk/farm-shop",
     "lat": 52.1711501,
@@ -3618,7 +3618,7 @@
     "region": null,
     "municipality": "Cote",
     "products": [],
-    "website": "https://ransons-nurseries.co.uk/",
+    "website": "http://ransons-nurseries.co.uk/",
     "lat": 51.7240761,
     "lon": -1.4948333,
     "address": null
@@ -5826,7 +5826,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://trentsfoods.com/",
+    "website": "trentsfoods.com",
     "lat": 51.5406089,
     "lon": -2.4873818,
     "address": null
@@ -5841,18 +5841,6 @@
     "website": null,
     "lat": 50.6946331,
     "lon": -1.4629575,
-    "address": null
-  },
-  {
-    "id": 12148375750,
-    "name": "Quayside Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.3548643,
-    "lon": -4.4549652,
     "address": null
   },
   {
@@ -6588,18 +6576,6 @@
     "address": null
   },
   {
-    "id": 13615171555,
-    "name": "Upper Dysart Larder",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Montrose",
-    "products": [],
-    "website": null,
-    "lat": 56.6708665,
-    "lon": -2.5133908,
-    "address": "Upper Dysart"
-  },
-  {
     "id": 13621440840,
     "name": "Leedham Farm shop",
     "country": "United Kingdom",
@@ -6682,30 +6658,6 @@
     "lat": 52.5331781,
     "lon": -1.1517838,
     "address": null
-  },
-  {
-    "id": 13856263617,
-    "name": "Saturday Farm Market",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
-    "lat": 51.7358037,
-    "lon": -1.2307511,
-    "address": null
-  },
-  {
-    "id": 13895415103,
-    "name": "The Piggery Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.3765665,
-    "lon": -1.9550574,
-    "address": "West End"
   },
   {
     "id": 3713847,
@@ -6954,7 +6906,7 @@
     "region": null,
     "municipality": "Wokingham",
     "products": [],
-    "website": "https://www.graysfarm.co.uk/",
+    "website": "http://www.graysfarm.co.uk/",
     "lat": 51.3959203,
     "lon": -0.8200209,
     "address": "Heathlands Road"
@@ -7054,18 +7006,6 @@
     "lat": 51.4257683,
     "lon": 0.4914142,
     "address": "Town road"
-  },
-  {
-    "id": 88519248,
-    "name": "Myatts of Mockbeggar Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Rochester",
-    "products": [],
-    "website": null,
-    "lat": 51.4214311,
-    "lon": 0.4903169,
-    "address": null
   },
   {
     "id": 88813278,
@@ -7326,7 +7266,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.manorfarm-shop.co.uk/",
+    "website": "http://www.manorfarm-shop.co.uk/",
     "lat": 51.42818,
     "lon": -2.442286,
     "address": "Wick Lane"
@@ -7569,18 +7509,6 @@
     "website": "http://churchstile.co.uk/",
     "lat": 54.4259937,
     "lon": -3.34983,
-    "address": null
-  },
-  {
-    "id": 165613955,
-    "name": "Lincoln Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.5726961,
-    "lon": -0.0062858,
     "address": null
   },
   {
@@ -7890,7 +7818,7 @@
     "region": null,
     "municipality": "Belper",
     "products": [],
-    "website": "https://croots.co.uk/",
+    "website": "https://www.croots.co.uk/",
     "lat": 52.9845695,
     "lon": -1.5114125,
     "address": "Wirksworth Road"
@@ -8646,7 +8574,7 @@
     "region": null,
     "municipality": "Bishop Auckland",
     "products": [],
-    "website": "https://www.bradleyburn.co.uk/",
+    "website": null,
     "lat": 54.721956,
     "lon": -1.8382827,
     "address": null
@@ -8658,7 +8586,7 @@
     "region": null,
     "municipality": "Saxmundham",
     "products": [],
-    "website": "https://www.emmerdalefarmshop.co.uk/",
+    "website": "http://www.emmerdalefarmshop.co.uk/",
     "lat": 52.268357,
     "lon": 1.5331065,
     "address": "Westleton Road"
@@ -8743,8 +8671,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
+    "lat": 54.106181,
+    "lon": -2.8090358,
     "address": "The Shore"
   },
   {
@@ -9090,7 +9018,7 @@
     "region": null,
     "municipality": "Clapham",
     "products": [],
-    "website": "https://www.growingwithgrace.org.uk/",
+    "website": "http://www.growingwithgrace.org.uk/",
     "lat": 54.1149647,
     "lon": -2.3967964,
     "address": null
@@ -9174,7 +9102,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.newmanorfarmshop.co.uk/",
+    "website": "newmanorfarmshop.co.uk",
     "lat": 51.3233101,
     "lon": -2.6133171,
     "address": "Bath Road"
@@ -9537,7 +9465,7 @@
     "website": null,
     "lat": 53.6790688,
     "lon": -1.7747678,
-    "address": "Bradley Road"
+    "address": null
   },
   {
     "id": 425798479,
@@ -9988,7 +9916,7 @@
     "name": "Pound Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Swindon",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.5186469,
@@ -10516,7 +10444,7 @@
     "name": "Buckmoreland Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.7361437,
@@ -10675,8 +10603,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9717651,
-    "lon": 0.9852387,
+    "lat": 51.9717549,
+    "lon": 0.9852476,
     "address": null
   },
   {
@@ -10738,18 +10666,6 @@
     "lat": 53.9087685,
     "lon": -1.404554,
     "address": "Jewitt Lane"
-  },
-  {
-    "id": 640518313,
-    "name": "Willow Grange Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
-    "lat": 52.3188514,
-    "lon": 0.1968571,
-    "address": null
   },
   {
     "id": 645288057,
@@ -10906,6 +10822,18 @@
     "lat": 50.9575377,
     "lon": 0.1426132,
     "address": "Pump Lane"
+  },
+  {
+    "id": 676284558,
+    "name": "Berkenshaw",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.4920215,
+    "lon": -3.0460179,
+    "address": null
   },
   {
     "id": 679634686,
@@ -11083,8 +11011,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9245307,
-    "lon": 0.9718582,
+    "lat": 51.9244996,
+    "lon": 0.9718531,
     "address": null
   },
   {
@@ -11252,7 +11180,7 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3575978,
+    "lon": -0.3576796,
     "address": "High Street Whitton"
   },
   {
@@ -11518,6 +11446,18 @@
     "lat": 50.9817807,
     "lon": -0.2777906,
     "address": null
+  },
+  {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
   },
   {
     "id": 839396756,
@@ -12727,8 +12667,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.7917439,
-    "lon": -0.1022779,
+    "lat": 51.791747,
+    "lon": -0.1023128,
     "address": null
   },
   {
@@ -13317,18 +13257,6 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
-    "address": null
-  },
-  {
-    "id": 992200946,
-    "name": "Wylye Valley Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.instagram.com/wylye_valley_farmshop/",
-    "lat": 51.1871543,
-    "lon": -2.1909185,
     "address": null
   },
   {
@@ -14056,12 +13984,12 @@
     "name": "Wyborn's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Barnstaple",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.0803174,
     "lon": -4.0584426,
-    "address": "Boutport Street"
+    "address": null
   },
   {
     "id": 1144895756,
@@ -14320,7 +14248,7 @@
     "name": "Lacey's Family Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Lane End",
     "products": [],
     "website": "https://www.laceysfamilyfarm.co.uk/farm-shop",
     "lat": 51.6207789,
@@ -14620,7 +14548,7 @@
     "name": "T Rayner & Son (Castlemans Farm Shop)",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Wooburn Green",
     "products": [],
     "website": null,
     "lat": 51.5810484,
@@ -15034,6 +14962,18 @@
     "lat": 51.2556247,
     "lon": -1.3875241,
     "address": "Egbury Road"
+  },
+  {
+    "id": 1335925059,
+    "name": "Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.0072263,
+    "lon": 0.9306949,
+    "address": null
   },
   {
     "id": 1337099132,
@@ -16056,42 +15996,6 @@
     "address": null
   },
   {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
-  },
-  {
-    "id": 1509987603,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2476721,
-    "lon": 0.2869368,
-    "address": null
-  },
-  {
-    "id": 1509987604,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2499212,
-    "lon": 0.2929966,
-    "address": null
-  },
-  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -16555,7 +16459,7 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.026543,
+    "lat": 51.0259881,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
   },
@@ -17397,6 +17301,18 @@
     "website": null,
     "lat": 50.8627891,
     "lon": -1.561172,
+    "address": null
+  },
+  {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
     "address": null
   },
   {
@@ -18655,8 +18571,8 @@
     "municipality": "Saundersfoot",
     "products": [],
     "website": null,
-    "lat": 51.7029356,
-    "lon": -4.7212876,
+    "lat": 51.7028309,
+    "lon": -4.7212527,
     "address": "Narberth Road"
   },
   {
@@ -18667,13 +18583,13 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118118,
-    "lon": -0.1335462,
+    "lat": 51.5118071,
+    "lon": -0.1335966,
     "address": "Archer Street"
   },
   {
     "id": 5866061835,
-    "name": "Peterley Manor Farm",
+    "name": "The Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -18684,6 +18600,78 @@
     "address": "Peterley Lane"
   },
   {
+    "id": 12148375750,
+    "name": "Quayside Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.3548643,
+    "lon": -4.4549652,
+    "address": null
+  },
+  {
+    "id": 13615171555,
+    "name": "Upper Dysart Larder",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Montrose",
+    "products": [],
+    "website": null,
+    "lat": 56.6708665,
+    "lon": -2.5133908,
+    "address": "Upper Dysart"
+  },
+  {
+    "id": 13856263617,
+    "name": "Saturday Farm Market",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
+    "lat": 51.7358037,
+    "lon": -1.2307511,
+    "address": null
+  },
+  {
+    "id": 13895415103,
+    "name": "The Piggery Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.3765665,
+    "lon": -1.9550574,
+    "address": "West End"
+  },
+  {
+    "id": 88519248,
+    "name": "Myatts of Mockbeggar Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Rochester",
+    "products": [],
+    "website": null,
+    "lat": 51.4214311,
+    "lon": 0.4903169,
+    "address": null
+  },
+  {
+    "id": 165613955,
+    "name": "Lincoln Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.5726961,
+    "lon": -0.0062858,
+    "address": null
+  },
+  {
     "id": 318387860,
     "name": "Archers Cafe",
     "country": "United Kingdom",
@@ -18691,8 +18679,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
@@ -18703,20 +18691,20 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9717549,
-    "lon": 0.9852476,
+    "lat": 51.9717651,
+    "lon": 0.9852387,
     "address": null
   },
   {
-    "id": 676284558,
-    "name": "Berkenshaw",
+    "id": 640518313,
+    "name": "Willow Grange Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 53.4920215,
-    "lon": -3.0460179,
+    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
+    "lat": 52.3188514,
+    "lon": 0.1968571,
     "address": null
   },
   {
@@ -18727,8 +18715,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9244996,
-    "lon": 0.9718531,
+    "lat": 51.9245307,
+    "lon": 0.9718582,
     "address": null
   },
   {
@@ -18740,20 +18728,8 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3576796,
+    "lon": -0.3575978,
     "address": "High Street Whitton"
-  },
-  {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tonbridge",
-    "products": [],
-    "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
   },
   {
     "id": 952066576,
@@ -18763,20 +18739,56 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.791747,
-    "lon": -0.1023128,
+    "lat": 51.7917439,
+    "lon": -0.1022779,
     "address": null
   },
   {
-    "id": 1335925059,
-    "name": "Farm Shop",
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
+    "address": null
+  },
+  {
+    "id": 1502915597,
+    "name": "Bee Hives",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.0072263,
-    "lon": 0.9306949,
+    "lat": 52.9933997,
+    "lon": -1.0806409,
+    "address": null
+  },
+  {
+    "id": 1509987603,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2476721,
+    "lon": 0.2869368,
+    "address": null
+  },
+  {
+    "id": 1509987604,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2499212,
+    "lon": 0.2929966,
     "address": null
   },
   {
@@ -18787,21 +18799,9 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.0259881,
+    "lat": 51.026543,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
-  },
-  {
-    "id": 13578056,
-    "name": "Leckford Estate",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
-    "address": null
   },
   {
     "id": 1509987603,

@@ -721,7 +721,7 @@
   },
   {
     "id": 1485004883,
-    "name": "Moydrum Castel Woodland",
+    "name": "Moydrum Castle Woodland",
     "country": "Ireland",
     "region": null,
     "municipality": null,
@@ -765,6 +765,18 @@
     "website": null,
     "lat": 52.6725152,
     "lon": -7.2260823,
+    "address": null
+  },
+  {
+    "id": 1485004883,
+    "name": "Moydrum Castel Woodland",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.4272187,
+    "lon": -7.8635785,
     "address": null
   },
   {
