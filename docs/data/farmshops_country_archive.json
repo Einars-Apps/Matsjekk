@@ -185196,6 +185196,54 @@
       "lat": 52.2330384,
       "lon": 4.4963762,
       "address": null
+    },
+    {
+      "id": 2964379613,
+      "name": "Tsiis & sa",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Hilaard",
+      "products": [],
+      "website": null,
+      "lat": 53.1658883,
+      "lon": 5.7160569,
+      "address": "Van Aylvaleane"
+    },
+    {
+      "id": 13907073601,
+      "name": "Westerwolds Landleven",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://westerwoldslandleven.nl",
+      "lat": 53.0194375,
+      "lon": 7.0313486,
+      "address": "Scholtweg"
+    },
+    {
+      "id": 13907079804,
+      "name": "Bij de Boerin",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 53.0169202,
+      "lon": 6.9836855,
+      "address": "Zijdstukkerweg"
+    },
+    {
+      "id": 13907079835,
+      "name": "Buffelfarm Meems",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 53.0308481,
+      "lon": 7.0510119,
+      "address": "Kampweg"
     }
   ],
   "BE": [
