@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T05:57:22.128165+00:00",
+  "generatedAt": "2026-06-04T05:55:52.493231+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,15 +8,26 @@
   "errors": [],
   "items": [
     {
-      "title": "Rabobank benoemt Dries Lagerberg tot Chief Sustainability Officer - Duurzaam Ondernemen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMEVPMVJXcWlHcUlYVVNkWXpibE82d2oyc0ZScU5EMjF6d1ZnZ3BaeE5uY1kzVGk3cnktLVNVQjhhSGRKU0JMdmtfSDYxSEx0eUpIekJKTUJFaUtSZ1lGczZ4d3NsT2VGUDFKaWdsNkJiZV9aeEZOMHBoWnlWRDJmVXRKSUg3UE1yMng1UG9HS01hZmFHSHdPZ0JpblJKbVlfRHBF?oc=5",
-      "pubDate": "2026-06-01T20:03:43+00:00",
-      "source": "Duurzaam Ondernemen",
+      "title": "UBS AG benoemt Alexander Seidler tot Head Sustainability and Climate Risk - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc2RyalROWWptX2Q1czJtMFE2bjV4RG5qNUNCOXRvNGFyOTFZZHRWVjBMMlhva2xnZjcwejhPM0VZTGE3cjdGTVlQUWhSV2RPVzYybExIemNFVUxOWFJvMUZWb2trdms2SjZNZWo1Y25Za0NTRWl4Ukt3Qmt1TFNSbXJBWEJqaGxiWXMySU1EdlQ0emF1MmRlZWhGVF9BSnN0OUtxTmxFc3pnOVkzZnh4T090aTZLYWNsTGptTXZoNFhiM1I0eXMxSGVoUQ?oc=5",
+      "pubDate": "2026-06-03T08:11:51+00:00",
+      "source": "MarketScreener Nederland",
+      "language": "nl",
+      "country": "BE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQc2RyalROWWptX2Q1czJtMFE2bjV4RG5qNUNCOXRvNGFyOTFZZHRWVjBMMlhva2xnZjcwejhPM0VZTGE3cjdGTVlQUWhSV2RPVzYybExIemNFVUxOWFJvMUZWb2trdms2SjZNZWo1Y25Za0NTRWl4Ukt3Qmt1TFNSbXJBWEJqaGxiWXMySU1EdlQ0emF1MmRlZWhGVF9BSnN0OUtxTmxFc3pnOVkzZnh4T090aTZLYWNsTGptTXZoNFhiM1I0eXMxSGVoUQ?oc=5\" target=\"_blank\">UBS AG benoemt Alexander Seidler tot Head Sustainability and Climate Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketScreener Nederland</font>",
+      "id": "a053c4525ea34610"
+    },
+    {
+      "title": "Commercialising Impact: The Power of Verifiable Sustainability - KPMG",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlpmODFUMU9tckZGQlp3ZWhIcUNsQjRSaWdfLU1jaXdYSHVZRUl0ZjJYbTMwZFJmdzJsVmFfYWRJRVpuUHFZLUZRaks5bkUtb08tbFozU0xqazlmSldOWFBOYTFpU1ZHSDlHMHowZllUTmJlVXBwRUpReDZzRXl0bzMybktDU2t4eFRzT0dTazdnWldqc2xtNW5LU0ZwLUxlVjhBOGVVSTlWdzU5cUFBSVNB?oc=5",
+      "pubDate": "2026-06-02T23:49:07+00:00",
+      "source": "KPMG",
       "language": "nl",
       "country": "NL",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQMEVPMVJXcWlHcUlYVVNkWXpibE82d2oyc0ZScU5EMjF6d1ZnZ3BaeE5uY1kzVGk3cnktLVNVQjhhSGRKU0JMdmtfSDYxSEx0eUpIekJKTUJFaUtSZ1lGczZ4d3NsT2VGUDFKaWdsNkJiZV9aeEZOMHBoWnlWRDJmVXRKSUg3UE1yMng1UG9HS01hZmFHSHdPZ0JpblJKbVlfRHBF?oc=5\" target=\"_blank\">Rabobank benoemt Dries Lagerberg tot Chief Sustainability Officer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duurzaam Ondernemen</font>",
-      "id": "7459df820d8982c9"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlpmODFUMU9tckZGQlp3ZWhIcUNsQjRSaWdfLU1jaXdYSHVZRUl0ZjJYbTMwZFJmdzJsVmFfYWRJRVpuUHFZLUZRaks5bkUtb08tbFozU0xqazlmSldOWFBOYTFpU1ZHSDlHMHowZllUTmJlVXBwRUpReDZzRXl0bzMybktDU2t4eFRzT0dTazdnWldqc2xtNW5LU0ZwLUxlVjhBOGVVSTlWdzU5cUFBSVNB?oc=5\" target=\"_blank\">Commercialising Impact: The Power of Verifiable Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KPMG</font>",
+      "id": "ca03b0c0916755e4"
     },
     {
       "title": "Joy Schouten wint Europese Urban Bites contest met muziekproject over Food Sustainability - Omroep Almere",
@@ -28,6 +39,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNdEFYOXBId01mSUREME1HWm9rcm1ickVNR2RmTGJJZWY1R1U2SzVaWVQxa0FsOEw4TDRxY0dIeUtPal9GMVIyZFBxdWxzclVTWldBdFBTTFhBWkpMaDJMQ0E2RTBBVk8yZHdEdE1WN2hGZXhabElJdzc0cV9UM2t5WTViUC1EQU5rY192TDRKZGdLX2NnY0RfM0Z5dzhHSnhEZUh5NVJjNFJrWkNURXZLSElhaVVFMjBnd3hxZUVXZw?oc=5\" target=\"_blank\">Joy Schouten wint Europese Urban Bites contest met muziekproject over Food Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Omroep Almere</font>",
       "id": "365e5d3c9a5dd871"
+    },
+    {
+      "title": "Weniger Zahlen, mehr Wirkung - Berufsbild Nachhaltigkeitsmanager | Sustainability - Haufe. Intelligenz, die bewegt.",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0tmNnVhcnNFRHFUbFp5SVZWaEMzTF83XzJ5V0J3UHBYb2stSUhlSDdTbTI4NkR6eWZiSXZYMmxaRVM1dUhWU3BnRlZQN05wYWJLR2VyY1BTdTg0UzY0Y1N0VTY1WFEzWDBGNFU2RDhBUE1pLU9wc2o1Wi1PTjVRZ1l0MHFMaHR5dlpHV1NxOWFwZENFbU5fUUstWnA?oc=5",
+      "pubDate": "2026-05-26T12:27:27+00:00",
+      "source": "Haufe. Intelligenz, die bewegt.",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0tmNnVhcnNFRHFUbFp5SVZWaEMzTF83XzJ5V0J3UHBYb2stSUhlSDdTbTI4NkR6eWZiSXZYMmxaRVM1dUhWU3BnRlZQN05wYWJLR2VyY1BTdTg0UzY0Y1N0VTY1WFEzWDBGNFU2RDhBUE1pLU9wc2o1Wi1PTjVRZ1l0MHFMaHR5dlpHV1NxOWFwZENFbU5fUUstWnA?oc=5\" target=\"_blank\">Weniger Zahlen, mehr Wirkung - Berufsbild Nachhaltigkeitsmanager | Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
+      "id": "b51d1514c2b08624"
     },
     {
       "title": "Mangeresti pollo o maiale nutriti con farina di insetti? Gli italiani restano cauti. Lo studio internazionale - Corriere della Sera",
@@ -50,6 +72,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZUMzM25DRU92Nkl4TVl2N3pSREY0Q1kyaDBobGJZbW1HUVBKODY0Z21adWN2cllhYXRnOHRScHRpMHNjc1pvLURGV2FhdVUtU0dFcGtBU0dJb0h6LUxJLUpMZENPRGJZbklmczNRZUdUbER5cGgyWEY2X2tFSlJaMExTWlJRajdWeWk1SFVlZ2hPZEEzbzlIRDlWTFEyM1JoWGxNWW0tVTVrTkVWOVEzNmVLcUNkUDN3SWdpaHNNbFZNeTFmNWthSF92V0N6SmdQNDI4cENUV3paUFRCeUltQ2pjWmE3Z3dZMUxCR3Y0SlBmZk1hc1dmaA?oc=5\" target=\"_blank\">ZTE publiceert zijn Sustainability Report 2025: een nieuw hoofdstuk in duurzame ontwikkeling met behulp van AI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
       "id": "2ffa621da73c5e92"
+    },
+    {
+      "title": "Dow Jones Sustainability Eurozone Index ex Alcohol, Tobacco, Gambling, Armaments & Firearms and Adul - boerse.de",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2NNbnZHRk1EUkUxOWhnbDBiaWpmRnB6WkotUjlGOE15VjFDczkyTFFnNGRtQ2JLMWZ5MkJwZXZ0Y3M4d2E3cjBnVzI4eFpZc1ktNWNwX0hPN3FXR3pNbFo0aDlSaUR0RnB6Q1dMWkFvX0JvcUNLQ3NFVll4aHZQZkVlbklpdUdscHlFUUotWmhDNWdUTndlSTNPQVAtWXV4djV5VW5UYjdxMVp6alZSYngyNkY5OEFnREhhZmRLZm94cHJmUmE5WTJOWWltWEh4WnhnaFV0YUM5SDAwX2JDQ3Rqbw?oc=5",
+      "pubDate": "2026-05-22T04:01:26+00:00",
+      "source": "boerse.de",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2NNbnZHRk1EUkUxOWhnbDBiaWpmRnB6WkotUjlGOE15VjFDczkyTFFnNGRtQ2JLMWZ5MkJwZXZ0Y3M4d2E3cjBnVzI4eFpZc1ktNWNwX0hPN3FXR3pNbFo0aDlSaUR0RnB6Q1dMWkFvX0JvcUNLQ3NFVll4aHZQZkVlbklpdUdscHlFUUotWmhDNWdUTndlSTNPQVAtWXV4djV5VW5UYjdxMVp6alZSYngyNkY5OEFnREhhZmRLZm94cHJmUmE5WTJOWWltWEh4WnhnaFV0YUM5SDAwX2JDQ3Rqbw?oc=5\" target=\"_blank\">Dow Jones Sustainability Eurozone Index ex Alcohol, Tobacco, Gambling, Armaments & Firearms and Adul</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
+      "id": "5a91017aa4262b69"
     },
     {
       "title": "La farina di insetti, ecco i nuovi alimenti - Il Punto Quotidiano",
@@ -173,6 +206,17 @@
       "id": "1eabcf9698f75c66"
     },
     {
+      "title": "Bereid je voor op de European Sustainability Reporting Standards - KPMG",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXVBM1lhQmNndk92Z1JjWG0tdTdfZHpCMEd1elFvNkZVaERFb1M4c3p0UXBXbW5KUkF1akdocEFGZE1OUHZDMHBZS3RELXYzd2xUZGtpRGxQd3htaVlXRHFRUFhfUXp6aTZoM3JBMXc0Y0VTdzZOSEZPSzJQV2RSSXZfOHItSVlFbFVkT3piNnNFaDJuTU13aW16Z2E5WmU4SVp6SUMtRXVMQTUtY3daSHNWbXNtTl9h?oc=5",
+      "pubDate": "2026-03-22T07:00:00+00:00",
+      "source": "KPMG",
+      "language": "nl",
+      "country": "NL",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXVBM1lhQmNndk92Z1JjWG0tdTdfZHpCMEd1elFvNkZVaERFb1M4c3p0UXBXbW5KUkF1akdocEFGZE1OUHZDMHBZS3RELXYzd2xUZGtpRGxQd3htaVlXRHFRUFhfUXp6aTZoM3JBMXc0Y0VTdzZOSEZPSzJQV2RSSXZfOHItSVlFbFVkT3piNnNFaDJuTU13aW16Z2E5WmU4SVp6SUMtRXVMQTUtY3daSHNWbXNtTl9h?oc=5\" target=\"_blank\">Bereid je voor op de European Sustainability Reporting Standards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KPMG</font>",
+      "id": "ae49ef10a563fc4e"
+    },
+    {
       "title": "Combinatie Bovaer en beweiding misschien mogelijk - Landbouwleven",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZHJmN1BOWW5xekd2RVR0Z1luYVhqWUhTV21BbDBEdzl6N3RfYm9GOUtIdzVsTm1OaTRFZUozUmNQMzZyOElLSUZ4VDNvcXNrS0JEdU0wSGdmeV9vMHp2OWJ1M0dPc0xYS1JRQ0duanIxZkY4WTBveW01TmNNODFuSE1RNENQVWhrUzVHSjc0bndnVkpYVFp4SWN3S2dNODdEajVweWZn?oc=5",
       "pubDate": "2026-03-19T07:00:00+00:00",
@@ -292,50 +336,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNTnFoWU94eVJ1VjlOWlpQdFN0TUpKVkhNWUZvY1VQMHpTWkFaMGQ3MzhSUXpNMmhGTnBhdU9pbzJzMkxQaG00bVpHcGhaWEVpYVpfTS16OVBjNDYzV0s1Smp1c1MtM3JqS05iVjRmRXpYMnpWMnlDTGZsWHA1ZlhIZHpzTTdNNTZQZTBRSHJQS0RRcVZ5UlpJZ2RGcjltUQ?oc=5\" target=\"_blank\">Führt Bovaer zu giftigen Gasen im Pansen?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Elite Magazin</font>",
       "id": "8eeadf37fbf22171"
-    },
-    {
-      "title": "Ligt zwavelrijk rantsoen aan basis van Deense problemen met Bovaer? - VILT vzw",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQnVOMjNCaHg0SWdrTHhoQTdKTFpqdG1Pck9OcDZOdEJ4VF9YeUxwdlgwWjhzY1F2LXM3cjZKX3EzRHZKYzhKMDllejR1MFA5QzlFSHZNdjY0NGRUTEE4WDR2NjBrSldjV2IzV2U2NkZpZDFOQ0R0MnFVc1R5YzlNTmplOVU0YjQ4eVFxeG9iZjhzc0VzTUJ3?oc=5",
-      "pubDate": "2026-01-15T08:00:00+00:00",
-      "source": "VILT vzw",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOQnVOMjNCaHg0SWdrTHhoQTdKTFpqdG1Pck9OcDZOdEJ4VF9YeUxwdlgwWjhzY1F2LXM3cjZKX3EzRHZKYzhKMDllejR1MFA5QzlFSHZNdjY0NGRUTEE4WDR2NjBrSldjV2IzV2U2NkZpZDFOQ0R0MnFVc1R5YzlNTmplOVU0YjQ4eVFxeG9iZjhzc0VzTUJ3?oc=5\" target=\"_blank\">Ligt zwavelrijk rantsoen aan basis van Deense problemen met Bovaer?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VILT vzw</font>",
-      "id": "9a8c223635c8e832"
-    },
-    {
-      "title": "Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen - Nieuwe Oogst",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5",
-      "pubDate": "2026-01-13T08:00:00+00:00",
-      "source": "Nieuwe Oogst",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxON21GcElZYTdhbkVsU1JTMHE2N1c0ZWF5Qy0xbTEzYnJiZVpYT2pWN2JtdHJfdkFmVXJxRW1FUDhOSmlUU0JwcEVOSXM2cGk5bmxGc0g5aloyRWJDTE5xbXJzWDZIQ191SG9nRlpRNVVpcDBveDJ0R0xNZGZlRUg4Y3Z3REdzNkJRWUlRbzlzRHhSYkdmWUlUaGdMbklTOXlETjZZVzdRbldFVmpXWlE?oc=5\" target=\"_blank\">Deense Bovaer-problemen mogelijk gelinkt aan zwavelrijk rantsoen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
-      "id": "e9a3835456510718"
-    },
-    {
-      "title": "Hoog zwavelgehalte in rantsoen mogelijk oorzaak stofwisselingsproblemen na Bovaer-voer - Boerderij",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5",
-      "pubDate": "2026-01-13T08:00:00+00:00",
-      "source": "Boerderij",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPazljUDZzaUNFT3dXdExTTzZnYU1PdWF4c0VHZWJFMU50NXl2VUljc0g3a3dXRmE5Z1FYZkRQc2lKU0NqZ0lObFRtMjNlMUtydW9vTWJvTnhWRWRKMUM4bGlVcElPeloxejRFUEI5azkwOUwydU9aV2NGV19YZncyUjR3bU1MZEp3bUtSN3RPSUd2WEQ4SkluZ3p2bWVpYkZLbG9YVWVYRlpkMTl6bEtjNU4xSmgwZw?oc=5\" target=\"_blank\">Hoog zwavelgehalte in rantsoen mogelijk oorzaak stofwisselingsproblemen na Bovaer-voer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boerderij</font>",
-      "id": "48772de53e7a33a1"
-    },
-    {
-      "title": "Interview Nachhaltigkeit und Change Management | Sustainability - Haufe. Intelligenz, die bewegt.",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVFueU5yQjZkcTJyQTNTcUZPTUFYRHJ4emFNVFFGM01GVGlydFhRckdkb05JVkRkWERRZGh3bW1UWm9rUGZSbFJGdWdxbkdYaEpBZWtHUTVpakRhQ2E2RVRScUstcnptcnA0ZnF0b0tRT1JnZERNZ1JuSldKTllmU2htLWZFdllVdmU2LUNnbXlmcWVLNHlqYnYwazhPclg0aGtkUFNLUXk5bDEwVFExdw?oc=5",
-      "pubDate": "2026-01-07T08:00:00+00:00",
-      "source": "Haufe. Intelligenz, die bewegt.",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVFueU5yQjZkcTJyQTNTcUZPTUFYRHJ4emFNVFFGM01GVGlydFhRckdkb05JVkRkWERRZGh3bW1UWm9rUGZSbFJGdWdxbkdYaEpBZWtHUTVpakRhQ2E2RVRScUstcnptcnA0ZnF0b0tRT1JnZERNZ1JuSldKTllmU2htLWZFdllVdmU2LUNnbXlmcWVLNHlqYnYwazhPclg0aGtkUFNLUXk5bDEwVFExdw?oc=5\" target=\"_blank\">Interview Nachhaltigkeit und Change Management | Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haufe. Intelligenz, die bewegt.</font>",
-      "id": "6cea09a2b3ecf6b6"
     }
   ]
 }
