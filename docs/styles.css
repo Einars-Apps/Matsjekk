@@ -520,6 +520,17 @@ h3 {
     background: #ddf0e3;
 }
 
+.theme-explainer {
+    margin-top: 0.45rem;
+    font-size: 0.9rem;
+    color: #3a4d5f;
+}
+
+.theme-explainer a {
+    color: #1f5f39;
+    font-weight: 700;
+}
+
 .image-credit {
     margin-top: 0.65rem;
     font-size: 0.8rem;
