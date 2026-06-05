@@ -496,6 +496,23 @@ h3 {
     color: #1e5f39;
 }
 
+.doc-link {
+    display: inline-block;
+    margin: 0.2rem 0 0.55rem;
+    padding: 0.22rem 0.58rem;
+    border: 1px solid #cde4d5;
+    border-radius: 999px;
+    background: #ecf8ef;
+    color: #1f5f39;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.82rem;
+}
+
+.doc-link:hover {
+    background: #ddf0e3;
+}
+
 .image-credit {
     margin-top: 0.65rem;
     font-size: 0.8rem;
