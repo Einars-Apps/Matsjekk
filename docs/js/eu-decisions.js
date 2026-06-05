@@ -3,6 +3,7 @@
   const AUTO_URL = 'data/eu_decisions_auto.json?v=20260606c';
   const WINDOW_DAYS = 365 * 3;
   let allDecisions = [];
+  let initialUrlState = null;
 
   function escapeHtml(value) {
     return String(value || '')
@@ -108,6 +109,26 @@
     return { query, topic };
   }
 
+  function getUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      query: (params.get('q') || '').trim(),
+      topic: (params.get('topic') || '').trim()
+    };
+  }
+
+  function updateUrlState(query, topic) {
+    const params = new URLSearchParams(window.location.search);
+    if (query) params.set('q', query);
+    else params.delete('q');
+    if (topic) params.set('topic', topic);
+    else params.delete('topic');
+
+    const queryString = params.toString();
+    const nextUrl = `${window.location.pathname}${queryString ? `?${queryString}` : ''}${window.location.hash || ''}`;
+    window.history.replaceState({}, '', nextUrl);
+  }
+
   function applyFilters(items, query, topic) {
     return items.filter((item) => {
       if (topic && item.topic !== topic) return false;
@@ -131,13 +152,21 @@
       option.textContent = topic;
       topicEl.appendChild(option);
     });
+
+    if (initialUrlState && initialUrlState.topic) {
+      const topicExists = topics.includes(initialUrlState.topic);
+      topicEl.value = topicExists ? initialUrlState.topic : '';
+    }
   }
 
-  function renderFiltered() {
+  function renderFiltered(syncUrl) {
     const { query, topic } = getSearchState();
     const filtered = applyFilters(allDecisions, query, topic);
     renderList(filtered);
     setCountText(allDecisions.length, filtered.length);
+    if (syncUrl !== false) {
+      updateUrlState(query, topic);
+    }
   }
 
   function bindSearchUi() {
@@ -145,13 +174,13 @@
     const topicEl = document.getElementById('eu-decisions-topic');
     const clearEl = document.getElementById('eu-decisions-clear');
 
-    if (queryEl) queryEl.addEventListener('input', renderFiltered);
-    if (topicEl) topicEl.addEventListener('change', renderFiltered);
+    if (queryEl) queryEl.addEventListener('input', () => renderFiltered(true));
+    if (topicEl) topicEl.addEventListener('change', () => renderFiltered(true));
     if (clearEl) {
       clearEl.addEventListener('click', () => {
         if (queryEl) queryEl.value = '';
         if (topicEl) topicEl.value = '';
-        renderFiltered();
+        renderFiltered(true);
       });
     }
   }
@@ -186,7 +215,7 @@
         listEl.innerHTML = '<p class="muted">Ingen vedtak funnet i 3-arsvinduet akkurat na.</p>';
         setCountText(0, 0);
       } else {
-        renderFiltered();
+        renderFiltered(false);
       }
 
       if (statusEl) {
@@ -203,6 +232,11 @@
   }
 
   window.addEventListener('load', function () {
+    initialUrlState = getUrlState();
+    const queryEl = document.getElementById('eu-decisions-search');
+    if (queryEl && initialUrlState.query) {
+      queryEl.value = initialUrlState.query;
+    }
     bindSearchUi();
     renderEuDecisions();
   });
