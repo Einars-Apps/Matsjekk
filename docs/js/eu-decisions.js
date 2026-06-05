@@ -1,6 +1,6 @@
 (function () {
-  const MANUAL_URL = 'data/eu_decisions.json?v=20260606c';
-  const AUTO_URL = 'data/eu_decisions_auto.json?v=20260606c';
+  const MANUAL_URL = 'data/eu_decisions.json?v=20260606f';
+  const AUTO_URL = 'data/eu_decisions_auto.json?v=20260606f';
   const WINDOW_DAYS = 365 * 3;
   let allDecisions = [];
   let initialUrlState = null;

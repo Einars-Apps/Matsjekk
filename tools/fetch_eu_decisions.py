@@ -16,20 +16,35 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = ROOT / 'docs' / 'data' / 'eu_decisions_auto.json'
 
 WINDOW_DAYS = 365 * 3
-MAX_ITEMS = 30
+MAX_ITEMS = 60
 
 QUERIES = [
     'site:eur-lex.europa.eu (gmo OR ngt OR "novel food" OR "3-nitrooxypropanol" OR insect) when:1095d',
+    'site:eur-lex.europa.eu ("3-nitrooxypropanol" OR "3-NOP" OR bovaer OR "feed additive") when:1095d',
+    'site:eur-lex.europa.eu ("novel food" OR insect OR mealworm OR "Acheta domesticus" OR "Tenebrio molitor" OR "Locusta migratoria" OR "Alphitobius diaperinus") when:1095d',
     'site:europarl.europa.eu (new genomic techniques OR NGT OR GMO) when:1095d',
+    'site:europarl.europa.eu (novel food OR insect OR food additive) when:1095d',
     'site:consilium.europa.eu (gmo OR ngt OR genomic techniques) when:1095d',
+    'site:food.ec.europa.eu (novel food OR insect OR "new genomic techniques" OR biotechnology) when:1095d',
 ]
 
 NEWS_RSS_TEMPLATE = 'https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en'
 
 TOPIC_KEYWORDS = {
-    'Bovaer': ('3-nitrooxypropanol', '3-nop', 'bovaer'),
+    'Bovaer': ('3-nitrooxypropanol', '3-nop', 'bovaer', 'feed additive', 'zootechnical additive'),
     'GMO/NGT': ('gmo', 'new genomic techniques', 'ngt', 'gene editing', 'genomic'),
-    'Insektsmel': ('novel food', 'insect', 'acheta domesticus', 'mealworm'),
+    'Insektsmel': (
+        'novel food',
+        'insect',
+        'acheta domesticus',
+        'mealworm',
+        'tenebrio molitor',
+        'locusta migratoria',
+        'alphitobius diaperinus',
+        'hermetia illucens',
+        'yellow mealworm',
+        'house cricket',
+    ),
 }
 
 NOISE_TERMS = (
@@ -48,6 +63,7 @@ ALLOWED_SOURCE_HINTS = (
     'consilium',
     'council of the european union',
     'european commission',
+    'food.ec.europa.eu',
     'efsa',
 )
 
