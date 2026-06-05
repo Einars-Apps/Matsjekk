@@ -5,6 +5,54 @@
   let allDecisions = [];
   let initialUrlState = null;
 
+  const UI_TEXT = {
+    nb: {
+      unknownDate: 'Ukjent dato',
+      unknownEntry: 'Ukjent oppforing',
+      update: 'Oppdatering',
+      topicDefault: 'EU-vedtak',
+      unknownSource: 'Ukjent kilde',
+      allTopics: 'Alle tema',
+      sourceLabel: 'Kilde',
+      openSource: 'Les originalkilde',
+      originalTitle: 'Original tittel',
+      count: (shown, total) => `Viser ${shown} av ${total} vedtak.`,
+      noHits: 'Ingen treff. Prov et annet sokeord eller tema.',
+      noItems: 'Ingen vedtak funnet i 3-arsvinduet akkurat na.',
+      loadError: 'Kunne ikke laste EU-vedtak akkurat na. Proev igjen om litt.',
+      statusOk: (d) => `Automatisk oppdatering er aktiv. Siste automatiske sjekk: ${d}.`,
+      statusFail: 'Automatisk oppdatering er konfigurert, men datakilden svarte ikke akkurat na.',
+      statusMissing: 'ikke tilgjengelig enda',
+    },
+    en: {
+      unknownDate: 'Unknown date',
+      unknownEntry: 'Unknown entry',
+      update: 'Update',
+      topicDefault: 'EU decision',
+      unknownSource: 'Unknown source',
+      allTopics: 'All topics',
+      sourceLabel: 'Source',
+      openSource: 'Open original source',
+      originalTitle: 'Original title',
+      count: (shown, total) => `Showing ${shown} of ${total} decisions.`,
+      noHits: 'No results. Try another search term or topic.',
+      noItems: 'No decisions found in the current 3-year window.',
+      loadError: 'Could not load EU decisions right now. Please try again shortly.',
+      statusOk: (d) => `Automatic updates are active. Last automatic check: ${d}.`,
+      statusFail: 'Automatic updates are configured, but the data source did not respond right now.',
+      statusMissing: 'not available yet',
+    }
+  };
+
+  function activeLang() {
+    const htmlLang = String(document.documentElement.lang || '').toLowerCase();
+    return UI_TEXT[htmlLang] ? htmlLang : 'en';
+  }
+
+  function t() {
+    return UI_TEXT[activeLang()] || UI_TEXT.en;
+  }
+
   function escapeHtml(value) {
     return String(value || '')
       .replace(/&/g, '&amp;')
@@ -21,7 +69,7 @@
 
   function formatDate(input) {
     const d = parseDate(input);
-    if (!d) return 'Ukjent dato';
+    if (!d) return t().unknownDate;
     return d.toLocaleDateString('nb-NO');
   }
 
@@ -35,12 +83,12 @@
   function normalize(item) {
     return {
       date: item.date || '',
-      title: item.title || 'Ukjent oppforing',
-      type: item.type || 'Oppdatering',
-      topic: item.topic || 'EU-vedtak',
+      title: item.title || t().unknownEntry,
+      type: item.type || t().update,
+      topic: item.topic || t().topicDefault,
       summary: item.summary || '',
       url: item.url || '#',
-      source: item.source || 'Ukjent kilde'
+      source: item.source || t().unknownSource
     };
   }
 
@@ -57,6 +105,7 @@
   }
 
   function cardHtml(item) {
+    const langText = t();
     const safeUrl = item.url || '#';
     return `
       <article class="eu-decision-card">
@@ -67,8 +116,9 @@
         <h3>${escapeHtml(item.title)}</h3>
         <p class="eu-decision-type">${escapeHtml(item.type)}</p>
         <p>${escapeHtml(item.summary)}</p>
-        <p class="eu-decision-meta">Kilde: ${escapeHtml(item.source)}</p>
-        <p><a href="${safeUrl}" target="_blank" rel="noopener">Les originalkilde</a></p>
+        <p class="eu-decision-meta">${escapeHtml(langText.sourceLabel)}: ${escapeHtml(item.source)}</p>
+        <p class="eu-decision-origin">${escapeHtml(langText.originalTitle)}: ${escapeHtml(item.title)}</p>
+        <p><a href="${safeUrl}" target="_blank" rel="noopener">${escapeHtml(langText.openSource)}</a></p>
       </article>
     `;
   }
@@ -87,7 +137,7 @@
   function setCountText(total, shown) {
     const countEl = document.getElementById('eu-decisions-count');
     if (!countEl) return;
-    countEl.textContent = `Viser ${shown} av ${total} vedtak.`;
+    countEl.textContent = t().count(shown, total);
   }
 
   function renderList(items) {
@@ -95,7 +145,7 @@
     if (!listEl) return;
 
     if (!items.length) {
-      listEl.innerHTML = '<p class="muted">Ingen treff. Prov et annet sokeord eller tema.</p>';
+      listEl.innerHTML = `<p class="muted">${escapeHtml(t().noHits)}</p>`;
       return;
     }
     listEl.innerHTML = items.map(cardHtml).join('');
@@ -145,7 +195,7 @@
     if (!topicEl) return;
 
     const topics = Array.from(new Set(items.map((item) => item.topic).filter(Boolean))).sort();
-    topicEl.innerHTML = '<option value="">Alle tema</option>';
+    topicEl.innerHTML = `<option value="">${escapeHtml(t().allTopics)}</option>`;
     topics.forEach((topic) => {
       const option = document.createElement('option');
       option.value = topic;
@@ -212,21 +262,21 @@
       populateTopicFilter(allDecisions);
 
       if (!allDecisions.length) {
-        listEl.innerHTML = '<p class="muted">Ingen vedtak funnet i 3-arsvinduet akkurat na.</p>';
+        listEl.innerHTML = `<p class="muted">${escapeHtml(t().noItems)}</p>`;
         setCountText(0, 0);
       } else {
         renderFiltered(false);
       }
 
       if (statusEl) {
-        const autoUpdated = auto && auto.updated_at ? formatDate(auto.updated_at) : 'ikke tilgjengelig enda';
-        statusEl.textContent = `Automatisk oppdatering er aktiv. Siste automatiske sjekk: ${autoUpdated}.`;
+        const autoUpdated = auto && auto.updated_at ? formatDate(auto.updated_at) : t().statusMissing;
+        statusEl.textContent = t().statusOk(autoUpdated);
       }
     } catch (err) {
-      listEl.innerHTML = '<p class="muted">Kunne ikke laste EU-vedtak akkurat na. Proev igjen om litt.</p>';
+      listEl.innerHTML = `<p class="muted">${escapeHtml(t().loadError)}</p>`;
       setCountText(0, 0);
       if (statusEl) {
-        statusEl.textContent = 'Automatisk oppdatering er konfigurert, men datakilden svarte ikke akkurat na.';
+        statusEl.textContent = t().statusFail;
       }
     }
   }
@@ -239,5 +289,15 @@
     }
     bindSearchUi();
     renderEuDecisions();
+
+    const langSelect = document.getElementById('lang-select');
+    if (langSelect) {
+      langSelect.addEventListener('change', () => {
+        window.setTimeout(() => {
+          populateTopicFilter(allDecisions);
+          renderFiltered(false);
+        }, 0);
+      });
+    }
   });
 })();

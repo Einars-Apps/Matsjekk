@@ -96,6 +96,108 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     return 'https://matsjekk.com/gardsbutikker.html?lang=$code';
   }
 
+  String _linkLabel(BuildContext context, String fallbackEn) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return fallbackEn;
+      case 'sv':
+        return 'Oppna kallan';
+      case 'da':
+        return 'Aben kilde';
+      case 'fi':
+        return 'Avaa lahde';
+      case 'de':
+        return 'Quelle offnen';
+      case 'nl':
+        return 'Open bron';
+      case 'fr':
+        return 'Ouvrir la source';
+      case 'it':
+        return 'Apri fonte';
+      case 'pt':
+        return 'Abrir fonte';
+      case 'es':
+        return 'Abrir fuente';
+      case 'nb':
+      default:
+        return 'Apne kilde';
+    }
+  }
+
+  String _originalTitlePrefix(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Original title';
+      case 'sv':
+        return 'Originaltitel';
+      case 'da':
+        return 'Original titel';
+      case 'fi':
+        return 'Alkuperainen otsikko';
+      case 'de':
+        return 'Originaltitel';
+      case 'nl':
+        return 'Originele titel';
+      case 'fr':
+        return 'Titre original';
+      case 'it':
+        return 'Titolo originale';
+      case 'pt':
+        return 'Titulo original';
+      case 'es':
+        return 'Titulo original';
+      case 'nb':
+      default:
+        return 'Original tittel';
+    }
+  }
+
+  String _sourceOriginalTitleForUrl(String url) {
+    final lower = url.toLowerCase();
+    if (lower.contains('new-techniques-biotechnology')) {
+      return 'New techniques in biotechnology';
+    }
+    if (lower.contains('novel-food/authorisations/summary-applications-and-notifications')) {
+      return 'Summary of applications and notifications';
+    }
+    if (lower.contains('matsjekk.com')) {
+      return 'Mat Sjekk - EU-vedtak og merking';
+    }
+    return 'Source document';
+  }
+
+  Widget _sourceLinkButton(BuildContext context, String url, String fallbackEn) {
+    final localizedUrl = _localizedSourceUrl(context, url);
+    final originalTitle = _sourceOriginalTitleForUrl(localizedUrl);
+    final label =
+        '${_linkLabel(context, fallbackEn)} (${_originalTitlePrefix(context)}: $originalTitle)';
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: TextButton.icon(
+        onPressed: () => _openUrl(localizedUrl),
+        icon: const Icon(Icons.open_in_new, size: 18),
+        label: Text(label),
+      ),
+    );
+  }
+
+  String _localizedSourceUrl(BuildContext context, String url) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    final uri = Uri.tryParse(url);
+    if (uri == null) return url;
+    final host = uri.host.toLowerCase();
+    if (!host.contains('matsjekk.com')) return url;
+
+    final query = Map<String, String>.from(uri.queryParameters);
+    query['lang'] = code;
+    return uri.replace(queryParameters: query).toString();
+  }
+
   @override
   Widget build(BuildContext context) {
     final info = widget.info;
@@ -155,13 +257,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
                       customText: (info['bovaerRiskText'] ?? '').toString()),
                     if (bovaerRiskUrl.isNotEmpty)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: TextButton.icon(
-                          onPressed: () => _openUrl(bovaerRiskUrl),
-                          icon: const Icon(Icons.open_in_new, size: 18),
-                          label: const Text('Se oppdatert status'),
-                        ),
+                      _sourceLinkButton(
+                        context,
+                        bovaerRiskUrl,
+                        'See updated status',
                       ),
                     _buildRiskWidget(
                       context,
@@ -181,13 +280,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           '')
                         .toString()),
                     if (gmoRiskUrl.isNotEmpty)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: TextButton.icon(
-                          onPressed: () => _openUrl(gmoRiskUrl),
-                          icon: const Icon(Icons.open_in_new, size: 18),
-                          label: const Text('Se EU-kilde'),
-                        ),
+                      _sourceLinkButton(
+                        context,
+                        gmoRiskUrl,
+                        'Open EU source',
                       ),
                     _buildRiskWidget(
                       context,
@@ -209,13 +305,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           .toString(),
                     ),
                     if (insectRiskUrl.isNotEmpty)
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8),
-                        child: TextButton.icon(
-                          onPressed: () => _openUrl(insectRiskUrl),
-                          icon: const Icon(Icons.open_in_new, size: 18),
-                          label: const Text('Se insekt-kilde'),
-                        ),
+                      _sourceLinkButton(
+                        context,
+                        insectRiskUrl,
+                        'Open insect source',
                       ),
                     const SizedBox(height: 12),
                     Row(
