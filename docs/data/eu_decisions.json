@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-06-06",
+  "window_years": 3,
+  "items": [
+    {
+      "date": "2026-02-05",
+      "title": "Konsolidert EU-tekst for 3-nitrooxypropanol (3-NOP/Bovaer) oppdatert",
+      "type": "Vedtak i kraft (konsolidert)",
+      "topic": "Bovaer",
+      "summary": "Konsolidert versjon av regelverket for 3-NOP i fôr ble oppdatert i EUR-Lex. Dette er referansegrunnlag for status i appen.",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02022R0565-20260205",
+      "source": "EUR-Lex"
+    },
+    {
+      "date": "2024-02-07",
+      "title": "Europaparlamentet vedtar forhandlingsposisjon om NGT-regelverk",
+      "type": "Institusjonsvedtak (forhandlingsposisjon)",
+      "topic": "GMO/NGT",
+      "summary": "Parlamentet vedtok posisjon for forhandlinger om NGT, inkludert diskusjon om kategorier og merking.",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17320/new-genomic-techniques-meps-back-rules-to-support-green-transition-of-farmers",
+      "source": "European Parliament"
+    },
+    {
+      "date": "2023-01-03",
+      "title": "Kommisjonen autoriserer Acheta domesticus-pulver som novel food (EU 2023/5)",
+      "type": "Vedtak i kraft",
+      "topic": "Insektsmel",
+      "summary": "Kommisjonens gjennomforingsforordning (EU) 2023/5 autoriserer delvis avfettet husgresshoppe-pulver som ny mat i EU.",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0005",
+      "source": "EUR-Lex"
+    }
+  ]
+}

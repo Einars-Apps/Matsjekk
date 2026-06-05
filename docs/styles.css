@@ -231,6 +231,80 @@ h3 {
     margin-bottom: 0.45rem;
 }
 
+.eu-decision-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.eu-search-controls {
+    display: grid;
+    grid-template-columns: 1fr minmax(150px, 220px) auto;
+    gap: 0.6rem;
+    margin: 1rem 0 0.5rem;
+    align-items: center;
+}
+
+.eu-search-controls input,
+.eu-search-controls select {
+    width: 100%;
+    border: 1px solid #cbd8d2;
+    border-radius: 10px;
+    padding: 0.65rem 0.75rem;
+    font: inherit;
+    color: #20303f;
+    background: #fff;
+}
+
+.eu-search-controls input:focus,
+.eu-search-controls select:focus {
+    outline: 2px solid #86b39f;
+    outline-offset: 1px;
+}
+
+.eu-decision-card {
+    border: 1px solid #dfe8dc;
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 0.9rem;
+}
+
+.eu-decision-topline {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.eu-decision-date {
+    font-size: 0.85rem;
+    color: #445364;
+    font-weight: 700;
+}
+
+.eu-decision-badge {
+    display: inline-block;
+    background: #e8f6ec;
+    color: #1e5f39;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.2rem 0.55rem;
+}
+
+.eu-decision-type {
+    font-weight: 700;
+    color: #5f3b00;
+    margin-bottom: 0.4rem;
+}
+
+.eu-decision-meta {
+    color: #586777;
+    font-size: 0.9rem;
+}
+
 .btn-large {
     font-size: 1.1rem;
     padding: 1rem 2.4rem;
@@ -254,6 +328,18 @@ h3 {
     background: linear-gradient(120deg, #359048 0%, #256e42 100%);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-light {
+    border: 1px solid #cbd8d2;
+    background: #f8fbf9;
+    color: #1f3b2a;
+    padding: 0.65rem 0.95rem;
+}
+
+.btn-light:hover {
+    background: #eef5f1;
+    transform: translateY(-1px);
 }
 
 .feature-grid {
@@ -307,6 +393,12 @@ h3 {
 
 .story-card .story-body {
     padding: 1rem;
+}
+
+@media (max-width: 760px) {
+    .eu-search-controls {
+        grid-template-columns: 1fr;
+    }
 }
 
 .source-pill {

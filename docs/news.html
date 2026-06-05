@@ -69,6 +69,25 @@
       </p>
       <p class="muted" style="margin-top:0.8rem;">For metodikk og kilder: se <a href="editorial-method.html">redaksjonell metode</a> og <a href="source-criteria.html">kildekriterier</a>.</p>
     </section>
+
+    <section>
+      <h2>Siste EU-vedtak (3 ars vindu)</h2>
+      <p>Denne listen viser vedtak og sentrale institusjonsbeslutninger for temaene Bovaer, GMO/NGT og insektsmel.</p>
+      <div class="eu-search-controls" role="search" aria-label="Sok i EU-vedtak">
+        <label for="eu-decisions-search" class="visually-hidden">Sok i EU-vedtak</label>
+        <input id="eu-decisions-search" type="search" placeholder="Sok i tittel, tema, kilde eller sammendrag" autocomplete="off" />
+        <label for="eu-decisions-topic" class="visually-hidden">Filtrer pa tema</label>
+        <select id="eu-decisions-topic" aria-label="Filtrer pa tema">
+          <option value="">Alle tema</option>
+        </select>
+        <button id="eu-decisions-clear" type="button" class="btn btn-light">Nullstill</button>
+      </div>
+      <p id="eu-decisions-status" class="muted">Laster status for automatisk oppdatering...</p>
+      <p id="eu-decisions-count" class="muted">Soker...</p>
+      <div id="eu-decisions-list" class="eu-decision-list">
+        <p class="muted">Laster EU-vedtak...</p>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -86,6 +105,7 @@
 
   <script src="js/site-config.js?v=20260403a"></script>
   <script src="lang.local.js?v=20260403a"></script>
+  <script src="js/eu-decisions.js?v=20260606c"></script>
   <script src="js/ads-loader.js"></script>
   <script src="js/analytics-loader.js"></script>
   <script src="consent.js"></script>
