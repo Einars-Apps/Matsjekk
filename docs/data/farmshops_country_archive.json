@@ -418969,6 +418969,18 @@
       "lat": 41.2957604,
       "lon": -7.7455804,
       "address": "Rua Camilo Castelo Branco"
+    },
+    {
+      "id": 666647099,
+      "name": "Lusiaves - Quinta da Cruz",
+      "country": "Portugal",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.lusiaves.pt/",
+      "lat": 40.0268222,
+      "lon": -8.6224196,
+      "address": null
     }
   ],
   "ES": [
@@ -627642,6 +627654,18 @@
       "lat": 47.35767,
       "lon": 8.6915284,
       "address": null
+    },
+    {
+      "id": 13910611607,
+      "name": "Hofladen Margarethengut",
+      "country": "Switzerland",
+      "region": null,
+      "municipality": "Binningen",
+      "products": [],
+      "website": null,
+      "lat": 47.5426579,
+      "lon": 7.5802744,
+      "address": "St. Margarethengut"
     }
   ],
   "LI": [

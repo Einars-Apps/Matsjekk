@@ -15984,6 +15984,18 @@
     "address": null
   },
   {
+    "id": 13910611607,
+    "name": "Hofladen Margarethengut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Binningen",
+    "products": [],
+    "website": null,
+    "lat": 47.5426579,
+    "lon": 7.5802744,
+    "address": "St. Margarethengut"
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
