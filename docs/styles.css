@@ -494,6 +494,13 @@ h3 {
     border-radius: 999px;
     background: #e9f4ec;
     color: #1e5f39;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #cde4d5;
+}
+
+.source-pill:hover {
+    background: #ddf0e3;
 }
 
 .doc-link {
