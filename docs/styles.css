@@ -233,9 +233,26 @@ h3 {
 
 .eu-decision-list {
     display: grid;
+    gap: 1.1rem;
+    margin-top: 1rem;
+}
+
+.eu-topic-group {
+    border: 1px solid #e4ebe1;
+    border-radius: 12px;
+    background: #fbfdfb;
+    padding: 0.9rem;
+}
+
+.eu-topic-heading {
+    margin-bottom: 0.7rem;
+    color: #1f5f39;
+}
+
+.eu-topic-grid {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
-    margin-top: 1rem;
 }
 
 .eu-search-controls {
@@ -303,6 +320,18 @@ h3 {
 .eu-decision-meta {
     color: #586777;
     font-size: 0.9rem;
+}
+
+.eu-decision-origin {
+    color: #516273;
+    font-size: 0.9rem;
+}
+
+.eu-decision-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 0.35rem;
 }
 
 .btn-large {

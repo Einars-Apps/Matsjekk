@@ -4,6 +4,8 @@
   const WINDOW_DAYS = 365 * 3;
   let allDecisions = [];
   let initialUrlState = null;
+  const translationCache = new Map();
+  let activeRenderToken = 0;
 
   const UI_TEXT = {
     nb: {
@@ -13,9 +15,16 @@
       topicDefault: 'EU-vedtak',
       unknownSource: 'Ukjent kilde',
       allTopics: 'Alle tema',
+      readInLocalLanguage: 'Les i ditt språk',
       sourceLabel: 'Kilde',
       openSource: 'Les originalkilde',
       originalTitle: 'Original tittel',
+      topicHeadings: {
+        gmo: 'GMO / NGT',
+        bovaer: 'Bovaer',
+        insect: 'Insektsmel / Insektprotein',
+        other: 'Andre EU-vedtak',
+      },
       count: (shown, total) => `Viser ${shown} av ${total} vedtak.`,
       noHits: 'Ingen treff. Prov et annet sokeord eller tema.',
       noItems: 'Ingen vedtak funnet i 3-arsvinduet akkurat na.',
@@ -31,9 +40,16 @@
       topicDefault: 'EU decision',
       unknownSource: 'Unknown source',
       allTopics: 'All topics',
+      readInLocalLanguage: 'Read in your language',
       sourceLabel: 'Source',
       openSource: 'Open original source',
       originalTitle: 'Original title',
+      topicHeadings: {
+        gmo: 'GMO / NGT',
+        bovaer: 'Bovaer',
+        insect: 'Insect meal / Insect protein',
+        other: 'Other EU decisions',
+      },
       count: (shown, total) => `Showing ${shown} of ${total} decisions.`,
       noHits: 'No results. Try another search term or topic.',
       noItems: 'No decisions found in the current 3-year window.',
@@ -70,7 +86,63 @@
   function formatDate(input) {
     const d = parseDate(input);
     if (!d) return t().unknownDate;
-    return d.toLocaleDateString('nb-NO');
+    const locale = activeLang() === 'nb' ? 'nb-NO' : activeLang();
+    return d.toLocaleDateString(locale);
+  }
+
+  function topicKey(topic) {
+    const lower = String(topic || '').toLowerCase();
+    if (lower.includes('gmo') || lower.includes('ngt') || lower.includes('genomic')) return 'gmo';
+    if (lower.includes('bovaer') || lower.includes('3-nop') || lower.includes('3 nop')) return 'bovaer';
+    if (lower.includes('insekt') || lower.includes('insect') || lower.includes('novel food')) return 'insect';
+    return 'other';
+  }
+
+  function topicLabel(topic) {
+    const key = topicKey(topic);
+    const headings = t().topicHeadings || UI_TEXT.en.topicHeadings;
+    return headings[key] || topic || t().topicDefault;
+  }
+
+  function mapLangCode(code) {
+    const normalized = String(code || 'en').toLowerCase();
+    const map = {
+      nb: 'no',
+      zh: 'zh-CN',
+    };
+    return map[normalized] || normalized;
+  }
+
+  function translatedSourceUrl(url) {
+    const lang = activeLang();
+    if (!url || url === '#') return '#';
+    if (lang === 'en') return url;
+    return `https://translate.google.com/translate?sl=auto&tl=${encodeURIComponent(mapLangCode(lang))}&u=${encodeURIComponent(url)}`;
+  }
+
+  async function translateText(text) {
+    const value = String(text || '').trim();
+    const lang = activeLang();
+    if (!value || lang === 'en') return value;
+
+    const cacheKey = `${lang}|${value}`;
+    if (translationCache.has(cacheKey)) return translationCache.get(cacheKey);
+
+    try {
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${encodeURIComponent(mapLangCode(lang))}&dt=t&q=${encodeURIComponent(value)}`;
+      const response = await fetch(url, { cache: 'force-cache' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const payload = await response.json();
+      const translated = Array.isArray(payload?.[0])
+        ? payload[0].map((part) => (Array.isArray(part) ? String(part[0] || '') : '')).join('')
+        : value;
+      const out = translated || value;
+      translationCache.set(cacheKey, out);
+      return out;
+    } catch (_err) {
+      translationCache.set(cacheKey, value);
+      return value;
+    }
   }
 
   function inWindow(item) {
@@ -81,14 +153,20 @@
   }
 
   function normalize(item) {
+    const originalTitle = item.originalTitle || item.title || '';
+    const originalSummary = item.originalSummary || item.summary || '';
     return {
       date: item.date || '',
-      title: item.title || t().unknownEntry,
+      title: originalTitle || t().unknownEntry,
       type: item.type || t().update,
       topic: item.topic || t().topicDefault,
-      summary: item.summary || '',
+      summary: originalSummary || '',
       url: item.url || '#',
-      source: item.source || t().unknownSource
+      source: item.source || t().unknownSource,
+      originalTitle,
+      originalSummary,
+      translatedTitle: item.translatedTitle || '',
+      translatedSummary: item.translatedSummary || '',
     };
   }
 
@@ -107,18 +185,24 @@
   function cardHtml(item) {
     const langText = t();
     const safeUrl = item.url || '#';
+    const localReadUrl = translatedSourceUrl(safeUrl);
+    const displayTitle = item.translatedTitle || item.title;
+    const displaySummary = item.translatedSummary || item.summary;
     return `
       <article class="eu-decision-card">
         <div class="eu-decision-topline">
           <span class="eu-decision-date">${formatDate(item.date)}</span>
-          <span class="eu-decision-badge">${escapeHtml(item.topic)}</span>
+          <span class="eu-decision-badge">${escapeHtml(topicLabel(item.topic))}</span>
         </div>
-        <h3>${escapeHtml(item.title)}</h3>
+        <h3>${escapeHtml(displayTitle)}</h3>
         <p class="eu-decision-type">${escapeHtml(item.type)}</p>
-        <p>${escapeHtml(item.summary)}</p>
+        <p>${escapeHtml(displaySummary)}</p>
         <p class="eu-decision-meta">${escapeHtml(langText.sourceLabel)}: ${escapeHtml(item.source)}</p>
-        <p class="eu-decision-origin">${escapeHtml(langText.originalTitle)}: ${escapeHtml(item.title)}</p>
-        <p><a href="${safeUrl}" target="_blank" rel="noopener">${escapeHtml(langText.openSource)}</a></p>
+        <p class="eu-decision-origin">${escapeHtml(langText.originalTitle)}: ${escapeHtml(item.originalTitle || item.title)}</p>
+        <p class="eu-decision-links">
+          <a href="${localReadUrl}" target="_blank" rel="noopener">${escapeHtml(langText.readInLocalLanguage)}</a>
+          <a href="${safeUrl}" target="_blank" rel="noopener">${escapeHtml(langText.openSource)}</a>
+        </p>
       </article>
     `;
   }
@@ -140,6 +224,16 @@
     countEl.textContent = t().count(shown, total);
   }
 
+  function groupByTopic(items) {
+    const map = new Map();
+    for (const item of items) {
+      const key = topicKey(item.topic);
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(item);
+    }
+    return map;
+  }
+
   function renderList(items) {
     const listEl = document.getElementById('eu-decisions-list');
     if (!listEl) return;
@@ -148,7 +242,22 @@
       listEl.innerHTML = `<p class="muted">${escapeHtml(t().noHits)}</p>`;
       return;
     }
-    listEl.innerHTML = items.map(cardHtml).join('');
+    const groups = groupByTopic(items);
+    const order = ['gmo', 'bovaer', 'insect', 'other'];
+    const html = order
+      .filter((key) => groups.has(key) && groups.get(key).length)
+      .map((key) => {
+        const heading = topicLabel(key);
+        const cards = groups.get(key).map(cardHtml).join('');
+        return `
+          <section class="eu-topic-group" aria-label="${escapeHtml(heading)}">
+            <h3 class="eu-topic-heading">${escapeHtml(heading)}</h3>
+            <div class="eu-topic-grid">${cards}</div>
+          </section>
+        `;
+      })
+      .join('');
+    listEl.innerHTML = html;
   }
 
   function getSearchState() {
@@ -199,7 +308,7 @@
     topics.forEach((topic) => {
       const option = document.createElement('option');
       option.value = topic;
-      option.textContent = topic;
+      option.textContent = topicLabel(topic);
       topicEl.appendChild(option);
     });
 
@@ -210,6 +319,8 @@
   }
 
   function renderFiltered(syncUrl) {
+    activeRenderToken += 1;
+    const currentToken = activeRenderToken;
     const { query, topic } = getSearchState();
     const filtered = applyFilters(allDecisions, query, topic);
     renderList(filtered);
@@ -217,6 +328,16 @@
     if (syncUrl !== false) {
       updateUrlState(query, topic);
     }
+
+    void Promise.all(filtered.map(async (item) => {
+      const nextTitle = await translateText(item.originalTitle || item.title);
+      const nextSummary = await translateText(item.originalSummary || item.summary);
+      item.translatedTitle = nextTitle || item.title;
+      item.translatedSummary = nextSummary || item.summary;
+    })).then(() => {
+      if (currentToken !== activeRenderToken) return;
+      renderList(filtered);
+    });
   }
 
   function bindSearchUi() {
