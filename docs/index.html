@@ -313,6 +313,30 @@
             </p>
         </div>
     </footer>
+
+    <div class="sticky-qr" id="sticky-qr" aria-live="polite">
+        <button id="sticky-qr-toggle" class="sticky-qr-toggle" type="button" aria-expanded="false" aria-controls="sticky-qr-panel">
+            Scan for app
+        </button>
+        <div id="sticky-qr-panel" class="sticky-qr-panel" hidden>
+            <p class="sticky-qr-title">Last ned Mat Sjekk</p>
+            <div class="sticky-qr-row">
+                <a href="https://apps.apple.com/app/mat-sjekk/id6759604589" target="_blank" rel="noopener">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fapps.apple.com%2Fapp%2Fmat-sjekk%2Fid6759604589" alt="QR App Store" loading="lazy" />
+                    <span>App Store</span>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.ebors.matsjekk" target="_blank" rel="noopener">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.ebors.matsjekk" alt="QR Google Play" loading="lazy" />
+                    <span>Google Play</span>
+                </a>
+                <a href="https://appgallery.huawei.com/search/Mat%20Sjekk" target="_blank" rel="noopener">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=https%3A%2F%2Fappgallery.huawei.com%2Fsearch%2FMat%2520Sjekk" alt="QR HarmonyOS" loading="lazy" />
+                    <span>HarmonyOS</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
         <script src="js/site-config.js?v=20260403a"></script>
         <script src="lang.local.js?v=20260403a"></script>
         <script src="js/ads-loader.js"></script>
@@ -348,6 +372,37 @@
                     }
                 });
             });
+
+            (function () {
+                const root = document.getElementById('sticky-qr');
+                const toggle = document.getElementById('sticky-qr-toggle');
+                const panel = document.getElementById('sticky-qr-panel');
+                if (!root || !toggle || !panel) return;
+
+                function openPanel() {
+                    panel.hidden = false;
+                    toggle.setAttribute('aria-expanded', 'true');
+                }
+
+                function closePanel() {
+                    panel.hidden = true;
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+
+                toggle.addEventListener('click', function () {
+                    if (panel.hidden) openPanel();
+                    else closePanel();
+                });
+
+                document.addEventListener('click', function (event) {
+                    if (panel.hidden) return;
+                    if (!root.contains(event.target)) closePanel();
+                });
+
+                document.addEventListener('keydown', function (event) {
+                    if (event.key === 'Escape') closePanel();
+                });
+            })();
         </script>
 </body>
 </html>
