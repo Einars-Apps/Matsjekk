@@ -25,6 +25,7 @@
         insect: 'Insektsmel / Insektprotein',
         other: 'Andre EU-vedtak',
       },
+      emptyTopic: 'Ingen vedtak i denne kategorien i valgt periode.',
       count: (shown, total) => `Viser ${shown} av ${total} vedtak.`,
       noHits: 'Ingen treff. Prov et annet sokeord eller tema.',
       noItems: 'Ingen vedtak funnet i 3-arsvinduet akkurat na.',
@@ -50,6 +51,7 @@
         insect: 'Insect meal / Insect protein',
         other: 'Other EU decisions',
       },
+      emptyTopic: 'No decisions in this category for the selected period.',
       count: (shown, total) => `Showing ${shown} of ${total} decisions.`,
       noHits: 'No results. Try another search term or topic.',
       noItems: 'No decisions found in the current 3-year window.',
@@ -245,10 +247,12 @@
     const groups = groupByTopic(items);
     const order = ['gmo', 'bovaer', 'insect', 'other'];
     const html = order
-      .filter((key) => groups.has(key) && groups.get(key).length)
       .map((key) => {
         const heading = topicLabel(key);
-        const cards = groups.get(key).map(cardHtml).join('');
+        const groupItems = groups.get(key) || [];
+        const cards = groupItems.length
+          ? groupItems.map(cardHtml).join('')
+          : `<p class="muted">${escapeHtml(t().emptyTopic)}</p>`;
         return `
           <section class="eu-topic-group" aria-label="${escapeHtml(heading)}">
             <h3 class="eu-topic-heading">${escapeHtml(heading)}</h3>
