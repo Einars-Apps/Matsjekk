@@ -26,6 +26,8 @@
         other: 'Andre EU-vedtak',
       },
       emptyTopic: 'Ingen vedtak i denne kategorien i valgt periode.',
+      insectWindowNone: 'Ingen insektsmel-vedtak i rullerende 3-arsvindu akkurat na.',
+      insectLatestPrefix: 'Siste registrerte insektsmel-vedtak:',
       count: (shown, total) => `Viser ${shown} av ${total} vedtak.`,
       noHits: 'Ingen treff. Prov et annet sokeord eller tema.',
       noItems: 'Ingen vedtak funnet i 3-arsvinduet akkurat na.',
@@ -52,6 +54,8 @@
         other: 'Other EU decisions',
       },
       emptyTopic: 'No decisions in this category for the selected period.',
+      insectWindowNone: 'No insect-meal decisions in the rolling 3-year window right now.',
+      insectLatestPrefix: 'Latest registered insect-meal decision:',
       count: (shown, total) => `Showing ${shown} of ${total} decisions.`,
       noHits: 'No results. Try another search term or topic.',
       noItems: 'No decisions found in the current 3-year window.',
@@ -246,6 +250,12 @@
     }
     const groups = groupByTopic(items);
     const order = ['gmo', 'bovaer', 'insect', 'other'];
+    const ids = {
+      gmo: 'topic-gmo',
+      bovaer: 'topic-bovaer',
+      insect: 'topic-insect',
+      other: 'topic-other',
+    };
     const html = order
       .map((key) => {
         const heading = topicLabel(key);
@@ -254,7 +264,7 @@
           ? groupItems.map(cardHtml).join('')
           : `<p class="muted">${escapeHtml(t().emptyTopic)}</p>`;
         return `
-          <section class="eu-topic-group" aria-label="${escapeHtml(heading)}">
+          <section id="${ids[key]}" class="eu-topic-group" aria-label="${escapeHtml(heading)}">
             <h3 class="eu-topic-heading">${escapeHtml(heading)}</h3>
             <div class="eu-topic-grid">${cards}</div>
           </section>
@@ -262,6 +272,34 @@
       })
       .join('');
     listEl.innerHTML = html;
+  }
+
+  function setInsectStatus(filteredItems, allItems) {
+    const insectEl = document.getElementById('eu-insect-status');
+    if (!insectEl) return;
+
+    const inWindowInsect = filteredItems.some((item) => topicKey(item.topic) === 'insect');
+    if (inWindowInsect) {
+      insectEl.textContent = '';
+      return;
+    }
+
+    const latestInsect = allItems
+      .filter((item) => topicKey(item.topic) === 'insect')
+      .sort((a, b) => {
+        const da = parseDate(a.date);
+        const db = parseDate(b.date);
+        if (!da && !db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return db.getTime() - da.getTime();
+      })[0];
+
+    if (latestInsect && latestInsect.date) {
+      insectEl.textContent = `${t().insectWindowNone} ${t().insectLatestPrefix} ${formatDate(latestInsect.date)}.`;
+      return;
+    }
+    insectEl.textContent = t().insectWindowNone;
   }
 
   function getSearchState() {
@@ -377,14 +415,16 @@
         fetchJson(AUTO_URL).catch(() => ({ items: [], updated_at: null }))
       ]);
 
-      const combined = dedupe([
+      const allCombined = dedupe([
         ...((manual.items || []).map(normalize)),
         ...((auto.items || []).map(normalize))
-      ])
-        .filter(inWindow);
+      ]);
+
+      const combined = allCombined.filter(inWindow);
 
       allDecisions = sortByDate(combined);
       populateTopicFilter(allDecisions);
+      setInsectStatus(allDecisions, allCombined);
 
       if (!allDecisions.length) {
         listEl.innerHTML = `<p class="muted">${escapeHtml(t().noItems)}</p>`;
@@ -400,6 +440,7 @@
     } catch (err) {
       listEl.innerHTML = `<p class="muted">${escapeHtml(t().loadError)}</p>`;
       setCountText(0, 0);
+      setInsectStatus([], []);
       if (statusEl) {
         statusEl.textContent = t().statusFail;
       }
