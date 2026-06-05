@@ -1,3 +1,5 @@
+import 'factory_customer_relations.dart';
+
 // Risk brands organized by country and category.
 //
 // DATA SOURCES (March 2026):
@@ -973,10 +975,165 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   },
 };
 
+// Country-specific yellow/watch lists for newer risk dimensions.
+// These are merged into each country response to keep legacy country blocks compact.
+const Map<String, List<String>> gmoSupplyChainYellowByCountry = {
+  'NO': [
+    'fiskemannen',
+    'leroy seafood',
+    'nordic seafood',
+    'royal greenland',
+  ],
+  'SE': ['findus', 'ica', 'coop', 'leroy seafood', 'nordic seafood'],
+  'DK': ['nordic seafood', 'royal greenland', 'frozen at sea'],
+  'DE': ['iglo', 'followfish', 'deutsche see', 'edeka', 'rewe'],
+  'NL': ['ah', 'albert heijn', 'plus', 'jumbo', 'iglo'],
+  'BE': ['delhaize', 'colruyt', 'carrefour', 'iglo'],
+  'FR': ['labeyrie', 'findus', 'picard', 'carrefour', 'auchan'],
+  'GB': ['youngs seafood', 'tesco', 'sainsbury', 'waitrose', 'asda'],
+  'IE': ['youngs seafood', 'tesco ireland', 'supervalu', 'dunnes'],
+  'ES': ['findus', 'pescanova', 'carrefour', 'mercadona'],
+  'IT': ['findus', 'esselunga', 'coop italia', 'conad'],
+  'PL': ['lisner', 'biedronka', 'carrefour', 'auchan'],
+  'FI': ['kalaneuvos', 'kesko', 's-group', 'royal greenland'],
+};
+
+const Map<String, List<String>> insectSupplyChainYellowByCountry = {
+  'NO': ['protix', 'ynsect', 'nextprotein', 'agronutris', 'entocube'],
+  'SE': ['protix', 'ynsect', 'nextprotein', 'agronutris'],
+  'DK': ['protix', 'enorm biofactory', 'ynsect', 'nextprotein'],
+  'DE': ['nextprotein', 'ynsect', 'protix', 'bugfoundation'],
+  'NL': ['protix', 'kreca', 'ynsect', 'nextprotein'],
+  'BE': ['nextprotein', 'protix', 'ynsect', 'nusect'],
+  'FR': ['ynsect', 'nextprotein', 'agronutris', 'micronutris'],
+  'GB': ['yora', 'small giants', 'nextprotein', 'protix'],
+  'IE': ['nextprotein', 'protix', 'ynsect'],
+  'ES': ['proteinsecta', 'nextprotein', 'protix'],
+  'IT': ['italbugs', 'nextprotein', 'protix'],
+  'PL': ['hi-pro-mine', 'nextprotein', 'protix'],
+  'FI': ['entocube', 'nextprotein', 'protix'],
+};
+
+const Map<String, List<String>> insectEuWatchByCountry = {
+  'NO': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'SE': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'DK': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'DE': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'NL': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'BE': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'FR': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'GB': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'IE': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'ES': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'IT': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'PL': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+  'FI': [
+    'acheta domesticus',
+    'tenebrio molitor',
+    'alphitobius diaperinus',
+    'locusta migratoria',
+    'hermetia illucens',
+  ],
+};
+
 // Get risk brands for a specific country
 Map<String, List<String>> getRiskBrandsForCountry(String countryCode) {
-  return riskBrandsByCountry[countryCode] ??
+  final normalizedCountryCode = countryCode.toUpperCase();
+  final base = riskBrandsByCountry[normalizedCountryCode] ??
       riskBrandsByCountry['NO']!; // Default to NO
+  final merged = Map<String, List<String>>.from(base);
+
+  merged['gmo_supply_chain_yellow'] =
+      gmoSupplyChainYellowByCountry[normalizedCountryCode] ??
+          gmoSupplyChainYellowByCountry['NO'] ??
+          const [];
+
+  merged['insect_supply_chain_yellow'] =
+      insectSupplyChainYellowByCountry[normalizedCountryCode] ??
+          insectSupplyChainYellowByCountry['NO'] ??
+          const [];
+
+  merged['insect_eu_watch'] =
+      insectEuWatchByCountry[normalizedCountryCode] ??
+          insectEuWatchByCountry['NO'] ??
+          const [];
+
+  merged['factory_customer_yellow'] =
+      getFactoryCustomerYellowSignals(normalizedCountryCode);
+
+  return merged;
 }
 
 // Helper to check if brand has Bovaer risk

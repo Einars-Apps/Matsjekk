@@ -34,6 +34,32 @@ const List<String> bovaerYellowBrands = [
   'kavli'
 ];
 const List<String> gmoFishRedBrands = ['lerøy', 'salmar', 'mowi']; // Eksempler
+const List<String> gmoSupplyChainYellowFallback = [
+  'nordic seafood',
+  'royal greenland',
+  'youngs seafood',
+  'labeyrie',
+  'findus',
+  'iglo',
+  'fiskemannen',
+  'leroy seafood',
+];
+const List<String> insectSupplyChainYellowFallback = [
+  'protix',
+  'nextprotein',
+  'agronutris',
+  'entocube',
+  'ynsect',
+  'yora',
+  'entoprotech',
+];
+const List<String> insectEuWatchFallback = [
+  'acheta domesticus',
+  'tenebrio molitor',
+  'alphitobius diaperinus',
+  'locusta migratoria',
+  'hermetia illucens',
+];
 const List<String> greenKeywords = [
   'økologisk',
   'organic',
@@ -803,7 +829,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   Future<Map<String, dynamic>> _fetchFromOpenFoodFacts(String ean) async {
     try {
       final uri = Uri.parse(
-          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url');
+          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,manufacturing_places,origins,emb_codes_tags,brands_owner,stores');
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
@@ -819,6 +845,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           final eStofferFraTekst = _parseEStoffer(ingredients);
           final allEStoffer =
               {...eStofferFraTags, ...eStofferFraTekst}.toList();
+          final supplyChainText = _buildSupplyChainText(product);
 
           Map<String, dynamic> info = {
             'navn': product['product_name'] ?? 'Ukjent navn',
@@ -831,14 +858,54 @@ class _ScannerScreenState extends State<ScannerScreen>
             'nutriscore':
                 (product['nutriscore_grade'] ?? 'ukjent').toUpperCase(),
             'eStoffer': allEStoffer,
+            'supplyChainText': supplyChainText,
           };
             final bovaerAssessment =
-              _analyzeBovaerRiskWithText(info['merke']!, info['etiketter']!);
+              _analyzeBovaerRiskWithText(
+                info['merke']!,
+                info['etiketter']!,
+                info['supplyChainText']!,
+              );
             info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
             info['bovaerRiskText'] = bovaerAssessment['text'] as String;
               info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
-          info['gmoRisk'] =
-              _analyzeGmoRisk(info['merke']!, info['kategorier']!);
+          final gmoAssessment = _analyzeGmoRiskWithContext(
+            info['merke']!,
+            info['kategorier']!,
+            info['etiketter']!,
+            info['ingredienser']!,
+            info['supplyChainText']!,
+          );
+            info['gmoRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
+            info['gmoRiskText'] =
+              (gmoAssessment['consumerText'] ?? '').toString();
+          info['gmoRiskUrl'] = (gmoAssessment['url'] ?? '').toString();
+            info['gmoRegulatoryRisk'] =
+              gmoAssessment['regulatoryRisk'] as RiskLevel;
+            info['gmoRegulatoryText'] =
+              (gmoAssessment['regulatoryText'] ?? '').toString();
+            info['gmoConsumerRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
+            info['gmoConsumerText'] =
+              (gmoAssessment['consumerText'] ?? '').toString();
+          final insectAssessment = _analyzeInsectMealRisk(
+            info['merke']!,
+            info['etiketter']!,
+            info['ingredienser']!,
+            info['kategorier']!,
+            info['supplyChainText']!,
+          );
+            info['insectRisk'] = insectAssessment['consumerRisk'] as RiskLevel;
+            info['insectRiskText'] =
+              (insectAssessment['consumerText'] ?? '').toString();
+          info['insectRiskUrl'] = (insectAssessment['url'] ?? '').toString();
+            info['insectRegulatoryRisk'] =
+              insectAssessment['regulatoryRisk'] as RiskLevel;
+            info['insectRegulatoryText'] =
+              (insectAssessment['regulatoryText'] ?? '').toString();
+            info['insectConsumerRisk'] =
+              insectAssessment['consumerRisk'] as RiskLevel;
+            info['insectConsumerText'] =
+              (insectAssessment['consumerText'] ?? '').toString();
           return info;
         }
       }
@@ -846,6 +913,26 @@ class _ScannerScreenState extends State<ScannerScreen>
       debugPrint('Feil ved henting av produktinfo: $e');
     }
     return {};
+  }
+
+  String _buildSupplyChainText(Map<String, dynamic> product) {
+    String listOrValue(dynamic value) {
+      if (value == null) return '';
+      if (value is List) {
+        return value.map((e) => e.toString()).join(' ');
+      }
+      return value.toString();
+    }
+
+    final parts = <String>[
+      listOrValue(product['manufacturing_places']),
+      listOrValue(product['origins']),
+      listOrValue(product['emb_codes_tags']),
+      listOrValue(product['brands_owner']),
+      listOrValue(product['stores']),
+    ].where((p) => p.trim().isNotEmpty);
+
+    return parts.join(' ').toLowerCase();
   }
 
   void _visProduktDialog(Map<String, dynamic> info) {
@@ -1269,15 +1356,22 @@ class _ScannerScreenState extends State<ScannerScreen>
     ).then((_) => setState(() {}));
   }
 
-  Map<String, dynamic> _analyzeBovaerRiskWithText(String brand, String labels) {
+  Map<String, dynamic> _analyzeBovaerRiskWithText(
+    String brand,
+    String labels,
+    String supplyChainText,
+  ) {
     final lowerBrand = brand.toLowerCase();
     final lowerLabels = labels.toLowerCase();
+    final lowerSupplyChainText = supplyChainText.toLowerCase();
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
     final greens = _countryRulesList(country, 'organic_keywords', greenKeywords);
     final reds = _countryRulesList(country, 'bovaer_red', bovaerRedBrands);
     final yellows = _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
+    final factoryCustomers =
+        _countryRulesList(country, 'factory_customer_yellow', const []);
 
     final locale =
         (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
@@ -1383,25 +1477,307 @@ class _ScannerScreenState extends State<ScannerScreen>
         'url': bovaerUpdateUrl,
       };
     }
+
+    final matchedFactoryCustomers = factoryCustomers
+        .where((entry) =>
+            lowerBrand.contains(entry.toLowerCase()) ||
+            lowerSupplyChainText.contains(entry.toLowerCase()))
+        .toList();
+    if (matchedFactoryCustomers.isNotEmpty) {
+      final matched = matchedFactoryCustomers.take(3).join(', ');
+      return {
+        'risk': RiskLevel.yellow,
+        'text': isNorwegian
+            ? 'MULIG RISIKO: Merket matcher kundeliste i fabrikk/leverandørkjede ($matched). Verifiser etikett og produksjonsdato.'
+            : 'POSSIBLE RISK: This brand matches customer links in the factory/supplier chain ($matched). Verify label and production date.',
+        'url': bovaerUpdateUrl,
+      };
+    }
+
     return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
   }
 
-  RiskLevel _analyzeGmoRisk(String brand, String category) {
+  Map<String, dynamic> _analyzeGmoRiskWithContext(
+    String brand,
+    String category,
+    String labels,
+    String ingredients,
+    String supplyChainText,
+  ) {
     final lowerBrand = brand.toLowerCase();
     final lowerCategory = category.toLowerCase();
+    final lowerLabels = labels.toLowerCase();
+    final lowerIngredients = ingredients.toLowerCase();
+    final combinedText =
+      '$lowerBrand $lowerLabels $lowerIngredients $lowerCategory ${supplyChainText.toLowerCase()}';
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
     final gmoList = _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
-    if (lowerCategory.contains('salmon') ||
+    final euWatchList = _countryRulesList(country, 'gmo_eu_watch', const []);
+    final gmoSupplyChainYellow = _countryRulesList(
+      country,
+      'gmo_supply_chain_yellow',
+      gmoSupplyChainYellowFallback,
+    );
+    final factoryCustomers =
+        _countryRulesList(country, 'factory_customer_yellow', const []);
+    const explicitGmoKeywords = <String>[
+      'genmodifisert',
+      'genetisk modifisert',
+      'genetically modified',
+      'genetically engineered',
+      'contains gmo',
+      'contains genetically modified',
+      'gmo',
+      'gm-',
+      'gm ',
+    ];
+    const ngtKeywords = <String>[
+      'new genomic techniques',
+      'new genomic technique',
+      'ngt',
+      'gene edited',
+      'gene editing',
+      'genredigert',
+      'crispr',
+    ];
+    const supplyChainKeywords = <String>[
+      'importør',
+      'importor',
+      'imported by',
+      'imported for',
+      'import',
+      'leverandør',
+      'leverandor',
+      'supplier',
+      'distributor',
+      'distribution',
+      'produsent',
+      'producer',
+      'manufactured for',
+      'pakket for',
+      'distributed by',
+    ];
+    const aquacultureKeywords = <String>[
+      'oppdrett',
+      'aquaculture',
+      'fish feed',
+      'fiskefoer',
+      'fiskefôr',
+      'sjømat',
+      'seafood',
+    ];
+
+    final hasExplicitGmo = explicitGmoKeywords.any(combinedText.contains);
+    final hasNgtSignal = ngtKeywords.any(combinedText.contains);
+    final hasEuWatchBrand =
+        euWatchList.any((b) => lowerBrand.contains(b.toLowerCase()));
+    final hasGmoSupplyChainActor = gmoSupplyChainYellow
+        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
+      gmoSupplyChainYellow.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasFactoryCustomerSignal = factoryCustomers
+        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
+      factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasSupplyChainLabel = supplyChainKeywords.any(combinedText.contains);
+    final hasAquacultureSignal = aquacultureKeywords.any(combinedText.contains);
+    final isFishCategory = lowerCategory.contains('salmon') ||
         lowerCategory.contains('laks') ||
         lowerCategory.contains('trout') ||
-        lowerCategory.contains('ørret')) {
-      if (gmoList.any((b) => lowerBrand.contains(b.toLowerCase()))) {
-        return RiskLevel.red;
-      }
+        lowerCategory.contains('ørret');
+    final isKnownFishBrand =
+        gmoList.any((b) => lowerBrand.contains(b.toLowerCase()));
+
+    if (hasExplicitGmo) {
+      return {
+        'regulatoryRisk': RiskLevel.red,
+        'regulatoryText':
+            'EU-REGELSTATUS: Produktet ser ut til å være i GMO/NGT-regulert kategori.',
+        'consumerRisk': RiskLevel.red,
+        'consumerText':
+            'FORBRUKERRISIKO: Produkttekst/etikett indikerer GMO-innhold.',
+        'url': kEuGmoDecisionUrl,
+      };
     }
-    return RiskLevel.unknown;
+
+    if (isFishCategory && isKnownFishBrand) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: Kan omfattes av GMO/NGT-regelverk via fôrkjede.',
+        'consumerRisk': RiskLevel.red,
+        'consumerText':
+            'FORBRUKERRISIKO: Merke/kategori matcher kjent GMO-fôr-eksponering.',
+        'url': kSupplierStatusUrl,
+      };
+    }
+
+    if (hasNgtSignal || hasEuWatchBrand) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: Produktet kan omfattes av nytt EU-vedtak for genredigering (NGT).',
+        'consumerRisk': RiskLevel.yellow,
+        'consumerText':
+            'FORBRUKERRISIKO: Kan påvirke forbrukermarkedet, men bør verifiseres mot etikett og produsentinfo.',
+        'url': kEuGmoDecisionUrl,
+      };
+    }
+
+    if ((hasGmoSupplyChainActor || hasSupplyChainLabel || hasFactoryCustomerSignal) &&
+        (isFishCategory || hasAquacultureSignal)) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: Mulig indirekte GMO/NGT-relevans via importør/leverandør/produsentkjede.',
+        'consumerRisk': RiskLevel.yellow,
+        'consumerText':
+            'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem). Verifiser etikett og opprinnelse.',
+        'url': kSupplierStatusUrl,
+      };
+    }
+
+    return {
+      'regulatoryRisk': RiskLevel.unknown,
+      'regulatoryText': '',
+      'consumerRisk': RiskLevel.unknown,
+      'consumerText': '',
+      'url': '',
+    };
+  }
+
+  Map<String, dynamic> _analyzeInsectMealRisk(
+    String brand,
+    String labels,
+    String ingredients,
+    String categories,
+    String supplyChainText,
+  ) {
+    if (!varselInsekt) {
+      return {
+        'regulatoryRisk': RiskLevel.unknown,
+        'regulatoryText': '',
+        'consumerRisk': RiskLevel.unknown,
+        'consumerText': '',
+        'url': '',
+      };
+    }
+
+    final lowerBrand = brand.toLowerCase();
+    final lowerLabels = labels.toLowerCase();
+    final lowerIngredients = ingredients.toLowerCase();
+    final lowerCategories = categories.toLowerCase();
+    final combinedText =
+      '$lowerBrand $lowerLabels $lowerIngredients $lowerCategories ${supplyChainText.toLowerCase()}';
+    final country =
+      (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+        .toUpperCase();
+    final insectEuWatch =
+      _countryRulesList(country, 'insect_eu_watch', insectEuWatchFallback);
+    final insectSupplyChainYellow = _countryRulesList(
+      country,
+      'insect_supply_chain_yellow',
+      insectSupplyChainYellowFallback,
+    );
+    final factoryCustomers =
+      _countryRulesList(country, 'factory_customer_yellow', const []);
+    const explicitInsectKeywords = <String>[
+      'insektsmel',
+      'insektsprotein',
+      'insektprotein',
+      'insekt',
+      'insect meal',
+      'insect protein',
+      'insect flour',
+      'cricket flour',
+      'mealworm',
+      'buffaloworm',
+      'black soldier fly',
+      'acheta domesticus',
+      'tenebrio molitor',
+      'alphitobius diaperinus',
+      'locusta migratoria',
+      'hermetia illucens',
+    ];
+    const insectRegulatoryKeywords = <String>[
+      'novel food',
+      'ny mat',
+      'novel foods',
+      'authorised insect',
+      'godkjent insekt',
+      'eu 2015/2283',
+      'eu 2021/882',
+    ];
+    const supplyChainKeywords = <String>[
+      'importør',
+      'importor',
+      'imported by',
+      'import',
+      'leverandør',
+      'leverandor',
+      'supplier',
+      'distributor',
+      'produsent',
+      'producer',
+      'manufactured for',
+      'distributed by',
+    ];
+
+    final hasExplicitInsect = explicitInsectKeywords.any(combinedText.contains);
+    final hasInsectRegulatorySignal =
+        insectRegulatoryKeywords.any(combinedText.contains) ||
+            insectEuWatch.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasInsectSupplyChainActor = insectSupplyChainYellow
+            .any((b) => lowerBrand.contains(b.toLowerCase())) ||
+        insectSupplyChainYellow.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasFactoryCustomerSignal = factoryCustomers
+        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
+      factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasSupplyChainLabel = supplyChainKeywords.any(combinedText.contains);
+
+    if (hasExplicitInsect) {
+      return {
+        'regulatoryRisk': RiskLevel.red,
+        'regulatoryText':
+            'EU-REGELSTATUS: Produktet ser ut til å være i insekt/novel-food-regulert kategori.',
+        'consumerRisk': RiskLevel.red,
+        'consumerText':
+            'FORBRUKERRISIKO: Produkttekst/ingredienser indikerer insektsmel eller insektprotein.',
+        'url': kEuNovelFoodInsectsUrl,
+      };
+    }
+
+    if (hasInsectRegulatorySignal) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: Produktet kan omfattes av EU-regler for insekter som novel food.',
+        'consumerRisk': RiskLevel.yellow,
+        'consumerText':
+            'FORBRUKERRISIKO: Mulig insektsrelatert eksponering, verifiser ingrediensliste.',
+        'url': kEuNovelFoodInsectsUrl,
+      };
+    }
+
+    if (hasInsectSupplyChainActor || hasSupplyChainLabel || hasFactoryCustomerSignal) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: Mulig indirekte relevans via importør/leverandør/produsentkjede.',
+        'consumerRisk': RiskLevel.yellow,
+        'consumerText':
+            'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem).',
+        'url': kEuNovelFoodInsectsUrl,
+      };
+    }
+
+    return {
+      'regulatoryRisk': RiskLevel.unknown,
+      'regulatoryText': '',
+      'consumerRisk': RiskLevel.unknown,
+      'consumerText': '',
+      'url': '',
+    };
   }
 
   List<String> _parseEStoffer(String ingredients) {

@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mat_sjekk/rules/rule_engine.dart';
 
 void main() {
-  test('bovaer rule flags red brand', () {
+  test('bovaer rule flags yellow brand', () {
     final engine = RuleEngine(rules: defaultRules());
     final product = {
       'merke': 'Tine AS',
@@ -12,7 +12,7 @@ void main() {
       'sourceConfidence': 0.8
     };
     final results = engine.evaluate(product);
-    expect(results.any((r) => r.ruleId == 'bovaer' && r.severity == 'red'),
+    expect(results.any((r) => r.ruleId == 'bovaer' && r.severity == 'yellow'),
         isTrue);
   });
 

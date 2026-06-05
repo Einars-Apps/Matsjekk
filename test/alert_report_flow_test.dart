@@ -20,6 +20,7 @@ void main() {
 
   testWidgets('Alert -> Report persists feedback in Hive',
       (WidgetTester tester) async {
+    await tester.binding.setSurfaceSize(const Size(1200, 1600));
     print('TEST: start');
     var box = Hive.isBoxOpen('alerts_feedback')
         ? Hive.box('alerts_feedback')
@@ -75,6 +76,8 @@ void main() {
     // Now the detail dialog should show and include a 'Report' button.
     final reportFinder = find.text('Report');
     expect(reportFinder, findsWidgets);
+    await tester.ensureVisible(reportFinder.first);
+    await tester.pump();
     await tester.tap(reportFinder.first);
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 200));
@@ -116,6 +119,7 @@ void main() {
     expect(entry['ruleId'], 'bovaer_test');
     // Ensure UI and Hive are cleaned up to avoid platform finalizer races
     await tester.pump(const Duration(milliseconds: 50));
+    await tester.binding.setSurfaceSize(null);
     print('TEST: finishing pumps (quick exit)');
     // End the test here; rely on robust `tearDown` to cleanup resources.
     return;

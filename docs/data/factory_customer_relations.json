@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-06-06",
+  "notes": "Factory-to-customer links used as yellow supply-chain signals. Verify before promoting to red.",
+  "countries": {
+    "NO": [
+      {
+        "factory": "tine",
+        "customer": "fjordland",
+        "source": "https://www.fjordland.no/om-fjordland"
+      },
+      {
+        "factory": "tine",
+        "customer": "q-meieriene",
+        "source": "https://www.tine.no/om-tine"
+      },
+      {
+        "factory": "tine",
+        "customer": "synnove",
+        "source": "https://www.tine.no/merkevarer"
+      },
+      {
+        "factory": "tine",
+        "customer": "kavli",
+        "source": "https://www.tine.no/merkevarer"
+      }
+    ],
+    "SE": [
+      {
+        "factory": "arla",
+        "customer": "ica",
+        "source": "https://www.arla.com/company/"
+      },
+      {
+        "factory": "arla",
+        "customer": "coop",
+        "source": "https://www.arla.com/company/"
+      }
+    ],
+    "DK": [
+      {
+        "factory": "arla",
+        "customer": "foetex",
+        "source": "https://www.arla.com/company/"
+      },
+      {
+        "factory": "arla",
+        "customer": "netto",
+        "source": "https://www.arla.com/company/"
+      }
+    ],
+    "DE": [
+      {
+        "factory": "arla",
+        "customer": "edeka",
+        "source": "https://www.arla.com/company/"
+      },
+      {
+        "factory": "mueller",
+        "customer": "rewe",
+        "source": "https://www.muellergroup.com/"
+      }
+    ],
+    "NL": [
+      {
+        "factory": "frieslandcampina",
+        "customer": "albert heijn",
+        "source": "https://www.frieslandcampina.com/"
+      }
+    ],
+    "FR": [
+      {
+        "factory": "lactalis",
+        "customer": "carrefour",
+        "source": "https://www.lactalis.fr/"
+      },
+      {
+        "factory": "lactalis",
+        "customer": "auchan",
+        "source": "https://www.lactalis.fr/"
+      }
+    ],
+    "GB": [
+      {
+        "factory": "youngs seafood",
+        "customer": "tesco",
+        "source": "https://www.youngsseafood.co.uk/"
+      },
+      {
+        "factory": "youngs seafood",
+        "customer": "sainsbury",
+        "source": "https://www.youngsseafood.co.uk/"
+      }
+    ],
+    "FI": [
+      {
+        "factory": "valio",
+        "customer": "kesko",
+        "source": "https://www.valio.com/"
+      },
+      {
+        "factory": "valio",
+        "customer": "s-group",
+        "source": "https://www.valio.com/"
+      }
+    ]
+  }
+}

@@ -115,6 +115,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
             .toList() ??
         <Map<String, dynamic>>[];
     final bovaerRiskUrl = (info['bovaerRiskUrl'] as String? ?? '').trim();
+    final gmoRiskUrl = (info['gmoRiskUrl'] as String? ?? '').trim();
+    final insectRiskUrl = (info['insectRiskUrl'] as String? ?? '').trim();
 
     return SizedBox(
         width: double.maxFinite,
@@ -161,8 +163,60 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           label: const Text('Se oppdatert status'),
                         ),
                       ),
-                    _buildRiskWidget(context, 'GMO-fôr',
-                        info['gmoRisk'] as RiskLevel? ?? RiskLevel.unknown),
+                    _buildRiskWidget(
+                      context,
+                      'GMO-regelstatus (EU)',
+                      info['gmoRegulatoryRisk'] as RiskLevel? ??
+                        RiskLevel.unknown,
+                      customText:
+                        (info['gmoRegulatoryText'] ?? '').toString()),
+                    _buildRiskWidget(
+                      context,
+                      'GMO-forbrukerrisiko',
+                      info['gmoConsumerRisk'] as RiskLevel? ??
+                        info['gmoRisk'] as RiskLevel? ??
+                        RiskLevel.unknown,
+                      customText: (info['gmoConsumerText'] ??
+                          info['gmoRiskText'] ??
+                          '')
+                        .toString()),
+                    if (gmoRiskUrl.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: TextButton.icon(
+                          onPressed: () => _openUrl(gmoRiskUrl),
+                          icon: const Icon(Icons.open_in_new, size: 18),
+                          label: const Text('Se EU-kilde'),
+                        ),
+                      ),
+                    _buildRiskWidget(
+                      context,
+                      'Insekt-regelstatus (EU)',
+                      info['insectRegulatoryRisk'] as RiskLevel? ??
+                          RiskLevel.unknown,
+                      customText:
+                          (info['insectRegulatoryText'] ?? '').toString(),
+                    ),
+                    _buildRiskWidget(
+                      context,
+                      'Insekt-forbrukerrisiko',
+                      info['insectConsumerRisk'] as RiskLevel? ??
+                          info['insectRisk'] as RiskLevel? ??
+                          RiskLevel.unknown,
+                      customText: (info['insectConsumerText'] ??
+                              info['insectRiskText'] ??
+                              '')
+                          .toString(),
+                    ),
+                    if (insectRiskUrl.isNotEmpty)
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: TextButton.icon(
+                          onPressed: () => _openUrl(insectRiskUrl),
+                          icon: const Icon(Icons.open_in_new, size: 18),
+                          label: const Text('Se insekt-kilde'),
+                        ),
+                      ),
                     const SizedBox(height: 12),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
