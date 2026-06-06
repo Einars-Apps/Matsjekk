@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T05:48:13.389219+00:00",
+  "generatedAt": "2026-06-06T05:37:08.118820+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,13 +8,24 @@
   "errors": [],
   "items": [
     {
+      "title": "Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5",
+      "pubDate": "2026-06-05T11:17:14+00:00",
+      "source": "EU-Startups",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5\" target=\"_blank\">Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EU-Startups</font>",
+      "id": "ffd02923cbec2e59"
+    },
+    {
       "title": "Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits - Genetic Literacy Project",
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQkdxVkxuak9MbEtKM0RfdHZ4ZWNTaDByMmJ5RmxhdGhVV2wyV2R3MnhfQkFMLXNPc1pzMHBaSDVzdzhiTXpVNDB3TjB6X3pKVW56Q05Qb2hteHVhNnpNQ1I4R3cweExGTy1lNUdQTUFINlNoODNYdnh1cDhYVHFNZUlfVlJjWjBHWjVucHVqR2daV3hvaFZVQTlfZ0w2QjFNNTd0Y0xESEVYeGlOc1JMamJiWWVyNk5aNmItcnphMVpjNnZXUjJfZjBUaGh5WWhQWFpRZTFEQ2ZpR0tBSlNfZGlqdXBwR2NPR2E3eWdjOHBwQTd3cDFsSk0zWjBpX3BIX1VybW1jdE1LbWljYjRzV1p1czZrWUw4MlZ0enNn?oc=5",
       "pubDate": "2026-06-03T04:10:11+00:00",
       "source": "Genetic Literacy Project",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingJBVV95cUxNQkdxVkxuak9MbEtKM0RfdHZ4ZWNTaDByMmJ5RmxhdGhVV2wyV2R3MnhfQkFMLXNPc1pzMHBaSDVzdzhiTXpVNDB3TjB6X3pKVW56Q05Qb2hteHVhNnpNQ1I4R3cweExGTy1lNUdQTUFINlNoODNYdnh1cDhYVHFNZUlfVlJjWjBHWjVucHVqR2daV3hvaFZVQTlfZ0w2QjFNNTd0Y0xESEVYeGlOc1JMamJiWWVyNk5aNmItcnphMVpjNnZXUjJfZjBUaGh5WWhQWFpRZTFEQ2ZpR0tBSlNfZGlqdXBwR2NPR2E3eWdjOHBwQTd3cDFsSk0zWjBpX3BIX1VybW1jdE1LbWljYjRzV1p1czZrWUw4MlZ0enNn?oc=5\" target=\"_blank\">Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>",
       "id": "dea4a6e7096b134c"
     },
@@ -24,21 +35,32 @@
       "pubDate": "2026-04-12T12:48:03+00:00",
       "source": "Wild beim Wild",
       "language": "en",
-      "country": "NZ",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVlZQcklUT3RIT0dBcV93SHhoeUY1UXVQM2xBUnZacVRRMXktcnIzOG4zWlJmYW1xWEM3ZVN6YXFwU0ZiWEluLTFfeW1GWUdfS2xISURNWVR1SlRWc2dMbnlQLTRUUkppcE8yUWhKSnBwMW9DYllyTkZuWm1ITUxTMkFQVTRWbjB1?oc=5\" target=\"_blank\">Insects: A Misleading Path to Sustainable Food Systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wild beim Wild</font>",
       "id": "c18691efb7c9bff3"
     },
     {
-      "title": "Ukraine’s MHP launches insect protein project to boost sustainable feed and exports - All About Feed",
+      "title": "Onda: Salmon trial evaluates insect meal as feed additive - SalmonBusiness",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5",
+      "pubDate": "2026-04-02T07:00:00+00:00",
+      "source": "SalmonBusiness",
+      "language": "en",
+      "country": "CA",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5\" target=\"_blank\">Onda: Salmon trial evaluates insect meal as feed additive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SalmonBusiness</font>",
+      "id": "d23abaa25bfff83d"
+    },
+    {
+      "title": "Ukraine’s MHP launches insect protein project to boost sustainable feed and exports - foodagribusiness.world",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdDFMNGo0OGxyRjB0WDc4NDlCOU9aaENBTTZTZFZHdzNKV2RwbWJWUTd2Tm5UTEdsNWd4OHU2WmItUVljZHJidUNwSTFMU3J0ajlFV00tc2xoZDd2UVE0ZHoxLUJCeEtaTDdod0EyYUNfSERKMjJLSE9wak04R1lvc1N5MnBJQmY5dk5EYWMyLUZZMnN3ZUl0QURQaDk0OGR0Rjc5Y2NDMjVjYWctM1pzN2I2SGJUNkc3WlE?oc=5",
       "pubDate": "2026-03-25T12:02:18+00:00",
-      "source": "All About Feed",
+      "source": "foodagribusiness.world",
       "language": "en",
       "country": "GB",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOdDFMNGo0OGxyRjB0WDc4NDlCOU9aaENBTTZTZFZHdzNKV2RwbWJWUTd2Tm5UTEdsNWd4OHU2WmItUVljZHJidUNwSTFMU3J0ajlFV00tc2xoZDd2UVE0ZHoxLUJCeEtaTDdod0EyYUNfSERKMjJLSE9wak04R1lvc1N5MnBJQmY5dk5EYWMyLUZZMnN3ZUl0QURQaDk0OGR0Rjc5Y2NDMjVjYWctM1pzN2I2SGJUNkc3WlE?oc=5\" target=\"_blank\">Ukraine’s MHP launches insect protein project to boost sustainable feed and exports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">All About Feed</font>",
-      "id": "46950359b30a4d1f"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOdDFMNGo0OGxyRjB0WDc4NDlCOU9aaENBTTZTZFZHdzNKV2RwbWJWUTd2Tm5UTEdsNWd4OHU2WmItUVljZHJidUNwSTFMU3J0ajlFV00tc2xoZDd2UVE0ZHoxLUJCeEtaTDdod0EyYUNfSERKMjJLSE9wak04R1lvc1N5MnBJQmY5dk5EYWMyLUZZMnN3ZUl0QURQaDk0OGR0Rjc5Y2NDMjVjYWctM1pzN2I2SGJUNkc3WlE?oc=5\" target=\"_blank\">Ukraine’s MHP launches insect protein project to boost sustainable feed and exports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foodagribusiness.world</font>",
+      "id": "eaf318a66679c7ee"
     },
     {
       "title": "Bovaer cattle feed supplement to be reassessed by European Food Safety Authority - Irish Examiner",
@@ -57,8 +79,8 @@
       "pubDate": "2026-02-25T08:00:00+00:00",
       "source": "Nature",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "CA",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2UXFGVDA4RTVrZjdlUndQMjNzOUI4cTEtc0RiTlRnejIxVm1TemJrb0NrWWlOMXRyLWViR1k5QVdSMmx5MU1fN1ZaTWJoZVNXS3pXdm0zNTVucHJIOUJz?oc=5\" target=\"_blank\">Comparing meat alternatives for a sustainable food system - npj Science of Food</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "2df39d441bdf4ba7"
     },
@@ -79,8 +101,8 @@
       "pubDate": "2026-01-29T08:00:00+00:00",
       "source": "SeafoodSource",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUU4c0tTT3l5RTQ1bnJ0bDBjSDQzUUNpQW0ydUk3Z21wc193WmxxaDREdlJjM3lRLUFOMlItQThqcTRKeEpJaGdOVmtBLXRhSXpleHdWQjBuVXVuMUo5Z1lGQTJPcFlkRXNVY2RzUHRtZW5oUTB4cXkzeGZPOTdWLWEzdlFiaE1kUHpnSVUzMTkyZy1JbUdCVkNaT25sY3JJU0hfQVRsSHRVdlI0TDM5ZHJLSU5lb05qYnM2X1R6aHNsTWlGMlIzY1FYSlQ?oc=5\" target=\"_blank\">Indian biotech firm Loopworm banking on silkworms as the future of sustainable insect feed production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SeafoodSource</font>",
       "id": "53468e8fcb962b29"
     },
@@ -173,37 +195,15 @@
       "id": "cba544a592a6e2d2"
     },
     {
-      "title": "UK Dairy Farms End Bovaer Methane Feed Trial - Evrim Ağacı",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5",
-      "pubDate": "2025-11-08T08:00:00+00:00",
-      "source": "Evrim Ağacı",
-      "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5\" target=\"_blank\">UK Dairy Farms End Bovaer Methane Feed Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Evrim Ağacı</font>",
-      "id": "a303e884f082bd66"
-    },
-    {
       "title": "A fusion transfer learning framework for intelligent pest recognition in sustainable agriculture - Nature",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ib2NnVWRmamk0a0hKUzBCa0NMQXpBTENmLXp6UWJhS2R6Z3FuN3I3ak5HWHl1aGstQWRBS0Y0eEJmbEItRnBJbmRMOS1OT0JsVWo4SUNZTVcwb3MwZnJF?oc=5",
       "pubDate": "2025-10-14T07:00:00+00:00",
       "source": "Nature",
       "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ib2NnVWRmamk0a0hKUzBCa0NMQXpBTENmLXp6UWJhS2R6Z3FuN3I3ak5HWHl1aGstQWRBS0Y0eEJmbEItRnBJbmRMOS1OT0JsVWo4SUNZTVcwb3MwZnJF?oc=5\" target=\"_blank\">A fusion transfer learning framework for intelligent pest recognition in sustainable agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
       "id": "36d597d920f15973"
-    },
-    {
-      "title": "Scientists unlock hybrid protein potential for food system sustainability - Food Ingredients First",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHkxQV80eC16STdhVXpXSnJWbFBsZjNkalBHdjhkSlVYcVp3SUgzWThxS0U5SF9CVFc3VU90cTAxSndiVTA0dG11NXdkRGl6XzNDcFI1NXNoY2NlaHd0T2FQRG50dUh0bEZqQkFfSklfNE4xT1oyd1VXRkhrb3lqT01Xelk3d1U?oc=5",
-      "pubDate": "2025-10-01T07:00:00+00:00",
-      "source": "Food Ingredients First",
-      "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHkxQV80eC16STdhVXpXSnJWbFBsZjNkalBHdjhkSlVYcVp3SUgzWThxS0U5SF9CVFc3VU90cTAxSndiVTA0dG11NXdkRGl6XzNDcFI1NXNoY2NlaHd0T2FQRG50dUh0bEZqQkFfSklfNE4xT1oyd1VXRkhrb3lqT01Xelk3d1U?oc=5\" target=\"_blank\">Scientists unlock hybrid protein potential for food system sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Food Ingredients First</font>",
-      "id": "b6218004566a2206"
     },
     {
       "title": "India insect meal company wins approval for aquaculture use - The Fish Site",
@@ -255,8 +255,8 @@
       "pubDate": "2025-06-06T07:00:00+00:00",
       "source": "CGIAR",
       "language": "en",
-      "country": "AU",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
+      "country": "NZ",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ0hFZ3hGSEdmZXpaVUpfZTBkeTBqZmNVYUFraXZsTnpRNS1qbmxuN21NdVR2R3FRbTJ1UGdNV0k3eXFqWkV3OVp0TmxfdE13YW5qRVd3WjNCTE9vaDJhdFoyUzZ1SWZHalVONEo3UzE4eVBWZHFLZ0NyQzVMUEc1d3BlM3cwajB3a2R4ckJsZzgwOXJVc0pjQ3MwVTU5clNpZ0h1dzgyeGE4eUNLQ3hNLXZlMlRqbzBOcmhwZ0pRLU1WakNPTF9UTzdXWEtJMnltOW5VS0ZkS0hiekoxcWdF?oc=5\" target=\"_blank\">CGIAR Sustainable Farming Program deploying scientific tools to ensure food security from pests and disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CGIAR</font>",
       "id": "e466e44f11c685bd"
     }
