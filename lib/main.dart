@@ -995,7 +995,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   Future<Map<String, dynamic>> _fetchFromOpenFoodFacts(String ean) async {
     try {
       final uri = Uri.parse(
-          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,nutriments,allergens_tags');
+          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,nutriments,allergens_tags,origins,manufacturing_places,countries');
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
@@ -1020,6 +1020,11 @@ class _ScannerScreenState extends State<ScannerScreen>
                 (product['nutriments'] as Map<String, dynamic>?) ?? const {},
             allergensTags:
                 (product['allergens_tags'] as List<dynamic>?) ?? const [],
+            opprinnelse: [
+              (product['origins'] ?? '').toString(),
+              (product['manufacturing_places'] ?? '').toString(),
+              (product['countries'] ?? '').toString(),
+            ].where((s) => s.trim().isNotEmpty).join(', '),
           );
         }
       }
@@ -1042,6 +1047,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     List<dynamic> additivesTags = const [],
     Map<String, dynamic> nutriments = const {},
     List<dynamic> allergensTags = const [],
+    String opprinnelse = '',
   }) {
     final cleanedIngredients = ingredienser.trim();
     final eStofferFraTags = additivesTags
@@ -1067,7 +1073,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
     info['bovaerRiskText'] = bovaerAssessment['text'] as String;
     info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
-    info['gmoRisk'] = _analyzeGmoRisk(merke, kategorier, cleanedIngredients);
+    info['gmoRisk'] =
+        _analyzeGmoRisk(merke, kategorier, cleanedIngredients, opprinnelse);
 
     final insectAssessment =
         _analyzeInsectRisk(cleanedIngredients, etiketter, allEStoffer);
@@ -1850,10 +1857,12 @@ class _ScannerScreenState extends State<ScannerScreen>
     return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
   }
 
-  RiskLevel _analyzeGmoRisk(String brand, String category, String ingredients) {
+  RiskLevel _analyzeGmoRisk(String brand, String category, String ingredients,
+      [String opprinnelse = '']) {
     final lowerBrand = brand.toLowerCase();
     final lowerCategory = category.toLowerCase();
     final lowerIngredients = ingredients.toLowerCase();
+    final lowerOrigin = opprinnelse.toLowerCase();
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
@@ -1886,6 +1895,89 @@ class _ScannerScreenState extends State<ScannerScreen>
         return RiskLevel.red;
       }
     }
+
+    // GMO-utsatte råvarer som i praksis ofte er genmodifisert når de
+    // importeres fra Amerika (soya, mais, raps/canola, sukkerbete, bomullsfrø).
+    const gmoProneCropKeywords = <String>[
+      'soya',
+      'soja',
+      'soy',
+      'soybean',
+      'mais',
+      'maize',
+      'corn',
+      'maisstivelse',
+      'corn starch',
+      'cornstarch',
+      'maissirup',
+      'corn syrup',
+      'raps',
+      'rapsolje',
+      'rapeseed',
+      'canola',
+      'sukkerbete',
+      'sukkerroe',
+      'sugar beet',
+      'bomullsfrø',
+      'cottonseed',
+      'lecitin',
+      'lecithin',
+      'e322',
+    ];
+    // Land med utbredt dyrking/eksport av GMO-avlinger (US-fokus + Amerika).
+    const gmoOriginKeywords = <String>[
+      'usa',
+      'u.s.a',
+      'united states',
+      'états-unis',
+      'etats-unis',
+      'vereinigte staaten',
+      'estados unidos',
+      'stati uniti',
+      'amerikansk',
+      'brazil',
+      'brasil',
+      'argentina',
+      'argentinsk',
+      'canada',
+      'kanada',
+      'paraguay',
+    ];
+
+    final combinedCropText = '$lowerIngredients $lowerCategory';
+    final hasGmoProneCrop =
+        gmoProneCropKeywords.any(combinedCropText.contains);
+    final hasGmoOrigin = gmoOriginKeywords.any(lowerOrigin.contains);
+
+    // Sterke GMO-råvarer (mindre allestedsnærværende enn lecitin/E322).
+    // Brukes til gult varsel for å unngå overflagging av prosesserte varer.
+    const strongGmoCrops = <String>[
+      'soya',
+      'soja',
+      'soy',
+      'soybean',
+      'mais',
+      'maize',
+      'corn',
+      'raps',
+      'rapeseed',
+      'canola',
+    ];
+    final hasStrongGmoCrop = strongGmoCrops.any(combinedCropText.contains);
+
+    // GMO-utsatt råvare + amerikansk/ikke-EU-opprinnelse: i disse landene er
+    // avlingene overveiende genmodifisert. Vanligste reelle GMO-eksponering
+    // i importerte EU-produkter.
+    if (hasGmoProneCrop && hasGmoOrigin) {
+      return RiskLevel.red;
+    }
+
+    // Sterk GMO-råvare der opprinnelse er oppgitt men ukjent/uavklart:
+    // mildere varsel. Krever oppgitt opprinnelse for å holde varslene presise.
+    if (hasStrongGmoCrop && lowerOrigin.trim().isNotEmpty) {
+      return RiskLevel.yellow;
+    }
+
     return RiskLevel.unknown;
   }
 
