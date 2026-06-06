@@ -13,6 +13,7 @@
   "alerts": "Select Alerts",
   "bovaerAlert": "Bovaer Alert",
   "insectMealAlert": "Insect Meal Alert",
+  "ngtAlert": "Hidden GMO (NGT) Alert",
   "gmoFishAlert": "GMO Fish Feed Alert",
   "highRisk": "HIGH RISK",
   "possibleRisk": "POSSIBLE RISK",

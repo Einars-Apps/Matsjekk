@@ -1,0 +1,59 @@
+{
+  "_comment": "Config for the NGT/hidden-GMO supplier monitor. Keep it simple. The monitor flags a watched actor ONLY when a source documents a link between that actor and a known GMO supplier (companies with Monsanto/Bayer-type agreements). A human approves every proposal before it reaches the app.",
+
+  "known_gmo_suppliers": [
+    {
+      "name": "Bayer Crop Science",
+      "aliases": ["bayer crop science", "bayer cropscience", "monsanto", "bayer"]
+    },
+    {
+      "name": "Corteva Agriscience",
+      "aliases": ["corteva", "dow agrosciences", "dupont pioneer", "pioneer hi-bred"]
+    },
+    {
+      "name": "Syngenta",
+      "aliases": ["syngenta", "chemchina"]
+    },
+    {
+      "name": "BASF Agricultural Solutions",
+      "aliases": ["basf agricultural", "basf seeds"]
+    },
+    {
+      "name": "Cargill",
+      "aliases": ["cargill"]
+    },
+    {
+      "name": "Archer Daniels Midland",
+      "aliases": ["archer daniels midland", "adm "]
+    },
+    {
+      "name": "Bunge",
+      "aliases": ["bunge"]
+    }
+  ],
+
+  "watch_actors": [
+    { "name": "NorgesGruppen", "aliases": ["norgesgruppen", "first price", "eldorado", "kiwi", "meny", "spar", "joker"] },
+    { "name": "Coop Norge", "aliases": ["coop norge", "coop obs", "extra", "x-tra", "coop mega"] },
+    { "name": "Rema 1000", "aliases": ["rema 1000", "rema1000"] },
+    { "name": "Orkla", "aliases": ["orkla"] }
+  ],
+
+  "sources": [
+    {
+      "name": "GMWatch - latest news",
+      "url": "https://www.gmwatch.org/en/106-news/latest-news",
+      "enabled": true
+    },
+    {
+      "name": "Example press-release page (replace with real URLs)",
+      "url": "https://example.com/press",
+      "enabled": false
+    }
+  ],
+
+  "settings": {
+    "min_confidence": "low",
+    "note": "Detection is deterministic co-occurrence (an actor and a known GMO supplier mentioned in the same source). This produces PROPOSALS only — never auto-publishes."
+  }
+}

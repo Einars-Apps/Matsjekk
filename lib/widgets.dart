@@ -347,6 +347,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final bovaerRiskUrl = (info['bovaerRiskUrl'] as String? ?? '').trim();
     final gmoRiskUrl = (info['gmoRiskUrl'] as String? ?? '').trim();
     final insectRiskUrl = (info['insectRiskUrl'] as String? ?? '').trim();
+    final ngtRiskUrl = (info['ngtRiskUrl'] as String? ?? '').trim();
 
     bool isRedOrYellow(dynamic value) =>
         value == RiskLevel.red || value == RiskLevel.yellow;
@@ -356,7 +357,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         isRedOrYellow(info['gmoRegulatoryRisk']) ||
         isRedOrYellow(info['insectConsumerRisk']) ||
         isRedOrYellow(info['insectRisk']) ||
-        isRedOrYellow(info['insectRegulatoryRisk']);
+        isRedOrYellow(info['insectRegulatoryRisk']) ||
+        isRedOrYellow(info['ngtRisk']);
 
     return SizedBox(
         width: double.maxFinite,
@@ -447,6 +449,20 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         context,
                         insectRiskUrl,
                         'Open insect source',
+                      ),
+                    _buildRiskWidget(
+                      context,
+                      'Skjult GMO (NGT)',
+                      info['ngtRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                      customText: (info['ngtRiskText'] ?? '').toString(),
+                    ),
+                    if (ngtRiskUrl.isNotEmpty &&
+                        (info['ngtRisk'] == RiskLevel.red ||
+                            info['ngtRisk'] == RiskLevel.yellow))
+                      _sourceLinkButton(
+                        context,
+                        ngtRiskUrl,
+                        'See updated status',
                       ),
                     // Metodikk-banner: forklarer føre-var/spredningskjede.
                     const SizedBox(height: 8),
@@ -1254,6 +1270,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                                         'List is empty'));
                           }
                           return ReorderableListView(
+                            // ignore: deprecated_member_use
                             onReorder: (oldIndex, newIndex) {
                               if (newIndex > oldIndex) newIndex--;
                               final item = varer.removeAt(oldIndex);
