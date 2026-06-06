@@ -191,6 +191,12 @@ abstract class AppLocalizations {
   /// **'Insect Meal Alert'**
   String get insectMealAlert;
 
+  /// No description provided for @ngtAlert.
+  ///
+  /// In en, this message translates to:
+  /// **'Hidden GMO (NGT) Alert'**
+  String get ngtAlert;
+
   /// No description provided for @gmoFishAlert.
   ///
   /// In en, this message translates to:

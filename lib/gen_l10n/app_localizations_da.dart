@@ -48,6 +48,9 @@ class AppLocalizationsDa extends AppLocalizations {
   String get insectMealAlert => 'Insektmel-advarsel';
 
   @override
+  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+
+  @override
   String get gmoFishAlert => 'GMO-foder (Fisk)';
 
   @override

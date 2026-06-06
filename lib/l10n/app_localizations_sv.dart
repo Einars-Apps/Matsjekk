@@ -48,6 +48,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get insectMealAlert => 'Insektsmjöl-avisering';
 
   @override
+  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+
+  @override
   String get gmoFishAlert => 'GMO-foder (Fisk)';
 
   @override

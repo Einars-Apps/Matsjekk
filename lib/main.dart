@@ -22,6 +22,8 @@ import 'ad_helper.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
+import 'data/ngt_risk_brands.dart';
+import 'services/remote_ngt_suppliers_service.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -239,12 +241,14 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool varselBovaer = true;
   bool varselInsekt = true;
   bool varselGmo = true;
+  bool varselNgt = true;
   bool wakeLockOn = false;
   bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
   bool _initialPrivacyDialogOpen = false;
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
+  List<NgtSupplierEntry> _ngtSuppliers = [];
 
   BannerAd? _bannerAd;
   bool _bannerAdLoaded = false;
@@ -270,6 +274,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
+      _loadRemoteNgtSuppliers();
     }
     _loadBannerAd();
   }
@@ -395,6 +400,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     varselBovaer = innstillingerBox.get('varselBovaer', defaultValue: true);
     varselGmo = innstillingerBox.get('varselGmo', defaultValue: true);
     varselInsekt = innstillingerBox.get('varselInsekt', defaultValue: true);
+    varselNgt = innstillingerBox.get('varselNgt', defaultValue: true);
     wakeLockOn = innstillingerBox.get('wakeLockOn', defaultValue: false);
     selectedLanguage =
         innstillingerBox.get('selectedLanguage', defaultValue: 'nb');
@@ -453,6 +459,32 @@ class _ScannerScreenState extends State<ScannerScreen>
       });
     } catch (_) {
       // Keep cached/local fallback when remote fetch fails.
+    }
+  }
+
+  /// Loads the human-approved NGT supplier list. Reads cache instantly, then
+  /// refreshes in the background (once per day). Approved entries reach the
+  /// app without a new release.
+  Future<void> _loadRemoteNgtSuppliers() async {
+    final service = RemoteNgtSuppliersService(innstillingerBox);
+
+    final cached = service.readCached();
+    if (cached.isNotEmpty && mounted) {
+      setState(() {
+        _ngtSuppliers = cached;
+      });
+    }
+
+    if (!service.isStale()) return;
+
+    try {
+      final fetched = await service.fetchAndCache();
+      if (!mounted) return;
+      setState(() {
+        _ngtSuppliers = fetched;
+      });
+    } catch (_) {
+      // Keep cached/empty fallback when remote fetch fails.
     }
   }
 
@@ -906,6 +938,14 @@ class _ScannerScreenState extends State<ScannerScreen>
               insectAssessment['consumerRisk'] as RiskLevel;
             info['insectConsumerText'] =
               (insectAssessment['consumerText'] ?? '').toString();
+
+          final ngtAssessment = _analyzeNgtRisk(
+            info['merke']!,
+            info['etiketter']!,
+          );
+          info['ngtRisk'] = ngtAssessment['risk'] as RiskLevel;
+          info['ngtRiskText'] = (ngtAssessment['text'] ?? '').toString();
+          info['ngtRiskUrl'] = (ngtAssessment['url'] ?? '').toString();
           return info;
         }
       }
@@ -1141,6 +1181,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                           onChanged: (v) {
                             setDialogState(() => varselInsekt = v);
                             innstillingerBox.put('varselInsekt', v);
+                          }),
+                      SwitchListTile(
+                          title: Text(
+                              AppLocalizations.of(context)?.ngtAlert ??
+                                  'Hidden GMO (NGT) Alert'),
+                          value: varselNgt,
+                          onChanged: (v) {
+                            setDialogState(() => varselNgt = v);
+                            innstillingerBox.put('varselNgt', v);
                           }),
                     ]),
                     actions: [
@@ -1856,6 +1905,82 @@ class _ScannerScreenState extends State<ScannerScreen>
       'consumerText': '',
       'url': '',
     };
+  }
+
+  /// "Skjult GMO" / NGT precaution.
+  ///
+  /// Legally framed as a YELLOW "MULIG RISIKO" (risk of) signal, never red and
+  /// never an assertion that the product contains gene-edited ingredients.
+  /// YELLOW is shown ONLY for producers/retailers where it is documented that
+  /// they have purchased and received deliveries from a GMO/NGT industry
+  /// (curated list). There is NO automatic crop- or retailer-size heuristic.
+  Map<String, dynamic> _analyzeNgtRisk(String brand, String labels) {
+    if (!varselNgt) {
+      return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
+    }
+
+    final lowerBrand = brand.toLowerCase();
+    final lowerLabels = labels.toLowerCase();
+
+    final country =
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
+    final greens =
+        _countryRulesList(country, 'organic_keywords', greenKeywords);
+
+    final locale =
+        (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+            .toLowerCase();
+    final isNorwegian = locale == 'nb';
+
+    // Certified organic excludes GMO/NGT by definition — green.
+    if (greens.any((k) => lowerLabels.contains(k.toLowerCase()))) {
+      return {'risk': RiskLevel.green, 'text': '', 'url': ''};
+    }
+
+    // Never flag a traditional / small-scale producer or farm shop — green.
+    if (ngtTraditionalExclusions.any(lowerBrand.contains)) {
+      return {'risk': RiskLevel.green, 'text': '', 'url': ''};
+    }
+
+    // YELLOW is shown ONLY for producers/retailers where it is documented that
+    // they have purchased and received deliveries from a GMO/NGT industry.
+    // There is NO automatic heuristic based on crops or retailer size — an
+    // actor only lands on the yellow side once such sourcing is verified and
+    // added to the approved list. Everything else is green.
+    //
+    // Source 1 (preferred): remote, human-approved list (matsjekk.com).
+    // Updates here reach the app within a day, without a new release.
+    for (final entry in _ngtSuppliers) {
+      if (entry.brandAliases.any(lowerBrand.contains)) {
+        final reason = isNorwegian ? entry.reasonNb : entry.reasonEn;
+        return {
+          'risk': RiskLevel.yellow,
+          'text': reason.trim().isNotEmpty
+              ? reason
+              : (isNorwegian
+                  ? 'MULIG RISIKO: Dokumentert leveranse fra kjent GMO-leverandør.'
+                  : 'POSSIBLE RISK: Documented sourcing from a known GMO supplier.'),
+          'url': entry.sourceUrl.trim().isNotEmpty
+              ? entry.sourceUrl
+              : kEditorialMethodUrl,
+        };
+      }
+    }
+
+    // Source 2 (fallback): local curated list shipped with the app.
+    for (final entry in ngtRiskBrands.entries) {
+      if (entry.key.isNotEmpty && lowerBrand.contains(entry.key)) {
+        return {
+          'risk': RiskLevel.yellow,
+          'text': isNorwegian ? entry.value.reasonNb : entry.value.reasonEn,
+          'url': kEditorialMethodUrl,
+        };
+      }
+    }
+
+    // Default: green unless documented otherwise.
+    return {'risk': RiskLevel.green, 'text': '', 'url': ''};
   }
 
   List<String> _parseEStoffer(String ingredients) {

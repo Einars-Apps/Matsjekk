@@ -13,6 +13,7 @@
   "alerts": "Velg varsler",
   "bovaerAlert": "Bovaer-varsel",
   "insectMealAlert": "Insektmel-varsel",
+  "ngtAlert": "Skjult GMO (NGT)-varsel",
   "gmoFishAlert": "GMO-fôr (Fisk)",
   "highRisk": "HØY RISIKO",
   "possibleRisk": "MULIG RISIKO",
