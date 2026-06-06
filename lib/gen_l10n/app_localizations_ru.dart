@@ -274,6 +274,10 @@ class AppLocalizationsRu extends AppLocalizations {
       'Не удалось загрузить товары для покупки. Проверьте сеть и попробуйте снова.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Попробовать снова';
 
   @override

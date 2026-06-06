@@ -1,0 +1,26 @@
+analysis:
+  errors:
+    missing_required_param: ignore
+    unnecessary_getters_setters: ignore
+  linter:
+    rules:
+      - avoid_print
+      - prefer_const_constructors
+      - prefer_final_fields
+      - unnecessary_new
+      - always_specify_types
+      - public_member_api_docs
+      - sort_constructors_first
+      - sort_pub_dependencies
+      - type_annotate_public_apis
+      - prefer_single_quotes
+      - unnecessary_this
+      - avoid_types_on_closure_parameters
+      - prefer_is_empty
+      - prefer_contains
+      - prefer_spread_collections
+      - prefer_collection_literals
+      - avoid_annotating_with_dynamic
+      - avoid_function_literals_in_foreach_calls
+      - prefer_mixed_case_identifiers
+      - use_key_in_widget_constructors

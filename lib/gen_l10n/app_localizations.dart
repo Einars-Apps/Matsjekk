@@ -632,6 +632,12 @@ abstract class AppLocalizations {
   /// **'Could not load purchase products. Check your network and try again.'**
   String get productsLoadFailed;
 
+  /// No description provided for @purchaseNotAvailableOnDevice.
+  ///
+  /// In en, this message translates to:
+  /// **'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.'**
+  String get purchaseNotAvailableOnDevice;
+
   /// No description provided for @tryAgain.
   ///
   /// In en, this message translates to:

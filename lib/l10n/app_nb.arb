@@ -85,6 +85,7 @@
   "oneTimePurchaseInfo": "Engangskjøp. Ikke abonnement.\nEtter bekreftet kjøp fjernes reklame permanent for denne kontoen.",
   "storeUnavailable": "Butikken er ikke tilgjengelig akkurat nå. Prøv igjen senere.",
   "productsLoadFailed": "Kunne ikke laste kjøpsprodukter. Sjekk nettverket og prøv igjen.",
+  "purchaseNotAvailableOnDevice": "Kjøp i appen er ikke tilgjengelig på denne enheten. Hvis du allerede har kjøpt reklamefri, vil det gjenopprettes automatisk.",
   "tryAgain": "Prøv igjen",
   "oneTimePurchaseLabel": "engangskjøp",
   "buyPermanently": "Kjøp permanent",

@@ -1,0 +1,24 @@
+name: food_check_cn
+description: A Flutter project for checking food products with localization support.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  http: ^0.13.3
+  flutter_localizations:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.0
+  build_web_compilers: ^3.2.0
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/l10n/
+  generate: true

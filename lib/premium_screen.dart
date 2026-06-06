@@ -105,19 +105,33 @@ class _PremiumScreenState extends State<PremiumScreen> {
             const SizedBox(height: 16),
             if (_premiumService.isLoading)
               const Center(child: CircularProgressIndicator())
-            else if (!_premiumService.isStoreAvailable)
-              Text(l10n?.storeUnavailable ??
-                  'Store is unavailable right now. Please try again later.')
-            else if (_premiumService.products.isEmpty)
+            else if (!_premiumService.isStoreAvailable ||
+                _premiumService.products.isEmpty)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    l10n?.productsLoadFailed ??
-                        'Could not load purchase products. Check your network and try again.',
+                  Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: Colors.grey.shade100,
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Row(
+                      children: [
+                        const Icon(Icons.info_outline, color: Colors.grey),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Text(
+                            l10n?.purchaseNotAvailableOnDevice ??
+                                'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.',
+                            style: TextStyle(color: Colors.grey.shade700),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 8),
-                  ElevatedButton.icon(
+                  TextButton.icon(
                     onPressed: () async {
                       await _premiumService.loadProducts();
                       if (!mounted) return;
@@ -129,29 +143,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ],
               )
             else
-              ..._premiumService.products.map(
-                (product) => Card(
-                  child: ListTile(
-                    title: Text(product.title),
-                    subtitle: Text(
-                      '${product.price} • ${l10n?.oneTimePurchaseLabel ?? 'one-time purchase'}',
-                    ),
-                    trailing: _premiumService.isPremiumActive
-                        ? const Icon(Icons.check_circle, color: Colors.green)
-                        : ElevatedButton(
-                            onPressed: () async {
-                              await _premiumService.buy(product);
-                              if (!mounted) return;
-                              widget.onPremiumChanged(
-                                  _premiumService.isPremiumActive);
-                              setState(() {});
-                            },
-                            child:
-                                Text(l10n?.buyPermanently ?? 'Buy permanently'),
-                          ),
-                  ),
-                ),
-              ),
+              ..._buildProductList(l10n),
             const SizedBox(height: 8),
             TextButton.icon(
               onPressed: () async {
@@ -175,6 +167,62 @@ class _PremiumScreenState extends State<PremiumScreen> {
         ),
       ),
     );
+  }
+
+  List<Widget> _buildProductList(AppLocalizations? l10n) {
+    // Huawei store path
+    if (PremiumService.isHuaweiStore) {
+      final hp = _premiumService.huaweiProduct;
+      if (hp == null) return [];
+      return [
+        Card(
+          child: ListTile(
+            title: Text(hp.title),
+            subtitle: Text(
+              '${hp.price} • ${l10n?.oneTimePurchaseLabel ?? 'one-time purchase'}',
+            ),
+            trailing: _premiumService.isPremiumActive
+                ? const Icon(Icons.check_circle, color: Colors.green)
+                : ElevatedButton(
+                    onPressed: () async {
+                      await _premiumService.buyHuawei();
+                      if (!mounted) return;
+                      widget.onPremiumChanged(
+                          _premiumService.isPremiumActive);
+                      setState(() {});
+                    },
+                    child: Text(l10n?.buyPermanently ?? 'Buy permanently'),
+                  ),
+          ),
+        ),
+      ];
+    }
+
+    // Google Play / Apple path
+    return _premiumService.products
+        .map(
+          (product) => Card(
+            child: ListTile(
+              title: Text(product.title),
+              subtitle: Text(
+                '${product.price} • ${l10n?.oneTimePurchaseLabel ?? 'one-time purchase'}',
+              ),
+              trailing: _premiumService.isPremiumActive
+                  ? const Icon(Icons.check_circle, color: Colors.green)
+                  : ElevatedButton(
+                      onPressed: () async {
+                        await _premiumService.buy(product);
+                        if (!mounted) return;
+                        widget.onPremiumChanged(
+                            _premiumService.isPremiumActive);
+                        setState(() {});
+                      },
+                      child: Text(l10n?.buyPermanently ?? 'Buy permanently'),
+                    ),
+            ),
+          ),
+        )
+        .toList();
   }
 
   String _translateMessage(PremiumMessageKey key, AppLocalizations? l10n) {

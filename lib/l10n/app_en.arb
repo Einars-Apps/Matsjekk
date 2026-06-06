@@ -84,6 +84,7 @@
   "oneTimePurchaseInfo": "One-time purchase. No subscription.\nAfter purchase confirmation, ads are removed permanently for this account.",
   "storeUnavailable": "Store is unavailable right now. Please try again later.",
   "productsLoadFailed": "Could not load purchase products. Check your network and try again.",
+  "purchaseNotAvailableOnDevice": "In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.",
   "tryAgain": "Try again",
   "oneTimePurchaseLabel": "one-time purchase",
   "buyPermanently": "Buy permanently",

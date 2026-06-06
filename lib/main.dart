@@ -244,7 +244,13 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
       _matvaretabellenService.load();
+      _checkPurchaseAvailability();
     }
+  }
+
+  Future<void> _checkPurchaseAvailability() async {
+    await PremiumService.checkPurchasesAvailable();
+    if (mounted) setState(() {});
   }
 
   @override
@@ -1298,6 +1304,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                   _visLandDialog();
                 },
               ),
+              if (premiumActive || PremiumService.purchasesAvailable)
               ListTile(
                 leading: const Icon(Icons.workspace_premium),
                 title: Text(premiumActive
@@ -2161,7 +2168,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                                 () => showFullScreenList = !showFullScreenList),
                             onRename: _handleRename,
                             onShowSearch: () => _visSok(),
-                            showPremiumUpsell: !premiumActive,
+                            showPremiumUpsell: !premiumActive && PremiumService.purchasesAvailable,
                             onPremiumTap: () {
                               setState(() {
                                 showList = false;

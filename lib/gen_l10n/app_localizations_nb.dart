@@ -270,6 +270,10 @@ class AppLocalizationsNb extends AppLocalizations {
       'Kunne ikke laste kjøpsprodukter. Sjekk nettverket og prøv igjen.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'Kjøp i appen er ikke tilgjengelig på denne enheten. Hvis du allerede har kjøpt reklamefri, vil det gjenopprettes automatisk.';
+
+  @override
   String get tryAgain => 'Prøv igjen';
 
   @override

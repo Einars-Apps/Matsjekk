@@ -264,6 +264,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get productsLoadFailed => '구매 상품을 불러올 수 없습니다. 네트워크를 확인하고 다시 시도해 주세요.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => '다시 시도';
 
   @override

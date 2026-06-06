@@ -271,6 +271,10 @@ class AppLocalizationsDa extends AppLocalizations {
       'Kunne ikke indlæse købsprodukter. Tjek dit netværk og prøv igen.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Prøv igen';
 
   @override

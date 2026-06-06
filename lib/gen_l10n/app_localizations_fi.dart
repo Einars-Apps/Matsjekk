@@ -271,6 +271,10 @@ class AppLocalizationsFi extends AppLocalizations {
       'Ostotuotteita ei voitu ladata. Tarkista verkko ja yritä uudelleen.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Yritä uudelleen';
 
   @override

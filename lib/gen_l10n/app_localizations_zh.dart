@@ -262,6 +262,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get productsLoadFailed => '无法加载购买商品。请检查网络并重试。';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => '重试';
 
   @override

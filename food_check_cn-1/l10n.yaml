@@ -1,0 +1,9 @@
+locale: 
+  - en
+  - zh
+  - auto
+  - fallback: en
+  - path: lib/l10n
+  - arb-dir: lib/l10n
+  - template-arb-file: app_en.arb
+  - output-localization-file: l10n.dart

@@ -272,6 +272,10 @@ class AppLocalizationsSv extends AppLocalizations {
       'Kunde inte ladda köpprodukter. Kontrollera nätverket och försök igen.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Försök igen';
 
   @override

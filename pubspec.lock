@@ -365,6 +365,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+  huawei_iap:
+    dependency: "direct main"
+    description:
+      name: huawei_iap
+      sha256: a929ca238805f6ac9f0f157060ff9cda017cb40a0f9042e671346b0aac91e084
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.13.0+305"
   image:
     dependency: transitive
     description:

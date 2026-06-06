@@ -275,6 +275,10 @@ class AppLocalizationsPt extends AppLocalizations {
       'Não foi possível carregar os produtos de compra. Verifique a sua rede e tente novamente.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Tentar novamente';
 
   @override

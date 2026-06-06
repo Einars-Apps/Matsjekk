@@ -274,6 +274,10 @@ class AppLocalizationsNl extends AppLocalizations {
       'Koopproducten konden niet worden geladen. Controleer uw netwerk en probeer het opnieuw.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Probeer opnieuw';
 
   @override

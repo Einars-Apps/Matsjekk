@@ -275,6 +275,10 @@ class AppLocalizationsPl extends AppLocalizations {
       'Nie udało się załadować produktów do zakupu. Sprawdź sieć i spróbuj ponownie.';
 
   @override
+  String get purchaseNotAvailableOnDevice =>
+      'In-app purchases are not available on this device. If you have already purchased ad-free, it will be restored automatically.';
+
+  @override
   String get tryAgain => 'Spróbuj ponownie';
 
   @override
