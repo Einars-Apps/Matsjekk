@@ -170,8 +170,16 @@
         <section>
             <h2>Hva appen faktisk varsler om <span class="section-chip section-chip--web">Nettsideinnhold</span></h2>
             <p>Mat Sjekk varsler om risikosignaler knyttet til Bovaer, GMO i fôrkjeder og insektsmel. Under er temaene som vurderes i dagens app.</p>
+            <div id="app-theme-filter" class="topic-filter-row" role="tablist" aria-label="Filtrer tema">
+                <button class="topic-filter-btn active" type="button" data-filter="all" aria-pressed="true">Vis alle</button>
+                <button class="topic-filter-btn" type="button" data-filter="bovaer" aria-pressed="false">Bovaer</button>
+                <button class="topic-filter-btn" type="button" data-filter="gmo" aria-pressed="false">GMO/NGT</button>
+                <button class="topic-filter-btn" type="button" data-filter="insect" aria-pressed="false">Insektsmel</button>
+                <button class="topic-filter-btn" type="button" data-filter="supplychain" aria-pressed="false">Leverandørkjede</button>
+            </div>
+            <p id="app-theme-filter-status" class="muted">Viser alle temaer.</p>
             <div class="story-grid">
-                <article class="story-card">
+                <article class="story-card" data-topics="bovaer">
                     <a href="https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02022R0565-20260205" target="_blank" rel="noopener" aria-label="Dokumentasjon for Bovaer">
                         <img src="assets/photos/cow-innerdal.jpg" alt="Kyr på beite i norsk fjellandskap" loading="lazy">
                     </a>
@@ -179,12 +187,12 @@
                         <h3>Ku, melk og Bovaer</h3>
                         <p><a class="doc-link" href="https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02022R0565-20260205" target="_blank" rel="noopener">Dokumentasjon</a></p>
                         <p>Vi følger særlig saker om fôrtilsetninger i meierikjeden, merking og forbrukerinformasjon om melk og storfe.</p>
-                        <a class="source-pill" href="https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02022R0565-20260205" target="_blank" rel="noopener">Tema: Bovaer i meierikjeden</a>
+                        <a class="source-pill" href="#app-theme-filter" data-filter="bovaer">Tema: Bovaer i meierikjeden</a>
                         <p class="theme-explainer">Hva betyr dette for deg? <a href="news.html?cb=20260606f&topic=Bovaer#topic-bovaer">Se forklaring og vedtak for Bovaer</a>.</p>
                         <p class="image-credit">Illustrasjonsfoto: <a href="https://commons.wikimedia.org/wiki/File:Innerdalst%C3%A5rnet_cows.jpg" target="_blank" rel="noopener">color line</a> (CC BY 2.0, Wikimedia Commons)</p>
                     </div>
                 </article>
-                <article class="story-card">
+                <article class="story-card" data-topics="gmo supplychain">
                     <a href="https://food.ec.europa.eu/plants/genetically-modified-organisms/new-techniques-biotechnology_en" target="_blank" rel="noopener" aria-label="Dokumentasjon for GMO og NGT">
                         <img src="assets/photos/sheep-valldal.jpg" alt="Vei inn i dal med leverandorkjede-symbolikk" loading="lazy">
                     </a>
@@ -192,12 +200,12 @@
                         <h3>GMO på vei hit</h3>
                         <p><a class="doc-link" href="https://food.ec.europa.eu/plants/genetically-modified-organisms/new-techniques-biotechnology_en" target="_blank" rel="noopener">Dokumentasjon</a></p>
                         <p>Vi vurderer GMO/NGT-signaler i import- og leverandorkjeder, slik at du ser mulig risiko før varen treffer hylla.</p>
-                        <a class="source-pill" href="https://food.ec.europa.eu/plants/genetically-modified-organisms/new-techniques-biotechnology_en" target="_blank" rel="noopener">Tema: GMO/NGT + leverandorkjede</a>
+                        <a class="source-pill" href="#app-theme-filter" data-filter="gmo">Tema: GMO/NGT + leverandorkjede</a>
                         <p class="theme-explainer">Hva betyr dette for deg? <a href="news.html?cb=20260606f&topic=GMO%2FNGT#topic-gmo">Se forklaring og vedtak for GMO/NGT</a>.</p>
                         <p class="image-credit">Illustrasjonsfoto: <a href="https://commons.wikimedia.org/wiki/File:Dala_sheep_crossing_Valldalsvegen_in_%C3%98vstest%C3%B8len,_Fjord,_Norway,_2019_July.jpg" target="_blank" rel="noopener">Ximonic (Simo Räsänen)</a> (CC BY-SA 3.0, Wikimedia Commons)</p>
                     </div>
                 </article>
-                <article class="story-card">
+                <article class="story-card" data-topics="gmo insect supplychain">
                     <a href="https://food.ec.europa.eu/safety/novel-food/authorisations/summary-applications-and-notifications_en" target="_blank" rel="noopener" aria-label="Dokumentasjon for insektsmel og novel food">
                         <img src="assets/photos/fish-farm-tysnes.jpg" alt="Fiskeoppdrett med merder i norsk fjord" loading="lazy">
                     </a>
@@ -205,12 +213,12 @@
                         <h3>Fiskefôr i oppdrett</h3>
                         <p><a class="doc-link" href="https://food.ec.europa.eu/safety/novel-food/authorisations/summary-applications-and-notifications_en" target="_blank" rel="noopener">Dokumentasjon</a></p>
                         <p>Appen vurderer risiko i fiskefôrkjeder, inkludert GMO-signaler og mulig indirekte eksponering via leverandørledd.</p>
-                        <a class="source-pill" href="https://food.ec.europa.eu/safety/novel-food/authorisations/summary-applications-and-notifications_en" target="_blank" rel="noopener">Tema: GMO + insektsmel</a>
+                        <a class="source-pill" href="#app-theme-filter" data-filter="insect">Tema: GMO + insektsmel</a>
                         <p class="theme-explainer">Hva betyr dette for deg? <a href="news.html?cb=20260606f&topic=Insektsmel#topic-insect">Se forklaring og vedtak for insektsmel</a>.</p>
                         <p class="image-credit">Illustrasjonsfoto: <a href="https://commons.wikimedia.org/wiki/File:Lachsfarm._Insel_Tysnes_in_Norwegen_IMG_3016WI.jpg" target="_blank" rel="noopener">Kora27</a> (CC BY-SA 4.0, Wikimedia Commons)</p>
                     </div>
                 </article>
-                <article class="story-card">
+                <article class="story-card" data-topics="insect">
                     <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0005" target="_blank" rel="noopener" aria-label="Dokumentasjon for insektsmel og novel food">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Fried_grasshoppers_in_Bangkok.jpg" alt="Stekte gresshopper i Bangkok" loading="lazy">
                     </a>
@@ -218,7 +226,7 @@
                         <h3>Insektsmel i matkjeden</h3>
                         <p><a class="doc-link" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0005" target="_blank" rel="noopener">Dokumentasjon</a></p>
                         <p>Appen markerer produkter med mulig insekt-eksponering via ingrediens, merking eller leverandorkjede der informasjonen er usikker.</p>
-                        <a class="source-pill" href="news.html?cb=20260606f&topic=Insektsmel#topic-insect" target="_blank" rel="noopener">Tema: Insektsmel / novel food</a>
+                        <a class="source-pill" href="#app-theme-filter" data-filter="insect">Tema: Insektsmel / novel food</a>
                         <p class="image-credit">Illustrasjonsfoto: <a href="https://commons.wikimedia.org/wiki/File:Fried_grasshoppers_in_Bangkok.jpg" target="_blank" rel="noopener">Thomas Schoch (Mosmas)</a> (CC BY-SA 2.5, Wikimedia Commons)</p>
                     </div>
                 </article>
@@ -426,6 +434,60 @@
                 document.addEventListener('keydown', function (event) {
                     if (event.key === 'Escape') closePanel();
                 });
+            })();
+
+            (function () {
+                const filterRoot = document.getElementById('app-theme-filter');
+                const statusEl = document.getElementById('app-theme-filter-status');
+                if (!filterRoot) return;
+
+                const cards = Array.from(document.querySelectorAll('.story-grid .story-card'));
+                const buttons = Array.from(filterRoot.querySelectorAll('.topic-filter-btn'));
+                const pillLinks = Array.from(document.querySelectorAll('.story-grid .source-pill[data-filter]'));
+                const labels = {
+                    all: 'alle temaer',
+                    bovaer: 'Bovaer',
+                    gmo: 'GMO/NGT',
+                    insect: 'Insektsmel',
+                    supplychain: 'Leverandørkjede'
+                };
+
+                function setFilter(filter) {
+                    const key = filter || 'all';
+                    buttons.forEach((btn) => {
+                        const active = btn.dataset.filter === key;
+                        btn.classList.toggle('active', active);
+                        btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+                    });
+
+                    cards.forEach((card) => {
+                        const topics = String(card.dataset.topics || '').toLowerCase().split(/\s+/).filter(Boolean);
+                        const show = key === 'all' || topics.includes(key);
+                        card.hidden = !show;
+                    });
+
+                    if (statusEl) {
+                        statusEl.textContent = key === 'all'
+                            ? 'Viser alle temaer.'
+                            : `Filter aktivt: ${labels[key] || key}.`;
+                    }
+                }
+
+                buttons.forEach((btn) => {
+                    btn.addEventListener('click', function () {
+                        setFilter(btn.dataset.filter || 'all');
+                    });
+                });
+
+                pillLinks.forEach((link) => {
+                    link.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        setFilter(link.dataset.filter || 'all');
+                        filterRoot.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    });
+                });
+
+                setFilter('all');
             })();
         </script>
 </body>

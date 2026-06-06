@@ -531,6 +531,55 @@ h3 {
     font-weight: 700;
 }
 
+.topic-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.7rem 0 0.35rem;
+}
+
+.topic-filter-btn {
+    border: 1px solid #cde4d5;
+    border-radius: 999px;
+    background: #ecf8ef;
+    color: #1f5f39;
+    font-weight: 700;
+    font-size: 0.83rem;
+    padding: 0.28rem 0.62rem;
+    cursor: pointer;
+}
+
+.topic-filter-btn.active {
+    background: #2f7f4f;
+    color: #fff;
+    border-color: #2f7f4f;
+}
+
+.other-practical {
+    margin-top: 1.25rem;
+    border: 1px solid #e4ebe1;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fbfdfb;
+}
+
+.other-practical h3 {
+    color: #1f5f39;
+    margin-bottom: 0.45rem;
+}
+
+.other-practical-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.other-practical .eu-card h4 {
+    color: #34506a;
+    margin-bottom: 0.35rem;
+}
+
 .image-credit {
     margin-top: 0.65rem;
     font-size: 0.8rem;
