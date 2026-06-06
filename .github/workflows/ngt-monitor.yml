@@ -1,0 +1,51 @@
+name: NGT Supplier Monitor
+
+# Watches a small set of producers/retailers and proposes a flag ONLY when a
+# source documents a link to a known GMO supplier (Monsanto/Bayer-type
+# agreements). It NEVER publishes to the app — it opens a PR with proposals
+# for human review and approval.
+
+on:
+  schedule:
+    - cron: "23 5 * * 1" # every Monday 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run NGT supplier monitor
+        run: python scripts/ngt_monitor.py
+
+      - name: Open PR with proposals (human approval required)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(ngt): update supplier monitor proposals"
+          branch: ngt-monitor/proposals
+          delete-branch: true
+          title: "NGT monitor: review proposed GMO-supplier links"
+          body: |
+            Automated proposals from the NGT supplier monitor.
+
+            These are **proposals only**. For each entry:
+            1. Open the `source_url` and verify the claim.
+            2. If verified, add the brand to `docs/data/ngt_suppliers.json`
+               with the verifiable `source_url`.
+            3. Do **not** merge proposals blindly — the app shows a yellow
+               signal only for entries promoted into `ngt_suppliers.json`.
+
+            See `scripts/ngt_proposals.json` for the raw proposals.
+          add-paths: |
+            scripts/ngt_proposals.json

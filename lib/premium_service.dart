@@ -54,8 +54,13 @@ class PremiumService {
           _purchasesAvailableCache = true;
           return true;
         }
+        // Google Play is present (so this is not a Huawei-only device). Do NOT
+        // probe Huawei IAP here, because IapClient.isEnvReady() triggers the
+        // "HMS Core not installed" dialog on every launch on non-Huawei devices.
+        _purchasesAvailableCache = false;
+        return false;
       }
-      // Fall back to Huawei IAP
+      // Google Play unavailable — fall back to Huawei IAP
       if (Platform.isAndroid) {
         final huaweiAvailable = await _detectHuaweiStore();
         if (huaweiAvailable) {

@@ -4,6 +4,8 @@ import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'ad_banner.dart';
+import 'data/additive_info.dart';
+import 'services/additive_taxonomy_service.dart';
 
 // Enum for risikonivå
 enum RiskLevel { green, yellow, red, unknown }
@@ -23,6 +25,7 @@ class ProductInfoDialogContent extends StatefulWidget {
 class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
   final Set<int> _expanded = <int>{};
   final Map<int, bool> _reporting = {};
+  final AdditiveTaxonomyService _additiveTaxonomy = AdditiveTaxonomyService();
 
   void _toggleExpanded(int i) {
     setState(() {
@@ -59,6 +62,456 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       if (!mounted) return;
       safeSnack(context, 'Kunne ikke åpne lenken: $e');
     }
+  }
+
+  void _showAdditiveInfo(BuildContext context, String eNumber) {
+    final localeCode =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    final isNorwegian = localeCode == 'nb' || localeCode == 'no';
+    final info = lookupAdditiveInfo(eNumber, localeCode);
+
+    final closeLabel = isNorwegian ? 'Lukk' : 'Close';
+    final categoryLabel = isNorwegian ? 'Kategori' : 'Category';
+    final backgroundLabel = isNorwegian ? 'Bakgrunn' : 'Background';
+    final healthLabel = isNorwegian ? 'Helserisiko' : 'Health risk';
+    final unknownText = isNorwegian
+        ? 'Vi har ikke en forklaring på dette tilsetningsstoffet ennå. '
+            'Sjekk varedeklarasjonen eller Mattilsynet for mer informasjon.'
+        : 'We don\'t have an explanation for this additive yet. '
+            'Check the product label or your food authority for more information.';
+
+    final origin = info?.origin;
+    final isSynthetic = origin != null &&
+        (origin.toLowerCase().startsWith('synt') ||
+            origin.toLowerCase().startsWith('synth'));
+
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.info_outline, color: Colors.blue),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                '$eNumber${info != null ? ': ${info.name}' : ''}',
+                style: const TextStyle(fontSize: 18),
+              ),
+            ),
+          ],
+        ),
+        content: SingleChildScrollView(
+          child: info == null
+              ? _buildTaxonomyFallback(
+                  context, eNumber, localeCode, isNorwegian, unknownText)
+              : Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // --- Kategori ---
+                    _additiveSectionLabel(categoryLabel),
+                    _additiveSectionCard(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text('$eNumber: ${info.category}',
+                              style: const TextStyle(
+                                  fontWeight: FontWeight.bold)),
+                          const SizedBox(height: 6),
+                          Text(info.description),
+                        ],
+                      ),
+                    ),
+                    // --- Bakgrunn ---
+                    if (info.origin != null || info.background != null) ...[
+                      _additiveSectionLabel(backgroundLabel),
+                      _additiveSectionCard(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            if (info.origin != null)
+                              Row(
+                                children: [
+                                  Icon(
+                                      isSynthetic
+                                          ? Icons.science
+                                          : Icons.eco,
+                                      color: isSynthetic
+                                          ? Colors.redAccent
+                                          : Colors.green,
+                                      size: 20),
+                                  const SizedBox(width: 8),
+                                  Text(info.origin!,
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold)),
+                                ],
+                              ),
+                            if (info.background != null) ...[
+                              const SizedBox(height: 6),
+                              Text(info.background!),
+                            ],
+                          ],
+                        ),
+                      ),
+                    ],
+                    // --- Helserisiko ---
+                    if (info.healthRisk != null) ...[
+                      _additiveSectionLabel(healthLabel),
+                      _additiveSectionCard(
+                        child: Text(info.healthRisk!),
+                      ),
+                    ],
+                  ],
+                ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: Text(closeLabel),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _additiveSectionLabel(String label) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 14, bottom: 6),
+      child: Text(
+        label,
+        style: TextStyle(
+            color: Colors.grey[600],
+            fontSize: 12,
+            fontWeight: FontWeight.w600),
+      ),
+    );
+  }
+
+  Widget _additiveSectionCard({required Widget child}) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: const Color.fromRGBO(0, 0, 0, 0.04),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: child,
+    );
+  }
+
+  void _showAllergenInfo(BuildContext context, String allergen) {
+    final localeCode =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    final isNorwegian = localeCode == 'nb' || localeCode == 'no';
+    final closeLabel = isNorwegian ? 'Lukk' : 'Close';
+
+    final explanation = _allergenExplanation(allergen, isNorwegian);
+    final genericText = isNorwegian
+        ? 'Dette er merket som et allergen i produktet. Personer med '
+            'overfølsomhet bør sjekke varedeklarasjonen nøye.'
+        : 'This is listed as an allergen in the product. People with '
+            'hypersensitivity should read the product label carefully.';
+
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.warning_amber_rounded, color: Colors.orange),
+            const SizedBox(width: 8),
+            Expanded(
+              child: Text(
+                _capitalize(allergen),
+                style: const TextStyle(fontSize: 18),
+              ),
+            ),
+          ],
+        ),
+        content: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _additiveSectionCard(
+                child: Text(explanation ?? genericText),
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: Text(closeLabel),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _capitalize(String s) =>
+      s.isEmpty ? s : '${s[0].toUpperCase()}${s.substring(1)}';
+
+  // Plain-language explanation of common allergens (EU's 14 mandatory
+  // allergens). Matches on Norwegian and English keywords found in the name.
+  String? _allergenExplanation(String allergen, bool isNorwegian) {
+    final a = allergen.toLowerCase();
+    bool has(List<String> keys) => keys.any((k) => a.contains(k));
+
+    if (has(['glute', 'hvete', 'wheat', 'bygg', 'barley', 'rug', 'rye',
+        'spelt', 'korn', 'cereal'])) {
+      return isNorwegian
+          ? 'Glutenholdig korn (hvete, rug, bygg, spelt). Må unngås av personer '
+              'med cøliaki eller glutenintoleranse.'
+          : 'Gluten-containing cereals (wheat, rye, barley, spelt). Must be '
+              'avoided by people with coeliac disease or gluten intolerance.';
+    }
+    if (has(['melk', 'milk', 'laktose', 'lactose', 'meieri', 'dairy'])) {
+      return isNorwegian
+          ? 'Melk og melkeprodukter, inkludert laktose. Relevant ved '
+              'melkeallergi og laktoseintoleranse.'
+          : 'Milk and dairy products, including lactose. Relevant for milk '
+              'allergy and lactose intolerance.';
+    }
+    if (has(['egg'])) {
+      return isNorwegian
+          ? 'Egg og eggprodukter. En av de vanligste matallergiene, særlig '
+              'hos barn.'
+          : 'Eggs and egg products. One of the most common food allergies, '
+              'especially in children.';
+    }
+    if (has(['peanøtt', 'peanut', 'jordnøtt'])) {
+      return isNorwegian
+          ? 'Peanøtt (jordnøtt). Kan gi kraftige allergiske reaksjoner, også i '
+              'små mengder.'
+          : 'Peanuts. Can cause severe allergic reactions, even in small '
+              'amounts.';
+    }
+    if (has(['nøtt', 'nut', 'mandel', 'almond', 'hassel', 'cashew',
+        'valnøtt', 'walnut', 'pistasj', 'pecan', 'paranøtt'])) {
+      return isNorwegian
+          ? 'Nøtter fra tre (mandel, hasselnøtt, valnøtt, cashew m.fl.). Kan gi '
+              'kraftige allergiske reaksjoner.'
+          : 'Tree nuts (almond, hazelnut, walnut, cashew, etc.). Can cause '
+              'severe allergic reactions.';
+    }
+    if (has(['soya', 'soy'])) {
+      return isNorwegian
+          ? 'Soya og soyaprodukter. Vanlig ingrediens i bearbeidet mat.'
+          : 'Soy and soy products. A common ingredient in processed food.';
+    }
+    if (has(['fisk', 'fish'])) {
+      return isNorwegian
+          ? 'Fisk og fiskeprodukter. Relevant ved fiskeallergi.'
+          : 'Fish and fish products. Relevant for fish allergy.';
+    }
+    if (has(['skalldyr', 'krepsdyr', 'crustacean', 'reke', 'shrimp',
+        'krabbe', 'crab', 'hummer', 'lobster'])) {
+      return isNorwegian
+          ? 'Skalldyr/krepsdyr (reker, krabbe, hummer). Kan gi kraftige '
+              'allergiske reaksjoner.'
+          : 'Crustaceans (shrimp, crab, lobster). Can cause severe allergic '
+              'reactions.';
+    }
+    if (has(['bløtdyr', 'mollusc', 'mollusk', 'musling', 'mussel',
+        'blekksprut', 'squid', 'østers', 'oyster', 'snegle'])) {
+      return isNorwegian
+          ? 'Bløtdyr (musling, blekksprut, østers, snegle).'
+          : 'Molluscs (mussels, squid, oysters, snails).';
+    }
+    if (has(['selleri', 'celery'])) {
+      return isNorwegian
+          ? 'Selleri og selleriprodukter. Skjult allergen i mange kraft- og '
+              'sausblandinger.'
+          : 'Celery and celery products. A hidden allergen in many stocks and '
+              'sauce mixes.';
+    }
+    if (has(['sennep', 'mustard'])) {
+      return isNorwegian
+          ? 'Sennep og sennepsprodukter.'
+          : 'Mustard and mustard products.';
+    }
+    if (has(['sesam', 'sesame'])) {
+      return isNorwegian
+          ? 'Sesamfrø og sesamprodukter.'
+          : 'Sesame seeds and sesame products.';
+    }
+    if (has(['sulfit', 'sulphit', 'sulfitt', 'svoveldioksid',
+        'sulfur dioxide', 'e220', 'e221', 'e222', 'e223', 'e224', 'e225',
+        'e226', 'e227', 'e228'])) {
+      return isNorwegian
+          ? 'Svoveldioksid og sulfitter (konserveringsmiddel). Kan gi '
+              'pustebesvær hos astmatikere.'
+          : 'Sulphur dioxide and sulphites (preservative). Can cause breathing '
+              'problems in people with asthma.';
+    }
+    if (has(['lupin'])) {
+      return isNorwegian
+          ? 'Lupin (belgvekst). Brukes i enkelte melblandinger.'
+          : 'Lupin (a legume). Used in some flour blends.';
+    }
+    return null;
+  }
+
+  // Fallback shown when the curated database has no entry: looks the E-number
+  // up in the free OpenFoodFacts additive taxonomy (international register) to
+  // show at least the official name and an EFSA source link.
+  Widget _buildTaxonomyFallback(BuildContext context, String eNumber,
+      String localeCode, bool isNorwegian, String unknownText) {
+    final categoryLabel = isNorwegian ? 'Kategori' : 'Category';
+    final sourceLabel = isNorwegian ? 'Kilde' : 'Source';
+    final efsaLabel =
+        isNorwegian ? 'Les EFSA-vurderingen' : 'Read the EFSA evaluation';
+    final loadingText =
+        isNorwegian ? 'Henter informasjon …' : 'Loading information …';
+
+    return FutureBuilder<AdditiveTaxonomyInfo?>(
+      future: _additiveTaxonomy.lookup(eNumber, localeCode: localeCode),
+      builder: (ctx, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: Row(
+              children: [
+                const SizedBox(
+                    width: 18,
+                    height: 18,
+                    child: CircularProgressIndicator(strokeWidth: 2)),
+                const SizedBox(width: 12),
+                Text(loadingText),
+              ],
+            ),
+          );
+        }
+        final tax = snapshot.data;
+        if (tax == null) {
+          return Text(unknownText);
+        }
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _additiveSectionLabel(categoryLabel),
+            _additiveSectionCard(
+              child: Text('$eNumber: ${tax.name}',
+                  style: const TextStyle(fontWeight: FontWeight.bold)),
+            ),
+            _additiveSectionLabel(sourceLabel),
+            _additiveSectionCard(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(isNorwegian
+                      ? 'Navn fra OpenFoodFacts sitt tilsetningsstoff-register.'
+                      : 'Name from the OpenFoodFacts additive register.'),
+                  if (tax.efsaUrl != null) ...[
+                    const SizedBox(height: 8),
+                    InkWell(
+                      onTap: () => _openUrl(tax.efsaUrl!),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.open_in_new,
+                              size: 16, color: Colors.blue),
+                          const SizedBox(width: 6),
+                          Expanded(
+                            child: Text(efsaLabel,
+                                style: const TextStyle(
+                                    color: Colors.blue,
+                                    decoration: TextDecoration.underline)),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showNutriScoreInfo(BuildContext context, String score) {
+    final localeCode =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    final isNorwegian = localeCode == 'nb' || localeCode == 'no';
+    final grade = score.toUpperCase().trim();
+    final closeLabel = isNorwegian ? 'Lukk' : 'Close';
+
+    final intro = isNorwegian
+        ? 'Nutri-Score er en næringsmerking som rangerer mat fra A (sunnest) '
+            'til E (minst sunt). Den beregnes ut fra innhold av fett, mettet '
+            'fett, sukker og salt (trekker ned) opp mot fiber, protein, frukt '
+            'og grønt (trekker opp). Den sier noe om ernæring – ikke om '
+            'tilsetningsstoffer eller opprinnelse.'
+        : 'Nutri-Score is a nutrition label ranking food from A (healthiest) '
+            'to E (least healthy). It is calculated from fat, saturated fat, '
+            'sugar and salt (which lower the score) versus fibre, protein, '
+            'fruit and vegetables (which raise it). It reflects nutrition only '
+            '\u2014 not additives or origin.';
+
+    const Map<String, List<String>> gradeMeaningNb = {
+      'A': ['A', 'Gunstig næringsverdi – et av de sunnere valgene i kategorien.'],
+      'B': ['B', 'Ganske god næringsverdi.'],
+      'C': ['C', 'Middels næringsverdi.'],
+      'D': ['D', 'Mindre gunstig – mye fett, sukker eller salt.'],
+      'E': ['E', 'Minst gunstig næringsverdi i kategorien.'],
+    };
+    const Map<String, List<String>> gradeMeaningEn = {
+      'A': ['A', 'Favourable nutrition \u2014 one of the healthier choices in the category.'],
+      'B': ['B', 'Fairly good nutritional value.'],
+      'C': ['C', 'Average nutritional value.'],
+      'D': ['D', 'Less favourable \u2014 high in fat, sugar or salt.'],
+      'E': ['E', 'Least favourable nutrition in the category.'],
+    };
+
+    final meaning = isNorwegian ? gradeMeaningNb[grade] : gradeMeaningEn[grade];
+    final unknownGrade = isNorwegian
+        ? 'Nutri-Score er ikke oppgitt for dette produktet.'
+        : 'Nutri-Score is not available for this product.';
+
+    showDialog<void>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+              decoration: BoxDecoration(
+                  color: _getNutriScoreColor(grade),
+                  borderRadius: BorderRadius.circular(8)),
+              child: Text(grade,
+                  style: const TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold)),
+            ),
+            const SizedBox(width: 8),
+            const Text('Nutri-Score', style: TextStyle(fontSize: 18)),
+          ],
+        ),
+        content: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              if (meaning != null)
+                Text(meaning[1],
+                    style: const TextStyle(fontWeight: FontWeight.bold))
+              else
+                Text(unknownGrade,
+                    style: const TextStyle(fontWeight: FontWeight.bold)),
+              const SizedBox(height: 12),
+              Text(intro),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(ctx).pop(),
+            child: Text(closeLabel),
+          ),
+        ],
+      ),
+    );
   }
 
   String _farmShopsLabel(BuildContext context) {
@@ -269,7 +722,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         value == RiskLevel.red || value == RiskLevel.yellow;
     final hasRedOrYellow = isRedOrYellow(info['bovaerRisk']) ||
         isRedOrYellow(info['gmoRisk']) ||
-        isRedOrYellow(info['insectRisk']);
+        isRedOrYellow(info['insectRisk']) ||
+        isRedOrYellow(info['ngtRisk']);
 
     return SizedBox(
         width: double.maxFinite,
@@ -322,6 +776,26 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         info['insectRisk'] as RiskLevel? ?? RiskLevel.unknown,
                         customText:
                             (info['insectRiskText'] ?? '').toString()),
+                    _buildRiskWidget(
+                        context,
+                        AppLocalizations.of(context)?.ngtLabel ??
+                            'Hidden GMO (NGT)',
+                        info['ngtRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                        customText: (info['ngtRiskText'] ?? '').toString()),
+                    if ((info['ngtRiskUrl'] as String? ?? '').trim().isNotEmpty &&
+                        (info['ngtRisk'] == RiskLevel.red ||
+                            info['ngtRisk'] == RiskLevel.yellow))
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 8),
+                        child: TextButton.icon(
+                          onPressed: () => _openUrl(
+                              (info['ngtRiskUrl'] as String).trim()),
+                          icon: const Icon(Icons.open_in_new, size: 18),
+                          label: Text(AppLocalizations.of(context)
+                                  ?.seeUpdatedStatus ??
+                              'See updated status'),
+                        ),
+                      ),
                     // Metodikk-banner: forklarer føre-var/spredningskjede.
                     const SizedBox(height: 8),
                     Container(
@@ -425,22 +899,36 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                  AppLocalizations.of(context)?.nutriScore ??
-                                      'Nutri-Score',
-                                  style: const TextStyle(
-                                      fontWeight: FontWeight.bold)),
+                              Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Text(
+                                      AppLocalizations.of(context)
+                                              ?.nutriScore ??
+                                          'Nutri-Score',
+                                      style: const TextStyle(
+                                          fontWeight: FontWeight.bold)),
+                                  const SizedBox(width: 4),
+                                  const Icon(Icons.info_outline,
+                                      size: 16, color: Colors.blue),
+                                ],
+                              ),
                               const SizedBox(height: 4),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 12, vertical: 6),
-                                decoration: BoxDecoration(
-                                    color: _getNutriScoreColor(nutriscore),
-                                    borderRadius: BorderRadius.circular(8)),
-                                child: Text(nutriscore,
-                                    style: const TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold)),
+                              InkWell(
+                                onTap: () => _showNutriScoreInfo(
+                                    context, nutriscore),
+                                borderRadius: BorderRadius.circular(8),
+                                child: Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 12, vertical: 6),
+                                  decoration: BoxDecoration(
+                                      color: _getNutriScoreColor(nutriscore),
+                                      borderRadius: BorderRadius.circular(8)),
+                                  child: Text(nutriscore,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold)),
+                                ),
                               ),
                             ],
                           ),
@@ -758,14 +1246,31 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           spacing: 8.0,
                           runSpacing: 4.0,
                           children: eStoffer
-                              .map((e) => Chip(
+                              .map((e) => ActionChip(
+                                  avatar: const Icon(Icons.info_outline,
+                                      size: 18),
                                   label: Text(e.toString(),
                                       style: const TextStyle(
-                                          fontWeight: FontWeight.bold))))
+                                          fontWeight: FontWeight.bold)),
+                                  onPressed: () =>
+                                      _showAdditiveInfo(context, e.toString())))
                               .toList())
                     else
                       Text(AppLocalizations.of(context)?.noAdditionsFound ??
                           'No E-numbers found in database.'),
+                    if (eStoffer.isEmpty &&
+                        (info['eStofferStatus'] ?? '')
+                            .toString()
+                            .isNotEmpty) ...[
+                      const SizedBox(height: 4),
+                      Text(
+                        info['eStofferStatus'].toString(),
+                        style: TextStyle(
+                            fontSize: 11,
+                            fontStyle: FontStyle.italic,
+                            color: Colors.grey[600]),
+                      ),
+                    ],
                     const SizedBox(height: 12),
                     Text(AppLocalizations.of(context)?.allergensLabel ?? 'Allergens',
                         style: const TextStyle(fontWeight: FontWeight.bold)),
@@ -775,10 +1280,14 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           spacing: 8.0,
                           runSpacing: 4.0,
                           children: allergener
-                              .map((a) => Chip(
+                              .map((a) => ActionChip(
+                                  avatar: const Icon(Icons.info_outline,
+                                      size: 18),
                                   label: Text(a,
                                       style: const TextStyle(
-                                          fontWeight: FontWeight.bold))))
+                                          fontWeight: FontWeight.bold)),
+                                  onPressed: () =>
+                                      _showAllergenInfo(context, a)))
                               .toList())
                     else
                       Text(AppLocalizations.of(context)?.noAllergensFound ?? 'No allergens found.'),
@@ -1177,6 +1686,7 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                             return Center(child: Text(AppLocalizations.of(context)?.emptyList ?? 'List is empty'));
                           }
                           return ReorderableListView(
+                            // ignore: deprecated_member_use
                             onReorder: (oldIndex, newIndex) {
                               if (newIndex > oldIndex) newIndex--;
                               final item = varer.removeAt(oldIndex);

@@ -1,0 +1,18 @@
+{
+  "_comment": "Human-APPROVED list of producers/retailers documented to source from a known GMO supplier (Monsanto/Bayer-type agreements). The app reads this file (https://matsjekk.com/data/ngt_suppliers.json) once per day and shows a YELLOW 'MULIG RISIKO' signal ONLY for brands listed here. Approved entries reach the app without a new release. The monitor (scripts/ngt_monitor.py) only proposes candidates; a human promotes verified ones into this 'suppliers' array.",
+  "_schema": {
+    "brand_aliases": "list of lowercase brand substrings matched against the product brand",
+    "reason_nb": "Norwegian 'MULIG RISIKO' wording (precautionary, with a verifiable basis)",
+    "reason_en": "English 'POSSIBLE RISK' wording",
+    "source_url": "public, verifiable source documenting the GMO-supplier link"
+  },
+  "_example_disabled": {
+    "brand_aliases": ["eksempelmerke"],
+    "reason_nb": "MULIG RISIKO: Dokumentert leveranse fra kjent GMO-leverandør (Bayer/Monsanto). Se kilde.",
+    "reason_en": "POSSIBLE RISK: Documented sourcing from a known GMO supplier (Bayer/Monsanto). See source.",
+    "source_url": "https://example.com/verifiable-source"
+  },
+  "version": 1,
+  "updated_at": null,
+  "suppliers": []
+}

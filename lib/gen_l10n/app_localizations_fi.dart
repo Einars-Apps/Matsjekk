@@ -49,6 +49,9 @@ class AppLocalizationsFi extends AppLocalizations {
   String get insectMealAlert => 'Hyönteislanta-hälytys';
 
   @override
+  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+
+  @override
   String get gmoFishAlert => 'GMO-kalarehu -hälytys';
 
   @override
@@ -337,6 +340,9 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get insectMealLabel => 'Hyönteisproteiini';
+
+  @override
+  String get ngtLabel => 'Hidden GMO (NGT)';
 
   @override
   String get allergensLabel => 'Allergeenit';

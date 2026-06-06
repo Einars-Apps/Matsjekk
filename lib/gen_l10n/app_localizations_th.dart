@@ -49,6 +49,9 @@ class AppLocalizationsTh extends AppLocalizations {
   String get insectMealAlert => 'แจ้งเตือนผงแมลง';
 
   @override
+  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+
+  @override
   String get gmoFishAlert => 'แจ้งเตือนอาหารปลา GMO';
 
   @override
@@ -337,6 +340,9 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get insectMealLabel => 'โปรตีนแมลง';
+
+  @override
+  String get ngtLabel => 'Hidden GMO (NGT)';
 
   @override
   String get allergensLabel => 'สารก่อภูมิแพ้';

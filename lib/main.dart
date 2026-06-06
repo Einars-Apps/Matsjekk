@@ -10,6 +10,8 @@ import 'dart:io' show Platform;
 import 'package:wakelock_plus/wakelock_plus.dart';
 import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
+import 'data/additive_info.dart';
+import 'data/ngt_risk_brands.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
@@ -18,7 +20,9 @@ import 'premium_screen.dart';
 import 'premium_service.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
+import 'services/remote_ngt_suppliers_service.dart';
 import 'services/matvaretabellen_service.dart';
+import 'services/kassalapp_service.dart';
 import 'models/product.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'ad_banner.dart';
@@ -212,14 +216,17 @@ class _ScannerScreenState extends State<ScannerScreen>
   bool varselBovaer = true;
   bool varselInsekt = true;
   bool varselGmo = true;
+  bool varselNgt = true;
   bool wakeLockOn = false;
   bool premiumActive = false;
   String selectedLanguage = 'nb'; // Default til norsk
   String selectedCountry = 'NO'; // Default til Norge
   bool _initialPrivacyDialogOpen = false;
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
+  List<NgtSupplierEntry> _ngtSuppliers = [];
   final MatvaretabellenService _matvaretabellenService =
       MatvaretabellenService();
+  final KassalappService _kassalappService = KassalappService();
 
   @override
   void initState() {
@@ -243,6 +250,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
     if (!_isTestEnv) {
       _loadRemoteRiskRules();
+      _loadRemoteNgtSuppliers();
       _matvaretabellenService.load();
       _checkPurchaseAvailability();
     }
@@ -357,6 +365,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     varselBovaer = innstillingerBox.get('varselBovaer', defaultValue: true);
     varselGmo = innstillingerBox.get('varselGmo', defaultValue: true);
     varselInsekt = innstillingerBox.get('varselInsekt', defaultValue: true);
+    varselNgt = innstillingerBox.get('varselNgt', defaultValue: true);
     wakeLockOn = innstillingerBox.get('wakeLockOn', defaultValue: false);
     selectedLanguage =
         innstillingerBox.get('selectedLanguage', defaultValue: 'nb');
@@ -413,6 +422,32 @@ class _ScannerScreenState extends State<ScannerScreen>
       });
     } catch (_) {
       // Keep cached/local fallback when remote fetch fails.
+    }
+  }
+
+  /// Loads the human-approved NGT supplier list. Reads cache instantly, then
+  /// refreshes in the background (≈once per day). Approved entries reach the
+  /// app without a new release.
+  Future<void> _loadRemoteNgtSuppliers() async {
+    final service = RemoteNgtSuppliersService(innstillingerBox);
+
+    final cached = service.readCached();
+    if (cached.isNotEmpty && mounted) {
+      setState(() {
+        _ngtSuppliers = cached;
+      });
+    }
+
+    if (!service.isStale()) return;
+
+    try {
+      final fetched = await service.fetchAndCache();
+      if (!mounted) return;
+      setState(() {
+        _ngtSuppliers = fetched;
+      });
+    } catch (_) {
+      // Keep cached/empty fallback when remote fetch fails.
     }
   }
 
@@ -939,9 +974,122 @@ class _ScannerScreenState extends State<ScannerScreen>
             .toUpperCase());
     for (final source in sources) {
       final result = await source(ean);
-      if (result.isNotEmpty) return result;
+      if (result.isNotEmpty) {
+        debugPrint('Kassalapp: kilde ga treff for ean=$ean, '
+            'eStoffer=${(result['eStoffer'] as List?)?.length ?? 0}, '
+            'kjører berikelse (enabled=${_kassalappService.isEnabled})');
+        return await _enrichWithKassalapp(ean, result);
+      }
     }
+    // Nothing found in the primary sources: try Kassalapp as a last resort so
+    // Norwegian products missing from OpenFoodFacts can still be looked up.
+    debugPrint('Kassalapp: ingen primærkilde traff ean=$ean, '
+        'prøver Kassalapp direkte (enabled=${_kassalappService.isEnabled})');
+    final fromKassal = await _buildFromKassalapp(ean);
+    if (fromKassal.isNotEmpty) return fromKassal;
     return {};
+  }
+
+  /// Enriches an existing product map with Kassalapp ingredient/allergen data
+  /// when the primary source had no E-numbers or ingredients. Preserves the
+  /// original Nutri-Score and risk assessment.
+  Future<Map<String, dynamic>> _enrichWithKassalapp(
+      String ean, Map<String, dynamic> info) async {
+    if (!_kassalappService.isEnabled) return info;
+    final eStoffer = (info['eStoffer'] as List<dynamic>? ?? const []);
+    final ingredienser = (info['ingredienser'] ?? '').toString().trim();
+    final needsEnrichment = eStoffer.isEmpty || ingredienser.isEmpty;
+    if (!needsEnrichment) return info;
+
+    final kassal = await _kassalappService.fetchByEan(ean);
+    debugPrint('Kassalapp enrich ean=$ean status=${_kassalappService.lastStatus} '
+        'ingredients-len=${kassal?.ingredients.length ?? 0}');
+    if (kassal == null) {
+      info['eStofferStatus'] = _kassalappService.lastStatus;
+      return info;
+    }
+
+    // Detect E-numbers from BOTH the existing ingredient text and Kassalapp's,
+    // since either source may have a more complete list.
+    final detected = <String>{
+      ...eStoffer.map((e) => e.toString()),
+      ..._parseEStoffer(ingredienser),
+      ...detectAdditivesByName(ingredienser),
+      ..._parseEStoffer(kassal.ingredients),
+      ...detectAdditivesByName(kassal.ingredients),
+    }.toList()
+      ..sort();
+    if (detected.isNotEmpty) {
+      info['eStoffer'] = detected;
+    }
+
+    // Prefer whichever ingredient text actually contains E-numbers (more
+    // informative); fall back to the longer of the two.
+    final existingHasE = _parseEStoffer(ingredienser).isNotEmpty;
+    final kassalHasE = _parseEStoffer(kassal.ingredients).isNotEmpty;
+    String mergedIngredients = ingredienser;
+    if (ingredienser.isEmpty) {
+      mergedIngredients = kassal.ingredients;
+    } else if (kassalHasE && !existingHasE) {
+      mergedIngredients = kassal.ingredients;
+    } else if (kassal.ingredients.length > ingredienser.length &&
+        !existingHasE) {
+      mergedIngredients = kassal.ingredients;
+    }
+    if (mergedIngredients.isNotEmpty) {
+      info['ingredienser'] = mergedIngredients;
+    }
+
+    // Allergens fallback.
+    final existingAllergens =
+        (info['allergener'] as List<dynamic>? ?? const []);
+    if (existingAllergens.isEmpty && kassal.allergens.isNotEmpty) {
+      info['allergener'] = kassal.allergens;
+    }
+
+    // Nutrition fallback.
+    if ((!info.containsKey('næringsinnhold') ||
+            (info['næringsinnhold'] as Map).isEmpty) &&
+        kassal.nutrition.isNotEmpty) {
+      info['næringsinnhold'] = kassal.nutrition;
+      info['næringsinnholdKilde'] = 'Kassalapp';
+    }
+
+    info['eStofferKilde'] = 'Kassalapp';
+    info['eStofferStatus'] = _kassalappService.lastStatus;
+    return info;
+  }
+
+  /// Builds a full product info map purely from Kassalapp when no other source
+  /// found the product.
+  Future<Map<String, dynamic>> _buildFromKassalapp(String ean) async {
+    if (!_kassalappService.isEnabled) return {};
+    final kassal = await _kassalappService.fetchByEan(ean);
+    if (kassal == null) return {};
+    if (kassal.name.isEmpty && kassal.ingredients.isEmpty) return {};
+
+    final info = _buildProductInfo(
+      ean: ean,
+      navn: kassal.name,
+      merke: kassal.brand,
+      etiketter: '',
+      kategorier: '',
+      ingredienser: kassal.ingredients,
+      bildeUrl: kassal.imageUrl,
+      bildeThumbUrl: kassal.imageUrl,
+      nutriscore: 'ukjent',
+    );
+    if (kassal.allergens.isNotEmpty) {
+      info['allergener'] = kassal.allergens;
+    }
+    if (kassal.nutrition.isNotEmpty &&
+        (!info.containsKey('næringsinnhold') ||
+            (info['næringsinnhold'] as Map).isEmpty)) {
+      info['næringsinnhold'] = kassal.nutrition;
+      info['næringsinnholdKilde'] = 'Kassalapp';
+    }
+    info['eStofferKilde'] = 'Kassalapp';
+    return info;
   }
 
   List<Future<Map<String, dynamic>> Function(String ean)> _getSourcesForCountry(
@@ -1054,7 +1202,10 @@ class _ScannerScreenState extends State<ScannerScreen>
         .map((e) => e.toString().replaceAll('en:', '').toUpperCase())
         .toList();
     final eStofferFraTekst = _parseEStoffer(cleanedIngredients);
-    final allEStoffer = {...eStofferFraTags, ...eStofferFraTekst}.toList();
+    final eStofferFraNavn = detectAdditivesByName(cleanedIngredients);
+    final allEStoffer =
+        {...eStofferFraTags, ...eStofferFraTekst, ...eStofferFraNavn}.toList()
+          ..sort();
 
     final info = <String, dynamic>{
       'ean': ean,
@@ -1080,6 +1231,12 @@ class _ScannerScreenState extends State<ScannerScreen>
         _analyzeInsectRisk(cleanedIngredients, etiketter, allEStoffer);
     info['insectRisk'] = insectAssessment['risk'] as RiskLevel;
     info['insectRiskText'] = insectAssessment['text'] as String;
+
+    final ngtAssessment =
+        _analyzeNgtRisk(merke, etiketter);
+    info['ngtRisk'] = ngtAssessment['risk'] as RiskLevel;
+    info['ngtRiskText'] = ngtAssessment['text'] as String;
+    info['ngtRiskUrl'] = (ngtAssessment['url'] ?? '').toString();
 
     // Nutrition from OpenFoodFacts nutriments
     if (nutriments.isNotEmpty) {
@@ -1380,6 +1537,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                               onChanged: (v) {
                                 setDialogState(() => varselInsekt = v);
                                 innstillingerBox.put('varselInsekt', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(AppLocalizations.of(context)
+                                      ?.ngtAlert ??
+                                  'Hidden GMO (NGT) Alert'),
+                              value: varselNgt,
+                              onChanged: (v) {
+                                setDialogState(() => varselNgt = v);
+                                innstillingerBox.put('varselNgt', v);
                               }),
                         ]),
                         actions: [
@@ -1855,6 +2021,82 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
     return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
+  }
+
+  /// "Skjult GMO" / NGT precaution.
+  ///
+  /// Legally framed as a YELLOW "MULIG RISIKO" (risk of) signal, never red and
+  /// never an assertion that the product contains gene-edited ingredients.
+  /// YELLOW is shown ONLY for producers/retailers where it is documented that
+  /// they have purchased and received deliveries from a GMO/NGT industry
+  /// (curated list). There is NO automatic crop- or retailer-size heuristic.
+  Map<String, dynamic> _analyzeNgtRisk(String brand, String labels) {
+    if (!varselNgt) {
+      return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
+    }
+
+    final lowerBrand = brand.toLowerCase();
+    final lowerLabels = labels.toLowerCase();
+
+    final country =
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
+    final greens =
+        _countryRulesList(country, 'organic_keywords', greenKeywords);
+
+    final locale =
+        (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+            .toLowerCase();
+    final isNorwegian = locale == 'nb';
+
+    // Certified organic excludes GMO/NGT by definition — green.
+    if (greens.any((k) => lowerLabels.contains(k.toLowerCase()))) {
+      return {'risk': RiskLevel.green, 'text': '', 'url': ''};
+    }
+
+    // Never flag a traditional / small-scale producer or farm shop — green.
+    if (ngtTraditionalExclusions.any(lowerBrand.contains)) {
+      return {'risk': RiskLevel.green, 'text': '', 'url': ''};
+    }
+
+    // YELLOW is shown ONLY for producers/retailers where it is documented that
+    // they have purchased and received deliveries from a GMO/NGT industry.
+    // There is NO automatic heuristic based on crops or retailer size — an
+    // actor only lands on the yellow side once such sourcing is verified and
+    // added to the approved list. Everything else is green.
+    //
+    // Source 1 (preferred): remote, human-approved list (matsjekk.com).
+    // Updates here reach the app within a day, without a new release.
+    for (final entry in _ngtSuppliers) {
+      if (entry.brandAliases.any(lowerBrand.contains)) {
+        final reason = isNorwegian ? entry.reasonNb : entry.reasonEn;
+        return {
+          'risk': RiskLevel.yellow,
+          'text': reason.trim().isNotEmpty
+              ? reason
+              : (isNorwegian
+                  ? 'MULIG RISIKO: Dokumentert leveranse fra kjent GMO-leverandør.'
+                  : 'POSSIBLE RISK: Documented sourcing from a known GMO supplier.'),
+          'url': entry.sourceUrl.trim().isNotEmpty
+              ? entry.sourceUrl
+              : kEditorialMethodUrl,
+        };
+      }
+    }
+
+    // Source 2 (fallback): local curated list shipped with the app.
+    for (final entry in ngtRiskBrands.entries) {
+      if (entry.key.isNotEmpty && lowerBrand.contains(entry.key)) {
+        return {
+          'risk': RiskLevel.yellow,
+          'text': isNorwegian ? entry.value.reasonNb : entry.value.reasonEn,
+          'url': kEditorialMethodUrl,
+        };
+      }
+    }
+
+    // Default: green unless documented otherwise.
+    return {'risk': RiskLevel.green, 'text': '', 'url': ''};
   }
 
   RiskLevel _analyzeGmoRisk(String brand, String category, String ingredients,

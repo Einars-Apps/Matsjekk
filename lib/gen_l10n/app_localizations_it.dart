@@ -49,6 +49,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get insectMealAlert => 'Avviso farina di insetti';
 
   @override
+  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+
+  @override
   String get gmoFishAlert => 'Mangimi OGM (Pesce)';
 
   @override
@@ -341,6 +344,9 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get insectMealLabel => 'Farina di insetti';
+
+  @override
+  String get ngtLabel => 'Hidden GMO (NGT)';
 
   @override
   String get allergensLabel => 'Allergeni';
