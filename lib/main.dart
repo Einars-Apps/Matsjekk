@@ -1568,6 +1568,53 @@ class _ScannerScreenState extends State<ScannerScreen>
       'sjømat',
       'seafood',
     ];
+    // GMO-utsatte råvarer som i praksis ofte er genmodifisert når de
+    // importeres fra Amerika (soya, mais, raps/canola, sukkerbete, bomullsfrø).
+    const gmoProneCropKeywords = <String>[
+      'soya',
+      'soja',
+      'soy',
+      'soybean',
+      'mais',
+      'maize',
+      'corn',
+      'maisstivelse',
+      'corn starch',
+      'cornstarch',
+      'maissirup',
+      'corn syrup',
+      'raps',
+      'rapsolje',
+      'rapeseed',
+      'canola',
+      'sukkerbete',
+      'sukkerroe',
+      'sugar beet',
+      'bomullsfrø',
+      'cottonseed',
+      'lecitin',
+      'lecithin',
+      'e322',
+    ];
+    // Land med utbredt dyrking/eksport av GMO-avlinger (US-fokus + Amerika).
+    const gmoOriginKeywords = <String>[
+      'usa',
+      'u.s.a',
+      'united states',
+      'états-unis',
+      'etats-unis',
+      'vereinigte staaten',
+      'estados unidos',
+      'stati uniti',
+      'amerikansk',
+      'brazil',
+      'brasil',
+      'argentina',
+      'argentinsk',
+      'canada',
+      'kanada',
+      'paraguay',
+    ];
 
     final hasExplicitGmo = explicitGmoKeywords.any(combinedText.contains);
     final hasNgtSignal = ngtKeywords.any(combinedText.contains);
@@ -1587,6 +1634,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         lowerCategory.contains('ørret');
     final isKnownFishBrand =
         gmoList.any((b) => lowerBrand.contains(b.toLowerCase()));
+    final hasGmoProneCrop = gmoProneCropKeywords.any(combinedText.contains);
+    final hasGmoOrigin = gmoOriginKeywords.any(combinedText.contains);
 
     if (hasExplicitGmo) {
       return {
@@ -1634,6 +1683,35 @@ class _ScannerScreenState extends State<ScannerScreen>
         'consumerText':
             'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem). Verifiser etikett og opprinnelse.',
         'url': kSupplierStatusUrl,
+      };
+    }
+
+    // GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull) kombinert med
+    // opprinnelse/import fra Amerika (USA, Brasil, Argentina, Canada m.fl.).
+    // I disse landene er avlingene overveiende genmodifisert, så dette er den
+    // vanligste reelle GMO-eksponeringen i importerte EU-produkter.
+    if (hasGmoProneCrop && hasGmoOrigin) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: GMO-utsatt råvare med amerikansk/ikke-EU-opprinnelse – kan utløse EUs GMO-merkeplikt.',
+        'consumerRisk': RiskLevel.red,
+        'consumerText':
+            'FORBRUKERRISIKO: Inneholder GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull) importert fra et land der avlingen overveiende er genmodifisert. Sjekk etikett for «uten GMO»-merking.',
+        'url': kEuGmoDecisionUrl,
+      };
+    }
+
+    // GMO-utsatt råvare uten kjent opprinnelse – mildere varsel.
+    if (hasGmoProneCrop && (hasSupplyChainLabel || hasGmoSupplyChainActor)) {
+      return {
+        'regulatoryRisk': RiskLevel.yellow,
+        'regulatoryText':
+            'EU-REGELSTATUS: GMO-utsatt råvare i importert/leverandørledd – opprinnelse bør verifiseres.',
+        'consumerRisk': RiskLevel.yellow,
+        'consumerText':
+            'FORBRUKERRISIKO: Produktet inneholder en GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull). Opprinnelse er ukjent – sjekk etikett og opphavsland.',
+        'url': kEuGmoDecisionUrl,
       };
     }
 
