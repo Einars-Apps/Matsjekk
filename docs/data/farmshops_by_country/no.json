@@ -14803,6 +14803,19 @@
     "source": "https://www.hanen.no/bedrift/lia-gard/"
   },
   {
+    "id": "hanen_3105",
+    "name": "Liangård- Hagens Simmental",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Rørvik",
+    "products": [],
+    "website": "https://www.facebook.com/?checkpoint_src=any",
+    "lat": 64.850543,
+    "lon": 11.168221,
+    "address": "Sørveien 257",
+    "source": "https://www.hanen.no/bedrift/liangaard-hagens-simmental/"
+  },
+  {
     "id": "hanen_856",
     "name": "Lien Gård",
     "country": "Norway",

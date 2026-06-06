@@ -9972,6 +9972,18 @@
     "address": null
   },
   {
+    "id": 13912084196,
+    "name": "Schärfinger´s Kartoffeln",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Yspertal",
+    "products": [],
+    "website": null,
+    "lat": 48.3132241,
+    "lon": 15.0651316,
+    "address": null
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -11971,8 +11983,8 @@
     "municipality": "Innsbruck",
     "products": [],
     "website": "https://www.facebook.com/pg/arzler.bauernladele",
-    "lat": 47.2837229,
-    "lon": 11.4330755,
+    "lat": 47.2837313,
+    "lon": 11.4330797,
     "address": "Arzler Straße"
   },
   {
@@ -14170,6 +14182,18 @@
     "lat": 47.0136174,
     "lon": 14.2436819,
     "address": null
+  },
+  {
+    "id": 670973198,
+    "name": "Arzler Bauernladele",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Innsbruck",
+    "products": [],
+    "website": "https://www.facebook.com/pg/arzler.bauernladele",
+    "lat": 47.2837229,
+    "lon": 11.4330755,
+    "address": "Arzler Straße"
   },
   {
     "id": 10878998600,

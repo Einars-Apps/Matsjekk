@@ -25089,6 +25089,19 @@
       "lon": 8.482519,
       "address": "Hemsedalsvegen 3445",
       "source": "https://www.hanen.no/bedrift/hemsedal-flatbrodbakeri-as/"
+    },
+    {
+      "id": "hanen_3105",
+      "name": "Liangård- Hagens Simmental",
+      "country": "Norway",
+      "region": null,
+      "municipality": "Rørvik",
+      "products": [],
+      "website": "https://www.facebook.com/?checkpoint_src=any",
+      "lat": 64.850543,
+      "lon": 11.168221,
+      "address": "Sørveien 257",
+      "source": "https://www.hanen.no/bedrift/liangaard-hagens-simmental/"
     }
   ],
   "SE": [
@@ -68661,6 +68674,18 @@
       "lat": 61.2395043,
       "lon": 23.7981251,
       "address": "Perälänraitti"
+    },
+    {
+      "id": 13912200005,
+      "name": "Uljaan tila",
+      "country": "Finland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 60.5231012,
+      "lon": 25.6491169,
+      "address": null
     }
   ],
   "DE": [
@@ -185243,6 +185268,18 @@
       "website": null,
       "lat": 53.0308481,
       "lon": 7.0510119,
+      "address": "Kampweg"
+    },
+    {
+      "id": 2900351230,
+      "name": "Buffelfarm Meems",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Onstwedde",
+      "products": [],
+      "website": null,
+      "lat": 53.0308524,
+      "lon": 7.0511266,
       "address": "Kampweg"
     }
   ],
@@ -577041,6 +577078,30 @@
       "lat": 48.4524322,
       "lon": 15.2179034,
       "address": null
+    },
+    {
+      "id": 13912084196,
+      "name": "Schärfinger´s Kartoffeln",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Yspertal",
+      "products": [],
+      "website": null,
+      "lat": 48.3132241,
+      "lon": 15.0651316,
+      "address": null
+    },
+    {
+      "id": 670973198,
+      "name": "Arzler Bauernladele",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Innsbruck",
+      "products": [],
+      "website": "https://www.facebook.com/pg/arzler.bauernladele",
+      "lat": 47.2837313,
+      "lon": 11.4330797,
+      "address": "Arzler Straße"
     }
   ],
   "CH": [
