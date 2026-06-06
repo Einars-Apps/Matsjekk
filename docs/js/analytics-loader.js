@@ -1,6 +1,6 @@
 // Consent-gated Google Analytics (GA4) loader for Matsjekk
 (function(window){
-  var measurementId = 'G-9WY28H5L81';
+  var measurementId = 'G-H2QWGLX5H2';
 
   function load(measurementId){
     if (!measurementId) return;
