@@ -96,6 +96,134 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     return 'https://matsjekk.com/gardsbutikker.html?lang=$code';
   }
 
+  String _methodUrl(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    return 'https://matsjekk.com/editorial-method.html?lang=$code';
+  }
+
+  // Kort metodikk-forklaring: vi følger spredningskjeden etter føre-var.
+  String _methodText(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'How we assess: much is hidden from the public, so we follow the whole chain — producer, exporter, importer, store chains, processing and country of origin — using the precautionary principle. This is not proof, but a basis for your own informed choice.';
+      case 'sv':
+        return 'Så bedömer vi: mycket är dolt för allmänheten, så vi följer hela kedjan — producent, exportör, importör, butikskedjor, förädling och ursprungsland — enligt försiktighetsprincipen. Detta är inget bevis, men ett underlag för ditt eget val.';
+      case 'da':
+        return 'Sådan vurderer vi: meget er skjult for offentligheden, så vi følger hele kæden — producent, eksportør, importør, butikskæder, forarbejdning og oprindelsesland — ud fra forsigtighedsprincippet. Det er ikke bevis, men et grundlag for dit eget valg.';
+      case 'fi':
+        return 'Näin arvioimme: paljon on piilossa yleisöltä, joten seuraamme koko ketjua — tuottaja, viejä, tuoja, kauppaketjut, jalostus ja alkuperämaa — varovaisuusperiaatteen mukaisesti. Tämä ei ole todiste, vaan peruste omalle valinnallesi.';
+      case 'de':
+        return 'So bewerten wir: vieles bleibt der Öffentlichkeit verborgen, daher verfolgen wir die gesamte Kette — Hersteller, Exporteur, Importeur, Handelsketten, Verarbeitung und Herkunftsland — nach dem Vorsorgeprinzip. Das ist kein Beweis, sondern eine Grundlage für deine eigene Entscheidung.';
+      case 'nl':
+        return 'Hoe wij beoordelen: veel blijft verborgen voor het publiek, dus volgen we de hele keten — producent, exporteur, importeur, winkelketens, verwerking en land van herkomst — volgens het voorzorgsbeginsel. Dit is geen bewijs, maar een basis voor je eigen keuze.';
+      case 'fr':
+        return 'Notre méthode : beaucoup est caché au public, nous suivons donc toute la chaîne — producteur, exportateur, importateur, chaînes de magasins, transformation et pays d\'origine — selon le principe de précaution. Ce n\'est pas une preuve, mais une base pour votre propre choix.';
+      case 'it':
+        return 'Come valutiamo: molto è nascosto al pubblico, quindi seguiamo l\'intera catena — produttore, esportatore, importatore, catene di negozi, trasformazione e paese d\'origine — secondo il principio di precauzione. Non è una prova, ma una base per la tua scelta.';
+      case 'pt':
+        return 'Como avaliamos: muito está oculto do público, por isso seguimos toda a cadeia — produtor, exportador, importador, cadeias de lojas, processamento e país de origem — pelo princípio da precaução. Não é prova, mas uma base para a sua escolha.';
+      case 'es':
+        return 'Cómo evaluamos: mucho está oculto al público, por eso seguimos toda la cadena — productor, exportador, importador, cadenas de tiendas, procesamiento y país de origen — según el principio de precaución. No es una prueba, sino una base para tu propia decisión.';
+      case 'nb':
+      default:
+        return 'Slik vurderer vi: mye er skjult for offentligheten, så vi følger hele kjeden — produsent, eksportør, importør, butikkjeder, videreforedling og opprinnelsesland — etter føre-var-prinsippet. Dette er ikke et bevis, men et grunnlag for ditt eget informerte valg.';
+    }
+  }
+
+  String _methodLinkLabel(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Read our method';
+      case 'sv':
+        return 'Läs vår metod';
+      case 'da':
+        return 'Læs vores metode';
+      case 'fi':
+        return 'Lue menetelmämme';
+      case 'de':
+        return 'Unsere Methode lesen';
+      case 'nl':
+        return 'Lees onze methode';
+      case 'fr':
+        return 'Lire notre méthode';
+      case 'it':
+        return 'Leggi il nostro metodo';
+      case 'pt':
+        return 'Leia o nosso método';
+      case 'es':
+        return 'Lee nuestro método';
+      case 'nb':
+      default:
+        return 'Les vår metode';
+    }
+  }
+
+  // CTA-tittel når et produkt er rødt/gult: du har et valg.
+  String _buyDirectTitle(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'You have a choice';
+      case 'sv':
+        return 'Du har ett val';
+      case 'da':
+        return 'Du har et valg';
+      case 'fi':
+        return 'Sinulla on valinta';
+      case 'de':
+        return 'Du hast die Wahl';
+      case 'nl':
+        return 'Jij hebt een keuze';
+      case 'fr':
+        return 'Vous avez le choix';
+      case 'it':
+        return 'Hai una scelta';
+      case 'pt':
+        return 'Você tem uma escolha';
+      case 'es':
+        return 'Tú decides';
+      case 'nb':
+      default:
+        return 'Du har et valg';
+    }
+  }
+
+  String _buyDirectBody(BuildContext context) {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    switch (code) {
+      case 'en':
+        return 'Want to be sure? Buy directly from the producer — find a farm shop near you.';
+      case 'sv':
+        return 'Vill du vara säker? Köp direkt från producenten — hitta en gårdsbutik nära dig.';
+      case 'da':
+        return 'Vil du være sikker? Køb direkte fra producenten — find en gårdbutik nær dig.';
+      case 'fi':
+        return 'Haluatko olla varma? Osta suoraan tuottajalta — löydä tilamyymälä läheltäsi.';
+      case 'de':
+        return 'Auf Nummer sicher gehen? Kaufe direkt beim Erzeuger — finde einen Hofladen in deiner Nähe.';
+      case 'nl':
+        return 'Zeker weten? Koop rechtstreeks bij de producent — vind een boerderijwinkel bij jou in de buurt.';
+      case 'fr':
+        return 'Vous voulez être sûr ? Achetez directement au producteur — trouvez une ferme-boutique près de chez vous.';
+      case 'it':
+        return 'Vuoi essere sicuro? Compra direttamente dal produttore — trova una bottega agricola vicino a te.';
+      case 'pt':
+        return 'Quer ter certeza? Compre diretamente do produtor — encontre uma loja de quinta perto de si.';
+      case 'es':
+        return '¿Quieres estar seguro? Compra directamente al productor — encuentra una tienda de granja cerca de ti.';
+      case 'nb':
+      default:
+        return 'Vil du være sikker? Kjøp direkte fra produsenten — finn en gårdsbutikk i nærheten.';
+    }
+  }
+
   String _linkLabel(BuildContext context, String fallbackEn) {
     final code =
         (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
@@ -220,6 +348,16 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final gmoRiskUrl = (info['gmoRiskUrl'] as String? ?? '').trim();
     final insectRiskUrl = (info['insectRiskUrl'] as String? ?? '').trim();
 
+    bool isRedOrYellow(dynamic value) =>
+        value == RiskLevel.red || value == RiskLevel.yellow;
+    final hasRedOrYellow = isRedOrYellow(info['bovaerRisk']) ||
+        isRedOrYellow(info['gmoConsumerRisk']) ||
+        isRedOrYellow(info['gmoRisk']) ||
+        isRedOrYellow(info['gmoRegulatoryRisk']) ||
+        isRedOrYellow(info['insectConsumerRisk']) ||
+        isRedOrYellow(info['insectRisk']) ||
+        isRedOrYellow(info['insectRegulatoryRisk']);
+
     return SizedBox(
         width: double.maxFinite,
         child: ListView(shrinkWrap: true, children: [
@@ -310,6 +448,101 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         insectRiskUrl,
                         'Open insect source',
                       ),
+                    // Metodikk-banner: forklarer føre-var/spredningskjede.
+                    const SizedBox(height: 8),
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: const Color.fromRGBO(33, 150, 243, 0.08),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                            color: const Color.fromRGBO(33, 150, 243, 0.3)),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              const Icon(Icons.info_outline,
+                                  size: 18, color: Colors.blueGrey),
+                              const SizedBox(width: 8),
+                              Expanded(
+                                child: Text(
+                                  _methodText(context),
+                                  style: const TextStyle(fontSize: 12),
+                                ),
+                              ),
+                            ],
+                          ),
+                          Align(
+                            alignment: Alignment.centerLeft,
+                            child: TextButton.icon(
+                              onPressed: () => _openUrl(_methodUrl(context)),
+                              icon: const Icon(Icons.open_in_new, size: 16),
+                              label: Text(_methodLinkLabel(context)),
+                              style: TextButton.styleFrom(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 4),
+                                  minimumSize: const Size(0, 32)),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    // Kjøp direkte fra produsent — vises kun ved rød/gul risiko.
+                    if (hasRedOrYellow) ...[
+                      const SizedBox(height: 10),
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(14),
+                        decoration: BoxDecoration(
+                          color: const Color.fromRGBO(76, 175, 80, 0.10),
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(
+                              color: const Color.fromRGBO(76, 175, 80, 0.4)),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                const Icon(Icons.eco,
+                                    size: 20, color: Colors.green),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: Text(
+                                    _buyDirectTitle(context),
+                                    style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 15),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 6),
+                            Text(
+                              _buyDirectBody(context),
+                              style: const TextStyle(fontSize: 13),
+                            ),
+                            const SizedBox(height: 10),
+                            SizedBox(
+                              width: double.infinity,
+                              child: ElevatedButton.icon(
+                                onPressed: () =>
+                                    _openUrl(_farmShopsUrl(context)),
+                                icon: const Icon(Icons.storefront),
+                                label: Text(_farmShopsLabel(context)),
+                                style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.green,
+                                    foregroundColor: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                     const SizedBox(height: 12),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
