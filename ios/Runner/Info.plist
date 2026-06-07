@@ -49,5 +49,7 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 <key>NSCameraUsageDescription</key>
-<string>Denne appen bruker kamera for å scanne barcodes.</string></dict>
+<string>Denne appen bruker kamera for å scanne barcodes.</string>	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+</dict>
 </plist>
