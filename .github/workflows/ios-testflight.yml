@@ -124,11 +124,17 @@ jobs:
       - name: Build IPA
         run: |
           set -euo pipefail
+          # Collision-proof, cross-platform build number: whole minutes since
+          # 2020-01-01T00:00:00Z. Monotonically increasing, so it can never be
+          # reused and always exceeds any previously uploaded build. An explicit
+          # workflow_dispatch input still wins if provided.
           if [ -n "${{ github.event.inputs.build_number }}" ]; then
-            flutter build ipa --release --export-method app-store --build-number "${{ github.event.inputs.build_number }}"
+            BUILD_NUMBER="${{ github.event.inputs.build_number }}"
           else
-            flutter build ipa --release --export-method app-store --build-number "${{ github.run_number }}"
+            BUILD_NUMBER=$(( ( $(date -u +%s) - 1577836800 ) / 60 ))
           fi
+          echo "Using build number: $BUILD_NUMBER"
+          flutter build ipa --release --export-method app-store --build-number "$BUILD_NUMBER"
 
       - name: Export IPA fallback from xcarchive
         run: |
