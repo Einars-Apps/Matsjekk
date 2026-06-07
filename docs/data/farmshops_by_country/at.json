@@ -9984,6 +9984,18 @@
     "address": null
   },
   {
+    "id": 13914243702,
+    "name": "Lindenhof, Familie Eisenkölbl",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.eisenkoelbl.at/-/index.htm",
+    "lat": 47.650296,
+    "lon": 16.0943995,
+    "address": "Maierhöfenstraße"
+  },
+  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",

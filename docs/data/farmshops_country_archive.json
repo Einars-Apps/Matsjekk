@@ -60593,6 +60593,18 @@
       "lat": 56.5039062,
       "lon": 8.1462006,
       "address": null
+    },
+    {
+      "id": 9336004988,
+      "name": "Lille Østergårds Økologi",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 57.2770344,
+      "lon": 10.0321693,
+      "address": null
     }
   ],
   "FI": [
@@ -577102,6 +577114,18 @@
       "lat": 47.2837313,
       "lon": 11.4330797,
       "address": "Arzler Straße"
+    },
+    {
+      "id": 13914243702,
+      "name": "Lindenhof, Familie Eisenkölbl",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "http://www.eisenkoelbl.at/-/index.htm",
+      "lat": 47.650296,
+      "lon": 16.0943995,
+      "address": "Maierhöfenstraße"
     }
   ],
   "CH": [
