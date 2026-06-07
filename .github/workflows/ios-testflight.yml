@@ -64,6 +64,11 @@ jobs:
           fi
 
           echo "Using Xcode $XCODE_VERSION with iOS SDK $SDK_VERSION (OK)."
+      - name: Disable Swift Package Manager
+        # google_mobile_ads still relies on CocoaPods; SPM (default on Flutter
+        # stable) causes a dependency conflict with webview_flutter_wkwebview.
+        run: flutter config --no-enable-swift-package-manager
+
       - name: Install dependencies
         run: flutter pub get
 
