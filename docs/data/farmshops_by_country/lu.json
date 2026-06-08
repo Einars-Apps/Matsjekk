@@ -228,15 +228,15 @@
     "address": null
   },
   {
-    "id": 894035486,
-    "name": "De klenge Buttik",
+    "id": 1121638233,
+    "name": "Kaaschbësch",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.naturparkhaff.lu",
-    "lat": 49.9095103,
-    "lon": 5.8756055,
+    "website": null,
+    "lat": 49.7663931,
+    "lon": 5.8307245,
     "address": null
   },
   {
@@ -264,15 +264,15 @@
     "address": "Rue de la Croix"
   },
   {
-    "id": 1121638233,
-    "name": "Kaaschbësch",
+    "id": 894035486,
+    "name": "De klenge Buttik",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 49.7663931,
-    "lon": 5.8307245,
+    "website": "http://www.naturparkhaff.lu",
+    "lat": 49.9095103,
+    "lon": 5.8756055,
     "address": null
   },
   {
