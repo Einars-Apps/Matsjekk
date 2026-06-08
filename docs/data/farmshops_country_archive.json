@@ -210191,6 +210191,18 @@
       "lat": 50.8721645,
       "lon": 4.0225343,
       "address": "Teerlingstraat"
+    },
+    {
+      "id": 1524946030,
+      "name": "Le champ paysan",
+      "country": "Belgium",
+      "region": null,
+      "municipality": "Ohey",
+      "products": [],
+      "website": null,
+      "lat": 50.4312919,
+      "lon": 5.1292943,
+      "address": "Rue de Huy"
     }
   ],
   "FR": [
