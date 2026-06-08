@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-07T05:52:06.314156+00:00",
+  "generatedAt": "2026-06-08T05:54:58.888766+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 21,
+  "total": 25,
   "errors": [],
   "items": [
     {
@@ -90,8 +90,8 @@
       "pubDate": "2026-02-11T08:00:00+00:00",
       "source": "Aquafeed.com",
       "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "country": "NZ",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxORnBCN1N5LVhHSFRON1h1eFluclk4cnZFUThSZWVNaC1ZczZaamZhU0ZfSENpZVdkQkV1YUdueGZxeDFmcV9aZ2lTc1NSWlBwVWZ2Rk02YjFIV2hYU0MwVEhpd1RzRWwydl9EbDdROE4tY0UtTWpRd0FiWkhSWnpabDZnRS1fQVhCamdONmFJOFJ0THhvT1Z0Tm9jQ3lwUzN5MGtEREhLZXRmS0NWVld2M19n?oc=5\" target=\"_blank\">Japanese industry-academia collaboration to test insect meal in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
       "id": "a36174510c458146"
     },
@@ -217,15 +217,59 @@
       "id": "cba544a592a6e2d2"
     },
     {
-      "title": "UK Dairy Farms End Bovaer Methane Feed Trial - evrimagaci.org",
+      "title": "UK Dairy Farms End Bovaer Methane Feed Trial - Evrim Ağacı",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5",
       "pubDate": "2025-11-08T08:00:00+00:00",
-      "source": "evrimagaci.org",
+      "source": "Evrim Ağacı",
       "language": "en",
       "country": "IE",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5\" target=\"_blank\">UK Dairy Farms End Bovaer Methane Feed Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">evrimagaci.org</font>",
-      "id": "fccb1ec82f177454"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQaFB4TnFQdXB0Q1hZc0JrcEJ2blpKYndNY252MlJ4ZExTOGxmcU8yWDAwVWRCRzV2SWFNYk1uSnVEb1lPTG1RV1JQcWJyTzloN2NURnl2QTFNMUFGaFh2cmxfT0JDbHZoWjRvRS1GQmJOaWFiTmtXczBETnU1cmdjbG1EM0k?oc=5\" target=\"_blank\">UK Dairy Farms End Bovaer Methane Feed Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Evrim Ağacı</font>",
+      "id": "a303e884f082bd66"
+    },
+    {
+      "title": "A fusion transfer learning framework for intelligent pest recognition in sustainable agriculture - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ib2NnVWRmamk0a0hKUzBCa0NMQXpBTENmLXp6UWJhS2R6Z3FuN3I3ak5HWHl1aGstQWRBS0Y0eEJmbEItRnBJbmRMOS1OT0JsVWo4SUNZTVcwb3MwZnJF?oc=5",
+      "pubDate": "2025-10-14T07:00:00+00:00",
+      "source": "Nature",
+      "language": "en",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ib2NnVWRmamk0a0hKUzBCa0NMQXpBTENmLXp6UWJhS2R6Z3FuN3I3ak5HWHl1aGstQWRBS0Y0eEJmbEItRnBJbmRMOS1OT0JsVWo4SUNZTVcwb3MwZnJF?oc=5\" target=\"_blank\">A fusion transfer learning framework for intelligent pest recognition in sustainable agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "id": "36d597d920f15973"
+    },
+    {
+      "title": "India insect meal company wins approval for aquaculture use - The Fish Site",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSUNuQnpIVXhwNTV6SFRIcTVHNU55Z2JYd1FjSTNpRndQeW9Md25qU2NKN05RQXY1cG9uZjk3a1QwY2xfV2xfOGJXYm1vbGlHQzA2VlJySG9kak5LT1A5Q0RFamlvbDBUN0xVMURGMjVjZGFOcnRZWWN3RGRxbGJKc1VvMDBRN1g2bm5TaU1JaDZPX3VsTGVv?oc=5",
+      "pubDate": "2025-09-24T07:00:00+00:00",
+      "source": "The Fish Site",
+      "language": "en",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOSUNuQnpIVXhwNTV6SFRIcTVHNU55Z2JYd1FjSTNpRndQeW9Md25qU2NKN05RQXY1cG9uZjk3a1QwY2xfV2xfOGJXYm1vbGlHQzA2VlJySG9kak5LT1A5Q0RFamlvbDBUN0xVMURGMjVjZGFOcnRZWWN3RGRxbGJKc1VvMDBRN1g2bm5TaU1JaDZPX3VsTGVv?oc=5\" target=\"_blank\">India insect meal company wins approval for aquaculture use</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fish Site</font>",
+      "id": "4eca252d0b1607fd"
+    },
+    {
+      "title": "BioMar commits to using insect meal in shrimp feed - Fishfarming expert",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGZxVXlVOEE0Z0lfNlZYcnVucmNxRnF5RFA1cnlOVHNwdW9xR2tTR05UdmFMc2JqSFR5Y2lnRWFSRWc4cm1fTG1ZdFdHYllpMjBOeEVkSEtrZE9ueDh4dk9DRDZKLVByaExQUmRxU00xU2lNdGlHamFLV0FmdkJvU3NCcGswRk9pbGNGeVNvMVhwSDJPeWVRMklJbFVON3B0TEJXUWdlbEdtdVY5ckdaQ1l0YUZMbEl2?oc=5",
+      "pubDate": "2025-09-02T07:00:00+00:00",
+      "source": "Fishfarming expert",
+      "language": "en",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGZxVXlVOEE0Z0lfNlZYcnVucmNxRnF5RFA1cnlOVHNwdW9xR2tTR05UdmFMc2JqSFR5Y2lnRWFSRWc4cm1fTG1ZdFdHYllpMjBOeEVkSEtrZE9ueDh4dk9DRDZKLVByaExQUmRxU00xU2lNdGlHamFLV0FmdkJvU3NCcGswRk9pbGNGeVNvMVhwSDJPeWVRMklJbFVON3B0TEJXUWdlbEdtdVY5ckdaQ1l0YUZMbEl2?oc=5\" target=\"_blank\">BioMar commits to using insect meal in shrimp feed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fishfarming expert</font>",
+      "id": "1440c6dddf6b148c"
+    },
+    {
+      "title": "Schwarz Group’s PreZero signs partnership with insect farming firm - Sustainability Online",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdEItbENKN1lVVl9OU3ZFaWY0WkxpcVlfdER3bmJrSzJtanBEVU1haXBzRVV1aS1PTWZJZVZVZ2NpVnRwbnZ5YlhzeVhudG5VN0FMSEZtWWY3bnBfbGg2dXVSVHh2U3hkOEZDS0lWVnU3elFBbmFlcXdxWkdrbHJJSnFVeExNZ0xKLURmcm9kTWdPUmVJcWlib3JWckVpRUYtVFRyZktDaw?oc=5",
+      "pubDate": "2025-08-06T07:00:00+00:00",
+      "source": "Sustainability Online",
+      "language": "en",
+      "country": "US",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOdEItbENKN1lVVl9OU3ZFaWY0WkxpcVlfdER3bmJrSzJtanBEVU1haXBzRVV1aS1PTWZJZVZVZ2NpVnRwbnZ5YlhzeVhudG5VN0FMSEZtWWY3bnBfbGg2dXVSVHh2U3hkOEZDS0lWVnU3elFBbmFlcXdxWkdrbHJJSnFVeExNZ0xKLURmcm9kTWdPUmVJcWlib3JWckVpRUYtVFRyZktDaw?oc=5\" target=\"_blank\">Schwarz Group’s PreZero signs partnership with insect farming firm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sustainability Online</font>",
+      "id": "4a2935996c346662"
     },
     {
       "title": "Beyond the buzz: insect-based foods are unlikely to significantly reduce meat consumption | npj Sustainable Agriculture - Nature",
