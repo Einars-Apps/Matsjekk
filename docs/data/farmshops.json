@@ -14570,7 +14570,7 @@
   },
   {
     "id": "hanen_2946",
-    "name": "JOHAN ODDEN",
+    "name": "Husøy gård",
     "country": "Norway",
     "region": "Innlandet",
     "municipality": "Folldal",
@@ -14579,7 +14579,7 @@
     "lat": 62.125898,
     "lon": 10.014824,
     "address": "Atndalsvegen 88",
-    "source": "https://www.hanen.no/bedrift/johan-odden/"
+    "source": "https://www.hanen.no/bedrift/husoy-gaard/"
   },
   {
     "id": "hanen_2847",
@@ -15945,6 +15945,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_2946",
+    "name": "JOHAN ODDEN",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Folldal",
+    "products": [],
+    "website": "https://www.facebook.com/profile.php?id=100063679263242",
+    "lat": 62.125898,
+    "lon": 10.014824,
+    "address": "Atndalsvegen 88",
+    "source": "https://www.hanen.no/bedrift/johan-odden/"
   },
   {
     "id": "hanen_620",

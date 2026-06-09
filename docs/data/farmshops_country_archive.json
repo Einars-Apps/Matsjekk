@@ -25102,6 +25102,19 @@
       "lon": 11.168221,
       "address": "Sørveien 257",
       "source": "https://www.hanen.no/bedrift/liangaard-hagens-simmental/"
+    },
+    {
+      "id": "hanen_2946",
+      "name": "Husøy gård",
+      "country": "Norway",
+      "region": "Innlandet",
+      "municipality": "Folldal",
+      "products": [],
+      "website": "https://www.facebook.com/profile.php?id=100063679263242",
+      "lat": 62.125898,
+      "lon": 10.014824,
+      "address": "Atndalsvegen 88",
+      "source": "https://www.hanen.no/bedrift/husoy-gaard/"
     }
   ],
   "SE": [
