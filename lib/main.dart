@@ -861,7 +861,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   Future<Map<String, dynamic>> _fetchFromOpenFoodFacts(String ean) async {
     try {
       final uri = Uri.parse(
-          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,manufacturing_places,origins,emb_codes_tags,brands_owner,stores');
+          'https://world.openfoodfacts.org/api/v2/product/$ean.json?fields=product_name,brands,labels,labels_tags,ingredients_text,ingredients_text_no,image_front_url,nutriscore_grade,additives_tags,categories,image_front_thumb_url,manufacturing_places,origins,emb_codes_tags,brands_owner,stores');
       final response = await http.get(uri);
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
@@ -877,12 +877,16 @@ class _ScannerScreenState extends State<ScannerScreen>
           final eStofferFraTekst = _parseEStoffer(ingredients);
           final allEStoffer =
               {...eStofferFraTags, ...eStofferFraTekst}.toList();
+          final labelTags = (product['labels_tags'] as List<dynamic>? ?? [])
+              .map((e) => e.toString().toLowerCase().trim())
+              .toList();
           final supplyChainText = _buildSupplyChainText(product);
 
           Map<String, dynamic> info = {
             'navn': product['product_name'] ?? 'Ukjent navn',
             'merke': product['brands'] ?? '',
             'etiketter': product['labels'] ?? '',
+            'etikettTags': labelTags,
             'kategorier': product['categories'] ?? '',
             'ingredienser': ingredients.isEmpty ? 'Ingen info' : ingredients,
             'bildeUrl': product['image_front_url'] ?? '',
@@ -897,6 +901,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                 info['merke']!,
                 info['etiketter']!,
                 info['supplyChainText']!,
+                labelTags,
               );
             info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
             info['bovaerRiskText'] = bovaerAssessment['text'] as String;
@@ -942,6 +947,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           final ngtAssessment = _analyzeNgtRisk(
             info['merke']!,
             info['etiketter']!,
+            labelTags,
           );
           info['ngtRisk'] = ngtAssessment['risk'] as RiskLevel;
           info['ngtRiskText'] = (ngtAssessment['text'] ?? '').toString();
@@ -1405,18 +1411,43 @@ class _ScannerScreenState extends State<ScannerScreen>
     ).then((_) => setState(() {}));
   }
 
+  /// Returns true only when OpenFoodFacts reports a recognized organic
+  /// certification in the structured `labels_tags` field. This avoids false
+  /// positives from loose substring matches on the free-text labels field
+  /// (e.g. a product mentioning "organic" without being certified).
+  bool _hasOrganicCertification(List<String> labelTags) {
+    const recognizedOrganicTags = {
+      'en:organic',
+      'en:eu-organic',
+      'en:eg-oeko-verordnung',
+      'en:de-oeko-007',
+      'en:debio',
+      'en:krav',
+      'en:demeter',
+      'en:biodynamic',
+      'en:cosmos-organic',
+      'en:fr-bio-01',
+      'en:nl-bio',
+    };
+    return labelTags.any((raw) {
+      final tag = raw.toLowerCase().trim();
+      if (recognizedOrganicTags.contains(tag)) return true;
+      // Country-specific EU organic variants, e.g. en:xx-bio-..., en:..-organic
+      return tag.endsWith('-organic') || tag.endsWith('-eko');
+    });
+  }
+
   Map<String, dynamic> _analyzeBovaerRiskWithText(
     String brand,
     String labels,
-    String supplyChainText,
-  ) {
+    String supplyChainText, [
+    List<String> labelTags = const [],
+  ]) {
     final lowerBrand = brand.toLowerCase();
-    final lowerLabels = labels.toLowerCase();
     final lowerSupplyChainText = supplyChainText.toLowerCase();
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final greens = _countryRulesList(country, 'organic_keywords', greenKeywords);
     final reds = _countryRulesList(country, 'bovaer_red', bovaerRedBrands);
     final yellows = _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
     final factoryCustomers =
@@ -1440,7 +1471,7 @@ class _ScannerScreenState extends State<ScannerScreen>
       'kavli': 'Kavli',
     };
 
-    if (greens.any((keyword) => lowerLabels.contains(keyword.toLowerCase()))) {
+    if (_hasOrganicCertification(labelTags)) {
       return {
         'risk': RiskLevel.green,
         'text': (AppLocalizations.of(context)?.safeProduct ??
@@ -1914,19 +1945,13 @@ class _ScannerScreenState extends State<ScannerScreen>
   /// YELLOW is shown ONLY for producers/retailers where it is documented that
   /// they have purchased and received deliveries from a GMO/NGT industry
   /// (curated list). There is NO automatic crop- or retailer-size heuristic.
-  Map<String, dynamic> _analyzeNgtRisk(String brand, String labels) {
+  Map<String, dynamic> _analyzeNgtRisk(String brand, String labels,
+      [List<String> labelTags = const []]) {
     if (!varselNgt) {
       return {'risk': RiskLevel.unknown, 'text': '', 'url': ''};
     }
 
     final lowerBrand = brand.toLowerCase();
-    final lowerLabels = labels.toLowerCase();
-
-    final country =
-        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
-            .toUpperCase();
-    final greens =
-        _countryRulesList(country, 'organic_keywords', greenKeywords);
 
     final locale =
         (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
@@ -1934,7 +1959,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     final isNorwegian = locale == 'nb';
 
     // Certified organic excludes GMO/NGT by definition — green.
-    if (greens.any((k) => lowerLabels.contains(k.toLowerCase()))) {
+    if (_hasOrganicCertification(labelTags)) {
       return {'risk': RiskLevel.green, 'text': '', 'url': ''};
     }
 

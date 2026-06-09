@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
+import 'data/e_numbers.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Enum for risikonivå
@@ -58,6 +59,25 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       if (!mounted) return;
       safeSnack(context, 'Kunne ikke åpne lenken: $e');
     }
+  }
+
+  void _showENumberInfo(BuildContext context, String code) {
+    final description = eNumberDescription(code);
+    showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AlertDialog(
+        title: Text(code),
+        content: Text(description ??
+            'Vi har ingen beskrivelse av dette E-stoffet ennå. '
+                'E-nummeret er en tilsetningsstoff-kode som brukes i EU/EØS.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(),
+            child: const Text('Lukk'),
+          ),
+        ],
+      ),
+    );
   }
 
   String _farmShopsLabel(BuildContext context) {
@@ -849,10 +869,14 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           spacing: 8.0,
                           runSpacing: 4.0,
                           children: eStoffer
-                              .map((e) => Chip(
+                              .map((e) => ActionChip(
+                                  avatar: const Icon(Icons.info_outline,
+                                      size: 18),
                                   label: Text(e.toString(),
                                       style: const TextStyle(
-                                          fontWeight: FontWeight.bold))))
+                                          fontWeight: FontWeight.bold)),
+                                  onPressed: () =>
+                                      _showENumberInfo(context, e.toString())))
                               .toList())
                     else
                       Text(AppLocalizations.of(context)?.noAdditionsFound ??
@@ -922,11 +946,15 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final color = risk == RiskLevel.red
         ? Colors.red
         : (risk == RiskLevel.yellow ? Colors.amber : Colors.green);
+    final isNorwegian =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase() == 'nb';
     final trimmedCustomText = customText.trim();
     final text = trimmedCustomText.isNotEmpty
       ? trimmedCustomText
       : risk == RiskLevel.green
-        ? (AppLocalizations.of(context)?.safeProduct ?? 'SAFE')
+        ? (isNorwegian
+            ? 'Ingen kjent risiko i denne kategorien.'
+            : 'No known risk in this category.')
         : risk == RiskLevel.yellow
           ? (title == 'Bovaer'
             ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
