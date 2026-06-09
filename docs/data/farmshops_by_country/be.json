@@ -5568,6 +5568,18 @@
     "address": null
   },
   {
+    "id": 1524946030,
+    "name": "Le champ paysan",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Ohey",
+    "products": [],
+    "website": null,
+    "lat": 50.4312919,
+    "lon": 5.1292943,
+    "address": "Rue de Huy"
+  },
+  {
     "id": 7449906925,
     "name": "Hoevewinkel Bresseleers",
     "country": "Belgium",
