@@ -1,15 +1,29 @@
 // Simple client-side consent + ad loader utility used by the site.
 (function(){
+  function updateGoogleConsent(granted){
+    if (typeof window.gtag !== 'function') return;
+    var state = granted ? 'granted' : 'denied';
+    window.gtag('consent', 'update', {
+      'ad_storage': state,
+      'ad_user_data': state,
+      'ad_personalization': state,
+      'analytics_storage': state
+    });
+  }
+
   function setConsent(value){
     localStorage.setItem('matsjekk_consent', value);
     const banner = document.getElementById('cookie-consent');
     if (banner) banner.style.display = 'none';
     if (value === 'yes') {
+      updateGoogleConsent(true);
       // Load analytics (consent-gated)
       if (window.MatSjekkAnalytics && typeof window.MatSjekkAnalytics.load === 'function') {
         try { window.MatSjekkAnalytics.load(window.MatSjekkAnalytics.measurementId); } catch(e) {}
       }
       loadAds();
+    } else {
+      updateGoogleConsent(false);
     }
   }
 
@@ -62,6 +76,7 @@
   document.addEventListener('DOMContentLoaded', function(){
     const consent = localStorage.getItem('matsjekk_consent');
     if (consent === 'yes') {
+      updateGoogleConsent(true);
       // ensure analytics + ads load if consent already given
       if (window.MatSjekkAnalytics && typeof window.MatSjekkAnalytics.load === 'function') {
         try { window.MatSjekkAnalytics.load(window.MatSjekkAnalytics.measurementId); } catch(e) {}
