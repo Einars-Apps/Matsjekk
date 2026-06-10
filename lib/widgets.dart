@@ -1012,6 +1012,7 @@ class HandlelisteOverlay extends StatefulWidget {
   final Future<void> Function(String)? onAddManualItem;
   final bool premiumActive;
   final VoidCallback? onRemoveAds;
+  final Widget? listBannerAd;
 
   const HandlelisteOverlay({
     required this.listeNavn,
@@ -1023,6 +1024,7 @@ class HandlelisteOverlay extends StatefulWidget {
     this.onAddManualItem,
     this.premiumActive = false,
     this.onRemoveAds,
+    this.listBannerAd,
     super.key,
   });
 
@@ -1222,6 +1224,12 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                             ],
                           ),
                         ),
+                      ),
+                    if (widget.listBannerAd != null)
+                      Container(
+                        alignment: Alignment.center,
+                        padding: const EdgeInsets.symmetric(vertical: 4),
+                        child: widget.listBannerAd,
                       ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),

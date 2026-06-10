@@ -110,6 +110,11 @@ void main() async {
   await Hive.openBox('historikk');
   await Hive.openBox('innstillinger');
   await Hive.openBox('list_positions');
+  MobileAds.instance.updateRequestConfiguration(
+    RequestConfiguration(
+      testDeviceIds: <String>['AE47E887A6480DB455FC9F6CA2502187'],
+    ),
+  );
   await MobileAds.instance.initialize();
   runApp(const MatvareSjekkApp());
 }
@@ -252,6 +257,8 @@ class _ScannerScreenState extends State<ScannerScreen>
 
   BannerAd? _bannerAd;
   bool _bannerAdLoaded = false;
+  BannerAd? _listBannerAd;
+  bool _listBannerAdLoaded = false;
 
   @override
   void initState() {
@@ -286,10 +293,26 @@ class _ScannerScreenState extends State<ScannerScreen>
       size: AdSize.banner,
       request: const AdRequest(),
       listener: BannerAdListener(
-        onAdLoaded: (_) => setState(() => _bannerAdLoaded = true),
+        onAdLoaded: (_) {
+          if (mounted) setState(() => _bannerAdLoaded = true);
+        },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
           _bannerAd = null;
+        },
+      ),
+    )..load();
+    _listBannerAd = BannerAd(
+      adUnitId: AdHelper.bannerAdUnitId,
+      size: AdSize.banner,
+      request: const AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (_) {
+          if (mounted) setState(() => _listBannerAdLoaded = true);
+        },
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+          _listBannerAd = null;
         },
       ),
     )..load();
@@ -300,6 +323,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     WidgetsBinding.instance.removeObserver(this);
     _archiveCheckedItems();
     _bannerAd?.dispose();
+    _listBannerAd?.dispose();
     try {
       if (controller != null) controller!.dispose();
     } catch (_) {}
@@ -2213,6 +2237,16 @@ class _ScannerScreenState extends State<ScannerScreen>
                       onShowSearch: () => _visSok(),
                       onAddManualItem: (item) => _handleManualListInput(activeList, item),
                       premiumActive: premiumActive,
+                      listBannerAd: (!premiumActive &&
+                              _listBannerAdLoaded &&
+                              _listBannerAd != null)
+                          ? SizedBox(
+                              key: ValueKey(_listBannerAd),
+                              width: _listBannerAd!.size.width.toDouble(),
+                              height: _listBannerAd!.size.height.toDouble(),
+                              child: AdWidget(ad: _listBannerAd!),
+                            )
+                          : null,
                       onRemoveAds: () => Navigator.push(context,
                           MaterialPageRoute(builder: (_) => PremiumScreen(
                             innstillingerBox: innstillingerBox,
@@ -2221,14 +2255,16 @@ class _ScannerScreenState extends State<ScannerScreen>
                     ),
             ),
           Align(
-              alignment: Alignment.bottomCenter,
-              child: _bannerAdLoaded && _bannerAd != null
+              key: const ValueKey('mainBannerAdAlign'),
+              alignment: Alignment.topCenter,
+              child: (!premiumActive && _bannerAdLoaded && _bannerAd != null)
                   ? SizedBox(
+                      key: ValueKey(_bannerAd),
                       width: _bannerAd!.size.width.toDouble(),
                       height: _bannerAd!.size.height.toDouble(),
                       child: AdWidget(ad: _bannerAd!),
                     )
-                  : const SizedBox(height: 50),
+                  : const SizedBox.shrink(),
             )
         ],
       ),
