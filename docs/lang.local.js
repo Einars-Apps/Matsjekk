@@ -260,6 +260,52 @@ const translations = {
     navImmigrantShops: 'Internationale Läden',
     navNews: 'Nachrichten',
     navContact: 'Kontakt',
+    heroHeading: 'Ihr persönlicher Lebensmittel-Guide',
+    heroIntro: 'Scannen Sie Barcodes und erhalten Sie sofort Informationen über Bovaer, GVO-Fischfutter und Insektenmehl in Ihren Lebensmitteln.',
+    ctaAppStore: '📱 Im App Store laden',
+    ctaGooglePlay: '🤖 Bei Google Play laden',
+    ctaFindFarmshops: '🏬 Hofläden finden',
+    ctaFindOrganicFarmshops: '🌿 Bio-Hofläden finden',
+    ctaFindImmigrantShops: '🛒 Internationale Läden finden',
+    featuresHeading: 'Funktionen',
+    featureScanTitle: 'Barcode-Scan',
+    featureScanText: 'Scannen Sie Produkte direkt im Geschäft mit Ihrer Kamera',
+    featureBovaerTitle: 'Bovaer-Hinweise',
+    featureBovaerText: 'Sofortige Informationen zu Herstellern, die Bovaer verwenden',
+    featureGmoTitle: 'GVO-Fischfutter',
+    featureGmoText: 'Prüfen Sie, ob Zuchtfisch GVO-Fischfutter enthält',
+    featureInsectTitle: 'Insektenmehl',
+    featureInsectText: 'Hinweise zu Produkten mit Insektenbestandteilen',
+    featureListTitle: 'Einkaufslisten',
+    featureListText: 'Erstellen und verwalten Sie mehrere Einkaufslisten gleichzeitig',
+    featureLangTitle: '17 Sprachen',
+    featureLangText: 'Unterstützt Norwegisch, Englisch, Schwedisch, Dänisch, Finnisch, Deutsch, Niederländisch, Französisch, Italienisch, Portugiesisch, Spanisch, Koreanisch, Polnisch, Russisch, Chinesisch, Arabisch und Thai',
+    adPlaceholder: 'Werbefläche (wird nach Cookie-Zustimmung angezeigt)',
+    howHeading: 'So funktioniert es',
+    howStep1Title: 'App herunterladen',
+    howStep1Text: '- Kostenlos im App Store und bei Google Play',
+    howStep2Title: 'Barcode scannen',
+    howStep2Text: '- Richten Sie Ihr Handy im Geschäft auf ein Produkt',
+    howStep3Title: 'Ergebnis ansehen',
+    howStep3Text: '- Erhalten Sie sofort Informationen zur Risikostufe',
+    howStep4Title: 'Bewusst wählen',
+    howStep4Text: '- Entscheiden Sie selbst, was Sie kaufen möchten',
+    aboutHeading: 'Über LebensmittelCheck',
+    aboutText1: 'LebensmittelCheck ist für bewusste Verbraucher gemacht, die volle Kontrolle darüber möchten, was sie kaufen. Die App nutzt OpenFoodFacts und andere offene Quellen, um Ihnen transparente Informationen zu liefern.',
+    aboutText2: 'Wir sagen Ihnen nicht, ob Bovaer, GVO oder Insektenmehl gut oder schlecht ist – wir liefern die Informationen, damit Sie Ihre eigene Wahl treffen können.',
+    faqHeading: 'Häufige Fragen',
+    faq1Q: 'Ist die App völlig kostenlos?',
+    faq1A: 'Ja. LebensmittelCheck ist kostenlos zum Herunterladen und Verwenden. Wir finanzieren uns über Werbung.',
+    faq2Q: 'Woher stammen die Daten?',
+    faq2A: 'Wir nutzen hauptsächlich OpenFoodFacts und für einige Länder zusätzlich nationale Lebensmitteldatenbanken.',
+    faq3Q: 'Woher weiß ich, dass die Informationen korrekt sind?',
+    faq3A: 'Wir verwenden öffentlich verfügbare Informationen und aktualisieren die Produktdatenbank laufend.',
+    faq4Q: 'Welche Länder werden unterstützt?',
+    faq4A: 'Die App funktioniert weltweit, mit speziellen Datensätzen für mehrere europäische Länder und Großbritannien.',
+    faq5Q: 'Speichern Sie persönliche Daten?',
+    faq5A: 'Nein. Die Daten werden lokal auf Ihrem Telefon gespeichert. Wir sammeln oder teilen keine personenbezogenen Daten.',
+    contactHeading: 'Kontakt',
+    contactIntro: 'Fragen, Feedback oder Vorschläge?',
     newsHeading: 'Nachrichten',
     newsIntro: 'Bleiben Sie informiert \u2013 f\u00fcgen Sie relevante Artikel \u00fcber Bovaer, GMO, Insektenmehl und Nachhaltigkeit hinzu.',
     newsModerationNote: 'Eingereichte Artikel werden nicht direkt ver\u00f6ffentlicht. Sie durchlaufen zuerst eine Moderation.',
@@ -713,6 +759,18 @@ async function resolveAutoLanguage() {
   return 'nb';
 }
 
+function updateLangInUrl(lang) {
+  const params = new URLSearchParams(window.location.search || '');
+  if (!lang || lang === AUTO_LANGUAGE_CODE) {
+    params.delete('lang');
+  } else {
+    params.set('lang', lang);
+  }
+  const query = params.toString();
+  const newUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
+  window.history.replaceState({}, document.title, newUrl);
+}
+
 async function loadLanguage() {
   const params = new URLSearchParams(window.location.search || '');
   const queryLang = normalizeLanguageCode(params.get('lang'));
@@ -725,12 +783,9 @@ async function loadLanguage() {
   // Keep selected language stable and avoid locking users into translated proxy URLs.
   safeStorageSet(LANG_STORAGE_KEY, useAuto ? AUTO_LANGUAGE_CODE : resolvedLang);
 
-  if (queryLang) {
-    params.delete('lang');
-    const query = params.toString();
-    const cleanUrl = `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash || ''}`;
-    window.history.replaceState({}, document.title, cleanUrl);
-  }
+  // Reflect the active language in the URL (e.g. ?lang=de) so the link leads
+  // directly to that language. In auto mode the param is removed.
+  updateLangInUrl(useAuto ? AUTO_LANGUAGE_CODE : resolvedLang);
 
   const langSelect = document.getElementById('lang-select');
   const newsSelect = document.getElementById('news-lang');
@@ -788,6 +843,7 @@ function initLanguage() {
       if (newsSelect) newsSelect.value = isSupportedLanguage(autoLang) ? autoLang : effectiveLang;
       if (articleSelect) articleSelect.value = isSupportedLanguage(autoLang) ? autoLang : effectiveLang;
 
+      updateLangInUrl(AUTO_LANGUAGE_CODE);
       applyTranslations(effectiveLang);
       if (typeof window.renderNews === 'function') {
         window.renderNews(autoLang);
@@ -803,6 +859,7 @@ function initLanguage() {
     if (newsSelect) newsSelect.value = nextLang;
     if (articleSelect) articleSelect.value = nextLang;
 
+    updateLangInUrl(nextLang);
     applyTranslations(nextLang);
     if (typeof window.renderNews === 'function') {
       window.renderNews(nextLang);
