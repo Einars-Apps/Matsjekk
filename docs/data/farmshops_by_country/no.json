@@ -9059,6 +9059,19 @@
     "source": "https://www.lokalmat.no/produsenter/odel-honning/"
   },
   {
+    "id": "lokalmat_12301",
+    "name": "Ødhumbla gardsmjølk",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Vinstra",
+    "products": [],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "Sødorp",
+    "source": "https://www.lokalmat.no/produsenter/odhumbla-gardsmjolk/"
+  },
+  {
     "id": "lokalmat_11939",
     "name": "Odin chocolate",
     "country": "Norway",
@@ -14570,7 +14583,7 @@
   },
   {
     "id": "hanen_2946",
-    "name": "JOHAN ODDEN",
+    "name": "Husøy gård",
     "country": "Norway",
     "region": "Innlandet",
     "municipality": "Folldal",
@@ -14579,7 +14592,7 @@
     "lat": 62.125898,
     "lon": 10.014824,
     "address": "Atndalsvegen 88",
-    "source": "https://www.hanen.no/bedrift/johan-odden/"
+    "source": "https://www.hanen.no/bedrift/husoy-gaard/"
   },
   {
     "id": "hanen_2847",
@@ -15945,6 +15958,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "hanen_2946",
+    "name": "JOHAN ODDEN",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Folldal",
+    "products": [],
+    "website": "https://www.facebook.com/profile.php?id=100063679263242",
+    "lat": 62.125898,
+    "lon": 10.014824,
+    "address": "Atndalsvegen 88",
+    "source": "https://www.hanen.no/bedrift/johan-odden/"
   },
   {
     "id": "hanen_620",

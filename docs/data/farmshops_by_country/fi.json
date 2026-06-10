@@ -702,7 +702,7 @@
     "region": null,
     "municipality": "Kalanti",
     "products": [],
-    "website": null,
+    "website": "https://fi-fi.facebook.com/linnanpuistontila/",
     "lat": 60.8162868,
     "lon": 21.5325097,
     "address": "Kehäntie"
@@ -1098,7 +1098,7 @@
     "region": null,
     "municipality": "Kärkölä",
     "products": [],
-    "website": "https://www.yli-karkelantila.fi/",
+    "website": "http://www.yli-karkelantila.fi/",
     "lat": 60.8798751,
     "lon": 25.1747619,
     "address": "Seppäläntie"
@@ -1162,18 +1162,6 @@
     "lat": 61.2395043,
     "lon": 23.7981251,
     "address": "Perälänraitti"
-  },
-  {
-    "id": 13912200005,
-    "name": "Uljaan tila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.5231012,
-    "lon": 25.6491169,
-    "address": null
   },
   {
     "id": 76736163,
@@ -1569,6 +1557,18 @@
     "website": null,
     "lat": 64.9652763,
     "lon": 25.856806,
+    "address": null
+  },
+  {
+    "id": 13912200005,
+    "name": "Uljaan tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.5231012,
+    "lon": 25.6491169,
     "address": null
   },
   {
