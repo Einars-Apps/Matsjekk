@@ -41,9 +41,51 @@
   }
 
   function preferredLang() {
+    // URL ?lang= wins (the app links here with ?lang=<code>), then stored, then browser.
+    try {
+      const urlLang = normalizeLang(new URLSearchParams(window.location.search || '').get('lang'));
+      if (SUPPORTED.includes(urlLang)) return urlLang;
+    } catch (_) {
+      // Ignore malformed query strings.
+    }
     const saved = normalizeLang(localStorage.getItem(STORAGE_KEY));
     if (SUPPORTED.includes(saved)) return saved;
     return detectBrowserLang();
+  }
+
+  function updateLangInUrl(lang) {
+    try {
+      const url = new URL(window.location.href);
+      if (lang && lang !== 'nb' && SUPPORTED.includes(lang)) {
+        url.searchParams.set('lang', lang);
+      } else {
+        url.searchParams.delete('lang');
+      }
+      window.history.replaceState(null, '', url.toString());
+    } catch (_) {
+      // history.replaceState may be unavailable in some embeddings.
+    }
+  }
+
+  function applyTranslations(lang) {
+    const dicts = window.PAGE_BRIDGE_TRANSLATIONS;
+    if (!dicts || typeof dicts !== 'object') return;
+    const nbDict = dicts.nb || {};
+    const enDict = dicts.en || {};
+    const langDict = dicts[lang] || {};
+    const pick = (key) => {
+      if (langDict[key] != null) return langDict[key];
+      if (enDict[key] != null) return enDict[key];
+      return nbDict[key];
+    };
+    document.querySelectorAll('[data-translate]').forEach((el) => {
+      const value = pick(el.getAttribute('data-translate'));
+      if (typeof value === 'string') el.textContent = value;
+    });
+    document.querySelectorAll('[data-translate-html]').forEach((el) => {
+      const value = pick(el.getAttribute('data-translate-html'));
+      if (typeof value === 'string') el.innerHTML = value;
+    });
   }
 
   function isGoogleTranslatedHost() {
@@ -100,6 +142,15 @@
         window.location.assign(originUrl);
         return;
       }
+      if (window.PAGE_BRIDGE_TRANSLATIONS) {
+        select.value = 'nb';
+        document.documentElement.lang = 'nb';
+        updateLangInUrl('nb');
+        applyTranslations('nb');
+        if (label) label.textContent = 'Spr\u00e5k:';
+        if (resetBtn) resetBtn.textContent = 'Tilbakestill til norsk';
+        return;
+      }
       window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
 
@@ -116,6 +167,15 @@
       const next = normalizeLang(select.value);
       const target = SUPPORTED.includes(next) ? next : 'nb';
       localStorage.setItem(STORAGE_KEY, target);
+
+      if (window.PAGE_BRIDGE_TRANSLATIONS) {
+        document.documentElement.lang = target;
+        updateLangInUrl(target);
+        applyTranslations(target);
+        if (label) label.textContent = target === 'en' ? 'Language:' : 'Spr\u00e5k:';
+        if (resetBtn) resetBtn.textContent = target === 'en' ? 'Reset to Norwegian' : 'Tilbakestill til norsk';
+        return;
+      }
 
       window.location.href = window.location.pathname + window.location.search + window.location.hash;
     });
@@ -143,4 +203,6 @@
 
   // Bridge selector stores language preferences locally on static pages.
   injectLanguageSelector(lang);
+  updateLangInUrl(lang);
+  applyTranslations(lang);
 })();

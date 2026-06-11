@@ -133,10 +133,10 @@
 
   <main class="container">
     <div style="margin:0 0 1rem;padding:1rem;background:#f7faf7;border:1px solid #d6e6d6;border-radius:10px;">
-      <h2 style="margin:0 0 .5rem;font-size:1.1rem;">Sertifiserte økologiske gårdsbutikker</h2>
-      <p style="margin:0 0 .5rem;font-size:.95rem;line-height:1.5;">Her finner du gårdsbutikker som er sertifisert økologiske — i Norge typisk gjennom Debio (Ø-merket), i EU gjennom det europeiske øko-bladet. Disse butikkene selger produkter som er dyrket uten syntetiske sprøytemidler, kunstgjødsel og GMO, og dyrene har hatt tilgang til friluft og naturlig fôr.</p>
-      <p style="margin:0 0 .5rem;font-size:.95rem;line-height:1.5;">Økologisk sertifisering sikrer sporbarhet fra jord til bord. Debio kontrollerer norske produsenter årlig, mens EU-sertifiseringen følger forordning (EU) 2018/848. Butikkene som vises her er også inkludert i det generelle gårdsbutikkregisteret, men ikke omvendt.</p>
-      <p style="margin:0;font-size:.88rem;color:#516274;">Bruk filtrene for å finne økologiske gårdsbutikker i ditt område, eller søk etter produkttype.</p>
+      <h2 id="introBoxHeading" style="margin:0 0 .5rem;font-size:1.1rem;">Sertifiserte økologiske gårdsbutikker</h2>
+      <p id="introBoxP1" style="margin:0 0 .5rem;font-size:.95rem;line-height:1.5;">Her finner du gårdsbutikker som er sertifisert økologiske — i Norge typisk gjennom Debio (Ø-merket), i EU gjennom det europeiske øko-bladet. Disse butikkene selger produkter som er dyrket uten syntetiske sprøytemidler, kunstgjødsel og GMO, og dyrene har hatt tilgang til friluft og naturlig fôr.</p>
+      <p id="introBoxP2" style="margin:0 0 .5rem;font-size:.95rem;line-height:1.5;">Økologisk sertifisering sikrer sporbarhet fra jord til bord. Debio kontrollerer norske produsenter årlig, mens EU-sertifiseringen følger forordning (EU) 2018/848. Butikkene som vises her er også inkludert i det generelle gårdsbutikkregisteret, men ikke omvendt.</p>
+      <p id="introBoxP3" style="margin:0;font-size:.88rem;color:#516274;">Bruk filtrene for å finne økologiske gårdsbutikker i ditt område, eller søk etter produkttype.</p>
     </div>
     <div class="controls nav-links">
       <button id="backBtn">← Tilbake</button>
@@ -265,6 +265,10 @@
           nearbyHeadingPrefix: 'Økologiske gårdsbutikker nær deg',
           suggestionIntro: 'Mangler det en økologisk gårdsbutikk? Send inn navn, kommune og land til moderering.',
           quickReportDefaultReason: 'Virker ikke som en økologisk gårdsbutikk.',
+          introBoxHeading: 'Sertifiserte økologiske gårdsbutikker',
+          introBoxP1: 'Her finner du gårdsbutikker som er sertifisert økologiske — i Norge typisk gjennom Debio (Ø-merket), i EU gjennom det europeiske øko-bladet. Disse butikkene selger produkter som er dyrket uten syntetiske sprøytemidler, kunstgjødsel og GMO, og dyrene har hatt tilgang til friluft og naturlig fôr.',
+          introBoxP2: 'Økologisk sertifisering sikrer sporbarhet fra jord til bord. Debio kontrollerer norske produsenter årlig, mens EU-sertifiseringen følger forordning (EU) 2018/848. Butikkene som vises her er også inkludert i det generelle gårdsbutikkregisteret, men ikke omvendt.',
+          introBoxP3: 'Bruk filtrene for å finne økologiske gårdsbutikker i ditt område, eller søk etter produkttype.',
         },
         en: {
           pageTitle: 'Organic Farm Shops',
@@ -273,6 +277,22 @@
           nearbyHeadingPrefix: 'Organic farm shops near you',
           suggestionIntro: 'Missing an organic farm shop? Submit name, municipality and country for moderation.',
           quickReportDefaultReason: 'Does not appear to be an organic farm shop.',
+          introBoxHeading: 'Certified organic farm shops',
+          introBoxP1: 'Here you\u2019ll find farm shops that are certified organic \u2014 in Norway typically through Debio (the \u00D8 label), in the EU through the European organic leaf. These shops sell products grown without synthetic pesticides, artificial fertilisers and GMOs, and the animals have had access to the outdoors and natural feed.',
+          introBoxP2: 'Organic certification ensures traceability from soil to table. Debio inspects Norwegian producers annually, while EU certification follows Regulation (EU) 2018/848. The shops shown here are also included in the general farm-shop register, but not the other way around.',
+          introBoxP3: 'Use the filters to find organic farm shops in your area, or search by product type.',
+        },
+        de: {
+          pageTitle: 'Bio-Hofl\u00e4den',
+          introText: 'Finden Sie Bio-Hofl\u00e4den von Debio Finn \u00D8ko. Diese werden auch unter Hofl\u00e4den angezeigt, aber nicht umgekehrt.',
+          resultsHeadingDefault: 'Bio-Hofl\u00e4den in Ihrer N\u00e4he',
+          nearbyHeadingPrefix: 'Bio-Hofl\u00e4den in Ihrer N\u00e4he',
+          suggestionIntro: 'Fehlt ein Bio-Hofladen? Senden Sie Name, Gemeinde und Land zur Moderation ein.',
+          quickReportDefaultReason: 'Scheint kein echter Bio-Hofladen zu sein.',
+          introBoxHeading: 'Zertifizierte Bio-Hofl\u00e4den',
+          introBoxP1: 'Hier finden Sie Hofl\u00e4den, die als biologisch zertifiziert sind \u2014 in Norwegen typischerweise \u00FCber Debio (das \u00D8-Siegel), in der EU \u00FCber das europ\u00e4ische Bio-Blatt. Diese Gesch\u00e4fte verkaufen Produkte, die ohne synthetische Pestizide, Kunstd\u00FCnger und GVO angebaut wurden, und die Tiere hatten Zugang zu Auslauf und nat\u00FCrlichem Futter.',
+          introBoxP2: 'Die Bio-Zertifizierung gew\u00e4hrleistet die R\u00FCckverfolgbarkeit vom Boden bis auf den Tisch. Debio kontrolliert norwegische Erzeuger j\u00e4hrlich, w\u00e4hrend die EU-Zertifizierung der Verordnung (EU) 2018/848 folgt. Die hier angezeigten Gesch\u00e4fte sind auch im allgemeinen Hofladen-Register enthalten, aber nicht umgekehrt.',
+          introBoxP3: 'Nutzen Sie die Filter, um Bio-Hofl\u00e4den in Ihrer Umgebung zu finden, oder suchen Sie nach Produktart.',
         },
       },
     };
