@@ -755,6 +755,10 @@
       languageLabel: 'Språk',
       pageTitle: 'Innvandrerbutikker',
       introText: 'Finn butikker som importerer varer fra andre land og tradisjoner. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
+      introBoxHeading: 'Internasjonale matbutikker i ditt nærområde',
+      introBoxP1: 'Norge og resten av Europa har et rikt mangfold av matbutikker som importerer varer fra hele verden — asiatiske, afrikanske, mellomøstlige, latinamerikanske og østeuropeiske spesialbutikker. Her finner du butikker som fører autentiske råvarer, krydder, ferske grønnsaker og spesialiteter du ikke finner i vanlige dagligvarebutikker.',
+      introBoxP2: 'Bruk kartet og filtrene for å finne butikker nær deg. Du kan filtrere etter land og region, søke etter butikknavn, og finne reiseruter. Dataene er samlet fra åpne kilder og supplert med bidrag fra brukere.',
+      introBoxP3: 'Kjenner du en butikk som mangler? Bruk forslagsskjemaet nederst for å tipse oss.',
       topHomeTab: 'Hjem',
       topFarmshopsTab: 'Gårdsbutikker',
       topOrganicTab: 'Økologiske gårdsbutikker',
@@ -817,6 +821,10 @@
       languageLabel: 'Language',
       pageTitle: 'Immigrant Shops',
       introText: 'Find stores that import goods from other countries and traditions. Filter by country → county/region → municipality, search products, and plan routes.',
+      introBoxHeading: 'International food shops in your area',
+      introBoxP1: 'Norway and the rest of Europe have a rich diversity of food shops that import goods from all over the world \u2014 Asian, African, Middle Eastern, Latin American and Eastern European specialty stores. Here you\u2019ll find shops carrying authentic ingredients, spices, fresh vegetables and specialties you won\u2019t find in regular grocery stores.',
+      introBoxP2: 'Use the map and filters to find shops near you. You can filter by country and region, search by shop name, and find travel routes. The data is gathered from open sources and supplemented with user contributions.',
+      introBoxP3: 'Know a shop that\u2019s missing? Use the suggestion form at the bottom to let us know.',
       topHomeTab: 'Home',
       topFarmshopsTab: 'Farm Shops',
       topOrganicTab: 'Organic Farm Shops',
@@ -941,6 +949,10 @@
       languageLabel: 'Sprache',
       pageTitle: 'Einwandererl\u00e4den',
       introText: 'Finden Sie Gesch\u00e4fte, die Waren aus anderen L\u00e4ndern und Traditionen importieren. Filtern nach Land \u2192 Region \u2192 Gemeinde, Produkte suchen und Routen planen.',
+      introBoxHeading: 'Internationale Lebensmittelgesch\u00e4fte in Ihrer N\u00e4he',
+      introBoxP1: 'Norwegen und der Rest Europas haben eine reiche Vielfalt an Lebensmittelgesch\u00e4ften, die Waren aus aller Welt importieren \u2014 asiatische, afrikanische, nahöstliche, lateinamerikanische und osteurop\u00e4ische Spezialit\u00e4tengesch\u00e4fte. Hier finden Sie Gesch\u00e4fte mit authentischen Zutaten, Gew\u00fcrzen, frischem Gem\u00fcse und Spezialit\u00e4ten, die Sie in gew\u00f6hnlichen Superm\u00e4rkten nicht finden.',
+      introBoxP2: 'Nutzen Sie die Karte und die Filter, um Gesch\u00e4fte in Ihrer N\u00e4he zu finden. Sie k\u00f6nnen nach Land und Region filtern, nach Ladennamen suchen und Reiserouten finden. Die Daten stammen aus offenen Quellen und werden durch Nutzerbeitr\u00e4ge erg\u00e4nzt.',
+      introBoxP3: 'Kennen Sie ein Gesch\u00e4ft, das fehlt? Nutzen Sie das Vorschlagsformular unten, um es uns mitzuteilen.',
       topHomeTab: 'Startseite',
       topFarmshopsTab: 'Hofl\u00e4den',
       topOrganicTab: 'Bio-Hofl\u00e4den',
@@ -1821,7 +1833,12 @@
   }
 
   function translate(key) {
-    return languageDict(currentPageLanguage)[key] || languageDict('nb')[key] || '';
+    // Per-key fallback: native language → English → Norwegian.
+    // Prevents a single missing key from showing Norwegian on a non-Norwegian page.
+    const native = PAGE_TRANSLATIONS[currentPageLanguage];
+    if (native && native[key]) return native[key];
+    if (PAGE_TRANSLATIONS.en && PAGE_TRANSLATIONS.en[key]) return PAGE_TRANSLATIONS.en[key];
+    return (PAGE_TRANSLATIONS.nb && PAGE_TRANSLATIONS.nb[key]) || '';
   }
 
   function detectPreferredLanguage() {
@@ -1863,6 +1880,14 @@
     if (languageLabelEl) languageLabelEl.textContent = translate('languageLabel');
     if (pageTitleEl) pageTitleEl.textContent = translate('pageTitle');
     if (introTextEl) introTextEl.textContent = translate('introText');
+    const introBoxHeadingEl = document.getElementById('introBoxHeading');
+    const introBoxP1El = document.getElementById('introBoxP1');
+    const introBoxP2El = document.getElementById('introBoxP2');
+    const introBoxP3El = document.getElementById('introBoxP3');
+    if (introBoxHeadingEl) introBoxHeadingEl.textContent = translate('introBoxHeading');
+    if (introBoxP1El) introBoxP1El.textContent = translate('introBoxP1');
+    if (introBoxP2El) introBoxP2El.textContent = translate('introBoxP2');
+    if (introBoxP3El) introBoxP3El.textContent = translate('introBoxP3');
     if (topHomeTabEl) topHomeTabEl.textContent = translate('topHomeTab');
     if (topFarmshopsTabEl) topFarmshopsTabEl.textContent = translate('topFarmshopsTab');
     if (topImmigrantTabEl) topImmigrantTabEl.textContent = translate('topImmigrantTab');

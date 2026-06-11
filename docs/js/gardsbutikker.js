@@ -829,6 +829,11 @@
       languageLabel: 'Språk',
       pageTitle: 'Gårdsbutikker',
       introText: 'Finn lokale produsenter og gårdsbutikker. Sorter etter land → fylke/region → kommune, søk etter produkter og planlegg reiser.',
+      shopCountBadge: '🗺️ Over <strong>60 000</strong> gårdsbutikker, vin- og ostehandlere, agriturismi og lokalmarkeder kartlagt i Europa — foreløpig register, oppdateres løpende.',
+      introBoxHeading: 'Europas gårdsbutikker samlet på ett sted',
+      introBoxP1: 'Mat Sjekk har kartlagt over 60 000 gårdsbutikker, lokalmarkeder, vinhandlere, ostehandlere og agriturismi i Europa. Her finner du alt fra små gårdsutsalg i norske bygder til gårdsmeierier i Frankrike, Hofladen i Tyskland og agriturismi i Italia.',
+      introBoxP2: 'Bruk filtrene til å velge land, fylke og kommune. Du kan søke etter butikknavn eller produkttype, finne butikker nær din posisjon, og planlegge reiseruter med avstandsberegning. Dataene hentes fra åpne kilder og oppdateres løpende.',
+      introBoxP3: 'Savner du en gårdsbutikk? Bruk «Foreslå ny butikk»-skjemaet nederst på siden for å tipse oss.',
       topHomeTab: 'Hjem',
       topFarmshopsTab: 'Gårdsbutikker',
       topOrganicTab: 'Økologiske gårdsbutikker',
@@ -891,6 +896,11 @@
       languageLabel: 'Language',
       pageTitle: 'Farm Shops',
       introText: 'Find local producers and farm shops. Filter by country → county/region → municipality, search products, and plan routes.',
+      shopCountBadge: '🗺️ Over <strong>60,000</strong> farm shops, wine and cheese merchants, agriturismi and local markets mapped across Europe — a provisional register, updated continuously.',
+      introBoxHeading: 'Europe\u2019s farm shops gathered in one place',
+      introBoxP1: 'Mat Sjekk has mapped over 60,000 farm shops, local markets, wine merchants, cheese shops and agriturismi across Europe. Here you\u2019ll find everything from small farm stalls in Norwegian villages to farm dairies in France, Hofladen in Germany and agriturismi in Italy.',
+      introBoxP2: 'Use the filters to choose country, county and municipality. You can search by shop name or product type, find shops near your location, and plan travel routes with distance calculation. The data is drawn from open sources and updated continuously.',
+      introBoxP3: 'Missing a farm shop? Use the \u201CSuggest a new shop\u201D form at the bottom of the page to let us know.',
       topHomeTab: 'Home',
       topFarmshopsTab: 'Farm Shops',
       topOrganicTab: 'Organic Farm Shops',
@@ -1015,6 +1025,11 @@
       languageLabel: 'Sprache',
       pageTitle: 'Hofl\u00e4den',
       introText: 'Finden Sie lokale Produzenten und Hofl\u00e4den. Filtern nach Land \u2192 Region \u2192 Gemeinde, Produkte suchen und Routen planen.',
+      shopCountBadge: '🗺️ \u00DCber <strong>60.000</strong> Hofl\u00e4den, Wein- und K\u00e4seh\u00e4ndler, Agriturismi und lokale M\u00e4rkte in Europa erfasst \u2014 vorl\u00e4ufiges Register, wird laufend aktualisiert.',
+      introBoxHeading: 'Europas Hofl\u00e4den an einem Ort',
+      introBoxP1: 'Mat Sjekk hat \u00FCber 60.000 Hofl\u00e4den, lokale M\u00e4rkte, Weinh\u00e4ndler, K\u00e4segesch\u00e4fte und Agriturismi in Europa erfasst. Hier finden Sie alles \u2013 von kleinen Hofverk\u00e4ufen in norwegischen D\u00f6rfern \u00fcber Hofmolkereien in Frankreich und Hofl\u00e4den in Deutschland bis zu Agriturismi in Italien.',
+      introBoxP2: 'Nutzen Sie die Filter, um Land, Region und Gemeinde auszuw\u00e4hlen. Sie k\u00f6nnen nach Ladennamen oder Produktart suchen, Gesch\u00e4fte in Ihrer N\u00e4he finden und Reiserouten mit Entfernungsberechnung planen. Die Daten stammen aus offenen Quellen und werden laufend aktualisiert.',
+      introBoxP3: 'Fehlt ein Hofladen? Nutzen Sie das Formular \u201ENeuen Laden vorschlagen\u201C unten auf der Seite, um uns zu informieren.',
       topHomeTab: 'Startseite',
       topFarmshopsTab: 'Hofl\u00e4den',
       topOrganicTab: 'Bio-Hofl\u00e4den',
@@ -1902,7 +1917,12 @@
   }
 
   function translate(key) {
-    return languageDict(currentPageLanguage)[key] || languageDict('nb')[key] || '';
+    // Per-key fallback: native language → English → Norwegian.
+    // Prevents a single missing key from showing Norwegian on a non-Norwegian page.
+    const native = PAGE_TRANSLATIONS[currentPageLanguage];
+    if (native && native[key]) return native[key];
+    if (PAGE_TRANSLATIONS.en && PAGE_TRANSLATIONS.en[key]) return PAGE_TRANSLATIONS.en[key];
+    return (PAGE_TRANSLATIONS.nb && PAGE_TRANSLATIONS.nb[key]) || '';
   }
 
   function detectPreferredLanguage() {
@@ -1944,6 +1964,16 @@
     if (languageLabelEl) languageLabelEl.textContent = translate('languageLabel');
     if (pageTitleEl) pageTitleEl.textContent = translate('pageTitle');
     if (introTextEl) introTextEl.textContent = translate('introText');
+    const shopCountBadgeEl = document.getElementById('shopCountBadge');
+    if (shopCountBadgeEl) shopCountBadgeEl.innerHTML = translate('shopCountBadge');
+    const introBoxHeadingEl = document.getElementById('introBoxHeading');
+    const introBoxP1El = document.getElementById('introBoxP1');
+    const introBoxP2El = document.getElementById('introBoxP2');
+    const introBoxP3El = document.getElementById('introBoxP3');
+    if (introBoxHeadingEl) introBoxHeadingEl.textContent = translate('introBoxHeading');
+    if (introBoxP1El) introBoxP1El.textContent = translate('introBoxP1');
+    if (introBoxP2El) introBoxP2El.textContent = translate('introBoxP2');
+    if (introBoxP3El) introBoxP3El.textContent = translate('introBoxP3');
     if (topHomeTabEl) topHomeTabEl.textContent = translate('topHomeTab');
     if (topFarmshopsTabEl) topFarmshopsTabEl.textContent = translate('topFarmshopsTab');
     if (topOrganicTabEl) topOrganicTabEl.textContent = translate('topOrganicTab');
