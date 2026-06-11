@@ -52,8 +52,8 @@ const translations = {
     featureInsectText: 'Varsler om produkter med insektinnhold',
     featureListTitle: 'Handlelister',
     featureListText: 'Lag og administrer flere handlelister samtidig',
-    featureLangTitle: '11 sprak',
-    featureLangText: 'Stotte for norsk, engelsk, svensk, dansk, finsk, tysk, nederlandsk, fransk, italiensk, portugisisk og spansk',
+    featureLangTitle: '17 sprak',
+    featureLangText: 'Stotte for norsk, engelsk, svensk, dansk, finsk, tysk, nederlandsk, fransk, italiensk, portugisisk, spansk, koreansk, polsk, russisk, kinesisk, arabisk og thai',
     adPlaceholder: 'Reklameplass (vises etter at du godtar informasjonskapsler)',
     howHeading: 'Slik fungerer det',
     howStep1Title: 'Last ned appen',
@@ -125,8 +125,8 @@ const translations = {
     featureInsectText: 'Warnings for products containing insect ingredients',
     featureListTitle: 'Shopping lists',
     featureListText: 'Create and manage multiple shopping lists',
-    featureLangTitle: '11 languages',
-    featureLangText: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, and Spanish',
+    featureLangTitle: '17 languages',
+    featureLangText: 'Supports Norwegian, English, Swedish, Danish, Finnish, German, Dutch, French, Italian, Portuguese, Spanish, Korean, Polish, Russian, Chinese, Arabic, and Thai',
     adPlaceholder: 'Ad space (shown after cookie consent)',
     howHeading: 'How it works',
     howStep1Title: 'Download the app',
@@ -457,6 +457,200 @@ const translations = {
     footerCopyright: '\u00a9 2026 Mat Sjekk / Einar\'s Apps. Todos los derechos reservados.',
   },};
 
+// --- Extended page content (hero, QR, EU sections, story cards, etc.) -------
+// IMPORTANT: To avoid a half-translated "language mix", every visible string on
+// index.html must have a key here. Add new keys to `nb` and `en` at minimum;
+// English is the universal fallback for any language that lacks a key. Keys
+// ending in *Html contain inline markup and are applied with data-translate-html.
+const EXTRA_TRANSLATIONS = {
+  nb: {
+    heroMainTitle: 'Ren mat direkte fra bonden, med tydelige risikovarsler i butikk.',
+    heroLead1: 'Mat Sjekk kombinerer to behov: finn bondens butikker for kortere matkjede, og skann produkter for trafikklys på Bovaer, GMO/NGT og insektsmel.',
+    heroLead2: 'Målet er mer åpenhet om dyrevelferd, fôrvalg og leverandørkjeder, slik at du kan velge med bedre innsikt.',
+    ctaHarmonyStore: '🟨 Last ned for HarmonyOS',
+    heroFarmshopCountHtml: '🗺️ Over <strong>60 000</strong> gårdsbutikker, agriturismi og lokalmarkeder kartlagt i Europa — foreløpig register, oppdateres løpende.',
+    heroEuBannerHtml: '<strong>Viktig EU-oppdatering:</strong> GMO/NGT-regler er i endring. Forbrukermerking kan bli mindre tydelig i enkelte løp, mens krav i frøkjeden fortsatt er sentrale. Mat Sjekk synliggjør dette som regelstatus + forbrukerrisiko. <a href="news.html?cb=20260606f">Les forklaringen</a>',
+    qrHeading: 'Last ned appen raskt med QR',
+    qrNote: 'Ja, QR er lurt på nettsiden: mobilbrukere kommer direkte til riktig butikkside uten ekstra klikk.',
+    qrOpenAppStore: 'Åpne App Store',
+    qrOpenGooglePlay: 'Åpne Google Play',
+    qrOpenAppGallery: 'Åpne AppGallery',
+    whyHeading: 'Hvorfor mange velger bondens butikk først',
+    whyNote: 'Kortere verdikjede kan gi bedre innsyn i produksjon, dyrevelferd og råvarekvalitet.',
+    whyCard1Title: 'Ren mat nær kilden',
+    whyCard1Text: 'Direkte handel fra gård og lokale produsenter gjør det enklere å vite hvor maten kommer fra og hvordan den er produsert.',
+    whyCard2Title: 'Dyrevelferd i fokus',
+    whyCard2Text: 'Flere forbrukere ønsker aktive valg for bedre dyrevelferd. Derfor løfter vi fram gårds- og lokalbutikker som alternativ.',
+    whyCard3Title: 'Bruk appen i tillegg',
+    whyCard3Text: 'Når du handler i vanlig butikk, bruker du skanneren i appen for å se regelstatus, forbrukerrisiko og mulig kjederisiko.',
+    platformHeading: 'Hvor brukes hva i Mat Sjekk?',
+    platformNote: 'Appen er hovedproduktet for risikovarsler. Nettsiden støtter med butikksøk, metode og åpen dokumentasjon.',
+    platformChipWeb: 'Hjem: Nettside (best på PC)',
+    platformChipApp: 'Butikkmodus: App (mobil først)',
+    platformChipMix: 'EU-vedtak: Forklaring + bakgrunn',
+    euMeansHeading: 'Hva EU-vedtaket betyr for deg i praksis',
+    euMeansNote: 'Dette er grunnen til at appen viser både regelstatus og forbrukerrisiko, ikke bare ja/nei.',
+    euMeansCard1Title: '1. Merking i forbrukerleddet kan bli svakere',
+    euMeansCard1Text: 'I noen GMO/NGT-løp kan informasjonen være mindre synlig for forbruker enn tidligere. Derfor får du et eget trafikklys for regelstatus i appen.',
+    euMeansCard2Title: '2. Frø og produksjonsledd har fortsatt krav',
+    euMeansCard2Text: 'Det kan fortsatt finnes sporbarhets- og dokumentasjonskrav i upstream-ledd (for eksempel frøkjede/produksjon), selv om etiketten i butikk ikke alltid sier alt.',
+    euMeansCard3Title: '3. Leverandørkjede-risiko blir viktigere',
+    euMeansCard3Text: 'Importør, leverandør og produsentnettverk betyr mer når direkte produktmerking er svak. Mat Sjekk flagger dette som gul risiko der det er relevant.',
+    euMeansCta: 'Se EU-vedtak-siden',
+    updatesHeading: 'Siste oppdateringer (juni 2026)',
+    updatesChip1: 'EU-fane: søk, filter og delbar lenke (q/topic)',
+    updatesChip2: 'EU-fane: tema-seksjoner i fast rekkefølge (GMO, Bovaer, Insektsmel)',
+    updatesChip3: 'EU-fane: lokal leselenke + originalkilde per vedtak',
+    updatesChip4: 'App: tydeligere kildeknapper med originaltittel',
+    updatesNoteHtml: 'Se detaljer under <a href="news.html?cb=20260606f">EU-vedtak</a>.',
+    appWarnsHeadingHtml: 'Hva appen faktisk varsler om <span class="section-chip section-chip--web">Nettsideinnhold</span>',
+    appWarnsIntro: 'Mat Sjekk varsler om risikosignaler knyttet til Bovaer, GMO i fôrkjeder og insektsmel. Under er temaene som vurderes i dagens app.',
+    docLabel: 'Dokumentasjon',
+    story1Title: 'Ku, melk og Bovaer',
+    story1Text: 'Vi følger særlig saker om fôrtilsetninger i meierikjeden, merking og forbrukerinformasjon om melk og storfe.',
+    story1Pill: 'Tema: Bovaer i meierikjeden',
+    story2Title: 'GMO på vei hit',
+    story2Text: 'Vi vurderer GMO/NGT-signaler i import- og leverandørkjeder, slik at du ser mulig risiko før varen treffer hylla.',
+    story2Pill: 'Tema: GMO/NGT + leverandørkjede',
+    story3Title: 'Fiskefôr i oppdrett',
+    story3Text: 'Appen vurderer risiko i fiskefôrkjeder, inkludert GMO-signaler og mulig indirekte eksponering via leverandørledd.',
+    story3Pill: 'Tema: GMO + insektsmel',
+    story4Title: 'Insektsmel i matkjeden',
+    story4Text: 'Appen markerer produkter med mulig insekt-eksponering via ingrediens, merking eller leverandørkjede der informasjonen er usikker.',
+    story4Pill: 'Tema: Insektsmel / novel food',
+    aboutMethodLineHtml: 'Les mer om hvordan kvalitetskontroll gjøres i <a href="editorial-method.html">redaksjonell metode</a> og <a href="source-criteria.html">kildekriterier</a>.',
+    editorial1Html: '<strong>Datakilder</strong><br>OpenFoodFacts, åpne offentlige kilder, og verifiserte nettaviser.',
+    editorial2Html: '<strong>Redaksjonelt fokus</strong><br>Bovaer, insektsmel og GMO i fiskefôr, med europeisk dekning.',
+    editorial3Html: '<strong>Transparens</strong><br>Risikosignaler i appen bygger på sporbare kilder og vises med forklarende tekst.',
+    editorial4Html: '<strong>Oppdatering</strong><br>Risikoregler og butikklister oppdateres løpende for å holde innholdet relevant.',
+  },
+  en: {
+    heroMainTitle: 'Clean food straight from the farm, with clear risk alerts in store.',
+    heroLead1: 'Mat Sjekk combines two needs: find the farmer\u2019s shops for a shorter food chain, and scan products for a traffic-light reading of Bovaer, GMO/NGT and insect meal.',
+    heroLead2: 'The goal is more transparency about animal welfare, feed choices and supply chains, so you can choose with better insight.',
+    ctaHarmonyStore: '🟨 Download for HarmonyOS',
+    heroFarmshopCountHtml: '🗺️ Over <strong>60,000</strong> farm shops, agriturismi and local markets mapped across Europe — a preliminary register, updated continuously.',
+    heroEuBannerHtml: '<strong>Important EU update:</strong> GMO/NGT rules are changing. Consumer labelling may become less clear in some cases, while requirements in the seed chain remain central. Mat Sjekk makes this visible as rule status + consumer risk. <a href="news.html?cb=20260606f">Read the explanation</a>',
+    qrHeading: 'Download the app quickly with QR',
+    qrNote: 'Yes, QR is smart on the website: mobile users go straight to the right store page without extra clicks.',
+    qrOpenAppStore: 'Open App Store',
+    qrOpenGooglePlay: 'Open Google Play',
+    qrOpenAppGallery: 'Open AppGallery',
+    whyHeading: 'Why many choose the farm shop first',
+    whyNote: 'A shorter value chain can give better insight into production, animal welfare and raw-material quality.',
+    whyCard1Title: 'Clean food close to the source',
+    whyCard1Text: 'Buying directly from farms and local producers makes it easier to know where the food comes from and how it was produced.',
+    whyCard2Title: 'Animal welfare in focus',
+    whyCard2Text: 'More consumers want active choices for better animal welfare. That is why we highlight farm and local shops as an alternative.',
+    whyCard3Title: 'Use the app as well',
+    whyCard3Text: 'When you shop in a regular store, use the scanner in the app to see rule status, consumer risk and possible chain risk.',
+    platformHeading: 'Where is what used in Mat Sjekk?',
+    platformNote: 'The app is the main product for risk alerts. The website supports it with store search, methodology and open documentation.',
+    platformChipWeb: 'Home: Website (best on PC)',
+    platformChipApp: 'Store mode: App (mobile first)',
+    platformChipMix: 'EU decision: Explanation + background',
+    euMeansHeading: 'What the EU decision means for you in practice',
+    euMeansNote: 'This is why the app shows both rule status and consumer risk, not just yes/no.',
+    euMeansCard1Title: '1. Labelling at the consumer stage may get weaker',
+    euMeansCard1Text: 'In some GMO/NGT cases the information may be less visible to the consumer than before. That is why you get a dedicated traffic light for rule status in the app.',
+    euMeansCard2Title: '2. Seed and production stages still have requirements',
+    euMeansCard2Text: 'There may still be traceability and documentation requirements in upstream stages (for example the seed chain/production), even if the label in store does not always say everything.',
+    euMeansCard3Title: '3. Supply-chain risk becomes more important',
+    euMeansCard3Text: 'Importer, supplier and producer networks matter more when direct product labelling is weak. Mat Sjekk flags this as yellow risk where relevant.',
+    euMeansCta: 'See the EU decision page',
+    updatesHeading: 'Latest updates (June 2026)',
+    updatesChip1: 'EU tab: search, filter and shareable link (q/topic)',
+    updatesChip2: 'EU tab: topic sections in a fixed order (GMO, Bovaer, Insect meal)',
+    updatesChip3: 'EU tab: local reading link + original source per decision',
+    updatesChip4: 'App: clearer source buttons with the original title',
+    updatesNoteHtml: 'See details under <a href="news.html?cb=20260606f">EU decision</a>.',
+    appWarnsHeadingHtml: 'What the app actually alerts about <span class="section-chip section-chip--web">Website content</span>',
+    appWarnsIntro: 'Mat Sjekk alerts about risk signals related to Bovaer, GMO in feed chains and insect meal. Below are the topics assessed in today\u2019s app.',
+    docLabel: 'Documentation',
+    story1Title: 'Cow, milk and Bovaer',
+    story1Text: 'We follow in particular cases about feed additives in the dairy chain, labelling and consumer information about milk and cattle.',
+    story1Pill: 'Topic: Bovaer in the dairy chain',
+    story2Title: 'GMO on its way here',
+    story2Text: 'We assess GMO/NGT signals in import and supply chains, so you can see possible risk before the product reaches the shelf.',
+    story2Pill: 'Topic: GMO/NGT + supply chain',
+    story3Title: 'Feed in fish farming',
+    story3Text: 'The app assesses risk in fish-feed chains, including GMO signals and possible indirect exposure via supplier stages.',
+    story3Pill: 'Topic: GMO + insect meal',
+    story4Title: 'Insect meal in the food chain',
+    story4Text: 'The app marks products with possible insect exposure via ingredient, labelling or supply chain where the information is uncertain.',
+    story4Pill: 'Topic: Insect meal / novel food',
+    aboutMethodLineHtml: 'Read more about how quality control is done in <a href="editorial-method.html">editorial method</a> and <a href="source-criteria.html">source criteria</a>.',
+    editorial1Html: '<strong>Data sources</strong><br>OpenFoodFacts, open public sources, and verified news outlets.',
+    editorial2Html: '<strong>Editorial focus</strong><br>Bovaer, insect meal and GMO in fish feed, with European coverage.',
+    editorial3Html: '<strong>Transparency</strong><br>Risk signals in the app are based on traceable sources and shown with explanatory text.',
+    editorial4Html: '<strong>Updates</strong><br>Risk rules and store lists are updated continuously to keep the content relevant.',
+  },
+  de: {
+    heroMainTitle: 'Saubere Lebensmittel direkt vom Hof, mit klaren Risikohinweisen im Geschäft.',
+    heroLead1: 'Mat Sjekk verbindet zwei Bedürfnisse: Hofläden für eine kürzere Lebensmittelkette finden und Produkte per Ampel auf Bovaer, GMO/NGT und Insektenmehl prüfen.',
+    heroLead2: 'Das Ziel ist mehr Transparenz über Tierwohl, Futterwahl und Lieferketten, damit Sie mit besserem Einblick wählen können.',
+    ctaHarmonyStore: '🟨 Für HarmonyOS herunterladen',
+    heroFarmshopCountHtml: '🗺️ Über <strong>60.000</strong> Hofläden, Agriturismi und lokale Märkte in ganz Europa erfasst — vorläufiges Verzeichnis, wird laufend aktualisiert.',
+    heroEuBannerHtml: '<strong>Wichtiges EU-Update:</strong> Die GMO/NGT-Regeln ändern sich. Die Verbraucherkennzeichnung kann in einigen Fällen weniger eindeutig werden, während Anforderungen in der Saatgutkette weiterhin zentral sind. Mat Sjekk macht dies als Regelstatus + Verbraucherrisiko sichtbar. <a href="news.html?cb=20260606f">Erklärung lesen</a>',
+    qrHeading: 'Die App schnell per QR herunterladen',
+    qrNote: 'Ja, QR ist auf der Website sinnvoll: Mobilnutzer gelangen ohne Umwege direkt zur richtigen Store-Seite.',
+    qrOpenAppStore: 'App Store öffnen',
+    qrOpenGooglePlay: 'Google Play öffnen',
+    qrOpenAppGallery: 'AppGallery öffnen',
+    whyHeading: 'Warum viele zuerst den Hofladen wählen',
+    whyNote: 'Eine kürzere Wertschöpfungskette kann besseren Einblick in Produktion, Tierwohl und Rohstoffqualität geben.',
+    whyCard1Title: 'Saubere Lebensmittel nah an der Quelle',
+    whyCard1Text: 'Der direkte Einkauf bei Höfen und lokalen Erzeugern macht es leichter zu wissen, woher die Lebensmittel kommen und wie sie produziert wurden.',
+    whyCard2Title: 'Tierwohl im Fokus',
+    whyCard2Text: 'Immer mehr Verbraucher möchten aktive Entscheidungen für besseres Tierwohl treffen. Deshalb heben wir Hof- und Lokalläden als Alternative hervor.',
+    whyCard3Title: 'Nutzen Sie zusätzlich die App',
+    whyCard3Text: 'Wenn Sie im normalen Geschäft einkaufen, nutzen Sie den Scanner in der App, um Regelstatus, Verbraucherrisiko und mögliches Kettenrisiko zu sehen.',
+    platformHeading: 'Wo wird was in Mat Sjekk verwendet?',
+    platformNote: 'Die App ist das Hauptprodukt für Risikohinweise. Die Website unterstützt mit Ladensuche, Methodik und offener Dokumentation.',
+    platformChipWeb: 'Start: Website (am besten am PC)',
+    platformChipApp: 'Ladenmodus: App (mobil zuerst)',
+    platformChipMix: 'EU-Entscheidung: Erklärung + Hintergrund',
+    euMeansHeading: 'Was die EU-Entscheidung für Sie in der Praxis bedeutet',
+    euMeansNote: 'Deshalb zeigt die App sowohl Regelstatus als auch Verbraucherrisiko, nicht nur ja/nein.',
+    euMeansCard1Title: '1. Die Kennzeichnung beim Verbraucher kann schwächer werden',
+    euMeansCard1Text: 'In einigen GMO/NGT-Fällen kann die Information für Verbraucher weniger sichtbar sein als früher. Deshalb erhalten Sie in der App eine eigene Ampel für den Regelstatus.',
+    euMeansCard2Title: '2. Saatgut- und Produktionsstufen haben weiterhin Anforderungen',
+    euMeansCard2Text: 'In vorgelagerten Stufen (zum Beispiel Saatgutkette/Produktion) kann es weiterhin Rückverfolgbarkeits- und Dokumentationspflichten geben, auch wenn das Etikett im Geschäft nicht immer alles sagt.',
+    euMeansCard3Title: '3. Lieferkettenrisiko wird wichtiger',
+    euMeansCard3Text: 'Importeur, Lieferant und Erzeugernetzwerke zählen mehr, wenn die direkte Produktkennzeichnung schwach ist. Mat Sjekk kennzeichnet dies als gelbes Risiko, wo es relevant ist.',
+    euMeansCta: 'Zur EU-Entscheidungsseite',
+    updatesHeading: 'Neueste Updates (Juni 2026)',
+    updatesChip1: 'EU-Tab: Suche, Filter und teilbarer Link (q/topic)',
+    updatesChip2: 'EU-Tab: Themenabschnitte in fester Reihenfolge (GMO, Bovaer, Insektenmehl)',
+    updatesChip3: 'EU-Tab: lokaler Leselink + Originalquelle je Entscheidung',
+    updatesChip4: 'App: deutlichere Quellen-Schaltflächen mit Originaltitel',
+    updatesNoteHtml: 'Details siehe unter <a href="news.html?cb=20260606f">EU-Entscheidung</a>.',
+    appWarnsHeadingHtml: 'Worüber die App tatsächlich informiert <span class="section-chip section-chip--web">Website-Inhalt</span>',
+    appWarnsIntro: 'Mat Sjekk weist auf Risikosignale rund um Bovaer, GMO in Futterketten und Insektenmehl hin. Unten stehen die Themen, die in der heutigen App bewertet werden.',
+    docLabel: 'Dokumentation',
+    story1Title: 'Kuh, Milch und Bovaer',
+    story1Text: 'Wir verfolgen besonders Fälle zu Futterzusätzen in der Milchkette, zur Kennzeichnung und zur Verbraucherinformation über Milch und Rinder.',
+    story1Pill: 'Thema: Bovaer in der Milchkette',
+    story2Title: 'GMO auf dem Weg hierher',
+    story2Text: 'Wir bewerten GMO/NGT-Signale in Import- und Lieferketten, damit Sie mögliche Risiken sehen, bevor die Ware ins Regal kommt.',
+    story2Pill: 'Thema: GMO/NGT + Lieferkette',
+    story3Title: 'Futter in der Fischzucht',
+    story3Text: 'Die App bewertet Risiken in Fischfutterketten, einschließlich GMO-Signalen und möglicher indirekter Exposition über Lieferstufen.',
+    story3Pill: 'Thema: GMO + Insektenmehl',
+    story4Title: 'Insektenmehl in der Lebensmittelkette',
+    story4Text: 'Die App kennzeichnet Produkte mit möglicher Insekten-Exposition über Zutat, Kennzeichnung oder Lieferkette, wenn die Information unsicher ist.',
+    story4Pill: 'Thema: Insektenmehl / Novel Food',
+    aboutMethodLineHtml: 'Lesen Sie mehr darüber, wie die Qualitätskontrolle erfolgt, in <a href="editorial-method.html">redaktionelle Methode</a> und <a href="source-criteria.html">Quellenkriterien</a>.',
+    editorial1Html: '<strong>Datenquellen</strong><br>OpenFoodFacts, offene öffentliche Quellen und verifizierte Nachrichtenmedien.',
+    editorial2Html: '<strong>Redaktioneller Fokus</strong><br>Bovaer, Insektenmehl und GMO in Fischfutter, mit europäischer Abdeckung.',
+    editorial3Html: '<strong>Transparenz</strong><br>Risikosignale in der App beruhen auf nachvollziehbaren Quellen und werden mit erläuterndem Text angezeigt.',
+    editorial4Html: '<strong>Aktualisierung</strong><br>Risikoregeln und Ladenlisten werden laufend aktualisiert, um den Inhalt relevant zu halten.',
+  },
+};
+Object.keys(EXTRA_TRANSLATIONS).forEach((lng) => {
+  translations[lng] = Object.assign({}, translations[lng] || {}, EXTRA_TRANSLATIONS[lng]);
+});
+
 const APP_LANGUAGE_COUNT_LABELS = {
   nb: '17 sprak',
   en: '17 languages',
@@ -704,12 +898,27 @@ function dictForLanguage(lang) {
 function applyTranslations(lang) {
   const normalized = normalizeLanguageCode(lang);
   const dictLang = translations[normalized] ? normalized : (normalized !== 'nb' && isSupportedLanguage(normalized) ? 'en' : 'nb');
-  const dict = dictForLanguage(dictLang);
+  const dict = translations[dictLang] || translations.nb;
+  const enDict = translations.en || {};
+  const nbDict = translations.nb || {};
+  // Per-key fallback: selected language -> English -> Norwegian. This keeps the
+  // whole page in ONE language even when a translation key is missing, instead
+  // of silently leaving the hardcoded Norwegian source (the old "mix" bug).
+  const pick = (key) => {
+    if (dict[key] != null) return dict[key];
+    if (enDict[key] != null) return enDict[key];
+    return nbDict[key];
+  };
   document.querySelectorAll('[data-translate]').forEach((el) => {
     const key = el.getAttribute('data-translate');
-    if (key && dict[key]) {
-      el.textContent = dict[key];
-    }
+    const value = pick(key);
+    if (key && value != null) el.textContent = value;
+  });
+  // For text that contains inline markup (links, <strong>) we set innerHTML.
+  document.querySelectorAll('[data-translate-html]').forEach((el) => {
+    const key = el.getAttribute('data-translate-html');
+    const value = pick(key);
+    if (key && value != null) el.innerHTML = value;
   });
   document.documentElement.lang = dictLang || 'nb';
 }
