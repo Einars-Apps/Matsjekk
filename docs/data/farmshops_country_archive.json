@@ -25128,6 +25128,19 @@
       "lon": 10.7149058,
       "address": "Sødorp",
       "source": "https://www.lokalmat.no/produsenter/odhumbla-gardsmjolk/"
+    },
+    {
+      "id": "hanen_309",
+      "name": "Eplet Bed & Apple",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Solvorn",
+      "products": [],
+      "website": "https://www.eplet.no",
+      "lat": 61.302938,
+      "lon": 7.227077,
+      "address": "Eplet",
+      "source": "https://www.hanen.no/bedrift/eplet-bed-and-apple/"
     }
   ],
   "SE": [
