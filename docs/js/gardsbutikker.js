@@ -1956,6 +1956,22 @@
     return [...(selectElement?.options || [])].find((option) => option.value === value) || null;
   }
 
+  function updateLangInUrl(lang) {
+    // Keep the address bar in sync with the active language so links stay shareable
+    // and consistent with Google Ads sitelinks. Norwegian is the default (no ?lang=).
+    try {
+      const url = new URL(window.location.href);
+      if (lang && lang !== 'nb' && SUPPORTED_LANGUAGES.includes(lang)) {
+        url.searchParams.set('lang', lang);
+      } else {
+        url.searchParams.delete('lang');
+      }
+      window.history.replaceState(null, '', url.toString());
+    } catch (_) {
+      // history.replaceState may be unavailable in some embeddings.
+    }
+  }
+
   function applyPageLanguage(languageCode) {
     const fallbackCode = SUPPORTED_LANGUAGES.includes(languageCode) ? languageCode : 'nb';
     currentPageLanguage = PAGE_TRANSLATIONS[fallbackCode] ? fallbackCode : 'en';
@@ -2048,11 +2064,26 @@
 
   function initLanguageSelector() {
     if (!languageSelect) return;
+    // ?lang= in the URL always wins (used by the app and Google Ads sitelinks).
+    let urlLang = '';
+    try {
+      urlLang = String(new URLSearchParams(window.location.search || '').get('lang') || '')
+        .toLowerCase()
+        .split('-')[0];
+    } catch (_) {
+      urlLang = '';
+    }
+    const hasUrlLang = SUPPORTED_LANGUAGES.includes(urlLang);
+
     const saved = (localStorage.getItem(LANGUAGE_STORAGE_KEY) || 'auto').toLowerCase();
-    const selectedMode = saved === 'auto' || SUPPORTED_LANGUAGES.includes(saved) ? saved : 'auto';
+    const selectedMode = hasUrlLang
+      ? urlLang
+      : (saved === 'auto' || SUPPORTED_LANGUAGES.includes(saved) ? saved : 'auto');
+    if (hasUrlLang) localStorage.setItem(LANGUAGE_STORAGE_KEY, urlLang);
     languageSelect.value = selectedMode;
     const initialLanguage = selectedMode === 'auto' ? detectPreferredLanguage() : selectedMode;
     localStorage.setItem('matsjekk_lang', initialLanguage);
+    updateLangInUrl(initialLanguage);
     applyPageLanguage(initialLanguage);
 
     languageSelect.addEventListener('change', () => {
@@ -2061,6 +2092,7 @@
       localStorage.setItem(LANGUAGE_STORAGE_KEY, normalizedMode);
       const nextLanguage = normalizedMode === 'auto' ? detectPreferredLanguage() : normalizedMode;
       localStorage.setItem('matsjekk_lang', nextLanguage);
+      updateLangInUrl(nextLanguage);
       applyPageLanguage(nextLanguage);
       filterShops();
     });
