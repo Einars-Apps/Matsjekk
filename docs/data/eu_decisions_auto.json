@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T06:50:35.298074+00:00",
+  "updated_at": "2026-06-11T07:02:41.926329+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -342,6 +342,26 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzTjBsUDJlcUYzeF96LTJpTUxwQks0amZtUHNIOEQxWmxHdHIyclQtQ3hDc2F0aVk1U2dtZGRRZWwwNFpyUnJUWlRpNUpHOTBRalN5ZWxISXNkNG9LVW1IWU5QU01uUGFmd1JsLVdaSVJ5RmIta3c?oc=5",
       "source": "European Parliament",
       "id": "238aeddcf929f772"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5",
+      "source": "European Parliament",
+      "id": "79a62faf5cd4f16a"
+    },
+    {
+      "date": "2024-01-10T08:00:00+00:00",
+      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
+      "source": "EUR-Lex",
+      "id": "d5fb36521e33afe9"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
