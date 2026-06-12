@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-06-11T07:02:41.926329+00:00",
+  "updated_at": "2026-06-12T06:57:38.564234+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-06-11T13:48:17+00:00",
+      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5",
+      "source": "European Parliament",
+      "id": "63e593959e16953d"
+    },
     {
       "date": "2026-06-09T19:27:30+00:00",
       "title": "30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
@@ -94,24 +104,14 @@
       "id": "dec8779d4ccda5a5"
     },
     {
-      "date": "2025-12-07T06:24:23+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 20 January 2025 - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 20 January 2025 &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRTk0UU1EWUp6Z0JwTnJjbGt1VnR1NnRBNE4xU09kVERiWkxZajRpallJWUp2MERxR2pEckpOV3MxMWl6UVdpNHBDVUlKSUlhZVZuOUpVZWRwT3dVbGR5RkxkVnNTWUk1Q1lSai00bUpYQUV1cVZreXp5bHRyUlNCRXNWdm9BWU03a1hjckVDUUsxdWhlb0VOWnVKYjlWUTlmSndWMlFaZXVuTi1FTTJDcE9aSHgwSUptSTI3bE14V0RjQ0FHT25HMnRnOGFsZjFzMWZFRWpnMmVFaU1ETjdqSTJJdjk?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "3624cd6943dc606a"
-    },
-    {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYlo0Q0JlTS1EQjZMZ3hFQmpiTFAtYlItSE9VVS1XbjA4c18yZEhTNWswdlZCQ21SclZrdzZLN2lCVVMxN0xiSUN2X1d0aVNHcGVsMkw5RDRLVDNRaHhfek9Pa3U5SkNVaXhmYUdaQXpZeDhiVGhJVHFMLXhEbWNPT0d3VlV6WXhGZmdKWUlyUGlMYjIxRjRXN2w4TUIwRkJJWS1HQjBVMlJoS081Q0gxMnBkTFVvT0R5RzBuOGZZYm1zbDRjNlgxTGdNWVZ0bkJtZzg0?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
       "source": "European Parliament",
-      "id": "fc0ffd0ad28b40ea"
+      "id": "a8057ba0c6d6254e"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -342,16 +342,6 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzTjBsUDJlcUYzeF96LTJpTUxwQks0amZtUHNIOEQxWmxHdHIyclQtQ3hDc2F0aVk1U2dtZGRRZWwwNFpyUnJUWlRpNUpHOTBRalN5ZWxISXNkNG9LVW1IWU5QU01uUGFmd1JsLVdaSVJ5RmIta3c?oc=5",
       "source": "European Parliament",
       "id": "238aeddcf929f772"
-    },
-    {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5",
-      "source": "European Parliament",
-      "id": "79a62faf5cd4f16a"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
