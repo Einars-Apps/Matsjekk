@@ -6959,7 +6959,7 @@
     "name": "Klokk & Co",
     "country": "Norway",
     "region": "Oslo",
-    "municipality": null,
+    "municipality": "Oslo",
     "products": [
       "Alkoholholdige drikker",
       "Drikkevarer"
@@ -6968,7 +6968,7 @@
     "lat": 59.9358329,
     "lon": 10.67152520000002,
     "address": "",
-    "source": "https://www.lokalmat.no/produsenter/bryggekompaniet-klokk--co/"
+    "source": "https://www.lokalmat.no/produsenter/klokk-and-co/"
   },
   {
     "id": "lokalmat_11152",
