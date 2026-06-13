@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T05:54:39.002685+00:00",
+  "generatedAt": "2026-06-13T05:46:45.021701+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -50,6 +50,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaWdDV29rNW1JOUlxemNMOGVra3RwNl90T2x5aFNBRURiVUFFLTdrSUtwdkg2WmZlZUg1WmV1SFI2ZktkaWZoVkwtTEVPUWtaV2U0ckJBQXZvWXpaLXk3c1A0SDVaV2FTZHRBZk1abjBrWkRRUjQ4bXZ0eXU3M2dlcF9pc3pMNVlmbmJqcTJkRUhnVzJtVmVMclNaeEtTaEY2NVJkTGRBamp0OUZKVktTSXFkemMxaVVXZ1BWZExPMmJHb2hnZFFBVVI1QWR4MlktMXk0?oc=5\" target=\"_blank\">Sunpine strengthens climate ambitions in new Annual and Sustainability Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mynewsdesk</font>",
       "id": "89f6b5ed52c40289"
+    },
+    {
+      "title": "Arla har stoppat Bovaer-försök i Storbritannien - Land.se",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGJNcGd6Tm5UUEE2aHZnT2Zpc3dPVjJGeExZXzFraE1ZQmx3MHJObExYdXpibGxuRkhya3RXczQ5NVBNTnhnVmx6aThSd3h3azl6NDZLVUNhUkJZaVhWZHZxMHMyVVNrVHNQUUpXTk1FQTFrVllkaUljZXlmN05JbmtuRlkyaUl5SnlzalBOZw?oc=5",
+      "pubDate": "2026-05-23T02:34:54+00:00",
+      "source": "Land.se",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOZGJNcGd6Tm5UUEE2aHZnT2Zpc3dPVjJGeExZXzFraE1ZQmx3MHJObExYdXpibGxuRkhya3RXczQ5NVBNTnhnVmx6aThSd3h3azl6NDZLVUNhUkJZaVhWZHZxMHMyVVNrVHNQUUpXTk1FQTFrVllkaUljZXlmN05JbmtuRlkyaUl5SnlzalBOZw?oc=5\" target=\"_blank\">Arla har stoppat Bovaer-försök i Storbritannien</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Land.se</font>",
+      "id": "076b5097f85444dc"
     },
     {
       "title": "Norsk Folkehjelp og samarbeid med Energi.AI gir bærekraft for fremtiden - NTB Kommunikasjon",
@@ -135,7 +146,7 @@
       "source": "Bondebladet",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aaftenposten.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1BqdkpMZXRHY2ZUVWtQZnZCdUg1eUdsV1gtNmRuLW5GOXc2ZnVnTlpTMkU4MG05eEQ1d0hsTURGM1RSazlHSkVyQWc2TG43bFlHSm5tMkcxNTVWdG9JUm9GcnlMdzRidDl4QUxrY0VpN0cteTd4SEJsLWhCa3B6aW9BLUhFaENQVnNtQ2JSS2QtTUxDempOYS1OaW5FRG5S?oc=5\" target=\"_blank\">Tine, Bærekraft | Tines bærekraftstillegg utvides – flere tiltak og flere øre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "77e8c4a7b0257c10"
     },
@@ -218,6 +229,17 @@
       "id": "8c884890f5fdfc26"
     },
     {
+      "title": "Gjenbruk, Bærekraft | Lei av å kjøpe nytt? Her er guiden som viser vei til Tromsøs reparatører - Nordlys",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVXEyUDltZHlFUldJQm9WWDJaSjRfYkR2OXEzWTZqd3hoWWt6TlpNYzBIcmdmNFpUbEEtUVhvWG5Nc3BDM2UxcjU4Qk03NFU1WUhUTHN0dTNNOXA3RE1VUDNOSnRsaDVyc2ItcDd2RjVVTkUyaFljb3dla1JWeU0xdXJmdnhISERyZl9KRElWTXg1YWRqMEk2OUxjd2lsT3pkdDZKWlBzQVhUV0hwdkE?oc=5",
+      "pubDate": "2026-03-05T08:00:00+00:00",
+      "source": "Nordlys",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQVXEyUDltZHlFUldJQm9WWDJaSjRfYkR2OXEzWTZqd3hoWWt6TlpNYzBIcmdmNFpUbEEtUVhvWG5Nc3BDM2UxcjU4Qk03NFU1WUhUTHN0dTNNOXA3RE1VUDNOSnRsaDVyc2ItcDd2RjVVTkUyaFljb3dla1JWeU0xdXJmdnhISERyZl9KRElWTXg1YWRqMEk2OUxjd2lsT3pkdDZKWlBzQVhUV0hwdkE?oc=5\" target=\"_blank\">Gjenbruk, Bærekraft | Lei av å kjøpe nytt? Her er guiden som viser vei til Tromsøs reparatører</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nordlys</font>",
+      "id": "29fb9197aae325e1"
+    },
+    {
       "title": "AVLYST PGA STREIK: Unios tillitsvalgtkurs i klima og bærekraft - unio.no",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGJHNlk1VzNnb3VaMi1vdENudVp6cFNZbDFmZUdMVEhfc3hYcXpWV2hWUTlKNHo1RjFEVE9UeW1nbVFQeHU1amxFN1pJQ1RlX2xpakNyMTZPSjNvSlpZQ0RKLXljc3k3QTRFR05zakk4cXVacjU3Y1RIQXR2M0IxYXI0VVoyWThjY29BMVVCMWxiSVds?oc=5",
       "pubDate": "2026-02-26T08:00:00+00:00",
@@ -290,9 +312,9 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTFuUTBXWmYyWU5HbmlhSGd2THF5MER3aWJfODJhdGFoVmlTcWtzWVR3WExUTTNvbmZNb2h5WGlab3gyZjF1NGdFbHJadHE1ZmFqSjg4cjE1Q29TQ3pYdmQ5eHhRZDh1WnlnMThzU2dWS1NfaTdFWlJCWmtPVjBHOE1OeGFJZC0weTRqN29jRVk2QlhMVTBLY2NXckFGTHdTc04tY0lnTzAxWFNY?oc=5",
       "pubDate": "2026-02-12T08:00:00+00:00",
       "source": "Bondebladet",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTFuUTBXWmYyWU5HbmlhSGd2THF5MER3aWJfODJhdGFoVmlTcWtzWVR3WExUTTNvbmZNb2h5WGlab3gyZjF1NGdFbHJadHE1ZmFqSjg4cjE1Q29TQ3pYdmQ5eHhRZDh1WnlnMThzU2dWS1NfaTdFWlJCWmtPVjBHOE1OeGFJZC0weTRqN29jRVk2QlhMVTBLY2NXckFGTHdTc04tY0lnTzAxWFNY?oc=5\" target=\"_blank\">Landbruk, Metanhemmere | Stortinget skroter krav om Bovaer: – Helt feil å tvinge norske bønder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "88d4542b26bf3d83"
     },
@@ -303,7 +325,7 @@
       "source": "Tidningen Husdjur",
       "language": "sv",
       "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Adn.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
       "id": "95396880def940d3"
     },
@@ -325,7 +347,7 @@
       "source": "Valio Sverige",
       "language": "sv",
       "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Adn.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFSmFONVdlM2hVS2ZPS21taTJZZmN6Tnp2NVVoYzdEd2VTdk4zVXM4aTkzNjFxUVFCaG93ZTBBYnB6aC00ODdheHRUTHFMTndyclROWnByYnpxM1RoenhONHhn?oc=5\" target=\"_blank\">Information om Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Valio Sverige</font>",
       "id": "4868756d3369c180"
     },
@@ -361,28 +383,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTlLNUZGQTA3bktCZnVIRFdPN25IUS1tYnc4bGkzdUZaY3owVmhiVmNzVURldG1vUlFmMHdIcVhOOTh0NEdUaEtYQUJmaW9JRlEzX0VoVHBrM055NlRfbGViaDRVZVpCcHhyak02MDdtdG9vZmx1RG5NeDNHOVBoRWpiZUZEcUNPcEE?oc=5\" target=\"_blank\">Valio keskeyttää Bovaerin käytön</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
       "id": "10995a18b0df3423"
-    },
-    {
-      "title": "Bovaerin kieltämiseksi käynnistetty kansalaisaloite - Maaseudun Tulevaisuus",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5",
-      "pubDate": "2026-02-09T08:00:00+00:00",
-      "source": "Maaseudun Tulevaisuus",
-      "language": "fi",
-      "country": "FI",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5\" target=\"_blank\">Bovaerin kieltämiseksi käynnistetty kansalaisaloite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
-      "id": "7308dc15249ee9c4"
-    },
-    {
-      "title": "Bovaer ska granskas i EU - Lantbruksnytt",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uQzFoYnBfRFUtcjBMdGJPTURXQ3lDUmg4aE5XOFJWOUh5bUdBQ1U0ZE9iS1NCVWJSWmpPeldHdlVrYTZZVVR5WFdWbHdSNGR6UHNKVTl2dmItSTB6MWhV?oc=5",
-      "pubDate": "2026-02-07T08:00:00+00:00",
-      "source": "Lantbruksnytt",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uQzFoYnBfRFUtcjBMdGJPTURXQ3lDUmg4aE5XOFJWOUh5bUdBQ1U0ZE9iS1NCVWJSWmpPeldHdlVrYTZZVVR5WFdWbHdSNGR6UHNKVTl2dmItSTB6MWhV?oc=5\" target=\"_blank\">Bovaer ska granskas i EU</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lantbruksnytt</font>",
-      "id": "51d4c3f15f614d27"
     }
   ]
 }
