@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T06:42:46.941884+00:00",
+  "updated_at": "2026-06-14T06:58:49.835374+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -84,14 +84,14 @@
       "id": "cf9070b72a864a19"
     },
     {
-      "date": "2026-03-11T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2026/534 of 11 March 2026 concerning the authorisation of a preparation of Duddingtonia - EUR-Lex",
+      "date": "2026-03-06T01:03:25+00:00",
+      "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Commission Implementing Regulation (EU) 2026/534 of 11 March 2026 concerning the authorisation of a preparation of Duddingtonia &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJFdDhpM0NFMG9HSDhISE1KaXlfaC14czNhbVRUQk51MmZSMzk1b1BCZWhBbXBPSFZoV2Y0NHJNS2xrbVpKRHYtaEp6NkNSTU1TSUdsX2UzaDlxU3RoZkkwdGZYcGdDSnJRU2k4M19SQnBZUWdJcXE3cHVMVndIaXpRd0lFSzNxQUViZkp3MjFadw?oc=5",
-      "source": "EUR-Lex",
-      "id": "6a05d371db5441dd"
+      "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPLUVfcUw3ZkhMMHgyeGl4VHFHQ2pnUGVkT1M5Ykd1ZkFVQnBiX1pxaG9wWVltcFZmRXJ0WUpIU3Y0X0wzM1ktUXpNeTREMnAxOC16REY5ZzM5aGFubUo3VUxRc21UblByWEtONzNUTnRXcE1hd1dXcGlYYlFvbFBuQU5qME85ZERreGlKTnhSRXh5Z1k0TTc3ZjcxckJvVHlXT21zZ2dwVEN1Q0p5MFQ0QmUzLTVoX1NBZEJ0ZENycGVvd0VzTEZJazhIS25IWE9mazlnWkRJUHd0NVVJaWxTbFFoQ0Q5Y3dBcjZDWUVDNXljRGtoZkVkRXBHNGNjNV9jMjN6YmFQQzIxWmVM?oc=5",
+      "source": "European Parliament",
+      "id": "3c57ec18e284ebb5"
     },
     {
       "date": "2026-03-04T09:27:29+00:00",
@@ -254,16 +254,6 @@
       "id": "113fe276156f5919"
     },
     {
-      "date": "2024-10-02T22:09:58+00:00",
-      "title": "Union list of novel foods - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Union list of novel foods &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXBZa0hrM1dfNDU3ZEhTSnBLUlJZNmFiNTFWWXdkdnB5anpSMGRnMXExUkxVdGF2NGNFTV9oQXJkZW0zVlRacTRFdVdTT1ctTGdTQnNZUnU5ZHdOcWcxS3BOTzZUbGdBMVNhZU5tXzVhUmhOMlV4dUFUb25LY1hyMUJncVNldzRQYU9KTi0yaklDcmM?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "ebf23f8f8c6ac3eb"
-    },
-    {
       "date": "2024-10-01T20:28:50+00:00",
       "title": "Consultation process on novel food status - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -404,16 +394,6 @@
       "id": "1f1430e454f64823"
     },
     {
-      "date": "2023-09-11T07:00:00+00:00",
-      "title": "Novel food status Sunflower seed oil (creamy) - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Novel food status Sunflower seed oil (creamy) &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "252c440680606480"
-    },
-    {
       "date": "2023-09-06T07:00:00+00:00",
       "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -442,16 +422,6 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81N2hQVHRLUGVlYWZ4cElrdklvOEtLYnpoU0tNblRmT1ZYZExDblhMejViTjJycnA2MFNVaEE5RjVPU0p5QXNxOHJ1QjJhYnhSMTlSVlJtS09xY3hlbFNIVFlFMl82Nk1uNjdnV2tMQkhIZmVack4xT0k5cmlCclU?oc=5",
       "source": "EUR-Lex",
       "id": "26ce76eae38cb67b"
-    },
-    {
-      "date": "2023-06-20T10:28:35+00:00",
-      "title": "Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcDdSS05ISWdUdW91dDZjOFd2Q3dERVhJZFRYWXpHWTlBUzdTcGd0bFR0cTl6azlhcm01WGNTLXhvU0kyaE42MGJINDFQa1VfbmxaQ0VMaHA1RmFUb2VWbWpfVFRsWnlNc1hSNFJ5LTNQVHhEakZVMzgtbWsyRk5nbk8yTE56d2NTX3Vz?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "492771e581a11afe"
     }
   ]
 }
