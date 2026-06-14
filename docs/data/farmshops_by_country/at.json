@@ -1206,7 +1206,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.imkerei-reichl.at/wb/pages/home.php",
+    "website": "http://www.imkerei-reichl.at/wb/pages/home.php",
     "lat": 48.027105,
     "lon": 13.0222162,
     "address": null
@@ -2046,7 +2046,7 @@
     "region": null,
     "municipality": "Wien",
     "products": [],
-    "website": "https://www.raritaeten-eck.at/",
+    "website": "http://www.raritaeten-eck.at/",
     "lat": 48.1898076,
     "lon": 16.3519852,
     "address": "Rechte Wienzeile"
@@ -3162,7 +3162,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.mairs-beerengarten.at/",
+    "website": "http://www.mairs-beerengarten.at/",
     "lat": 47.3048138,
     "lon": 11.0704319,
     "address": null
@@ -3210,7 +3210,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.abhof-luftensteiner.at/",
+    "website": "http://www.abhof-luftensteiner.at/",
     "lat": 48.1888646,
     "lon": 14.6870846,
     "address": null
@@ -6192,18 +6192,6 @@
     "address": null
   },
   {
-    "id": 10699760698,
-    "name": "Mosberger Pilzmanufaktur",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2731718,
-    "lon": 14.451819,
-    "address": null
-  },
-  {
     "id": 10704929388,
     "name": "Biohof Maurer",
     "country": "Austria",
@@ -6427,8 +6415,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.4241679,
-    "lon": 15.2208801,
+    "lat": 48.4241847,
+    "lon": 15.220874,
     "address": "Oberer Markt"
   },
   {
@@ -6633,18 +6621,6 @@
     "website": null,
     "lat": 48.7405643,
     "lon": 15.3035748,
-    "address": null
-  },
-  {
-    "id": 11014434311,
-    "name": "Gemüsehütte Stechaubauer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.stechaubauer.at/",
-    "lat": 47.4471057,
-    "lon": 12.8086799,
     "address": null
   },
   {
@@ -7278,7 +7254,7 @@
     "region": null,
     "municipality": "Prambachkirchen",
     "products": [],
-    "website": "https://www.standlers.at/",
+    "website": "http://www.standlers.at/",
     "lat": 48.3075732,
     "lon": 13.9255608,
     "address": null
@@ -8515,8 +8491,8 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://wald-gut.at/",
-    "lat": 48.1487802,
-    "lon": 16.2683377,
+    "lat": 48.1487789,
+    "lon": 16.2683498,
     "address": "Geßlgasse"
   },
   {
@@ -8706,7 +8682,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.marille-ab-hof.at/kuerbisse/",
+    "website": "http://www.marille-ab-hof.at/kuerbisse/",
     "lat": 48.1751874,
     "lon": 14.3439119,
     "address": null
@@ -9636,18 +9612,6 @@
     "address": null
   },
   {
-    "id": 13534806501,
-    "name": "S' Hofladl",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1821922,
-    "lon": 15.9780387,
-    "address": null
-  },
-  {
     "id": 13592550216,
     "name": "Santlhof",
     "country": "Austria",
@@ -9702,7 +9666,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://steirischerreis.at/",
+    "website": "http://steirischerreis.at",
     "lat": 46.7432017,
     "lon": 15.9818429,
     "address": null
@@ -9730,18 +9694,6 @@
     "lat": 47.3222636,
     "lon": 11.5875229,
     "address": "Gnadenwald"
-  },
-  {
-    "id": 13699216753,
-    "name": "Freche Biene",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Langenlois",
-    "products": [],
-    "website": null,
-    "lat": 48.4728423,
-    "lon": 15.6855213,
-    "address": "Fliederweg"
   },
   {
     "id": 13705270086,
@@ -9781,219 +9733,15 @@
   },
   {
     "id": 13731641804,
-    "name": "SB - Bauernladen Kühnsdorf",
+    "name": "Bauernladen - Bauernhof Jäger",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.6279457,
-    "lon": 14.6343365,
+    "website": "https://www.bauernhof-jaeger.com/",
+    "lat": 46.62794,
+    "lon": 14.6343338,
     "address": null
-  },
-  {
-    "id": 13750149702,
-    "name": "Bauernladen Schalhas",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.koglmuehle-schalhas.at/",
-    "lat": 48.2956062,
-    "lon": 15.5894324,
-    "address": "Nibelungenstraße"
-  },
-  {
-    "id": 13758006809,
-    "name": "Steinerwirt",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.7394027,
-    "lon": 12.9261127,
-    "address": null
-  },
-  {
-    "id": 13758655092,
-    "name": "Bauernladen Edhof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1051808,
-    "lon": 14.550437,
-    "address": null
-  },
-  {
-    "id": 13764352066,
-    "name": "s'Ronklädele",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Bezau",
-    "products": [],
-    "website": null,
-    "lat": 47.3766881,
-    "lon": 9.8955162,
-    "address": null
-  },
-  {
-    "id": 13786305275,
-    "name": "Wilhelmsburger Hoflieferanten",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Wilhelmsburg",
-    "products": [],
-    "website": "https://hoflieferanten.at/",
-    "lat": 48.1158312,
-    "lon": 15.5881415,
-    "address": null
-  },
-  {
-    "id": 13791117613,
-    "name": "Gemüse Späti",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2043105,
-    "lon": 16.4574336,
-    "address": null
-  },
-  {
-    "id": 13800970542,
-    "name": "Bauernhof Jäger - Ab Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5724726,
-    "lon": 14.5557935,
-    "address": null
-  },
-  {
-    "id": 13810833501,
-    "name": "Erdbeeren, Spargel",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2107881,
-    "lon": 16.2544697,
-    "address": null
-  },
-  {
-    "id": 13831111118,
-    "name": "Margit's Kisteneck Hofladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0792756,
-    "lon": 15.9181529,
-    "address": null
-  },
-  {
-    "id": 13875466702,
-    "name": "Saftverkauf der Gartenbauschule",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.4728183,
-    "lon": 15.697616,
-    "address": null
-  },
-  {
-    "id": 13887147703,
-    "name": "Hofladen Weißenberger",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.8880783,
-    "lon": 15.9598128,
-    "address": null
-  },
-  {
-    "id": 13887176506,
-    "name": "Do schmeckts Automat",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.doschmeckts.at/",
-    "lat": 47.8975719,
-    "lon": 15.9601843,
-    "address": null
-  },
-  {
-    "id": 13887892201,
-    "name": "Digles",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2489702,
-    "lon": 16.3657285,
-    "address": null
-  },
-  {
-    "id": 13897258796,
-    "name": "Vorratskammer",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Nenzing",
-    "products": [],
-    "website": "https://vorratskammer-beschling.at/",
-    "lat": 47.1907698,
-    "lon": 9.68439,
-    "address": "Badaila"
-  },
-  {
-    "id": 13906915666,
-    "name": "Mohnmühle",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.4525598,
-    "lon": 15.2200008,
-    "address": null
-  },
-  {
-    "id": 13912084196,
-    "name": "Schärfinger´s Kartoffeln",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Yspertal",
-    "products": [],
-    "website": null,
-    "lat": 48.3132241,
-    "lon": 15.0651316,
-    "address": null
-  },
-  {
-    "id": 13914243702,
-    "name": "Lindenhof, Familie Eisenkölbl",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.eisenkoelbl.at/-/index.htm",
-    "lat": 47.650296,
-    "lon": 16.0943995,
-    "address": "Maierhöfenstraße"
   },
   {
     "id": 16588983,
@@ -10354,18 +10102,6 @@
     "lat": 47.257571,
     "lon": 11.5316074,
     "address": "Schmalzgasse"
-  },
-  {
-    "id": 114185523,
-    "name": "Mohnbauernladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Sallingberg",
-    "products": [],
-    "website": null,
-    "lat": 48.4524322,
-    "lon": 15.2179034,
-    "address": null
   },
   {
     "id": 115449611,
@@ -11184,18 +10920,6 @@
     "address": null
   },
   {
-    "id": 283739301,
-    "name": "Kreithwald",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4808022,
-    "lon": 11.9658879,
-    "address": null
-  },
-  {
     "id": 285102389,
     "name": "Hofladen Kröpfl",
     "country": "Austria",
@@ -11514,7 +11238,7 @@
     "region": null,
     "municipality": "Oberschützen",
     "products": [],
-    "website": "https://www.biohof-unger.at/",
+    "website": "http://www.biohof-unger.at/",
     "lat": 47.3564947,
     "lon": 16.2081015,
     "address": "Aschauer Straße"
@@ -11995,8 +11719,8 @@
     "municipality": "Innsbruck",
     "products": [],
     "website": "https://www.facebook.com/pg/arzler.bauernladele",
-    "lat": 47.2837313,
-    "lon": 11.4330797,
+    "lat": 47.2837229,
+    "lon": 11.4330755,
     "address": "Arzler Straße"
   },
   {
@@ -12018,22 +11742,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://biosain.at/",
+    "website": "http://biosain.at/",
     "lat": 48.5791773,
     "lon": 15.6458317,
     "address": null
-  },
-  {
-    "id": 699498385,
-    "name": "Da Erdwurm - Regenwurmfarm",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Spannberg",
-    "products": [],
-    "website": null,
-    "lat": 48.4623412,
-    "lon": 16.7441904,
-    "address": "Neugasse"
   },
   {
     "id": 712450479,
@@ -12535,9 +12247,9 @@
     "municipality": "Hainfeld",
     "products": [],
     "website": "https://kirchtalfisch.at/",
-    "lat": 48.0313755,
-    "lon": 15.7638611,
-    "address": null
+    "lat": 48.0313443,
+    "lon": 15.7638241,
+    "address": "Kirchtal"
   },
   {
     "id": 1121207322,
@@ -13041,42 +12753,6 @@
     "website": "https://wien.obststadt.at/laaerberg.html",
     "lat": 48.1632549,
     "lon": 16.4015542,
-    "address": null
-  },
-  {
-    "id": 1503481253,
-    "name": "Eisnerforst",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0300323,
-    "lon": 14.2190271,
-    "address": null
-  },
-  {
-    "id": 1507511323,
-    "name": "Pepi's Bunte Kartoffel",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.buntekartoffel.com/Startseite/",
-    "lat": 48.4324558,
-    "lon": 16.0640101,
-    "address": null
-  },
-  {
-    "id": 1509746903,
-    "name": "SB - Bauernladen Pogerschitzen",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
-    "lat": 46.5651407,
-    "lon": 14.5543197,
     "address": null
   },
   {
@@ -14196,6 +13872,18 @@
     "address": null
   },
   {
+    "id": 10699760698,
+    "name": "Mosberger Pilzmanufaktur",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2731718,
+    "lon": 14.451819,
+    "address": null
+  },
+  {
     "id": 10878998600,
     "name": "Greisslerei Waldviertel",
     "country": "Austria",
@@ -14203,9 +13891,21 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.4241847,
-    "lon": 15.220874,
+    "lat": 48.4241679,
+    "lon": 15.2208801,
     "address": "Oberer Markt"
+  },
+  {
+    "id": 11014434311,
+    "name": "Gemüsehütte Stechaubauer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.stechaubauer.at/",
+    "lat": 47.4471057,
+    "lon": 12.8086799,
+    "address": null
   },
   {
     "id": 12475401942,
@@ -14215,20 +13915,272 @@
     "municipality": "Wien",
     "products": [],
     "website": "https://wald-gut.at/",
-    "lat": 48.1487789,
-    "lon": 16.2683498,
+    "lat": 48.1487802,
+    "lon": 16.2683377,
     "address": "Geßlgasse"
   },
   {
-    "id": 13731641804,
-    "name": "Bauernladen - Bauernhof Jäger",
+    "id": 13534806501,
+    "name": "S' Hofladl",
     "country": "Austria",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.bauernhof-jaeger.com/",
-    "lat": 46.62794,
-    "lon": 14.6343338,
+    "website": null,
+    "lat": 48.1821922,
+    "lon": 15.9780387,
+    "address": null
+  },
+  {
+    "id": 13699216753,
+    "name": "Freche Biene",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Langenlois",
+    "products": [],
+    "website": null,
+    "lat": 48.4728423,
+    "lon": 15.6855213,
+    "address": "Fliederweg"
+  },
+  {
+    "id": 13731641804,
+    "name": "SB - Bauernladen Kühnsdorf",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.6279457,
+    "lon": 14.6343365,
+    "address": null
+  },
+  {
+    "id": 13750149702,
+    "name": "Bauernladen Schalhas",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.koglmuehle-schalhas.at/",
+    "lat": 48.2956062,
+    "lon": 15.5894324,
+    "address": "Nibelungenstraße"
+  },
+  {
+    "id": 13758006809,
+    "name": "Steinerwirt",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.7394027,
+    "lon": 12.9261127,
+    "address": null
+  },
+  {
+    "id": 13758655092,
+    "name": "Bauernladen Edhof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.1051808,
+    "lon": 14.550437,
+    "address": null
+  },
+  {
+    "id": 13764352066,
+    "name": "s'Ronklädele",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Bezau",
+    "products": [],
+    "website": null,
+    "lat": 47.3766881,
+    "lon": 9.8955162,
+    "address": null
+  },
+  {
+    "id": 13786305275,
+    "name": "Wilhelmsburger Hoflieferanten",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Wilhelmsburg",
+    "products": [],
+    "website": "https://hoflieferanten.at/",
+    "lat": 48.1158312,
+    "lon": 15.5881415,
+    "address": null
+  },
+  {
+    "id": 13791117613,
+    "name": "Gemüse Späti",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2043105,
+    "lon": 16.4574336,
+    "address": null
+  },
+  {
+    "id": 13800970542,
+    "name": "Bauernhof Jäger - Ab Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5724726,
+    "lon": 14.5557935,
+    "address": null
+  },
+  {
+    "id": 13810833501,
+    "name": "Erdbeeren, Spargel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2107881,
+    "lon": 16.2544697,
+    "address": null
+  },
+  {
+    "id": 13831111118,
+    "name": "Margit's Kisteneck Hofladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0792756,
+    "lon": 15.9181529,
+    "address": null
+  },
+  {
+    "id": 13875466702,
+    "name": "Saftverkauf der Gartenbauschule",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.4728183,
+    "lon": 15.697616,
+    "address": null
+  },
+  {
+    "id": 13887147703,
+    "name": "Hofladen Weißenberger",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.8880783,
+    "lon": 15.9598128,
+    "address": null
+  },
+  {
+    "id": 13887176506,
+    "name": "Do schmeckts Automat",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.doschmeckts.at/",
+    "lat": 47.8975719,
+    "lon": 15.9601843,
+    "address": null
+  },
+  {
+    "id": 13887892201,
+    "name": "Digles",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2489702,
+    "lon": 16.3657285,
+    "address": null
+  },
+  {
+    "id": 13897258796,
+    "name": "Vorratskammer",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Nenzing",
+    "products": [],
+    "website": "https://vorratskammer-beschling.at/",
+    "lat": 47.1907698,
+    "lon": 9.68439,
+    "address": "Badaila"
+  },
+  {
+    "id": 13906915666,
+    "name": "Mohnmühle",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.4525598,
+    "lon": 15.2200008,
+    "address": null
+  },
+  {
+    "id": 13912084196,
+    "name": "Schärfinger´s Kartoffeln",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Yspertal",
+    "products": [],
+    "website": null,
+    "lat": 48.3132241,
+    "lon": 15.0651316,
+    "address": null
+  },
+  {
+    "id": 13914243702,
+    "name": "Lindenhof, Familie Eisenkölbl",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.eisenkoelbl.at/-/index.htm",
+    "lat": 47.650296,
+    "lon": 16.0943995,
+    "address": "Maierhöfenstraße"
+  },
+  {
+    "id": 114185523,
+    "name": "Mohnbauernladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Sallingberg",
+    "products": [],
+    "website": null,
+    "lat": 48.4524322,
+    "lon": 15.2179034,
+    "address": null
+  },
+  {
+    "id": 283739301,
+    "name": "Kreithwald",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4808022,
+    "lon": 11.9658879,
     "address": null
   },
   {
@@ -14239,9 +14191,21 @@
     "municipality": "Innsbruck",
     "products": [],
     "website": "https://www.facebook.com/pg/arzler.bauernladele",
-    "lat": 47.2837229,
-    "lon": 11.4330755,
+    "lat": 47.2837313,
+    "lon": 11.4330797,
     "address": "Arzler Straße"
+  },
+  {
+    "id": 699498385,
+    "name": "Da Erdwurm - Regenwurmfarm",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Spannberg",
+    "products": [],
+    "website": null,
+    "lat": 48.4623412,
+    "lon": 16.7441904,
+    "address": "Neugasse"
   },
   {
     "id": 1121207001,
@@ -14251,9 +14215,45 @@
     "municipality": "Hainfeld",
     "products": [],
     "website": "https://kirchtalfisch.at/",
-    "lat": 48.0313443,
-    "lon": 15.7638241,
-    "address": "Kirchtal"
+    "lat": 48.0313755,
+    "lon": 15.7638611,
+    "address": null
+  },
+  {
+    "id": 1503481253,
+    "name": "Eisnerforst",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0300323,
+    "lon": 14.2190271,
+    "address": null
+  },
+  {
+    "id": 1507511323,
+    "name": "Pepi's Bunte Kartoffel",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.buntekartoffel.com/Startseite/",
+    "lat": 48.4324558,
+    "lon": 16.0640101,
+    "address": null
+  },
+  {
+    "id": 1509746903,
+    "name": "SB - Bauernladen Pogerschitzen",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bauernhof-jaeger.com/sb-bauernladen",
+    "lat": 46.5651407,
+    "lon": 14.5543197,
+    "address": null
   },
   {
     "id": 13731641804,
