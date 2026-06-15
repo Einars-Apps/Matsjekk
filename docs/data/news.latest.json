@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:54:50.146358+00:00",
+  "generatedAt": "2026-06-15T06:06:06.381210+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -13,8 +13,8 @@
       "pubDate": "2026-06-12T07:00:00+00:00",
       "source": "boerse.de",
       "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFV3MkVVdGlONEt2aGVqRFpNN2tHVXRnVVQtLXBkYmJzaVNZTWRHNWs3SWswYUVkemVXT3d6anoyeVRKWnpvN2Q3SEMzbjRnWDlac2ZxQjN6NXBnYUVfNUplWG5GTURrdFlFSUdMbnMxeUVmNncwOXQtMndnRGs1ZEh0d0RvU3ROdGc?oc=5\" target=\"_blank\">AGIF - Allianz Global Sustainability - RT - EUR Fonds | Kurs | Realtime | Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">boerse.de</font>",
       "id": "61763de05feac80e"
     },
@@ -87,7 +87,7 @@
     {
       "title": "Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition - EU-Startups",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5",
-      "pubDate": "2026-06-05T11:17:14+00:00",
+      "pubDate": "2026-06-05T07:00:00+00:00",
       "source": "EU-Startups",
       "language": "en",
       "country": "GB",
@@ -105,17 +105,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDRYNUNXV25YN3dHMnJlZmpmQWl3Ym5FQnM5MFNja2JkcmlkWXlrQ3YwbGtFWmh1aEZxc1hoREczUFNCd092Y1BrVV9nM1pVREpiejlLTmNCeGVSa24zMkVzV1RnbEZDajJHOWxmbzdfWDdGV2JQVkNCanNXQXBRUy1iSWJfeGVycENGdy1ESzg4SVF1QWZ6M1lDWEFzejk3?oc=5\" target=\"_blank\">Gäsene avslutar Bovaer-projekt trots sänkt metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Land.se</font>",
       "id": "91a312f836f2a9e3"
-    },
-    {
-      "title": "Raiffeisen Sustainability Days machen nachhaltige Lösungen sichtbar - OTS.at",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbF9KUy1PbzNrNjNRVjM5aWhLdkN5b09nU281Sk4yMlpadUpld01HWnQtVXZDd1ZMZXdIMDczSk1FRUJtYUdWQXVmWEIyX1ZkUGlLcnVETE15UGlsSExmLXF2QkxVenpDZVBHZWdjRlMzV3diWDVGQ0FSNXdLdFByOG1KSkVJZzFCdHg3WUJJbzB5SUVxZDJCUUZYVVZBWnEycC1jUDQ1am1CeE5Ub29DS1ZkSkhZcmdCWndyWHByeE1rbms?oc=5",
-      "pubDate": "2026-06-03T07:00:44+00:00",
-      "source": "OTS.at",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbF9KUy1PbzNrNjNRVjM5aWhLdkN5b09nU281Sk4yMlpadUpld01HWnQtVXZDd1ZMZXdIMDczSk1FRUJtYUdWQXVmWEIyX1ZkUGlLcnVETE15UGlsSExmLXF2QkxVenpDZVBHZWdjRlMzV3diWDVGQ0FSNXdLdFByOG1KSkVJZzFCdHg3WUJJbzB5SUVxZDJCUUZYVVZBWnEycC1jUDQ1am1CeE5Ub29DS1ZkSkhZcmdCWndyWHByeE1rbms?oc=5\" target=\"_blank\">Raiffeisen Sustainability Days machen nachhaltige Lösungen sichtbar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OTS.at</font>",
-      "id": "fdfa6e4b478db2e3"
     },
     {
       "title": "Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits - Genetic Literacy Project",
@@ -149,17 +138,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2NQeDdJQS1pSDF4dHZETmZRMTMxbUpQMFpnTFoyZGc1RHpzMkZleDNwUG5YaVJybk90a1ZxMExoQUFUc25WTV9DOGwwMUNYejE3ZU5XOXg5SGEwSjJ5V3ZjdlEtQlVaX3VFMTAwcXZzQlJYaDZjUXE3aDNoeng4ME1pMFFDMWRwVTlTbEFMbVlxNTBGRU5F?oc=5\" target=\"_blank\">Bovaer i fodret: Gäsene-bonde såg inga skillnader</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Land.se</font>",
       "id": "2462497f3a817cd0"
-    },
-    {
-      "title": "Debatt, Næringsliv | Fra symbolpolitikk til realpolitikk: Vi må sette bærekraft og trygghet foran prinsipper - Sarpsborg Arbeiderblad",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhKTVhzb2J5M3V3NzFGdGZlcjZPb3JiLXIyaDNseFNTRW9kci0xTHpzSXJ3dFRwcVJBRDExbEtvTDhaUXdfM3U2a241RmZCN0pSbXZmYjlla2FYUThpM0tfOF9WZDJXQ19GLXl1WTdYT0ZiUXJZVzB2aElWbl9kUUEtNGlPTlQwbEVnMVdjNFFiclI1enRMYkdkWUg2MjBEdzg5NExWMEpDYmR3cGFxMmNDUGFlZGl4aHVN?oc=5",
-      "pubDate": "2026-06-02T07:00:00+00:00",
-      "source": "Sarpsborg Arbeiderblad",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhKTVhzb2J5M3V3NzFGdGZlcjZPb3JiLXIyaDNseFNTRW9kci0xTHpzSXJ3dFRwcVJBRDExbEtvTDhaUXdfM3U2a241RmZCN0pSbXZmYjlla2FYUThpM0tfOF9WZDJXQ19GLXl1WTdYT0ZiUXJZVzB2aElWbl9kUUEtNGlPTlQwbEVnMVdjNFFiclI1enRMYkdkWUg2MjBEdzg5NExWMEpDYmR3cGFxMmNDUGFlZGl4aHVN?oc=5\" target=\"_blank\">Debatt, Næringsliv | Fra symbolpolitikk til realpolitikk: Vi må sette bærekraft og trygghet foran prinsipper</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sarpsborg Arbeiderblad</font>",
-      "id": "850f5b87c38626e3"
     },
     {
       "title": "Arctic Bath uppmärksammas av Falstaff Hotel Guide Nordics 2026 med utmärkelsen Sustainability & Innovation - Mynewsdesk",
@@ -228,6 +206,28 @@
       "id": "076b5097f85444dc"
     },
     {
+      "title": "International Conference on Environment and Sustainability - BOKU",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FVm1zWU1UYkFxMDEzeHBUUjNCVlF3ZllWc3lnRnNERzdzSGlmTGpaNkI0UDhqMmJ6a29kd2hnSGNaQTdGeUFQdFhZTXh3N3JTYlBLdnRR?oc=5",
+      "pubDate": "2026-05-21T15:50:16+00:00",
+      "source": "BOKU",
+      "language": "de",
+      "country": "AT",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FVm1zWU1UYkFxMDEzeHBUUjNCVlF3ZllWc3lnRnNERzdzSGlmTGpaNkI0UDhqMmJ6a29kd2hnSGNaQTdGeUFQdFhZTXh3N3JTYlBLdnRR?oc=5\" target=\"_blank\">International Conference on Environment and Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BOKU</font>",
+      "id": "bdb643f728bdad2e"
+    },
+    {
+      "title": "The Beverage Industry Environmental Roundtable Marks 20 Years of Advancing Environmental Sustainability Through Industry Collaboration - FinanzNachrichten.de",
+      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNQXRkOGJId2Q0a0VVYjNFdzYybUpGblNoT1NPRFRvcVdJSFlfZXZZSFdPZHRUSFhGcDRoOVRhY0ZTdHJTclJ0dEtGWnBKRUc4VzFQQjFYQ2lOa0hNWVdzSUNMcE5VY2JibEFLQ0JGSUJ5QXRYemg0d1JZY1hPWUx3VkU1SE4tOXNOQ0hNMVlvMTZDNFdEN3JSMXp1anZxWExtTHFnWkF3cmRHSUpSWlZUTmJvX2FhcXJ6bWlUYzh1WmZhWGVqdHc0TnFuZ1E2UmVPUTA5dUpkRU9yb0Q1VEIxVFhpOEJtYXF3Mm1Jb2M4S3oyLUJjckw5Qm9NVmxJOVBjTzV5UThMdTRLX1cwTnQ1WjlYeFdRdXg5SkQ0WV94dkE1VjBmNmNGTDN0dGk?oc=5",
+      "pubDate": "2026-05-21T07:00:00+00:00",
+      "source": "FinanzNachrichten.de",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAJBVV95cUxNQXRkOGJId2Q0a0VVYjNFdzYybUpGblNoT1NPRFRvcVdJSFlfZXZZSFdPZHRUSFhGcDRoOVRhY0ZTdHJTclJ0dEtGWnBKRUc4VzFQQjFYQ2lOa0hNWVdzSUNMcE5VY2JibEFLQ0JGSUJ5QXRYemg0d1JZY1hPWUx3VkU1SE4tOXNOQ0hNMVlvMTZDNFdEN3JSMXp1anZxWExtTHFnWkF3cmRHSUpSWlZUTmJvX2FhcXJ6bWlUYzh1WmZhWGVqdHc0TnFuZ1E2UmVPUTA5dUpkRU9yb0Q1VEIxVFhpOEJtYXF3Mm1Jb2M4S3oyLUJjckw5Qm9NVmxJOVBjTzV5UThMdTRLX1cwTnQ1WjlYeFdRdXg5SkQ0WV94dkE1VjBmNmNGTDN0dGk?oc=5\" target=\"_blank\">The Beverage Industry Environmental Roundtable Marks 20 Years of Advancing Environmental Sustainability Through Industry Collaboration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanzNachrichten.de</font>",
+      "id": "3efbbcd4251e1cd8"
+    },
+    {
       "title": "Großharras - Feichtingers Song über Zukunft mit Schmäh und Insektenmehl - NÖN.at - Niederösterreichische Nachrichten",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjg3cFVPS3JneDdvRG1ULV9XeU96RGo1UXdBZk9aOWY3WWNCQV9sRVdsMENkV090VVkyWVc3cDF4aXV4dzJIMXoyX3lLNWpmS2JsVEJqSWZwbkpDSDFtNUNzTEo1aE01VGtxSGZzYWJ5Y3dOZ20yTmlXbGs1RU5tbFJXZ09id1U3TWxQY1JzeXhDLXlEQlJVRkVMUkhvNElJcWVhY1h4SkxJSm02b2JaNWtOWC1UbFhuT3Y4NQ?oc=5",
       "pubDate": "2026-05-21T07:00:00+00:00",
@@ -237,17 +237,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNZjg3cFVPS3JneDdvRG1ULV9XeU96RGo1UXdBZk9aOWY3WWNCQV9sRVdsMENkV090VVkyWVc3cDF4aXV4dzJIMXoyX3lLNWpmS2JsVEJqSWZwbkpDSDFtNUNzTEo1aE01VGtxSGZzYWJ5Y3dOZ20yTmlXbGs1RU5tbFJXZ09id1U3TWxQY1JzeXhDLXlEQlJVRkVMUkhvNElJcWVhY1h4SkxJSm02b2JaNWtOWC1UbFhuT3Y4NQ?oc=5\" target=\"_blank\">Großharras - Feichtingers Song über Zukunft mit Schmäh und Insektenmehl</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NÖN.at - Niederösterreichische Nachrichten</font>",
       "id": "04f9e90c8e8d687c"
-    },
-    {
-      "title": "The Beverage Industry Environmental Roundtable Marks 20 Years of Advancing Environmental Sustainability Through Industry Collaboration - FinanzNachrichten.de",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNQXRkOGJId2Q0a0VVYjNFdzYybUpGblNoT1NPRFRvcVdJSFlfZXZZSFdPZHRUSFhGcDRoOVRhY0ZTdHJTclJ0dEtGWnBKRUc4VzFQQjFYQ2lOa0hNWVdzSUNMcE5VY2JibEFLQ0JGSUJ5QXRYemg0d1JZY1hPWUx3VkU1SE4tOXNOQ0hNMVlvMTZDNFdEN3JSMXp1anZxWExtTHFnWkF3cmRHSUpSWlZUTmJvX2FhcXJ6bWlUYzh1WmZhWGVqdHc0TnFuZ1E2UmVPUTA5dUpkRU9yb0Q1VEIxVFhpOEJtYXF3Mm1Jb2M4S3oyLUJjckw5Qm9NVmxJOVBjTzV5UThMdTRLX1cwTnQ1WjlYeFdRdXg5SkQ0WV94dkE1VjBmNmNGTDN0dGk?oc=5",
-      "pubDate": "2026-05-21T07:00:00+00:00",
-      "source": "FinanzNachrichten.de",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAJBVV95cUxNQXRkOGJId2Q0a0VVYjNFdzYybUpGblNoT1NPRFRvcVdJSFlfZXZZSFdPZHRUSFhGcDRoOVRhY0ZTdHJTclJ0dEtGWnBKRUc4VzFQQjFYQ2lOa0hNWVdzSUNMcE5VY2JibEFLQ0JGSUJ5QXRYemg0d1JZY1hPWUx3VkU1SE4tOXNOQ0hNMVlvMTZDNFdEN3JSMXp1anZxWExtTHFnWkF3cmRHSUpSWlZUTmJvX2FhcXJ6bWlUYzh1WmZhWGVqdHc0TnFuZ1E2UmVPUTA5dUpkRU9yb0Q1VEIxVFhpOEJtYXF3Mm1Jb2M4S3oyLUJjckw5Qm9NVmxJOVBjTzV5UThMdTRLX1cwTnQ1WjlYeFdRdXg5SkQ0WV94dkE1VjBmNmNGTDN0dGk?oc=5\" target=\"_blank\">The Beverage Industry Environmental Roundtable Marks 20 Years of Advancing Environmental Sustainability Through Industry Collaboration</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanzNachrichten.de</font>",
-      "id": "3efbbcd4251e1cd8"
     },
     {
       "title": "La farina di insetti, ecco i nuovi alimenti - Il Punto Quotidiano",
@@ -266,8 +255,8 @@
       "pubDate": "2026-05-14T07:00:00+00:00",
       "source": "top agrar",
       "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPZm1hQlBUSllWakdtTGVxSVdhTU1yYmJZTVZyaTZOTTlVOFlTc0VBN3hqOVhiWnFLa21jSlJlRG9sbzg5MVNvbnVwNlFDMzQxVXdHQnVncUlNa3YyT2ZsM281ek5rMXlrOWk2RWpuVHYwY044Z24xQXh1QS12UUtaS24wRENBMDZwRVFTSExLUzlNNW1zV3NqczVUZkFRdmR2b25FVlBxVU5UUTV4ZTAxck45Y2Q?oc=5\" target=\"_blank\">Bovaer: Analyse zeigt keinen Zusammenhang mit Gesundheitsproblemen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">top agrar</font>",
       "id": "81e18f48cfbe23e9"
     },
@@ -336,6 +325,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOdUdyV0VIdk9mWkpRZlNNUk5aRFctOHhfM0hzYUsyX2NfRjdjYllFcExmbndnenpVa1dTUzJqMEdKTFFRSi1zYXNCdU00RWViN3RKOHlEZGdKZ24wZFIteGlMM3pCWTJjM0k2T2ZEeEJ6aHZ2X1R1LXVlOFVFOUhUY05zanR0OXZWY0llS3d4TG5neTZkUG04MWJHcmViZzluTWhCSlFaUVZKVXZOQTc1eW43dThWeEFsMUNrdXdFRjQ2bkN5aDAteWxfVmZCRDg?oc=5\" target=\"_blank\">Regjeringen samlet reiselivsnæringen til felles innsats for bærekraft og ansvarlighet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Regjeringen.no</font>",
       "id": "bc9e1203bed18740"
+    },
+    {
+      "title": "Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture” - Insider Media Ltd",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5",
+      "pubDate": "2026-05-02T07:00:00+00:00",
+      "source": "Insider Media Ltd",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5\" target=\"_blank\">Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insider Media Ltd</font>",
+      "id": "88b3002429e3e5c5"
     },
     {
       "title": "Tine raser på omdømmemåling etter metanhemmer-striden – ubehagelig overraskelse",

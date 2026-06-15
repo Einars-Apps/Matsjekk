@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:54:50.147513+00:00",
+  "generatedAt": "2026-06-15T06:06:06.382341+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -28,17 +28,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2NQeDdJQS1pSDF4dHZETmZRMTMxbUpQMFpnTFoyZGc1RHpzMkZleDNwUG5YaVJybk90a1ZxMExoQUFUc25WTV9DOGwwMUNYejE3ZU5XOXg5SGEwSjJ5V3ZjdlEtQlVaX3VFMTAwcXZzQlJYaDZjUXE3aDNoeng4ME1pMFFDMWRwVTlTbEFMbVlxNTBGRU5F?oc=5\" target=\"_blank\">Bovaer i fodret: Gäsene-bonde såg inga skillnader</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Land.se</font>",
       "id": "2462497f3a817cd0"
-    },
-    {
-      "title": "Debatt, Næringsliv | Fra symbolpolitikk til realpolitikk: Vi må sette bærekraft og trygghet foran prinsipper - Sarpsborg Arbeiderblad",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhKTVhzb2J5M3V3NzFGdGZlcjZPb3JiLXIyaDNseFNTRW9kci0xTHpzSXJ3dFRwcVJBRDExbEtvTDhaUXdfM3U2a241RmZCN0pSbXZmYjlla2FYUThpM0tfOF9WZDJXQ19GLXl1WTdYT0ZiUXJZVzB2aElWbl9kUUEtNGlPTlQwbEVnMVdjNFFiclI1enRMYkdkWUg2MjBEdzg5NExWMEpDYmR3cGFxMmNDUGFlZGl4aHVN?oc=5",
-      "pubDate": "2026-06-02T07:00:00+00:00",
-      "source": "Sarpsborg Arbeiderblad",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhKTVhzb2J5M3V3NzFGdGZlcjZPb3JiLXIyaDNseFNTRW9kci0xTHpzSXJ3dFRwcVJBRDExbEtvTDhaUXdfM3U2a241RmZCN0pSbXZmYjlla2FYUThpM0tfOF9WZDJXQ19GLXl1WTdYT0ZiUXJZVzB2aElWbl9kUUEtNGlPTlQwbEVnMVdjNFFiclI1enRMYkdkWUg2MjBEdzg5NExWMEpDYmR3cGFxMmNDUGFlZGl4aHVN?oc=5\" target=\"_blank\">Debatt, Næringsliv | Fra symbolpolitikk til realpolitikk: Vi må sette bærekraft og trygghet foran prinsipper</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sarpsborg Arbeiderblad</font>",
-      "id": "850f5b87c38626e3"
     },
     {
       "title": "Arctic Bath uppmärksammas av Falstaff Hotel Guide Nordics 2026 med utmärkelsen Sustainability & Innovation - Mynewsdesk",
@@ -144,11 +133,22 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1BqdkpMZXRHY2ZUVWtQZnZCdUg1eUdsV1gtNmRuLW5GOXc2ZnVnTlpTMkU4MG05eEQ1d0hsTURGM1RSazlHSkVyQWc2TG43bFlHSm5tMkcxNTVWdG9JUm9GcnlMdzRidDl4QUxrY0VpN0cteTd4SEJsLWhCa3B6aW9BLUhFaENQVnNtQ2JSS2QtTUxDempOYS1OaW5FRG5S?oc=5",
       "pubDate": "2026-03-28T07:00:00+00:00",
       "source": "Bondebladet",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1BqdkpMZXRHY2ZUVWtQZnZCdUg1eUdsV1gtNmRuLW5GOXc2ZnVnTlpTMkU4MG05eEQ1d0hsTURGM1RSazlHSkVyQWc2TG43bFlHSm5tMkcxNTVWdG9JUm9GcnlMdzRidDl4QUxrY0VpN0cteTd4SEJsLWhCa3B6aW9BLUhFaENQVnNtQ2JSS2QtTUxDempOYS1OaW5FRG5S?oc=5\" target=\"_blank\">Tine, Bærekraft | Tines bærekraftstillegg utvides – flere tiltak og flere øre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "77e8c4a7b0257c10"
+    },
+    {
+      "title": "Flekkefjord, Bærekraft | Sykurs har fokus på bærekraft og slow fashion: Fra paraply til handlenett - Avisen Agder",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQWpwMERHSkh3TWRWYnJJQ2UxT010NVhCU00wQ05TdnVlY3JxRXNEN3Z3NTA2Q0JYelJIOVJVNlJHT3RLalNTX1R2MHNHSEY0UFoxSnp4WGh1OU9IRElOUTZCLXZ3aGMxX1BjWDNoeXhSWF9QdjZ3WE9QbG92anVTLUZfZlMwSXA2TnEzUGRtTkw3cC15Q0VwRDNvTHZrRTVfRjFaVWZQODBFMzdILTZzU3RydUQ?oc=5",
+      "pubDate": "2026-03-28T07:00:00+00:00",
+      "source": "Avisen Agder",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQQWpwMERHSkh3TWRWYnJJQ2UxT010NVhCU00wQ05TdnVlY3JxRXNEN3Z3NTA2Q0JYelJIOVJVNlJHT3RLalNTX1R2MHNHSEY0UFoxSnp4WGh1OU9IRElOUTZCLXZ3aGMxX1BjWDNoeXhSWF9QdjZ3WE9QbG92anVTLUZfZlMwSXA2TnEzUGRtTkw3cC15Q0VwRDNvTHZrRTVfRjFaVWZQODBFMzdILTZzU3RydUQ?oc=5\" target=\"_blank\">Flekkefjord, Bærekraft | Sykurs har fokus på bærekraft og slow fashion: Fra paraply til handlenett</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Avisen Agder</font>",
+      "id": "176e31f6a3514734"
     },
     {
       "title": "Varma published its Sustainability Statement - science-based SBT targets at target level - STT Info",
@@ -227,6 +227,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQVXEyUDltZHlFUldJQm9WWDJaSjRfYkR2OXEzWTZqd3hoWWt6TlpNYzBIcmdmNFpUbEEtUVhvWG5Nc3BDM2UxcjU4Qk03NFU1WUhUTHN0dTNNOXA3RE1VUDNOSnRsaDVyc2ItcDd2RjVVTkUyaFljb3dla1JWeU0xdXJmdnhISERyZl9KRElWTXg1YWRqMEk2OUxjd2lsT3pkdDZKWlBzQVhUV0hwdkE?oc=5\" target=\"_blank\">Gjenbruk, Bærekraft | Lei av å kjøpe nytt? Her er guiden som viser vei til Tromsøs reparatører</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nordlys</font>",
       "id": "29fb9197aae325e1"
+    },
+    {
+      "title": "Nyheter, NMBU | Så mye Bovaer-melk må du drikke for at det skal være farlig - Ås Avis",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWjBrRnNvZlpFVDRfbDA0TkZVUlJvb3Q5T1otd3BKSlRIOXNyY2VucVhOZE1oWVlEeU9DcTFPLTItcUVndm0wN2JCdjhqdWFEdzJERGR4MThuZkN1Vnk0RzJwMHZFQ0hOWUdkSk95UTRScWhpZmRKRDZmMml4TkpCeTl4dk5WS2tnRHZtMW1RU20xNFNLYnNHMzlSVFc?oc=5",
+      "pubDate": "2026-03-03T08:00:00+00:00",
+      "source": "Ås Avis",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNWjBrRnNvZlpFVDRfbDA0TkZVUlJvb3Q5T1otd3BKSlRIOXNyY2VucVhOZE1oWVlEeU9DcTFPLTItcUVndm0wN2JCdjhqdWFEdzJERGR4MThuZkN1Vnk0RzJwMHZFQ0hOWUdkSk95UTRScWhpZmRKRDZmMml4TkpCeTl4dk5WS2tnRHZtMW1RU20xNFNLYnNHMzlSVFc?oc=5\" target=\"_blank\">Nyheter, NMBU | Så mye Bovaer-melk må du drikke for at det skal være farlig</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ås Avis</font>",
+      "id": "418d5e4779afac76"
     },
     {
       "title": "AVLYST PGA STREIK: Unios tillitsvalgtkurs i klima og bærekraft - unio.no",
@@ -308,39 +319,6 @@
       "id": "88d4542b26bf3d83"
     },
     {
-      "title": "Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp - Tidningen Husdjur",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5",
-      "pubDate": "2026-02-11T08:00:00+00:00",
-      "source": "Tidningen Husdjur",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvd.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
-      "id": "95396880def940d3"
-    },
-    {
-      "title": "Bovaer granskas igen: Efsa utreder säkerhetsrisker - atl.nu",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00MUlaWVRHVWZaODJJUkNENENVV2FGVEVOd2d6cUhvVUlKamEyZFVCbEdBcVZnV0FLNXAwRk85RENFNHNicFktcHJ1SXR4bGFCZW5pbVFfbU1iWHlFTGljTE1oNFlVZGRtOWhpbUUwblBtOWdROXU0?oc=5",
-      "pubDate": "2026-02-10T08:00:00+00:00",
-      "source": "atl.nu",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE00MUlaWVRHVWZaODJJUkNENENVV2FGVEVOd2d6cUhvVUlKamEyZFVCbEdBcVZnV0FLNXAwRk85RENFNHNicFktcHJ1SXR4bGFCZW5pbVFfbU1iWHlFTGljTE1oNFlVZGRtOWhpbUUwblBtOWdROXU0?oc=5\" target=\"_blank\">Bovaer granskas igen: Efsa utreder säkerhetsrisker</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">atl.nu</font>",
-      "id": "a920ec985947257d"
-    },
-    {
-      "title": "Information om Bovaer - Valio Sverige",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFSmFONVdlM2hVS2ZPS21taTJZZmN6Tnp2NVVoYzdEd2VTdk4zVXM4aTkzNjFxUVFCaG93ZTBBYnB6aC00ODdheHRUTHFMTndyclROWnByYnpxM1RoenhONHhn?oc=5",
-      "pubDate": "2026-02-10T08:00:00+00:00",
-      "source": "Valio Sverige",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvd.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFSmFONVdlM2hVS2ZPS21taTJZZmN6Tnp2NVVoYzdEd2VTdk4zVXM4aTkzNjFxUVFCaG93ZTBBYnB6aC00ODdheHRUTHFMTndyclROWnByYnpxM1RoenhONHhn?oc=5\" target=\"_blank\">Information om Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Valio Sverige</font>",
-      "id": "4868756d3369c180"
-    },
-    {
       "title": "Valio keskeyttää Bovaer-rehulisäaineen kokeilun Suomessa - Yle",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9yNFRiOERDUk9adUk1SUEtYi1lX1RabkJ2ZHphNWsyVTNTR04wYUxCYUZjUU9VSTAxOFpzWmpEWWRIUQ?oc=5",
       "pubDate": "2026-02-10T08:00:00+00:00",
@@ -383,6 +361,28 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd1IzcmJockVOZUF4U1ZCcFd0QmFSU3EwS0toUjJnOG9hOHcwRkNHMURuMFdHNnBaYmEyWGwxRE5OMVlwellHN3lJUHkwNEwyM3dSbS1EOFRrWTZPZUVTMW9xWXJmU1RIV1Azckdfcm9uRUlOU1BpMzljWFFDb2k1VF81a1RHYUdUOEE?oc=5\" target=\"_blank\">Bovaerin kieltämiseksi käynnistetty kansalaisaloite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
       "id": "7308dc15249ee9c4"
+    },
+    {
+      "title": "Bovaer ska granskas i EU - Lantbruksnytt",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uQzFoYnBfRFUtcjBMdGJPTURXQ3lDUmg4aE5XOFJWOUh5bUdBQ1U0ZE9iS1NCVWJSWmpPeldHdlVrYTZZVVR5WFdWbHdSNGR6UHNKVTl2dmItSTB6MWhV?oc=5",
+      "pubDate": "2026-02-07T08:00:00+00:00",
+      "source": "Lantbruksnytt",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uQzFoYnBfRFUtcjBMdGJPTURXQ3lDUmg4aE5XOFJWOUh5bUdBQ1U0ZE9iS1NCVWJSWmpPeldHdlVrYTZZVVR5WFdWbHdSNGR6UHNKVTl2dmItSTB6MWhV?oc=5\" target=\"_blank\">Bovaer ska granskas i EU</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lantbruksnytt</font>",
+      "id": "51d4c3f15f614d27"
+    },
+    {
+      "title": "Sosial bærekraft som konkurransefortrinn i offentlige anskaffelser - Anbud365",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDZ6QkcyMGNOLTZJVzhZa0l6UkNRVVd0WE9zbzdNbG5IMlI5b1Ftd0RTMUpfRTlUb3hZTGpEaGZaVTN1R09NWnlnaFRxZHppNF82ZTVZSW5PZ3ZPbFZtN2VPc2lDcjRpVlA0NzhjVUpEdU42bGpYUXVIRGpiOVgza1F5bGU2bzZBLVd5MlRtcmFHb0MxZzgwbGEyZHZkS0k?oc=5",
+      "pubDate": "2026-02-06T08:00:00+00:00",
+      "source": "Anbud365",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDZ6QkcyMGNOLTZJVzhZa0l6UkNRVVd0WE9zbzdNbG5IMlI5b1Ftd0RTMUpfRTlUb3hZTGpEaGZaVTN1R09NWnlnaFRxZHppNF82ZTVZSW5PZ3ZPbFZtN2VPc2lDcjRpVlA0NzhjVUpEdU42bGpYUXVIRGpiOVgza1F5bGU2bzZBLVd5MlRtcmFHb0MxZzgwbGEyZHZkS0k?oc=5\" target=\"_blank\">Sosial bærekraft som konkurransefortrinn i offentlige anskaffelser</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anbud365</font>",
+      "id": "caa38317b5acfcb9"
     }
   ]
 }
