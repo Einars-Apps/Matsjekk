@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T06:58:49.835374+00:00",
+  "updated_at": "2026-06-15T07:09:29.160902+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -82,6 +82,16 @@
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3RuVUlxcVhaUU5pQlZCUWFlUW96Qi1vSUllaXJwbUFDZVJmbUx3X21TQWViSGh3YjJkSzBKcXdFNHRtLUtZTGJkeGlkRVE5dko1T0g0MkQxeWpWSkh2SzRqbUpQYkg1bU1BckZaT3NxYjNRS2xxb29OTlg0Q0lRQ2RoUnhGVXd1MXNJZWJRaXFmSm9BUy04V1RnNmRFMFhWMWEzQW5xbFlHNGd6NGFZWm9HdFh6OWpJb3EyM0t4X1B4R1dYaEtPMnVGSWpLZVVhRWFmejhoZXZkQVV6bnhXUkVKNkQ3aGdqeWc4Tks5MFFYd3dhWXFFLVdvVlI?oc=5",
       "source": "consilium.europa.eu",
       "id": "cf9070b72a864a19"
+    },
+    {
+      "date": "2026-03-11T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2026/534 of 11 March 2026 concerning the authorisation of a preparation of Duddingtonia - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Commission Implementing Regulation (EU) 2026/534 of 11 March 2026 concerning the authorisation of a preparation of Duddingtonia &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJFdDhpM0NFMG9HSDhISE1KaXlfaC14czNhbVRUQk51MmZSMzk1b1BCZWhBbXBPSFZoV2Y0NHJNS2xrbVpKRHYtaEp6NkNSTU1TSUdsX2UzaDlxU3RoZkkwdGZYcGdDSnJRU2k4M19SQnBZUWdJcXE3cHVMVndIaXpRd0lFSzNxQUViZkp3MjFadw?oc=5",
+      "source": "EUR-Lex",
+      "id": "6a05d371db5441dd"
     },
     {
       "date": "2026-03-06T01:03:25+00:00",
@@ -392,6 +402,16 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemc4eTludTJBenhFQ2NEWGxTdVNuMnFhcEVGUFpZaV9Fd09hTkRGV1hrOGNyOFVPWGMxWF9Qa2FkZTVudVloRGtud3ZWLTVmVEpwWUJBbEpnNG5KLW9qelRGWUxCck5KQWxsZG1MdTY0TkJkb1JOZ0V5eWxyU0RTaTZsb21ZN2kyajZiNUp3ZmdzOFhRTlE?oc=5",
       "source": "food.ec.europa.eu",
       "id": "1f1430e454f64823"
+    },
+    {
+      "date": "2023-09-11T07:00:00+00:00",
+      "title": "Novel food status Sunflower seed oil (creamy) - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Novel food status Sunflower seed oil (creamy) &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "252c440680606480"
     },
     {
       "date": "2023-09-06T07:00:00+00:00",
