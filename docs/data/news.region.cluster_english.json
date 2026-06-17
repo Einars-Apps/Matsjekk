@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-16T06:09:55.168568+00:00",
+  "generatedAt": "2026-06-17T05:57:57.306516+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 21,
+  "total": 19,
   "errors": [],
   "items": [
     {
@@ -46,32 +46,10 @@
       "pubDate": "2026-04-17T07:00:00+00:00",
       "source": "Nikkei Asia",
       "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
+      "country": "AU",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPbHJBSWdxckpIN3VIMEhTc2RHQjMzTXQ0ZU5qZHRvMHM0VEx5UUFndTVxRkpWc18tM3R2eE4tT3RzRDl4eE81UlVvaEtyYS1lT0Zjekp2V1VPQ012NTBoSDNPV3NCX0hZZ25DTHZ0QnRUYUtlNldSVlNCTk1WNHo3ZFNjM1ZsOEYyRU5fUUlULXdhZmg4anByeG9yS3hUbmROSnRkUi12QnlWMmpHV0JMcnltSQ?oc=5\" target=\"_blank\">Japanese company bets on fish raised on insect meal as feed costs rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nikkei Asia</font>",
       "id": "172150480655135b"
-    },
-    {
-      "title": "Onda: Salmon trial evaluates insect meal as feed additive - SalmonBusiness",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5",
-      "pubDate": "2026-04-02T07:00:00+00:00",
-      "source": "SalmonBusiness",
-      "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5\" target=\"_blank\">Onda: Salmon trial evaluates insect meal as feed additive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SalmonBusiness</font>",
-      "id": "d23abaa25bfff83d"
-    },
-    {
-      "title": "IPIFF urges EU to set measures to increase insect meal inclusion in aquafeed - Aquafeed.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlJWajlpNEx3WnZvSWNFdGVxcW9hak9URWxvYW5NZGlnLW5qX1NNaVg2cTI1WkZWYXNNYkVxVVpZVjN2Qk5YS1YtSGVsSUpCRVg3TGJmNThJQ2Nja29QTkdmYkFOUmFsQXM0RGVaNjRWQkphTl83RW5lTFJualhfMnI4VVIwckJrY3JzaDg2a0pRVk0yc1YxVVNPY0s5eThsQm5uLVl6UkFqVEl6T25wdGZQNTAzZWc?oc=5",
-      "pubDate": "2026-04-01T07:00:00+00:00",
-      "source": "Aquafeed.com",
-      "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlJWajlpNEx3WnZvSWNFdGVxcW9hak9URWxvYW5NZGlnLW5qX1NNaVg2cTI1WkZWYXNNYkVxVVpZVjN2Qk5YS1YtSGVsSUpCRVg3TGJmNThJQ2Nja29QTkdmYkFOUmFsQXM0RGVaNjRWQkphTl83RW5lTFJualhfMnI4VVIwckJrY3JzaDg2a0pRVk0yc1YxVVNPY0s5eThsQm5uLVl6UkFqVEl6T25wdGZQNTAzZWc?oc=5\" target=\"_blank\">IPIFF urges EU to set measures to increase insect meal inclusion in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
-      "id": "f1d9ea15e553d750"
     },
     {
       "title": "Ukraine’s MHP launches insect protein project to boost sustainable feed and exports - foodagribusiness.world",

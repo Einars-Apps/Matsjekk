@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-16T06:09:55.167822+00:00",
+  "generatedAt": "2026-06-17T05:57:57.305788+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 21,
+  "total": 22,
   "errors": [],
   "items": [
     {
@@ -43,13 +43,24 @@
     {
       "title": "Farine d'insectes : Innovafeed lève 51 millions d'euros mais supprime 60 postes - La Tribune",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdlA2MjQ5SnhuRURuX1JGeGF1aXVGVkJ2LUVvVmVmTnRTZC1LcVZFa0FCQUhMQWJvMExWbjl5Wjg1NGNvb0ZuTnJJNFlYZ1VkdGVPNzY5UDlvWGthbTZLcmdzN1c4czViODRtMWk1RjVmX2w0ZklyVTBXWHVHclRDNDNWYXdKNXRuZ1A3R05zQzg1LWtpVHdPblZzeHZrRDJHNjZaRjBrMWZnTkpoTThfV3UzMUhvQkY5YzByUnllcTY1UHY0WUJQWlZjMlFrVjNLeVdtOWt3eFZiUzl5ajdTckxsRk1CTnVtSmNB?oc=5",
-      "pubDate": "2026-06-08T10:26:37+00:00",
+      "pubDate": "2026-06-08T07:00:00+00:00",
       "source": "La Tribune",
       "language": "fr",
       "country": "FR",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdlA2MjQ5SnhuRURuX1JGeGF1aXVGVkJ2LUVvVmVmTnRTZC1LcVZFa0FCQUhMQWJvMExWbjl5Wjg1NGNvb0ZuTnJJNFlYZ1VkdGVPNzY5UDlvWGthbTZLcmdzN1c4czViODRtMWk1RjVmX2w0ZklyVTBXWHVHclRDNDNWYXdKNXRuZ1A3R05zQzg1LWtpVHdPblZzeHZrRDJHNjZaRjBrMWZnTkpoTThfV3UzMUhvQkY5YzByUnllcTY1UHY0WUJQWlZjMlFrVjNLeVdtOWt3eFZiUzl5ajdTckxsRk1CTnVtSmNB?oc=5\" target=\"_blank\">Farine d'insectes : Innovafeed lève 51 millions d'euros mais supprime 60 postes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">La Tribune</font>",
       "id": "2704e7da4dccb990"
+    },
+    {
+      "title": "UBS AG ernennt Alexander Seidler zum Leiter Sustainability and Climate Risk - MarketScreener Deutschland",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUU3TWt0QXpaUE0wUmlMYU9ORUJSSGNBS2dreG55U2wtR3d0V01vMFhpS0VTdHlJR1UtVmRqTFZDdnRQS3F1ZENJVWhQM19yV3hoZUtPZEY3dDhYZWNuQ2JUaDFCMlp6WDNsSWhvWUlQUkR5TjVaLTEwSHRKeTZLaVRUMmFaVnpIRldRa3I2T195LXZXY19tT3ZzZTNSSFZLVDdIQ1dxR3hpcmtxN2Zrc3J5V3piSTZfV25KSnBpVDcwM2ZYRnJVUGFudENIa3pjSXJqNHZlV2M?oc=5",
+      "pubDate": "2026-06-02T07:00:00+00:00",
+      "source": "MarketScreener Deutschland",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNUU3TWt0QXpaUE0wUmlMYU9ORUJSSGNBS2dreG55U2wtR3d0V01vMFhpS0VTdHlJR1UtVmRqTFZDdnRQS3F1ZENJVWhQM19yV3hoZUtPZEY3dDhYZWNuQ2JUaDFCMlp6WDNsSWhvWUlQUkR5TjVaLTEwSHRKeTZLaVRUMmFaVnpIRldRa3I2T195LXZXY19tT3ZzZTNSSFZLVDdIQ1dxR3hpcmtxN2Zrc3J5V3piSTZfV25KSnBpVDcwM2ZYRnJVUGFudENIa3pjSXJqNHZlV2M?oc=5\" target=\"_blank\">UBS AG ernennt Alexander Seidler zum Leiter Sustainability and Climate Risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarketScreener Deutschland</font>",
+      "id": "e1a06961b6ead48b"
     },
     {
       "title": "MCI Sustainability Week 2026: Nachhaltigkeit in allen Facetten - OTS.at",
@@ -129,15 +140,15 @@
       "id": "81e18f48cfbe23e9"
     },
     {
-      "title": "Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert - Aerokurier",
+      "title": "Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert - aerokurier",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWFzcFdpZnpKVDU5bkVIRGd4SXI2WkRlbVNUMFJvUDlFRGtqVFlwMml2eEFyYk9PdnBuNUMxazBqNnRFUEtlODVXSEJBQUI2R2lwZVBmVDdILXNGRUJYdmhqbEY3QXhOMzFSenh0MGdVeXRuc1RRaGFsMjJKZ0RvcTdxZG40OUp2STFDYXJEeXlURVU?oc=5",
       "pubDate": "2026-04-24T07:00:00+00:00",
-      "source": "Aerokurier",
+      "source": "aerokurier",
       "language": "de",
       "country": "CH",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWFzcFdpZnpKVDU5bkVIRGd4SXI2WkRlbVNUMFJvUDlFRGtqVFlwMml2eEFyYk9PdnBuNUMxazBqNnRFUEtlODVXSEJBQUI2R2lwZVBmVDdILXNGRUJYdmhqbEY3QXhOMzFSenh0MGdVeXRuc1RRaGFsMjJKZ0RvcTdxZG40OUp2STFDYXJEeXlURVU?oc=5\" target=\"_blank\">Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aerokurier</font>",
-      "id": "6a36bcfcb5dc48dd"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWFzcFdpZnpKVDU5bkVIRGd4SXI2WkRlbVNUMFJvUDlFRGtqVFlwMml2eEFyYk9PdnBuNUMxazBqNnRFUEtlODVXSEJBQUI2R2lwZVBmVDdILXNGRUJYdmhqbEY3QXhOMzFSenh0MGdVeXRuc1RRaGFsMjJKZ0RvcTdxZG40OUp2STFDYXJEeXlURVU?oc=5\" target=\"_blank\">Paneldiskussion: Sustainability - Wie die GA ihre Zukunft sichert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aerokurier</font>",
+      "id": "e5bbab7b747fc3bc"
     },
     {
       "title": "Coupe de France du Burger : barbe à papa et farine d'insectes, le pari fou du chef de Lambesc Florian Simonpieri - Maritima",
