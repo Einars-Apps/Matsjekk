@@ -930,7 +930,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
+    "website": "http://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
     "lat": 42.8037863,
     "lon": -1.6449764,
     "address": null
@@ -1878,7 +1878,7 @@
     "region": null,
     "municipality": "Valls",
     "products": [],
-    "website": "https://www.coopvalls.cat/",
+    "website": "www.coopvalls.cat",
     "lat": 41.2820589,
     "lon": 1.250297,
     "address": "Plaça del Carme"
@@ -2275,8 +2275,8 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281417,
-    "lon": -3.5386011,
+    "lat": 36.7281494,
+    "lon": -3.5385964,
     "address": null
   },
   {
@@ -2481,18 +2481,6 @@
     "website": null,
     "lat": 28.6627059,
     "lon": -17.7650567,
-    "address": null
-  },
-  {
-    "id": 13831044587,
-    "name": "Frutas Mercamotril",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.mercamotril.com/",
-    "lat": 36.7311079,
-    "lon": -3.5335561,
     "address": null
   },
   {
@@ -5724,6 +5712,18 @@
     "address": "Calle los Reyes"
   },
   {
+    "id": 1237862620,
+    "name": "Bosque Natural",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 36.8112662,
+    "lon": -3.4562661,
+    "address": null
+  },
+  {
     "id": 1243590352,
     "name": "Agricentro",
     "country": "Spain",
@@ -5916,6 +5916,18 @@
     "address": "Calle Tufas"
   },
   {
+    "id": 1360416986,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5499914,
+    "lon": -8.7046065,
+    "address": null
+  },
+  {
     "id": 1364891653,
     "name": "Piensos Muga",
     "country": "Spain",
@@ -6033,18 +6045,6 @@
     "website": null,
     "lat": 37.6951045,
     "lon": -5.3230982,
-    "address": null
-  },
-  {
-    "id": 1503582924,
-    "name": "Agro Vilanoviña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5508147,
-    "lon": -8.7036466,
     "address": null
   },
   {
@@ -6307,32 +6307,32 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281494,
-    "lon": -3.5385964,
+    "lat": 36.7281417,
+    "lon": -3.5386011,
     "address": null
   },
   {
-    "id": 1237862620,
-    "name": "Bosque Natural",
+    "id": 13831044587,
+    "name": "Frutas Mercamotril",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 36.8112662,
-    "lon": -3.4562661,
+    "website": "https://www.mercamotril.com/",
+    "lat": 36.7311079,
+    "lon": -3.5335561,
     "address": null
   },
   {
-    "id": 1360416986,
+    "id": 1503582924,
     "name": "Agro Vilanoviña",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5499914,
-    "lon": -8.7046065,
+    "lat": 42.5508147,
+    "lon": -8.7036466,
     "address": null
   },
   {

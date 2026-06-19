@@ -25141,6 +25141,34 @@
       "lon": 7.227077,
       "address": "Eplet",
       "source": "https://www.hanen.no/bedrift/eplet-bed-and-apple/"
+    },
+    {
+      "id": "lokalmat_10834",
+      "name": "Kjekshus gård - Thorbjørnrud Ysteri AS",
+      "country": "Norway",
+      "region": "Akershus",
+      "municipality": "2750",
+      "products": [
+        "Oster"
+      ],
+      "website": null,
+      "lat": 60.241332,
+      "lon": 10.400578,
+      "address": "Vienlinna 427",
+      "source": "https://www.lokalmat.no/produsenter/kjekshus-gard-thorbjornrud-ysteri-as/"
+    },
+    {
+      "id": "hanen_3056",
+      "name": "Strand gård",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": "Averøy",
+      "products": [],
+      "website": "https://livetpastrand.no",
+      "lat": 62.98778,
+      "lon": 7.689951,
+      "address": "Kvernesveien 1153",
+      "source": "https://www.hanen.no/bedrift/strand-gaard/"
     }
   ],
   "SE": [
