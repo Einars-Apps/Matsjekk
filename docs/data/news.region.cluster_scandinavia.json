@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T05:55:58.019505+00:00",
+  "generatedAt": "2026-06-19T06:00:55.900888+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -17,17 +17,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMWdIdlVlVDNoZThtQU8xME9CNGNMSUFJZTZFdFhneC1ESEY4VVZWZVZyNkxfUS11cmFPSVdhN0piYWY5NUZOOE1BVU9FM1NBNFJhSDNZOFhwS3lsX0kyZFFpVVJWdlNuUHhiWkQyeGFCdXpFWm5GWXZDVkxNcHAySWlHcjVDaE9uZWNhN1Z2ZF9NTW5ZVHhKX3ZXenNRNFE1TDF1UFBIY09HT21aZUJORzhzbzhjelVCN1hoSFdraEQzdERjcTZTNmFCcExuMmRvN2JGN2ZNVHFjWnZoUmV1VQ?oc=5\" target=\"_blank\">New genomic techniques for plants to boost innovation in sustainable agriculture</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Parliament</font>",
       "id": "505da06962f2002e"
-    },
-    {
-      "title": "Bovaer® - DSM-Firmenich",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdUt1Tkh5UHZaZ1BxM2ZLLTdCUHowUTY5QVgwTVRIR2JsUWhxV0pMYUhMbGJFOGZUU0c0NUtzU0NOODVVeXA2MF91ZFBLajB1SnlQVnAxMkhIcTBPZTc4T1NyV1U0VzVBaFhIYy1fS0tkTmgzRTZ4dmlWc0p2NXY0eXZNcWRBSEtCZ1pCR01R?oc=5",
-      "pubDate": "2026-06-16T06:50:20+00:00",
-      "source": "DSM-Firmenich",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQdUt1Tkh5UHZaZ1BxM2ZLLTdCUHowUTY5QVgwTVRIR2JsUWhxV0pMYUhMbGJFOGZUU0c0NUtzU0NOODVVeXA2MF91ZFBLajB1SnlQVnAxMkhIcTBPZTc4T1NyV1U0VzVBaFhIYy1fS0tkTmgzRTZ4dmlWc0p2NXY0eXZNcWRBSEtCZ1pCR01R?oc=5\" target=\"_blank\">Bovaer®</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DSM-Firmenich</font>",
-      "id": "b512450ff48f645d"
     },
     {
       "title": "Gäsene avslutar Bovaer-projekt trots sänkt metanutsläpp - Land.se",
@@ -83,6 +72,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE16bktWSlZSVUt5dnphMzZrN2hjTDl0bENVTXptOVA5anpsdmtWZXhJTmRwS2JaT2E5ZmtGQ0lFbUhaZXhFZVQ3M2liOWNld2t4RTRwOU1STi15Q1NEeFpBMVFudU1QQQ?oc=5\" target=\"_blank\">Grønne lån åpnet døren, nå skal bærekraft inn i alle DNBs kundeforhold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">finanswatch.no</font>",
       "id": "993bbe2e7e0ea773"
+    },
+    {
+      "title": "Norsk Folkehjelp og samarbeid med Energi.AI gir bærekraft for fremtiden - NTB Kommunikasjon",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR1Rid0R6SE5RNVhlNjBnUDJjODZIZmNabFQtNXJvOWtYeUhqcGJ5V0ppbTJ1dXVPODZVREZJWlh2c0pKUndTZlRTWko5RmxxV2VtR3VybzNINUJSUmV1a2MyWVNnOGszT1FHdEsyUXFQMVh0UnNIY1RqTDR5a2lwNndac2hDNzRRa2diaDZTLUI4Q0pacVpaU0YxM1hVRmVoN2RBcmpZanRlRnFrV1lqV1dSUjU1SmNoX3I1R3NDcDg4NGlrUVBGa3M1LXp1NnpqUDd5TW9fb3MyU3hzMWZsbVd1eHE4QQ?oc=5",
+      "pubDate": "2026-05-08T07:00:00+00:00",
+      "source": "NTB Kommunikasjon",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR1Rid0R6SE5RNVhlNjBnUDJjODZIZmNabFQtNXJvOWtYeUhqcGJ5V0ppbTJ1dXVPODZVREZJWlh2c0pKUndTZlRTWko5RmxxV2VtR3VybzNINUJSUmV1a2MyWVNnOGszT1FHdEsyUXFQMVh0UnNIY1RqTDR5a2lwNndac2hDNzRRa2diaDZTLUI4Q0pacVpaU0YxM1hVRmVoN2RBcmpZanRlRnFrV1lqV1dSUjU1SmNoX3I1R3NDcDg4NGlrUVBGa3M1LXp1NnpqUDd5TW9fb3MyU3hzMWZsbVd1eHE4QQ?oc=5\" target=\"_blank\">Norsk Folkehjelp og samarbeid med Energi.AI gir bærekraft for fremtiden</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NTB Kommunikasjon</font>",
+      "id": "98a864f0573f4f75"
     },
     {
       "title": "Regjeringen samlet reiselivsnæringen til felles innsats for bærekraft og ansvarlighet - Regjeringen.no",
@@ -157,7 +157,7 @@
       "source": "Bondebladet",
       "language": "nb",
       "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adagbladet.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1BqdkpMZXRHY2ZUVWtQZnZCdUg1eUdsV1gtNmRuLW5GOXc2ZnVnTlpTMkU4MG05eEQ1d0hsTURGM1RSazlHSkVyQWc2TG43bFlHSm5tMkcxNTVWdG9JUm9GcnlMdzRidDl4QUxrY0VpN0cteTd4SEJsLWhCa3B6aW9BLUhFaENQVnNtQ2JSS2QtTUxDempOYS1OaW5FRG5S?oc=5\" target=\"_blank\">Tine, Bærekraft | Tines bærekraftstillegg utvides – flere tiltak og flere øre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "77e8c4a7b0257c10"
     },
@@ -334,9 +334,9 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtJYmMxTEs3NEpRRU4waEhRU3NfcER4TDM4SWl3U0hfSEpNMFFFR3EyLTkxbTlwQ3E2S2tUOFJzYU5tZC13R2owNk1tel9XdXlmSnFWbFZad3pTSmxZX2E1ZzJqa05LRmRKQVVTVUZLWmJuQU5tcGVTaGhVdXoyMFl5Yk9wWGtkVGxfUHdQU0hCOGRGMUpaMmVweFZ1UG55dUFJ?oc=5",
       "pubDate": "2026-02-13T08:00:00+00:00",
       "source": "Nationen",
-      "language": "da",
-      "country": "DK",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtJYmMxTEs3NEpRRU4waEhRU3NfcER4TDM4SWl3U0hfSEpNMFFFR3EyLTkxbTlwQ3E2S2tUOFJzYU5tZC13R2owNk1tel9XdXlmSnFWbFZad3pTSmxZX2E1ZzJqa05LRmRKQVVTVUZLWmJuQU5tcGVTaGhVdXoyMFl5Yk9wWGtkVGxfUHdQU0hCOGRGMUpaMmVweFZ1UG55dUFJ?oc=5\" target=\"_blank\">Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
       "id": "4d9db632ca05ba89"
     },
@@ -358,7 +358,7 @@
       "source": "Tidningen Husdjur",
       "language": "sv",
       "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Ant.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
       "id": "95396880def940d3"
     },
@@ -380,7 +380,7 @@
       "source": "Valio Sverige",
       "language": "sv",
       "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Agp.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFSmFONVdlM2hVS2ZPS21taTJZZmN6Tnp2NVVoYzdEd2VTdk4zVXM4aTkzNjFxUVFCaG93ZTBBYnB6aC00ODdheHRUTHFMTndyclROWnByYnpxM1RoenhONHhn?oc=5\" target=\"_blank\">Information om Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Valio Sverige</font>",
       "id": "4868756d3369c180"
     }
