@@ -523,8 +523,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.blijdenberghoeve.be/",
-    "lat": 51.0283296,
-    "lon": 4.5400599,
+    "lat": 51.028473,
+    "lon": 4.5402971,
     "address": null
   },
   {
@@ -538,18 +538,6 @@
     "lat": 49.7825622,
     "lon": 5.4803404,
     "address": "Rue des Combattants"
-  },
-  {
-    "id": 5197589345,
-    "name": "Fruitpaleis",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Sint-Andries",
-    "products": [],
-    "website": null,
-    "lat": 51.2055168,
-    "lon": 3.20165,
-    "address": "Hogeweg"
   },
   {
     "id": 5228804760,
@@ -678,7 +666,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.blauwebessen.be",
+    "website": "https://www.blauwebessen.be/",
     "lat": 51.0742107,
     "lon": 5.5863289,
     "address": null
@@ -726,7 +714,7 @@
     "region": null,
     "municipality": "Edegem",
     "products": [],
-    "website": "http://plukjefruit.be/",
+    "website": "https://plukjefruit.be/",
     "lat": 51.1588159,
     "lon": 4.4402444,
     "address": "Drie Eikenstraat"
@@ -1134,7 +1122,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.aspergehoeve.be/",
+    "website": "https://www.aspergehoeve.be/",
     "lat": 51.1367084,
     "lon": 4.9570255,
     "address": "Doornboomstraat"
@@ -1230,7 +1218,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://ferme-les-bleuets.be",
+    "website": "https://ferme-les-bleuets.be/",
     "lat": 49.5838129,
     "lon": 5.8340848,
     "address": null
@@ -1506,7 +1494,7 @@
     "region": null,
     "municipality": "Wodecq",
     "products": [],
-    "website": "http://www.fermedorlou.be",
+    "website": "https://www.fermedorlou.be/",
     "lat": 50.7189663,
     "lon": 3.7256221,
     "address": "Vieux Moulin"
@@ -1650,7 +1638,7 @@
     "region": null,
     "municipality": "Halen",
     "products": [],
-    "website": "http://www.degroene-goesting.be/",
+    "website": "https://www.degroene-goesting.be/",
     "lat": 50.9531108,
     "lon": 5.0861308,
     "address": "Liebroekstraat"
@@ -1666,18 +1654,6 @@
     "lat": 51.1450895,
     "lon": 4.3634082,
     "address": "Groenenhoek"
-  },
-  {
-    "id": 7887104938,
-    "name": "Para Ti",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://para-ti.be/",
-    "lat": 51.219914,
-    "lon": 3.220316,
-    "address": null
   },
   {
     "id": 7900456794,
@@ -1975,8 +1951,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7374074,
-    "lon": 4.2700674,
+    "lat": 50.7373829,
+    "lon": 4.2700518,
     "address": null
   },
   {
@@ -2766,7 +2742,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.fermedelageronne.be",
+    "website": "https://www.fermedelageronne.be/",
     "lat": 49.8630028,
     "lon": 5.5608512,
     "address": null
@@ -3349,15 +3325,15 @@
   },
   {
     "id": 12563844681,
-    "name": "La ferme du grand feu",
+    "name": "La Ferme du Grand Feu",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Bouge",
     "products": [],
     "website": "https://lafermedugrandfeu.be/",
-    "lat": 50.4778716,
-    "lon": 4.8941007,
-    "address": null
+    "lat": 50.4801945,
+    "lon": 4.895022,
+    "address": "Rue de la Poteresse"
   },
   {
     "id": 12620825293,
@@ -3696,6 +3672,66 @@
     "address": null
   },
   {
+    "id": 13764337580,
+    "name": "Cocottes en Ribotte",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.614868,
+    "lon": 4.4976924,
+    "address": null
+  },
+  {
+    "id": 13776306636,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Klemskerke",
+    "products": [],
+    "website": null,
+    "lat": 51.2556942,
+    "lon": 3.0442422,
+    "address": "Bredeweg"
+  },
+  {
+    "id": 13801006290,
+    "name": "Ferme du Montaval",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.1812477,
+    "lon": 4.456854,
+    "address": null
+  },
+  {
+    "id": 13825142133,
+    "name": "De Zaaier",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://zaaier.be/",
+    "lat": 51.1070842,
+    "lon": 3.2334347,
+    "address": "Korte Akkerstraat"
+  },
+  {
+    "id": 13897275429,
+    "name": "Schapenmelkerij Bosschelle",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Denderhoutem",
+    "products": [],
+    "website": "https://www.onlinehoevewinkel.be/",
+    "lat": 50.8721645,
+    "lon": 4.0225343,
+    "address": "Teerlingstraat"
+  },
+  {
     "id": 26986202,
     "name": "Pluk je Fruit",
     "country": "Belgium",
@@ -3954,7 +3990,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.fermedorlou.be/",
+    "website": "https://www.fermedorlou.be/",
     "lat": 50.7188709,
     "lon": 3.7250729,
     "address": null
@@ -3973,15 +4009,15 @@
   },
   {
     "id": 176724751,
-    "name": "Levensbron",
+    "name": "Boer Maarten",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Attenrode",
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": null
+    "address": "Langstraat"
   },
   {
     "id": 184544766,
@@ -4068,6 +4104,18 @@
     "address": null
   },
   {
+    "id": 233873758,
+    "name": "Viskwekerij Vandeput",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Zonhoven",
+    "products": [],
+    "website": "https://sites.google.com/site/viskwekerijvandeput/",
+    "lat": 50.9877343,
+    "lon": 5.3412821,
+    "address": "Boomsteeg"
+  },
+  {
     "id": 250412766,
     "name": "Au fil des saisons",
     "country": "Belgium",
@@ -4117,15 +4165,15 @@
   },
   {
     "id": 294169618,
-    "name": "De Melkautomaat",
+    "name": "Jerseyhoeve De Haan automatenshop",
     "country": "Belgium",
     "region": null,
-    "municipality": null,
+    "municipality": "Klemskerke",
     "products": [],
     "website": null,
     "lat": 51.2556962,
     "lon": 3.0441037,
-    "address": null
+    "address": "Bredeweg"
   },
   {
     "id": 297121323,
@@ -4434,7 +4482,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.larchenterre.be",
+    "website": "https://www.larchenterre.be/",
     "lat": 50.6299984,
     "lon": 4.7079553,
     "address": "Chemin de la Scierie"
@@ -4494,7 +4542,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.lafermedejulien.be",
+    "website": "https://www.lafermedejulien.be/",
     "lat": 50.7370029,
     "lon": 4.7714875,
     "address": null
@@ -4530,7 +4578,7 @@
     "region": null,
     "municipality": "Nivelles",
     "products": [],
-    "website": "http://fermedelabaraque.be/",
+    "website": "https://fermedelabaraque.be/",
     "lat": 50.5694819,
     "lon": 4.3638693,
     "address": "Vieux chemin de Bruxelles"
@@ -4686,7 +4734,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.kempengoud.be/",
+    "website": "https://kempengoud.be/",
     "lat": 51.4316873,
     "lon": 4.4911687,
     "address": "Spurrieveld"
@@ -5136,6 +5184,18 @@
     "address": "De Lusthoven"
   },
   {
+    "id": 1092175388,
+    "name": "Jerseyhoeve De Haan automatenshop",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2557506,
+    "lon": 3.0442608,
+    "address": null
+  },
+  {
     "id": 1097455780,
     "name": "Les paniers de Maryse",
     "country": "Belgium",
@@ -5364,6 +5424,30 @@
     "address": null
   },
   {
+    "id": 1516907841,
+    "name": "Hoevewinkel",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.1342487,
+    "lon": 4.8835409,
+    "address": null
+  },
+  {
+    "id": 1524946030,
+    "name": "Le champ paysan",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Ohey",
+    "products": [],
+    "website": null,
+    "lat": 50.4312919,
+    "lon": 5.1292943,
+    "address": "Rue de Huy"
+  },
+  {
     "id": 8690,
     "name": "Hallerbos - Bois de Hal",
     "country": "Belgium",
@@ -5419,8 +5503,32 @@
     "municipality": null,
     "products": [],
     "website": "https://www.blijdenberghoeve.be/",
-    "lat": 51.028473,
-    "lon": 4.5402971,
+    "lat": 51.0283296,
+    "lon": 4.5400599,
+    "address": null
+  },
+  {
+    "id": 5197589345,
+    "name": "Fruitpaleis",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Sint-Andries",
+    "products": [],
+    "website": null,
+    "lat": 51.2055168,
+    "lon": 3.20165,
+    "address": "Hogeweg"
+  },
+  {
+    "id": 7887104938,
+    "name": "Para Ti",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://para-ti.be/",
+    "lat": 51.219914,
+    "lon": 3.220316,
     "address": null
   },
   {
@@ -5431,153 +5539,45 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.7373829,
-    "lon": 4.2700518,
+    "lat": 50.7374074,
+    "lon": 4.2700674,
     "address": null
   },
   {
     "id": 12563844681,
-    "name": "La Ferme du Grand Feu",
+    "name": "La ferme du grand feu",
     "country": "Belgium",
     "region": null,
-    "municipality": "Bouge",
+    "municipality": null,
     "products": [],
     "website": "https://lafermedugrandfeu.be/",
-    "lat": 50.4801945,
-    "lon": 4.895022,
-    "address": "Rue de la Poteresse"
-  },
-  {
-    "id": 13764337580,
-    "name": "Cocottes en Ribotte",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.614868,
-    "lon": 4.4976924,
+    "lat": 50.4778716,
+    "lon": 4.8941007,
     "address": null
-  },
-  {
-    "id": 13776306636,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Klemskerke",
-    "products": [],
-    "website": null,
-    "lat": 51.2556942,
-    "lon": 3.0442422,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 13801006290,
-    "name": "Ferme du Montaval",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.1812477,
-    "lon": 4.456854,
-    "address": null
-  },
-  {
-    "id": 13825142133,
-    "name": "De Zaaier",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://zaaier.be/",
-    "lat": 51.1070842,
-    "lon": 3.2334347,
-    "address": "Korte Akkerstraat"
-  },
-  {
-    "id": 13897275429,
-    "name": "Schapenmelkerij Bosschelle",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Denderhoutem",
-    "products": [],
-    "website": "https://www.onlinehoevewinkel.be/",
-    "lat": 50.8721645,
-    "lon": 4.0225343,
-    "address": "Teerlingstraat"
   },
   {
     "id": 176724751,
-    "name": "Boer Maarten",
+    "name": "Levensbron",
     "country": "Belgium",
     "region": null,
-    "municipality": "Attenrode",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 50.8707873,
     "lon": 4.9157722,
-    "address": "Langstraat"
-  },
-  {
-    "id": 233873758,
-    "name": "Viskwekerij Vandeput",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Zonhoven",
-    "products": [],
-    "website": "https://sites.google.com/site/viskwekerijvandeput/",
-    "lat": 50.9877343,
-    "lon": 5.3412821,
-    "address": "Boomsteeg"
+    "address": null
   },
   {
     "id": 294169618,
-    "name": "Jerseyhoeve De Haan automatenshop",
+    "name": "De Melkautomaat",
     "country": "Belgium",
     "region": null,
-    "municipality": "Klemskerke",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.2556962,
     "lon": 3.0441037,
-    "address": "Bredeweg"
-  },
-  {
-    "id": 1092175388,
-    "name": "Jerseyhoeve De Haan automatenshop",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2557506,
-    "lon": 3.0442608,
     "address": null
-  },
-  {
-    "id": 1516907841,
-    "name": "Hoevewinkel",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1342487,
-    "lon": 4.8835409,
-    "address": null
-  },
-  {
-    "id": 1524946030,
-    "name": "Le champ paysan",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Ohey",
-    "products": [],
-    "website": null,
-    "lat": 50.4312919,
-    "lon": 5.1292943,
-    "address": "Rue de Huy"
   },
   {
     "id": 7449906925,

@@ -25287,10 +25287,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.svartbackens.com/",
     "lat": 59.8243714,
     "lon": 17.1905136,
-    "address": null
+    "address": "Nysätra Svartbäcken"
   },
   {
     "id": 7772874673,
@@ -25623,7 +25623,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://tomatenshus.com",
+    "website": "https://tomatenshus.com/",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -26379,7 +26379,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/the-project",
+    "website": "https://www.alnarpsfarm.se/",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"
@@ -26431,6 +26431,18 @@
     "lat": 60.0617884,
     "lon": 18.7369673,
     "address": "Norrby byaväg"
+  },
+  {
+    "id": 13866436939,
+    "name": "Axelssons i Aby",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.axelssonsiaby.se/",
+    "lat": 57.3496625,
+    "lon": 15.8371386,
+    "address": null
   },
   {
     "id": 41684535,
@@ -27210,18 +27222,6 @@
     "website": null,
     "lat": 56.681426,
     "lon": 15.7070999,
-    "address": null
-  },
-  {
-    "id": 13866436939,
-    "name": "Axelssons i Aby",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.axelssonsiaby.se/",
-    "lat": 57.3496625,
-    "lon": 15.8371386,
     "address": null
   },
   {
@@ -34204,6 +34204,18 @@
     "address": null
   },
   {
+    "id": 3885138370,
+    "name": "Sofienlund Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 54.884933,
+    "lon": 10.369584,
+    "address": null
+  },
+  {
     "id": 3935763608,
     "name": "Stengården",
     "country": "Denmark",
@@ -34366,7 +34378,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tolykkegaard.dk/",
+    "website": "http://tolykkegaard.dk/",
     "lat": 56.0319866,
     "lon": 12.2332647,
     "address": null
@@ -34636,6 +34648,18 @@
     "address": null
   },
   {
+    "id": 4462469305,
+    "name": "Heddahgaarden",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://heddahgaarden.dk/",
+    "lat": 55.7391766,
+    "lon": 9.6133071,
+    "address": null
+  },
+  {
     "id": 4484035746,
     "name": "Storhaven",
     "country": "Denmark",
@@ -34681,18 +34705,6 @@
     "website": "https://kongelundgaard.dk/",
     "lat": 55.5784036,
     "lon": 12.5776993,
-    "address": null
-  },
-  {
-    "id": 4641259198,
-    "name": "Nygaards Gårdbutik",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
-    "lat": 55.8052348,
-    "lon": 8.3446875,
     "address": null
   },
   {
@@ -36262,7 +36274,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.skovlygrisen.dk/",
+    "website": "http://www.skovlygrisen.dk/",
     "lat": 55.557248,
     "lon": 9.365305,
     "address": null
@@ -39502,7 +39514,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.tolstrupaebler.dk/",
     "lat": 55.920133,
     "lon": 9.879711,
     "address": null
@@ -39658,7 +39670,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://polsemageriet.dk/",
+    "website": "http://polsemageriet.dk/",
     "lat": 56.206684,
     "lon": 9.63802,
     "address": null
@@ -40429,18 +40441,6 @@
     "website": null,
     "lat": 57.4652767,
     "lon": 9.9239586,
-    "address": null
-  },
-  {
-    "id": 9336004988,
-    "name": "Lille Østergårds Økologi",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.2770344,
-    "lon": 10.0321693,
     "address": null
   },
   {
@@ -43768,18 +43768,6 @@
     "address": null
   },
   {
-    "id": 13788930013,
-    "name": "Rikke og Franks Svineri",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.5039062,
-    "lon": 8.1462006,
-    "address": null
-  },
-  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -43858,7 +43846,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://asparges.com/",
+    "website": "https://wiuff.wordpress.com/",
     "lat": 55.7470646,
     "lon": 11.5570392,
     "address": null
@@ -44128,27 +44116,39 @@
     "address": null
   },
   {
-    "id": 3885138370,
-    "name": "Sofienlund Gårdbutik",
+    "id": 4641259198,
+    "name": "Nygaards Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nygaardsafrika.dk/gaardbutik-salg-af-vildt/",
+    "lat": 55.8052348,
+    "lon": 8.3446875,
+    "address": null
+  },
+  {
+    "id": 9336004988,
+    "name": "Lille Østergårds Økologi",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 54.884933,
-    "lon": 10.369584,
+    "lat": 57.2770344,
+    "lon": 10.0321693,
     "address": null
   },
   {
-    "id": 4462469305,
-    "name": "Heddahgaarden",
+    "id": 13788930013,
+    "name": "Rikke og Franks Svineri",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://heddahgaarden.dk/",
-    "lat": 55.7391766,
-    "lon": 9.6133071,
+    "website": null,
+    "lat": 56.5039062,
+    "lon": 8.1462006,
     "address": null
   },
   {
@@ -60462,7 +60462,7 @@
     "region": null,
     "municipality": "Kalanti",
     "products": [],
-    "website": "https://fi-fi.facebook.com/linnanpuistontila/",
+    "website": null,
     "lat": 60.8162868,
     "lon": 21.5325097,
     "address": "Kehäntie"
@@ -60858,7 +60858,7 @@
     "region": null,
     "municipality": "Kärkölä",
     "products": [],
-    "website": "http://www.yli-karkelantila.fi/",
+    "website": "https://www.yli-karkelantila.fi/",
     "lat": 60.8798751,
     "lon": 25.1747619,
     "address": "Seppäläntie"
@@ -60922,6 +60922,18 @@
     "lat": 61.2395043,
     "lon": 23.7981251,
     "address": "Perälänraitti"
+  },
+  {
+    "id": 13912200005,
+    "name": "Uljaan tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.5231012,
+    "lon": 25.6491169,
+    "address": null
   },
   {
     "id": 76736163,
@@ -61317,18 +61329,6 @@
     "website": null,
     "lat": 64.9652763,
     "lon": 25.856806,
-    "address": null
-  },
-  {
-    "id": 13912200005,
-    "name": "Uljaan tila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.5231012,
-    "lon": 25.6491169,
     "address": null
   },
   {
@@ -608850,6 +608850,18 @@
     "address": null
   },
   {
+    "id": 11078723217,
+    "name": "Bio Rui e Inês",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 39.3604716,
+    "lon": -9.379938,
+    "address": null
+  },
+  {
     "id": 11420351025,
     "name": "Finisterra",
     "country": "Portugal",
@@ -608962,12 +608974,12 @@
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": "Bom Vento",
+    "municipality": null,
     "products": [],
-    "website": "https://bio-rui-e-ines.webnode.pt/",
-    "lat": 39.3193042,
-    "lon": -9.1355355,
-    "address": "Rua Nossa Senhora do Socorro"
+    "website": null,
+    "lat": 39.3193307,
+    "lon": -9.1354776,
+    "address": "R. Nossa Sra. do Socorro"
   },
   {
     "id": 13434502610,
@@ -608980,18 +608992,6 @@
     "lat": 41.2665194,
     "lon": -8.6555292,
     "address": "Rua da Póvoa"
-  },
-  {
-    "id": 13897241073,
-    "name": "Rocas Vale Ouro",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Vila Real",
-    "products": [],
-    "website": "https://bcdvilareal.pt/lojas/rocas-vale-ouro/",
-    "lat": 41.2957604,
-    "lon": -7.7455804,
-    "address": "Rua Camilo Castelo Branco"
   },
   {
     "id": 99721279,
@@ -609241,7 +609241,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268222,
+    "lat": 40.0268414,
     "lon": -8.6224196,
     "address": null
   },
@@ -609498,6 +609498,18 @@
     "address": null
   },
   {
+    "id": 1243166539,
+    "name": "Amendoal",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 38.1777387,
+    "lon": -8.1841701,
+    "address": null
+  },
+  {
     "id": 1247100935,
     "name": "Mandelfruit",
     "country": "Portugal",
@@ -609546,28 +609558,28 @@
     "address": null
   },
   {
-    "id": 11078723217,
-    "name": "Bio Rui e Inês",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 39.3604716,
-    "lon": -9.379938,
-    "address": null
-  },
-  {
     "id": 13261269282,
     "name": "Bio Rui e Inês",
     "country": "Portugal",
     "region": null,
-    "municipality": null,
+    "municipality": "Bom Vento",
     "products": [],
-    "website": null,
-    "lat": 39.3193307,
-    "lon": -9.1354776,
-    "address": "R. Nossa Sra. do Socorro"
+    "website": "https://bio-rui-e-ines.webnode.pt/",
+    "lat": 39.3193042,
+    "lon": -9.1355355,
+    "address": "Rua Nossa Senhora do Socorro"
+  },
+  {
+    "id": 13897241073,
+    "name": "Rocas Vale Ouro",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Vila Real",
+    "products": [],
+    "website": "https://bcdvilareal.pt/lojas/rocas-vale-ouro/",
+    "lat": 41.2957604,
+    "lon": -7.7455804,
+    "address": "Rua Camilo Castelo Branco"
   },
   {
     "id": 666647099,
@@ -609577,20 +609589,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268414,
+    "lat": 40.0268222,
     "lon": -8.6224196,
-    "address": null
-  },
-  {
-    "id": 1243166539,
-    "name": "Amendoal",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.1777387,
-    "lon": -8.1841701,
     "address": null
   },
   {
@@ -647842,7 +647842,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
+    "website": "https://bodegamendiko.com/tienda-en-pamplona_w_6.aspx",
     "lat": 42.8037863,
     "lon": -1.6449764,
     "address": null
@@ -648790,7 +648790,7 @@
     "region": null,
     "municipality": "Valls",
     "products": [],
-    "website": "www.coopvalls.cat",
+    "website": "https://www.coopvalls.cat/",
     "lat": 41.2820589,
     "lon": 1.250297,
     "address": "Plaça del Carme"
@@ -649187,8 +649187,8 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281494,
-    "lon": -3.5385964,
+    "lat": 36.7281417,
+    "lon": -3.5386011,
     "address": null
   },
   {
@@ -649393,6 +649393,18 @@
     "website": null,
     "lat": 28.6627059,
     "lon": -17.7650567,
+    "address": null
+  },
+  {
+    "id": 13831044587,
+    "name": "Frutas Mercamotril",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.mercamotril.com/",
+    "lat": 36.7311079,
+    "lon": -3.5335561,
     "address": null
   },
   {
@@ -652624,18 +652636,6 @@
     "address": "Calle los Reyes"
   },
   {
-    "id": 1237862620,
-    "name": "Bosque Natural",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 36.8112662,
-    "lon": -3.4562661,
-    "address": null
-  },
-  {
     "id": 1243590352,
     "name": "Agricentro",
     "country": "Spain",
@@ -652828,18 +652828,6 @@
     "address": "Calle Tufas"
   },
   {
-    "id": 1360416986,
-    "name": "Agro Vilanoviña",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5499914,
-    "lon": -8.7046065,
-    "address": null
-  },
-  {
     "id": 1364891653,
     "name": "Piensos Muga",
     "country": "Spain",
@@ -652957,6 +652945,18 @@
     "website": null,
     "lat": 37.6951045,
     "lon": -5.3230982,
+    "address": null
+  },
+  {
+    "id": 1503582924,
+    "name": "Agro Vilanoviña",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.agrovilanoviña.es",
+    "lat": 42.5508147,
+    "lon": -8.7036466,
     "address": null
   },
   {
@@ -653219,32 +653219,32 @@
     "municipality": null,
     "products": [],
     "website": "https://mcaalgasyderivados.es/",
-    "lat": 36.7281417,
-    "lon": -3.5386011,
+    "lat": 36.7281494,
+    "lon": -3.5385964,
     "address": null
   },
   {
-    "id": 13831044587,
-    "name": "Frutas Mercamotril",
+    "id": 1237862620,
+    "name": "Bosque Natural",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.mercamotril.com/",
-    "lat": 36.7311079,
-    "lon": -3.5335561,
+    "website": null,
+    "lat": 36.8112662,
+    "lon": -3.4562661,
     "address": null
   },
   {
-    "id": 1503582924,
+    "id": 1360416986,
     "name": "Agro Vilanoviña",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": "https://www.agrovilanoviña.es",
-    "lat": 42.5508147,
-    "lon": -8.7036466,
+    "lat": 42.5499914,
+    "lon": -8.7046065,
     "address": null
   },
   {
@@ -706155,7 +706155,7 @@
     "name": "Pearce's Farm Shop & Cafe",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Buntingford",
+    "municipality": null,
     "products": [],
     "website": "https://pearcesfarmshop.com/",
     "lat": 51.9003723,
@@ -706494,8 +706494,8 @@
     "municipality": "Saundersfoot",
     "products": [],
     "website": null,
-    "lat": 51.7028309,
-    "lon": -4.7212527,
+    "lat": 51.7029356,
+    "lon": -4.7212876,
     "address": "Narberth Road"
   },
   {
@@ -707175,7 +707175,7 @@
     "name": "Bradmoor Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": "Haddenham",
     "products": [],
     "website": null,
     "lat": 51.7775417,
@@ -707405,7 +707405,7 @@
     "region": null,
     "municipality": "Leeds",
     "products": [],
-    "website": "https://www.horsforthpickyourown.co.uk/",
+    "website": "http://www.horsforthpickyourown.co.uk/",
     "lat": 53.8338599,
     "lon": -1.6572352,
     "address": "Calverley Lane"
@@ -707643,7 +707643,7 @@
     "name": "Munns Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Berkhamsted",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.8357369,
@@ -708113,7 +708113,7 @@
     "region": null,
     "municipality": "Bruton",
     "products": [],
-    "website": "https://www.gilcombefarm.co.uk/",
+    "website": "http://www.gilcombefarm.co.uk/",
     "lat": 51.1264113,
     "lon": -2.4362558,
     "address": "Cuckoo Hill"
@@ -708306,8 +708306,8 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118071,
-    "lon": -0.1335966,
+    "lat": 51.5118118,
+    "lon": -0.1335462,
     "address": "Archer Street"
   },
   {
@@ -708408,7 +708408,7 @@
   },
   {
     "id": 5866061835,
-    "name": "The Farm Shop",
+    "name": "Peterley Manor Farm",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -708651,7 +708651,7 @@
     "name": "Hill View Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Princes Risborough",
+    "municipality": "Saunderton Lee",
     "products": [],
     "website": "https://www.hillviewmoments.com/",
     "lat": 51.6925501,
@@ -709023,7 +709023,7 @@
     "name": "Hillfoot Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Biggleswade",
+    "municipality": "Langford",
     "products": [],
     "website": null,
     "lat": 52.0472006,
@@ -709047,7 +709047,7 @@
     "name": "Franklins of Thorncote Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Hatch",
     "products": [],
     "website": null,
     "lat": 52.1166949,
@@ -709059,7 +709059,7 @@
     "name": "Knotts of Tempsford",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Sandy",
+    "municipality": "Tempsford",
     "products": [],
     "website": "https://www.knottsoftempsford.co.uk/farm-shop",
     "lat": 52.1711501,
@@ -709229,7 +709229,7 @@
     "region": null,
     "municipality": "Cote",
     "products": [],
-    "website": "https://ransons-nurseries.co.uk/",
+    "website": "http://ransons-nurseries.co.uk/",
     "lat": 51.7240761,
     "lon": -1.4948333,
     "address": null
@@ -711437,7 +711437,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://trentsfoods.com/",
+    "website": "trentsfoods.com",
     "lat": 51.5406089,
     "lon": -2.4873818,
     "address": null
@@ -711452,18 +711452,6 @@
     "website": null,
     "lat": 50.6946331,
     "lon": -1.4629575,
-    "address": null
-  },
-  {
-    "id": 12148375750,
-    "name": "Quayside Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.3548643,
-    "lon": -4.4549652,
     "address": null
   },
   {
@@ -712199,18 +712187,6 @@
     "address": null
   },
   {
-    "id": 13615171555,
-    "name": "Upper Dysart Larder",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Montrose",
-    "products": [],
-    "website": null,
-    "lat": 56.6708665,
-    "lon": -2.5133908,
-    "address": "Upper Dysart"
-  },
-  {
     "id": 13621440840,
     "name": "Leedham Farm shop",
     "country": "United Kingdom",
@@ -712292,42 +712268,6 @@
     "website": null,
     "lat": 52.5331781,
     "lon": -1.1517838,
-    "address": null
-  },
-  {
-    "id": 13856263617,
-    "name": "Saturday Farm Market",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
-    "lat": 51.7358037,
-    "lon": -1.2307511,
-    "address": null
-  },
-  {
-    "id": 13895415103,
-    "name": "The Piggery Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.3765665,
-    "lon": -1.9550574,
-    "address": "West End"
-  },
-  {
-    "id": 13910590217,
-    "name": "Primrose Organic Farm Shop & Café",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.9719887,
-    "lon": -2.2699495,
     "address": null
   },
   {
@@ -712577,7 +712517,7 @@
     "region": null,
     "municipality": "Wokingham",
     "products": [],
-    "website": "https://www.graysfarm.co.uk/",
+    "website": "http://www.graysfarm.co.uk/",
     "lat": 51.3959203,
     "lon": -0.8200209,
     "address": "Heathlands Road"
@@ -712677,18 +712617,6 @@
     "lat": 51.4257683,
     "lon": 0.4914142,
     "address": "Town road"
-  },
-  {
-    "id": 88519248,
-    "name": "Myatts of Mockbeggar Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Rochester",
-    "products": [],
-    "website": null,
-    "lat": 51.4214311,
-    "lon": 0.4903169,
-    "address": null
   },
   {
     "id": 88813278,
@@ -712949,7 +712877,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.manorfarm-shop.co.uk/",
+    "website": "http://www.manorfarm-shop.co.uk/",
     "lat": 51.42818,
     "lon": -2.442286,
     "address": "Wick Lane"
@@ -713192,18 +713120,6 @@
     "website": "http://churchstile.co.uk/",
     "lat": 54.4259937,
     "lon": -3.34983,
-    "address": null
-  },
-  {
-    "id": 165613955,
-    "name": "Lincoln Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.5726961,
-    "lon": -0.0062858,
     "address": null
   },
   {
@@ -713513,7 +713429,7 @@
     "region": null,
     "municipality": "Belper",
     "products": [],
-    "website": "https://croots.co.uk/",
+    "website": "https://www.croots.co.uk/",
     "lat": 52.9845695,
     "lon": -1.5114125,
     "address": "Wirksworth Road"
@@ -714269,7 +714185,7 @@
     "region": null,
     "municipality": "Bishop Auckland",
     "products": [],
-    "website": "https://www.bradleyburn.co.uk/",
+    "website": null,
     "lat": 54.721956,
     "lon": -1.8382827,
     "address": null
@@ -714281,7 +714197,7 @@
     "region": null,
     "municipality": "Saxmundham",
     "products": [],
-    "website": "https://www.emmerdalefarmshop.co.uk/",
+    "website": "http://www.emmerdalefarmshop.co.uk/",
     "lat": 52.268357,
     "lon": 1.5331065,
     "address": "Westleton Road"
@@ -714366,8 +714282,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.1061919,
-    "lon": -2.8090271,
+    "lat": 54.106181,
+    "lon": -2.8090358,
     "address": "The Shore"
   },
   {
@@ -714713,7 +714629,7 @@
     "region": null,
     "municipality": "Clapham",
     "products": [],
-    "website": "https://www.growingwithgrace.org.uk/",
+    "website": "http://www.growingwithgrace.org.uk/",
     "lat": 54.1149647,
     "lon": -2.3967964,
     "address": null
@@ -714797,7 +714713,7 @@
     "region": null,
     "municipality": "Bristol",
     "products": [],
-    "website": "https://www.newmanorfarmshop.co.uk/",
+    "website": "newmanorfarmshop.co.uk",
     "lat": 51.3233101,
     "lon": -2.6133171,
     "address": "Bath Road"
@@ -715160,7 +715076,7 @@
     "website": null,
     "lat": 53.6790688,
     "lon": -1.7747678,
-    "address": "Bradley Road"
+    "address": null
   },
   {
     "id": 425798479,
@@ -715611,7 +715527,7 @@
     "name": "Pound Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Swindon",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.5186469,
@@ -716139,7 +716055,7 @@
     "name": "Buckmoreland Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Aylesbury",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.7361437,
@@ -716298,8 +716214,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9717651,
-    "lon": 0.9852387,
+    "lat": 51.9717549,
+    "lon": 0.9852476,
     "address": null
   },
   {
@@ -716361,18 +716277,6 @@
     "lat": 53.9087685,
     "lon": -1.404554,
     "address": "Jewitt Lane"
-  },
-  {
-    "id": 640518313,
-    "name": "Willow Grange Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
-    "lat": 52.3188514,
-    "lon": 0.1968571,
-    "address": null
   },
   {
     "id": 645288057,
@@ -716529,6 +716433,18 @@
     "lat": 50.9575377,
     "lon": 0.1426132,
     "address": "Pump Lane"
+  },
+  {
+    "id": 676284558,
+    "name": "Berkenshaw",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.4920215,
+    "lon": -3.0460179,
+    "address": null
   },
   {
     "id": 679634686,
@@ -716706,8 +716622,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9245307,
-    "lon": 0.9718582,
+    "lat": 51.9244996,
+    "lon": 0.9718531,
     "address": null
   },
   {
@@ -716875,7 +716791,7 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3575978,
+    "lon": -0.3576796,
     "address": "High Street Whitton"
   },
   {
@@ -717141,6 +717057,18 @@
     "lat": 50.9817807,
     "lon": -0.2777906,
     "address": null
+  },
+  {
+    "id": 837850628,
+    "name": "Frankies Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Tonbridge",
+    "products": [],
+    "website": null,
+    "lat": 51.1814943,
+    "lon": 0.5478511,
+    "address": "Clapper Lane"
   },
   {
     "id": 839396756,
@@ -718350,8 +718278,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.7917439,
-    "lon": -0.1022779,
+    "lat": 51.791747,
+    "lon": -0.1023128,
     "address": null
   },
   {
@@ -718940,18 +718868,6 @@
     "website": null,
     "lat": 51.0803789,
     "lon": -1.6265582,
-    "address": null
-  },
-  {
-    "id": 992200946,
-    "name": "Wylye Valley Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.instagram.com/wylye_valley_farmshop/",
-    "lat": 51.1871543,
-    "lon": -2.1909185,
     "address": null
   },
   {
@@ -719679,12 +719595,12 @@
     "name": "Wyborn's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Barnstaple",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 51.0803174,
     "lon": -4.0584426,
-    "address": "Boutport Street"
+    "address": null
   },
   {
     "id": 1144895756,
@@ -719943,7 +719859,7 @@
     "name": "Lacey's Family Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Lane End",
     "products": [],
     "website": "https://www.laceysfamilyfarm.co.uk/farm-shop",
     "lat": 51.6207789,
@@ -720243,7 +720159,7 @@
     "name": "T Rayner & Son (Castlemans Farm Shop)",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "High Wycombe",
+    "municipality": "Wooburn Green",
     "products": [],
     "website": null,
     "lat": 51.5810484,
@@ -720432,15 +720348,15 @@
   },
   {
     "id": 1318808486,
-    "name": "Thorne's Farm Shop & Kitchen",
+    "name": "Thorne's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Crediton",
+    "municipality": null,
     "products": [],
-    "website": "https://www.thornesfarmshop.co.uk/",
+    "website": null,
     "lat": 50.8325629,
     "lon": -3.5931675,
-    "address": "Coffintree Hill"
+    "address": null
   },
   {
     "id": 1323368728,
@@ -720657,6 +720573,18 @@
     "lat": 51.2556247,
     "lon": -1.3875241,
     "address": "Egbury Road"
+  },
+  {
+    "id": 1335925059,
+    "name": "Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.0072263,
+    "lon": 0.9306949,
+    "address": null
   },
   {
     "id": 1337099132,
@@ -721679,42 +721607,6 @@
     "address": null
   },
   {
-    "id": 1502915597,
-    "name": "Bee Hives",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.9933997,
-    "lon": -1.0806409,
-    "address": null
-  },
-  {
-    "id": 1509987603,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2476721,
-    "lon": 0.2869368,
-    "address": null
-  },
-  {
-    "id": 1509987604,
-    "name": "Fairlawne",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.2499212,
-    "lon": 0.2929966,
-    "address": null
-  },
-  {
     "id": 1327612,
     "name": "Rownhams Plantation",
     "country": "United Kingdom",
@@ -722178,7 +722070,7 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.026543,
+    "lat": 51.0259881,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
   },
@@ -723020,6 +722912,18 @@
     "website": null,
     "lat": 50.8627891,
     "lon": -1.561172,
+    "address": null
+  },
+  {
+    "id": 13578056,
+    "name": "Leckford Estate",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://leckfordestate.co.uk/farming",
+    "lat": 51.1324072,
+    "lon": -1.4785776,
     "address": null
   },
   {
@@ -724278,8 +724182,8 @@
     "municipality": "Saundersfoot",
     "products": [],
     "website": null,
-    "lat": 51.7029356,
-    "lon": -4.7212876,
+    "lat": 51.7028309,
+    "lon": -4.7212527,
     "address": "Narberth Road"
   },
   {
@@ -724290,13 +724194,13 @@
     "municipality": "London",
     "products": [],
     "website": "http://meemarket.co.uk/",
-    "lat": 51.5118118,
-    "lon": -0.1335462,
+    "lat": 51.5118071,
+    "lon": -0.1335966,
     "address": "Archer Street"
   },
   {
     "id": 5866061835,
-    "name": "Peterley Manor Farm",
+    "name": "The Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": "Great Missenden",
@@ -724307,6 +724211,90 @@
     "address": "Peterley Lane"
   },
   {
+    "id": 12148375750,
+    "name": "Quayside Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.3548643,
+    "lon": -4.4549652,
+    "address": null
+  },
+  {
+    "id": 13615171555,
+    "name": "Upper Dysart Larder",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Montrose",
+    "products": [],
+    "website": null,
+    "lat": 56.6708665,
+    "lon": -2.5133908,
+    "address": "Upper Dysart"
+  },
+  {
+    "id": 13856263617,
+    "name": "Saturday Farm Market",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.oxfordcityfarm.org.uk/saturday-market",
+    "lat": 51.7358037,
+    "lon": -1.2307511,
+    "address": null
+  },
+  {
+    "id": 13895415103,
+    "name": "The Piggery Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.3765665,
+    "lon": -1.9550574,
+    "address": "West End"
+  },
+  {
+    "id": 13910590217,
+    "name": "Primrose Organic Farm Shop & Café",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.9719887,
+    "lon": -2.2699495,
+    "address": null
+  },
+  {
+    "id": 88519248,
+    "name": "Myatts of Mockbeggar Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Rochester",
+    "products": [],
+    "website": null,
+    "lat": 51.4214311,
+    "lon": 0.4903169,
+    "address": null
+  },
+  {
+    "id": 165613955,
+    "name": "Lincoln Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.5726961,
+    "lon": -0.0062858,
+    "address": null
+  },
+  {
     "id": 318387860,
     "name": "Archers Cafe",
     "country": "United Kingdom",
@@ -724314,8 +724302,8 @@
     "municipality": "Carnforth",
     "products": [],
     "website": "http://www.redbankfarm.co.uk/",
-    "lat": 54.106181,
-    "lon": -2.8090358,
+    "lat": 54.1061919,
+    "lon": -2.8090271,
     "address": "The Shore"
   },
   {
@@ -724326,20 +724314,20 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9717549,
-    "lon": 0.9852476,
+    "lat": 51.9717651,
+    "lon": 0.9852387,
     "address": null
   },
   {
-    "id": 676284558,
-    "name": "Berkenshaw",
+    "id": 640518313,
+    "name": "Willow Grange Farm Shop",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 53.4920215,
-    "lon": -3.0460179,
+    "website": "https://www.willowgrangefarm.co.uk/farm-shop",
+    "lat": 52.3188514,
+    "lon": 0.1968571,
     "address": null
   },
   {
@@ -724350,8 +724338,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.9244996,
-    "lon": 0.9718531,
+    "lat": 51.9245307,
+    "lon": 0.9718582,
     "address": null
   },
   {
@@ -724363,20 +724351,8 @@
     "products": [],
     "website": null,
     "lat": 51.4510676,
-    "lon": -0.3576796,
+    "lon": -0.3575978,
     "address": "High Street Whitton"
-  },
-  {
-    "id": 837850628,
-    "name": "Frankies Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Tonbridge",
-    "products": [],
-    "website": null,
-    "lat": 51.1814943,
-    "lon": 0.5478511,
-    "address": "Clapper Lane"
   },
   {
     "id": 952066576,
@@ -724386,32 +724362,68 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.791747,
-    "lon": -0.1023128,
+    "lat": 51.7917439,
+    "lon": -0.1022779,
+    "address": null
+  },
+  {
+    "id": 992200946,
+    "name": "Wylye Valley Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.instagram.com/wylye_valley_farmshop/",
+    "lat": 51.1871543,
+    "lon": -2.1909185,
     "address": null
   },
   {
     "id": 1318808486,
-    "name": "Thorne's Farm Shop",
+    "name": "Thorne's Farm Shop & Kitchen",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Crediton",
+    "products": [],
+    "website": "https://www.thornesfarmshop.co.uk/",
+    "lat": 50.8325629,
+    "lon": -3.5931675,
+    "address": "Coffintree Hill"
+  },
+  {
+    "id": 1502915597,
+    "name": "Bee Hives",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 50.8325629,
-    "lon": -3.5931675,
+    "lat": 52.9933997,
+    "lon": -1.0806409,
     "address": null
   },
   {
-    "id": 1335925059,
-    "name": "Farm Shop",
+    "id": 1509987603,
+    "name": "Fairlawne",
     "country": "United Kingdom",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.0072263,
-    "lon": 0.9306949,
+    "lat": 51.2476721,
+    "lon": 0.2869368,
+    "address": null
+  },
+  {
+    "id": 1509987604,
+    "name": "Fairlawne",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.2499212,
+    "lon": 0.2929966,
     "address": null
   },
   {
@@ -724422,21 +724434,9 @@
     "municipality": "Winchester",
     "products": [],
     "website": "https://www.homefarmhursley.com/",
-    "lat": 51.0259881,
+    "lat": 51.026543,
     "lon": -1.4082543,
     "address": "Hursley Park Road"
-  },
-  {
-    "id": 13578056,
-    "name": "Leckford Estate",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://leckfordestate.co.uk/farming",
-    "lat": 51.1324072,
-    "lon": -1.4785776,
-    "address": null
   },
   {
     "id": 1509987603,
@@ -754113,12 +754113,12 @@
   },
   {
     "id": 1485004883,
-    "name": "Moydrum Castel Woodland",
+    "name": "Moydrum Castle Woodland",
     "country": "Ireland",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
+    "website": null,
     "lat": 53.4272187,
     "lon": -7.8635785,
     "address": null
@@ -754161,12 +754161,12 @@
   },
   {
     "id": 1485004883,
-    "name": "Moydrum Castle Woodland",
+    "name": "Moydrum Castel Woodland",
     "country": "Ireland",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
     "lat": 53.4272187,
     "lon": -7.8635785,
     "address": null
@@ -805196,14 +805196,14 @@
   },
   {
     "id": 961780288,
-    "name": "Hofladen Chilchbüelhof",
+    "name": "24h Milch-Automat",
     "country": "Switzerland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 47.1242808,
-    "lon": 8.5910707,
+    "lat": 47.1238669,
+    "lon": 8.5907485,
     "address": null
   },
   {
@@ -805931,7 +805931,7 @@
     "name": "Walter Stettler",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Bolligen",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 46.9741855,
@@ -806233,7 +806233,7 @@
     "region": null,
     "municipality": "Hombrechtikon",
     "products": [],
-    "website": "https://demeterhof.ch/",
+    "website": "http://demeterhof.ch/",
     "lat": 47.2536326,
     "lon": 8.7694319,
     "address": "Hof Breitlen"
@@ -806389,7 +806389,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://luescherhof.ch/",
+    "website": null,
     "lat": 47.4571422,
     "lon": 8.3402986,
     "address": null
@@ -806497,7 +806497,7 @@
     "region": null,
     "municipality": "Wald (ZH)",
     "products": [],
-    "website": "https://wettstei.ch/",
+    "website": "http://wettstei.ch",
     "lat": 47.2779699,
     "lon": 8.8957316,
     "address": "Rickenbach"
@@ -807218,8 +807218,8 @@
     "municipality": "Muttenz",
     "products": [],
     "website": "https://www.kuerbisegge.ch/",
-    "lat": 47.5246046,
-    "lon": 7.6410672,
+    "lat": 47.5244823,
+    "lon": 7.640917,
     "address": "Sevogelstrasse"
   },
   {
@@ -807373,7 +807373,7 @@
     "region": null,
     "municipality": "Arisdorf",
     "products": [],
-    "website": "https://www.egghof-kunz.ch/",
+    "website": "http://www.egghof-kunz.ch/",
     "lat": 47.5147896,
     "lon": 7.7788638,
     "address": "Egghof"
@@ -808033,7 +808033,7 @@
     "region": null,
     "municipality": "Sissach",
     "products": [],
-    "website": "https://www.imhof-weine.ch/",
+    "website": "http://www.imhof-weine.ch/",
     "lat": 47.4675558,
     "lon": 7.8208096,
     "address": "Kienberg"
@@ -808237,7 +808237,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.hochstamm-liestal.ch/",
+    "website": "http://www.hochstamm-liestal.ch",
     "lat": 47.4708832,
     "lon": 7.7384406,
     "address": null
@@ -808309,7 +808309,7 @@
     "region": null,
     "municipality": "Bubendorf",
     "products": [],
-    "website": "https://www.hofwildenstein.ch/",
+    "website": "http://www.hofwildenstein.ch/",
     "lat": 47.4308859,
     "lon": 7.737811,
     "address": "Schloss Wildenstein"
@@ -809653,7 +809653,7 @@
     "region": null,
     "municipality": "Riniken",
     "products": [],
-    "website": "https://www.schaffnerhof.ch/",
+    "website": "http://www.schaffnerhof.ch/",
     "lat": 47.4947491,
     "lon": 8.1871127,
     "address": "Unterdorfstrasse"
@@ -810182,8 +810182,8 @@
     "municipality": "Eptingen",
     "products": [],
     "website": null,
-    "lat": 47.3779362,
-    "lon": 7.8418139,
+    "lat": 47.3778413,
+    "lon": 7.8413416,
     "address": "Schmutzberg"
   },
   {
@@ -810229,7 +810229,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://rueegg4you.ch/hofladen/",
+    "website": "http://www.rueegg4you.ch/hofladen/",
     "lat": 47.2428762,
     "lon": 8.8961648,
     "address": null
@@ -810697,7 +810697,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.elevagedupredeissy.ch/?page_id=4145",
+    "website": "http://www.elevagedupredeissy.ch/?page_id=4145",
     "lat": 46.870358,
     "lon": 7.0011878,
     "address": null
@@ -810841,7 +810841,7 @@
     "region": null,
     "municipality": "Penthalaz",
     "products": [],
-    "website": "https://marchelavigne.sitew.ch/",
+    "website": "http://www.marchelavigne.sitew.ch/",
     "lat": 46.6137137,
     "lon": 6.5301597,
     "address": "Route de Penthaz"
@@ -811849,7 +811849,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.frei-hoerhausen.ch/hofladen.php",
+    "website": "http://www.frei-hoerhausen.ch/hofladen.php",
     "lat": 47.6324333,
     "lon": 8.9704189,
     "address": null
@@ -812395,7 +812395,7 @@
     "address": null
   },
   {
-    "id": 8009305567,
+    "id": 8009305566,
     "name": "Biohof Honig",
     "country": "Switzerland",
     "region": null,
@@ -813787,18 +813787,6 @@
     "address": null
   },
   {
-    "id": 9379438137,
-    "name": "Hoflädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.8776324,
-    "lon": 7.4839535,
-    "address": null
-  },
-  {
     "id": 9383453489,
     "name": "Hofladen Zingel",
     "country": "Switzerland",
@@ -814033,7 +814021,7 @@
     "region": null,
     "municipality": "Davos Dorf",
     "products": [],
-    "website": "https://www.hoffmann-davos.ch/",
+    "website": "http://www.hoffmann-davos.ch/",
     "lat": 46.8037905,
     "lon": 9.8405656,
     "address": "Dischmastrasse"
@@ -814106,8 +814094,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.3179006,
-    "lon": 8.4976103,
+    "lat": 46.3179324,
+    "lon": 8.4975852,
     "address": null
   },
   {
@@ -814933,7 +814921,7 @@
     "region": null,
     "municipality": "Niederglatt SG",
     "products": [],
-    "website": "https://dudli-ochsenweid.ch/",
+    "website": "http://www.dudli-ochsenweid.ch/",
     "lat": 47.4311917,
     "lon": 9.1591456,
     "address": null
@@ -815761,7 +815749,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.naturnoech.ch/",
+    "website": "http://www.naturnoech.ch/",
     "lat": 47.126909,
     "lon": 8.5747913,
     "address": null
@@ -815977,7 +815965,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.biohof-frohberg.ch/",
+    "website": "www.biohof-frohberg.ch",
     "lat": 47.3016358,
     "lon": 8.7149168,
     "address": null
@@ -816277,7 +816265,7 @@
     "region": null,
     "municipality": "Trimbach",
     "products": [],
-    "website": "https://www.thalmann-hof.ch/verkaufabhof.php",
+    "website": "http://www.thalmann-hof.ch/verkaufabhof.php",
     "lat": 47.3690348,
     "lon": 7.8826225,
     "address": "Hauensteinstrasse"
@@ -817285,7 +817273,7 @@
     "region": null,
     "municipality": "Laax",
     "products": [],
-    "website": "https://myfarm.ch/DTtRsm",
+    "website": "http://myfarm.ch/DTtRsm",
     "lat": 46.8271258,
     "lon": 9.2553934,
     "address": "Via Pardatsch"
@@ -818407,18 +818395,6 @@
     "address": null
   },
   {
-    "id": 12063563655,
-    "name": "Alpkäserei Bissig",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9342438,
-    "lon": 8.6916899,
-    "address": "Liedernen"
-  },
-  {
     "id": 12065005875,
     "name": "La Ferme de Frience",
     "country": "Switzerland",
@@ -819137,18 +819113,6 @@
     "lat": 46.9810688,
     "lon": 9.5710464,
     "address": "Törliweg"
-  },
-  {
-    "id": 12587591789,
-    "name": "Markststand Biohof Fräschels",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9464864,
-    "lon": 7.4156287,
-    "address": null
   },
   {
     "id": 12596537744,
@@ -820111,18 +820075,6 @@
     "address": null
   },
   {
-    "id": 13175627110,
-    "name": "Zublers Hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3806304,
-    "lon": 8.1411749,
-    "address": null
-  },
-  {
     "id": 13176791861,
     "name": "La Ferme du Coucou",
     "country": "Switzerland",
@@ -820831,234 +820783,6 @@
     "address": null
   },
   {
-    "id": 13752150919,
-    "name": "La Ferme Du Sonneur",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.1720447,
-    "lon": 5.9928215,
-    "address": null
-  },
-  {
-    "id": 13768252001,
-    "name": "Ferme de Bassenges",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://fermedebassenges.ch/",
-    "lat": 46.5239763,
-    "lon": 6.5629105,
-    "address": "Chemin de la Raye"
-  },
-  {
-    "id": 13785018550,
-    "name": "Hof Brüschhalde",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0745502,
-    "lon": 8.437199,
-    "address": null
-  },
-  {
-    "id": 13785018552,
-    "name": "Hofladä Hangbühl",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0450714,
-    "lon": 8.4245088,
-    "address": null
-  },
-  {
-    "id": 13785018556,
-    "name": "Hofladen Eggisbühl",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.0322863,
-    "lon": 8.4098378,
-    "address": null
-  },
-  {
-    "id": 13787485900,
-    "name": "Hofladen Wengi Chinzi Hof",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.chinzi-hof.ch/hofladen",
-    "lat": 47.084675,
-    "lon": 7.4026774,
-    "address": null
-  },
-  {
-    "id": 13787980146,
-    "name": "Alice + Pius Mayer",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5355636,
-    "lon": 9.3397851,
-    "address": null
-  },
-  {
-    "id": 13811034747,
-    "name": "Azienda Agricola Poma",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Tremona",
-    "products": [],
-    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
-    "lat": 45.8806573,
-    "lon": 8.9528781,
-    "address": "Via Monte San Giorgio"
-  },
-  {
-    "id": 13813310789,
-    "name": "Biohof Dusch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Paspels",
-    "products": [],
-    "website": null,
-    "lat": 46.7530339,
-    "lon": 9.4509399,
-    "address": null
-  },
-  {
-    "id": 13815368021,
-    "name": "Hofladen Familie Peter",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Rickenbach ZH",
-    "products": [],
-    "website": "https://peter-rickenbach.ch",
-    "lat": 47.5521,
-    "lon": 8.7950151,
-    "address": null
-  },
-  {
-    "id": 13835528950,
-    "name": "bioverger.ch",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.bioverger.ch/",
-    "lat": 46.237573,
-    "lon": 7.4084948,
-    "address": null
-  },
-  {
-    "id": 13840961701,
-    "name": "Ferme Vuissoz",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.ferme-vuissoz.ch/",
-    "lat": 46.2238712,
-    "lon": 7.3808934,
-    "address": "Chemin de Maragnène"
-  },
-  {
-    "id": 13859804463,
-    "name": "Früchte vom Chalchbrünnli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://fruechte-vom-chalchbruennli.ch/",
-    "lat": 47.5896745,
-    "lon": 8.1734938,
-    "address": null
-  },
-  {
-    "id": 13868293893,
-    "name": "Bio-Betrieb Schüttel",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Hirschthal",
-    "products": [],
-    "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
-    "lat": 47.3193072,
-    "lon": 8.0774032,
-    "address": "Talstrasse"
-  },
-  {
-    "id": 13899712900,
-    "name": "Zürich-Grünwald",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.4169942,
-    "lon": 8.4833638,
-    "address": null
-  },
-  {
-    "id": 13910611607,
-    "name": "Hofladen Margarethengut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Binningen",
-    "products": [],
-    "website": null,
-    "lat": 47.5426579,
-    "lon": 7.5802744,
-    "address": "St. Margarethengut"
-  },
-  {
-    "id": 13917718236,
-    "name": "Abel marché",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.2386227,
-    "lon": 6.0926032,
-    "address": null
-  },
-  {
-    "id": 13917948416,
-    "name": "Les Jardins de Chivrageon",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.j-d-c.ch/",
-    "lat": 46.4890754,
-    "lon": 6.372162,
-    "address": null
-  },
-  {
-    "id": 13918001887,
-    "name": "Biohof am Schürberg",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3500166,
-    "lon": 8.1179978,
-    "address": null
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -821653,7 +821377,7 @@
     "region": null,
     "municipality": "Uttwil",
     "products": [],
-    "website": "https://www.habei.ch/",
+    "website": "http://habei.ch",
     "lat": 47.5748678,
     "lon": 9.3288057,
     "address": null
@@ -821989,7 +821713,7 @@
     "region": null,
     "municipality": "Pura",
     "products": [],
-    "website": "https://www.piscicolturapura.ch/",
+    "website": "http://www.piscicolturapura.ch/",
     "lat": 45.9870741,
     "lon": 8.8752385,
     "address": "Via Mulini"
@@ -822235,18 +821959,6 @@
     "address": null
   },
   {
-    "id": 988674600,
-    "name": "Azienda agricola monti di Condra",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
-    "lat": 46.0800899,
-    "lon": 8.9555316,
-    "address": null
-  },
-  {
     "id": 1014284328,
     "name": "agroservice.ch",
     "country": "Switzerland",
@@ -822349,7 +822061,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://tomsbiohof.ch/",
+    "website": "tomsbiohof.ch",
     "lat": 46.4849522,
     "lon": 7.2872812,
     "address": null
@@ -822715,6 +822427,366 @@
     "address": "Bühlweg"
   },
   {
+    "id": 1952344,
+    "name": "Eggwald",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5319999,
+    "lon": 8.4145039,
+    "address": null
+  },
+  {
+    "id": 2703065,
+    "name": "Nasenwald",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3109306,
+    "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 961780288,
+    "name": "Hofladen Chilchbüelhof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.1242808,
+    "lon": 8.5910707,
+    "address": null
+  },
+  {
+    "id": 4949636703,
+    "name": "Hof Ruedi Brunner",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Muttenz",
+    "products": [],
+    "website": "https://www.kuerbisegge.ch/",
+    "lat": 47.5246046,
+    "lon": 7.6410672,
+    "address": "Sevogelstrasse"
+  },
+  {
+    "id": 5425594856,
+    "name": "Hof Schmutzberg",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Eptingen",
+    "products": [],
+    "website": null,
+    "lat": 47.3779362,
+    "lon": 7.8418139,
+    "address": "Schmutzberg"
+  },
+  {
+    "id": 9379438137,
+    "name": "Hoflädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.8776324,
+    "lon": 7.4839535,
+    "address": null
+  },
+  {
+    "id": 9677787378,
+    "name": "Azienda Agricola",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.3179006,
+    "lon": 8.4976103,
+    "address": null
+  },
+  {
+    "id": 12063563655,
+    "name": "Alpkäserei Bissig",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9342438,
+    "lon": 8.6916899,
+    "address": "Liedernen"
+  },
+  {
+    "id": 12587591789,
+    "name": "Markststand Biohof Fräschels",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9464864,
+    "lon": 7.4156287,
+    "address": null
+  },
+  {
+    "id": 13175627110,
+    "name": "Zublers Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3806304,
+    "lon": 8.1411749,
+    "address": null
+  },
+  {
+    "id": 13752150919,
+    "name": "La Ferme Du Sonneur",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.1720447,
+    "lon": 5.9928215,
+    "address": null
+  },
+  {
+    "id": 13768252001,
+    "name": "Ferme de Bassenges",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://fermedebassenges.ch/",
+    "lat": 46.5239763,
+    "lon": 6.5629105,
+    "address": "Chemin de la Raye"
+  },
+  {
+    "id": 13785018550,
+    "name": "Hof Brüschhalde",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0745502,
+    "lon": 8.437199,
+    "address": null
+  },
+  {
+    "id": 13785018552,
+    "name": "Hofladä Hangbühl",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0450714,
+    "lon": 8.4245088,
+    "address": null
+  },
+  {
+    "id": 13785018556,
+    "name": "Hofladen Eggisbühl",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.0322863,
+    "lon": 8.4098378,
+    "address": null
+  },
+  {
+    "id": 13787485900,
+    "name": "Hofladen Wengi Chinzi Hof",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.chinzi-hof.ch/hofladen",
+    "lat": 47.084675,
+    "lon": 7.4026774,
+    "address": null
+  },
+  {
+    "id": 13787980146,
+    "name": "Alice + Pius Mayer",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.5355636,
+    "lon": 9.3397851,
+    "address": null
+  },
+  {
+    "id": 13811034747,
+    "name": "Azienda Agricola Poma",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Tremona",
+    "products": [],
+    "website": "https://sites.google.com/view/azienda-agricola-marzio-poma/home",
+    "lat": 45.8806573,
+    "lon": 8.9528781,
+    "address": "Via Monte San Giorgio"
+  },
+  {
+    "id": 13813310789,
+    "name": "Biohof Dusch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Paspels",
+    "products": [],
+    "website": null,
+    "lat": 46.7530339,
+    "lon": 9.4509399,
+    "address": null
+  },
+  {
+    "id": 13815368021,
+    "name": "Hofladen Familie Peter",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Rickenbach ZH",
+    "products": [],
+    "website": "https://peter-rickenbach.ch",
+    "lat": 47.5521,
+    "lon": 8.7950151,
+    "address": null
+  },
+  {
+    "id": 13835528950,
+    "name": "bioverger.ch",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.bioverger.ch/",
+    "lat": 46.237573,
+    "lon": 7.4084948,
+    "address": null
+  },
+  {
+    "id": 13840961701,
+    "name": "Ferme Vuissoz",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.ferme-vuissoz.ch/",
+    "lat": 46.2238712,
+    "lon": 7.3808934,
+    "address": "Chemin de Maragnène"
+  },
+  {
+    "id": 13859804463,
+    "name": "Früchte vom Chalchbrünnli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://fruechte-vom-chalchbruennli.ch/",
+    "lat": 47.5896745,
+    "lon": 8.1734938,
+    "address": null
+  },
+  {
+    "id": 13868293893,
+    "name": "Bio-Betrieb Schüttel",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Hirschthal",
+    "products": [],
+    "website": "https://talhof-schuettel.jimdofree.com/direktvermarktung/",
+    "lat": 47.3193072,
+    "lon": 8.0774032,
+    "address": "Talstrasse"
+  },
+  {
+    "id": 13899712900,
+    "name": "Zürich-Grünwald",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.4169942,
+    "lon": 8.4833638,
+    "address": null
+  },
+  {
+    "id": 13910611607,
+    "name": "Hofladen Margarethengut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Binningen",
+    "products": [],
+    "website": null,
+    "lat": 47.5426579,
+    "lon": 7.5802744,
+    "address": "St. Margarethengut"
+  },
+  {
+    "id": 13917718236,
+    "name": "Abel marché",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.2386227,
+    "lon": 6.0926032,
+    "address": null
+  },
+  {
+    "id": 13917948416,
+    "name": "Les Jardins de Chivrageon",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.j-d-c.ch/",
+    "lat": 46.4890754,
+    "lon": 6.372162,
+    "address": null
+  },
+  {
+    "id": 13918001887,
+    "name": "Biohof am Schürberg",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3500166,
+    "lon": 8.1179978,
+    "address": null
+  },
+  {
+    "id": 988674600,
+    "name": "Azienda agricola monti di Condra",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.luganoregion.com/en/commons/details/Azienda-agricola-monti-di-Condra/150678.html",
+    "lat": 46.0800899,
+    "lon": 8.9555316,
+    "address": null
+  },
+  {
     "id": 1507505039,
     "name": "Zelgenhof-Laden",
     "country": "Switzerland",
@@ -822760,78 +822832,6 @@
     "website": null,
     "lat": 47.35767,
     "lon": 8.6915284,
-    "address": null
-  },
-  {
-    "id": 1952344,
-    "name": "Eggwald",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.5319999,
-    "lon": 8.4145039,
-    "address": null
-  },
-  {
-    "id": 2703065,
-    "name": "Nasenwald",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3109306,
-    "lon": 8.9341511,
-    "address": null
-  },
-  {
-    "id": 961780288,
-    "name": "24h Milch-Automat",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.1238669,
-    "lon": 8.5907485,
-    "address": null
-  },
-  {
-    "id": 4949636703,
-    "name": "Hof Ruedi Brunner",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Muttenz",
-    "products": [],
-    "website": "https://www.kuerbisegge.ch/",
-    "lat": 47.5244823,
-    "lon": 7.640917,
-    "address": "Sevogelstrasse"
-  },
-  {
-    "id": 5425594856,
-    "name": "Hof Schmutzberg",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Eptingen",
-    "products": [],
-    "website": null,
-    "lat": 47.3778413,
-    "lon": 7.8413416,
-    "address": "Schmutzberg"
-  },
-  {
-    "id": 9677787378,
-    "name": "Azienda Agricola",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.3179324,
-    "lon": 8.4975852,
     "address": null
   },
   {
