@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T06:47:33.490607+00:00",
+  "updated_at": "2026-06-21T07:03:16.794580+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -22,6 +22,16 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
       "source": "European Parliament",
       "id": "8fd6b65cba0d4e61"
+    },
+    {
+      "date": "2026-06-17T07:00:00+00:00",
+      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
+      "source": "European Parliament",
+      "id": "62258df8146f627a"
     },
     {
       "date": "2026-06-12T11:51:48+00:00",
@@ -64,16 +74,6 @@
       "id": "30728bbfc25fa931"
     },
     {
-      "date": "2026-06-08T17:58:56+00:00",
-      "title": "Plants obtained by new genomic techniques | Think Tank | Parlament Ewropew - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by new genomic techniques | Think Tank | Parlament Ewropew &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PNGhPTWtrbjJtSTFCQ2JvV29BQTM2X1NrVlVPazRWV2JqdjFIZHduX0lkblR1aGdlQWNMek44ZTdUYzVqWDFDeXNfd1hxeVY0LXFZYWh0VlZheFhLOWpMWnBVeElZVzJCRlByME5lYVkycDZGTHE3UzNoY1NCdw?oc=5",
-      "source": "European Parliament",
-      "id": "00632231915a23fa"
-    },
-    {
       "date": "2026-06-08T17:29:48+00:00",
       "title": "Plants obtained by new genomic techniques - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -82,16 +82,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jUVJtSENudGZRTzJiNEwzNGtrRGRYNUxlcnNwLXdKS2FIMG9fWmxNMmZ3X3JES01uSzh6YnZyMDU5ZzJseGNQYWJ2TjkxRU9kMTJYWHg0eUs0TnBtRnAtQXlUOF9FdVY4YnNwcDV0SHd5RlZfTDVTbXpvUkt2Zw?oc=5",
       "source": "European Parliament",
       "id": "81d116d6391e0f2d"
-    },
-    {
-      "date": "2026-05-07T07:00:00+00:00",
-      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
-      "source": "European Parliament",
-      "id": "62258df8146f627a"
     },
     {
       "date": "2026-04-21T21:21:58+00:00",
@@ -124,6 +114,16 @@
       "id": "cf9070b72a864a19"
     },
     {
+      "date": "2026-04-03T01:30:56+00:00",
+      "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTRBbzZqLW55UHRfV0UybjRLSGFzbV94VHJGWFZXaEJ0MjhMX3BMNVpFWHlYSFJqeUk1NjhETThVSVdvSkZSdWh4cENSZF95aG83cXBfS3FCanV4Q2FtLVZqM3duR2RLVjVLSkJpeWFvVGFKWDlYTjJEWENYRk5MNzRPdmEyMEotUmNVSU8wQjFrcWd5eE1mbWNFRXpaZUlOUWl2UWVBRHV6WnhTek5WRUw4eksySWhOX2tqMjRRMFBUcG1kcWRZNWU1REF5enlSQzNDUE5VdGh5UWltX2xBLUEzTFBWNEhIYVZRVy1TSnk?oc=5",
+      "source": "European Parliament",
+      "id": "1e18ebb009a549c3"
+    },
+    {
       "date": "2026-03-06T01:03:25+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -132,26 +132,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPLUVfcUw3ZkhMMHgyeGl4VHFHQ2pnUGVkT1M5Ykd1ZkFVQnBiX1pxaG9wWVltcFZmRXJ0WUpIU3Y0X0wzM1ktUXpNeTREMnAxOC16REY5ZzM5aGFubUo3VUxRc21UblByWEtONzNUTnRXcE1hd1dXcGlYYlFvbFBuQU5qME85ZERreGlKTnhSRXh5Z1k0TTc3ZjcxckJvVHlXT21zZ2dwVEN1Q0p5MFQ0QmUzLTVoX1NBZEJ0ZENycGVvd0VzTEZJazhIS25IWE9mazlnWkRJUHd0NVVJaWxTbFFoQ0Q5Y3dBcjZDWUVDNXljRGtoZkVkRXBHNGNjNV9jMjN6YmFQQzIxWmVM?oc=5",
       "source": "European Parliament",
       "id": "3c57ec18e284ebb5"
-    },
-    {
-      "date": "2026-03-06T01:02:55+00:00",
-      "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUkw3ZWl1R2dGUS1SaF9wMUZ1dWRGMVdoTm9wV3VyZWh0YXl5SWRCSXJrRjZyUlVEOVVRWk9fSjdaTzBxclZQVFVHa3Z0aG9kSFNRbUZFSElUdEtKZzBPRzhSaG9DelRRZWhKMnhsSzIybzJ0OW9IYVBiWFJXUkpaVm1LWXVnTHJWLVhzQkJfWHp3YnFmMDBRZkRtVTdNT3pMU0J1czd3STF4ZTFjOEY2aE5DOEtGMWFkZnZEMnUxMVFyQlZJT0cyZDkzUjl0QjE4Snc0VXpKaDFGTGEzOUI3bmtjTUs3c3NCNTBLREJoS0VJelZnMzFDNVRpNkNSaDBkX2dPbFRETld4T01y?oc=5",
-      "source": "European Parliament",
-      "id": "6c733989312ea825"
-    },
-    {
-      "date": "2026-03-04T09:27:29+00:00",
-      "title": "05 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 05 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbkVHMXNFNXBVQTRhMXVINGpZWHZqUHFMaFJLVDAxLWJnU181MU43ZFlHOVZodVd3WExzVzRFQktCT0paSXBBQ1dWc1dRdno3QW5KSVRtWkFubllNZWd0TUVRUjFNdTdRc0Jqc3dvUkJuZGRUYklJcWk5ZHROTkRNNktRRzNxOVVyR2xyaE0zSnJvb0R6dmV5bjc3cW1LZXZlNmJkTHFkU1ZRbW1xaGFaRWg0bnhhOUszelhDdkNqZTY?oc=5",
-      "source": "European Parliament",
-      "id": "b1e73448ff55b565"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
@@ -165,13 +145,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Noticias | Parlamento Europeo - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Noticias | Parlamento Europeo &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUzEtMTJBRGNtV1dfQVlkWVpfN0Q0ZzR4X0FpMWxzcG9tZ0xuUVh3R1FwdUhHaDZCR0VyVVZFdTJkUkhYbG4zbUZHaWZUa3hTTXJkVnBNY0NfSGlwd3V1dUtESl9XRVVSMHZicDNkZXBMNlVubDJlZzM3ZXB5Rl9EUWd2cUx6aEJnYzRuNm5Lb0kzM2U2ZmhGM0JnNTRtXzZyUjBTYjNxOGJ3Y2xqQUlnMVNuTG04NnhLT0dCX1FNa1BUSS0wY3k1WDAycmhSZDVpV3dR?oc=5",
       "source": "European Parliament",
-      "id": "a8057ba0c6d6254e"
+      "id": "444a6ed0a40f4c79"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -342,16 +322,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOU2VXNkJOWG1pbGx0dkVZZUhidEcyWTJwajMzQlpvd0U4Qm9NVVY1SmdKYTVxTTFST05RTEtvYWFrTGdvTjhNUDlVZVd4MGloWDNGdHo5ZFQ5TVhkQzdfS1lUVlQ2czhrYjRrNnlUVjlUdTRPcnBYcndYdUNTRXEzZUdWalVOLVY5NHZOOTRwbHM3TExBNDNNV0x6cUhzcWsyeGhtTVZBbkdfWmZVSzd6b3Y0Q3RJLWJ4bmNXYTBHc0ZGWFB1OHlvaGh2UjZWUWR0enMzQnpuOA?oc=5",
       "source": "food.ec.europa.eu",
       "id": "a9ea1335c62af2d1"
-    },
-    {
-      "date": "2024-01-10T08:00:00+00:00",
-      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
-      "source": "EUR-Lex",
-      "id": "d5fb36521e33afe9"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
