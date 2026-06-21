@@ -25169,6 +25169,19 @@
       "lon": 7.689951,
       "address": "Kvernesveien 1153",
       "source": "https://www.hanen.no/bedrift/strand-gaard/"
+    },
+    {
+      "id": "hanen_3110",
+      "name": "Valmsnes gårdsmeieri",
+      "country": "Norway",
+      "region": "Innlandet",
+      "municipality": "Osen",
+      "products": [],
+      "website": "https://www.valmsnes.no",
+      "lat": 11.74504,
+      "lon": 61.24977,
+      "address": "Valmen 54",
+      "source": "https://www.hanen.no/bedrift/valmsnes-gaardsmeieri/"
     }
   ],
   "SE": [
