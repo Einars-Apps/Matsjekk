@@ -15921,6 +15921,19 @@
     "source": "https://www.hanen.no/bedrift/valdres-vilt/"
   },
   {
+    "id": "hanen_3110",
+    "name": "Valmsnes gårdsmeieri",
+    "country": "Norway",
+    "region": "Innlandet",
+    "municipality": "Osen",
+    "products": [],
+    "website": "https://www.valmsnes.no",
+    "lat": 11.74504,
+    "lon": 61.24977,
+    "address": "Valmen 54",
+    "source": "https://www.hanen.no/bedrift/valmsnes-gaardsmeieri/"
+  },
+  {
     "id": "hanen_2741",
     "name": "Vang Gård DA",
     "country": "Norway",
