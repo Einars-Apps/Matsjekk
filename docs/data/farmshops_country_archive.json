@@ -210295,6 +210295,42 @@
       "lat": 50.4312919,
       "lon": 5.1292943,
       "address": "Rue de Huy"
+    },
+    {
+      "id": 13919646690,
+      "name": "Milki",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 51.1445088,
+      "lon": 2.9020355,
+      "address": null
+    },
+    {
+      "id": 13925897004,
+      "name": "De Fruithoeve",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.defruithoeve.be",
+      "lat": 51.2428864,
+      "lon": 2.9861548,
+      "address": null
+    },
+    {
+      "id": 1527458917,
+      "name": "Wijndomein Beerbosch",
+      "country": "Belgium",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 50.7636743,
+      "lon": 3.3362871,
+      "address": null
     }
   ],
   "FR": [
