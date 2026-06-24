@@ -132,6 +132,18 @@
     "address": "Vrij-Harnasch"
   },
   {
+    "id": 2629214824,
+    "name": "PURE Gerbera",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Delfgauw",
+    "products": [],
+    "website": "http://www.puregerbera.nl",
+    "lat": 52.0137392,
+    "lon": 4.4010765,
+    "address": "Kooltuin"
+  },
+  {
     "id": 2629216640,
     "name": "Lemuco",
     "country": "Netherlands",
@@ -614,6 +626,18 @@
     "address": "Groeneveld"
   },
   {
+    "id": 2745968481,
+    "name": "Voort Horticulture BV",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Honselersdijk",
+    "products": [],
+    "website": null,
+    "lat": 52.0132824,
+    "lon": 4.2060127,
+    "address": "Bospolder"
+  },
+  {
     "id": 2748403922,
     "name": "Landwinkel De Verse Kers",
     "country": "Netherlands",
@@ -648,6 +672,18 @@
     "lat": 52.1609112,
     "lon": 5.3289941,
     "address": "Birkstraat"
+  },
+  {
+    "id": 2752477851,
+    "name": "De Santspuy",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Etten-Leur",
+    "products": [],
+    "website": null,
+    "lat": 51.5524347,
+    "lon": 4.6788611,
+    "address": "Zandspui"
   },
   {
     "id": 2753636931,
@@ -878,6 +914,18 @@
     "address": "Zuid Haffel"
   },
   {
+    "id": 2780652519,
+    "name": "Kukelekoe",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Baarle-Nassau",
+    "products": [],
+    "website": "https://kukelekoe.nl/onze-boerderijwinkel",
+    "lat": 51.4451204,
+    "lon": 4.9676818,
+    "address": "Heikant"
+  },
+  {
     "id": 2781213574,
     "name": "Mariahoeve",
     "country": "Netherlands",
@@ -960,6 +1008,18 @@
     "lat": 52.634646,
     "lon": 4.6783106,
     "address": "Hoeverweg"
+  },
+  {
+    "id": 2796498132,
+    "name": "Puur Brabant",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Sint-Oedenrode",
+    "products": [],
+    "website": "https://puurbrabant.nl",
+    "lat": 51.5517636,
+    "lon": 5.4835682,
+    "address": "Lieshoutseweg"
   },
   {
     "id": 2797198053,
@@ -1284,6 +1344,18 @@
     "lat": 51.2922886,
     "lon": 5.7415856,
     "address": "Strateris"
+  },
+  {
+    "id": 2828037036,
+    "name": "Streekproduct Limburg",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Leveroy",
+    "products": [],
+    "website": null,
+    "lat": 51.2592632,
+    "lon": 5.8259972,
+    "address": "Leveroysedijk"
   },
   {
     "id": 2828819097,
@@ -1802,6 +1874,18 @@
     "address": "Zijp"
   },
   {
+    "id": 2860463269,
+    "name": "Boerderijwinkel De Geer",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Gendt",
+    "products": [],
+    "website": "https://boerderijwinkeldegeer.nl",
+    "lat": 51.8884178,
+    "lon": 5.956413,
+    "address": "Flierensestraat"
+  },
+  {
     "id": 2861218003,
     "name": "'t Boerenwinkeltje",
     "country": "Netherlands",
@@ -1910,6 +1994,18 @@
     "address": "Laan van Gunterstein"
   },
   {
+    "id": 2887637761,
+    "name": "Boer Peter",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Haarzuilens",
+    "products": [],
+    "website": "https://www.boerpeter.com/",
+    "lat": 52.1183774,
+    "lon": 5.0015154,
+    "address": "Thematerweg"
+  },
+  {
     "id": 2887638000,
     "name": "De Haarse Gaard",
     "country": "Netherlands",
@@ -1923,7 +2019,7 @@
   },
   {
     "id": 2891121512,
-    "name": "Oosterom Kersen",
+    "name": "De Themaat",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarzuilens",
@@ -1956,6 +2052,18 @@
     "lat": 52.150012,
     "lon": 4.9017264,
     "address": "Van Teylingenweg"
+  },
+  {
+    "id": 2900351230,
+    "name": "Buffelfarm Meems",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Onstwedde",
+    "products": [],
+    "website": null,
+    "lat": 53.0308524,
+    "lon": 7.0511266,
+    "address": "Kampweg"
   },
   {
     "id": 2901636927,
@@ -2066,6 +2174,18 @@
     "address": "Beekkant"
   },
   {
+    "id": 2929710681,
+    "name": "Fruitbedrijf Heijnen",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Roggel",
+    "products": [],
+    "website": "https://www.fruitbedrijfheijnen.nl",
+    "lat": 51.2609289,
+    "lon": 5.9003102,
+    "address": "Roligt"
+  },
+  {
     "id": 2929829516,
     "name": "De Laarhoeve",
     "country": "Netherlands",
@@ -2138,6 +2258,18 @@
     "address": null
   },
   {
+    "id": 2964379613,
+    "name": "Tsiis & sa",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hilaard",
+    "products": [],
+    "website": null,
+    "lat": 53.1658883,
+    "lon": 5.7160569,
+    "address": "Van Aylvaleane"
+  },
+  {
     "id": 2973489407,
     "name": "De Buitenman",
     "country": "Netherlands",
@@ -2160,6 +2292,18 @@
     "lat": 52.1716686,
     "lon": 4.7730533,
     "address": "Nieuwveenseweg"
+  },
+  {
+    "id": 2993009681,
+    "name": "Tuinbouwbedrijf De Haas",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nuenen",
+    "products": [],
+    "website": "https://www.tuinbouwbedrijfdehaas.nl",
+    "lat": 51.4699408,
+    "lon": 5.5128587,
+    "address": "Soeterbeek"
   },
   {
     "id": 2996123131,
@@ -2678,18 +2822,6 @@
     "address": "Dijk"
   },
   {
-    "id": 5390987404,
-    "name": "Amaranthos Flowers",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.0025235,
-    "lon": 4.3279239,
-    "address": null
-  },
-  {
     "id": 5519083671,
     "name": "Versmarkt Willighagen",
     "country": "Netherlands",
@@ -2828,7 +2960,7 @@
     "region": null,
     "municipality": "Elst",
     "products": [],
-    "website": "http://fruitben.nl/",
+    "website": "https://fruitben.nl/",
     "lat": 51.9324474,
     "lon": 5.8592601,
     "address": "Kerkstraat"
@@ -2840,7 +2972,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.boerderijkorenblik.nl/",
+    "website": "https://www.boerderijkorenblik.nl/",
     "lat": 52.128933,
     "lon": 6.2753847,
     "address": null
@@ -3596,7 +3728,7 @@
     "region": null,
     "municipality": "Achterveld",
     "products": [],
-    "website": "https://blauwebessen.eu/",
+    "website": "https://blauwebessen.eu",
     "lat": 52.1490302,
     "lon": 5.4578806,
     "address": "Emelaarseweg"
@@ -4079,8 +4211,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.WillemsHoeveVoorhout.nl",
-    "lat": 52.2330926,
-    "lon": 4.4963868,
+    "lat": 52.2330384,
+    "lon": 4.4963762,
     "address": null
   },
   {
@@ -4553,12 +4685,12 @@
   },
   {
     "id": 11594956181,
-    "name": "Land in Zicht",
+    "name": "Theehuis & Winkel - Land in Zicht",
     "country": "Netherlands",
     "region": null,
     "municipality": "Amersfoort",
     "products": [],
-    "website": "https://landinzicht.net",
+    "website": "https://landinzicht.net/theehuis/",
     "lat": 52.212565,
     "lon": 5.4124788,
     "address": "Achterhoekerweg"
@@ -4658,18 +4790,6 @@
     "lat": 51.9986093,
     "lon": 4.5891739,
     "address": "Zuideinde"
-  },
-  {
-    "id": 11985805443,
-    "name": "Tuinbouwbedrijf De Haas",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.tuinbouwbedrijfdehaas.nl/",
-    "lat": 51.4698651,
-    "lon": 5.5127845,
-    "address": "Soeterbeek"
   },
   {
     "id": 12078001109,
@@ -5284,6 +5404,78 @@
     "address": "Wethouder Schoutenweg"
   },
   {
+    "id": 13760264610,
+    "name": "Meer Asperges",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.3462322,
+    "lon": 4.7523356,
+    "address": null
+  },
+  {
+    "id": 13761592247,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0617975,
+    "lon": 5.0745223,
+    "address": "Reinesteijnseweg"
+  },
+  {
+    "id": 13876974234,
+    "name": "Boerderijwinkel 't Gagel",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.1383046,
+    "lon": 6.3908739,
+    "address": null
+  },
+  {
+    "id": 13907073601,
+    "name": "Westerwolds Landleven",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://westerwoldslandleven.nl",
+    "lat": 53.0194375,
+    "lon": 7.0313486,
+    "address": "Scholtweg"
+  },
+  {
+    "id": 13907079804,
+    "name": "Bij de Boerin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.0169202,
+    "lon": 6.9836855,
+    "address": "Zijdstukkerweg"
+  },
+  {
+    "id": 13922077951,
+    "name": "Beleef het en Eet het",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Strijen",
+    "products": [],
+    "website": null,
+    "lat": 51.7334282,
+    "lon": 4.5072719,
+    "address": "Groot Cromstrijensedijk"
+  },
+  {
     "id": 43396672,
     "name": "biologische boerderij achtervennen",
     "country": "Netherlands",
@@ -5522,6 +5714,18 @@
     "lat": 51.7874484,
     "lon": 5.5184422,
     "address": "Oijenseweg"
+  },
+  {
+    "id": 289441233,
+    "name": "Tuinbedrijf Bonten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Baexem",
+    "products": [],
+    "website": "http://www.tuinbouwbedrijf-bonten.nl/",
+    "lat": 51.2363061,
+    "lon": 5.8873631,
+    "address": "Koelenstraat"
   },
   {
     "id": 480943280,
@@ -6215,8 +6419,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940826,
-    "lon": 4.417777,
+    "lat": 52.1940771,
+    "lon": 4.417784,
     "address": null
   },
   {
@@ -6462,6 +6666,18 @@
     "address": null
   },
   {
+    "id": 1503726682,
+    "name": "De Brandneteltuin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Nieuwegein",
+    "products": [],
+    "website": "https://brandneteltuin.nl/",
+    "lat": 52.0619632,
+    "lon": 5.0753055,
+    "address": "Reinesteijnseweg"
+  },
+  {
     "id": 5450302,
     "name": "Welgelegen",
     "country": "Netherlands",
@@ -6534,104 +6750,8 @@
     "address": null
   },
   {
-    "id": 2629214824,
-    "name": "PURE Gerbera",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Delfgauw",
-    "products": [],
-    "website": "http://www.puregerbera.nl",
-    "lat": 52.0137392,
-    "lon": 4.4010765,
-    "address": "Kooltuin"
-  },
-  {
-    "id": 2745968481,
-    "name": "Voort Horticulture BV",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Honselersdijk",
-    "products": [],
-    "website": null,
-    "lat": 52.0132824,
-    "lon": 4.2060127,
-    "address": "Bospolder"
-  },
-  {
-    "id": 2752477851,
-    "name": "De Santspuy",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Etten-Leur",
-    "products": [],
-    "website": null,
-    "lat": 51.5524347,
-    "lon": 4.6788611,
-    "address": "Zandspui"
-  },
-  {
-    "id": 2780652519,
-    "name": "Kukelekoe",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Baarle-Nassau",
-    "products": [],
-    "website": "https://kukelekoe.nl/onze-boerderijwinkel",
-    "lat": 51.4451204,
-    "lon": 4.9676818,
-    "address": "Heikant"
-  },
-  {
-    "id": 2796498132,
-    "name": "Puur Brabant",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Sint-Oedenrode",
-    "products": [],
-    "website": "https://puurbrabant.nl",
-    "lat": 51.5517636,
-    "lon": 5.4835682,
-    "address": "Lieshoutseweg"
-  },
-  {
-    "id": 2828037036,
-    "name": "Streekproduct Limburg",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Leveroy",
-    "products": [],
-    "website": null,
-    "lat": 51.2592632,
-    "lon": 5.8259972,
-    "address": "Leveroysedijk"
-  },
-  {
-    "id": 2860463269,
-    "name": "Boerderijwinkel De Geer",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Gendt",
-    "products": [],
-    "website": "https://boerderijwinkeldegeer.nl",
-    "lat": 51.8884178,
-    "lon": 5.956413,
-    "address": "Flierensestraat"
-  },
-  {
-    "id": 2887637761,
-    "name": "Boer Peter",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Haarzuilens",
-    "products": [],
-    "website": "https://www.boerpeter.com/",
-    "lat": 52.1183774,
-    "lon": 5.0015154,
-    "address": "Thematerweg"
-  },
-  {
     "id": 2891121512,
-    "name": "De Themaat",
+    "name": "Oosterom Kersen",
     "country": "Netherlands",
     "region": null,
     "municipality": "Haarzuilens",
@@ -6642,52 +6762,16 @@
     "address": "Thematerweg"
   },
   {
-    "id": 2900351230,
-    "name": "Buffelfarm Meems",
+    "id": 5390987404,
+    "name": "Amaranthos Flowers",
     "country": "Netherlands",
     "region": null,
-    "municipality": "Onstwedde",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 53.0308524,
-    "lon": 7.0511266,
-    "address": "Kampweg"
-  },
-  {
-    "id": 2929710681,
-    "name": "Fruitbedrijf Heijnen",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Roggel",
-    "products": [],
-    "website": "https://www.fruitbedrijfheijnen.nl",
-    "lat": 51.2609289,
-    "lon": 5.9003102,
-    "address": "Roligt"
-  },
-  {
-    "id": 2964379613,
-    "name": "Tsiis & sa",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hilaard",
-    "products": [],
-    "website": null,
-    "lat": 53.1658883,
-    "lon": 5.7160569,
-    "address": "Van Aylvaleane"
-  },
-  {
-    "id": 2993009681,
-    "name": "Tuinbouwbedrijf De Haas",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nuenen",
-    "products": [],
-    "website": "https://www.tuinbouwbedrijfdehaas.nl",
-    "lat": 51.4699408,
-    "lon": 5.5128587,
-    "address": "Soeterbeek"
+    "lat": 52.0025235,
+    "lon": 4.3279239,
+    "address": null
   },
   {
     "id": 10870400241,
@@ -6697,93 +6781,33 @@
     "municipality": null,
     "products": [],
     "website": "https://www.WillemsHoeveVoorhout.nl",
-    "lat": 52.2330384,
-    "lon": 4.4963762,
+    "lat": 52.2330926,
+    "lon": 4.4963868,
     "address": null
   },
   {
     "id": 11594956181,
-    "name": "Theehuis & Winkel - Land in Zicht",
+    "name": "Land in Zicht",
     "country": "Netherlands",
     "region": null,
     "municipality": "Amersfoort",
     "products": [],
-    "website": "https://landinzicht.net/theehuis/",
+    "website": "https://landinzicht.net",
     "lat": 52.212565,
     "lon": 5.4124788,
     "address": "Achterhoekerweg"
   },
   {
-    "id": 13760264610,
-    "name": "Meer Asperges",
+    "id": 11985805443,
+    "name": "Tuinbouwbedrijf De Haas",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 52.3462322,
-    "lon": 4.7523356,
-    "address": null
-  },
-  {
-    "id": 13761592247,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0617975,
-    "lon": 5.0745223,
-    "address": "Reinesteijnseweg"
-  },
-  {
-    "id": 13876974234,
-    "name": "Boerderijwinkel 't Gagel",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.1383046,
-    "lon": 6.3908739,
-    "address": null
-  },
-  {
-    "id": 13907073601,
-    "name": "Westerwolds Landleven",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://westerwoldslandleven.nl",
-    "lat": 53.0194375,
-    "lon": 7.0313486,
-    "address": "Scholtweg"
-  },
-  {
-    "id": 13907079804,
-    "name": "Bij de Boerin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.0169202,
-    "lon": 6.9836855,
-    "address": "Zijdstukkerweg"
-  },
-  {
-    "id": 289441233,
-    "name": "Tuinbedrijf Bonten",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Baexem",
-    "products": [],
-    "website": "http://www.tuinbouwbedrijf-bonten.nl/",
-    "lat": 51.2363061,
-    "lon": 5.8873631,
-    "address": "Koelenstraat"
+    "website": "https://www.tuinbouwbedrijfdehaas.nl/",
+    "lat": 51.4698651,
+    "lon": 5.5127845,
+    "address": "Soeterbeek"
   },
   {
     "id": 538330333,
@@ -6793,21 +6817,9 @@
     "municipality": null,
     "products": [],
     "website": "https://www.kievitamines.nl",
-    "lat": 52.1940771,
-    "lon": 4.417784,
+    "lat": 52.1940826,
+    "lon": 4.417777,
     "address": null
-  },
-  {
-    "id": 1503726682,
-    "name": "De Brandneteltuin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Nieuwegein",
-    "products": [],
-    "website": "https://brandneteltuin.nl/",
-    "lat": 52.0619632,
-    "lon": 5.0753055,
-    "address": "Reinesteijnseweg"
   },
   {
     "id": 13907079835,

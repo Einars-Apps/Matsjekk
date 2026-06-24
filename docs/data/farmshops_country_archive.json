@@ -185373,6 +185373,18 @@
       "lat": 53.0308524,
       "lon": 7.0511266,
       "address": "Kampweg"
+    },
+    {
+      "id": 13922077951,
+      "name": "Beleef het en Eet het",
+      "country": "Netherlands",
+      "region": null,
+      "municipality": "Strijen",
+      "products": [],
+      "website": null,
+      "lat": 51.7334282,
+      "lon": 4.5072719,
+      "address": "Groot Cromstrijensedijk"
     }
   ],
   "BE": [
