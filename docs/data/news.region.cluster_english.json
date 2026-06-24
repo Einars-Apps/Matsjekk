@@ -1,473 +1,275 @@
 {
-  "generatedAt": "2026-06-23T05:50:24.412410+00:00",
+  "generatedAt": "2026-06-24T05:40:06.308335+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 6,
-  "errors": [
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:nrk.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:vg.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Avg.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:dagbladet.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adagbladet.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:aftenposten.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aaftenposten.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:tv2.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Atv2.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:adressa.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aadressa.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:fvn.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Afvn.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:rbnett.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Arbnett.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:ifinnmark.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aifinnmark.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:smp.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Asmp.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:nordlys.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anordlys.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:svt.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:dn.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Adn.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:aftonbladet.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Aaftonbladet.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:svd.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvd.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:gp.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Agp.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:hd.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Ahd.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:nt.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Ant.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:vk.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Avk.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:bt.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Abt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:corren.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Acorren.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:dr.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adr.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:tv2.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Atv2.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:politiken.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Apolitiken.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:berlingske.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aberlingske.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:ekstrabladet.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aekstrabladet.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:fyens.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Afyens.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:jv.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ajv.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:nordjyske.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anordjyske.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:sn.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Asn.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:amtsavisen.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Aamtsavisen.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "FI",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho&hl=fi&gl=FI&ceid=FI:fi",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi"
-    },
-    {
-      "country": "DE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=DE&ceid=DE:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade"
-    },
-    {
-      "country": "NL",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=NL&ceid=NL:nl",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl"
-    },
-    {
-      "country": "BE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=BE&ceid=BE:nl",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl"
-    },
-    {
-      "country": "BE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=BE&ceid=BE:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=BE&ceid=BE%3Afr"
-    },
-    {
-      "country": "FR",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=FR&ceid=FR:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "country": "IT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farina+di+insetti&hl=it&gl=IT&ceid=IT:it",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=IT&ceid=IT%3Ait"
-    },
-    {
-      "country": "PT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farinha+de+inseto&hl=pt-PT&gl=PT&ceid=PT:pt-150",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farinha+de+inseto%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=pt-PT&gl=PT&ceid=PT%3Apt-150"
-    },
-    {
-      "country": "ES",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+harina+de+insecto&hl=es&gl=ES&ceid=ES:es",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+harina+de+insecto%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=es&gl=ES&ceid=ES%3Aes"
-    },
-    {
-      "country": "GB",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-GB&gl=GB&ceid=GB:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen"
-    },
-    {
-      "country": "IE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-IE&gl=IE&ceid=IE:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen"
-    },
-    {
-      "country": "US",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-US&gl=US&ceid=US:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen"
-    },
-    {
-      "country": "CA",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-CA&gl=CA&ceid=CA:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen"
-    },
-    {
-      "country": "AU",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-AU&gl=AU&ceid=AU:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen"
-    },
-    {
-      "country": "NZ",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-NZ&gl=NZ&ceid=NZ:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen"
-    },
-    {
-      "country": "AT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=AT&ceid=AT:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade"
-    },
-    {
-      "country": "CH",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=CH&ceid=CH:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade"
-    },
-    {
-      "country": "CH",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=CH&ceid=CH:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr"
-    },
-    {
-      "country": "CH",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farina+di+insetti&hl=it&gl=CH&ceid=CH:it",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=CH&ceid=CH%3Ait"
-    },
-    {
-      "country": "LU",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=LU&ceid=LU:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "NO",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:nrk.no&hl=no&gl=NO&ceid=NO:no",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "SE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site:svt.se&hl=sv&gl=SE&ceid=SE:sv",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "DK",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insektmel+site:dr.dk&hl=da&gl=DK&ceid=DK:da",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Adr.dk%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada"
-    },
-    {
-      "country": "FI",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho&hl=fi&gl=FI&ceid=FI:fi",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi"
-    },
-    {
-      "country": "DE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=DE&ceid=DE:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade"
-    },
-    {
-      "country": "NL",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=NL&ceid=NL:nl",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl"
-    },
-    {
-      "country": "BE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insectenmeel&hl=nl&gl=BE&ceid=BE:nl",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=BE&ceid=BE%3Anl"
-    },
-    {
-      "country": "BE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=BE&ceid=BE:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=BE&ceid=BE%3Afr"
-    },
-    {
-      "country": "FR",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=FR&ceid=FR:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "country": "IT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farina+di+insetti&hl=it&gl=IT&ceid=IT:it",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=IT&ceid=IT%3Ait"
-    },
-    {
-      "country": "PT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farinha+de+inseto&hl=pt-PT&gl=PT&ceid=PT:pt-150",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farinha+de+inseto%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=pt-PT&gl=PT&ceid=PT%3Apt-150"
-    },
-    {
-      "country": "ES",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+harina+de+insecto&hl=es&gl=ES&ceid=ES:es",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+harina+de+insecto%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=es&gl=ES&ceid=ES%3Aes"
-    },
-    {
-      "country": "GB",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-GB&gl=GB&ceid=GB:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen"
-    },
-    {
-      "country": "IE",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-IE&gl=IE&ceid=IE:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen"
-    },
-    {
-      "country": "US",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-US&gl=US&ceid=US:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen"
-    },
-    {
-      "country": "CA",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-CA&gl=CA&ceid=CA:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen"
-    },
-    {
-      "country": "AU",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-AU&gl=AU&ceid=AU:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen"
-    },
-    {
-      "country": "NZ",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-NZ&gl=NZ&ceid=NZ:en",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen"
-    },
-    {
-      "country": "AT",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=AT&ceid=AT:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade"
-    },
-    {
-      "country": "CH",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+Insektenmehl&hl=de&gl=CH&ceid=CH:de",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade"
-    },
-    {
-      "country": "CH",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=CH&ceid=CH:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=CH&ceid=CH%3Afr"
-    },
-    {
-      "country": "LU",
-      "feed": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+farine+d%27insectes&hl=fr&gl=LU&ceid=LU:fr",
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farine+d%27insectes%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fr&gl=LU&ceid=LU%3Afr"
-    }
-  ],
+  "total": 24,
+  "errors": [],
   "items": [
     {
-      "title": "Temaoversikt siste 365 dager (NZ)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-NZ&gl=NZ&ceid=NZ%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407414+00:00",
-      "source": "Google News",
-      "language": "en",
-      "country": "NZ",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-NZ&gl=NZ&ceid=NZ:en",
-      "summary": "Neutral fallback page for NZ. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "5f53e0d615a7d4d2"
-    },
-    {
-      "title": "Temaoversikt siste 365 dager (AU)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407389+00:00",
-      "source": "Google News",
-      "language": "en",
-      "country": "AU",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-AU&gl=AU&ceid=AU:en",
-      "summary": "Neutral fallback page for AU. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "90ba4cc3e1809a12"
-    },
-    {
-      "title": "Temaoversikt siste 365 dager (CA)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-CA&gl=CA&ceid=CA%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407363+00:00",
-      "source": "Google News",
-      "language": "en",
-      "country": "CA",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-CA&gl=CA&ceid=CA:en",
-      "summary": "Neutral fallback page for CA. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "f89d529fba9bbb23"
-    },
-    {
-      "title": "Temaoversikt siste 365 dager (US)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407337+00:00",
-      "source": "Google News",
+      "title": "GRA Nutra Introduces Sustainable Food Color Produced from Non-GMO Fermentation - Nutritional Outlook",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3FUWTB2cGMzc3pvcjNMOUt2Tk1Vc2pENnVKUXhmMHA5NGo2RTBXSFd1OXZvRzdSc0ppcVo5dWtkZVNobGg2S3NSVjNrd0Z1R2JUSnJfR0h1UTM1TGpyQ3lpVDZMRXcwMW5qNlFwbEdFa1B3YUJHXzNjZ0NFbnpUdVRGU1F2WExnS1luWk1rMTFyU0dCMXBReg?oc=5",
+      "pubDate": "2026-06-23T17:29:29+00:00",
+      "source": "Nutritional Outlook",
       "language": "en",
       "country": "US",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-US&gl=US&ceid=US:en",
-      "summary": "Neutral fallback page for US. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "520b96f65571bd9b"
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-US&gl=US&ceid=US%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPN3FUWTB2cGMzc3pvcjNMOUt2Tk1Vc2pENnVKUXhmMHA5NGo2RTBXSFd1OXZvRzdSc0ppcVo5dWtkZVNobGg2S3NSVjNrd0Z1R2JUSnJfR0h1UTM1TGpyQ3lpVDZMRXcwMW5qNlFwbEdFa1B3YUJHXzNjZ0NFbnpUdVRGU1F2WExnS1luWk1rMTFyU0dCMXBReg?oc=5\" target=\"_blank\">GRA Nutra Introduces Sustainable Food Color Produced from Non-GMO Fermentation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nutritional Outlook</font>",
+      "id": "9ba723ba749598b5"
     },
     {
-      "title": "Temaoversikt siste 365 dager (IE)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407311+00:00",
-      "source": "Google News",
+      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | News - European Parliament",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
+      "pubDate": "2026-06-17T10:54:27+00:00",
+      "source": "European Parliament",
       "language": "en",
       "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-IE&gl=IE&ceid=IE:en",
-      "summary": "Neutral fallback page for IE. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "806cad7ae4e9bf8e"
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5\" target=\"_blank\">New genomic techniques for plants to boost innovation in sustainable agriculture | News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Parliament</font>",
+      "id": "c94eb36d1f560ff1"
     },
     {
-      "title": "Temaoversikt siste 365 dager (GB)",
-      "url": "https://news.google.com/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
-      "pubDate": "2026-06-23T05:50:24.407284+00:00",
-      "source": "Google News",
+      "title": "Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition - EU-Startups",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5",
+      "pubDate": "2026-06-05T07:00:00+00:00",
+      "source": "EU-Startups",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5\" target=\"_blank\">Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EU-Startups</font>",
+      "id": "ffd02923cbec2e59"
+    },
+    {
+      "title": "Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits - Genetic Literacy Project",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQkdxVkxuak9MbEtKM0RfdHZ4ZWNTaDByMmJ5RmxhdGhVV2wyV2R3MnhfQkFMLXNPc1pzMHBaSDVzdzhiTXpVNDB3TjB6X3pKVW56Q05Qb2hteHVhNnpNQ1I4R3cweExGTy1lNUdQTUFINlNoODNYdnh1cDhYVHFNZUlfVlJjWjBHWjVucHVqR2daV3hvaFZVQTlfZ0w2QjFNNTd0Y0xESEVYeGlOc1JMamJiWWVyNk5aNmItcnphMVpjNnZXUjJfZjBUaGh5WWhQWFpRZTFEQ2ZpR0tBSlNfZGlqdXBwR2NPR2E3eWdjOHBwQTd3cDFsSk0zWjBpX3BIX1VybW1jdE1LbWljYjRzV1p1czZrWUw4MlZ0enNn?oc=5",
+      "pubDate": "2026-06-03T07:00:00+00:00",
+      "source": "Genetic Literacy Project",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingJBVV95cUxNQkdxVkxuak9MbEtKM0RfdHZ4ZWNTaDByMmJ5RmxhdGhVV2wyV2R3MnhfQkFMLXNPc1pzMHBaSDVzdzhiTXpVNDB3TjB6X3pKVW56Q05Qb2hteHVhNnpNQ1I4R3cweExGTy1lNUdQTUFINlNoODNYdnh1cDhYVHFNZUlfVlJjWjBHWjVucHVqR2daV3hvaFZVQTlfZ0w2QjFNNTd0Y0xESEVYeGlOc1JMamJiWWVyNk5aNmItcnphMVpjNnZXUjJfZjBUaGh5WWhQWFpRZTFEQ2ZpR0tBSlNfZGlqdXBwR2NPR2E3eWdjOHBwQTd3cDFsSk0zWjBpX3BIX1VybW1jdE1LbWljYjRzV1p1czZrWUw4MlZ0enNn?oc=5\" target=\"_blank\">Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>",
+      "id": "dea4a6e7096b134c"
+    },
+    {
+      "title": "Health beats sustainability in alternative protein pet food purchases - PetfoodIndustry",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRGF6azUtQTVIWS1QM1JPZFZ4U1dXRm12ZkROamNPN1dXSzhPNUpPZ0pVUGh0YlA1VkpsVzFGMmw2TXFsckItQUFRTTFTekhlWUJEYzJTa1pzcjZONDFHVVdRNTN5VlpDTGl6Z29Mak9VZ2xFVFBBMy1kYWVzSHNhRDh1cy1vU0EtVHRHVjJUUVNZU0VlMnpxSmI3N295UExOZ2pZSEJwdndud1J6bUZ5eW9HNzlLX0x2M0VWQURuTmZubWd2eGl4N2JzYUw2ZVc5ZVV0N2JFMkFOblBiLXhIVHlR?oc=5",
+      "pubDate": "2026-05-21T07:00:00+00:00",
+      "source": "PetfoodIndustry",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRGF6azUtQTVIWS1QM1JPZFZ4U1dXRm12ZkROamNPN1dXSzhPNUpPZ0pVUGh0YlA1VkpsVzFGMmw2TXFsckItQUFRTTFTekhlWUJEYzJTa1pzcjZONDFHVVdRNTN5VlpDTGl6Z29Mak9VZ2xFVFBBMy1kYWVzSHNhRDh1cy1vU0EtVHRHVjJUUVNZU0VlMnpxSmI3N295UExOZ2pZSEJwdndud1J6bUZ5eW9HNzlLX0x2M0VWQURuTmZubWd2eGl4N2JzYUw2ZVc5ZVV0N2JFMkFOblBiLXhIVHlR?oc=5\" target=\"_blank\">Health beats sustainability in alternative protein pet food purchases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
+      "id": "c56061ad040abab9"
+    },
+    {
+      "title": "Agriodor Raises €15M To Scale Sustainable Crop Protection - Ventureburn",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9aYjNuQ0FscWFOSTRJWWRKUDRpa2hIYWg4N2tKd19jaXV0QkNELVRZcGlaTkhCX2dSZ1pmYTBERWhFNUpvdm5OLVR0SldROXptTkNvUWFCUdIBV0FVX3lxTE9aYjNuQ0FscWFOSTRJWWRKUDRpa2hIYWg4N2tKd19jaXV0QkNELVRZcGlaTkhCX2dSZ1pmYTBERWhFNUpvdm5OLVR0SldROXptTkNvUWFCUQ?oc=5",
+      "pubDate": "2026-04-15T07:00:00+00:00",
+      "source": "Ventureburn",
       "language": "en",
       "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=Bovaer+OR+GMO+OR+insect+meal&hl=en-GB&gl=GB&ceid=GB:en",
-      "summary": "Neutral fallback page for GB. Shows recent items for Bovaer, GMO, insect meal, and food traceability.",
-      "id": "8cbeebbd32857b7c"
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9aYjNuQ0FscWFOSTRJWWRKUDRpa2hIYWg4N2tKd19jaXV0QkNELVRZcGlaTkhCX2dSZ1pmYTBERWhFNUpvdm5OLVR0SldROXptTkNvUWFCUdIBV0FVX3lxTE9aYjNuQ0FscWFOSTRJWWRKUDRpa2hIYWg4N2tKd19jaXV0QkNELVRZcGlaTkhCX2dSZ1pmYTBERWhFNUpvdm5OLVR0SldROXptTkNvUWFCUQ?oc=5\" target=\"_blank\">Agriodor Raises €15M To Scale Sustainable Crop Protection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ventureburn</font>",
+      "id": "2280c90166467eab"
+    },
+    {
+      "title": "Onda: Salmon trial evaluates insect meal as feed additive - SalmonBusiness",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5",
+      "pubDate": "2026-04-02T07:00:00+00:00",
+      "source": "SalmonBusiness",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5\" target=\"_blank\">Onda: Salmon trial evaluates insect meal as feed additive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SalmonBusiness</font>",
+      "id": "d23abaa25bfff83d"
+    },
+    {
+      "title": "IPIFF urges EU to set measures to increase insect meal inclusion in aquafeed - Aquafeed.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlJWajlpNEx3WnZvSWNFdGVxcW9hak9URWxvYW5NZGlnLW5qX1NNaVg2cTI1WkZWYXNNYkVxVVpZVjN2Qk5YS1YtSGVsSUpCRVg3TGJmNThJQ2Nja29QTkdmYkFOUmFsQXM0RGVaNjRWQkphTl83RW5lTFJualhfMnI4VVIwckJrY3JzaDg2a0pRVk0yc1YxVVNPY0s5eThsQm5uLVl6UkFqVEl6T25wdGZQNTAzZWc?oc=5",
+      "pubDate": "2026-04-01T07:00:00+00:00",
+      "source": "Aquafeed.com",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQTlJWajlpNEx3WnZvSWNFdGVxcW9hak9URWxvYW5NZGlnLW5qX1NNaVg2cTI1WkZWYXNNYkVxVVpZVjN2Qk5YS1YtSGVsSUpCRVg3TGJmNThJQ2Nja29QTkdmYkFOUmFsQXM0RGVaNjRWQkphTl83RW5lTFJualhfMnI4VVIwckJrY3JzaDg2a0pRVk0yc1YxVVNPY0s5eThsQm5uLVl6UkFqVEl6T25wdGZQNTAzZWc?oc=5\" target=\"_blank\">IPIFF urges EU to set measures to increase insect meal inclusion in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
+      "id": "f1d9ea15e553d750"
+    },
+    {
+      "title": "Bovaer cattle feed supplement to be reassessed by European Food Safety Authority - Irish Examiner",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50TlZ4S0s2UlhoOHA0QXYwRUYxRmVHWkkwM3pXVkg4cmVQZ2pEdk1McE9QSk41ZU92T1BILVhpdm5DNXVXVmdFME9hWGNBdm9kY2tMR2UtSG50Z1VISTg0UF9FNFRQdWM?oc=5",
+      "pubDate": "2026-02-25T08:00:00+00:00",
+      "source": "Irish Examiner",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50TlZ4S0s2UlhoOHA0QXYwRUYxRmVHWkkwM3pXVkg4cmVQZ2pEdk1McE9QSk41ZU92T1BILVhpdm5DNXVXVmdFME9hWGNBdm9kY2tMR2UtSG50Z1VISTg0UF9FNFRQdWM?oc=5\" target=\"_blank\">Bovaer cattle feed supplement to be reassessed by European Food Safety Authority</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Irish Examiner</font>",
+      "id": "ac8261c038236b4d"
+    },
+    {
+      "title": "Comparing meat alternatives for a sustainable food system - npj Science of Food - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2UXFGVDA4RTVrZjdlUndQMjNzOUI4cTEtc0RiTlRnejIxVm1TemJrb0NrWWlOMXRyLWViR1k5QVdSMmx5MU1fN1ZaTWJoZVNXS3pXdm0zNTVucHJIOUJz?oc=5",
+      "pubDate": "2026-02-25T08:00:00+00:00",
+      "source": "Nature",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA2UXFGVDA4RTVrZjdlUndQMjNzOUI4cTEtc0RiTlRnejIxVm1TemJrb0NrWWlOMXRyLWViR1k5QVdSMmx5MU1fN1ZaTWJoZVNXS3pXdm0zNTVucHJIOUJz?oc=5\" target=\"_blank\">Comparing meat alternatives for a sustainable food system - npj Science of Food</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "id": "2df39d441bdf4ba7"
+    },
+    {
+      "title": "European Food Safety Authority reviewing Bovaer data - Agriland",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWE9MQmxyelF0bmp0cUlzeDV2U2N6LXY5NDZmLWVqak50VDB1V2dCRU10LXlaOTZFNWRIMFRqZEp2c1FibjVid0FLb1cyNzloNEVlZzFhSjBSRkFzOTRXVDBDNEE5WVk5Z09lZ2QwVDhqcjZFcnNmT05ZTkVSNTNlSHZCc3Y0bGxhSzBOVXBfYWttRVlf?oc=5",
+      "pubDate": "2026-02-17T08:00:00+00:00",
+      "source": "Agriland",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOWE9MQmxyelF0bmp0cUlzeDV2U2N6LXY5NDZmLWVqak50VDB1V2dCRU10LXlaOTZFNWRIMFRqZEp2c1FibjVid0FLb1cyNzloNEVlZzFhSjBSRkFzOTRXVDBDNEE5WVk5Z09lZ2QwVDhqcjZFcnNmT05ZTkVSNTNlSHZCc3Y0bGxhSzBOVXBfYWttRVlf?oc=5\" target=\"_blank\">European Food Safety Authority reviewing Bovaer data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agriland</font>",
+      "id": "cee585d5e8998374"
+    },
+    {
+      "title": "Agric. & Environment: Insect-based feeds offer sustainable f - NewVision.co.ug",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnBtWHNBSWt1MnZtYWRVcEdNVjUyQ0lKeWJhOUd0NEJWWGljazRHLS1SakJNZE14MnNQWVpjRVBWeFlnNVYtQlBhbUhEVURxR1JxS1RNZXViVHV4U3ZvS19ETkZodjVsUjBTal9STXBfU3RCc2d6Q3FJWGdyeTl4VnR4V21iejl0WVpNNzNtaG04Y1FtVXk3T2R1VUdpYm04TmgyZ3d2T3ZQN3U1YUtENw?oc=5",
+      "pubDate": "2026-02-12T08:00:00+00:00",
+      "source": "NewVision.co.ug",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPcnBtWHNBSWt1MnZtYWRVcEdNVjUyQ0lKeWJhOUd0NEJWWGljazRHLS1SakJNZE14MnNQWVpjRVBWeFlnNVYtQlBhbUhEVURxR1JxS1RNZXViVHV4U3ZvS19ETkZodjVsUjBTal9STXBfU3RCc2d6Q3FJWGdyeTl4VnR4V21iejl0WVpNNzNtaG04Y1FtVXk3T2R1VUdpYm04TmgyZ3d2T3ZQN3U1YUtENw?oc=5\" target=\"_blank\">Agric. & Environment: Insect-based feeds offer sustainable f</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NewVision.co.ug</font>",
+      "id": "75df1f4cb07acc09"
+    },
+    {
+      "title": "Japanese industry-academia collaboration to test insect meal in aquafeed - Aquafeed.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORnBCN1N5LVhHSFRON1h1eFluclk4cnZFUThSZWVNaC1ZczZaamZhU0ZfSENpZVdkQkV1YUdueGZxeDFmcV9aZ2lTc1NSWlBwVWZ2Rk02YjFIV2hYU0MwVEhpd1RzRWwydl9EbDdROE4tY0UtTWpRd0FiWkhSWnpabDZnRS1fQVhCamdONmFJOFJ0THhvT1Z0Tm9jQ3lwUzN5MGtEREhLZXRmS0NWVld2M19n?oc=5",
+      "pubDate": "2026-02-11T08:00:00+00:00",
+      "source": "Aquafeed.com",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxORnBCN1N5LVhHSFRON1h1eFluclk4cnZFUThSZWVNaC1ZczZaamZhU0ZfSENpZVdkQkV1YUdueGZxeDFmcV9aZ2lTc1NSWlBwVWZ2Rk02YjFIV2hYU0MwVEhpd1RzRWwydl9EbDdROE4tY0UtTWpRd0FiWkhSWnpabDZnRS1fQVhCamdONmFJOFJ0THhvT1Z0Tm9jQ3lwUzN5MGtEREhLZXRmS0NWVld2M19n?oc=5\" target=\"_blank\">Japanese industry-academia collaboration to test insect meal in aquafeed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Aquafeed.com</font>",
+      "id": "a36174510c458146"
+    },
+    {
+      "title": "Indian biotech firm Loopworm banking on silkworms as the future of sustainable insect feed production - SeafoodSource",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUU4c0tTT3l5RTQ1bnJ0bDBjSDQzUUNpQW0ydUk3Z21wc193WmxxaDREdlJjM3lRLUFOMlItQThqcTRKeEpJaGdOVmtBLXRhSXpleHdWQjBuVXVuMUo5Z1lGQTJPcFlkRXNVY2RzUHRtZW5oUTB4cXkzeGZPOTdWLWEzdlFiaE1kUHpnSVUzMTkyZy1JbUdCVkNaT25sY3JJU0hfQVRsSHRVdlI0TDM5ZHJLSU5lb05qYnM2X1R6aHNsTWlGMlIzY1FYSlQ?oc=5",
+      "pubDate": "2026-01-29T08:00:00+00:00",
+      "source": "SeafoodSource",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUU4c0tTT3l5RTQ1bnJ0bDBjSDQzUUNpQW0ydUk3Z21wc193WmxxaDREdlJjM3lRLUFOMlItQThqcTRKeEpJaGdOVmtBLXRhSXpleHdWQjBuVXVuMUo5Z1lGQTJPcFlkRXNVY2RzUHRtZW5oUTB4cXkzeGZPOTdWLWEzdlFiaE1kUHpnSVUzMTkyZy1JbUdCVkNaT25sY3JJU0hfQVRsSHRVdlI0TDM5ZHJLSU5lb05qYnM2X1R6aHNsTWlGMlIzY1FYSlQ?oc=5\" target=\"_blank\">Indian biotech firm Loopworm banking on silkworms as the future of sustainable insect feed production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SeafoodSource</font>",
+      "id": "53468e8fcb962b29"
+    },
+    {
+      "title": "Trials to start on link between sulphur content in feed, metabolic issues and Bovaer - Agriland",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2g1U1dRZWliTEhPTTlVM19OYy1yZ2hCeHVnN3l3NDFmbGR5b280SG9adkExUnN2blRBbEFTeHJXOGh6U0piVm53Q1BWR0p2aE9JMjJaSURaRVpwYXlnSFdFbFBHWmJac0E0UkJoUWdVTTZwbHhuZXRGVHpDTzkyUUphc2w0eWl0TUxiX2xtVEpwMXBOcmhpUnVkQVZLQ1Q4SS1tbjZ2aldXX1p5bkVDODZqWnF0YktzLUdVSzhB?oc=5",
+      "pubDate": "2026-01-26T08:00:00+00:00",
+      "source": "Agriland",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2g1U1dRZWliTEhPTTlVM19OYy1yZ2hCeHVnN3l3NDFmbGR5b280SG9adkExUnN2blRBbEFTeHJXOGh6U0piVm53Q1BWR0p2aE9JMjJaSURaRVpwYXlnSFdFbFBHWmJac0E0UkJoUWdVTTZwbHhuZXRGVHpDTzkyUUphc2w0eWl0TUxiX2xtVEpwMXBOcmhpUnVkQVZLQ1Q4SS1tbjZ2aldXX1p5bkVDODZqWnF0YktzLUdVSzhB?oc=5\" target=\"_blank\">Trials to start on link between sulphur content in feed, metabolic issues and Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agriland</font>",
+      "id": "c503cd4688948bd1"
+    },
+    {
+      "title": "Sustainable protein seminar highlights Saudi-Dutch innovation in feed - Agroberichten Buitenland",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdVR0Wm5OSXNiM3hVNGVlTFczS0dPNTZ1Q3M4Ujlyb2N6aTJNbEFEU284MmpwMXNwOVNrQVpLajhYcUMxeFZoSFRaX1o5NzI5Mmh5blBBcVBnZmt0bjQ4emJkZGxCdEdpb3BveGliOUlyc1JzdFJfZWlYREVLTngyYzk3cFZFWDI0MGhnWGVaTmNfRF9TWnNSaHNCajNIM2ozQUhET2loTHFyWmtZWGkxZHdfLVRtVFNFRjJZOUdBTFg1dEZDZ3ZFUUZmdkVsTXlNblJrb0EyZXdtYWM?oc=5",
+      "pubDate": "2026-01-14T08:00:00+00:00",
+      "source": "Agroberichten Buitenland",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdVR0Wm5OSXNiM3hVNGVlTFczS0dPNTZ1Q3M4Ujlyb2N6aTJNbEFEU284MmpwMXNwOVNrQVpLajhYcUMxeFZoSFRaX1o5NzI5Mmh5blBBcVBnZmt0bjQ4emJkZGxCdEdpb3BveGliOUlyc1JzdFJfZWlYREVLTngyYzk3cFZFWDI0MGhnWGVaTmNfRF9TWnNSaHNCajNIM2ozQUhET2loTHFyWmtZWGkxZHdfLVRtVFNFRjJZOUdBTFg1dEZDZ3ZFUUZmdkVsTXlNblJrb0EyZXdtYWM?oc=5\" target=\"_blank\">Sustainable protein seminar highlights Saudi-Dutch innovation in feed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agroberichten Buitenland</font>",
+      "id": "4d8e8d574e2a727a"
+    },
+    {
+      "title": "Advantages Of GMO: 7 Key Benefits For Sustainable Farming - Farmonaut",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUko4RlJ2bk9JZnVZQWVLbi1hMzZDTzh1SUJrOEowUW94aTlZTnBuV0JPSUk2LUtzSHFhS3VBc2tENW9iVWhKeXY3WWNaQk1fVTBleUtWWUpOZWVtV0tnWS1PREpabWlkT2sxZUg2Z19YczgtLWE3M3pNVHVSR1I3b3pjbEpzUjVBVDZ3TA?oc=5",
+      "pubDate": "2025-12-19T11:26:10+00:00",
+      "source": "Farmonaut",
+      "language": "en",
+      "country": "AU",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-AU&gl=AU&ceid=AU%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNUko4RlJ2bk9JZnVZQWVLbi1hMzZDTzh1SUJrOEowUW94aTlZTnBuV0JPSUk2LUtzSHFhS3VBc2tENW9iVWhKeXY3WWNaQk1fVTBleUtWWUpOZWVtV0tnWS1PREpabWlkT2sxZUg2Z19YczgtLWE3M3pNVHVSR1I3b3pjbEpzUjVBVDZ3TA?oc=5\" target=\"_blank\">Advantages Of GMO: 7 Key Benefits For Sustainable Farming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Farmonaut</font>",
+      "id": "59e2dd79a9876467"
+    },
+    {
+      "title": "Insect meal: can the sector still deliver on its 2030 promise? - The Fish Site",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFpUem8zenhKQ3ZNS0pLUlNkRkItVEdCdklVZzlqbDZpc1pma0tPNlR5bWMzQUM4eXNfWE5melJSY0NVdWRqbGM1dk44cENDM1NaVUlIVnBONUpqeGdMWkVrUVpaYWdjYl9IWkZ0djFnLWstS09uUUw1TUlGZGsyWm5zcGZTXzVuek0wS21OVkpCaFNxZkFaaA?oc=5",
+      "pubDate": "2025-12-18T08:00:00+00:00",
+      "source": "The Fish Site",
+      "language": "en",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFpUem8zenhKQ3ZNS0pLUlNkRkItVEdCdklVZzlqbDZpc1pma0tPNlR5bWMzQUM4eXNfWE5melJSY0NVdWRqbGM1dk44cENDM1NaVUlIVnBONUpqeGdMWkVrUVpaYWdjYl9IWkZ0djFnLWstS09uUUw1TUlGZGsyWm5zcGZTXzVuek0wS21OVkpCaFNxZkFaaA?oc=5\" target=\"_blank\">Insect meal: can the sector still deliver on its 2030 promise?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fish Site</font>",
+      "id": "a56fa988f40c64d9"
+    },
+    {
+      "title": "Mars Snacking’s methane playbook: Lessons from Bovaer and a focus on next-gen tech - DairyReporter.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3YzQk9QbVlDNFhacnlXbEx3WlNQN1NwcUo5R0lxcW1XbEpDc2J4SkYySWhjakF5VUZjTlpCTzF2NDNlLWpKWFBvUHQyT0lPQ2N3SzB3OGt3TUp3a0xQRzM1RGxrQXdWcFFWb05FbF9uM0Q5dVluaTdpVVBSX3lzU0xJb1dNS3V6QjlUaV9fNUZEb3o3RUhoZy1YbFpxeVNVMXdXOEFqbU9WQm1RejhrMXk5Ty11SEk?oc=5",
+      "pubDate": "2025-12-01T08:00:00+00:00",
+      "source": "DairyReporter.com",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOT3YzQk9QbVlDNFhacnlXbEx3WlNQN1NwcUo5R0lxcW1XbEpDc2J4SkYySWhjakF5VUZjTlpCTzF2NDNlLWpKWFBvUHQyT0lPQ2N3SzB3OGt3TUp3a0xQRzM1RGxrQXdWcFFWb05FbF9uM0Q5dVluaTdpVVBSX3lzU0xJb1dNS3V6QjlUaV9fNUZEb3o3RUhoZy1YbFpxeVNVMXdXOEFqbU9WQm1RejhrMXk5Ty11SEk?oc=5\" target=\"_blank\">Mars Snacking’s methane playbook: Lessons from Bovaer and a focus on next-gen tech</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DairyReporter.com</font>",
+      "id": "f43dcc42b4eddf80"
+    },
+    {
+      "title": "New Study Raises Concerns Over Sustainability Claims Of Insect Farming - ESM Magazine",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHgxSUpRRGRmVThCSC1naENYQ240SmpnSFpXd1J4VUFZQ0FrdmNVUmxOQ21rTnJXajBCX0NHbUFSTTRmRm81RFNLOXNSTWlERDd0X24xcnlfWW1zLWl5YTQxYTQzbC1mY0JCc3gzUHgwZnVrVUJpMDZ6c1RqT0FGVVNRRjZQR1N0RmU3VTJLX3ByRVZPNFUwbm81M2xWREJXY2RhUkdQVHJHSWFnbnVXbnBCeUw?oc=5",
+      "pubDate": "2025-11-19T08:00:00+00:00",
+      "source": "ESM Magazine",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPcHgxSUpRRGRmVThCSC1naENYQ240SmpnSFpXd1J4VUFZQ0FrdmNVUmxOQ21rTnJXajBCX0NHbUFSTTRmRm81RFNLOXNSTWlERDd0X24xcnlfWW1zLWl5YTQxYTQzbC1mY0JCc3gzUHgwZnVrVUJpMDZ6c1RqT0FGVVNRRjZQR1N0RmU3VTJLX3ByRVZPNFUwbm81M2xWREJXY2RhUkdQVHJHSWFnbnVXbnBCeUw?oc=5\" target=\"_blank\">New Study Raises Concerns Over Sustainability Claims Of Insect Farming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ESM Magazine</font>",
+      "id": "bbaa72cbcf1e33fd"
+    },
+    {
+      "title": "Emergence of edible insects as sustainable food sources - The Sangai Express",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR2ZUdTdES1dQX2QyUGpUZmxkZ1pTblZSNGtNb2YwaDZVSE11UlA2VkgyVjdKYkJ3UXpMRGhFRWl4NUpkYjMtbVowZ1ZpbFdWM1VTMTdId09QYm9malhFb0VMM1lCV21EWEJlelpNc1NsNThMczM0YUdGY3JNbmlPMFRyN3JneDR0S2dRRHA4cTQ0ZHZTS2c2Nl82TkNINlJacE5oTGxxV3lfS21jd1pfdndHLU95R243Mmx2d1hyNE9ST0daVFpUWTBMVWtrbzR2N0stcHFvdXR4NnpqV3lQVVdnSTNreUxJOTJZTzlPOVc5NmNJUnBwUw?oc=5",
+      "pubDate": "2025-10-23T07:00:00+00:00",
+      "source": "The Sangai Express",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR2ZUdTdES1dQX2QyUGpUZmxkZ1pTblZSNGtNb2YwaDZVSE11UlA2VkgyVjdKYkJ3UXpMRGhFRWl4NUpkYjMtbVowZ1ZpbFdWM1VTMTdId09QYm9malhFb0VMM1lCV21EWEJlelpNc1NsNThMczM0YUdGY3JNbmlPMFRyN3JneDR0S2dRRHA4cTQ0ZHZTS2c2Nl82TkNINlJacE5oTGxxV3lfS21jd1pfdndHLU95R243Mmx2d1hyNE9ST0daVFpUWTBMVWtrbzR2N0stcHFvdXR4NnpqV3lQVVdnSTNreUxJOTJZTzlPOVc5NmNJUnBwUw?oc=5\" target=\"_blank\">Emergence of edible insects as sustainable food sources</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sangai Express</font>",
+      "id": "3523f25c13623b1d"
+    },
+    {
+      "title": "Scientists unlock hybrid protein potential for food system sustainability - Food Ingredients First",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHkxQV80eC16STdhVXpXSnJWbFBsZjNkalBHdjhkSlVYcVp3SUgzWThxS0U5SF9CVFc3VU90cTAxSndiVTA0dG11NXdkRGl6XzNDcFI1NXNoY2NlaHd0T2FQRG50dUh0bEZqQkFfSklfNE4xT1oyd1VXRkhrb3lqT01Xelk3d1U?oc=5",
+      "pubDate": "2025-10-01T07:00:00+00:00",
+      "source": "Food Ingredients First",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNdHkxQV80eC16STdhVXpXSnJWbFBsZjNkalBHdjhkSlVYcVp3SUgzWThxS0U5SF9CVFc3VU90cTAxSndiVTA0dG11NXdkRGl6XzNDcFI1NXNoY2NlaHd0T2FQRG50dUh0bEZqQkFfSklfNE4xT1oyd1VXRkhrb3lqT01Xelk3d1U?oc=5\" target=\"_blank\">Scientists unlock hybrid protein potential for food system sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Food Ingredients First</font>",
+      "id": "b6218004566a2206"
+    },
+    {
+      "title": "New 7,000-tonne insect meal factory announced in Thailand - The Fish Site",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTk2Z3ZLLTBwRXZKUUxHWHFlN29EUzFfbDdVQi1IejhxWVR0Wl9rZXAwRXJ6TTYtbV9XMGF4WjhSeHkxUkNvRWs0SWJNbEF1WmlNTnhqNWpHZnF4UU94REs2XzVONlYyZVZBeklWaDFJWllGZ2NWd0JJUFY1Ui14Mm1pRHpVZWNfQWZ3Ql83WVBVWHMx?oc=5",
+      "pubDate": "2025-09-08T07:00:00+00:00",
+      "source": "The Fish Site",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTk2Z3ZLLTBwRXZKUUxHWHFlN29EUzFfbDdVQi1IejhxWVR0Wl9rZXAwRXJ6TTYtbV9XMGF4WjhSeHkxUkNvRWs0SWJNbEF1WmlNTnhqNWpHZnF4UU94REs2XzVONlYyZVZBeklWaDFJWllGZ2NWd0JJUFY1Ui14Mm1pRHpVZWNfQWZ3Ql83WVBVWHMx?oc=5\" target=\"_blank\">New 7,000-tonne insect meal factory announced in Thailand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fish Site</font>",
+      "id": "a1519fe904ece2bb"
+    },
+    {
+      "title": "Oman Flour Mills advances insect meal project for animal feed - Oman Observer",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRW1SYWMyM3BkYm4zdzJkSWJDUE9lZHhRR0w4bjktSk5ZVHpBNGhzY09LeW02T3Z6ZzJsa1FEaHd2ZXFRMTg5VUYxY3pzTlc0Rm1LQUFLRHFvSUVIbC1acUhST0g4bzhVajdrWE5DZXBHbnZJQmxleTNiTDdIeTQ2dkpDVERlczhOYXRBWEM4UHppZ2dEQnRJTlV6dTdCVUFYbHRFR3NMcTJEeE8tUm5EMG02dzdPY19vaGtRVnU1Z9IBWkFVX3lxTE5uQ0FHWGxFWjhzT0hSVGE4NTE4NFVhNzE0NU9NYTZhckVWOVdreWVrNjhCXzdSYkpxdGJrRkI3ZTdWbEI3VXZFQXl3TlJaYzhWdndpeFRnY2FKZw?oc=5",
+      "pubDate": "2025-08-15T07:00:00+00:00",
+      "source": "Oman Observer",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQRW1SYWMyM3BkYm4zdzJkSWJDUE9lZHhRR0w4bjktSk5ZVHpBNGhzY09LeW02T3Z6ZzJsa1FEaHd2ZXFRMTg5VUYxY3pzTlc0Rm1LQUFLRHFvSUVIbC1acUhST0g4bzhVajdrWE5DZXBHbnZJQmxleTNiTDdIeTQ2dkpDVERlczhOYXRBWEM4UHppZ2dEQnRJTlV6dTdCVUFYbHRFR3NMcTJEeE8tUm5EMG02dzdPY19vaGtRVnU1Z9IBWkFVX3lxTE5uQ0FHWGxFWjhzT0hSVGE4NTE4NFVhNzE0NU9NYTZhckVWOVdreWVrNjhCXzdSYkpxdGJrRkI3ZTdWbEI3VXZFQXl3TlJaYzhWdndpeFRnY2FKZw?oc=5\" target=\"_blank\">Oman Flour Mills advances insect meal project for animal feed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oman Observer</font>",
+      "id": "9765f98191475657"
     }
   ]
 }
