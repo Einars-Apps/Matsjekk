@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T05:40:06.305228+00:00",
+  "generatedAt": "2026-06-25T05:40:46.424344+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -7,6 +7,28 @@
   "total": 34,
   "errors": [],
   "items": [
+    {
+      "title": "Landbruk og mat, Bovaer | EFSA utsetter fristen for å revurdere metanhemmeren Bovaer - Nationen",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTg2Wm1mYWdSdUltVm42cWZaVXBoZFFaTktEUV9nY3YwRGIyczU1VVZNVmFRSnRMbjBvSnZGUFBlS1lRYXQzNkZucy0tN1kwaGx2SWtXbENLUTVSQlM0RUlZbURfcnBIZ01CQXJYTXBQS0pHVXYyZU16ZlFNVi1pbzdRUDVNcHN1QkVqUTlVb0xoMEhLeThqZDFUTGo?oc=5",
+      "pubDate": "2026-06-24T08:53:19+00:00",
+      "source": "Nationen",
+      "language": "nb",
+      "country": "NO",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTg2Wm1mYWdSdUltVm42cWZaVXBoZFFaTktEUV9nY3YwRGIyczU1VVZNVmFRSnRMbjBvSnZGUFBlS1lRYXQzNkZucy0tN1kwaGx2SWtXbENLUTVSQlM0RUlZbURfcnBIZ01CQXJYTXBQS0pHVXYyZU16ZlFNVi1pbzdRUDVNcHN1QkVqUTlVb0xoMEhLeThqZDFUTGo?oc=5\" target=\"_blank\">Landbruk og mat, Bovaer | EFSA utsetter fristen for å revurdere metanhemmeren Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
+      "id": "40ba1bc39656b824"
+    },
+    {
+      "title": "Finanstilsynet slakter Storebrand: –⁠ Villedende om bærekraft - E24",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0ZManZZRmFRRnUycUVKZVh6b0prX0JDMnlCcUtMa09tMjlPWkJfa2ZPcVFzLXUxcHdQSEp6SUtrbXNTNHE5VEUxakhrQlZIbS1kUDhvSkxVeEFaZFBjQVB2eG12bFYySDI4T3pyMHhaNTFubUxnOEhOdTZBbDJQZmx2NEZ6WnhIakthejRTQ19NTWpvczJxYmh4RXJNTEk?oc=5",
+      "pubDate": "2026-06-24T08:05:05+00:00",
+      "source": "E24",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQX0ZManZZRmFRRnUycUVKZVh6b0prX0JDMnlCcUtMa09tMjlPWkJfa2ZPcVFzLXUxcHdQSEp6SUtrbXNTNHE5VEUxakhrQlZIbS1kUDhvSkxVeEFaZFBjQVB2eG12bFYySDI4T3pyMHhaNTFubUxnOEhOdTZBbDJQZmx2NEZ6WnhIakthejRTQ19NTWpvczJxYmh4RXJNTEk?oc=5\" target=\"_blank\">Finanstilsynet slakter Storebrand: –⁠ Villedende om bærekraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">E24</font>",
+      "id": "fb6e57d880ceab8f"
+    },
     {
       "title": "Bovaer, Metanhemmer | Dette lærte Bovaer-oppfinneren av danske bønder - Nationen",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdnJ0YUFsRmI5d2RTOVRwcVFIbVRuZjVtOElPb05HRzVYY09MQ3I0eHdZc0xHSEVmenhkbUxxcm5xMWJjSTI0VEFrb245UlFkVzRaZkVRQjlJM3o0OVNiY2dILVhQVlFuSEZrdXozTkVOZVdHcU9OUXV5eE5PYUpIZmRUbXYtbVo0M19YWW1PYw?oc=5",
@@ -341,17 +363,6 @@
       "manuallyAdded": true
     },
     {
-      "title": "Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder - Nationen",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtJYmMxTEs3NEpRRU4waEhRU3NfcER4TDM4SWl3U0hfSEpNMFFFR3EyLTkxbTlwQ3E2S2tUOFJzYU5tZC13R2owNk1tel9XdXlmSnFWbFZad3pTSmxZX2E1ZzJqa05LRmRKQVVTVUZLWmJuQU5tcGVTaGhVdXoyMFl5Yk9wWGtkVGxfUHdQU0hCOGRGMUpaMmVweFZ1UG55dUFJ?oc=5",
-      "pubDate": "2026-02-13T08:00:00+00:00",
-      "source": "Nationen",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Ano%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtJYmMxTEs3NEpRRU4waEhRU3NfcER4TDM4SWl3U0hfSEpNMFFFR3EyLTkxbTlwQ3E2S2tUOFJzYU5tZC13R2owNk1tel9XdXlmSnFWbFZad3pTSmxZX2E1ZzJqa05LRmRKQVVTVUZLWmJuQU5tcGVTaGhVdXoyMFl5Yk9wWGtkVGxfUHdQU0hCOGRGMUpaMmVweFZ1UG55dUFJ?oc=5\" target=\"_blank\">Metanhemmer, Bovaer | Stortinget skroter omstridt klimakrav til bønder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nationen</font>",
-      "id": "4d9db632ca05ba89"
-    },
-    {
       "title": "Landbruk, Metanhemmere | Stortinget skroter krav om Bovaer: – Helt feil å tvinge norske bønder - Bondebladet",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTFuUTBXWmYyWU5HbmlhSGd2THF5MER3aWJfODJhdGFoVmlTcWtzWVR3WExUTTNvbmZNb2h5WGlab3gyZjF1NGdFbHJadHE1ZmFqSjg4cjE1Q29TQ3pYdmQ5eHhRZDh1WnlnMThzU2dWS1NfaTdFWlJCWmtPVjBHOE1OeGFJZC0weTRqN29jRVk2QlhMVTBLY2NXckFGTHdTc04tY0lnTzAxWFNY?oc=5",
       "pubDate": "2026-02-12T08:00:00+00:00",
@@ -363,26 +374,15 @@
       "id": "88d4542b26bf3d83"
     },
     {
-      "title": "Valio keskeyttää Bovaer-rehulisäaineen kokeilun Suomessa - Yle",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9yNFRiOERDUk9adUk1SUEtYi1lX1RabkJ2ZHphNWsyVTNTR04wYUxCYUZjUU9VSTAxOFpzWmpEWWRIUQ?oc=5",
-      "pubDate": "2026-02-10T08:00:00+00:00",
-      "source": "Yle",
-      "language": "fi",
-      "country": "FI",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiQkFVX3lxTE9yNFRiOERDUk9adUk1SUEtYi1lX1RabkJ2ZHphNWsyVTNTR04wYUxCYUZjUU9VSTAxOFpzWmpEWWRIUQ?oc=5\" target=\"_blank\">Valio keskeyttää Bovaer-rehulisäaineen kokeilun Suomessa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yle</font>",
-      "id": "8d913c476df35893"
-    },
-    {
-      "title": "Valio keskeyttää Bovaerin käytön - Maaseudun Tulevaisuus",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTlLNUZGQTA3bktCZnVIRFdPN25IUS1tYnc4bGkzdUZaY3owVmhiVmNzVURldG1vUlFmMHdIcVhOOTh0NEdUaEtYQUJmaW9JRlEzX0VoVHBrM055NlRfbGViaDRVZVpCcHhyak02MDdtdG9vZmx1RG5NeDNHOVBoRWpiZUZEcUNPcEE?oc=5",
-      "pubDate": "2026-02-09T08:00:00+00:00",
-      "source": "Maaseudun Tulevaisuus",
-      "language": "fi",
-      "country": "FI",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+hy%C3%B6nteisjauho%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=fi&gl=FI&ceid=FI%3Afi",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTlLNUZGQTA3bktCZnVIRFdPN25IUS1tYnc4bGkzdUZaY3owVmhiVmNzVURldG1vUlFmMHdIcVhOOTh0NEdUaEtYQUJmaW9JRlEzX0VoVHBrM055NlRfbGViaDRVZVpCcHhyak02MDdtdG9vZmx1RG5NeDNHOVBoRWpiZUZEcUNPcEE?oc=5\" target=\"_blank\">Valio keskeyttää Bovaerin käytön</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Maaseudun Tulevaisuus</font>",
-      "id": "10995a18b0df3423"
+      "title": "Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp - Tidningen Husdjur",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5",
+      "pubDate": "2026-02-11T08:00:00+00:00",
+      "source": "Tidningen Husdjur",
+      "language": "sv",
+      "country": "SE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
+      "id": "95396880def940d3"
     }
   ]
 }
