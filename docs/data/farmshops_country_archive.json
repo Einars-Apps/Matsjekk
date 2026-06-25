@@ -419170,6 +419170,18 @@
       "lat": 40.0268222,
       "lon": -8.6224196,
       "address": null
+    },
+    {
+      "id": 13921135636,
+      "name": "Groverdi",
+      "country": "Portugal",
+      "region": null,
+      "municipality": "Santa Cruz",
+      "products": [],
+      "website": "https://www.groverdi.com/",
+      "lat": 32.6860679,
+      "lon": -16.8226344,
+      "address": "Caminho Pico Norte"
     }
   ],
   "ES": [

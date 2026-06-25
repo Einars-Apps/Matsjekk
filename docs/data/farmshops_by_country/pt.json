@@ -256,12 +256,12 @@
     "name": "Wine in the Azores Eco Retreat",
     "country": "Portugal",
     "region": null,
-    "municipality": null,
+    "municipality": "Capelo",
     "products": [],
     "website": null,
     "lat": 38.5676421,
     "lon": -28.7831734,
-    "address": null
+    "address": "Estrada Varadouro - Comprido"
   },
   {
     "id": 10068732992,
@@ -478,6 +478,18 @@
     "lat": 41.2957604,
     "lon": -7.7455804,
     "address": "Rua Camilo Castelo Branco"
+  },
+  {
+    "id": 13921135636,
+    "name": "Groverdi",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Santa Cruz",
+    "products": [],
+    "website": "https://www.groverdi.com/",
+    "lat": 32.6860679,
+    "lon": -16.8226344,
+    "address": "Caminho Pico Norte"
   },
   {
     "id": 99721279,
