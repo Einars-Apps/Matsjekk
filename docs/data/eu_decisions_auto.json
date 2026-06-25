@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-06-24T06:38:37.236982+00:00",
+  "updated_at": "2026-06-25T06:39:14.756409+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-06-25T01:26:10+00:00",
+      "title": "30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUWxHay10UWlBY2RkQi14eHE1SlZrSTFlTjFqLVVWVUs5azVaOWZtdk9JdkNYTXNQODdIdGVhVWo5M0RBejN6cGdmdlhydzR2ZHRMMU1Tc2dpNWhFS3VZaFQ5Wk9TTHVlUmVMSUFrSTcxWTUzeElyVHNISDR0Rml6anV3WjF1MnFDa0ZoTXo1TDVMY2JXRm5qZFNVN0M5ZXlwVDFsdEFsVTd1Ym04cE1jM19VQzhiSU0?oc=5",
+      "source": "European Parliament",
+      "id": "09fd49d993d6d1d2"
+    },
     {
       "date": "2026-06-17T15:01:15+00:00",
       "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | News - European Parliament",
@@ -44,16 +54,6 @@
       "id": "62258df8146f627a"
     },
     {
-      "date": "2026-06-12T11:51:48+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | Nyheder - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | Nyheder &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeFhBWTkxTi0wcGhCUG94WmRwc2JyX2FaWnh1Nk1MZzZQNXhXeWhkU2dzZWhNX1hDYTFrenpBRWJ4cERBWmVnSmNxa1k4dlF3WDd3RmpfU0ZzdXVSQl9WeGlBSUt1RExZcWhtNEFtWENNVTVWenNIUHBaV2VMa1FBTF9oQURyX3hKbTlxQVo0UWJTTDVGTGdSQUp1Vl9VVW8zVk5fZ3B1UENlNERpcG9KUV9ySk5KZVlITWVSeGpFRGRSdFl6NU9pLUVqZWIxSU5QVk1CdjNsTHFQTjZZM2pMdDJ6ZkVCeHM?oc=5",
-      "source": "European Parliament",
-      "id": "ee2a3573ae1f83ad"
-    },
-    {
       "date": "2026-06-12T10:35:51+00:00",
       "title": "New genomic techniques for plants to boost innovation in sustainable agriculture - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -64,14 +64,14 @@
       "id": "80e5f837001978b4"
     },
     {
-      "date": "2026-06-11T07:00:00+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture - European Parliament",
+      "date": "2026-06-11T13:48:17+00:00",
+      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNjgwaFpOdUJudDFYVWVBeXh3TThacFI3LW12cU9wN093NFQxSEp3aDFyNjRvLXlRbmxlbE0wSkNCbEZGVUpjMlR5bEpGTmVDUWNpTVJoZV9jd0pqUk1LOTRqdzNZVjBQM1poMTkyQXB1dDRNRGtHazNBamk5NXBtQXRPVjZTMFUwQlZyWHRqWUkwYzlrSjZaRE8zbmVpaktuLVhPMEkxbk9zdm5QQ3NkNmdzN1dmdUEtS2ZKMGNrLTlaSG9iWDVGLWVtQ0plTVVYaThXMFN0bHlhNl9FaXJpaE90SnpNd1U?oc=5",
+      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5",
       "source": "European Parliament",
-      "id": "fdd1c38e828e360a"
+      "id": "63e593959e16953d"
     },
     {
       "date": "2026-06-09T18:13:03+00:00",
@@ -244,16 +244,6 @@
       "id": "9b65007102d34b3c"
     },
     {
-      "date": "2025-02-15T05:20:10+00:00",
-      "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "377d942b98585f30"
-    },
-    {
       "date": "2024-11-07T08:00:00+00:00",
       "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -262,6 +252,16 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
       "source": "EUR-Lex",
       "id": "b728d19d56a95238"
+    },
+    {
+      "date": "2024-10-02T22:12:39+00:00",
+      "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMXJQX2p2TWdSRkdCdElxY1lmdFhmRUdCSTRWcXlNX09Sb1AySG9KaUw4UnFRSjlQdnVZdmpsZDdTUTBNdUdJSDRnUGZCeTF1aDhxUFBKZGtFS1dwVlJsV093RzZCamxucEJYeXJkRTcyWUtrVjBmc2RfS2ttUGUyRDdZSnBGN0l1QlVFNmJYc0lhX205Tm44bw?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "5837b7fe867885a2"
     },
     {
       "date": "2024-10-01T20:28:50+00:00",
@@ -352,16 +352,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
       "source": "food.ec.europa.eu",
       "id": "252c440680606480"
-    },
-    {
-      "date": "2023-09-06T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
-      "source": "EUR-Lex",
-      "id": "689659b69845a846"
     },
     {
       "date": "2023-07-24T07:00:00+00:00",
