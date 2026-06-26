@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T05:40:46.424344+00:00",
+  "generatedAt": "2026-06-26T05:42:20.338825+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -7,6 +7,28 @@
   "total": 34,
   "errors": [],
   "items": [
+    {
+      "title": "Fortsatt fokus på bærekraft - kutter egne utslipp med 82,5 prosent - Teknisk Ukeblad",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX055RnZyNEZNeTlVSEVhUnVBbjM3SXNtWXBsTjRUSHM4elY5VWxaeXRGbFRBWUJma28za0d2S0Rma3BtZlVub1haN1E4Mk1MTTVybHBlTU4zWmpTLVAtOF9pa2ZUeGU1eDBpZ1lMdzdnTlphQXl3YmZJRXk0c3pybktNalpwbk03dEhEenhqdXZDWkhINk92ZWRHZUtLNnhkVjFPSWdCVVdtWnJJVi1ZbmtKN0pQbm1ndWg5YWl6U0pRR0FSYlQ3anBR?oc=5",
+      "pubDate": "2026-06-25T08:56:19+00:00",
+      "source": "Teknisk Ukeblad",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQX055RnZyNEZNeTlVSEVhUnVBbjM3SXNtWXBsTjRUSHM4elY5VWxaeXRGbFRBWUJma28za0d2S0Rma3BtZlVub1haN1E4Mk1MTTVybHBlTU4zWmpTLVAtOF9pa2ZUeGU1eDBpZ1lMdzdnTlphQXl3YmZJRXk0c3pybktNalpwbk03dEhEenhqdXZDWkhINk92ZWRHZUtLNnhkVjFPSWdCVVdtWnJJVi1ZbmtKN0pQbm1ndWg5YWl6U0pRR0FSYlQ3anBR?oc=5\" target=\"_blank\">Fortsatt fokus på bærekraft - kutter egne utslipp med 82,5 prosent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Teknisk Ukeblad</font>",
+      "id": "128562ec0b9c88e4"
+    },
+    {
+      "title": "Orkla og Coca-Cola på eksklusiv bærekraft-liste - MatvareWatch",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BZXFOejE3YmNrOEpzc3ROUUs5YUtNSWlEcGZzd0xXcWt1X3FzbzV5bGxmajlwZlQwR1VRTEF2VE00X0NoSWM4U18xZkF0eVZTMDhDendxRk1lZmlPbHVVTldQMjltUQ?oc=5",
+      "pubDate": "2026-06-25T07:31:47+00:00",
+      "source": "MatvareWatch",
+      "language": "da",
+      "country": "DK",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BZXFOejE3YmNrOEpzc3ROUUs5YUtNSWlEcGZzd0xXcWt1X3FzbzV5bGxmajlwZlQwR1VRTEF2VE00X0NoSWM4U18xZkF0eVZTMDhDendxRk1lZmlPbHVVTldQMjltUQ?oc=5\" target=\"_blank\">Orkla og Coca-Cola på eksklusiv bærekraft-liste</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MatvareWatch</font>",
+      "id": "41a2f7afc56599d3"
+    },
     {
       "title": "Landbruk og mat, Bovaer | EFSA utsetter fristen for å revurdere metanhemmeren Bovaer - Nationen",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTg2Wm1mYWdSdUltVm42cWZaVXBoZFFaTktEUV9nY3YwRGIyczU1VVZNVmFRSnRMbjBvSnZGUFBlS1lRYXQzNkZucy0tN1kwaGx2SWtXbENLUTVSQlM0RUlZbURfcnBIZ01CQXJYTXBQS0pHVXYyZU16ZlFNVi1pbzdRUDVNcHN1QkVqUTlVb0xoMEhLeThqZDFUTGo?oc=5",
@@ -52,17 +74,6 @@
       "id": "73777283ee3f7719"
     },
     {
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | Nyheter | Europaparlamentet - LinkedIn Norge",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONzBCRUJzTjBpS3lPTnVnZ3IwTklKVkZaMVo2Y0FIWHEtMm9hcDFzZ0hsTUF0dTZYZk9oZG8zam9Fc19fYzlOVUZ6UW43QlJJYklEdHVwT3ktRU9qV0RqU0xTNFZBSjlYRk9YUVd5TkxzazVHVUZ5UDV3QUxvS1lua2dPbkVzU2gtRkFlS0w4c1lRMGRmNGRZNlJteTY4YTJkX2twTmdJcTJYZ2p1WXpZX1pIYWw1ckdzS0k4WXBoMmFsZw?oc=5",
-      "pubDate": "2026-06-18T09:30:13+00:00",
-      "source": "LinkedIn Norge",
-      "language": "nb",
-      "country": "NO",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel+site%3Anrk.no%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=no&gl=NO&ceid=NO%3Ano",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxONzBCRUJzTjBpS3lPTnVnZ3IwTklKVkZaMVo2Y0FIWHEtMm9hcDFzZ0hsTUF0dTZYZk9oZG8zam9Fc19fYzlOVUZ6UW43QlJJYklEdHVwT3ktRU9qV0RqU0xTNFZBSjlYRk9YUVd5TkxzazVHVUZ5UDV3QUxvS1lua2dPbkVzU2gtRkFlS0w4c1lRMGRmNGRZNlJteTY4YTJkX2twTmdJcTJYZ2p1WXpZX1pIYWw1ckdzS0k4WXBoMmFsZw?oc=5\" target=\"_blank\">New genomic techniques for plants to boost innovation in sustainable agriculture | Nyheter | Europaparlamentet</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LinkedIn Norge</font>",
-      "id": "533fd882a1856ab0"
-    },
-    {
       "title": "Gäsene avslutar Bovaer-projekt trots sänkt metanutsläpp - Land.se",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDRYNUNXV25YN3dHMnJlZmpmQWl3Ym5FQnM5MFNja2JkcmlkWXlrQ3YwbGtFWmh1aEZxc1hoREczUFNCd092Y1BrVV9nM1pVREpiejlLTmNCeGVSa24zMkVzV1RnbEZDajJHOWxmbzdfWDdGV2JQVkNCanNXQXBRUy1iSWJfeGVycENGdy1ESzg4SVF1QWZ6M1lDWEFzejk3?oc=5",
       "pubDate": "2026-06-04T19:43:14+00:00",
@@ -98,7 +109,7 @@
     {
       "title": "Arctic Bath uppmärksammas av Falstaff Hotel Guide Nordics 2026 med utmärkelsen Sustainability & Innovation - Mynewsdesk",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOdG53T2M4Y0tYdTBvMUZ5ZnRYNFF1VVhoU0RwXzl3bEtVdXdtLVFVZEg3bGI5VG9kVllBODZYeGVYOE5zdDE4OWM1WW5ZaW5lM2xmczgwR3dWNzJzOFZJSDZrZ3ViQTd3UkFLai1IZzF2ZTk2T2h3YW5Iamo3TTJBcFlFZTRSblJBUXdNVXFISF9qS1o2cVdkaVZwaldybEJDRTltNkpKU0UwR29JVGVZV2VLdVdrNlA3Tl9iUlNCSnhfMVFMLVNRTFpHUHowM3ZHYjFNcW1HVUxFUHkzeDI4MV8yQXlYcHoxMzg5eHhzSUJJOGx4aVRJUG44ZF9ETXY0QWhV?oc=5",
-      "pubDate": "2026-05-28T15:11:45+00:00",
+      "pubDate": "2026-05-28T07:00:00+00:00",
       "source": "Mynewsdesk",
       "language": "sv",
       "country": "SE",
@@ -239,15 +250,15 @@
       "id": "54df4fbd7959d0cd"
     },
     {
-      "title": "Styrker Europas kunnskap om natur og bærekraft - Norsk institutt for naturforskning (NINA)",
+      "title": "Styrker Europas kunnskap om natur og bærekraft - NINA - Norsk institutt for naturforskning",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0s3QUU5UFR0bXVINUs0OWppUFJvOGFKRGxaSTl1azA3THloWUhYLXNsZ0J0SUc3UHZQa0RZWlNSa0dEbHBnTHhZV25vd3QwbzllZjJfLTdUbV93dXJUa3ZfcksxdGlOclBoS3VjWmJIMWlfMnB2aTQ0WlFXU29Lcl9zUUlXU1BVTndLTUU1NElvX2dISzk0Q2Q1VUpnaEVV?oc=5",
       "pubDate": "2026-03-16T07:00:00+00:00",
-      "source": "Norsk institutt for naturforskning (NINA)",
+      "source": "NINA - Norsk institutt for naturforskning",
       "language": "da",
       "country": "DK",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0s3QUU5UFR0bXVINUs0OWppUFJvOGFKRGxaSTl1azA3THloWUhYLXNsZ0J0SUc3UHZQa0RZWlNSa0dEbHBnTHhZV25vd3QwbzllZjJfLTdUbV93dXJUa3ZfcksxdGlOclBoS3VjWmJIMWlfMnB2aTQ0WlFXU29Lcl9zUUlXU1BVTndLTUU1NElvX2dISzk0Q2Q1VUpnaEVV?oc=5\" target=\"_blank\">Styrker Europas kunnskap om natur og bærekraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Norsk institutt for naturforskning (NINA)</font>",
-      "id": "2dcb729e1909c157"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0s3QUU5UFR0bXVINUs0OWppUFJvOGFKRGxaSTl1azA3THloWUhYLXNsZ0J0SUc3UHZQa0RZWlNSa0dEbHBnTHhZV25vd3QwbzllZjJfLTdUbV93dXJUa3ZfcksxdGlOclBoS3VjWmJIMWlfMnB2aTQ0WlFXU29Lcl9zUUlXU1BVTndLTUU1NElvX2dISzk0Q2Q1VUpnaEVV?oc=5\" target=\"_blank\">Styrker Europas kunnskap om natur og bærekraft</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NINA - Norsk institutt for naturforskning</font>",
+      "id": "4eda70c368d160f1"
     },
     {
       "title": "Tine raser på omdømmemåling etter metanhemmer-striden – ubehagelig overraskelse",
@@ -372,17 +383,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektmel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=da&gl=DK&ceid=DK%3Ada",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQYTFuUTBXWmYyWU5HbmlhSGd2THF5MER3aWJfODJhdGFoVmlTcWtzWVR3WExUTTNvbmZNb2h5WGlab3gyZjF1NGdFbHJadHE1ZmFqSjg4cjE1Q29TQ3pYdmQ5eHhRZDh1WnlnMThzU2dWS1NfaTdFWlJCWmtPVjBHOE1OeGFJZC0weTRqN29jRVk2QlhMVTBLY2NXckFGTHdTc04tY0lnTzAxWFNY?oc=5\" target=\"_blank\">Landbruk, Metanhemmere | Stortinget skroter krav om Bovaer: – Helt feil å tvinge norske bønder</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bondebladet</font>",
       "id": "88d4542b26bf3d83"
-    },
-    {
-      "title": "Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp - Tidningen Husdjur",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5",
-      "pubDate": "2026-02-11T08:00:00+00:00",
-      "source": "Tidningen Husdjur",
-      "language": "sv",
-      "country": "SE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insektsmj%C3%B6l+site%3Asvt.se%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=sv&gl=SE&ceid=SE%3Asv",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQLThmZ0RRNkRxcjVuZ010emRjbXZZdDhUa2FKSHpoZGlKLUlMeWFFWFgyRUlKZHN1TEhHcV9GUWtWQlF2cXVFOWpMQVpCSTM4bF9Hdy15ZXBySXRYMWp0TlFnTGRkU1RCd3BpUUVwdlBONldkdVVJOHFXRUdXMUNxazh6Tzk4X3JzNzIzRTcxc05HamdEUWVHYmhiZ1ByYTh3a2RhQXpR?oc=5\" target=\"_blank\">Högfettshavre, rapskaka och Bovaer ger olika effekter på metanutsläpp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tidningen Husdjur</font>",
-      "id": "95396880def940d3"
     }
   ]
 }
