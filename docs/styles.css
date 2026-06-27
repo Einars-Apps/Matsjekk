@@ -531,6 +531,20 @@ h3 {
     font-weight: 700;
 }
 
+.theme-how {
+    margin-top: 0.55rem;
+    padding: 0.6rem 0.75rem;
+    background: #f3f8f4;
+    border-left: 3px solid #2f7f4f;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #2c3e44;
+}
+
+.theme-how strong {
+    color: #1f5f39;
+}
+
 .topic-filter-row {
     display: flex;
     flex-wrap: wrap;
