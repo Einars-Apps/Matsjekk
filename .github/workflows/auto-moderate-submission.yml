@@ -11,11 +11,7 @@ permissions:
 jobs:
   auto_moderate:
     # Run when a new submission issue opens, OR when 'submission' label is added
-    # Skip news submissions (handled by auto-moderate-news.yml)
     if: |
-      !contains(github.event.issue.labels.*.name, 'news') &&
-      !startsWith(github.event.issue.title, '[News Submission]') &&
-      !startsWith(github.event.issue.title, '[News Report]') &&
       (
         (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'submission')) ||
         (github.event.action == 'labeled' && github.event.label.name == 'submission')
