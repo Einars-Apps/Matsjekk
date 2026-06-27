@@ -62,7 +62,14 @@
   "gmoHighRisk": "RISCO ALTO: O produtor está vinculado ao uso de ração transgénica.",
   "bovaerPossibleRisk": "RISCO POSSÍVEL: O produtor é parceiro de empresas vinculadas ao Bovaer.",
   "safeProduct": "SEGURO: O produto é certificado como orgânico.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Remover anúncios",
+  "removeAdsInfo": "Remova os anúncios para mais espaço na lista de compras",
+  "removeAdsMenuItem": "Remover anúncios (49 kr) — apoia o desenvolvimento",
+  "delete": "Eliminar",
+  "deleteListConfirmTitle": "Eliminar lista?",
+  "deleteListConfirmMessage": "Tem a certeza? Isto também eliminará o histórico da lista.",
+  "finnish": "Finlandês",
+  "ngtAlert": "Alerta de OGM oculto (NGT)",
+  "searchHint": "Pesquisar... (ex.: leite)",
+  "unknownProduct": "Produto desconhecido"
 }

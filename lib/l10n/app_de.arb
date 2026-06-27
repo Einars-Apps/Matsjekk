@@ -62,7 +62,14 @@
   "gmoHighRisk": "HOHES RISIKO: Der Hersteller ist mit der Verwendung von GVO-Futter verbunden.",
   "bovaerPossibleRisk": "MÖGLICHES RISIKO: Der Hersteller ist Partner von Unternehmen, die mit Bovaer verbunden sind.",
   "safeProduct": "SICHER: Das Produkt ist als ökologisch zertifiziert.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Werbung entfernen",
+  "removeAdsInfo": "Werbung entfernen für mehr Platz in der Einkaufsliste",
+  "removeAdsMenuItem": "Werbung entfernen (49 kr) — unterstützt die Weiterentwicklung",
+  "delete": "Löschen",
+  "deleteListConfirmTitle": "Liste löschen?",
+  "deleteListConfirmMessage": "Bist du sicher? Dadurch wird auch der Verlauf der Liste gelöscht.",
+  "finnish": "Finnisch",
+  "ngtAlert": "Versteckte GVO (NGT)-Warnung",
+  "searchHint": "Suchen... (z. B. Milch)",
+  "unknownProduct": "Unbekanntes Produkt"
 }

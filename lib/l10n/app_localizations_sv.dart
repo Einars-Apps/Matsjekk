@@ -48,7 +48,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get insectMealAlert => 'Insektsmjöl-avisering';
 
   @override
-  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+  String get ngtAlert => 'Dold GMO (NGT)-varning';
 
   @override
   String get gmoFishAlert => 'GMO-foder (Fisk)';
@@ -144,7 +144,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get portuguese => 'Portugisisk';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Finska';
 
   @override
   String get changeListName => 'Ändra listnamn';
@@ -201,26 +201,26 @@ class AppLocalizationsSv extends AppLocalizations {
   String get safeProduct => 'SÄKER: Produkten är märkt som ekologisk.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Sök... (t.ex. mjölk)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Ta bort';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Ta bort lista?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage => 'Är du säker? Detta tar även bort historiken för listan.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Okänd produkt';
 
   @override
-  String get removeAds => 'Remove ads';
+  String get removeAds => 'Ta bort annonser';
 
   @override
-  String get removeAdsInfo => 'Remove ads for more space in the shopping list';
+  String get removeAdsInfo => 'Ta bort annonser för mer plats i inköpslistan';
 
   @override
-  String get removeAdsMenuItem => 'Remove ads (49 kr) - supports further development';
+  String get removeAdsMenuItem => 'Ta bort annonser (49 kr) — stöder vidareutveckling';
 }

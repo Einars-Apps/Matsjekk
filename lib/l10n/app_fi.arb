@@ -70,5 +70,6 @@
   "unknownProduct": "Tuntematon tuote",
   "removeAds": "Poista mainokset",
   "removeAdsInfo": "Poista mainokset saadaksesi lisää tilaa ostoslistaan",
-  "removeAdsMenuItem": "Poista mainokset (49 kr) — tukee jatkokehitystä"
+  "removeAdsMenuItem": "Poista mainokset (49 kr) — tukee jatkokehitystä",
+  "ngtAlert": "Piilo-GMO (NGT) -varoitus"
 }

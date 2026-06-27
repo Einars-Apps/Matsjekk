@@ -62,7 +62,14 @@
   "gmoHighRisk": "HÖGRISK: Producenten är kopplad till användning av GMO-foder.",
   "bovaerPossibleRisk": "MÖJLIG RISK: Producenten är en partner med företag kopplade till Bovaer.",
   "safeProduct": "SÄKER: Produkten är märkt som ekologisk.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Ta bort annonser",
+  "removeAdsInfo": "Ta bort annonser för mer plats i inköpslistan",
+  "removeAdsMenuItem": "Ta bort annonser (49 kr) — stöder vidareutveckling",
+  "delete": "Ta bort",
+  "deleteListConfirmTitle": "Ta bort lista?",
+  "deleteListConfirmMessage": "Är du säker? Detta tar även bort historiken för listan.",
+  "finnish": "Finska",
+  "ngtAlert": "Dold GMO (NGT)-varning",
+  "searchHint": "Sök... (t.ex. mjölk)",
+  "unknownProduct": "Okänd produkt"
 }

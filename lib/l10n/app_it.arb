@@ -62,7 +62,14 @@
   "gmoHighRisk": "RISCHIO ALTO: Il produttore è collegato all'uso di mangimi OGM.",
   "bovaerPossibleRisk": "RISCHIO POSSIBILE: Il produttore è partner di aziende collegate a Bovaer.",
   "safeProduct": "SICURO: Il prodotto è certificato biologico.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Rimuovi annunci",
+  "removeAdsInfo": "Rimuovi gli annunci per più spazio nella lista della spesa",
+  "removeAdsMenuItem": "Rimuovi annunci (49 kr) — sostiene lo sviluppo",
+  "delete": "Elimina",
+  "deleteListConfirmTitle": "Eliminare la lista?",
+  "deleteListConfirmMessage": "Sei sicuro? Questo eliminerà anche la cronologia della lista.",
+  "finnish": "Finlandese",
+  "ngtAlert": "Avviso OGM nascosto (NGT)",
+  "searchHint": "Cerca... (es. latte)",
+  "unknownProduct": "Prodotto sconosciuto"
 }

@@ -62,7 +62,14 @@
   "gmoHighRisk": "HØJ RISIKO: Producenten er forbundet med brugen af GMO-foder.",
   "bovaerPossibleRisk": "MULIG RISIKO: Producenten er partner med virksomheder forbundet med Bovaer.",
   "safeProduct": "SIKKER: Produktet er mærket som økologisk.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Fjern annoncer",
+  "removeAdsInfo": "Fjern annoncer for mere plads i indkøbslisten",
+  "removeAdsMenuItem": "Fjern annoncer (49 kr.) — støtter videreudvikling",
+  "delete": "Slet",
+  "deleteListConfirmTitle": "Slet liste?",
+  "deleteListConfirmMessage": "Er du sikker? Dette sletter også historikken for listen.",
+  "finnish": "Finsk",
+  "ngtAlert": "Skjult GMO (NGT)-advarsel",
+  "searchHint": "Søg... (f.eks. mælk)",
+  "unknownProduct": "Ukendt produkt"
 }

@@ -62,7 +62,14 @@
   "gmoHighRisk": "HOOG RISICO: De producent is gekoppeld aan het gebruik van GMO-voer.",
   "bovaerPossibleRisk": "MOGELIJK RISICO: De producent is partner van bedrijven gekoppeld aan Bovaer.",
   "safeProduct": "VEILIG: Het product is gecertificeerd biologisch.",
-  "removeAds": "Remove ads",
-  "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (49 kr) - supports further development"
+  "removeAds": "Advertenties verwijderen",
+  "removeAdsInfo": "Verwijder advertenties voor meer ruimte in de boodschappenlijst",
+  "removeAdsMenuItem": "Advertenties verwijderen (49 kr) — ondersteunt verdere ontwikkeling",
+  "delete": "Verwijderen",
+  "deleteListConfirmTitle": "Lijst verwijderen?",
+  "deleteListConfirmMessage": "Weet je het zeker? Hiermee wordt ook de geschiedenis van de lijst verwijderd.",
+  "finnish": "Fins",
+  "ngtAlert": "Verborgen ggo (NGT)-waarschuwing",
+  "searchHint": "Zoeken... (bijv. melk)",
+  "unknownProduct": "Onbekend product"
 }

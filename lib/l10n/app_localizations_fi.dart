@@ -48,7 +48,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get insectMealAlert => 'Hyönteislanta-hälytys';
 
   @override
-  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+  String get ngtAlert => 'Piilo-GMO (NGT) -varoitus';
 
   @override
   String get gmoFishAlert => 'GMO-kalarehu -hälytys';
