@@ -20,6 +20,7 @@ import 'premium_screen.dart';
 import 'premium_service.dart';
 import 'ad_helper.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'ump_consent.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
 import 'data/ngt_risk_brands.dart';
@@ -115,6 +116,11 @@ void main() async {
       testDeviceIds: <String>['AE47E887A6480DB455FC9F6CA2502187'],
     ),
   );
+  // Google-certified UMP/CMP consent flow (GDPR/EEA + US state laws).
+  // The consent message must be published in the AdMob console; this gathers
+  // consent and only requests ads once allowed.
+  await ConsentManager.instance.gatherConsent();
+  _adsAllowed = await ConsentManager.instance.canRequestAds();
   await MobileAds.instance.initialize();
   runApp(const MatvareSjekkApp());
 }
@@ -122,6 +128,9 @@ void main() async {
 // Detect when running under `flutter test` so we can avoid scheduling
 // background timers/delays that keep the test harness alive.
 final bool _isTestEnv = Platform.environment.containsKey('FLUTTER_TEST');
+
+// Whether AdMob consent permits requesting ads (set during main() via UMP).
+bool _adsAllowed = true;
 
 // Global navigator key for language switching
 final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
@@ -297,6 +306,7 @@ class _ScannerScreenState extends State<ScannerScreen>
 
   void _loadBannerAd() {
     if (_isTestEnv) return;
+    if (!_adsAllowed) return;
     _bannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
