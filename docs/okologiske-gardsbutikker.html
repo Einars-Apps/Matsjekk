@@ -65,7 +65,7 @@
     .feedback-btn{width:100%;padding:8px 10px;border:1px solid #c6d6e8;border-radius:8px;background:#f4f9ff;color:#14324b;cursor:pointer;font-weight:600}
     .feedback-btn:hover{background:#e9f4ff}
     .feedback-status{margin-top:8px;font-size:.82rem;color:#516274;line-height:1.35}
-    .list{max-height:420px;overflow:auto;border:1px solid #e6e9ee;border-radius:12px;padding:10px;background:#fafbfc}
+    .list{flex:1 1 auto;min-width:0;max-height:720px;overflow:auto;border:1px solid #e6e9ee;border-radius:12px;padding:10px;background:#fafbfc}
     .item{padding:10px 12px;border:1px solid #e6e9ee;border-radius:10px;background:#fff;margin-bottom:8px}
     .item:last-child{margin-bottom:0}
     .item-title{font-weight:700;font-size:1rem;color:#111;margin-bottom:4px}
@@ -84,7 +84,7 @@
       .nav-links{width:100%}
       .nav-links .link-btn,
       .nav-links #backBtn{width:100%;text-align:center}
-      .list{max-height:240px}
+      .list{max-height:520px}
       .content-grid{flex-direction:column}
       .side-rail{width:100%;flex-basis:auto}
       .top-tabs{flex-direction:column;align-items:stretch}
@@ -184,10 +184,6 @@
     <div class="content-grid">
       <div class="list" id="list"></div>
       <div class="side-rail">
-        <div class="ad-slot ad-box" id="adSlot">
-          <strong>Annonse</strong>
-          Plass for relevant lokal annonse eller partnerinnhold.
-        </div>
         <section class="feedback-panel" aria-labelledby="suggestionHeading">
           <h3 id="suggestionHeading">Foreslå nytt sted</h3>
           <p id="suggestionIntro">Mangler det en økologisk gårdsbutikk? Send inn navn, kommune og land til moderering.</p>
