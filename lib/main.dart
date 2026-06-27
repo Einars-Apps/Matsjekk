@@ -286,12 +286,21 @@ class _ScannerScreenState extends State<ScannerScreen>
     _loadBannerAd();
   }
 
+  /// Builds an [AdRequest] that respects the user's privacy choice.
+  /// When the user has NOT opted in to analytics/personalisation we request
+  /// non-personalised ads, which keeps us compliant with GDPR/EEA rules.
+  AdRequest _buildAdRequest() {
+    final optedIn =
+        innstillingerBox.get('analytics_opt_in', defaultValue: false) == true;
+    return AdRequest(nonPersonalizedAds: !optedIn);
+  }
+
   void _loadBannerAd() {
     if (_isTestEnv) return;
     _bannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
-      request: const AdRequest(),
+      request: _buildAdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (_) {
           if (mounted) setState(() => _bannerAdLoaded = true);
@@ -303,9 +312,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       ),
     )..load();
     _listBannerAd = BannerAd(
-      adUnitId: AdHelper.bannerAdUnitId,
+      adUnitId: AdHelper.listBannerAdUnitId,
       size: AdSize.banner,
-      request: const AdRequest(),
+      request: _buildAdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (_) {
           if (mounted) setState(() => _listBannerAdLoaded = true);
@@ -2257,7 +2266,13 @@ class _ScannerScreenState extends State<ScannerScreen>
           Align(
               key: const ValueKey('mainBannerAdAlign'),
               alignment: Alignment.topCenter,
-              child: (!premiumActive && _bannerAdLoaded && _bannerAd != null)
+              // Never show the main banner while the shopping list overlay is
+              // open — the list has its own banner, and showing both at once
+              // breaks AdMob's "max one banner per screen" guidance.
+              child: (!premiumActive &&
+                      !showList &&
+                      _bannerAdLoaded &&
+                      _bannerAd != null)
                   ? SizedBox(
                       key: ValueKey(_bannerAd),
                       width: _bannerAd!.size.width.toDouble(),

@@ -1225,7 +1225,10 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                           ),
                         ),
                       ),
-                    if (widget.listBannerAd != null)
+                    // Hide the banner in full-screen mode so it never
+                    // overlaps the menu/AppBar. Only show it in the smaller
+                    // (70% height) overlay where there is dedicated space.
+                    if (!widget.isFullScreen && widget.listBannerAd != null)
                       Container(
                         alignment: Alignment.center,
                         padding: const EdgeInsets.symmetric(vertical: 4),

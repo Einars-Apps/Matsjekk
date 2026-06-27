@@ -86,6 +86,7 @@ def gradient(size: tuple[int, int], variant: int = 0) -> Image.Image:
         (GREEN_TOP, GREEN_MID, TEAL_BOT),   # green -> teal
         (TEAL_BOT, GREEN_MID, GREEN_TOP),   # teal -> green (reversed)
         (GREEN_MID, ACCENT, GREEN_TOP),     # brighter green
+        (DARK, TEAL_BOT, GREEN_MID),        # deep slate -> green
     ]
     c0, c1, c2 = palettes[variant % len(palettes)]
     w, h = size
@@ -149,17 +150,6 @@ def center_text(draw, cx, y, text, fnt, fill):
     return bbox[3] - bbox[1]
 
 
-def pill(draw, cx, y, text, fnt, pad_x=34, pad_y=16):
-    bbox = draw.textbbox((0, 0), text, font=fnt)
-    tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-    w = tw + pad_x * 2
-    h = th + pad_y * 2
-    x0 = cx - w / 2
-    draw.rounded_rectangle([x0, y, x0 + w, y + h], radius=h / 2, fill=WHITE)
-    draw.text((cx - tw / 2, y + pad_y - bbox[1]), text, font=fnt, fill=GREEN_MID)
-    return h
-
-
 def make_landscape(msg, cta, variant, out_dir, idx):
     tagline, subline = msg
     W, H = 1200, 628
@@ -173,7 +163,8 @@ def make_landscape(msg, cta, variant, out_dir, idx):
     d.text((tx, 300), tagline, font=font("arial.ttf", 38), fill=WHITE)
     d.text((tx, 358), subline, font=font("arial.ttf", 28),
            fill=(225, 240, 230))
-    pill(d, tx + 150, 430, cta, font("arialbd.ttf", 30))
+    # Plain text CTA (no button shape) -> avoids "misleading ad design" flag.
+    d.text((tx, 430), cta, font=font("arialbd.ttf", 32), fill=WHITE)
     img.save(os.path.join(out_dir, f"matsjekk_landscape_1200x628_{idx}.png"))
 
 
@@ -188,7 +179,7 @@ def make_square(msg, cta, variant, out_dir, idx):
     center_text(d, W / 2, 830, tagline, font("arial.ttf", 44), WHITE)
     center_text(d, W / 2, 900, subline, font("arial.ttf", 32),
                 (225, 240, 230))
-    pill(d, W / 2, 1010, cta, font("arialbd.ttf", 40))
+    center_text(d, W / 2, 1010, cta, font("arialbd.ttf", 42), WHITE)
     img.save(os.path.join(out_dir, f"matsjekk_square_1200x1200_{idx}.png"))
 
 
@@ -203,7 +194,7 @@ def make_portrait(msg, cta, variant, out_dir, idx):
     center_text(d, W / 2, 770, tagline, font("arial.ttf", 38), WHITE)
     center_text(d, W / 2, 830, subline, font("arial.ttf", 28),
                 (225, 240, 230))
-    pill(d, W / 2, 940, cta, font("arialbd.ttf", 36))
+    center_text(d, W / 2, 940, cta, font("arialbd.ttf", 38), WHITE)
     img.save(os.path.join(out_dir, f"matsjekk_portrait_960x1200_{idx}.png"))
 
 
@@ -243,12 +234,12 @@ def main():
         os.makedirs(out_dir, exist_ok=True)
         msgs = copy["messages"]
         cta = copy["cta"]
-        # 3 landscape, 2 square, 2 portrait -> satisfies Google's variety ask.
-        for i in range(3):
+        # 4 landscape, 3 square, 3 portrait -> reaches Google's "Excellent".
+        for i in range(4):
             make_landscape(msgs[i % len(msgs)], cta, i, out_dir, i + 1)
-        for i in range(2):
+        for i in range(3):
             make_square(msgs[i % len(msgs)], cta, i, out_dir, i + 1)
-        for i in range(2):
+        for i in range(3):
             make_portrait(msgs[i % len(msgs)], cta, i, out_dir, i + 1)
         make_logo_square(out_dir)
         make_logo_landscape(out_dir)
