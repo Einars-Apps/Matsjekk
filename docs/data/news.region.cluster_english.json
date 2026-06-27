@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-26T05:42:20.342241+00:00",
+  "generatedAt": "2026-06-27T05:35:59.718358+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
   "maxItems": 30,
-  "total": 17,
+  "total": 19,
   "errors": [],
   "items": [
     {
@@ -46,8 +46,8 @@
       "pubDate": "2026-06-03T07:00:00+00:00",
       "source": "Genetic Literacy Project",
       "language": "en",
-      "country": "GB",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "country": "IE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingJBVV95cUxNQkdxVkxuak9MbEtKM0RfdHZ4ZWNTaDByMmJ5RmxhdGhVV2wyV2R3MnhfQkFMLXNPc1pzMHBaSDVzdzhiTXpVNDB3TjB6X3pKVW56Q05Qb2hteHVhNnpNQ1I4R3cweExGTy1lNUdQTUFINlNoODNYdnh1cDhYVHFNZUlfVlJjWjBHWjVucHVqR2daV3hvaFZVQTlfZ0w2QjFNNTd0Y0xESEVYeGlOc1JMamJiWWVyNk5aNmItcnphMVpjNnZXUjJfZjBUaGh5WWhQWFpRZTFEQ2ZpR0tBSlNfZGlqdXBwR2NPR2E3eWdjOHBwQTd3cDFsSk0zWjBpX3BIX1VybW1jdE1LbWljYjRzV1p1czZrWUw4MlZ0enNn?oc=5\" target=\"_blank\">Viewpoint—GMOs and sustainability: Why buying organic foods is the least environmentally-sensitive food choice—without offering any health benefits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>",
       "id": "dea4a6e7096b134c"
     },
@@ -61,6 +61,17 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRGF6azUtQTVIWS1QM1JPZFZ4U1dXRm12ZkROamNPN1dXSzhPNUpPZ0pVUGh0YlA1VkpsVzFGMmw2TXFsckItQUFRTTFTekhlWUJEYzJTa1pzcjZONDFHVVdRNTN5VlpDTGl6Z29Mak9VZ2xFVFBBMy1kYWVzSHNhRDh1cy1vU0EtVHRHVjJUUVNZU0VlMnpxSmI3N295UExOZ2pZSEJwdndud1J6bUZ5eW9HNzlLX0x2M0VWQURuTmZubWd2eGl4N2JzYUw2ZVc5ZVV0N2JFMkFOblBiLXhIVHlR?oc=5\" target=\"_blank\">Health beats sustainability in alternative protein pet food purchases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PetfoodIndustry</font>",
       "id": "c56061ad040abab9"
+    },
+    {
+      "title": "Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture” - Insider Media Ltd",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5",
+      "pubDate": "2026-05-02T07:00:00+00:00",
+      "source": "Insider Media Ltd",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAJBVV95cUxQTExCcXE5ZTROTXhSQl95bGZ4RlNmM1pCaUxFUXZTWUNKVk1fb0JGM0RtRm1OcDMzcmNSMTNkWHN1RnMxYlNwbXFmN2V6SHB3VEU0T3FoeGJfMl9xSV9fb1VxUEMtVkhUaGVyUnNCT19mcUFBdU00Qkx0dnlsRUlRNldzc0lXdU0yQlQzMmM3UzhoNFhCUnZVVUhMSnJmNVdsdEoyenVoNUVYUnBDNEwxWXE0N19SZmNNMXdqeXZjOWNaTDZxbVlGSUpGUHg2Y1BqMDVPMWZHNnpFRGE0aVZaUVNvZkRVQThZb3FsekduQ25pak1xdElLMklJVEtqVXg1NkxfNXE4QkpPYVYya2NsRQ?oc=5\" target=\"_blank\">Insect quarantine unit opened at York Biotech Campus - supports “national and international efforts in biosecurity and sustainable agriculture”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Insider Media Ltd</font>",
+      "id": "88b3002429e3e5c5"
     },
     {
       "title": "Japanese company bets on fish raised on insect meal as feed costs rise - Nikkei Asia",
@@ -145,10 +156,21 @@
       "pubDate": "2026-01-26T08:00:00+00:00",
       "source": "Agriland",
       "language": "en",
-      "country": "IE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-IE&gl=IE&ceid=IE%3Aen",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQU2g1U1dRZWliTEhPTTlVM19OYy1yZ2hCeHVnN3l3NDFmbGR5b280SG9adkExUnN2blRBbEFTeHJXOGh6U0piVm53Q1BWR0p2aE9JMjJaSURaRVpwYXlnSFdFbFBHWmJac0E0UkJoUWdVTTZwbHhuZXRGVHpDTzkyUUphc2w0eWl0TUxiX2xtVEpwMXBOcmhpUnVkQVZLQ1Q4SS1tbjZ2aldXX1p5bkVDODZqWnF0YktzLUdVSzhB?oc=5\" target=\"_blank\">Trials to start on link between sulphur content in feed, metabolic issues and Bovaer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Agriland</font>",
       "id": "c503cd4688948bd1"
+    },
+    {
+      "title": "Bovaer and crop inhibitors under FAO spotlight - Farmers Weekly",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBidnRyNW5aaUpZckdaaXlZdHZOcUhKZXYzcGlmQlY5UGZqdXFSMTJyX1VaVmIyVjhyU0dQWm1heGlQU3cxVm80b0tVVXFqa1B1alVBTWwybUdpd2R4U1c5b05UTHpGODlHVS1XTERvMTZJYnhPUFZZaEJUV2xEZw?oc=5",
+      "pubDate": "2026-01-21T08:00:00+00:00",
+      "source": "Farmers Weekly",
+      "language": "en",
+      "country": "GB",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insect+meal%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=en-GB&gl=GB&ceid=GB%3Aen",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBidnRyNW5aaUpZckdaaXlZdHZOcUhKZXYzcGlmQlY5UGZqdXFSMTJyX1VaVmIyVjhyU0dQWm1heGlQU3cxVm80b0tVVXFqa1B1alVBTWwybUdpd2R4U1c5b05UTHpGODlHVS1XTERvMTZJYnhPUFZZaEJUV2xEZw?oc=5\" target=\"_blank\">Bovaer and crop inhibitors under FAO spotlight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Farmers Weekly</font>",
+      "id": "5ca7ed4b6d677408"
     },
     {
       "title": "Sustainable protein seminar highlights Saudi-Dutch innovation in feed - Agroberichten Buitenland",

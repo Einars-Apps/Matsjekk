@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T05:42:20.339822+00:00",
+  "generatedAt": "2026-06-27T05:35:59.715905+00:00",
   "version": 2,
   "topic": "bovaer",
   "recentDays": 365,
@@ -8,15 +8,48 @@
   "errors": [],
   "items": [
     {
-      "title": "Hamburg Sustainability Week: Universität Hamburg ganz im Zeichen der Nachhaltigkeit - Informationsdienst Wissenschaft",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4xRkh1ZHZURHNUTy1GUmtsRGNqM3dJNnlYbDc4cHBhX1ptcHJqTmtLOHhpRm5XSHVrdUJSZkJLa19lUmF2LXp1QkQ3WQ?oc=5",
-      "pubDate": "2026-06-23T07:51:00+00:00",
-      "source": "Informationsdienst Wissenschaft",
+      "title": "Klimaneutrale Speicherstadt drei Mal erfolgreich bei DGNB Sustainability Challenge - Konii",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc2xJY2JzdVI3NHh2b0Z0LWF4OVcxcnpkUFY1MDhDdF84dHF6S3Z2VG5RLWE1QWdKU01TUXN4Nmh3Y3E4ZnBaNDdZVG8xR2hqSHFqa3hpeWVRdTVPY0swc09JS1drQkxUemtpM2I4UUFtVXRjdU9zMmxMYTQ1NDNkTU43TllEZlZNd1FFQzJvbWtSLVpsRzFFa2hTdF9OWk1GaUphM3k4Y1ZzNnJia1E?oc=5",
+      "pubDate": "2026-06-26T06:28:31+00:00",
+      "source": "Konii",
       "language": "de",
       "country": "DE",
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE4xRkh1ZHZURHNUTy1GUmtsRGNqM3dJNnlYbDc4cHBhX1ptcHJqTmtLOHhpRm5XSHVrdUJSZkJLa19lUmF2LXp1QkQ3WQ?oc=5\" target=\"_blank\">Hamburg Sustainability Week: Universität Hamburg ganz im Zeichen der Nachhaltigkeit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Informationsdienst Wissenschaft</font>",
-      "id": "8d4f71bd9a49615e"
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOc2xJY2JzdVI3NHh2b0Z0LWF4OVcxcnpkUFY1MDhDdF84dHF6S3Z2VG5RLWE1QWdKU01TUXN4Nmh3Y3E4ZnBaNDdZVG8xR2hqSHFqa3hpeWVRdTVPY0swc09JS1drQkxUemtpM2I4UUFtVXRjdU9zMmxMYTQ1NDNkTU43TllEZlZNd1FFQzJvbWtSLVpsRzFFa2hTdF9OWk1GaUphM3k4Y1ZzNnJia1E?oc=5\" target=\"_blank\">Klimaneutrale Speicherstadt drei Mal erfolgreich bei DGNB Sustainability Challenge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Konii</font>",
+      "id": "51a01ac277532393"
+    },
+    {
+      "title": "BMW G65 Sustainability - Rear Axle Carrier (06/2026) - BMW Group",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5SazNDTEM2XzNrQlRudlMzY1VDek9aR0pIMThRcXZHbndubGZLcGtCa25nUFNaVm5ILTZ3bHc2R2FCaUozRFBNNlJULWZmS1RUWi1GTXlDWkUxXzNwS3RlZU5IcU0ycGdlNEQ5OXdjR0tySFZWemtmZzhPRXgzLWZjQ2xLODd4S1dmSnp3NXFXVmNqN1RlZmdiZ2ZuRGtCS3AtbS1RMzd3XzliUTZ0bG5WVGg?oc=5",
+      "pubDate": "2026-06-26T04:56:24+00:00",
+      "source": "BMW Group",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOSU5SazNDTEM2XzNrQlRudlMzY1VDek9aR0pIMThRcXZHbndubGZLcGtCa25nUFNaVm5ILTZ3bHc2R2FCaUozRFBNNlJULWZmS1RUWi1GTXlDWkUxXzNwS3RlZU5IcU0ycGdlNEQ5OXdjR0tySFZWemtmZzhPRXgzLWZjQ2xLODd4S1dmSnp3NXFXVmNqN1RlZmdiZ2ZuRGtCS3AtbS1RMzd3XzliUTZ0bG5WVGg?oc=5\" target=\"_blank\">BMW G65 Sustainability - Rear Axle Carrier (06/2026)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMW Group</font>",
+      "id": "f4f9f5b0afd31af4"
+    },
+    {
+      "title": "Yum! Brands Publishes 2025 Global Citizenship & Sustainability Report Highlighting Business Resilience and Operational Progress - FinanzNachrichten.de",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOb1ZabzVvRVZQNU0xMmpFaUM2emVHT0xzZkVUb09WbmxXUlM2LW96ZnItNy13X2Fwa3JId19aWmoxakFEdjNqNjUweHFBMDJYTTl0SHNJejhFR0JYUXBxYl9TWXhnU3FWcWZBSWhUd0FRN1Bzb1o0NGx4ekFMa0QzTzU2RkFNckoyUWg2LXkxa1Y1LUcydzh0QWlyb3BOelZzbWdRU19lYlFYMy1FWUlxV3EwblluQmpxQ3JyMzEzRVRXd2JHT2g3REJjM1Z0bXhyVkpTVF9KUjBzNnhyM0k3QUtVQk5VYmkwRWVFcllBbWhIWENJSkd4TlQ2TkU0SDZQeEVFbnhJcm1yVkFlQ0ZPZ2xLT1dEa0cyREctd0lsMA?oc=5",
+      "pubDate": "2026-06-22T16:26:00+00:00",
+      "source": "FinanzNachrichten.de",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwJBVV95cUxOb1ZabzVvRVZQNU0xMmpFaUM2emVHT0xzZkVUb09WbmxXUlM2LW96ZnItNy13X2Fwa3JId19aWmoxakFEdjNqNjUweHFBMDJYTTl0SHNJejhFR0JYUXBxYl9TWXhnU3FWcWZBSWhUd0FRN1Bzb1o0NGx4ekFMa0QzTzU2RkFNckoyUWg2LXkxa1Y1LUcydzh0QWlyb3BOelZzbWdRU19lYlFYMy1FWUlxV3EwblluQmpxQ3JyMzEzRVRXd2JHT2g3REJjM1Z0bXhyVkpTVF9KUjBzNnhyM0k3QUtVQk5VYmkwRWVFcllBbWhIWENJSkd4TlQ2TkU0SDZQeEVFbnhJcm1yVkFlQ0ZPZ2xLT1dEa0cyREctd0lsMA?oc=5\" target=\"_blank\">Yum! Brands Publishes 2025 Global Citizenship & Sustainability Report Highlighting Business Resilience and Operational Progress</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanzNachrichten.de</font>",
+      "id": "584997ece94e6fde"
+    },
+    {
+      "title": "Zukunftsgarten Rathausmarkt: Buntes Programm bei der Hamburg Sustainability Week - Szene Hamburg",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SSTlZWkl5R01oWmtEdk13Nk1BdllmWXRoYXlmSWk1SjhjZHhyM0xfcEZlU1RJYVRzc3pjM0hQVFR6YlBkOGlGV3JKYnNyRDZVaXl3Rm9xSlZocGhocXB1N25Wc28?oc=5",
+      "pubDate": "2026-06-20T07:01:10+00:00",
+      "source": "Szene Hamburg",
+      "language": "de",
+      "country": "CH",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=CH&ceid=CH%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SSTlZWkl5R01oWmtEdk13Nk1BdllmWXRoYXlmSWk1SjhjZHhyM0xfcEZlU1RJYVRzc3pjM0hQVFR6YlBkOGlGV3JKYnNyRDZVaXl3Rm9xSlZocGhocXB1N25Wc28?oc=5\" target=\"_blank\">Zukunftsgarten Rathausmarkt: Buntes Programm bei der Hamburg Sustainability Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Szene Hamburg</font>",
+      "id": "db6be73e9c36f638"
     },
     {
       "title": "Nestlé ernennt Antonia Wanner zum Chief Communications and Sustainability Officer und Mitglied der Konzernleitung zum 1. September 2026 - MarketScreener Deutschland",
@@ -30,9 +63,20 @@
       "id": "f1394aeb1844011a"
     },
     {
+      "title": "HDE Sustainability Summit Berlin zeigt Wege zur grünen Transformation - Textilwirtschaft",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlFXUVJ6WHFMMlgycEZTaWd6cUhkQk85SXFEcEZkNnM0bnVXUXkwNi0xY1dBVlVzbWRsbHlaY2J6SFBTbjJWVEtqa3B1TGZfYmd2akpEQUs2N2NqSXdVNEpET29lTGhuVzZ0X0ZpVC1RSmVwdEFmVklDZWJBNUNpZ2xaWDZmMkVZblJVZ0k4UVVma01FZVRHTVp2a2VOQWRab244SVJBVnFldDRBUlRlTG40XzVzM3YyWFpR?oc=5",
+      "pubDate": "2026-06-17T19:35:44+00:00",
+      "source": "Textilwirtschaft",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQlFXUVJ6WHFMMlgycEZTaWd6cUhkQk85SXFEcEZkNnM0bnVXUXkwNi0xY1dBVlVzbWRsbHlaY2J6SFBTbjJWVEtqa3B1TGZfYmd2akpEQUs2N2NqSXdVNEpET29lTGhuVzZ0X0ZpVC1RSmVwdEFmVklDZWJBNUNpZ2xaWDZmMkVZblJVZ0k4UVVma01FZVRHTVp2a2VOQWRab244SVJBVnFldDRBUlRlTG40XzVzM3YyWFpR?oc=5\" target=\"_blank\">HDE Sustainability Summit Berlin zeigt Wege zur grünen Transformation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Textilwirtschaft</font>",
+      "id": "0d3db4e4ae7f3a79"
+    },
+    {
       "title": "Imago van Bovaer gedeukt, maar werking blijft onbetwist - VILT vzw",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUmkzM29ENUFOVmN4VUIybFk1cFlKeno2NU84dTQ5dXNuZm5sdS1KQ1FicDM3LTQ5aUd1ZS1FVU1fSFZUNWNRNW9VWFQ5MmxMX1Q4QUFQV21yMEZCTlIzQm0yNVU3WXVUYWI4d2NmVFNET0JNWWhFRU55YTRoXzc1X0swTGR0Wnc?oc=5",
-      "pubDate": "2026-06-16T13:19:02+00:00",
+      "pubDate": "2026-06-16T07:00:00+00:00",
       "source": "VILT vzw",
       "language": "nl",
       "country": "NL",
@@ -107,28 +151,6 @@
       "id": "37757733831eeebe"
     },
     {
-      "title": "Un rapporto internazionale invita a rivalutare il ruolo della farina di insetti nei mangimi per acquacoltura - misPeces",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMEN0c1ZhV2lIMHlSM2wyOGdYMTd6dzhEanpEVTJoMW5DSndzcWtZYXp3T3d6MVlMQkFabmpoaFlJbGc3NnZsZjNTemJZU29oMHJkR3dGSkV4ZTJLeXFwcUNrQ2lRSDFvbWhTdWM4VWt4T3hzOENndzFvaDhGRjB5a2hPeFpjT2N1WXBtVVJXdHNndFBMMVYyZmhrakc5Y0RHM0N6dnhLMmNaVHNiT0l5djgxUncwbmdWRzBWblZhbVd5TnZqZXdseUtueVhrRUpHNlltYVVFLVJxTkhPSEtB?oc=5",
-      "pubDate": "2026-06-09T14:53:29+00:00",
-      "source": "misPeces",
-      "language": "de",
-      "country": "CH",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+farina+di+insetti%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=it&gl=CH&ceid=CH%3Ait",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMEN0c1ZhV2lIMHlSM2wyOGdYMTd6dzhEanpEVTJoMW5DSndzcWtZYXp3T3d6MVlMQkFabmpoaFlJbGc3NnZsZjNTemJZU29oMHJkR3dGSkV4ZTJLeXFwcUNrQ2lRSDFvbWhTdWM4VWt4T3hzOENndzFvaDhGRjB5a2hPeFpjT2N1WXBtVVJXdHNndFBMMVYyZmhrakc5Y0RHM0N6dnhLMmNaVHNiT0l5djgxUncwbmdWRzBWblZhbVd5TnZqZXdseUtueVhrRUpHNlltYVVFLVJxTkhPSEtB?oc=5\" target=\"_blank\">Un rapporto internazionale invita a rivalutare il ruolo della farina di insetti nei mangimi per acquacoltura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">misPeces</font>",
-      "id": "076f9ee11c4b3629"
-    },
-    {
-      "title": "Sustainability Reporting Manager - Duurzaam Ondernemen",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMVBvbmVQRUl1ZElNS0taZXZpWTh5Zi1Bd3paZkI0UVBodmFyOEhoRklVNkVhb2NDTTQySGZMdF9kUUJlTUdQb3hMRGhLZVpfUGczd1BReVlsc0tVdnUwdVUtSDJqcnNuNlM1TDlXTlYwTmR4d3RqXzVQaGsxSHlfSzlYQzRldw?oc=5",
-      "pubDate": "2026-06-09T07:00:00+00:00",
-      "source": "Duurzaam Ondernemen",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNMVBvbmVQRUl1ZElNS0taZXZpWTh5Zi1Bd3paZkI0UVBodmFyOEhoRklVNkVhb2NDTTQySGZMdF9kUUJlTUdQb3hMRGhLZVpfUGczd1BReVlsc0tVdnUwdVUtSDJqcnNuNlM1TDlXTlYwTmR4d3RqXzVQaGsxSHlfSzlYQzRldw?oc=5\" target=\"_blank\">Sustainability Reporting Manager</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duurzaam Ondernemen</font>",
-      "id": "37aca01d12210582"
-    },
-    {
       "title": "Farine d'insectes : Innovafeed lève 51 millions d'euros mais supprime 60 postes - La Tribune",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdlA2MjQ5SnhuRURuX1JGeGF1aXVGVkJ2LUVvVmVmTnRTZC1LcVZFa0FCQUhMQWJvMExWbjl5Wjg1NGNvb0ZuTnJJNFlYZ1VkdGVPNzY5UDlvWGthbTZLcmdzN1c4czViODRtMWk1RjVmX2w0ZklyVTBXWHVHclRDNDNWYXdKNXRuZ1A3R05zQzg1LWtpVHdPblZzeHZrRDJHNjZaRjBrMWZnTkpoTThfV3UzMUhvQkY5YzByUnllcTY1UHY0WUJQWlZjMlFrVjNLeVdtOWt3eFZiUzl5ajdTckxsRk1CTnVtSmNB?oc=5",
       "pubDate": "2026-06-08T07:00:00+00:00",
@@ -140,6 +162,17 @@
       "id": "2704e7da4dccb990"
     },
     {
+      "title": "Architektur Sommer: Kanutour: Hamburg Sustainability Week am 28.06.2026 in Hamburg - Rausgegangen",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONEg5eFNMaTRvUUkwWVBBY0V6MlZVUjRBRVlLU0ozNUFRTFZmUUFLWDJyTHpBTkdNWUdjTlVMLU5fT01TV2ItQU82RG0tZFNCT2xad1RSUWlMdFFpSzl6Z3ZYUVBpN0k0RWVIN3F1UlB4YkFuUTRCTmN5Um5MZVBpYnZ0NlYyWHVqRlUtNTZ2WGF0SUU?oc=5",
+      "pubDate": "2026-06-03T11:42:26+00:00",
+      "source": "Rausgegangen",
+      "language": "de",
+      "country": "DE",
+      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxONEg5eFNMaTRvUUkwWVBBY0V6MlZVUjRBRVlLU0ozNUFRTFZmUUFLWDJyTHpBTkdNWUdjTlVMLU5fT01TV2ItQU82RG0tZFNCT2xad1RSUWlMdFFpSzl6Z3ZYUVBpN0k0RWVIN3F1UlB4YkFuUTRCTmN5Um5MZVBpYnZ0NlYyWHVqRlUtNTZ2WGF0SUU?oc=5\" target=\"_blank\">Architektur Sommer: Kanutour: Hamburg Sustainability Week am 28.06.2026 in Hamburg</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rausgegangen</font>",
+      "id": "f2476a1c22b0d4c0"
+    },
+    {
       "title": "Raiffeisen Sustainability Days machen nachhaltige Lösungen sichtbar - OTS.at",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbF9KUy1PbzNrNjNRVjM5aWhLdkN5b09nU281Sk4yMlpadUpld01HWnQtVXZDd1ZMZXdIMDczSk1FRUJtYUdWQXVmWEIyX1ZkUGlLcnVETE15UGlsSExmLXF2QkxVenpDZVBHZWdjRlMzV3diWDVGQ0FSNXdLdFByOG1KSkVJZzFCdHg3WUJJbzB5SUVxZDJCUUZYVVZBWnEycC1jUDQ1am1CeE5Ub29DS1ZkSkhZcmdCWndyWHByeE1rbms?oc=5",
       "pubDate": "2026-06-03T07:00:00+00:00",
@@ -149,17 +182,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbF9KUy1PbzNrNjNRVjM5aWhLdkN5b09nU281Sk4yMlpadUpld01HWnQtVXZDd1ZMZXdIMDczSk1FRUJtYUdWQXVmWEIyX1ZkUGlLcnVETE15UGlsSExmLXF2QkxVenpDZVBHZWdjRlMzV3diWDVGQ0FSNXdLdFByOG1KSkVJZzFCdHg3WUJJbzB5SUVxZDJCUUZYVVZBWnEycC1jUDQ1am1CeE5Ub29DS1ZkSkhZcmdCWndyWHByeE1rbms?oc=5\" target=\"_blank\">Raiffeisen Sustainability Days machen nachhaltige Lösungen sichtbar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OTS.at</font>",
       "id": "fdfa6e4b478db2e3"
-    },
-    {
-      "title": "MilliporeSigma's Approach to Embedding Sustainability Earlier in Product Development - FinanzNachrichten.de",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMHpNN2NUb1ZTSnA1czRGVW4tU25DdXlLSEhnWWh1dUJZREFBdGhMbk9xTF9RM0JOY1NMTFkyN3EyMFZyQ0x2QndkUkNrdjNqZ1BjekR6Ny0zTUdFNlNfUzJDZlZlOTlZdlVqTHB5bDlSbjE3VWtpRkdfalgyckEydENDd01QNVEtdUlfeVdWNDVPTmhwclMtMFNUMGlpejdyaGF2dEppcTI1eG5NMFJVQWtDTmtsZnNUMnp2bnVtcEVHZFZ5NkU2RzRoLU5iRGNXWnBLanZOYnpZWnhxa0Qwajg4Q0lsVnc2dHc?oc=5",
-      "pubDate": "2026-05-28T07:00:00+00:00",
-      "source": "FinanzNachrichten.de",
-      "language": "de",
-      "country": "DE",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=DE&ceid=DE%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMHpNN2NUb1ZTSnA1czRGVW4tU25DdXlLSEhnWWh1dUJZREFBdGhMbk9xTF9RM0JOY1NMTFkyN3EyMFZyQ0x2QndkUkNrdjNqZ1BjekR6Ny0zTUdFNlNfUzJDZlZlOTlZdlVqTHB5bDlSbjE3VWtpRkdfalgyckEydENDd01QNVEtdUlfeVdWNDVPTmhwclMtMFNUMGlpejdyaGF2dEppcTI1eG5NMFJVQWtDTmtsZnNUMnp2bnVtcEVHZFZ5NkU2RzRoLU5iRGNXWnBLanZOYnpZWnhxa0Qwajg4Q0lsVnc2dHc?oc=5\" target=\"_blank\">MilliporeSigma's Approach to Embedding Sustainability Earlier in Product Development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FinanzNachrichten.de</font>",
-      "id": "40a5e6674ca2110a"
     },
     {
       "title": "Weniger Zahlen, mehr Wirkung - Berufsbild Nachhaltigkeitsmanager | Sustainability - Haufe. Intelligenz, die bewegt.",
@@ -239,17 +261,6 @@
       "id": "176c77d0a4ab704d"
     },
     {
-      "title": "Nestlé - Valerie Hauff ist Head of Corporate Affairs, Marketing & Sustainability - GEWINN",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXBjZUIwUmF0WGl0NHZERGFWWkRuSEwwS0V6YlFuYm8zZjNHa21NeFk3cVAtQ0dIY1pUOGRTVWVGV2g2RnZzbDR4NzZjb3ZZR0YtOGdhMWxvLU9SUGZ5QzEzZVpLaUp0UWtvYjNoWmgxUEhHdEpXUTFWZlExOHB6b2p5NjNRMjBFTDU5dUxyZUM4dG9fbjNKUnZXZ1BCeVdBTThvQVA4cW9saFNFazlwYWxBWlpJNmNleF94dGJmcWplWlJzNGozd0hR?oc=5",
-      "pubDate": "2026-04-21T07:00:00+00:00",
-      "source": "GEWINN",
-      "language": "de",
-      "country": "AT",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+Insektenmehl%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=de&gl=AT&ceid=AT%3Ade",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXBjZUIwUmF0WGl0NHZERGFWWkRuSEwwS0V6YlFuYm8zZjNHa21NeFk3cVAtQ0dIY1pUOGRTVWVGV2g2RnZzbDR4NzZjb3ZZR0YtOGdhMWxvLU9SUGZ5QzEzZVpLaUp0UWtvYjNoWmgxUEhHdEpXUTFWZlExOHB6b2p5NjNRMjBFTDU5dUxyZUM4dG9fbjNKUnZXZ1BCeVdBTThvQVA4cW9saFNFazlwYWxBWlpJNmNleF94dGJmcWplWlJzNGozd0hR?oc=5\" target=\"_blank\">Nestlé - Valerie Hauff ist Head of Corporate Affairs, Marketing & Sustainability</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GEWINN</font>",
-      "id": "b4f2ba92bd19c0ce"
-    },
-    {
       "title": "Nach Sicherheitsbedenken keine Bovaer-Pflicht - Der Schweizer Bauer",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeE5NZGREaDduT1FTYnotNU4xd2lPVEdlaDhjVnYwZDBpV1V2azVtRXQyQkQwWFprNDNLLW9kNDg0MFU4bEo3Z3N6TTNrMjI0VXZ5dEt1eW5OY3J4Ml9fZGpsOWFvWlVTRHNJWTJsdVEyc01HR2R0QjFwZGtzVlFfRjZRS0FNNElfc0d1MEdyRjVCRWhaUEVjODk0c0czNmpySFE1WjRDLVZpWjRBVGY0M2hHelZwa1NlTURz?oc=5",
       "pubDate": "2026-04-17T07:00:00+00:00",
@@ -325,17 +336,6 @@
       "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQVFBEdjBkVFZSN2RHSUlLdTlsWTVYVEJQdUV6T0xsQXZ3MGpHeFNPRUhrUkhiVDQyRndvdTJFVG1ENnRkNGE4LXRWZDdTczBmdVNieHRNbUNqMEdVSTZBUjY0c3RxRmlCN1FrcXk4aEtCSmZ0UTV2S3B2UUFxMFUzQ2h5cVlsN2hzRjc3c3BpX2Z2ajBOUnlsa2dEbnBHRjVMQXo4Yk5OUnpyeVJnSDF6N1NRZks?oc=5\" target=\"_blank\">EFSA vraagt praktijkervaringen met Bovaer na meldingen uit Denemarken</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nieuwe Oogst</font>",
       "id": "23cddc66e654b698"
-    },
-    {
-      "title": "EFSA vraagt om ervaringen met Bovaer te delen - VILT vzw",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWMkhtZmFpU1BoTmNwLXJNZ2xMbTdRNTRfb2ZKVEt6OGN6ZzF4Y3ZFNVB5SU80eGh3d2VPWi05TGpLODRUMlBsbEZPMG9FOXRPd1RyaG5WZzNoNEVpZzF5bjhWS2JoNXRRWl84dFo2d2ZOb044QWZYX3BKZw?oc=5",
-      "pubDate": "2026-02-17T08:00:00+00:00",
-      "source": "VILT vzw",
-      "language": "nl",
-      "country": "NL",
-      "sourceApi": "https://news.google.com/rss/search?q=%28Bovaer+OR+GMO+OR+insectenmeel%29+OR+baerekraft+OR+b%C3%A6rekraft+OR+sustainability+when%3A365d&hl=nl&gl=NL&ceid=NL%3Anl",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBWMkhtZmFpU1BoTmNwLXJNZ2xMbTdRNTRfb2ZKVEt6OGN6ZzF4Y3ZFNVB5SU80eGh3d2VPWi05TGpLODRUMlBsbEZPMG9FOXRPd1RyaG5WZzNoNEVpZzF5bjhWS2JoNXRRWl84dFo2d2ZOb044QWZYX3BKZw?oc=5\" target=\"_blank\">EFSA vraagt om ervaringen met Bovaer te delen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VILT vzw</font>",
-      "id": "901ac0cd52806998"
     }
   ]
 }
