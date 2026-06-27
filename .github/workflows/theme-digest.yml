@@ -1,0 +1,70 @@
+name: Theme Digest
+
+# Follows the app's core themes (Bovaer, GMO feed, insect meal) and keeps a
+# market-driven digest up to date from the EXISTING news feeds.
+#
+# - The factual digest (docs/data/theme_digest.latest.json) is source-only
+#   (real links + counts) and is committed automatically — it contains no
+#   generated claims.
+# - If the OPENAI_API_KEY secret is configured, short neutral editorial
+#   summaries are drafted into scripts/theme_digest_proposals.json and opened
+#   as a PULL REQUEST for human review. Generated prose is never auto-published.
+
+on:
+  schedule:
+    - cron: "41 5 * * 1" # every Monday 05:41 UTC (after the daily news ingest)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build theme digest
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python tools/theme_digest.py
+
+      - name: Commit factual digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/theme_digest.latest.json
+          git diff --cached --quiet || git commit -m "chore(themes): update theme digest"
+
+      - name: Push factual digest
+        run: git push
+
+      - name: Open PR with editorial proposals (human approval required)
+        if: hashFiles('scripts/theme_digest_proposals.json') != ''
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(themes): draft editorial summaries for review"
+          branch: theme-digest/proposals
+          delete-branch: true
+          title: "Theme digest: review drafted editorial summaries"
+          body: |
+            Automated, market-driven editorial drafts for the core themes.
+
+            These are **proposals only**. For each theme:
+            1. Read the `summary` and check it against the listed `sources`.
+            2. If accurate and neutral, publish it into the relevant editorial
+               page/dataset.
+            3. Do **not** merge drafts blindly — keep the project's sourcing
+               discipline.
+
+            See `scripts/theme_digest_proposals.json` for the raw drafts.
+          add-paths: |
+            scripts/theme_digest_proposals.json

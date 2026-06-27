@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-06-27T02:50:11.707020+00:00",
+  "version": 1,
+  "windowDays": 90,
+  "maxItems": 12,
+  "themes": [
+    {
+      "key": "bovaer",
+      "label": "Bovaer (metanhemmer i fôr)",
+      "total": 41,
+      "recent": 8,
+      "latestDate": "2026-06-04T19:43:14+00:00",
+      "items": [
+        {
+          "title": "Gäsene avslutar Bovaer-projekt trots sänkt metanutsläpp - Land.se",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDRYNUNXV25YN3dHMnJlZmpmQWl3Ym5FQnM5MFNja2JkcmlkWXlrQ3YwbGtFWmh1aEZxc1hoREczUFNCd092Y1BrVV9nM1pVREpiejlLTmNCeGVSa24zMkVzV1RnbEZDajJHOWxmbzdfWDdGV2JQVkNCanNXQXBRUy1iSWJfeGVycENGdy1ESzg4SVF1QWZ6M1lDWEFzejk3?oc=5",
+          "source": "Land.se",
+          "pubDate": "2026-06-04T19:43:14+00:00",
+          "language": "sv",
+          "country": "SE",
+          "id": "91a312f836f2a9e3"
+        },
+        {
+          "title": "Bovaer i fodret: Gäsene-bonde såg inga skillnader - Land.se",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ2NQeDdJQS1pSDF4dHZETmZRMTMxbUpQMFpnTFoyZGc1RHpzMkZleDNwUG5YaVJybk90a1ZxMExoQUFUc25WTV9DOGwwMUNYejE3ZU5XOXg5SGEwSjJ5V3ZjdlEtQlVaX3VFMTAwcXZzQlJYaDZjUXE3aDNoeng4ME1pMFFDMWRwVTlTbEFMbVlxNTBGRU5F?oc=5",
+          "source": "Land.se",
+          "pubDate": "2026-06-02T14:55:38+00:00",
+          "language": "sv",
+          "country": "SE",
+          "id": "2462497f3a817cd0"
+        },
+        {
+          "title": "Bovaer: Analyse zeigt keinen Zusammenhang mit Gesundheitsproblemen - top agrar",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZm1hQlBUSllWakdtTGVxSVdhTU1yYmJZTVZyaTZOTTlVOFlTc0VBN3hqOVhiWnFLa21jSlJlRG9sbzg5MVNvbnVwNlFDMzQxVXdHQnVncUlNa3YyT2ZsM281ek5rMXlrOWk2RWpuVHYwY044Z24xQXh1QS12UUtaS24wRENBMDZwRVFTSExLUzlNNW1zV3NqczVUZkFRdmR2b25FVlBxVU5UUTV4ZTAxck45Y2Q?oc=5",
+          "source": "top agrar",
+          "pubDate": "2026-05-14T07:00:00+00:00",
+          "language": "de",
+          "country": "CH",
+          "id": "81e18f48cfbe23e9"
+        },
+        {
+          "title": "Bovaer kan ook bij weidegang methaan reduceren - Veeteelt",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmbG9fZVFyeE5EWVVZRzY0WHdiZUR0dEItQXFITWJyVWltLWp5ZHFmMlBNYzVHYkxmRWllMS1pU2tEZWlobThtRUpEajR0RGhyR1FRSVNDVFZrQzVDcW1hNUxZVW5xU2RyWXNPYVlINGw2RkNqRlBhOGNEZXdJSFk?oc=5",
+          "source": "Veeteelt",
+          "pubDate": "2026-05-12T10:52:09+00:00",
+          "language": "nl",
+          "country": "NL",
+          "id": "4f762ab742b95a0d"
+        },
+        {
+          "title": "Deens onderzoek vindt geen relatie tussen Bovaer en sterfte - Nieuwe Oogst",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPejRXOG9XUlNpSG9KUjh6WDJvd0pJZi1acnpkRjZPMXVoQ0FDSjJJWEVVYmZJQnYzQkFRdUNtMFk5eXRGSl9MZXlUVFFqUUw4Um51UUZHNkV3U0JEek1RTXpHYlZNODdmRmdTV0xaNmsyN21MSFVlajQtVGtvcXdBdjBmMjA3cV9IOUFLWDBIbTFSMnlBdVhnVm5PTFFQVnB0ZHF5cnR5MA?oc=5",
+          "source": "Nieuwe Oogst",
+          "pubDate": "2026-05-12T07:00:00+00:00",
+          "language": "nl",
+          "country": "NL",
+          "id": "6678ea7345e0c44e"
+        },
+        {
+          "title": "Deens onderzoek vindt geen verband tussen Bovaer en koegezondheid - Veeteelt",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZzdaWEo2TnJRcGNUSUt2NkJyaEwyWGxjVGtscEtacGpaMzFrMnpERkJkZ3ptVWNnNk5FZktiOWFwMUMzMnRrNlFhQ0VvWFpsbDE4V2NGRjdOcnQ4WThFV3lEWVlIa2QzamJxcmkxSFBILTMyX2M3TG9LaXVydUxnRzAxV0NycEh1SWZCYm52Q1gzeXdTRlRPcg?oc=5",
+          "source": "Veeteelt",
+          "pubDate": "2026-05-12T07:00:00+00:00",
+          "language": "nl",
+          "country": "NL",
+          "id": "c2a867f7c7f623b9"
+        },
+        {
+          "title": "Deens onderzoek: geen verband tussen Bovaer en gezondheidsproblemen - Boerderij",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXZURTk0TG5JZmpLT3JMZ2JweTdUNXJTUU1rUmZuTTVGUlZGNk1zaWF1ZHkyR2ZjNzlkbXpUbnZTcThGejZBc0wzVldweDVqcXZNTkI1YldKUW5vQ04yN1RtUmlRYTMzVThrY25iVFJTVlBkU2xEUzZLTWxEcUdwUnBwV2FPbmh4RXlxV1ZNb2NqZzVKb1E?oc=5",
+          "source": "Boerderij",
+          "pubDate": "2026-05-12T07:00:00+00:00",
+          "language": "nl",
+          "country": "NL",
+          "id": "176c77d0a4ab704d"
+        },
+        {
+          "title": "Geen verplichting voor gebruik Bovaer in Duitsland - Boerderij",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXFtZk1WRGVabDdLVk4tR1Rlc1ZzZzRCN1dVVmVneVBIZUtlVzlTNElQTEQtaWk1UFNKNWNncDFwek11Uk5NSWNEa3phWG9DZXoySHZpRnNtR0xjMkpoTnI3QWh1Vkd6MlVnSU5DWkhrS2FnUFpqNzFad0FTb2dRTg?oc=5",
+          "source": "Boerderij",
+          "pubDate": "2026-04-17T07:00:00+00:00",
+          "language": "nl",
+          "country": "NL",
+          "id": "a6d9ad9782698d1e"
+        },
+        {
+          "title": "Combinatie Bovaer en beweiding misschien mogelijk - Landbouwleven",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZHJmN1BOWW5xekd2RVR0Z1luYVhqWUhTV21BbDBEdzl6N3RfYm9GOUtIdzVsTm1OaTRFZUozUmNQMzZyOElLSUZ4VDNvcXNrS0JEdU0wSGdmeV9vMHp2OWJ1M0dPc0xYS1JRQ0duanIxZkY4WTBveW01TmNNODFuSE1RNENQVWhrUzVHSjc0bndnVkpYVFp4SWN3S2dNODdEajVweWZn?oc=5",
+          "source": "Landbouwleven",
+          "pubDate": "2026-03-19T07:00:00+00:00",
+          "language": "nl",
+          "country": "BE",
+          "id": "8c4035206d6e506b"
+        },
+        {
+          "title": "Tine raser på omdømmemåling etter metanhemmer-striden – ubehagelig overraskelse",
+          "url": "https://www.document.no/2026/03/12/tine-raser-pa-omdommemaling-etter-metanhemmer-striden-ubehagelig-overraskelse/",
+          "source": "Document.no",
+          "pubDate": "2026-03-12T12:00:00+00:00",
+          "language": "nb",
+          "country": "NO",
+          "id": "document_tine_omdommemaling_202603"
+        },
+        {
+          "title": "Bovaer, Metanhemmere | Danske forskere med mulig Bovaer-svar - Bondebladet",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLVdNckJaNm5yVHVDMndxUTZHak1XWjdKNUQtOURCTVlyS1RPdWRkeWJ5Zk1xMldhRnFQREJVRE4xT1FjQ1JVWTNkMFc4bjMwSWNUNW1mMkRJd2tWWmJRU01Xbms2bHpBSlIwSXJVMFF2VlNLMjlvNk5MR2NfLVB3bFBqYTlyQQ?oc=5",
+          "source": "Bondebladet",
+          "pubDate": "2026-03-06T08:00:00+00:00",
+          "language": "nb",
+          "country": "NO",
+          "id": "500985a505e08eb5"
+        },
+        {
+          "title": "Bovaer granskas – detta visar analysen - ATL.nu",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54aW94NEdBMU1BRUZ0WWhLMkx2eXZGMk50QUNNNVdQenE2ci1jaDdySFJzamw2R044bGhhamR5UUFoUkp0R09od0xtT0QtLWRyVmcwcFJBdVpuNUUwcDNleU5tbUNEcE1PczVqbXQtVzJzZw?oc=5",
+          "source": "ATL.nu",
+          "pubDate": "2026-03-05T08:00:00+00:00",
+          "language": "sv",
+          "country": "SE",
+          "id": "9b01c6905d968822"
+        }
+      ]
+    },
+    {
+      "key": "insect_meal",
+      "label": "Insektsmel i fôr",
+      "total": 9,
+      "recent": 6,
+      "latestDate": "2026-06-08T10:26:37+00:00",
+      "items": [
+        {
+          "title": "Farine d'insectes : Innovafeed lève 51 millions d'euros mais supprime 60 postes - La Tribune",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNdlA2MjQ5SnhuRURuX1JGeGF1aXVGVkJ2LUVvVmVmTnRTZC1LcVZFa0FCQUhMQWJvMExWbjl5Wjg1NGNvb0ZuTnJJNFlYZ1VkdGVPNzY5UDlvWGthbTZLcmdzN1c4czViODRtMWk1RjVmX2w0ZklyVTBXWHVHclRDNDNWYXdKNXRuZ1A3R05zQzg1LWtpVHdPblZzeHZrRDJHNjZaRjBrMWZnTkpoTThfV3UzMUhvQkY5YzByUnllcTY1UHY0WUJQWlZjMlFrVjNLeVdtOWt3eFZiUzl5ajdTckxsRk1CTnVtSmNB?oc=5",
+          "source": "La Tribune",
+          "pubDate": "2026-06-08T10:26:37+00:00",
+          "language": "nl",
+          "country": "BE",
+          "id": "2704e7da4dccb990"
+        },
+        {
+          "title": "Paris-based Innovafeed secures €51 million to scale sustainable insect-based ingredients for animal and plant nutrition - EU-Startups",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOQVhuVXF2WE1Oc2xjdmF3Y3pzTEU2ZmstOU91QmJTcElNZFIyRW9DQ1ZZRHktTm4yTjQ4LWxUTnNCRkVBRzU4LXJORER1Q0syV0dhdk1PbjJ6dnliS1l6WHdPczl6Vy15a0kxaEFRU0tTT21WMUptSGZWNWdMeGRSS0xBc1gzSmpKU3pfMkxPaUp3ZDNSS3NnWkgtWjNoSDNFc09kNFV3WjUtTElDcVpDU2ZvSUJ6VTNBS1BCNEdaREtHbGhkTDRoWEtDTkFrLUdUTmxqYVpwRjFWcmpDNjRtYk9tMl9VVTkyaTBtUQ?oc=5",
+          "source": "EU-Startups",
+          "pubDate": "2026-06-05T11:17:14+00:00",
+          "language": "en",
+          "country": "GB",
+          "id": "ffd02923cbec2e59"
+        },
+        {
+          "title": "Informe cuestiona el papel de la harina de insecto en piensos acuícolas - misPeces",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZS1lMmRkZ0VGbHBIaEkxXzJMMG1LeXN3VWdGV2REbzVZM3hYdkFuUWtzR3NyM3NSSGR1M3I1blcteUJoV1hRTTJvY21oQjY2QTYwczJ2WlAzcW16NE1rQXJHbjd5aGlfYUljaFV0ZFVpWi1XdGdkX1BUYTBhWVl6VFJWZ2VJMFZTWEtNazR0ajJBQkd4TVJuZDVvVHA5aVlFalh2ZVZtNTctdw?oc=5",
+          "source": "misPeces",
+          "pubDate": "2026-05-28T07:52:44+00:00",
+          "language": "es",
+          "country": "ES",
+          "id": "02d7ce5d6dc91ab6"
+        },
+        {
+          "title": "Mangeresti pollo o maiale nutriti con farina di insetti? Gli italiani restano cauti. Lo studio internazionale - Corriere della Sera",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOT1A0bXBEN21xblNBOS1objlnQmxFUk54NGVnVHFTT0RvUTlUVnFxMVZhS1F5ZkwwUlc3WnY2TTVhMTNvdVZXazUxRUVXYkduNnR5QW85QkdEQlFVWVBIV2xBeG9HdXFvak4tbUlOYXE2WEtnYkxzUm1EYnVTVEw5V0g4M0RiZElacjNNYS1ZOE1EbzhsOE9kZTJZcGZTS3E4Wk9mMVhXUFQtd2MtTnk3X3FyOGpRSGRGMW1zaWI3Vm5kdWVXWGgtTlhVZUJoVlBuRFNzalBoLVVqeVlZQWZGNFNBcHdYYktHOTFZR0FfM2FDcWo3Z1dtanlZUVA2eklVdTZkN2ZWNzJMX1BpMmdoSzNRc2ZhVUk5V2dTTmUwSzAyV0I1TlAyWFhfSkZMTXlWNWfSAbcCQVVfeXFMT2hJRzlySWFGUUxLQzNRMlM0R1Y3bFVkTzg0d0JNOXh4aVJxSFZ1OUlGNGdjUHY5MTZTaWhPRy1rYlF6Mk1lcFl6d2lWYk1YNGJuRndlSFVkZmlCZ1NMWl9BemU4TmRaajhXYXNwNFU5allySG0tRW1GRU5tTDZodkFneVBWRVZ3ZmlLWXIycU5ZT0NyeDR2NW9jRGhOUjNiM2dyRzZ4MC1kZUI5MFF5SlFKa2hndFhmWWRlSFBqR0lpbkxiOVRib3BTTzhqV0ZmbEJYT3U5MTlHZGdTd0l6TTFPaXg3cjNfQ2hlbmVNVzkxUy1aODlQSHhRNzE0U2ZuS1RKc3pia04xSUlKdXByUTlZT1JKX3U4UFdNRlFlQWxLM00zQWpYMElCYklCeFFodW56MUlpZU0?oc=5",
+          "source": "Corriere della Sera",
+          "pubDate": "2026-05-23T10:27:10+00:00",
+          "language": "it",
+          "country": "IT",
+          "id": "fa40140f8813b577"
+        },
+        {
+          "title": "La farina di insetti, ecco i nuovi alimenti - Il Punto Quotidiano",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2NoQUdqVUdCX3JOS295Y2dWVno3UV9HTTA3bmZoUThwSEpWdE1oM3llU2t0NTJHTEFheUZJbm9xTmUteVl6QTlwUWd2TEFWWkpKOFVFbFE5R1RYT2s0bmVKNjBUaU1qMThQYkhWcjFRam5IaUdGMEdyMm5yVVNkYmVB?oc=5",
+          "source": "Il Punto Quotidiano",
+          "pubDate": "2026-05-17T07:00:00+00:00",
+          "language": "it",
+          "country": "IT",
+          "id": "e9d2d4f5fb72ee66"
+        },
+        {
+          "title": "Onda: Salmon trial evaluates insect meal as feed additive - SalmonBusiness",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5d9IBkgFBVV95cUxPRlFWZ2s5TS16RjZtVlRYVDV3elhrLVl3blh5ai1Uc3dvSTVvNFUtWV9UU0M1ODRPM0ljOGN2RUI3ZkI4ZktqYVhISGtFSnRfWWY5R2pTbTNRdVFwR2hwNmw0LXpwVkE3aU9qbDZpZEVVMDRjaU9iU1JtcXpyQ3FhNURsVDVYTWk3WkQyZ0lFY0N5dw?oc=5",
+          "source": "SalmonBusiness",
+          "pubDate": "2026-04-02T07:00:00+00:00",
+          "language": "en",
+          "country": "GB",
+          "id": "d23abaa25bfff83d"
+        },
+        {
+          "title": "Insect meal: can the sector still deliver on its 2030 promise? - The Fish Site",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFpUem8zenhKQ3ZNS0pLUlNkRkItVEdCdklVZzlqbDZpc1pma0tPNlR5bWMzQUM4eXNfWE5melJSY0NVdWRqbGM1dk44cENDM1NaVUlIVnBONUpqeGdMWkVrUVpaYWdjYl9IWkZ0djFnLWstS09uUUw1TUlGZGsyWm5zcGZTXzVuek0wS21OVkpCaFNxZkFaaA?oc=5",
+          "source": "The Fish Site",
+          "pubDate": "2025-12-18T08:00:00+00:00",
+          "language": "en",
+          "country": "GB",
+          "id": "a56fa988f40c64d9"
+        },
+        {
+          "title": "India insect meal company wins approval for aquaculture use - The Fish Site",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSUNuQnpIVXhwNTV6SFRIcTVHNU55Z2JYd1FjSTNpRndQeW9Md25qU2NKN05RQXY1cG9uZjk3a1QwY2xfV2xfOGJXYm1vbGlHQzA2VlJySG9kak5LT1A5Q0RFamlvbDBUN0xVMURGMjVjZGFOcnRZWWN3RGRxbGJKc1VvMDBRN1g2bm5TaU1JaDZPX3VsTGVv?oc=5",
+          "source": "The Fish Site",
+          "pubDate": "2025-09-24T07:00:00+00:00",
+          "language": "en",
+          "country": "GB",
+          "id": "4eca252d0b1607fd"
+        },
+        {
+          "title": "BioMar commits to using insect meal in shrimp feed - Fishfarming expert",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGZxVXlVOEE0Z0lfNlZYcnVucmNxRnF5RFA1cnlOVHNwdW9xR2tTR05UdmFMc2JqSFR5Y2lnRWFSRWc4cm1fTG1ZdFdHYllpMjBOeEVkSEtrZE9ueDh4dk9DRDZKLVByaExQUmRxU00xU2lNdGlHamFLV0FmdkJvU3NCcGswRk9pbGNGeVNvMVhwSDJPeWVRMklJbFVON3B0TEJXUWdlbEdtdVY5ckdaQ1l0YUZMbEl2?oc=5",
+          "source": "Fishfarming expert",
+          "pubDate": "2025-09-02T07:00:00+00:00",
+          "language": "en",
+          "country": "GB",
+          "id": "1440c6dddf6b148c"
+        }
+      ]
+    },
+    {
+      "key": "gmo_feed",
+      "label": "GMO i fôr / fiskefôr",
+      "total": 1,
+      "recent": 0,
+      "latestDate": "2026-03-18T07:00:00+00:00",
+      "items": [
+        {
+          "title": "Nå skal oppdrettsnæringen fôre med GMO for å sikre videre bærekraft? ♻️ Samtidig som årskonferansen #Samfunnsoppdraget for #bærekraftig #fôr, kom høringen om endring i #fôrvareforskriften som åpner for at #oppdrettsnæringen kan importere og benytt - LinkedIn Norge",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRElJbHFRcFFCVWdJaEtwOGhhUU81V2V5M1p3eGtPcG9yd0JFZVozdy13OEVFUjVzNDdySmVOcmI3SG1TSmVnSk5rb2ROb21hcUs4d1FmOEN4TnpnUmRrc3ZfeWE3VVM4WnN6SHdGRENVX3pKbzM3ZFQxeGVHanRRVG1FZVVNS0xLVXlrcE8yaHdfTEx4aHdCVmNtRUFwYUlJSll2QW1lWGxodW9MbGctVkROQWdnbXJmRkpuVm1Ua1NFRnZpNlUyTExIcmk?oc=5",
+          "source": "LinkedIn Norge",
+          "pubDate": "2026-03-18T07:00:00+00:00",
+          "language": "nb",
+          "country": "NO",
+          "id": "77b5550352270826"
+        }
+      ]
+    }
+  ]
+}
