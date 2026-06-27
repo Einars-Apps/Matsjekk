@@ -51,6 +51,30 @@
 - **Kassalapp API**: HOLD som test til budsjett → da Bedrift-lisens (kommersiell
   bruk forbudt på gratis-tier). Token `kassalapp.token` er git-ignorert.
 
+## ⚖️ NGT / leverandørkjede-varsler — felles regler (gjelder Matsjekk + PureBasket)
+> Formål: informere forbruker om dokumenterte forhold, ALDRI anklage på mistanke.
+> Samme regelsett og agent-mønster brukes i begge apper.
+
+1. **Ingen kilde = ingen flagg.** Hvert gult/rødt kjede-/leverandørflagg MÅ ha en
+   etterprøvbar offentlig `source_url`. Appen dropper oppføringer uten (håndhevet
+   i `remote_ngt_suppliers_service.dart` / `remote_risk_suppliers_service.dart`).
+2. **Opphav ≠ skyld.** At en vare kommer fra et importland er IKKE grunnlag.
+   Flagg det konkrete, dokumenterte produkt/leverandør-leddet. Navngi kjeder
+   nøytralt («selges hos»), aldri med motiv/hensikt.
+3. **Rødt = dokumentert faktum. Gult = dokumentert risiko.** Aldri rødt uten kilde
+   (kode kapper rødt→gult uten kilde).
+4. **`valid_until` + `product_scope`.** Bruk for tidsavgrensning og kategori
+   (f.eks. «Tine-melk nå ren, men eldre ost kan gjenstå»). Utløpte flagg vises ikke.
+5. **Menneske-i-loopen.** Monitor (`ngt_monitor.py` / `risk_monitor.py`) FORESLÅR
+   kun kandidater → PR/review. Et menneske verifiserer kilden før promotering til
+   `suppliers`-arrayet. Aldri full-auto på navngitte selskaper.
+6. **Tilsvarsrett.** Selskaper kan be om korreksjon (kontakt på nettsiden /
+   support@purebasket.app). Verifiserte korreksjoner oppdaterer/fjerner oppføring.
+7. **EU NGT-utvikling** følges via `eu_decisions*.json` + nyhetsfeed; nye regler
+   kan stramme inn kriteriene — oppdater schema/regler, ikke enkeltanklager.
+- Datafiler: Matsjekk `docs/data/ngt_suppliers.json` (tom = ingen flagg);
+  PureBasket `website/data/risk_suppliers.json` (tom = ingen flagg).
+
 ## Verktøy
 - `tools/arb_audit.py` — manglende/ekstra ARB-nøkler per språk.
 - `tools/arb_untranslated.py` — verdier som fortsatt er engelske.

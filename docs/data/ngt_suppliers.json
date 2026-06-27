@@ -1,16 +1,22 @@
 {
   "_comment": "Human-APPROVED list of producers/retailers documented to source from a known GMO supplier (Monsanto/Bayer-type agreements). The app reads this file (https://matsjekk.com/data/ngt_suppliers.json) once per day and shows a YELLOW 'MULIG RISIKO' signal ONLY for brands listed here. Approved entries reach the app without a new release. The monitor (scripts/ngt_monitor.py) only proposes candidates; a human promotes verified ones into this 'suppliers' array.",
+  "_rule": "NEVER flag on suspicion. Every shown entry MUST have a verifiable public 'source_url'; the app drops entries without one. Origin/import alone is NOT grounds for a flag — flag the documented product/supplier link, and name retailers neutrally ('selges hos'), never with motive.",
   "_schema": {
     "brand_aliases": "list of lowercase brand substrings matched against the product brand",
     "reason_nb": "Norwegian 'MULIG RISIKO' wording (precautionary, with a verifiable basis)",
     "reason_en": "English 'POSSIBLE RISK' wording",
-    "source_url": "public, verifiable source documenting the GMO-supplier link"
+    "source_url": "public, verifiable source documenting the GMO-supplier link (REQUIRED — entries without it are not shown)",
+    "product_scope": "OPTIONAL list of product categories the flag applies to (e.g. ['ost','lagrede']); empty = brand-wide. Handles cases like 'milk now clean, but aged cheese may linger'.",
+    "valid_until": "OPTIONAL ISO date (YYYY-MM-DD); when in the past the app stops showing the flag (e.g. producer documented it stopped).",
+    "correction": "Right of reply: brands may request a correction at the contact on matsjekk.com; verified corrections update or remove the entry."
   },
   "_example_disabled": {
     "brand_aliases": ["eksempelmerke"],
     "reason_nb": "MULIG RISIKO: Dokumentert leveranse fra kjent GMO-leverandør (Bayer/Monsanto). Se kilde.",
     "reason_en": "POSSIBLE RISK: Documented sourcing from a known GMO supplier (Bayer/Monsanto). See source.",
-    "source_url": "https://example.com/verifiable-source"
+    "source_url": "https://example.com/verifiable-source",
+    "product_scope": [],
+    "valid_until": null
   },
   "version": 1,
   "updated_at": null,

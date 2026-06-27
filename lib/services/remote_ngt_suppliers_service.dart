@@ -7,6 +7,11 @@ import '../config/links.dart';
 
 /// One human-approved supplier entry: a brand documented to source from a
 /// known GMO supplier. Shown in the app as a YELLOW "MULIG RISIKO" signal.
+///
+/// Principle: a supplier/chain flag is only ever shown when it rests on a
+/// verifiable public [sourceUrl] — a documentable fact, never suspicion. An
+/// optional [validUntil] lets an entry expire automatically (e.g. when a
+/// producer documents that it has stopped, while older stock may still linger).
 class NgtSupplierEntry {
   /// Lowercase brand substrings matched against the product brand name.
   final List<String> brandAliases;
@@ -14,12 +19,36 @@ class NgtSupplierEntry {
   final String reasonEn;
   final String sourceUrl;
 
+  /// Optional product categories the flag applies to (e.g. "ost", "lagrede").
+  /// Empty means it applies to the brand generally.
+  final List<String> productScope;
+
+  /// Optional expiry. When set and in the past, the entry is not shown.
+  final DateTime? validUntil;
+
   const NgtSupplierEntry({
     required this.brandAliases,
     required this.reasonNb,
     required this.reasonEn,
     required this.sourceUrl,
+    this.productScope = const [],
+    this.validUntil,
   });
+
+  /// Whether this entry rests on a verifiable public source (http/https).
+  bool get hasValidSource {
+    final u = Uri.tryParse(sourceUrl.trim());
+    return u != null &&
+        (u.scheme == 'http' || u.scheme == 'https') &&
+        u.host.isNotEmpty;
+  }
+
+  /// Whether the entry has expired per [validUntil].
+  bool get isExpired =>
+      validUntil != null && DateTime.now().isAfter(validUntil!);
+
+  /// An entry may only be shown when it is documented and not expired.
+  bool get isShowable => hasValidSource && !isExpired;
 
   factory NgtSupplierEntry.fromJson(Map<String, dynamic> json) {
     final aliasesRaw = json['brand_aliases'];
@@ -29,11 +58,20 @@ class NgtSupplierEntry {
             .where((e) => e.isNotEmpty)
             .toList()
         : <String>[];
+    final scopeRaw = json['product_scope'];
+    final scope = scopeRaw is List
+        ? scopeRaw
+            .map((e) => e.toString().trim().toLowerCase())
+            .where((e) => e.isNotEmpty)
+            .toList()
+        : <String>[];
     return NgtSupplierEntry(
       brandAliases: aliases,
       reasonNb: (json['reason_nb'] ?? '').toString(),
       reasonEn: (json['reason_en'] ?? '').toString(),
       sourceUrl: (json['source_url'] ?? '').toString(),
+      productScope: scope,
+      validUntil: DateTime.tryParse((json['valid_until'] ?? '').toString()),
     );
   }
 }
@@ -99,7 +137,9 @@ class RemoteNgtSuppliersService {
       if (item is Map) {
         final entry =
             NgtSupplierEntry.fromJson(item.cast<String, dynamic>());
-        if (entry.brandAliases.isNotEmpty) {
+        // Core rule: never show a supplier/chain flag on suspicion. It must
+        // rest on a verifiable public source and must not have expired.
+        if (entry.brandAliases.isNotEmpty && entry.isShowable) {
           result.add(entry);
         }
       }
