@@ -62,6 +62,28 @@
       border-radius: 18px; padding: 1.8rem 1.2rem; margin-top: 1.6rem; }
     .r-cta .btn-primary { display: inline-block; margin-top: .8rem; padding: .7rem 1.4rem; border-radius: 999px;
       background: linear-gradient(120deg, #3d9b52 0%, #2f7f4f 100%); color: #fff; text-decoration: none; font-weight: 600; }
+    /* Deep-dive accordion ("rabbit hole") */
+    .r-deep { background: linear-gradient(180deg, #fbfdff 0%, #f4f9fc 100%); border-radius: 18px;
+      padding: 1.4rem 1.4rem 1.6rem; border: 1px solid rgba(20,79,90,.12); }
+    .r-deep > h2 { margin-top: 0; }
+    .r-deep .r-deep-intro { color: #33484e; max-width: 720px; }
+    .r-acc { background: #fff; border: 1px solid rgba(0,0,0,.08); border-radius: 12px; margin: .55rem 0; overflow: hidden; }
+    .r-acc > summary { cursor: pointer; padding: .9rem 1.1rem; font-weight: 600; list-style: none;
+      display: flex; gap: .6rem; align-items: center; color: #1f3b33; }
+    .r-acc > summary::-webkit-details-marker { display: none; }
+    .r-acc > summary::after { content: '+'; margin-left: auto; font-size: 1.4rem; line-height: 1; color: #2E7D32; }
+    .r-acc[open] > summary::after { content: '\2013'; }
+    .r-acc .r-acc-body { padding: 0 1.1rem 1rem; color: #33484e; font-size: .96rem; }
+    .r-trap { background: #fff7e7; border-left: 4px solid #C98A00; padding: .55rem .8rem; border-radius: 8px;
+      margin: .6rem 0; font-size: .92rem; }
+    .r-look { background: #eef7f0; border-left: 4px solid #2E7D32; padding: .55rem .8rem; border-radius: 8px;
+      margin: .6rem 0; font-size: .92rem; }
+    .r-checklist { background: linear-gradient(180deg, #fbfffc 0%, #f1faf4 100%);
+      border: 1px solid rgba(46,125,50,.20); border-radius: 14px; padding: 1.1rem 1.3rem; margin-top: 1.1rem; }
+    .r-checklist h3 { margin: 0 0 .4rem; }
+    .r-checklist ul { margin: .3rem 0 0; padding-left: 1.2rem; }
+    .r-checklist li { margin: .35rem 0; }
+    .r-deep-note { font-size: .88rem; color: #5a6a6f; margin-top: 1rem; font-style: italic; }
   </style>
 </head>
 <body>
@@ -129,6 +151,70 @@
       </div>
     </section>
 
+    <!-- 4b. Deep-dive: how research is set up + avoid the traps -->
+    <section class="r-deep">
+      <h2 data-translate="deepH">Slik settes forskning opp – og slik unngår du fellene</h2>
+      <p class="r-deep-intro" data-translate="deepIntro">Vi tar ikke standpunkt for deg. Målet her er å gi deg verktøyene til selv å vurdere om en påstand faktisk er godt dokumentert – så du kan finne korrekt informasjon på egen hånd. Trykk på hvert punkt for å åpne.</p>
+
+      <details class="r-acc">
+        <summary data-translate="a1s">«Det finnes forskning som sier...» – den vanligste fellen</summary>
+        <div class="r-acc-body" data-translate-html="a1b">
+          <p>I medier og markedsføring høres «det finnes forskning som sier det» ut som et sluttbevis. Men én studie er sjelden et endelig svar – og ofte er studien det vises til betalt av en part med interesse i resultatet.</p>
+          <div class="r-trap"><strong>Fellen:</strong> En enkelt studie, et leserinnlegg eller en pressemelding presenteres som om saken er avgjort.</div>
+          <div class="r-look"><strong>Se etter:</strong> Er funnet gjentatt av flere uavhengige forskergrupper? Er det en oppsummering (systematisk oversikt) – eller bare én studie løftet frem fordi den passet budskapet?</div>
+        </div>
+      </details>
+
+      <details class="r-acc">
+        <summary data-translate="a2s">Er den fagfellevurdert – og hva betyr det egentlig?</summary>
+        <div class="r-acc-body" data-translate-html="a2b">
+          <p>Fagfellevurdering betyr at andre uavhengige fagfolk har gått gjennom metode og konklusjon før publisering. Det fjerner ikke all feil, men luker ut mye svak forskning.</p>
+          <div class="r-trap"><strong>Fellen:</strong> Det vises til «rapporter», preprints eller produsentdokumenter som aldri er fagfellevurdert, men som omtales som «forskning».</div>
+          <div class="r-look"><strong>Se etter:</strong> Er den publisert i et anerkjent, fagfellevurdert tidsskrift? En foreløpig rapport eller bransjenotat har ikke samme tyngde.</div>
+        </div>
+      </details>
+
+      <details class="r-acc">
+        <summary data-translate="a3s">Mandatet – hvilket spørsmål ble egentlig stilt?</summary>
+        <div class="r-acc-body" data-translate-html="a3b">
+          <p>En studie kan være helt korrekt, men svare på et smalt spørsmål. «Trygt i dose X over 3 måneder» svarer ikke på langtidsvirkning, kombinasjonseffekter eller hva som skjer i hele næringskjeden.</p>
+          <div class="r-trap"><strong>Fellen:</strong> Et smalt, avgrenset resultat presenteres som om det dekker hele bekymringen.</div>
+          <div class="r-look"><strong>Se etter:</strong> Hva ble faktisk undersøkt – og hva ble holdt utenfor? Dekker mandatet det folk faktisk lurer på?</div>
+        </div>
+      </details>
+
+      <details class="r-acc">
+        <summary data-translate="a4s">Bevishierarkiet – fra én studie til myndighetsvurdering</summary>
+        <div class="r-acc-body" data-translate-html="a4b">
+          <p>Ikke all dokumentasjon veier likt. Grovt sett, fra svakest til sterkest:</p>
+          <p>Enkeltstudie → gjentatt av andre → systematisk oversikt/metaanalyse → uavhengig myndighetsvurdering (f.eks. EFSA, VKM).</p>
+          <div class="r-look"><strong>Se etter:</strong> Jo høyere opp i hierarkiet en konklusjon er bekreftet, jo tryggere kan du stole på den. En myndighetsvurdering som samler ALL tilgjengelig forskning veier tyngre enn én fersk overskrift.</div>
+        </div>
+      </details>
+
+      <details class="r-acc">
+        <summary data-translate="a5s">Når resultater velges ut – publikasjonsskjevhet</summary>
+        <div class="r-acc-body" data-translate-html="a5b">
+          <p>Noen ganger fremheves bare de studiene som støtter et ønsket budskap, mens resultater som peker motsatt vei nedtones eller ikke publiseres. Det kalles publikasjonsskjevhet eller selektiv rapportering.</p>
+          <div class="r-trap"><strong>Fellen:</strong> Bare gunstige resultater løftes frem; eldre eller ubeleilige funn nevnes ikke.</div>
+          <div class="r-look"><strong>Se etter:</strong> Var studien forhåndsregistrert? Legges alle data frem? Finnes det en systematisk oversikt som inkluderer ALLE studier – ikke bare de utvalgte?</div>
+        </div>
+      </details>
+
+      <div class="r-checklist">
+        <h3 data-translate="clH">5 spørsmål du kan stille til enhver påstand</h3>
+        <ul>
+          <li data-translate="cl1">Hvem betalte for og bestilte forskningen?</li>
+          <li data-translate="cl2">Er den fagfellevurdert, eller bare en rapport?</li>
+          <li data-translate="cl3">Hvilket spørsmål svarer den egentlig på?</li>
+          <li data-translate="cl4">Er funnet gjentatt av uavhengige andre?</li>
+          <li data-translate="cl5">Finnes en myndighets- eller oversiktsvurdering av hele bildet?</li>
+        </ul>
+      </div>
+
+      <p class="r-deep-note" data-translate="deepNote">Dette er generell kildekritikk – ikke en konklusjon om noe enkelt produkt. Vi peker på hva du bør se etter, så trekker du dine egne slutninger fra de offisielle kildene.</p>
+    </section>
+
     <!-- 5. Topics covered -->
     <section>
       <h2 data-translate="topicsH">Temaene vi følger</h2>
@@ -183,6 +269,25 @@
         howS3: '<strong>Mandat</strong> – én enkel linje om hva studien skulle finne ut.',
         howS4: '<strong>Fagfellevurdert</strong> – et merke når andre uavhengige forskere har kontrollert arbeidet.',
         howS5: '<strong>Åpne kilde</strong> – lenke rett til originaldokumentet, så du kan lese selv.',
+        deepH: 'Slik settes forskning opp – og slik unngår du fellene',
+        deepIntro: 'Vi tar ikke standpunkt for deg. Målet her er å gi deg verktøyene til selv å vurdere om en påstand faktisk er godt dokumentert – så du kan finne korrekt informasjon på egen hånd. Trykk på hvert punkt for å åpne.',
+        a1s: '«Det finnes forskning som sier...» – den vanligste fellen',
+        a1b: '<p>I medier og markedsføring høres «det finnes forskning som sier det» ut som et sluttbevis. Men én studie er sjelden et endelig svar – og ofte er studien det vises til betalt av en part med interesse i resultatet.</p><div class="r-trap"><strong>Fellen:</strong> En enkelt studie, et leserinnlegg eller en pressemelding presenteres som om saken er avgjort.</div><div class="r-look"><strong>Se etter:</strong> Er funnet gjentatt av flere uavhengige forskergrupper? Er det en oppsummering (systematisk oversikt) – eller bare én studie løftet frem fordi den passet budskapet?</div>',
+        a2s: 'Er den fagfellevurdert – og hva betyr det egentlig?',
+        a2b: '<p>Fagfellevurdering betyr at andre uavhengige fagfolk har gått gjennom metode og konklusjon før publisering. Det fjerner ikke all feil, men luker ut mye svak forskning.</p><div class="r-trap"><strong>Fellen:</strong> Det vises til «rapporter», preprints eller produsentdokumenter som aldri er fagfellevurdert, men som omtales som «forskning».</div><div class="r-look"><strong>Se etter:</strong> Er den publisert i et anerkjent, fagfellevurdert tidsskrift? En foreløpig rapport eller bransjenotat har ikke samme tyngde.</div>',
+        a3s: 'Mandatet – hvilket spørsmål ble egentlig stilt?',
+        a3b: '<p>En studie kan være helt korrekt, men svare på et smalt spørsmål. «Trygt i dose X over 3 måneder» svarer ikke på langtidsvirkning, kombinasjonseffekter eller hva som skjer i hele næringskjeden.</p><div class="r-trap"><strong>Fellen:</strong> Et smalt, avgrenset resultat presenteres som om det dekker hele bekymringen.</div><div class="r-look"><strong>Se etter:</strong> Hva ble faktisk undersøkt – og hva ble holdt utenfor? Dekker mandatet det folk faktisk lurer på?</div>',
+        a4s: 'Bevishierarkiet – fra én studie til myndighetsvurdering',
+        a4b: '<p>Ikke all dokumentasjon veier likt. Grovt sett, fra svakest til sterkest:</p><p>Enkeltstudie → gjentatt av andre → systematisk oversikt/metaanalyse → uavhengig myndighetsvurdering (f.eks. EFSA, VKM).</p><div class="r-look"><strong>Se etter:</strong> Jo høyere opp i hierarkiet en konklusjon er bekreftet, jo tryggere kan du stole på den. En myndighetsvurdering som samler ALL tilgjengelig forskning veier tyngre enn én fersk overskrift.</div>',
+        a5s: 'Når resultater velges ut – publikasjonsskjevhet',
+        a5b: '<p>Noen ganger fremheves bare de studiene som støtter et ønsket budskap, mens resultater som peker motsatt vei nedtones eller ikke publiseres. Det kalles publikasjonsskjevhet eller selektiv rapportering.</p><div class="r-trap"><strong>Fellen:</strong> Bare gunstige resultater løftes frem; eldre eller ubeleilige funn nevnes ikke.</div><div class="r-look"><strong>Se etter:</strong> Var studien forhåndsregistrert? Legges alle data frem? Finnes det en systematisk oversikt som inkluderer ALLE studier – ikke bare de utvalgte?</div>',
+        clH: '5 spørsmål du kan stille til enhver påstand',
+        cl1: 'Hvem betalte for og bestilte forskningen?',
+        cl2: 'Er den fagfellevurdert, eller bare en rapport?',
+        cl3: 'Hvilket spørsmål svarer den egentlig på?',
+        cl4: 'Er funnet gjentatt av uavhengige andre?',
+        cl5: 'Finnes en myndighets- eller oversiktsvurdering av hele bildet?',
+        deepNote: 'Dette er generell kildekritikk – ikke en konklusjon om noe enkelt produkt. Vi peker på hva du bør se etter, så trekker du dine egne slutninger fra de offisielle kildene.',
         topicsH: 'Temaene vi følger',
         topicBovaer: 'Bovaer', topicBovaerD: 'Fôrtilsetning i melkekyr',
         topicNgt: 'NGT/GMO', topicNgtD: 'Nye genteknikker og EU-regler',
@@ -215,6 +320,25 @@
         howS3: '<strong>Mandate</strong> – one simple line on what the study set out to find.',
         howS4: '<strong>Peer-reviewed</strong> – a badge when other independent researchers checked the work.',
         howS5: '<strong>Open source</strong> – a link straight to the original document, so you can read it yourself.',
+        deepH: 'How research is set up – and how to avoid the traps',
+        deepIntro: 'We do not take a stance for you. The goal here is to give you the tools to judge for yourself whether a claim is actually well documented – so you can find correct information on your own. Tap each point to open it.',
+        a1s: '"There is research that says..." – the most common trap',
+        a1b: '<p>In media and marketing, "there is research that says so" sounds like final proof. But a single study is rarely a final answer – and often the study being cited is paid for by a party with an interest in the result.</p><div class="r-trap"><strong>The trap:</strong> A single study, an opinion piece or a press release is presented as if the matter is settled.</div><div class="r-look"><strong>Look for:</strong> Has the finding been repeated by several independent research groups? Is it a summary (systematic review) – or just one study lifted out because it fit the message?</div>',
+        a2s: 'Is it peer-reviewed – and what does that actually mean?',
+        a2b: '<p>Peer review means other independent experts checked the method and conclusion before publication. It does not remove all error, but it weeds out a lot of weak research.</p><div class="r-trap"><strong>The trap:</strong> "Reports", preprints or producer documents that were never peer-reviewed are referred to as "research".</div><div class="r-look"><strong>Look for:</strong> Is it published in a recognised, peer-reviewed journal? A preliminary report or industry note does not carry the same weight.</div>',
+        a3s: 'The mandate – what question was actually asked?',
+        a3b: '<p>A study can be perfectly correct yet answer a narrow question. "Safe at dose X over 3 months" does not answer long-term effects, combined effects or what happens across the whole food chain.</p><div class="r-trap"><strong>The trap:</strong> A narrow, limited result is presented as if it covers the entire concern.</div><div class="r-look"><strong>Look for:</strong> What was actually examined – and what was left out? Does the mandate cover what people are really wondering about?</div>',
+        a4s: 'The evidence hierarchy – from one study to a regulatory assessment',
+        a4b: '<p>Not all evidence weighs the same. Roughly, from weakest to strongest:</p><p>Single study → repeated by others → systematic review/meta-analysis → independent regulatory assessment (e.g. EFSA, VKM).</p><div class="r-look"><strong>Look for:</strong> The higher up the hierarchy a conclusion is confirmed, the more you can rely on it. A regulatory assessment that gathers ALL available research weighs more than one fresh headline.</div>',
+        a5s: 'When results are cherry-picked – publication bias',
+        a5b: '<p>Sometimes only the studies that support a desired message are highlighted, while results pointing the other way are downplayed or not published. This is called publication bias or selective reporting.</p><div class="r-trap"><strong>The trap:</strong> Only favourable results are highlighted; older or inconvenient findings go unmentioned.</div><div class="r-look"><strong>Look for:</strong> Was the study pre-registered? Is all the data made available? Is there a systematic review that includes ALL studies – not just the selected ones?</div>',
+        clH: '5 questions you can ask of any claim',
+        cl1: 'Who paid for and commissioned the research?',
+        cl2: 'Is it peer-reviewed, or just a report?',
+        cl3: 'What question does it actually answer?',
+        cl4: 'Has the finding been repeated by independent others?',
+        cl5: 'Is there a regulatory or review assessment of the whole picture?',
+        deepNote: 'This is general source criticism – not a conclusion about any single product. We point to what you should look for, and you draw your own conclusions from the official sources.',
         topicsH: 'The topics we follow',
         topicBovaer: 'Bovaer', topicBovaerD: 'Feed additive in dairy cows',
         topicNgt: 'NGT/GMO', topicNgtD: 'New genomic techniques and EU rules',
