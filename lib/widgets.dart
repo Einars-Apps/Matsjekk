@@ -3,6 +3,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
 import 'data/e_numbers.dart';
+import 'research_links_section.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Enum for risikonivå
@@ -526,6 +527,11 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           ),
                         ],
                       ),
+                    ),
+                    // 📚 Forskning — la brukeren grave dypere, med tydelig
+                    // skille mellom uavhengig og produsentfinansiert forskning.
+                    const ResearchLinksSection(
+                      themeKeys: ['bovaer', 'ngt_gmo', 'insect_meal'],
                     ),
                     // Kjøp direkte fra produsent — vises kun ved rød/gul risiko.
                     if (hasRedOrYellow) ...[

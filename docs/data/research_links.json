@@ -1,0 +1,99 @@
+{
+  "_comment": "Curated research links shown in-app under '📚 Forskning'. PURPOSE: let users dig deeper AND clearly see WHO funded/mandated each study, so producer research is visibly separated from independent/official research. The app reads this file (https://matsjekk.com/data/research_links.json) once per day; new entries reach users WITHOUT a new app release.",
+  "_principle": "We never hide producer studies and never present them as independent. Each entry is labeled with its funding and the mandate it was set up to answer. Stating who funded a study is a verifiable FACT, not a claim that the study is wrong — it is consumer context.",
+  "_schema": {
+    "title": "localized short title { nb, en } (other locales fall back to en)",
+    "publisher": "who performed/published it (e.g. EFSA, VKM, university, producer)",
+    "year": "publication year (integer) or null",
+    "funding": "independent | public | academic | ngo | industry | unknown",
+    "mandate": "localized one-line description of what the research was set up to answer { nb, en }",
+    "peer_reviewed": "true | false",
+    "url": "public, verifiable link",
+    "_note": "BUCKETS in UI: independent/public/academic/ngo => '🟢 Uavhengig & offentlig'; industry => '🟡 Produsent-/bransjefinansiert'. Human verifies every link before adding."
+  },
+  "version": 1,
+  "updated_at": "2026-06-27",
+  "themes": {
+    "bovaer": [
+      {
+        "title": {
+          "nb": "EU/EFSA – sikkerhets- og effektvurdering av Bovaer (3-NOP)",
+          "en": "EU/EFSA – safety and efficacy assessment of Bovaer (3-NOP)"
+        },
+        "publisher": "EFSA (European Food Safety Authority)",
+        "year": 2021,
+        "funding": "public",
+        "mandate": {
+          "nb": "Uavhengig myndighetsvurdering av om fôrtilsetningen er trygg for dyr, forbruker og miljø før godkjenning i EU.",
+          "en": "Independent regulatory assessment of whether the feed additive is safe for animals, consumers and the environment before EU authorisation."
+        },
+        "peer_reviewed": true,
+        "url": "https://www.efsa.europa.eu/en"
+      },
+      {
+        "title": {
+          "nb": "Produsentens egen informasjon om Bovaer",
+          "en": "Producer's own information about Bovaer"
+        },
+        "publisher": "dsm-firmenich (produsent)",
+        "year": null,
+        "funding": "industry",
+        "mandate": {
+          "nb": "Produsentens egen dokumentasjon av virkning (metanreduksjon) – laget for å markedsføre og få godkjent produktet.",
+          "en": "The producer's own documentation of effect (methane reduction) – produced to market and obtain approval for the product."
+        },
+        "peer_reviewed": false,
+        "url": "https://www.dsm-firmenich.com/en/businesses/animal-nutrition-health.html"
+      }
+    ],
+    "ngt_gmo": [
+      {
+        "title": {
+          "nb": "EU-kommisjonen – nye genteknikker (NGT) i planter",
+          "en": "European Commission – New Genomic Techniques (NGT) in plants"
+        },
+        "publisher": "Europakommisjonen",
+        "year": null,
+        "funding": "public",
+        "mandate": {
+          "nb": "Offisiell oversikt over EUs pågående regelverksarbeid for NGT/GMO – grunnlaget for hva som må merkes.",
+          "en": "Official overview of the EU's ongoing NGT/GMO regulatory work – the basis for what must be labelled."
+        },
+        "peer_reviewed": false,
+        "url": "https://food.ec.europa.eu/plants/genetically-modified-organisms/new-techniques-biotechnology_en"
+      },
+      {
+        "title": {
+          "nb": "VKM – norsk uavhengig risikovurdering (mat og miljø)",
+          "en": "VKM – Norwegian independent risk assessment (food and environment)"
+        },
+        "publisher": "Vitenskapskomiteen for mat og miljø (VKM)",
+        "year": null,
+        "funding": "independent",
+        "mandate": {
+          "nb": "Uavhengig faglig risikovurdering på oppdrag for norske myndigheter – ikke bundet av produsentinteresser.",
+          "en": "Independent scientific risk assessment commissioned by Norwegian authorities – not bound by producer interests."
+        },
+        "peer_reviewed": true,
+        "url": "https://vkm.no/english.html"
+      }
+    ],
+    "insect_meal": [
+      {
+        "title": {
+          "nb": "EU – godkjenning av insekter som ny mat (Novel Food)",
+          "en": "EU – authorisation of insects as Novel Food"
+        },
+        "publisher": "Europakommisjonen / EFSA",
+        "year": null,
+        "funding": "public",
+        "mandate": {
+          "nb": "Offisiell liste over hvilke insektarter som er vurdert og godkjent som mat/fôr i EU, med sikkerhetsvurdering.",
+          "en": "Official list of which insect species have been assessed and authorised as food/feed in the EU, with safety assessment."
+        },
+        "peer_reviewed": true,
+        "url": "https://food.ec.europa.eu/safety/novel-food/authorisations/summary-applications-and-notifications_en"
+      }
+    ]
+  }
+}
