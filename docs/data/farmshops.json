@@ -281526,34 +281526,10 @@
     "region": null,
     "municipality": "Denderhoutem",
     "products": [],
-    "website": "https://www.onlinehoevewinkel.be/",
+    "website": "http://www.onlinehoevewinkel.be",
     "lat": 50.8721645,
     "lon": 4.0225343,
     "address": "Teerlingstraat"
-  },
-  {
-    "id": 13919646690,
-    "name": "Milki",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 51.1445088,
-    "lon": 2.9020355,
-    "address": null
-  },
-  {
-    "id": 13925897004,
-    "name": "De Fruithoeve",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.defruithoeve.be",
-    "lat": 51.2428864,
-    "lon": 2.9861548,
-    "address": null
   },
   {
     "id": 26986202,
@@ -283260,30 +283236,6 @@
     "address": null
   },
   {
-    "id": 1524946030,
-    "name": "Le champ paysan",
-    "country": "Belgium",
-    "region": null,
-    "municipality": "Ohey",
-    "products": [],
-    "website": null,
-    "lat": 50.4312919,
-    "lon": 5.1292943,
-    "address": "Rue de Huy"
-  },
-  {
-    "id": 1527458917,
-    "name": "Wijndomein Beerbosch",
-    "country": "Belgium",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.7636743,
-    "lon": 3.3362871,
-    "address": null
-  },
-  {
     "id": 8690,
     "name": "Hallerbos - Bois de Hal",
     "country": "Belgium",
@@ -283330,6 +283282,54 @@
     "lat": 50.6395525,
     "lon": 3.257229,
     "address": "Rue Estafflers"
+  },
+  {
+    "id": 13919646690,
+    "name": "Milki",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.1445088,
+    "lon": 2.9020355,
+    "address": null
+  },
+  {
+    "id": 13925897004,
+    "name": "De Fruithoeve",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.defruithoeve.be",
+    "lat": 51.2428864,
+    "lon": 2.9861548,
+    "address": null
+  },
+  {
+    "id": 1524946030,
+    "name": "Le champ paysan",
+    "country": "Belgium",
+    "region": null,
+    "municipality": "Ohey",
+    "products": [],
+    "website": null,
+    "lat": 50.4312919,
+    "lon": 5.1292943,
+    "address": "Rue de Huy"
+  },
+  {
+    "id": 1527458917,
+    "name": "Wijndomein Beerbosch",
+    "country": "Belgium",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.7636743,
+    "lon": 3.3362871,
+    "address": null
   },
   {
     "id": 5102336578,
@@ -856221,15 +856221,15 @@
     "address": null
   },
   {
-    "id": 894035486,
-    "name": "De klenge Buttik",
+    "id": 1121638233,
+    "name": "Kaaschbësch",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.naturparkhaff.lu",
-    "lat": 49.9095103,
-    "lon": 5.8756055,
+    "website": null,
+    "lat": 49.7663931,
+    "lon": 5.8307245,
     "address": null
   },
   {
@@ -856257,15 +856257,15 @@
     "address": "Rue de la Croix"
   },
   {
-    "id": 1121638233,
-    "name": "Kaaschbësch",
+    "id": 894035486,
+    "name": "De klenge Buttik",
     "country": "Luxembourg",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 49.7663931,
-    "lon": 5.8307245,
+    "website": "http://www.naturparkhaff.lu",
+    "lat": 49.9095103,
+    "lon": 5.8756055,
     "address": null
   },
   {
