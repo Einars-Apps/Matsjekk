@@ -5754,7 +5754,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://polsemageriet.dk/",
+    "website": "http://polsemageriet.dk/",
     "lat": 56.206684,
     "lon": 9.63802,
     "address": null
@@ -6525,18 +6525,6 @@
     "website": null,
     "lat": 57.4652767,
     "lon": 9.9239586,
-    "address": null
-  },
-  {
-    "id": 9336004988,
-    "name": "Lille Østergårds Økologi",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.2770344,
-    "lon": 10.0321693,
     "address": null
   },
   {
@@ -10221,6 +10209,18 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
+    "address": null
+  },
+  {
+    "id": 9336004988,
+    "name": "Lille Østergårds Økologi",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.2770344,
+    "lon": 10.0321693,
     "address": null
   },
   {
