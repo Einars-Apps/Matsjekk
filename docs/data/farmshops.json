@@ -26458,30 +26458,6 @@
     "address": null
   },
   {
-    "id": 13931862152,
-    "name": "Ålö Gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://barklandet.webnode.se/",
-    "lat": 58.9246915,
-    "lon": 18.2080249,
-    "address": null
-  },
-  {
-    "id": 13943073502,
-    "name": "Sixtorp Gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 56.0880552,
-    "lon": 14.2813713,
-    "address": null
-  },
-  {
     "id": 41684535,
     "name": "Solsyran",
     "country": "Sweden",
@@ -26575,18 +26551,6 @@
     "website": null,
     "lat": 55.5023603,
     "lon": 12.9721398,
-    "address": null
-  },
-  {
-    "id": 220389506,
-    "name": "Stora Sundby Gårdsbutik",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://storasundby.com/",
-    "lat": 59.0317112,
-    "lon": 18.3899267,
     "address": null
   },
   {
@@ -27271,6 +27235,42 @@
     "website": null,
     "lat": 56.681426,
     "lon": 15.7070999,
+    "address": null
+  },
+  {
+    "id": 13931862152,
+    "name": "Ålö Gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://barklandet.webnode.se/",
+    "lat": 58.9246915,
+    "lon": 18.2080249,
+    "address": null
+  },
+  {
+    "id": 13943073502,
+    "name": "Sixtorp Gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.0880552,
+    "lon": 14.2813713,
+    "address": null
+  },
+  {
+    "id": 220389506,
+    "name": "Stora Sundby Gårdsbutik",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://storasundby.com/",
+    "lat": 59.0317112,
+    "lon": 18.3899267,
     "address": null
   },
   {
@@ -764741,18 +764741,6 @@
     "address": null
   },
   {
-    "id": 10699760698,
-    "name": "Mosberger Pilzmanufaktur",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.2731718,
-    "lon": 14.451819,
-    "address": null
-  },
-  {
     "id": 10704929388,
     "name": "Biohof Maurer",
     "country": "Austria",
@@ -764976,8 +764964,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.4241679,
-    "lon": 15.2208801,
+    "lat": 48.4241847,
+    "lon": 15.220874,
     "address": "Oberer Markt"
   },
   {
@@ -768509,42 +768497,6 @@
     "address": "Badaila"
   },
   {
-    "id": 13906915666,
-    "name": "Mohnmühle",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.4525598,
-    "lon": 15.2200008,
-    "address": null
-  },
-  {
-    "id": 13912084196,
-    "name": "Schärfinger´s Kartoffeln",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Yspertal",
-    "products": [],
-    "website": null,
-    "lat": 48.3132241,
-    "lon": 15.0651316,
-    "address": null
-  },
-  {
-    "id": 13914243702,
-    "name": "Lindenhof, Familie Eisenkölbl",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.eisenkoelbl.at/-/index.htm",
-    "lat": 47.650296,
-    "lon": 16.0943995,
-    "address": "Maierhöfenstraße"
-  },
-  {
     "id": 16588983,
     "name": "Gletschacher Wald",
     "country": "Austria",
@@ -768903,18 +768855,6 @@
     "lat": 47.257571,
     "lon": 11.5316074,
     "address": "Schmalzgasse"
-  },
-  {
-    "id": 114185523,
-    "name": "Mohnbauernladen",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Sallingberg",
-    "products": [],
-    "website": null,
-    "lat": 48.4524322,
-    "lon": 15.2179034,
-    "address": null
   },
   {
     "id": 115449611,
@@ -770544,8 +770484,8 @@
     "municipality": "Innsbruck",
     "products": [],
     "website": "https://www.facebook.com/pg/arzler.bauernladele",
-    "lat": 47.2837313,
-    "lon": 11.4330797,
+    "lat": 47.2837229,
+    "lon": 11.4330755,
     "address": "Arzler Straße"
   },
   {
@@ -772745,6 +772685,18 @@
     "address": null
   },
   {
+    "id": 10699760698,
+    "name": "Mosberger Pilzmanufaktur",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.2731718,
+    "lon": 14.451819,
+    "address": null
+  },
+  {
     "id": 10878998600,
     "name": "Greisslerei Waldviertel",
     "country": "Austria",
@@ -772752,9 +772704,69 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.4241847,
-    "lon": 15.220874,
+    "lat": 48.4241679,
+    "lon": 15.2208801,
     "address": "Oberer Markt"
+  },
+  {
+    "id": 13906915666,
+    "name": "Mohnmühle",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.4525598,
+    "lon": 15.2200008,
+    "address": null
+  },
+  {
+    "id": 13912084196,
+    "name": "Schärfinger´s Kartoffeln",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Yspertal",
+    "products": [],
+    "website": null,
+    "lat": 48.3132241,
+    "lon": 15.0651316,
+    "address": null
+  },
+  {
+    "id": 13914243702,
+    "name": "Lindenhof, Familie Eisenkölbl",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.eisenkoelbl.at/-/index.htm",
+    "lat": 47.650296,
+    "lon": 16.0943995,
+    "address": "Maierhöfenstraße"
+  },
+  {
+    "id": 114185523,
+    "name": "Mohnbauernladen",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Sallingberg",
+    "products": [],
+    "website": null,
+    "lat": 48.4524322,
+    "lon": 15.2179034,
+    "address": null
+  },
+  {
+    "id": 670973198,
+    "name": "Arzler Bauernladele",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Innsbruck",
+    "products": [],
+    "website": "https://www.facebook.com/pg/arzler.bauernladele",
+    "lat": 47.2837313,
+    "lon": 11.4330797,
+    "address": "Arzler Straße"
   },
   {
     "id": 12475401942,
@@ -772779,18 +772791,6 @@
     "lat": 46.62794,
     "lon": 14.6343338,
     "address": null
-  },
-  {
-    "id": 670973198,
-    "name": "Arzler Bauernladele",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Innsbruck",
-    "products": [],
-    "website": "https://www.facebook.com/pg/arzler.bauernladele",
-    "lat": 47.2837229,
-    "lon": 11.4330755,
-    "address": "Arzler Straße"
   },
   {
     "id": 1121207001,
