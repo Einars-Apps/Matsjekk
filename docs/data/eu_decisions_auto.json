@@ -1,8 +1,28 @@
 {
-  "updated_at": "2026-06-29T07:02:16.475403+00:00",
+  "updated_at": "2026-06-30T06:41:36.402962+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-06-27T22:00:32+00:00",
+      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri - consilium.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri &nbsp;&nbsp; consilium.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVF2MjdfRW8xOTdCMlo4TTNxLXRfdnhMaTktTl9ncGNfNUw1aWdENlpsODFPU1hvQW9lX29VcnlqRnQ3cVM3VU5yeWd2NFpHTFJFV080NzBvM0pMLVpPQThScndxcU03RGIxRVUtSmNmYnFGVV9MekEtSm1OTVBBTEZhMDBqdk0yZUVwUElsVEFlTFc5WkRhTk5mRTV3eWJjcDdIWmZGSHdKSDNOOXhWNVJsMDczMU9OcEItQzRNYW5wNFAtZUdsb3VJWQ?oc=5",
+      "source": "consilium.europa.eu",
+      "id": "df0bf3d9717dcf3c"
+    },
+    {
+      "date": "2026-06-27T08:31:55+00:00",
+      "title": "New Genomic Techniques (NGTs) - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
+      "source": "European Commission",
+      "id": "c12487f3a0711011"
+    },
     {
       "date": "2026-06-26T13:25:11+00:00",
       "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 30 de outubro de 2023 - consilium.europa.eu",
@@ -22,16 +42,6 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPck9SQWt3OXgwTlJhclBGbWtZUzFfcGtGS291RU1GSV90cU9pZkdGUlQ1TWVfOVB2ek9VOHlpa2trQWhRUmdLSEd5b2ZTbjNEZkNqTlB0NHlwYWZSV2I4ZzBZLVk1WlBQdk1UVWFpcXVBZV9tWG9ZMDdueDZZYjRoNlJvOV9RNHYwQ2FFSjlLZkRkSERyclZZTDBoM2Z5YmVkTFRFY2t3LVI3OWFSQ2hfR3VYNUR2dDBVMU1tRlB2UFlKTVgxYWxqc0doUTNGV2hmQXhrdG9SZllnU1p0LUNsM0NORlBsdw?oc=5",
       "source": "consilium.europa.eu",
       "id": "666114d1c28ffcae"
-    },
-    {
-      "date": "2026-06-25T17:03:05+00:00",
-      "title": "New Genomic Techniques (NGTs) - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
-      "source": "European Commission",
-      "id": "c12487f3a0711011"
     },
     {
       "date": "2026-06-25T06:40:52+00:00",
@@ -54,14 +64,14 @@
       "id": "936cef4de736932b"
     },
     {
-      "date": "2026-06-17T07:00:00+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | News - European Parliament",
+      "date": "2026-06-17T12:20:57+00:00",
+      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | News &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
+      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTktoUUFaXzF2cmZUYTFOTF9lU2txcHRBUkhlZmdPZENQTkFvZE1CLU9SSTFPclBRU1J3SDJULVNaakJxNzJ4OXhuNkJwV3JvV2h2M1RvSEtyUFlEYTZaZTc2dGxWMUNERkhsOWVrZG9sV0FoU25GN20ydHJySTg1UXdDeEM4VUN5SThBT3A4QlZ1eklWN2VudTlKaTZ1ZWl0V2hVTWUzOHdYVHplZ1pYWVJHUzFBRk0wbEdMalREeWZNcHRfS2JoV1VNT2ZfNmFiVk1RNmNtd1oxcHhGMzIxXw?oc=5",
       "source": "European Parliament",
-      "id": "8fd6b65cba0d4e61"
+      "id": "74fddb3d69df2f8d"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -94,16 +104,6 @@
       "id": "0c23261647b85949"
     },
     {
-      "date": "2026-06-08T17:29:48+00:00",
-      "title": "Plants obtained by new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jUVJtSENudGZRTzJiNEwzNGtrRGRYNUxlcnNwLXdKS2FIMG9fWmxNMmZ3X3JES01uSzh6YnZyMDU5ZzJseGNQYWJ2TjkxRU9kMTJYWHg0eUs0TnBtRnAtQXlUOF9FdVY4YnNwcDV0SHd5RlZfTDVTbXpvUkt2Zw?oc=5",
-      "source": "European Parliament",
-      "id": "81d116d6391e0f2d"
-    },
-    {
       "date": "2026-04-21T07:00:00+00:00",
       "title": "New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -132,6 +132,16 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTRBbzZqLW55UHRfV0UybjRLSGFzbV94VHJGWFZXaEJ0MjhMX3BMNVpFWHlYSFJqeUk1NjhETThVSVdvSkZSdWh4cENSZF95aG83cXBfS3FCanV4Q2FtLVZqM3duR2RLVjVLSkJpeWFvVGFKWDlYTjJEWENYRk5MNzRPdmEyMEotUmNVSU8wQjFrcWd5eE1mbWNFRXpaZUlOUWl2UWVBRHV6WnhTek5WRUw4eksySWhOX2tqMjRRMFBUcG1kcWRZNWU1REF5enlSQzNDUE5VdGh5UWltX2xBLUEzTFBWNEhIYVZRVy1TSnk?oc=5",
       "source": "European Parliament",
       "id": "1e18ebb009a549c3"
+    },
+    {
+      "date": "2026-03-06T01:33:14+00:00",
+      "title": "01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOTkxTlJ2T1hoTjM0QUR1aTZqUFhQYWNoeE1mRmgtblJGME0wT2tPTnI3RE0wQ3U5d3QxMEN5cXVHdFJCcDNqWGlCQllOTlR2a09oVjI5Ym1UeEdkeEtRNGkteE5NWS1JOUxLNVFKT0dhVXVWT2duRGhlcUY3U21POWtMSE9TMEZTU1JtcnZqOWhTSUM5ZmhGTzF6WXl0QU5MMlYweEp2TkQ1UzR6aFdDem1MT0luVVBWRVM1Vk9uWkI?oc=5",
+      "source": "European Parliament",
+      "id": "8a532c760bd6abf0"
     },
     {
       "date": "2026-03-06T01:03:25+00:00",
@@ -254,6 +264,16 @@
       "id": "c81fd5777f2e7df4"
     },
     {
+      "date": "2024-11-07T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
+      "source": "EUR-Lex",
+      "id": "b728d19d56a95238"
+    },
+    {
       "date": "2024-10-01T20:28:50+00:00",
       "title": "Consultation process on novel food status - European Commission",
       "type": "Automatisk oppdaget oppdatering",
@@ -334,6 +354,16 @@
       "id": "1aafb004fe7bfb94"
     },
     {
+      "date": "2023-09-06T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Bovaer",
+      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
+      "source": "EUR-Lex",
+      "id": "689659b69845a846"
+    },
+    {
       "date": "2023-07-24T07:00:00+00:00",
       "title": "Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 - European Commission",
       "type": "Automatisk oppdaget oppdatering",
@@ -345,13 +375,13 @@
     },
     {
       "date": "2023-07-10T06:31:07+00:00",
-      "title": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 - yeogiyeo.uriweb.kr",
+      "title": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 &nbsp;&nbsp; yeogiyeo.uriweb.kr ",
+      "summary": " Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81N2hQVHRLUGVlYWZ4cElrdklvOEtLYnpoU0tNblRmT1ZYZExDblhMejViTjJycnA2MFNVaEE5RjVPU0p5QXNxOHJ1QjJhYnhSMTlSVlJtS09xY3hlbFNIVFlFMl82Nk1uNjdnV2tMQkhIZmVack4xT0k5cmlCclU?oc=5",
-      "source": "yeogiyeo.uriweb.kr",
-      "id": "839992410c306e4e"
+      "source": "EUR-Lex",
+      "id": "26ce76eae38cb67b"
     }
   ]
 }
