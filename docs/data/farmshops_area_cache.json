@@ -87769,7 +87769,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "Moydrum Castle Woodland",
+        "name": "Moydrum Castel Woodland",
         "countryCode": "IE",
         "country": "Ireland",
         "region": "",
@@ -87833,14 +87833,14 @@
         "mapsUrl": ""
       },
       {
-        "name": "Moydrum Castel Woodland",
+        "name": "Moydrum Castle Woodland",
         "countryCode": "IE",
         "country": "Ireland",
         "region": "",
         "municipality": "",
         "address": "",
         "products": [],
-        "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
+        "website": "",
         "lat": 53.4272187,
         "lon": -7.8635785,
         "category": "Gårdsutsalg",
