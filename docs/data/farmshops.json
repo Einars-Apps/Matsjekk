@@ -71832,8 +71832,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.7116721,
-    "lon": 8.9121467,
+    "lat": 48.711658,
+    "lon": 8.9121525,
     "address": null
   },
   {
@@ -76901,6 +76901,18 @@
     "address": null
   },
   {
+    "id": 373571230,
+    "name": "Merlau's Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Darmstadt",
+    "products": [],
+    "website": "https://www.spargel-merlau.de/hofladen",
+    "lat": 49.9162509,
+    "lon": 8.6341475,
+    "address": "Röntgenstraße"
+  },
+  {
     "id": 374688855,
     "name": "Initiative Söruper Obstbaumwiese",
     "country": "Germany",
@@ -79785,7 +79797,7 @@
     "name": "Kettenburgs Hof",
     "country": "Germany",
     "region": null,
-    "municipality": "Rotenburg (Wümme)",
+    "municipality": null,
     "products": [],
     "website": "https://www.kettenburgs-hof.de/",
     "lat": 53.0790973,
@@ -83106,7 +83118,7 @@
   },
   {
     "id": 1090672077,
-    "name": "Hessen Forst",
+    "name": "Christams Trees",
     "country": "Germany",
     "region": null,
     "municipality": null,
@@ -84465,6 +84477,30 @@
     "address": "Odenwaldstraße"
   },
   {
+    "id": 156471198,
+    "name": "Beuttlers Bauernlädle",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.7116721,
+    "lon": 8.9121467,
+    "address": null
+  },
+  {
+    "id": 1090672077,
+    "name": "Hessen Forst",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4258537,
+    "lon": 8.7746115,
+    "address": null
+  },
+  {
     "id": 37958346,
     "name": "Obstsortenanlage Rutesheim",
     "country": "Germany",
@@ -84525,18 +84561,6 @@
     "address": "Horbeller Straße"
   },
   {
-    "id": 156471198,
-    "name": "Beuttlers Bauernlädle",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.711658,
-    "lon": 8.9121525,
-    "address": null
-  },
-  {
     "id": 183822566,
     "name": "Kartoffelhof Neutze",
     "country": "Germany",
@@ -84571,18 +84595,6 @@
     "lat": 49.4776062,
     "lon": 11.0356172,
     "address": "Raiffeisenstraße"
-  },
-  {
-    "id": 373571230,
-    "name": "Merlau's Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Darmstadt",
-    "products": [],
-    "website": "https://www.spargel-merlau.de/hofladen",
-    "lat": 49.9162509,
-    "lon": 8.6341475,
-    "address": "Röntgenstraße"
   },
   {
     "id": 419066542,
@@ -84678,18 +84690,6 @@
     "website": null,
     "lat": 52.6601988,
     "lon": 9.1556188,
-    "address": null
-  },
-  {
-    "id": 1090672077,
-    "name": "Christams Trees",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4258537,
-    "lon": 8.7746115,
     "address": null
   },
   {
