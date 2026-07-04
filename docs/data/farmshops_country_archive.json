@@ -577362,6 +577362,66 @@
       "lat": 48.8311189,
       "lon": 15.0475591,
       "address": null
+    },
+    {
+      "id": 13740161139,
+      "name": "Natter-Hof",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Dornbirn",
+      "products": [],
+      "website": null,
+      "lat": 47.4117577,
+      "lon": 9.7191255,
+      "address": "Am Floßgraben"
+    },
+    {
+      "id": 13938744901,
+      "name": "Spritzerrast Roseldorf",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.weinviertel.at/infrastruktur/spritzerrast-roseldorf",
+      "lat": 48.6496538,
+      "lon": 15.9348215,
+      "address": null
+    },
+    {
+      "id": 13971618131,
+      "name": "Biohof Holzer",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://biohof-holzer.at",
+      "lat": 48.3145523,
+      "lon": 14.020422,
+      "address": "Josef-Friedl-Straße"
+    },
+    {
+      "id": 13972644901,
+      "name": "Imkerei Linemayr",
+      "country": "Austria",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 47.7172074,
+      "lon": 13.0439239,
+      "address": null
+    },
+    {
+      "id": 228097880,
+      "name": "Beerenstadl Salzburg",
+      "country": "Austria",
+      "region": null,
+      "municipality": "Salzburg",
+      "products": [],
+      "website": "https://lehners-beeren.at/beerenstadl-salzburg/",
+      "lat": 47.7734842,
+      "lon": 13.0842769,
+      "address": "Aigner Straße"
     }
   ],
   "CH": [
