@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T06:36:12.925506+00:00",
+  "updated_at": "2026-07-04T06:29:03.304490+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -22,6 +22,16 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSVRfUjlDQkpFSFJlbW9Mem5jZ1NZcXZlVkQzR1Q0SndNdHlqNnMxMWFDOWhYa1ZwZktmWTlhOGFVVnMyZWNveFZ0TFItZzN1bzFXSW5HSkxrZlJPNWtzWkZjdDAtUVNtdzF6d2prdlZ2TUFzRGlNMWltdGZWY2NzTG5IX3I1WFFIazh0SHFtSnNpRmJOcERvTElnTjV3Nkd3TlBCODBuNlY1SnFZSXpMdTBGZHRmZEliejh5Qk00eU96c092eFZ0bXpkRWxlX0wyWXpJaktBaw?oc=5",
       "source": "consilium.europa.eu",
       "id": "8baa09b427a8ccba"
+    },
+    {
+      "date": "2026-07-01T01:09:18+00:00",
+      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri - consilium.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri &nbsp;&nbsp; consilium.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbVJMS3BHSVkzcXplenFkSGY4Y2E2ay1yVVlVZG8yQzJSWk9FdVhCYTdtN2pVQXFxS1ZLajNlV3FaSDJoVEtjZFFDWEVUMWROTThFMzdCWW9kdTB6cG1nMDc3STJIM3dpeWY3dmtzeE92N091YVM3UUJvNk9pczhoTUpmTHFHZkVUdUEzRVJEYWR5UGJkV3YwbVhSMlVqdjlVbkdYOHZLeXZjNUdrR0NmN2FqMkZnVjIyajNlU1VyMjZpWXZuNUNtYVRkeHNId09FWldiblVkX05nc2w5YjE4Z0FhVjE?oc=5",
+      "source": "consilium.europa.eu",
+      "id": "1a2c5caff413a53b"
     },
     {
       "date": "2026-06-27T22:00:32+00:00",
