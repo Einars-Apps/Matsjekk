@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T06:29:03.304490+00:00",
+  "updated_at": "2026-07-05T06:37:47.668402+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -164,16 +164,6 @@
       "id": "3c57ec18e284ebb5"
     },
     {
-      "date": "2025-12-15T08:00:00+00:00",
-      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c5U29EWWZJZTRQYTdWY2gtR3QxdzRwMFB1NEhBbkJjX0ZiRnJZVmV2cXZwX1lYUHJ1ekdld1JrcmI1aVloVUZ6SS11UXBZVmdUeHBkbDNWbURDM0k5c3FLSXNKVjcwSHhodDhDNkstWHNOVmxDODlZMEZSSlNvN21VTUtGdDhnbGE4Rmx0TDFiYTRrTmk4MkJIbEwzdjYweUJUTkVWYVl1eWVsZEoxMGxRRmRGVUxwU0pTQ05PYThfS3NL?oc=5",
-      "source": "European Commission",
-      "id": "f2180f1558e49558"
-    },
-    {
       "date": "2025-12-04T08:00:00+00:00",
       "title": "New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -242,6 +232,16 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2R0eGtrdVBCSHk4Q0hrNS0tdkhiZ3VUSWFDTE1GQmVKZTBER18tNFptM1ZINGxxclBfdDl4NGxJQzlEYkZZbDZicjk2bnVyQmZ0b1VFWDZJR00xUTBockdGSHEyWUdad1R2U3JTbWNIY1lPWjg4VEdFc1pDUDhJZ0xJWjA2Y2FFTU5rOTkwZkNnMEgyRFlsUUFsZzJZYVYzUW1jTmNnSnMzWTdpclYxYXNlYUVFMkQ2d0FMeWhnRzBSMHdUaUpsa1dCUG9KWE5STHB1LTY3bjQ?oc=5",
       "source": "European Commission",
       "id": "f4aad0d0ab657e95"
+    },
+    {
+      "date": "2025-04-16T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Bovaer",
+      "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzanJmdFA1YmtPZEJyeVczNTY1MGY1eENJWV9EVjFTLUxtQTdqTG1ja0UyY0NKdG1WN3hfMHJpMl85eFhqSFBZNHQyNGFZMnZ6aFdYWGhpZHRsWU5OdFRBaGpScEZMMWNLc3hCejRYbnZRYl96ZDhzOTB3?oc=5",
+      "source": "EUR-Lex",
+      "id": "2e5ed32143f1083f"
     },
     {
       "date": "2025-04-10T07:00:00+00:00",
@@ -334,16 +334,6 @@
       "id": "cc48ad37636231d4"
     },
     {
-      "date": "2024-06-12T07:00:00+00:00",
-      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbnpXNGZ4Wl8wU1dEbjVsUHlMYzJYZEI3Qm9obFBYU0k4WUh3WTJVbXNMRjdzclhuX0RvcmpibGNyZXRJWEI3ckN4NW5zQ2lBSUdZVm50VG53eHhWdmJTdzh1RndEOWJ0dkU3WDBJX09KS3BwRzAySzB2dHNXem1TcFE3WFc2UmNETmFPRFh4blhJSXJZVzhabE91a0tqckFnV2huamp4VWtELVBVd3VpajZCOXRoUzg4WS1UZDI2MFZ3QjRKbExjaTh3alJxVmVV?oc=5",
-      "source": "European Commission",
-      "id": "6be52a28428e7d70"
-    },
-    {
       "date": "2024-04-25T09:43:59+00:00",
       "title": "Plants obtained by certain new genomic techniques and their food and feed - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -352,16 +342,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzWUlINXBwYmtxc3Nkeml4VUpNWUt5OENKbUZuWFlvclh1TUo1VEFfZ3dua2J1WkctNkpLOTJteFZEOGJkNXMyQzQ2eXpJM1VEQkVvclFsTjhRQ2JlcHFGdy1jZ0hGZFVidlNqZGJIVzM1MkwwbjZV?oc=5",
       "source": "European Parliament",
       "id": "71456c482400cdaf"
-    },
-    {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
-      "source": "European Parliament",
-      "id": "785c5faa4afa430e"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
@@ -412,16 +392,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakJaa3hvZEVwN1RvVWdnQ05yNmczZ1c5bEY0aFpaWC0ycXdyVkJOQWxxWFJMbXFuQnJVOU44dHBpTHBFbnV4a2Fzc19vejZTWHVKX0lZOWNiaGFVLV9kYUgxcVprY3czZ2ROZmluMFFxa296MU5qT0ZwdkcyVWE3eURUTVlOUTBjYm9ITGg1RWpwOHN0TXk4bWRDVTlnUQ?oc=5",
       "source": "European Commission",
       "id": "595dae47020f4abc"
-    },
-    {
-      "date": "2023-07-10T06:31:07+00:00",
-      "title": "Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on plants obtained by certain new genomic techniques and their food and feed, and amending Regulation (EU) 2017/625 &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81N2hQVHRLUGVlYWZ4cElrdklvOEtLYnpoU0tNblRmT1ZYZExDblhMejViTjJycnA2MFNVaEE5RjVPU0p5QXNxOHJ1QjJhYnhSMTlSVlJtS09xY3hlbFNIVFlFMl82Nk1uNjdnV2tMQkhIZmVack4xT0k5cmlCclU?oc=5",
-      "source": "EUR-Lex",
-      "id": "26ce76eae38cb67b"
     }
   ]
 }
