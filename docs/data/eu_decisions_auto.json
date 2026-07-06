@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-07-05T06:37:47.668402+00:00",
+  "updated_at": "2026-07-06T06:52:20.323232+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
-    {
-      "date": "2026-07-01T12:23:59+00:00",
-      "title": "New Genomic Techniques (NGTs) - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
-      "source": "European Commission",
-      "id": "c12487f3a0711011"
-    },
     {
       "date": "2026-07-01T02:30:53+00:00",
       "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri - consilium.europa.eu",
@@ -44,16 +34,6 @@
       "id": "df0bf3d9717dcf3c"
     },
     {
-      "date": "2026-06-26T13:25:11+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 30 de outubro de 2023 - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 30 de outubro de 2023 &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUjV0ekUtVG5YcWJ5Z0JlVy1QR0QwQ0JESzRCQmR3c2hMM3ZBZTFrYVBRWklWY3hqaTlxUk1OaWlCVWF1MUwwdFpFYnJiY0pfcllGbmNoR3VtSGZLejFfdFI5RXBlcmpvZm02UWprVEpZVjAtLUR4bnd6ZUYwSkRDWHZkUTY3eG1YYWhWVmlaTmtBY1pOV1FWZXNrclhlNFh6eG83LUh0cFlDQTg4S3RfVnNsOEd1NjdyMGJULW9FSTctc3RtZC1idi1LWnBBTU5QLUs3bTR0ZlJ1Y3QwRHRkT2p5ZHBQZw?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "04ee3f270e92d9ea"
-    },
-    {
       "date": "2026-06-25T23:19:40+00:00",
       "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 1. prosince 2023 - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -82,6 +62,16 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXM2bEYzTV9uT01uN05WWFJETG0wdkhJTUI5djdVQ05KNzdReWtGdzIwSktaTzhzY3RsUDlyUzlUWDMxa3pMRVRCMFVseUxmY0F0X2k4bC0zLXRWdzQwOHhEbGRaSVBHQnRmRXpnQmdQLUtmYkJXRWc5MEJxenlVOXd0c01XNlFLdlZ1cG93X18wZUdrYWg0bEZjTHJBbENWeTNMaGJvdU1Dd3gxblE?oc=5",
       "source": "European Parliament",
       "id": "936cef4de736932b"
+    },
+    {
+      "date": "2026-06-17T12:53:03+00:00",
+      "title": "New Genomic Techniques (NGTs) - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
+      "source": "European Commission",
+      "id": "c12487f3a0711011"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -165,16 +155,6 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYlo0Q0JlTS1EQjZMZ3hFQmpiTFAtYlItSE9VVS1XbjA4c18yZEhTNWswdlZCQ21SclZrdzZLN2lCVVMxN0xiSUN2X1d0aVNHcGVsMkw5RDRLVDNRaHhfek9Pa3U5SkNVaXhmYUdaQXpZeDhiVGhJVHFMLXhEbWNPT0d3VlV6WXhGZmdKWUlyUGlMYjIxRjRXN2w4TUIwRkJJWS1HQjBVMlJoS081Q0gxMnBkTFVvT0R5RzBuOGZZYm1zbDRjNlgxTGdNWVZ0bkJtZzg0?oc=5",
-      "source": "European Parliament",
-      "id": "fc0ffd0ad28b40ea"
-    },
-    {
-      "date": "2025-12-04T08:00:00+00:00",
       "title": "New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
@@ -242,6 +222,16 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzanJmdFA1YmtPZEJyeVczNTY1MGY1eENJWV9EVjFTLUxtQTdqTG1ja0UyY0NKdG1WN3hfMHJpMl85eFhqSFBZNHQyNGFZMnZ6aFdYWGhpZHRsWU5OdFRBaGpScEZMMWNLc3hCejRYbnZRYl96ZDhzOTB3?oc=5",
       "source": "EUR-Lex",
       "id": "2e5ed32143f1083f"
+    },
+    {
+      "date": "2025-04-12T07:00:00+00:00",
+      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5",
+      "source": "European Parliament",
+      "id": "f6d03f3f1ed2c135"
     },
     {
       "date": "2025-04-10T07:00:00+00:00",
@@ -372,16 +362,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
       "source": "European Commission",
       "id": "1aafb004fe7bfb94"
-    },
-    {
-      "date": "2023-09-06T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
-      "source": "EUR-Lex",
-      "id": "689659b69845a846"
     },
     {
       "date": "2023-07-24T07:00:00+00:00",
