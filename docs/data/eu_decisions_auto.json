@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T06:52:20.323232+00:00",
+  "updated_at": "2026-07-07T06:38:28.781037+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -34,16 +34,6 @@
       "id": "df0bf3d9717dcf3c"
     },
     {
-      "date": "2026-06-25T23:19:40+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 1. prosince 2023 - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 1. prosince 2023 &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPck9SQWt3OXgwTlJhclBGbWtZUzFfcGtGS291RU1GSV90cU9pZkdGUlQ1TWVfOVB2ek9VOHlpa2trQWhRUmdLSEd5b2ZTbjNEZkNqTlB0NHlwYWZSV2I4ZzBZLVk1WlBQdk1UVWFpcXVBZV9tWG9ZMDdueDZZYjRoNlJvOV9RNHYwQ2FFSjlLZkRkSERyclZZTDBoM2Z5YmVkTFRFY2t3LVI3OWFSQ2hfR3VYNUR2dDBVMU1tRlB2UFlKTVgxYWxqc0doUTNGV2hmQXhrdG9SZllnU1p0LUNsM0NORlBsdw?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "666114d1c28ffcae"
-    },
-    {
       "date": "2026-06-25T06:24:45+00:00",
       "title": "30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -52,16 +42,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVlYyM0g2RFU3TVotd0JkUkpPVDFFaXR5eHRYV2RqSElWbWNlbGZxbTNMNFJqVzNKVVdWYUs1QVZDc1d0bVRLOUlsYXFGVXBMcVhycFRfODkwVVBLRHc4MURBSnZtdmdrUC00RmdCQVRXa3BkREdnWE81VGRWc2FibC1tclNwREtkcGdTdjhxYWI3dnlObmFZcFVmNzRLNFRnZ1ExMHhZMDVYRGZXZWFuUktuMTUtN0k?oc=5",
       "source": "European Parliament",
       "id": "693cb36e85f7af98"
-    },
-    {
-      "date": "2026-06-17T15:01:15+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | News - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | News &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbXM2bEYzTV9uT01uN05WWFJETG0wdkhJTUI5djdVQ05KNzdReWtGdzIwSktaTzhzY3RsUDlyUzlUWDMxa3pMRVRCMFVseUxmY0F0X2k4bC0zLXRWdzQwOHhEbGRaSVBHQnRmRXpnQmdQLUtmYkJXRWc5MEJxenlVOXd0c01XNlFLdlZ1cG93X18wZUdrYWg0bEZjTHJBbENWeTNMaGJvdU1Dd3gxblE?oc=5",
-      "source": "European Parliament",
-      "id": "936cef4de736932b"
     },
     {
       "date": "2026-06-17T12:53:03+00:00",
@@ -214,6 +194,16 @@
       "id": "f4aad0d0ab657e95"
     },
     {
+      "date": "2025-06-12T07:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOWJCWjBZUGU5WnVXLW5NaGFPQzNwS0p5aV9mMjNpLW1kbXIzWk9SSUY5YjV2X2FmV0VVMzFvY2VCbFRVRENmZF9vcV9NZ3NqNmRpb0RtaW9WMjRMZ01OaGI4VkdHN19qLTJPaDdqSWM1bWdiVEYtVV9XT3hHTVNrdzItRl9QQUtMa2pwNlBYR1FwTU5peEhSZ0UzdXphT2JVRGs2Z1c0R29Yb1duS2tILTZlUWgzai1EaEFOeWRsSzRGblk3?oc=5",
+      "source": "European Commission",
+      "id": "2be0caa970502128"
+    },
+    {
       "date": "2025-04-16T07:00:00+00:00",
       "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -232,16 +222,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5",
       "source": "European Parliament",
       "id": "f6d03f3f1ed2c135"
-    },
-    {
-      "date": "2025-04-10T07:00:00+00:00",
-      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOWtlT0hkQ3UwX19EaVdpTGlkZnNBZERlbEpfWVcwY2tUUkRGYTZJQ2pPc0REYlplaHU5bWRwbndQc2Z1RzQ3LVRTNmhGeEQ5N190bVc4dGppZS01Y1lLc0ZwSHJXMnJuRFVFb0NpSEZPUklaeE9qQXM2X2hiTlJpbkVtd0RoRXZwYVhjV0Fnc0pxNUVkTFlFVTFZUm1BYmtHbGs2c3psR3lwYVV4UWd5NG1FSEJ1WjVpZE53TV9HVGhvNVJfYUVJSEttaEJKMHNrZWd0NQ?oc=5",
-      "source": "European Commission",
-      "id": "6052b173e9c058d6"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -284,16 +264,6 @@
       "id": "7857cecb741a576c"
     },
     {
-      "date": "2024-10-02T22:09:58+00:00",
-      "title": "Union list of novel foods - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Union list of novel foods &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMXBZa0hrM1dfNDU3ZEhTSnBLUlJZNmFiNTFWWXdkdnB5anpSMGRnMXExUkxVdGF2NGNFTV9oQXJkZW0zVlRacTRFdVdTT1ctTGdTQnNZUnU5ZHdOcWcxS3BOTzZUbGdBMVNhZU5tXzVhUmhOMlV4dUFUb25LY1hyMUJncVNldzRQYU9KTi0yaklDcmM?oc=5",
-      "source": "European Commission",
-      "id": "833a473fbbae9bf4"
-    },
-    {
       "date": "2024-10-01T20:28:50+00:00",
       "title": "Consultation process on novel food status - European Commission",
       "type": "Automatisk oppdaget oppdatering",
@@ -332,6 +302,16 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzWUlINXBwYmtxc3Nkeml4VUpNWUt5OENKbUZuWFlvclh1TUo1VEFfZ3dua2J1WkctNkpLOTJteFZEOGJkNXMyQzQ2eXpJM1VEQkVvclFsTjhRQ2JlcHFGdy1jZ0hGZFVidlNqZGJIVzM1MkwwbjZV?oc=5",
       "source": "European Parliament",
       "id": "71456c482400cdaf"
+    },
+    {
+      "date": "2023-11-27T08:00:00+00:00",
+      "title": "Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVHJzeng3a3NaYkU4S1l5QzlCVERVSTZ0ZV9LWW41MXVLU3dTYTZMaWhYc2tsaGo2ZnZlRWVHdWtRVFJlUGYwWUZIVlZzVzh6OEp0M3Awd3pYRWo2QXlLS29DVjhvRDBBbXBzOVdpVC1CQ2llVU1QeUFxSFhwVkdwOXN4TFJ4ckhMMllDRmp6c1J4RXFuMHU3SkVRZXRRU042RTg4NXBn?oc=5",
+      "source": "European Commission",
+      "id": "63e37fd39c96662d"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
