@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T06:38:05.258246+00:00",
+  "updated_at": "2026-07-10T06:38:17.354430+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -22,16 +22,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSVRfUjlDQkpFSFJlbW9Mem5jZ1NZcXZlVkQzR1Q0SndNdHlqNnMxMWFDOWhYa1ZwZktmWTlhOGFVVnMyZWNveFZ0TFItZzN1bzFXSW5HSkxrZlJPNWtzWkZjdDAtUVNtdzF6d2prdlZ2TUFzRGlNMWltdGZWY2NzTG5IX3I1WFFIazh0SHFtSnNpRmJOcERvTElnTjV3Nkd3TlBCODBuNlY1SnFZSXpMdTBGZHRmZEliejh5Qk00eU96c092eFZ0bXpkRWxlX0wyWXpJaktBaw?oc=5",
       "source": "consilium.europa.eu",
       "id": "8baa09b427a8ccba"
-    },
-    {
-      "date": "2026-07-01T01:09:18+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbVJMS3BHSVkzcXplenFkSGY4Y2E2ay1yVVlVZG8yQzJSWk9FdVhCYTdtN2pVQXFxS1ZLajNlV3FaSDJoVEtjZFFDWEVUMWROTThFMzdCWW9kdTB6cG1nMDc3STJIM3dpeWY3dmtzeE92N091YVM3UUJvNk9pczhoTUpmTHFHZkVUdUEzRVJEYWR5UGJkV3YwbVhSMlVqdjlVbkdYOHZLeXZjNUdrR0NmN2FqMkZnVjIyajNlU1VyMjZpWXZuNUNtYVRkeHNId09FWldiblVkX05nc2w5YjE4Z0FhVjE?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "1a2c5caff413a53b"
     },
     {
       "date": "2026-06-27T22:00:32+00:00",
@@ -302,6 +292,16 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzWUlINXBwYmtxc3Nkeml4VUpNWUt5OENKbUZuWFlvclh1TUo1VEFfZ3dua2J1WkctNkpLOTJteFZEOGJkNXMyQzQ2eXpJM1VEQkVvclFsTjhRQ2JlcHFGdy1jZ0hGZFVidlNqZGJIVzM1MkwwbjZV?oc=5",
       "source": "European Parliament",
       "id": "71456c482400cdaf"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
+      "source": "European Parliament",
+      "id": "785c5faa4afa430e"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
