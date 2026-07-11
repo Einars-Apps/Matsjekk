@@ -525774,6 +525774,78 @@
       "lat": 50.8325629,
       "lon": -3.5931675,
       "address": "Coffintree Hill"
+    },
+    {
+      "id": 8930552131,
+      "name": "Royal Arsenal Farmers Market",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "London",
+      "products": [],
+      "website": null,
+      "lat": 51.4939802,
+      "lon": 0.0693165,
+      "address": "Artillery Square"
+    },
+    {
+      "id": 13926151044,
+      "name": "Stonelynk Organics",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Fairlight",
+      "products": [],
+      "website": "https://www.stonelynkorganics.com/",
+      "lat": 50.8809132,
+      "lon": 0.66165,
+      "address": "Battery Hill"
+    },
+    {
+      "id": 13948712211,
+      "name": "Culmore Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Culmore",
+      "products": [],
+      "website": null,
+      "lat": 55.0604369,
+      "lon": -7.2702933,
+      "address": "Culmore Road"
+    },
+    {
+      "id": 1062414693,
+      "name": "Hill West Forest",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 52.5950668,
+      "lon": -1.8407818,
+      "address": null
+    },
+    {
+      "id": 1339480772,
+      "name": "the Strawberry Shed",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 56.4295571,
+      "lon": -2.9352706,
+      "address": null
+    },
+    {
+      "id": 1387276912,
+      "name": "The Bushel Box Farm Shop",
+      "country": "United Kingdom",
+      "region": null,
+      "municipality": "Willingham",
+      "products": [],
+      "website": "https://bushelboxfarmshop.co.uk/",
+      "lat": 52.3029965,
+      "lon": 0.0516135,
+      "address": "Station Road"
     }
   ],
   "IE": [

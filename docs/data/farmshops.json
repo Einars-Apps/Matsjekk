@@ -707932,7 +707932,7 @@
     "name": "Martins Farm",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Hindolveston",
+    "municipality": "Dereham",
     "products": [],
     "website": null,
     "lat": 52.8265244,
@@ -708321,19 +708321,7 @@
     "website": "https://www.yarevalley.com/yare-valley-farm-shop/",
     "lat": 52.6017679,
     "lon": 1.4279464,
-    "address": null
-  },
-  {
-    "id": 5132857092,
-    "name": "Hydrosense",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.6985473,
-    "lon": -1.2970331,
-    "address": null
+    "address": "The Covey"
   },
   {
     "id": 5147935386,
@@ -710095,8 +710083,8 @@
     "municipality": "London",
     "products": [],
     "website": null,
-    "lat": 51.4939332,
-    "lon": 0.0693213,
+    "lat": 51.4939802,
+    "lon": 0.0693165,
     "address": "Artillery Square"
   },
   {
@@ -710446,18 +710434,6 @@
     "lat": 51.7022699,
     "lon": -3.0415908,
     "address": "Pontypool Indoor Market"
-  },
-  {
-    "id": 9703579917,
-    "name": "The Farm Shop",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Nottingham",
-    "products": [],
-    "website": null,
-    "lat": 52.885292,
-    "lon": -1.2854491,
-    "address": "Tamworth Road"
   },
   {
     "id": 9717637304,
@@ -711600,18 +711576,6 @@
     "address": null
   },
   {
-    "id": 12131142531,
-    "name": "eggs for sale",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2147986,
-    "lon": -4.1990893,
-    "address": null
-  },
-  {
     "id": 12140508337,
     "name": "Frome Valley Village Shop",
     "country": "United Kingdom",
@@ -712510,6 +712474,30 @@
     "lat": 50.9719887,
     "lon": -2.2699495,
     "address": null
+  },
+  {
+    "id": 13926151044,
+    "name": "Stonelynk Organics",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Fairlight",
+    "products": [],
+    "website": "https://www.stonelynkorganics.com/",
+    "lat": 50.8809132,
+    "lon": 0.66165,
+    "address": "Battery Hill"
+  },
+  {
+    "id": 13948712211,
+    "name": "Culmore Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Culmore",
+    "products": [],
+    "website": null,
+    "lat": 55.0604369,
+    "lon": -7.2702933,
+    "address": "Culmore Road"
   },
   {
     "id": 3713847,
@@ -714336,18 +714324,6 @@
     "address": "High Street"
   },
   {
-    "id": 292181031,
-    "name": "farmfoods",
-    "country": "United Kingdom",
-    "region": null,
-    "municipality": "Norwich",
-    "products": [],
-    "website": "https://www.farmfoods.co.uk/store-finder.php?branch_code=690",
-    "lat": 52.6515621,
-    "lon": 1.2589576,
-    "address": "Blackberry Court"
-  },
-  {
     "id": 297709922,
     "name": "Daltons Dairy",
     "country": "United Kingdom",
@@ -714868,7 +714844,7 @@
     "name": "Algy's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Bintree",
+    "municipality": "Dereham",
     "products": [],
     "website": "https://www.algys.co.uk/",
     "lat": 52.7705023,
@@ -715300,7 +715276,7 @@
     "name": "Farm Shop & Plant Centre",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Attleborough",
     "products": [],
     "website": null,
     "lat": 52.5337673,
@@ -717664,12 +717640,12 @@
     "name": "Ben's Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": null,
+    "municipality": "Totnes",
     "products": [],
     "website": null,
     "lat": 50.4314976,
     "lon": -3.688877,
-    "address": null
+    "address": "High Street"
   },
   {
     "id": 899950005,
@@ -719188,7 +719164,7 @@
     "name": "Maisebrooke Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Shipmeadow",
+    "municipality": "Beccles",
     "products": [],
     "website": null,
     "lat": 52.4541385,
@@ -719200,7 +719176,7 @@
     "name": "Mandy's Pickles at Dunburgh Farm Shop",
     "country": "United Kingdom",
     "region": null,
-    "municipality": "Geldeston",
+    "municipality": "Beccles",
     "products": [],
     "website": "http://Mandysfamouspickles.co.uk/",
     "lat": 52.4726147,
@@ -719587,8 +719563,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 52.594969,
-    "lon": -1.8408245,
+    "lat": 52.5950668,
+    "lon": -1.8407818,
     "address": null
   },
   {
@@ -721159,8 +721135,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 56.429556,
-    "lon": -2.9352649,
+    "lat": 56.4295571,
+    "lon": -2.9352706,
     "address": null
   },
   {
@@ -721410,9 +721386,9 @@
     "region": null,
     "municipality": "Willingham",
     "products": [],
-    "website": null,
-    "lat": 52.3029095,
-    "lon": 0.0516093,
+    "website": "https://bushelboxfarmshop.co.uk/",
+    "lat": 52.3029965,
+    "lon": 0.0516135,
     "address": "Station Road"
   },
   {
@@ -724450,6 +724426,102 @@
     "lat": 50.7224101,
     "lon": -2.1474983,
     "address": null
+  },
+  {
+    "id": 5132857092,
+    "name": "Hydrosense",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.6985473,
+    "lon": -1.2970331,
+    "address": null
+  },
+  {
+    "id": 8930552131,
+    "name": "Royal Arsenal Farmers Market",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "London",
+    "products": [],
+    "website": null,
+    "lat": 51.4939332,
+    "lon": 0.0693213,
+    "address": "Artillery Square"
+  },
+  {
+    "id": 9703579917,
+    "name": "The Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Nottingham",
+    "products": [],
+    "website": null,
+    "lat": 52.885292,
+    "lon": -1.2854491,
+    "address": "Tamworth Road"
+  },
+  {
+    "id": 12131142531,
+    "name": "eggs for sale",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2147986,
+    "lon": -4.1990893,
+    "address": null
+  },
+  {
+    "id": 292181031,
+    "name": "farmfoods",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Norwich",
+    "products": [],
+    "website": "https://www.farmfoods.co.uk/store-finder.php?branch_code=690",
+    "lat": 52.6515621,
+    "lon": 1.2589576,
+    "address": "Blackberry Court"
+  },
+  {
+    "id": 1062414693,
+    "name": "Hill West Forest",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.594969,
+    "lon": -1.8408245,
+    "address": null
+  },
+  {
+    "id": 1339480772,
+    "name": "the Strawberry Shed",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 56.429556,
+    "lon": -2.9352649,
+    "address": null
+  },
+  {
+    "id": 1387276912,
+    "name": "The Bushel Box Farm Shop",
+    "country": "United Kingdom",
+    "region": null,
+    "municipality": "Willingham",
+    "products": [],
+    "website": null,
+    "lat": 52.3029095,
+    "lon": 0.0516093,
+    "address": "Station Road"
   },
   {
     "id": 2102934550,
