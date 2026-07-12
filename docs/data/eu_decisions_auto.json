@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-07-11T06:08:11.130782+00:00",
+  "updated_at": "2026-07-12T06:18:58.212151+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
-    {
-      "date": "2026-06-27T22:00:32+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRVF2MjdfRW8xOTdCMlo4TTNxLXRfdnhMaTktTl9ncGNfNUw1aWdENlpsODFPU1hvQW9lX29VcnlqRnQ3cVM3VU5yeWd2NFpHTFJFV080NzBvM0pMLVpPQThScndxcU03RGIxRVUtSmNmYnFGVV9MekEtSm1OTVBBTEZhMDBqdk0yZUVwUElsVEFlTFc5WkRhTk5mRTV3eWJjcDdIWmZGSHdKSDNOOXhWNVJsMDczMU9OcEItQzRNYW5wNFAtZUdsb3VJWQ?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "df0bf3d9717dcf3c"
-    },
     {
       "date": "2026-06-17T12:53:03+00:00",
       "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
@@ -104,6 +94,26 @@
       "id": "3c57ec18e284ebb5"
     },
     {
+      "date": "2025-12-24T12:00:51+00:00",
+      "title": "12 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 12 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQlE2aHFIVjJjVUpaWUp2SEhZdDU5NXg3YVBNbTFZN3ZNNWs0VjZMZnRuN2U1elBpZXlUWW9WZnhXQl9vV1NGM1ZmNDJlZV9taGt0cEZqb1Y2Qmd6WkNHclJIYnB6Ym1Ia2JvemtRdExKZ1oybWdrMUxDYkUxX2JsbDFvSFRTZDNYMGczaXlmREl1Q1dJQ1NqVnhCNnhvcGxVdnIzVldpa19tcDFaemFzNnUwYW9sVTNyajBqZFZNZHg?oc=5",
+      "source": "European Parliament",
+      "id": "4ed8c51d88ac5766"
+    },
+    {
+      "date": "2025-12-04T08:00:00+00:00",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
+      "source": "European Parliament",
+      "id": "a8057ba0c6d6254e"
+    },
+    {
       "date": "2025-12-04T08:00:00+00:00",
       "title": "New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -182,16 +192,6 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
       "source": "EUR-Lex",
       "id": "49317d781619a1f2"
-    },
-    {
-      "date": "2025-04-12T07:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5",
-      "source": "European Parliament",
-      "id": "f6d03f3f1ed2c135"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
