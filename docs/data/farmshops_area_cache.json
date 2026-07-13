@@ -129072,24 +129072,6 @@
         "mapsUrl": ""
       },
       {
-        "name": "Arne Børresen",
-        "countryCode": "NO",
-        "country": "Norway",
-        "region": "Innlandet",
-        "municipality": "",
-        "address": "",
-        "products": [
-          "Kjøtt"
-        ],
-        "website": "",
-        "lat": 60.7985251,
-        "lon": 11.089432299999999,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
         "name": "ASK",
         "countryCode": "NO",
         "country": "Norway",
@@ -129216,6 +129198,22 @@
         "phone": "",
         "openingHours": "",
         "mapsUrl": ""
+      },
+      {
+        "name": "Bergen kaffebrenneri",
+        "countryCode": "NO",
+        "country": "Norway",
+        "region": "Vestland",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 60.382622380153,
+        "lon": 5.3258389512801,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
       }
     ]
   },
@@ -129228,7 +129226,7 @@
         "countryCode": "NO",
         "country": "Norway",
         "region": "Innlandet",
-        "municipality": "",
+        "municipality": "Hamar",
         "address": "",
         "products": [
           "Kjøtt"
@@ -153265,7 +153263,9 @@
         "region": "Akershus",
         "municipality": "Hokksund",
         "address": "Sundmoen næringsområde 2",
-        "products": [],
+        "products": [
+          "Annet"
+        ],
         "website": "",
         "lat": 59.8939224,
         "lon": 10.7149058,
@@ -228883,22 +228883,6 @@
         "mapsUrl": ""
       },
       {
-        "name": "CBK",
-        "countryCode": "NO",
-        "country": "Norway",
-        "region": "Østfold",
-        "municipality": "1621",
-        "address": "Storveien 123",
-        "products": [],
-        "website": "",
-        "lat": 59.21193940000001,
-        "lon": 10.899533,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
         "name": "Den Sorte Havre - Johan Anstensrud",
         "countryCode": "NO",
         "country": "Norway",
@@ -229624,6 +229608,22 @@
         "website": "https://www.riisergaard.no",
         "lat": 59.601631,
         "lon": 11.327932,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
+        "name": "CBK",
+        "countryCode": "NO",
+        "country": "Norway",
+        "region": "Østfold",
+        "municipality": "1621",
+        "address": "Storveien 123",
+        "products": [],
+        "website": "",
+        "lat": 59.21193940000001,
+        "lon": 10.899533,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",

@@ -1584,7 +1584,7 @@
     "name": "Arne Børresen",
     "country": "Norway",
     "region": "Innlandet",
-    "municipality": null,
+    "municipality": "Hamar",
     "products": [
       "Kjøtt"
     ],
@@ -1592,7 +1592,7 @@
     "lat": 60.7985251,
     "lon": 11.089432299999999,
     "address": "",
-    "source": "https://www.lokalmat.no/produsenter/arne-boerresen/"
+    "source": "https://www.lokalmat.no/produsenter/arne-borresen/"
   },
   {
     "id": "lokalmat_10982",
@@ -2659,19 +2659,6 @@
     "lon": 7.6847151577726,
     "address": "Austad 84",
     "source": "https://www.lokalmat.no/produsenter/bygland-bryggeri/"
-  },
-  {
-    "id": "lokalmat_11843",
-    "name": "CBK",
-    "country": "Norway",
-    "region": "Østfold",
-    "municipality": "1621",
-    "products": [],
-    "website": null,
-    "lat": 59.21193940000001,
-    "lon": 10.899533,
-    "address": "Storveien 123",
-    "source": "https://www.lokalmat.no/produsenter/cbk/"
   },
   {
     "id": "lokalmat_10871",
@@ -8785,7 +8772,7 @@
     "lat": 62.18950579083096,
     "lon": 11.004214529868337,
     "address": "",
-    "source": "https://www.lokalmat.no/produsenter/nordli-gaard/"
+    "source": "https://www.lokalmat.no/produsenter/nordli-gard/"
   },
   {
     "id": "lokalmat_11489",
@@ -10121,7 +10108,7 @@
     "lat": 63.7,
     "lon": 9.8,
     "address": "Furunesvn. 396",
-    "source": "https://www.lokalmat.no/produsenter/romstad-gaard-as/"
+    "source": "https://www.lokalmat.no/produsenter/romstad-gard/"
   },
   {
     "id": "lokalmat_11410",
@@ -11974,7 +11961,9 @@
     "country": "Norway",
     "region": "Akershus",
     "municipality": "Hokksund",
-    "products": [],
+    "products": [
+      "Annet"
+    ],
     "website": null,
     "lat": 59.8939224,
     "lon": 10.7149058,
@@ -15984,6 +15973,19 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_11843",
+    "name": "CBK",
+    "country": "Norway",
+    "region": "Østfold",
+    "municipality": "1621",
+    "products": [],
+    "website": null,
+    "lat": 59.21193940000001,
+    "lon": 10.899533,
+    "address": "Storveien 123",
+    "source": "https://www.lokalmat.no/produsenter/cbk/"
   },
   {
     "id": "lokalmat_10834",
