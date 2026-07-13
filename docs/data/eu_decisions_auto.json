@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-07-12T06:18:58.212151+00:00",
+  "updated_at": "2026-07-13T06:29:41.864146+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-07-08T22:16:03+00:00",
+      "title": "30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVDVHbTB3dDY1SjkzTUJnNmVIUEtBM2tWZVhjcmY1NV9aQVAtbXhRYlZtVGZPTXU5cElMTTZpdzF1MTExYnFESDhDTHVLN2V4MmdEMTZTQVdYY0pTcmJQbEhvbGkwa0xYQXlWRlg0RzBLMnRQd0dtUVhtTW9zRVllaGstdmZYczZQYjNZVGRnZUNGcTBfZWtfWHNDUVlaZDd4NFhYaVJSRjUxRmhpbEpFZmNwaDZQbUE?oc=5",
+      "source": "European Parliament",
+      "id": "72a227ba89409a25"
+    },
     {
       "date": "2026-06-17T12:53:03+00:00",
       "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
@@ -54,6 +64,16 @@
       "id": "0c23261647b85949"
     },
     {
+      "date": "2026-06-08T07:00:00+00:00",
+      "title": "Plants obtained by new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jUVJtSENudGZRTzJiNEwzNGtrRGRYNUxlcnNwLXdKS2FIMG9fWmxNMmZ3X3JES01uSzh6YnZyMDU5ZzJseGNQYWJ2TjkxRU9kMTJYWHg0eUs0TnBtRnAtQXlUOF9FdVY4YnNwcDV0SHd5RlZfTDVTbXpvUkt2Zw?oc=5",
+      "source": "European Parliament",
+      "id": "81d116d6391e0f2d"
+    },
+    {
       "date": "2026-04-21T07:00:00+00:00",
       "title": "New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -84,6 +104,16 @@
       "id": "1e18ebb009a549c3"
     },
     {
+      "date": "2026-03-19T07:00:00+00:00",
+      "title": "Parliamentary question | Draft regulation on plants obtained by certain new genomic techniques (NGT) | E-001156/2026 - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Parliamentary question | Draft regulation on plants obtained by certain new genomic techniques (NGT) | E-001156/2026 &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MNGVWblNDOHhhU0tQbjRlNnZoN0hZSElwQTIwUXh4Y3RHMzRsUFpWRG9LSTV4bkNNSURYMTEyamRXWUI4bXRxeHhoQlFJa2JxeHZLMWtEM1U1ZUYyOFdtSTNLR0M1ZGVxVWxTbC1KZF9iTGFWNGpHSy13?oc=5",
+      "source": "European Parliament",
+      "id": "d4e9e838bbe42395"
+    },
+    {
       "date": "2026-03-06T01:03:25+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -102,16 +132,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQlE2aHFIVjJjVUpaWUp2SEhZdDU5NXg3YVBNbTFZN3ZNNWs0VjZMZnRuN2U1elBpZXlUWW9WZnhXQl9vV1NGM1ZmNDJlZV9taGt0cEZqb1Y2Qmd6WkNHclJIYnB6Ym1Ia2JvemtRdExKZ1oybWdrMUxDYkUxX2JsbDFvSFRTZDNYMGczaXlmREl1Q1dJQ1NqVnhCNnhvcGxVdnIzVldpa19tcDFaemFzNnUwYW9sVTNyajBqZFZNZHg?oc=5",
       "source": "European Parliament",
       "id": "4ed8c51d88ac5766"
-    },
-    {
-      "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
-      "source": "European Parliament",
-      "id": "a8057ba0c6d6254e"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -192,6 +212,16 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
       "source": "EUR-Lex",
       "id": "49317d781619a1f2"
+    },
+    {
+      "date": "2025-04-12T07:00:00+00:00",
+      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5",
+      "source": "European Parliament",
+      "id": "f6d03f3f1ed2c135"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -282,6 +312,16 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
       "source": "European Parliament",
       "id": "785c5faa4afa430e"
+    },
+    {
+      "date": "2024-01-10T08:00:00+00:00",
+      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
+      "source": "EUR-Lex",
+      "id": "d5fb36521e33afe9"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
