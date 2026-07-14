@@ -809270,12 +809270,12 @@
     "name": "Hof Neumatt",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Hauenstein-Ifenthal",
+    "municipality": "Hauenstein",
     "products": [],
     "website": "https://neumatt1.ch/",
     "lat": 47.3758377,
     "lon": 7.8736883,
-    "address": "Neumatt"
+    "address": null
   },
   {
     "id": 4958676727,
@@ -812314,6 +812314,18 @@
     "address": "Zürcherstrasse"
   },
   {
+    "id": 7547935529,
+    "name": "Walki-Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2461667,
+    "lon": 7.6470298,
+    "address": null
+  },
+  {
     "id": 7549176881,
     "name": "Bio Hofladen",
     "country": "Switzerland",
@@ -813230,12 +813242,12 @@
     "name": "BioBergün Hofladen",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Bergün/Bravuogn",
     "products": [],
-    "website": null,
+    "website": "https://www.bioberguen.ch",
     "lat": 46.6269088,
     "lon": 9.7484273,
-    "address": null
+    "address": "Veja Alvra"
   },
   {
     "id": 8503923418,
@@ -813667,7 +813679,7 @@
     "website": null,
     "lat": 46.728568,
     "lon": 9.1824599,
-    "address": "Via Zigliolas"
+    "address": null
   },
   {
     "id": 8894860113,
@@ -817186,6 +817198,18 @@
     "address": null
   },
   {
+    "id": 11171208298,
+    "name": "Freudental Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Schaffhausen",
+    "products": [],
+    "website": "https://freudental.ch/",
+    "lat": 47.734933,
+    "lon": 8.6383266,
+    "address": null
+  },
+  {
     "id": 11172077376,
     "name": "Ferme La Solide",
     "country": "Switzerland",
@@ -819698,12 +819722,12 @@
     "name": "Hofladen Gregori",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Bergün/Bravuogn",
     "products": [],
-    "website": null,
+    "website": "https://hof-gregori.ch",
     "lat": 46.626551,
     "lon": 9.7485564,
-    "address": null
+    "address": "Veja Alvra"
   },
   {
     "id": 12773108489,
@@ -819907,7 +819931,7 @@
     "website": "https://www.bio-hof-gudigliel.com/",
     "lat": 46.7248095,
     "lon": 9.1900804,
-    "address": "Entadem Vitg"
+    "address": null
   },
   {
     "id": 12897282674,
@@ -821398,6 +821422,54 @@
     "address": null
   },
   {
+    "id": 13935482833,
+    "name": "Kämpf's Hofprodukte",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7136264,
+    "lon": 7.7198412,
+    "address": null
+  },
+  {
+    "id": 13938587403,
+    "name": "Hofladen Naturhof-Kiental",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.5815211,
+    "lon": 7.7273168,
+    "address": null
+  },
+  {
+    "id": 13949481301,
+    "name": "Staublibeeren",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.285885,
+    "lon": 8.3410338,
+    "address": "Hasli"
+  },
+  {
+    "id": 13955219364,
+    "name": "Buta hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6238025,
+    "lon": 10.4492859,
+    "address": null
+  },
+  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -821834,12 +821906,12 @@
     "name": "Fromagerie de Vollèges",
     "country": "Switzerland",
     "region": null,
-    "municipality": null,
+    "municipality": "Vollèges",
     "products": [],
     "website": null,
-    "lat": 46.081818,
-    "lon": 7.1585435,
-    "address": null
+    "lat": 46.0819955,
+    "lon": 7.1585966,
+    "address": "route de la Vallée"
   },
   {
     "id": 223609715,
@@ -823102,6 +823174,18 @@
     "address": null
   },
   {
+    "id": 1529896463,
+    "name": "Kollektiv-Hof Waldheim",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kollektivhof.ch/",
+    "lat": 47.4899463,
+    "lon": 9.2968655,
+    "address": null
+  },
+  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -823123,6 +823207,18 @@
     "website": null,
     "lat": 47.3109306,
     "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 221050093,
+    "name": "Fromagerie de Vollèges",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.081818,
+    "lon": 7.1585435,
     "address": null
   },
   {
