@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-07-14T06:07:38.199432+00:00",
+  "updated_at": "2026-07-15T06:08:21.986055+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
-    {
-      "date": "2026-07-08T22:16:03+00:00",
-      "title": "30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 30-06-2026 15:00 STOA workshop: Europe's future after embracing New Genomic Techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVDVHbTB3dDY1SjkzTUJnNmVIUEtBM2tWZVhjcmY1NV9aQVAtbXhRYlZtVGZPTXU5cElMTTZpdzF1MTExYnFESDhDTHVLN2V4MmdEMTZTQVdYY0pTcmJQbEhvbGkwa0xYQXlWRlg0RzBLMnRQd0dtUVhtTW9zRVllaGstdmZYczZQYjNZVGRnZUNGcTBfZWtfWHNDUVlaZDd4NFhYaVJSRjUxRmhpbEpFZmNwaDZQbUE?oc=5",
-      "source": "European Parliament",
-      "id": "72a227ba89409a25"
-    },
     {
       "date": "2026-06-17T12:53:03+00:00",
       "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
@@ -215,16 +205,6 @@
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
-      "title": "New genomic techniques: Council agrees negotiating mandate - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: Council agrees negotiating mandate &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbnJONGdpR0tGcTVEaFVJSkdOVkRtc1B1ZjVTS0Z2UlpWa2xlZlRfVE94Mm9yQndETXdUY1VYVVhJUlpWN2RQZWRIakllcVdUQkU3TEt6TENOM0E0Y3dUejNfeGtGMUIyZ2JxbHR0NHBfWkZjTDJOX3pqbjNpZ2s0ZXZmQk5RU0NHaDRGaDluX3RUb3h4MlRLQUNhanhra2Q3Njc1aDRVcVNlWUx0S20zZnZDeF9PN1RUSjJqMWFZaGw2aF9ETk43bA?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "f7db271c26e2106d"
-    },
-    {
-      "date": "2025-03-14T07:00:00+00:00",
       "title": "New genomic techniques for plant breeding - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
@@ -232,6 +212,16 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNWxWX2dKNTNqWi1xQU1Tc0F2b1Izb2ZCdFpkTEpVQm50eVdyU1JTVG1Dd3hIMTFkb0xjUjVDWnh3MElNY1BqTVVFOV9HZ2JpM21XaEk1eml5T1N3RFNNTHR1S0U4NEV4dU0xN0ZNNktIN0xXQnlvRUhVLUdQVnZqcy1Bb2FjVEE3UzZ6R3MzRQ?oc=5",
       "source": "consilium.europa.eu",
       "id": "9b65007102d34b3c"
+    },
+    {
+      "date": "2025-03-14T07:00:00+00:00",
+      "title": "New genomic techniques: Council agrees negotiating mandate - consilium.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: Council agrees negotiating mandate &nbsp;&nbsp; consilium.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1YteWI1UTlsWjMtN0RORTBWYU1DOHkzVUZmVW5pMFRta2haMVZZcEhxajZqMjRQeF9nV0p4cWsxdWQ2bnd1ZEVrWHhkcFE1bnRaQjZxaEZ3S3FkeUNDajc1d1paeUpSVzZaT1dELXpWdjhkUng0T05LU0tSVHFwVkh1bkQ5amNLRU50VEh6R0tRd3lCUDJOYVFJWTlLU3NFenRXdlVUOUFlcm5PRm5UV0NyQmNaZmFwTWRHMlU1cTNZNm8?oc=5",
+      "source": "consilium.europa.eu",
+      "id": "cf7689a9af15cce6"
     },
     {
       "date": "2024-11-07T08:00:00+00:00",
