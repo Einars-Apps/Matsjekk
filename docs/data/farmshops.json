@@ -762911,7 +762911,7 @@
     "name": "Waldgut - Gutes aus dem Waldviertel",
     "country": "Austria",
     "region": null,
-    "municipality": "Wien",
+    "municipality": null,
     "products": [],
     "website": "https://www.bauernladendoebling.at/",
     "lat": 48.2386795,
@@ -767572,7 +767572,7 @@
     "website": null,
     "lat": 47.9867102,
     "lon": 13.0169619,
-    "address": null
+    "address": "Eisping"
   },
   {
     "id": 12841591176,
@@ -768487,18 +768487,6 @@
     "address": null
   },
   {
-    "id": 13740161139,
-    "name": "Natter-Hof",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Dornbirn",
-    "products": [],
-    "website": null,
-    "lat": 47.4117577,
-    "lon": 9.7191255,
-    "address": "Am Floßgraben"
-  },
-  {
     "id": 13750149702,
     "name": "Bauernladen Schalhas",
     "country": "Austria",
@@ -768701,42 +768689,6 @@
     "lat": 47.650296,
     "lon": 16.0943995,
     "address": "Maierhöfenstraße"
-  },
-  {
-    "id": 13938744901,
-    "name": "Spritzerrast Roseldorf",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.weinviertel.at/infrastruktur/spritzerrast-roseldorf",
-    "lat": 48.6496538,
-    "lon": 15.9348215,
-    "address": null
-  },
-  {
-    "id": 13971618131,
-    "name": "Biohof Holzer",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://biohof-holzer.at",
-    "lat": 48.3145523,
-    "lon": 14.020422,
-    "address": "Josef-Friedl-Straße"
-  },
-  {
-    "id": 13972644901,
-    "name": "Imkerei Linemayr",
-    "country": "Austria",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.7172074,
-    "lon": 13.0439239,
-    "address": null
   },
   {
     "id": 16588983,
@@ -769697,18 +769649,6 @@
     "lat": 47.5860231,
     "lon": 12.3992631,
     "address": "Alm"
-  },
-  {
-    "id": 228097880,
-    "name": "Beerenstadl Salzburg",
-    "country": "Austria",
-    "region": null,
-    "municipality": "Salzburg",
-    "products": [],
-    "website": "https://lehners-beeren.at/beerenstadl-salzburg/",
-    "lat": 47.7734842,
-    "lon": 13.0842769,
-    "address": "Aigner Straße"
   },
   {
     "id": 228857074,
@@ -772949,6 +772889,66 @@
     "lat": 47.0136174,
     "lon": 14.2436819,
     "address": null
+  },
+  {
+    "id": 13740161139,
+    "name": "Natter-Hof",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Dornbirn",
+    "products": [],
+    "website": null,
+    "lat": 47.4117577,
+    "lon": 9.7191255,
+    "address": "Am Floßgraben"
+  },
+  {
+    "id": 13938744901,
+    "name": "Spritzerrast Roseldorf",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.weinviertel.at/infrastruktur/spritzerrast-roseldorf",
+    "lat": 48.6496538,
+    "lon": 15.9348215,
+    "address": null
+  },
+  {
+    "id": 13971618131,
+    "name": "Biohof Holzer",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://biohof-holzer.at",
+    "lat": 48.3145523,
+    "lon": 14.020422,
+    "address": "Josef-Friedl-Straße"
+  },
+  {
+    "id": 13972644901,
+    "name": "Imkerei Linemayr",
+    "country": "Austria",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.7172074,
+    "lon": 13.0439239,
+    "address": null
+  },
+  {
+    "id": 228097880,
+    "name": "Beerenstadl Salzburg",
+    "country": "Austria",
+    "region": null,
+    "municipality": "Salzburg",
+    "products": [],
+    "website": "https://lehners-beeren.at/beerenstadl-salzburg/",
+    "lat": 47.7734842,
+    "lon": 13.0842769,
+    "address": "Aigner Straße"
   },
   {
     "id": 4769092458,
@@ -809270,12 +809270,12 @@
     "name": "Hof Neumatt",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Hauenstein",
+    "municipality": "Hauenstein-Ifenthal",
     "products": [],
     "website": "https://neumatt1.ch/",
     "lat": 47.3758377,
     "lon": 7.8736883,
-    "address": null
+    "address": "Neumatt"
   },
   {
     "id": 4958676727,
@@ -812314,18 +812314,6 @@
     "address": "Zürcherstrasse"
   },
   {
-    "id": 7547935529,
-    "name": "Walki-Lädeli",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.2461667,
-    "lon": 7.6470298,
-    "address": null
-  },
-  {
     "id": 7549176881,
     "name": "Bio Hofladen",
     "country": "Switzerland",
@@ -813242,12 +813230,12 @@
     "name": "BioBergün Hofladen",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Bergün/Bravuogn",
+    "municipality": null,
     "products": [],
-    "website": "https://www.bioberguen.ch",
+    "website": null,
     "lat": 46.6269088,
     "lon": 9.7484273,
-    "address": "Veja Alvra"
+    "address": null
   },
   {
     "id": 8503923418,
@@ -813679,7 +813667,7 @@
     "website": null,
     "lat": 46.728568,
     "lon": 9.1824599,
-    "address": null
+    "address": "Via Zigliolas"
   },
   {
     "id": 8894860113,
@@ -817198,18 +817186,6 @@
     "address": null
   },
   {
-    "id": 11171208298,
-    "name": "Freudental Hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Schaffhausen",
-    "products": [],
-    "website": "https://freudental.ch/",
-    "lat": 47.734933,
-    "lon": 8.6383266,
-    "address": null
-  },
-  {
     "id": 11172077376,
     "name": "Ferme La Solide",
     "country": "Switzerland",
@@ -819722,12 +819698,12 @@
     "name": "Hofladen Gregori",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Bergün/Bravuogn",
+    "municipality": null,
     "products": [],
-    "website": "https://hof-gregori.ch",
+    "website": null,
     "lat": 46.626551,
     "lon": 9.7485564,
-    "address": "Veja Alvra"
+    "address": null
   },
   {
     "id": 12773108489,
@@ -819931,7 +819907,7 @@
     "website": "https://www.bio-hof-gudigliel.com/",
     "lat": 46.7248095,
     "lon": 9.1900804,
-    "address": null
+    "address": "Entadem Vitg"
   },
   {
     "id": 12897282674,
@@ -821419,54 +821395,6 @@
     "website": null,
     "lat": 47.3500166,
     "lon": 8.1179978,
-    "address": null
-  },
-  {
-    "id": 13935482833,
-    "name": "Kämpf's Hofprodukte",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.7136264,
-    "lon": 7.7198412,
-    "address": null
-  },
-  {
-    "id": 13938587403,
-    "name": "Hofladen Naturhof-Kiental",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.5815211,
-    "lon": 7.7273168,
-    "address": null
-  },
-  {
-    "id": 13949481301,
-    "name": "Staublibeeren",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.285885,
-    "lon": 8.3410338,
-    "address": "Hasli"
-  },
-  {
-    "id": 13955219364,
-    "name": "Buta hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.6238025,
-    "lon": 10.4492859,
     "address": null
   },
   {
@@ -823174,18 +823102,6 @@
     "address": null
   },
   {
-    "id": 1529896463,
-    "name": "Kollektiv-Hof Waldheim",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://kollektivhof.ch/",
-    "lat": 47.4899463,
-    "lon": 9.2968655,
-    "address": null
-  },
-  {
     "id": 1952344,
     "name": "Eggwald",
     "country": "Switzerland",
@@ -823207,6 +823123,90 @@
     "website": null,
     "lat": 47.3109306,
     "lon": 8.9341511,
+    "address": null
+  },
+  {
+    "id": 7547935529,
+    "name": "Walki-Lädeli",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.2461667,
+    "lon": 7.6470298,
+    "address": null
+  },
+  {
+    "id": 11171208298,
+    "name": "Freudental Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Schaffhausen",
+    "products": [],
+    "website": "https://freudental.ch/",
+    "lat": 47.734933,
+    "lon": 8.6383266,
+    "address": null
+  },
+  {
+    "id": 13935482833,
+    "name": "Kämpf's Hofprodukte",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.7136264,
+    "lon": 7.7198412,
+    "address": null
+  },
+  {
+    "id": 13938587403,
+    "name": "Hofladen Naturhof-Kiental",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.5815211,
+    "lon": 7.7273168,
+    "address": null
+  },
+  {
+    "id": 13949481301,
+    "name": "Staublibeeren",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.285885,
+    "lon": 8.3410338,
+    "address": "Hasli"
+  },
+  {
+    "id": 13955219364,
+    "name": "Buta hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.6238025,
+    "lon": 10.4492859,
+    "address": null
+  },
+  {
+    "id": 1529896463,
+    "name": "Kollektiv-Hof Waldheim",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://kollektivhof.ch/",
+    "lat": 47.4899463,
+    "lon": 9.2968655,
     "address": null
   },
   {
