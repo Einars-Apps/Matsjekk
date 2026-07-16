@@ -302981,7 +302981,7 @@
     "region": null,
     "municipality": "Bagnolet",
     "products": [],
-    "website": "http://www.clos-a-peche.sitew.com/",
+    "website": null,
     "lat": 48.8693975,
     "lon": 2.4177521,
     "address": "Rue Charles Graindorge"
@@ -303443,6 +303443,18 @@
     "address": "Avenue des Seizième Jeux Olympiques"
   },
   {
+    "id": 68736348,
+    "name": "Les Paniers bio de Christelle",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.8444022,
+    "lon": 0.6426981,
+    "address": null
+  },
+  {
     "id": 69097982,
     "name": "Nos fermes du Chablais",
     "country": "France",
@@ -303560,6 +303572,18 @@
     "website": null,
     "lat": 48.7234503,
     "lon": -3.970197,
+    "address": null
+  },
+  {
+    "id": 72412441,
+    "name": "Ferme de Kerantosfal",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6487626,
+    "lon": -4.1366802,
     "address": null
   },
   {
@@ -304049,7 +304073,7 @@
     "region": null,
     "municipality": "Saint-Philippe",
     "products": [],
-    "website": "http://escale-bleue.fr/",
+    "website": "https://escale-bleue.fr/",
     "lat": -21.325045,
     "lon": 55.799796,
     "address": "Route Nationale 2 Le Tremblet"
@@ -304233,6 +304257,18 @@
     "lat": 47.6102625,
     "lon": -3.126675,
     "address": null
+  },
+  {
+    "id": 96629206,
+    "name": "Java, ferme maraichère et festive",
+    "country": "France",
+    "region": null,
+    "municipality": "Les Sorinières",
+    "products": [],
+    "website": null,
+    "lat": 47.1399345,
+    "lon": -1.544087,
+    "address": "Route de la Filée"
   },
   {
     "id": 97315831,
@@ -304508,6 +304544,18 @@
     "website": null,
     "lat": 48.6114793,
     "lon": 2.5555961,
+    "address": null
+  },
+  {
+    "id": 115172293,
+    "name": "Les œufs de la ferme des Parrichets",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.8024106,
+    "lon": 3.0635147,
     "address": null
   },
   {
@@ -304883,18 +304931,6 @@
     "address": "La Commanderie"
   },
   {
-    "id": 142244951,
-    "name": "Maison du Fromage et des Produits locaux",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.maisondufromage.fr/",
-    "lat": 46.681742,
-    "lon": 1.0402065,
-    "address": null
-  },
-  {
     "id": 142636783,
     "name": "L'Epi d'Or",
     "country": "France",
@@ -304961,7 +304997,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.coeur-de-fermier.com/",
+    "website": "https://www.coeur-de-fermier.com/",
     "lat": 45.7752909,
     "lon": 2.7584046,
     "address": null
@@ -305723,6 +305759,18 @@
     "address": null
   },
   {
+    "id": 197008812,
+    "name": "Trikome - Producteur de CBD Bio en Savoie",
+    "country": "France",
+    "region": null,
+    "municipality": "Domessin",
+    "products": [],
+    "website": "https://trikome.fr/",
+    "lat": 45.5483485,
+    "lon": 5.7150105,
+    "address": "Route de Verel-de-Montbel"
+  },
+  {
     "id": 197010056,
     "name": "AMAP du lac d'Aiguebelette",
     "country": "France",
@@ -305864,18 +305912,6 @@
     "website": "https://www.breton-manoirdedurcet.fr/",
     "lat": 48.559551,
     "lon": -0.332246,
-    "address": null
-  },
-  {
-    "id": 210887651,
-    "name": "Saveurs des 4 Saisons",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.1889367,
-    "lon": -2.7625076,
     "address": null
   },
   {
@@ -306671,18 +306707,6 @@
     "address": null
   },
   {
-    "id": 294476508,
-    "name": "Ferme de Kerflaveur",
-    "country": "France",
-    "region": null,
-    "municipality": "Putanges-le-Lac",
-    "products": [],
-    "website": "https://www.suissenormande.fr/ferme-kerflaveur",
-    "lat": 48.725784,
-    "lon": -0.2458335,
-    "address": "La Fresnaye au sauvage"
-  },
-  {
     "id": 295304919,
     "name": "GAEC de l'Équiour",
     "country": "France",
@@ -306797,7 +306821,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.brinsdeterroir.fr/",
+    "website": "https://brinsdeterroir.fr/",
     "lat": 44.7750446,
     "lon": 5.0223105,
     "address": "Quartier La Gare"
@@ -307043,6 +307067,18 @@
     "address": null
   },
   {
+    "id": 359796284,
+    "name": "Forêt du Pay Milon",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.9899154,
+    "lon": -1.5893737,
+    "address": null
+  },
+  {
     "id": 360162038,
     "name": "Zone ostréicole",
     "country": "France",
@@ -307193,7 +307229,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://www.hortillondelune.fr/",
+    "website": "https://www.hortillondelune.fr/",
     "lat": 49.8984317,
     "lon": 2.3182493,
     "address": null
@@ -307741,6 +307777,18 @@
     "website": null,
     "lat": 48.4454712,
     "lon": -4.5640107,
+    "address": null
+  },
+  {
+    "id": 495684972,
+    "name": "Cevenat Huiles essentielles",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://www.cevenat.fr/",
+    "lat": 44.1934605,
+    "lon": 3.6580594,
     "address": null
   },
   {
@@ -308353,18 +308401,6 @@
     "website": null,
     "lat": 44.0715218,
     "lon": 3.9792943,
-    "address": null
-  },
-  {
-    "id": 618987128,
-    "name": "Poulailler perché",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.1669747,
-    "lon": -0.7810565,
     "address": null
   },
   {
@@ -309484,6 +309520,30 @@
     "address": null
   },
   {
+    "id": 771710438,
+    "name": "Parc à Huitres",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6687498,
+    "lon": -3.8676283,
+    "address": null
+  },
+  {
+    "id": 771711936,
+    "name": "Parc à Huitres",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6563047,
+    "lon": -3.8644555,
+    "address": null
+  },
+  {
     "id": 775391311,
     "name": "Algosud",
     "country": "France",
@@ -310292,12 +310352,12 @@
     "name": "Le Papillon Bleu",
     "country": "France",
     "region": null,
-    "municipality": "Bénesse-Maremne",
+    "municipality": null,
     "products": [],
     "website": "https://boutique-papillonbleu.fr/",
     "lat": 43.6313986,
     "lon": -1.3679763,
-    "address": "Route d'Angresse"
+    "address": null
   },
   {
     "id": 856656867,
@@ -310328,7 +310388,7 @@
     "name": "Les Houes Vertes",
     "country": "France",
     "region": null,
-    "municipality": "Saint Jean de Marsacq",
+    "municipality": "Saint-Jean-de-Marsacq",
     "products": [],
     "website": null,
     "lat": 43.6150658,
@@ -310472,7 +310532,7 @@
     "name": "Garat",
     "country": "France",
     "region": null,
-    "municipality": "Saint Martin de Hinx",
+    "municipality": "Saint-Martin-de-Hinx",
     "products": [],
     "website": null,
     "lat": 43.5792727,
@@ -310496,7 +310556,7 @@
     "name": "EARL De Hourneut",
     "country": "France",
     "region": null,
-    "municipality": "Sain-Martin-de-Hinx",
+    "municipality": "Saint-Martin-de-Hinx",
     "products": [],
     "website": null,
     "lat": 43.5781845,
@@ -310508,7 +310568,7 @@
     "name": "SCEA du Marais",
     "country": "France",
     "region": null,
-    "municipality": "Saint André de Seignanx",
+    "municipality": "Saint-André-de-Seignanx",
     "products": [],
     "website": null,
     "lat": 43.571584,
@@ -310568,12 +310628,12 @@
     "name": "Ferme Du Pont",
     "country": "France",
     "region": null,
-    "municipality": "Bénesse Maremne",
+    "municipality": null,
     "products": [],
     "website": "https://ferme-du-pont.business.site/",
     "lat": 43.6462664,
     "lon": -1.3534073,
-    "address": "Chemin de la Téoulère"
+    "address": null
   },
   {
     "id": 870725325,
@@ -310658,18 +310718,6 @@
     "lat": 47.3357527,
     "lon": -3.1663512,
     "address": "Impasse de l'Abeille Noire"
-  },
-  {
-    "id": 879704990,
-    "name": "La forêt d'Emeraude",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://laforetdemeraude.fr/",
-    "lat": 43.6427329,
-    "lon": -1.3798081,
-    "address": null
   },
   {
     "id": 879748449,
@@ -311368,18 +311416,6 @@
     "address": null
   },
   {
-    "id": 917895634,
-    "name": "stockage du Bois",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 50.4726577,
-    "lon": 3.0425892,
-    "address": null
-  },
-  {
     "id": 918327624,
     "name": "Ferme Larrey",
     "country": "France",
@@ -311812,6 +311848,78 @@
     "address": null
   },
   {
+    "id": 142244951,
+    "name": "Maison du Fromage et des Produits locaux",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.maisondufromage.fr/",
+    "lat": 46.681742,
+    "lon": 1.0402065,
+    "address": null
+  },
+  {
+    "id": 210887651,
+    "name": "Saveurs des 4 Saisons",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.1889367,
+    "lon": -2.7625076,
+    "address": null
+  },
+  {
+    "id": 294476508,
+    "name": "Ferme de Kerflaveur",
+    "country": "France",
+    "region": null,
+    "municipality": "Putanges-le-Lac",
+    "products": [],
+    "website": "https://www.suissenormande.fr/ferme-kerflaveur",
+    "lat": 48.725784,
+    "lon": -0.2458335,
+    "address": "La Fresnaye au sauvage"
+  },
+  {
+    "id": 618987128,
+    "name": "Poulailler perché",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 44.1669747,
+    "lon": -0.7810565,
+    "address": null
+  },
+  {
+    "id": 879704990,
+    "name": "La forêt d'Emeraude",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://laforetdemeraude.fr/",
+    "lat": 43.6427329,
+    "lon": -1.3798081,
+    "address": null
+  },
+  {
+    "id": 917895634,
+    "name": "stockage du Bois",
+    "country": "France",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 50.4726577,
+    "lon": 3.0425892,
+    "address": null
+  },
+  {
     "id": 967962863,
     "name": "Les fruits rouges de la Doller",
     "country": "France",
@@ -312001,102 +312109,6 @@
     "website": null,
     "lat": 46.2091528,
     "lon": -1.1313236,
-    "address": null
-  },
-  {
-    "id": 68736348,
-    "name": "Les Paniers bio de Christelle",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 44.8444022,
-    "lon": 0.6426981,
-    "address": null
-  },
-  {
-    "id": 72412441,
-    "name": "Ferme de Kerantosfal",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6487626,
-    "lon": -4.1366802,
-    "address": null
-  },
-  {
-    "id": 115172293,
-    "name": "Les œufs de la ferme des Parrichets",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.8024106,
-    "lon": 3.0635147,
-    "address": null
-  },
-  {
-    "id": 197008812,
-    "name": "Trikome - Producteur de CBD Bio en Savoie",
-    "country": "France",
-    "region": null,
-    "municipality": "Domessin",
-    "products": [],
-    "website": "https://trikome.fr/",
-    "lat": 45.5483485,
-    "lon": 5.7150105,
-    "address": "Route de Verel-de-Montbel"
-  },
-  {
-    "id": 359796284,
-    "name": "Forêt du Pay Milon",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.9899154,
-    "lon": -1.5893737,
-    "address": null
-  },
-  {
-    "id": 495684972,
-    "name": "Cevenat Huiles essentielles",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "http://www.cevenat.fr/",
-    "lat": 44.1934605,
-    "lon": 3.6580594,
-    "address": null
-  },
-  {
-    "id": 771710438,
-    "name": "Parc à Huitres",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6687498,
-    "lon": -3.8676283,
-    "address": null
-  },
-  {
-    "id": 771711936,
-    "name": "Parc à Huitres",
-    "country": "France",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 48.6563047,
-    "lon": -3.8644555,
     "address": null
   },
   {
