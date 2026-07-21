@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-07-20T06:27:32.479758+00:00",
+  "updated_at": "2026-07-21T06:15:54.353878+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-07-20T06:27:31+00:00",
+      "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNR3llVW9pWThLTVMzYjRpcjQ1NHFTeHJBR1JjVFlsSWQzTUhLeXRjNE15S1E4RGt2Z0dIdEV4b2QxOEVBWGFKVUU3b1dmc2hhMTZQUkNQVVFDRmNwR19EbF81aWJaNkstb3liRUhBYTBHeGNSQk9uXzFnYVpLbEEtWG4tYjdBYVF3V3Zqemdkb3pKcldHUmxPeXVhSklIYlZWaWdCcFFHLW1uQm1qWTAzMkxkQ2xCVFBKczZ6b3FxM2xQMjdTSmNWbkh2S21WSGRLbURKUzZtUVJ4d0h0dENXM3VvRWdvUUZsRmxUOWNnYWVzVHpVbDJsUTdjdHgtdkhyTVRTdzZQZl9ObUo2?oc=5",
+      "source": "European Parliament",
+      "id": "ff88239c0122f0fd"
+    },
     {
       "date": "2026-07-16T09:33:35+00:00",
       "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
@@ -102,16 +112,6 @@
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTRBbzZqLW55UHRfV0UybjRLSGFzbV94VHJGWFZXaEJ0MjhMX3BMNVpFWHlYSFJqeUk1NjhETThVSVdvSkZSdWh4cENSZF95aG83cXBfS3FCanV4Q2FtLVZqM3duR2RLVjVLSkJpeWFvVGFKWDlYTjJEWENYRk5MNzRPdmEyMEotUmNVSU8wQjFrcWd5eE1mbWNFRXpaZUlOUWl2UWVBRHV6WnhTek5WRUw4eksySWhOX2tqMjRRMFBUcG1kcWRZNWU1REF5enlSQzNDUE5VdGh5UWltX2xBLUEzTFBWNEhIYVZRVy1TSnk?oc=5",
       "source": "European Parliament",
       "id": "1e18ebb009a549c3"
-    },
-    {
-      "date": "2026-03-19T07:00:00+00:00",
-      "title": "Parliamentary question | Draft regulation on plants obtained by certain new genomic techniques (NGT) | E-001156/2026 - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Parliamentary question | Draft regulation on plants obtained by certain new genomic techniques (NGT) | E-001156/2026 &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MNGVWblNDOHhhU0tQbjRlNnZoN0hZSElwQTIwUXh4Y3RHMzRsUFpWRG9LSTV4bkNNSURYMTEyamRXWUI4bXRxeHhoQlFJa2JxeHZLMWtEM1U1ZUYyOFdtSTNLR0M1ZGVxVWxTbC1KZF9iTGFWNGpHSy13?oc=5",
-      "source": "European Parliament",
-      "id": "d4e9e838bbe42395"
     },
     {
       "date": "2026-03-06T01:33:14+00:00",
@@ -284,6 +284,16 @@
       "id": "f962036580c501e3"
     },
     {
+      "date": "2024-02-01T08:00:00+00:00",
+      "title": "New Genomic Techniques: debate and vote on new EU rules | 05-02-2024 | News - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: debate and vote on new EU rules | 05-02-2024 | News &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS2ZabzlTWjFWTVJhaHZTNURYR3Nmck1qbFJ5SDNoN0ZCWjJtQ01NNzZQTG9VNHkxS2h4Z0tEdmpvUW04R3ZiSnFHcUprMGRDd0hiZXU3SkZWM2o0ZHA2TDBUSC1WczF2X2NzNTJrSVhvLUI2TUN5Y3F6ZU9zUFBtcllhZExoLWJIRnczWlFyVktZVXhGX2h5X0JHaVdTRWdjMWhvLUdyN3hNaFJRS3VVaDNSTjZZTEUxemVSd01oWGlueW9f?oc=5",
+      "source": "European Parliament",
+      "id": "e170e28a45f5fd50"
+    },
+    {
       "date": "2024-01-10T08:00:00+00:00",
       "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -314,14 +324,14 @@
       "id": "1f1430e454f64823"
     },
     {
-      "date": "2023-09-11T07:00:00+00:00",
-      "title": "Novel food status Sunflower seed oil (creamy) - food.ec.europa.eu",
+      "date": "2023-09-06T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Novel food status Sunflower seed oil (creamy) &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "252c440680606480"
+      "topic": "Bovaer",
+      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
+      "source": "EUR-Lex",
+      "id": "689659b69845a846"
     },
     {
       "date": "2023-07-24T07:00:00+00:00",
