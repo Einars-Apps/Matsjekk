@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T06:15:54.353878+00:00",
+  "updated_at": "2026-07-22T06:14:45.287482+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -224,6 +224,16 @@
       "id": "f6d03f3f1ed2c135"
     },
     {
+      "date": "2025-04-10T07:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2MyNVRLU09LcmltT0ZQd3ZLZ25LMDV5S2tiVW1ZWnNKanVYd3ZqWlB5YThMS1lnRDJCdmN4U0UxZzQwaW1nZG05TEVSRnNWaTFJTDZXM3NMeUw3bTRRdWVFYl9oeDZreHF0SUFEWUhTeFd3Rjd2LVJkRW4zdVllWC1IanItYzFqa2dSWWtoakktdUtjQkdISHR1NWVZUk9sdklfZzRnQ2xod1dqbGVPT0tSZW5mcnl3VGZ5V0hJRzhiUnY2eURuQ2k2aUlHSG5z?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "58cc52b4e206877c"
+    },
+    {
       "date": "2025-03-14T07:00:00+00:00",
       "title": "New genomic techniques for plant breeding - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -292,6 +302,16 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS2ZabzlTWjFWTVJhaHZTNURYR3Nmck1qbFJ5SDNoN0ZCWjJtQ01NNzZQTG9VNHkxS2h4Z0tEdmpvUW04R3ZiSnFHcUprMGRDd0hiZXU3SkZWM2o0ZHA2TDBUSC1WczF2X2NzNTJrSVhvLUI2TUN5Y3F6ZU9zUFBtcllhZExoLWJIRnczWlFyVktZVXhGX2h5X0JHaVdTRWdjMWhvLUdyN3hNaFJRS3VVaDNSTjZZTEUxemVSd01oWGlueW9f?oc=5",
       "source": "European Parliament",
       "id": "e170e28a45f5fd50"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
+      "source": "European Parliament",
+      "id": "785c5faa4afa430e"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
