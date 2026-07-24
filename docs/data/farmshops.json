@@ -820462,18 +820462,6 @@
     "address": null
   },
   {
-    "id": 13175627110,
-    "name": "Zublers Hofladen",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3806304,
-    "lon": 8.1411749,
-    "address": null
-  },
-  {
     "id": 13176791861,
     "name": "La Ferme du Coucou",
     "country": "Switzerland",
@@ -821362,54 +821350,6 @@
     "address": null
   },
   {
-    "id": 13910611607,
-    "name": "Hofladen Margarethengut",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": "Binningen",
-    "products": [],
-    "website": null,
-    "lat": 47.5426579,
-    "lon": 7.5802744,
-    "address": "St. Margarethengut"
-  },
-  {
-    "id": 13917718236,
-    "name": "Abel marché",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.2386227,
-    "lon": 6.0926032,
-    "address": null
-  },
-  {
-    "id": 13917948416,
-    "name": "Les Jardins de Chivrageon",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.j-d-c.ch/",
-    "lat": 46.4890754,
-    "lon": 6.372162,
-    "address": null
-  },
-  {
-    "id": 13918001887,
-    "name": "Biohof am Schürberg",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 47.3500166,
-    "lon": 8.1179978,
-    "address": null
-  },
-  {
     "id": 8803584,
     "name": "Weidwald",
     "country": "Switzerland",
@@ -821846,12 +821786,12 @@
     "name": "Fromagerie de Vollèges",
     "country": "Switzerland",
     "region": null,
-    "municipality": "Vollèges",
+    "municipality": null,
     "products": [],
     "website": null,
-    "lat": 46.0819955,
-    "lon": 7.1585966,
-    "address": "route de la Vallée"
+    "lat": 46.081818,
+    "lon": 7.1585435,
+    "address": null
   },
   {
     "id": 223609715,
@@ -823138,6 +823078,78 @@
     "address": null
   },
   {
+    "id": 13175627110,
+    "name": "Zublers Hofladen",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3806304,
+    "lon": 8.1411749,
+    "address": null
+  },
+  {
+    "id": 13910611607,
+    "name": "Hofladen Margarethengut",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Binningen",
+    "products": [],
+    "website": null,
+    "lat": 47.5426579,
+    "lon": 7.5802744,
+    "address": "St. Margarethengut"
+  },
+  {
+    "id": 13917718236,
+    "name": "Abel marché",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 46.2386227,
+    "lon": 6.0926032,
+    "address": null
+  },
+  {
+    "id": 13917948416,
+    "name": "Les Jardins de Chivrageon",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.j-d-c.ch/",
+    "lat": 46.4890754,
+    "lon": 6.372162,
+    "address": null
+  },
+  {
+    "id": 13918001887,
+    "name": "Biohof am Schürberg",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 47.3500166,
+    "lon": 8.1179978,
+    "address": null
+  },
+  {
+    "id": 221050093,
+    "name": "Fromagerie de Vollèges",
+    "country": "Switzerland",
+    "region": null,
+    "municipality": "Vollèges",
+    "products": [],
+    "website": null,
+    "lat": 46.0819955,
+    "lon": 7.1585966,
+    "address": "route de la Vallée"
+  },
+  {
     "id": 7547935529,
     "name": "Walki-Lädeli",
     "country": "Switzerland",
@@ -823219,18 +823231,6 @@
     "website": "https://kollektivhof.ch/",
     "lat": 47.4899463,
     "lon": 9.2968655,
-    "address": null
-  },
-  {
-    "id": 221050093,
-    "name": "Fromagerie de Vollèges",
-    "country": "Switzerland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 46.081818,
-    "lon": 7.1585435,
     "address": null
   },
   {
