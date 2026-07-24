@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T06:17:21.461898+00:00",
+  "updated_at": "2026-07-24T06:14:00.719224+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -64,16 +64,6 @@
       "id": "63e593959e16953d"
     },
     {
-      "date": "2026-06-09T18:13:03+00:00",
-      "title": "STOA workshop: Europe's future after embracing New Genomic Techniques | Upcoming events | Events | Think Tank - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " STOA workshop: Europe's future after embracing New Genomic Techniques | Upcoming events | Events | Think Tank &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFBpcEZVX2tpYURzc0twQWUzTkJJeGpybEZEckFoTUc0LXM0S3B2bzN3cHJONE8zQThwUW5XYVFqMGJ6QzNSX1ZDaGpseDF2aWRBcUZhLTlDZ0tqbTJBNUNrellqSWhPU1h5eExXai1rR3V0Zi1yX2hpNDdPeXVyR1kwQi0wajE2eG1DMUl2NEFSMFQtMVBHZm9sbXBpcHozREtWT0h6bEdDcE9POVFSWXhSRzJwdkU?oc=5",
-      "source": "European Parliament",
-      "id": "0c23261647b85949"
-    },
-    {
       "date": "2026-06-08T07:00:00+00:00",
       "title": "Plants obtained by new genomic techniques - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -114,26 +104,6 @@
       "id": "1e18ebb009a549c3"
     },
     {
-      "date": "2026-03-06T01:33:14+00:00",
-      "title": "01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOTkxTlJ2T1hoTjM0QUR1aTZqUFhQYWNoeE1mRmgtblJGME0wT2tPTnI3RE0wQ3U5d3QxMEN5cXVHdFJCcDNqWGlCQllOTlR2a09oVjI5Ym1UeEdkeEtRNGkteE5NWS1JOUxLNVFKT0dhVXVWT2duRGhlcUY3U21POWtMSE9TMEZTU1JtcnZqOWhTSUM5ZmhGTzF6WXl0QU5MMlYweEp2TkQ1UzR6aFdDem1MT0luVVBWRVM1Vk9uWkI?oc=5",
-      "source": "European Parliament",
-      "id": "8a532c760bd6abf0"
-    },
-    {
-      "date": "2025-12-24T12:00:51+00:00",
-      "title": "12 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 12 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQlE2aHFIVjJjVUpaWUp2SEhZdDU5NXg3YVBNbTFZN3ZNNWs0VjZMZnRuN2U1elBpZXlUWW9WZnhXQl9vV1NGM1ZmNDJlZV9taGt0cEZqb1Y2Qmd6WkNHclJIYnB6Ym1Ia2JvemtRdExKZ1oybWdrMUxDYkUxX2JsbDFvSFRTZDNYMGczaXlmREl1Q1dJQ1NqVnhCNnhvcGxVdnIzVldpa19tcDFaemFzNnUwYW9sVTNyajBqZFZNZHg?oc=5",
-      "source": "European Parliament",
-      "id": "4ed8c51d88ac5766"
-    },
-    {
       "date": "2025-12-15T08:00:00+00:00",
       "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -142,6 +112,16 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c5U29EWWZJZTRQYTdWY2gtR3QxdzRwMFB1NEhBbkJjX0ZiRnJZVmV2cXZwX1lYUHJ1ekdld1JrcmI1aVloVUZ6SS11UXBZVmdUeHBkbDNWbURDM0k5c3FLSXNKVjcwSHhodDhDNkstWHNOVmxDODlZMEZSSlNvN21VTUtGdDhnbGE4Rmx0TDFiYTRrTmk4MkJIbEwzdjYweUJUTkVWYVl1eWVsZEoxMGxRRmRGVUxwU0pTQ05PYThfS3NL?oc=5",
       "source": "food.ec.europa.eu",
       "id": "dec8779d4ccda5a5"
+    },
+    {
+      "date": "2025-12-04T08:00:00+00:00",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
+      "source": "European Parliament",
+      "id": "a8057ba0c6d6254e"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -212,16 +192,6 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
       "source": "EUR-Lex",
       "id": "49317d781619a1f2"
-    },
-    {
-      "date": "2025-04-12T07:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5",
-      "source": "European Parliament",
-      "id": "f6d03f3f1ed2c135"
     },
     {
       "date": "2025-04-10T07:00:00+00:00",
@@ -304,16 +274,6 @@
       "id": "e170e28a45f5fd50"
     },
     {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
-      "source": "European Parliament",
-      "id": "785c5faa4afa430e"
-    },
-    {
       "date": "2024-01-10T08:00:00+00:00",
       "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -352,16 +312,6 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
       "source": "EUR-Lex",
       "id": "689659b69845a846"
-    },
-    {
-      "date": "2023-07-24T07:00:00+00:00",
-      "title": "Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakJaa3hvZEVwN1RvVWdnQ05yNmczZ1c5bEY0aFpaWC0ycXdyVkJOQWxxWFJMbXFuQnJVOU44dHBpTHBFbnV4a2Fzc19vejZTWHVKX0lZOWNiaGFVLV9kYUgxcVprY3czZ2ROZmluMFFxa296MU5qT0ZwdkcyVWE3eURUTVlOUTBjYm9ITGg1RWpwOHN0TXk4bWRDVTlnUQ?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "6be469652232b48e"
     }
   ]
 }
