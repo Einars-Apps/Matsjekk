@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T06:14:00.719224+00:00",
+  "updated_at": "2026-07-25T06:08:51.859493+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -12,16 +12,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNR3llVW9pWThLTVMzYjRpcjQ1NHFTeHJBR1JjVFlsSWQzTUhLeXRjNE15S1E4RGt2Z0dIdEV4b2QxOEVBWGFKVUU3b1dmc2hhMTZQUkNQVVFDRmNwR19EbF81aWJaNkstb3liRUhBYTBHeGNSQk9uXzFnYVpLbEEtWG4tYjdBYVF3V3Zqemdkb3pKcldHUmxPeXVhSklIYlZWaWdCcFFHLW1uQm1qWTAzMkxkQ2xCVFBKczZ6b3FxM2xQMjdTSmNWbkh2S21WSGRLbURKUzZtUVJ4d0h0dENXM3VvRWdvUUZsRmxUOWNnYWVzVHpVbDJsUTdjdHgtdkhyTVRTdzZQZl9ObUo2?oc=5",
       "source": "European Parliament",
       "id": "ff88239c0122f0fd"
-    },
-    {
-      "date": "2026-07-16T09:33:35+00:00",
-      "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "735b53494e258ddb"
     },
     {
       "date": "2026-06-17T12:53:03+00:00",
@@ -104,6 +94,16 @@
       "id": "1e18ebb009a549c3"
     },
     {
+      "date": "2026-03-06T01:33:14+00:00",
+      "title": "01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 01 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOTkxTlJ2T1hoTjM0QUR1aTZqUFhQYWNoeE1mRmgtblJGME0wT2tPTnI3RE0wQ3U5d3QxMEN5cXVHdFJCcDNqWGlCQllOTlR2a09oVjI5Ym1UeEdkeEtRNGkteE5NWS1JOUxLNVFKT0dhVXVWT2duRGhlcUY3U21POWtMSE9TMEZTU1JtcnZqOWhTSUM5ZmhGTzF6WXl0QU5MMlYweEp2TkQ1UzR6aFdDem1MT0luVVBWRVM1Vk9uWkI?oc=5",
+      "source": "European Parliament",
+      "id": "8a532c760bd6abf0"
+    },
+    {
       "date": "2025-12-15T08:00:00+00:00",
       "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -122,6 +122,16 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
       "source": "European Parliament",
       "id": "a8057ba0c6d6254e"
+    },
+    {
+      "date": "2025-12-04T08:00:00+00:00",
+      "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSWVjdjRMT0NqUHZUOXV5dnJDYll0N05NY3k4YVVHWFpsOFJlZ21LWXFPZWFJSUVNbmlMRWcyVm9Ub1FPSFVwZDJvTW1CaExVRnJoVDR3YkRvdFJ6OFo5M3ZydjcxanBUcTVJN2ZKVHhnN0k0R09iUWtOX3pUakdSczJ5OW5Mcm9mVE1QWVRTa0FBUER1SFdqTnlFTTBaVFp2MkRucEFuRlBqT3NGS3dVa181a2RiSlA1MGM1Vlpkc2pnM3JrMTdRWm1PcldWN2tEQUgwbzJncGc3Ry1YcFZWNVg3LURvS2FEQWVxRmFnWWc?oc=5",
+      "source": "European Parliament",
+      "id": "89f7d67207c93d5c"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
