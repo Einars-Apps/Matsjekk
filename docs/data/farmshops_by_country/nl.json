@@ -1250,6 +1250,18 @@
     "address": "Hoog Heukelom"
   },
   {
+    "id": 2824123540,
+    "name": "Landwinkel Rozephoeve",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Oisterwijk",
+    "products": [],
+    "website": null,
+    "lat": 51.5591579,
+    "lon": 5.2379937,
+    "address": "Rosepdreef"
+  },
+  {
     "id": 2825100000,
     "name": "Hoogelandse Boerenzuivel",
     "country": "Netherlands",
@@ -1910,6 +1922,18 @@
     "address": "Vallaatweg"
   },
   {
+    "id": 2870584578,
+    "name": "Juul's Groenten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Ledeacker",
+    "products": [],
+    "website": "https://www.juulsgroenten.nl/",
+    "lat": 51.6412564,
+    "lon": 5.8549363,
+    "address": "De Quayweg"
+  },
+  {
     "id": 2872550187,
     "name": "De Rijk Zuivel",
     "country": "Netherlands",
@@ -2052,6 +2076,18 @@
     "lat": 52.150012,
     "lon": 4.9017264,
     "address": "Van Teylingenweg"
+  },
+  {
+    "id": 2900351230,
+    "name": "Buffelfarm Meems",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Onstwedde",
+    "products": [],
+    "website": null,
+    "lat": 53.0308524,
+    "lon": 7.0511266,
+    "address": "Kampweg"
   },
   {
     "id": 2901636927,
@@ -2244,6 +2280,18 @@
     "lat": 51.4632911,
     "lon": 4.3321016,
     "address": null
+  },
+  {
+    "id": 2964379613,
+    "name": "Tsiis & sa",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Hilaard",
+    "products": [],
+    "website": null,
+    "lat": 53.1658883,
+    "lon": 5.7160569,
+    "address": "Van Aylvaleane"
   },
   {
     "id": 2973489407,
@@ -2796,18 +2844,6 @@
     "lat": 51.273434,
     "lon": 6.0062473,
     "address": "Dijk"
-  },
-  {
-    "id": 5390987404,
-    "name": "Amaranthos Flowers",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.0025235,
-    "lon": 4.3279239,
-    "address": null
   },
   {
     "id": 5519083671,
@@ -4144,6 +4180,18 @@
     "address": null
   },
   {
+    "id": 10731021537,
+    "name": "Welmers winkeltje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2316243,
+    "lon": 6.8158585,
+    "address": null
+  },
+  {
     "id": 10748679082,
     "name": "Boerderij Eyckenstein",
     "country": "Netherlands",
@@ -4199,8 +4247,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.WillemsHoeveVoorhout.nl",
-    "lat": 52.2330926,
-    "lon": 4.4963868,
+    "lat": 52.2330384,
+    "lon": 4.4963762,
     "address": null
   },
   {
@@ -5425,6 +5473,66 @@
     "website": null,
     "lat": 52.1383046,
     "lon": 6.3908739,
+    "address": null
+  },
+  {
+    "id": 13907073601,
+    "name": "Westerwolds Landleven",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Onstwedde",
+    "products": [],
+    "website": "https://westerwoldslandleven.nl",
+    "lat": 53.0194375,
+    "lon": 7.0313486,
+    "address": "Scholtweg"
+  },
+  {
+    "id": 13907079804,
+    "name": "Bij de Boerin",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 53.0169202,
+    "lon": 6.9836855,
+    "address": "Zijdstukkerweg"
+  },
+  {
+    "id": 13922077951,
+    "name": "Beleef het en Eet het",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Strijen",
+    "products": [],
+    "website": null,
+    "lat": 51.7334282,
+    "lon": 4.5072719,
+    "address": "Groot Cromstrijensedijk"
+  },
+  {
+    "id": 13942286331,
+    "name": "Landwinkel Klein Amerika",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://beijergroesbeek.nl/landwinkel/",
+    "lat": 51.7602153,
+    "lon": 5.9239276,
+    "address": null
+  },
+  {
+    "id": 13975339402,
+    "name": "Nieland",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.fam-nieland.nl",
+    "lat": 51.1330079,
+    "lon": 6.0888873,
     "address": null
   },
   {
@@ -6702,63 +6810,15 @@
     "address": null
   },
   {
-    "id": 2824123540,
-    "name": "Landwinkel Rozephoeve",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Oisterwijk",
-    "products": [],
-    "website": null,
-    "lat": 51.5591579,
-    "lon": 5.2379937,
-    "address": "Rosepdreef"
-  },
-  {
-    "id": 2870584578,
-    "name": "Juul's Groenten",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Ledeacker",
-    "products": [],
-    "website": "https://www.juulsgroenten.nl/",
-    "lat": 51.6412564,
-    "lon": 5.8549363,
-    "address": "De Quayweg"
-  },
-  {
-    "id": 2900351230,
-    "name": "Buffelfarm Meems",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Onstwedde",
-    "products": [],
-    "website": null,
-    "lat": 53.0308524,
-    "lon": 7.0511266,
-    "address": "Kampweg"
-  },
-  {
-    "id": 2964379613,
-    "name": "Tsiis & sa",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Hilaard",
-    "products": [],
-    "website": null,
-    "lat": 53.1658883,
-    "lon": 5.7160569,
-    "address": "Van Aylvaleane"
-  },
-  {
-    "id": 10731021537,
-    "name": "Welmers winkeltje",
+    "id": 5390987404,
+    "name": "Amaranthos Flowers",
     "country": "Netherlands",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 52.2316243,
-    "lon": 6.8158585,
+    "lat": 52.0025235,
+    "lon": 4.3279239,
     "address": null
   },
   {
@@ -6769,68 +6829,8 @@
     "municipality": null,
     "products": [],
     "website": "https://www.WillemsHoeveVoorhout.nl",
-    "lat": 52.2330384,
-    "lon": 4.4963762,
-    "address": null
-  },
-  {
-    "id": 13907073601,
-    "name": "Westerwolds Landleven",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Onstwedde",
-    "products": [],
-    "website": "https://westerwoldslandleven.nl",
-    "lat": 53.0194375,
-    "lon": 7.0313486,
-    "address": "Scholtweg"
-  },
-  {
-    "id": 13907079804,
-    "name": "Bij de Boerin",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 53.0169202,
-    "lon": 6.9836855,
-    "address": "Zijdstukkerweg"
-  },
-  {
-    "id": 13922077951,
-    "name": "Beleef het en Eet het",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Strijen",
-    "products": [],
-    "website": null,
-    "lat": 51.7334282,
-    "lon": 4.5072719,
-    "address": "Groot Cromstrijensedijk"
-  },
-  {
-    "id": 13942286331,
-    "name": "Landwinkel Klein Amerika",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://beijergroesbeek.nl/landwinkel/",
-    "lat": 51.7602153,
-    "lon": 5.9239276,
-    "address": null
-  },
-  {
-    "id": 13975339402,
-    "name": "Nieland",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.fam-nieland.nl",
-    "lat": 51.1330079,
-    "lon": 6.0888873,
+    "lat": 52.2330926,
+    "lon": 4.4963868,
     "address": null
   },
   {
