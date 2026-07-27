@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T06:21:23.484508+00:00",
+  "updated_at": "2026-07-27T06:35:43.139271+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -12,16 +12,6 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNR3llVW9pWThLTVMzYjRpcjQ1NHFTeHJBR1JjVFlsSWQzTUhLeXRjNE15S1E4RGt2Z0dIdEV4b2QxOEVBWGFKVUU3b1dmc2hhMTZQUkNQVVFDRmNwR19EbF81aWJaNkstb3liRUhBYTBHeGNSQk9uXzFnYVpLbEEtWG4tYjdBYVF3V3Zqemdkb3pKcldHUmxPeXVhSklIYlZWaWdCcFFHLW1uQm1qWTAzMkxkQ2xCVFBKczZ6b3FxM2xQMjdTSmNWbkh2S21WSGRLbURKUzZtUVJ4d0h0dENXM3VvRWdvUUZsRmxUOWNnYWVzVHpVbDJsUTdjdHgtdkhyTVRTdzZQZl9ObUo2?oc=5",
       "source": "European Parliament",
       "id": "ff88239c0122f0fd"
-    },
-    {
-      "date": "2026-07-16T09:33:35+00:00",
-      "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "735b53494e258ddb"
     },
     {
       "date": "2026-06-17T12:53:03+00:00",
@@ -62,6 +52,16 @@
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5",
       "source": "European Parliament",
       "id": "63e593959e16953d"
+    },
+    {
+      "date": "2026-06-09T18:13:03+00:00",
+      "title": "STOA workshop: Europe's future after embracing New Genomic Techniques | Upcoming events | Events | Think Tank - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " STOA workshop: Europe's future after embracing New Genomic Techniques | Upcoming events | Events | Think Tank &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMFBpcEZVX2tpYURzc0twQWUzTkJJeGpybEZEckFoTUc0LXM0S3B2bzN3cHJONE8zQThwUW5XYVFqMGJ6QzNSX1ZDaGpseDF2aWRBcUZhLTlDZ0tqbTJBNUNrellqSWhPU1h5eExXai1rR3V0Zi1yX2hpNDdPeXVyR1kwQi0wajE2eG1DMUl2NEFSMFQtMVBHZm9sbXBpcHozREtWT0h6bEdDcE9POVFSWXhSRzJwdkU?oc=5",
+      "source": "European Parliament",
+      "id": "0c23261647b85949"
     },
     {
       "date": "2026-04-21T07:00:00+00:00",
@@ -135,6 +135,16 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
+      "title": "04 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 04 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUhoa2VtQmZkZzl5Qkx4MENTVUNQQnF1ZXhuVFhIbHFhUnlvaVFORDBpWVdkX3RRTnhhd0dWVnJ3WWotX3ktbGpDdXlhTENNQzJwWmtCT1o1YlBPRTZhSzFWdDVBdkI5Sjg3cUh0bHY0X1VfSnhQTTRpYm5WNXpzN09YZXo5bXIxbkVGdjJwQjZ2SXA0bHB4RDNUTE9zRGtCRnRqbXZWcDNFbUtmLURpdzhpRFRfWkdnenktRWQ4SHRPdw?oc=5",
+      "source": "European Parliament",
+      "id": "42172dbec16e1331"
+    },
+    {
+      "date": "2025-12-04T08:00:00+00:00",
       "title": "New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
@@ -152,16 +162,6 @@
       "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQdkNnZmtHUm8zQThXWE5wdGdGczNUQXRLdXFpU1ZEZkdXMm9aVlF3OVRZbXY2SGNCMi1UbFR0OTNibDlLLWVQeUQ1dy1JX2t1R01VdHVQdWVMOFB0cFUyMDJUQUs0TEE1T0Q0VWd4ZlVsVks2QnZONjljUmZBSFpsVHJDRWUzdjE2MGJoZFgyOXFYSkZhME1xYUJEa2VPQlJWZUtGUlo3cXBBVnIybE9ocHJ5d0Ixb0VyQlZYYVM0VHZqWFczOVJlS3NSV0xLcE53NzZRcXN4R1JheTRGMFBPQU9WQmEycHN2eGdicGNrSWY2X19pVVp0Wm0wVTdRX1F0R3ZKYktuY2hVQnV1WW5xdEZ4dDJfSUZJRmV3cy1B?oc=5",
       "source": "consilium.europa.eu",
       "id": "ce43a2cb4788e4ea"
-    },
-    {
-      "date": "2025-12-03T08:00:00+00:00",
-      "title": "02 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 02 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFNYYnhfQ2ZEUS1FTThFS201RFpvMUdTalk4NHFaUWxzRjRMcTNpRVZKdjdGc3NPRDM3anJZMnN3b3ZrWFd1MVcyUE85aG9SZWFMNG4zUWxZazctOG43Tk81WG03TFd3Z2lPYlo3STVRMDFSaThYTm95c1Y4ZW00aXc0LXRpMEowQm5oRm9XUnoyc2tQcWdvS01zUVNmeG9qSzRrTXBFZHhNbUVKN1U5SnJlUHRCRjdidk1oeDl4TFdHUQ?oc=5",
-      "source": "European Parliament",
-      "id": "2248af668c062eb3"
     },
     {
       "date": "2025-09-15T07:00:00+00:00",
@@ -282,16 +282,6 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS2ZabzlTWjFWTVJhaHZTNURYR3Nmck1qbFJ5SDNoN0ZCWjJtQ01NNzZQTG9VNHkxS2h4Z0tEdmpvUW04R3ZiSnFHcUprMGRDd0hiZXU3SkZWM2o0ZHA2TDBUSC1WczF2X2NzNTJrSVhvLUI2TUN5Y3F6ZU9zUFBtcllhZExoLWJIRnczWlFyVktZVXhGX2h5X0JHaVdTRWdjMWhvLUdyN3hNaFJRS3VVaDNSTjZZTEUxemVSd01oWGlueW9f?oc=5",
       "source": "European Parliament",
       "id": "e170e28a45f5fd50"
-    },
-    {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQREFIZFMxY2RSTGs1b1JmZ1RoTVpreEZIYUhETmZmWU9TU1pPbURKVThneEgwSXJtaEJzb2tkbkRDZHF6a2pBTmFhU2EtMGZUTmRiZmVtVjdfY0E4N2o1OXJfQVZjZGpFeDZmYm4tZzV3SzZ4SnF0X2prMEtBUjdoSDBKcGkxT3RmT0I4MktrMFEwTEtMaEJ5VXFBck5aZktyUVVrR3pTSmNPNWJScXRZN3JTVTE0Z2JpY1BlQ1lBcWwzaXRxMmM1TXhoeFhSQQ?oc=5",
-      "source": "European Parliament",
-      "id": "785c5faa4afa430e"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
