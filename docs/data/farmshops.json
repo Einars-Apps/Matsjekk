@@ -246447,18 +246447,6 @@
     "address": "Hoog Heukelom"
   },
   {
-    "id": 2824123540,
-    "name": "Landwinkel Rozephoeve",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Oisterwijk",
-    "products": [],
-    "website": null,
-    "lat": 51.5591579,
-    "lon": 5.2379937,
-    "address": "Rosepdreef"
-  },
-  {
     "id": 2825100000,
     "name": "Hoogelandse Boerenzuivel",
     "country": "Netherlands",
@@ -247117,18 +247105,6 @@
     "lat": 52.8809481,
     "lon": 6.1683058,
     "address": "Vallaatweg"
-  },
-  {
-    "id": 2870584578,
-    "name": "Juul's Groenten",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": "Ledeacker",
-    "products": [],
-    "website": "https://www.juulsgroenten.nl/",
-    "lat": 51.6412564,
-    "lon": 5.8549363,
-    "address": "De Quayweg"
   },
   {
     "id": 2872550187,
@@ -249377,18 +249353,6 @@
     "address": null
   },
   {
-    "id": 10731021537,
-    "name": "Welmers winkeltje",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 52.2316243,
-    "lon": 6.8158585,
-    "address": null
-  },
-  {
     "id": 10748679082,
     "name": "Boerderij Eyckenstein",
     "country": "Netherlands",
@@ -250677,7 +250641,7 @@
     "name": "Westerwolds Landleven",
     "country": "Netherlands",
     "region": null,
-    "municipality": "Onstwedde",
+    "municipality": null,
     "products": [],
     "website": "https://westerwoldslandleven.nl",
     "lat": 53.0194375,
@@ -250707,30 +250671,6 @@
     "lat": 51.7334282,
     "lon": 4.5072719,
     "address": "Groot Cromstrijensedijk"
-  },
-  {
-    "id": 13942286331,
-    "name": "Landwinkel Klein Amerika",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://beijergroesbeek.nl/landwinkel/",
-    "lat": 51.7602153,
-    "lon": 5.9239276,
-    "address": null
-  },
-  {
-    "id": 13975339402,
-    "name": "Nieland",
-    "country": "Netherlands",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.fam-nieland.nl",
-    "lat": 51.1330079,
-    "lon": 6.0888873,
-    "address": null
   },
   {
     "id": 43396672,
@@ -252004,6 +251944,66 @@
     "website": null,
     "lat": 51.4932275,
     "lon": 4.0532058,
+    "address": null
+  },
+  {
+    "id": 2824123540,
+    "name": "Landwinkel Rozephoeve",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Oisterwijk",
+    "products": [],
+    "website": null,
+    "lat": 51.5591579,
+    "lon": 5.2379937,
+    "address": "Rosepdreef"
+  },
+  {
+    "id": 2870584578,
+    "name": "Juul's Groenten",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": "Ledeacker",
+    "products": [],
+    "website": "https://www.juulsgroenten.nl/",
+    "lat": 51.6412564,
+    "lon": 5.8549363,
+    "address": "De Quayweg"
+  },
+  {
+    "id": 10731021537,
+    "name": "Welmers winkeltje",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.2316243,
+    "lon": 6.8158585,
+    "address": null
+  },
+  {
+    "id": 13942286331,
+    "name": "Landwinkel Klein Amerika",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://beijergroesbeek.nl/landwinkel/",
+    "lat": 51.7602153,
+    "lon": 5.9239276,
+    "address": null
+  },
+  {
+    "id": 13975339402,
+    "name": "Nieland",
+    "country": "Netherlands",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.fam-nieland.nl",
+    "lat": 51.1330079,
+    "lon": 6.0888873,
     "address": null
   },
   {
