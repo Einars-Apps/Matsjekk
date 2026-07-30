@@ -43,6 +43,8 @@
   const countrySliceBasePaths = hasCustomCountrySliceBasePaths
     ? pageConfig.countrySliceBasePaths
     : defaultCountrySliceBasePaths;
+  // When true, region/municipality dropdowns list only places present in the loaded dataset.
+  const restrictFiltersToDataset = pageConfig.restrictFiltersToDataset === true;
   let activeFiltered = [];
   let filterRunId = 0;
   const webCandidateCache = new Map();
@@ -3033,8 +3035,14 @@
         return;
       }
       if (norwayCounties.length) {
+        let counties = norwayCounties;
+        if (restrictFiltersToDataset) {
+          const present = new Set(shops.map((shop) => regionKey(shop.region || '')).filter(Boolean));
+          const filtered = norwayCounties.filter((county) => present.has(regionKey(county.name)));
+          if (filtered.length) counties = filtered;
+        }
         regionSelect.innerHTML = '<option value="">Velg fylke</option>' +
-          norwayCounties.map((county) => `<option value="${county.code}">${county.name}</option>`).join('');
+          counties.map((county) => `<option value="${county.code}">${county.name}</option>`).join('');
       } else {
         regionSelect.innerHTML = '<option value="">Velg fylke/region</option>';
       }
@@ -3044,7 +3052,7 @@
 
     const immediateRegions = effectiveCountryCode
       ? unique([
-        ...(COUNTRY_REGIONS_FALLBACK[effectiveCountryCode] || []),
+        ...(restrictFiltersToDataset ? [] : (COUNTRY_REGIONS_FALLBACK[effectiveCountryCode] || [])),
         ...shops
           .filter((shop) => shop.countryCode === effectiveCountryCode)
           .map((shop) => shop.region),
@@ -3055,7 +3063,7 @@
       immediateRegions.map((region) => `<option value="${region}">${region}</option>`).join('');
     muniSelect.innerHTML = '<option value="">Velg kommune</option>';
 
-    if (!effectiveCountryCode) {
+    if (!effectiveCountryCode || restrictFiltersToDataset) {
       return;
     }
 
@@ -3081,6 +3089,20 @@
         !regionValue || municipality.countyCode === regionValue
       );
 
+      if (restrictFiltersToDataset && municipalities.length) {
+        const selectedCountyName = regionValue
+          ? (norwayCounties.find((county) => county.code === regionValue)?.name || '')
+          : '';
+        const selectedCountyKey = regionKey(selectedCountyName);
+        const present = new Set(
+          shops
+            .filter((shop) => !selectedCountyKey || regionKey(shop.region || '') === selectedCountyKey)
+            .map((shop) => municipalityKey(shop.municipality || ''))
+            .filter(Boolean)
+        );
+        const filtered = municipalities.filter((municipality) => present.has(municipalityKey(municipality.name)));
+        if (filtered.length) municipalities = filtered;
+      }
       if (!municipalities.length) {
         const selectedCountyName = (norwayCounties.find((county) => county.code === regionValue)?.name || selectedText(regionSelect) || '').trim();
         const fallbackMunicipalities = unique([
@@ -3104,9 +3126,11 @@
     const regionSpecificFallback = regionFallbackMunicipalities(effectiveCountryCode, regionLabel);
     const immediateMunicipalities = effectiveCountryCode
       ? unique([
-        ...(regionLabel
-          ? regionSpecificFallback
-          : (COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || [])),
+        ...(restrictFiltersToDataset
+          ? []
+          : (regionLabel
+            ? regionSpecificFallback
+            : (COUNTRY_MUNICIPALITIES_FALLBACK[effectiveCountryCode] || []))),
         ...shops
           .filter((shop) =>
             shop.countryCode === effectiveCountryCode &&
@@ -3119,7 +3143,7 @@
     muniSelect.innerHTML = '<option value="">Velg kommune</option>' +
       immediateMunicipalities.map((municipality) => `<option value="${municipality}">${municipality}</option>`).join('');
 
-    if (!effectiveCountryCode) {
+    if (!effectiveCountryCode || restrictFiltersToDataset) {
       return;
     }
 
