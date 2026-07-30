@@ -1,0 +1,22 @@
+{
+  "appTitle": "Insect Warning",
+  "scanInstruction": "Hold the barcode within the frame",
+  "@scanInstruction": {
+    "description": "Instruction for scanning"
+  },
+  "safeProduct": "Safe - no insects found",
+  "warningFound": "WARNING: Insects detected!",
+  "ok": "OK",
+  "settings": "Settings",
+  "checkInsects": "Check for insects",
+  "checkBovaer": "Check for Bovaer in feed",
+  "checkGMO": "Check for GMO",
+  "disclaimer": "Disclaimer: This app uses public data and may have inaccuracies. Always check labels.",
+  "productNotFound": "Product not found",
+  "noConnection": "No connection - check internet",
+  "locationOff": "Location services off",
+  "locationDenied": "Location permission denied",
+  "nearbySafeStores": "Nearby safe stores",
+  "close": "Close",
+  "unknownProduct": "Unknown product"
+}
