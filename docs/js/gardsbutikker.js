@@ -5394,9 +5394,18 @@ out center tags 150;
     }
   });
 
-  document.getElementById('routeBtn').addEventListener('click', () => {
+  document.getElementById('routeBtn').addEventListener('click', async () => {
     const from = document.getElementById('routeFrom').value;
     const to = document.getElementById('routeTo').value;
+    // Route search spans the whole route, so clear any set/remembered fylke/kommune first.
+    activeNearRadiusKm = null;
+    regionSelect.value = '';
+    muniSelect.value = '';
+    try { localStorage.removeItem('matsjekk_farmshops_region'); } catch (_) { /* storage unavailable */ }
+    const countryCode = resolveCountryCode(countrySelect.value);
+    if (countryCode && (loadedScopeIsPreview || loadedScopeCountryCode !== countryCode)) {
+      await ensureShopScope(countryCode, { previewOnly: false });
+    }
     findAlongRoute(from, to);
   });
 

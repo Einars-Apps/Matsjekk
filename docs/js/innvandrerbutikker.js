@@ -4939,9 +4939,17 @@ out center tags 150;
     filterShops();
   });
 
-  document.getElementById('routeBtn').addEventListener('click', () => {
+  document.getElementById('routeBtn').addEventListener('click', async () => {
     const from = document.getElementById('routeFrom').value;
     const to = document.getElementById('routeTo').value;
+    // Route search spans the whole route, so clear any set fylke/kommune first.
+    activeNearRadiusKm = null;
+    regionSelect.value = '';
+    muniSelect.value = '';
+    const countryCode = resolveCountryCode(countrySelect.value);
+    if (countryCode && (loadedScopeIsPreview || loadedScopeCountryCode !== countryCode)) {
+      await ensureShopScope(countryCode, { previewOnly: false });
+    }
     findAlongRoute(from, to);
   });
 
