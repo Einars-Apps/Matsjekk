@@ -5105,6 +5105,45 @@ out center tags 150;
     return null;
   }
 
+  // Samples points along the route and reverse-geocodes them to find which
+  // municipalities (kommuner) the road actually passes through. Returns a Set of
+  // "COUNTRYCODE|municipalityKey" strings, or null if it could not be determined.
+  async function collectRouteMunicipalityKeys(line) {
+    const routeSleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    try {
+      const totalKm = turf.length(line, { units: 'kilometers' });
+      if (!Number.isFinite(totalKm) || totalKm <= 0) return null;
+
+      const maxSamples = 18;
+      const stepKm = Math.max(10, totalKm / maxSamples);
+      const seenGrid = new Set();
+      const samples = [];
+      for (let dist = 0; dist <= totalKm + 0.001; dist += stepKm) {
+        const coord = turf.along(line, Math.min(dist, totalKm), { units: 'kilometers' }).geometry.coordinates;
+        const gridKey = `${coord[1].toFixed(2)}|${coord[0].toFixed(2)}`;
+        if (seenGrid.has(gridKey)) continue;
+        seenGrid.add(gridKey);
+        samples.push(coord); // [lon, lat]
+      }
+
+      const keys = new Set();
+      for (let i = 0; i < samples.length; i += 1) {
+        const [lon, lat] = samples[i];
+        setMapStatus(`Finner kommuner langs ruten … (${i + 1}/${samples.length})`);
+        try {
+          const geo = await reverseGeocodeMunicipality(lat, lon);
+          const muniKey = municipalityKey(geo?.municipality || '');
+          const countryCode = (geo?.countryCode || '').toUpperCase();
+          if (muniKey && countryCode) keys.add(`${countryCode}|${muniKey}`);
+        } catch (_) { /* skip a single failed lookup */ }
+        if (i < samples.length - 1) await routeSleep(1100); // respect Nominatim rate limit
+      }
+      return keys.size ? keys : null;
+    } catch (_) {
+      return null;
+    }
+  }
+
   async function findAlongRoute(from, to) {
     if (!from || !to) {
       alert('Skriv inn både fra- og til-sted.');
@@ -5138,24 +5177,43 @@ out center tags 150;
     const line = turf.lineString(routeGeom.coordinates);
     const buffer = turf.buffer(line, 25, { units: 'kilometers' });
 
-    const filtered = shops.filter((shop) => {
-      if (!shop.lat || !shop.lon) return false;
-      const point = turf.point([shop.lon, shop.lat]);
-      return turf.booleanPointInPolygon(point, buffer);
-    });
+    setMapStatus('Finner kommuner langs ruten …');
+    const routeMunicipalityKeys = await collectRouteMunicipalityKeys(line);
+
+    let filtered;
+    let usedMunicipalityFilter = false;
+    if (routeMunicipalityKeys && routeMunicipalityKeys.size) {
+      filtered = shops.filter((shop) => {
+        const muniKey = municipalityKey(shop.municipality || '');
+        const countryCode = (shop.countryCode || '').toUpperCase();
+        return muniKey && countryCode && routeMunicipalityKeys.has(`${countryCode}|${muniKey}`);
+      });
+      usedMunicipalityFilter = true;
+    } else {
+      filtered = shops.filter((shop) => {
+        if (!shop.lat || !shop.lon) return false;
+        const point = turf.point([shop.lon, shop.lat]);
+        return turf.booleanPointInPolygon(point, buffer);
+      });
+    }
 
     renderList(filtered);
     clearRouteVisuals();
     drawRouteLine(routeGeom);
 
-    if (mapProvider === 'leaflet') {
-      leafletBufferLayer = L.geoJSON(buffer, { style: { color: '#00f', weight: 1, opacity: 0.15 } }).addTo(map);
-      setTimeout(() => {
-        if (leafletBufferLayer) {
-          map.removeLayer(leafletBufferLayer);
-          leafletBufferLayer = null;
-        }
-      }, 10000);
+    if (usedMunicipalityFilter) {
+      setMapStatus(`Viser ${filtered.length} gårdsbutikker i ${routeMunicipalityKeys.size} kommuner langs ruten.`);
+    } else {
+      setMapStatus('Kunne ikke avgjøre kommuner langs ruten – viser treff innen 25 km av ruten i stedet.');
+      if (mapProvider === 'leaflet') {
+        leafletBufferLayer = L.geoJSON(buffer, { style: { color: '#00f', weight: 1, opacity: 0.15 } }).addTo(map);
+        setTimeout(() => {
+          if (leafletBufferLayer) {
+            map.removeLayer(leafletBufferLayer);
+            leafletBufferLayer = null;
+          }
+        }, 10000);
+      }
     }
 
     fitMapToMarkers();
