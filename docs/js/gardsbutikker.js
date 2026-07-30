@@ -763,6 +763,7 @@
   const searchInput = document.getElementById('searchInput');
   const listEl = document.getElementById('list');
   const resultsHeadingEl = document.getElementById('resultsHeading');
+  const resultsCountEl = document.getElementById('resultsCount');
   const mapEl = document.getElementById('map');
   const mapStatusEl = document.getElementById('mapStatus');
   const debugStatsEl = document.getElementById('debugStats');
@@ -850,6 +851,8 @@
       searchPlaceholder: 'Søk butikk',
       myMunicipalityBtn: 'Søk i feltet',
       nearMeBtn: 'Finn nær min posisjon',
+      nearMeLoading: 'Henter posisjon…',
+      shopsFoundSuffix: 'butikker',
       distanceLabel: 'Avstand',
       routeFromPlaceholder: 'Fra (adresse eller by)',
       routeToPlaceholder: 'Til (adresse eller by)',
@@ -917,6 +920,8 @@
       searchPlaceholder: 'Search shop',
       myMunicipalityBtn: 'Search in area',
       nearMeBtn: 'Find near my position',
+      nearMeLoading: 'Getting your location…',
+      shopsFoundSuffix: 'shops',
       distanceLabel: 'Distance',
       routeFromPlaceholder: 'From (address or city)',
       routeToPlaceholder: 'To (address or city)',
@@ -3892,6 +3897,10 @@
 
   function renderList(filtered) {
     const visibleFiltered = (filtered || []).filter((shop) => !isSuppressedShop(shop));
+    if (resultsCountEl) {
+      const count = visibleFiltered.length;
+      resultsCountEl.textContent = count ? `${count} ${translate('shopsFoundSuffix') || 'butikker'}` : '';
+    }
     listEl.innerHTML = '';
     clearMapMarkers();
 
@@ -5162,6 +5171,10 @@ out center tags 150;
   countrySelect.addEventListener('change', async () => {
     activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    try {
+      localStorage.setItem('matsjekk_farmshops_country', countrySelect.value || '');
+      localStorage.removeItem('matsjekk_farmshops_region');
+    } catch (_) { /* storage unavailable */ }
     await ensureShopScope(selectedCountryCode, { previewOnly: Boolean(selectedCountryCode) });
     await populateRegions(selectedCountryCode);
     await populateMunicipalities(selectedCountryCode, '');
@@ -5172,6 +5185,9 @@ out center tags 150;
   regionSelect.addEventListener('change', async () => {
     activeNearRadiusKm = null;
     const selectedCountryCode = resolveCountryCode(countrySelect.value);
+    try {
+      localStorage.setItem('matsjekk_farmshops_region', regionSelect.value || '');
+    } catch (_) { /* storage unavailable */ }
     await populateMunicipalities(selectedCountryCode, regionSelect.value);
     filterShops();
   });
@@ -5180,6 +5196,19 @@ out center tags 150;
     activeNearRadiusKm = null;
     filterShops();
   });
+  if (nearRadiusSelect) {
+    nearRadiusSelect.addEventListener('change', async () => {
+      if (!userPosition) return;
+      const radiusKm = selectedNearRadiusKm();
+      activeNearRadiusKm = radiusKm;
+      if (sortSelect) sortSelect.value = 'distance_asc';
+      try {
+        await loadNearbyRealShopsFromPosition(userPosition.lat, userPosition.lon, radiusKm, { syncFilters: false });
+      } catch (_) {
+        filterShops();
+      }
+    });
+  }
   if (sortSelect) {
     sortSelect.addEventListener('change', () => {
       renderList(activeFiltered);
@@ -5258,6 +5287,7 @@ out center tags 150;
 
   document.getElementById('resetBtn').addEventListener('click', async () => {
     activeNearRadiusKm = null;
+    try { localStorage.removeItem('matsjekk_farmshops_region'); } catch (_) { /* storage unavailable */ }
     regionSelect.value = '';
     muniSelect.value = '';
     searchInput.value = '';
@@ -5307,7 +5337,17 @@ out center tags 150;
   }
 
   if (nearMeBtn && navigator.geolocation) {
+    const nearMeDefaultLabel = nearMeBtn.textContent;
+    const setNearMeBusy = (busy) => {
+      nearMeBtn.disabled = busy;
+      nearMeBtn.setAttribute('aria-busy', busy ? 'true' : 'false');
+      nearMeBtn.textContent = busy
+        ? (translate('nearMeLoading') || 'Henter posisjon…')
+        : (translate('nearMeBtn') || nearMeDefaultLabel);
+    };
     nearMeBtn.addEventListener('click', () => {
+      setNearMeBusy(true);
+      setMapStatus(translate('nearMeLoading') || 'Henter posisjon…');
       navigator.geolocation.getCurrentPosition(async (position) => {
         const radiusKm = selectedNearRadiusKm();
         activeNearRadiusKm = radiusKm;
@@ -5334,10 +5374,16 @@ out center tags 150;
           setMapStatus(`Fant ingen sikre treff innen ${radiusKm} km. Prøv større radius.`);
           const nearbyUrl = `https://www.google.com/maps/search/${encodeURIComponent(`gårdsbutikk ${position.coords.latitude},${position.coords.longitude}`)}`;
           window.open(nearbyUrl, '_blank', 'noopener');
+        } finally {
+          setNearMeBusy(false);
         }
-      }, () => {
-        alert('Kunne ikke hente posisjon. Sjekk stedstjenester i nettleseren.');
-      }, { enableHighAccuracy: true, timeout: 10000 });
+      }, (error) => {
+        setNearMeBusy(false);
+        const denied = error && error.code === error.PERMISSION_DENIED;
+        setMapStatus(denied
+          ? 'Posisjon avslått. Tillat stedstjenester i nettleseren for å søke nær deg.'
+          : 'Kunne ikke hente posisjon. Prøv igjen, eller velg fylke/kommune manuelt.');
+      }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 120000 });
     });
   } else if (nearMeBtn) {
     nearMeBtn.addEventListener('click', () => {
@@ -5377,8 +5423,11 @@ out center tags 150;
 
   populateCountries();
 
+  const savedCountryCode = ((typeof localStorage !== 'undefined' && localStorage.getItem('matsjekk_farmshops_country')) || '').toUpperCase();
   const preferredCountryCode = await detectPreferredCountryCode();
-  if (preferredCountryCode && [...countrySelect.options].some((option) => option.value === preferredCountryCode)) {
+  if (savedCountryCode && [...countrySelect.options].some((option) => option.value === savedCountryCode)) {
+    countrySelect.value = savedCountryCode;
+  } else if (preferredCountryCode && [...countrySelect.options].some((option) => option.value === preferredCountryCode)) {
     countrySelect.value = preferredCountryCode;
   } else {
     countrySelect.value = 'NO';
@@ -5424,7 +5473,11 @@ out center tags 150;
   applyMapHeight(currentMapHeight);
 
   await populateRegions(resolveCountryCode(countrySelect.value));
-  await populateMunicipalities(resolveCountryCode(countrySelect.value), '');
+  const savedRegionValue = (typeof localStorage !== 'undefined' && localStorage.getItem('matsjekk_farmshops_region')) || '';
+  if (savedRegionValue && [...regionSelect.options].some((option) => option.value === savedRegionValue)) {
+    regionSelect.value = savedRegionValue;
+  }
+  await populateMunicipalities(resolveCountryCode(countrySelect.value), regionSelect.value);
   applyPageLanguage(currentPageLanguage);
   activeFiltered = addDistanceFromUser(shops);
   renderList(activeFiltered);
