@@ -5405,21 +5405,10 @@ out center tags 150;
     findAlongRoute(from, to);
   });
 
-  if (myMunicipalityBtn && navigator.geolocation) {
+  if (myMunicipalityBtn) {
     myMunicipalityBtn.addEventListener('click', () => {
       activeNearRadiusKm = null;
       filterShops();
-      if ((searchInput?.value || '').trim()) {
-        openGoogleMapsSearchFromFilters();
-      }
-    });
-  } else if (myMunicipalityBtn) {
-    myMunicipalityBtn.addEventListener('click', () => {
-      activeNearRadiusKm = null;
-      filterShops();
-      if ((searchInput?.value || '').trim()) {
-        openGoogleMapsSearchFromFilters();
-      }
     });
   }
 
