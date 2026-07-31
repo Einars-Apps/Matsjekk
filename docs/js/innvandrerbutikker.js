@@ -585,17 +585,65 @@
     bolivia: 'BO',
   };
 
-  const NORWAY_MERGED_MUNICIPALITIES = {
-    asker: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
-    hurum: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
-    'røyken': ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
-    royken: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad', 'tofte', 'holmsbu', 'vettre', 'hyggen', 'klokkarstua', 'sætre', 'saetre'],
-    slemmestad: ['asker', 'hurum', 'røyken', 'royken', 'slemmestad'],
-    tofte: ['asker', 'hurum', 'tofte', 'holmsbu', 'klokkarstua'],
-    holmsbu: ['asker', 'hurum', 'tofte', 'holmsbu', 'klokkarstua'],
-    vettre: ['asker', 'vettre', 'røyken', 'royken'],
-    hyggen: ['asker', 'hyggen', 'røyken', 'royken'],
-  };
+  // Groups of Norwegian municipalities merged in the 2017–2020 reform (kommunereformen).
+  // Names within a group are treated as aliases so dataset entries using an old municipality
+  // name still match the current official name shown in the dropdown, and vice versa.
+  // Haram is intentionally left out of the Ålesund group since it was split back out in 2024.
+  const NORWAY_MUNICIPALITY_MERGER_GROUPS = [
+    ['Asker', 'Røyken', 'Hurum', 'Slemmestad', 'Tofte', 'Holmsbu', 'Vettre', 'Hyggen', 'Klokkarstua', 'Sætre'],
+    ['Moss', 'Rygge'],
+    ['Indre Østfold', 'Askim', 'Eidsberg', 'Hobøl', 'Spydeberg', 'Trøgstad'],
+    ['Lillestrøm', 'Skedsmo', 'Fet', 'Sørum'],
+    ['Nordre Follo', 'Oppegård', 'Ski'],
+    ['Drammen', 'Nedre Eiker', 'Svelvik'],
+    ['Holmestrand', 'Sande'],
+    ['Tønsberg', 'Re'],
+    ['Sandefjord', 'Andebu', 'Stokke'],
+    ['Færder', 'Nøtterøy', 'Tjøme'],
+    ['Larvik', 'Lardal'],
+    ['Midt-Telemark', 'Bø', 'Sauherad'],
+    ['Kristiansand', 'Søgne', 'Songdalen'],
+    ['Lindesnes', 'Mandal', 'Marnardal'],
+    ['Lyngdal', 'Audnedal'],
+    ['Stavanger', 'Finnøy', 'Rennesøy'],
+    ['Sandnes', 'Forsand'],
+    ['Øygarden', 'Fjell', 'Sund'],
+    ['Alver', 'Lindås', 'Meland', 'Radøy'],
+    ['Bjørnafjorden', 'Os', 'Fusa'],
+    ['Ullensvang', 'Odda', 'Jondal'],
+    ['Voss', 'Granvin'],
+    ['Sunnfjord', 'Førde', 'Gaular', 'Jølster', 'Naustdal'],
+    ['Sogndal', 'Balestrand', 'Leikanger'],
+    ['Kinn', 'Flora', 'Vågsøy'],
+    ['Stad', 'Selje', 'Eid'],
+    ['Molde', 'Nesset', 'Midsund'],
+    ['Hustadvika', 'Eide', 'Fræna'],
+    ['Volda', 'Hornindal'],
+    ['Fjord', 'Norddal', 'Stordal'],
+    ['Ålesund', 'Ørskog', 'Skodje', 'Sandøy'],
+    ['Steinkjer', 'Verran'],
+    ['Ørland', 'Bjugn'],
+    ['Namsos', 'Fosnes', 'Namdalseid'],
+    ['Nærøysund', 'Nærøy', 'Vikna'],
+    ['Orkland', 'Orkdal', 'Meldal', 'Agdenes'],
+    ['Heim', 'Hemne', 'Halsa'],
+    ['Indre Fosen', 'Rissa', 'Leksvik'],
+    ['Narvik', 'Ballangen'],
+    ['Senja', 'Berg', 'Lenvik', 'Torsken', 'Tranøy'],
+    ['Tjeldsund', 'Skånland'],
+    ['Hammerfest', 'Kvalsund'],
+  ];
+
+  const NORWAY_MERGED_MUNICIPALITIES = (() => {
+    const map = {};
+    for (const group of NORWAY_MUNICIPALITY_MERGER_GROUPS) {
+      const keys = group.map((name) => municipalityKey(name));
+      for (const key of keys) {
+        map[key] = Array.from(new Set([...(map[key] || []), ...keys]));
+      }
+    }
+    return map;
+  })();
 
   const NORWAY_REGION_VARIANTS = {
     akershus: ['akershus', 'viken'],
@@ -2620,11 +2668,15 @@
     if (!municipalityTerms.length) return true;
     const shopKey = municipalityKey(shopMunicipality || '');
     if (!shopKey) return false;
-    return municipalityTerms.some((term) =>
-      shopKey === term ||
-      shopKey.includes(term) ||
-      term.includes(shopKey)
-    );
+    // Exact match always counts; substring matching is restricted to longer tokens so short
+    // municipality names/aliases (e.g. Os, Re, Bø, Fet) do not falsely match inside others.
+    return municipalityTerms.some((term) => {
+      if (!term) return false;
+      if (shopKey === term) return true;
+      if (term.length >= 5 && shopKey.includes(term)) return true;
+      if (shopKey.length >= 5 && term.includes(shopKey)) return true;
+      return false;
+    });
   }
 
   function localityToken(value) {
