@@ -40483,6 +40483,18 @@
     "address": null
   },
   {
+    "id": 9336004988,
+    "name": "Lille Østergårds Økologi",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.2770344,
+    "lon": 10.0321693,
+    "address": null
+  },
+  {
     "id": 9337223100,
     "name": "Gårdbutik Nøest",
     "country": "Denmark",
@@ -44164,18 +44176,6 @@
     "website": null,
     "lat": 56.6820073,
     "lon": 9.7056061,
-    "address": null
-  },
-  {
-    "id": 9336004988,
-    "name": "Lille Østergårds Økologi",
-    "country": "Denmark",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 57.2770344,
-    "lon": 10.0321693,
     "address": null
   },
   {
