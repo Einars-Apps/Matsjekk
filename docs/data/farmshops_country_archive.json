@@ -60721,6 +60721,30 @@
       "lat": 57.2770344,
       "lon": 10.0321693,
       "address": null
+    },
+    {
+      "id": 12897271395,
+      "name": "Fangst Stationen",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://fangst.com/",
+      "lat": 55.2135421,
+      "lon": 14.9701668,
+      "address": null
+    },
+    {
+      "id": 13955989748,
+      "name": "Møllebakkegaard Gårdbutik",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 55.0498907,
+      "lon": 12.0562083,
+      "address": null
     }
   ],
   "FI": [

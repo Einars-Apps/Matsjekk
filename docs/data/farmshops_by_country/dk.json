@@ -397,7 +397,7 @@
   },
   {
     "id": 4207840844,
-    "name": "Lophave hereford",
+    "name": "Lophave Hereford",
     "country": "Denmark",
     "region": null,
     "municipality": null,
@@ -6528,6 +6528,18 @@
     "address": null
   },
   {
+    "id": 9336004988,
+    "name": "Lille Østergårds Økologi",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 57.2770344,
+    "lon": 10.0321693,
+    "address": null
+  },
+  {
     "id": 9337223100,
     "name": "Gårdbutik Nøest",
     "country": "Denmark",
@@ -8455,8 +8467,8 @@
     "municipality": null,
     "products": [],
     "website": "https://fangst.com/",
-    "lat": 55.2134852,
-    "lon": 14.9700388,
+    "lat": 55.2135421,
+    "lon": 14.9701668,
     "address": null
   },
   {
@@ -9864,6 +9876,18 @@
     "address": null
   },
   {
+    "id": 13955989748,
+    "name": "Møllebakkegaard Gårdbutik",
+    "country": "Denmark",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 55.0498907,
+    "lon": 12.0562083,
+    "address": null
+  },
+  {
     "id": 137334013,
     "name": "Sydvestjysk Andel",
     "country": "Denmark",
@@ -10212,15 +10236,15 @@
     "address": null
   },
   {
-    "id": 9336004988,
-    "name": "Lille Østergårds Økologi",
+    "id": 12897271395,
+    "name": "Fangst Stationen",
     "country": "Denmark",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
-    "lat": 57.2770344,
-    "lon": 10.0321693,
+    "website": "https://fangst.com/",
+    "lat": 55.2134852,
+    "lon": 14.9700388,
     "address": null
   },
   {
