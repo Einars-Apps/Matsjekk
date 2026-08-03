@@ -113,6 +113,7 @@ void main() async {
       await Hive.openBox('historikk');
       await Hive.openBox('innstillinger');
       await Hive.openBox('list_positions');
+      await Hive.openBox('vare_frekvens');
     },
     initializeAds: () async {
       await MobileAds.instance.initialize();
@@ -296,7 +297,17 @@ class _ScannerScreenState extends State<ScannerScreen>
     _loadBanners();
   }
 
+  static const int _maxBannerRetries = 4;
+  int _homeBannerRetries = 0;
+  int _listBannerRetries = 0;
+
   void _loadBanners() {
+    if (_isTestEnv || premiumActive) return;
+    _loadHomeBanner();
+    _loadListBanner();
+  }
+
+  void _loadHomeBanner() {
     if (_isTestEnv || premiumActive) return;
     _homeBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
@@ -304,25 +315,49 @@ class _ScannerScreenState extends State<ScannerScreen>
       request: const AdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (_) {
+          _homeBannerRetries = 0;
           if (mounted) setState(() => _homeBannerLoaded = true);
         },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
           _homeBannerAd = null;
+          if (mounted) setState(() => _homeBannerLoaded = false);
+          if (_homeBannerRetries < _maxBannerRetries) {
+            _homeBannerRetries++;
+            Future.delayed(Duration(seconds: 5 * _homeBannerRetries), () {
+              if (mounted && !premiumActive && _homeBannerAd == null) {
+                _loadHomeBanner();
+              }
+            });
+          }
         },
       ),
     )..load();
+  }
+
+  void _loadListBanner() {
+    if (_isTestEnv || premiumActive) return;
     _listBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
       request: const AdRequest(),
       listener: BannerAdListener(
         onAdLoaded: (_) {
+          _listBannerRetries = 0;
           if (mounted) setState(() => _listBannerLoaded = true);
         },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
           _listBannerAd = null;
+          if (mounted) setState(() => _listBannerLoaded = false);
+          if (_listBannerRetries < _maxBannerRetries) {
+            _listBannerRetries++;
+            Future.delayed(Duration(seconds: 5 * _listBannerRetries), () {
+              if (mounted && !premiumActive && _listBannerAd == null) {
+                _loadListBanner();
+              }
+            });
+          }
         },
       ),
     )..load();
@@ -1060,6 +1095,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         if (!list.any((item) => item.endsWith(itemName))) {
           list.insert(0, itemName);
           box.put(listName, list);
+          bumpVareFrekvens(itemName);
           Analytics.logEvent('add_to_list_manual_barcode', {
             'ean': input,
             'name': itemName,
@@ -1076,6 +1112,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (!list.any((item) => item.endsWith(input))) {
       list.insert(0, input);
       box.put(listName, list);
+      bumpVareFrekvens(input);
       Analytics.logEvent(
           'add_to_list_manual_text', {'item': input, 'list': listName});
     }

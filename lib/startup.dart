@@ -16,6 +16,7 @@ Future<void> initializeAppDependencies({
       await Hive.openBox('historikk');
       await Hive.openBox('innstillinger');
       await Hive.openBox('list_positions');
+      await Hive.openBox('vare_frekvens');
     }());
   }
 

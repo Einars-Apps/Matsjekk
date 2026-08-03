@@ -1047,31 +1047,111 @@ class HandlelisteOverlay extends StatefulWidget {
 }
 
 class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
-  TextEditingController? _autocompleteFieldController;
+  final TextEditingController _addController = TextEditingController();
+  List<String> _suggestions = [];
   bool _showHistory = false;
+
+  @override
+  void dispose() {
+    _addController.dispose();
+    super.dispose();
+  }
 
   Iterable<String> _getHistorySuggestions(String query) {
     if (query.isEmpty) return const Iterable<String>.empty();
     final q = query.toLowerCase();
-    final box = Hive.box('handlelister');
-    final seen = <String>{};
-    for (final key in box.keys) {
+    final freq = <String, int>{};
+    void tally(String? navn, [int weight = 1]) {
+      if (navn == null) return;
+      final noMark = navn.startsWith('✓ ') ? navn.substring(2) : navn;
+      final clean = noMark.contains(' – ') ? noMark.split(' – ').last : noMark;
+      if (clean.trim().isEmpty) return;
+      freq[clean] = (freq[clean] ?? 0) + weight;
+    }
+
+    // Items currently in any shopping list
+    final listeBox = Hive.box('handlelister');
+    for (final key in listeBox.keys) {
       for (final vare
-          in List<String>.from(box.get(key, defaultValue: <String>[]))) {
-        final clean = vare.startsWith('✓ ') ? vare.substring(2) : vare;
-        if (clean.isNotEmpty) seen.add(clean);
+          in List<String>.from(listeBox.get(key, defaultValue: <String>[]))) {
+        tally(vare);
+      }
+    }
+    // Previously added/scanned items remembered in history
+    final histBox = Hive.box('historikk');
+    for (final key in histBox.keys) {
+      final dynamic raw = histBox.get(key, defaultValue: const []);
+      if (raw is List) {
+        for (final e in raw) {
+          if (e is String) {
+            tally(e);
+          } else if (e is Map) {
+            tally(e['name'] as String?);
+          }
+        }
+      }
+    }
+    // Explicit purchase-frequency memory (weighted higher)
+    if (Hive.isBoxOpen('vare_frekvens')) {
+      final fb = Hive.box('vare_frekvens');
+      for (final key in fb.keys) {
+        final c = fb.get(key);
+        if (key is String && c is int) tally(key, c * 3);
       }
     }
     final matches =
-        seen.where((item) => item.toLowerCase().contains(q)).toList();
+        freq.keys.where((item) => item.toLowerCase().contains(q)).toList();
     matches.sort((a, b) {
       final aStarts = a.toLowerCase().startsWith(q);
       final bStarts = b.toLowerCase().startsWith(q);
-      if (aStarts && !bStarts) return -1;
-      if (!aStarts && bStarts) return 1;
+      if (aStarts != bStarts) return aStarts ? -1 : 1;
+      final fa = freq[a] ?? 0;
+      final fbc = freq[b] ?? 0;
+      if (fa != fbc) return fbc.compareTo(fa);
       return a.compareTo(b);
     });
     return matches.take(6);
+  }
+
+  void _addVareTilListe(BuildContext context, String vareNavn) {
+    final list = List<String>.from(Hive.box('handlelister')
+        .get(widget.listeNavn, defaultValue: <String>[]));
+    if (!list.any((item) => item.endsWith(vareNavn))) {
+      list.insert(0, vareNavn);
+      Hive.box('handlelister').put(widget.listeNavn, list);
+      bumpVareFrekvens(vareNavn);
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+        content: Text('Lagt til: $vareNavn'),
+        duration: const Duration(milliseconds: 900),
+      ));
+    }
+  }
+
+  // Enter / + : add the typed text (overrides suggestions).
+  void _submitTypedItem(BuildContext context) {
+    final item = _addController.text.trim();
+    if (item.isEmpty) return;
+    if (widget.onAddManualItem != null) {
+      widget.onAddManualItem!(item);
+    } else {
+      final box = Hive.box('handlelister');
+      final list = List<String>.from(
+          box.get(widget.listeNavn, defaultValue: <String>[]));
+      if (!list.any((e) => e.endsWith(item))) {
+        list.insert(0, item);
+        box.put(widget.listeNavn, list);
+      }
+      bumpVareFrekvens(item);
+    }
+    _addController.clear();
+    setState(() => _suggestions = []);
+  }
+
+  // Tap a suggestion chip: add it straight to the list.
+  void _addSuggestion(BuildContext context, String vareNavn) {
+    _addVareTilListe(context, vareNavn);
+    _addController.clear();
+    setState(() => _suggestions = []);
   }
 
   @override
@@ -1246,62 +1326,56 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                       ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Row(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
-                          Expanded(
-                            child: Autocomplete<String>(
-                              optionsBuilder: (textEditingValue) =>
-                                  _getHistorySuggestions(textEditingValue.text),
-                              onSelected: (value) async {
-                                if (widget.onAddManualItem != null) {
-                                  await widget.onAddManualItem!(value.trim());
-                                } else {
-                                  final box = Hive.box('handlelister');
-                                  final list = List<String>.from(box.get(
-                                      widget.listeNavn,
-                                      defaultValue: <String>[]));
-                                  list.insert(0, value.trim());
-                                  box.put(widget.listeNavn, list);
-                                }
-                              },
-                              fieldViewBuilder:
-                                  (context, controller, focusNode, _) {
-                                _autocompleteFieldController = controller;
-                                return TextField(
-                                  controller: controller,
-                                  focusNode: focusNode,
+                          Row(
+                            children: [
+                              Expanded(
+                                child: TextField(
+                                  controller: _addController,
+                                  textInputAction: TextInputAction.done,
                                   enableSuggestions: true,
                                   autocorrect: true,
+                                  onChanged: (t) => setState(() {
+                                    _suggestions =
+                                        _getHistorySuggestions(t).toList();
+                                  }),
+                                  onSubmitted: (_) => _submitTypedItem(context),
                                   decoration: InputDecoration(
+                                      isDense: true,
                                       hintText: AppLocalizations.of(context)
                                               ?.manualAddItem ??
                                           'Add item manually...',
                                       border: const OutlineInputBorder()),
-                                );
-                              },
-                            ),
+                                ),
+                              ),
+                              IconButton(
+                                  icon: const Icon(Icons.add_circle,
+                                      color: Colors.green, size: 40),
+                                  onPressed: () => _submitTypedItem(context)),
+                            ],
                           ),
-                          IconButton(
-                              icon: const Icon(Icons.add_circle,
-                                  color: Colors.green, size: 40),
-                              onPressed: () async {
-                                final item =
-                                    (_autocompleteFieldController?.text ?? '')
-                                        .trim();
-                                if (item.isNotEmpty) {
-                                  if (widget.onAddManualItem != null) {
-                                    await widget.onAddManualItem!(item);
-                                  } else {
-                                    final box = Hive.box('handlelister');
-                                    final list = List<String>.from(box.get(
-                                        widget.listeNavn,
-                                        defaultValue: <String>[]));
-                                    list.insert(0, item);
-                                    box.put(widget.listeNavn, list);
-                                  }
-                                  _autocompleteFieldController?.clear();
-                                }
-                              }),
+                          if (_suggestions.isNotEmpty)
+                            Padding(
+                              padding: const EdgeInsets.only(top: 6),
+                              child: Wrap(
+                                spacing: 6,
+                                runSpacing: 2,
+                                children: _suggestions
+                                    .map((s) => ActionChip(
+                                          visualDensity: VisualDensity.compact,
+                                          avatar: const Icon(Icons.add,
+                                              size: 16, color: Colors.green),
+                                          label: Text(s,
+                                              style: const TextStyle(
+                                                  fontSize: 13)),
+                                          onPressed: () =>
+                                              _addSuggestion(context, s),
+                                        ))
+                                    .toList(),
+                              ),
+                            ),
                         ],
                       ),
                     ),
@@ -1336,34 +1410,64 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               final checked = vare.startsWith('✓ ');
                               final displayText =
                                   checked ? vare.substring(2) : vare;
-                              return ListTile(
+                              return Card(
                                 key: ValueKey(vare + index.toString()),
-                                leading: Icon(
-                                    checked
-                                        ? Icons.check_box
-                                        : Icons.check_box_outline_blank,
-                                    color: checked ? Colors.green : null),
-                                title: Text(displayText,
-                                    style: TextStyle(
-                                        decoration: checked
-                                            ? TextDecoration.lineThrough
-                                            : null,
-                                        color: checked ? Colors.grey : null)),
-                                trailing: IconButton(
-                                    icon: const Icon(Icons.delete,
-                                        color: Colors.red),
-                                    onPressed: () {
-                                      varer.removeAt(index);
-                                      box.put(widget.listeNavn, varer);
-                                    }),
-                                onTap: () {
-                                  if (checked) {
-                                    varer[index] = displayText;
-                                  } else {
-                                    varer[index] = '✓ $displayText';
-                                  }
-                                  box.put(widget.listeNavn, varer);
-                                },
+                                margin: const EdgeInsets.symmetric(
+                                    horizontal: 6, vertical: 3),
+                                elevation: 1,
+                                child: InkWell(
+                                  borderRadius: BorderRadius.circular(6),
+                                  onTap: () {
+                                    if (checked) {
+                                      varer[index] = displayText;
+                                    } else {
+                                      varer[index] = '✓ $displayText';
+                                    }
+                                    box.put(widget.listeNavn, varer);
+                                  },
+                                  child: Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 8, vertical: 8),
+                                    child: Row(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                            checked
+                                                ? Icons.check_box
+                                                : Icons.check_box_outline_blank,
+                                            color:
+                                                checked ? Colors.green : null,
+                                            size: 24),
+                                        const SizedBox(width: 8),
+                                        Expanded(
+                                          child: Text(displayText,
+                                              softWrap: true,
+                                              maxLines: 3,
+                                              overflow: TextOverflow.ellipsis,
+                                              style: TextStyle(
+                                                  fontSize: 14,
+                                                  decoration: checked
+                                                      ? TextDecoration
+                                                          .lineThrough
+                                                      : null,
+                                                  color: checked
+                                                      ? Colors.grey
+                                                      : null)),
+                                        ),
+                                        const SizedBox(width: 4),
+                                        InkWell(
+                                          onTap: () {
+                                            varer.removeAt(index);
+                                            box.put(widget.listeNavn, varer);
+                                          },
+                                          child: const Icon(Icons.delete,
+                                              color: Colors.red, size: 22),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
                               );
                             }).toList(),
                           );
@@ -1423,35 +1527,63 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                                       entry['name'] as String? ?? 'Ukjent';
                                   final imageUrl =
                                       entry['imageUrl'] as String? ?? '';
-                                  return ListTile(
-                                    leading: imageUrl.isNotEmpty
-                                        ? Image.network(imageUrl,
-                                            width: 50,
-                                            height: 50,
-                                            fit: BoxFit.cover,
-                                            errorBuilder: (c, e, s) =>
-                                                const Icon(
-                                                    Icons.image_not_supported))
-                                        : const Icon(Icons.shopping_basket,
-                                            size: 40),
-                                    title: Text(name.split(' – ').last),
-                                    trailing: IconButton(
-                                        icon: const Icon(Icons.add,
-                                            color: Colors.green),
-                                        onPressed: () {
-                                          final vareNavn =
-                                              name.split(' – ').last;
-                                          final list = List<String>.from(
-                                              Hive.box('handlelister').get(
-                                                  widget.listeNavn,
-                                                  defaultValue: <String>[]));
-                                          if (!list.any((item) =>
-                                              item.endsWith(vareNavn))) {
-                                            list.insert(0, vareNavn);
-                                            Hive.box('handlelister')
-                                                .put(widget.listeNavn, list);
-                                          }
-                                        }),
+                                  final displayName = name.split(' – ').last;
+                                  return Card(
+                                    margin: const EdgeInsets.symmetric(
+                                        horizontal: 6, vertical: 4),
+                                    elevation: 1,
+                                    child: InkWell(
+                                      borderRadius: BorderRadius.circular(6),
+                                      onTap: () => _addVareTilListe(
+                                          context, displayName),
+                                      child: Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                            horizontal: 8, vertical: 8),
+                                        child: Row(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.center,
+                                          children: [
+                                            imageUrl.isNotEmpty
+                                                ? ClipRRect(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            4),
+                                                    child: Image.network(
+                                                        imageUrl,
+                                                        width: 36,
+                                                        height: 36,
+                                                        fit: BoxFit.cover,
+                                                        errorBuilder: (c, e,
+                                                                s) =>
+                                                            const Icon(
+                                                                Icons
+                                                                    .image_not_supported,
+                                                                size: 28)),
+                                                  )
+                                                : const Icon(
+                                                    Icons.shopping_basket,
+                                                    size: 28,
+                                                    color: Colors.blueGrey),
+                                            const SizedBox(width: 8),
+                                            Expanded(
+                                              child: Text(displayName,
+                                                  softWrap: true,
+                                                  maxLines: 3,
+                                                  overflow:
+                                                      TextOverflow.ellipsis,
+                                                  style: const TextStyle(
+                                                      fontSize: 13,
+                                                      fontWeight:
+                                                          FontWeight.w500)),
+                                            ),
+                                            const SizedBox(width: 4),
+                                            Icon(Icons.add_circle,
+                                                color: Colors.green.shade600,
+                                                size: 24),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
                                   );
                                 },
                               );
@@ -1469,6 +1601,15 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
       ),
     );
   }
+}
+
+void bumpVareFrekvens(String navn) {
+  final clean = navn.trim();
+  if (clean.isEmpty) return;
+  if (!Hive.isBoxOpen('vare_frekvens')) return;
+  final box = Hive.box('vare_frekvens');
+  final current = box.get(clean);
+  box.put(clean, (current is int ? current : 0) + 1);
 }
 
 class GlobalHistorikkOverlay extends StatelessWidget {
