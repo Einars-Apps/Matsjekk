@@ -24,6 +24,7 @@ import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
 import 'data/ngt_risk_brands.dart';
 import 'services/remote_ngt_suppliers_service.dart';
+import 'startup.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -105,12 +106,25 @@ const Map<String, Map<String, dynamic>> appReviewFallbackProducts = {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Hive.initFlutter();
-  await Hive.openBox('handlelister');
-  await Hive.openBox('historikk');
-  await Hive.openBox('innstillinger');
-  await Hive.openBox('list_positions');
-  await MobileAds.instance.initialize();
+  await initializeAppDependencies(
+    initializeHive: () async {
+      await Hive.initFlutter();
+      await Hive.openBox('handlelister');
+      await Hive.openBox('historikk');
+      await Hive.openBox('innstillinger');
+      await Hive.openBox('list_positions');
+    },
+    initializeAds: () async {
+      await MobileAds.instance.initialize();
+      // Register the developer's own phone as a test device so it always
+      // shows test ads (prevents accidental self-clicks on real ads).
+      MobileAds.instance.updateRequestConfiguration(
+        RequestConfiguration(
+          testDeviceIds: ['F0FEFF925ABDCC58FEF218271A725244'],
+        ),
+      );
+    },
+  );
   runApp(const MatvareSjekkApp());
 }
 
@@ -250,8 +264,10 @@ class _ScannerScreenState extends State<ScannerScreen>
   Map<String, Map<String, List<String>>> _remoteRiskRulesByCountry = {};
   List<NgtSupplierEntry> _ngtSuppliers = [];
 
-  BannerAd? _bannerAd;
-  bool _bannerAdLoaded = false;
+  BannerAd? _homeBannerAd;
+  bool _homeBannerLoaded = false;
+  BannerAd? _listBannerAd;
+  bool _listBannerLoaded = false;
 
   @override
   void initState() {
@@ -259,7 +275,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     WidgetsBinding.instance.addObserver(this);
     // Only create the real controller when not running tests.
     if (!_isTestEnv) {
-      controller = MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
+      controller =
+          MobileScannerController(detectionSpeed: DetectionSpeed.noDuplicates);
     }
     handlelisterBox = Hive.box('handlelister');
     historikkBox = Hive.box('historikk');
@@ -276,20 +293,36 @@ class _ScannerScreenState extends State<ScannerScreen>
       _loadRemoteRiskRules();
       _loadRemoteNgtSuppliers();
     }
-    _loadBannerAd();
+    _loadBanners();
   }
 
-  void _loadBannerAd() {
-    if (_isTestEnv) return;
-    _bannerAd = BannerAd(
+  void _loadBanners() {
+    if (_isTestEnv || premiumActive) return;
+    _homeBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
       request: const AdRequest(),
       listener: BannerAdListener(
-        onAdLoaded: (_) => setState(() => _bannerAdLoaded = true),
+        onAdLoaded: (_) {
+          if (mounted) setState(() => _homeBannerLoaded = true);
+        },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
-          _bannerAd = null;
+          _homeBannerAd = null;
+        },
+      ),
+    )..load();
+    _listBannerAd = BannerAd(
+      adUnitId: AdHelper.bannerAdUnitId,
+      size: AdSize.banner,
+      request: const AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (_) {
+          if (mounted) setState(() => _listBannerLoaded = true);
+        },
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+          _listBannerAd = null;
         },
       ),
     )..load();
@@ -299,7 +332,8 @@ class _ScannerScreenState extends State<ScannerScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     _archiveCheckedItems();
-    _bannerAd?.dispose();
+    _homeBannerAd?.dispose();
+    _listBannerAd?.dispose();
     try {
       if (controller != null) controller!.dispose();
     } catch (_) {}
@@ -406,14 +440,14 @@ class _ScannerScreenState extends State<ScannerScreen>
         innstillingerBox.get('selectedLanguage', defaultValue: 'nb');
     selectedCountry = innstillingerBox.get('selectedCountry',
         defaultValue: _defaultCountryCode());
-    premiumActive =
-      innstillingerBox.get(PremiumService.premiumActiveKey, defaultValue: false);
+    premiumActive = innstillingerBox.get(PremiumService.premiumActiveKey,
+        defaultValue: false);
     WakelockPlus.toggle(enable: wakeLockOn);
   }
 
   String _initialPrivacyMessage(BuildContext context) {
-    final code =
-        (AppLocalizations.of(context)?.localeName ?? selectedLanguage).toLowerCase();
+    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
+        .toLowerCase();
     switch (code) {
       case 'en':
         return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
@@ -896,16 +930,15 @@ class _ScannerScreenState extends State<ScannerScreen>
             'eStoffer': allEStoffer,
             'supplyChainText': supplyChainText,
           };
-            final bovaerAssessment =
-              _analyzeBovaerRiskWithText(
-                info['merke']!,
-                info['etiketter']!,
-                info['supplyChainText']!,
-                labelTags,
-              );
-            info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
-            info['bovaerRiskText'] = bovaerAssessment['text'] as String;
-              info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
+          final bovaerAssessment = _analyzeBovaerRiskWithText(
+            info['merke']!,
+            info['etiketter']!,
+            info['supplyChainText']!,
+            labelTags,
+          );
+          info['bovaerRisk'] = bovaerAssessment['risk'] as RiskLevel;
+          info['bovaerRiskText'] = bovaerAssessment['text'] as String;
+          info['bovaerRiskUrl'] = (bovaerAssessment['url'] ?? '').toString();
           final gmoAssessment = _analyzeGmoRiskWithContext(
             info['merke']!,
             info['kategorier']!,
@@ -913,16 +946,16 @@ class _ScannerScreenState extends State<ScannerScreen>
             info['ingredienser']!,
             info['supplyChainText']!,
           );
-            info['gmoRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
-            info['gmoRiskText'] =
+          info['gmoRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
+          info['gmoRiskText'] =
               (gmoAssessment['consumerText'] ?? '').toString();
           info['gmoRiskUrl'] = (gmoAssessment['url'] ?? '').toString();
-            info['gmoRegulatoryRisk'] =
+          info['gmoRegulatoryRisk'] =
               gmoAssessment['regulatoryRisk'] as RiskLevel;
-            info['gmoRegulatoryText'] =
+          info['gmoRegulatoryText'] =
               (gmoAssessment['regulatoryText'] ?? '').toString();
-            info['gmoConsumerRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
-            info['gmoConsumerText'] =
+          info['gmoConsumerRisk'] = gmoAssessment['consumerRisk'] as RiskLevel;
+          info['gmoConsumerText'] =
               (gmoAssessment['consumerText'] ?? '').toString();
           final insectAssessment = _analyzeInsectMealRisk(
             info['merke']!,
@@ -931,17 +964,17 @@ class _ScannerScreenState extends State<ScannerScreen>
             info['kategorier']!,
             info['supplyChainText']!,
           );
-            info['insectRisk'] = insectAssessment['consumerRisk'] as RiskLevel;
-            info['insectRiskText'] =
+          info['insectRisk'] = insectAssessment['consumerRisk'] as RiskLevel;
+          info['insectRiskText'] =
               (insectAssessment['consumerText'] ?? '').toString();
           info['insectRiskUrl'] = (insectAssessment['url'] ?? '').toString();
-            info['insectRegulatoryRisk'] =
+          info['insectRegulatoryRisk'] =
               insectAssessment['regulatoryRisk'] as RiskLevel;
-            info['insectRegulatoryText'] =
+          info['insectRegulatoryText'] =
               (insectAssessment['regulatoryText'] ?? '').toString();
-            info['insectConsumerRisk'] =
+          info['insectConsumerRisk'] =
               insectAssessment['consumerRisk'] as RiskLevel;
-            info['insectConsumerText'] =
+          info['insectConsumerText'] =
               (insectAssessment['consumerText'] ?? '').toString();
 
           final ngtAssessment = _analyzeNgtRisk(
@@ -999,8 +1032,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 box.put(listToAddTo, list);
                 _safeSnack('"$itemName" lagt til i $listToAddTo',
                     duration: const Duration(seconds: 2));
-                Analytics.logEvent('add_to_list',
-                    {'item': itemName, 'list': listToAddTo});
+                Analytics.logEvent(
+                    'add_to_list', {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
@@ -1043,7 +1076,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     if (!list.any((item) => item.endsWith(input))) {
       list.insert(0, input);
       box.put(listName, list);
-      Analytics.logEvent('add_to_list_manual_text', {'item': input, 'list': listName});
+      Analytics.logEvent(
+          'add_to_list_manual_text', {'item': input, 'list': listName});
     }
   }
 
@@ -1055,268 +1089,281 @@ class _ScannerScreenState extends State<ScannerScreen>
           height: MediaQuery.of(sheetContext).size.height * 0.8,
           child: ListView(
             children: [
-          ListTile(
-            leading: const Icon(Icons.language),
-            title: Text(AppLocalizations.of(context)?.language ?? 'Language'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (context) => StatefulBuilder(
-                  builder: (context, setDialogState) => AlertDialog(
-                    title: Text(AppLocalizations.of(context)?.selectLanguage ??
-                        'Select Language'),
-                    content: Column(mainAxisSize: MainAxisSize.min, children: [
-                      _languageTile(
-                          AppLocalizations.of(context)?.norwegian ??
-                              'Norwegian',
-                          'nb',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.english ?? 'English',
-                          'en',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.swedish ?? 'Swedish',
-                          'sv',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.danish ?? 'Danish',
-                          'da',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.finnish ?? 'Finnish',
-                          'fi',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.german ?? 'German',
-                          'de',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.dutch ?? 'Dutch',
-                          'nl',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.french ?? 'French',
-                          'fr',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.italian ?? 'Italian',
-                          'it',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.portuguese ??
-                              'Portuguese',
-                          'pt',
-                          setDialogState),
-                      _languageTile(
-                          AppLocalizations.of(context)?.spanish ?? 'Spanish',
-                          'es',
-                          setDialogState),
-                    ]),
-                    actions: [
-                      TextButton(
-                          onPressed: () => _safePop(),
-                          child: const Text('Lukk'))
-                    ],
-                  ),
-                ),
-              ).then((_) => setState(() {}));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.flag),
-            title: const Text('Land / datakilder'),
-            onTap: () {
-              _safePop();
-              _visLandDialog();
-            },
-          ),
-          // IAP re-enabled for v1.1
-          if (!premiumActive)
-            ListTile(
-              leading: const Icon(Icons.block),
-              title: Text(AppLocalizations.of(context)?.removeAdsMenuItem ??
-                  'Remove ads — supports further development'),
-              onTap: () {
-                _safePop();
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (_) => PremiumScreen(
-                              innstillingerBox: innstillingerBox,
-                              onPremiumChanged: (v) =>
-                                  setState(() => premiumActive = v),
-                            )));
-              },
-            ),
-          ListTile(
-            leading: const Icon(Icons.warning),
-            title:
-                Text(AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (context) => StatefulBuilder(
-                  builder: (context, setDialogState) => AlertDialog(
-                    title: Text(AppLocalizations.of(context)?.alerts ??
-                        'Select Alerts'),
-                    content: Column(mainAxisSize: MainAxisSize.min, children: [
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.bovaerAlert ??
-                                  'Bovaer Alert'),
-                          value: varselBovaer,
-                          onChanged: (v) {
-                            setDialogState(() => varselBovaer = v);
-                            innstillingerBox.put('varselBovaer', v);
-                          }),
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.gmoFishAlert ??
-                                  'GMO Fish Alert'),
-                          value: varselGmo,
-                          onChanged: (v) {
-                            setDialogState(() => varselGmo = v);
-                            innstillingerBox.put('varselGmo', v);
-                          }),
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.insectMealAlert ??
-                                  'Insect Meal Alert'),
-                          value: varselInsekt,
-                          onChanged: (v) {
-                            setDialogState(() => varselInsekt = v);
-                            innstillingerBox.put('varselInsekt', v);
-                          }),
-                      SwitchListTile(
-                          title: Text(
-                              AppLocalizations.of(context)?.ngtAlert ??
-                                  'Hidden GMO (NGT) Alert'),
-                          value: varselNgt,
-                          onChanged: (v) {
-                            setDialogState(() => varselNgt = v);
-                            innstillingerBox.put('varselNgt', v);
-                          }),
-                    ]),
-                    actions: [
-                      TextButton(
-                          onPressed: () => _safePop(),
-                          child: const Text('Lukk'))
-                    ],
-                  ),
-                ),
-              ).then((_) => setState(() {}));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.info),
-            title: Text(AppLocalizations.of(context)?.howAppWorks ??
-                'How the App Works'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: Text(AppLocalizations.of(context)?.howAppWorks ??
-                          'How the App Works'),
-                  content: Text(_howAppWorksText(context)),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
-          if (Platform.isIOS && kDebugMode)
-            ListTile(
-              leading: const Icon(Icons.bug_report),
-              title: const Text('App Review Test (iOS)'),
-              onTap: () {
-                _safePop();
-                _showAppReviewTestDialog();
-              },
-            ),
-          ListTile(
-            leading: const Icon(Icons.notification_important),
-            title: const Text('Varsel'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: const Text('Varsel'),
-                      content: const Column(
-                        mainAxisSize: MainAxisSize.min,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text('Varsel: intern liste for merkevare-koblinger'),
-                          SizedBox(height: 4),
-                          Text('Varsel: merkevaresporing og offentlig informasjon'),
+              ListTile(
+                leading: const Icon(Icons.language),
+                title:
+                    Text(AppLocalizations.of(context)?.language ?? 'Language'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (context) => StatefulBuilder(
+                      builder: (context, setDialogState) => AlertDialog(
+                        title: Text(
+                            AppLocalizations.of(context)?.selectLanguage ??
+                                'Select Language'),
+                        content:
+                            Column(mainAxisSize: MainAxisSize.min, children: [
+                          _languageTile(
+                              AppLocalizations.of(context)?.norwegian ??
+                                  'Norwegian',
+                              'nb',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.english ??
+                                  'English',
+                              'en',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.swedish ??
+                                  'Swedish',
+                              'sv',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.danish ?? 'Danish',
+                              'da',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.finnish ??
+                                  'Finnish',
+                              'fi',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.german ?? 'German',
+                              'de',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.dutch ?? 'Dutch',
+                              'nl',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.french ?? 'French',
+                              'fr',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.italian ??
+                                  'Italian',
+                              'it',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.portuguese ??
+                                  'Portuguese',
+                              'pt',
+                              setDialogState),
+                          _languageTile(
+                              AppLocalizations.of(context)?.spanish ??
+                                  'Spanish',
+                              'es',
+                              setDialogState),
+                        ]),
+                        actions: [
+                          TextButton(
+                              onPressed: () => _safePop(),
+                              child: const Text('Lukk'))
                         ],
                       ),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.newspaper),
-            title: Text(_regionalNewsLabel(context)),
-            onTap: () {
-              _safePop();
-              _openRegionalNews();
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.store_mall_directory),
-            title: Text(_farmThemeTitle(context)),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (_) => AlertDialog(
-                  title: Text(_farmThemeTitle(context)),
-                  content: Text(_farmThemeBody(context)),
-                  actions: [
-                    TextButton(
-                        onPressed: () => _safePop(), child: const Text('Lukk')),
-                    ElevatedButton.icon(
-                      onPressed: () {
-                        _safePop();
-                        _openFarmShops();
-                      },
-                      icon: const Icon(Icons.open_in_new),
-                      label: Text(_farmShopsLabel(context)),
-                    )
-                  ],
+                    ),
+                  ).then((_) => setState(() {}));
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.flag),
+                title: const Text('Land / datakilder'),
+                onTap: () {
+                  _safePop();
+                  _visLandDialog();
+                },
+              ),
+              // IAP re-enabled for v1.1
+              if (!premiumActive)
+                ListTile(
+                  leading: const Icon(Icons.block),
+                  title: Text(AppLocalizations.of(context)?.removeAdsMenuItem ??
+                      'Remove ads — supports further development'),
+                  onTap: () {
+                    _safePop();
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => PremiumScreen(
+                                  innstillingerBox: innstillingerBox,
+                                  onPremiumChanged: (v) =>
+                                      setState(() => premiumActive = v),
+                                )));
+                  },
                 ),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.privacy_tip),
-            title: const Text('Personvern'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder(
-                (_) => ConsentDialog(showAdBanner: !premiumActive),
-              );
-            },
-          ),
-          ListTile(
-            leading: const Icon(Icons.help),
-            title: Text(AppLocalizations.of(context)?.about ?? 'About'),
-            onTap: () {
-              _safePop();
-              _safeShowDialogBuilder((_) => AlertDialog(
-                      title: Text(AppLocalizations.of(context)?.appTitle ??
-                          'Food Check'),
-                      content: const Text(
-                          'Version 1.8 – Built for honest food info.'),
+              ListTile(
+                leading: const Icon(Icons.warning),
+                title: Text(
+                    AppLocalizations.of(context)?.alerts ?? 'Select Alerts'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (context) => StatefulBuilder(
+                      builder: (context, setDialogState) => AlertDialog(
+                        title: Text(AppLocalizations.of(context)?.alerts ??
+                            'Select Alerts'),
+                        content:
+                            Column(mainAxisSize: MainAxisSize.min, children: [
+                          SwitchListTile(
+                              title: Text(
+                                  AppLocalizations.of(context)?.bovaerAlert ??
+                                      'Bovaer Alert'),
+                              value: varselBovaer,
+                              onChanged: (v) {
+                                setDialogState(() => varselBovaer = v);
+                                innstillingerBox.put('varselBovaer', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(
+                                  AppLocalizations.of(context)?.gmoFishAlert ??
+                                      'GMO Fish Alert'),
+                              value: varselGmo,
+                              onChanged: (v) {
+                                setDialogState(() => varselGmo = v);
+                                innstillingerBox.put('varselGmo', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(AppLocalizations.of(context)
+                                      ?.insectMealAlert ??
+                                  'Insect Meal Alert'),
+                              value: varselInsekt,
+                              onChanged: (v) {
+                                setDialogState(() => varselInsekt = v);
+                                innstillingerBox.put('varselInsekt', v);
+                              }),
+                          SwitchListTile(
+                              title: Text(
+                                  AppLocalizations.of(context)?.ngtAlert ??
+                                      'Hidden GMO (NGT) Alert'),
+                              value: varselNgt,
+                              onChanged: (v) {
+                                setDialogState(() => varselNgt = v);
+                                innstillingerBox.put('varselNgt', v);
+                              }),
+                        ]),
+                        actions: [
+                          TextButton(
+                              onPressed: () => _safePop(),
+                              child: const Text('Lukk'))
+                        ],
+                      ),
+                    ),
+                  ).then((_) => setState(() {}));
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.info),
+                title: Text(AppLocalizations.of(context)?.howAppWorks ??
+                    'How the App Works'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                          title: Text(
+                              AppLocalizations.of(context)?.howAppWorks ??
+                                  'How the App Works'),
+                          content: Text(_howAppWorksText(context)),
+                          actions: [
+                            TextButton(
+                                onPressed: () => _safePop(),
+                                child: const Text('Lukk'))
+                          ]));
+                },
+              ),
+              if (Platform.isIOS && kDebugMode)
+                ListTile(
+                  leading: const Icon(Icons.bug_report),
+                  title: const Text('App Review Test (iOS)'),
+                  onTap: () {
+                    _safePop();
+                    _showAppReviewTestDialog();
+                  },
+                ),
+              ListTile(
+                leading: const Icon(Icons.notification_important),
+                title: const Text('Varsel'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                          title: const Text('Varsel'),
+                          content: const Column(
+                            mainAxisSize: MainAxisSize.min,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                  'Varsel: intern liste for merkevare-koblinger'),
+                              SizedBox(height: 4),
+                              Text(
+                                  'Varsel: merkevaresporing og offentlig informasjon'),
+                            ],
+                          ),
+                          actions: [
+                            TextButton(
+                                onPressed: () => _safePop(),
+                                child: const Text('Lukk'))
+                          ]));
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.newspaper),
+                title: Text(_regionalNewsLabel(context)),
+                onTap: () {
+                  _safePop();
+                  _openRegionalNews();
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.store_mall_directory),
+                title: Text(_farmThemeTitle(context)),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (_) => AlertDialog(
+                      title: Text(_farmThemeTitle(context)),
+                      content: Text(_farmThemeBody(context)),
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
-                            child: const Text('Lukk'))
-                      ]));
-            },
-          ),
+                            child: const Text('Lukk')),
+                        ElevatedButton.icon(
+                          onPressed: () {
+                            _safePop();
+                            _openFarmShops();
+                          },
+                          icon: const Icon(Icons.open_in_new),
+                          label: Text(_farmShopsLabel(context)),
+                        )
+                      ],
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.privacy_tip),
+                title: const Text('Personvern'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder(
+                    (_) => ConsentDialog(showAdBanner: !premiumActive),
+                  );
+                },
+              ),
+              ListTile(
+                leading: const Icon(Icons.help),
+                title: Text(AppLocalizations.of(context)?.about ?? 'About'),
+                onTap: () {
+                  _safePop();
+                  _safeShowDialogBuilder((_) => AlertDialog(
+                          title: Text(AppLocalizations.of(context)?.appTitle ??
+                              'Food Check'),
+                          content: const Text(
+                              'Version 1.8 – Built for honest food info.'),
+                          actions: [
+                            TextButton(
+                                onPressed: () => _safePop(),
+                                child: const Text('Lukk'))
+                          ]));
+                },
+              ),
             ],
           ),
         ),
@@ -1327,7 +1374,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   Widget _languageTile(String label, String code, Function setDialogState) {
     final selected = selectedLanguage == code;
     return ListTile(
-      leading: selected ? const Icon(Icons.radio_button_checked) : const Icon(Icons.radio_button_unchecked),
+      leading: selected
+          ? const Icon(Icons.radio_button_checked)
+          : const Icon(Icons.radio_button_unchecked),
       title: Text(label),
       onTap: () async {
         if (selected) return;
@@ -1336,7 +1385,8 @@ class _ScannerScreenState extends State<ScannerScreen>
           selectedLanguage = code;
         });
         if (context.mounted) Navigator.of(context).pop();
-        if (!_isTestEnv) await Future.delayed(const Duration(milliseconds: 300));
+        if (!_isTestEnv)
+          await Future.delayed(const Duration(milliseconds: 300));
         if (mounted) widget.onLanguageChanged(code);
       },
     );
@@ -1362,8 +1412,7 @@ class _ScannerScreenState extends State<ScannerScreen>
       'GB': 'UK',
     };
     final sortedLandEntries = land.entries.toList()
-      ..sort((a, b) =>
-          a.value.toLowerCase().compareTo(b.value.toLowerCase()));
+      ..sort((a, b) => a.value.toLowerCase().compareTo(b.value.toLowerCase()));
 
     _safeShowDialogBuilder(
       (_) => StatefulBuilder(
@@ -1393,7 +1442,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                         setDialogState(() => selectedCountry = code);
                         _safePop();
                         if (!_isTestEnv) {
-                          await Future.delayed(const Duration(milliseconds: 200));
+                          await Future.delayed(
+                              const Duration(milliseconds: 200));
                         }
                         if (mounted) widget.onCountryChanged(code);
                       },
@@ -1449,7 +1499,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
     final reds = _countryRulesList(country, 'bovaer_red', bovaerRedBrands);
-    final yellows = _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
+    final yellows =
+        _countryRulesList(country, 'bovaer_yellow', bovaerYellowBrands);
     final factoryCustomers =
         _countryRulesList(country, 'factory_customer_yellow', const []);
 
@@ -1549,8 +1600,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         'risk': RiskLevel.yellow,
         'text': isKnownTinePartner
             ? (isNorwegian
-            ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
-            : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
+                ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
+                : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
             : (isNorwegian
                 ? 'MULIG RISIKO: ${matchedLabelList.isEmpty ? 'Dette merket' : matchedLabelList} er registrert som samarbeidspartner i intern sporingsliste. Se oppdatert status for leverandørinformasjon, og sjekk etikett og produksjonsdato.'
                 : 'POSSIBLE RISK: ${matchedLabelList.isEmpty ? 'This brand' : matchedLabelList} is listed as a partner in the internal tracking list. See updated supplier status, and check label and production date.'),
@@ -1589,11 +1640,12 @@ class _ScannerScreenState extends State<ScannerScreen>
     final lowerLabels = labels.toLowerCase();
     final lowerIngredients = ingredients.toLowerCase();
     final combinedText =
-      '$lowerBrand $lowerLabels $lowerIngredients $lowerCategory ${supplyChainText.toLowerCase()}';
+        '$lowerBrand $lowerLabels $lowerIngredients $lowerCategory ${supplyChainText.toLowerCase()}';
     final country =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
-    final gmoList = _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
+    final gmoList =
+        _countryRulesList(country, 'gmo_fish_red', gmoFishRedBrands);
     final euWatchList = _countryRulesList(country, 'gmo_eu_watch', const []);
     final gmoSupplyChainYellow = _countryRulesList(
       country,
@@ -1701,11 +1753,11 @@ class _ScannerScreenState extends State<ScannerScreen>
     final hasEuWatchBrand =
         euWatchList.any((b) => lowerBrand.contains(b.toLowerCase()));
     final hasGmoSupplyChainActor = gmoSupplyChainYellow
-        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
-      gmoSupplyChainYellow.any((b) => combinedText.contains(b.toLowerCase()));
-    final hasFactoryCustomerSignal = factoryCustomers
-        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
-      factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
+            .any((b) => lowerBrand.contains(b.toLowerCase())) ||
+        gmoSupplyChainYellow.any((b) => combinedText.contains(b.toLowerCase()));
+    final hasFactoryCustomerSignal =
+        factoryCustomers.any((b) => lowerBrand.contains(b.toLowerCase())) ||
+            factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
     final hasSupplyChainLabel = supplyChainKeywords.any(combinedText.contains);
     final hasAquacultureSignal = aquacultureKeywords.any(combinedText.contains);
     final isFishCategory = lowerCategory.contains('salmon') ||
@@ -1753,7 +1805,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
 
-    if ((hasGmoSupplyChainActor || hasSupplyChainLabel || hasFactoryCustomerSignal) &&
+    if ((hasGmoSupplyChainActor ||
+            hasSupplyChainLabel ||
+            hasFactoryCustomerSignal) &&
         (isFishCategory || hasAquacultureSignal)) {
       return {
         'regulatoryRisk': RiskLevel.yellow,
@@ -1826,19 +1880,19 @@ class _ScannerScreenState extends State<ScannerScreen>
     final lowerIngredients = ingredients.toLowerCase();
     final lowerCategories = categories.toLowerCase();
     final combinedText =
-      '$lowerBrand $lowerLabels $lowerIngredients $lowerCategories ${supplyChainText.toLowerCase()}';
+        '$lowerBrand $lowerLabels $lowerIngredients $lowerCategories ${supplyChainText.toLowerCase()}';
     final country =
-      (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
-        .toUpperCase();
+        (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
+            .toUpperCase();
     final insectEuWatch =
-      _countryRulesList(country, 'insect_eu_watch', insectEuWatchFallback);
+        _countryRulesList(country, 'insect_eu_watch', insectEuWatchFallback);
     final insectSupplyChainYellow = _countryRulesList(
       country,
       'insect_supply_chain_yellow',
       insectSupplyChainYellowFallback,
     );
     final factoryCustomers =
-      _countryRulesList(country, 'factory_customer_yellow', const []);
+        _countryRulesList(country, 'factory_customer_yellow', const []);
     const explicitInsectKeywords = <String>[
       'insektsmel',
       'insektsprotein',
@@ -1887,10 +1941,11 @@ class _ScannerScreenState extends State<ScannerScreen>
             insectEuWatch.any((b) => combinedText.contains(b.toLowerCase()));
     final hasInsectSupplyChainActor = insectSupplyChainYellow
             .any((b) => lowerBrand.contains(b.toLowerCase())) ||
-        insectSupplyChainYellow.any((b) => combinedText.contains(b.toLowerCase()));
-    final hasFactoryCustomerSignal = factoryCustomers
-        .any((b) => lowerBrand.contains(b.toLowerCase())) ||
-      factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
+        insectSupplyChainYellow
+            .any((b) => combinedText.contains(b.toLowerCase()));
+    final hasFactoryCustomerSignal =
+        factoryCustomers.any((b) => lowerBrand.contains(b.toLowerCase())) ||
+            factoryCustomers.any((b) => combinedText.contains(b.toLowerCase()));
     final hasSupplyChainLabel = supplyChainKeywords.any(combinedText.contains);
 
     if (hasExplicitInsect) {
@@ -1917,7 +1972,9 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
 
-    if (hasInsectSupplyChainActor || hasSupplyChainLabel || hasFactoryCustomerSignal) {
+    if (hasInsectSupplyChainActor ||
+        hasSupplyChainLabel ||
+        hasFactoryCustomerSignal) {
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
@@ -2025,24 +2082,24 @@ class _ScannerScreenState extends State<ScannerScreen>
         title: SizedBox(
           height: 42,
           child: ElevatedButton.icon(
-          onPressed: _openFarmShops,
-          icon: const Icon(Icons.storefront, size: 20),
-          label: Text(
-            farmShopsLabel,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(fontWeight: FontWeight.w700),
-          ),
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.white,
-            foregroundColor: Colors.green.shade900,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
+            onPressed: _openFarmShops,
+            icon: const Icon(Icons.storefront, size: 20),
+            label: Text(
+              farmShopsLabel,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(fontWeight: FontWeight.w700),
             ),
-            elevation: 0,
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.white,
+              foregroundColor: Colors.green.shade900,
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              elevation: 0,
+            ),
           ),
-        ),
         ),
         actions: [
           IconButton(
@@ -2195,8 +2252,10 @@ class _ScannerScreenState extends State<ScannerScreen>
                         if (!list.any((item) => item.endsWith(itemName))) {
                           list.insert(0, itemName);
                           box.put(listBeforeGlobalHistory, list);
-                          Analytics.logEvent('add_to_list',
-                              {'item': itemName, 'list': listBeforeGlobalHistory});
+                          Analytics.logEvent('add_to_list', {
+                            'item': itemName,
+                            'list': listBeforeGlobalHistory
+                          });
                         }
                       },
                     )
@@ -2211,25 +2270,44 @@ class _ScannerScreenState extends State<ScannerScreen>
                           () => showFullScreenList = !showFullScreenList),
                       onRename: _handleRename,
                       onShowSearch: () => _visSok(),
-                      onAddManualItem: (item) => _handleManualListInput(activeList, item),
+                      onAddManualItem: (item) =>
+                          _handleManualListInput(activeList, item),
                       premiumActive: premiumActive,
-                      onRemoveAds: () => Navigator.push(context,
-                          MaterialPageRoute(builder: (_) => PremiumScreen(
-                            innstillingerBox: innstillingerBox,
-                            onPremiumChanged: (v) => setState(() => premiumActive = v),
-                          ))),
+                      onRemoveAds: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => PremiumScreen(
+                                    innstillingerBox: innstillingerBox,
+                                    onPremiumChanged: (v) =>
+                                        setState(() => premiumActive = v),
+                                  ))),
+                      adBanner: (!premiumActive &&
+                              _listBannerLoaded &&
+                              _listBannerAd != null)
+                          ? SizedBox(
+                              width: _listBannerAd!.size.width.toDouble(),
+                              height: _listBannerAd!.size.height.toDouble(),
+                              child: AdWidget(ad: _listBannerAd!),
+                            )
+                          : null,
                     ),
             ),
-          Align(
+          if (!(showList || showFullScreenList) &&
+              _homeBannerLoaded &&
+              _homeBannerAd != null)
+            Align(
               alignment: Alignment.bottomCenter,
-              child: _bannerAdLoaded && _bannerAd != null
-                  ? SizedBox(
-                      width: _bannerAd!.size.width.toDouble(),
-                      height: _bannerAd!.size.height.toDouble(),
-                      child: AdWidget(ad: _bannerAd!),
-                    )
-                  : const SizedBox(height: 50),
-            )
+              child: SafeArea(
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 8),
+                  child: SizedBox(
+                    width: _homeBannerAd!.size.width.toDouble(),
+                    height: _homeBannerAd!.size.height.toDouble(),
+                    child: AdWidget(ad: _homeBannerAd!),
+                  ),
+                ),
+              ),
+            ),
         ],
       ),
     );
@@ -2253,7 +2331,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                 Container(
                   width: double.infinity,
                   margin: const EdgeInsets.only(bottom: 8),
-                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
                   decoration: BoxDecoration(
                     color: Colors.blue.withAlpha((0.08 * 255).round()),
                     borderRadius: BorderRadius.circular(8),

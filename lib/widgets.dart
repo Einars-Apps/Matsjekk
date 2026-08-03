@@ -309,7 +309,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     if (lower.contains('new-techniques-biotechnology')) {
       return 'New techniques in biotechnology';
     }
-    if (lower.contains('novel-food/authorisations/summary-applications-and-notifications')) {
+    if (lower.contains(
+        'novel-food/authorisations/summary-applications-and-notifications')) {
       return 'Summary of applications and notifications';
     }
     if (lower.contains('matsjekk.com')) {
@@ -318,7 +319,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     return 'Source document';
   }
 
-  Widget _sourceLinkButton(BuildContext context, String url, String fallbackEn) {
+  Widget _sourceLinkButton(
+      BuildContext context, String url, String fallbackEn) {
     final localizedUrl = _localizedSourceUrl(context, url);
     final originalTitle = _sourceOriginalTitleForUrl(localizedUrl);
     final label =
@@ -414,8 +416,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     _buildRiskWidget(context, 'Bovaer',
-                      info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
-                      customText: (info['bovaerRiskText'] ?? '').toString()),
+                        info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
+                        customText: (info['bovaerRiskText'] ?? '').toString()),
                     if (bovaerRiskUrl.isNotEmpty)
                       _sourceLinkButton(
                         context,
@@ -423,22 +425,22 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         'See updated status',
                       ),
                     _buildRiskWidget(
-                      context,
-                      'GMO-regelstatus (EU)',
-                      info['gmoRegulatoryRisk'] as RiskLevel? ??
-                        RiskLevel.unknown,
-                      customText:
-                        (info['gmoRegulatoryText'] ?? '').toString()),
+                        context,
+                        'GMO-regelstatus (EU)',
+                        info['gmoRegulatoryRisk'] as RiskLevel? ??
+                            RiskLevel.unknown,
+                        customText:
+                            (info['gmoRegulatoryText'] ?? '').toString()),
                     _buildRiskWidget(
-                      context,
-                      'GMO-forbrukerrisiko',
-                      info['gmoConsumerRisk'] as RiskLevel? ??
-                        info['gmoRisk'] as RiskLevel? ??
-                        RiskLevel.unknown,
-                      customText: (info['gmoConsumerText'] ??
-                          info['gmoRiskText'] ??
-                          '')
-                        .toString()),
+                        context,
+                        'GMO-forbrukerrisiko',
+                        info['gmoConsumerRisk'] as RiskLevel? ??
+                            info['gmoRisk'] as RiskLevel? ??
+                            RiskLevel.unknown,
+                        customText: (info['gmoConsumerText'] ??
+                                info['gmoRiskText'] ??
+                                '')
+                            .toString()),
                     if (gmoRiskUrl.isNotEmpty)
                       _sourceLinkButton(
                         context,
@@ -519,8 +521,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               icon: const Icon(Icons.open_in_new, size: 16),
                               label: Text(_methodLinkLabel(context)),
                               style: TextButton.styleFrom(
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 4),
+                                  padding:
+                                      const EdgeInsets.symmetric(horizontal: 4),
                                   minimumSize: const Size(0, 32)),
                             ),
                           ),
@@ -621,8 +623,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               Container(
                                 padding: const EdgeInsets.all(8),
                                 decoration: BoxDecoration(
-                                    color: const Color.fromRGBO(
-                                        33, 150, 243, 0.1),
+                                    color:
+                                        const Color.fromRGBO(33, 150, 243, 0.1),
                                     borderRadius: BorderRadius.circular(8)),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -634,7 +636,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                             color: Colors.blue),
                                         const SizedBox(width: 8),
                                         Text(
-                                            AppLocalizations.of(context)?.beta ??
+                                            AppLocalizations.of(context)
+                                                    ?.beta ??
                                                 'Beta',
                                             style: const TextStyle(
                                                 color: Colors.blue,
@@ -754,19 +757,31 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                 .toList())
                                           ],
                                           // Add source and internal list info for red/yellow alerts
-                                          if (sev == 'red' || sev == 'yellow') ...[
+                                          if (sev == 'red' ||
+                                              sev == 'yellow') ...[
                                             const SizedBox(height: 8),
                                             const SizedBox(height: 4),
-                                            const Text('Varsel: intern liste for merkevare-koblinger', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            const Text(
+                                                'Varsel: intern liste for merkevare-koblinger',
+                                                style: TextStyle(
+                                                    fontStyle:
+                                                        FontStyle.italic)),
                                             const SizedBox(height: 4),
-                                            const Text('Varsel: merkevaresporing og offentlig informasjon', style: TextStyle(fontStyle: FontStyle.italic)),
+                                            const Text(
+                                                'Varsel: merkevaresporing og offentlig informasjon',
+                                                style: TextStyle(
+                                                    fontStyle:
+                                                        FontStyle.italic)),
                                             const SizedBox(height: 8),
                                             ElevatedButton.icon(
-                                              onPressed: () =>
-                                                  _openUrl(_farmShopsUrl(context)),
-                                              icon: const Icon(Icons.open_in_new),
-                                              label: Text(_farmShopsLabel(context)),
-                                              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                                              onPressed: () => _openUrl(
+                                                  _farmShopsUrl(context)),
+                                              icon:
+                                                  const Icon(Icons.open_in_new),
+                                              label: Text(
+                                                  _farmShopsLabel(context)),
+                                              style: ElevatedButton.styleFrom(
+                                                  backgroundColor: Colors.blue),
                                             ),
                                           ],
                                           const SizedBox(height: 8),
@@ -870,8 +885,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           runSpacing: 4.0,
                           children: eStoffer
                               .map((e) => ActionChip(
-                                  avatar: const Icon(Icons.info_outline,
-                                      size: 18),
+                                  avatar:
+                                      const Icon(Icons.info_outline, size: 18),
                                   label: Text(e.toString(),
                                       style: const TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -937,7 +952,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         ]));
   }
 
-    Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
+  Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
       {String customText = ''}) {
     if (risk == RiskLevel.unknown) return const SizedBox.shrink();
     final icon = risk == RiskLevel.red
@@ -947,25 +962,26 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         ? Colors.red
         : (risk == RiskLevel.yellow ? Colors.amber : Colors.green);
     final isNorwegian =
-        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase() == 'nb';
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase() ==
+            'nb';
     final trimmedCustomText = customText.trim();
     final text = trimmedCustomText.isNotEmpty
-      ? trimmedCustomText
-      : risk == RiskLevel.green
-        ? (isNorwegian
-            ? 'Ingen kjent risiko i denne kategorien.'
-            : 'No known risk in this category.')
-        : risk == RiskLevel.yellow
-          ? (title == 'Bovaer'
-            ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
-              'POSSIBLE RISK')
-            : (AppLocalizations.of(context)?.gmoHighRisk ??
-              'HIGH RISK'))
-          : (title == 'Bovaer'
-            ? (AppLocalizations.of(context)?.bovaerHighRisk ??
-              'HIGH RISK')
-            : (AppLocalizations.of(context)?.gmoHighRisk ??
-              'HIGH RISK'));
+        ? trimmedCustomText
+        : risk == RiskLevel.green
+            ? (isNorwegian
+                ? 'Ingen kjent risiko i denne kategorien.'
+                : 'No known risk in this category.')
+            : risk == RiskLevel.yellow
+                ? (title == 'Bovaer'
+                    ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??
+                        'POSSIBLE RISK')
+                    : (AppLocalizations.of(context)?.gmoHighRisk ??
+                        'HIGH RISK'))
+                : (title == 'Bovaer'
+                    ? (AppLocalizations.of(context)?.bovaerHighRisk ??
+                        'HIGH RISK')
+                    : (AppLocalizations.of(context)?.gmoHighRisk ??
+                        'HIGH RISK'));
     return Container(
         padding: const EdgeInsets.all(12),
         margin: const EdgeInsets.only(bottom: 8),
@@ -998,9 +1014,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         return Colors.grey;
     }
   }
-
 }
-
 
 class HandlelisteOverlay extends StatefulWidget {
   final String listeNavn;
@@ -1012,6 +1026,7 @@ class HandlelisteOverlay extends StatefulWidget {
   final Future<void> Function(String)? onAddManualItem;
   final bool premiumActive;
   final VoidCallback? onRemoveAds;
+  final Widget? adBanner;
 
   const HandlelisteOverlay({
     required this.listeNavn,
@@ -1023,6 +1038,7 @@ class HandlelisteOverlay extends StatefulWidget {
     this.onAddManualItem,
     this.premiumActive = false,
     this.onRemoveAds,
+    this.adBanner,
     super.key,
   });
 
@@ -1040,8 +1056,8 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
     final box = Hive.box('handlelister');
     final seen = <String>{};
     for (final key in box.keys) {
-      for (final vare in List<String>.from(
-          box.get(key, defaultValue: <String>[]))) {
+      for (final vare
+          in List<String>.from(box.get(key, defaultValue: <String>[]))) {
         final clean = vare.startsWith('✓ ') ? vare.substring(2) : vare;
         if (clean.isNotEmpty) seen.add(clean);
       }
@@ -1176,9 +1192,9 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                         actions: [
                           if (!widget.premiumActive)
                             IconButton(
-                                tooltip: AppLocalizations.of(context)
-                                        ?.removeAds ??
-                                    'Remove ads',
+                                tooltip:
+                                    AppLocalizations.of(context)?.removeAds ??
+                                        'Remove ads',
                                 icon: const Icon(Icons.block),
                                 onPressed: widget.onRemoveAds),
                           IconButton(
@@ -1222,6 +1238,11 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                             ],
                           ),
                         ),
+                      ),
+                    if (widget.adBanner != null)
+                      Align(
+                        alignment: Alignment.center,
+                        child: widget.adBanner,
                       ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -1305,7 +1326,10 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                               varer.insert(newIndex, item);
                               box.put(widget.listeNavn, varer);
                             },
-                            padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewPadding.bottom + 120),
+                            padding: EdgeInsets.only(
+                                bottom:
+                                    MediaQuery.of(context).viewPadding.bottom +
+                                        120),
                             children: varer.asMap().entries.map((entry) {
                               final index = entry.key;
                               final vare = entry.value;
