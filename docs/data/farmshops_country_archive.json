@@ -25182,6 +25182,60 @@
       "lon": 61.24977,
       "address": "Valmen 54",
       "source": "https://www.hanen.no/bedrift/valmsnes-gaardsmeieri/"
+    },
+    {
+      "id": 11161944536,
+      "name": "Nysæter Gård",
+      "country": "Norway",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://nysaetergard.no/",
+      "lat": 63.4240242,
+      "lon": 8.0520357,
+      "address": null
+    },
+    {
+      "id": 13961880858,
+      "name": "Alpakkalia",
+      "country": "Norway",
+      "region": null,
+      "municipality": "Selbu",
+      "products": [],
+      "website": "https://alpakkalia.no/",
+      "lat": 63.2064765,
+      "lon": 11.1235832,
+      "address": "Liavegen"
+    },
+    {
+      "id": "lokalmat_12145",
+      "name": "BIGNOSE AS",
+      "country": "Norway",
+      "region": "Oslo",
+      "municipality": null,
+      "products": [
+        "Alkoholholdige drikker"
+      ],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "",
+      "source": "https://www.lokalmat.no/produsenter/bignose-as/"
+    },
+    {
+      "id": "lokalmat_12448",
+      "name": "OnkelM",
+      "country": "Norway",
+      "region": "Telemark",
+      "municipality": "Skien",
+      "products": [
+        "Alkoholholdige drikker"
+      ],
+      "website": null,
+      "lat": 59.2046156,
+      "lon": 9.616314599999999,
+      "address": "Bratsberggata 20",
+      "source": "https://www.lokalmat.no/produsenter/onkelm/"
     }
   ],
   "SE": [
