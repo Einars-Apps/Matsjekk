@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T06:19:22.807413+00:00",
+  "updated_at": "2026-08-03T06:31:51.727819+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -54,6 +54,16 @@
       "id": "0c23261647b85949"
     },
     {
+      "date": "2026-06-08T07:00:00+00:00",
+      "title": "Plants obtained by new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jUVJtSENudGZRTzJiNEwzNGtrRGRYNUxlcnNwLXdKS2FIMG9fWmxNMmZ3X3JES01uSzh6YnZyMDU5ZzJseGNQYWJ2TjkxRU9kMTJYWHg0eUs0TnBtRnAtQXlUOF9FdVY4YnNwcDV0SHd5RlZfTDVTbXpvUkt2Zw?oc=5",
+      "source": "European Parliament",
+      "id": "81d116d6391e0f2d"
+    },
+    {
       "date": "2026-04-21T07:00:00+00:00",
       "title": "New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems - consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -95,13 +105,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Zpravodajství | Evropský parlament - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Noticias | Parlamento Europeo - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Zpravodajství | Evropský parlament &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU0pHVkgwSGlUNC1lNmJzMWpVd2xEVmk5Y1JRRzJsUVZPNGxHQXhuM3VGd1dXTjZaemxmWTZVMV84Z0VzcnFyQmprdHYxNm5UN2hsOWdnMjRKaFRsT3oxeXJOX01oU2NUa0RxdkhRNzBubUd6V3JhUVdMRVI1eEwwY2I3cXAza2ViTEQ0TDY3SHlROG91YUNibTBqdklORkNEc2s4R243QXV6cEFOdTYtaXVKYnFFUlF0bnFjeXJiNm9HVklGeVoxcldkZldCX3MtQkZn?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Noticias | Parlamento Europeo &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUzEtMTJBRGNtV1dfQVlkWVpfN0Q0ZzR4X0FpMWxzcG9tZ0xuUVh3R1FwdUhHaDZCR0VyVVZFdTJkUkhYbG4zbUZHaWZUa3hTTXJkVnBNY0NfSGlwd3V1dUtESl9XRVVSMHZicDNkZXBMNlVubDJlZzM3ZXB5Rl9EUWd2cUx6aEJnYzRuNm5Lb0kzM2U2ZmhGM0JnNTRtXzZyUjBTYjNxOGJ3Y2xqQUlnMVNuTG04NnhLT0dCX1FNa1BUSS0wY3k1WDAycmhSZDVpV3dR?oc=5",
       "source": "European Parliament",
-      "id": "3b0ed59fac3ab2b3"
+      "id": "444a6ed0a40f4c79"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -142,16 +152,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFNYYnhfQ2ZEUS1FTThFS201RFpvMUdTalk4NHFaUWxzRjRMcTNpRVZKdjdGc3NPRDM3anJZMnN3b3ZrWFd1MVcyUE85aG9SZWFMNG4zUWxZazctOG43Tk81WG03TFd3Z2lPYlo3STVRMDFSaThYTm95c1Y4ZW00aXc0LXRpMEowQm5oRm9XUnoyc2tQcWdvS01zUVNmeG9qSzRrTXBFZHhNbUVKN1U5SnJlUHRCRjdidk1oeDl4TFdHUQ?oc=5",
       "source": "European Parliament",
       "id": "2248af668c062eb3"
-    },
-    {
-      "date": "2025-09-15T07:00:00+00:00",
-      "title": "Consultation request to determine the novel food status of Chondroitin sulfate from Tremella fuciformis - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation request to determine the novel food status of Chondroitin sulfate from Tremella fuciformis &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPbVlaMllpNE1FSEl4NUpDeGpwUXJpSUNxOEUyZWpQWWdOZVhCaUE2Uks4c0F3U3V1RVhRTy1KMDdqSkJ0am0ySkVpXzFGMDFEYUNGMkV4RjZYdEl6OWI5TGZRZGpMVGVrZU5BV2FpQXVnQm56cnJOdkMxRFpSd05GNVBOY0U2VWxXeVk1TE4zUlAta3MtMzNVOXd3WV80QnZqSmQxR1lXUXVTZGJVRzU3eU1JTFpFblR1bzk0Q2ZfeXJDY0RCbTBpT0FEVVBGLUlMYlk0WC03UWR4T1Bzdk9IQXRwckw3QWQxMXR6Q3p4V3BvVDMtVk42a0YyNEJZWFBxYk51cUEwSXlGdkhtYWZzaVZR?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "9c4cad0877f636fe"
     },
     {
       "date": "2025-07-13T10:39:11+00:00",
@@ -292,16 +292,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
       "source": "food.ec.europa.eu",
       "id": "252c440680606480"
-    },
-    {
-      "date": "2023-09-06T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
-      "source": "EUR-Lex",
-      "id": "689659b69845a846"
     }
   ]
 }
