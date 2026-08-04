@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T06:31:51.727819+00:00",
+  "updated_at": "2026-08-04T06:15:01.044577+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -182,6 +182,16 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
       "source": "EUR-Lex",
       "id": "49317d781619a1f2"
+    },
+    {
+      "date": "2025-04-10T07:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2MyNVRLU09LcmltT0ZQd3ZLZ25LMDV5S2tiVW1ZWnNKanVYd3ZqWlB5YThMS1lnRDJCdmN4U0UxZzQwaW1nZG05TEVSRnNWaTFJTDZXM3NMeUw3bTRRdWVFYl9oeDZreHF0SUFEWUhTeFd3Rjd2LVJkRW4zdVllWC1IanItYzFqa2dSWWtoakktdUtjQkdISHR1NWVZUk9sdklfZzRnQ2xod1dqbGVPT0tSZW5mcnl3VGZ5V0hJRzhiUnY2eURuQ2k2aUlHSG5z?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "58cc52b4e206877c"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
