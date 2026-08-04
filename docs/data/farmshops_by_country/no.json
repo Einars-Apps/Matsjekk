@@ -571,8 +571,8 @@
     "municipality": null,
     "products": [],
     "website": "https://nysaetergard.no/",
-    "lat": 63.424038,
-    "lon": 8.0520773,
+    "lat": 63.4240242,
+    "lon": 8.0520357,
     "address": null
   },
   {
@@ -1006,6 +1006,18 @@
     "lat": 59.070377,
     "lon": 10.2653986,
     "address": null
+  },
+  {
+    "id": 13961880858,
+    "name": "Alpakkalia",
+    "country": "Norway",
+    "region": null,
+    "municipality": "Selbu",
+    "products": [],
+    "website": "https://alpakkalia.no/",
+    "lat": 63.2064765,
+    "lon": 11.1235832,
+    "address": "Liavegen"
   },
   {
     "id": 254198418,
@@ -2161,6 +2173,21 @@
     "lon": 8.175340499999947,
     "address": "",
     "source": "https://www.lokalmat.no/produsenter/bigaard-i-bandaksli/"
+  },
+  {
+    "id": "lokalmat_12145",
+    "name": "BIGNOSE AS",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": null,
+    "products": [
+      "Alkoholholdige drikker"
+    ],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/bignose-as/"
   },
   {
     "id": "lokalmat_11786",
@@ -6576,21 +6603,6 @@
     "source": "https://www.lokalmat.no/produsenter/jolsterlia/"
   },
   {
-    "id": "lokalmat_12145",
-    "name": "Jonny Råtten AS",
-    "country": "Norway",
-    "region": "Oslo",
-    "municipality": null,
-    "products": [
-      "Alkoholholdige drikker"
-    ],
-    "website": null,
-    "lat": 59.8939224,
-    "lon": 10.7149058,
-    "address": "",
-    "source": "https://www.lokalmat.no/produsenter/jonny-ratten-as/"
-  },
-  {
     "id": "lokalmat_11782",
     "name": "Jorids Lefsebakeri",
     "country": "Norway",
@@ -9186,6 +9198,21 @@
     "lon": 10.713581,
     "address": "Filipstadveien 15",
     "source": "https://www.lokalmat.no/produsenter/o.-mathisen-as/"
+  },
+  {
+    "id": "lokalmat_12448",
+    "name": "OnkelM",
+    "country": "Norway",
+    "region": "Telemark",
+    "municipality": "Skien",
+    "products": [
+      "Alkoholholdige drikker"
+    ],
+    "website": null,
+    "lat": 59.2046156,
+    "lon": 9.616314599999999,
+    "address": "Bratsberggata 20",
+    "source": "https://www.lokalmat.no/produsenter/onkelm/"
   },
   {
     "id": "lokalmat_11513",
@@ -13255,13 +13282,13 @@
     "id": "lokalmat_10946",
     "name": "WILD FIRE FOODS",
     "country": "Norway",
-    "region": "Akershus",
-    "municipality": "Sandvika",
+    "region": "Østfold",
+    "municipality": "Halden",
     "products": [],
     "website": null,
     "lat": 59.9195648,
     "lon": 10.518528,
-    "address": "Industriveien 46",
+    "address": "Isebakkveien 50",
     "source": "https://www.lokalmat.no/produsenter/wild-fire-foods/"
   },
   {
@@ -14655,7 +14682,7 @@
     "region": "Akershus",
     "municipality": "EIDSVOLL",
     "products": [],
-    "website": "https://www.facebook.com/JondalGardsbakeri",
+    "website": "https://www.jondalgardsbutikk.com/",
     "lat": 60.305832,
     "lon": 11.302079,
     "address": "Nesvegen 108",
@@ -15973,6 +16000,33 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": 11161944536,
+    "name": "Nysæter Gård",
+    "country": "Norway",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://nysaetergard.no/",
+    "lat": 63.424038,
+    "lon": 8.0520773,
+    "address": null
+  },
+  {
+    "id": "lokalmat_12145",
+    "name": "Jonny Råtten AS",
+    "country": "Norway",
+    "region": "Oslo",
+    "municipality": null,
+    "products": [
+      "Alkoholholdige drikker"
+    ],
+    "website": null,
+    "lat": 59.8939224,
+    "lon": 10.7149058,
+    "address": "",
+    "source": "https://www.lokalmat.no/produsenter/jonny-ratten-as/"
   },
   {
     "id": "lokalmat_11843",
