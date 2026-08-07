@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T06:14:49.791914+00:00",
+  "updated_at": "2026-08-07T05:54:26.216928+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -242,6 +242,16 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQlh3bDJTMTY3SEZsQ3RXQzk1RXRSdmtCeE1MZFFaaXFQZ0FwT2JHQWdkTGNmd1p0TWFwZGxHV2dWZklOSkZZQk1uV3RSSWZkWjdKOTItdUV2cERjdFJtV2xXaHd0M3FKVTFKcDlpelhSV3J4UnFDcl9udFJJbXV4WGFjVW8ySjg2ZUU0Mzl5bmQxLXpnczJWY25VX3VjdmxmY19Jdw?oc=5",
       "source": "food.ec.europa.eu",
       "id": "f962036580c501e3"
+    },
+    {
+      "date": "2024-02-07T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs back rules to support green transition of farmers - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs back rules to support green transition of farmers &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
+      "source": "European Parliament",
+      "id": "493e0c88f1ddf0aa"
     },
     {
       "date": "2024-02-01T08:00:00+00:00",
