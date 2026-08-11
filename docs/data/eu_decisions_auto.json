@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10T05:52:46.330439+00:00",
+  "updated_at": "2026-08-11T05:42:26.861375+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -282,16 +282,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
       "source": "eur-lex.europa.eu",
       "id": "2a1a89e1123ea48f"
-    },
-    {
-      "date": "2023-10-03T07:00:00+00:00",
-      "title": "Plants produced using new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants produced using new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQckFJamZLUDF5RlJhWWVqZkp0cXd6dERvLUJnRktoeDBSN1hsQ0pBR3A0bWQwRE5FWVZyd1MwRHRRVjZidHdfbnp5cU5Rb3BaSkczTG04SWcyVWktX2FZQ3VnNF9icm5KUnFCd3AwandjMklSU2pZR1h2aWR3YmxkZ3k4UW9YWjZ3UkFySUNOcm10T21D?oc=5",
-      "source": "European Parliament",
-      "id": "64985e14dcf708c6"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
