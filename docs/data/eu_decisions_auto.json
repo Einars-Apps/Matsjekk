@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T05:53:39.237826+00:00",
+  "updated_at": "2026-08-14T05:52:42.727488+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -25,13 +25,13 @@
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture - European Parliament",
+      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | News - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture &nbsp;&nbsp; European Parliament ",
+      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | News &nbsp;&nbsp; European Parliament ",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
       "source": "European Parliament",
-      "id": "b4cec33677b25468"
+      "id": "8fd6b65cba0d4e61"
     },
     {
       "date": "2026-06-11T07:00:00+00:00",
@@ -262,6 +262,16 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
       "source": "European Parliament",
       "id": "493e0c88f1ddf0aa"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5",
+      "source": "European Parliament",
+      "id": "79a62faf5cd4f16a"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
