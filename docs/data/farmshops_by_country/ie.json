@@ -288,6 +288,30 @@
     "address": "sarsfieldtown"
   },
   {
+    "id": 13974251613,
+    "name": "Highbank Orchard Shop",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://highbankorchards.com/",
+    "lat": 52.583204,
+    "lon": -7.3077749,
+    "address": null
+  },
+  {
+    "id": 13985340836,
+    "name": "Skehana Hill Farm Shop",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 52.7325229,
+    "lon": -7.399804,
+    "address": "The Fowl Market"
+  },
+  {
     "id": 34361890,
     "name": "Strawberry Fields",
     "country": "Ireland",
@@ -721,12 +745,12 @@
   },
   {
     "id": 1485004883,
-    "name": "Moydrum Castel Woodland",
+    "name": "Moydrum Castle Woodland",
     "country": "Ireland",
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
+    "website": null,
     "lat": 53.4272187,
     "lon": -7.8635785,
     "address": null
@@ -744,18 +768,6 @@
     "address": null
   },
   {
-    "id": 11773698,
-    "name": "Edenmore Farm",
-    "country": "Ireland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 54.8480158,
-    "lon": -7.4851595,
-    "address": null
-  },
-  {
     "id": 15770264,
     "name": "The Horses' Field",
     "country": "Ireland",
@@ -769,14 +781,26 @@
   },
   {
     "id": 1485004883,
-    "name": "Moydrum Castle Woodland",
+    "name": "Moydrum Castel Woodland",
+    "country": "Ireland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8",
+    "lat": 53.4272187,
+    "lon": -7.8635785,
+    "address": null
+  },
+  {
+    "id": 11773698,
+    "name": "Edenmore Farm",
     "country": "Ireland",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 53.4272187,
-    "lon": -7.8635785,
+    "lat": 54.8480158,
+    "lon": -7.4851595,
     "address": null
   },
   {
