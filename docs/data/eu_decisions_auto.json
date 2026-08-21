@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T05:35:36.290947+00:00",
+  "updated_at": "2026-08-21T05:35:54.242805+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -72,6 +72,16 @@
       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3RuVUlxcVhaUU5pQlZCUWFlUW96Qi1vSUllaXJwbUFDZVJmbUx3X21TQWViSGh3YjJkSzBKcXdFNHRtLUtZTGJkeGlkRVE5dko1T0g0MkQxeWpWSkh2SzRqbUpQYkg1bU1BckZaT3NxYjNRS2xxb29OTlg0Q0lRQ2RoUnhGVXd1MXNJZWJRaXFmSm9BUy04V1RnNmRFMFhWMWEzQW5xbFlHNGd6NGFZWm9HdFh6OWpJb3EyM0t4X1B4R1dYaEtPMnVGSWpLZVVhRWFmejhoZXZkQVV6bnhXUkVKNkQ3aGdqeWc4Tks5MFFYd3dhWXFFLVdvVlI?oc=5",
       "source": "consilium.europa.eu",
       "id": "cf9070b72a864a19"
+    },
+    {
+      "date": "2026-03-19T02:41:44+00:00",
+      "title": "10 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " 10 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcUZXZjZ0czRTUVJrY2h6ZVItUDd6X0c2Tkx1OTdkVHFQSVdIZ0FNVlpxWUhQeHV3ZHl0dUp0TkNyd29wUjRLOTFraURpWTRsMUthODlUMGJWSG4tM2V1RzZKLWp0OWxibElqMGJkNnZXQjRRU2NaZnpLWk1zdFF4RjdHblhPeTcxRFBWcHJQQmdoRWFnaFJEV2QzR01nclA0ckRsZTlwR3dZZ3VkYV8yOUhUVEdYMGRWREZmWkF5MXM?oc=5",
+      "source": "European Parliament",
+      "id": "a3a0f419124872f3"
     },
     {
       "date": "2025-12-22T21:31:34+00:00",
