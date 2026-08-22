@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T05:35:54.242805+00:00",
+  "updated_at": "2026-08-22T05:34:58.292112+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -74,24 +74,14 @@
       "id": "cf9070b72a864a19"
     },
     {
-      "date": "2026-03-19T02:41:44+00:00",
-      "title": "10 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 10 2025 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcUZXZjZ0czRTUVJrY2h6ZVItUDd6X0c2Tkx1OTdkVHFQSVdIZ0FNVlpxWUhQeHV3ZHl0dUp0TkNyd29wUjRLOTFraURpWTRsMUthODlUMGJWSG4tM2V1RzZKLWp0OWxibElqMGJkNnZXQjRRU2NaZnpLWk1zdFF4RjdHblhPeTcxRFBWcHJQQmdoRWFnaFJEV2QzR01nclA0ckRsZTlwR3dZZ3VkYV8yOUhUVEdYMGRWREZmWkF5MXM?oc=5",
-      "source": "European Parliament",
-      "id": "a3a0f419124872f3"
-    },
-    {
-      "date": "2025-12-22T21:31:34+00:00",
+      "date": "2026-03-06T01:03:51+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOd3M4NHJfbDM3LUxldm93OTdxQmQ5Zk9RQWppSlJzVlRxQThKVUZ2S1ZwZ0VuMTZSaWFZNk9XeWxReW4ta3pQT19VUmxXSUZQU1JqcWQwZmtYakRnRjM2ZkM0eEh0d2pMaUhaQzRYSnFiQ2VyaGhRdmM3T0JMX25abUhSbDJWWVFzbHB2OHNiMFJiRnB6S2lEY3FtNG9NTTY3TVNLdjhNalNuaVFXS1JFUi1vb3BaNnhpN05jX1V6SFR1N0lxOHdGUnpIWGRKamRBWnlRZnZid1d2OWZsc1lmcUEwVVJMR05iUjRkbW54Z1dLUWxxRXVnbXV6NlpNMlFDeDZiZHhWbU8wV25U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbEtiY01vMzRrcTA3eXh6RUJoMjZfVkRCR0VmN3ZyVnV4b0xNQVB4T2pXSkZKSEtPOGpXczN3Y2daR2JiYXNFbnFuRVlZNmVRd0xGZGdTTV9SRUN1NGlfQ3I3TUtsR3ZnbmF5UWc0OVRzeXBtU1dwNWw5Y21keUZFQUtXNkVXNTg4Y1JGdHVxZXp5MUowUkI1ZjBYckItbnZCYkZkOUxPRU1pY0FhTi1jQWFlMk1aUDREZVBTVjBrcW5WTmJSU2tfcGpzajF3aU1qd3RYMGQ1MGszVjFrYjY4NE1nZGdRbUltX0V5WjJvc0NzblhHaVZSZllQUVlmOUFsbHBaNVJDMVdsbzZk?oc=5",
       "source": "European Parliament",
-      "id": "bef50ffbb9e1144b"
+      "id": "6c486d2efff9c77a"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
@@ -214,6 +204,16 @@
       "id": "cf7689a9af15cce6"
     },
     {
+      "date": "2025-02-15T05:20:10+00:00",
+      "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "377d942b98585f30"
+    },
+    {
       "date": "2025-02-06T08:00:00+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -232,16 +232,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
       "source": "EUR-Lex",
       "id": "b728d19d56a95238"
-    },
-    {
-      "date": "2024-10-02T22:12:39+00:00",
-      "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMXJQX2p2TWdSRkdCdElxY1lmdFhmRUdCSTRWcXlNX09Sb1AySG9KaUw4UnFRSjlQdnVZdmpsZDdTUTBNdUdJSDRnUGZCeTF1aDhxUFBKZGtFS1dwVlJsV093RzZCamxucEJYeXJkRTcyWUtrVjBmc2RfS2ttUGUyRDdZSnBGN0l1QlVFNmJYc0lhX205Tm44bw?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "5837b7fe867885a2"
     },
     {
       "date": "2024-10-01T20:28:50+00:00",
