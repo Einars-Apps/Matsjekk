@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T05:35:17.278071+00:00",
+  "updated_at": "2026-08-24T05:36:56.732772+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -74,14 +74,24 @@
       "id": "cf9070b72a864a19"
     },
     {
-      "date": "2026-03-06T01:03:51+00:00",
+      "date": "2026-03-19T01:52:32+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbEtiY01vMzRrcTA3eXh6RUJoMjZfVkRCR0VmN3ZyVnV4b0xNQVB4T2pXSkZKSEtPOGpXczN3Y2daR2JiYXNFbnFuRVlZNmVRd0xGZGdTTV9SRUN1NGlfQ3I3TUtsR3ZnbmF5UWc0OVRzeXBtU1dwNWw5Y21keUZFQUtXNkVXNTg4Y1JGdHVxZXp5MUowUkI1ZjBYckItbnZCYkZkOUxPRU1pY0FhTi1jQWFlMk1aUDREZVBTVjBrcW5WTmJSU2tfcGpzajF3aU1qd3RYMGQ1MGszVjFrYjY4NE1nZGdRbUltX0V5WjJvc0NzblhHaVZSZllQUVlmOUFsbHBaNVJDMVdsbzZk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1RtTjlMa24yUUdpeEt1OC1ETFJoVzY0dzJWWGo0Vi1sSV9DRlBmSjVoNEdnRUVrZ01CeTZQSWhhVlR0aWRnNVpLcC1wUDl0TVFpTXFVN29jZzEzTERuTzlnd3NpcE9URllUYXpWd0FMbURpNS1EYm01QkFwV2dNSXBIWWVqTVVEU0pHclRXR1BBT04zdUNwOE81NU5ZUk51ZWJ3MXFZdGFyN0d3MTRXdnNySXZGdEdHSEplLXA3NmxOemNsWnd2TS1KS0FYN2tDRXBkRnlJa0ZLRnAySlBLSHUzQzktODVDZUl0Zm04Z2Rlai1PbkVjUWZlX29ORlpfRDhwMk5Td0Y1LXNk?oc=5",
       "source": "European Parliament",
-      "id": "6c486d2efff9c77a"
+      "id": "4a67fb3025e6c8f0"
+    },
+    {
+      "date": "2026-03-11T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Bovaer",
+      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5",
+      "source": "EUR-Lex",
+      "id": "332bdc7244484b01"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
