@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-08-24T05:36:56.732772+00:00",
+  "updated_at": "2026-08-25T05:35:44.020804+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-08-14T12:03:57+00:00",
+      "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "e833033a9088445f"
+    },
     {
       "date": "2026-07-16T07:00:00+00:00",
       "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
@@ -12,16 +22,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5",
       "source": "food.ec.europa.eu",
       "id": "735b53494e258ddb"
-    },
-    {
-      "date": "2026-06-17T12:53:03+00:00",
-      "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "e833033a9088445f"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -272,6 +272,16 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5",
       "source": "European Parliament",
       "id": "79a62faf5cd4f16a"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5",
+      "source": "European Parliament",
+      "id": "a2aaee007a993137"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
