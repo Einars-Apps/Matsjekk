@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-08-27T08:05:53.902877+00:00",
+  "updated_at": "2026-08-28T08:07:50.242958+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
-    {
-      "date": "2026-08-14T12:03:57+00:00",
-      "title": "New Genomic Techniques (NGTs) - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques (NGTs) &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TbDV5cEFNaERIeEttVi1faHFWYVNIcGs1UTdxZW40Szl4LW5pS2cyazI4bXF3Z0tXZGlMNXJvdHdhZS1CUTk5R0oxUWg3UTBhQmk0T0FVd1dVVHpHMTdKbHBFcXBMc1YyZ2c?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "e833033a9088445f"
-    },
     {
       "date": "2026-07-16T07:00:00+00:00",
       "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
