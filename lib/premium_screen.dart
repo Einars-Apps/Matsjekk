@@ -1,5 +1,3 @@
-import 'dart:io' show Platform;
-
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
@@ -143,7 +141,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             const SizedBox(height: 8),
-            if (!_premiumService.isLoading && Platform.isIOS)
+            if (!_premiumService.isLoading)
               TextButton.icon(
               onPressed: () async {
                 await _premiumService.restorePurchases();
