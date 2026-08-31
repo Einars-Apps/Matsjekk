@@ -67988,8 +67988,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.6186588,
-    "lon": 9.1223656,
+    "lat": 48.6186981,
+    "lon": 9.1224746,
     "address": null
   },
   {
@@ -68425,18 +68425,6 @@
     "address": "Friedrich-List-Straße"
   },
   {
-    "id": 36741901,
-    "name": "Hofladen Müller",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.biohof-mueller.com/hofladen/",
-    "lat": 47.7353294,
-    "lon": 9.0696054,
-    "address": null
-  },
-  {
     "id": 36844751,
     "name": "Bio-Markt Meyer-Arend",
     "country": "Germany",
@@ -68623,9 +68611,9 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://ml-algen.de/",
-    "lat": 51.9640391,
-    "lon": 6.8756256,
+    "website": "http://ml-algen.de",
+    "lat": 51.9642367,
+    "lon": 6.8746879,
     "address": null
   },
   {
@@ -69824,8 +69812,8 @@
     "municipality": "Dornum",
     "products": [],
     "website": "https://www.poppinga-obsthof.de/",
-    "lat": 53.6494048,
-    "lon": 7.4355951,
+    "lat": 53.6494103,
+    "lon": 7.4356179,
     "address": "Accumer Riege"
   },
   {
@@ -70597,6 +70585,18 @@
     "address": null
   },
   {
+    "id": 117879165,
+    "name": "Dammwildgehege",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.3082833,
+    "lon": 11.4675515,
+    "address": null
+  },
+  {
     "id": 119217072,
     "name": "Offer's Grünes Warenhaus",
     "country": "Germany",
@@ -70797,7 +70797,7 @@
     "products": [],
     "website": "https://www.himbeeren-seedorf-am-schaalsee.de/",
     "lat": 53.6162909,
-    "lon": 10.8726261,
+    "lon": 10.8724768,
     "address": null
   },
   {
@@ -71389,6 +71389,18 @@
     "address": "Am Geflügelhof"
   },
   {
+    "id": 141210707,
+    "name": "Leichlinger Champignonzucht",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Leichlingen (Rheinland)",
+    "products": [],
+    "website": "https://www.leichlinger-champignonzucht.de/",
+    "lat": 51.1161271,
+    "lon": 7.0269454,
+    "address": "Bergerhof"
+  },
+  {
     "id": 141219928,
     "name": "Biohof Bühler (Demeter)",
     "country": "Germany",
@@ -71912,8 +71924,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.711658,
-    "lon": 8.9121525,
+    "lat": 48.7116721,
+    "lon": 8.9121467,
     "address": null
   },
   {
@@ -72493,18 +72505,6 @@
     "address": null
   },
   {
-    "id": 174737972,
-    "name": "Hof Icken",
-    "country": "Germany",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.hof-icken.de/",
-    "lat": 53.6478025,
-    "lon": 8.5985113,
-    "address": "Hörn"
-  },
-  {
     "id": 176431279,
     "name": "Naturkostladen Bioland-Hof Deiters",
     "country": "Germany",
@@ -72569,12 +72569,12 @@
     "name": "Daniels Hühnerhof",
     "country": "Germany",
     "region": null,
-    "municipality": "Seibersbach",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 49.9591712,
     "lon": 7.7189335,
-    "address": "Zum Schlossgrund"
+    "address": null
   },
   {
     "id": 180970166,
@@ -73535,6 +73535,18 @@
     "lat": 48.7546722,
     "lon": 10.3448994,
     "address": "Alte Kösinger Straße"
+  },
+  {
+    "id": 215059818,
+    "name": "Wild Speisepilze",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Unterpleichfeld",
+    "products": [],
+    "website": null,
+    "lat": 49.8679469,
+    "lon": 10.0430655,
+    "address": "Burggrumbacher Straße"
   },
   {
     "id": 215068100,
@@ -75517,18 +75529,6 @@
     "address": null
   },
   {
-    "id": 292947422,
-    "name": "Dorfladen Gunzesried",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Blaichach",
-    "products": [],
-    "website": null,
-    "lat": 47.5218326,
-    "lon": 10.2274379,
-    "address": "Talstraße"
-  },
-  {
     "id": 293197992,
     "name": "Gut Hirschaue",
     "country": "Germany",
@@ -76897,6 +76897,18 @@
     "address": "Am Loenschen Gut"
   },
   {
+    "id": 369527875,
+    "name": "Ostseeländer Bio-Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Züssow",
+    "products": [],
+    "website": "http://www.ostseeländer-biowelt.de",
+    "lat": 53.9790085,
+    "lon": 13.5542133,
+    "address": "Gustav-Jahn-Straße"
+  },
+  {
     "id": 369586048,
     "name": "Streuobstbaumreihe",
     "country": "Germany",
@@ -76979,18 +76991,6 @@
     "lat": 49.0309912,
     "lon": 8.7041351,
     "address": null
-  },
-  {
-    "id": 373571230,
-    "name": "Merlau's Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Darmstadt",
-    "products": [],
-    "website": "https://www.spargel-merlau.de/hofladen",
-    "lat": 49.9162509,
-    "lon": 8.6341475,
-    "address": "Röntgenstraße"
   },
   {
     "id": 374688855,
@@ -78085,6 +78085,18 @@
     "address": null
   },
   {
+    "id": 443544857,
+    "name": "Aga´s Obst Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Seegebiet Mansfelder Land",
+    "products": [],
+    "website": "https://www.aga-obst.de/hofladen/",
+    "lat": 51.4876569,
+    "lon": 11.6756752,
+    "address": "Eislebener Straße"
+  },
+  {
     "id": 444837118,
     "name": "Simonshof",
     "country": "Germany",
@@ -79009,18 +79021,6 @@
     "address": null
   },
   {
-    "id": 512934047,
-    "name": "Milchtankstelle SB-Hofladen",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Herten",
-    "products": [],
-    "website": "https://bauer-godde.de/milchhuette.html",
-    "lat": 51.6080495,
-    "lon": 7.157894,
-    "address": "Marpenstraße"
-  },
-  {
     "id": 513026783,
     "name": "Biohof-Kröger",
     "country": "Germany",
@@ -79465,6 +79465,18 @@
     "address": "Hochwaldstraße"
   },
   {
+    "id": 556440121,
+    "name": "Höhenhof",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Wald-Michelbach",
+    "products": [],
+    "website": null,
+    "lat": 49.5528407,
+    "lon": 8.8087863,
+    "address": "Außerhalb"
+  },
+  {
     "id": 558840449,
     "name": "Stadt Bochum",
     "country": "Germany",
@@ -79877,7 +79889,7 @@
     "name": "Kettenburgs Hof",
     "country": "Germany",
     "region": null,
-    "municipality": null,
+    "municipality": "Rotenburg (Wümme)",
     "products": [],
     "website": "https://www.kettenburgs-hof.de/",
     "lat": 53.0790973,
@@ -80806,7 +80818,7 @@
     "website": "https://www.feines-vom-bauernhof.com/",
     "lat": 49.990833,
     "lon": 10.2303877,
-    "address": "Hauptstraße"
+    "address": "Am Kührasen"
   },
   {
     "id": 806148462,
@@ -81703,7 +81715,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.facebook.com/ReMatur/",
     "lat": 52.1674286,
     "lon": 13.3713862,
     "address": null
@@ -82285,6 +82297,18 @@
     "address": null
   },
   {
+    "id": 991358803,
+    "name": "Amons Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Mauer",
+    "products": [],
+    "website": "https://www.amonshofladen.de",
+    "lat": 49.3377082,
+    "lon": 8.7977425,
+    "address": "Bahnhofstraße"
+  },
+  {
     "id": 991667240,
     "name": "Obstbau Körner",
     "country": "Germany",
@@ -82351,7 +82375,7 @@
     "region": null,
     "municipality": "Neu Wulmstorf",
     "products": [],
-    "website": "https://www.zum-dorfkrug.de/landhof/",
+    "website": "https://landhof.zum-dorfkrug.de/",
     "lat": 53.4500961,
     "lon": 9.7891068,
     "address": "Höftenberg"
@@ -82655,18 +82679,6 @@
     "lat": 48.3902087,
     "lon": 11.6585342,
     "address": null
-  },
-  {
-    "id": 1032007087,
-    "name": "Hofladen Löffler",
-    "country": "Germany",
-    "region": null,
-    "municipality": "Waiblingen",
-    "products": [],
-    "website": "http://loeffler-hof.de/",
-    "lat": 48.8280473,
-    "lon": 9.3538628,
-    "address": "Krummenland"
   },
   {
     "id": 1032007088,
@@ -83198,7 +83210,7 @@
   },
   {
     "id": 1090672077,
-    "name": "Christams Trees",
+    "name": "Hessen Forst",
     "country": "Germany",
     "region": null,
     "municipality": null,
@@ -83624,8 +83636,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 51.7905353,
-    "lon": 7.3168087,
+    "lat": 51.7904971,
+    "lon": 7.3168201,
     "address": null
   },
   {
@@ -84557,6 +84569,66 @@
     "address": "Odenwaldstraße"
   },
   {
+    "id": 4855459,
+    "name": "Braunäcker",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 48.6186588,
+    "lon": 9.1223656,
+    "address": null
+  },
+  {
+    "id": 36741901,
+    "name": "Hofladen Müller",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.biohof-mueller.com/hofladen/",
+    "lat": 47.7353294,
+    "lon": 9.0696054,
+    "address": null
+  },
+  {
+    "id": 43974884,
+    "name": "Münsterland Algen GmbH",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "http://ml-algen.de/",
+    "lat": 51.9640391,
+    "lon": 6.8756256,
+    "address": null
+  },
+  {
+    "id": 98608648,
+    "name": "Poppinga Obsthof",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Dornum",
+    "products": [],
+    "website": "https://www.poppinga-obsthof.de/",
+    "lat": 53.6494048,
+    "lon": 7.4355951,
+    "address": "Accumer Riege"
+  },
+  {
+    "id": 123372916,
+    "name": "Wulff & Taube",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.himbeeren-seedorf-am-schaalsee.de/",
+    "lat": 53.6162909,
+    "lon": 10.8726261,
+    "address": null
+  },
+  {
     "id": 156471198,
     "name": "Beuttlers Bauernlädle",
     "country": "Germany",
@@ -84564,13 +84636,73 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 48.7116721,
-    "lon": 8.9121467,
+    "lat": 48.711658,
+    "lon": 8.9121525,
     "address": null
   },
   {
+    "id": 174737972,
+    "name": "Hof Icken",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.hof-icken.de/",
+    "lat": 53.6478025,
+    "lon": 8.5985113,
+    "address": "Hörn"
+  },
+  {
+    "id": 292947422,
+    "name": "Dorfladen Gunzesried",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Blaichach",
+    "products": [],
+    "website": null,
+    "lat": 47.5218326,
+    "lon": 10.2274379,
+    "address": "Talstraße"
+  },
+  {
+    "id": 373571230,
+    "name": "Merlau's Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Darmstadt",
+    "products": [],
+    "website": "https://www.spargel-merlau.de/hofladen",
+    "lat": 49.9162509,
+    "lon": 8.6341475,
+    "address": "Röntgenstraße"
+  },
+  {
+    "id": 512934047,
+    "name": "Milchtankstelle SB-Hofladen",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Herten",
+    "products": [],
+    "website": "https://bauer-godde.de/milchhuette.html",
+    "lat": 51.6080495,
+    "lon": 7.157894,
+    "address": "Marpenstraße"
+  },
+  {
+    "id": 1032007087,
+    "name": "Hofladen Löffler",
+    "country": "Germany",
+    "region": null,
+    "municipality": "Waiblingen",
+    "products": [],
+    "website": "http://loeffler-hof.de/",
+    "lat": 48.8280473,
+    "lon": 9.3538628,
+    "address": "Krummenland"
+  },
+  {
     "id": 1090672077,
-    "name": "Hessen Forst",
+    "name": "Christams Trees",
     "country": "Germany",
     "region": null,
     "municipality": null,
@@ -84578,6 +84710,18 @@
     "website": null,
     "lat": 50.4258537,
     "lon": 8.7746115,
+    "address": null
+  },
+  {
+    "id": 1168784676,
+    "name": "Das Ei-Team",
+    "country": "Germany",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 51.7905353,
+    "lon": 7.3168087,
     "address": null
   },
   {
