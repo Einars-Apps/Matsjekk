@@ -419356,6 +419356,18 @@
       "lat": 32.6860679,
       "lon": -16.8226344,
       "address": "Caminho Pico Norte"
+    },
+    {
+      "id": 13996052504,
+      "name": "Banca da Dádiva",
+      "country": "Portugal",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 38.7560471,
+      "lon": -9.1566975,
+      "address": null
     }
   ],
   "ES": [
