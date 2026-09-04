@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T05:50:21.740957+00:00",
+  "updated_at": "2026-09-04T05:29:56.264015+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -85,13 +85,13 @@
     },
     {
       "date": "2026-03-11T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - eur-lex.europa.eu",
+      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; eur-lex.europa.eu ",
+      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5",
-      "source": "eur-lex.europa.eu",
-      "id": "ed3afab254279719"
+      "source": "EUR-Lex",
+      "id": "332bdc7244484b01"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
@@ -165,13 +165,23 @@
     },
     {
       "date": "2025-04-16T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - eur-lex.europa.eu",
+      "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; eur-lex.europa.eu ",
+      "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
-      "source": "eur-lex.europa.eu",
-      "id": "d2c19cf391f99a10"
+      "source": "EUR-Lex",
+      "id": "49317d781619a1f2"
+    },
+    {
+      "date": "2025-04-10T07:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2MyNVRLU09LcmltT0ZQd3ZLZ25LMDV5S2tiVW1ZWnNKanVYd3ZqWlB5YThMS1lnRDJCdmN4U0UxZzQwaW1nZG05TEVSRnNWaTFJTDZXM3NMeUw3bTRRdWVFYl9oeDZreHF0SUFEWUhTeFd3Rjd2LVJkRW4zdVllWC1IanItYzFqa2dSWWtoakktdUtjQkdISHR1NWVZUk9sdklfZzRnQ2xod1dqbGVPT0tSZW5mcnl3VGZ5V0hJRzhiUnY2eURuQ2k2aUlHSG5z?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "58cc52b4e206877c"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -195,13 +205,13 @@
     },
     {
       "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - eur-lex.europa.eu",
+      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; eur-lex.europa.eu ",
+      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
-      "source": "eur-lex.europa.eu",
-      "id": "23f44e4ec1bdc9b9"
+      "source": "EUR-Lex",
+      "id": "b728d19d56a95238"
     },
     {
       "date": "2024-10-02T22:12:39+00:00",
@@ -245,13 +255,13 @@
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
-      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - eur-lex.europa.eu",
+      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
-      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; eur-lex.europa.eu ",
+      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
-      "source": "eur-lex.europa.eu",
-      "id": "2a1a89e1123ea48f"
+      "source": "EUR-Lex",
+      "id": "d5fb36521e33afe9"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
@@ -275,13 +285,13 @@
     },
     {
       "date": "2023-09-06T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - eur-lex.europa.eu",
+      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; eur-lex.europa.eu ",
+      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
-      "source": "eur-lex.europa.eu",
-      "id": "02542367898604ee"
+      "source": "EUR-Lex",
+      "id": "689659b69845a846"
     }
   ]
 }
