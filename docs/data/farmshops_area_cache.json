@@ -40579,6 +40579,22 @@
         "mapsUrl": ""
       },
       {
+        "name": "Labralia",
+        "countryCode": "ES",
+        "country": "Spain",
+        "region": "",
+        "municipality": "",
+        "address": "",
+        "products": [],
+        "website": "",
+        "lat": 42.7915473,
+        "lon": -8.8881346,
+        "category": "Gårdsutsalg",
+        "phone": "",
+        "openingHours": "",
+        "mapsUrl": ""
+      },
+      {
         "name": "Queso Convento Tórtoles de Esgueva",
         "countryCode": "ES",
         "country": "Spain",
@@ -40760,7 +40776,7 @@
         "country": "Spain",
         "region": "",
         "municipality": "",
-        "address": "",
+        "address": "Calle del Ferrocarril",
         "products": [],
         "website": "",
         "lat": 40.4010967,
@@ -41523,7 +41539,7 @@
         "mapsUrl": ""
       },
       {
-        "name": "SUPER Campoastur",
+        "name": "Campoastur Tapia de Casariego",
         "countryCode": "ES",
         "country": "Spain",
         "region": "",
@@ -42413,22 +42429,6 @@
         "website": "",
         "lat": 41.394464,
         "lon": 2.1954883,
-        "category": "Gårdsutsalg",
-        "phone": "",
-        "openingHours": "",
-        "mapsUrl": ""
-      },
-      {
-        "name": "Frutalia Export S.L",
-        "countryCode": "ES",
-        "country": "Spain",
-        "region": "",
-        "municipality": "La Mojonera",
-        "address": "Calle 29 de Junio",
-        "products": [],
-        "website": "",
-        "lat": 36.7916902,
-        "lon": -2.7093525,
         "category": "Gårdsutsalg",
         "phone": "",
         "openingHours": "",
