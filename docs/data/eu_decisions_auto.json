@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T05:28:56.325086+00:00",
+  "updated_at": "2026-09-06T05:28:29.647948+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -64,14 +64,14 @@
       "id": "cf9070b72a864a19"
     },
     {
-      "date": "2026-04-03T01:30:56+00:00",
+      "date": "2026-03-19T01:52:32+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTRBbzZqLW55UHRfV0UybjRLSGFzbV94VHJGWFZXaEJ0MjhMX3BMNVpFWHlYSFJqeUk1NjhETThVSVdvSkZSdWh4cENSZF95aG83cXBfS3FCanV4Q2FtLVZqM3duR2RLVjVLSkJpeWFvVGFKWDlYTjJEWENYRk5MNzRPdmEyMEotUmNVSU8wQjFrcWd5eE1mbWNFRXpaZUlOUWl2UWVBRHV6WnhTek5WRUw4eksySWhOX2tqMjRRMFBUcG1kcWRZNWU1REF5enlSQzNDUE5VdGh5UWltX2xBLUEzTFBWNEhIYVZRVy1TSnk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1RtTjlMa24yUUdpeEt1OC1ETFJoVzY0dzJWWGo0Vi1sSV9DRlBmSjVoNEdnRUVrZ01CeTZQSWhhVlR0aWRnNVpLcC1wUDl0TVFpTXFVN29jZzEzTERuTzlnd3NpcE9URllUYXpWd0FMbURpNS1EYm01QkFwV2dNSXBIWWVqTVVEU0pHclRXR1BBT04zdUNwOE81NU5ZUk51ZWJ3MXFZdGFyN0d3MTRXdnNySXZGdEdHSEplLXA3NmxOemNsWnd2TS1KS0FYN2tDRXBkRnlJa0ZLRnAySlBLSHUzQzktODVDZUl0Zm04Z2Rlai1PbkVjUWZlX29ORlpfRDhwMk5Td0Y1LXNk?oc=5",
       "source": "European Parliament",
-      "id": "1e18ebb009a549c3"
+      "id": "4a67fb3025e6c8f0"
     },
     {
       "date": "2026-03-11T07:00:00+00:00",
@@ -152,6 +152,16 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2R0eGtrdVBCSHk4Q0hrNS0tdkhiZ3VUSWFDTE1GQmVKZTBER18tNFptM1ZINGxxclBfdDl4NGxJQzlEYkZZbDZicjk2bnVyQmZ0b1VFWDZJR00xUTBockdGSHEyWUdad1R2U3JTbWNIY1lPWjg4VEdFc1pDUDhJZ0xJWjA2Y2FFTU5rOTkwZkNnMEgyRFlsUUFsZzJZYVYzUW1jTmNnSnMzWTdpclYxYXNlYUVFMkQ2d0FMeWhnRzBSMHdUaUpsa1dCUG9KWE5STHB1LTY3bjQ?oc=5",
       "source": "food.ec.europa.eu",
       "id": "58f880ce4b07ed95"
+    },
+    {
+      "date": "2025-06-12T07:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOWJCWjBZUGU5WnVXLW5NaGFPQzNwS0p5aV9mMjNpLW1kbXIzWk9SSUY5YjV2X2FmV0VVMzFvY2VCbFRVRENmZF9vcV9NZ3NqNmRpb0RtaW9WMjRMZ01OaGI4VkdHN19qLTJPaDdqSWM1bWdiVEYtVV9XT3hHTVNrdzItRl9QQUtMa2pwNlBYR1FwTU5peEhSZ0UzdXphT2JVRGs2Z1c0R29Yb1duS2tILTZlUWgzai1EaEFOeWRsSzRGblk3?oc=5",
+      "source": "food.ec.europa.eu",
+      "id": "8f3e188c51e78fe2"
     },
     {
       "date": "2025-04-16T07:00:00+00:00",
@@ -252,16 +262,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFNlN1dDaFFVWXVpYk91N3BHWUJrNnJuZUtZNUpWNVI4eE5zT2hyVUM0ZTB4LWk4cC1oZERMYlFPMmU2dktOdG1PZkd2bGlkVXJacTVGdDFQNk0zVlItTmQ3QkdxaE80UjNHWmVvYnY0X0FUaFZVYzZuVkFiV0lBOHh2cHlnWi1lUmk3NGluYno0SEozS3lLMTh5LWhadw?oc=5",
       "source": "food.ec.europa.eu",
       "id": "252c440680606480"
-    },
-    {
-      "date": "2023-09-06T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2023/… of 6 September 2023 on the status of attapulgite as a feed additive within the &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83U3VkZ2JLTkJNSWstRnp2Rmw0VU5XUzVRWmNkbHZEV0R0Z1RTbEVzVC1MWDlnS0pXTGVCQ25pblFjZ0FNX2xTNVJWTldDbm5lQ2o2ZTFpX1lnR09EcnRUQmpTS0t0dWVuNE4tTFY0WW9pbzEwanZ5Q1lmbU4?oc=5",
-      "source": "EUR-Lex",
-      "id": "689659b69845a846"
     }
   ]
 }
