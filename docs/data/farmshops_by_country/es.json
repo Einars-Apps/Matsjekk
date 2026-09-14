@@ -48,18 +48,6 @@
     "address": null
   },
   {
-    "id": 1278629098,
-    "name": "Labralia",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.7915473,
-    "lon": -8.8881346,
-    "address": null
-  },
-  {
     "id": 1410987794,
     "name": "Queso Convento Tórtoles de Esgueva",
     "country": "Spain",
@@ -201,7 +189,7 @@
     "website": null,
     "lat": 40.4010967,
     "lon": -3.6962615,
-    "address": "Calle del Ferrocarril"
+    "address": null
   },
   {
     "id": 3257050982,
@@ -769,7 +757,7 @@
   },
   {
     "id": 5658991521,
-    "name": "Campoastur Tapia de Casariego",
+    "name": "SUPER Campoastur",
     "country": "Spain",
     "region": null,
     "municipality": "Tapia de Casariego",
@@ -2508,27 +2496,15 @@
     "address": null
   },
   {
-    "id": 13927043905,
-    "name": "Anbotopeko",
+    "id": 9727345,
+    "name": "Parm Forest (Palmenallee)",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 43.1312396,
-    "lon": -2.5401364,
-    "address": null
-  },
-  {
-    "id": 13987488683,
-    "name": "Jesús",
-    "country": "Spain",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 42.5304559,
-    "lon": -3.3119266,
+    "lat": 28.1568098,
+    "lon": -14.2334564,
     "address": null
   },
   {
@@ -3552,18 +3528,6 @@
     "address": null
   },
   {
-    "id": 180380919,
-    "name": "Stolt Sea Farm (Camariñas)",
-    "country": "Spain",
-    "region": null,
-    "municipality": "Camariñas",
-    "products": [],
-    "website": "https://www.stoltseafarm.com/",
-    "lat": 43.1541943,
-    "lon": -9.2117309,
-    "address": "Estrada do Cabo Vilán a Camariñas"
-  },
-  {
     "id": 183803270,
     "name": "A Tenda dos Queixos",
     "country": "Spain",
@@ -4219,8 +4183,8 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 39.558099,
-    "lon": 2.8963899,
+    "lat": 39.5580821,
+    "lon": 2.8963677,
     "address": null
   },
   {
@@ -6084,18 +6048,6 @@
     "address": null
   },
   {
-    "id": 1529171717,
-    "name": "Cosenia",
-    "country": "Spain",
-    "region": null,
-    "municipality": "la Sénia",
-    "products": [],
-    "website": "https://www.cooperativesagraries.cat/ca/mapa-cooperatiu/l/9213-agricola-de-la-senia-sccl.html",
-    "lat": 40.6324199,
-    "lon": 0.2859286,
-    "address": "Carrer de València"
-  },
-  {
     "id": 7961347,
     "name": "Olivar de la Partija",
     "country": "Spain",
@@ -6348,8 +6300,20 @@
     "address": null
   },
   {
+    "id": 1278629098,
+    "name": "Labralia",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.7915473,
+    "lon": -8.8881346,
+    "address": null
+  },
+  {
     "id": 5658991521,
-    "name": "SUPER Campoastur",
+    "name": "Campoastur Tapia de Casariego",
     "country": "Spain",
     "region": null,
     "municipality": "Tapia de Casariego",
@@ -6360,16 +6324,40 @@
     "address": null
   },
   {
-    "id": 9727345,
-    "name": "Parm Forest (Palmenallee)",
+    "id": 13927043905,
+    "name": "Anbotopeko",
     "country": "Spain",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 28.1568098,
-    "lon": -14.2334564,
+    "lat": 43.1312396,
+    "lon": -2.5401364,
     "address": null
+  },
+  {
+    "id": 13987488683,
+    "name": "Jesús",
+    "country": "Spain",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 42.5304559,
+    "lon": -3.3119266,
+    "address": null
+  },
+  {
+    "id": 180380919,
+    "name": "Stolt Sea Farm (Camariñas)",
+    "country": "Spain",
+    "region": null,
+    "municipality": "Camariñas",
+    "products": [],
+    "website": "https://www.stoltseafarm.com/",
+    "lat": 43.1541943,
+    "lon": -9.2117309,
+    "address": "Estrada do Cabo Vilán a Camariñas"
   },
   {
     "id": 447781623,
@@ -6379,9 +6367,21 @@
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 39.5580821,
-    "lon": 2.8963677,
+    "lat": 39.558099,
+    "lon": 2.8963899,
     "address": null
+  },
+  {
+    "id": 1529171717,
+    "name": "Cosenia",
+    "country": "Spain",
+    "region": null,
+    "municipality": "la Sénia",
+    "products": [],
+    "website": "https://www.cooperativesagraries.cat/ca/mapa-cooperatiu/l/9213-agricola-de-la-senia-sccl.html",
+    "lat": 40.6324199,
+    "lon": 0.2859286,
+    "address": "Carrer de València"
   },
   {
     "id": 13081379299,
