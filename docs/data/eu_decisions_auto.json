@@ -1,18 +1,8 @@
 {
-  "updated_at": "2026-09-14T05:31:29.317577+00:00",
+  "updated_at": "2026-09-15T05:31:04.262807+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
-    {
-      "date": "2026-09-04T22:47:59+00:00",
-      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 30. oktoober 2023 - consilium.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 30. oktoober 2023 &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWjRERnY3d2M2TVdSamYxYkdrUkp5b0pwRHRRODNpOUo4VWlrNmxZYlhaV09rS19SQktzajNXTm0weWpwbjVSZXIyYUhyN293aFd1bnAxa2o1endXb3l3VjRHZ3hZR1VxT0YtVldaSkY4aUljbVE2amtPcEhLNF9veUtZbndINlJ2YkNrUFNEQm5wOWEtTlluSjdxRHRKTDRhRmpOZDBSNld1MmcwcTdsR1pVcnl6UVBFX3lvdVEtRTVoSzBsd1pQb0pQMVY4cVNVM1FvOTM3T1QzejFMS0FXTHZPbERWUQ?oc=5",
-      "source": "consilium.europa.eu",
-      "id": "9b796fcba5ee4d4d"
-    },
     {
       "date": "2026-07-16T07:00:00+00:00",
       "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - European Commission",
@@ -115,13 +105,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Zpravodajství | Evropský parlament - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Atualidade | Parlamento Europeu &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYlo0Q0JlTS1EQjZMZ3hFQmpiTFAtYlItSE9VVS1XbjA4c18yZEhTNWswdlZCQ21SclZrdzZLN2lCVVMxN0xiSUN2X1d0aVNHcGVsMkw5RDRLVDNRaHhfek9Pa3U5SkNVaXhmYUdaQXpZeDhiVGhJVHFMLXhEbWNPT0d3VlV6WXhGZmdKWUlyUGlMYjIxRjRXN2w4TUIwRkJJWS1HQjBVMlJoS081Q0gxMnBkTFVvT0R5RzBuOGZZYm1zbDRjNlgxTGdNWVZ0bkJtZzg0?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Zpravodajství | Evropský parlament &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU0pHVkgwSGlUNC1lNmJzMWpVd2xEVmk5Y1JRRzJsUVZPNGxHQXhuM3VGd1dXTjZaemxmWTZVMV84Z0VzcnFyQmprdHYxNm5UN2hsOWdnMjRKaFRsT3oxeXJOX01oU2NUa0RxdkhRNzBubUd6V3JhUVdMRVI1eEwwY2I3cXAza2ViTEQ0TDY3SHlROG91YUNibTBqdklORkNEc2s4R243QXV6cEFOdTYtaXVKYnFFUlF0bnFjeXJiNm9HVklGeVoxcldkZldCX3MtQkZn?oc=5",
       "source": "European Parliament",
-      "id": "fc0ffd0ad28b40ea"
+      "id": "3b0ed59fac3ab2b3"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -204,6 +194,16 @@
       "id": "cf7689a9af15cce6"
     },
     {
+      "date": "2025-02-15T05:20:10+00:00",
+      "title": "Approval of another insect/insect-derived food as a Novel Food - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
+      "source": "European Commission",
+      "id": "c81fd5777f2e7df4"
+    },
+    {
       "date": "2024-11-07T08:00:00+00:00",
       "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -212,26 +212,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
       "source": "EUR-Lex",
       "id": "b728d19d56a95238"
-    },
-    {
-      "date": "2024-10-02T22:12:39+00:00",
-      "title": "Approval of another insect/insect-derived food as a Novel Food - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMXJQX2p2TWdSRkdCdElxY1lmdFhmRUdCSTRWcXlNX09Sb1AySG9KaUw4UnFRSjlQdnVZdmpsZDdTUTBNdUdJSDRnUGZCeTF1aDhxUFBKZGtFS1dwVlJsV093RzZCamxucEJYeXJkRTcyWUtrVjBmc2RfS2ttUGUyRDdZSnBGN0l1QlVFNmJYc0lhX205Tm44bw?oc=5",
-      "source": "European Commission",
-      "id": "7857cecb741a576c"
-    },
-    {
-      "date": "2024-10-01T20:28:50+00:00",
-      "title": "Consultation process on novel food status - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation process on novel food status &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2pBaEpCekhoVU1SanJYUWpGcjltazlZTmFCSWNsallOX0RzMURKVWdaNTROWGhYYnQxTDZwVG1IUlFWb21DeUJBSGJUYUZKMC12Vjhjc0NqV0V6WkVNcnJKcnZKX3p0cDUzbDR1UFJpa2tPSUlxczM1TF9JWmw4T0ZrSjFxb2RMYkJOaWE0RnhEUE1X?oc=5",
-      "source": "European Commission",
-      "id": "beb0f7cada398e1e"
     },
     {
       "date": "2024-10-01T20:25:26+00:00",
@@ -252,16 +232,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
       "source": "European Parliament",
       "id": "493e0c88f1ddf0aa"
-    },
-    {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5",
-      "source": "European Parliament",
-      "id": "a2aaee007a993137"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
