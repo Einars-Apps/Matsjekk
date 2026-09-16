@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T05:31:04.262807+00:00",
+  "updated_at": "2026-09-16T05:31:23.876305+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -32,16 +32,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
       "source": "European Parliament",
       "id": "b4cec33677b25468"
-    },
-    {
-      "date": "2026-06-11T07:00:00+00:00",
-      "title": "New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5",
-      "source": "European Parliament",
-      "id": "63e593959e16953d"
     },
     {
       "date": "2026-06-09T18:13:03+00:00",
@@ -154,16 +144,6 @@
       "id": "09aeaef5137a6cd2"
     },
     {
-      "date": "2025-07-09T07:00:00+00:00",
-      "title": "Consultation request for the determination of novel food status - European Commission",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation request for the determination of novel food status &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2R0eGtrdVBCSHk4Q0hrNS0tdkhiZ3VUSWFDTE1GQmVKZTBER18tNFptM1ZINGxxclBfdDl4NGxJQzlEYkZZbDZicjk2bnVyQmZ0b1VFWDZJR00xUTBockdGSHEyWUdad1R2U3JTbWNIY1lPWjg4VEdFc1pDUDhJZ0xJWjA2Y2FFTU5rOTkwZkNnMEgyRFlsUUFsZzJZYVYzUW1jTmNnSnMzWTdpclYxYXNlYUVFMkQ2d0FMeWhnRzBSMHdUaUpsa1dCUG9KWE5STHB1LTY3bjQ?oc=5",
-      "source": "European Commission",
-      "id": "f4aad0d0ab657e95"
-    },
-    {
       "date": "2025-04-16T07:00:00+00:00",
       "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -194,24 +174,14 @@
       "id": "cf7689a9af15cce6"
     },
     {
-      "date": "2025-02-15T05:20:10+00:00",
+      "date": "2024-10-02T22:12:39+00:00",
       "title": "Approval of another insect/insect-derived food as a Novel Food - European Commission",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMXJQX2p2TWdSRkdCdElxY1lmdFhmRUdCSTRWcXlNX09Sb1AySG9KaUw4UnFRSjlQdnVZdmpsZDdTUTBNdUdJSDRnUGZCeTF1aDhxUFBKZGtFS1dwVlJsV093RzZCamxucEJYeXJkRTcyWUtrVjBmc2RfS2ttUGUyRDdZSnBGN0l1QlVFNmJYc0lhX205Tm44bw?oc=5",
       "source": "European Commission",
-      "id": "c81fd5777f2e7df4"
-    },
-    {
-      "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
-      "source": "EUR-Lex",
-      "id": "b728d19d56a95238"
+      "id": "7857cecb741a576c"
     },
     {
       "date": "2024-10-01T20:25:26+00:00",
