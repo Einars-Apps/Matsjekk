@@ -60591,7 +60591,7 @@
     "region": null,
     "municipality": "Kalanti",
     "products": [],
-    "website": null,
+    "website": "https://fi-fi.facebook.com/linnanpuistontila/",
     "lat": 60.8162868,
     "lon": 21.5325097,
     "address": "Kehäntie"
@@ -60987,7 +60987,7 @@
     "region": null,
     "municipality": "Kärkölä",
     "products": [],
-    "website": "https://www.yli-karkelantila.fi/",
+    "website": "http://www.yli-karkelantila.fi/",
     "lat": 60.8798751,
     "lon": 25.1747619,
     "address": "Seppäläntie"
@@ -61051,30 +61051,6 @@
     "lat": 61.2395043,
     "lon": 23.7981251,
     "address": "Perälänraitti"
-  },
-  {
-    "id": 13912200005,
-    "name": "Uljaan tila",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 60.5231012,
-    "lon": 25.6491169,
-    "address": null
-  },
-  {
-    "id": 14032619832,
-    "name": "Saaren luomiosuuskunta",
-    "country": "Finland",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 61.4498689,
-    "lon": 21.8732836,
-    "address": null
   },
   {
     "id": 76736163,
@@ -61277,7 +61253,7 @@
     "products": [],
     "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/seutulan-maisemakukkapelto",
     "lat": 60.3474761,
-    "lon": 24.8705828,
+    "lon": 24.8705792,
     "address": "Katriinantie"
   },
   {
@@ -61425,18 +61401,6 @@
     "address": null
   },
   {
-    "id": 1481567819,
-    "name": "Sale Hervantajärvi",
-    "country": "Finland",
-    "region": null,
-    "municipality": "Tampere",
-    "products": [],
-    "website": "https://www.s-kaupat.fi/myymala/sale-hervantajarvi/726396281",
-    "lat": 61.4390273,
-    "lon": 23.8715293,
-    "address": "Makkarajärvenkatu"
-  },
-  {
     "id": 11169847,
     "name": "Mustamaa",
     "country": "Finland",
@@ -61485,6 +61449,30 @@
     "address": null
   },
   {
+    "id": 13912200005,
+    "name": "Uljaan tila",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 60.5231012,
+    "lon": 25.6491169,
+    "address": null
+  },
+  {
+    "id": 14032619832,
+    "name": "Saaren luomiosuuskunta",
+    "country": "Finland",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 61.4498689,
+    "lon": 21.8732836,
+    "address": null
+  },
+  {
     "id": 839420642,
     "name": "Seutulan maisemakukkapelto",
     "country": "Finland",
@@ -61493,8 +61481,20 @@
     "products": [],
     "website": "https://www.vantaa.fi/fi/palveluhakemisto/toimipiste/seutulan-maisemakukkapelto",
     "lat": 60.3474761,
-    "lon": 24.8705792,
+    "lon": 24.8705828,
     "address": "Katriinantie"
+  },
+  {
+    "id": 1481567819,
+    "name": "Sale Hervantajärvi",
+    "country": "Finland",
+    "region": null,
+    "municipality": "Tampere",
+    "products": [],
+    "website": "https://www.s-kaupat.fi/myymala/sale-hervantajarvi/726396281",
+    "lat": 61.4390273,
+    "lon": 23.8715293,
+    "address": "Makkarajärvenkatu"
   },
   {
     "id": 13045862703,
