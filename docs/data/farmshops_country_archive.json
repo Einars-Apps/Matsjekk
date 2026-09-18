@@ -531130,6 +531130,18 @@
       "lat": 52.7325229,
       "lon": -7.399804,
       "address": "The Fowl Market"
+    },
+    {
+      "id": 682944460,
+      "name": "Kilbrannish North",
+      "country": "Ireland",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.coillte.ie/site/kilbrannish-north/",
+      "lat": 52.6634641,
+      "lon": -6.7376878,
+      "address": null
     }
   ],
   "AT": [
