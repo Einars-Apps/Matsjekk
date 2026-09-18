@@ -25236,6 +25236,169 @@
       "lon": 9.616314599999999,
       "address": "Bratsberggata 20",
       "source": "https://www.lokalmat.no/produsenter/onkelm/"
+    },
+    {
+      "id": "lokalmat_12477",
+      "name": "BIFFEN.NO",
+      "country": "Norway",
+      "region": "Østfold",
+      "municipality": "Kråk",
+      "products": [],
+      "website": null,
+      "lat": 59.19518751409082,
+      "lon": 10.943026669872097,
+      "address": "Skuteveien 6",
+      "source": "https://www.lokalmat.no/produsenter/biffen.no/"
+    },
+    {
+      "id": "lokalmat_11251",
+      "name": "Epli sideri",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Hovland",
+      "products": [
+        "Alkoholholdige drikker",
+        "Drikkevarer"
+      ],
+      "website": null,
+      "lat": 60.24569379999999,
+      "lon": 6.6240676,
+      "address": "Seksevegen 84",
+      "source": "https://www.lokalmat.no/produsenter/epli-sideri/"
+    },
+    {
+      "id": "lokalmat_11082",
+      "name": "Grilstad AS, avd. Stranda",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": "RANHEIM",
+      "products": [
+        "Kjøtt"
+      ],
+      "website": null,
+      "lat": 63.4319447,
+      "lon": 10.5093008,
+      "address": "Ranheimsvegen 129B",
+      "source": "https://www.lokalmat.no/produsenter/grilstad-as-avd.-stranda/"
+    },
+    {
+      "id": "lokalmat_12151",
+      "name": "Guse gård",
+      "country": "Norway",
+      "region": "Agder",
+      "municipality": "Kvinesdal",
+      "products": [],
+      "website": null,
+      "lat": 58.2554862,
+      "lon": 6.8740388,
+      "address": "Åsevegen 896",
+      "source": "https://www.lokalmat.no/produsenter/guse-gard/"
+    },
+    {
+      "id": "lokalmat_12478",
+      "name": "Hundstad gård",
+      "country": "Norway",
+      "region": "Troms",
+      "municipality": "Borkenes",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Kveøyveien 256",
+      "source": "https://www.lokalmat.no/produsenter/hundstad-gard/"
+    },
+    {
+      "id": "lokalmat_12475",
+      "name": "Lofoten Growth",
+      "country": "Norway",
+      "region": "Nordland",
+      "municipality": "Napp",
+      "products": [],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "Myrlandsveien 72",
+      "source": "https://www.lokalmat.no/produsenter/lofoten-growth/"
+    },
+    {
+      "id": "lokalmat_12044",
+      "name": "Nuet",
+      "country": "Norway",
+      "region": "Oslo",
+      "municipality": "Nannestad",
+      "products": [],
+      "website": null,
+      "lat": 61.0971658,
+      "lon": 10.4822487,
+      "address": "Majorvegen 6",
+      "source": "https://www.lokalmat.no/produsenter/nuet/"
+    },
+    {
+      "id": "lokalmat_12412",
+      "name": "Spælsauen",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Sandane",
+      "products": [],
+      "website": null,
+      "lat": 61.69302174682041,
+      "lon": 6.366198542843904,
+      "address": "Kandal",
+      "source": "https://www.lokalmat.no/produsenter/spaelsauen/"
+    },
+    {
+      "id": "lokalmat_12474",
+      "name": "Vestland Seafood As",
+      "country": "Norway",
+      "region": "Vestland",
+      "municipality": "Torangsvåg",
+      "products": [],
+      "website": null,
+      "lat": 60.11416139999999,
+      "lon": 5.163282199999999,
+      "address": "Tråvik 46",
+      "source": "https://www.lokalmat.no/produsenter/vestland-seafood-as/"
+    },
+    {
+      "id": "lokalmat_11944",
+      "name": "Waterline AS",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": null,
+      "products": [
+        "Fisk og sjømat"
+      ],
+      "website": null,
+      "lat": 59.8939224,
+      "lon": 10.7149058,
+      "address": "",
+      "source": "https://www.lokalmat.no/produsenter/waterline-as/"
+    },
+    {
+      "id": "hanen_4440",
+      "name": "Listakyr",
+      "country": "Norway",
+      "region": "Agder",
+      "municipality": "Vanse",
+      "products": [],
+      "website": "https://www.facebook.com/share/19WcfYnHdy/?mibextid=wwXIfr",
+      "lat": 58.088935,
+      "lon": 6.629271,
+      "address": "Nordhasselveien 41",
+      "source": "https://www.hanen.no/bedrift/listakyr/"
+    },
+    {
+      "id": "hanen_3949",
+      "name": "Tjamsland gård Martinsen",
+      "country": "Norway",
+      "region": "Agder",
+      "municipality": "Birkeland",
+      "products": [],
+      "website": "https://Tjamsland.no",
+      "lat": 58.361479,
+      "lon": 8.283837,
+      "address": "Steinsvannsveien 242",
+      "source": "https://www.hanen.no/bedrift/tjamsland-gaard-martinsen/"
     }
   ],
   "SE": [
