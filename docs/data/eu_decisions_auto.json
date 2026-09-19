@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T05:30:13.948192+00:00",
+  "updated_at": "2026-09-19T05:29:50.497267+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -12,16 +12,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5",
       "source": "European Commission",
       "id": "b2f2673a1a43875f"
-    },
-    {
-      "date": "2026-06-17T07:00:00+00:00",
-      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
-      "source": "European Parliament",
-      "id": "62258df8146f627a"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -174,6 +164,36 @@
       "id": "cf7689a9af15cce6"
     },
     {
+      "date": "2025-02-15T05:20:10+00:00",
+      "title": "Approval of another insect/insect-derived food as a Novel Food - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
+      "source": "European Commission",
+      "id": "c81fd5777f2e7df4"
+    },
+    {
+      "date": "2024-11-07T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
+      "source": "EUR-Lex",
+      "id": "b728d19d56a95238"
+    },
+    {
+      "date": "2024-10-01T20:28:50+00:00",
+      "title": "Consultation process on novel food status - European Commission",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Consultation process on novel food status &nbsp;&nbsp; European Commission ",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2pBaEpCekhoVU1SanJYUWpGcjltazlZTmFCSWNsallOX0RzMURKVWdaNTROWGhYYnQxTDZwVG1IUlFWb21DeUJBSGJUYUZKMC12Vjhjc0NqV0V6WkVNcnJKcnZKX3p0cDUzbDR1UFJpa2tPSUlxczM1TF9JWmw4T0ZrSjFxb2RMYkJOaWE0RnhEUE1X?oc=5",
+      "source": "European Commission",
+      "id": "beb0f7cada398e1e"
+    },
+    {
       "date": "2024-10-01T20:25:26+00:00",
       "title": "e-submission in accordance with the new Novel Foods regulation - European Commission",
       "type": "Automatisk oppdaget oppdatering",
@@ -192,6 +212,16 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
       "source": "European Parliament",
       "id": "493e0c88f1ddf0aa"
+    },
+    {
+      "date": "2024-02-02T08:00:00+00:00",
+      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
+      "source": "European Parliament",
+      "id": "62258df8146f627a"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
