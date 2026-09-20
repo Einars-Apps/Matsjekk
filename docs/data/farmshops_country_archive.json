@@ -60962,6 +60962,66 @@
       "lat": 55.0498907,
       "lon": 12.0562083,
       "address": null
+    },
+    {
+      "id": 7358361164,
+      "name": "Økotopen",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://www.okotopen.dk/",
+      "lat": 55.4242137,
+      "lon": 8.6449657,
+      "address": null
+    },
+    {
+      "id": 8888352992,
+      "name": "Mel Fra Forum",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 55.560676,
+      "lon": 8.472897,
+      "address": null
+    },
+    {
+      "id": 9209778158,
+      "name": "Sejerø-gæs",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://juleand.dk/",
+      "lat": 55.8950398,
+      "lon": 11.1337037,
+      "address": null
+    },
+    {
+      "id": 13995955785,
+      "name": "Øster Hegnet",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": "https://oesterhegnet.dk/",
+      "lat": 56.7227199,
+      "lon": 9.1518316,
+      "address": null
+    },
+    {
+      "id": 166942735,
+      "name": "Svanholm grøntsalg",
+      "country": "Denmark",
+      "region": null,
+      "municipality": null,
+      "products": [],
+      "website": null,
+      "lat": 55.7824603,
+      "lon": 11.9414729,
+      "address": null
     }
   ],
   "FI": [
