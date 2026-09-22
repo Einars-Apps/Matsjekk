@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T05:32:20.128954+00:00",
+  "updated_at": "2026-09-22T05:31:39.174453+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -65,13 +65,13 @@
     },
     {
       "date": "2026-03-11T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - EUR-Lex",
+      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - eur-lex.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
+      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; eur-lex.europa.eu ",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5",
-      "source": "EUR-Lex",
-      "id": "332bdc7244484b01"
+      "source": "eur-lex.europa.eu",
+      "id": "ed3afab254279719"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
@@ -85,13 +85,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLUdNUmJDbndrcUYtMjE3YWFISy1lMG14TTB3d0Jjb3BCcGRRQ0Uyd1IyTnJnSEFVSzJSc2tzNG9LeEZ4Ny02MjZ5b3pZZzF5X0M5Z1FEeklWSmVqVWl2REh0eHVINHFsck5BZjlVb1JBNVBiVHE5aDlNcXNTTmpiQkphVDFxcEY0d0Rwd1BJM1ZxNmxvRDd5aWlLdkE1U3dlYnoxcWEyMVI2SmdtNmg2cW9vUmFaU0dRWi1tZ0N5Z2phTmE4clFnVHdpX01oM3NWRWlB?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
       "source": "European Parliament",
-      "id": "30fe070973666d32"
+      "id": "a8057ba0c6d6254e"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -124,24 +124,14 @@
       "id": "2248af668c062eb3"
     },
     {
-      "date": "2025-07-13T10:39:11+00:00",
-      "title": "Consultation request for the determination of the novel food status ARTICLE 4 of Regulation (EU) 2015/2283 - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation request for the determination of the novel food status ARTICLE 4 of Regulation (EU) 2015/2283 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUpuejF0V3lwRUxIc2VRN3Q1ZVF2WjZDQm5QblhYcUZtNlZSb3hIcHg3bFpvNGt2Y05SVDg3dzdhbGlhRWJhWGJiSGNpdXhENGdOcXFYcjhkN3hha0hzZnJIc0tKdnQ5M2tpUm5FSElJbGxiSWJSYlpJRGRCZnV6bTI1TDlXNHlzalp2bkpxN1ZEamVsWlY3cUFjaTZFTVhNRFdRaUVSVjRzSk1UaG1ZRVZNZTZuQ0xLVzJUZVRuYkNTN0JBTlFLdk9yM0RXdU1KdGtIcDQxTGhfOEtl?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "eff65294f694f96e"
-    },
-    {
       "date": "2025-04-16T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - EUR-Lex",
+      "title": "Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive - eur-lex.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; EUR-Lex ",
+      "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; eur-lex.europa.eu ",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
-      "source": "EUR-Lex",
-      "id": "49317d781619a1f2"
+      "source": "eur-lex.europa.eu",
+      "id": "d2c19cf391f99a10"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -165,23 +155,23 @@
     },
     {
       "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
+      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - eur-lex.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
+      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; eur-lex.europa.eu ",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
-      "source": "EUR-Lex",
-      "id": "b728d19d56a95238"
+      "source": "eur-lex.europa.eu",
+      "id": "23f44e4ec1bdc9b9"
     },
     {
       "date": "2024-11-07T08:00:00+00:00",
-      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
+      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - eur-lex.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
-      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
+      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; eur-lex.europa.eu ",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaTlJN1ZhOWxvNVRkSnpUcXMyZjNma0N3Rm9iT0dfM1FOLVhLNzBSOW1rLWYwTl9tejU0RkJDSVR1dUZ6eXpZdUNnMUYxODZIUTljVENVdzFYN1Q2d3ZOcjhrQ3BQR3BPYjNidlpQSVBad2pRT0wzaW5RMlpKYVVxVmM4bmE5TF9s?oc=5",
-      "source": "EUR-Lex",
-      "id": "9f80ea06f92b9703"
+      "source": "eur-lex.europa.eu",
+      "id": "44155efa34ccfe56"
     },
     {
       "date": "2024-10-02T22:12:39+00:00",
@@ -232,6 +222,16 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
       "source": "European Parliament",
       "id": "62258df8146f627a"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5",
+      "source": "European Parliament",
+      "id": "a2aaee007a993137"
     },
     {
       "date": "2023-11-27T08:00:00+00:00",
