@@ -1792,21 +1792,6 @@
     "source": "https://www.lokalmat.no/produsenter/a.westre-as/"
   },
   {
-    "id": "lokalmat_10908",
-    "name": "Bacalaofabrikken AS",
-    "country": "Norway",
-    "region": "Møre og Romsdal",
-    "municipality": "Barstadvik",
-    "products": [
-      "Fisk og sjømat"
-    ],
-    "website": null,
-    "lat": 59.91,
-    "lon": 10.75,
-    "address": "FESTØY",
-    "source": "https://www.lokalmat.no/produsenter/bacalaofabrikken-as/"
-  },
-  {
     "id": "lokalmat_11778",
     "name": "Bådin",
     "country": "Norway",
@@ -3817,6 +3802,21 @@
     "lon": 5.9,
     "address": "Firdavegen 20",
     "source": "https://www.lokalmat.no/produsenter/ferske-smakar-as/"
+  },
+  {
+    "id": "lokalmat_10908",
+    "name": "Festøy AS",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Barstadvik",
+    "products": [
+      "Fisk og sjømat"
+    ],
+    "website": null,
+    "lat": 59.91,
+    "lon": 10.75,
+    "address": "FESTØY",
+    "source": "https://www.lokalmat.no/produsenter/festoy-as/"
   },
   {
     "id": "lokalmat_11459",
@@ -16094,6 +16094,21 @@
     "lon": 11.296038,
     "address": "Gartnerivegen 20",
     "source": "https://www.hanen.no/bedrift/ystgaard-gartneri-og-blomster-as/"
+  },
+  {
+    "id": "lokalmat_10908",
+    "name": "Bacalaofabrikken AS",
+    "country": "Norway",
+    "region": "Møre og Romsdal",
+    "municipality": "Barstadvik",
+    "products": [
+      "Fisk og sjømat"
+    ],
+    "website": null,
+    "lat": 59.91,
+    "lon": 10.75,
+    "address": "FESTØY",
+    "source": "https://www.lokalmat.no/produsenter/bacalaofabrikken-as/"
   },
   {
     "id": 11161944536,

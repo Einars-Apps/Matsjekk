@@ -25399,6 +25399,21 @@
       "lon": 8.283837,
       "address": "Steinsvannsveien 242",
       "source": "https://www.hanen.no/bedrift/tjamsland-gaard-martinsen/"
+    },
+    {
+      "id": "lokalmat_10908",
+      "name": "Festøy AS",
+      "country": "Norway",
+      "region": "Møre og Romsdal",
+      "municipality": "Barstadvik",
+      "products": [
+        "Fisk og sjømat"
+      ],
+      "website": null,
+      "lat": 59.91,
+      "lon": 10.75,
+      "address": "FESTØY",
+      "source": "https://www.lokalmat.no/produsenter/festoy-as/"
     }
   ],
   "SE": [

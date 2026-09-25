@@ -1026,10 +1026,10 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": null,
+    "website": "https://www.svartbackens.com/",
     "lat": 59.8243714,
     "lon": 17.1905136,
-    "address": null
+    "address": "Nysätra Svartbäcken"
   },
   {
     "id": 7772874673,
@@ -1362,7 +1362,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "http://tomatenshus.com",
+    "website": "https://tomatenshus.com/",
     "lat": 55.9542176,
     "lon": 12.8320313,
     "address": "Aspavägen"
@@ -2118,7 +2118,7 @@
     "region": null,
     "municipality": null,
     "products": [],
-    "website": "https://www.alnarpsfarm.se/the-project",
+    "website": "https://www.alnarpsfarm.se/",
     "lat": 55.6545776,
     "lon": 13.0567543,
     "address": "Malmövägen"
@@ -2170,6 +2170,18 @@
     "lat": 60.0617884,
     "lon": 18.7369673,
     "address": "Norrby byaväg"
+  },
+  {
+    "id": 13866436939,
+    "name": "Axelssons i Aby",
+    "country": "Sweden",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.axelssonsiaby.se/",
+    "lat": 57.3496625,
+    "lon": 15.8371386,
+    "address": null
   },
   {
     "id": 41684535,
@@ -2949,18 +2961,6 @@
     "website": null,
     "lat": 56.681426,
     "lon": 15.7070999,
-    "address": null
-  },
-  {
-    "id": 13866436939,
-    "name": "Axelssons i Aby",
-    "country": "Sweden",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.axelssonsiaby.se/",
-    "lat": 57.3496625,
-    "lon": 15.8371386,
     "address": null
   },
   {
