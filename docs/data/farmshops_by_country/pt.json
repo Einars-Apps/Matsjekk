@@ -96,6 +96,18 @@
     "address": null
   },
   {
+    "id": 3851797579,
+    "name": "Frutaria do Arco",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": null,
+    "lat": 32.7140244,
+    "lon": -17.1471777,
+    "address": null
+  },
+  {
     "id": 3895352357,
     "name": "OPAN",
     "country": "Portugal",
@@ -244,12 +256,12 @@
     "name": "Wine in the Azores Eco Retreat",
     "country": "Portugal",
     "region": null,
-    "municipality": "Capelo",
+    "municipality": null,
     "products": [],
     "website": null,
     "lat": 38.5676421,
     "lon": -28.7831734,
-    "address": "Estrada Varadouro - Comprido"
+    "address": null
   },
   {
     "id": 10068732992,
@@ -466,30 +478,6 @@
     "lat": 41.2957604,
     "lon": -7.7455804,
     "address": "Rua Camilo Castelo Branco"
-  },
-  {
-    "id": 13921135636,
-    "name": "Groverdi",
-    "country": "Portugal",
-    "region": null,
-    "municipality": "Santa Cruz",
-    "products": [],
-    "website": "https://www.groverdi.com/",
-    "lat": 32.6860679,
-    "lon": -16.8226344,
-    "address": "Caminho Pico Norte"
-  },
-  {
-    "id": 13996052504,
-    "name": "Banca da Dádiva",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": null,
-    "lat": 38.7560471,
-    "lon": -9.1566975,
-    "address": null
   },
   {
     "id": 99721279,
@@ -739,7 +727,7 @@
     "municipality": null,
     "products": [],
     "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268222,
+    "lat": 40.0268414,
     "lon": -8.6224196,
     "address": null
   },
@@ -1044,15 +1032,39 @@
     "address": null
   },
   {
-    "id": 3851797579,
-    "name": "Frutaria do Arco",
+    "id": 13921135636,
+    "name": "Groverdi",
+    "country": "Portugal",
+    "region": null,
+    "municipality": "Santa Cruz",
+    "products": [],
+    "website": "https://www.groverdi.com/",
+    "lat": 32.6860679,
+    "lon": -16.8226344,
+    "address": "Caminho Pico Norte"
+  },
+  {
+    "id": 13996052504,
+    "name": "Banca da Dádiva",
     "country": "Portugal",
     "region": null,
     "municipality": null,
     "products": [],
     "website": null,
-    "lat": 32.7140244,
-    "lon": -17.1471777,
+    "lat": 38.7560471,
+    "lon": -9.1566975,
+    "address": null
+  },
+  {
+    "id": 666647099,
+    "name": "Lusiaves - Quinta da Cruz",
+    "country": "Portugal",
+    "region": null,
+    "municipality": null,
+    "products": [],
+    "website": "https://www.lusiaves.pt/",
+    "lat": 40.0268222,
+    "lon": -8.6224196,
     "address": null
   },
   {
@@ -1078,18 +1090,6 @@
     "lat": 39.3193307,
     "lon": -9.1354776,
     "address": "R. Nossa Sra. do Socorro"
-  },
-  {
-    "id": 666647099,
-    "name": "Lusiaves - Quinta da Cruz",
-    "country": "Portugal",
-    "region": null,
-    "municipality": null,
-    "products": [],
-    "website": "https://www.lusiaves.pt/",
-    "lat": 40.0268414,
-    "lon": -8.6224196,
-    "address": null
   },
   {
     "id": 1243166539,
