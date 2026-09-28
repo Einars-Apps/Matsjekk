@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T05:31:19.825564+00:00",
+  "updated_at": "2026-09-28T05:35:06.573041+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -224,6 +224,16 @@
       "id": "377d942b98585f30"
     },
     {
+      "date": "2025-01-05T09:09:54+00:00",
+      "title": "Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 14 February 2025 - consilium.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Working Party on Genetic Resources & Innovation in Agriculture (GMO) & Other Innov. Rel. Agri, 14 February 2025 &nbsp;&nbsp; consilium.europa.eu ",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS095dTRyYnhlSjdLa29xd3hTT05NUkE5QVFQLURqX0czLTAxcXZEWU9rS0VuZzVZMWQ0ZVpYLWRBNlpRWVc0YmxFbFdiclpiNF81ZHRkSHhHc2JqWmJRU240T1NaMjFPSlFsVTlJMFQ1RmRMRkhlUWdtT0lnX0N4c1kwZVdmc0haUWNwT2V0ZWgwa2kwMHhjTzZhNnNLVG5nRy0xWjNaNkdIMXN1SzlEeE1oeEVpWUZjcW9MNXNBc1pvRENtN2NfT0p3VnE1ci13WERES011MUttYlNXSkdtQzNOc20?oc=5",
+      "source": "consilium.europa.eu",
+      "id": "4c1507212323dfc7"
+    },
+    {
       "date": "2024-11-07T08:00:00+00:00",
       "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
@@ -232,16 +242,6 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
       "source": "EUR-Lex",
       "id": "b728d19d56a95238"
-    },
-    {
-      "date": "2024-11-07T08:00:00+00:00",
-      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaTlJN1ZhOWxvNVRkSnpUcXMyZjNma0N3Rm9iT0dfM1FOLVhLNzBSOW1rLWYwTl9tejU0RkJDSVR1dUZ6eXpZdUNnMUYxODZIUTljVENVdzFYN1Q2d3ZOcjhrQ3BQR3BPYjNidlpQSVBad2pRT0wzaW5RMlpKYVVxVmM4bmE5TF9s?oc=5",
-      "source": "EUR-Lex",
-      "id": "9f80ea06f92b9703"
     },
     {
       "date": "2024-10-01T20:28:50+00:00",
@@ -272,6 +272,26 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
       "source": "European Parliament",
       "id": "493e0c88f1ddf0aa"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5",
+      "source": "European Parliament",
+      "id": "79a62faf5cd4f16a"
+    },
+    {
+      "date": "2024-01-10T08:00:00+00:00",
+      "title": "►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
+      "source": "EUR-Lex",
+      "id": "d5fb36521e33afe9"
     },
     {
       "date": "2023-10-03T07:00:00+00:00",
