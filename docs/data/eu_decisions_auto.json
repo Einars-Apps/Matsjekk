@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T05:34:15.958824+00:00",
+  "updated_at": "2026-10-02T05:33:49.218022+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -282,16 +282,6 @@
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
       "source": "EUR-Lex",
       "id": "d5fb36521e33afe9"
-    },
-    {
-      "date": "2023-10-03T07:00:00+00:00",
-      "title": "Consultation request for the determination of the novel food status under Article 4 (2) of Regulation (EU) 2015/2283 on novel fo - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Insektsmel",
-      "summary": " Consultation request for the determination of the novel food status under Article 4 (2) of Regulation (EU) 2015/2283 on novel fo &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemc4eTludTJBenhFQ2NEWGxTdVNuMnFhcEVGUFpZaV9Fd09hTkRGV1hrOGNyOFVPWGMxWF9Qa2FkZTVudVloRGtud3ZWLTVmVEpwWUJBbEpnNG5KLW9qelRGWUxCck5KQWxsZG1MdTY0TkJkb1JOZ0V5eWxyU0RTaTZsb21ZN2kyajZiNUp3ZmdzOFhRTlE?oc=5",
-      "source": "food.ec.europa.eu",
-      "id": "1f1430e454f64823"
     }
   ]
 }
