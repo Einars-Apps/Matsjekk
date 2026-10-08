@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07T05:35:16.990861+00:00",
+  "updated_at": "2026-10-08T05:35:27.105048+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -115,13 +115,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5",
+      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLUdNUmJDbndrcUYtMjE3YWFISy1lMG14TTB3d0Jjb3BCcGRRQ0Uyd1IyTnJnSEFVSzJSc2tzNG9LeEZ4Ny02MjZ5b3pZZzF5X0M5Z1FEeklWSmVqVWl2REh0eHVINHFsck5BZjlVb1JBNVBiVHE5aDlNcXNTTmpiQkphVDFxcEY0d0Rwd1BJM1ZxNmxvRDd5aWlLdkE1U3dlYnoxcWEyMVI2SmdtNmg2cW9vUmFaU0dRWi1tZ0N5Z2phTmE4clFnVHdpX01oM3NWRWlB?oc=5",
       "source": "European Parliament",
-      "id": "a8057ba0c6d6254e"
+      "id": "30fe070973666d32"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -252,6 +252,26 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
       "source": "European Parliament",
       "id": "493e0c88f1ddf0aa"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5",
+      "source": "European Parliament",
+      "id": "a2aaee007a993137"
+    },
+    {
+      "date": "2024-01-11T19:26:28+00:00",
+      "title": "Safe insect repellents, disinfectants and other industrial chemicals (biocides) in the EU - EUR-Lex - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Safe insect repellents, disinfectants and other industrial chemicals (biocides) in the EU - EUR-Lex &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQVW56QXhPbzdoZnhiUldyczhJWWtOUVhPOHppc0dsbmxaMkEyc3E2WGI1SE1SSmczVnF2V09rTzNfWGZBUFJQLXhPUWVqcG9nZW5SdG1rODlheTNpQXNnak5TVHhZd2NadHlSSHZ1dURwN0dKcVJ3R1lmd1VadTFUNjQtam52ckc5M1BHWVNpOWNueWFoWTJDYkM3dFNROHltelozOXF3Zm1SMVFfa0FpcHJDTFdDd1VBR3Q0RWRpaW1vTFh0RUZqWE01clFvZXhvdVk1bE5fbl8yMUlqalFHdkFyOUQ1VVNXYXhUUFlB?oc=5",
+      "source": "EUR-Lex",
+      "id": "dbf76e8c824be210"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
