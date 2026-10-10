@@ -1,3 +1,4 @@
 requests==2.31.0
 pytest==7.4.0
 googlenewsdecoder==0.2.1
+selectolax==0.4.12
