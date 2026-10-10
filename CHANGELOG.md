@@ -2,6 +2,11 @@
 
 ## Unreleased (working)
 
+- Replace the NGT-only co-occurrence monitor with a Monday OpenAI evidence review
+  covering Bovaer, GMO feed, insect protein and NGT, with explicit country/level
+  coverage and draft proposals requiring human approval.
+- Publish the existing country rules at the app's previously missing remote
+  endpoint; support additional remote categories and intentional empty overrides.
 - Add safe UI helpers to avoid use_build_context_synchronously issues (`lib/ui_safe.dart`).
 - Add `buildProductsIndex` helper for canonical product indexing and merging.
 - Migrate `ProductInfoDialogContent` to StatefulWidget and inline alert->report flow (persisted to Hive `alerts_feedback`).
@@ -14,4 +19,3 @@
 
 ## Notes
 - Remaining work: extract rule engine to `lib/rules/`, centralize index builder, more unit tests for indexing/rules, and minor analyzer info cleanups.
-

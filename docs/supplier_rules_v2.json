@@ -1,0 +1,2438 @@
+{
+  "version": 2,
+  "origin": "Existing app rules; export is not a new factual verification.",
+  "countries": {
+    "NO": {
+      "bovaer_red": [
+        "arla",
+        "apetina",
+        "aptina",
+        "lurpak",
+        "castello"
+      ],
+      "bovaer_yellow": [
+        "tine",
+        "synnøve",
+        "synnøve finden",
+        "fjordland",
+        "ostecompagniet",
+        "q-meieriene",
+        "q meieriene",
+        "kavli",
+        "jarlsberg",
+        "norvegia",
+        "biola",
+        "litago",
+        "snøfrisk",
+        "gudbrandsdalsost",
+        "ski queen"
+      ],
+      "gmo_fish_red": [
+        "lerøy",
+        "salmar",
+        "mowi"
+      ],
+      "organic_keywords": [
+        "økologisk",
+        "organic",
+        "biodynamisk",
+        "debio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "SE": {
+      "bovaer_red": [
+        "arla",
+        "bregott",
+        "arla ko",
+        "castello",
+        "lurpak",
+        "apetina",
+        "keso",
+        "finello",
+        "skånemejerier",
+        "lindahls",
+        "yoggi"
+      ],
+      "bovaer_yellow": [
+        "norrmejerier"
+      ],
+      "gmo_fish_red": [
+        "lerøy",
+        "mowi",
+        "salmar"
+      ],
+      "organic_keywords": [
+        "ekologisk",
+        "organic",
+        "biodynamisk",
+        "krav"
+      ],
+      "gmo_supply_chain_yellow": [
+        "findus",
+        "ica",
+        "coop",
+        "leroy seafood",
+        "nordic seafood"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "arla",
+        "ica",
+        "coop"
+      ]
+    },
+    "DK": {
+      "bovaer_red": [
+        "arla",
+        "lurpak",
+        "kærgården",
+        "castello",
+        "apetina",
+        "karolines køkken",
+        "diplom-is",
+        "dofino",
+        "finello"
+      ],
+      "bovaer_yellow": [
+        "naturmælk"
+      ],
+      "gmo_fish_red": [
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "organic_keywords": [
+        "økologisk",
+        "organic",
+        "demeter",
+        "ø-certificeret",
+        "øko"
+      ],
+      "gmo_supply_chain_yellow": [
+        "nordic seafood",
+        "royal greenland",
+        "frozen at sea"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "enorm biofactory",
+        "ynsect",
+        "nextprotein"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "arla",
+        "foetex",
+        "netto"
+      ]
+    },
+    "DE": {
+      "bovaer_red": [
+        "arla",
+        "müller",
+        "müllermilch",
+        "landliebe",
+        "buko",
+        "lurpak",
+        "castello"
+      ],
+      "bovaer_yellow": [
+        "zott",
+        "ehrmann",
+        "weihenstephan",
+        "hochland",
+        "campina",
+        "friesche vlag",
+        "lactalis",
+        "président"
+      ],
+      "gmo_fish_red": [
+        "iglo",
+        "followfish"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "demeter",
+        "bioland",
+        "naturland",
+        "ökologisch"
+      ],
+      "gmo_supply_chain_yellow": [
+        "iglo",
+        "followfish",
+        "deutsche see",
+        "edeka",
+        "rewe"
+      ],
+      "insect_supply_chain_yellow": [
+        "nextprotein",
+        "ynsect",
+        "protix",
+        "bugfoundation"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "arla",
+        "edeka",
+        "mueller",
+        "rewe"
+      ]
+    },
+    "NL": {
+      "bovaer_red": [
+        "frieslandcampina",
+        "campina",
+        "friesche vlag",
+        "chocomel",
+        "mona",
+        "milner",
+        "valess",
+        "vifit",
+        "optimel",
+        "fristi",
+        "doc kaas",
+        "a-ware",
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "cono",
+        "melkunie"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "biologisch",
+        "organic",
+        "demeter",
+        "eko"
+      ],
+      "gmo_supply_chain_yellow": [
+        "ah",
+        "albert heijn",
+        "plus",
+        "jumbo",
+        "iglo"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "kreca",
+        "ynsect",
+        "nextprotein"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "frieslandcampina",
+        "albert heijn"
+      ]
+    },
+    "BE": {
+      "bovaer_red": [
+        "arla",
+        "campina",
+        "friesche vlag"
+      ],
+      "bovaer_yellow": [
+        "milcobel",
+        "passendale",
+        "wynendale",
+        "père joseph",
+        "inex",
+        "président",
+        "bel"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "biologisch",
+        "biologique",
+        "organic",
+        "demeter"
+      ],
+      "gmo_supply_chain_yellow": [
+        "delhaize",
+        "colruyt",
+        "carrefour",
+        "iglo"
+      ],
+      "insect_supply_chain_yellow": [
+        "nextprotein",
+        "protix",
+        "ynsect",
+        "nusect"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "FR": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "lactalis",
+        "président",
+        "bridel",
+        "lactel",
+        "sodiaal",
+        "candia",
+        "yoplait",
+        "danone",
+        "elle & vire",
+        "isigny sainte-mère",
+        "entremont",
+        "riches monts",
+        "bel"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "labeyrie"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "demeter",
+        "agriculture biologique",
+        "ab"
+      ],
+      "gmo_supply_chain_yellow": [
+        "labeyrie",
+        "findus",
+        "picard",
+        "carrefour",
+        "auchan"
+      ],
+      "insect_supply_chain_yellow": [
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "micronutris"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "lactalis",
+        "carrefour",
+        "auchan"
+      ]
+    },
+    "GB": {
+      "bovaer_red": [
+        "arla",
+        "müller",
+        "müllermilch",
+        "lurpak",
+        "anchor",
+        "cravendale",
+        "castello",
+        "tickler"
+      ],
+      "bovaer_yellow": [
+        "saputo",
+        "cathedral city",
+        "davidstow",
+        "clover",
+        "kerrygold",
+        "pilgrims choice",
+        "country life",
+        "lakeland"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "bakkafrost",
+        "youngs seafood"
+      ],
+      "organic_keywords": [
+        "organic",
+        "biodynamic",
+        "soil association",
+        "demeter"
+      ],
+      "gmo_supply_chain_yellow": [
+        "youngs seafood",
+        "tesco",
+        "sainsbury",
+        "waitrose",
+        "asda"
+      ],
+      "insect_supply_chain_yellow": [
+        "yora",
+        "small giants",
+        "nextprotein",
+        "protix"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "youngs seafood",
+        "tesco",
+        "sainsbury"
+      ]
+    },
+    "IE": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "ornua",
+        "kerrygold",
+        "pilgrims choice",
+        "glanbia",
+        "tirlán",
+        "avonmore",
+        "kerry",
+        "lakeland",
+        "dairygold",
+        "carbery",
+        "dubliner",
+        "kerrymaid",
+        "connacht gold"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "organic",
+        "biodynamic",
+        "demeter",
+        "iofga"
+      ],
+      "gmo_supply_chain_yellow": [
+        "youngs seafood",
+        "tesco ireland",
+        "supervalu",
+        "dunnes"
+      ],
+      "insect_supply_chain_yellow": [
+        "nextprotein",
+        "protix",
+        "ynsect"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "IT": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "granarolo",
+        "lactalis",
+        "galbani",
+        "parmalat",
+        "fattorie osella",
+        "bel",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "biologico",
+        "organic",
+        "demeter",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "findus",
+        "esselunga",
+        "coop italia",
+        "conad"
+      ],
+      "insect_supply_chain_yellow": [
+        "italbugs",
+        "nextprotein",
+        "protix"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "ES": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "danone",
+        "puleva",
+        "lactalis",
+        "président",
+        "central lechera asturiana",
+        "larsa",
+        "el castillo",
+        "pascual",
+        "kaiku",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "pescanova",
+        "mowi"
+      ],
+      "organic_keywords": [
+        "ecológico",
+        "organic",
+        "demeter",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "findus",
+        "pescanova",
+        "carrefour",
+        "mercadona"
+      ],
+      "insect_supply_chain_yellow": [
+        "proteinsecta",
+        "nextprotein",
+        "protix"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "PT": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "lactogal",
+        "mimosa",
+        "agros",
+        "vigor",
+        "matinal",
+        "gresso",
+        "lactalis",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "pescanova",
+        "iglo"
+      ],
+      "organic_keywords": [
+        "biológico",
+        "organic",
+        "demeter",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "FI": {
+      "bovaer_red": [
+        "arla",
+        "valio",
+        "oltermanni",
+        "aura",
+        "eila",
+        "gefilus"
+      ],
+      "bovaer_yellow": [
+        "juustoportti"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy",
+        "salmar"
+      ],
+      "organic_keywords": [
+        "luomu",
+        "organic",
+        "demeter"
+      ],
+      "gmo_supply_chain_yellow": [
+        "kalaneuvos",
+        "kesko",
+        "s-group",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "entocube",
+        "nextprotein",
+        "protix"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "valio",
+        "kesko",
+        "s-group"
+      ]
+    },
+    "CH": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "emmi",
+        "kaltbach",
+        "cremo",
+        "elsa",
+        "hochdorf",
+        "landliebe",
+        "campina"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "demeter",
+        "knospe",
+        "bio suisse"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "AT": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "berglandmilch",
+        "schärdinger",
+        "nöm",
+        "tirol milch",
+        "salzburg milch",
+        "stainzer",
+        "lattella",
+        "landliebe"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "demeter",
+        "aus österreich bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "IS": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "ms",
+        "mjólkursamsalan"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "royal greenland",
+        "icelandic salmon"
+      ],
+      "organic_keywords": [
+        "lífrænn",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "GL": {
+      "bovaer_red": [
+        "arla",
+        "lurpak",
+        "castello"
+      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [
+        "mowi",
+        "royal greenland"
+      ],
+      "organic_keywords": [
+        "lífrænt",
+        "organic",
+        "bio",
+        "økologisk"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "PL": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "mlekovita",
+        "mlekpol",
+        "łaciate",
+        "piątnica",
+        "sm gostyń",
+        "zott",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy",
+        "salmar"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekologiczny",
+        "ekologiczne",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "lisner",
+        "biedronka",
+        "carrefour",
+        "auchan"
+      ],
+      "insect_supply_chain_yellow": [
+        "hi-pro-mine",
+        "nextprotein",
+        "protix"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "CZ": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "madeta",
+        "olma",
+        "lactalis",
+        "kunín",
+        "danone",
+        "zott"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekologický",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "SK": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "rajo",
+        "lactalis",
+        "tatra",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekologický",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "HU": {
+      "bovaer_red": [
+        "arla",
+        "frieslandcampina",
+        "campina"
+      ],
+      "bovaer_yellow": [
+        "sole-mizo",
+        "sole mizo",
+        "pöttyös",
+        "danone",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ökológiai",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "RO": {
+      "bovaer_red": [
+        "arla",
+        "frieslandcampina",
+        "napolact",
+        "zuzu"
+      ],
+      "bovaer_yellow": [
+        "dorna",
+        "lactalis",
+        "danone",
+        "rarăul",
+        "olympus"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ecologic",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "BG": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "danone",
+        "meggle",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "биологичен",
+        "bio",
+        "organic",
+        "eco"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "EE": {
+      "bovaer_red": [
+        "arla",
+        "valio"
+      ],
+      "bovaer_yellow": [
+        "tere",
+        "e-piim",
+        "farmi"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy"
+      ],
+      "organic_keywords": [
+        "mahe",
+        "bio",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "LV": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "rīgas piens",
+        "rigas piens",
+        "latvijas piens",
+        "valio",
+        "riqo"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekologisks",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "LT": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "rokiškio sūris",
+        "rokiskio suris",
+        "žemaitijos pienas",
+        "zemaitijos pienas",
+        "valio",
+        "pieno žvaigždės",
+        "pieno zvaigzdes"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "lerøy"
+      ],
+      "organic_keywords": [
+        "ekologiškas",
+        "bio",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "HR": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "vindija",
+        "sirela",
+        "zdenka",
+        "dukat",
+        "lactalis",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekološki",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "SI": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "ljubljanske mlekarne",
+        "mlekarna celeia",
+        "planika",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekološki",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "RS": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "imlek",
+        "mlekara šabac",
+        "mlekara sabac",
+        "danone",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organsko",
+        "organic",
+        "ekološki"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "BA": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "mlijekoprodukt",
+        "milkos",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "ekološki",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "ME": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "president",
+        "imlek"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "ekološki"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "MK": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "bimilk",
+        "pelagonija",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organic",
+        "органски"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "AL": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "president",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "bio",
+        "organik",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "GR": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "fage",
+        "delta",
+        "olympos",
+        "noynoy",
+        "tyras",
+        "president"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "nireus",
+        "thessaloniki aquaculture"
+      ],
+      "organic_keywords": [
+        "βιολογικό",
+        "bio",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "CY": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "charalambides christis",
+        "president",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "βιολογικό",
+        "bio",
+        "organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "US": {
+      "bovaer_red": [
+        "arla",
+        "lurpak",
+        "castello",
+        "apetina"
+      ],
+      "bovaer_yellow": [
+        "dannon",
+        "danone",
+        "land o'lakes",
+        "land o lakes",
+        "tillamook",
+        "saputo",
+        "dean foods",
+        "hood"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "aquabounty"
+      ],
+      "organic_keywords": [
+        "organic",
+        "usda organic",
+        "certified organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "CA": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "agropur",
+        "natrel",
+        "igo",
+        "oka",
+        "saputo",
+        "gay lea",
+        "dairyland",
+        "beatrice",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "cermaq",
+        "cooke aquaculture"
+      ],
+      "organic_keywords": [
+        "organic",
+        "certifié biologique",
+        "bio",
+        "canada organic"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "AU": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "lion",
+        "dairy farmers",
+        "pura",
+        "bega",
+        "norco",
+        "fonterra",
+        "anchor",
+        "mainland",
+        "danone",
+        "pauls"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "tassal",
+        "huon aquaculture"
+      ],
+      "organic_keywords": [
+        "organic",
+        "certified organic",
+        "australian certified organic",
+        "ace"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "NZ": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "fonterra",
+        "anchor",
+        "fernleaf",
+        "mainland",
+        "kapiti",
+        "goodman fielder",
+        "meadowfresh",
+        "tararua",
+        "lewis road",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "new zealand king salmon"
+      ],
+      "organic_keywords": [
+        "organic",
+        "certified organic",
+        "bio-gro",
+        "biogro"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "BR": {
+      "bovaer_red": [
+        "arla",
+        "lactalis",
+        "elegê",
+        "batavo"
+      ],
+      "bovaer_yellow": [
+        "itambé",
+        "piracanjuba",
+        "nestlé",
+        "molico",
+        "danone",
+        "pradaria"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "cermaq"
+      ],
+      "organic_keywords": [
+        "orgânico",
+        "organic",
+        "bio",
+        "produto orgânico"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "AR": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "la serenísima",
+        "la serenisima",
+        "sancor",
+        "danone",
+        "nestlé",
+        "la paulina"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "CL": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "colún",
+        "colun",
+        "soprole",
+        "lactalis",
+        "nestlé",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi",
+        "cermaq",
+        "salmones multiexport",
+        "blumar",
+        "australis seafoods"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "CO": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "alpina",
+        "colanta",
+        "nestlé",
+        "danone",
+        "alquería"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "PE": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "gloria",
+        "laive",
+        "nestlé",
+        "danone"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "UY": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "conaprole",
+        "lactalis"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "PY": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "la serenísima",
+        "la serenisima",
+        "sancor",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "VE": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "lactalis",
+        "parmalat",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "EC": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "gloria",
+        "nestlé",
+        "danone",
+        "rey leche"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    },
+    "BO": {
+      "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
+        "pil andina",
+        "pil",
+        "gloria",
+        "nestlé"
+      ],
+      "gmo_fish_red": [
+        "mowi"
+      ],
+      "organic_keywords": [
+        "orgánico",
+        "organic",
+        "bio"
+      ],
+      "gmo_supply_chain_yellow": [
+        "fiskemannen",
+        "leroy seafood",
+        "nordic seafood",
+        "royal greenland"
+      ],
+      "insect_supply_chain_yellow": [
+        "protix",
+        "ynsect",
+        "nextprotein",
+        "agronutris",
+        "entocube"
+      ],
+      "insect_eu_watch": [
+        "acheta domesticus",
+        "tenebrio molitor",
+        "alphitobius diaperinus",
+        "locusta migratoria",
+        "hermetia illucens"
+      ],
+      "factory_customer_yellow": [
+        "tine",
+        "fjordland",
+        "q-meieriene",
+        "synnove",
+        "kavli"
+      ]
+    }
+  }
+}

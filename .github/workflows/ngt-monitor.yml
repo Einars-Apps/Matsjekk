@@ -1,51 +1,58 @@
-name: NGT Supplier Monitor
-
-# Watches a small set of producers/retailers and proposes a flag ONLY when a
-# source documents a link to a known GMO supplier (Monsanto/Bayer-type
-# agreements). It NEVER publishes to the app — it opens a PR with proposals
-# for human review and approval.
+name: Weekly AI Risk Review
 
 on:
   schedule:
-    - cron: "23 5 * * 1" # every Monday 05:23 UTC
+    - cron: "23 5 * * 1"
   workflow_dispatch:
+
+concurrency:
+  group: weekly-ai-risk-review
+  cancel-in-progress: false
 
 permissions:
   contents: write
   pull-requests: write
 
 jobs:
-  monitor:
+  review:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Run NGT supplier monitor
-        run: python scripts/ngt_monitor.py
-
-      - name: Open PR with proposals (human approval required)
-        uses: peter-evans/create-pull-request@v6
+      - name: Install dependencies
+        run: pip install -r tools/requirements.txt
+      - name: Validate weekly review
+        run: python -m pytest -q tools/tests/test_weekly_risk_review.py tools/tests/test_fetch_eu_decisions.py
+      - name: Review all four topics with OpenAI
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/weekly_risk_review.py --pr-body "${{ runner.temp }}/weekly-risk-pr.md"
+      - name: Save review report
+        uses: actions/upload-artifact@v4
         with:
-          commit-message: "chore(ngt): update supplier monitor proposals"
-          branch: ngt-monitor/proposals
-          delete-branch: true
-          title: "NGT monitor: review proposed GMO-supplier links"
-          body: |
-            Automated proposals from the NGT supplier monitor.
+          name: weekly-risk-review
+          path: scripts/weekly_risk_report.json
+          if-no-files-found: error
+      - name: Open draft for human review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: risk-monitor/weekly-review
+          title: "Weekly AI review: Bovaer, GMO feed, insect protein and NGT"
+          body-path: ${{ runner.temp }}/weekly-risk-pr.md
+          draft: true
+          commit-message: |
+            chore(risk): propose weekly evidence review
 
-            These are **proposals only**. For each entry:
-            1. Open the `source_url` and verify the claim.
-            2. If verified, add the brand to `docs/data/ngt_suppliers.json`
-               with the verifiable `source_url`.
-            3. Do **not** merge proposals blindly — the app shows a yellow
-               signal only for entries promoted into `ngt_suppliers.json`.
-
-            See `scripts/ngt_proposals.json` for the raw proposals.
-          add-paths: |
-            scripts/ngt_proposals.json
+            Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+          add-paths: scripts/weekly_risk_report.json
+      - name: Write review status
+        if: always()
+        run: |
+          echo "## Weekly AI risk review" >> "$GITHUB_STEP_SUMMARY"
+          echo "Result: ${{ job.status }}. No risk rules are automatically changed." >> "$GITHUB_STEP_SUMMARY"
+          echo "All four topics and levels are considered; country evidence coverage is explicitly reported." >> "$GITHUB_STEP_SUMMARY"

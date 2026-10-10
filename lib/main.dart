@@ -562,8 +562,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     String ruleKey,
     List<String> fallback,
   ) {
-    final remote = _remoteRiskRulesByCountry[countryCode]?[ruleKey] ?? [];
-    if (remote.isNotEmpty) return remote;
+    final remote = _remoteRiskRulesByCountry[countryCode]?[ruleKey];
+    if (remote != null) return remote;
 
     final local = getRiskBrandsForCountry(countryCode)[ruleKey] ?? [];
     if (local.isNotEmpty) return local;

@@ -44,6 +44,52 @@ suggests opening the original link and using browser translation instead.
 Run the status regression tests with `node --test tools/tests/eu_decisions.test.cjs`
 (Node.js 22 or newer). Python CI also runs these tests.
 
+## Monday AI risk review
+
+`Weekly AI Risk Review` runs every Monday at 05:23 UTC (07:23 Norwegian summer
+time / 06:23 winter time), or manually through Actions. It replaces the old
+NGT-only co-occurrence monitor, which never actually called an AI model.
+
+Set the repository secret `OPENAI_API_KEY` before running it. The agent uses
+OpenAI `gpt-4.1-mini`, with up to four calls of 5,000 output tokens each per run;
+OpenAI charges for input and output tokens. Only public publisher text and
+already-public app rule lists are sent, not repository credentials or user data.
+GitHub Models is not used: that service was retired on July 30, 2026.
+
+The agent reviews Bovaer, GMO feed, insect protein and NGT, considering red,
+yellow, green and unknown for every country in the app's published rules.
+It searches a configured, bounded set of EU and producer/feed-supplier domains
+over the last 120 days, retrieving at most six sources per topic. This is not
+a complete scan of all products, countries or suppliers. The report distinguishes
+recent search results from standing EU regulatory reference pages; an undated
+reference is never presented as a new weekly event. Each topic reports how many
+recent sources were actually retrieved. The report distinguishes
+supported proposals from no supported proposal; missing evidence never means
+green. A missing topic, API error or invalid/invented citation fails the run.
+Partial source failures appear in the report and Actions logs.
+
+Successful runs open/update a **draft PR** with
+`scripts/weekly_risk_report.json` and upload the report as an Actions artifact.
+No risk rules are changed automatically. A reviewer must verify the original
+sources and edit `docs/supplier_rules_v2.json` / `docs/data/ngt_suppliers.json`
+with approved changes before merging. Merging the report alone does not change
+app warnings. Keep NGT brand warnings yellow/unknown and separate legal
+authorisation from evidence about actual products.
+
+`docs/supplier_rules_v2.json` initially mirrors existing app rules, not a new
+verification of those claims. Regenerate that initial snapshot only deliberately
+with `dart tools/export_supplier_rules.dart`; doing so overwrites manual remote
+edits. The app loads this file at scanner startup, and approved NGT entries when
+its cache is older than 24 hours. An empty remote category overrides local lists,
+so a reviewed removal is not silently restored from bundled fallback data.
+Adding remote support for previously ignored categories or empty-list overrides
+requires releasing the updated app; existing releases still support the four
+original remote categories.
+
+Tests: `python -m pytest -q tools/tests/test_weekly_risk_review.py
+tools/tests/test_fetch_eu_decisions.py` and
+`flutter test test/remote_risk_rules_service_test.dart`.
+
 ## Serve `docs/` locally
 
 There is a PowerShell helper script that serves the `docs/` folder on a local HTTP server.

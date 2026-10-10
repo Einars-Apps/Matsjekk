@@ -81,6 +81,11 @@ class RemoteRiskRulesService {
         'bovaer_yellow',
         'gmo_fish_red',
         'organic_keywords',
+        'gmo_supply_chain_yellow',
+        'gmo_eu_watch',
+        'insect_supply_chain_yellow',
+        'insect_eu_watch',
+        'factory_customer_yellow',
       ]) {
         final rawList = countryValue[key];
         if (rawList is List) {
