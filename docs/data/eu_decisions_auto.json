@@ -1,17 +1,29 @@
 {
-  "updated_at": "2026-10-09T05:36:30.525351+00:00",
+  "updated_at": "2026-10-10T01:32:31.171618+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-09-22T15:54:44+00:00",
+      "title": "Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://food.ec.europa.eu/events/conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-12-03_en",
+      "source": "food.ec.europa.eu",
+      "id": "6ea7bad80a4a76ca",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
+    },
     {
       "date": "2026-07-16T07:00:00+00:00",
       "title": "Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Biotechnologies: Commission publishes the implementation strategy on plants obtained by new genomic techniques in plants &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5",
+      "url": "https://food.ec.europa.eu/food-safety-news/biotechnologies-commission-publishes-implementation-strategy-plants-obtained-new-genomic-techniques-2026-07-16_en",
       "source": "food.ec.europa.eu",
-      "id": "735b53494e258ddb"
+      "id": "735b53494e258ddb",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -19,9 +31,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5",
+      "url": "https://www.europarl.europa.eu/topics/en/article/20240125STO17062/is-the-eu-authorising-new-gmos-telling-fact-from-fiction",
       "source": "European Parliament",
-      "id": "62258df8146f627a"
+      "id": "62258df8146f627a",
+      "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -29,9 +42,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20260611IPR45215/new-genomic-techniques-for-plants-to-boost-innovation-in-sustainable-agriculture",
       "source": "European Parliament",
-      "id": "b4cec33677b25468"
+      "id": "b4cec33677b25468",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTmVMbnFURzFuSXpKeVpIaHpNdURuQnR0Y1NwVHFnWmUtdE9RYkdld3JnazEzOC05UWNTeGJoWm8waFc1MlNBTzAzRVhFb3FHbzBUZjNia3NMZzFvSjZUU0tBN0xlWmR2alB6WTdzcGIxQjN4YXM1OEZiWGViOWt1RDM4SGJBMXg0aDM2eHA5V2QyYzVjVVl5U2owc01abGZmcEVjNDJHUGEwN3dYZ09lbzFtRnBoeTR3N1JIaUlVa3pVTXJCNHF2amQ5VzhVZzNBcUppbm5ZUm5XNHNlbE5GLQ?oc=5"
     },
     {
       "date": "2026-06-11T07:00:00+00:00",
@@ -39,9 +53,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques for plants to boost innovation in sustainable agriculture | 15-06-2026 | News &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5",
+      "url": "https://www.europarl.europa.eu/news/en/agenda/plenary-news/2026-06-15/4/new-genomic-techniques-for-plants-to-boost-innovation-in-sustainable-agriculture",
       "source": "European Parliament",
-      "id": "63e593959e16953d"
+      "id": "63e593959e16953d",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5"
     },
     {
       "date": "2026-04-30T09:10:10+00:00",
@@ -49,9 +64,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Article 4 Conclusion Novel food Regulation (EU) 2015/2283 Recipient Member State: Ireland - Food Safety Authority of Ireland (FS &nbsp;&nbsp; European Commission ",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQV2NlU2htV3Z0MVpJZzdvWnFpOVZMd01tTFVUWE8wOFZ1N180dkdJTGRmd2xMblJnYmpOUHBlTDlRV1Mwcmlzckp3a2lwZWU4R3ZGX01GRGI5NlQ2RXRlVnptNjhrc0RiSDZUX2gyanpOTHMxQWMySFVDemNBbTVUTHdOUzFPdGNEUS1oZkxZQ1lZazRoOS1vVFRqelk2cGNVNGhmeDhudi1nMXQwdU5EQ3JCMndtYU9oZnRyUlBuRURrR21oVnhqLVY4dHpWMWx2cnBHajFfQnpMSlVRbGJMeGZENklkQ21IT0ZiSA?oc=5",
+      "url": "https://food.ec.europa.eu/document/download/60b43f71-27dc-4a3b-8091-d3e6291d9399_en?filename=novel-food_consult-status_arthrospira-platensis.pdf&prefLang=et",
       "source": "European Commission",
-      "id": "da0854b671c9875e"
+      "id": "da0854b671c9875e",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQV2NlU2htV3Z0MVpJZzdvWnFpOVZMd01tTFVUWE8wOFZ1N180dkdJTGRmd2xMblJnYmpOUHBlTDlRV1Mwcmlzckp3a2lwZWU4R3ZGX01GRGI5NlQ2RXRlVnptNjhrc0RiSDZUX2gyanpOTHMxQWMySFVDemNBbTVUTHdOUzFPdGNEUS1oZkxZQ1lZazRoOS1vVFRqelk2cGNVNGhmeDhudi1nMXQwdU5EQ3JCMndtYU9oZnRyUlBuRURrR21oVnhqLVY4dHpWMWx2cnBHajFfQnpMSlVRbGJMeGZENklkQ21IT0ZiSA?oc=5"
     },
     {
       "date": "2026-04-21T07:00:00+00:00",
@@ -59,9 +75,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdEFBX2hKQkNsZlFfQWhLYXAxeHJiVi1zT2dwRWR1dmdxMjc5OXhtU24wb09PVGVKUm5xRU9icWVya0dTQ1lod1ItY0loVVh1TEVPczF5TUxpajdEWEN6RWxqb05UUFN4WEhaU0Y0YmJsN0NuODVLWjVMY0NLY1FQcmNJQnBaaVRlb1pJUTVwWTBlTGRBem1zdzFCUjdXUXZ5bVNYb2lNYVJ1c2FsNXRqdkZhNVhoMnZFbHZ4Qlh3NGpWd2Z4b1ZjTVFFSW96YlJHMlJ5R2MzUXAyZDM0S2lyTFVJc0FYdTJoVkFXdVZXQVY5T0xMcnB5VC0yNDRPY2VfN2c?oc=5",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/new-genomic-techniques-council-adopts-new-rules-to-boost-sustainable-and-competitive-eu-food-systems/pdf/",
       "source": "consilium.europa.eu",
-      "id": "da3b9f9d3c2cd15a"
+      "id": "da3b9f9d3c2cd15a",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdEFBX2hKQkNsZlFfQWhLYXAxeHJiVi1zT2dwRWR1dmdxMjc5OXhtU24wb09PVGVKUm5xRU9icWVya0dTQ1lod1ItY0loVVh1TEVPczF5TUxpajdEWEN6RWxqb05UUFN4WEhaU0Y0YmJsN0NuODVLWjVMY0NLY1FQcmNJQnBaaVRlb1pJUTVwWTBlTGRBem1zdzFCUjdXUXZ5bVNYb2lNYVJ1c2FsNXRqdkZhNVhoMnZFbHZ4Qlh3NGpWd2Z4b1ZjTVFFSW96YlJHMlJ5R2MzUXAyZDM0S2lyTFVJc0FYdTJoVkFXdVZXQVY5T0xMcnB5VC0yNDRPY2VfN2c?oc=5"
     },
     {
       "date": "2026-04-21T07:00:00+00:00",
@@ -69,9 +86,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3RuVUlxcVhaUU5pQlZCUWFlUW96Qi1vSUllaXJwbUFDZVJmbUx3X21TQWViSGh3YjJkSzBKcXdFNHRtLUtZTGJkeGlkRVE5dko1T0g0MkQxeWpWSkh2SzRqbUpQYkg1bU1BckZaT3NxYjNRS2xxb29OTlg0Q0lRQ2RoUnhGVXd1MXNJZWJRaXFmSm9BUy04V1RnNmRFMFhWMWEzQW5xbFlHNGd6NGFZWm9HdFh6OWpJb3EyM0t4X1B4R1dYaEtPMnVGSWpLZVVhRWFmejhoZXZkQVV6bnhXUkVKNkQ3aGdqeWc4Tks5MFFYd3dhWXFFLVdvVlI?oc=5",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/new-genomic-techniques-council-adopts-new-rules-to-boost-sustainable-and-competitive-eu-food-systems/",
       "source": "consilium.europa.eu",
-      "id": "cf9070b72a864a19"
+      "id": "cf9070b72a864a19",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3RuVUlxcVhaUU5pQlZCUWFlUW96Qi1vSUllaXJwbUFDZVJmbUx3X21TQWViSGh3YjJkSzBKcXdFNHRtLUtZTGJkeGlkRVE5dko1T0g0MkQxeWpWSkh2SzRqbUpQYkg1bU1BckZaT3NxYjNRS2xxb29OTlg0Q0lRQ2RoUnhGVXd1MXNJZWJRaXFmSm9BUy04V1RnNmRFMFhWMWEzQW5xbFlHNGd6NGFZWm9HdFh6OWpJb3EyM0t4X1B4R1dYaEtPMnVGSWpLZVVhRWFmejhoZXZkQVV6bnhXUkVKNkQ3aGdqeWc4Tks5MFFYd3dhWXFFLVdvVlI?oc=5"
     },
     {
       "date": "2026-03-19T02:20:13+00:00",
@@ -79,9 +97,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPLU5mSHJjNUFRczdCeDZwM2NFS2xmMzBteDFEc1BLMUlidmpuQlQyS29McjgtYkZOZnRWMlByZW1wblBhMWozbHRaRGR5UklwUGRXdk8zUUVXT3FqM0hmRjVLME9nTzNGNDRPbElwcW8xbE9jWnMzemdMTlFhaHFzd25SV2trMk4tckQ3VmxHQ1ZlZmFsT1RNZ0ZWbUdUZmVCck1IZjRieEtRN0NUMEd3UHo2dGRDdjlxMUt6Mk5sRWNvcDg4TkpsMEVVMlltWnRXZ1hwM3Bwb056djFZbDU1VVRJVGtnR1RhQ0c0RC1BaXQ1WmZEcDdTdU50TjJQRDRFZEg2dHlUeGN3S1da?oc=5",
+      "url": "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-plants-produced-by-certain-new-genomic-techniques?sid=8501",
       "source": "European Parliament",
-      "id": "31caa4df2d410b78"
+      "id": "31caa4df2d410b78",
+      "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPLU5mSHJjNUFRczdCeDZwM2NFS2xmMzBteDFEc1BLMUlidmpuQlQyS29McjgtYkZOZnRWMlByZW1wblBhMWozbHRaRGR5UklwUGRXdk8zUUVXT3FqM0hmRjVLME9nTzNGNDRPbElwcW8xbE9jWnMzemdMTlFhaHFzd25SV2trMk4tckQ3VmxHQ1ZlZmFsT1RNZ0ZWbUdUZmVCck1IZjRieEtRN0NUMEd3UHo2dGRDdjlxMUt6Mk5sRWNvcDg4TkpsMEVVMlltWnRXZ1hwM3Bwb056djFZbDU1VVRJVGtnR1RhQ0c0RC1BaXQ1WmZEcDdTdU50TjJQRDRFZEg2dHlUeGN3S1da?oc=5"
     },
     {
       "date": "2026-03-19T01:52:32+00:00",
@@ -89,9 +108,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants produced by certain new genomic techniques | Legislative Train Schedule &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1RtTjlMa24yUUdpeEt1OC1ETFJoVzY0dzJWWGo0Vi1sSV9DRlBmSjVoNEdnRUVrZ01CeTZQSWhhVlR0aWRnNVpLcC1wUDl0TVFpTXFVN29jZzEzTERuTzlnd3NpcE9URllUYXpWd0FMbURpNS1EYm01QkFwV2dNSXBIWWVqTVVEU0pHclRXR1BBT04zdUNwOE81NU5ZUk51ZWJ3MXFZdGFyN0d3MTRXdnNySXZGdEdHSEplLXA3NmxOemNsWnd2TS1KS0FYN2tDRXBkRnlJa0ZLRnAySlBLSHUzQzktODVDZUl0Zm04Z2Rlai1PbkVjUWZlX29ORlpfRDhwMk5Td0Y1LXNk?oc=5",
+      "url": "https://www.europarl.europa.eu/legislative-train/theme-sustaining-our-quality-of-life-food-security-water-and-nature/file-plants-produced-by-certain-new-genomic-techniques?sid=9401",
       "source": "European Parliament",
-      "id": "4a67fb3025e6c8f0"
+      "id": "4a67fb3025e6c8f0",
+      "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1RtTjlMa24yUUdpeEt1OC1ETFJoVzY0dzJWWGo0Vi1sSV9DRlBmSjVoNEdnRUVrZ01CeTZQSWhhVlR0aWRnNVpLcC1wUDl0TVFpTXFVN29jZzEzTERuTzlnd3NpcE9URllUYXpWd0FMbURpNS1EYm01QkFwV2dNSXBIWWVqTVVEU0pHclRXR1BBT04zdUNwOE81NU5ZUk51ZWJ3MXFZdGFyN0d3MTRXdnNySXZGdEdHSEplLXA3NmxOemNsWnd2TS1KS0FYN2tDRXBkRnlJa0ZLRnAySlBLSHUzQzktODVDZUl0Zm04Z2Rlai1PbkVjUWZlX29ORlpfRDhwMk5Td0Y1LXNk?oc=5"
     },
     {
       "date": "2026-03-11T07:00:00+00:00",
@@ -99,9 +119,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
       "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202600540",
       "source": "EUR-Lex",
-      "id": "332bdc7244484b01"
+      "id": "332bdc7244484b01",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
@@ -109,9 +130,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c5U29EWWZJZTRQYTdWY2gtR3QxdzRwMFB1NEhBbkJjX0ZiRnJZVmV2cXZwX1lYUHJ1ekdld1JrcmI1aVloVUZ6SS11UXBZVmdUeHBkbDNWbURDM0k5c3FLSXNKVjcwSHhodDhDNkstWHNOVmxDODlZMEZSSlNvN21VTUtGdDhnbGE4Rmx0TDFiYTRrTmk4MkJIbEwzdjYweUJUTkVWYVl1eWVsZEoxMGxRRmRGVUxwU0pTQ05PYThfS3NL?oc=5",
+      "url": "https://food.ec.europa.eu/document/download/5a64b008-7454-43c2-a8b6-0afb10c9c006_en?filename=reg-com_toxic_20251215_agenda.pdf",
       "source": "food.ec.europa.eu",
-      "id": "dec8779d4ccda5a5"
+      "id": "dec8779d4ccda5a5",
+      "google_news_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c5U29EWWZJZTRQYTdWY2gtR3QxdzRwMFB1NEhBbkJjX0ZiRnJZVmV2cXZwX1lYUHJ1ekdld1JrcmI1aVloVUZ6SS11UXBZVmdUeHBkbDNWbURDM0k5c3FLSXNKVjcwSHhodDhDNkstWHNOVmxDODlZMEZSSlNvN21VTUtGdDhnbGE4Rmx0TDFiYTRrTmk4MkJIbEwzdjYweUJUTkVWYVl1eWVsZEoxMGxRRmRGVUxwU0pTQ05PYThfS3NL?oc=5"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -119,9 +141,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLUdNUmJDbndrcUYtMjE3YWFISy1lMG14TTB3d0Jjb3BCcGRRQ0Uyd1IyTnJnSEFVSzJSc2tzNG9LeEZ4Ny02MjZ5b3pZZzF5X0M5Z1FEeklWSmVqVWl2REh0eHVINHFsck5BZjlVb1JBNVBiVHE5aDlNcXNTTmpiQkphVDFxcEY0d0Rwd1BJM1ZxNmxvRDd5aWlLdkE1U3dlYnoxcWEyMVI2SmdtNmg2cW9vUmFaU0dRWi1tZ0N5Z2phTmE4clFnVHdpX01oM3NWRWlB?oc=5",
+      "url": "https://www.europarl.europa.eu/news/de/press-room/20251201IPR31710/new-genomic-techniques-deal-to-support-the-green-transition-in-farming",
       "source": "European Parliament",
-      "id": "30fe070973666d32"
+      "id": "30fe070973666d32",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLUdNUmJDbndrcUYtMjE3YWFISy1lMG14TTB3d0Jjb3BCcGRRQ0Uyd1IyTnJnSEFVSzJSc2tzNG9LeEZ4Ny02MjZ5b3pZZzF5X0M5Z1FEeklWSmVqVWl2REh0eHVINHFsck5BZjlVb1JBNVBiVHE5aDlNcXNTTmpiQkphVDFxcEY0d0Rwd1BJM1ZxNmxvRDd5aWlLdkE1U3dlYnoxcWEyMVI2SmdtNmg2cW9vUmFaU0dRWi1tZ0N5Z2phTmE4clFnVHdpX01oM3NWRWlB?oc=5"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -129,9 +152,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUXRFRGhXM1NubUZ5clNocUc2T0dyRXpmRm5iRmtBZHZfbWlweHF2UERVNWhIbGJMUXFaY0tMREhFN1ZsQW53TEZXMFdnWjdWbEw1LWVTVjk3Z3g2S0RzWktQdmVsU0FFYUt0dTBZUHJ1TkJwbExMYTE3UXBWZHdHR3NwczI4S1ItRjlyOFc1LWhmYWFuMENDM3p0X3owU25VZTZJdWs2QnVXNFktNHZlSjVkS3VwSHV3RDVrTU1Cb2F0SHRjQ2hpWnpaYmViOTRfZmttY0l5Ml9pQ2R1YjNzVmxSZHBRS2g1c1RyVkpSMjRzdVRTbDR2TU5WMEo5dkVvQ2ZvSXowd251UlphOFVjVnRRcU5oN1ZEbVc4RVNMQy1faEU?oc=5",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/04/new-genomic-techniques-council-and-parliament-strike-deal-to-boost-the-competitiveness-and-sustainability-of-our-food-systems/pdf/",
       "source": "consilium.europa.eu",
-      "id": "296e3136b3c24a4b"
+      "id": "296e3136b3c24a4b",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUXRFRGhXM1NubUZ5clNocUc2T0dyRXpmRm5iRmtBZHZfbWlweHF2UERVNWhIbGJMUXFaY0tMREhFN1ZsQW53TEZXMFdnWjdWbEw1LWVTVjk3Z3g2S0RzWktQdmVsU0FFYUt0dTBZUHJ1TkJwbExMYTE3UXBWZHdHR3NwczI4S1ItRjlyOFc1LWhmYWFuMENDM3p0X3owU25VZTZJdWs2QnVXNFktNHZlSjVkS3VwSHV3RDVrTU1Cb2F0SHRjQ2hpWnpaYmViOTRfZmttY0l5Ml9pQ2R1YjNzVmxSZHBRS2g1c1RyVkpSMjRzdVRTbDR2TU5WMEo5dkVvQ2ZvSXowd251UlphOFVjVnRRcU5oN1ZEbVc4RVNMQy1faEU?oc=5"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -139,9 +163,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems &nbsp;&nbsp; consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQdkNnZmtHUm8zQThXWE5wdGdGczNUQXRLdXFpU1ZEZkdXMm9aVlF3OVRZbXY2SGNCMi1UbFR0OTNibDlLLWVQeUQ1dy1JX2t1R01VdHVQdWVMOFB0cFUyMDJUQUs0TEE1T0Q0VWd4ZlVsVks2QnZONjljUmZBSFpsVHJDRWUzdjE2MGJoZFgyOXFYSkZhME1xYUJEa2VPQlJWZUtGUlo3cXBBVnIybE9ocHJ5d0Ixb0VyQlZYYVM0VHZqWFczOVJlS3NSV0xLcE53NzZRcXN4R1JheTRGMFBPQU9WQmEycHN2eGdicGNrSWY2X19pVVp0Wm0wVTdRX1F0R3ZKYktuY2hVQnV1WW5xdEZ4dDJfSUZJRmV3cy1B?oc=5",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/04/new-genomic-techniques-council-and-parliament-strike-deal-to-boost-the-competitiveness-and-sustainability-of-our-food-systems/",
       "source": "consilium.europa.eu",
-      "id": "ce43a2cb4788e4ea"
+      "id": "ce43a2cb4788e4ea",
+      "google_news_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQdkNnZmtHUm8zQThXWE5wdGdGczNUQXRLdXFpU1ZEZkdXMm9aVlF3OVRZbXY2SGNCMi1UbFR0OTNibDlLLWVQeUQ1dy1JX2t1R01VdHVQdWVMOFB0cFUyMDJUQUs0TEE1T0Q0VWd4ZlVsVks2QnZONjljUmZBSFpsVHJDRWUzdjE2MGJoZFgyOXFYSkZhME1xYUJEa2VPQlJWZUtGUlo3cXBBVnIybE9ocHJ5d0Ixb0VyQlZYYVM0VHZqWFczOVJlS3NSV0xLcE53NzZRcXN4R1JheTRGMFBPQU9WQmEycHN2eGdicGNrSWY2X19pVVp0Wm0wVTdRX1F0R3ZKYktuY2hVQnV1WW5xdEZ4dDJfSUZJRmV3cy1B?oc=5"
     },
     {
       "date": "2025-12-03T08:00:00+00:00",
@@ -149,9 +174,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " 02 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFNYYnhfQ2ZEUS1FTThFS201RFpvMUdTalk4NHFaUWxzRjRMcTNpRVZKdjdGc3NPRDM3anJZMnN3b3ZrWFd1MVcyUE85aG9SZWFMNG4zUWxZazctOG43Tk81WG03TFd3Z2lPYlo3STVRMDFSaThYTm95c1Y4ZW00aXc0LXRpMEowQm5oRm9XUnoyc2tQcWdvS01zUVNmeG9qSzRrTXBFZHhNbUVKN1U5SnJlUHRCRjdidk1oeDl4TFdHUQ?oc=5",
+      "url": "https://www.europarl.europa.eu/legislative-train/carriage/plants-produced-by-certain-new-genomic-techniques/report?sid=10001",
       "source": "European Parliament",
-      "id": "2248af668c062eb3"
+      "id": "2248af668c062eb3",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFNYYnhfQ2ZEUS1FTThFS201RFpvMUdTalk4NHFaUWxzRjRMcTNpRVZKdjdGc3NPRDM3anJZMnN3b3ZrWFd1MVcyUE85aG9SZWFMNG4zUWxZazctOG43Tk81WG03TFd3Z2lPYlo3STVRMDFSaThYTm95c1Y4ZW00aXc0LXRpMEowQm5oRm9XUnoyc2tQcWdvS01zUVNmeG9qSzRrTXBFZHhNbUVKN1U5SnJlUHRCRjdidk1oeDl4TFdHUQ?oc=5"
     },
     {
       "date": "2025-07-13T10:39:11+00:00",
@@ -159,9 +185,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Consultation request for the determination of the novel food status ARTICLE 4 of Regulation (EU) 2015/2283 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUpuejF0V3lwRUxIc2VRN3Q1ZVF2WjZDQm5QblhYcUZtNlZSb3hIcHg3bFpvNGt2Y05SVDg3dzdhbGlhRWJhWGJiSGNpdXhENGdOcXFYcjhkN3hha0hzZnJIc0tKdnQ5M2tpUm5FSElJbGxiSWJSYlpJRGRCZnV6bTI1TDlXNHlzalp2bkpxN1ZEamVsWlY3cUFjaTZFTVhNRFdRaUVSVjRzSk1UaG1ZRVZNZTZuQ0xLVzJUZVRuYkNTN0JBTlFLdk9yM0RXdU1KdGtIcDQxTGhfOEtl?oc=5",
+      "url": "https://food.ec.europa.eu/document/download/e424ab6e-30c8-49fb-931c-ae9e23c4f87b_en?filename=novel-food_consult-status_vangueria-agrestis-cz.pdf",
       "source": "food.ec.europa.eu",
-      "id": "eff65294f694f96e"
+      "id": "eff65294f694f96e",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQUpuejF0V3lwRUxIc2VRN3Q1ZVF2WjZDQm5QblhYcUZtNlZSb3hIcHg3bFpvNGt2Y05SVDg3dzdhbGlhRWJhWGJiSGNpdXhENGdOcXFYcjhkN3hha0hzZnJIc0tKdnQ5M2tpUm5FSElJbGxiSWJSYlpJRGRCZnV6bTI1TDlXNHlzalp2bkpxN1ZEamVsWlY3cUFjaTZFTVhNRFdRaUVSVjRzSk1UaG1ZRVZNZTZuQ0xLVzJUZVRuYkNTN0JBTlFLdk9yM0RXdU1KdGtIcDQxTGhfOEtl?oc=5"
     },
     {
       "date": "2025-07-09T07:00:00+00:00",
@@ -169,9 +196,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Consultation request for the determination of novel food status &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2R0eGtrdVBCSHk4Q0hrNS0tdkhiZ3VUSWFDTE1GQmVKZTBER18tNFptM1ZINGxxclBfdDl4NGxJQzlEYkZZbDZicjk2bnVyQmZ0b1VFWDZJR00xUTBockdGSHEyWUdad1R2U3JTbWNIY1lPWjg4VEdFc1pDUDhJZ0xJWjA2Y2FFTU5rOTkwZkNnMEgyRFlsUUFsZzJZYVYzUW1jTmNnSnMzWTdpclYxYXNlYUVFMkQ2d0FMeWhnRzBSMHdUaUpsa1dCUG9KWE5STHB1LTY3bjQ?oc=5",
+      "url": "https://food.ec.europa.eu/document/download/413e90e8-8f63-4de7-87e9-ea7b8e772fda_en?filename=novel-food_consult-status_bacillus-coagulans.pdf",
       "source": "food.ec.europa.eu",
-      "id": "58f880ce4b07ed95"
+      "id": "58f880ce4b07ed95",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2R0eGtrdVBCSHk4Q0hrNS0tdkhiZ3VUSWFDTE1GQmVKZTBER18tNFptM1ZINGxxclBfdDl4NGxJQzlEYkZZbDZicjk2bnVyQmZ0b1VFWDZJR00xUTBockdGSHEyWUdad1R2U3JTbWNIY1lPWjg4VEdFc1pDUDhJZ0xJWjA2Y2FFTU5rOTkwZkNnMEgyRFlsUUFsZzJZYVYzUW1jTmNnSnMzWTdpclYxYXNlYUVFMkQ2d0FMeWhnRzBSMHdUaUpsa1dCUG9KWE5STHB1LTY3bjQ?oc=5"
     },
     {
       "date": "2025-04-16T07:00:00+00:00",
@@ -179,9 +207,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Bovaer",
       "summary": " Commission Implementing Regulation (EU) 2025/757 of 16 April 2025 concerning the authorisation of sepiolite as a feed additive &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32025R0757",
       "source": "EUR-Lex",
-      "id": "49317d781619a1f2"
+      "id": "49317d781619a1f2",
+      "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -189,9 +218,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques for plant breeding &nbsp;&nbsp; Consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNWxWX2dKNTNqWi1xQU1Tc0F2b1Izb2ZCdFpkTEpVQm50eVdyU1JTVG1Dd3hIMTFkb0xjUjVDWnh3MElNY1BqTVVFOV9HZ2JpM21XaEk1eml5T1N3RFNNTHR1S0U4NEV4dU0xN0ZNNktIN0xXQnlvRUhVLUdQVnZqcy1Bb2FjVEE3UzZ6R3MzRQ?oc=5",
+      "url": "https://www.consilium.europa.eu/en/policies/new-genomic-techniques-for-plant-breeding/",
       "source": "Consilium.europa.eu",
-      "id": "b9010a407f661956"
+      "id": "b9010a407f661956",
+      "google_news_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNWxWX2dKNTNqWi1xQU1Tc0F2b1Izb2ZCdFpkTEpVQm50eVdyU1JTVG1Dd3hIMTFkb0xjUjVDWnh3MElNY1BqTVVFOV9HZ2JpM21XaEk1eml5T1N3RFNNTHR1S0U4NEV4dU0xN0ZNNktIN0xXQnlvRUhVLUdQVnZqcy1Bb2FjVEE3UzZ6R3MzRQ?oc=5"
     },
     {
       "date": "2025-03-14T07:00:00+00:00",
@@ -199,9 +229,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New genomic techniques: Council agrees negotiating mandate &nbsp;&nbsp; Consilium.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1YteWI1UTlsWjMtN0RORTBWYU1DOHkzVUZmVW5pMFRta2haMVZZcEhxajZqMjRQeF9nV0p4cWsxdWQ2bnd1ZEVrWHhkcFE1bnRaQjZxaEZ3S3FkeUNDajc1d1paeUpSVzZaT1dELXpWdjhkUng0T05LU0tSVHFwVkh1bkQ5amNLRU50VEh6R0tRd3lCUDJOYVFJWTlLU3NFenRXdlVUOUFlcm5PRm5UV0NyQmNaZmFwTWRHMlU1cTNZNm8?oc=5",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/03/14/new-genomic-techniques-council-agrees-negotiating-mandate/",
       "source": "Consilium.europa.eu",
-      "id": "4d7396befb2ff0bd"
+      "id": "4d7396befb2ff0bd",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1YteWI1UTlsWjMtN0RORTBWYU1DOHkzVUZmVW5pMFRta2haMVZZcEhxajZqMjRQeF9nV0p4cWsxdWQ2bnd1ZEVrWHhkcFE1bnRaQjZxaEZ3S3FkeUNDajc1d1paeUpSVzZaT1dELXpWdjhkUng0T05LU0tSVHFwVkh1bkQ5amNLRU50VEh6R0tRd3lCUDJOYVFJWTlLU3NFenRXdlVUOUFlcm5PRm5UV0NyQmNaZmFwTWRHMlU1cTNZNm8?oc=5"
     },
     {
       "date": "2025-02-15T05:20:10+00:00",
@@ -209,9 +240,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Approval of another insect/insect-derived food as a Novel Food &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5",
+      "url": "https://food.ec.europa.eu/food-safety/novel-food/authorisations/approval-insect-novel-food_en?prefLang=bg&etrans=bg",
       "source": "food.ec.europa.eu",
-      "id": "377d942b98585f30"
+      "id": "377d942b98585f30",
+      "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTGFzOVhWakVJLWVyY0JOQzFqZFRiOFdYRE5Ha3BrZ3RMUFN1SDFMaGh3TVZrMTZRaF9uLVYtVFU4aUVFZVFicnh4Sm9uenpjcVVXWlNtbGsyZzhENzdNT0xzcS1GZFQ3bThTVnk5ejc5bmt0VmtqNEJPN3JqeGFsbkpjeGY5MThpWGhfMHpLTEtGNlYwWnBoNGlMSExsVnZBTWJ4Qk93V28xNU90UW43VF85SzR1Zw?oc=5"
     },
     {
       "date": "2024-11-07T08:00:00+00:00",
@@ -219,9 +251,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024AP0067",
       "source": "EUR-Lex",
-      "id": "b728d19d56a95238"
+      "id": "b728d19d56a95238",
+      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5"
     },
     {
       "date": "2024-10-01T20:28:50+00:00",
@@ -229,9 +262,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " Consultation process on novel food status &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2pBaEpCekhoVU1SanJYUWpGcjltazlZTmFCSWNsallOX0RzMURKVWdaNTROWGhYYnQxTDZwVG1IUlFWb21DeUJBSGJUYUZKMC12Vjhjc0NqV0V6WkVNcnJKcnZKX3p0cDUzbDR1UFJpa2tPSUlxczM1TF9JWmw4T0ZrSjFxb2RMYkJOaWE0RnhEUE1X?oc=5",
+      "url": "https://food.ec.europa.eu/food-safety/novel-food/consultation-process-novel-food-status_en",
       "source": "food.ec.europa.eu",
-      "id": "407ad03db6a92783"
+      "id": "407ad03db6a92783",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR2pBaEpCekhoVU1SanJYUWpGcjltazlZTmFCSWNsallOX0RzMURKVWdaNTROWGhYYnQxTDZwVG1IUlFWb21DeUJBSGJUYUZKMC12Vjhjc0NqV0V6WkVNcnJKcnZKX3p0cDUzbDR1UFJpa2tPSUlxczM1TF9JWmw4T0ZrSjFxb2RMYkJOaWE0RnhEUE1X?oc=5"
     },
     {
       "date": "2024-02-07T08:00:00+00:00",
@@ -239,9 +273,32 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
       "summary": " New Genomic Techniques: MEPs back rules to support green transition of farmers &nbsp;&nbsp; European Parliament ",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17320/new-genomic-techniques-meps-back-rules-to-support-green-transition-of-farmers",
       "source": "European Parliament",
-      "id": "493e0c88f1ddf0aa"
+      "id": "493e0c88f1ddf0aa",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2024/757626/EPRS_ATA(2024)757626_EN.pdf",
+      "source": "European Parliament",
+      "id": "79a62faf5cd4f16a",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240122IPR17027/new-genomic-techniques-meps-want-to-ban-all-patents-for-ngt-plants",
+      "source": "European Parliament",
+      "id": "a2aaee007a993137",
+      "google_news_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
@@ -249,9 +306,10 @@
       "type": "Automatisk oppdaget oppdatering",
       "topic": "Insektsmel",
       "summary": " ►B COMMISSION IMPLEMENTING REGULATION (EU) 2017/2470 of 20 December 2017 establishing the Union list of novel foods in accorda &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02017R2470-20240110",
       "source": "EUR-Lex",
-      "id": "d5fb36521e33afe9"
+      "id": "d5fb36521e33afe9",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5"
     }
   ]
 }
