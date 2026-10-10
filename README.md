@@ -17,6 +17,26 @@ samples, guidance on mobile development, and a full API reference.
 
 Homepage: https://matsjekk.com/app.html
 
+## Automatic EU updates
+
+`EU Decisions Ingest` runs daily at 05:23 UTC and updates
+`docs/data/eu_decisions_auto.json` using Google News RSS searches filtered for EU
+sources and relevant topics. This is a rule-based collector, not an AI agent or
+a complete register of adopted EU legislation.
+
+`Deploy docs to GitHub Pages` publishes after a successful ingest on `main`,
+as well as on ordinary pushes and manual runs. The `workflow_run` trigger is
+necessary because commits pushed with `GITHUB_TOKEN` do not trigger another
+push workflow. Deployment checks out the latest `main`, including the feed
+commit produced by ingestion.
+
+The EU page warns when the last automatic check is more than three days old,
+when the feed is unavailable, or when the latest check returned no items.
+The check timestamp does not mean a new decision was found.
+
+Run the status regression tests with `node --test tools/tests/eu_decisions.test.cjs`
+(Node.js 22 or newer). Python CI also runs these tests.
+
 ## Serve `docs/` locally
 
 There is a PowerShell helper script that serves the `docs/` folder on a local HTTP server.

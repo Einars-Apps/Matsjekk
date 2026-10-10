@@ -5,6 +5,14 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows: ["EU Decisions Ingest"]
+    types: [completed]
+    branches: [main]
+
+concurrency:
+  group: docs-pages
+  cancel-in-progress: false
 
 # Run bundled JavaScript actions (e.g. actions/deploy-pages@v4) on Node.js 24.
 # Node.js 20 is being removed from GitHub-hosted runners (Sept 2026).
@@ -13,6 +21,7 @@ env:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -22,6 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
           lfs: true
 
@@ -30,7 +40,6 @@ jobs:
         with:
           path: ./docs
 
-  
   deploy-pages:
     needs: deploy
     runs-on: ubuntu-latest

@@ -2,6 +2,8 @@
   const MANUAL_URL = 'data/eu_decisions.json?v=20260606f';
   const AUTO_URL = 'data/eu_decisions_auto.json?v=20260606f';
   const WINDOW_DAYS = 365 * 3;
+  const MAX_CHECK_AGE_MS = 3 * 24 * 60 * 60 * 1000;
+  let autoFeed = null;
   let allDecisions = [];
   let initialUrlState = null;
   const translationCache = new Map();
@@ -34,6 +36,9 @@
       loadError: 'Kunne ikke laste EU-vedtak akkurat na. Proev igjen om litt.',
       statusOk: (d) => `Automatisk oppdatering er aktiv. Siste automatiske sjekk: ${d}.`,
       statusFail: 'Automatisk oppdatering er konfigurert, men datakilden svarte ikke akkurat na.',
+      statusStale: (d) => `Automatisk oppdatering er forsinket. Siste automatiske sjekk: ${d}.`,
+      statusUnavailable: 'Status for automatisk oppdatering er ikke tilgjengelig. Viser tilgjengelige vedtak.',
+      statusEmpty: (d) => `Siste automatiske sjekk: ${d}. Ingen automatiske treff; viser tilgjengelige vedtak.`,
       statusMissing: 'ikke tilgjengelig enda',
     },
     en: {
@@ -62,6 +67,9 @@
       loadError: 'Could not load EU decisions right now. Please try again shortly.',
       statusOk: (d) => `Automatic updates are active. Last automatic check: ${d}.`,
       statusFail: 'Automatic updates are configured, but the data source did not respond right now.',
+      statusStale: (d) => `Automatic updates are delayed. Last automatic check: ${d}.`,
+      statusUnavailable: 'Automatic update status is unavailable. Showing available decisions.',
+      statusEmpty: (d) => `Last automatic check: ${d}. No automatic results; showing available decisions.`,
       statusMissing: 'not available yet',
     }
   };
@@ -404,6 +412,21 @@
     return response.json();
   }
 
+  function renderAutoStatus() {
+    const statusEl = document.getElementById('eu-decisions-status');
+    if (!statusEl) return;
+    const checkedAt = parseDate(autoFeed?.updated_at);
+    if (!checkedAt || checkedAt.getTime() > Date.now() || !Array.isArray(autoFeed?.items)) {
+      statusEl.textContent = t().statusUnavailable;
+    } else if (Date.now() - checkedAt.getTime() > MAX_CHECK_AGE_MS) {
+      statusEl.textContent = t().statusStale(formatDate(autoFeed.updated_at));
+    } else if (!autoFeed.items.length) {
+      statusEl.textContent = t().statusEmpty(formatDate(autoFeed.updated_at));
+    } else {
+      statusEl.textContent = t().statusOk(formatDate(autoFeed.updated_at));
+    }
+  }
+
   async function renderEuDecisions() {
     const listEl = document.getElementById('eu-decisions-list');
     const statusEl = document.getElementById('eu-decisions-status');
@@ -412,12 +435,21 @@
     try {
       const [manual, auto] = await Promise.all([
         fetchJson(MANUAL_URL),
-        fetchJson(AUTO_URL).catch(() => ({ items: [], updated_at: null }))
+        fetchJson(AUTO_URL).then((feed) => {
+          if (!feed || !Array.isArray(feed.items)) {
+            throw new Error('Invalid automatic EU decisions feed');
+          }
+          return feed;
+        }).catch((err) => {
+          console.error('Could not load automatic EU decisions', err);
+          return null;
+        })
       ]);
+      autoFeed = auto;
 
       const allCombined = dedupe([
         ...((manual.items || []).map(normalize)),
-        ...((auto.items || []).map(normalize))
+        ...((auto?.items || []).map(normalize))
       ]);
 
       const combined = allCombined.filter(inWindow);
@@ -433,11 +465,9 @@
         renderFiltered(false);
       }
 
-      if (statusEl) {
-        const autoUpdated = auto && auto.updated_at ? formatDate(auto.updated_at) : t().statusMissing;
-        statusEl.textContent = t().statusOk(autoUpdated);
-      }
+      renderAutoStatus();
     } catch (err) {
+      console.error('Could not load EU decisions', err);
       listEl.innerHTML = `<p class="muted">${escapeHtml(t().loadError)}</p>`;
       setCountText(0, 0);
       setInsectStatus([], []);
@@ -462,6 +492,7 @@
         window.setTimeout(() => {
           populateTopicFilter(allDecisions);
           renderFiltered(false);
+          renderAutoStatus();
         }, 0);
       });
     }
