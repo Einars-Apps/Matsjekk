@@ -20,6 +20,7 @@
       readInLocalLanguage: 'Les i ditt språk',
       sourceLabel: 'Kilde',
       openSource: 'Les originalkilde',
+      translationUnavailable: 'Direkte kildelenke mangler. Åpne originalkilden og bruk nettleserens oversettelse.',
       originalTitle: 'Original tittel',
       topicHeadings: {
         gmo: 'GMO / NGT',
@@ -51,6 +52,7 @@
       readInLocalLanguage: 'Read in your language',
       sourceLabel: 'Source',
       openSource: 'Open original source',
+      translationUnavailable: 'Direct source link unavailable. Open the original source and use your browser translation.',
       originalTitle: 'Original title',
       topicHeadings: {
         gmo: 'GMO / NGT',
@@ -75,8 +77,7 @@
   };
 
   function activeLang() {
-    const htmlLang = String(document.documentElement.lang || '').toLowerCase();
-    return UI_TEXT[htmlLang] ? htmlLang : 'en';
+    return String(document.documentElement.lang || 'en').toLowerCase().split('-')[0];
   }
 
   function t() {
@@ -129,7 +130,9 @@
 
   function translatedSourceUrl(url) {
     const lang = activeLang();
-    if (!url || url === '#') return '#';
+    if (!url || url === '#') return null;
+    const source = new URL(url);
+    if (source.hostname === 'news.google.com') return null;
     if (lang === 'en') return url;
     return `https://translate.google.com/translate?sl=auto&tl=${encodeURIComponent(mapLangCode(lang))}&u=${encodeURIComponent(url)}`;
   }
@@ -214,8 +217,10 @@
         <p class="eu-decision-meta">${escapeHtml(langText.sourceLabel)}: ${escapeHtml(item.source)}</p>
         <p class="eu-decision-origin">${escapeHtml(langText.originalTitle)}: ${escapeHtml(item.originalTitle || item.title)}</p>
         <p class="eu-decision-links">
-          <a href="${localReadUrl}" target="_blank" rel="noopener">${escapeHtml(langText.readInLocalLanguage)}</a>
-          <a href="${safeUrl}" target="_blank" rel="noopener">${escapeHtml(langText.openSource)}</a>
+          ${localReadUrl
+            ? `<a href="${escapeHtml(localReadUrl)}" target="_blank" rel="noopener">${escapeHtml(langText.readInLocalLanguage)}</a>`
+            : `<span class="muted">${escapeHtml(langText.translationUnavailable)}</span>`}
+          <a href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener">${escapeHtml(langText.openSource)}</a>
         </p>
       </article>
     `;

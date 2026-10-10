@@ -34,6 +34,13 @@ The EU page warns when the last automatic check is more than three days old,
 when the feed is unavailable, or when the latest check returned no items.
 The check timestamp does not mean a new decision was found.
 
+The collector resolves Google News links to direct EU publisher URLs using
+`googlenewsdecoder`, retaining `google_news_url` to reuse successful resolutions
+on later runs. Only HTTPS sources under `europa.eu` are accepted.
+"Read in your language" translates the publisher page, not the Google News
+redirect. If resolution fails, the collector logs a warning and the page
+suggests opening the original link and using browser translation instead.
+
 Run the status regression tests with `node --test tools/tests/eu_decisions.test.cjs`
 (Node.js 22 or newer). Python CI also runs these tests.
 

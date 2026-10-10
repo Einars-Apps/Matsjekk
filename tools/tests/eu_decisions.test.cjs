@@ -25,7 +25,7 @@ async function render(feed, { failure = false, lang = 'en' } = {}) {
   const errors = [];
   let onLoad;
   const context = vm.createContext({
-    document, URLSearchParams,
+    document, URL, URLSearchParams,
     Date: class extends Date { static now() { return now; } },
     console: { error: (...args) => errors.push(args) },
     window: {
@@ -92,4 +92,23 @@ test('status follows a language change', async () => {
   document.documentElement.lang = 'nb';
   elements.languageChanged();
   assert.match(elements['eu-decisions-status'].textContent, /Automatisk oppdatering er forsinket/);
+});
+
+test('translation links target the publisher in the selected language', async () => {
+  const url = 'https://food.ec.europa.eu/example?first=1&second=2';
+  for (const [lang, target] of [['nb', 'no'], ['de', 'de'], ['zh', 'zh-CN']]) {
+    const { elements } = await render({ items: [{ ...item, url }] }, { lang });
+    const html = elements['eu-decisions-list'].innerHTML;
+    assert.ok(html.includes(`tl=${target}&amp;u=${encodeURIComponent(url)}`));
+    assert.ok(html.includes('href="https://food.ec.europa.eu/example?first=1&amp;second=2"'));
+  }
+});
+
+test('unresolved Google News links are not sent through Google Translate', async () => {
+  const url = 'https://news.google.com/rss/articles/opaque-id?oc=5';
+  const { elements } = await render({ items: [{ ...item, url }] }, { lang: 'nb' });
+  const html = elements['eu-decisions-list'].innerHTML;
+  assert.ok(!html.includes(encodeURIComponent(url)));
+  assert.ok(html.includes(`href="${url}"`));
+  assert.match(html, /Direkte kildelenke mangler/);
 });

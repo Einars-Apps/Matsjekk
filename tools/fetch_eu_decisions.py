@@ -4,13 +4,16 @@ from __future__ import annotations
 import json
 import hashlib
 import re
+import logging
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 
 import requests
+from googlenewsdecoder import GoogleDecoder
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_PATH = ROOT / 'docs' / 'data' / 'eu_decisions_auto.json'
@@ -159,7 +162,59 @@ def dedupe(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return out
 
 
+def is_publisher_url(url: str) -> bool:
+    parsed = urlparse(url)
+    return (
+        parsed.scheme == 'https'
+        and parsed.hostname is not None
+        and (parsed.hostname == 'europa.eu' or parsed.hostname.endswith('.europa.eu'))
+        and parsed.username is None
+        and parsed.password is None
+    )
+
+
+def resolve_source_urls(
+    items: list[dict[str, Any]], previous_items: list[dict[str, Any]]
+) -> None:
+    cached = {
+        item['google_news_url']: item['url']
+        for item in previous_items
+        if item.get('google_news_url') and is_publisher_url(item.get('url', ''))
+    }
+    pending: dict[str, list[dict[str, Any]]] = {}
+    for item in items:
+        url = item.get('url', '')
+        if urlparse(url).hostname != 'news.google.com':
+            continue
+        item['google_news_url'] = url
+        if url in cached:
+            item['url'] = cached[url]
+        else:
+            pending.setdefault(url, []).append(item)
+
+    if not pending:
+        return
+    with GoogleDecoder(timeout=15) as decoder:
+        results = decoder.decode_google_news_urls(list(pending), interval=1)
+    if len(results) != len(pending):
+        raise RuntimeError('Google News decoder returned an incomplete result list')
+    for (url, matching_items), result in zip(pending.items(), results):
+        publisher_url = result.get('decoded_url', '')
+        if result.get('success') and is_publisher_url(publisher_url):
+            for item in matching_items:
+                item['url'] = publisher_url
+        else:
+            logging.warning(
+                'Could not resolve EU source URL %s: %s',
+                url, result.get('message') or f'Untrusted publisher URL: {publisher_url}',
+            )
+
+
 def main() -> None:
+    previous_items = (
+        json.loads(OUT_PATH.read_text(encoding='utf-8')).get('items', [])
+        if OUT_PATH.exists() else []
+    )
     collected: list[dict[str, Any]] = []
 
     for query in QUERIES:
@@ -188,6 +243,7 @@ def main() -> None:
     normalized = dedupe(normalized)
     normalized.sort(key=lambda x: x.get('date', ''), reverse=True)
     normalized = normalized[:MAX_ITEMS]
+    resolve_source_urls(normalized, previous_items)
 
     payload = {
         'updated_at': datetime.now(timezone.utc).isoformat(),
