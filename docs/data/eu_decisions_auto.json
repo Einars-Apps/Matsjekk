@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-11T11:28:21.527144+00:00",
+  "updated_at": "2026-10-12T13:18:05.655403+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
     {
-      "date": "2026-09-22T15:54:44+00:00",
-      "title": "Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. - food.ec.europa.eu",
+      "date": "2026-09-07T07:00:00+00:00",
+      "title": "Genetically modified organisms (GMO) - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/events/conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-12-03_en",
-      "source": "food.ec.europa.eu",
-      "id": "6ea7bad80a4a76ca",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
+      "summary": " Genetically modified organisms (GMO) &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/EN/legal-content/glossary/genetically-modified-organisms-gmo.html",
+      "source": "EUR-Lex",
+      "id": "1ddcaf7dd3e1240c",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
     },
     {
       "date": "2026-07-16T07:00:00+00:00",
@@ -299,6 +299,17 @@
       "source": "European Parliament",
       "id": "79a62faf5cd4f16a",
       "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5"
+    },
+    {
+      "date": "2024-01-24T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs want to ban all patents for NGT plants - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs want to ban all patents for NGT plants &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240122IPR17027/new-genomic-techniques-meps-want-to-ban-all-patents-for-ngt-plants",
+      "source": "European Parliament",
+      "id": "a2aaee007a993137",
+      "google_news_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORXFjdVBFZ1plQ3BEVklvSEE4VkI3UGVlc2UwYmtjU3B1ZWhaMzljcDJETkNPaVllazdFWlBJY3FWbV9yYlJwWENod212ajF4djBsQU1UcVJ4QmJxblE2a1d5SmtUZjhlcTNUTDhyRWlFRW9CU1VVTFVDNmhERDdkdTlCRzNfemxLRHFGelhlcVdRZEtQRTAtUXN4aDk4UThVSDBlTkk0al9HczZuNVRJb2tkUUV0WTZndW85Y1hqRkdaMm5Rekp6Y2c3bk9SUQ?oc=5"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
