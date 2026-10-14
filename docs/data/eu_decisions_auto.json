@@ -1,8 +1,19 @@
 {
-  "updated_at": "2026-10-13T12:47:30.460671+00:00",
+  "updated_at": "2026-10-14T10:20:22.020145+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
+    {
+      "date": "2026-09-22T15:54:44+00:00",
+      "title": "Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques. &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://food.ec.europa.eu/events/conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-12-03_en",
+      "source": "food.ec.europa.eu",
+      "id": "6ea7bad80a4a76ca",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
+    },
     {
       "date": "2026-09-07T07:00:00+00:00",
       "title": "Genetically modified organisms (GMO) - EUR-Lex",
@@ -24,17 +35,6 @@
       "source": "food.ec.europa.eu",
       "id": "735b53494e258ddb",
       "google_news_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVV94aktwUW0xUmVGLVpmS1pvNEp3TGF6aEtselgzb09NdUZHTTNmd3BxS1UxdGtmWFc5dy02OHY4VDFXOXpEZi1jNVd2bXB0UXREVXROdzl0cW5LdGxZek9TR2lISjJxQ1dXSnVMYWlqdnI5c1RocEJsN0NvS2t0Wmk3eFE2dXlNMUJ0Y3JlaDdLWFpwNEtETVZQSlhWWllIcnVydEVPbUJpSFU1YnhQVXZ3TlBkdzNTaXBIV1BGcUlsTUU5TGtnOW83OGhEeU1rNW1OZ2lkV0lyOXI2TVo0Q0JuSTBwRTBPRW9PVg?oc=5"
-    },
-    {
-      "date": "2026-06-17T07:00:00+00:00",
-      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/topics/en/article/20240125STO17062/is-the-eu-authorising-new-gmos-telling-fact-from-fiction",
-      "source": "European Parliament",
-      "id": "62258df8146f627a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5"
     },
     {
       "date": "2026-06-17T07:00:00+00:00",
@@ -93,13 +93,13 @@
     },
     {
       "date": "2026-04-21T07:00:00+00:00",
-      "title": "New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems - consilium.europa.eu",
+      "title": "New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems - Consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems &nbsp;&nbsp; consilium.europa.eu ",
+      "summary": " New genomic techniques: Council adopts new rules to boost sustainable and competitive EU food systems &nbsp;&nbsp; Consilium.europa.eu ",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/21/new-genomic-techniques-council-adopts-new-rules-to-boost-sustainable-and-competitive-eu-food-systems/",
-      "source": "consilium.europa.eu",
-      "id": "cf9070b72a864a19",
+      "source": "Consilium.europa.eu",
+      "id": "ebfd522ab991e0da",
       "google_news_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU3RuVUlxcVhaUU5pQlZCUWFlUW96Qi1vSUllaXJwbUFDZVJmbUx3X21TQWViSGh3YjJkSzBKcXdFNHRtLUtZTGJkeGlkRVE5dko1T0g0MkQxeWpWSkh2SzRqbUpQYkg1bU1BckZaT3NxYjNRS2xxb29OTlg0Q0lRQ2RoUnhGVXd1MXNJZWJRaXFmSm9BUy04V1RnNmRFMFhWMWEzQW5xbFlHNGd6NGFZWm9HdFh6OWpJb3EyM0t4X1B4R1dYaEtPMnVGSWpLZVVhRWFmejhoZXZkQVV6bnhXUkVKNkQ3aGdqeWc4Tks5MFFYd3dhWXFFLVdvVlI?oc=5"
     },
     {
@@ -290,15 +290,15 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5"
     },
     {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques - European Parliament",
+      "date": "2024-02-02T08:00:00+00:00",
+      "title": "Is the EU authorising new GMOs? Telling fact from fiction - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2024/757626/EPRS_ATA(2024)757626_EN.pdf",
+      "summary": " Is the EU authorising new GMOs? Telling fact from fiction &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/topics/en/article/20240125STO17062/is-the-eu-authorising-new-gmos-telling-fact-from-fiction",
       "source": "European Parliament",
-      "id": "79a62faf5cd4f16a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5"
+      "id": "62258df8146f627a",
+      "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
