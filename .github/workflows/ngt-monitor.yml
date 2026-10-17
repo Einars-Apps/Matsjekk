@@ -1,8 +1,6 @@
 name: Weekly AI Risk Review
 
 on:
-  schedule:
-    - cron: "23 5 * * 1"
   workflow_dispatch:
 
 concurrency:
