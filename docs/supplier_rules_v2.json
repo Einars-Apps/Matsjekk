@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "updated_at": "2026-10-19",
+  "tine_bovaer_note_nb": "TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
   "origin": "Existing app rules; export is not a new factual verification.",
   "countries": {
     "NO": {

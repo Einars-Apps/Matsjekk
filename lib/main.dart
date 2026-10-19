@@ -1557,6 +1557,13 @@ class _ScannerScreenState extends State<ScannerScreen>
       'ostecompagniet': 'OsteCompagniet',
       'oste companiet': 'OsteCompagniet',
       'kavli': 'Kavli',
+      'jarlsberg': 'Jarlsberg',
+      'norvegia': 'Norvegia',
+      'biola': 'Biola',
+      'litago': 'Litago',
+      'snøfrisk': 'Snøfrisk',
+      'gudbrandsdalsost': 'Gudbrandsdalsost',
+      'ski queen': 'Ski Queen',
     };
 
     if (_hasOrganicCertification(labelTags)) {
@@ -1592,8 +1599,8 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'risk': RiskLevel.yellow,
         'text': isNorwegian
-            ? 'MULIG RISIKO: Tine opplyser at Bovaer-melk ikke lenger blandes inn i produkter, men eldre varer kan fortsatt finnes i butikk. Sjekk produksjonsdato.'
-            : 'POSSIBLE RISK: Tine states that Bovaer milk is no longer mixed into products, but older items may still be in stores. Check production date.',
+            ? 'MULIG RISIKO: $tineBovaerYellowReasonNb'
+            : 'POSSIBLE RISK: $tineBovaerYellowReasonEn',
         'url': bovaerUpdateUrl,
       };
     }
@@ -1637,8 +1644,8 @@ class _ScannerScreenState extends State<ScannerScreen>
         'risk': RiskLevel.yellow,
         'text': isKnownTinePartner
             ? (isNorwegian
-                ? 'MULIG RISIKO: $partnerList samarbeider med Tine. Sjekk produksjonsdato og etikett.'
-                : 'POSSIBLE RISK: $partnerList collaborates with Tine. Check production date and label.')
+                ? 'MULIG RISIKO: $partnerList er knyttet til TINE. $tineBovaerYellowReasonNb'
+                : 'POSSIBLE RISK: $partnerList is linked to TINE. $tineBovaerYellowReasonEn')
             : (isNorwegian
                 ? 'MULIG RISIKO: ${matchedLabelList.isEmpty ? 'Dette merket' : matchedLabelList} er registrert som samarbeidspartner i intern sporingsliste. Se oppdatert status for leverandørinformasjon, og sjekk etikett og produksjonsdato.'
                 : 'POSSIBLE RISK: ${matchedLabelList.isEmpty ? 'This brand' : matchedLabelList} is listed as a partner in the internal tracking list. See updated supplier status, and check label and production date.'),
