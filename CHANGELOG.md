@@ -2,6 +2,7 @@
 
 ## Unreleased (working)
 
+- Set TINE and TINE dairy brands (Jarlsberg, Norvegia and the other Norwegian sub-brands) to yellow for Bovaer. TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
 - Replace the NGT-only co-occurrence monitor with a Monday OpenAI evidence review
   covering Bovaer, GMO feed, insect protein and NGT, with explicit country/level
   coverage and draft proposals requiring human approval.

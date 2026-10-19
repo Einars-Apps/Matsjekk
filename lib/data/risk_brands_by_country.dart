@@ -1,5 +1,14 @@
 import 'factory_customer_relations.dart';
 
+/// Owner-confirmed Bovaer status for TINE and TINE products (Jarlsberg, Norvegia,
+/// and the other Norwegian sub-brands). Yellow, because older goods can remain
+/// on shelves after TINE stopped delivering Bovaer milk to consumers.
+const String tineBovaerYellowReasonNb =
+    'TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.';
+
+const String tineBovaerYellowReasonEn =
+    'TINE states that it no longer delivers Bovaer milk to consumers, but older products (for example cheese) may still be found in stores.';
+
 // Risk brands organized by country and category.
 //
 // DATA SOURCES (March 2026):
@@ -19,7 +28,7 @@ import 'factory_customer_relations.dart';
 //            (b) subsidiary of or partner to a confirmed RED company,
 //            (c) large dairy with unconfirmed status but plausible exposure via the
 //                DSM-Firmenich distribution network.
-//            Norwegian model: TINE → Synnøve / Fjordland / Q-meieriene / Kavli
+//            Norwegian model: TINE (yellow) → Synnøve / Fjordland / Q-meieriene / Kavli
 //   GREEN note: Certified organic (Demeter, KRAV, EU Organic, Debio, Bio Suisse)
 //            products are captured by organic_keywords. Bovaer is incompatible with
 //            EU organic certification, so organic labels are a reliable green signal.
@@ -27,14 +36,13 @@ import 'factory_customer_relations.dart';
 final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'NO': {
-    // NORGE — Last verified: March 2026
+    // NORGE — Last verified: 2026-10-19
     // RED:  Arla confirmed large-scale Nordic Bovaer rollout (2022–2023).
     //       Lurpak and Castello are Arla brands (same milk supply chain).
-    // YELLOW: TINE ran Bovaer trials; user-confirmed yellow is correct.
+    // YELLOW: TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker,
+    //   men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
     //   TINE supplies milk/ingredients to Synnøve, Fjordland (TINE subsidiary),
     //   Q-meieriene, Kavli and OsteCompagniet — whole downstream chain flagged.
-    //   NB: Videreforedlede produkter (ost, smør, rømme, fløte) fra disse
-    //   merkene kan fortsatt ligge i butikk fra Bovaer-melk-produksjon.
     'bovaer_red': [
       'arla', 'apetina', 'aptina',
       'lurpak',    // Arla brand — butter sold globally

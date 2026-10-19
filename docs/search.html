@@ -61,7 +61,7 @@
 
   <script>
   async function loadRisk() {
-    const res = await fetch('data/risk.json');
+    const res = await fetch('data/risk.json?v=20261019a');
     return res.json();
   }
 
@@ -106,13 +106,17 @@
     const bYellow = (cdata.bovaer_yellow || []).map(b=>b.toLowerCase());
     const isBovaerRed = bRed.some(b => brand.includes(b) || brandNormalized.includes(b.replace(/[^a-z0-9]/g,'')));
     const isBovaerYellow = bYellow.some(b => brand.includes(b));
+    const bovaerNotes = (Array.isArray(cdata.bovaer_notes) ? cdata.bovaer_notes : [])
+      .filter(note => (note.brands || []).some(b => brand.includes(String(b).toLowerCase())))
+      .map(note => note.text)
+      .filter(Boolean);
 
     // Insect meal check (simple keywords)
     const insectKeywords = ['insect','insektsmel','insektsprotein','mealworm','meal worm','black soldier fly','insektsmel'];
     const hasInsect = insectKeywords.some(k => ingredients.includes(k) || labels.includes(k));
 
     return {
-      isOrganic, isBovaerRed, isBovaerYellow, hasInsect
+      isOrganic, isBovaerRed, isBovaerYellow, hasInsect, bovaerNotes
     };
   }
 
@@ -162,7 +166,10 @@
     const notes = [];
     if (c.isOrganic) notes.push('Økologisk (merking funnet)');
     if (c.isBovaerRed) notes.push('Bovaer: høy risiko (produsent i rød liste)');
-    else if (c.isBovaerYellow) notes.push('Bovaer: moderat risiko (produsent i gul liste)');
+    else if (c.isBovaerYellow) {
+      notes.push('Bovaer: moderat risiko (produsent i gul liste)');
+      (c.bovaerNotes || []).forEach(note => notes.push(note));
+    }
     if (c.hasInsect) notes.push('Insektmel: indikasjon i ingredienslisten');
     return `
       <div class="product">
