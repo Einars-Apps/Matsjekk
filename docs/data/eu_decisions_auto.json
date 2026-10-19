@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T09:42:56.463152+00:00",
+  "updated_at": "2026-10-19T10:57:10.934462+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -159,13 +159,13 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems - consilium.europa.eu",
+      "title": "New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems - Consilium.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems &nbsp;&nbsp; consilium.europa.eu ",
+      "summary": " New genomic techniques: Council and Parliament strike deal to boost the competitiveness and sustainability of our food systems &nbsp;&nbsp; Consilium.europa.eu ",
       "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/04/new-genomic-techniques-council-and-parliament-strike-deal-to-boost-the-competitiveness-and-sustainability-of-our-food-systems/pdf/",
-      "source": "consilium.europa.eu",
-      "id": "296e3136b3c24a4b",
+      "source": "Consilium.europa.eu",
+      "id": "6f56ab38b3921bc0",
       "google_news_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUXRFRGhXM1NubUZ5clNocUc2T0dyRXpmRm5iRmtBZHZfbWlweHF2UERVNWhIbGJMUXFaY0tMREhFN1ZsQW53TEZXMFdnWjdWbEw1LWVTVjk3Z3g2S0RzWktQdmVsU0FFYUt0dTBZUHJ1TkJwbExMYTE3UXBWZHdHR3NwczI4S1ItRjlyOFc1LWhmYWFuMENDM3p0X3owU25VZTZJdWs2QnVXNFktNHZlSjVkS3VwSHV3RDVrTU1Cb2F0SHRjQ2hpWnpaYmViOTRfZmttY0l5Ml9pQ2R1YjNzVmxSZHBRS2g1c1RyVkpSMjRzdVRTbDR2TU5WMEo5dkVvQ2ZvSXowd251UlphOFVjVnRRcU5oN1ZEbVc4RVNMQy1faEU?oc=5"
     },
     {
@@ -178,17 +178,6 @@
       "source": "Consilium.europa.eu",
       "id": "c1b33b4fdcb1368e",
       "google_news_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQdkNnZmtHUm8zQThXWE5wdGdGczNUQXRLdXFpU1ZEZkdXMm9aVlF3OVRZbXY2SGNCMi1UbFR0OTNibDlLLWVQeUQ1dy1JX2t1R01VdHVQdWVMOFB0cFUyMDJUQUs0TEE1T0Q0VWd4ZlVsVks2QnZONjljUmZBSFpsVHJDRWUzdjE2MGJoZFgyOXFYSkZhME1xYUJEa2VPQlJWZUtGUlo3cXBBVnIybE9ocHJ5d0Ixb0VyQlZYYVM0VHZqWFczOVJlS3NSV0xLcE53NzZRcXN4R1JheTRGMFBPQU9WQmEycHN2eGdicGNrSWY2X19pVVp0Wm0wVTdRX1F0R3ZKYktuY2hVQnV1WW5xdEZ4dDJfSUZJRmV3cy1B?oc=5"
-    },
-    {
-      "date": "2025-12-03T08:00:00+00:00",
-      "title": "02 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 02 2026 | Sustaining our quality of life: food security, water and nature | Plants produced by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/legislative-train/carriage/plants-produced-by-certain-new-genomic-techniques/report?sid=10001",
-      "source": "European Parliament",
-      "id": "2248af668c062eb3",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSFNYYnhfQ2ZEUS1FTThFS201RFpvMUdTalk4NHFaUWxzRjRMcTNpRVZKdjdGc3NPRDM3anJZMnN3b3ZrWFd1MVcyUE85aG9SZWFMNG4zUWxZazctOG43Tk81WG03TFd3Z2lPYlo3STVRMDFSaThYTm95c1Y4ZW00aXc0LXRpMEowQm5oRm9XUnoyc2tQcWdvS01zUVNmeG9qSzRrTXBFZHhNbUVKN1U5SnJlUHRCRjdidk1oeDl4TFdHUQ?oc=5"
     },
     {
       "date": "2025-07-13T10:39:11+00:00",
@@ -321,6 +310,17 @@
       "source": "EUR-Lex",
       "id": "d5fb36521e33afe9",
       "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkEyTHp2c3UyZnE3ZExZOWlSaG45OTU1clVxYTlycW9mLVF4ejlxaW1ZcG9ScVZzNDFMa1BRaFhSMDN2MWhHQnNYakszVm5Zdm91N1ZxMG5GQ0F4Y1dOUGpDQzNCbjFkcXVtV0xDNUJ1cWhrWHJlak9sSzJYVVEwOWdIMjZYeVNG?oc=5"
+    },
+    {
+      "date": "2023-11-27T08:00:00+00:00",
+      "title": "Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " Consultation on the determination of the status of a novel food under Article 4 (2) of Regulation (EU) 2015/2283 &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://food.ec.europa.eu/system/files/2023-11/novel-food_consult-status_cereal-protein-concentrate.pdf",
+      "source": "food.ec.europa.eu",
+      "id": "1e1d95f6f5c47cc8",
+      "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVHJzeng3a3NaYkU4S1l5QzlCVERVSTZ0ZV9LWW41MXVLU3dTYTZMaWhYc2tsaGo2ZnZlRWVHdWtRVFJlUGYwWUZIVlZzVzh6OEp0M3Awd3pYRWo2QXlLS29DVjhvRDBBbXBzOVdpVC1CQ2llVU1QeUFxSFhwVkdwOXN4TFJ4ckhMMllDRmp6c1J4RXFuMHU3SkVRZXRRU042RTg4NXBn?oc=5"
     }
   ]
 }
