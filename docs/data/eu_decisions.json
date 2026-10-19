@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-06-06",
+  "updated_at": "2026-10-19",
   "window_years": 3,
   "items": [
+    {
+      "date": "2026-09-23",
+      "title": "Kommisjonen godkjenner GM-soya GMB151 × DAS-44406-6 og MON 94313, og fornyer GM-mais MON 87460 (mat og fôr)",
+      "type": "Vedtak i kraft (import og foredling, ikke dyrking)",
+      "topic": "GMO/NGT",
+      "summary": "Kommisjonens gjennomføringsbeslutninger (EU) 2026/2112, 2026/2117 og 2026/2121 av 23. september 2026 tillater mat, fôr og andre produkter som inneholder, består av eller er produsert fra disse GM-plantene i EU i 10 år. Dyrking i EU er ikke tillatt. En godkjenning sier ikke noe om hvilke merker som bruker dem.",
+      "url": "https://agrinfo.eu/book-of-reports/gm-authorisations-soyabeans-gmb151-x-das-44406-and-mon-94313-8-and-maize-mon-87460-4/",
+      "source": "AGRINFO (EU-finansiert)"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "NGT-forordningen (EU) 2026/1388 er vedtatt og publisert i EU-tidende",
+      "type": "Vedtak i kraft (gjelder fra 17.07.2028)",
+      "topic": "GMO/NGT",
+      "summary": "Europaparlamentet og Rådet vedtok 17. juni 2026 forordning (EU) 2026/1388 om planter fra visse nye genomiske teknikker (målrettet mutagenese og cisgenese) og mat og fôr fra slike planter. Den ble publisert i EU-tidende 26.6.2026, trådte i kraft 16.7.2026 og gjelder fra 17.7.2028. Fram til da gjelder dagens GMO-regler for slike produkter.",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1388/oj/eng",
+      "source": "EUR-Lex"
+    },
     {
       "date": "2026-02-05",
       "title": "Konsolidert EU-tekst for 3-nitrooxypropanol (3-NOP/Bovaer) oppdatert",
@@ -10,6 +28,15 @@
       "summary": "Konsolidert versjon av regelverket for 3-NOP i fôr ble oppdatert i EUR-Lex. Dette er referansegrunnlag for status i appen.",
       "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02022R0565-20260205",
       "source": "EUR-Lex"
+    },
+    {
+      "date": "2026-02-03",
+      "title": "EFSA revurderer sikkerheten ved 3-NOP (Bovaer) for melkekyr",
+      "type": "Pågående risikovurdering (ikke vedtak)",
+      "topic": "Bovaer",
+      "summary": "Etter danske rapporter om fordøyelses- og stoffskifteproblemer hos melkekyr fikk EFSA mandat fra Kommisjonen til å vurdere om godkjenningen av 3-NOP fortsatt oppfyller kravene til sikkerhet for målartene (EFSA-Q-2026-00024). EFSA samlet inn data 3.2.–10.4.2026. Uttalelsen var planlagt 30.6.2026, men er utsatt. EFSA venter å bli ferdig innen utgangen av 2026. Godkjenningen gjelder fortsatt i mellomtiden.",
+      "url": "https://www.efsa.europa.eu/en/call/call-data-use-3-nitrooxypropanol-ruminants",
+      "source": "EFSA"
     },
     {
       "date": "2024-02-07",
