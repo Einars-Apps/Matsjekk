@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T05:33:29.889006+00:00",
+  "updated_at": "2026-10-22T05:33:22.729998+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -24,28 +24,6 @@
       "source": "EUR-Lex",
       "id": "1ddcaf7dd3e1240c",
       "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
-    },
-    {
-      "date": "2026-08-31T07:00:00+00:00",
-      "title": "Biotechnologies: Commission publishes a call for evidence on the delegated and implementing acts to support the application of the New Genomic Techniques (NGT) Regulation - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Biotechnologies: Commission publishes a call for evidence on the delegated and implementing acts to support the application of the New Genomic Techniques (NGT) Regulation &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/food-safety-news/biotechnologies-commission-publishes-call-evidence-delegated-and-implementing-acts-support-2026-08-31_en",
-      "source": "food.ec.europa.eu",
-      "id": "9193b4756b02f30a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWEVNN245XzZYWW5qQ1cyYnBUSkVkZ1hKaVlSOW56dTNxdDZ4UzgzZWFsandSZ0RPXzJxY1pNeVRmQ1FWWm9Oai1RM1l0Z1A4NmlFLXFnSURVRTBFbmVYMlZwNHhtZ2RCX1F6Z1lrSUdhZURVWFlLU2E5VElPUDFSOEZXUUxPZkpWcHB5b2RRMzZlSUJzUEdKbXBFMVFSQ2dUSnp5RjFfcWNoQnItVGFCWmtpS1BvbURWbFZib0lRa0o5bUN2YnM4UHY3M182eUtQT25GRmh6YnJYMy02Vl9neA?oc=5"
-    },
-    {
-      "date": "2026-08-31T07:00:00+00:00",
-      "title": "SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/food-safety-news/save-date-conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-08-31_en",
-      "source": "food.ec.europa.eu",
-      "id": "6a4bb048109a18d8",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSDdJdzh5Yjh4RDZ2RExHZzdFQzQwekNUT2hSWnVXUmZiNzU0NFVUVlpUMGdGcWZQV0lSZ0NXLWJQLXplVThjYUlnU2ZIdnFWVHdQQzY5Tm9KbjA0Smw2X1hLY3hwdG9JSlk4VEdXRXlwekN3QmpLaTNTcTdoOWtuT0NscDF0RzVlY1k0S2hGVk1UbjFaTU95eFdteXlHSFFwSkFaU0NfZ2NFaDI3VmN2WU9fWEZlX1E0ZlctZUt2WTBRWWdJZHVqWXRmSE9BaEpKM0JzUERVSHF1Q1BYbGhOZExwcDAzV0NYd0QxYTNR?oc=5"
     },
     {
       "date": "2026-07-16T07:00:00+00:00",
@@ -137,14 +115,14 @@
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/news/de/press-room/20251201IPR31710/new-genomic-techniques-deal-to-support-the-green-transition-in-farming",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/news/nl/press-room/20251201IPR31710/new-genomic-techniques-deal-to-support-the-green-transition-in-farming",
       "source": "European Parliament",
-      "id": "30fe070973666d32",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLUdNUmJDbndrcUYtMjE3YWFISy1lMG14TTB3d0Jjb3BCcGRRQ0Uyd1IyTnJnSEFVSzJSc2tzNG9LeEZ4Ny02MjZ5b3pZZzF5X0M5Z1FEeklWSmVqVWl2REh0eHVINHFsck5BZjlVb1JBNVBiVHE5aDlNcXNTTmpiQkphVDFxcEY0d0Rwd1BJM1ZxNmxvRDd5aWlLdkE1U3dlYnoxcWEyMVI2SmdtNmg2cW9vUmFaU0dRWi1tZ0N5Z2phTmE4clFnVHdpX01oM3NWRWlB?oc=5"
+      "id": "a8057ba0c6d6254e",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5"
     },
     {
       "date": "2025-12-04T08:00:00+00:00",
@@ -224,17 +202,6 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa1YteWI1UTlsWjMtN0RORTBWYU1DOHkzVUZmVW5pMFRta2haMVZZcEhxajZqMjRQeF9nV0p4cWsxdWQ2bnd1ZEVrWHhkcFE1bnRaQjZxaEZ3S3FkeUNDajc1d1paeUpSVzZaT1dELXpWdjhkUng0T05LU0tSVHFwVkh1bkQ5amNLRU50VEh6R0tRd3lCUDJOYVFJWTlLU3NFenRXdlVUOUFlcm5PRm5UV0NyQmNaZmFwTWRHMlU1cTNZNm8?oc=5"
     },
     {
-      "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024AP0067",
-      "source": "EUR-Lex",
-      "id": "b728d19d56a95238",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5"
-    },
-    {
       "date": "2024-10-02T22:12:39+00:00",
       "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -277,17 +244,6 @@
       "source": "European Parliament",
       "id": "62258df8146f627a",
       "google_news_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU1pfMkhxcUlMMWtTSGVtUmYydjN1RXktdEVwbExNZl9Xc0Z5WGZOWldGYjlQLU8tdHFhUWdiallMOUdneTlHMWplSVZYb0RJU0NSMS1lSk5Yb19kazlSd1M2bU1xV19CNVAzUkVheFZlZW9fMzFhUXlCMWFMN0tqeUE1SmdPU2dMVW9sU1ByTWd1a19FcVFqTDlYc0pPS2E3NnNMLXBnQzJfbGQ5akR2MWVYM3pDem9TcHFDX0p4TQ?oc=5"
-    },
-    {
-      "date": "2024-01-24T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2024/757626/EPRS_ATA(2024)757626_EN.pdf",
-      "source": "European Parliament",
-      "id": "79a62faf5cd4f16a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORHh6VTd4ZmpkelZSa2YxbzBwaU9GZTQ1VnZpZjcxWTluSkJBcWN2b1p3V3N3UlNMeXFiVUh5TkVkNFp5RHhOSEJMU0NOWC1tRmVaZkhCZE1LUWpFLUc1OHpsNnY5N0xSSnAwMkRDVW1BcFIzc1VvMXNFeEJNeHZBS1MxZUZXVWlqZHBOVGxsQUU4YjVu?oc=5"
     },
     {
       "date": "2024-01-10T08:00:00+00:00",
