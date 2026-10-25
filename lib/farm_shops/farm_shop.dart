@@ -148,14 +148,56 @@ double? _toDouble(dynamic v) {
   return null;
 }
 
-/// Repairs common UTF-8-read-as-Latin-1 mojibake ("KjÃ¸tt" -> "Kjøtt").
-String repairMojibake(String input) {
-  if (!input.contains('Ã') && !input.contains('Â')) return input;
-  try {
-    return utf8.decode(latin1.encode(input));
-  } catch (_) {
-    return input;
+/// Windows-1252 code points for bytes 0x80–0x9F. Mojibake produced by
+/// decoding UTF-8 as cp1252 (e.g. "Ã˜" for "Ø") contains these characters,
+/// which plain Latin-1 cannot encode back.
+const Map<int, int> _cp1252Bytes = {
+  0x20AC: 0x80, 0x201A: 0x82, 0x0192: 0x83, 0x201E: 0x84, 0x2026: 0x85,
+  0x2020: 0x86, 0x2021: 0x87, 0x02C6: 0x88, 0x2030: 0x89, 0x0160: 0x8A,
+  0x2039: 0x8B, 0x0152: 0x8C, 0x017D: 0x8E, 0x2018: 0x91, 0x2019: 0x92,
+  0x201C: 0x93, 0x201D: 0x94, 0x2022: 0x95, 0x2013: 0x96, 0x2014: 0x97,
+  0x02DC: 0x98, 0x2122: 0x99, 0x0161: 0x9A, 0x203A: 0x9B, 0x0153: 0x9C,
+  0x017E: 0x9E, 0x0178: 0x9F,
+};
+
+// A UTF-8 continuation byte (0x80–0xBF) as it looks after a cp1252/Latin-1
+// mis-decode.
+const String _cont = '[\u0080-\u00BF\u20AC\u201A\u0192\u201E\u2026\u2020'
+    '\u2021\u02C6\u2030\u0160\u2039\u0152\u017D\u2018\u2019\u201C\u201D'
+    '\u2022\u2013\u2014\u02DC\u2122\u0161\u203A\u0153\u017E\u0178]';
+final RegExp _mojibakeSeq =
+    RegExp('[\u00C2-\u00DF]$_cont|[\u00E0-\u00EF]$_cont$_cont');
+
+String? _decodeMisread(String s) {
+  final bytes = <int>[];
+  for (final c in s.runes) {
+    if (c < 0x100) {
+      bytes.add(c);
+    } else {
+      final b = _cp1252Bytes[c];
+      if (b == null) return null;
+      bytes.add(b);
+    }
   }
+  try {
+    return utf8.decode(bytes);
+  } catch (_) {
+    return null;
+  }
+}
+
+/// True when [input] looks like UTF-8 that was decoded as Latin-1/cp1252.
+bool hasMojibake(String input) => _mojibakeSeq.hasMatch(input);
+
+/// Repairs UTF-8-read-as-Latin-1/cp1252 mojibake ("KjÃ¸tt" -> "Kjøtt",
+/// "Ã˜yens" -> "Øyens"). Strings that mix correct text with mojibake are
+/// repaired sequence by sequence.
+String repairMojibake(String input) {
+  if (!hasMojibake(input)) return input;
+  final whole = _decodeMisread(input);
+  if (whole != null) return whole;
+  return input.replaceAllMapped(
+      _mojibakeSeq, (m) => _decodeMisread(m[0]!) ?? m[0]!);
 }
 
 String? cleanText(dynamic v) {
@@ -249,6 +291,102 @@ List<FarmShop> parseFarmShops(dynamic payload) {
 
 String _normName(String s) =>
     s.toLowerCase().replaceAll(RegExp(r'[^a-z0-9æøåäöüéèáàíóúñç]'), '');
+
+/// Normalised name used for duplicate detection (case, spacing and
+/// punctuation insensitive).
+String normalizedFarmShopName(String s) => _normName(repairMojibake(s));
+
+// Conservative keywords for entries that are clearly alcohol retail rather
+// than farm shops / food producers. Breweries, cideries, distilleries and
+// wineries are kept on purpose: they are local producers.
+final RegExp _nonFarmName = RegExp(
+  r'\bbooze\b|\bliquor\b|\bbottle ?shop|\bbottle shoppe\b|off[- ]licen[cs]e|'
+  r'vinmonopol|systembolag|getränke ?markt|getraenkemarkt|licorer[ií]a',
+  caseSensitive: false,
+  unicode: true,
+);
+final RegExp _nonFarmCategory = RegExp(
+  r'liquor|alcohol (shop|store)|off[- ]licen[cs]e|vinmonopol|systembolag|'
+  r'alkoholbutikk|spritbutik|getränkemarkt|shop=alcohol|bottle ?shop',
+  caseSensitive: false,
+  unicode: true,
+);
+
+/// Returns a short reason when [shop] is an obvious non-farm entry (alcohol
+/// retail), otherwise null.
+/// Names that clearly describe a producer (distillery, brewery, winery,
+/// cidery, farm) are never dropped, even if they also contain "liquor".
+final RegExp _producerName = RegExp(
+  r'distill|brewer|bryggeri|winery|vineyard|cider|cidre|farm|gård|gaard|'
+  r'\bhof\b|ferme|granja|fattoria|quinta',
+  caseSensitive: false,
+  unicode: true,
+);
+
+String? nonFarmReason(FarmShop shop) {
+  if (_producerName.hasMatch(shop.name)) return null;
+  final m = _nonFarmName.firstMatch(shop.name);
+  if (m != null) return 'name:"${m[0]}"';
+  final category = shop.category;
+  if (category != null) {
+    final c = _nonFarmCategory.firstMatch(category);
+    if (c != null) return 'category:"${c[0]}"';
+  }
+  return null;
+}
+
+class FarmShopCleanupResult {
+  final List<FarmShop> shops;
+
+  /// "Name (reason)" for every dropped non-farm entry.
+  final List<String> droppedNonFarm;
+
+  /// Number of entries merged into another entry as duplicates.
+  final int duplicatesRemoved;
+
+  const FarmShopCleanupResult(
+      this.shops, this.droppedNonFarm, this.duplicatesRemoved);
+
+  int get removed => droppedNonFarm.length + duplicatesRemoved;
+}
+
+/// Client-side quality filter applied when farm shops are loaded:
+/// drops obvious non-farm entries and merges entries with the same
+/// normalised name within [dedupeRadiusKm] (names are already
+/// mojibake-repaired by [FarmShop.fromJson], so "Ã˜yens" and "Øyens"
+/// collapse into one entry).
+FarmShopCleanupResult cleanFarmShops(List<FarmShop> shops,
+    {double dedupeRadiusKm = 0.2}) {
+  final dropped = <String>[];
+  final result = <FarmShop>[];
+  final byName = <String, List<int>>{};
+  var duplicates = 0;
+  for (final shop in shops) {
+    final reason = nonFarmReason(shop);
+    if (reason != null) {
+      dropped.add('${shop.name} ($reason)');
+      continue;
+    }
+    final key = normalizedFarmShopName(shop.name);
+    final candidates = byName.putIfAbsent(key, () => []);
+    int? match;
+    for (final i in candidates) {
+      final s = result[i];
+      if (distanceKm(s.lat, s.lon, shop.lat, shop.lon) <= dedupeRadiusKm) {
+        match = i;
+        break;
+      }
+    }
+    if (match != null) {
+      result[match] = result[match].mergedWith(shop);
+      duplicates++;
+    } else {
+      candidates.add(result.length);
+      result.add(shop);
+    }
+  }
+  return FarmShopCleanupResult(result, dropped, duplicates);
+}
 
 /// Merges [extras] (e.g. the Debio organic list) into [base]. Entries with the
 /// same normalised name within 1 km are treated as the same shop.

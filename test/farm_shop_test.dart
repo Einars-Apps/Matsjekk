@@ -91,4 +91,92 @@ void main() {
       expect(values[lang]!.keys.toSet(), keys, reason: lang);
     }
   });
+
+  group('farm shop cleanup', () {
+    test('repairs cp1252 mojibake such as "Ã˜"', () {
+      expect(repairMojibake('Ã˜yens Hjemmebakeri AS'), 'Øyens Hjemmebakeri AS');
+      expect(repairMojibake('Bakken Ã˜vre GÃ¥rdsmat'), 'Bakken Øvre Gårdsmat');
+      expect(repairMojibake('KjÃ¸tt'), 'Kjøtt');
+      // Mixed correct text and mojibake.
+      expect(repairMojibake('Åsen GÃ¥rd'), 'Åsen Gård');
+      // Correct text is left alone.
+      expect(repairMojibake('Øyens Hjemmebakeri AS'), 'Øyens Hjemmebakeri AS');
+      expect(repairMojibake('Straße Café Ändern'), 'Straße Café Ändern');
+    });
+
+    test('drops obvious alcohol retail but keeps producers', () {
+      final shops = parseFarmShops([
+        {
+          'id': 'b',
+          'name': 'Booze of Norway AS',
+          'products': ['Alkoholholdige drikker'],
+          'lat': 59.8276,
+          'lon': 10.4347,
+        },
+        {'id': 'l', 'name': 'Local Liquor', 'lat': -33.0, 'lon': 151.0},
+        {'id': 's', 'name': 'Systembolaget', 'lat': 59.3, 'lon': 18.0},
+        {
+          'id': 'k',
+          'name': 'Some Shop',
+          'category': 'Liquor store',
+          'lat': 50.0,
+          'lon': 8.0,
+        },
+        {
+          'id': 'br',
+          'name': 'Ekeby Gårdsbryggeri',
+          'products': ['Alkoholholdige drikker'],
+          'lat': 59.0,
+          'lon': 10.0,
+        },
+        {'id': 'it', 'name': 'Liquorificio L\'alambicco', 'lat': 45.0, 'lon': 9.0},
+        {'id': 'a', 'name': 'Aaby Gård', 'lat': 59.84, 'lon': 10.46},
+        {'id': 'd', 'name': 'Sun Liquor Distillery', 'lat': 47.6, 'lon': -122.3},
+      ]);
+      final res = cleanFarmShops(shops);
+      expect(res.droppedNonFarm.length, 4);
+      expect(res.shops.map((s) => s.name), [
+        'Ekeby Gårdsbryggeri',
+        'Liquorificio L\'alambicco',
+        'Aaby Gård',
+        'Sun Liquor Distillery',
+      ]);
+    });
+
+    test('dedupes same normalised name within 200 m, after mojibake repair',
+        () {
+      final shops = parseFarmShops([
+        {'id': 1, 'name': 'Bergvang gårdsbutikk', 'lat': 59.8502, 'lon': 10.4122},
+        {
+          'id': 2,
+          'name': 'Bergvang GÃ¥rdsbutikk',
+          'website': 'https://bergvang.no',
+          'lat': 59.8505,
+          'lon': 10.4125,
+        },
+        {'id': 3, 'name': 'Ã˜yens Hjemmebakeri AS', 'lat': 60.0, 'lon': 11.0},
+        {'id': 4, 'name': 'Øyens hjemmebakeri AS', 'lat': 60.0005, 'lon': 11.0},
+        // Same name but far away: a different shop.
+        {'id': 5, 'name': 'Bergvang gårdsbutikk', 'lat': 63.0, 'lon': 10.0},
+      ]);
+      final res = cleanFarmShops(shops);
+      expect(res.duplicatesRemoved, 2);
+      expect(res.shops.length, 3);
+      expect(res.shops.first.website, 'https://bergvang.no');
+      expect(res.shops[1].name, 'Øyens Hjemmebakeri AS');
+    });
+
+    test('published Norway data has no Booze, mojibake or Bergvang duplicate',
+        () {
+      final raw =
+          File('docs/data/farmshops_by_country/no.json').readAsStringSync();
+      final res = cleanFarmShops(parseFarmShops(jsonDecode(raw)));
+      final names = res.shops.map((s) => s.name).toList();
+      expect(names.where((n) => n.toLowerCase().contains('booze')), isEmpty);
+      expect(names.where(hasMojibake), isEmpty);
+      expect(
+          names.where((n) => n.toLowerCase() == 'bergvang gårdsbutikk').length,
+          1);
+    });
+  });
 }

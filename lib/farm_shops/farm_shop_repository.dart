@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/foundation.dart' show debugPrint;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
@@ -66,7 +67,16 @@ class FarmShopRepository {
             countryName != null &&
             (s.country ?? '').toLowerCase() == countryName.toLowerCase())
         .toList();
-    return FarmShopLoadResult(mergeFarmShops(base, extras), origin);
+    final cleaned = cleanFarmShops(mergeFarmShops(base, extras));
+    if (cleaned.removed > 0) {
+      debugPrint('FarmShops[$cc]: removed ${cleaned.removed} entries '
+          '(${cleaned.droppedNonFarm.length} non-farm, '
+          '${cleaned.duplicatesRemoved} duplicates)');
+      for (final d in cleaned.droppedNonFarm) {
+        debugPrint('FarmShops[$cc]: dropped non-farm entry $d');
+      }
+    }
+    return FarmShopLoadResult(cleaned.shops, origin);
   }
 
   dynamic _decode(String body) {
