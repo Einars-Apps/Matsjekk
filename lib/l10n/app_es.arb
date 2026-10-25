@@ -131,5 +131,6 @@
   "deleteListConfirmMessage": "¿Seguro? También se eliminará el historial de la lista.",
   "unknownProduct": "Producto desconocido",
   "countryDataSources": "País / fuentes de datos",
-  "chooseCountryTitle": "Elegir país (prioriza fuentes)"
+  "chooseCountryTitle": "Elegir país (prioriza fuentes)",
+  "privacyIntro": "Lee la política de privacidad la primera vez que uses la app. Puedes usarla sin análisis y tus datos de compra se quedan en tu dispositivo."
 }

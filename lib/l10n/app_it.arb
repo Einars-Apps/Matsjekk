@@ -131,5 +131,6 @@
   "deleteListConfirmMessage": "Sei sicuro? Verrà eliminata anche la cronologia della lista.",
   "unknownProduct": "Prodotto sconosciuto",
   "countryDataSources": "Paese / fonti dei dati",
-  "chooseCountryTitle": "Scegli il paese (dà priorità alle fonti)"
+  "chooseCountryTitle": "Scegli il paese (dà priorità alle fonti)",
+  "privacyIntro": "Leggi l'informativa sulla privacy al primo utilizzo dell'app. Puoi usare l'app senza analisi e i dati della spesa restano sul tuo dispositivo."
 }

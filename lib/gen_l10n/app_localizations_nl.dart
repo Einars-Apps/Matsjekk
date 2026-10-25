@@ -431,4 +431,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Kies land (geeft bronnen voorrang)';
+
+  @override
+  String get privacyIntro => 'Lees het privacybeleid wanneer je de app voor het eerst gebruikt. Je kunt de app zonder analyse gebruiken en je boodschappengegevens blijven op je apparaat.';
 }

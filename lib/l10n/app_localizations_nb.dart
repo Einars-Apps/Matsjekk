@@ -144,7 +144,7 @@ class AppLocalizationsNb extends AppLocalizations {
   String get portuguese => 'Português';
 
   @override
-  String get finnish => 'Finsk';
+  String get finnish => 'Suomi';
 
   @override
   String get changeListName => 'Endre listenavn';
@@ -431,4 +431,7 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Velg land (prioriterer kilder)';
+
+  @override
+  String get privacyIntro => 'Les personvernet første gang du bruker appen. Du kan bruke appen uten analyse, og handledataene dine blir liggende lokalt på enheten.';
 }

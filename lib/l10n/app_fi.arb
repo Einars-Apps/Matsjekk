@@ -131,5 +131,6 @@
   "nutritionSalt": "Suola: {value} g",
   "ngtAlert": "Piilotetun GMO:n (NGT) varoitus",
   "countryDataSources": "Maa / tietolähteet",
-  "chooseCountryTitle": "Valitse maa (priorisoi lähteet)"
+  "chooseCountryTitle": "Valitse maa (priorisoi lähteet)",
+  "privacyIntro": "Lue tietosuojakäytäntö, kun käytät sovellusta ensimmäistä kertaa. Voit käyttää sovellusta ilman analytiikkaa, ja ostostietosi pysyvät laitteellasi."
 }

@@ -431,4 +431,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Land wählen (priorisiert Quellen)';
+
+  @override
+  String get privacyIntro => 'Bitte lies beim ersten Start die Datenschutzerklärung. Du kannst die App ohne Analyse nutzen, und deine Einkaufsdaten bleiben auf deinem Gerät.';
 }

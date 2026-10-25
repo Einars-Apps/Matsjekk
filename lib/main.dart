@@ -482,15 +482,8 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _initialPrivacyMessage(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
-    switch (code) {
-      case 'en':
-        return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
-      case 'nb':
-      default:
-        return 'Les personvernet forste gang du bruker appen. Du kan bruke appen uten analyse, og handledataene dine blir liggende lokalt pa enheten.';
-    }
+    return AppLocalizations.of(context)?.privacyIntro ??
+        'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
   }
 
   Future<void> _maybeShowInitialPrivacyDialog() async {
@@ -502,7 +495,7 @@ class _ScannerScreenState extends State<ScannerScreen>
     _initialPrivacyDialogOpen = true;
     await _safeShowDialogBuilder(
       (_) => ConsentDialog(
-        showAdBanner: !premiumActive,
+        showAdBanner: !premiumActive && !kScreenshotMode,
         markPrivacyNoticeSeen: true,
         initialMessage: _initialPrivacyMessage(context),
       ),
@@ -1348,7 +1341,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                 onTap: () {
                   _safePop();
                   _safeShowDialogBuilder(
-                    (_) => ConsentDialog(showAdBanner: !premiumActive),
+                    (_) => ConsentDialog(showAdBanner: !premiumActive && !kScreenshotMode),
                   );
                 },
               ),

@@ -431,4 +431,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Valitse maa (priorisoi lähteet)';
+
+  @override
+  String get privacyIntro => 'Lue tietosuojakäytäntö, kun käytät sovellusta ensimmäistä kertaa. Voit käyttää sovellusta ilman analytiikkaa, ja ostostietosi pysyvät laitteellasi.';
 }

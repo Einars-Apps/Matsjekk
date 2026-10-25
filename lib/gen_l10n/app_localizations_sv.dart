@@ -123,7 +123,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get danish => 'Dansk';
 
   @override
-  String get dutch => 'Nederländsk';
+  String get dutch => 'Nederländska';
 
   @override
   String get french => 'Franska';
@@ -132,16 +132,16 @@ class AppLocalizationsSv extends AppLocalizations {
   String get english => 'Engelska';
 
   @override
-  String get german => 'Tysk';
+  String get german => 'Tyska';
 
   @override
-  String get italian => 'Italiensk';
+  String get italian => 'Italienska';
 
   @override
-  String get spanish => 'Spansk';
+  String get spanish => 'Spanska';
 
   @override
-  String get portuguese => 'Portugisisk';
+  String get portuguese => 'Portugisiska';
 
   @override
   String get finnish => 'Finska';
@@ -431,4 +431,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Välj land (prioriterar källor)';
+
+  @override
+  String get privacyIntro => 'Läs integritetspolicyn första gången du använder appen. Du kan använda appen utan analys, och dina inköpsdata stannar lokalt på enheten.';
 }

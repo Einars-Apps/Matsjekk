@@ -45,7 +45,7 @@
   "italian": "Italiano",
   "spanish": "Español",
   "portuguese": "Português",
-  "finnish": "Finsk",
+  "finnish": "Suomi",
   "changeListName": "Endre listenavn",
   "cancel": "Avbryt",
   "save": "Lagre",
@@ -131,5 +131,6 @@
   "nutritionProtein": "Protein: {value} g",
   "nutritionSalt": "Salt: {value} g",
   "countryDataSources": "Land / datakilder",
-  "chooseCountryTitle": "Velg land (prioriterer kilder)"
+  "chooseCountryTitle": "Velg land (prioriterer kilder)",
+  "privacyIntro": "Les personvernet første gang du bruker appen. Du kan bruke appen uten analyse, og handledataene dine blir liggende lokalt på enheten."
 }

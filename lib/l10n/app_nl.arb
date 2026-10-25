@@ -131,5 +131,6 @@
   "deleteListConfirmMessage": "Weet je het zeker? Hiermee wordt ook de geschiedenis van de lijst verwijderd.",
   "unknownProduct": "Onbekend product",
   "countryDataSources": "Land / gegevensbronnen",
-  "chooseCountryTitle": "Kies land (geeft bronnen voorrang)"
+  "chooseCountryTitle": "Kies land (geeft bronnen voorrang)",
+  "privacyIntro": "Lees het privacybeleid wanneer je de app voor het eerst gebruikt. Je kunt de app zonder analyse gebruiken en je boodschappengegevens blijven op je apparaat."
 }

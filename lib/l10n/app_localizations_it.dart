@@ -431,4 +431,7 @@ class AppLocalizationsIt extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Scegli il paese (dà priorità alle fonti)';
+
+  @override
+  String get privacyIntro => 'Leggi l\'informativa sulla privacy al primo utilizzo dell\'app. Puoi usare l\'app senza analisi e i dati della spesa restano sul tuo dispositivo.';
 }

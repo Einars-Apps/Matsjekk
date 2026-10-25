@@ -904,6 +904,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Choose country (prioritises sources)'**
   String get chooseCountryTitle;
+
+  /// No description provided for @privacyIntro.
+  ///
+  /// In en, this message translates to:
+  /// **'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.'**
+  String get privacyIntro;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -431,4 +431,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Choisir le pays (priorise les sources)';
+
+  @override
+  String get privacyIntro => 'Veuillez lire la politique de confidentialité lors de la première utilisation. Vous pouvez utiliser l\'application sans analyse, et vos données de courses restent sur votre appareil.';
 }

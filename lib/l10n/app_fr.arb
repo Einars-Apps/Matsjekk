@@ -131,5 +131,6 @@
   "deleteListConfirmMessage": "Êtes-vous sûr ? L’historique de la liste sera également supprimé.",
   "unknownProduct": "Produit inconnu",
   "countryDataSources": "Pays / sources de données",
-  "chooseCountryTitle": "Choisir le pays (priorise les sources)"
+  "chooseCountryTitle": "Choisir le pays (priorise les sources)",
+  "privacyIntro": "Veuillez lire la politique de confidentialité lors de la première utilisation. Vous pouvez utiliser l'application sans analyse, et vos données de courses restent sur votre appareil."
 }

@@ -431,4 +431,7 @@ class AppLocalizationsDa extends AppLocalizations {
 
   @override
   String get chooseCountryTitle => 'Vælg land (prioriterer kilder)';
+
+  @override
+  String get privacyIntro => 'Læs privatlivspolitikken første gang du bruger appen. Du kan bruge appen uden analyse, og dine indkøbsdata bliver lokalt på enheden.';
 }

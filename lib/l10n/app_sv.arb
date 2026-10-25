@@ -37,13 +37,13 @@
   "norwegian": "Norska",
   "swedish": "Svenska",
   "danish": "Dansk",
-  "dutch": "Nederländsk",
+  "dutch": "Nederländska",
   "french": "Franska",
   "english": "Engelska",
-  "german": "Tysk",
-  "italian": "Italiensk",
-  "spanish": "Spansk",
-  "portuguese": "Portugisisk",
+  "german": "Tyska",
+  "italian": "Italienska",
+  "spanish": "Spanska",
+  "portuguese": "Portugisiska",
   "changeListName": "Ändra listnamn",
   "cancel": "Avbryt",
   "save": "Spara",
@@ -131,5 +131,6 @@
   "deleteListConfirmMessage": "Är du säker? Detta raderar även historiken för listan.",
   "unknownProduct": "Okänd produkt",
   "countryDataSources": "Land / datakällor",
-  "chooseCountryTitle": "Välj land (prioriterar källor)"
+  "chooseCountryTitle": "Välj land (prioriterar källor)",
+  "privacyIntro": "Läs integritetspolicyn första gången du använder appen. Du kan använda appen utan analys, och dina inköpsdata stannar lokalt på enheten."
 }
