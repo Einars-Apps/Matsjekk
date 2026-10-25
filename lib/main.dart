@@ -25,6 +25,7 @@ import 'services/remote_risk_rules_service.dart';
 import 'data/ngt_risk_brands.dart';
 import 'services/remote_ngt_suppliers_service.dart';
 import 'startup.dart';
+import 'farm_shops/farm_shops_screen.dart';
 
 // --- DEFINISJON AV RISIKO ---
 const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
@@ -674,20 +675,13 @@ class _ScannerScreenState extends State<ScannerScreen>
     }
   }
 
-  Uri _farmShopsUri(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
-    return Uri.parse('https://matsjekk.com/gardsbutikker.html?lang=$code');
-  }
-
-  Future<void> _openFarmShops() async {
-    final uri = _farmShopsUri(context);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } else {
-      if (!mounted) return;
-      safeSnack(context, 'Kunne ikke åpne lenken');
-    }
+  Future<void> _openFarmShops() {
+    return openFarmShopsScreen(
+      context,
+      countryCode:
+          selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry,
+      showAds: !premiumActive,
+    );
   }
 
   String _howAppWorksText(BuildContext context) {
@@ -783,18 +777,6 @@ class _ScannerScreenState extends State<ScannerScreen>
       case 'nb':
       default:
         return 'Gårdsbutikker og lokalmat';
-    }
-  }
-
-  String _farmThemeBody(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
-    switch (code) {
-      case 'en':
-        return 'Find nearby farm shops, follow regional updates, and see what products people scan most in your area. This feature is beta and improves continuously.';
-      case 'nb':
-      default:
-        return 'Finn gårdsbutikker i nærheten, følg regionale oppdateringer og se hvilke produkter folk scanner mest i ditt område. Denne funksjonen er i beta og forbedres fortløpende.';
     }
   }
 
@@ -1353,25 +1335,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                 title: Text(_farmThemeTitle(context)),
                 onTap: () {
                   _safePop();
-                  _safeShowDialogBuilder(
-                    (_) => AlertDialog(
-                      title: Text(_farmThemeTitle(context)),
-                      content: Text(_farmThemeBody(context)),
-                      actions: [
-                        TextButton(
-                            onPressed: () => _safePop(),
-                            child: const Text('Lukk')),
-                        ElevatedButton.icon(
-                          onPressed: () {
-                            _safePop();
-                            _openFarmShops();
-                          },
-                          icon: const Icon(Icons.open_in_new),
-                          label: Text(_farmShopsLabel(context)),
-                        )
-                      ],
-                    ),
-                  );
+                  _openFarmShops();
                 },
               ),
               ListTile(

@@ -4,6 +4,7 @@ import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
 import 'data/e_numbers.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'farm_shops/farm_shops_screen.dart';
 
 // Enum for risikonivå
 enum RiskLevel { green, yellow, red, unknown }
@@ -108,12 +109,6 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       default:
         return 'Finn Gårdsbutikker';
     }
-  }
-
-  String _farmShopsUrl(BuildContext context) {
-    final code =
-        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
-    return 'https://matsjekk.com/gardsbutikker.html?lang=$code';
   }
 
   String _methodUrl(BuildContext context) {
@@ -569,7 +564,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               width: double.infinity,
                               child: ElevatedButton.icon(
                                 onPressed: () =>
-                                    _openUrl(_farmShopsUrl(context)),
+                                    openFarmShopsScreen(context),
                                 icon: const Icon(Icons.storefront),
                                 label: Text(_farmShopsLabel(context)),
                                 style: ElevatedButton.styleFrom(
@@ -774,8 +769,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                         FontStyle.italic)),
                                             const SizedBox(height: 8),
                                             ElevatedButton.icon(
-                                              onPressed: () => _openUrl(
-                                                  _farmShopsUrl(context)),
+                                              onPressed: () => openFarmShopsScreen(context),
                                               icon:
                                                   const Icon(Icons.open_in_new),
                                               label: Text(
