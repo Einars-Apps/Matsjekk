@@ -544,6 +544,366 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Remove ads (kr 49,-) — supports further development'**
   String get removeAdsMenuItem;
+
+  /// No description provided for @gmoRegExplicit.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: The product appears to be in a GMO/NGT-regulated category.'**
+  String get gmoRegExplicit;
+
+  /// No description provided for @gmoRegFeedChain.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: May be covered by GMO/NGT rules via the feed chain.'**
+  String get gmoRegFeedChain;
+
+  /// No description provided for @gmoRegNgt.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: The product may be covered by the new EU decision on gene editing (NGT).'**
+  String get gmoRegNgt;
+
+  /// No description provided for @gmoRegSupplyChain.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: Possible indirect GMO/NGT relevance via the importer/supplier/producer chain.'**
+  String get gmoRegSupplyChain;
+
+  /// No description provided for @gmoRegCropOrigin.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: GMO-prone ingredient of American/non-EU origin – may trigger the EU’s GMO labelling requirement.'**
+  String get gmoRegCropOrigin;
+
+  /// No description provided for @gmoRegCropUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: GMO-prone ingredient at the import/supplier stage – the origin should be verified.'**
+  String get gmoRegCropUnknown;
+
+  /// No description provided for @insectRegExplicit.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: The product appears to be in an insect/novel-food-regulated category.'**
+  String get insectRegExplicit;
+
+  /// No description provided for @insectRegNovelFood.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: The product may be covered by EU rules for insects as novel food.'**
+  String get insectRegNovelFood;
+
+  /// No description provided for @insectRegSupplyChain.
+  ///
+  /// In en, this message translates to:
+  /// **'EU REGULATORY STATUS: Possible indirect relevance via the importer/supplier/producer chain.'**
+  String get insectRegSupplyChain;
+
+  /// No description provided for @gmoConsExplicit.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Product text/label indicates GMO content.'**
+  String get gmoConsExplicit;
+
+  /// No description provided for @gmoConsFeed.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Brand/category matches known GMO feed exposure.'**
+  String get gmoConsFeed;
+
+  /// No description provided for @gmoConsNgt.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: May affect the consumer market, but should be verified against the label and producer information.'**
+  String get gmoConsNgt;
+
+  /// No description provided for @gmoConsSupplyChain.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Possible risk via the supply chain (who sells to whom). Verify the label and origin.'**
+  String get gmoConsSupplyChain;
+
+  /// No description provided for @gmoConsCropOrigin.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton) imported from a country where the crop is predominantly genetically modified. Check the label for “GMO-free” marking.'**
+  String get gmoConsCropOrigin;
+
+  /// No description provided for @gmoConsCropUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: The product contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton). Origin unknown – check the label and country of origin.'**
+  String get gmoConsCropUnknown;
+
+  /// No description provided for @insectConsExplicit.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Product text/ingredients indicate insect meal or insect protein.'**
+  String get insectConsExplicit;
+
+  /// No description provided for @insectConsNovelFood.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Possible insect-related exposure, check the ingredient list.'**
+  String get insectConsNovelFood;
+
+  /// No description provided for @insectConsSupplyChain.
+  ///
+  /// In en, this message translates to:
+  /// **'CONSUMER RISK: Possible risk via the supply chain (who sells to whom).'**
+  String get insectConsSupplyChain;
+
+  /// No description provided for @noKnownRisk.
+  ///
+  /// In en, this message translates to:
+  /// **'No known risk in this category.'**
+  String get noKnownRisk;
+
+  /// No description provided for @searchBetaNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Beta: Search is continuously being improved. Always double-check product details before making choices.'**
+  String get searchBetaNote;
+
+  /// No description provided for @couldNotOpenLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open the link'**
+  String get couldNotOpenLink;
+
+  /// No description provided for @eNumberNoDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'We don’t have a description of this additive yet. The E-number is an additive code used in the EU/EEA.'**
+  String get eNumberNoDescription;
+
+  /// No description provided for @allergensTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Allergens'**
+  String get allergensTitle;
+
+  /// No description provided for @noAllergensFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No allergens found.'**
+  String get noAllergensFound;
+
+  /// No description provided for @nutritionTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Nutrition (per 100 g)'**
+  String get nutritionTitle;
+
+  /// No description provided for @noNutritionFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No nutrition information found.'**
+  String get noNutritionFound;
+
+  /// No description provided for @alertsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Alerts'**
+  String get alertsTitle;
+
+  /// No description provided for @alertEvidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Evidence:'**
+  String get alertEvidence;
+
+  /// No description provided for @alertInternalListNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Alert: internal list of brand connections'**
+  String get alertInternalListNote;
+
+  /// No description provided for @alertBrandTrackingNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Alert: brand tracking and public information'**
+  String get alertBrandTrackingNote;
+
+  /// No description provided for @reportNoteHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Short note (e.g. false positive)'**
+  String get reportNoteHint;
+
+  /// No description provided for @report.
+  ///
+  /// In en, this message translates to:
+  /// **'Report'**
+  String get report;
+
+  /// No description provided for @send.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get send;
+
+  /// No description provided for @reportSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks — report saved.'**
+  String get reportSaved;
+
+  /// No description provided for @seeUpdatedStatus.
+  ///
+  /// In en, this message translates to:
+  /// **'See updated status'**
+  String get seeUpdatedStatus;
+
+  /// No description provided for @openEuSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Open EU source'**
+  String get openEuSource;
+
+  /// No description provided for @openInsectSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Open insect source'**
+  String get openInsectSource;
+
+  /// No description provided for @privacyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy'**
+  String get privacyTitle;
+
+  /// No description provided for @consentOptional.
+  ///
+  /// In en, this message translates to:
+  /// **'This is optional. If you don’t consent, your usage is not sent for analytics.'**
+  String get consentOptional;
+
+  /// No description provided for @consentWorksAnyway.
+  ///
+  /// In en, this message translates to:
+  /// **'The app works either way, and data can stay on your device only.'**
+  String get consentWorksAnyway;
+
+  /// No description provided for @readPrivacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Read the privacy policy'**
+  String get readPrivacyPolicy;
+
+  /// No description provided for @allowAnonymousAnalytics.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow anonymous analytics'**
+  String get allowAnonymousAnalytics;
+
+  /// No description provided for @analyticsEnabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks — analytics enabled.'**
+  String get analyticsEnabled;
+
+  /// No description provided for @analyticsDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Analytics disabled.'**
+  String get analyticsDisabled;
+
+  /// No description provided for @couldNotOpenLinkError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open the link: {error}'**
+  String couldNotOpenLinkError(String error);
+
+  /// No description provided for @reportSaveFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not save the report: {error}'**
+  String reportSaveFailed(String error);
+
+  /// No description provided for @alertSeverity.
+  ///
+  /// In en, this message translates to:
+  /// **'Severity: {value}'**
+  String alertSeverity(String value);
+
+  /// No description provided for @alertReason.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason: {value}'**
+  String alertReason(String value);
+
+  /// No description provided for @alertConfidence.
+  ///
+  /// In en, this message translates to:
+  /// **'Confidence: {value}'**
+  String alertConfidence(String value);
+
+  /// No description provided for @matvaretabellenSuggestions.
+  ///
+  /// In en, this message translates to:
+  /// **'Suggestions from Matvaretabellen: {count}'**
+  String matvaretabellenSuggestions(String count);
+
+  /// No description provided for @addedToList.
+  ///
+  /// In en, this message translates to:
+  /// **'\"{item}\" added to {list}'**
+  String addedToList(String item, String list);
+
+  /// No description provided for @nutritionEnergy.
+  ///
+  /// In en, this message translates to:
+  /// **'Energy: {value} kcal'**
+  String nutritionEnergy(String value);
+
+  /// No description provided for @nutritionFat.
+  ///
+  /// In en, this message translates to:
+  /// **'Fat: {value} g'**
+  String nutritionFat(String value);
+
+  /// No description provided for @nutritionSaturatedFat.
+  ///
+  /// In en, this message translates to:
+  /// **'of which saturated fat: {value} g'**
+  String nutritionSaturatedFat(String value);
+
+  /// No description provided for @nutritionCarbohydrates.
+  ///
+  /// In en, this message translates to:
+  /// **'Carbohydrates: {value} g'**
+  String nutritionCarbohydrates(String value);
+
+  /// No description provided for @nutritionSugars.
+  ///
+  /// In en, this message translates to:
+  /// **'of which sugars: {value} g'**
+  String nutritionSugars(String value);
+
+  /// No description provided for @nutritionProtein.
+  ///
+  /// In en, this message translates to:
+  /// **'Protein: {value} g'**
+  String nutritionProtein(String value);
+
+  /// No description provided for @nutritionSalt.
+  ///
+  /// In en, this message translates to:
+  /// **'Salt: {value} g'**
+  String nutritionSalt(String value);
+
+  /// No description provided for @countryDataSources.
+  ///
+  /// In en, this message translates to:
+  /// **'Country / data sources'**
+  String get countryDataSources;
+
+  /// No description provided for @chooseCountryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose country (prioritises sources)'**
+  String get chooseCountryTitle;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -71,5 +71,166 @@
   "unknownProduct": "Unknown product",
   "removeAds": "Remove ads",
   "removeAdsInfo": "Remove ads for more space in the shopping list",
-  "removeAdsMenuItem": "Remove ads (kr 49,-) — supports further development"
+  "removeAdsMenuItem": "Remove ads (kr 49,-) — supports further development",
+  "gmoRegExplicit": "EU REGULATORY STATUS: The product appears to be in a GMO/NGT-regulated category.",
+  "gmoRegFeedChain": "EU REGULATORY STATUS: May be covered by GMO/NGT rules via the feed chain.",
+  "gmoRegNgt": "EU REGULATORY STATUS: The product may be covered by the new EU decision on gene editing (NGT).",
+  "gmoRegSupplyChain": "EU REGULATORY STATUS: Possible indirect GMO/NGT relevance via the importer/supplier/producer chain.",
+  "gmoRegCropOrigin": "EU REGULATORY STATUS: GMO-prone ingredient of American/non-EU origin – may trigger the EU’s GMO labelling requirement.",
+  "gmoRegCropUnknown": "EU REGULATORY STATUS: GMO-prone ingredient at the import/supplier stage – the origin should be verified.",
+  "insectRegExplicit": "EU REGULATORY STATUS: The product appears to be in an insect/novel-food-regulated category.",
+  "insectRegNovelFood": "EU REGULATORY STATUS: The product may be covered by EU rules for insects as novel food.",
+  "insectRegSupplyChain": "EU REGULATORY STATUS: Possible indirect relevance via the importer/supplier/producer chain.",
+  "gmoConsExplicit": "CONSUMER RISK: Product text/label indicates GMO content.",
+  "gmoConsFeed": "CONSUMER RISK: Brand/category matches known GMO feed exposure.",
+  "gmoConsNgt": "CONSUMER RISK: May affect the consumer market, but should be verified against the label and producer information.",
+  "gmoConsSupplyChain": "CONSUMER RISK: Possible risk via the supply chain (who sells to whom). Verify the label and origin.",
+  "gmoConsCropOrigin": "CONSUMER RISK: Contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton) imported from a country where the crop is predominantly genetically modified. Check the label for “GMO-free” marking.",
+  "gmoConsCropUnknown": "CONSUMER RISK: The product contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton). Origin unknown – check the label and country of origin.",
+  "insectConsExplicit": "CONSUMER RISK: Product text/ingredients indicate insect meal or insect protein.",
+  "insectConsNovelFood": "CONSUMER RISK: Possible insect-related exposure, check the ingredient list.",
+  "insectConsSupplyChain": "CONSUMER RISK: Possible risk via the supply chain (who sells to whom).",
+  "noKnownRisk": "No known risk in this category.",
+  "searchBetaNote": "Beta: Search is continuously being improved. Always double-check product details before making choices.",
+  "couldNotOpenLink": "Could not open the link",
+  "eNumberNoDescription": "We don’t have a description of this additive yet. The E-number is an additive code used in the EU/EEA.",
+  "allergensTitle": "Allergens",
+  "noAllergensFound": "No allergens found.",
+  "nutritionTitle": "Nutrition (per 100 g)",
+  "noNutritionFound": "No nutrition information found.",
+  "alertsTitle": "Alerts",
+  "alertEvidence": "Evidence:",
+  "alertInternalListNote": "Alert: internal list of brand connections",
+  "alertBrandTrackingNote": "Alert: brand tracking and public information",
+  "reportNoteHint": "Short note (e.g. false positive)",
+  "report": "Report",
+  "send": "Send",
+  "reportSaved": "Thanks — report saved.",
+  "seeUpdatedStatus": "See updated status",
+  "openEuSource": "Open EU source",
+  "openInsectSource": "Open insect source",
+  "privacyTitle": "Privacy",
+  "consentOptional": "This is optional. If you don’t consent, your usage is not sent for analytics.",
+  "consentWorksAnyway": "The app works either way, and data can stay on your device only.",
+  "readPrivacyPolicy": "Read the privacy policy",
+  "allowAnonymousAnalytics": "Allow anonymous analytics",
+  "analyticsEnabled": "Thanks — analytics enabled.",
+  "analyticsDisabled": "Analytics disabled.",
+  "couldNotOpenLinkError": "Could not open the link: {error}",
+  "@couldNotOpenLinkError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reportSaveFailed": "Could not save the report: {error}",
+  "@reportSaveFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "alertSeverity": "Severity: {value}",
+  "@alertSeverity": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "alertReason": "Reason: {value}",
+  "@alertReason": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "alertConfidence": "Confidence: {value}",
+  "@alertConfidence": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "matvaretabellenSuggestions": "Suggestions from Matvaretabellen: {count}",
+  "@matvaretabellenSuggestions": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "addedToList": "\"{item}\" added to {list}",
+  "@addedToList": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      },
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionEnergy": "Energy: {value} kcal",
+  "@nutritionEnergy": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionFat": "Fat: {value} g",
+  "@nutritionFat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionSaturatedFat": "of which saturated fat: {value} g",
+  "@nutritionSaturatedFat": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionCarbohydrates": "Carbohydrates: {value} g",
+  "@nutritionCarbohydrates": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionSugars": "of which sugars: {value} g",
+  "@nutritionSugars": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionProtein": "Protein: {value} g",
+  "@nutritionProtein": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionSalt": "Salt: {value} g",
+  "@nutritionSalt": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "countryDataSources": "Country / data sources",
+  "chooseCountryTitle": "Choose country (prioritises sources)"
 }

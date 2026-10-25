@@ -223,4 +223,212 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem => 'Fjern annonser (kr 49,-) — støtter videre utvikling';
+
+  @override
+  String get gmoRegExplicit => 'EU-REGELSTATUS: Produktet ser ut til å være i GMO/NGT-regulert kategori.';
+
+  @override
+  String get gmoRegFeedChain => 'EU-REGELSTATUS: Kan omfattes av GMO/NGT-regelverk via fôrkjede.';
+
+  @override
+  String get gmoRegNgt => 'EU-REGELSTATUS: Produktet kan omfattes av nytt EU-vedtak for genredigering (NGT).';
+
+  @override
+  String get gmoRegSupplyChain => 'EU-REGELSTATUS: Mulig indirekte GMO/NGT-relevans via importør/leverandør/produsentkjede.';
+
+  @override
+  String get gmoRegCropOrigin => 'EU-REGELSTATUS: GMO-utsatt råvare med amerikansk/ikke-EU-opprinnelse – kan utløse EUs GMO-merkeplikt.';
+
+  @override
+  String get gmoRegCropUnknown => 'EU-REGELSTATUS: GMO-utsatt råvare i importert/leverandørledd – opprinnelse bør verifiseres.';
+
+  @override
+  String get insectRegExplicit => 'EU-REGELSTATUS: Produktet ser ut til å være i insekt/novel-food-regulert kategori.';
+
+  @override
+  String get insectRegNovelFood => 'EU-REGELSTATUS: Produktet kan omfattes av EU-regler for insekter som novel food.';
+
+  @override
+  String get insectRegSupplyChain => 'EU-REGELSTATUS: Mulig indirekte relevans via importør/leverandør/produsentkjede.';
+
+  @override
+  String get gmoConsExplicit => 'FORBRUKERRISIKO: Produkttekst/etikett indikerer GMO-innhold.';
+
+  @override
+  String get gmoConsFeed => 'FORBRUKERRISIKO: Merke/kategori matcher kjent GMO-fôr-eksponering.';
+
+  @override
+  String get gmoConsNgt => 'FORBRUKERRISIKO: Kan påvirke forbrukermarkedet, men bør verifiseres mot etikett og produsentinfo.';
+
+  @override
+  String get gmoConsSupplyChain => 'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem). Verifiser etikett og opprinnelse.';
+
+  @override
+  String get gmoConsCropOrigin => 'FORBRUKERRISIKO: Inneholder GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull) importert fra et land der avlingen overveiende er genmodifisert. Sjekk etikett for «uten GMO»-merking.';
+
+  @override
+  String get gmoConsCropUnknown => 'FORBRUKERRISIKO: Produktet inneholder en GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull). Opprinnelse er ukjent – sjekk etikett og opphavsland.';
+
+  @override
+  String get insectConsExplicit => 'FORBRUKERRISIKO: Produkttekst/ingredienser indikerer insektsmel eller insektprotein.';
+
+  @override
+  String get insectConsNovelFood => 'FORBRUKERRISIKO: Mulig insektsrelatert eksponering, verifiser ingrediensliste.';
+
+  @override
+  String get insectConsSupplyChain => 'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem).';
+
+  @override
+  String get noKnownRisk => 'Ingen kjent risiko i denne kategorien.';
+
+  @override
+  String get searchBetaNote => 'Beta: Søkefunksjonen er under kontinuerlig forbedring. Dobbeltsjekk alltid produktdetaljer før du tar valg.';
+
+  @override
+  String get couldNotOpenLink => 'Kunne ikke åpne lenken';
+
+  @override
+  String get eNumberNoDescription => 'Vi har ingen beskrivelse av dette E-stoffet ennå. E-nummeret er en tilsetningsstoff-kode som brukes i EU/EØS.';
+
+  @override
+  String get allergensTitle => 'Allergener';
+
+  @override
+  String get noAllergensFound => 'Ingen allergener funnet.';
+
+  @override
+  String get nutritionTitle => 'Næringsinnhold (per 100 g)';
+
+  @override
+  String get noNutritionFound => 'Ingen næringsinformasjon funnet.';
+
+  @override
+  String get alertsTitle => 'Varsler';
+
+  @override
+  String get alertEvidence => 'Dokumentasjon:';
+
+  @override
+  String get alertInternalListNote => 'Varsel: intern liste for merkevare-koblinger';
+
+  @override
+  String get alertBrandTrackingNote => 'Varsel: merkevaresporing og offentlig informasjon';
+
+  @override
+  String get reportNoteHint => 'Kort notat (f.eks. falsk positiv)';
+
+  @override
+  String get report => 'Rapporter';
+
+  @override
+  String get send => 'Send';
+
+  @override
+  String get reportSaved => 'Takk — rapport lagret.';
+
+  @override
+  String get seeUpdatedStatus => 'Se oppdatert status';
+
+  @override
+  String get openEuSource => 'Åpne EU-kilde';
+
+  @override
+  String get openInsectSource => 'Åpne insektkilde';
+
+  @override
+  String get privacyTitle => 'Personvern';
+
+  @override
+  String get consentOptional => 'Dette er valgfritt. Hvis du ikke samtykker, blir bruken din ikke sendt til analyse.';
+
+  @override
+  String get consentWorksAnyway => 'Appen fungerer uansett, og data kan bli kun på din enhet.';
+
+  @override
+  String get readPrivacyPolicy => 'Les personvernreglene';
+
+  @override
+  String get allowAnonymousAnalytics => 'Tillat anonym analyse';
+
+  @override
+  String get analyticsEnabled => 'Takk – analyse aktivert.';
+
+  @override
+  String get analyticsDisabled => 'Analyse deaktivert.';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return 'Kunne ikke åpne lenken: $error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return 'Kunne ikke lagre rapport: $error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return 'Alvorlighet: $value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return 'Årsak: $value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return 'Sikkerhet: $value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return 'Forslag fra Matvaretabellen: $count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '«$item» lagt til i $list';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return 'Energi: $value kcal';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return 'Fett: $value g';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return 'Hvorav mettet fett: $value g';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return 'Karbohydrater: $value g';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return 'Hvorav sukkerarter: $value g';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return 'Protein: $value g';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return 'Salt: $value g';
+  }
+
+  @override
+  String get countryDataSources => 'Land / datakilder';
+
+  @override
+  String get chooseCountryTitle => 'Velg land (prioriterer kilder)';
 }

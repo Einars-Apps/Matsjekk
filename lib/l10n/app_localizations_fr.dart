@@ -48,7 +48,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get insectMealAlert => 'Alerte farine d\'insectes';
 
   @override
-  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+  String get ngtAlert => 'Alerte OGM cachés (NGT)';
 
   @override
   String get gmoFishAlert => 'Aliment OGM (Poisson)';
@@ -144,7 +144,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get portuguese => 'Portugais';
 
   @override
-  String get finnish => 'Finnish';
+  String get finnish => 'Finnois';
 
   @override
   String get changeListName => 'Modifier le nom de la liste';
@@ -201,26 +201,234 @@ class AppLocalizationsFr extends AppLocalizations {
   String get safeProduct => 'SÛR : Le produit est certifié biologique.';
 
   @override
-  String get searchHint => 'Search... (e.g. milk)';
+  String get searchHint => 'Rechercher... (ex. lait)';
 
   @override
-  String get delete => 'Delete';
+  String get delete => 'Supprimer';
 
   @override
-  String get deleteListConfirmTitle => 'Delete list?';
+  String get deleteListConfirmTitle => 'Supprimer la liste ?';
 
   @override
-  String get deleteListConfirmMessage => 'Are you sure? This will also delete the history for the list.';
+  String get deleteListConfirmMessage => 'Êtes-vous sûr ? L’historique de la liste sera également supprimé.';
 
   @override
-  String get unknownProduct => 'Unknown product';
+  String get unknownProduct => 'Produit inconnu';
 
   @override
-  String get removeAds => 'Remove ads';
+  String get removeAds => 'Supprimer les publicités';
 
   @override
-  String get removeAdsInfo => 'Remove ads for more space in the shopping list';
+  String get removeAdsInfo => 'Supprimez les publicités pour plus de place dans la liste de courses';
 
   @override
-  String get removeAdsMenuItem => 'Remove ads (49 kr) - supports further development';
+  String get removeAdsMenuItem => 'Supprimer les publicités (49 kr) – soutient le développement';
+
+  @override
+  String get gmoRegExplicit => 'STATUT RÉGLEMENTAIRE UE : Le produit semble relever d’une catégorie réglementée OGM/NGT.';
+
+  @override
+  String get gmoRegFeedChain => 'STATUT RÉGLEMENTAIRE UE : Peut relever des règles OGM/NGT via la chaîne d’alimentation animale.';
+
+  @override
+  String get gmoRegNgt => 'STATUT RÉGLEMENTAIRE UE : Le produit peut être concerné par la nouvelle décision de l’UE sur l’édition génomique (NGT).';
+
+  @override
+  String get gmoRegSupplyChain => 'STATUT RÉGLEMENTAIRE UE : Pertinence OGM/NGT indirecte possible via la chaîne importateur/fournisseur/producteur.';
+
+  @override
+  String get gmoRegCropOrigin => 'STATUT RÉGLEMENTAIRE UE : Matière première à risque OGM d’origine américaine/hors UE – peut déclencher l’obligation d’étiquetage OGM de l’UE.';
+
+  @override
+  String get gmoRegCropUnknown => 'STATUT RÉGLEMENTAIRE UE : Matière première à risque OGM au stade importation/fournisseur – l’origine doit être vérifiée.';
+
+  @override
+  String get insectRegExplicit => 'STATUT RÉGLEMENTAIRE UE : Le produit semble relever d’une catégorie réglementée insectes/nouveaux aliments.';
+
+  @override
+  String get insectRegNovelFood => 'STATUT RÉGLEMENTAIRE UE : Le produit peut relever des règles de l’UE sur les insectes en tant que nouveaux aliments.';
+
+  @override
+  String get insectRegSupplyChain => 'STATUT RÉGLEMENTAIRE UE : Pertinence indirecte possible via la chaîne importateur/fournisseur/producteur.';
+
+  @override
+  String get gmoConsExplicit => 'RISQUE CONSOMMATEUR : Le texte/l’étiquette du produit indique la présence d’OGM.';
+
+  @override
+  String get gmoConsFeed => 'RISQUE CONSOMMATEUR : La marque/catégorie correspond à une exposition connue à des aliments pour animaux OGM.';
+
+  @override
+  String get gmoConsNgt => 'RISQUE CONSOMMATEUR : Peut concerner le marché de consommation, mais à vérifier sur l’étiquette et auprès du producteur.';
+
+  @override
+  String get gmoConsSupplyChain => 'RISQUE CONSOMMATEUR : Risque possible via la chaîne d’approvisionnement (qui vend à qui). Vérifiez l’étiquette et l’origine.';
+
+  @override
+  String get gmoConsCropOrigin => 'RISQUE CONSOMMATEUR : Contient une matière première à risque OGM (soja/maïs/colza/betterave sucrière/coton) importée d’un pays où la culture est majoritairement génétiquement modifiée. Recherchez la mention « sans OGM » sur l’étiquette.';
+
+  @override
+  String get gmoConsCropUnknown => 'RISQUE CONSOMMATEUR : Le produit contient une matière première à risque OGM (soja/maïs/colza/betterave sucrière/coton). Origine inconnue – vérifiez l’étiquette et le pays d’origine.';
+
+  @override
+  String get insectConsExplicit => 'RISQUE CONSOMMATEUR : Le texte/les ingrédients du produit indiquent de la farine ou des protéines d’insectes.';
+
+  @override
+  String get insectConsNovelFood => 'RISQUE CONSOMMATEUR : Exposition possible liée aux insectes, vérifiez la liste des ingrédients.';
+
+  @override
+  String get insectConsSupplyChain => 'RISQUE CONSOMMATEUR : Risque possible via la chaîne d’approvisionnement (qui vend à qui).';
+
+  @override
+  String get noKnownRisk => 'Aucun risque connu dans cette catégorie.';
+
+  @override
+  String get searchBetaNote => 'Bêta : la recherche est en amélioration continue. Vérifiez toujours les détails du produit avant de faire un choix.';
+
+  @override
+  String get couldNotOpenLink => 'Impossible d’ouvrir le lien';
+
+  @override
+  String get eNumberNoDescription => 'Nous n’avons pas encore de description de cet additif. Le numéro E est un code d’additif utilisé dans l’UE/EEE.';
+
+  @override
+  String get allergensTitle => 'Allergènes';
+
+  @override
+  String get noAllergensFound => 'Aucun allergène trouvé.';
+
+  @override
+  String get nutritionTitle => 'Valeurs nutritionnelles (pour 100 g)';
+
+  @override
+  String get noNutritionFound => 'Aucune information nutritionnelle trouvée.';
+
+  @override
+  String get alertsTitle => 'Alertes';
+
+  @override
+  String get alertEvidence => 'Éléments :';
+
+  @override
+  String get alertInternalListNote => 'Alerte : liste interne des liens entre marques';
+
+  @override
+  String get alertBrandTrackingNote => 'Alerte : suivi des marques et informations publiques';
+
+  @override
+  String get reportNoteHint => 'Note courte (ex. faux positif)';
+
+  @override
+  String get report => 'Signaler';
+
+  @override
+  String get send => 'Envoyer';
+
+  @override
+  String get reportSaved => 'Merci — signalement enregistré.';
+
+  @override
+  String get seeUpdatedStatus => 'Voir le statut à jour';
+
+  @override
+  String get openEuSource => 'Ouvrir la source UE';
+
+  @override
+  String get openInsectSource => 'Ouvrir la source sur les insectes';
+
+  @override
+  String get privacyTitle => 'Confidentialité';
+
+  @override
+  String get consentOptional => 'C’est facultatif. Sans votre consentement, votre utilisation n’est pas envoyée pour analyse.';
+
+  @override
+  String get consentWorksAnyway => 'L’application fonctionne dans tous les cas, et les données peuvent rester uniquement sur votre appareil.';
+
+  @override
+  String get readPrivacyPolicy => 'Lire la politique de confidentialité';
+
+  @override
+  String get allowAnonymousAnalytics => 'Autoriser l’analyse anonyme';
+
+  @override
+  String get analyticsEnabled => 'Merci – analyse activée.';
+
+  @override
+  String get analyticsDisabled => 'Analyse désactivée.';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return 'Impossible d’ouvrir le lien : $error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return 'Impossible d’enregistrer le signalement : $error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return 'Gravité : $value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return 'Raison : $value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return 'Confiance : $value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return 'Suggestions de Matvaretabellen : $count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '« $item » ajouté à $list';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return 'Énergie : $value kcal';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return 'Matières grasses : $value g';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return 'dont acides gras saturés : $value g';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return 'Glucides : $value g';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return 'dont sucres : $value g';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return 'Protéines : $value g';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return 'Sel : $value g';
+  }
+
+  @override
+  String get countryDataSources => 'Pays / sources de données';
+
+  @override
+  String get chooseCountryTitle => 'Choisir le pays (priorise les sources)';
 }

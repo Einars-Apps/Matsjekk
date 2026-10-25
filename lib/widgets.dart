@@ -54,11 +54,13 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         await launchUrl(uri, mode: LaunchMode.externalApplication);
       } else {
         if (!mounted) return;
-        safeSnack(context, 'Kunne ikke åpne lenken');
+        safeSnack(
+            context, AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open the link');
       }
     } catch (e) {
       if (!mounted) return;
-      safeSnack(context, 'Kunne ikke åpne lenken: $e');
+      safeSnack(context,
+          AppLocalizations.of(context)?.couldNotOpenLinkError('$e') ?? 'Could not open the link: $e');
     }
   }
 
@@ -69,12 +71,13 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       builder: (dialogContext) => AlertDialog(
         title: Text(code),
         content: Text(description ??
-            'Vi har ingen beskrivelse av dette E-stoffet ennå. '
-                'E-nummeret er en tilsetningsstoff-kode som brukes i EU/EØS.'),
+            AppLocalizations.of(dialogContext)?.eNumberNoDescription ??
+            'We don’t have a description of this additive yet. '
+                'The E-number is an additive code used in the EU/EEA.'),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(dialogContext).pop(),
-            child: const Text('Lukk'),
+            child: Text(AppLocalizations.of(dialogContext)?.close ?? 'Close'),
           ),
         ],
       ),
@@ -239,6 +242,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     }
   }
 
+  static String _confidenceText(dynamic c) =>
+      c is double ? c.toStringAsFixed(2) : c.toString();
+
   String _linkLabel(BuildContext context, String fallbackEn) {
     final code =
         (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
@@ -246,13 +252,13 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       case 'en':
         return fallbackEn;
       case 'sv':
-        return 'Oppna kallan';
+        return 'Öppna källan';
       case 'da':
-        return 'Aben kilde';
+        return 'Åbn kilde';
       case 'fi':
-        return 'Avaa lahde';
+        return 'Avaa lähde';
       case 'de':
-        return 'Quelle offnen';
+        return 'Quelle öffnen';
       case 'nl':
         return 'Open bron';
       case 'fr':
@@ -265,7 +271,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         return 'Abrir fuente';
       case 'nb':
       default:
-        return 'Apne kilde';
+        return 'Åpne kilde';
     }
   }
 
@@ -280,7 +286,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       case 'da':
         return 'Original titel';
       case 'fi':
-        return 'Alkuperainen otsikko';
+        return 'Alkuperäinen otsikko';
       case 'de':
         return 'Originaltitel';
       case 'nl':
@@ -290,9 +296,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
       case 'it':
         return 'Titolo originale';
       case 'pt':
-        return 'Titulo original';
+        return 'Título original';
       case 'es':
-        return 'Titulo original';
+        return 'Título original';
       case 'nb':
       default:
         return 'Original tittel';
@@ -394,7 +400,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               const Icon(Icons.image_not_supported))),
                 const SizedBox(height: 12),
                 Text(
-                    info['navn'] ??
+                    (info['navn'] == 'Ukjent navn'
+                            ? AppLocalizations.of(context)?.unknownProduct
+                            : info['navn']) ??
                         AppLocalizations.of(context)?.productNotFound ??
                         'Ukjent produkt',
                     style: Theme.of(context).textTheme.headlineSmall,
@@ -604,55 +612,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                             ],
                           ),
                         ),
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                  AppLocalizations.of(context)?.traceability ??
-                                      'Sporbarhet',
-                                  style: const TextStyle(
-                                      fontWeight: FontWeight.bold)),
-                              const SizedBox(height: 4),
-                              Container(
-                                padding: const EdgeInsets.all(8),
-                                decoration: BoxDecoration(
-                                    color:
-                                        const Color.fromRGBO(33, 150, 243, 0.1),
-                                    borderRadius: BorderRadius.circular(8)),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Row(
-                                      mainAxisSize: MainAxisSize.min,
-                                      children: [
-                                        const Icon(Icons.security,
-                                            color: Colors.blue),
-                                        const SizedBox(width: 8),
-                                        Text(
-                                            AppLocalizations.of(context)
-                                                    ?.beta ??
-                                                'Beta',
-                                            style: const TextStyle(
-                                                color: Colors.blue,
-                                                fontWeight: FontWeight.bold)),
-                                      ],
-                                    ),
-                                    const SizedBox(height: 4),
-                                    const Text(
-                                      'Viktig: Dette er en beta-funksjon. Verifiser alltid informasjon mot pakning/etikett.',
-                                      style: TextStyle(
-                                        color: Colors.blue,
-                                        fontSize: 11,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
+                        // The former 'Traceability / Beta' box only showed a generic
+                        // beta disclaimer (no product data), so it is hidden.
                       ],
                     ),
                     const SizedBox(height: 12),
@@ -660,7 +621,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       Padding(
                           padding: const EdgeInsets.only(top: 8.0),
                           child: Text(
-                              'Forslag fra Matvaretabellen: ${(info['matvareCandidates'] as List).length}',
+                              AppLocalizations.of(context)?.matvaretabellenSuggestions(
+                                      '${(info['matvareCandidates'] as List).length}') ??
+                                  'Suggestions from Matvaretabellen: ${(info['matvareCandidates'] as List).length}',
                               style: const TextStyle(
                                   fontWeight: FontWeight.bold))),
                     if (alerts.isNotEmpty)
@@ -669,8 +632,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text('Alerts',
-                                style: TextStyle(fontWeight: FontWeight.bold)),
+                            Text(AppLocalizations.of(context)?.alertsTitle ?? 'Alerts',
+                                style: const TextStyle(
+                                    fontWeight: FontWeight.bold)),
                             const SizedBox(height: 4),
                             Wrap(
                                 spacing: 8.0,
@@ -733,17 +697,21 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                     _toggleExpanded(i))
                                           ]),
                                           const SizedBox(height: 6),
-                                          Text(
+                                          Text(AppLocalizations.of(context)?.alertSeverity(
+                                                  '${a['severity'] ?? ''}') ??
                                               'Severity: ${a['severity'] ?? ''}'),
                                           const SizedBox(height: 4),
-                                          Text('Reason: ${a['reason'] ?? ''}'),
+                                          Text(AppLocalizations.of(context)?.alertReason(
+                                                  '${a['reason'] ?? ''}') ??
+                                              'Reason: ${a['reason'] ?? ''}'),
                                           const SizedBox(height: 4),
-                                          Text(
-                                              'Confidence: ${(a['confidence'] is double) ? (a['confidence'] as double).toStringAsFixed(2) : a['confidence'].toString()}'),
+                                          Text(AppLocalizations.of(context)?.alertConfidence(
+                                                  _confidenceText(a['confidence'])) ??
+                                              'Confidence: ${_confidenceText(a['confidence'])}'),
                                           const SizedBox(height: 8),
                                           if (a['evidence'] != null) ...[
-                                            const Text('Evidence:',
-                                                style: TextStyle(
+                                            Text(AppLocalizations.of(context)?.alertEvidence ?? 'Evidence:',
+                                                style: const TextStyle(
                                                     fontWeight:
                                                         FontWeight.bold)),
                                             const SizedBox(height: 6),
@@ -756,15 +724,17 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                               sev == 'yellow') ...[
                                             const SizedBox(height: 8),
                                             const SizedBox(height: 4),
-                                            const Text(
-                                                'Varsel: intern liste for merkevare-koblinger',
-                                                style: TextStyle(
+                                            Text(
+                                                AppLocalizations.of(context)?.alertInternalListNote ??
+                                                    'Alert: internal list of brand connections',
+                                                style: const TextStyle(
                                                     fontStyle:
                                                         FontStyle.italic)),
                                             const SizedBox(height: 4),
-                                            const Text(
-                                                'Varsel: merkevaresporing og offentlig informasjon',
-                                                style: TextStyle(
+                                            Text(
+                                                AppLocalizations.of(context)?.alertBrandTrackingNote ??
+                                                    'Alert: brand tracking and public information',
+                                                style: const TextStyle(
                                                     fontStyle:
                                                         FontStyle.italic)),
                                             const SizedBox(height: 8),
@@ -783,8 +753,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                             TextField(
                                                 controller:
                                                     TextEditingController(),
-                                                decoration: const InputDecoration(
-                                                    hintText:
+                                                decoration: InputDecoration(
+                                                    hintText: AppLocalizations.of(context)?.reportNoteHint ??
                                                         'Short note (e.g. false positive)'),
                                                 maxLines: 3),
                                             const SizedBox(height: 8),
@@ -792,7 +762,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                               TextButton(
                                                   onPressed: () =>
                                                       _stopReporting(i),
-                                                  child: const Text('Cancel')),
+                                                  child: Text(AppLocalizations.of(context)?.cancel ?? 'Cancel')),
                                               ElevatedButton(
                                                   onPressed: () {
                                                     try {
@@ -829,19 +799,19 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                                           newList);
                                                       _stopReporting(i);
                                                       safeSnack(context,
-                                                          'Takk — rapport lagret.');
+                                                          AppLocalizations.of(context)?.reportSaved ?? 'Thanks — report saved.');
                                                     } catch (e) {
                                                       safeSnack(context,
-                                                          'Kunne ikke lagre rapport: $e');
+                                                          AppLocalizations.of(context)?.reportSaveFailed('$e') ?? 'Could not save the report: $e');
                                                     }
                                                   },
-                                                  child: const Text('Send'))
+                                                  child: Text(AppLocalizations.of(context)?.send ?? 'Send'))
                                             ]),
                                           ] else ...[
                                             TextButton(
                                                 onPressed: () =>
                                                     _startReporting(i),
-                                                child: const Text('Report'))
+                                                child: Text(AppLocalizations.of(context)?.report ?? 'Report'))
                                           ]
                                         ]),
                                   );
@@ -891,8 +861,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       Text(AppLocalizations.of(context)?.noAdditionsFound ??
                           'No E-numbers found in database.'),
                     const SizedBox(height: 12),
-                    const Text('Allergener',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(AppLocalizations.of(context)?.allergensTitle ?? 'Allergens',
+                        style: const TextStyle(fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     if (allergener.isNotEmpty)
                       Wrap(
@@ -905,35 +875,42 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                           fontWeight: FontWeight.bold))))
                               .toList())
                     else
-                      const Text('Ingen allergener funnet.'),
+                      Text(AppLocalizations.of(context)?.noAllergensFound ?? 'No allergens found.'),
                     const SizedBox(height: 12),
-                    const Text('Næringsinnhold (per 100g)',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(AppLocalizations.of(context)?.nutritionTitle ?? 'Nutrition (per 100 g)',
+                        style: const TextStyle(fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     if (naerings.isNotEmpty)
                       Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             if (naerings.containsKey('energy_kcal'))
-                              Text('Energi: ${naerings['energy_kcal']} kcal'),
+                              Text(AppLocalizations.of(context)?.nutritionEnergy('${naerings['energy_kcal']}') ??
+                                  'Energy: ${naerings['energy_kcal']} kcal'),
                             if (naerings.containsKey('fat'))
-                              Text('Fett: ${naerings['fat']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionFat('${naerings['fat']}') ??
+                                  'Fat: ${naerings['fat']} g'),
                             if (naerings.containsKey('saturated_fat'))
-                              Text(
-                                  'Hvorav mettet fett: ${naerings['saturated_fat']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionSaturatedFat(
+                                      '${naerings['saturated_fat']}') ??
+                                  'of which saturated fat: ${naerings['saturated_fat']} g'),
                             if (naerings.containsKey('carbohydrates'))
-                              Text(
-                                  'Karbohydrater: ${naerings['carbohydrates']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionCarbohydrates(
+                                      '${naerings['carbohydrates']}') ??
+                                  'Carbohydrates: ${naerings['carbohydrates']} g'),
                             if (naerings.containsKey('sugars'))
-                              Text(
-                                  'Hvorav sukkerarter: ${naerings['sugars']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionSugars('${naerings['sugars']}') ??
+                                  'of which sugars: ${naerings['sugars']} g'),
                             if (naerings.containsKey('protein'))
-                              Text('Protein: ${naerings['protein']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionProtein('${naerings['protein']}') ??
+                                  'Protein: ${naerings['protein']} g'),
                             if (naerings.containsKey('salt'))
-                              Text('Salt: ${naerings['salt']} g'),
+                              Text(AppLocalizations.of(context)?.nutritionSalt('${naerings['salt']}') ??
+                                  'Salt: ${naerings['salt']} g'),
                           ])
                     else
-                      const Text('Ingen næringsinformasjon funnet.'),
+                      Text(AppLocalizations.of(context)?.noNutritionFound ??
+                          'No nutrition information found.'),
                     const Divider(height: 40),
                     Text(
                         AppLocalizations.of(context)?.disclaimer ??
@@ -955,16 +932,12 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
     final color = risk == RiskLevel.red
         ? Colors.red
         : (risk == RiskLevel.yellow ? Colors.amber : Colors.green);
-    final isNorwegian =
-        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase() ==
-            'nb';
     final trimmedCustomText = customText.trim();
     final text = trimmedCustomText.isNotEmpty
         ? trimmedCustomText
         : risk == RiskLevel.green
-            ? (isNorwegian
-                ? 'Ingen kjent risiko i denne kategorien.'
-                : 'No known risk in this category.')
+            ? (AppLocalizations.of(context)?.noKnownRisk ??
+                'No known risk in this category.')
             : risk == RiskLevel.yellow
                 ? (title == 'Bovaer'
                     ? (AppLocalizations.of(context)?.bovaerPossibleRisk ??

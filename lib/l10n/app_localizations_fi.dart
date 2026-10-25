@@ -48,7 +48,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get insectMealAlert => 'Hyönteislanta-hälytys';
 
   @override
-  String get ngtAlert => 'Hidden GMO (NGT) Alert';
+  String get ngtAlert => 'Piilotetun GMO:n (NGT) varoitus';
 
   @override
   String get gmoFishAlert => 'GMO-kalarehu -hälytys';
@@ -223,4 +223,212 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get removeAdsMenuItem => 'Poista mainokset (49 kr) — tukee jatkokehitystä';
+
+  @override
+  String get gmoRegExplicit => 'EU-SÄÄNTELYN TILA: Tuote näyttää kuuluvan GMO/NGT-säänneltyyn luokkaan.';
+
+  @override
+  String get gmoRegFeedChain => 'EU-SÄÄNTELYN TILA: Voi kuulua GMO/NGT-sääntelyn piiriin rehuketjun kautta.';
+
+  @override
+  String get gmoRegNgt => 'EU-SÄÄNTELYN TILA: Tuote voi kuulua uuden geenimuokkausta (NGT) koskevan EU-päätöksen piiriin.';
+
+  @override
+  String get gmoRegSupplyChain => 'EU-SÄÄNTELYN TILA: Mahdollinen välillinen GMO/NGT-merkitys maahantuojan/toimittajan/tuottajan ketjun kautta.';
+
+  @override
+  String get gmoRegCropOrigin => 'EU-SÄÄNTELYN TILA: GMO-altis raaka-aine, jonka alkuperä on Amerikka/EU:n ulkopuoli – voi edellyttää EU:n GMO-merkintää.';
+
+  @override
+  String get gmoRegCropUnknown => 'EU-SÄÄNTELYN TILA: GMO-altis raaka-aine tuonti-/toimittajaportaassa – alkuperä kannattaa tarkistaa.';
+
+  @override
+  String get insectRegExplicit => 'EU-SÄÄNTELYN TILA: Tuote näyttää kuuluvan hyönteisiä/uuselintarvikkeita koskevan sääntelyn piiriin.';
+
+  @override
+  String get insectRegNovelFood => 'EU-SÄÄNTELYN TILA: Tuote voi kuulua EU:n hyönteisiä uuselintarvikkeina koskevien sääntöjen piiriin.';
+
+  @override
+  String get insectRegSupplyChain => 'EU-SÄÄNTELYN TILA: Mahdollinen välillinen merkitys maahantuojan/toimittajan/tuottajan ketjun kautta.';
+
+  @override
+  String get gmoConsExplicit => 'KULUTTAJARISKI: Tuoteteksti/etiketti viittaa GMO-sisältöön.';
+
+  @override
+  String get gmoConsFeed => 'KULUTTAJARISKI: Merkki/luokka vastaa tunnettua altistumista GMO-rehulle.';
+
+  @override
+  String get gmoConsNgt => 'KULUTTAJARISKI: Voi vaikuttaa kuluttajamarkkinoihin, mutta tarkista etiketti ja tuottajan tiedot.';
+
+  @override
+  String get gmoConsSupplyChain => 'KULUTTAJARISKI: Mahdollinen riski toimitusketjun kautta (kuka myy kenelle). Tarkista etiketti ja alkuperä.';
+
+  @override
+  String get gmoConsCropOrigin => 'KULUTTAJARISKI: Sisältää GMO-altista raaka-ainetta (soija/maissi/rapsi/sokerijuurikas/puuvilla), joka on tuotu maasta, jossa viljelykasvi on pääosin muuntogeeninen. Tarkista etiketistä ”GMO-vapaa”-merkintä.';
+
+  @override
+  String get gmoConsCropUnknown => 'KULUTTAJARISKI: Tuote sisältää GMO-altista raaka-ainetta (soija/maissi/rapsi/sokerijuurikas/puuvilla). Alkuperä on tuntematon – tarkista etiketti ja alkuperämaa.';
+
+  @override
+  String get insectConsExplicit => 'KULUTTAJARISKI: Tuoteteksti/ainesosat viittaavat hyönteisjauhoon tai hyönteisproteiiniin.';
+
+  @override
+  String get insectConsNovelFood => 'KULUTTAJARISKI: Mahdollinen hyönteisiin liittyvä altistus, tarkista ainesosaluettelo.';
+
+  @override
+  String get insectConsSupplyChain => 'KULUTTAJARISKI: Mahdollinen riski toimitusketjun kautta (kuka myy kenelle).';
+
+  @override
+  String get noKnownRisk => 'Ei tunnettua riskiä tässä luokassa.';
+
+  @override
+  String get searchBetaNote => 'Beta: Hakutoimintoa parannetaan jatkuvasti. Tarkista aina tuotetiedot ennen valintojen tekemistä.';
+
+  @override
+  String get couldNotOpenLink => 'Linkkiä ei voitu avata';
+
+  @override
+  String get eNumberNoDescription => 'Meillä ei ole vielä kuvausta tästä lisäaineesta. E-koodi on EU:ssa/ETA:ssa käytetty lisäainekoodi.';
+
+  @override
+  String get allergensTitle => 'Allergeenit';
+
+  @override
+  String get noAllergensFound => 'Allergeeneja ei löytynyt.';
+
+  @override
+  String get nutritionTitle => 'Ravintosisältö (100 g kohti)';
+
+  @override
+  String get noNutritionFound => 'Ravintotietoja ei löytynyt.';
+
+  @override
+  String get alertsTitle => 'Varoitukset';
+
+  @override
+  String get alertEvidence => 'Näyttö:';
+
+  @override
+  String get alertInternalListNote => 'Varoitus: sisäinen luettelo tuotemerkkien yhteyksistä';
+
+  @override
+  String get alertBrandTrackingNote => 'Varoitus: tuotemerkkien seuranta ja julkinen tieto';
+
+  @override
+  String get reportNoteHint => 'Lyhyt huomautus (esim. väärä hälytys)';
+
+  @override
+  String get report => 'Ilmoita';
+
+  @override
+  String get send => 'Lähetä';
+
+  @override
+  String get reportSaved => 'Kiitos — ilmoitus tallennettu.';
+
+  @override
+  String get seeUpdatedStatus => 'Katso päivitetty tila';
+
+  @override
+  String get openEuSource => 'Avaa EU-lähde';
+
+  @override
+  String get openInsectSource => 'Avaa hyönteislähde';
+
+  @override
+  String get privacyTitle => 'Tietosuoja';
+
+  @override
+  String get consentOptional => 'Tämä on vapaaehtoista. Jos et anna suostumusta, käyttötietojasi ei lähetetä analysoitavaksi.';
+
+  @override
+  String get consentWorksAnyway => 'Sovellus toimii joka tapauksessa, ja tiedot voivat pysyä vain laitteellasi.';
+
+  @override
+  String get readPrivacyPolicy => 'Lue tietosuojakäytäntö';
+
+  @override
+  String get allowAnonymousAnalytics => 'Salli anonyymi analytiikka';
+
+  @override
+  String get analyticsEnabled => 'Kiitos – analytiikka käytössä.';
+
+  @override
+  String get analyticsDisabled => 'Analytiikka poistettu käytöstä.';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return 'Linkkiä ei voitu avata: $error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return 'Ilmoitusta ei voitu tallentaa: $error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return 'Vakavuus: $value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return 'Syy: $value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return 'Varmuus: $value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return 'Ehdotuksia Matvaretabellenista: $count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '”$item” lisätty listaan $list';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return 'Energia: $value kcal';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return 'Rasva: $value g';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return 'josta tyydyttynyttä rasvaa: $value g';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return 'Hiilihydraatit: $value g';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return 'josta sokereita: $value g';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return 'Proteiini: $value g';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return 'Suola: $value g';
+  }
+
+  @override
+  String get countryDataSources => 'Maa / tietolähteet';
+
+  @override
+  String get chooseCountryTitle => 'Valitse maa (priorisoi lähteet)';
 }

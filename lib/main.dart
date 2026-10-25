@@ -303,13 +303,13 @@ class _ScannerScreenState extends State<ScannerScreen>
   int _listBannerRetries = 0;
 
   void _loadBanners() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || kScreenshotMode) return;
     _loadHomeBanner();
     _loadListBanner();
   }
 
   void _loadHomeBanner() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || kScreenshotMode) return;
     _homeBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
@@ -337,7 +337,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   void _loadListBanner() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || kScreenshotMode) return;
     _listBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
@@ -614,7 +614,7 @@ class _ScannerScreenState extends State<ScannerScreen>
             'Er du sikker? Dette vil også slette historikken for listen.'),
         actions: [
           TextButton(
-              child: Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt'),
+              child: Text(AppLocalizations.of(context)?.cancel ?? 'Cancel'),
               onPressed: () => _safePop()),
           TextButton(
             child: Text(AppLocalizations.of(context)?.delete ?? 'Slett',
@@ -746,7 +746,8 @@ class _ScannerScreenState extends State<ScannerScreen>
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     } else {
       if (!mounted) return;
-      safeSnack(context, 'Kunne ikke åpne lenken');
+      safeSnack(context,
+          AppLocalizations.of(context)?.couldNotOpenLink ?? 'Could not open the link');
     }
   }
 
@@ -861,7 +862,7 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
             child: const Text('Open demo B'),
           ),
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk')),
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close')),
         ],
       ),
     );
@@ -1047,14 +1048,16 @@ class _ScannerScreenState extends State<ScannerScreen>
               if (!list.any((item) => item.endsWith(itemName))) {
                 list.insert(0, itemName);
                 box.put(listToAddTo, list);
-                _safeSnack('"$itemName" lagt til i $listToAddTo',
+                _safeSnack(
+                    AppLocalizations.of(context)?.addedToList(itemName, listToAddTo) ??
+                        '"$itemName" added to $listToAddTo',
                     duration: const Duration(seconds: 2));
                 Analytics.logEvent(
                     'add_to_list', {'item': itemName, 'list': listToAddTo});
               }
             }),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
         ],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
@@ -1177,7 +1180,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: const Text('Lukk'))
+                              child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
                         ],
                       ),
                     ),
@@ -1186,7 +1189,8 @@ class _ScannerScreenState extends State<ScannerScreen>
               ),
               ListTile(
                 leading: const Icon(Icons.flag),
-                title: const Text('Land / datakilder'),
+                title: Text(AppLocalizations.of(context)?.countryDataSources ??
+                    'Country / data sources'),
                 onTap: () {
                   _safePop();
                   _visLandDialog();
@@ -1263,7 +1267,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: const Text('Lukk'))
+                              child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
                         ],
                       ),
                     ),
@@ -1284,7 +1288,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
                           ]));
                 },
               ),
@@ -1299,26 +1303,26 @@ class _ScannerScreenState extends State<ScannerScreen>
                 ),
               ListTile(
                 leading: const Icon(Icons.notification_important),
-                title: const Text('Varsel'),
+                title: Text(AppLocalizations.of(context)?.alertsTitle ?? 'Alerts'),
                 onTap: () {
                   _safePop();
                   _safeShowDialogBuilder((_) => AlertDialog(
-                          title: const Text('Varsel'),
-                          content: const Column(
+                          title: Text(AppLocalizations.of(context)?.alertsTitle ?? 'Alerts'),
+                          content: Column(
                             mainAxisSize: MainAxisSize.min,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                  'Varsel: intern liste for merkevare-koblinger'),
-                              SizedBox(height: 4),
-                              Text(
-                                  'Varsel: merkevaresporing og offentlig informasjon'),
+                              Text(AppLocalizations.of(context)?.alertInternalListNote ??
+                                  'Alert: internal list of brand connections'),
+                              const SizedBox(height: 4),
+                              Text(AppLocalizations.of(context)?.alertBrandTrackingNote ??
+                                  'Alert: brand tracking and public information'),
                             ],
                           ),
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
                           ]));
                 },
               ),
@@ -1340,7 +1344,7 @@ class _ScannerScreenState extends State<ScannerScreen>
               ),
               ListTile(
                 leading: const Icon(Icons.privacy_tip),
-                title: const Text('Personvern'),
+                title: Text(AppLocalizations.of(context)?.privacyTitle ?? 'Privacy'),
                 onTap: () {
                   _safePop();
                   _safeShowDialogBuilder(
@@ -1361,7 +1365,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
                           ]));
                 },
               ),
@@ -1386,8 +1390,9 @@ class _ScannerScreenState extends State<ScannerScreen>
           selectedLanguage = code;
         });
         if (context.mounted) Navigator.of(context).pop();
-        if (!_isTestEnv)
+        if (!_isTestEnv) {
           await Future.delayed(const Duration(milliseconds: 300));
+        }
         if (mounted) widget.onLanguageChanged(code);
       },
     );
@@ -1418,7 +1423,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     _safeShowDialogBuilder(
       (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
-          title: const Text('Velg land (prioriterer kilder)'),
+          title: Text(AppLocalizations.of(context)?.chooseCountryTitle ??
+              'Choose country (prioritises sources)'),
           content: SizedBox(
             width: double.maxFinite,
             child: ConstrainedBox(
@@ -1455,7 +1461,7 @@ class _ScannerScreenState extends State<ScannerScreen>
             ),
           ),
           actions: [
-            TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+            TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
           ],
         ),
       ),
@@ -1781,10 +1787,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.red,
         'regulatoryText':
-            'EU-REGELSTATUS: Produktet ser ut til å være i GMO/NGT-regulert kategori.',
+            AppLocalizations.of(context)?.gmoRegExplicit ??
+            'EU REGULATORY STATUS: The product appears to be in a GMO/NGT-regulated category.',
         'consumerRisk': RiskLevel.red,
         'consumerText':
-            'FORBRUKERRISIKO: Produkttekst/etikett indikerer GMO-innhold.',
+            AppLocalizations.of(context)?.gmoConsExplicit ??
+            'CONSUMER RISK: Product text/label indicates GMO content.',
         'url': kEuGmoDecisionUrl,
       };
     }
@@ -1793,10 +1801,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: Kan omfattes av GMO/NGT-regelverk via fôrkjede.',
+            AppLocalizations.of(context)?.gmoRegFeedChain ??
+            'EU REGULATORY STATUS: May be covered by GMO/NGT rules via the feed chain.',
         'consumerRisk': RiskLevel.red,
         'consumerText':
-            'FORBRUKERRISIKO: Merke/kategori matcher kjent GMO-fôr-eksponering.',
+            AppLocalizations.of(context)?.gmoConsFeed ??
+            'CONSUMER RISK: Brand/category matches known GMO feed exposure.',
         'url': kSupplierStatusUrl,
       };
     }
@@ -1805,10 +1815,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: Produktet kan omfattes av nytt EU-vedtak for genredigering (NGT).',
+            AppLocalizations.of(context)?.gmoRegNgt ??
+            'EU REGULATORY STATUS: The product may be covered by the new EU decision on gene editing (NGT).',
         'consumerRisk': RiskLevel.yellow,
         'consumerText':
-            'FORBRUKERRISIKO: Kan påvirke forbrukermarkedet, men bør verifiseres mot etikett og produsentinfo.',
+            AppLocalizations.of(context)?.gmoConsNgt ??
+            'CONSUMER RISK: May affect the consumer market, but should be verified against the label and producer information.',
         'url': kEuGmoDecisionUrl,
       };
     }
@@ -1820,10 +1832,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: Mulig indirekte GMO/NGT-relevans via importør/leverandør/produsentkjede.',
+            AppLocalizations.of(context)?.gmoRegSupplyChain ??
+            'EU REGULATORY STATUS: Possible indirect GMO/NGT relevance via the importer/supplier/producer chain.',
         'consumerRisk': RiskLevel.yellow,
         'consumerText':
-            'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem). Verifiser etikett og opprinnelse.',
+            AppLocalizations.of(context)?.gmoConsSupplyChain ??
+            'CONSUMER RISK: Possible risk via the supply chain (who sells to whom). Verify the label and origin.',
         'url': kSupplierStatusUrl,
       };
     }
@@ -1836,10 +1850,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: GMO-utsatt råvare med amerikansk/ikke-EU-opprinnelse – kan utløse EUs GMO-merkeplikt.',
+            AppLocalizations.of(context)?.gmoRegCropOrigin ??
+            'EU REGULATORY STATUS: GMO-prone ingredient of American/non-EU origin – may trigger the EU’s GMO labelling requirement.',
         'consumerRisk': RiskLevel.red,
         'consumerText':
-            'FORBRUKERRISIKO: Inneholder GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull) importert fra et land der avlingen overveiende er genmodifisert. Sjekk etikett for «uten GMO»-merking.',
+            AppLocalizations.of(context)?.gmoConsCropOrigin ??
+            'CONSUMER RISK: Contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton) imported from a country where the crop is predominantly genetically modified. Check the label for “GMO-free” marking.',
         'url': kEuGmoDecisionUrl,
       };
     }
@@ -1849,10 +1865,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: GMO-utsatt råvare i importert/leverandørledd – opprinnelse bør verifiseres.',
+            AppLocalizations.of(context)?.gmoRegCropUnknown ??
+            'EU REGULATORY STATUS: GMO-prone ingredient at the import/supplier stage – the origin should be verified.',
         'consumerRisk': RiskLevel.yellow,
         'consumerText':
-            'FORBRUKERRISIKO: Produktet inneholder en GMO-utsatt råvare (soya/mais/raps/sukkerbete/bomull). Opprinnelse er ukjent – sjekk etikett og opphavsland.',
+            AppLocalizations.of(context)?.gmoConsCropUnknown ??
+            'CONSUMER RISK: The product contains a GMO-prone ingredient (soy/maize/rapeseed/sugar beet/cotton). Origin unknown – check the label and country of origin.',
         'url': kEuGmoDecisionUrl,
       };
     }
@@ -1960,10 +1978,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.red,
         'regulatoryText':
-            'EU-REGELSTATUS: Produktet ser ut til å være i insekt/novel-food-regulert kategori.',
+            AppLocalizations.of(context)?.insectRegExplicit ??
+            'EU REGULATORY STATUS: The product appears to be in an insect/novel-food-regulated category.',
         'consumerRisk': RiskLevel.red,
         'consumerText':
-            'FORBRUKERRISIKO: Produkttekst/ingredienser indikerer insektsmel eller insektprotein.',
+            AppLocalizations.of(context)?.insectConsExplicit ??
+            'CONSUMER RISK: Product text/ingredients indicate insect meal or insect protein.',
         'url': kEuNovelFoodInsectsUrl,
       };
     }
@@ -1972,10 +1992,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: Produktet kan omfattes av EU-regler for insekter som novel food.',
+            AppLocalizations.of(context)?.insectRegNovelFood ??
+            'EU REGULATORY STATUS: The product may be covered by EU rules for insects as novel food.',
         'consumerRisk': RiskLevel.yellow,
         'consumerText':
-            'FORBRUKERRISIKO: Mulig insektsrelatert eksponering, verifiser ingrediensliste.',
+            AppLocalizations.of(context)?.insectConsNovelFood ??
+            'CONSUMER RISK: Possible insect-related exposure, check the ingredient list.',
         'url': kEuNovelFoodInsectsUrl,
       };
     }
@@ -1986,10 +2008,12 @@ class _ScannerScreenState extends State<ScannerScreen>
       return {
         'regulatoryRisk': RiskLevel.yellow,
         'regulatoryText':
-            'EU-REGELSTATUS: Mulig indirekte relevans via importør/leverandør/produsentkjede.',
+            AppLocalizations.of(context)?.insectRegSupplyChain ??
+            'EU REGULATORY STATUS: Possible indirect relevance via the importer/supplier/producer chain.',
         'consumerRisk': RiskLevel.yellow,
         'consumerText':
-            'FORBRUKERRISIKO: Mulig risiko via leverandørkjede (hvem som selger til hvem).',
+            AppLocalizations.of(context)?.insectConsSupplyChain ??
+            'CONSUMER RISK: Possible risk via the supply chain (who sells to whom).',
         'url': kEuNovelFoodInsectsUrl,
       };
     }
@@ -2144,7 +2168,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                 TextButton(
                     onPressed: () => _safePop(),
                     child:
-                        Text(AppLocalizations.of(context)?.cancel ?? 'Avbryt')),
+                        Text(AppLocalizations.of(context)?.cancel ?? 'Cancel')),
                 TextButton(
                   onPressed: () {
                     final navn = controller.text.trim();
@@ -2280,7 +2304,8 @@ class _ScannerScreenState extends State<ScannerScreen>
                       onShowSearch: () => _visSok(),
                       onAddManualItem: (item) =>
                           _handleManualListInput(activeList, item),
-                      premiumActive: premiumActive,
+                      // Screenshot builds also hide the remove-ads upsell bar.
+                      premiumActive: premiumActive || kScreenshotMode,
                       onRemoveAds: () => Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -2345,9 +2370,10 @@ class _ScannerScreenState extends State<ScannerScreen>
                     color: Colors.blue.withAlpha((0.08 * 255).round()),
                     borderRadius: BorderRadius.circular(8),
                   ),
-                  child: const Text(
-                    'Beta: Søkefunksjonen er under kontinuerlig forbedring. Dobbeltsjekk alltid produktdetaljer før du tar valg.',
-                    style: TextStyle(fontSize: 12),
+                  child: Text(
+                    AppLocalizations.of(context)?.searchBetaNote ??
+                        'Beta: Search is continuously being improved. Always double-check product details before making choices.',
+                    style: const TextStyle(fontSize: 12),
                   ),
                 ),
                 TextField(
@@ -2355,7 +2381,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                   autofocus: true,
                   decoration: InputDecoration(
                     hintText: AppLocalizations.of(context)?.searchHint ??
-                        'Søk... (f.eks. melk)',
+                        'Search... (e.g. milk)',
                     suffixIcon: IconButton(
                       icon: const Icon(Icons.search),
                       onPressed: () async {
@@ -2434,7 +2460,7 @@ class _ScannerScreenState extends State<ScannerScreen>
           actions: [
             TextButton(
                 onPressed: () => _safePop(),
-                child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
+                child: Text(AppLocalizations.of(context)?.close ?? 'Close'))
           ],
         );
       },

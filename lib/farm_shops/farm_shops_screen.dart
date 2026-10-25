@@ -98,7 +98,7 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
         : (kFarmShopCountries.containsKey(requested) ? requested : 'NO');
     _reference = _countryCentre(_country);
     _load();
-    if (widget.showAds && !_isTestEnv) _loadBanner();
+    if (widget.showAds && !_isTestEnv && !kScreenshotMode) _loadBanner();
     if (!_isTestEnv) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _initLocation());
     }
@@ -236,7 +236,9 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
     setState(() => _locating = true);
     try {
       if (!await Geolocator.isLocationServiceEnabled()) {
-        if (!silent) _snack(s.locationServiceOff);
+        if (!silent) {
+          _snackWithSettings(s.locationServiceOff, appSettings: false);
+        }
         return;
       }
       var perm = await Geolocator.checkPermission();
@@ -244,17 +246,13 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
         perm = await Geolocator.requestPermission();
       }
       if (perm == LocationPermission.deniedForever) {
-        if (!silent && mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-            content: Text(s.locationDeniedForever),
-            action: SnackBarAction(
-                label: s.openSettings, onPressed: Geolocator.openAppSettings),
-          ));
+        if (!silent) {
+          _snackWithSettings(s.locationDeniedForever, appSettings: true);
         }
         return;
       }
       if (perm == LocationPermission.denied) {
-        if (!silent) _snack(s.locationDenied);
+        if (!silent) _snackWithSettings(s.locationDenied, appSettings: true);
         return;
       }
       Position? pos;
@@ -268,7 +266,13 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
       } catch (_) {
         pos = await Geolocator.getLastKnownPosition();
       }
-      if (pos == null || !mounted) return;
+      if (!mounted) return;
+      if (pos == null) {
+        if (!silent) {
+          _snackWithSettings(s.locationUnavailable, appSettings: false);
+        }
+        return;
+      }
       final here = LatLng(pos.latitude, pos.longitude);
       setState(() {
         _userPos = here;
@@ -278,7 +282,9 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
       });
       _moveMap(here, 10);
     } catch (_) {
-      if (!silent) _snack(s.locationDenied);
+      if (!silent) {
+        _snackWithSettings(s.locationUnavailable, appSettings: false);
+      }
     } finally {
       if (mounted) setState(() => _locating = false);
     }
@@ -294,6 +300,27 @@ class _FarmShopsScreenState extends State<FarmShopsScreen> {
   }
 
   // ---------- actions ----------
+
+  /// Location problem message with a shortcut to the relevant settings page
+  /// (app permissions or the phone's location settings).
+  void _snackWithSettings(String msg, {required bool appSettings}) {
+    if (!mounted) return;
+    final s = FarmShopStrings.of(context);
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(msg),
+      duration: const Duration(seconds: 6),
+      action: SnackBarAction(
+        label: s.openSettings,
+        onPressed: () {
+          if (appSettings) {
+            Geolocator.openAppSettings();
+          } else {
+            Geolocator.openLocationSettings();
+          }
+        },
+      ),
+    ));
+  }
 
   void _snack(String msg) {
     if (!mounted) return;

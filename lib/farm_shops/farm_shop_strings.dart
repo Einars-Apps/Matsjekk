@@ -58,6 +58,7 @@ class FarmShopStrings {
   String get locationDeniedForever => _t('locationDeniedForever');
   String get locationServiceOff => _t('locationServiceOff');
   String get openSettings => _t('openSettings');
+  String get locationUnavailable => _t('locationUnavailable');
   String get sortedFromYou => _t('sortedFromYou');
   String get sortedFromCentre => _t('sortedFromCentre');
 
@@ -109,6 +110,8 @@ class FarmShopStrings {
           'Posisjon er slått av for Matsjekk. Du kan slå den på i innstillingene.',
       'locationServiceOff': 'Posisjonstjenester er slått av på telefonen.',
       'openSettings': 'Innstillinger',
+      'locationUnavailable':
+          "Fant ikke posisjonen din. Sjekk at posisjon er slått på, og prøv igjen.",
       'sortedFromYou': 'Sortert etter avstand fra deg',
       'sortedFromCentre': 'Sortert etter avstand fra kartets midtpunkt',
     },
@@ -151,6 +154,8 @@ class FarmShopStrings {
           'Location is turned off for Matsjekk. You can turn it on in Settings.',
       'locationServiceOff': 'Location services are turned off on your phone.',
       'openSettings': 'Settings',
+      'locationUnavailable':
+          "Couldn't find your position. Check that location is turned on and try again.",
       'sortedFromYou': 'Sorted by distance from you',
       'sortedFromCentre': 'Sorted by distance from the map centre',
     },
@@ -193,6 +198,8 @@ class FarmShopStrings {
           'Plats är avstängd för Matsjekk. Du kan slå på den i Inställningar.',
       'locationServiceOff': 'Platstjänster är avstängda i telefonen.',
       'openSettings': 'Inställningar',
+      'locationUnavailable':
+          "Kunde inte hitta din position. Kontrollera att platstjänster är på och försök igen.",
       'sortedFromYou': 'Sorterat efter avstånd från dig',
       'sortedFromCentre': 'Sorterat efter avstånd från kartans mitt',
     },
@@ -235,6 +242,8 @@ class FarmShopStrings {
           'Placering er slået fra for Matsjekk. Du kan slå den til i Indstillinger.',
       'locationServiceOff': 'Placeringstjenester er slået fra på telefonen.',
       'openSettings': 'Indstillinger',
+      'locationUnavailable':
+          "Kunne ikke finde din position. Tjek at placering er slået til, og prøv igen.",
       'sortedFromYou': 'Sorteret efter afstand fra dig',
       'sortedFromCentre': 'Sorteret efter afstand fra kortets midte',
     },
@@ -277,6 +286,8 @@ class FarmShopStrings {
           'Sijainti on poistettu käytöstä Matsjekkille. Voit ottaa sen käyttöön asetuksista.',
       'locationServiceOff': 'Sijaintipalvelut ovat pois päältä puhelimessa.',
       'openSettings': 'Asetukset',
+      'locationUnavailable':
+          "Sijaintiasi ei löytynyt. Tarkista, että sijainti on päällä, ja yritä uudelleen.",
       'sortedFromYou': 'Lajiteltu etäisyyden mukaan sinusta',
       'sortedFromCentre': 'Lajiteltu etäisyyden mukaan kartan keskeltä',
     },
@@ -319,6 +330,8 @@ class FarmShopStrings {
           'Der Standortzugriff ist für Matsjekk deaktiviert. Du kannst ihn in den Einstellungen aktivieren.',
       'locationServiceOff': 'Die Ortungsdienste sind auf deinem Handy aus.',
       'openSettings': 'Einstellungen',
+      'locationUnavailable':
+          "Dein Standort wurde nicht gefunden. Prüfe, ob die Ortung eingeschaltet ist, und versuche es erneut.",
       'sortedFromYou': 'Nach Entfernung von dir sortiert',
       'sortedFromCentre': 'Nach Entfernung von der Kartenmitte sortiert',
     },
@@ -361,6 +374,8 @@ class FarmShopStrings {
           'Locatie staat uit voor Matsjekk. Je kunt dit aanzetten in Instellingen.',
       'locationServiceOff': 'Locatievoorzieningen staan uit op je telefoon.',
       'openSettings': 'Instellingen',
+      'locationUnavailable':
+          "Je locatie is niet gevonden. Controleer of locatie aanstaat en probeer het opnieuw.",
       'sortedFromYou': 'Gesorteerd op afstand van jou',
       'sortedFromCentre': 'Gesorteerd op afstand van het midden van de kaart',
     },
@@ -404,6 +419,8 @@ class FarmShopStrings {
       'locationServiceOff':
           'Les services de localisation sont désactivés sur votre téléphone.',
       'openSettings': 'Réglages',
+      'locationUnavailable':
+          "Impossible de trouver votre position. Vérifiez que la localisation est activée et réessayez.",
       'sortedFromYou': 'Triées par distance depuis vous',
       'sortedFromCentre': 'Triées par distance depuis le centre de la carte',
     },
@@ -446,6 +463,8 @@ class FarmShopStrings {
           'La posizione è disattivata per Matsjekk. Puoi attivarla nelle Impostazioni.',
       'locationServiceOff': 'I servizi di localizzazione sono disattivati sul telefono.',
       'openSettings': 'Impostazioni',
+      'locationUnavailable':
+          "Impossibile trovare la tua posizione. Controlla che la localizzazione sia attiva e riprova.",
       'sortedFromYou': 'Ordinate per distanza da te',
       'sortedFromCentre': 'Ordinate per distanza dal centro della mappa',
     },
@@ -489,6 +508,8 @@ class FarmShopStrings {
       'locationServiceOff':
           'Os serviços de localização estão desativados no telemóvel.',
       'openSettings': 'Definições',
+      'locationUnavailable':
+          "Não foi possível encontrar a sua localização. Verifique se a localização está ativada e tente novamente.",
       'sortedFromYou': 'Ordenadas por distância de si',
       'sortedFromCentre': 'Ordenadas por distância do centro do mapa',
     },
@@ -532,6 +553,8 @@ class FarmShopStrings {
       'locationServiceOff':
           'Los servicios de ubicación están desactivados en tu teléfono.',
       'openSettings': 'Ajustes',
+      'locationUnavailable':
+          "No se ha podido encontrar tu ubicación. Comprueba que la ubicación está activada e inténtalo de nuevo.",
       'sortedFromYou': 'Ordenadas por distancia desde ti',
       'sortedFromCentre': 'Ordenadas por distancia desde el centro del mapa',
     },
