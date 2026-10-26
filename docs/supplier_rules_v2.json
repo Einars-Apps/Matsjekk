@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "updated_at": "2026-10-19",
-  "tine_bovaer_note_nb": "TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
+  "updated_at": "2026-10-26",
+  "tine_bovaer_note_nb": "TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
   "origin": "Existing app rules; export is not a new factual verification.",
   "countries": {
     "NO": {

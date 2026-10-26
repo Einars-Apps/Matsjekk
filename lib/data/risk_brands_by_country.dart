@@ -1,13 +1,14 @@
 import 'factory_customer_relations.dart';
 
 /// Owner-confirmed Bovaer status for TINE and TINE products (Jarlsberg, Norvegia,
-/// and the other Norwegian sub-brands). Yellow, because older goods can remain
-/// on shelves after TINE stopped delivering Bovaer milk to consumers.
+/// and the other Norwegian sub-brands). Stays yellow: the risk applies only to
+/// products made before TINE stopped using milk from Bovaer-fed cows on
+/// 22 January 2026. Users should check the production or packing date.
 const String tineBovaerYellowReasonNb =
-    'TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.';
+    'TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.';
 
 const String tineBovaerYellowReasonEn =
-    'TINE states that it no longer delivers Bovaer milk to consumers, but older products (for example cheese) may still be found in stores.';
+    'TINE stopped using milk from cows fed with Bovaer on 22 January 2026. The risk applies only to products made before this date – check the production/packing date. Older products (for example cheese) may still be found in stores.';
 
 // Risk brands organized by country and category.
 //
@@ -36,11 +37,12 @@ const String tineBovaerYellowReasonEn =
 final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'NO': {
-    // NORGE — Last verified: 2026-10-19
+    // NORGE — Last verified: 2026-10-26
     // RED:  Arla confirmed large-scale Nordic Bovaer rollout (2022–2023).
     //       Lurpak and Castello are Arla brands (same milk supply chain).
-    // YELLOW: TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker,
-    //   men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
+    // YELLOW: TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026.
+    //   Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato.
+    //   Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
     //   TINE supplies milk/ingredients to Synnøve, Fjordland (TINE subsidiary),
     //   Q-meieriene, Kavli and OsteCompagniet — whole downstream chain flagged.
     'bovaer_red': [
