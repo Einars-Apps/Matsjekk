@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-26",
   "NO": {
     "bovaer_red": ["arla","aptina","lerøy","mowi","salmar"],
     "bovaer_yellow": ["tine","synnøve","synnøve finden","fjordland","ostecompagniet","q-meieriene","q meieriene","kavli","jarlsberg","norvegia","biola","litago","snøfrisk","gudbrandsdalsost","ski queen"],
     "bovaer_notes": [
       {
-        "text": "TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
+        "text": "TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
         "brands": ["tine","synnøve","synnøve finden","synnove","fjordland","ostecompagniet","q-meieriene","q meieriene","kavli","jarlsberg","norvegia","biola","litago","snøfrisk","gudbrandsdalsost","ski queen"]
       }
     ],

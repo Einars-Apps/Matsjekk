@@ -1,5 +1,5 @@
 (function () {
-  const MANUAL_URL = 'data/eu_decisions.json?v=20261019';
+  const MANUAL_URL = 'data/eu_decisions.json?v=20261026';
   const AUTO_URL = 'data/eu_decisions_auto.json?v=20260606f';
   const WINDOW_DAYS = 365 * 3;
   const MAX_CHECK_AGE_MS = 3 * 24 * 60 * 60 * 1000;

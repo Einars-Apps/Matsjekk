@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-26",
   "window_years": 3,
   "items": [
     {
@@ -34,8 +34,8 @@
       "title": "EFSA revurderer sikkerheten ved 3-NOP (Bovaer) for melkekyr",
       "type": "Pågående risikovurdering (ikke vedtak)",
       "topic": "Bovaer",
-      "summary": "Etter danske rapporter om fordøyelses- og stoffskifteproblemer hos melkekyr fikk EFSA mandat fra Kommisjonen til å vurdere om godkjenningen av 3-NOP fortsatt oppfyller kravene til sikkerhet for målartene (EFSA-Q-2026-00024). EFSA samlet inn data 3.2.–10.4.2026. Uttalelsen var planlagt 30.6.2026, men er utsatt. EFSA venter å bli ferdig innen utgangen av 2026. Godkjenningen gjelder fortsatt i mellomtiden.",
-      "url": "https://www.efsa.europa.eu/en/call/call-data-use-3-nitrooxypropanol-ruminants",
+      "summary": "Etter danske rapporter om fordøyelses- og stoffskifteproblemer hos melkekyr fikk EFSA mandat fra Kommisjonen til å vurdere om godkjenningen av 3-NOP fortsatt oppfyller kravene til sikkerhet for målartene (EFSA-Q-2026-00024). EFSA samlet inn data 3.2.–10.4.2026. Uttalelsen var planlagt 30.6.2026, men er utsatt. Status er fortsatt pågående risikovurdering. Offisiell frist er 30. november 2026 (sjekket 26. oktober 2026). Godkjenningen gjelder fortsatt i mellomtiden.",
+      "url": "https://open.efsa.europa.eu/questions/EFSA-Q-2026-00024",
       "source": "EFSA"
     },
     {
