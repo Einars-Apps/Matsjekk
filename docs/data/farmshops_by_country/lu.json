@@ -12,6 +12,18 @@
     "address": "Rue d'Athus"
   },
   {
+    "id": 4630604660,
+    "name": "BioButtek Wilhelm",
+    "country": "Luxembourg",
+    "region": null,
+    "municipality": "Capellen",
+    "products": [],
+    "website": "http://www.bioshop.lu/",
+    "lat": 49.643746,
+    "lon": 5.9808913,
+    "address": "Rue du Kiem"
+  },
+  {
     "id": 5624088245,
     "name": "Les paniers de Sandrine",
     "country": "Luxembourg",
@@ -250,18 +262,6 @@
     "lat": 49.5762625,
     "lon": 5.9572841,
     "address": "Rue de la Croix"
-  },
-  {
-    "id": 4630604660,
-    "name": "BioButtek Wilhelm",
-    "country": "Luxembourg",
-    "region": null,
-    "municipality": "Capellen",
-    "products": [],
-    "website": "http://www.bioshop.lu/",
-    "lat": 49.643746,
-    "lon": 5.9808913,
-    "address": "Rue du Kiem"
   },
   {
     "id": 894035486,
