@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T05:28:03.484882+00:00",
+  "updated_at": "2026-10-30T05:27:56.887608+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -13,17 +13,6 @@
       "source": "food.ec.europa.eu",
       "id": "6ea7bad80a4a76ca",
       "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
-    },
-    {
-      "date": "2026-09-07T07:00:00+00:00",
-      "title": "Genetically modified organisms (GMO) - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Genetically modified organisms (GMO) &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/EN/legal-content/glossary/genetically-modified-organisms-gmo.html",
-      "source": "EUR-Lex",
-      "id": "1ddcaf7dd3e1240c",
-      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
     },
     {
       "date": "2026-08-31T07:00:00+00:00",
@@ -147,17 +136,6 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5"
     },
     {
-      "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024AP0067",
-      "source": "EUR-Lex",
-      "id": "b728d19d56a95238",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5"
-    },
-    {
       "date": "2024-10-02T22:12:39+00:00",
       "title": "Approval of another insect/insect-derived food as a Novel Food - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -189,6 +167,17 @@
       "source": "EUR-Lex",
       "id": "886ebc435756833d",
       "google_news_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZWNmdWhGeW9sbkNzY3hBZFV6SlYzQ2FWTFpKUzVpbDk1NERhRjNMajVCS05oeTFBcVRSdE9sWFR0cHRaSEJKRTZLbkRVSGVJWjlBak9EbE5VTVJsTUwzdmtSNjlUODAzbExsaDVXRmpfbjVqcUhwRWM0NExTdUxIb0dGYUZMMTJSN2pQaVBBcklPVy00bnNOWVo4b294Z1RmWGFnZFFQRklGai1Bd21kSW9R?oc=5"
+    },
+    {
+      "date": "2024-02-07T08:00:00+00:00",
+      "title": "New Genomic Techniques: MEPs back rules to support green transition of farmers - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New Genomic Techniques: MEPs back rules to support green transition of farmers &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20240202IPR17320/new-genomic-techniques-meps-back-rules-to-support-green-transition-of-farmers",
+      "source": "European Parliament",
+      "id": "493e0c88f1ddf0aa",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObVc4b2VYTlc3TlBRd09DcjAxakt3ZVd6ZnFkZTBKbEV6NHNTUy1ULXljWWZwaTNYdkhKV1pCU1dfdXpiSzlhbTJ3TmwtM1JEb2ZLRlh6Vks1ZG5OMFctN0ZSYWFTakMwTllGRTZldHlPVGptYUY0bF9NcEtfdGpxQUcyTWlxQ3I4by1vNUFFUnIxY19SVFZ3dlhlVkhZeHQxRWlvSWpnMGRuQzRIakQ3M0VtTUtMWC1FeHpkSEtyc2ZleXhzZHNEWDVwazl6S0JMU2c0aWlMNWdoOUh6?oc=5"
     },
     {
       "date": "2024-02-02T08:00:00+00:00",
