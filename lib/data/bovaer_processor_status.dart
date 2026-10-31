@@ -546,7 +546,7 @@ bool _aliasMatches(String text, String alias) {
   final a = alias.trim().toLowerCase();
   if (a.isEmpty) return false;
   // Whole-word match so 'tine' does not hit 'Valentine'/'Martine'.
-  final pattern = RegExp('(^|[^a-z0-9æøåäöü])' + RegExp.escape(a) + r'($|[^a-z0-9æøåäöü])');
+  final pattern = RegExp('(^|[^a-z0-9æøåäöü])${RegExp.escape(a)}(\$|[^a-z0-9æøåäöü])');
   return pattern.hasMatch(text.toLowerCase());
 }
 

@@ -1423,8 +1423,9 @@ class _ScannerScreenState extends State<ScannerScreen>
           selectedLanguage = code;
         });
         if (context.mounted) Navigator.of(context).pop();
-        if (!_isTestEnv)
+        if (!_isTestEnv) {
           await Future.delayed(const Duration(milliseconds: 300));
+        }
         if (mounted) widget.onLanguageChanged(code);
       },
     );
