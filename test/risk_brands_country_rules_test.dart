@@ -74,7 +74,7 @@ void main() {
 
     final riskJson = json.decode(File('docs/data/risk.json').readAsStringSync())
         as Map<String, dynamic>;
-    expect(riskJson['updated_at'], '2026-10-26');
+    expect(riskJson['updated_at'], '2026-10-31');
     final riskNo = riskJson['NO'] as Map<String, dynamic>;
     final riskRed = (riskNo['bovaer_red'] as List)
         .map((brand) => brand.toString().toLowerCase())

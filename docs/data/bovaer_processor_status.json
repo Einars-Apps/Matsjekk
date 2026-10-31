@@ -1,0 +1,930 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-31",
+  "_rule": "Hver oppføring må ha minst én kilde-URL som faktisk er lest, med dato. Ukjent skal merkes 'ukjent' og gis ikke rød farge. Gul med produced_before betyr: mulig risiko for produkter produsert før datoen.",
+  "status_values": [
+    "bruker",
+    "har_brukt",
+    "forsok",
+    "stoppet",
+    "ukjent",
+    "ikke_tillatt"
+  ],
+  "app_color_values": [
+    "red",
+    "yellow",
+    "green",
+    "none"
+  ],
+  "context": {
+    "efsa": [
+      {
+        "url": "https://www.efsa.europa.eu/en/call/call-data-use-3-nitrooxypropanol-ruminants",
+        "date": "2026-02-03",
+        "note": "EFSA-mandat: ny vurdering av sikkerhet for melkekyr."
+      },
+      {
+        "url": "https://www.agriland.ie/farming-news/efsa-seeks-extra-time-for-scientific-opinion-on-bovaer/",
+        "date": "2026-06-30",
+        "note": "EFSA-uttalelse utsatt; ventes innen utgangen av 2026."
+      }
+    ],
+    "denmark": [
+      {
+        "url": "https://foedevarestyrelsen.dk/foder/markedsfoering-af-foder/fodertilsaetningsstoffer/bovaer",
+        "date": "udatert (lest 2026-10-25)",
+        "note": "Danske studier 2026-2028; første undersøkelse kunne verken påvise eller avvise sammenheng; neste delresultater 2027; EFSA ventes slutten av 2026."
+      },
+      {
+        "url": "https://dca.au.dk/aktuelt/nyheder/vis/artikel/ny-rapport-om-bovaer-ingen-samlet-stigning-i-doedelighed-eller-fald-i-maelkeydelse",
+        "date": "2026-05-01",
+        "note": "AU-rapport (73 besetninger): ingen samlet økning i dødelighet/fall i ytelse, men alvorlige enkeltbesetninger og åpne spørsmål."
+      },
+      {
+        "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+        "date": "2026-09-30",
+        "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "no_tine",
+      "company": "TINE SA",
+      "country": "NO",
+      "aliases": [
+        "tine",
+        "jarlsberg",
+        "norvegia"
+      ],
+      "role": "processor",
+      "status": "stoppet",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-01-22",
+      "sources": [
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE stanser bruk av melk fra kyr foret med Bovaer."
+        },
+        {
+          "url": "https://medlem.tine.no/aktuelt-fra-tine/bruk-av-bovaer-pa-norske-garder-settes-pa-pause",
+          "date": "2025-11-12",
+          "note": "Norsk melkeråvare pauser Bovaer på ca. 70 gårder; kontrollert forsøk ved NMBU fortsetter."
+        },
+        {
+          "url": "https://borsen.dagbladet.no/nyheter/raser-mot-tine-svartelistet/84039624",
+          "date": "2025-12-31",
+          "note": "TINE bekrefter at NMBU-melk inngikk i TINEs ordinære melkestrøm."
+        }
+      ],
+      "note_nb": "Bovaer pauset på gårdene 12.11.2025; NMBU-forsøksmelk inngikk i TINEs ordinære melkestrøm til TINE stanset 22.1.2026. Gul: produkter produsert før 22.1.2026."
+    },
+    {
+      "id": "no_norsk_melkeravare",
+      "company": "Norsk melkeråvare (NMR)",
+      "country": "NO",
+      "aliases": [
+        "norsk melkeråvare"
+      ],
+      "role": "raw_milk_supplier",
+      "status": "stoppet",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-02-04",
+      "sources": [
+        {
+          "url": "https://medlem.tine.no/aktuelt-fra-tine/bruk-av-bovaer-pa-norske-garder-settes-pa-pause",
+          "date": "2025-11-12",
+          "note": "Norsk melkeråvare pauser Bovaer på ca. 70 gårder; kontrollert forsøk ved NMBU fortsetter."
+        },
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202",
+          "date": "2026-02-04",
+          "note": "Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "Selger råmelk til alle meierier i Norge. Bovaer stoppet på gårdene 12.11.2025; NMBU-forsøksmelk gikk til TINE til 22.01.2026. Gul: produkter produsert før 22.01.2026."
+    },
+    {
+      "id": "no_q_meieriene",
+      "company": "Q-Meieriene (Kavli Norge)",
+      "country": "NO",
+      "aliases": [
+        "q-meieriene",
+        "q meieriene"
+      ],
+      "role": "processor",
+      "status": "stoppet",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-01-22",
+      "sources": [
+        {
+          "url": "https://kommunikasjon.ntb.no/pressemelding/17998816/pruduktnyheter-fra-q-q-klimamelk-et-naturlig-valg-for-den-klimabevisste?lang=no&publisherId=89709",
+          "date": "2023-09-12",
+          "note": "Q Klimamelk fra 3 Q-gårder med metanhemmende fôrtilskudd, lansert 17.9.2023."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "Q-bønder ikke brukt Bovaer siden 2024; NMR-andelen nå også uten Bovaer."
+        },
+        {
+          "url": "https://www.q-meieriene.no/om-q-meieriene/apenhetsloven",
+          "date": "2026-06-26",
+          "note": "Q-Meieriene eies 100 % av Kavli Norge AS."
+        },
+        {
+          "url": "https://www.q-meieriene.no/q-garden",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Q-Meieriene kjøper råmelk fra Norsk melkeråvare (via TINE) for å dekke etterspørselen."
+        },
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Q-Meieriene, Synnøve Finden, Normilk, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "Egne Q-bønder sluttet med Bovaer i 2024, og NMR stoppet på gårdene 12.11.2025. Men Q kjøper også råmelk fra Norsk melkeråvare/TINE, og NMBU-forsøksmelk gikk i melkestrømmen til TINE stanset 22.01.2026. Derfor samme regel som NMR/TINE: gul for produkter produsert før 22.01.2026."
+    },
+    {
+      "id": "no_kavli",
+      "company": "Kavli Norge",
+      "country": "NO",
+      "aliases": [
+        "kavli"
+      ],
+      "role": "brand_owner",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-01-22",
+      "sources": [
+        {
+          "url": "https://www.q-meieriene.no/om-q-meieriene/apenhetsloven",
+          "date": "2026-06-26",
+          "note": "Q-Meieriene eies 100 % av Kavli Norge AS."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "Q-bønder ikke brukt Bovaer siden 2024; NMR-andelen nå også uten Bovaer."
+        },
+        {
+          "url": "https://www.q-meieriene.no/q-garden",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Q-Meieriene kjøper råmelk fra Norsk melkeråvare (via TINE) for å dekke etterspørselen."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "Eier Q-Meieriene; følger Q-regelen (produsert før 22.01.2026). Egen Kavli-uttalelse om Bovaer ikke funnet."
+    },
+    {
+      "id": "no_synnove",
+      "company": "Synnøve Finden",
+      "country": "NO",
+      "aliases": [
+        "synnøve",
+        "synnøve finden",
+        "synnove"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-02-04",
+      "sources": [
+        {
+          "url": "https://www.synnove.no/sporsmal-og-svar-om-selskapet/",
+          "date": "udatert",
+          "note": "'Synnøve kjøper melk fra Tine.'"
+        },
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202",
+          "date": "2026-02-04",
+          "note": "Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "Kjøper melk fra Tine/NMR. Ingen egen offentlig Bovaer-uttalelse funnet; deltok på NMR-møtet. Gul fordi NMR-råmelk kan ha inneholdt Bovaer-melk; om NMBU-melk gikk til andre enn TINE etter 12.11.2025 er ukjent."
+    },
+    {
+      "id": "no_normilk",
+      "company": "Normilk",
+      "country": "NO",
+      "aliases": [
+        "normilk"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-02-04",
+      "sources": [
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202",
+          "date": "2026-02-04",
+          "note": "Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "NMR-kunde; ingen egen uttalelse funnet."
+    },
+    {
+      "id": "no_mondelez",
+      "company": "Mondelēz Norge",
+      "country": "NO",
+      "aliases": [
+        "freia",
+        "mondelez"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2026-02-04",
+      "sources": [
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202",
+          "date": "2026-02-04",
+          "note": "Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "NMR-kunde (melk til sjokolade); ingen egen uttalelse funnet."
+    },
+    {
+      "id": "no_valdresmeieriet",
+      "company": "Valdresmeieriet",
+      "country": "NO",
+      "aliases": [
+        "valdresmeieriet"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "udatert",
+      "sources": [
+        {
+          "url": "https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp",
+          "date": "udatert",
+          "note": "Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet."
+        },
+        {
+          "url": "https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort",
+          "date": "2025-11-12",
+          "note": "NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk)."
+        }
+      ],
+      "note_nb": "NMR-kunde; ingen egen uttalelse funnet."
+    },
+    {
+      "id": "no_fjordland",
+      "company": "Fjordland",
+      "country": "NO",
+      "aliases": [
+        "fjordland"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "udatert",
+      "sources": [
+        {
+          "url": "https://www.fjordland.no/om-fjordland",
+          "date": "udatert",
+          "note": "Eies av TINE 51 %, Nortura 39 %, Hoff 10 %; produksjon hovedsakelig på eiernes anlegg."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE stanser bruk av melk fra kyr foret med Bovaer."
+        }
+      ],
+      "note_nb": "Eid av TINE (51 %), Nortura (39 %) og Hoff (10 %); produserer hovedsakelig på eiernes anlegg. Følger TINE-regelen: gul for produkter produsert før 22.01.2026."
+    },
+    {
+      "id": "no_ostecompagniet",
+      "company": "OsteCompagniet",
+      "country": "NO",
+      "aliases": [
+        "ostecompagniet"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": "2026-01-22",
+      "status_date": "2020-05-25",
+      "sources": [
+        {
+          "url": "https://landbruk24.no/ostecompagniet-blir-en-del-av-tine/",
+          "date": "2020-05-25",
+          "note": "OsteCompagniet integreres i TINE fra 1.7.2020."
+        },
+        {
+          "url": "https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer",
+          "date": "2026-01-22",
+          "note": "TINE stanser bruk av melk fra kyr foret med Bovaer."
+        }
+      ],
+      "note_nb": "Del av TINE siden 1.7.2020; følger TINE-regelen (produsert før 22.01.2026). Importerte oster: sjekk landkoden i det ovale stempelet."
+    },
+    {
+      "id": "no_rorosmeieriet",
+      "company": "Rørosmeieriet",
+      "country": "NO",
+      "aliases": [
+        "rørosmeieriet",
+        "røros"
+      ],
+      "role": "processor",
+      "status": "ikke_tillatt",
+      "app_color": "green",
+      "produced_before": null,
+      "status_date": "udatert",
+      "sources": [
+        {
+          "url": "https://rorosmeieriet.no/informasjon-om-okologisk-drift-og-metanhemmeren-bovaer/",
+          "date": "udatert",
+          "note": "Heløkologisk; syntetisk Bovaer ikke tillatt i økologisk drift; økologisk melk fra NMR hentes på egne ruter."
+        }
+      ],
+      "note_nb": "Heløkologisk; Bovaer ikke tillatt i økologisk drift; økologisk melk hentes separat."
+    },
+    {
+      "id": "dk_konvensjonelle_meierier",
+      "company": "Danske konvensjonelle melkeprodusenter (sektor)",
+      "country": "DK",
+      "aliases": [],
+      "role": "sector",
+      "status": "bruker",
+      "app_color": "red",
+      "produced_before": null,
+      "status_date": "2026-09-30",
+      "sources": [
+        {
+          "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+          "date": "2026-09-30",
+          "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        },
+        {
+          "url": "https://foedevarestyrelsen.dk/foder/markedsfoering-af-foder/fodertilsaetningsstoffer/bovaer",
+          "date": "udatert (lest 2026-10-25)",
+          "note": "Danske studier 2026-2028; første undersøkelse kunne verken påvise eller avvise sammenheng; neste delresultater 2027; EFSA ventes slutten av 2026."
+        },
+        {
+          "url": "https://dca.au.dk/aktuelt/nyheder/vis/artikel/ny-rapport-om-bovaer-ingen-samlet-stigning-i-doedelighed-eller-fald-i-maelkeydelse",
+          "date": "2026-05-01",
+          "note": "AU-rapport (73 besetninger): ingen samlet økning i dødelighet/fall i ytelse, men alvorlige enkeltbesetninger og åpne spørsmål."
+        }
+      ],
+      "note_nb": "Lovkrav i 2026: Bovaer 80 dager/år (eller fettalternativ) for konvensjonelle besetninger >50 årskyr; unntak for syke dyr. Økologisk unntatt."
+    },
+    {
+      "id": "dk_arla",
+      "company": "Arla Foods (dansk konvensjonell melk)",
+      "country": "DK",
+      "aliases": [
+        "arla"
+      ],
+      "role": "processor",
+      "status": "bruker",
+      "app_color": "red",
+      "produced_before": null,
+      "status_date": "2026-09-30",
+      "sources": [
+        {
+          "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+          "date": "2026-09-30",
+          "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        },
+        {
+          "url": "https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/",
+          "date": "2025-09-18",
+          "note": "Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar."
+        },
+        {
+          "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
+          "date": "2022-04-20",
+          "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
+        }
+      ],
+      "note_nb": "UTLEDET fra det danske kravet i 2026 (Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr, økologisk unntatt) og Arlas anbefaling til andelshaverne. Gjelder konvensjonell dansk Arla-melk; økologisk Arla er grønn."
+    },
+    {
+      "id": "dk_lurpak",
+      "company": "Lurpak (Arla)",
+      "country": "DK",
+      "aliases": [
+        "lurpak"
+      ],
+      "role": "brand",
+      "status": "bruker",
+      "app_color": "red",
+      "produced_before": null,
+      "status_date": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+          "date": "2026-09-30",
+          "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        },
+        {
+          "url": "https://www.arla.dk/om-arla/nyheder/2026/pressrelease/danmarks-smoerhovedstad-fejrer-125-aar-med-lurpak-3473794/",
+          "date": "2026-10-22",
+          "note": "97 % av Lurpak produseres på Arlas meieri i Holstebro; resten hos Thise, Nørup og Bornholms Andelsmejeri."
+        },
+        {
+          "url": "https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/",
+          "date": "2025-09-18",
+          "note": "Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar."
+        }
+      ],
+      "note_nb": "UTLEDET (ikke bekreftet per produkt): 97 % produseres i Holstebro av dansk Arla-melk, og konvensjonelle danske besetninger >50 kyr har krav om Bovaer i 2026. Økologisk Lurpak omfattes ikke."
+    },
+    {
+      "id": "dk_castello",
+      "company": "Castello (Arla)",
+      "country": "DK",
+      "aliases": [
+        "castello"
+      ],
+      "role": "brand",
+      "status": "ukjent",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "ukjent",
+      "sources": [
+        {
+          "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
+          "date": "2022-04-20",
+          "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
+        },
+        {
+          "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+          "date": "2026-09-30",
+          "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        }
+      ],
+      "note_nb": "Arla-merke; produksjonssted/melkeopprinnelse per ost ikke dokumentert her. Gul inntil opprinnelse er avklart."
+    },
+    {
+      "id": "se_arla",
+      "company": "Arla Foods (Sverige)",
+      "country": "SE",
+      "aliases": [
+        "arla"
+      ],
+      "role": "processor",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2022-04-20",
+      "sources": [
+        {
+          "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
+          "date": "2022-04-20",
+          "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
+        }
+      ],
+      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert."
+    },
+    {
+      "id": "de_arla",
+      "company": "Arla Foods (Tyskland)",
+      "country": "DE",
+      "aliases": [
+        "arla"
+      ],
+      "role": "processor",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2022-04-20",
+      "sources": [
+        {
+          "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
+          "date": "2022-04-20",
+          "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
+        }
+      ],
+      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Tyskland ukjent / ikke dokumentert."
+    },
+    {
+      "id": "gb_arla",
+      "company": "Arla Foods UK",
+      "country": "GB",
+      "aliases": [
+        "arla"
+      ],
+      "role": "processor",
+      "status": "stoppet",
+      "app_color": "yellow",
+      "produced_before": "2025-11-09",
+      "status_date": "2025-11-09",
+      "sources": [
+        {
+          "url": "https://www.farminguk.com/news/arla-trial-sees-30-farmers-use-feed-additive-to-cut-emissions_65701.html",
+          "date": "2024-11-26",
+          "note": "Arla UK-forsøk på 30 gårder sammen med Morrisons, Aldi og Tesco."
+        },
+        {
+          "url": "https://www.farminguk.com/news/arla-ends-methane-reducing-cow-feed-trial-as-review-begins_67520.html",
+          "date": "2025-11-09",
+          "note": "Arla UK-forsøket avsluttet; resultater gjennomgås."
+        },
+        {
+          "url": "https://www.arlafoods.co.uk/arla-bovaer-statement/",
+          "date": "udatert (lest 2026-10-25)",
+          "note": "'Our UK projects on methane-reducing supplements have now ended.'"
+        }
+      ],
+      "note_nb": "Forsøk på 30 gårder fra nov. 2024; avsluttet (rapportert 9.11.2025). Eksakt sluttdato ukjent – datoen er publiseringsdato."
+    },
+    {
+      "id": "gb_tesco",
+      "company": "Tesco",
+      "country": "GB",
+      "aliases": [
+        "tesco"
+      ],
+      "role": "retailer",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": "2025-11-09",
+      "status_date": "2024-11-26",
+      "sources": [
+        {
+          "url": "https://www.farminguk.com/news/arla-trial-sees-30-farmers-use-feed-additive-to-cut-emissions_65701.html",
+          "date": "2024-11-26",
+          "note": "Arla UK-forsøk på 30 gårder sammen med Morrisons, Aldi og Tesco."
+        },
+        {
+          "url": "https://www.farminguk.com/news/arla-ends-methane-reducing-cow-feed-trial-as-review-begins_67520.html",
+          "date": "2025-11-09",
+          "note": "Arla UK-forsøket avsluttet; resultater gjennomgås."
+        }
+      ],
+      "note_nb": "Partner i Arla-forsøket (Arla-levert melk)."
+    },
+    {
+      "id": "gb_aldi",
+      "company": "Aldi UK",
+      "country": "GB",
+      "aliases": [
+        "aldi"
+      ],
+      "role": "retailer",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": "2025-11-09",
+      "status_date": "2024-11-26",
+      "sources": [
+        {
+          "url": "https://www.farminguk.com/news/arla-trial-sees-30-farmers-use-feed-additive-to-cut-emissions_65701.html",
+          "date": "2024-11-26",
+          "note": "Arla UK-forsøk på 30 gårder sammen med Morrisons, Aldi og Tesco."
+        },
+        {
+          "url": "https://www.farminguk.com/news/arla-ends-methane-reducing-cow-feed-trial-as-review-begins_67520.html",
+          "date": "2025-11-09",
+          "note": "Arla UK-forsøket avsluttet; resultater gjennomgås."
+        }
+      ],
+      "note_nb": "Partner i Arla-forsøket."
+    },
+    {
+      "id": "gb_morrisons",
+      "company": "Morrisons",
+      "country": "GB",
+      "aliases": [
+        "morrisons"
+      ],
+      "role": "retailer",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": "2025-11-09",
+      "status_date": "2024-11-26",
+      "sources": [
+        {
+          "url": "https://www.farminguk.com/news/arla-trial-sees-30-farmers-use-feed-additive-to-cut-emissions_65701.html",
+          "date": "2024-11-26",
+          "note": "Arla UK-forsøk på 30 gårder sammen med Morrisons, Aldi og Tesco."
+        },
+        {
+          "url": "https://www.farminguk.com/news/arla-ends-methane-reducing-cow-feed-trial-as-review-begins_67520.html",
+          "date": "2025-11-09",
+          "note": "Arla UK-forsøket avsluttet; resultater gjennomgås."
+        }
+      ],
+      "note_nb": "Partner i Arla-forsøket."
+    },
+    {
+      "id": "nl_frieslandcampina",
+      "company": "FrieslandCampina",
+      "country": "NL",
+      "aliases": [
+        "frieslandcampina",
+        "campina",
+        "friesche vlag"
+      ],
+      "role": "processor",
+      "status": "bruker",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2026",
+      "sources": [
+        {
+          "url": "https://www.frieslandcampina.com/news/large-scale-pilot-proves-methane-reducing-feed-additive-bovaer-is-ready-for-roll-out-in-the-netherlands/",
+          "date": "2023-03-30",
+          "note": "FrieslandCampina-pilot 2022: 158 gårder, 20 000 kyr; åpner for utrulling."
+        },
+        {
+          "url": "https://veeteelt.nl/zuivel/frieslandcampina-vergoedt-inzet-bovaer-bij-600-veehouders",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "FrieslandCampina betaler ca. 600 melkebønder for å bruke Bovaer; ingen egen melkestrøm (blandes med vanlig melk)."
+        },
+        {
+          "url": "https://www.dsm-firmenich.com/en/businesses/taste-texture-health/news-events/articles/dairy/20000-cows-18-months-what-large-scale-farm-data-tells-us-about-bovaer-in-the-netherlands.html",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Mange pilotgårder har fortsatt med Bovaer i over 4 år; FC-utviklingsgruppe betaler for Bovaer (Foqus planet)."
+        }
+      ],
+      "note_nb": "Frivillig bruk hos en del medlemmer (ca. 600 gårder i utviklingsgruppe), uten egen melkestrøm. Gul (ikke rød) fordi bare en del av melken er berørt; omfang per produkt ukjent."
+    },
+    {
+      "id": "fi_valio",
+      "company": "Valio",
+      "country": "FI",
+      "aliases": [
+        "valio"
+      ],
+      "role": "processor",
+      "status": "stoppet",
+      "app_color": "yellow",
+      "produced_before": "2026-02-09",
+      "status_date": "2026-02-09",
+      "sources": [
+        {
+          "url": "https://www.valio.fi/artikkelit/tietoa-bovaer-rehunlisasta/",
+          "date": "2026-02-09",
+          "note": "Valio stanser Bovaer-piloten (noen titalls gårder siden 2022) i påvente av EFSA."
+        },
+        {
+          "url": "https://www.atria.fi/vastuullista-ruokaa/boaver/",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Atria: Valio stanset Bovaer i februar 2026."
+        }
+      ],
+      "note_nb": "Pilot på noen titalls gårder siden 2022, stanset 9.2.2026 i påvente av EFSA."
+    },
+    {
+      "id": "it_parmalat",
+      "company": "Parmalat (Lactalis)",
+      "country": "IT",
+      "aliases": [
+        "parmalat"
+      ],
+      "role": "processor",
+      "status": "forsok",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2023-09-04",
+      "sources": [
+        {
+          "url": "https://www.dsm-firmenich.com/anh/news/press-releases/2023/2023-09-04-trials-confirm-efficacy-of-a-methane-reducing-feed-supplement-for-ruminants-in-achieving-reductions-in-methane-emissions-by-dairy-cows.html",
+          "date": "2023-09-04",
+          "note": "Parmalat (Lactalis) – forsøk ved Università Cattolica CERZOO i Italia."
+        }
+      ],
+      "note_nb": "Forsøk på universitetsgård 2023. Om melken gikk til Parmalat-produkter er ukjent."
+    },
+    {
+      "id": "fr_bel",
+      "company": "Groupe Bel",
+      "country": "FR",
+      "aliases": [
+        "babybel",
+        "bel"
+      ],
+      "role": "processor",
+      "status": "bruker",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2026-03",
+      "sources": [
+        {
+          "url": "https://www.groupe-bel.com/en/newsroom/press-releases/promising-pilot-test-to-reduce-enteric-methane-emissions-from-dairy-cows/",
+          "date": "2023-10-26",
+          "note": "Bel/APBO-pilot på 5 gårder i Frankrike; utrulling i Bels slovakiske melkebasseng (Babybel til UK, DE, CZ, SK)."
+        },
+        {
+          "url": "https://library.edf.org/AssetLink/8nr03m7f1762xjs6h557851a3a5k3x3s.pdf",
+          "date": "2026-03",
+          "note": "Bel: Bovaer rullet ut i slovakisk melkebasseng (2023) og tilbudt franske bønder fra 2024; insentivprogram 'Mon BB Lait durable' fra juni 2025."
+        }
+      ],
+      "note_nb": "Frivillig bruk hos en del melkeleverandører i Slovakia og Frankrike (Babybel, Kiri, Boursin). Gul fordi omfang per produkt er ukjent."
+    },
+    {
+      "id": "ie_ornua",
+      "company": "Ornua / Kerrygold",
+      "country": "IE",
+      "aliases": [
+        "ornua",
+        "kerrygold"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "none",
+      "produced_before": null,
+      "status_date": "2024-12-18",
+      "sources": [
+        {
+          "url": "https://www.farmersjournal.ie/dairy/news/getting-rid-of-bovaer-is-not-an-option-ornua-848910",
+          "date": "2024-12-18",
+          "note": "Ornua: å forkaste Bovaer er ikke et alternativ nå. Ingen dokumentert bruk i Kerrygold-melk."
+        }
+      ],
+      "note_nb": "Ingen dokumentert bruk i Kerrygold-melk. Ornua uttalte (des. 2024) at Bovaer ikke kan avskrives. Ikke flagg uten kilde."
+    },
+    {
+      "id": "dk_arla_okologisk",
+      "company": "Arla økologisk",
+      "country": "DK",
+      "aliases": [
+        "arla øko",
+        "arla økologisk",
+        "arla ekologisk",
+        "arla organic"
+      ],
+      "role": "brand",
+      "status": "ikke_tillatt",
+      "app_color": "green",
+      "produced_before": null,
+      "status_date": "2026-09-30",
+      "sources": [
+        {
+          "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
+          "date": "2026-09-30",
+          "note": "Det danske kravet gjelder konvensjonelle besetninger; økologiske er unntatt."
+        },
+        {
+          "url": "https://www.soilassociation.org/news-events-and-resources/latest-news-and-insight/soil-association-response-to-questions-about-bovaer-and-organic/",
+          "date": "2024-12-02",
+          "note": "Bovaer er ikke tillatt i økologisk produksjon; Arlas økologiske melk holdes adskilt og revideres."
+        }
+      ],
+      "note_nb": "Bovaer er ikke tillatt i økologisk drift, og økologiske danske besetninger er unntatt fra kravet."
+    },
+    {
+      "id": "gb_muller",
+      "company": "Müller (UK)",
+      "country": "GB",
+      "aliases": [
+        "müller",
+        "muller",
+        "müllermilch"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "none",
+      "produced_before": null,
+      "status_date": "udatert",
+      "sources": [
+        {
+          "url": "https://www.schoolmilkservices.co.uk/bovaer.php",
+          "date": "udatert (lest 2026-10-31)",
+          "note": "Sekundærkilde som siterer Müller: Müller Direct-bønder bruker ikke Bovaer, men Müller har samarbeidet om det med noen detaljhandelspartnere."
+        }
+      ],
+      "note_nb": "Ingen pålitelig kilde for Bovaer i Müller-produkter; Müller sier egne direkte-bønder ikke bruker det. Ukjent – ikke rød."
+    },
+    {
+      "id": "de_dmk",
+      "company": "DMK (nå del av Arla)",
+      "country": "DE",
+      "aliases": [
+        "dmk",
+        "milram",
+        "oldenburger"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "none",
+      "produced_before": null,
+      "status_date": "2026-06-01",
+      "sources": [
+        {
+          "url": "https://www.interest.co.nz/sites/default/files/2026-08/RaboResearch_Global-Dairy-Top-20-M%26A-and-specialization-reshape-the-rankings_Fuess-Booijink_Aug2026.pdf",
+          "date": "2026-08",
+          "note": "Arla og DMK fusjonerte 1.6.2026 under navnet Arla Foods."
+        }
+      ],
+      "note_nb": "Fusjonert med Arla 1.6.2026. Ingen kilde funnet for Bovaer-bruk i DMK-melk. Ukjent."
+    },
+    {
+      "id": "fr_danone",
+      "company": "Danone",
+      "country": "FR",
+      "aliases": [
+        "danone",
+        "activia",
+        "actimel"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "none",
+      "produced_before": null,
+      "status_date": "2025-06-04",
+      "sources": [
+        {
+          "url": "https://www.dairyreporter.com/Article/2025/06/04/agropur-savencia-join-edf-methane-mitigation-initiative-dairy-methane-action-alliance/",
+          "date": "2025-06-04",
+          "note": "Danone har testet Bovaer; ingen opplysning om nåværende bruk eller hvilke produkter."
+        }
+      ],
+      "note_nb": "Har testet Bovaer (uten sted/dato oppgitt); ingen kilde for nåværende bruk. Ukjent."
+    }
+  ],
+  "explanation": {
+    "nb": "Bovaer-status bygger på offentlige kilder og oppdateres ukentlig. Risikoen gjelder produkter laget før stoppdatoen. Ost, smør, melkepulver og andre varer med lang holdbarhet kan fortsatt ligge i butikk – sjekk produksjons-/pakkedato. For importvarer: sjekk landkoden i det ovale stempelet (f.eks. DK, NO, FI). «Ukjent» betyr at vi ikke har funnet en pålitelig kilde verken for eller mot.",
+    "en": "Bovaer status is based on public sources and updated weekly. The risk applies to products made before the stop date. Cheese, butter, milk powder and other long-shelf-life products may still be in shops – check the production/packing date. For imports, check the country code in the oval stamp (e.g. DK, NO, FI). 'Unknown' means we have found no reliable source either way."
+  },
+  "web_check_2026_10_31": "Sjekket Arla, FrieslandCampina, DMK, Danone, Lactalis, Müller, Valio, Ornua/Kerrygold, Fonterra/Anchor, Emmi, Savencia. Ingen pålitelig kilde funnet for nåværende Bovaer-bruk hos Lactalis (utover Parmalat-forsøk 2023), Savencia, Emmi eller Fonterra/Anchor – de er derfor ikke merket (ukjent)."
+}

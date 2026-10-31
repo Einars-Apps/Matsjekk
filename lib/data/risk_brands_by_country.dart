@@ -119,7 +119,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   'DE': {
     // DEUTSCHLAND — Last verified: March 2026
     // RED:  Arla confirmed DE operations (Buko, Lurpak, Castello sold in DE).
-    //       Müller: Müller Dairy confirmed Bovaer pilot (Nov 2023) — UK + DE.
+    //       Müller: removed (no reliable source) -> unknown.
     //       Landliebe: FrieslandCampina DE brand — FC is confirmed DSM partner.
     // REMOVED: Dairing — fictional/wrong entry.
     //          Lactalis DE: Lactalis global is yellow (no specific DE announcement).
@@ -128,7 +128,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // YELLOW: Zott, Ehrmann, Weihenstephan, Hochland buy raw milk on open market
     //         where Bovaer-enrolled farms participate.
     'bovaer_red': [
-      'arla', 'müller', 'müllermilch',
+      'arla',
+      // Müller removed 2026-10-31: no reliable source -> unknown.
       'landliebe',   // FrieslandCampina DE brand — confirmed via FC partnership
       'buko',        // Arla cream cheese brand
       'lurpak',      // Arla brand
@@ -154,7 +155,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // RED:  FrieslandCampina = NL's largest dairy (~50% of Dutch milk).
     //       FC signed confirmed DSM-Firmenich Bovaer partnership (2023).
     //       FC brands: Campina, Friesche Vlag, Chocomel, Mona, Milner, Valess.
-    //       DOC Kaas and Royal A-ware both confirmed Bovaer trial participants.
+    //       DOC Kaas / A-ware: no source found -> removed (unknown).
     // REMOVED: Jumbo = supermarket chain, not a dairy brand/producer.
     'bovaer_red': [
       'frieslandcampina', 'campina', 'friesche vlag',
@@ -165,8 +166,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'vifit',     // FC health dairy brand
       'optimel',   // FC dairy drink brand
       'fristi',    // FC children's dairy drink
-      'doc kaas',  // Confirmed Bovaer trial participant
-      'a-ware',    // Royal A-ware confirmed Bovaer trial
+      // DOC Kaas + A-ware removed 2026-10-31: no source found -> unknown.
       'arla',
     ],
     'bovaer_yellow': [
@@ -232,7 +232,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'GB': {
     // UNITED KINGDOM — Last verified: March 2026
-    // RED:  Arla UK + Müller UK both confirmed (Müller pilot Nov 2023).
+    // RED:  Arla brands. Müller: no reliable source (Müller says its Direct farmers
+    //       do not use Bovaer) -> unknown. Arla UK trials have ended.
     //       Lurpak, Anchor, Cravendale, Tickler = Arla brands sold in UK.
     // REMOVED: Dairy Crest = now Saputo Dairy UK (Canadian ownership, status unclear).
     //          Yeo Valley = certified organic → GREEN (organic_keywords).
@@ -240,9 +241,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // YELLOW: Saputo (Cathedral City cheddar, Davidstow) — UK's second largest processor.
     //         Kerrygold / Ornua sold widely in UK — see IE yellow chain.
     'bovaer_red': [
-      'arla', 'müller', 'müllermilch',
+      'arla',
+      // Müller + Anchor removed 2026-10-31: no reliable source -> unknown.
       'lurpak',     // Arla brand — major UK butter
-      'anchor',     // Dairy tied to Fonterra but UK operations use UK milk
       'cravendale', // Arla filtered milk
       'castello',   // Arla brand
       'tickler',    // Arla aged cheddar brand
@@ -356,16 +357,17 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   'FI': {
     // FINLAND — Last verified: March 2026
     // RED:  Valio = Finland's largest dairy co-op.
-    //       CONFIRMED: Valio announced Bovaer trial rollout to member farms 2023–2024.
+    //       UPDATED 2026-10-31: Valio pilot (some dozen farms since 2022) stopped 09.02.2026 -> YELLOW.
     //       Valio brands: Valio, Oltermanni (cheese), Aura (blue cheese), Eila,
     //       Via Vita, Valio Gefilus.
     // REMOVED: Arla Pro = just Arla's food service sub-brand, covered by 'arla'.
     'bovaer_red': [
       'arla',
-      'valio', 'oltermanni', 'aura', 'eila', // Valio group brands
-      'gefilus',   // Valio probiotic brand (appears without Valio name)
     ],
     'bovaer_yellow': [
+      // Valio stopped its Bovaer pilot 09.02.2026 (valio.fi) -> yellow,
+      // products made before that date.
+      'valio', 'oltermanni', 'gefilus',
       'juustoportti',  // Finnish cheese brand, smaller — possible market exposure
     ],
     'gmo_fish_red': ['mowi', 'lerøy', 'salmar'],
@@ -563,7 +565,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // E-Piim = Estonian co-op.
     'bovaer_red': [
       'arla',
-      'valio',  // Valio confirmed Bovaer rollout 2023–2024; Estonian subsidiary included
+      // Valio moved to sourced status (stopped 09.02.2026, yellow).
     ],
     'bovaer_yellow': [
       'tere',    // Second largest ET dairy
@@ -583,7 +585,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'rīgas piens', 'rigas piens', // Major Latvian dairy
       'latvijas piens',              // Second major co-op
-      'valio',                       // Valio products distributed in LV
+      // Valio moved to sourced status (stopped 09.02.2026, yellow).
       'riqo',                        // Latvian yogurt brand
     ],
     'gmo_fish_red': ['mowi', 'lerøy'],
@@ -600,7 +602,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     'bovaer_yellow': [
       'rokiškio sūris', 'rokiskio suris', // Largest cheese producer
       'žemaitijos pienas', 'zemaitijos pienas', // Second largest co-op
-      'valio',         // Valio LT distribution
+      // Valio moved to sourced status (stopped 09.02.2026, yellow).
       'pieno žvaigždės', 'pieno zvaigzdes', // Major LT dairy
     ],
     'gmo_fish_red': ['mowi', 'lerøy'],
@@ -795,7 +797,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'lion', 'dairy farmers', 'pura', // Lion Dairy group
       'bega',       // Bega Cheese
       'norco',      // Australian co-op
-      'fonterra', 'anchor', 'mainland', // Fonterra AU
+      // Fonterra/Anchor removed 2026-10-31: no reliable source -> unknown.
       'danone',     // Danone AU
       'pauls',      // Lion/Parmalat brand
     ],
@@ -813,7 +815,7 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     //   Fonterra means market milk is broadly pooled.
     'bovaer_red': ['arla'],
     'bovaer_yellow': [
-      'fonterra', 'anchor', 'fernleaf', 'mainland', 'kapiti', // Fonterra group
+      // Fonterra/Anchor removed 2026-10-31: no reliable source -> unknown.
       'goodman fielder', 'meadowfresh', 'tararua', // Goodman Fielder group
       'lewis road',   // Premium NZ brand (market milk)
       'danone',       // Danone NZ products
