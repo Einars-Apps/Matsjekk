@@ -11,6 +11,7 @@ import 'dart:io' show Platform;
 import 'package:wakelock_plus/wakelock_plus.dart';
 import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
+import 'data/bovaer_processor_status.dart';
 import 'ui_safe.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'consent.dart';
@@ -1575,13 +1576,24 @@ class _ScannerScreenState extends State<ScannerScreen>
       };
     }
 
-    if (lowerBrand.contains('arla')) {
+    // Sourced producer/buyer status (docs/data/bovaer_processor_status.json).
+    // Every non-unknown colour cites a source URL + date; 'ukjent' is never red.
+    final sourced = resolveBovaerProcessorStatus(
+      '$brand $supplyChainText',
+      country: country,
+    );
+    if (sourced != null) {
+      final level = switch (sourced.appColor) {
+        'red' => RiskLevel.red,
+        'yellow' => RiskLevel.yellow,
+        'green' => RiskLevel.green,
+        _ => RiskLevel.unknown,
+      };
       return {
-        'risk': RiskLevel.red,
-        'text': isNorwegian
-            ? 'HØY RISIKO: Arla er direkte koblet i intern Bovaer-sporingsliste.'
-            : 'HIGH RISK: Arla is directly linked in the internal Bovaer tracking list.',
-        'url': bovaerUpdateUrl,
+        'risk': level,
+        'text': bovaerStatusText(sourced,
+            norwegian: isNorwegian, shopCountry: country),
+        'url': sourced.sources.first.url,
       };
     }
 

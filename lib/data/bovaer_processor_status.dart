@@ -40,6 +40,10 @@ class BovaerProcessorStatus {
   });
 }
 
+/// Short, honest explanation shown with every Bovaer status (synced with JSON 'explanation').
+const String bovaerExplanationNb = 'Bovaer-status bygger på offentlige kilder og oppdateres ukentlig. Risikoen gjelder produkter laget før stoppdatoen. Ost, smør, melkepulver og andre varer med lang holdbarhet kan fortsatt ligge i butikk – sjekk produksjons-/pakkedato. For importvarer: sjekk landkoden i det ovale stempelet (f.eks. DK, NO, FI). «Ukjent» betyr at vi ikke har funnet en pålitelig kilde verken for eller mot.';
+const String bovaerExplanationEn = 'Bovaer status is based on public sources and updated weekly. The risk applies to products made before the stop date. Cheese, butter, milk powder and other long-shelf-life products may still be in shops – check the production/packing date. For imports, check the country code in the oval stamp (e.g. DK, NO, FI). \'Unknown\' means we have found no reliable source either way.';
+
 const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
   BovaerProcessorStatus(
     id: 'no_tine',
@@ -72,8 +76,10 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://medlem.tine.no/aktuelt-fra-tine/bruk-av-bovaer-pa-norske-garder-settes-pa-pause', date: '2025-11-12', note: 'Norsk melkeråvare pauser Bovaer på ca. 70 gårder; kontrollert forsøk ved NMBU fortsetter.'),
       BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert', note: 'Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
       BovaerSource(url: 'https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202', date: '2026-02-04', note: 'Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
-    noteNb: 'Markedsregulator som selger råmelk til alle meierier. Pause på ca. 70 gårder fra 12.11.2025; kriterier for gjeninnføring ikke oppfylt per feb. 2026.',
+    noteNb: 'Selger råmelk til alle meierier i Norge. Bovaer stoppet på gårdene 12.11.2025; NMBU-forsøksmelk gikk til TINE til 22.01.2026. Gul: produkter produsert før 22.01.2026.',
   ),
   BovaerProcessorStatus(
     id: 'no_q_meieriene',
@@ -83,14 +89,17 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     role: 'processor',
     status: 'stoppet',
     appColor: 'yellow',
-    producedBefore: '2025-11-12',
-    statusDate: '2025-11-12',
+    producedBefore: '2026-01-22',
+    statusDate: '2026-01-22',
     sources: [
       BovaerSource(url: 'https://kommunikasjon.ntb.no/pressemelding/17998816/pruduktnyheter-fra-q-q-klimamelk-et-naturlig-valg-for-den-klimabevisste?lang=no&publisherId=89709', date: '2023-09-12', note: 'Q Klimamelk fra 3 Q-gårder med metanhemmende fôrtilskudd, lansert 17.9.2023.'),
       BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'Q-bønder ikke brukt Bovaer siden 2024; NMR-andelen nå også uten Bovaer.'),
       BovaerSource(url: 'https://www.q-meieriene.no/om-q-meieriene/apenhetsloven', date: '2026-06-26', note: 'Q-Meieriene eies 100 % av Kavli Norge AS.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/q-garden', date: 'udatert (lest 2026-10-31)', note: 'Q-Meieriene kjøper råmelk fra Norsk melkeråvare (via TINE) for å dekke etterspørselen.'),
+      BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert (lest 2026-10-31)', note: 'Norsk melkeråvare selger råmelk til TINE, Q-Meieriene, Synnøve Finden, Normilk, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
-    noteNb: 'Q Klimamelk (Bovaer, 3 Q-gårder) fra sept. 2023; egne bønder sluttet i 2024; NMR-andel kunne inneholde Bovaer-melk til 12.11.2025 ifølge Q selv.',
+    noteNb: 'Egne Q-bønder sluttet med Bovaer i 2024, og NMR stoppet på gårdene 12.11.2025. Men Q kjøper også råmelk fra Norsk melkeråvare/TINE, og NMBU-forsøksmelk gikk i melkestrømmen til TINE stanset 22.01.2026. Derfor samme regel som NMR/TINE: gul for produkter produsert før 22.01.2026.',
   ),
   BovaerProcessorStatus(
     id: 'no_kavli',
@@ -100,13 +109,15 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     role: 'brand_owner',
     status: 'ukjent',
     appColor: 'yellow',
-    producedBefore: '2025-11-12',
-    statusDate: '2025-11-12',
+    producedBefore: '2026-01-22',
+    statusDate: '2026-01-22',
     sources: [
       BovaerSource(url: 'https://www.q-meieriene.no/om-q-meieriene/apenhetsloven', date: '2026-06-26', note: 'Q-Meieriene eies 100 % av Kavli Norge AS.'),
       BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'Q-bønder ikke brukt Bovaer siden 2024; NMR-andelen nå også uten Bovaer.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/q-garden', date: 'udatert (lest 2026-10-31)', note: 'Q-Meieriene kjøper råmelk fra Norsk melkeråvare (via TINE) for å dekke etterspørselen.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
-    noteNb: 'Eier Q-Meieriene. Egen Bovaer-uttalelse for Kavli-merket ikke funnet (ukjent / ikke dokumentert); følger Q-datoen.',
+    noteNb: 'Eier Q-Meieriene; følger Q-regelen (produsert før 22.01.2026). Egen Kavli-uttalelse om Bovaer ikke funnet.',
   ),
   BovaerProcessorStatus(
     id: 'no_synnove',
@@ -122,6 +133,8 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://www.synnove.no/sporsmal-og-svar-om-selskapet/', date: 'udatert', note: '\'Synnøve kjøper melk fra Tine.\''),
       BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert', note: 'Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
       BovaerSource(url: 'https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202', date: '2026-02-04', note: 'Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
     noteNb: 'Kjøper melk fra Tine/NMR. Ingen egen offentlig Bovaer-uttalelse funnet; deltok på NMR-møtet. Gul fordi NMR-råmelk kan ha inneholdt Bovaer-melk; om NMBU-melk gikk til andre enn TINE etter 12.11.2025 er ukjent.',
   ),
@@ -138,6 +151,8 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     sources: [
       BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert', note: 'Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
       BovaerSource(url: 'https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202', date: '2026-02-04', note: 'Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
     noteNb: 'NMR-kunde; ingen egen uttalelse funnet.',
   ),
@@ -154,6 +169,8 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     sources: [
       BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert', note: 'Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
       BovaerSource(url: 'https://www.bondebladet.no/felles-meieri-nei-til-bovaer/s/5-150-146202', date: '2026-02-04', note: 'Tine, Q, Synnøve Finden, Normilk, Mondelez og Rørosmeieriet: ingen ønsker gjeninnføring; kriterier ikke oppfylt.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
     noteNb: 'NMR-kunde (melk til sjokolade); ingen egen uttalelse funnet.',
   ),
@@ -169,6 +186,8 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     statusDate: 'udatert',
     sources: [
       BovaerSource(url: 'https://medlem.tine.no/om-oss/om-norsk-melker%C3%A5vare/slik-er-melkeprisen-bygd-opp', date: 'udatert', note: 'Norsk melkeråvare selger råmelk til TINE, Synnøve Finden, Normilk, Q-Meieriene, Rørosmeieriet, Mondelēz Norge og Valdresmeieriet.'),
+      BovaerSource(url: 'https://www.q-meieriene.no/nyheter/q-fansen-har-blitt-hort', date: '2025-11-12', note: 'NMR stoppet Bovaer på gårdene 12.11.2025; Q-bønder ikke brukt Bovaer siden 2024.'),
+      BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE tar ikke lenger imot melk fra kyr foret med Bovaer (NMBU-forsøksmelk).'),
     ],
     noteNb: 'NMR-kunde; ingen egen uttalelse funnet.',
   ),
@@ -186,7 +205,7 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://www.fjordland.no/om-fjordland', date: 'udatert', note: 'Eies av TINE 51 %, Nortura 39 %, Hoff 10 %; produksjon hovedsakelig på eiernes anlegg.'),
       BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE stanser bruk av melk fra kyr foret med Bovaer.'),
     ],
-    noteNb: 'Eid av TINE 51 %, Nortura 39 %, Hoff 10 % (ikke Coop). Produksjon hovedsakelig på eiernes anlegg; følger TINE-datoen.',
+    noteNb: 'Eid av TINE (51 %), Nortura (39 %) og Hoff (10 %); produserer hovedsakelig på eiernes anlegg. Følger TINE-regelen: gul for produkter produsert før 22.01.2026.',
   ),
   BovaerProcessorStatus(
     id: 'no_ostecompagniet',
@@ -202,7 +221,7 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://landbruk24.no/ostecompagniet-blir-en-del-av-tine/', date: '2020-05-25', note: 'OsteCompagniet integreres i TINE fra 1.7.2020.'),
       BovaerSource(url: 'https://www.tine.no/presserom/nyhetsarkiv/tine-stanser-bruk-av-melk-fra-kyr-som-er-foret-med-bovaer', date: '2026-01-22', note: 'TINE stanser bruk av melk fra kyr foret med Bovaer.'),
     ],
-    noteNb: 'Del av TINE fra 1.7.2020; følger TINE-datoen. Importerte oster: opprinnelse ukjent.',
+    noteNb: 'Del av TINE siden 1.7.2020; følger TINE-regelen (produsert før 22.01.2026). Importerte oster: sjekk landkoden i det ovale stempelet.',
   ),
   BovaerProcessorStatus(
     id: 'no_rorosmeieriet',
@@ -247,11 +266,11 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     producedBefore: null,
     statusDate: '2026-09-30',
     sources: [
-      BovaerSource(url: 'https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/', date: '2025-09-18', note: 'Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar.'),
       BovaerSource(url: 'https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026', date: '2026-09-30', note: 'Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026.'),
+      BovaerSource(url: 'https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/', date: '2025-09-18', note: 'Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar.'),
       BovaerSource(url: 'https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html', date: '2022-04-20', note: 'Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland.'),
     ],
-    noteNb: 'Arla anbefaler andelshaverne Bovaer framfor fett (Arla-sitat 16.9.2025 via Psst!). Økologiske Arla-produkter omfattes ikke.',
+    noteNb: 'UTLEDET fra det danske kravet i 2026 (Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr, økologisk unntatt) og Arlas anbefaling til andelshaverne. Gjelder konvensjonell dansk Arla-melk; økologisk Arla er grønn.',
   ),
   BovaerProcessorStatus(
     id: 'dk_lurpak',
@@ -264,11 +283,11 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     producedBefore: null,
     statusDate: '2026-10-22',
     sources: [
-      BovaerSource(url: 'https://www.arla.dk/om-arla/nyheder/2026/pressrelease/danmarks-smoerhovedstad-fejrer-125-aar-med-lurpak-3473794/', date: '2026-10-22', note: '97 % av Lurpak produseres på Arlas meieri i Holstebro; resten hos Thise, Nørup og Bornholms Andelsmejeri.'),
       BovaerSource(url: 'https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026', date: '2026-09-30', note: 'Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026.'),
+      BovaerSource(url: 'https://www.arla.dk/om-arla/nyheder/2026/pressrelease/danmarks-smoerhovedstad-fejrer-125-aar-med-lurpak-3473794/', date: '2026-10-22', note: '97 % av Lurpak produseres på Arlas meieri i Holstebro; resten hos Thise, Nørup og Bornholms Andelsmejeri.'),
       BovaerSource(url: 'https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/', date: '2025-09-18', note: 'Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar.'),
     ],
-    noteNb: 'Utledet: 97 % produseres i Holstebro av dansk Arla-melk, som omfattes av det danske kravet. Ikke bekreftet per produkt. Økologisk Lurpak omfattes ikke.',
+    noteNb: 'UTLEDET (ikke bekreftet per produkt): 97 % produseres i Holstebro av dansk Arla-melk, og konvensjonelle danske besetninger >50 kyr har krav om Bovaer i 2026. Økologisk Lurpak omfattes ikke.',
   ),
   BovaerProcessorStatus(
     id: 'dk_castello',
@@ -387,14 +406,16 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     country: 'NL',
     aliases: ['frieslandcampina', 'campina', 'friesche vlag'],
     role: 'processor',
-    status: 'har_brukt',
+    status: 'bruker',
     appColor: 'yellow',
     producedBefore: null,
-    statusDate: '2023-03-30',
+    statusDate: '2026',
     sources: [
       BovaerSource(url: 'https://www.frieslandcampina.com/news/large-scale-pilot-proves-methane-reducing-feed-additive-bovaer-is-ready-for-roll-out-in-the-netherlands/', date: '2023-03-30', note: 'FrieslandCampina-pilot 2022: 158 gårder, 20 000 kyr; åpner for utrulling.'),
+      BovaerSource(url: 'https://veeteelt.nl/zuivel/frieslandcampina-vergoedt-inzet-bovaer-bij-600-veehouders', date: 'udatert (lest 2026-10-31)', note: 'FrieslandCampina betaler ca. 600 melkebønder for å bruke Bovaer; ingen egen melkestrøm (blandes med vanlig melk).'),
+      BovaerSource(url: 'https://www.dsm-firmenich.com/en/businesses/taste-texture-health/news-events/articles/dairy/20000-cows-18-months-what-large-scale-farm-data-tells-us-about-bovaer-in-the-netherlands.html', date: 'udatert (lest 2026-10-31)', note: 'Mange pilotgårder har fortsatt med Bovaer i over 4 år; FC-utviklingsgruppe betaler for Bovaer (Foqus planet).'),
     ],
-    noteNb: 'Pilot 2022 (158 gårder); utrulling åpnet 2023. Nåværende omfang ukjent / ikke dokumentert.',
+    noteNb: 'Frivillig bruk hos en del medlemmer (ca. 600 gårder i utviklingsgruppe), uten egen melkestrøm. Gul (ikke rød) fordi bare en del av melken er berørt; omfang per produkt ukjent.',
   ),
   BovaerProcessorStatus(
     id: 'fi_valio',
@@ -408,6 +429,7 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     statusDate: '2026-02-09',
     sources: [
       BovaerSource(url: 'https://www.valio.fi/artikkelit/tietoa-bovaer-rehunlisasta/', date: '2026-02-09', note: 'Valio stanser Bovaer-piloten (noen titalls gårder siden 2022) i påvente av EFSA.'),
+      BovaerSource(url: 'https://www.atria.fi/vastuullista-ruokaa/boaver/', date: 'udatert (lest 2026-10-31)', note: 'Atria: Valio stanset Bovaer i februar 2026.'),
     ],
     noteNb: 'Pilot på noen titalls gårder siden 2022, stanset 9.2.2026 i påvente av EFSA.',
   ),
@@ -432,14 +454,15 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     country: 'FR',
     aliases: ['babybel', 'bel'],
     role: 'processor',
-    status: 'forsok',
+    status: 'bruker',
     appColor: 'yellow',
     producedBefore: null,
-    statusDate: '2023-10-26',
+    statusDate: '2026-03',
     sources: [
       BovaerSource(url: 'https://www.groupe-bel.com/en/newsroom/press-releases/promising-pilot-test-to-reduce-enteric-methane-emissions-from-dairy-cows/', date: '2023-10-26', note: 'Bel/APBO-pilot på 5 gårder i Frankrike; utrulling i Bels slovakiske melkebasseng (Babybel til UK, DE, CZ, SK).'),
+      BovaerSource(url: 'https://library.edf.org/AssetLink/8nr03m7f1762xjs6h557851a3a5k3x3s.pdf', date: '2026-03', note: 'Bel: Bovaer rullet ut i slovakisk melkebasseng (2023) og tilbudt franske bønder fra 2024; insentivprogram \'Mon BB Lait durable\' fra juni 2025.'),
     ],
-    noteNb: 'Pilot på 5 gårder i Frankrike (jan.–mars 2023); utrulling annonsert i Slovakia (Babybel til UK/DE/CZ/SK). Nåværende status ukjent.',
+    noteNb: 'Frivillig bruk hos en del melkeleverandører i Slovakia og Frankrike (Babybel, Kiri, Boursin). Gul fordi omfang per produkt er ukjent.',
   ),
   BovaerProcessorStatus(
     id: 'ie_ornua',
@@ -455,6 +478,67 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://www.farmersjournal.ie/dairy/news/getting-rid-of-bovaer-is-not-an-option-ornua-848910', date: '2024-12-18', note: 'Ornua: å forkaste Bovaer er ikke et alternativ nå. Ingen dokumentert bruk i Kerrygold-melk.'),
     ],
     noteNb: 'Ingen dokumentert bruk i Kerrygold-melk. Ornua uttalte (des. 2024) at Bovaer ikke kan avskrives. Ikke flagg uten kilde.',
+  ),
+  BovaerProcessorStatus(
+    id: 'dk_arla_okologisk',
+    company: 'Arla økologisk',
+    country: 'DK',
+    aliases: ['arla øko', 'arla økologisk', 'arla ekologisk', 'arla organic'],
+    role: 'brand',
+    status: 'ikke_tillatt',
+    appColor: 'green',
+    producedBefore: null,
+    statusDate: '2026-09-30',
+    sources: [
+      BovaerSource(url: 'https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026', date: '2026-09-30', note: 'Det danske kravet gjelder konvensjonelle besetninger; økologiske er unntatt.'),
+      BovaerSource(url: 'https://www.soilassociation.org/news-events-and-resources/latest-news-and-insight/soil-association-response-to-questions-about-bovaer-and-organic/', date: '2024-12-02', note: 'Bovaer er ikke tillatt i økologisk produksjon; Arlas økologiske melk holdes adskilt og revideres.'),
+    ],
+    noteNb: 'Bovaer er ikke tillatt i økologisk drift, og økologiske danske besetninger er unntatt fra kravet.',
+  ),
+  BovaerProcessorStatus(
+    id: 'gb_muller',
+    company: 'Müller (UK)',
+    country: 'GB',
+    aliases: ['müller', 'muller', 'müllermilch'],
+    role: 'processor',
+    status: 'ukjent',
+    appColor: 'none',
+    producedBefore: null,
+    statusDate: 'udatert',
+    sources: [
+      BovaerSource(url: 'https://www.schoolmilkservices.co.uk/bovaer.php', date: 'udatert (lest 2026-10-31)', note: 'Sekundærkilde som siterer Müller: Müller Direct-bønder bruker ikke Bovaer, men Müller har samarbeidet om det med noen detaljhandelspartnere.'),
+    ],
+    noteNb: 'Ingen pålitelig kilde for Bovaer i Müller-produkter; Müller sier egne direkte-bønder ikke bruker det. Ukjent – ikke rød.',
+  ),
+  BovaerProcessorStatus(
+    id: 'de_dmk',
+    company: 'DMK (nå del av Arla)',
+    country: 'DE',
+    aliases: ['dmk', 'milram', 'oldenburger'],
+    role: 'processor',
+    status: 'ukjent',
+    appColor: 'none',
+    producedBefore: null,
+    statusDate: '2026-06-01',
+    sources: [
+      BovaerSource(url: 'https://www.interest.co.nz/sites/default/files/2026-08/RaboResearch_Global-Dairy-Top-20-M%26A-and-specialization-reshape-the-rankings_Fuess-Booijink_Aug2026.pdf', date: '2026-08', note: 'Arla og DMK fusjonerte 1.6.2026 under navnet Arla Foods.'),
+    ],
+    noteNb: 'Fusjonert med Arla 1.6.2026. Ingen kilde funnet for Bovaer-bruk i DMK-melk. Ukjent.',
+  ),
+  BovaerProcessorStatus(
+    id: 'fr_danone',
+    company: 'Danone',
+    country: 'FR',
+    aliases: ['danone', 'activia', 'actimel'],
+    role: 'processor',
+    status: 'ukjent',
+    appColor: 'none',
+    producedBefore: null,
+    statusDate: '2025-06-04',
+    sources: [
+      BovaerSource(url: 'https://www.dairyreporter.com/Article/2025/06/04/agropur-savencia-join-edf-methane-mitigation-initiative-dairy-methane-action-alliance/', date: '2025-06-04', note: 'Danone har testet Bovaer; ingen opplysning om nåværende bruk eller hvilke produkter.'),
+    ],
+    noteNb: 'Har testet Bovaer (uten sted/dato oppgitt); ingen kilde for nåværende bruk. Ukjent.',
   ),
 ];
 
@@ -482,4 +566,57 @@ String? bovaerProducedBeforeTextNb(BovaerProcessorStatus e) {
   final p = d.split('-');
   if (p.length != 3) return null;
   return 'MULIG RISIKO (${e.company}): produkter produsert før ${p[2]}.${p[1]}.${p[0]} kan stamme fra melk fra kyr foret med Bovaer. Kilde: ${e.sources.first.url}';
+}
+
+const Map<String, int> _colorRank = {'red': 3, 'yellow': 2, 'green': 1, 'none': 0};
+
+/// Picks the status to show for a brand/producer text. Prefers entries for
+/// [country]; falls back to all countries (imports). When several entries
+/// match, the most severe colour wins so we never under-report.
+BovaerProcessorStatus? resolveBovaerProcessorStatus(String text, {String? country}) {
+  var hits = findBovaerProcessorStatuses(text, country: country);
+  if (hits.isEmpty) hits = findBovaerProcessorStatuses(text);
+  if (hits.isEmpty) return null;
+  // A specific organic entry beats the generic brand entry.
+  final organic = hits.where((e) => e.status == 'ikke_tillatt').toList();
+  if (organic.isNotEmpty && hits.any((e) => e.id.endsWith('_okologisk'))) {
+    return organic.first;
+  }
+  hits.sort((a, b) => (_colorRank[b.appColor] ?? 0).compareTo(_colorRank[a.appColor] ?? 0));
+  return hits.first;
+}
+
+String _fmtDate(String iso) {
+  final p = iso.split('-');
+  return p.length == 3 ? '${p[2]}.${p[1]}.${p[0]}' : iso;
+}
+
+/// User-facing text: colour headline, reason, date rule, source and the
+/// general explanation. [shopCountry] adds an oval-stamp hint for imports.
+String bovaerStatusText(BovaerProcessorStatus e, {required bool norwegian, String? shopCountry}) {
+  final src = e.sources.first;
+  final headline = switch (e.appColor) {
+    'red' => norwegian ? 'HØY RISIKO' : 'HIGH RISK',
+    'yellow' => norwegian ? 'MULIG RISIKO' : 'POSSIBLE RISK',
+    'green' => norwegian ? 'LAV RISIKO' : 'LOW RISK',
+    _ => norwegian ? 'UKJENT' : 'UNKNOWN',
+  };
+  final b = StringBuffer('$headline (${e.company}, ${e.country}): ${e.noteNb}');
+  if (e.producedBefore != null && e.appColor == 'yellow') {
+    final d = _fmtDate(e.producedBefore!);
+    b.write(norwegian
+        ? ' Regel: gjelder produkter produsert før $d.'
+        : ' Rule: applies to products made before $d.');
+  }
+  if (shopCountry != null && e.country != shopCountry.toUpperCase()) {
+    b.write(norwegian
+        ? ' Gjelder melk fra ${e.country} – sjekk landkoden i det ovale stempelet.'
+        : ' Applies to milk from ${e.country} – check the country code in the oval stamp.');
+  }
+  b.write(norwegian
+      ? ' Kilde: ${src.url} (${src.date}).'
+      : ' Source: ${src.url} (${src.date}).');
+  b.write(' ');
+  b.write(norwegian ? bovaerExplanationNb : bovaerExplanationEn);
+  return b.toString();
 }

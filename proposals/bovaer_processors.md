@@ -18,3 +18,6 @@
 - Koble inn i `_analyzeBovaerRiskWithText` (forslag: slå opp her før de gamle listene; vis notat + første kilde-URL).
 - Nedgradere/kildebelegge røde oppføringer uten kilde i `risk_brands_by_country.dart` (Müller, Valio, DOC/A-ware, Anchor m.fl.).
 - `docs/data/eu_decisions_auto.json` er ikke rørt.
+
+## Oppdatert 2026-10-31
+Koblet inn i `_analyzeBovaerRiskWithText` via `resolveBovaerProcessorStatus`. Q/Kavli følger NMR/TINE-regelen (før 22.01.2026). Usourcede røde (Müller, Anchor, Valio-rød, DOC/A-ware, thise, lurisia, växa, dong, nørsmølk, grønnland) fjernet -> ukjent.
