@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T05:27:56.887608+00:00",
+  "updated_at": "2026-10-31T05:26:21.250710+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -15,26 +15,15 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
     },
     {
-      "date": "2026-08-31T07:00:00+00:00",
-      "title": "SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 - food.ec.europa.eu",
+      "date": "2026-09-07T07:00:00+00:00",
+      "title": "Genetically modified organisms (GMO) - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/food-safety-news/save-date-conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-08-31_en",
-      "source": "food.ec.europa.eu",
-      "id": "6a4bb048109a18d8",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSDdJdzh5Yjh4RDZ2RExHZzdFQzQwekNUT2hSWnVXUmZiNzU0NFVUVlpUMGdGcWZQV0lSZ0NXLWJQLXplVThjYUlnU2ZIdnFWVHdQQzY5Tm9KbjA0Smw2X1hLY3hwdG9JSlk4VEdXRXlwekN3QmpLaTNTcTdoOWtuT0NscDF0RzVlY1k0S2hGVk1UbjFaTU95eFdteXlHSFFwSkFaU0NfZ2NFaDI3VmN2WU9fWEZlX1E0ZlctZUt2WTBRWWdJZHVqWXRmSE9BaEpKM0JzUERVSHF1Q1BYbGhOZExwcDAzV0NYd0QxYTNR?oc=5"
-    },
-    {
-      "date": "2026-08-31T07:00:00+00:00",
-      "title": "Biotechnologies: Commission publishes a call for evidence on the delegated and implementing acts to support the application of the New Genomic Techniques (NGT) Regulation - food.ec.europa.eu",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Biotechnologies: Commission publishes a call for evidence on the delegated and implementing acts to support the application of the New Genomic Techniques (NGT) Regulation &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/food-safety-news/biotechnologies-commission-publishes-call-evidence-delegated-and-implementing-acts-support-2026-08-31_en",
-      "source": "food.ec.europa.eu",
-      "id": "9193b4756b02f30a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWEVNN245XzZYWW5qQ1cyYnBUSkVkZ1hKaVlSOW56dTNxdDZ4UzgzZWFsandSZ0RPXzJxY1pNeVRmQ1FWWm9Oai1RM1l0Z1A4NmlFLXFnSURVRTBFbmVYMlZwNHhtZ2RCX1F6Z1lrSUdhZURVWFlLU2E5VElPUDFSOEZXUUxPZkpWcHB5b2RRMzZlSUJzUEdKbXBFMVFSQ2dUSnp5RjFfcWNoQnItVGFCWmtpS1BvbURWbFZib0lRa0o5bUN2YnM4UHY3M182eUtQT25GRmh6YnJYMy02Vl9neA?oc=5"
+      "summary": " Genetically modified organisms (GMO) &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/EN/legal-content/glossary/genetically-modified-organisms-gmo.html",
+      "source": "EUR-Lex",
+      "id": "1ddcaf7dd3e1240c",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
     },
     {
       "date": "2026-07-16T07:00:00+00:00",
@@ -79,6 +68,17 @@
       "source": "food.ec.europa.eu",
       "id": "41b0a09669374e50",
       "google_news_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQT2NHQTdxbWpzVUVDNHR3Z0NPMXM2VjBnVUxtR0hNaW05dGN2ZFJKeUFGX01EaDJfdnVrSUZ1aUkyUzNBZVphWURZb2FIenZOZmcybzdIZ1pUbXc2WDZyUDBvajNoVVgtNXdGZFp0QS1md21qMEpxa0t6RXM1bWVNakdDUDVVZG83QnZjYTNmOHY4ZW9DSXZ1Z3o2YVNWMVQ2dTdzaUNNUWRDM1d6SjdIc1NPSkpoRHlGZEJvS0RDVHYzQ2dWX0tWSVJ4YUpsaVVybzlPeFppV3pDdWFvZ1lVNHlqOHFMbWtJM2FxTE9MOWV0YXFnRmc?oc=5"
+    },
+    {
+      "date": "2026-03-11T07:00:00+00:00",
+      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Bovaer",
+      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202600540",
+      "source": "EUR-Lex",
+      "id": "332bdc7244484b01",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5"
     },
     {
       "date": "2026-03-06T01:02:55+00:00",
@@ -134,6 +134,17 @@
       "source": "EUR-Lex",
       "id": "49317d781619a1f2",
       "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5"
+    },
+    {
+      "date": "2024-11-07T08:00:00+00:00",
+      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024AP0067",
+      "source": "EUR-Lex",
+      "id": "b728d19d56a95238",
+      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5"
     },
     {
       "date": "2024-10-02T22:12:39+00:00",
