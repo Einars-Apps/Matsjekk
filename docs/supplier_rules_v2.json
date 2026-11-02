@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-11-02",
   "tine_bovaer_note_nb": "TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
   "origin": "Existing app rules; export is not a new factual verification.",
   "countries": {
@@ -77,13 +77,11 @@
         "lurpak",
         "apetina",
         "keso",
-        "finello",
-        "skånemejerier",
-        "lindahls",
-        "yoggi"
+        "finello"
       ],
       "bovaer_yellow": [
-        "norrmejerier"
+        "norrmejerier",
+        "yoggi"
       ],
       "gmo_fish_red": [
         "lerøy",

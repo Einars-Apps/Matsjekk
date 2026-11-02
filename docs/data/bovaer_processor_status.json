@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-02",
   "_rule": "Hver oppføring må ha minst én kilde-URL som faktisk er lest, med dato. Ukjent skal merkes 'ukjent' og gis ikke rød farge. Gul med produced_before betyr: mulig risiko for produkter produsert før datoen.",
   "status_values": [
     "bruker",
@@ -548,7 +548,8 @@
       "company": "Arla Foods (Sverige)",
       "country": "SE",
       "aliases": [
-        "arla"
+        "arla",
+        "yoggi"
       ],
       "role": "processor",
       "status": "forsok",
@@ -560,9 +561,14 @@
           "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
           "date": "2022-04-20",
           "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
+        },
+        {
+          "url": "https://www.arla.se/produkter/yoggi/",
+          "date": "udatert (lest 2026-11-02)",
+          "note": "Yoggi er et Arla-merke. Produktsidene oppgir svensk melk (Sverigekannan)."
         }
       ],
-      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert."
+      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert. Yoggi er et Arla-merke og følger samme vurdering."
     },
     {
       "id": "de_arla",
@@ -920,11 +926,61 @@
         }
       ],
       "note_nb": "Har testet Bovaer (uten sted/dato oppgitt); ingen kilde for nåværende bruk. Ukjent."
+    },
+    {
+      "id": "se_skanemejerier",
+      "company": "Skånemejerier",
+      "country": "SE",
+      "aliases": [
+        "skånemejerier",
+        "skanemejerier",
+        "lindahls"
+      ],
+      "role": "processor",
+      "status": "ukjent",
+      "app_color": "none",
+      "produced_before": null,
+      "status_date": "2025-01-21",
+      "sources": [
+        {
+          "url": "https://konsumentkontakt.lindahlskvarg.se/org/skanemejerier-forsaljning-c60p/d/bovear-so03/",
+          "date": "2025-01-21",
+          "note": "Skånemejerier Försäljning AB (Lindahls-kanalen): ingen leverandør bruker Bovaer, og ingen forsøk er planlagt."
+        },
+        {
+          "url": "https://konsumentkontakt.skanemejerier.se/org/skanemejerier/d/bovaer-2bmt/",
+          "date": "2024-12-11",
+          "note": "Samme ikke-bruk. De skriver også at de vurderer om metanreduserende fôrtilskudd kan brukes senere."
+        }
+      ],
+      "note_nb": "Selskapet skrev 21.1.2025 at ingen leverandører bruker Bovaer og at ingen forsøk er planlagt. 11.12.2024 skrev de også at de vurderer eventuell senere bruk. Ikke grønn: utsagnene er ikke oppdatert i 2026. Ikke rød: ingen kilde for bruk. Ukjent."
+    },
+    {
+      "id": "fr_savencia",
+      "company": "Savencia",
+      "country": "FR",
+      "aliases": [
+        "savencia"
+      ],
+      "role": "processor",
+      "status": "har_brukt",
+      "app_color": "yellow",
+      "produced_before": null,
+      "status_date": "2026-06-01",
+      "sources": [
+        {
+          "url": "https://www.dsm-firmenich.com/en/businesses/taste-texture-health/news-events/articles/dairy/what-dairy-farmers-actually-experienced-using-bovaer.html",
+          "date": "2026-06-01",
+          "note": "Savencia ledet et feltprogram på 17 gårder i Frankrike og Polen, fra tidlig 2023 til slutten av 2024, med vekslende perioder med og uten Bovaer."
+        }
+      ],
+      "note_nb": "Dokumentert delvis bruk i et avsluttet feltprogram (17 gårder, Frankrike og Polen, tidlig 2023 til slutten av 2024). Kilden sier ikke at all Savencia-melk var berørt, og ikke om bruken fortsatte etter 2024. Gul, ikke rød. Ost og pulver kan ligge lenge i butikk – sjekk produksjons-/pakkedato og landkoden i det ovale stempelet."
     }
   ],
   "explanation": {
     "nb": "Bovaer-status bygger på offentlige kilder og oppdateres ukentlig. Risikoen gjelder produkter laget før stoppdatoen. Ost, smør, melkepulver og andre varer med lang holdbarhet kan fortsatt ligge i butikk – sjekk produksjons-/pakkedato. For importvarer: sjekk landkoden i det ovale stempelet (f.eks. DK, NO, FI). «Ukjent» betyr at vi ikke har funnet en pålitelig kilde verken for eller mot.",
     "en": "Bovaer status is based on public sources and updated weekly. The risk applies to products made before the stop date. Cheese, butter, milk powder and other long-shelf-life products may still be in shops – check the production/packing date. For imports, check the country code in the oval stamp (e.g. DK, NO, FI). 'Unknown' means we have found no reliable source either way."
   },
-  "web_check_2026_10_31": "Sjekket Arla, FrieslandCampina, DMK, Danone, Lactalis, Müller, Valio, Ornua/Kerrygold, Fonterra/Anchor, Emmi, Savencia. Ingen pålitelig kilde funnet for nåværende Bovaer-bruk hos Lactalis (utover Parmalat-forsøk 2023), Savencia, Emmi eller Fonterra/Anchor – de er derfor ikke merket (ukjent)."
+  "web_check_2026_10_31": "Sjekket Arla, FrieslandCampina, DMK, Danone, Lactalis, Müller, Valio, Ornua/Kerrygold, Fonterra/Anchor, Emmi, Savencia. Ingen pålitelig kilde funnet for nåværende Bovaer-bruk hos Lactalis (utover Parmalat-forsøk 2023), Savencia, Emmi eller Fonterra/Anchor – de er derfor ikke merket (ukjent).",
+  "web_check_2026_11_02": "Ukesgjennomgang 26.10–02.11.2026. EFSA-Q-2026-00024 er fortsatt pågående, frist 30.11.2026, ingen uttalelse publisert. Ingen nye EU-vedtak om GM-import, NGT eller insektsmel i vinduet. Skånemejerier/Lindahls tatt ut av rød (ukjent). Yoggi er Arla og gul. Savencia lagt til som gul for avsluttet feltprogram 2023–2024, ikke nåværende full bruk. Lactalis (utover Parmalat), Emmi og Fonterra/Anchor fortsatt ukjent."
 }

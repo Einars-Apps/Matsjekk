@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-02",
   "NO": {
     "bovaer_red": [
       "arla",
@@ -48,7 +48,8 @@
     "bovaer_yellow": [
       "milko",
       "norrmejerier",
-      "gårdsyssan"
+      "gårdsyssan",
+      "yoggi"
     ],
     "gmo_fish_red": [
       "lerøy",
@@ -82,5 +83,5 @@
       "økocertificeret"
     ]
   },
-  "_note": "Usourcede røde oppføringer (thise, lurisia, växa, dong, nørsmølk, grønnland, fisk i bovaer_red) fjernet 2026-10-31 -> ukjent. Kildebasert status: bovaer_processor_status.json."
+  "_note": "Usourcede røde oppføringer (thise, lurisia, växa, dong, nørsmølk, grønnland, fisk i bovaer_red) fjernet 2026-10-31 -> ukjent. 2026-11-02: Yoggi lagt til SE gul fordi merket er Arla (https://www.arla.se/produkter/yoggi/). Skånemejerier/Lindahls er ikke røde. Kildebasert status: bovaer_processor_status.json."
 }
