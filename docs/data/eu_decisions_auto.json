@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T05:26:21.140162+00:00",
+  "updated_at": "2026-11-02T05:26:27.219957+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -13,17 +13,6 @@
       "source": "food.ec.europa.eu",
       "id": "6ea7bad80a4a76ca",
       "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
-    },
-    {
-      "date": "2026-09-07T07:00:00+00:00",
-      "title": "Genetically modified organisms (GMO) - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Genetically modified organisms (GMO) &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/EN/legal-content/glossary/genetically-modified-organisms-gmo.html",
-      "source": "EUR-Lex",
-      "id": "1ddcaf7dd3e1240c",
-      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
     },
     {
       "date": "2026-07-16T07:00:00+00:00",
@@ -70,17 +59,6 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQT2NHQTdxbWpzVUVDNHR3Z0NPMXM2VjBnVUxtR0hNaW05dGN2ZFJKeUFGX01EaDJfdnVrSUZ1aUkyUzNBZVphWURZb2FIenZOZmcybzdIZ1pUbXc2WDZyUDBvajNoVVgtNXdGZFp0QS1md21qMEpxa0t6RXM1bWVNakdDUDVVZG83QnZjYTNmOHY4ZW9DSXZ1Z3o2YVNWMVQ2dTdzaUNNUWRDM1d6SjdIc1NPSkpoRHlGZEJvS0RDVHYzQ2dWX0tWSVJ4YUpsaVVybzlPeFppV3pDdWFvZ1lVNHlqOHFMbWtJM2FxTE9MOWV0YXFnRmc?oc=5"
     },
     {
-      "date": "2026-03-11T07:00:00+00:00",
-      "title": "Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "Bovaer",
-      "summary": " Commission Implementing Regulation (EU) 2026/540 of 11 March 2026 concerning the authorisation of acacia gum as a feed additive &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202600540",
-      "source": "EUR-Lex",
-      "id": "332bdc7244484b01",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1aTlc1blllQzZzRXotQnIwUGpzUGxqX3pkQXpIM0R5UnVwLTZmTFRIMDlWdUxCU2dPbjJJTks4Z3ZleEdlTVhoalVOVTNzWVYwa3hIem1xUE1SbVp1dWNnUVA4eGNTdEJBczNpWVhyVTJJOFhZOFVRZW53?oc=5"
-    },
-    {
       "date": "2026-03-06T01:02:55+00:00",
       "title": "Plants produced by certain new genomic techniques | Legislative Train Schedule - European Parliament",
       "type": "Automatisk oppdaget oppdatering",
@@ -103,6 +81,17 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNN3c5U29EWWZJZTRQYTdWY2gtR3QxdzRwMFB1NEhBbkJjX0ZiRnJZVmV2cXZwX1lYUHJ1ekdld1JrcmI1aVloVUZ6SS11UXBZVmdUeHBkbDNWbURDM0k5c3FLSXNKVjcwSHhodDhDNkstWHNOVmxDODlZMEZSSlNvN21VTUtGdDhnbGE4Rmx0TDFiYTRrTmk4MkJIbEwzdjYweUJUTkVWYVl1eWVsZEoxMGxRRmRGVUxwU0pTQ05PYThfS3NL?oc=5"
     },
     {
+      "date": "2025-12-04T08:00:00+00:00",
+      "title": "New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement - European Parliament",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " New genomic techniques: deal to support the green transition in farming | Nieuws | Europees Parlement &nbsp;&nbsp; European Parliament ",
+      "url": "https://www.europarl.europa.eu/news/nl/press-room/20251201IPR31710/new-genomic-techniques-deal-to-support-the-green-transition-in-farming",
+      "source": "European Parliament",
+      "id": "a8057ba0c6d6254e",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTmZJU2cyM3lNRHBURVh5Qm0zeko3V084WkRIV0hmYmxmUzlxdHlDVFJtVTBCZHNTT3JqN0FHMEhISlRaZ3RjSjNPUmRiUXo5VWZ0ekxnRGZIT01vVEV2WHVJRnktblRxSWsxbnZmbTNBbXZORzRJT2ctUnFWQU9yOTU2amx0MnJFa1MtRTZNNUZFQmJNMFZnZ2ZMU1ZZbllydmUyMVVlTW9Sak1LYkxBUzBxaHdNVVZiU0FoQlR2SGRGSlFTcGhqUVVIV0tQX0dVdnZJ?oc=5"
+    },
+    {
       "date": "2025-07-13T10:39:11+00:00",
       "title": "Consultation request for the determination of the novel food status ARTICLE 4 of Regulation (EU) 2015/2283 - food.ec.europa.eu",
       "type": "Automatisk oppdaget oppdatering",
@@ -123,28 +112,6 @@
       "source": "EUR-Lex",
       "id": "49317d781619a1f2",
       "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9tWHhlWkt3Y3JNRWh5X0lGOUlLc3FXZHBiVHpLNzlFNVN4LXFOaTFQUVBnMDFpa1Q0WGx1aTUwUE5ZU2dIQlZpY0U0ZTE5RDRSRE0yNW9OWE9QZ2JJRWlGeU1PV01TSVNoZ0FCU25pS0szTHNDOTRxSlR5SVA?oc=5"
-    },
-    {
-      "date": "2025-04-12T07:00:00+00:00",
-      "title": "New genomic techniques: deal to support the green transition in farming - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " New genomic techniques: deal to support the green transition in farming &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/news/sv/press-room/20251201IPR31710/new-genomic-techniques-deal-to-support-the-green-transition-in-farming",
-      "source": "European Parliament",
-      "id": "f6d03f3f1ed2c135",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkxkSUlxNjlLNFpjd0ZmUjdqZXZSWXVnTWN3V0JITDBTa05xb2U2VnZUcmlndUVyWnp3ZXhhUmk1OGJwZlpNcXBfelNUNkx2a0R3LXQwV2hrMG40cms5WmhTNktFSnJ0NGJpcTloTWlILVd3TWFKcTB6U0FrUjRZdHN5OEtmcWpZTUduLTMxbkFFVGctZWp4WXNVMzNNQ3RjTlFSbDk3RDdzb0Z6M25hUncySEZ0eWkxRVpOMHhUeXVSZnBwOHgxMTNZY203OXMtVW9r?oc=5"
-    },
-    {
-      "date": "2024-11-07T08:00:00+00:00",
-      "title": "Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu - EUR-Lex",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " Plants obtained by certain new genomic techniques and their food and feed – Amendments adopted by the Eu &nbsp;&nbsp; EUR-Lex ",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52024AP0067",
-      "source": "EUR-Lex",
-      "id": "b728d19d56a95238",
-      "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qeTFiV1E0Z0RjSVUzN0ZKR2ZZOTk4bXU4UEtTdG9kUEdyNV9ucGxTM0kyZzZQaThJODNzTUw1Q3NrNEQyMUxXbmxIek04cjBLYkJnMjJDQVhEREdvWDZWVlBnUy1mcU5hc0swNkM3SlJ6WEFWbGk1QzhlVk5DQQ?oc=5"
     },
     {
       "date": "2024-10-02T22:12:39+00:00",
