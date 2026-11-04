@@ -309,7 +309,7 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     id: 'se_arla',
     company: 'Arla Foods (Sverige)',
     country: 'SE',
-    aliases: ['arla'],
+    aliases: ['arla', 'yoggi'],
     role: 'processor',
     status: 'forsok',
     appColor: 'yellow',
@@ -317,8 +317,9 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
     statusDate: '2022-04-20',
     sources: [
       BovaerSource(url: 'https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html', date: '2022-04-20', note: 'Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland.'),
+      BovaerSource(url: 'https://www.arla.se/produkter/yoggi/', date: 'udatert (lest 2026-11-02)', note: 'Yoggi er et Arla-merke. Produktsidene oppgir svensk melk (Sverigekannan).'),
     ],
-    noteNb: 'Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert.',
+    noteNb: 'Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert. Yoggi er et Arla-merke og følger samme vurdering.',
   ),
   BovaerProcessorStatus(
     id: 'de_arla',
@@ -539,6 +540,37 @@ const List<BovaerProcessorStatus> bovaerProcessorStatuses = [
       BovaerSource(url: 'https://www.dairyreporter.com/Article/2025/06/04/agropur-savencia-join-edf-methane-mitigation-initiative-dairy-methane-action-alliance/', date: '2025-06-04', note: 'Danone har testet Bovaer; ingen opplysning om nåværende bruk eller hvilke produkter.'),
     ],
     noteNb: 'Har testet Bovaer (uten sted/dato oppgitt); ingen kilde for nåværende bruk. Ukjent.',
+  ),
+  BovaerProcessorStatus(
+    id: 'se_skanemejerier',
+    company: 'Skånemejerier',
+    country: 'SE',
+    aliases: ['skånemejerier', 'skanemejerier', 'lindahls'],
+    role: 'processor',
+    status: 'ukjent',
+    appColor: 'none',
+    producedBefore: null,
+    statusDate: '2025-01-21',
+    sources: [
+      BovaerSource(url: 'https://konsumentkontakt.lindahlskvarg.se/org/skanemejerier-forsaljning-c60p/d/bovear-so03/', date: '2025-01-21', note: 'Skånemejerier Försäljning AB (Lindahls-kanalen): ingen leverandør bruker Bovaer, og ingen forsøk er planlagt.'),
+      BovaerSource(url: 'https://konsumentkontakt.skanemejerier.se/org/skanemejerier/d/bovaer-2bmt/', date: '2024-12-11', note: 'Samme ikke-bruk. De skriver også at de vurderer om metanreduserende fôrtilskudd kan brukes senere.'),
+    ],
+    noteNb: 'Selskapet skrev 21.1.2025 at ingen leverandører bruker Bovaer og at ingen forsøk er planlagt. 11.12.2024 skrev de også at de vurderer eventuell senere bruk. Ikke grønn: utsagnene er ikke oppdatert i 2026. Ikke rød: ingen kilde for bruk. Ukjent.',
+  ),
+  BovaerProcessorStatus(
+    id: 'fr_savencia',
+    company: 'Savencia',
+    country: 'FR',
+    aliases: ['savencia'],
+    role: 'processor',
+    status: 'har_brukt',
+    appColor: 'yellow',
+    producedBefore: null,
+    statusDate: '2026-06-01',
+    sources: [
+      BovaerSource(url: 'https://www.dsm-firmenich.com/en/businesses/taste-texture-health/news-events/articles/dairy/what-dairy-farmers-actually-experienced-using-bovaer.html', date: '2026-06-01', note: 'Savencia ledet et feltprogram på 17 gårder i Frankrike og Polen, fra tidlig 2023 til slutten av 2024, med vekslende perioder med og uten Bovaer.'),
+    ],
+    noteNb: 'Dokumentert delvis bruk i et avsluttet feltprogram (17 gårder, Frankrike og Polen, tidlig 2023 til slutten av 2024). Kilden sier ikke at all Savencia-melk var berørt, og ikke om bruken fortsatte etter 2024. Gul, ikke rød. Ost og pulver kan ligge lenge i butikk – sjekk produksjons-/pakkedato og landkoden i det ovale stempelet.',
   ),
 ];
 

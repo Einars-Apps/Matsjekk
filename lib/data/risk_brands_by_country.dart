@@ -64,13 +64,16 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'SE': {
     // SVERIGE — Last verified: March 2026
-    // RED:  Arla Foods confirmed large-scale adoption across Swedish co-op
-    //       farms (2022–2023). Bregott and Arla Ko are key Arla SE brands.
-    //       Skånemejerier (southern SE cooperative) likely via DSM network.
-    // REMOVED: Växa Sverige = agricultural advisory org, not a dairy brand.
-    //          Lurisia = Italian mineral water brand — irrelevant.
-    //          Milko = merged into Arla 2015, covered by 'arla'.
+    // RED:  Arla brands with sourced Nordic pilot exposure. Current Swedish
+    //       use is not documented; processor status for Arla SE is yellow and
+    //       wins when the product name matches. Yoggi is an Arla brand
+    //       (arla.se/produkter/yoggi/) and follows that yellow rating.
+    // REMOVED 2026-11-02: Skånemejerier and Lindahls. Company replies
+    //       (11 Dec 2024 and 21 Jan 2025) say no supplier uses Bovaer and no
+    //       trial is planned. Not green: they also said future use is being
+    //       evaluated, and the replies are not from 2026. Unknown, not red.
     // YELLOW: Norrmejerier = small northern co-op, possible supply chain exposure.
+    //         Yoggi = Arla SE brand.
     'bovaer_red': [
       'arla', 'bregott', 'arla ko',
       'castello',      // Arla brand
@@ -78,12 +81,10 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'apetina',       // Arla brand
       'keso',          // Arla SE cottage cheese brand
       'finello',       // Arla SE grated cheese brand
-      'skånemejerier', // Large southern SE co-op, high Bovaer exposure probability
-      'lindahls',      // Skånemejerier kvarg/quark brand
-      'yoggi',         // Skånemejerier yogurt brand
     ],
     'bovaer_yellow': [
       'norrmejerier',  // Small northern co-op, possible via raw milk market
+      'yoggi',         // Arla SE fruit yoghurt (arla.se/produkter/yoggi/)
     ],
     'gmo_fish_red': ['lerøy', 'mowi', 'salmar'],
     'organic_keywords': ['ekologisk', 'organic', 'biodynamisk', 'krav'],
