@@ -12,7 +12,23 @@ The privacy URL below was read from this repository and fetched live. No second 
 | Rejected, To modify, unsubmitted | 1.1.4, versionCode 61 |
 | Highest versionCode shown | 61 |
 
-A later Huawei upload has to use a versionCode above 61. This branch’s `pubspec.yaml` is `1.2.0+66` because that is the version already on `feature/in-app-farm-map`. 66 is above 61. It is not a confirmed Play or App Store production code. Those highest codes are still for the parent to check before any release. This branch is not uploaded.
+A later Huawei upload has to use a versionCode above 61. Huawei’s 60 and 61 are a separate sequence from Google Play. Do not use 62 as the shared Play code.
+
+## Google Play baseline observed on the release-track overview
+
+| Item | Observed value |
+| --- | --- |
+| Production version | 1.1.8, versionCode 3501945 |
+| Highest of the latest 5 bundles on that overview | 3501945 |
+| Scope of that highest code | Release-track overview only, not every historical track |
+| Internal | 3501553 |
+| Alpha | 1 |
+| Production countries | 178/178 |
+| Pending reviews | None visible |
+| Installed base 53.85% | Installed-base share. It is not a rollout percentage. |
+| Billing policy | Versions below 8 are blocked for updates. The deadline 31 Aug 2026 is in force, and the warning is confirmed. |
+
+The next shared `versionCode` has to be greater than 3501945. This branch uses `1.2.0+3501946`: 3501946 is the next integer after the verified overview maximum, and it is also above Huawei’s 61. `1.2.0` is this branch’s version name because it includes the farm-shop map. It is not the name of the published Play release, which is 1.1.8. Play Billing in this branch is `in_app_purchase` 3.3.1 / `in_app_purchase_android` 0.5.5, which resolves `com.android.billingclient:billing:9.1.0` (PR 70). No app update was uploaded. App Store’s highest code is not in this note.
 
 ## URLs that exist
 

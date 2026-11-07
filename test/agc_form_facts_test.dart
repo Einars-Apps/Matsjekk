@@ -14,7 +14,14 @@ void main() {
     expect(facts, contains(kPublicPrivacyPolicyBaseUrl));
     expect(facts, contains('versionCode 60'));
     expect(facts, contains('versionCode 61'));
-    expect(facts, contains('1.2.0+66'));
+    expect(facts, contains('3501945'));
+    final pubspec = File('pubspec.yaml').readAsStringSync();
+    expect(pubspec, contains('version: 1.2.0+3501946'));
+    expect(facts, contains('1.2.0+3501946'));
+    expect(facts, contains('53.85%'));
+    expect(facts, contains('not a rollout percentage'));
+    expect(facts, contains('178/178'));
+    expect(facts, contains('9.1.0'));
     expect(facts, contains('is not a verified URL'));
     expect(facts, isNot(contains('https://matsjekk.com/privacy.html#rights')));
     expect(facts, contains('Not involved'));
