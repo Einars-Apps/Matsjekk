@@ -49,5 +49,24 @@ void main() {
 
     expect(find.text('Annonsefri er aktiv'), findsOneWidget);
     expect(find.text('Fjern annonser (kr 49,-)'), findsOneWidget);
+    expect(find.text('Kjøp permanent'), findsNothing);
+    expect(
+      offersNewPurchase(
+        loading: false,
+        storeAvailable: true,
+        hasProduct: true,
+        entitled: true,
+      ),
+      isFalse,
+    );
+    expect(
+      offersNewPurchase(
+        loading: false,
+        storeAvailable: true,
+        hasProduct: true,
+        entitled: false,
+      ),
+      isTrue,
+    );
   });
 }

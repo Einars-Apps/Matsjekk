@@ -2,7 +2,7 @@
 
 ## Unreleased (working)
 
-- Local Play candidate 1.1.9+3501947. Not uploaded. 3501946 is left unused so it is not shared with the unfinished Huawei branch.
+- Local Play candidate 1.1.9+3501948. 3501947 was already used by an internal release and is not reused. Not uploaded.
 - Android shows the existing restore control and, when the local ad-free flag is not already set, asks the store once for owned purchases after the purchase stream is subscribed. Store errors, an empty catalog, and an empty restore do not clear `adsRemoved`.
 - Main CI publishes GitHub Pages only for a push to `main`. Pull requests still run analyze and test.
 - A release Android bundle is not debug-signed when the upload key is missing.

@@ -21,3 +21,14 @@ String purchaseMenuTitle({
   if (entitled) return 'Annonsefri er aktiv';
   return offerLabel;
 }
+
+/// A new paid purchase is offered only when the store returned the product
+/// and this install does not already have the lifetime right.
+bool offersNewPurchase({
+  required bool loading,
+  required bool storeAvailable,
+  required bool hasProduct,
+  required bool entitled,
+}) {
+  return !loading && storeAvailable && hasProduct && !entitled;
+}

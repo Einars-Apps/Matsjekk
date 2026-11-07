@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:mat_sjekk/about_version.dart';
 import 'package:mat_sjekk/premium_screen.dart';
 import 'package:mat_sjekk/premium_service.dart';
 
@@ -132,6 +133,80 @@ void main() {
     expect(billing.restoreCalls, 0);
     expect(box.get(PremiumService.adsRemovedKey), isTrue);
     await service.dispose();
+  });
+
+  test('owned install keeps the product but does not offer or re-query a purchase',
+      () async {
+    final billing = _FakeBilling();
+    final box = Hive.box('innstillinger');
+    await box.put(PremiumService.adsRemovedKey, true);
+    final service = PremiumService(billing: billing);
+
+    await service.initialize(box);
+
+    expect(service.isPremiumActive, isTrue);
+    expect(service.products, isNotEmpty);
+    expect(billing.restoreCalls, 0);
+    expect(
+      offersNewPurchase(
+        loading: service.isLoading,
+        storeAvailable: service.isStoreAvailable,
+        hasProduct: service.products.isNotEmpty,
+        entitled: service.isPremiumActive,
+      ),
+      isFalse,
+    );
+    expect(box.get(PremiumService.adsRemovedKey), isTrue);
+    await service.dispose();
+  });
+
+  testWidgets('owned screen shows status and restore without a new purchase button',
+      (tester) async {
+    final box = Hive.box('innstillinger');
+    // Hive file IO does not complete inside the widget tester's fake clock.
+    // Do that write in real time before any animated widget exists. A later
+    // runAsync while CircularProgressIndicator is ticking does not go idle.
+    await tester.runAsync(() async {
+      await box.put(PremiumService.adsRemovedKey, true);
+    });
+    final billing = _FakeBilling();
+    await tester.pumpWidget(MaterialApp(
+      home: PremiumScreen(
+        innstillingerBox: box,
+        onPremiumChanged: (_) {},
+        service: PremiumService(billing: billing),
+      ),
+    ));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 50));
+
+    expect(find.textContaining('Annonsefri er aktiv'), findsWidgets);
+    expect(find.text('Gjenopprett kjøp'), findsOneWidget);
+    expect(find.text('Kjøp permanent'), findsNothing);
+    expect(billing.restoreCalls, 0);
+    expect(box.get(PremiumService.adsRemovedKey), isTrue);
+  });
+
+  testWidgets('unowned screen still offers the one-time purchase and restore',
+      (tester) async {
+    final box = Hive.box('innstillinger');
+    await tester.runAsync(() async {
+      await box.put(PremiumService.adsRemovedKey, false);
+    });
+    final billing = _FakeBilling(ownedOnRestore: const []);
+    await tester.pumpWidget(MaterialApp(
+      home: PremiumScreen(
+        innstillingerBox: box,
+        onPremiumChanged: (_) {},
+        service: PremiumService(billing: billing),
+      ),
+    ));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 50));
+
+    expect(find.text('Kjøp permanent'), findsOneWidget);
+    expect(find.text('Gjenopprett kjøp'), findsOneWidget);
+    expect(box.get(PremiumService.adsRemovedKey), isFalse);
   });
 
   testWidgets('restore control is shown without an iOS-only gate', (tester) async {

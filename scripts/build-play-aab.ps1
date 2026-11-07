@@ -7,10 +7,10 @@
 
 $ErrorActionPreference = 'Stop'
 
-$IsolatedRoot = 'C:\Users\ebors\AppData\Local\Temp\Matsjekk-release-3501947-9ff67918e1304ce89d00eb4a1fa8d32c'
+$IsolatedRoot = 'C:\Users\ebors\AppData\Local\Temp\Matsjekk-release-3501948'
 $OriginalRoot = 'C:\Users\ebors\Projects\Einars-Apps\Matsjekk'
 $BuildName = '1.1.9'
-$BuildNumber = '3501947'
+$BuildNumber = '3501948'
 # Public Play upload certificate. Compared only after the new AAB is signed.
 $ExpectedSha256 = '29:F4:C1:56:AA:AB:67:28:04:89:CE:64:A0:54:0D:24:0A:73:99:12:1C:71:77:FF:D4:D6:92:FA:3A:E0:FA:80'
 $ExpectedSha1 = '88:C2:17:E8:7C:E4:34:F9:2A:9E:6E:C4:2E:53:F1:0B:1E:1F:DC:BC'
@@ -58,8 +58,8 @@ if (-not $flutter) {
     throw 'flutter is not on PATH. This recipe does not install or replace Flutter.'
 }
 $versionText = (& flutter --version | Out-String)
-if ($versionText -notmatch 'Flutter 3\.44\.') {
-    throw 'Expected the existing Flutter 3.44.x. This recipe does not upgrade Flutter.'
+if ($versionText -notmatch 'Flutter 3\.44\.9') {
+    throw 'Expected the already installed Flutter 3.44.9. This recipe does not upgrade Flutter.'
 }
 
 $env:MATSJEKK_KEY_PROPERTIES = $propsPath

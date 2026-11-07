@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
+import 'about_version.dart';
 import 'premium_service.dart';
 
 class PremiumScreen extends StatefulWidget {
@@ -127,9 +128,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     subtitle: Text(
                       '${product.price} • engangskjøp',
                     ),
-                    trailing: _premiumService.isPremiumActive
-                        ? const Icon(Icons.check_circle, color: Colors.green)
-                        : ElevatedButton(
+                    trailing: offersNewPurchase(
+                      loading: _premiumService.isLoading,
+                      storeAvailable: _premiumService.isStoreAvailable,
+                      hasProduct: true,
+                      entitled: _premiumService.isPremiumActive,
+                    )
+                        ? ElevatedButton(
                             onPressed: () async {
                               await _premiumService.buy(product);
                               if (!mounted) return;
@@ -138,7 +143,10 @@ class _PremiumScreenState extends State<PremiumScreen> {
                               setState(() {});
                             },
                             child: const Text('Kjøp permanent'),
-                          ),
+                          )
+                        : _premiumService.isPremiumActive
+                            ? const Icon(Icons.check_circle, color: Colors.green)
+                            : null,
                   ),
                 ),
               ),
