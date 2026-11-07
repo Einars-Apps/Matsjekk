@@ -34,9 +34,12 @@ void main() {
     // Expect Alerts header
     expect(find.text('Alerts'), findsOneWidget);
     // Expect the ActionChip with reason text
-    expect(find.text('Merke i gul-liste'), findsOneWidget);
-    // Tap the chip to open details dialog
-    await tester.tap(find.text('Merke i gul-liste'));
+    final chip = find.ancestor(
+      of: find.text('Merke '),
+      matching: find.byType(ActionChip),
+    );
+    expect(chip, findsOneWidget);
+    await tester.tap(chip);
     await tester.pumpAndSettle();
     // Expanded view should show confidence and evidence lines
     expect(find.textContaining('Confidence'), findsOneWidget);

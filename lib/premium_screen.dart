@@ -3,7 +3,9 @@ import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
+import 'l10n/draft_locale_copy.dart';
 import 'premium_service.dart';
+import 'ui_safe.dart';
 
 class PremiumScreen extends StatefulWidget {
   final Box innstillingerBox;
@@ -43,9 +45,21 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final copy = draftPurchaseCopy(appLanguageCode(Localizations.localeOf(context)));
+    final title = copy?.shortTitle ?? 'Fjern annonser';
+    final active = copy?.active ?? 'Annonsefri er aktiv ✅';
+    final inactive = copy?.inactive ?? 'Annonsefri er ikke aktiv enda';
+    final heading = copy?.heading ?? 'Kjøp annonsefri versjon';
+    final body = copy?.body ??
+        'Engangskjøp. Ingen abonnement.\n'
+            'Når kjøpet er bekreftet fjernes annonser permanent på denne kontoen.';
+    final retry = copy?.retry ?? 'Prøv igjen';
+    final oneTime = copy?.oneTimeSuffix ?? 'engangskjøp';
+    final buy = copy?.buy ?? 'Kjøp permanent';
+    final restore = copy?.restore ?? 'Gjenopprett kjøp';
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fjern annonser'),
+        title: Text(title),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
@@ -66,22 +80,17 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
               child: Text(
-                _premiumService.isPremiumActive
-                    ? 'Annonsefri er aktiv ✅'
-                    : 'Annonsefri er ikke aktiv enda',
+                _premiumService.isPremiumActive ? active : inactive,
                 style: const TextStyle(fontWeight: FontWeight.w700),
               ),
             ),
             const SizedBox(height: 12),
-            const Text(
-              'Kjøp annonsefri versjon',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            RobustLabel(
+              heading,
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
-            const Text(
-              'Engangskjøp. Ingen abonnement.\n'
-              'Når kjøpet er bekreftet fjernes annonser permanent på denne kontoen.',
-            ),
+            Text(body),
             const SizedBox(height: 16),
             if (_premiumService.isLoading)
               const Center(child: CircularProgressIndicator())
@@ -89,7 +98,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text('Butikk utilgjengelig nå. Prøv igjen senere.'),
+                  Text(copy?.storeUnavailable ??
+                      'Butikk utilgjengelig nå. Prøv igjen senere.'),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
                     onPressed: () async {
@@ -97,7 +107,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       await _initialize();
                     },
                     icon: const Icon(Icons.refresh),
-                    label: const Text('Prøv igjen'),
+                    label: Text(retry),
                   ),
                 ],
               )
@@ -105,9 +115,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
-                  ),
+                  Text(_emptyCatalogMessage(copy)),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
                     onPressed: () async {
@@ -115,7 +123,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       await _initialize();
                     },
                     icon: const Icon(Icons.refresh),
-                    label: const Text('Prøv igjen'),
+                    label: Text(retry),
                   ),
                 ],
               )
@@ -125,7 +133,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   child: ListTile(
                     title: Text(product.title),
                     subtitle: Text(
-                      '${product.price} • engangskjøp',
+                      '${product.price} • $oneTime',
                     ),
                     trailing: _premiumService.isPremiumActive
                         ? const Icon(Icons.check_circle, color: Colors.green)
@@ -137,7 +145,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                                   _premiumService.isPremiumActive);
                               setState(() {});
                             },
-                            child: const Text('Kjøp permanent'),
+                            child: Text(buy),
                           ),
                   ),
                 ),
@@ -152,7 +160,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 setState(() {});
               },
               icon: const Icon(Icons.restore),
-              label: const Text('Gjenopprett kjøp'),
+              label: Text(restore),
             ),
             if (_premiumService.lastMessage.isNotEmpty && _premiumService.products.isNotEmpty)
               Padding(
@@ -166,5 +174,19 @@ class _PremiumScreenState extends State<PremiumScreen> {
         ),
       ),
     );
+  }
+
+  String _emptyCatalogMessage(DraftPurchaseCopy? copy) {
+    switch (_premiumService.catalogStatus) {
+      case PurchaseCatalogStatus.productNotReturned:
+        return copy?.productNotReturned ?? _premiumService.lastMessage;
+      case PurchaseCatalogStatus.queryFailed:
+        return copy?.productsUnavailable ?? _premiumService.lastMessage;
+      default:
+        return _premiumService.lastMessage.isNotEmpty
+            ? _premiumService.lastMessage
+            : (copy?.productsUnavailable ??
+                'Kunne ikke hente kjøpsprodukter. Prøv igjen.');
+    }
   }
 }

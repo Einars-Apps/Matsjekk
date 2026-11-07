@@ -29,3 +29,25 @@ void safeSnack(BuildContext context, String message,
         .showSnackBar(SnackBar(content: Text(message), duration: duration));
   }
 }
+
+/// Keeps each whitespace-separated word intact. Scripts without spaces,
+/// including Chinese, Japanese and Korean, keep character wrapping.
+class RobustLabel extends StatelessWidget {
+  final String text;
+  final TextStyle? style;
+
+  const RobustLabel(this.text, {super.key, this.style});
+
+  @override
+  Widget build(BuildContext context) {
+    if (!text.contains(' ')) {
+      return Text(text, softWrap: true, style: style);
+    }
+    return Wrap(
+      children: [
+        for (final word in text.split(' '))
+          Text('$word ', softWrap: false, style: style),
+      ],
+    );
+  }
+}
