@@ -32,6 +32,30 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        manifestPlaceholders["huaweiAppId"] = ""
+    }
+
+    flavorDimensions += "store"
+    productFlavors {
+        create("play") {
+            dimension = "store"
+            isDefault = true
+        }
+        create("huawei") {
+            dimension = "store"
+            val huaweiProperties = Properties()
+            val huaweiPropertiesFile = rootProject.file("huawei.properties")
+            if (huaweiPropertiesFile.exists()) {
+                huaweiProperties.load(FileInputStream(huaweiPropertiesFile))
+            }
+            val huaweiAppId = huaweiProperties.getProperty("appId") ?: ""
+            manifestPlaceholders["huaweiAppId"] = huaweiAppId
+            buildConfigField("String", "HUAWEI_APP_ID", "\"$huaweiAppId\"")
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     signingConfigs {
@@ -67,4 +91,16 @@ kotlin {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    add("huaweiImplementation", "com.huawei.hms:iap:6.13.0.300")
+}
+
+// The Flutter plugin graph adds in_app_purchase_android to every variant.
+// The huawei flavor must not package Play Billing or declare its permission.
+configurations.configureEach {
+    if (name.contains("huawei")) {
+        exclude(group = "com.android.billingclient", module = "billing")
+    }
 }

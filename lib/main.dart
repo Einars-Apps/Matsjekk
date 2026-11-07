@@ -1082,7 +1082,10 @@ class _ScannerScreenState extends State<ScannerScreen>
               }
             }),
         actions: [
-child: Text(AppLocalizations.of(context)?.close ?? 'Close')
+          TextButton(
+            onPressed: () => _safePop(),
+            child: Text(AppLocalizations.of(context)?.close ?? 'Close'),
+          )
         ],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),

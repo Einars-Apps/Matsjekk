@@ -111,7 +111,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   ),
                 ],
               )
-            else if (_premiumService.products.isEmpty)
+            else if (_premiumService.offers.isEmpty)
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -128,18 +128,18 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ],
               )
             else
-              ..._premiumService.products.map(
+              ..._premiumService.offers.map(
                 (product) => Card(
                   child: ListTile(
                     title: Text(product.title),
                     subtitle: Text(
-                      '${product.price} • $oneTime',
+                      '${product.priceLabel} • $oneTime',
                     ),
                     trailing: _premiumService.isPremiumActive
                         ? const Icon(Icons.check_circle, color: Colors.green)
                         : ElevatedButton(
                             onPressed: () async {
-                              await _premiumService.buy(product);
+                              await _premiumService.buyLifetime();
                               if (!mounted) return;
                               widget.onPremiumChanged(
                                   _premiumService.isPremiumActive);
@@ -151,7 +151,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             const SizedBox(height: 8),
-            if (!_premiumService.isLoading && Platform.isIOS)
+            if (!_premiumService.isLoading &&
+                (_premiumService.usesHuaweiIap || Platform.isIOS))
               TextButton.icon(
               onPressed: () async {
                 await _premiumService.restorePurchases();
@@ -162,7 +163,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
               icon: const Icon(Icons.restore),
               label: Text(restore),
             ),
-            if (_premiumService.lastMessage.isNotEmpty && _premiumService.products.isNotEmpty)
+            if (_premiumService.lastMessage.isNotEmpty &&
+                _premiumService.offers.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(

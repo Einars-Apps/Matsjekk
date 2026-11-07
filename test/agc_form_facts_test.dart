@@ -22,6 +22,9 @@ void main() {
     expect(facts, contains('not a rollout percentage'));
     expect(facts, contains('178/178'));
     expect(facts, contains('9.1.0'));
+    expect(facts, contains('6759604589'));
+    expect(facts, contains('3465810'));
+    expect(facts, contains('not a claim that every historical'));
     expect(facts, contains('is not a verified URL'));
     expect(facts, isNot(contains('https://matsjekk.com/privacy.html#rights')));
     expect(facts, contains('Not involved'));
