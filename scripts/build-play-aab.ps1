@@ -7,10 +7,10 @@
 
 $ErrorActionPreference = 'Stop'
 
-$IsolatedRoot = 'C:\Users\ebors\AppData\Local\Temp\Matsjekk-release-3501948'
+$IsolatedRoot = 'C:\Users\ebors\AppData\Local\Temp\Matsjekk-release-3501949'
 $OriginalRoot = 'C:\Users\ebors\Projects\Einars-Apps\Matsjekk'
 $BuildName = '1.1.9'
-$BuildNumber = '3501948'
+$BuildNumber = '3501949'
 # Public Play upload certificate. Compared only after the new AAB is signed.
 $ExpectedSha256 = '29:F4:C1:56:AA:AB:67:28:04:89:CE:64:A0:54:0D:24:0A:73:99:12:1C:71:77:FF:D4:D6:92:FA:3A:E0:FA:80'
 $ExpectedSha1 = '88:C2:17:E8:7C:E4:34:F9:2A:9E:6E:C4:2E:53:F1:0B:1E:1F:DC:BC'

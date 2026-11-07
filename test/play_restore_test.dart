@@ -181,6 +181,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 50));
 
     expect(find.textContaining('Annonsefri er aktiv'), findsWidgets);
+    expect(find.textContaining('Kjøp tilbys ikke på nytt'), findsOneWidget);
     expect(find.text('Gjenopprett kjøp'), findsOneWidget);
     expect(find.text('Kjøp permanent'), findsNothing);
     expect(billing.restoreCalls, 0);
@@ -205,6 +206,37 @@ void main() {
     await tester.pump(const Duration(milliseconds: 50));
 
     expect(find.text('Kjøp permanent'), findsOneWidget);
+    expect(find.textContaining('ekte Google Play-fakturering'), findsOneWidget);
+    expect(find.text('Gjenopprett kjøp'), findsOneWidget);
+    expect(box.get(PremiumService.adsRemovedKey), isFalse);
+  });
+
+  testWidgets('missing Play product explains why purchase cannot start',
+      (tester) async {
+    final box = Hive.box('innstillinger');
+    await tester.runAsync(() async {
+      await box.put(PremiumService.adsRemovedKey, false);
+    });
+    final billing = _FakeBilling(
+      catalog: ProductDetailsResponse(
+        productDetails: const [],
+        notFoundIDs: [PremiumService.removeAdsProductId],
+      ),
+      ownedOnRestore: const [],
+    );
+    await tester.pumpWidget(MaterialApp(
+      home: PremiumScreen(
+        innstillingerBox: box,
+        onPremiumChanged: (_) {},
+        service: PremiumService(billing: billing),
+      ),
+    ));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 50));
+
+    expect(find.textContaining('Play returnerte ikke matsjekk_remove_ads_lifetime'), findsWidgets);
+    expect(find.textContaining('lisens-tester'), findsOneWidget);
+    expect(find.text('Kjøp permanent'), findsNothing);
     expect(find.text('Gjenopprett kjøp'), findsOneWidget);
     expect(box.get(PremiumService.adsRemovedKey), isFalse);
   });

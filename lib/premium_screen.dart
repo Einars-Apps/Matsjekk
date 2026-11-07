@@ -74,9 +74,22 @@ class _PremiumScreenState extends State<PremiumScreen> {
               ),
             ),
             const SizedBox(height: 12),
-            const Text(
-              'Kjøp annonsefri versjon',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            for (final line in purchaseStatusLines(
+              entitled: _premiumService.isPremiumActive,
+              loading: _premiumService.isLoading,
+              storeAvailable: _premiumService.isStoreAvailable,
+              hasProduct: _premiumService.products.isNotEmpty,
+              productId: PremiumService.removeAdsProductId,
+            ))
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Text(line),
+              ),
+            Text(
+              _premiumService.isPremiumActive
+                  ? 'Status for eksisterende kjøp'
+                  : 'Kjøp annonsefri versjon',
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
             const Text(
@@ -107,7 +120,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
+                    'Play returnerte ikke ${PremiumService.removeAdsProductId}.',
                   ),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
@@ -162,7 +175,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
               icon: const Icon(Icons.restore),
               label: const Text('Gjenopprett kjøp'),
             ),
-            if (_premiumService.lastMessage.isNotEmpty && _premiumService.products.isNotEmpty)
+            if (_premiumService.lastMessage.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(

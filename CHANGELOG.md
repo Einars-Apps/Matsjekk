@@ -2,7 +2,7 @@
 
 ## Unreleased (working)
 
-- Local Play candidate 1.1.9+3501948. 3501947 was already used by an internal release and is not reused. Not uploaded.
+- Local Play candidate 1.1.9+3501949. 3501948 is the current internal release and is not reused. The purchase screen states whether the buy button is hidden because the local lifetime right exists, Play is unavailable, or Play did not return the product. Not uploaded.
 - Android shows the existing restore control and, when the local ad-free flag is not already set, asks the store once for owned purchases after the purchase stream is subscribed. Store errors, an empty catalog, and an empty restore do not clear `adsRemoved`.
 - Main CI publishes GitHub Pages only for a push to `main`. Pull requests still run analyze and test.
 - A release Android bundle is not debug-signed when the upload key is missing.

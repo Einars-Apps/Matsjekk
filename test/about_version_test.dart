@@ -68,5 +68,15 @@ void main() {
       ),
       isTrue,
     );
+    expect(
+      purchaseStatusLines(
+        entitled: true,
+        loading: false,
+        storeAvailable: true,
+        hasProduct: true,
+        productId: 'matsjekk_remove_ads_lifetime',
+      ).join('\n'),
+      contains('Kjøp tilbys ikke på nytt'),
+    );
   });
 }
