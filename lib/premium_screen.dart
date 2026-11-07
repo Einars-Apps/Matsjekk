@@ -1,5 +1,3 @@
-import 'dart:io' show Platform;
-
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
@@ -8,11 +6,13 @@ import 'premium_service.dart';
 class PremiumScreen extends StatefulWidget {
   final Box innstillingerBox;
   final ValueChanged<bool> onPremiumChanged;
+  final PremiumService? service;
 
   const PremiumScreen({
     super.key,
     required this.innstillingerBox,
     required this.onPremiumChanged,
+    this.service,
   });
 
   @override
@@ -20,7 +20,7 @@ class PremiumScreen extends StatefulWidget {
 }
 
 class _PremiumScreenState extends State<PremiumScreen> {
-  final PremiumService _premiumService = PremiumService();
+  late final PremiumService _premiumService = widget.service ?? PremiumService();
 
   @override
   void initState() {
@@ -143,7 +143,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 ),
               ),
             const SizedBox(height: 8),
-            if (!_premiumService.isLoading && Platform.isIOS)
+            if (!_premiumService.isLoading)
               TextButton.icon(
               onPressed: () async {
                 await _premiumService.restorePurchases();
