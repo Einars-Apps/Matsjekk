@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T05:26:14.834286+00:00",
+  "updated_at": "2026-11-07T05:26:15.646657+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -79,6 +79,17 @@
       "source": "European Parliament",
       "id": "6c733989312ea825",
       "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUkw3ZWl1R2dGUS1SaF9wMUZ1dWRGMVdoTm9wV3VyZWh0YXl5SWRCSXJrRjZyUlVEOVVRWk9fSjdaTzBxclZQVFVHa3Z0aG9kSFNRbUZFSElUdEtKZzBPRzhSaG9DelRRZWhKMnhsSzIybzJ0OW9IYVBiWFJXUkpaVm1LWXVnTHJWLVhzQkJfWHp3YnFmMDBRZkRtVTdNT3pMU0J1czd3STF4ZTFjOEY2aE5DOEtGMWFkZnZEMnUxMVFyQlZJT0cyZDkzUjl0QjE4Snc0VXpKaDFGTGEzOUI3bmtjTUs3c3NCNTBLREJoS0VJelZnMzFDNVRpNkNSaDBkX2dPbFRETld4T01y?oc=5"
+    },
+    {
+      "date": "2025-12-15T08:00:00+00:00",
+      "title": "EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "Insektsmel",
+      "summary": " EUROPEAN COMMISSION Standing Committee on Plants, Animals, Food and Feed Section Novel Food and Toxicological Safety of the Food &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://food.ec.europa.eu/document/download/b79436a9-7987-4f8d-a728-87c6ac4ca9be_en?filename=reg-com_toxic_20251215_sum.pdf",
+      "source": "food.ec.europa.eu",
+      "id": "8864f6a449d51ee6",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaC05UEJTeVhiV2JDMldtblh4N3RjTTJUdjN1RXJnc1RJX1N0akhCcU1Pb1U0czRPOUp3LWR2Sl9KalFaMkF1LWFmRnd2RE9HX0ZWWTNKM3czOXotMnhaY2lTNk84SWRFZ1g5aGRUdDNtZjhMeUFXb1RoemFpLURJM2J4V0oyUDE4VTh5NUdIU2w5Zm1URnplanFIOWRIaFFZR2hScDFWTmlyb3puVXZkdUNJc1hBcUkwU2YyS01ocVo?oc=5"
     },
     {
       "date": "2025-12-15T08:00:00+00:00",
