@@ -1,16 +1,31 @@
 import 'dart:async';
-import 'dart:io' show Platform;
 
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
+import 'purchases/purchase_coordinator.dart';
+import 'purchases/purchase_models.dart';
+
+enum PurchaseCatalogStatus {
+  loading,
+  ready,
+  storeUnavailable,
+  queryFailed,
+  productNotReturned,
+}
+
 class PremiumService {
-  static const String removeAdsProductId = 'matsjekk_remove_ads_lifetime';
+  static const String removeAdsProductId = lifetimeRemoveAdsProductId;
   static const String adsRemovedKey = 'adsRemoved';
   static const String premiumActiveKey = adsRemovedKey;
   static const String legacyPremiumActiveKey = 'premiumActive';
 
-  final InAppPurchase _iap = InAppPurchase.instance;
+  final PurchaseCoordinator? _injected;
+  PurchaseCoordinator? _live;
+
+  PremiumService({PurchaseCoordinator? coordinator}) : _injected = coordinator;
+
+  PurchaseCoordinator get _coordinator => _live ?? _injected!;
 
   Box? _settingsBox;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
@@ -18,8 +33,12 @@ class PremiumService {
   bool isStoreAvailable = false;
   bool isPremiumActive = false;
   bool isLoading = true;
+  PurchaseCatalogStatus catalogStatus = PurchaseCatalogStatus.loading;
   String lastMessage = '';
-  List<ProductDetails> products = [];
+  List<LifetimeOffer> offers = [];
+
+  bool get usesHuaweiIap =>
+      _coordinator.provider == StoreProviderId.huaweiAppGallery;
 
   Future<void> initialize(Box settingsBox) async {
     _settingsBox = settingsBox;
@@ -31,55 +50,73 @@ class PremiumService {
           settingsBox.get(legacyPremiumActiveKey, defaultValue: false);
       await settingsBox.put(adsRemovedKey, isPremiumActive);
     }
-
-    isStoreAvailable = await _iap.isAvailable();
-    if (!isStoreAvailable) {
-      lastMessage = 'Butikk utilgjengelig akkurat nå. Prøv igjen senere.';
-      isLoading = false;
-      return;
-    }
-
-    _purchaseSubscription?.cancel();
-    _purchaseSubscription = _iap.purchaseStream.listen(
-      _handlePurchaseUpdates,
-      onError: (error) {
-        lastMessage = 'Kjøpsstrøm feilet: $error';
-      },
-    );
-
+    _live ??= _injected ??
+        await PurchaseCoordinator.production(
+          readEntitled: () => isPremiumActive,
+          writeEntitled: _setPremiumActive,
+        );
     await loadProducts();
   }
 
   Future<void> loadProducts() async {
-    if (!isStoreAvailable) return;
-
     isLoading = true;
-    final response = await _iap.queryProductDetails(
-      {removeAdsProductId},
-    );
-
-    products = response.productDetails.toList();
-
-    if (response.error != null) {
-      lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
-    } else if (products.isEmpty) {
-      lastMessage = Platform.isIOS
-          ? 'Fant ikke kjøpsproduktet. Sjekk App Store-konfigurasjon.'
-          : 'Fant ikke kjøpsproduktet. Sjekk Google Play-konfigurasjon.';
-    } else {
+    final catalog = await _coordinator.load();
+    if (catalog.isReady) {
+      catalogStatus = PurchaseCatalogStatus.ready;
+      isStoreAvailable = true;
+      offers = [catalog.offer!];
       lastMessage = '';
+    } else {
+      offers = [];
+      isStoreAvailable = catalog.failure?.kind != PurchaseFailureKind.storeUnavailable &&
+          catalog.failure?.kind != PurchaseFailureKind.notConfigured;
+      catalogStatus = switch (catalog.failure?.kind) {
+        PurchaseFailureKind.storeUnavailable ||
+        PurchaseFailureKind.notConfigured =>
+          PurchaseCatalogStatus.storeUnavailable,
+        PurchaseFailureKind.emptyCatalog ||
+        PurchaseFailureKind.productIdMismatch =>
+          PurchaseCatalogStatus.productNotReturned,
+        _ => PurchaseCatalogStatus.queryFailed,
+      };
+      lastMessage = catalog.failure?.message ?? '';
     }
-
+    if (!usesHuaweiIap && _purchaseSubscription == null) {
+      final billing = InAppPurchase.instance;
+      _purchaseSubscription = billing.purchaseStream.listen(
+        _handlePurchaseUpdates,
+        onError: (error) {
+          lastMessage = 'Kjøpsstrøm feilet: $error';
+        },
+      );
+    }
     isLoading = false;
   }
 
-  Future<void> buy(ProductDetails product) async {
-    final purchaseParam = PurchaseParam(productDetails: product);
-    await _iap.buyNonConsumable(purchaseParam: purchaseParam);
+  Future<void> buyLifetime() async {
+    final attempt = await _coordinator.buy();
+    if (attempt.kind == PurchaseAttemptKind.granted) {
+      await _setPremiumActive(true);
+      lastMessage = 'Betaling bekreftet. Annonser er nå fjernet permanent.';
+      catalogStatus = PurchaseCatalogStatus.ready;
+    } else if (attempt.failure != null) {
+      lastMessage = attempt.failure!.message;
+    }
   }
 
   Future<void> restorePurchases() async {
-    await _iap.restorePurchases();
+    final attempt = await _coordinator.restore();
+    if (attempt.kind == RestoreKind.granted ||
+        attempt.kind == RestoreKind.preserved) {
+      if (attempt.kind == RestoreKind.granted) {
+        await _setPremiumActive(true);
+      }
+      lastMessage = isPremiumActive
+          ? 'Tidligere kjøp er aktivt på denne enheten.'
+          : '';
+    } else if (attempt.failure != null) {
+      lastMessage = attempt.failure!.message;
+    }
   }
 
   Future<void> _handlePurchaseUpdates(
@@ -101,7 +138,7 @@ class PremiumService {
       }
 
       if (purchaseDetails.pendingCompletePurchase) {
-        await _iap.completePurchase(purchaseDetails);
+        await InAppPurchase.instance.completePurchase(purchaseDetails);
       }
     }
   }

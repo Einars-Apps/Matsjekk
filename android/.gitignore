@@ -12,3 +12,6 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+huawei.properties
+huawei-iap-public.pem
+app/agconnect-services.json

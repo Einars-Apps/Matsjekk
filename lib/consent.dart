@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'config/links.dart';
+import 'gen_l10n/app_localizations.dart';
 
 class ConsentDialog extends StatefulWidget {
   final bool showAdBanner;
@@ -30,6 +31,10 @@ class _ConsentDialogState extends State<ConsentDialog> {
   }
 
   void _save(bool value) async {
+    final l = AppLocalizations.of(context);
+    final snack = value
+        ? (l?.analyticsEnabled ?? 'Thanks — analytics enabled.')
+        : (l?.analyticsDisabled ?? 'Analytics disabled.');
     final box = Hive.box('innstillinger');
     await box.put('analytics_opt_in', value);
     if (widget.markPrivacyNoticeSeen) {
@@ -37,7 +42,6 @@ class _ConsentDialogState extends State<ConsentDialog> {
     }
     if (!mounted) return;
     Navigator.of(context).pop();
-    final snack = value ? 'Takk - analyse aktivert.' : 'Analyse deaktivert.';
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(snack)));
   }
 
@@ -61,8 +65,9 @@ class _ConsentDialogState extends State<ConsentDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
     return AlertDialog(
-      title: const Text('Personvern'),
+      title: Text(l?.privacyTitle ?? 'Privacy'),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -71,33 +76,35 @@ class _ConsentDialogState extends State<ConsentDialog> {
             Text(widget.initialMessage!),
             const SizedBox(height: 8),
           ],
-          const Text(
-              'Dette er valgfritt. Hvis du ikke samtykker, blir bruken din ikke sendt til analyse.'),
+          Text(l?.consentOptional ??
+              'This is optional. If you don’t consent, your usage is not sent for analytics.'),
           const SizedBox(height: 8),
-          const Text(
-              'Appen fungerer uansett, og data kan bli kun pa din enhet.'),
+          Text(l?.consentWorksAnyway ??
+              'The app works either way, and data can stay on your device only.'),
           const SizedBox(height: 8),
           Align(
             alignment: Alignment.centerLeft,
             child: TextButton.icon(
               onPressed: _openPrivacyPolicy,
               icon: const Icon(Icons.open_in_new),
-              label: const Text('Les personvernreglene'),
+              label: Text(l?.readPrivacyPolicy ?? 'Read the privacy policy'),
             ),
           ),
           const SizedBox(height: 12),
           Row(children: [
-            const Text('Tillat anonym analyse'),
-            const Spacer(),
+            Flexible(
+                child: Text(
+                    l?.allowAnonymousAnalytics ?? 'Allow anonymous analytics')),
+            const SizedBox(width: 8),
             Switch(value: _optIn, onChanged: (v) => setState(() => _optIn = v))
           ])
         ],
       ),
       // Build actions and interactive switch outside of const children
       actions: [
-        TextButton(onPressed: _close, child: const Text('Lukk')),
+        TextButton(onPressed: _close, child: Text(l?.close ?? 'Close')),
         ElevatedButton(
-            onPressed: () => _save(_optIn), child: const Text('Lagre'))
+            onPressed: () => _save(_optIn), child: Text(l?.save ?? 'Save'))
       ],
     );
   }
