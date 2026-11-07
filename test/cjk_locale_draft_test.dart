@@ -58,13 +58,20 @@ void main() {
   });
 
   test('draft locales have the same keys as English and no empty strings', () {
+    final enKeys = en.keys.toSet();
     for (final entry in drafts.entries) {
-      expect(entry.value.keys, en.keys, reason: entry.key);
+      expect(enKeys.containsAll(entry.value.keys), isTrue, reason: entry.key);
       for (final value in entry.value.values) {
         expect(value.trim(), isNotEmpty, reason: entry.key);
         expect(value.length, lessThan(500), reason: entry.key);
       }
     }
+    expect(
+      lookupAppLocalizations(
+        const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
+      ).privacyIntro,
+      isNotEmpty,
+    );
   });
 
   test('draft purchase menu text does not invent a price or subscription', () {

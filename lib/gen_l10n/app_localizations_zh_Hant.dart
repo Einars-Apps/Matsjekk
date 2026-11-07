@@ -225,4 +225,216 @@ class AppLocalizationsZhHant extends AppLocalizations {
   @override
   String get removeAdsMenuItem => '移除廣告（一次性購買）';
 
+  // Draft additions for map/l10n keys. Pending linguistic QA.
+  @override
+  String get gmoRegExplicit => '歐盟監管狀態：產品看起來屬於受基因改造/NGT 監管的類別。';
+
+  @override
+  String get gmoRegFeedChain => '歐盟監管狀態：可能透過飼料鏈適用基因改造/NGT 規則。';
+
+  @override
+  String get gmoRegNgt => '歐盟監管狀態：產品可能適用歐盟關於基因編輯（NGT）的新決定。';
+
+  @override
+  String get gmoRegSupplyChain => '歐盟監管狀態：可能透過進口商、供應商或生產商鏈條間接涉及基因改造/NGT。';
+
+  @override
+  String get gmoRegCropOrigin => '歐盟監管狀態：來自美國或非歐盟的易基因改造原料，可能觸發歐盟基因改造標示要求。';
+
+  @override
+  String get gmoRegCropUnknown => '歐盟監管狀態：進口或供應環節有易基因改造原料，來源應當核實。';
+
+  @override
+  String get insectRegExplicit => '歐盟監管狀態：產品看起來屬於受昆蟲或新穎食品監管的類別。';
+
+  @override
+  String get insectRegNovelFood => '歐盟監管狀態：產品可能適用歐盟把昆蟲作為新穎食品的規則。';
+
+  @override
+  String get insectRegSupplyChain => '歐盟監管狀態：可能透過進口商、供應商或生產商鏈條間接相關。';
+
+  @override
+  String get gmoConsExplicit => '消費者風險：產品文字或標籤顯示含有基因改造。';
+
+  @override
+  String get gmoConsFeed => '消費者風險：品牌或類別與已知的基因改造飼料暴露相符。';
+
+  @override
+  String get gmoConsNgt => '消費者風險：可能影響消費市場，但應對照標籤和生產商資訊核實。';
+
+  @override
+  String get gmoConsSupplyChain => '消費者風險：可能透過供應鏈（誰賣給誰）存在風險。請核實標籤和來源。';
+
+  @override
+  String get gmoConsCropOrigin => '消費者風險：含有易基因改造原料（大豆、玉米、油菜、甜菜或棉花），並從該作物以基因改造為主的國家進口。請查看標籤是否標有「非基因改造」。';
+
+  @override
+  String get gmoConsCropUnknown => '消費者風險：產品含有易基因改造原料（大豆、玉米、油菜、甜菜或棉花）。來源未知，請查看標籤和原產國。';
+
+  @override
+  String get insectConsExplicit => '消費者風險：產品文字或配料顯示昆蟲粉或昆蟲蛋白。';
+
+  @override
+  String get insectConsNovelFood => '消費者風險：可能與昆蟲有關，請查看配料表。';
+
+  @override
+  String get insectConsSupplyChain => '消費者風險：可能透過供應鏈（誰賣給誰）存在風險。';
+
+  @override
+  String get noKnownRisk => '此類別沒有已知風險。';
+
+  @override
+  String get searchBetaNote => '測試版：搜尋仍在改進。做選擇前請再次核對產品資訊。';
+
+  @override
+  String get couldNotOpenLink => '無法開啟連結';
+
+  @override
+  String get eNumberNoDescription => '我們還沒有這種添加劑的說明。E 編號是歐盟/歐洲經濟區使用的添加劑代碼。';
+
+  @override
+  String get allergensTitle => '過敏原';
+
+  @override
+  String get noAllergensFound => '未找到過敏原。';
+
+  @override
+  String get nutritionTitle => '營養（每 100 克）';
+
+  @override
+  String get noNutritionFound => '未找到營養資訊。';
+
+  @override
+  String get alertsTitle => '提醒';
+
+  @override
+  String get alertEvidence => '依據：';
+
+  @override
+  String get alertInternalListNote => '提醒：內部品牌關聯名單';
+
+  @override
+  String get alertBrandTrackingNote => '提醒：品牌追蹤和公開資訊';
+
+  @override
+  String get reportNoteHint => '簡短說明（例如誤報）';
+
+  @override
+  String get report => '回報';
+
+  @override
+  String get send => '送出';
+
+  @override
+  String get reportSaved => '謝謝，回報已儲存。';
+
+  @override
+  String get seeUpdatedStatus => '查看更新後的狀態';
+
+  @override
+  String get openEuSource => '開啟歐盟來源';
+
+  @override
+  String get openInsectSource => '開啟昆蟲來源';
+
+  @override
+  String get privacyTitle => '隱私';
+
+  @override
+  String get consentOptional => '這是可選的。如果不同意，使用情況不會被送去分析。';
+
+  @override
+  String get consentWorksAnyway => '無論是否同意，應用程式都能使用，資料可以只留在這台裝置上。';
+
+  @override
+  String get readPrivacyPolicy => '閱讀隱私說明';
+
+  @override
+  String get allowAnonymousAnalytics => '允許匿名分析';
+
+  @override
+  String get analyticsEnabled => '謝謝，分析已開啟。';
+
+  @override
+  String get analyticsDisabled => '分析已關閉。';
+
+  @override
+  String get countryDataSources => '國家 / 資料來源';
+
+  @override
+  String get chooseCountryTitle => '選擇國家（優先使用現有來源）';
+
+  @override
+  String get privacyIntro => '請在首次使用時查看隱私說明。你可以不啟用分析並繼續使用，購物資料保存在這台裝置上。';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return '無法開啟連結：$error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return '無法儲存回報：$error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return '嚴重程度：$value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return '原因：$value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return '信心程度：$value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return '來自 Matvaretabellen 的建議：$count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '「$item」已加入 $list';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return '能量：$value 千卡';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return '脂肪：$value 克';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return '其中飽和脂肪：$value 克';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return '碳水化合物：$value 克';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return '其中糖：$value 克';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return '蛋白質：$value 克';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return '鹽：$value 克';
+  }
+
 }

@@ -9,3 +9,16 @@ const String kEuGmoDecisionUrl =
 	'https://food.ec.europa.eu/plants/genetically-modified-organisms/new-techniques-biotechnology_en';
 const String kEuNovelFoodInsectsUrl =
 	'https://food.ec.europa.eu/safety/novel-food/authorisations/summary-applications-and-notifications_en';
+
+// Farm shops (gårdsbutikker) – same data as docs/gardsbutikker.html.
+// Bump kFarmShopsDataVersion (YYYYMMDD) to bust caches after data updates.
+const String kFarmShopsDataVersion = '20261025';
+const String kFarmShopsByCountryBaseUrl =
+    'https://matsjekk.com/data/farmshops_by_country';
+const String kOrganicFarmShopsUrl =
+    'https://matsjekk.com/data/organic_farmshops.json?v=$kFarmShopsDataVersion';
+const String kFarmShopsWebUrl = 'https://matsjekk.com/gardsbutikker.html';
+const String kOsmCopyrightUrl = 'https://www.openstreetmap.org/copyright';
+
+String farmShopsCountryUrl(String countryCode) =>
+    '$kFarmShopsByCountryBaseUrl/${countryCode.toLowerCase()}.json?v=$kFarmShopsDataVersion';

@@ -225,4 +225,216 @@ class AppLocalizationsJa extends AppLocalizations {
   @override
   String get removeAdsMenuItem => '広告を消す（買い切り）';
 
+  // Draft additions for map/l10n keys. Pending linguistic QA.
+  @override
+  String get gmoRegExplicit => 'EU の規制状況：製品は遺伝子組み換え/NGT の規制区分に当たるようです。';
+
+  @override
+  String get gmoRegFeedChain => 'EU の規制状況：飼料の流れを通じて遺伝子組み換え/NGT の規則が適用される可能性があります。';
+
+  @override
+  String get gmoRegNgt => 'EU の規制状況：製品は遺伝子編集（NGT）に関する EU の新しい決定の対象になる可能性があります。';
+
+  @override
+  String get gmoRegSupplyChain => 'EU の規制状況：輸入者、供給者または生産者の連鎖を通じて、間接的に遺伝子組み換え/NGT と関係する可能性があります。';
+
+  @override
+  String get gmoRegCropOrigin => 'EU の規制状況：米国または EU 域外の、遺伝子組み換えが多い原料です。EU の表示義務の対象になる可能性があります。';
+
+  @override
+  String get gmoRegCropUnknown => 'EU の規制状況：輸入または供給の段階に遺伝子組み換えが多い原料があります。原産は確認が必要です。';
+
+  @override
+  String get insectRegExplicit => 'EU の規制状況：製品は昆虫または新規食品の規制区分に当たるようです。';
+
+  @override
+  String get insectRegNovelFood => 'EU の規制状況：製品は昆虫を新規食品とする EU 規則の対象になる可能性があります。';
+
+  @override
+  String get insectRegSupplyChain => 'EU の規制状況：輸入者、供給者または生産者の連鎖を通じて間接的に関係する可能性があります。';
+
+  @override
+  String get gmoConsExplicit => '消費者リスク：製品の文字または表示が遺伝子組み換えを示しています。';
+
+  @override
+  String get gmoConsFeed => '消費者リスク：ブランドまたは分類が、既知の遺伝子組み換え飼料への接触と一致します。';
+
+  @override
+  String get gmoConsNgt => '消費者リスク：消費市場に影響する可能性がありますが、表示と生産者情報で確認してください。';
+
+  @override
+  String get gmoConsSupplyChain => '消費者リスク：サプライチェーン（誰が誰に売るか）を通じたリスクの可能性があります。表示と原産を確認してください。';
+
+  @override
+  String get gmoConsCropOrigin => '消費者リスク：遺伝子組み換えが多い原料（大豆、トウモロコシ、菜種、てん菜、綿）を、その作物が主に遺伝子組み換えの国から輸入しています。表示に「遺伝子組み換えでない」とあるか確認してください。';
+
+  @override
+  String get gmoConsCropUnknown => '消費者リスク：製品には遺伝子組み換えが多い原料（大豆、トウモロコシ、菜種、てん菜、綿）が含まれます。原産は不明です。表示と原産国を確認してください。';
+
+  @override
+  String get insectConsExplicit => '消費者リスク：製品の文字または原材料が昆虫粉または昆虫たんぱくを示しています。';
+
+  @override
+  String get insectConsNovelFood => '消費者リスク：昆虫と関係する可能性があります。原材料を確認してください。';
+
+  @override
+  String get insectConsSupplyChain => '消費者リスク：サプライチェーン（誰が誰に売るか）を通じたリスクの可能性があります。';
+
+  @override
+  String get noKnownRisk => 'この区分に既知のリスクはありません。';
+
+  @override
+  String get searchBetaNote => 'ベータ版：検索は改善中です。選ぶ前に製品情報を再確認してください。';
+
+  @override
+  String get couldNotOpenLink => 'リンクを開けませんでした';
+
+  @override
+  String get eNumberNoDescription => 'この添加物の説明はまだありません。E 番号は EU/EEA で使われる添加物コードです。';
+
+  @override
+  String get allergensTitle => 'アレルゲン';
+
+  @override
+  String get noAllergensFound => 'アレルゲンは見つかりませんでした。';
+
+  @override
+  String get nutritionTitle => '栄養（100 g あたり）';
+
+  @override
+  String get noNutritionFound => '栄養情報は見つかりませんでした。';
+
+  @override
+  String get alertsTitle => '警告';
+
+  @override
+  String get alertEvidence => '根拠：';
+
+  @override
+  String get alertInternalListNote => '警告：内部のブランド関連リスト';
+
+  @override
+  String get alertBrandTrackingNote => '警告：ブランドの追跡と公開情報';
+
+  @override
+  String get reportNoteHint => '短いメモ（例：誤検知）';
+
+  @override
+  String get report => '報告';
+
+  @override
+  String get send => '送信';
+
+  @override
+  String get reportSaved => 'ありがとう。報告を保存しました。';
+
+  @override
+  String get seeUpdatedStatus => '更新された状態を見る';
+
+  @override
+  String get openEuSource => 'EU の出典を開く';
+
+  @override
+  String get openInsectSource => '昆虫の出典を開く';
+
+  @override
+  String get privacyTitle => 'プライバシー';
+
+  @override
+  String get consentOptional => 'これは任意です。同意しない場合、利用状況は分析に送られません。';
+
+  @override
+  String get consentWorksAnyway => '同意してもしなくてもアプリは使えます。データはこの端末だけに残せます。';
+
+  @override
+  String get readPrivacyPolicy => 'プライバシー説明を読む';
+
+  @override
+  String get allowAnonymousAnalytics => '匿名の分析を許可する';
+
+  @override
+  String get analyticsEnabled => 'ありがとう。分析を有効にしました。';
+
+  @override
+  String get analyticsDisabled => '分析を無効にしました。';
+
+  @override
+  String get countryDataSources => '国 / データ源';
+
+  @override
+  String get chooseCountryTitle => '国を選択（既存の情報源を優先）';
+
+  @override
+  String get privacyIntro => '初めて使うときはプライバシー説明を確認してください。分析を使わずに続行でき、買い物データはこの端末に残ります。';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return 'リンクを開けませんでした：$error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return '報告を保存できませんでした：$error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return '重大度：$value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return '理由：$value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return '確信度：$value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return 'Matvaretabellen からの候補：$count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '「$item」を $list に追加しました';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return 'エネルギー：$value kcal';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return '脂質：$value g';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return 'うち飽和脂肪酸：$value g';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return '炭水化物：$value g';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return 'うち糖類：$value g';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return 'たんぱく質：$value g';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return '食塩相当量：$value g';
+  }
+
 }

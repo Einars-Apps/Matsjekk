@@ -225,4 +225,216 @@ class AppLocalizationsKo extends AppLocalizations {
   @override
   String get removeAdsMenuItem => '광고 제거(일회성 구매)';
 
+  // Draft additions for map/l10n keys. Pending linguistic QA.
+  @override
+  String get gmoRegExplicit => 'EU 규제 상태: 제품이 유전자변형/NGT 규제 범주에 해당하는 것으로 보입니다.';
+
+  @override
+  String get gmoRegFeedChain => 'EU 규제 상태: 사료 경로를 통해 유전자변형/NGT 규칙이 적용될 수 있습니다.';
+
+  @override
+  String get gmoRegNgt => 'EU 규제 상태: 제품이 유전자편집(NGT)에 대한 EU의 새 결정 대상일 수 있습니다.';
+
+  @override
+  String get gmoRegSupplyChain => 'EU 규제 상태: 수입업자, 공급자 또는 생산자 연결을 통해 간접적으로 유전자변형/NGT와 관련될 수 있습니다.';
+
+  @override
+  String get gmoRegCropOrigin => 'EU 규제 상태: 미국 또는 EU 밖에서 온, 유전자변형이 많은 원료입니다. EU 표시 요건이 적용될 수 있습니다.';
+
+  @override
+  String get gmoRegCropUnknown => 'EU 규제 상태: 수입 또는 공급 단계에 유전자변형이 많은 원료가 있습니다. 원산지는 확인이 필요합니다.';
+
+  @override
+  String get insectRegExplicit => 'EU 규제 상태: 제품이 곤충 또는 신규식품 규제 범주에 해당하는 것으로 보입니다.';
+
+  @override
+  String get insectRegNovelFood => 'EU 규제 상태: 제품이 곤충을 신규식품으로 보는 EU 규칙의 대상일 수 있습니다.';
+
+  @override
+  String get insectRegSupplyChain => 'EU 규제 상태: 수입업자, 공급자 또는 생산자 연결을 통해 간접적으로 관련될 수 있습니다.';
+
+  @override
+  String get gmoConsExplicit => '소비자 위험: 제품 문구 또는 표시가 유전자변형을 나타냅니다.';
+
+  @override
+  String get gmoConsFeed => '소비자 위험: 브랜드 또는 분류가 알려진 유전자변형 사료 노출과 맞습니다.';
+
+  @override
+  String get gmoConsNgt => '소비자 위험: 소비 시장에 영향을 줄 수 있지만, 표시와 생산자 정보로 확인해야 합니다.';
+
+  @override
+  String get gmoConsSupplyChain => '소비자 위험: 공급망(누가 누구에게 파는지)을 통한 위험 가능성이 있습니다. 표시와 원산지를 확인하세요.';
+
+  @override
+  String get gmoConsCropOrigin => '소비자 위험: 유전자변형이 많은 원료(대두, 옥수수, 유채, 사탕무, 면화)가 그 작물이 주로 유전자변형인 나라에서 수입되었습니다. 표시에 “유전자변형 아님”이 있는지 확인하세요.';
+
+  @override
+  String get gmoConsCropUnknown => '소비자 위험: 제품에 유전자변형이 많은 원료(대두, 옥수수, 유채, 사탕무, 면화)가 있습니다. 원산지는 알 수 없습니다. 표시와 원산국을 확인하세요.';
+
+  @override
+  String get insectConsExplicit => '소비자 위험: 제품 문구 또는 원재료가 곤충 분말 또는 곤충 단백질을 나타냅니다.';
+
+  @override
+  String get insectConsNovelFood => '소비자 위험: 곤충과 관련될 수 있습니다. 원재료를 확인하세요.';
+
+  @override
+  String get insectConsSupplyChain => '소비자 위험: 공급망(누가 누구에게 파는지)을 통한 위험 가능성이 있습니다.';
+
+  @override
+  String get noKnownRisk => '이 범주에서 알려진 위험은 없습니다.';
+
+  @override
+  String get searchBetaNote => '베타: 검색은 계속 개선 중입니다. 선택하기 전에 제품 정보를 다시 확인하세요.';
+
+  @override
+  String get couldNotOpenLink => '링크를 열 수 없습니다';
+
+  @override
+  String get eNumberNoDescription => '이 첨가물에 대한 설명이 아직 없습니다. E 번호는 EU/EEA에서 쓰는 첨가물 코드입니다.';
+
+  @override
+  String get allergensTitle => '알레르기 유발물질';
+
+  @override
+  String get noAllergensFound => '알레르기 유발물질을 찾지 못했습니다.';
+
+  @override
+  String get nutritionTitle => '영양 (100 g당)';
+
+  @override
+  String get noNutritionFound => '영양 정보를 찾지 못했습니다.';
+
+  @override
+  String get alertsTitle => '알림';
+
+  @override
+  String get alertEvidence => '근거:';
+
+  @override
+  String get alertInternalListNote => '알림: 내부 브랜드 연결 목록';
+
+  @override
+  String get alertBrandTrackingNote => '알림: 브랜드 추적과 공개 정보';
+
+  @override
+  String get reportNoteHint => '짧은 메모 (예: 오탐)';
+
+  @override
+  String get report => '신고';
+
+  @override
+  String get send => '보내기';
+
+  @override
+  String get reportSaved => '감사합니다. 신고를 저장했습니다.';
+
+  @override
+  String get seeUpdatedStatus => '갱신된 상태 보기';
+
+  @override
+  String get openEuSource => 'EU 출처 열기';
+
+  @override
+  String get openInsectSource => '곤충 출처 열기';
+
+  @override
+  String get privacyTitle => '개인정보';
+
+  @override
+  String get consentOptional => '선택 사항입니다. 동의하지 않으면 사용 정보는 분석으로 전송되지 않습니다.';
+
+  @override
+  String get consentWorksAnyway => '동의 여부와 관계없이 앱은 동작하며, 데이터는 이 기기에만 남을 수 있습니다.';
+
+  @override
+  String get readPrivacyPolicy => '개인정보 안내 읽기';
+
+  @override
+  String get allowAnonymousAnalytics => '익명 분석 허용';
+
+  @override
+  String get analyticsEnabled => '감사합니다. 분석을 켰습니다.';
+
+  @override
+  String get analyticsDisabled => '분석을 껐습니다.';
+
+  @override
+  String get countryDataSources => '국가 / 데이터 출처';
+
+  @override
+  String get chooseCountryTitle => '국가 선택 (기존 출처를 우선)';
+
+  @override
+  String get privacyIntro => '처음 사용할 때 개인정보 안내를 확인하세요. 분석을 켜지 않고 계속할 수 있으며, 장보기 데이터는 이 기기에 남습니다.';
+
+  @override
+  String couldNotOpenLinkError(String error) {
+    return '링크를 열 수 없습니다: $error';
+  }
+
+  @override
+  String reportSaveFailed(String error) {
+    return '신고를 저장할 수 없습니다: $error';
+  }
+
+  @override
+  String alertSeverity(String value) {
+    return '심각도: $value';
+  }
+
+  @override
+  String alertReason(String value) {
+    return '이유: $value';
+  }
+
+  @override
+  String alertConfidence(String value) {
+    return '확신도: $value';
+  }
+
+  @override
+  String matvaretabellenSuggestions(String count) {
+    return 'Matvaretabellen 제안: $count';
+  }
+
+  @override
+  String addedToList(String item, String list) {
+    return '"$item"을(를) $list에 추가했습니다';
+  }
+
+  @override
+  String nutritionEnergy(String value) {
+    return '에너지: $value kcal';
+  }
+
+  @override
+  String nutritionFat(String value) {
+    return '지방: $value g';
+  }
+
+  @override
+  String nutritionSaturatedFat(String value) {
+    return '그중 포화지방: $value g';
+  }
+
+  @override
+  String nutritionCarbohydrates(String value) {
+    return '탄수화물: $value g';
+  }
+
+  @override
+  String nutritionSugars(String value) {
+    return '그중 당류: $value g';
+  }
+
+  @override
+  String nutritionProtein(String value) {
+    return '단백질: $value g';
+  }
+
+  @override
+  String nutritionSalt(String value) {
+    return '소금: $value g';
+  }
+
 }
