@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T05:26:12.481296+00:00",
+  "updated_at": "2026-11-11T05:26:10.250418+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -15,15 +15,15 @@
       "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV21aVGV6aW93ZC1QT2trQkVLcW5kdUtLQVlyTnZFUE1Oc000NGhLQUxiUVpGUEljTmNWUjhhWEFpdmRfN2pHZjZ6R1lDaEE1THBGOEY3ZHhEZXpiYU9yR050cHdLRU50TU9GeW1YdzZlZkZJODVVczBLcG9MLXRHZUV4dmhNZjdlTmpkbE92bUMwMGMxMUMxTGVzSHhVcGs0d0ZMbXd2WmhhZ0pjXzNIVVptTHNRSnFicEVxV0lDYnV6dzc2WmZjVmxOMjhlQjFaZUxv?oc=5"
     },
     {
-      "date": "2026-08-31T07:00:00+00:00",
-      "title": "SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 - food.ec.europa.eu",
+      "date": "2026-09-21T07:00:00+00:00",
+      "title": "New genomic techniques for plants and their products - EUR-Lex",
       "type": "Automatisk oppdaget oppdatering",
       "topic": "GMO/NGT",
-      "summary": " SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 &nbsp;&nbsp; food.ec.europa.eu ",
-      "url": "https://food.ec.europa.eu/food-safety-news/save-date-conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-08-31_en",
-      "source": "food.ec.europa.eu",
-      "id": "6a4bb048109a18d8",
-      "google_news_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSDdJdzh5Yjh4RDZ2RExHZzdFQzQwekNUT2hSWnVXUmZiNzU0NFVUVlpUMGdGcWZQV0lSZ0NXLWJQLXplVThjYUlnU2ZIdnFWVHdQQzY5Tm9KbjA0Smw2X1hLY3hwdG9JSlk4VEdXRXlwekN3QmpLaTNTcTdoOWtuT0NscDF0RzVlY1k0S2hGVk1UbjFaTU95eFdteXlHSFFwSkFaU0NfZ2NFaDI3VmN2WU9fWEZlX1E0ZlctZUt2WTBRWWdJZHVqWXRmSE9BaEpKM0JzUERVSHF1Q1BYbGhOZExwcDAzV0NYd0QxYTNR?oc=5"
+      "summary": " New genomic techniques for plants and their products &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=LEGISSUM%3A5649353",
+      "source": "EUR-Lex",
+      "id": "557c42ee081f0a08",
+      "google_news_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTUlYaGQzMVI1OXpxdU1qVkJkSkRHQkxTeUV6R3hjd0RKSjJqWkRhRHZDZ3JkRzlNSW1MdlhzREptMVFEUnY0Rm84anVRa2ZUVzhSaFJidGVIN1hPaFZDS0Mxc2FRVmNqSzNVMEZLemQ3SzgzU3J3T1JyaUZiNGtpUA?oc=5"
     },
     {
       "date": "2026-08-31T07:00:00+00:00",
@@ -35,6 +35,17 @@
       "source": "food.ec.europa.eu",
       "id": "9193b4756b02f30a",
       "google_news_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWEVNN245XzZYWW5qQ1cyYnBUSkVkZ1hKaVlSOW56dTNxdDZ4UzgzZWFsandSZ0RPXzJxY1pNeVRmQ1FWWm9Oai1RM1l0Z1A4NmlFLXFnSURVRTBFbmVYMlZwNHhtZ2RCX1F6Z1lrSUdhZURVWFlLU2E5VElPUDFSOEZXUUxPZkpWcHB5b2RRMzZlSUJzUEdKbXBFMVFSQ2dUSnp5RjFfcWNoQnItVGFCWmtpS1BvbURWbFZib0lRa0o5bUN2YnM4UHY3M182eUtQT25GRmh6YnJYMy02Vl9neA?oc=5"
+    },
+    {
+      "date": "2026-08-31T07:00:00+00:00",
+      "title": "SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 - food.ec.europa.eu",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " SAVE THE DATE: Conference on Innovation and Resilience in the Agrifood Chain - Regulation on Plants Obtained by New Genomic Techniques – 3 December 2026 &nbsp;&nbsp; food.ec.europa.eu ",
+      "url": "https://food.ec.europa.eu/food-safety-news/save-date-conference-innovation-and-resilience-agrifood-chain-regulation-plants-obtained-new-genomic-2026-08-31_en",
+      "source": "food.ec.europa.eu",
+      "id": "6a4bb048109a18d8",
+      "google_news_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSDdJdzh5Yjh4RDZ2RExHZzdFQzQwekNUT2hSWnVXUmZiNzU0NFVUVlpUMGdGcWZQV0lSZ0NXLWJQLXplVThjYUlnU2ZIdnFWVHdQQzY5Tm9KbjA0Smw2X1hLY3hwdG9JSlk4VEdXRXlwekN3QmpLaTNTcTdoOWtuT0NscDF0RzVlY1k0S2hGVk1UbjFaTU95eFdteXlHSFFwSkFaU0NfZ2NFaDI3VmN2WU9fWEZlX1E0ZlctZUt2WTBRWWdJZHVqWXRmSE9BaEpKM0JzUERVSHF1Q1BYbGhOZExwcDAzV0NYd0QxYTNR?oc=5"
     },
     {
       "date": "2026-07-16T07:00:00+00:00",
