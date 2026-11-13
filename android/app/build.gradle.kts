@@ -9,9 +9,25 @@ plugins {
 }
 
 val keystoreProperties = Properties()
-val keystorePropertiesFile = rootProject.file("key.properties")
+val keystorePropertiesFile = System.getenv("MATSJEKK_KEY_PROPERTIES")
+    ?.takeIf { it.isNotBlank() }
+    ?.let { file(it) }
+    ?: rootProject.file("key.properties")
+val storeFileBase = System.getenv("MATSJEKK_STORE_FILE_BASE")
+    ?.takeIf { it.isNotBlank() }
+    ?.let { file(it) }
+    ?: project.projectDir
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(FileInputStream(keystorePropertiesFile))
+}
+
+fun signingValue(name: String): String =
+    keystoreProperties.getProperty(name)?.trim().orEmpty()
+
+fun resolvedStoreFile(): File {
+    val raw = signingValue("storeFile")
+    val direct = File(raw)
+    return if (direct.isAbsolute) direct else File(storeFileBase, raw)
 }
 
 android {
@@ -20,12 +36,8 @@ android {
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11.toString()
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     defaultConfig {
@@ -40,26 +52,52 @@ android {
 
     signingConfigs {
         create("release") {
-            if (keystorePropertiesFile.exists()) {
-                keyAlias = keystoreProperties["keyAlias"] as String
-                keyPassword = keystoreProperties["keyPassword"] as String
-                storeFile = file(keystoreProperties["storeFile"] as String)
-                storePassword = keystoreProperties["storePassword"] as String
+            if (keystorePropertiesFile.isFile &&
+                signingValue("storeFile").isNotEmpty() &&
+                resolvedStoreFile().isFile
+            ) {
+                keyAlias = signingValue("keyAlias")
+                keyPassword = signingValue("keyPassword")
+                storeFile = resolvedStoreFile()
+                storePassword = signingValue("storePassword")
             }
         }
     }
 
     buildTypes {
         release {
-            // Use the upload keystore from key.properties when present (release builds /
-            // Play uploads). Falls back to debug signing on machines/CI without the key
-            // so `flutter run --release` and analyze still work.
-            signingConfig = if (keystorePropertiesFile.exists()) {
-                signingConfigs.getByName("release")
-            } else {
-                signingConfigs.getByName("debug")
+            // Never fall back to the debug key. A release bundle is signed only
+            // when the upload keystore is present; otherwise packaging fails closed.
+            if (keystorePropertiesFile.isFile && resolvedStoreFile().isFile) {
+                signingConfig = signingConfigs.getByName("release")
             }
         }
+    }
+}
+
+gradle.taskGraph.whenReady {
+    val needsUploadSignature = allTasks.any { task ->
+        val name = task.name
+        name == "bundleRelease" ||
+            name == "assembleRelease" ||
+            name == "signReleaseBundle" ||
+            name.startsWith("packageRelease")
+    }
+    if (!needsUploadSignature) {
+        return@whenReady
+    }
+    val missing = listOf("keyAlias", "keyPassword", "storeFile", "storePassword")
+        .filter { signingValue(it).isEmpty() }
+    if (!keystorePropertiesFile.isFile || missing.isNotEmpty() || !resolvedStoreFile().isFile) {
+        throw GradleException(
+            "Release signing is incomplete. Refusing to use the debug key."
+        )
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17
     }
 }
 
