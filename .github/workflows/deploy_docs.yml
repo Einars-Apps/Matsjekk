@@ -5,6 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Called by Farmshops nightly after it pushes with GITHUB_TOKEN.
+  # That token cannot start the `push` trigger above, so the bot commit
+  # would otherwise never be published.
+  workflow_call:
   workflow_run:
     workflows: ["EU Decisions Ingest"]
     types: [completed]
