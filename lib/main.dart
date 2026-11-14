@@ -966,6 +966,10 @@ class _ScannerScreenState extends State<ScannerScreen>
             'eStoffer': allEStoffer,
             'supplyChainText': supplyChainText,
           };
+          info['shopCountry'] = (selectedCountry.isEmpty
+                  ? _defaultCountryCode()
+                  : selectedCountry)
+              .toUpperCase();
           final bovaerAssessment = _analyzeBovaerRiskWithText(
             info['merke']!,
             info['etiketter']!,
@@ -1056,6 +1060,7 @@ class _ScannerScreenState extends State<ScannerScreen>
         contentPadding: const EdgeInsets.all(0),
         content: ProductInfoDialogContent(
             info: info,
+            ngtSuppliers: _ngtSuppliers,
             onAddItem: (itemName) {
               final listToAddTo = activeList == '_global_'
                   ? listBeforeGlobalHistory
