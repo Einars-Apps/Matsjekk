@@ -2,8 +2,12 @@
 """Fetch farm shop POIs from OpenStreetMap (Overpass) and write JSON feed.
 
 Resilience features:
-- retries with exponential backoff
+- short connect timeout so an unreachable Overpass host fails in seconds
+- rate limits (HTTP 429/406/503) cool that endpoint down instead of retrying for hours
+- a small retry budget only while an endpoint is still healthy
 - multiple Overpass endpoints
+- an overall fetch deadline; remaining countries keep stored data
+- bounded Lokalmat pagination
 - fallback to last successful country slice from existing output
 - optional country subset via FARMSHOP_COUNTRIES env (codes or names, comma separated)
 """
@@ -17,6 +21,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 COUNTRIES = {
     'Norway': 'NO',
@@ -49,10 +55,90 @@ OVERPASS_ENDPOINTS = [
     'https://overpass.kumi.systems/api/interpreter',
 ]
 
-MAX_RETRIES = 4
+MAX_RETRIES = 2
 BASE_BACKOFF_SECONDS = 2.0
-REQUEST_TIMEOUT_SECONDS = 180
+CONNECT_TIMEOUT_SECONDS = 10
+READ_TIMEOUT_SECONDS = 75
+REQUEST_TIMEOUT = (CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS)
+RATE_LIMIT_COOLDOWN_SECONDS = 120
+CONNECT_FAILURE_COOLDOWN_SECONDS = 600
+DEFAULT_FETCH_DEADLINE_SECONDS = 20 * 60
+LOKALMAT_MAX_PAGES = 40
 MAX_ARCHIVE_ITEMS_PER_COUNTRY = 7000
+
+_endpoint_disabled_until = {}
+_fetch_deadline_at = None
+
+
+class FetchDeadlineReached(RuntimeError):
+    """The nightly fetch budget is spent; callers should keep stored data."""
+
+
+class OverpassUnavailable(RuntimeError):
+    """An Overpass endpoint should be skipped for cooldown_seconds."""
+
+    def __init__(self, message, cooldown_seconds):
+        super().__init__(message)
+        self.cooldown_seconds = cooldown_seconds
+
+
+def _build_session():
+    # urllib3's default redirect/connect handling otherwise spends minutes
+    # on a dead host and reports "Max retries exceeded".
+    session = requests.Session()
+    retry = Retry(total=0, connect=0, read=0, redirect=0, status=0, other=0)
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount('https://', adapter)
+    session.mount('http://', adapter)
+    return session
+
+
+SESSION = _build_session()
+
+
+def _reset_fetch_runtime_state():
+    global _fetch_deadline_at
+    _endpoint_disabled_until.clear()
+    _fetch_deadline_at = None
+
+
+def _ensure_deadline():
+    global _fetch_deadline_at
+    if _fetch_deadline_at is not None:
+        return
+    raw = os.getenv('FARMSHOP_FETCH_DEADLINE_SECONDS', '').strip()
+    try:
+        seconds = int(raw) if raw else DEFAULT_FETCH_DEADLINE_SECONDS
+    except ValueError:
+        seconds = DEFAULT_FETCH_DEADLINE_SECONDS
+    _fetch_deadline_at = time.monotonic() + max(seconds, 1)
+
+
+def _past_deadline():
+    _ensure_deadline()
+    return time.monotonic() >= _fetch_deadline_at
+
+
+def _endpoint_available(endpoint):
+    return time.monotonic() >= _endpoint_disabled_until.get(endpoint, 0)
+
+
+def _disable_endpoint(endpoint, seconds):
+    cooldown = max(int(seconds), 1)
+    _endpoint_disabled_until[endpoint] = max(
+        _endpoint_disabled_until.get(endpoint, 0),
+        time.monotonic() + cooldown,
+    )
+
+
+def _retry_after_seconds(response):
+    raw = (response.headers.get('Retry-After') or '').strip()
+    if not raw:
+        return 0
+    try:
+        return max(0, int(float(raw)))
+    except ValueError:
+        return 0
 
 COUNTRY_NAME_BY_CODE = {code: name for name, code in COUNTRIES.items()}
 
@@ -672,11 +758,26 @@ def extract_elem(e):
 
 
 def _post_overpass(endpoint, query):
-    response = requests.post(
-        endpoint,
-        data={'data': query},
-        timeout=REQUEST_TIMEOUT_SECONDS,
-    )
+    try:
+        response = SESSION.post(
+            endpoint,
+            data={'data': query},
+            timeout=REQUEST_TIMEOUT,
+        )
+    except (requests.Timeout, requests.ConnectionError) as error:
+        raise OverpassUnavailable(
+            f'{endpoint}: {error}',
+            CONNECT_FAILURE_COOLDOWN_SECONDS,
+        ) from error
+
+    if response.status_code in (429, 503, 406):
+        hinted = _retry_after_seconds(response)
+        cooldown = max(hinted, RATE_LIMIT_COOLDOWN_SECONDS)
+        raise OverpassUnavailable(
+            f'{response.status_code} from {endpoint}',
+            cooldown,
+        )
+
     response.raise_for_status()
 
     content_type = (response.headers.get('content-type') or '').lower()
@@ -705,15 +806,33 @@ def _post_overpass(endpoint, query):
             or 'busy' in lowered
         )
         if severe and not elements:
-            raise RuntimeError(f'Overpass remark from {endpoint}: {remark}')
+            message = f'Overpass remark from {endpoint}: {remark}'
+            rate_limited = any(
+                token in lowered
+                for token in ('too many requests', 'rate limit', 'quota', 'busy')
+            )
+            if rate_limited:
+                raise OverpassUnavailable(message, RATE_LIMIT_COOLDOWN_SECONDS)
+            raise RuntimeError(message)
 
     return elements
 
 
 def _fetch_overpass_filtered(query, cc):
+    _ensure_deadline()
+    if _past_deadline():
+        raise FetchDeadlineReached(f'Fetch deadline reached before querying {cc}')
+
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
-        for endpoint in OVERPASS_ENDPOINTS:
+        if _past_deadline():
+            raise FetchDeadlineReached(f'Fetch deadline reached while querying {cc}')
+
+        available = [endpoint for endpoint in OVERPASS_ENDPOINTS if _endpoint_available(endpoint)]
+        if not available:
+            break
+
+        for endpoint in available:
             try:
                 elements = _post_overpass(endpoint, query)
                 print(f'  OK {cc} via {endpoint} on attempt {attempt}')
@@ -723,13 +842,19 @@ def _fetch_overpass_filtered(query, cc):
                     if item['name'] and item['lat'] and item['lon']:
                         out.append(item)
                 return out
+            except OverpassUnavailable as error:
+                last_error = error
+                _disable_endpoint(endpoint, error.cooldown_seconds)
+                print(
+                    f'  SKIP {cc} via {endpoint} for {error.cooldown_seconds}s ({error})',
+                    file=sys.stderr,
+                )
             except Exception as error:
                 last_error = error
                 print(f'  RETRY {cc} via {endpoint} failed ({error})', file=sys.stderr)
 
-        if attempt < MAX_RETRIES:
-            wait = BASE_BACKOFF_SECONDS * (2 ** (attempt - 1)) + random.uniform(0.0, 1.0)
-            time.sleep(wait)
+        if attempt < MAX_RETRIES and any(_endpoint_available(endpoint) for endpoint in OVERPASS_ENDPOINTS):
+            time.sleep(BASE_BACKOFF_SECONDS)
 
     raise RuntimeError(f'All endpoints failed for {cc}: {last_error}')
 
@@ -742,6 +867,8 @@ def fetch_for_country(cc):
         print(f'  RELIEF query tier {idx} for {cc}')
         try:
             tier_items = _fetch_overpass_filtered(query, cc)
+        except FetchDeadlineReached:
+            raise
         except Exception as error:
             print(f'  Relief tier {idx} failed for {cc}: {error}', file=sys.stderr)
             continue
@@ -763,6 +890,8 @@ def fetch_for_country(cc):
             secondary = _fetch_overpass_filtered(secondary_query, cc)
             if secondary:
                 return secondary
+        except FetchDeadlineReached:
+            raise
         except Exception as error:
             print(f'  Combined fallback failed for {cc}: {error}', file=sys.stderr)
 
@@ -772,6 +901,8 @@ def fetch_for_country(cc):
         print(f'  ZERO-HIT fallback query tier {idx} for {cc}')
         try:
             tier_items = _fetch_overpass_filtered(query, cc)
+        except FetchDeadlineReached:
+            raise
         except Exception as error:
             print(f'  Tier {idx} failed for {cc}: {error}', file=sys.stderr)
             continue
@@ -1006,6 +1137,42 @@ def _extract_products(record):
     return products
 
 
+def _page_fingerprint(data):
+    first = data[0].get('id') if isinstance(data[0], dict) else None
+    last = data[-1].get('id') if isinstance(data[-1], dict) else None
+    return (first, last, len(data))
+
+
+def _collect_paged_records(fetch_page, max_pages):
+    """Collect pages until the API ends, repeats a page, or max_pages is hit."""
+    records = []
+    page = 0
+    total_count = None
+    seen = set()
+    while page < max_pages:
+        if _past_deadline():
+            print('  Stopping pagination: fetch deadline reached', file=sys.stderr)
+            break
+        data, count = fetch_page(page)
+        if total_count is None and isinstance(count, int) and count > 0:
+            total_count = count
+        if not data:
+            break
+        fingerprint = _page_fingerprint(data)
+        if fingerprint in seen:
+            print(f'  Stopping pagination: repeated page {page}', file=sys.stderr)
+            break
+        seen.add(fingerprint)
+        records.extend(data)
+        if total_count is not None and len(records) >= total_count:
+            break
+        page += 1
+        time.sleep(0.1)
+    if page >= max_pages and (total_count is None or len(records) < total_count):
+        print(f'  Stopping pagination: reached max pages ({max_pages})', file=sys.stderr)
+    return records
+
+
 def _fetch_lokalmat_page(mode, page):
     params = {
         'mode': mode,
@@ -1014,7 +1181,7 @@ def _fetch_lokalmat_page(mode, page):
         'orderBy': 'displayName',
         'status[0]': 'approved',
     }
-    response = requests.get(LOKALMAT_API_BASE, params=params, timeout=REQUEST_TIMEOUT_SECONDS)
+    response = SESSION.get(LOKALMAT_API_BASE, params=params, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
     payload = response.json()
     result = payload.get('result') if isinstance(payload, dict) else None
@@ -1031,21 +1198,10 @@ def _fetch_lokalmat_page(mode, page):
 
 
 def _fetch_all_lokalmat_records(mode):
-    records = []
-    page = 0
-    total_count = None
-    while True:
-        data, count = _fetch_lokalmat_page(mode, page)
-        if total_count is None:
-            total_count = count
-        if not data:
-            break
-        records.extend(data)
-        if len(records) >= total_count:
-            break
-        page += 1
-        time.sleep(0.1)
-    return records
+    return _collect_paged_records(
+        lambda page: _fetch_lokalmat_page(mode, page),
+        LOKALMAT_MAX_PAGES,
+    )
 
 
 def fetch_lokalmat_producers():
@@ -1107,9 +1263,9 @@ def fetch_lokalmat_producers():
 
 def fetch_hanen_gardsbutikker():
     print('Fetching Hanen gardsbutikker via map API')
-    response = requests.get(
+    response = SESSION.get(
         HANEN_MAP_API_URL,
-        timeout=REQUEST_TIMEOUT_SECONDS,
+        timeout=REQUEST_TIMEOUT,
         headers={'User-Agent': 'mat-sjekk-bot/1.0'},
     )
     response.raise_for_status()
@@ -1159,7 +1315,26 @@ def fetch_hanen_gardsbutikker():
     print(f'Fetched {len(items)} Hanen gardsbutikker with coordinates')
     return items
 
+def _stored_country_items(cc, previous_by_code, archive_by_code, failed_countries, country_name, reason):
+    print(f'{reason} for {country_name}', file=sys.stderr)
+    fallback_items = previous_by_code.get(cc, [])
+    if fallback_items:
+        print(f'  Using fallback from previous dataset for {country_name}: {len(fallback_items)} items')
+        archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + fallback_items)
+        failed_countries.append(country_name)
+        return fallback_items
+    archived = dedupe(archive_by_code.get(cc, []))
+    if archived:
+        print(f'  Using fallback from archive for {country_name}: {len(archived)} items')
+        failed_countries.append(country_name)
+        return archived
+    failed_countries.append(country_name)
+    return []
+
+
 def main():
+    _reset_fetch_runtime_state()
+    _ensure_deadline()
     previous_by_code = load_previous_items_by_code()
     archive_by_code = load_archive_items_by_code()
     country_list = selected_countries()
@@ -1182,7 +1357,19 @@ def main():
     failed_countries = []
     preserved_countries = []
     restored_from_archive = []
+    deadline_hit = False
     for name, cc in country_list:
+        if deadline_hit or _past_deadline():
+            deadline_hit = True
+            all_items.extend(_stored_country_items(
+                cc,
+                previous_by_code,
+                archive_by_code,
+                failed_countries,
+                name,
+                'Fetch deadline reached',
+            ))
+            continue
         try:
             items = fetch_for_country(cc)
             tagged_current = tag_country(items, name)
@@ -1222,18 +1409,28 @@ def main():
                 all_items.extend(merged_country_items)
 
             archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + merged_country_items)
+        except FetchDeadlineReached as error:
+            print(error, file=sys.stderr)
+            deadline_hit = True
+            all_items.extend(_stored_country_items(
+                cc,
+                previous_by_code,
+                archive_by_code,
+                failed_countries,
+                name,
+                'Fetch deadline reached',
+            ))
+            continue
         except Exception as e:
             print('Error fetching', name, e, file=sys.stderr)
-            fallback_items = previous_by_code.get(cc, [])
-            if fallback_items:
-                print(f'  Using fallback from previous dataset for {name}: {len(fallback_items)} items')
-                all_items.extend(fallback_items)
-                archive_by_code[cc] = dedupe(archive_by_code.get(cc, []) + fallback_items)
-            elif archive_by_code.get(cc):
-                archived = dedupe(archive_by_code.get(cc, []))
-                print(f'  Using fallback from archive for {name}: {len(archived)} items')
-                all_items.extend(archived)
-            failed_countries.append(name)
+            all_items.extend(_stored_country_items(
+                cc,
+                previous_by_code,
+                archive_by_code,
+                failed_countries,
+                name,
+                'Fetch failed',
+            ))
 
         time.sleep(1.2 + random.uniform(0.0, 0.6))
 
