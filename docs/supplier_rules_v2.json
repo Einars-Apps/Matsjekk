@@ -1,16 +1,13 @@
 {
   "version": 2,
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-16",
   "tine_bovaer_note_nb": "TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
   "origin": "Existing app rules; export is not a new factual verification.",
   "countries": {
     "NO": {
       "bovaer_red": [
         "arla",
-        "apetina",
-        "aptina",
-        "lurpak",
-        "castello"
+        "lurpak"
       ],
       "bovaer_yellow": [
         "tine",
@@ -27,13 +24,13 @@
         "litago",
         "snøfrisk",
         "gudbrandsdalsost",
-        "ski queen"
+        "ski queen",
+        "castello",
+        "puck",
+        "apetina",
+        "aptina"
       ],
-      "gmo_fish_red": [
-        "lerøy",
-        "salmar",
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "økologisk",
         "organic",
@@ -41,10 +38,7 @@
         "debio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -70,37 +64,27 @@
     },
     "SE": {
       "bovaer_red": [
+        "lurpak"
+      ],
+      "bovaer_yellow": [
         "arla",
         "bregott",
         "arla ko",
-        "castello",
-        "lurpak",
-        "apetina",
         "keso",
-        "finello"
+        "finello",
+        "yoggi",
+        "castello",
+        "puck",
+        "apetina"
       ],
-      "bovaer_yellow": [
-        "norrmejerier",
-        "yoggi"
-      ],
-      "gmo_fish_red": [
-        "lerøy",
-        "mowi",
-        "salmar"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "ekologisk",
         "organic",
         "biodynamisk",
         "krav"
       ],
-      "gmo_supply_chain_yellow": [
-        "findus",
-        "ica",
-        "coop",
-        "leroy seafood",
-        "nordic seafood"
-      ],
+      "gmo_supply_chain_yellow": [],
       "insect_supply_chain_yellow": [
         "protix",
         "ynsect",
@@ -114,31 +98,23 @@
         "locusta migratoria",
         "hermetia illucens"
       ],
-      "factory_customer_yellow": [
-        "arla",
-        "ica",
-        "coop"
-      ]
+      "factory_customer_yellow": []
     },
     "DK": {
       "bovaer_red": [
         "arla",
         "lurpak",
         "kærgården",
-        "castello",
-        "apetina",
         "karolines køkken",
-        "diplom-is",
-        "dofino",
-        "finello"
+        "dofino"
       ],
       "bovaer_yellow": [
-        "naturmælk"
+        "castello",
+        "puck",
+        "apetina",
+        "finello"
       ],
-      "gmo_fish_red": [
-        "nordic seafood",
-        "royal greenland"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "økologisk",
         "organic",
@@ -147,8 +123,6 @@
         "øko"
       ],
       "gmo_supply_chain_yellow": [
-        "nordic seafood",
-        "royal greenland",
         "frozen at sea"
       ],
       "insect_supply_chain_yellow": [
@@ -172,28 +146,18 @@
     },
     "DE": {
       "bovaer_red": [
-        "arla",
-        "müller",
-        "müllermilch",
-        "landliebe",
-        "buko",
-        "lurpak",
-        "castello"
+        "lurpak"
       ],
       "bovaer_yellow": [
-        "zott",
-        "ehrmann",
-        "weihenstephan",
-        "hochland",
+        "arla",
+        "buko",
+        "castello",
+        "puck",
+        "landliebe",
         "campina",
-        "friesche vlag",
-        "lactalis",
-        "président"
+        "friesche vlag"
       ],
-      "gmo_fish_red": [
-        "iglo",
-        "followfish"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
@@ -203,11 +167,7 @@
         "ökologisch"
       ],
       "gmo_supply_chain_yellow": [
-        "iglo",
-        "followfish",
-        "deutsche see",
-        "edeka",
-        "rewe"
+        "deutsche see"
       ],
       "insect_supply_chain_yellow": [
         "nextprotein",
@@ -222,15 +182,13 @@
         "locusta migratoria",
         "hermetia illucens"
       ],
-      "factory_customer_yellow": [
-        "arla",
-        "edeka",
-        "mueller",
-        "rewe"
-      ]
+      "factory_customer_yellow": []
     },
     "NL": {
       "bovaer_red": [
+        "arla"
+      ],
+      "bovaer_yellow": [
         "frieslandcampina",
         "campina",
         "friesche vlag",
@@ -240,18 +198,9 @@
         "valess",
         "vifit",
         "optimel",
-        "fristi",
-        "doc kaas",
-        "a-ware",
-        "arla"
+        "fristi"
       ],
-      "bovaer_yellow": [
-        "cono",
-        "melkunie"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "biologisch",
         "organic",
@@ -262,8 +211,7 @@
         "ah",
         "albert heijn",
         "plus",
-        "jumbo",
-        "iglo"
+        "jumbo"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -285,22 +233,17 @@
     },
     "BE": {
       "bovaer_red": [
-        "arla",
-        "campina",
-        "friesche vlag"
+        "arla"
       ],
       "bovaer_yellow": [
-        "milcobel",
-        "passendale",
-        "wynendale",
-        "père joseph",
-        "inex",
-        "président",
-        "bel"
+        "campina",
+        "friesche vlag",
+        "bel",
+        "babybel",
+        "boursin",
+        "kiri"
       ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "biologisch",
         "biologique",
@@ -310,8 +253,7 @@
       "gmo_supply_chain_yellow": [
         "delhaize",
         "colruyt",
-        "carrefour",
-        "iglo"
+        "carrefour"
       ],
       "insect_supply_chain_yellow": [
         "nextprotein",
@@ -339,24 +281,12 @@
         "arla"
       ],
       "bovaer_yellow": [
-        "lactalis",
-        "président",
-        "bridel",
-        "lactel",
-        "sodiaal",
-        "candia",
-        "yoplait",
-        "danone",
-        "elle & vire",
-        "isigny sainte-mère",
-        "entremont",
-        "riches monts",
-        "bel"
+        "bel",
+        "babybel",
+        "boursin",
+        "kiri"
       ],
-      "gmo_fish_red": [
-        "mowi",
-        "labeyrie"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
@@ -365,8 +295,6 @@
         "ab"
       ],
       "gmo_supply_chain_yellow": [
-        "labeyrie",
-        "findus",
         "picard",
         "carrefour",
         "auchan"
@@ -392,30 +320,16 @@
     },
     "GB": {
       "bovaer_red": [
-        "arla",
-        "müller",
-        "müllermilch",
-        "lurpak",
-        "anchor",
-        "cravendale",
-        "castello",
-        "tickler"
+        "lurpak"
       ],
       "bovaer_yellow": [
-        "saputo",
-        "cathedral city",
-        "davidstow",
-        "clover",
-        "kerrygold",
-        "pilgrims choice",
-        "country life",
-        "lakeland"
+        "arla",
+        "cravendale",
+        "tickler",
+        "castello",
+        "puck"
       ],
-      "gmo_fish_red": [
-        "mowi",
-        "bakkafrost",
-        "youngs seafood"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "biodynamic",
@@ -423,7 +337,6 @@
         "demeter"
       ],
       "gmo_supply_chain_yellow": [
-        "youngs seafood",
         "tesco",
         "sainsbury",
         "waitrose",
@@ -442,34 +355,14 @@
         "locusta migratoria",
         "hermetia illucens"
       ],
-      "factory_customer_yellow": [
-        "youngs seafood",
-        "tesco",
-        "sainsbury"
-      ]
+      "factory_customer_yellow": []
     },
     "IE": {
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "ornua",
-        "kerrygold",
-        "pilgrims choice",
-        "glanbia",
-        "tirlán",
-        "avonmore",
-        "kerry",
-        "lakeland",
-        "dairygold",
-        "carbery",
-        "dubliner",
-        "kerrymaid",
-        "connacht gold"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "biodynamic",
@@ -477,7 +370,6 @@
         "iofga"
       ],
       "gmo_supply_chain_yellow": [
-        "youngs seafood",
         "tesco ireland",
         "supervalu",
         "dunnes"
@@ -507,17 +399,13 @@
         "arla"
       ],
       "bovaer_yellow": [
-        "granarolo",
-        "lactalis",
-        "galbani",
         "parmalat",
-        "fattorie osella",
         "bel",
-        "nestlé"
+        "babybel",
+        "boursin",
+        "kiri"
       ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "biologico",
         "organic",
@@ -525,7 +413,6 @@
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "findus",
         "esselunga",
         "coop italia",
         "conad"
@@ -554,22 +441,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "danone",
-        "puleva",
-        "lactalis",
-        "président",
-        "central lechera asturiana",
-        "larsa",
-        "el castillo",
-        "pascual",
-        "kaiku",
-        "nestlé"
-      ],
-      "gmo_fish_red": [
-        "pescanova",
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "ecológico",
         "organic",
@@ -577,8 +450,6 @@
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "findus",
-        "pescanova",
         "carrefour",
         "mercadona"
       ],
@@ -606,20 +477,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "lactogal",
-        "mimosa",
-        "agros",
-        "vigor",
-        "matinal",
-        "gresso",
-        "lactalis",
-        "nestlé"
-      ],
-      "gmo_fish_red": [
-        "pescanova",
-        "iglo"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "biológico",
         "organic",
@@ -627,10 +486,7 @@
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -656,21 +512,14 @@
     },
     "FI": {
       "bovaer_red": [
-        "arla",
-        "valio",
-        "oltermanni",
-        "aura",
-        "eila",
-        "gefilus"
+        "arla"
       ],
       "bovaer_yellow": [
-        "juustoportti"
+        "valio",
+        "oltermanni",
+        "gefilus"
       ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy",
-        "salmar"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "luomu",
         "organic",
@@ -679,8 +528,7 @@
       "gmo_supply_chain_yellow": [
         "kalaneuvos",
         "kesko",
-        "s-group",
-        "royal greenland"
+        "s-group"
       ],
       "insect_supply_chain_yellow": [
         "entocube",
@@ -705,17 +553,10 @@
         "arla"
       ],
       "bovaer_yellow": [
-        "emmi",
-        "kaltbach",
-        "cremo",
-        "elsa",
-        "hochdorf",
         "landliebe",
         "campina"
       ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
@@ -724,10 +565,7 @@
         "bio suisse"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -756,18 +594,9 @@
         "arla"
       ],
       "bovaer_yellow": [
-        "berglandmilch",
-        "schärdinger",
-        "nöm",
-        "tirol milch",
-        "salzburg milch",
-        "stainzer",
-        "lattella",
         "landliebe"
       ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
@@ -775,10 +604,7 @@
         "aus österreich bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -806,25 +632,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "ms",
-        "mjólkursamsalan"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "royal greenland",
-        "icelandic salmon"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "lífrænn",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -851,14 +667,13 @@
     "GL": {
       "bovaer_red": [
         "arla",
-        "lurpak",
-        "castello"
+        "lurpak"
       ],
-      "bovaer_yellow": [],
-      "gmo_fish_red": [
-        "mowi",
-        "royal greenland"
+      "bovaer_yellow": [
+        "castello",
+        "puck"
       ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "lífrænt",
         "organic",
@@ -866,10 +681,7 @@
         "økologisk"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -897,20 +709,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "mlekovita",
-        "mlekpol",
-        "łaciate",
-        "piątnica",
-        "sm gostyń",
-        "zott",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy",
-        "salmar"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekologiczny",
@@ -947,28 +747,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "madeta",
-        "olma",
-        "lactalis",
-        "kunín",
-        "danone",
-        "zott"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekologický",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -996,26 +783,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "rajo",
-        "lactalis",
-        "tatra",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekologický",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1041,30 +817,17 @@
     },
     "HU": {
       "bovaer_red": [
-        "arla",
-        "frieslandcampina",
-        "campina"
+        "arla"
       ],
-      "bovaer_yellow": [
-        "sole-mizo",
-        "sole mizo",
-        "pöttyös",
-        "danone",
-        "nestlé"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ökológiai",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1090,31 +853,17 @@
     },
     "RO": {
       "bovaer_red": [
-        "arla",
-        "frieslandcampina",
-        "napolact",
-        "zuzu"
+        "arla"
       ],
-      "bovaer_yellow": [
-        "dorna",
-        "lactalis",
-        "danone",
-        "rarăul",
-        "olympus"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ecologic",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1142,14 +891,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "danone",
-        "meggle",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "биологичен",
         "bio",
@@ -1157,10 +900,7 @@
         "eco"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1186,28 +926,17 @@
     },
     "EE": {
       "bovaer_red": [
-        "arla",
-        "valio"
+        "arla"
       ],
-      "bovaer_yellow": [
-        "tere",
-        "e-piim",
-        "farmi"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "mahe",
         "bio",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1235,27 +964,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "rīgas piens",
-        "rigas piens",
-        "latvijas piens",
-        "valio",
-        "riqo"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekologisks",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1283,29 +1000,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "rokiškio sūris",
-        "rokiskio suris",
-        "žemaitijos pienas",
-        "zemaitijos pienas",
-        "valio",
-        "pieno žvaigždės",
-        "pieno zvaigzdes"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "lerøy"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "ekologiškas",
         "bio",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1333,27 +1036,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "vindija",
-        "sirela",
-        "zdenka",
-        "dukat",
-        "lactalis",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekološki",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1381,25 +1072,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "ljubljanske mlekarne",
-        "mlekarna celeia",
-        "planika",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekološki",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1427,16 +1108,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "imlek",
-        "mlekara šabac",
-        "mlekara sabac",
-        "danone",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organsko",
@@ -1444,10 +1117,7 @@
         "ekološki"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1475,24 +1145,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "mlijekoprodukt",
-        "milkos",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "ekološki",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1520,23 +1181,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "president",
-        "imlek"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
         "ekološki"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1564,24 +1217,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "bimilk",
-        "pelagonija",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organic",
         "органски"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1609,23 +1253,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "president",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "bio",
         "organik",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1653,29 +1289,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "fage",
-        "delta",
-        "olympos",
-        "noynoy",
-        "tyras",
-        "president"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "nireus",
-        "thessaloniki aquaculture"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "βιολογικό",
         "bio",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1703,24 +1325,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "charalambides christis",
-        "president",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "βιολογικό",
         "bio",
         "organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1747,34 +1360,21 @@
     "US": {
       "bovaer_red": [
         "arla",
-        "lurpak",
-        "castello",
-        "apetina"
+        "lurpak"
       ],
       "bovaer_yellow": [
-        "dannon",
-        "danone",
-        "land o'lakes",
-        "land o lakes",
-        "tillamook",
-        "saputo",
-        "dean foods",
-        "hood"
+        "castello",
+        "puck",
+        "apetina"
       ],
-      "gmo_fish_red": [
-        "mowi",
-        "aquabounty"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "usda organic",
         "certified organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1802,22 +1402,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "agropur",
-        "natrel",
-        "igo",
-        "oka",
-        "saputo",
-        "gay lea",
-        "dairyland",
-        "beatrice",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "cermaq",
-        "cooke aquaculture"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "certifié biologique",
@@ -1825,10 +1411,7 @@
         "canada organic"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1856,23 +1439,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "lion",
-        "dairy farmers",
-        "pura",
-        "bega",
-        "norco",
-        "fonterra",
-        "anchor",
-        "mainland",
-        "danone",
-        "pauls"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "tassal",
-        "huon aquaculture"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "certified organic",
@@ -1880,10 +1448,7 @@
         "ace"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1911,22 +1476,8 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "fonterra",
-        "anchor",
-        "fernleaf",
-        "mainland",
-        "kapiti",
-        "goodman fielder",
-        "meadowfresh",
-        "tararua",
-        "lewis road",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "new zealand king salmon"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "organic",
         "certified organic",
@@ -1934,10 +1485,7 @@
         "biogro"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -1963,23 +1511,10 @@
     },
     "BR": {
       "bovaer_red": [
-        "arla",
-        "lactalis",
-        "elegê",
-        "batavo"
+        "arla"
       ],
-      "bovaer_yellow": [
-        "itambé",
-        "piracanjuba",
-        "nestlé",
-        "molico",
-        "danone",
-        "pradaria"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "cermaq"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgânico",
         "organic",
@@ -1987,10 +1522,7 @@
         "produto orgânico"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2018,27 +1550,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "la serenísima",
-        "la serenisima",
-        "sancor",
-        "danone",
-        "nestlé",
-        "la paulina"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2066,31 +1586,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "colún",
-        "colun",
-        "soprole",
-        "lactalis",
-        "nestlé",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi",
-        "cermaq",
-        "salmones multiexport",
-        "blumar",
-        "australis seafoods"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2118,26 +1622,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "alpina",
-        "colanta",
-        "nestlé",
-        "danone",
-        "alquería"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2165,25 +1658,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "gloria",
-        "laive",
-        "nestlé",
-        "danone"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2211,23 +1694,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "conaprole",
-        "lactalis"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2255,25 +1730,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "la serenísima",
-        "la serenisima",
-        "sancor",
-        "nestlé"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2302,23 +1767,16 @@
         "arla"
       ],
       "bovaer_yellow": [
-        "lactalis",
-        "parmalat",
-        "nestlé"
+        "parmalat"
       ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2346,25 +1804,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "gloria",
-        "nestlé",
-        "danone",
-        "rey leche"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",
@@ -2392,25 +1840,15 @@
       "bovaer_red": [
         "arla"
       ],
-      "bovaer_yellow": [
-        "pil andina",
-        "pil",
-        "gloria",
-        "nestlé"
-      ],
-      "gmo_fish_red": [
-        "mowi"
-      ],
+      "bovaer_yellow": [],
+      "gmo_fish_red": [],
       "organic_keywords": [
         "orgánico",
         "organic",
         "bio"
       ],
       "gmo_supply_chain_yellow": [
-        "fiskemannen",
-        "leroy seafood",
-        "nordic seafood",
-        "royal greenland"
+        "fiskemannen"
       ],
       "insect_supply_chain_yellow": [
         "protix",

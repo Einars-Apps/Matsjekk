@@ -435,12 +435,17 @@
       "status": "bruker",
       "app_color": "red",
       "produced_before": null,
-      "status_date": "2026-09-30",
+      "status_date": "2026-10-08",
       "sources": [
         {
           "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
           "date": "2026-09-30",
           "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        },
+        {
+          "url": "https://www.sgav.dk/alle-nyheder/nyheder/2026/okt/ny-tilskudsordning-til-at-bruge-metanreducerende-foder-i-2027",
+          "date": "2026-10-08",
+          "note": "80-dagerskravet med 3-NOP fortsetter i 2027 for konvensjonelle besetninger med over 50 kyr. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene, ikke selve kravet."
         },
         {
           "url": "https://foedevarestyrelsen.dk/foder/markedsfoering-af-foder/fodertilsaetningsstoffer/bovaer",
@@ -453,7 +458,7 @@
           "note": "AU-rapport (73 besetninger): ingen samlet økning i dødelighet/fall i ytelse, men alvorlige enkeltbesetninger og åpne spørsmål."
         }
       ],
-      "note_nb": "Lovkrav i 2026: Bovaer 80 dager/år (eller fettalternativ) for konvensjonelle besetninger >50 årskyr; unntak for syke dyr. Økologisk unntatt."
+      "note_nb": "Lovkrav i 2026: Bovaer 80 dager/år (eller fettalternativ) for konvensjonelle besetninger >50 årskyr; unntak for syke dyr. Økologisk unntatt. SGAV 08.10.2026: 80-dagerskravet med 3-NOP fortsetter i 2027 uten kompensasjon for selve kravet. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene."
     },
     {
       "id": "dk_arla",
@@ -466,12 +471,17 @@
       "status": "bruker",
       "app_color": "red",
       "produced_before": null,
-      "status_date": "2026-09-30",
+      "status_date": "2026-10-08",
       "sources": [
         {
           "url": "https://mgtp.dk/nyheder/2026/sep/udvidede-muligheder-for-at-undtage-koeer-fra-fodring-med-metanreduce-rende-foder-fra-oktober-2026",
           "date": "2026-09-30",
           "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
+        },
+        {
+          "url": "https://www.sgav.dk/alle-nyheder/nyheder/2026/okt/ny-tilskudsordning-til-at-bruge-metanreducerende-foder-i-2027",
+          "date": "2026-10-08",
+          "note": "80-dagerskravet med 3-NOP fortsetter i 2027 for konvensjonelle besetninger med over 50 kyr. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene, ikke selve kravet."
         },
         {
           "url": "https://psst-nyt.dk/arla-svarer-paa-pssts-afsloering-bovaer-reducerer-koeernes-klimaaftryk/",
@@ -484,7 +494,7 @@
           "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
         }
       ],
-      "note_nb": "UTLEDET fra det danske kravet i 2026 (Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr, økologisk unntatt) og Arlas anbefaling til andelshaverne. Gjelder konvensjonell dansk Arla-melk; økologisk Arla er grønn."
+      "note_nb": "UTLEDET fra det danske kravet i 2026 (Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr, økologisk unntatt) og Arlas anbefaling til andelshaverne. Gjelder konvensjonell dansk Arla-melk; økologisk Arla er grønn. SGAV 08.10.2026: 80-dagerskravet med 3-NOP fortsetter i 2027 uten kompensasjon for selve kravet. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene."
     },
     {
       "id": "dk_lurpak",
@@ -505,6 +515,11 @@
           "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
         },
         {
+          "url": "https://www.sgav.dk/alle-nyheder/nyheder/2026/okt/ny-tilskudsordning-til-at-bruge-metanreducerende-foder-i-2027",
+          "date": "2026-10-08",
+          "note": "80-dagerskravet med 3-NOP fortsetter i 2027 for konvensjonelle besetninger med over 50 kyr. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene, ikke selve kravet."
+        },
+        {
           "url": "https://www.arla.dk/om-arla/nyheder/2026/pressrelease/danmarks-smoerhovedstad-fejrer-125-aar-med-lurpak-3473794/",
           "date": "2026-10-22",
           "note": "97 % av Lurpak produseres på Arlas meieri i Holstebro; resten hos Thise, Nørup og Bornholms Andelsmejeri."
@@ -515,21 +530,27 @@
           "note": "Arla Danmark (Rune Pedersen) sitert: Arla anbefaler andelshaverne Bovaer framfor ekstra fett. Sekundærkilde (Psst!) med ordrett svar."
         }
       ],
-      "note_nb": "UTLEDET (ikke bekreftet per produkt): 97 % produseres i Holstebro av dansk Arla-melk, og konvensjonelle danske besetninger >50 kyr har krav om Bovaer i 2026. Økologisk Lurpak omfattes ikke."
+      "note_nb": "UTLEDET (ikke bekreftet per produkt): 97 % produseres i Holstebro av dansk Arla-melk, og konvensjonelle danske besetninger >50 kyr har krav om Bovaer i 2026. Økologisk Lurpak omfattes ikke. SGAV 08.10.2026: 80-dagerskravet med 3-NOP fortsetter i 2027 uten kompensasjon for selve kravet. Tilskuddet gjelder bare frivillig bruk utover de 80 dagene."
     },
     {
       "id": "dk_castello",
-      "company": "Castello (Arla)",
+      "company": "Castello / Puck (Arla)",
       "country": "DK",
       "aliases": [
-        "castello"
+        "castello",
+        "puck"
       ],
       "role": "brand",
       "status": "ukjent",
       "app_color": "yellow",
       "produced_before": null,
-      "status_date": "ukjent",
+      "status_date": "2026-10-22",
       "sources": [
+        {
+          "url": "https://www.arla.dk/om-arla/nyheder/2026/pressrelease/danmarks-smoerhovedstad-fejrer-125-aar-med-lurpak-3473794/",
+          "date": "2026-10-22",
+          "note": "Arla oppgir Arla, Lurpak, Puck og Castello som egne merker."
+        },
         {
           "url": "https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
           "date": "2022-04-20",
@@ -541,7 +562,7 @@
           "note": "Krav i 2026: Bovaer 80 dager/år for konvensjonelle besetninger >50 årskyr; utvidet unntak fra okt. 2026."
         }
       ],
-      "note_nb": "Arla-merke; produksjonssted/melkeopprinnelse per ost ikke dokumentert her. Gul inntil opprinnelse er avklart."
+      "note_nb": "Castello og Puck er Arla-merker (Arla DK 22.10.2026). Produksjonssted og melkeopprinnelse per produkt er ikke dokumentert. Gul inntil opprinnelse er avklart."
     },
     {
       "id": "se_arla",
@@ -549,7 +570,11 @@
       "country": "SE",
       "aliases": [
         "arla",
-        "yoggi"
+        "yoggi",
+        "bregott",
+        "keso",
+        "finello",
+        "arla ko"
       ],
       "role": "processor",
       "status": "forsok",
@@ -568,14 +593,15 @@
           "note": "Yoggi er et Arla-merke. Produktsidene oppgir svensk melk (Sverigekannan)."
         }
       ],
-      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert. Yoggi er et Arla-merke og følger samme vurdering."
+      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Sverige ukjent / ikke dokumentert. Yoggi, Bregott, Keso, Finello og Arla Ko følger samme vurdering."
     },
     {
       "id": "de_arla",
       "company": "Arla Foods (Tyskland)",
       "country": "DE",
       "aliases": [
-        "arla"
+        "arla",
+        "buko"
       ],
       "role": "processor",
       "status": "forsok",
@@ -589,14 +615,16 @@
           "note": "Arla/DSM-pilot: 10 000 kyr, 50+ gårder i Danmark, Sverige og Tyskland."
         }
       ],
-      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Tyskland ukjent / ikke dokumentert."
+      "note_nb": "Inngikk i 2022-piloten; nåværende bruk i Tyskland ukjent / ikke dokumentert. Buko følger samme vurdering."
     },
     {
       "id": "gb_arla",
       "company": "Arla Foods UK",
       "country": "GB",
       "aliases": [
-        "arla"
+        "arla",
+        "cravendale",
+        "tickler"
       ],
       "role": "processor",
       "status": "stoppet",
@@ -620,7 +648,7 @@
           "note": "'Our UK projects on methane-reducing supplements have now ended.'"
         }
       ],
-      "note_nb": "Forsøk på 30 gårder fra nov. 2024; avsluttet (rapportert 9.11.2025). Eksakt sluttdato ukjent – datoen er publiseringsdato."
+      "note_nb": "Forsøk på 30 gårder fra nov. 2024; avsluttet (rapportert 9.11.2025). Eksakt sluttdato ukjent – datoen er publiseringsdato. Cravendale og Tickler følger samme regel: produkter laget før 09.11.2025. Kildene navngir ikke disse merkene."
     },
     {
       "id": "gb_tesco",
@@ -707,7 +735,15 @@
       "aliases": [
         "frieslandcampina",
         "campina",
-        "friesche vlag"
+        "friesche vlag",
+        "chocomel",
+        "mona",
+        "milner",
+        "valess",
+        "vifit",
+        "optimel",
+        "fristi",
+        "landliebe"
       ],
       "role": "processor",
       "status": "bruker",
@@ -731,14 +767,16 @@
           "note": "Mange pilotgårder har fortsatt med Bovaer i over 4 år; FC-utviklingsgruppe betaler for Bovaer (Foqus planet)."
         }
       ],
-      "note_nb": "Frivillig bruk hos en del medlemmer (ca. 600 gårder i utviklingsgruppe), uten egen melkestrøm. Gul (ikke rød) fordi bare en del av melken er berørt; omfang per produkt ukjent."
+      "note_nb": "Frivillig bruk hos en del medlemmer (ca. 600 gårder i utviklingsgruppe), uten egen melkestrøm. Gul (ikke rød) fordi bare en del av melken er berørt; omfang per produkt ukjent. Chocomel, Mona, Milner, Valess, Vifit, Optimel, Fristi og Landliebe følger samme vurdering. Kildene oppgir ikke bruk per merke. Napolact og Zuzu har ingen kilde og er ikke alias. Landlistene for Ungarn og Romania har ikke FrieslandCampina-merker."
     },
     {
       "id": "fi_valio",
       "company": "Valio",
       "country": "FI",
       "aliases": [
-        "valio"
+        "valio",
+        "oltermanni",
+        "gefilus"
       ],
       "role": "processor",
       "status": "stoppet",
@@ -786,7 +824,9 @@
       "country": "FR",
       "aliases": [
         "babybel",
-        "bel"
+        "bel",
+        "boursin",
+        "kiri"
       ],
       "role": "processor",
       "status": "bruker",
@@ -982,5 +1022,6 @@
     "en": "Bovaer status is based on public sources and updated weekly. The risk applies to products made before the stop date. Cheese, butter, milk powder and other long-shelf-life products may still be in shops – check the production/packing date. For imports, check the country code in the oval stamp (e.g. DK, NO, FI). 'Unknown' means we have found no reliable source either way."
   },
   "web_check_2026_10_31": "Sjekket Arla, FrieslandCampina, DMK, Danone, Lactalis, Müller, Valio, Ornua/Kerrygold, Fonterra/Anchor, Emmi, Savencia. Ingen pålitelig kilde funnet for nåværende Bovaer-bruk hos Lactalis (utover Parmalat-forsøk 2023), Savencia, Emmi eller Fonterra/Anchor – de er derfor ikke merket (ukjent).",
-  "web_check_2026_11_02": "Ukesgjennomgang 26.10–02.11.2026. EFSA-Q-2026-00024 er fortsatt pågående, frist 30.11.2026, ingen uttalelse publisert. Ingen nye EU-vedtak om GM-import, NGT eller insektsmel i vinduet. Skånemejerier/Lindahls tatt ut av rød (ukjent). Yoggi er Arla og gul. Savencia lagt til som gul for avsluttet feltprogram 2023–2024, ikke nåværende full bruk. Lactalis (utover Parmalat), Emmi og Fonterra/Anchor fortsatt ukjent."
+  "web_check_2026_11_02": "Ukesgjennomgang 26.10–02.11.2026. EFSA-Q-2026-00024 er fortsatt pågående, frist 30.11.2026, ingen uttalelse publisert. Ingen nye EU-vedtak om GM-import, NGT eller insektsmel i vinduet. Skånemejerier/Lindahls tatt ut av rød (ukjent). Yoggi er Arla og gul. Savencia lagt til som gul for avsluttet feltprogram 2023–2024, ikke nåværende full bruk. Lactalis (utover Parmalat), Emmi og Fonterra/Anchor fortsatt ukjent.",
+  "web_check_2026_11_16": "Ukesgjennomgang 9.–16.11.2026, lest 16.11.2026. EFSA-Q-2026-00024 er fortsatt Ongoing Risk Assessment, frist 30.11.2026, ingen uttalelse publisert (https://open.efsa.europa.eu/questions/EFSA-Q-2026-00024). Prosjektets EU-feed (eu_decisions_auto.json, oppdatert 16.11.2026, ikke endret her) har ingen treff datert 9.–16.11; nyeste er 22.09.2026. Ingen nye GM-/NGT-vedtak funnet i vinduet. Offentlige RASFF-oppsummeringer i vinduet navngir ikke merker i appen, så ingen fargeendring derfra. dsm-firmenich 06.11.2026 meldte at Bovaer er godkjent til melkekyr i Kina; det ligger før vinduet og endrer ingen farge i appen. SGAV 08.10.2026: dansk 80-dagerskrav fortsetter i 2027 uten kompensasjon for selve kravet."
 }

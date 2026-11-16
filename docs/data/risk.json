@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-16",
   "NO": {
     "bovaer_red": [
       "arla",
-      "aptina"
+      "lurpak"
     ],
     "bovaer_yellow": [
       "tine",
@@ -20,19 +20,27 @@
       "litago",
       "snøfrisk",
       "gudbrandsdalsost",
-      "ski queen"
+      "ski queen",
+      "castello",
+      "puck",
+      "apetina",
+      "aptina"
     ],
     "bovaer_notes": [
       {
         "text": "TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026. Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato. Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.",
         "brands": ["tine","synnøve","synnøve finden","synnove","fjordland","ostecompagniet","q-meieriene","q meieriene","kavli","jarlsberg","norvegia","biola","litago","snøfrisk","gudbrandsdalsost","ski queen"]
+      },
+      {
+        "text": "Apetina er et Arla-merke, men melkens opprinnelse er ikke dokumentert. Sjekk produksjonsdato og landkoden i det ovale stempelet.",
+        "brands": ["apetina","aptina"]
+      },
+      {
+        "text": "Castello og Puck er Arla-merker (Arla DK 22.10.2026). Produksjonssted og melkeopprinnelse per produkt er ikke dokumentert.",
+        "brands": ["castello","puck"]
       }
     ],
-    "gmo_fish_red": [
-      "lerøy",
-      "mowi",
-      "salmar"
-    ],
+    "gmo_fish_red": [],
     "organic_keywords": [
       "økologisk",
       "organic",
@@ -42,20 +50,26 @@
   },
   "SE": {
     "bovaer_red": [
-      "arla",
-      "arla foods"
+      "lurpak"
     ],
     "bovaer_yellow": [
-      "milko",
-      "norrmejerier",
-      "gårdsyssan",
-      "yoggi"
+      "arla",
+      "bregott",
+      "arla ko",
+      "keso",
+      "finello",
+      "yoggi",
+      "castello",
+      "puck",
+      "apetina"
     ],
-    "gmo_fish_red": [
-      "lerøy",
-      "mowi",
-      "salmar"
+    "bovaer_notes": [
+      {
+        "text": "Arla i Sverige inngikk i piloten 20.04.2022. Nåværende bruk er ikke dokumentert. Yoggi, Bregott, Keso, Finello og Arla Ko følger samme vurdering. Kilde: https://our-company.dsm-firmenich.com/en/our-company/news/press-releases/legacy-archive/2022/arla-foods-and-dsm-start-large-scale-on-farm-pilot-to-reduce-greenhouse-gas-emissions.html",
+        "brands": ["arla","bregott","arla ko","keso","finello","yoggi"]
+      }
     ],
+    "gmo_fish_red": [],
     "organic_keywords": [
       "ekologisk",
       "organic",
@@ -66,16 +80,28 @@
   "DK": {
     "bovaer_red": [
       "arla",
-      "arla foods"
+      "lurpak",
+      "kærgården",
+      "karolines køkken",
+      "dofino"
     ],
     "bovaer_yellow": [
-      "meka",
-      "landet",
-      "diplom-is"
+      "castello",
+      "puck",
+      "apetina",
+      "finello"
     ],
-    "gmo_fish_red": [
-      "nordic seafood"
+    "bovaer_notes": [
+      {
+        "text": "Castello og Puck er Arla-merker (Arla DK 22.10.2026). Produksjonssted og melkeopprinnelse per produkt er ikke dokumentert. Diplom-Is er tatt ut (ingen produktkilde) og er ukjent.",
+        "brands": ["castello","puck"]
+      },
+      {
+        "text": "Apetina er et Arla-merke, men melkens opprinnelse er ikke dokumentert. Sjekk produksjonsdato og landkoden i det ovale stempelet.",
+        "brands": ["apetina","aptina"]
+      }
     ],
+    "gmo_fish_red": [],
     "organic_keywords": [
       "økologisk",
       "organic",
@@ -83,5 +109,5 @@
       "økocertificeret"
     ]
   },
-  "_note": "Usourcede røde oppføringer (thise, lurisia, växa, dong, nørsmølk, grønnland, fisk i bovaer_red) fjernet 2026-10-31 -> ukjent. 2026-11-02: Yoggi lagt til SE gul fordi merket er Arla (https://www.arla.se/produkter/yoggi/). Skånemejerier/Lindahls er ikke røde. Kildebasert status: bovaer_processor_status.json."
+  "_note": "2026-11-16: Synket med lib/data/risk_brands_by_country.dart for NO, SE og DK. Lurpak er rød (dk_lurpak). Diplom-Is er ukjent (ingen produktkilde; var gul her og rød i Dart). Castello/Puck er gule. GMO-fisk uten kilde i repoet er tatt ut. Kildebasert status: bovaer_processor_status.json."
 }
