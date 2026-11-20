@@ -4,6 +4,14 @@ import 'dart:io' show Platform;
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
+enum PurchaseCatalogStatus {
+  loading,
+  ready,
+  storeUnavailable,
+  queryFailed,
+  productNotReturned,
+}
+
 class PremiumService {
   static const String removeAdsProductId = 'matsjekk_remove_ads_lifetime';
   static const String adsRemovedKey = 'adsRemoved';
@@ -18,6 +26,7 @@ class PremiumService {
   bool isStoreAvailable = false;
   bool isPremiumActive = false;
   bool isLoading = true;
+  PurchaseCatalogStatus catalogStatus = PurchaseCatalogStatus.loading;
   String lastMessage = '';
   List<ProductDetails> products = [];
 
@@ -34,6 +43,7 @@ class PremiumService {
 
     isStoreAvailable = await _iap.isAvailable();
     if (!isStoreAvailable) {
+      catalogStatus = PurchaseCatalogStatus.storeUnavailable;
       lastMessage = 'Butikk utilgjengelig akkurat nå. Prøv igjen senere.';
       isLoading = false;
       return;
@@ -61,12 +71,16 @@ class PremiumService {
     products = response.productDetails.toList();
 
     if (response.error != null) {
+      catalogStatus = PurchaseCatalogStatus.queryFailed;
       lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
     } else if (products.isEmpty) {
+      catalogStatus = PurchaseCatalogStatus.productNotReturned;
       lastMessage = Platform.isIOS
-          ? 'Fant ikke kjøpsproduktet. Sjekk App Store-konfigurasjon.'
-          : 'Fant ikke kjøpsproduktet. Sjekk Google Play-konfigurasjon.';
+          ? 'App Store returnerte ikke engangskjøpet $removeAdsProductId.'
+          : 'Google Play returnerte ikke engangskjøpet $removeAdsProductId. '
+              'Dette bygget spør Google Play, ikke AppGallery.';
     } else {
+      catalogStatus = PurchaseCatalogStatus.ready;
       lastMessage = '';
     }
 

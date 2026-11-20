@@ -706,7 +706,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                                           color: Colors.white, size: 16),
                                       backgroundColor:
                                           bg.withAlpha((0.9 * 255).round()),
-                                      label: Text(reason.toString(),
+                                      label: RobustLabel(reason.toString(),
                                           style: const TextStyle(
                                               color: Colors.white)),
                                       onPressed: () => _toggleExpanded(i),

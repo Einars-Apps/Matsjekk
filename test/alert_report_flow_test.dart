@@ -66,9 +66,8 @@ void main() {
     // The alert chip or label should be visible; open its details by tapping the alert chip (reason text)
     expect(find.text('Alerts'), findsOneWidget);
     print('TEST: Alerts found');
-    final chipFinder = find.text('Test reason');
-    expect(chipFinder, findsOneWidget);
-    await tester.tap(chipFinder.first);
+    expect(find.byType(ActionChip), findsOneWidget);
+    await tester.tap(find.byType(ActionChip));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 200));
     print('TEST: tapped chip');

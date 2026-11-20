@@ -22,6 +22,7 @@ import 'premium_service.dart';
 import 'ad_helper.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'config/links.dart';
+import 'l10n/draft_locale_copy.dart';
 import 'services/remote_risk_rules_service.dart';
 import 'data/ngt_risk_brands.dart';
 import 'services/remote_ngt_suppliers_service.dart';
@@ -202,8 +203,12 @@ class _MatvareSjekkAppState extends State<MatvareSjekkApp> {
         Locale('it'),
         Locale('pt'),
         Locale('es'),
+        Locale('ja'),
+        Locale('ko'),
+        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
+        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
       ],
-      locale: Locale(_currentLanguage),
+      locale: appLocaleFromCode(_currentLanguage),
       theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.green)),
@@ -481,9 +486,18 @@ class _ScannerScreenState extends State<ScannerScreen>
     WakelockPlus.toggle(enable: wakeLockOn);
   }
 
+  String _uiLanguageCode(BuildContext context) {
+    final raw = AppLocalizations.of(context)?.localeName ?? selectedLanguage;
+    final lower = raw.toLowerCase().replaceAll('-', '_');
+    if (lower == 'zh_hant') return 'zh_Hant';
+    if (lower.startsWith('zh')) return 'zh_Hans';
+    return lower;
+  }
+
   String _initialPrivacyMessage(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftPrivacyIntro(code);
+    if (draft != null) return draft;
     switch (code) {
       case 'en':
         return 'Please review the privacy policy the first time you use the app. You can continue without analytics, and your shopping data stays on your device.';
@@ -646,8 +660,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _farmShopsLabel(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftFarmShopsLabel(code);
+    if (draft != null) return draft;
     switch (code) {
       case 'en':
         return 'Find Farm Shops';
@@ -676,8 +691,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   Uri _farmShopsUri(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context).toLowerCase();
     return Uri.parse('https://matsjekk.com/gardsbutikker.html?lang=$code');
   }
 
@@ -692,8 +706,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _howAppWorksText(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftHowAppWorks(code);
+    if (draft != null) return draft;
     if (code == 'nb') {
       return '1. Skann strekkoden på varen.\n'
           '2. Appen henter produktdata fra Open Food Facts.\n'
@@ -707,8 +722,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _regionalNewsLabel(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftRegionalNewsLabel(code);
+    if (draft != null) return draft;
     switch (code) {
       case 'en':
         return 'News in Your Area';
@@ -737,9 +753,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   Uri _regionalNewsUri(BuildContext context) {
-    final langCode =
-        (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-            .toLowerCase();
+    final langCode = _uiLanguageCode(context).toLowerCase();
     final countryCode =
         (selectedCountry.isEmpty ? _defaultCountryCode() : selectedCountry)
             .toUpperCase();
@@ -758,8 +772,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _farmThemeTitle(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftFarmThemeTitle(code);
+    if (draft != null) return draft;
     switch (code) {
       case 'en':
         return 'Farm Shops & Local Food';
@@ -788,8 +803,9 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   String _farmThemeBody(BuildContext context) {
-    final code = (AppLocalizations.of(context)?.localeName ?? selectedLanguage)
-        .toLowerCase();
+    final code = _uiLanguageCode(context);
+    final draft = draftFarmThemeBody(code);
+    if (draft != null) return draft;
     switch (code) {
       case 'en':
         return 'Find nearby farm shops, follow regional updates, and see what products people scan most in your area. This feature is beta and improves continuously.';
@@ -880,7 +896,7 @@ class _ScannerScreenState extends State<ScannerScreen>
             },
             child: const Text('Open demo B'),
           ),
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk')),
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Lukk')),
         ],
       ),
     );
@@ -1073,7 +1089,7 @@ class _ScannerScreenState extends State<ScannerScreen>
               }
             }),
         actions: [
-          TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+          TextButton(onPressed: () => _safePop(), child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
         ],
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
@@ -1192,11 +1208,15 @@ class _ScannerScreenState extends State<ScannerScreen>
                                   'Spanish',
                               'es',
                               setDialogState),
+                          _languageTile('简体中文', 'zh_Hans', setDialogState),
+                          _languageTile('繁體中文', 'zh_Hant', setDialogState),
+                          _languageTile('日本語', 'ja', setDialogState),
+                          _languageTile('한국어', 'ko', setDialogState),
                         ]),
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: const Text('Lukk'))
+                              child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
                         ],
                       ),
                     ),
@@ -1282,7 +1302,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                         actions: [
                           TextButton(
                               onPressed: () => _safePop(),
-                              child: const Text('Lukk'))
+                              child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
                         ],
                       ),
                     ),
@@ -1303,7 +1323,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
                           ]));
                 },
               ),
@@ -1337,7 +1357,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
                           ]));
                 },
               ),
@@ -1361,7 +1381,7 @@ class _ScannerScreenState extends State<ScannerScreen>
                       actions: [
                         TextButton(
                             onPressed: () => _safePop(),
-                            child: const Text('Lukk')),
+                            child: Text(AppLocalizations.of(context)?.close ?? 'Lukk')),
                         ElevatedButton.icon(
                           onPressed: () {
                             _safePop();
@@ -1393,12 +1413,13 @@ class _ScannerScreenState extends State<ScannerScreen>
                   _safeShowDialogBuilder((_) => AlertDialog(
                           title: Text(AppLocalizations.of(context)?.appTitle ??
                               'Food Check'),
-                          content: const Text(
-                              'Version 1.8 – Built for honest food info.'),
+                          content: Text(
+                              AppLocalizations.of(context)?.appDescription ??
+                                  'The app uses Open Food Facts and an internal brand list.'),
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
-                                child: const Text('Lukk'))
+                                child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
                           ]));
                 },
               ),
@@ -1432,23 +1453,28 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   void _visLandDialog() {
+    final code = _uiLanguageCode(context);
     final Map<String, String> land = {
-      'NO': 'Norge',
-      'SE': 'Sverige',
-      'DK': 'Danmark',
-      'FI': 'Finland',
-      'DE': 'Tyskland',
-      'NL': 'Nederland',
-      'BE': 'Belgia',
-      'FR': 'Frankrike',
-      'CH': 'Sveits',
-      'AT': 'Østerrike',
-      'IE': 'Irland',
-      'LU': 'Luxembourg',
-      'IT': 'Italia',
-      'PT': 'Portugal',
-      'ES': 'Spania',
-      'GB': 'UK',
+      for (final country in kSourceCountryCodes)
+        country: draftCountryName(code, country) ??
+            const {
+              'NO': 'Norge',
+              'SE': 'Sverige',
+              'DK': 'Danmark',
+              'FI': 'Finland',
+              'DE': 'Tyskland',
+              'NL': 'Nederland',
+              'BE': 'Belgia',
+              'FR': 'Frankrike',
+              'CH': 'Sveits',
+              'AT': 'Østerrike',
+              'IE': 'Irland',
+              'LU': 'Luxembourg',
+              'IT': 'Italia',
+              'PT': 'Portugal',
+              'ES': 'Spania',
+              'GB': 'UK',
+            }[country]!,
     };
     final sortedLandEntries = land.entries.toList()
       ..sort((a, b) => a.value.toLowerCase().compareTo(b.value.toLowerCase()));
@@ -1456,7 +1482,8 @@ class _ScannerScreenState extends State<ScannerScreen>
     _safeShowDialogBuilder(
       (_) => StatefulBuilder(
         builder: (context, setDialogState) => AlertDialog(
-          title: const Text('Velg land (prioriterer kilder)'),
+          title: Text(draftCountryPickerTitle(code) ??
+              'Velg land (prioriterer kilder)'),
           content: SizedBox(
             width: double.maxFinite,
             child: ConstrainedBox(
@@ -1493,7 +1520,9 @@ class _ScannerScreenState extends State<ScannerScreen>
             ),
           ),
           actions: [
-            TextButton(onPressed: () => _safePop(), child: const Text('Lukk'))
+            TextButton(
+                onPressed: () => _safePop(),
+                child: Text(AppLocalizations.of(context)?.close ?? 'Lukk'))
           ],
         ),
       ),
