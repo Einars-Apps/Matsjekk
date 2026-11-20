@@ -2,6 +2,7 @@
 
 ## Unreleased (working)
 
+- Android: move the supported purchase plugin to `in_app_purchase` 3.3.x so the resolved Google Play Billing Library is 9.1.0 (was 7.1.1). The lifetime remove-ads product id is unchanged. Gradle 8.14.3, Android Gradle Plugin 8.13.1 and Kotlin 2.3.20 are the minimum current Flutter stable accepts for that artifact without moving to Android Gradle Plugin 9.
 - Set TINE and TINE dairy brands (Jarlsberg, Norvegia and the other Norwegian sub-brands) to yellow for Bovaer. TINE oppgir at de ikke lenger leverer Bovaer-melk til forbruker, men eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
 - Replace the NGT-only co-occurrence monitor with a Monday OpenAI evidence review
   covering Bovaer, GMO feed, insect protein and NGT, with explicit country/level

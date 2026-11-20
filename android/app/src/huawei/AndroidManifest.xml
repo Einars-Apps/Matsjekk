@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission
+        android:name="com.android.vending.BILLING"
+        tools:node="remove" />
+    <application>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=${huaweiAppId}" />
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            tools:node="remove" />
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            tools:node="remove" />
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            tools:node="remove" />
+    </application>
+</manifest>
