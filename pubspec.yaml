@@ -2,7 +2,7 @@ name: mat_sjekk
 description: "Insekt-, Bovaer- og GMO-varsler for bevisste forbrukere."
 publish_to: 'none'
 homepage: https://matsjekk.com/app.html
-version: 1.1.8+65
+version: 1.1.9+3501949
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -23,7 +23,11 @@ dependencies:
   intl: ^0.20.2  # For flerspråk
   share_plus: ^12.0.1
   url_launcher: ^6.1.12
-  in_app_purchase: ^3.2.0
+  # 3.3.1 depends on in_app_purchase_android ^0.5.0. On current Flutter
+  # stable that resolves to 0.5.5, which ships Play Billing 9.1.0.
+  # 3.2.x resolved in_app_purchase_android 0.4.0+8 / Billing 7.1.1.
+  in_app_purchase: ^3.3.1
+  package_info_plus: ^9.0.0
   google_mobile_ads: ^5.1.0
 
 dev_dependencies:

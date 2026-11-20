@@ -8,7 +8,9 @@ import 'gen_l10n/app_localizations.dart';
 import 'dart:convert';
 import 'dart:math';
 import 'dart:io' show Platform;
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:wakelock_plus/wakelock_plus.dart';
+import 'about_version.dart';
 import 'widgets.dart';
 import 'data/risk_brands_by_country.dart';
 import 'data/bovaer_processor_status.dart';
@@ -1211,13 +1213,14 @@ class _ScannerScreenState extends State<ScannerScreen>
                   _visLandDialog();
                 },
               ),
-              // IAP re-enabled for v1.1
-              if (!premiumActive)
-                ListTile(
-                  leading: const Icon(Icons.block),
-                  title: Text(AppLocalizations.of(context)?.removeAdsMenuItem ??
-                      'Remove ads — supports further development'),
-                  onTap: () {
+              ListTile(
+                leading: const Icon(Icons.block),
+                title: Text(purchaseMenuTitle(
+                  entitled: premiumActive,
+                  offerLabel: AppLocalizations.of(context)?.removeAdsMenuItem ??
+                      'Remove ads — supports further development',
+                )),
+                onTap: () {
                     _safePop();
                     Navigator.push(
                         context,
@@ -1388,13 +1391,24 @@ class _ScannerScreenState extends State<ScannerScreen>
               ListTile(
                 leading: const Icon(Icons.help),
                 title: Text(AppLocalizations.of(context)?.about ?? 'About'),
-                onTap: () {
+                onTap: () async {
                   _safePop();
+                  var label = aboutVersionLabel(
+                    versionName: '',
+                    buildNumber: '',
+                  );
+                  try {
+                    final info = await PackageInfo.fromPlatform();
+                    label = aboutVersionLabel(
+                      versionName: info.version,
+                      buildNumber: info.buildNumber,
+                    );
+                  } catch (_) {}
+                  if (!mounted) return;
                   _safeShowDialogBuilder((_) => AlertDialog(
                           title: Text(AppLocalizations.of(context)?.appTitle ??
                               'Food Check'),
-                          content: const Text(
-                              'Version 1.8 – Built for honest food info.'),
+                          content: Text(label),
                           actions: [
                             TextButton(
                                 onPressed: () => _safePop(),
