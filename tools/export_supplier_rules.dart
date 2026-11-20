@@ -10,6 +10,8 @@ void main() {
   };
   final payload = {
     'version': 2,
+    'updated_at': '2026-11-16',
+    'tine_bovaer_note_nb': tineBovaerYellowReasonNb,
     'origin': 'Existing app rules; export is not a new factual verification.',
     'countries': countries,
   };

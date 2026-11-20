@@ -74,7 +74,7 @@ void main() {
 
     final riskJson = json.decode(File('docs/data/risk.json').readAsStringSync())
         as Map<String, dynamic>;
-    expect(riskJson['updated_at'], '2026-11-02');
+    expect(riskJson['updated_at'], '2026-11-16');
     final riskNo = riskJson['NO'] as Map<String, dynamic>;
     final riskRed = (riskNo['bovaer_red'] as List)
         .map((brand) => brand.toString().toLowerCase())
@@ -90,12 +90,15 @@ void main() {
     }
     expect(riskRed.contains('arla'), isTrue);
     final notes = riskNo['bovaer_notes'] as List;
-    expect(notes.single['text'], tineBovaerYellowReasonNb);
+    expect(
+      notes.map((note) => (note as Map)['text']),
+      contains(tineBovaerYellowReasonNb),
+    );
 
     final rulesJson =
         json.decode(File('docs/supplier_rules_v2.json').readAsStringSync())
             as Map<String, dynamic>;
-    expect(rulesJson['updated_at'], '2026-11-02');
+    expect(rulesJson['updated_at'], '2026-11-16');
     expect(rulesJson['tine_bovaer_note_nb'], tineBovaerYellowReasonNb);
     expect(rulesJson['version'], 2);
     final countries = rulesJson['countries'] as Map<String, dynamic>;

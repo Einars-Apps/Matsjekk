@@ -20,16 +20,13 @@ const String tineBovaerYellowReasonEn =
 //   - Müller UK Bovaer pilot announcement (Nov 2023)
 //   - Industry news: Euractiv, FoodNavigator, DairyStar
 //
-// CLASSIFICATION:
-//   RED    = Confirmed direct Bovaer user (public announcement, DSM-Firmenich partner)
-//            Also covers processed products (cheese, butter, ice cream, cream) still
-//            on store shelves — production dates can lag 6–18 months behind sourcing.
-//   YELLOW = Supply chain risk:
-//            (a) buys milk from farmers enrolled in a Bovaer programme,
-//            (b) subsidiary of or partner to a confirmed RED company,
-//            (c) large dairy with unconfirmed status but plausible exposure via the
-//                DSM-Firmenich distribution network.
+// CLASSIFICATION (weekly review 2026-11-16):
+//   RED    = Source-backed current use. Never red without a public source.
+//   YELLOW = Source-backed partial/possible use, or products made before a
+//            source-backed stop date.
 //            Norwegian model: TINE (yellow) → Synnøve / Fjordland / Q-meieriene / Kavli
+//   UNKNOWN = No reliable source. Not listed. "Plausible exposure" without a
+//            source was removed 2026-11-16.
 //   GREEN note: Certified organic (Demeter, KRAV, EU Organic, Debio, Bio Suisse)
 //            products are captured by organic_keywords. Bovaer is incompatible with
 //            EU organic certification, so organic labels are a reliable green signal.
@@ -37,18 +34,19 @@ const String tineBovaerYellowReasonEn =
 final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
   // ─────────────────────────────────────────────────────────────────────────
   'NO': {
-    // NORGE — Last verified: 2026-10-26
-    // RED:  Arla confirmed large-scale Nordic Bovaer rollout (2022–2023).
-    //       Lurpak and Castello are Arla brands (same milk supply chain).
-    // YELLOW: TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026.
+    // NORGE — Last verified: 2026-11-16
+    // RED:  Lurpak follows sourced Danish Arla (dk_lurpak). Generic Arla stays
+    //       red here because milk origin is unknown and the strictest sourced
+    //       Arla status is Danish conventional milk.
+    // YELLOW: Castello/Puck (dk_castello) and Apetina: Arla brands, milk origin
+    //       not documented. TINE sluttet å bruke melk fra kyr fôret med Bovaer 22. januar 2026.
     //   Risikoen gjelder bare produkter laget før denne datoen – sjekk produksjons-/pakkedato.
     //   Eldre produkter (f.eks. ost) kan fortsatt finnes i butikk.
     //   TINE supplies milk/ingredients to Synnøve, Fjordland (TINE subsidiary),
     //   Q-meieriene, Kavli and OsteCompagniet — whole downstream chain flagged.
     'bovaer_red': [
-      'arla', 'apetina', 'aptina',
-      'lurpak',    // Arla brand — butter sold globally
-      'castello',  // Arla brand — cheese
+      'arla',
+      'lurpak', // dk_lurpak — sourced red
     ],
     'bovaer_yellow': [
       'tine', 'synnøve', 'synnøve finden', 'fjordland',
@@ -56,367 +54,265 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       // TINE sub-brands — appear on packaging without "TINE"
       'jarlsberg', 'norvegia', 'biola', 'litago',
       'snøfrisk', 'gudbrandsdalsost', 'ski queen',
+      // Arla brands; milk origin not documented (dk_castello / Apetina note).
+      'castello', 'puck',
+      'apetina', 'aptina',
     ],
-    'gmo_fish_red': ['lerøy', 'salmar', 'mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['økologisk', 'organic', 'biodynamisk', 'debio'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'SE': {
-    // SVERIGE — Last verified: March 2026
-    // RED:  Arla brands with sourced Nordic pilot exposure. Current Swedish
-    //       use is not documented; processor status for Arla SE is yellow and
-    //       wins when the product name matches. Yoggi is an Arla brand
-    //       (arla.se/produkter/yoggi/) and follows that yellow rating.
-    // REMOVED 2026-11-02: Skånemejerier and Lindahls. Company replies
-    //       (11 Dec 2024 and 21 Jan 2025) say no supplier uses Bovaer and no
-    //       trial is planned. Not green: they also said future use is being
-    //       evaluated, and the replies are not from 2026. Unknown, not red.
-    // YELLOW: Norrmejerier = small northern co-op, possible supply chain exposure.
-    //         Yoggi = Arla SE brand.
+    // SVERIGE — Last verified: 2026-11-16
+    // YELLOW: se_arla is only the 2022 pilot (dsm-firmenich 20.04.2022).
+    //       Current Swedish use is not documented. Yoggi, Bregott, Keso,
+    //       Finello and Arla Ko follow that yellow rating.
+    // RED:  Lurpak stays red (dk_lurpak, Danish milk).
+    // REMOVED 2026-11-02: Skånemejerier and Lindahls -> unknown.
+    // REMOVED 2026-11-16: Norrmejerier (no public source) -> unknown.
     'bovaer_red': [
-      'arla', 'bregott', 'arla ko',
-      'castello',      // Arla brand
-      'lurpak',        // Arla brand
-      'apetina',       // Arla brand
-      'keso',          // Arla SE cottage cheese brand
-      'finello',       // Arla SE grated cheese brand
+      'lurpak', // dk_lurpak — sourced red
     ],
     'bovaer_yellow': [
-      'norrmejerier',  // Small northern co-op, possible via raw milk market
-      'yoggi',         // Arla SE fruit yoghurt (arla.se/produkter/yoggi/)
+      'arla', 'bregott', 'arla ko', 'keso', 'finello',
+      'yoggi', // Arla SE (arla.se/produkter/yoggi/)
+      'castello', 'puck',
+      'apetina',
     ],
-    'gmo_fish_red': ['lerøy', 'mowi', 'salmar'],
+    'gmo_fish_red': [],
     'organic_keywords': ['ekologisk', 'organic', 'biodynamisk', 'krav'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'DK': {
-    // DANMARK — Last verified: March 2026
-    // RED:  Arla Foods' global HQ is in Aarhus. Lurpak (butter) and Kærgården
-    //       are among Denmark's most-sold dairy brands — both Arla.
-    //       Diplom-is = Arla ice cream brand.
-    //       Karolines Køkken = Arla cooking cream range.
-    // REMOVED: Thise → biodynamic/organic co-op (Demeter certified) → GREEN.
-    //          Dong → Danish energy company, not a dairy brand.
-    //          Nørsmølk → minor/uncertain — removed until confirmed.
+    // DANMARK — Last verified: 2026-11-16
+    // RED:  Conventional Danish Arla milk (80-day 3-NOP requirement, continues
+    //       in 2027; SGAV 08.10.2026). Lurpak is sourced to Holstebro.
+    //       Kærgården, Karolines Køkken and Dofino stay on this list as Danish
+    //       Arla brands under that requirement; no separate product source.
+    // YELLOW: Castello/Puck (origin per product not documented). Apetina same.
+    //       Finello follows se_arla (2022 pilot only), not a DK product source.
+    // REMOVED 2026-11-16: Diplom-Is (no product source; was red here and yellow
+    //       in risk.json) -> unknown. Naturmælk (no source) -> unknown.
     'bovaer_red': [
       'arla', 'lurpak', 'kærgården',
-      'castello',          // Arla brand
-      'apetina',           // Arla brand
-      'karolines køkken',  // Arla brand
-      'diplom-is',         // Arla ice cream brand
-      'dofino',            // Arla brand (cheese exported globally)
-      'finello',           // Arla DK grated cheese brand
+      'karolines køkken',
+      'dofino',
     ],
     'bovaer_yellow': [
-      'naturmælk',         // DK smaller dairy, possible market exposure
+      'castello', 'puck',
+      'apetina',
+      'finello',
     ],
-    'gmo_fish_red': ['nordic seafood', 'royal greenland'],
+    'gmo_fish_red': [],
     'organic_keywords': ['økologisk', 'organic', 'demeter', 'ø-certificeret', 'øko'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'DE': {
-    // DEUTSCHLAND — Last verified: March 2026
-    // RED:  Arla confirmed DE operations (Buko, Lurpak, Castello sold in DE).
-    //       Müller: removed (no reliable source) -> unknown.
-    //       Landliebe: FrieslandCampina DE brand — FC is confirmed DSM partner.
-    // REMOVED: Dairing — fictional/wrong entry.
-    //          Lactalis DE: Lactalis global is yellow (no specific DE announcement).
-    //          Andechser: Demeter organic → NOT Bovaer.
-    //          Söbbeke: Certified organic → NOT Bovaer.
-    // YELLOW: Zott, Ehrmann, Weihenstephan, Hochland buy raw milk on open market
-    //         where Bovaer-enrolled farms participate.
+    // DEUTSCHLAND — Last verified: 2026-11-16
+    // YELLOW: de_arla is the 2022 pilot only. Buko follows that.
+    //       Landliebe, Campina and Friesche Vlag follow nl_frieslandcampina
+    //       (partial, about 600 farms) — yellow, not red.
+    // RED:  Lurpak stays red (dk_lurpak).
+    // REMOVED: Müller (2026-10-31), Zott, Ehrmann, Weihenstephan, Hochland,
+    //          Lactalis, Président (no public source) -> unknown.
     'bovaer_red': [
-      'arla',
-      // Müller removed 2026-10-31: no reliable source -> unknown.
-      'landliebe',   // FrieslandCampina DE brand — confirmed via FC partnership
-      'buko',        // Arla cream cheese brand
-      'lurpak',      // Arla brand
-      'castello',    // Arla brand
+      'lurpak',
     ],
     'bovaer_yellow': [
-      'zott',        // Independent Bavarian dairy, sources from open market
-      'ehrmann',     // German dairy/desserts, market milk sourcing
-      'weihenstephan', // Prestigious Bavarian dairy brand
-      'hochland',    // Large DE cheese company
-      'campina',     // FrieslandCampina export brand in DE stores
-      'friesche vlag', // FC export brand
-      'lactalis',    // World's largest dairy — yellow (no confirmed DE Bovaer)
-      'président',   // Lactalis brand sold in DE
+      'arla', 'buko',
+      'castello', 'puck',
+      'landliebe', 'campina', 'friesche vlag',
     ],
-    'gmo_fish_red': ['iglo', 'followfish'],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'demeter', 'bioland', 'naturland', 'ökologisch'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'NL': {
-    // NEDERLAND — Last verified: March 2026
-    // RED:  FrieslandCampina = NL's largest dairy (~50% of Dutch milk).
-    //       FC signed confirmed DSM-Firmenich Bovaer partnership (2023).
-    //       FC brands: Campina, Friesche Vlag, Chocomel, Mona, Milner, Valess.
-    //       DOC Kaas / A-ware: no source found -> removed (unknown).
-    // REMOVED: Jumbo = supermarket chain, not a dairy brand/producer.
+    // NEDERLAND — Last verified: 2026-11-16
+    // YELLOW: FrieslandCampina is partial (about 600 farms, no separate milk
+    //       stream). Chocomel, Mona, Milner, Valess, Vifit, Optimel, Fristi,
+    //       Campina and Friesche Vlag follow nl_frieslandcampina. Not red.
+    // REMOVED 2026-10-31: DOC Kaas, A-ware -> unknown.
+    // REMOVED 2026-11-16: CONO, Melkunie (no public source) -> unknown.
     'bovaer_red': [
-      'frieslandcampina', 'campina', 'friesche vlag',
-      'chocomel',  // FC brand — chocolate milk
-      'mona',      // FC dessert brand
-      'milner',    // FC cheese brand
-      'valess',    // FC brand
-      'vifit',     // FC health dairy brand
-      'optimel',   // FC dairy drink brand
-      'fristi',    // FC children's dairy drink
-      // DOC Kaas + A-ware removed 2026-10-31: no source found -> unknown.
       'arla',
     ],
     'bovaer_yellow': [
-      'cono',              // CONO Kaasmakers (Beemster cheese) — large co-op
-      'melkunie',          // Müller NL / Calvé brand, market sourcing
+      'frieslandcampina', 'campina', 'friesche vlag',
+      'chocomel', 'mona', 'milner', 'valess',
+      'vifit', 'optimel', 'fristi',
     ],
-    'gmo_fish_red': ['mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['biologisch', 'organic', 'demeter', 'eko'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'BE': {
-    // BELGIË / BELGIQUE — Last verified: March 2026
-    // Milcobel = Belgium's largest dairy co-op (Passendale, Père Joseph, Brugge).
-    // FrieslandCampina sells Campina/Friesche Vlag in BE too.
-    // Inex = second largest BE co-op.
+    // BELGIË / BELGIQUE — Last verified: 2026-11-16
+    // YELLOW: Campina and Friesche Vlag follow nl_frieslandcampina (partial).
+    //       Bel, Babybel, Boursin and Kiri follow fr_bel (Bel 26.10.2023).
+    // REMOVED 2026-11-16: Milcobel, Passendale, Wynendale, Père Joseph, Inex,
+    //       Président (no public source) -> unknown.
     'bovaer_red': [
       'arla',
-      'campina',     // FrieslandCampina brand sold in BE
-      'friesche vlag', // FC brand
     ],
     'bovaer_yellow': [
-      'milcobel',    // BE's largest dairy co-op — possible DSM-Firmenich partner
-      'passendale',  // Milcobel brand
-      'wynendale',   // Milcobel brand
-      'père joseph', // Milcobel brand
-      'inex',        // Second largest BE co-op
-      'président',   // Lactalis brand sold in BE
-      'bel',         // Bel Group (La Vache Qui Rit / Laughing Cow, Babybel, Boursin)
+      'campina', 'friesche vlag',
+      'bel', 'babybel', 'boursin', 'kiri',
     ],
-    'gmo_fish_red': ['mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['biologisch', 'biologique', 'organic', 'demeter'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'FR': {
-    // FRANCE — Last verified: March 2026
-    // Arla minor in France.
-    // Lactalis = world's largest dairy (HQ Laval, France). No specific FR Bovaer
-    //   announcement found, but scale and DSM-Firmenich network → YELLOW.
-    //   Key Lactalis brands in FR: Président (butter/cream), Bridel, Lactel.
-    // Sodiaal = France's largest co-op (Candia UHT, Yoplait partner) → YELLOW.
-    // Danone = major in FR, sources from French farms → YELLOW.
-    // REMOVED: Carrefour Bio = organic label (retailer) → covers green, not yellow.
+    // FRANCE — Last verified: 2026-11-16
+    // YELLOW: Bel, Babybel, Boursin and Kiri (fr_bel, Bel 26.10.2023).
+    //       Savencia stays yellow via the processor-status entry, not this list.
+    // REMOVED 2026-11-16: Lactalis, Président, Bridel, Lactel, Sodiaal, Candia,
+    //       Yoplait, Danone, Elle & Vire, Isigny Sainte-Mère, Entremont,
+    //       Riches Monts (no public source for current use) -> unknown.
     'bovaer_red': [
       'arla',
     ],
     'bovaer_yellow': [
-      'lactalis', 'président', 'bridel', 'lactel', // Lactalis group
-      'sodiaal', 'candia',         // France's largest dairy co-op + brand
-      'yoplait',                   // Sodiaal / General Mills joint
-      'danone',                    // Major FR dairy sourcing from local farms
-      'elle & vire',               // Normandy dairy (Agrial co-op subsidiary)
-      'isigny sainte-mère',        // Normandy AOP co-op — smaller, but yellow
-      'entremont',                 // Sodiaal wholly-owned cheese subsidiary
-      'riches monts',              // Entremont / Sodiaal brand
-      'bel',                       // Bel Group HQ Paris (Babybel, Boursin)
+      'bel', 'babybel', 'boursin', 'kiri',
     ],
-    'gmo_fish_red': ['mowi', 'labeyrie'],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'demeter', 'agriculture biologique', 'ab'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'GB': {
-    // UNITED KINGDOM — Last verified: March 2026
-    // RED:  Arla brands. Müller: no reliable source (Müller says its Direct farmers
-    //       do not use Bovaer) -> unknown. Arla UK trials have ended.
-    //       Lurpak, Anchor, Cravendale, Tickler = Arla brands sold in UK.
-    // REMOVED: Dairy Crest = now Saputo Dairy UK (Canadian ownership, status unclear).
-    //          Yeo Valley = certified organic → GREEN (organic_keywords).
-    //          Riverford = organic veg-box / dairy → GREEN.
-    // YELLOW: Saputo (Cathedral City cheddar, Davidstow) — UK's second largest processor.
-    //         Kerrygold / Ornua sold widely in UK — see IE yellow chain.
+    // UNITED KINGDOM — Last verified: 2026-11-16
+    // YELLOW: gb_arla trial ended (FarmingUK 09.11.2025). Cravendale and
+    //       Tickler follow that rule: products made before 09.11.2025.
+    //       Castello/Puck follow dk_castello (origin not documented).
+    // RED:  Lurpak stays red (dk_lurpak).
+    // REMOVED 2026-10-31: Müller, Anchor -> unknown.
+    // REMOVED 2026-11-16: Saputo, Cathedral City, Davidstow, Clover,
+    //       Kerrygold, Pilgrims Choice, Country Life, Lakeland (no source
+    //       for use; Ornua/Kerrygold is unknown in the status file).
     'bovaer_red': [
-      'arla',
-      // Müller + Anchor removed 2026-10-31: no reliable source -> unknown.
-      'lurpak',     // Arla brand — major UK butter
-      'cravendale', // Arla filtered milk
-      'castello',   // Arla brand
-      'tickler',    // Arla aged cheddar brand
+      'lurpak',
     ],
     'bovaer_yellow': [
-      'saputo',          // Saputo Dairy UK — Cathedral City, Davidstow, Clover
-      'cathedral city',  // Saputo brand
-      'davidstow',       // Saputo brand
-      'clover',          // Saputo/formerly Dairy Crest brand
-      'kerrygold',       // Ornua (Irish) — see IE yellow
-      'pilgrims choice', // Ornua brand
-      'country life',    // Saputo Dairy UK brand (butter)
-      'lakeland',        // Lakeland Dairies — cross-border IE/GB co-op
+      'arla', 'cravendale', 'tickler',
+      'castello', 'puck',
     ],
-    'gmo_fish_red': ['mowi', 'bakkafrost', 'youngs seafood'],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'biodynamic', 'soil association', 'demeter'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'IE': {
-    // IRELAND — Last verified: March 2026
-    // Ornua (co-op) = produces Kerrygold butter & cheese, exports globally.
-    // Glanbia / Tirlán (formerly Glanbia co-op) = Ireland's largest dairy.
-    // Kerry Group = major dairy ingredients supplier.
-    // Lakeland Dairies = cross-border NI/Republic co-op.
+    // IRELAND — Last verified: 2026-11-16
+    // Ornua/Kerrygold is unknown in the status file (no documented use).
+    // REMOVED 2026-11-16: Ornua, Kerrygold, Pilgrims Choice, Glanbia, Tirlán,
+    //       Avonmore, Kerry, Lakeland, Dairygold, Carbery, Dubliner, Kerrymaid,
+    //       Connacht Gold (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
-    'bovaer_yellow': [
-      'ornua', 'kerrygold', 'pilgrims choice', // Ornua group
-      'glanbia', 'tirlán',   // Glanbia / Tirlán co-op
-      'avonmore',            // Tirlán consumer brand
-      'kerry',               // Kerry Group dairy
-      'lakeland',            // Lakeland Dairies
-      'dairygold',           // Irish dairy co-op
-      'carbery',             // Carbery Group (Dubliner, Kerrymaid)
-      'dubliner',            // Carbery brand
-      'kerrymaid',           // Carbery brand
-      'connacht gold',       // Connacht Gold Creameries co-op
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'biodynamic', 'demeter', 'iofga'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'IT': {
-    // ITALIA — Last verified: March 2026
-    // Granarolo = Italy's largest dairy co-op — possible via DSM-Firmenich network.
-    // Galbani = Lactalis subsidiary — yellow via parent.
-    // Parmalat = Lactalis subsidiary (acquired 2012).
-    // NOTE: Grana Padano / Parmigiano-Reggiano are PDO consortia, not producers.
-    //       Asiago = PDO name, not a company.
-    //       Risk for these is via the individual caseificio supplying milk.
+    // ITALIA — Last verified: 2026-11-16
+    // YELLOW: Parmalat trial at Università Cattolica CERZOO (dsm-firmenich
+    //       04.09.2023). Bel brands follow fr_bel.
+    // REMOVED 2026-11-16: Granarolo, Lactalis, Galbani, Fattorie Osella, Nestlé
+    //       (no source beyond the Parmalat trial) -> unknown.
     'bovaer_red': [
       'arla',
     ],
     'bovaer_yellow': [
-      'granarolo',  // Italy's largest dairy co-op
-      'lactalis', 'galbani', 'parmalat', // Lactalis group
-      'fattorie osella', // Lactalis IT sub-brand
-      'bel',        // Bel Group (Babybel in IT)
-      'nestlé',     // Nestlé IT dairy range
+      'parmalat',
+      'bel', 'babybel', 'boursin', 'kiri',
     ],
-    'gmo_fish_red': ['mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['biologico', 'organic', 'demeter', 'bio'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'ES': {
-    // ESPAÑA — Last verified: March 2026
-    // No Spanish dairy has publicly announced Bovaer use as of March 2026.
-    // Puleva = Lactalis España brand (Lactalis acquired Puleva 2021) → yellow.
-    // Central Lechera Asturiana = Spain's largest dairy co-op → yellow (market exposure).
-    // REMOVED: Campofrío = pork sausage/cold cuts brand, NOT a dairy producer.
+    // ESPAÑA — Last verified: 2026-11-16
+    // REMOVED 2026-11-16: Danone, Puleva, Lactalis, Président, Central Lechera
+    //       Asturiana, Larsa, El Castillo, Pascual, Kaiku, Nestlé
+    //       (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
-    'bovaer_yellow': [
-      'danone',    // Major in ES, sources milk from Spanish farms
-      'puleva', 'lactalis', 'président', // Lactalis ESP group
-      'central lechera asturiana', // Largest Spanish dairy co-op (CAPSA)
-      'larsa',     // CAPSA brand (Galicia)
-      'el castillo', // CAPSA brand
-      'pascual',   // Grupo Pascual — major Spanish dairy
-      'kaiku',     // Lactalis ES brand (Basque Country)
-      'nestlé',    // Nestlé ES dairy products
-    ],
-    'gmo_fish_red': ['pescanova', 'mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['ecológico', 'organic', 'demeter', 'bio'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'PT': {
-    // PORTUGAL — Last verified: March 2026
-    // Lactogal = Portugal's largest dairy co-op (Mimosa, Agros, Gresso brands).
-    // REMOVED: Pasteis de nata = a pastry/food product, NOT a dairy company.
+    // PORTUGAL — Last verified: 2026-11-16
+    // REMOVED 2026-11-16: Lactogal, Mimosa, Agros, Vigor, Matinal, Gresso,
+    //       Lactalis, Nestlé (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
-    'bovaer_yellow': [
-      'lactogal', 'mimosa', 'agros', // Lactogal group
-      'vigor', 'matinal', 'gresso', // Lactogal brands
-      'lactalis',   // Lactalis has Portuguese dairy operations
-      'nestlé',     // Nestlé PT
-    ],
-    'gmo_fish_red': ['pescanova', 'iglo'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['biológico', 'organic', 'demeter', 'bio'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'FI': {
-    // FINLAND — Last verified: March 2026
-    // RED:  Valio = Finland's largest dairy co-op.
-    //       UPDATED 2026-10-31: Valio pilot (some dozen farms since 2022) stopped 09.02.2026 -> YELLOW.
-    //       Valio brands: Valio, Oltermanni (cheese), Aura (blue cheese), Eila,
-    //       Via Vita, Valio Gefilus.
-    // REMOVED: Arla Pro = just Arla's food service sub-brand, covered by 'arla'.
+    // FINLAND — Last verified: 2026-11-16
+    // YELLOW: Valio stopped its pilot 09.02.2026 (valio.fi). Oltermanni and
+    //       Gefilus stay as Valio brands named in that earlier sourced update.
+    // REMOVED 2026-11-16: Juustoportti (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
     'bovaer_yellow': [
-      // Valio stopped its Bovaer pilot 09.02.2026 (valio.fi) -> yellow,
-      // products made before that date.
       'valio', 'oltermanni', 'gefilus',
-      'juustoportti',  // Finnish cheese brand, smaller — possible market exposure
     ],
-    'gmo_fish_red': ['mowi', 'lerøy', 'salmar'],
+    'gmo_fish_red': [],
     'organic_keywords': ['luomu', 'organic', 'demeter'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'CH': {
-    // SCHWEIZ / SUISSE / SVIZZERA — Last verified: March 2026
-    // Emmi = Switzerland's largest dairy company — sustainability focus but no
-    //        confirmed Bovaer announcement (CH has strict national organic standards).
-    // FrieslandCampina sells Landliebe in CH → yellow via FC-DSM partnership.
-    // Bio Suisse Knospe = reliable green indicator in CH.
+    // SCHWEIZ / SUISSE / SVIZZERA — Last verified: 2026-11-16
+    // YELLOW: Landliebe and Campina follow nl_frieslandcampina (partial).
+    // REMOVED 2026-11-16: Emmi, Kaltbach, Cremo, Elsa, Hochdorf
+    //       (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
     'bovaer_yellow': [
-      'emmi',       // CH's largest dairy — high market exposure probability
-      'kaltbach',   // Emmi cave-aged cheese brand
-      'cremo',      // Swiss co-op (Fribourg / Vaud)
-      'elsa',       // Migros-owned dairy brand
-      'hochdorf',   // Swiss dairy ingredients
-      'landliebe',  // FrieslandCampina product sold in CH
-      'campina',    // FC brand sold in CH
+      'landliebe', 'campina',
     ],
-    'gmo_fish_red': ['mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'demeter', 'knospe', 'bio suisse'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'AT': {
-    // ÖSTERREICH — Last verified: March 2026
-    // Berglandmilch = Austria's largest dairy co-op (Schärdinger brand).
-    // NÖM AG, Tirol Milch, Salzburg Milch = large regional co-ops.
-    // "Zurück zum Ursprung" (Hofer/Aldi AT) = certified organic → green via keywords.
+    // ÖSTERREICH — Last verified: 2026-11-16
+    // YELLOW: Landliebe follows nl_frieslandcampina (partial).
+    // REMOVED 2026-11-16: Berglandmilch, Schärdinger, NÖM, Tirol Milch,
+    //       Salzburg Milch, Stainzer, Lattella (no public source) -> unknown.
     'bovaer_red': [
       'arla',
     ],
     'bovaer_yellow': [
-      'berglandmilch', 'schärdinger', // Berglandmilch group
-      'nöm',           // NÖM AG — major AT dairy
-      'tirol milch',   // Tirolian dairy co-op
-      'salzburg milch', // Salzburg regional dairy
-      'stainzer',      // Styrian regional dairy
-      'lattella',      // NÖM buttermilk brand
-      'landliebe',     // FrieslandCampina brand also distributed in AT
+      'landliebe',
     ],
-    'gmo_fish_red': ['mowi'],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'demeter', 'aus österreich bio'],
   },
 
@@ -427,11 +323,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // No confirmed Bovaer use in Iceland as of March 2026.
     // Royal Greenland and Icelandic fishing companies sell GMO-feed salmon.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'ms',              // Mjólkursamsalan — Iceland's dominant dairy co-op
-      'mjólkursamsalan', // Full name variant
-    ],
-    'gmo_fish_red': ['mowi', 'royal greenland', 'icelandic salmon'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['lífrænn', 'organic', 'bio'],
   },
 
@@ -440,9 +333,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // GRØNLAND — Last verified: March 2026
     // Dairy market is minimal — primarily imports from Denmark/Arla.
     // Royal Greenland = major seafood exporter, uses GMO fish feed.
-    'bovaer_red': ['arla', 'lurpak', 'castello'],
-    'bovaer_yellow': [],
-    'gmo_fish_red': ['mowi', 'royal greenland'],
+    'bovaer_red': ['arla', 'lurpak'],
+    'bovaer_yellow': ['castello', 'puck'],
+    'gmo_fish_red': [],
     'organic_keywords': ['lífrænt', 'organic', 'bio', 'økologisk'],
   },
 
@@ -455,15 +348,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Arla has a factory in Gorzów Wlkp. — directly RED.
     // Zott has PL operations (market milk sourcing) → yellow.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'mlekovita',   // Poland's largest co-op
-      'mlekpol', 'łaciate',  // Second largest co-op + flagship brand
-      'piątnica',    // Major dairy brand
-      'sm gostyń',   // Large co-op in Gostyń
-      'zott',        // German dairy with Polish operations
-      'danone',      // Danone PL (Activia, Actimel)
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy', 'salmar'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekologiczny', 'ekologiczne', 'organic'],
   },
 
@@ -474,14 +360,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Olma = second largest, acquired by Lactalis → yellow via parent.
     // Lacina = regional co-op.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'madeta',      // Czech's largest dairy co-op
-      'olma', 'lactalis', // Lactalis acquisition of Olma
-      'kunín',       // Mlékárna Kunín — major CZ dairy
-      'danone',      // Danone CZ operations
-      'zott',        // German dairy distributed in CZ
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekologický', 'organic'],
   },
 
@@ -491,55 +371,30 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Rajo = Slovakia's largest dairy, acquired by Müller then Lactalis → yellow.
     // Tatra = well-known Slovak dairy brand.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'rajo',        // Slovakia's largest dairy (now Lactalis)
-      'lactalis',    // Parent of Rajo
-      'tatra',       // Slovak dairy brand
-      'danone',      // Danone SK operations
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekologický', 'organic'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'HU': {
-    // MAGYARORSZÁG — Last verified: March 2026
-    // Sole-Mizo = Hungary's largest dairy (Savencia group, French).
-    // FrieslandCampina Hungary = confirmed DSM-Firmenich partner → RED.
-    // Danone HU and Nestlé HU have market milk sourcing.
-    'bovaer_red': [
-      'arla',
-      'frieslandcampina', // FC confirmed DSM partner
-      'campina',          // FC brand
-    ],
-    'bovaer_yellow': [
-      'sole-mizo', 'sole mizo', // Hungary's largest dairy
-      'pöttyös',   // Sole-Mizo brand (famous spotted yogurt)
-      'danone',    // Danone HU
-      'nestlé',    // Nestlé HU dairy range
-    ],
-    'gmo_fish_red': ['mowi'],
+    // MAGYARORSZÁG — Last verified: 2026-11-16
+    // FrieslandCampina, Campina, Sole-Mizo, Danone and Nestlé: no source for
+    // use in Hungary -> unknown (not listed).
+    'bovaer_red': ['arla'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ökológiai', 'organic'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'RO': {
-    // ROMÂNIA — Last verified: March 2026
-    // FrieslandCampina Romania = confirmed RED (owns Napolact, Albalact → Zuzu).
-    // Dorna = Lactalis subsidiary → yellow via parent.
-    'bovaer_red': [
-      'arla',
-      'frieslandcampina',  // FC confirmed DSM partner
-      'napolact',          // FC Romania brand
-      'zuzu',              // FrieslandCampina Romania brand
-    ],
-    'bovaer_yellow': [
-      'dorna', 'lactalis', // Lactalis Romania
-      'danone',            // Danone RO
-      'rarăul',            // Romanian regional dairy
-      'olympus',           // Greek brand sold widely in RO
-    ],
-    'gmo_fish_red': ['mowi'],
+    // ROMÂNIA — Last verified: 2026-11-16
+    // FrieslandCampina, Napolact, Zuzu, Dorna and Lactalis: no source for use
+    // in Romania -> unknown (not listed).
+    'bovaer_red': ['arla'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ecologic', 'organic'],
   },
 
@@ -549,12 +404,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Danone BG = major producer (Activia, Actimel, Serdika brands).
     // Lactalis BG operations via imported products.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'danone',    // Major Bulgarian market dairy
-      'meggle',    // German/international dairy sold in BG
-      'president', // Lactalis brand sold in BG
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['биологичен', 'bio', 'organic', 'eco'],
   },
 
@@ -568,12 +419,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
       'arla',
       // Valio moved to sourced status (stopped 09.02.2026, yellow).
     ],
-    'bovaer_yellow': [
-      'tere',    // Second largest ET dairy
-      'e-piim',  // Estonian co-op
-      'farmi',   // Farmi brand dairy
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['mahe', 'bio', 'organic'],
   },
 
@@ -583,13 +430,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Rīgas piens = major Latvian dairy.
     // Latvijas piens = second cooperative.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'rīgas piens', 'rigas piens', // Major Latvian dairy
-      'latvijas piens',              // Second major co-op
-      // Valio moved to sourced status (stopped 09.02.2026, yellow).
-      'riqo',                        // Latvian yogurt brand
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekologisks', 'organic'],
   },
 
@@ -600,13 +442,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Žemaitijos pienas = second largest dairy co-op.
     // Valio distributes in LT.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'rokiškio sūris', 'rokiskio suris', // Largest cheese producer
-      'žemaitijos pienas', 'zemaitijos pienas', // Second largest co-op
-      // Valio moved to sourced status (stopped 09.02.2026, yellow).
-      'pieno žvaigždės', 'pieno zvaigzdes', // Major LT dairy
-    ],
-    'gmo_fish_red': ['mowi', 'lerøy'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['ekologiškas', 'bio', 'organic'],
   },
 
@@ -616,14 +453,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Vindija = Croatia's largest dairy (owns Sirela, Zdenka cheese, Vindija yogurt).
     // Dukat = Lactalis Croatia acquisition → yellow via parent.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'vindija',   // Croatia's largest dairy
-      'sirela',    // Vindija brand
-      'zdenka',    // Major Croatian cheese (Vindija group)
-      'dukat', 'lactalis', // Lactalis Croatia
-      'president', // Lactalis brand in HR
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekološki', 'organic'],
   },
 
@@ -633,13 +464,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Ljubljanske mlekarne = Slovenia's largest dairy co-op.
     // Mlekarna Celeia = major regional dairy.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'ljubljanske mlekarne', // Slovenia's largest co-op
-      'mlekarna celeia',      // Major Celje dairy
-      'planika',              // Planika dairy (western Slovenia)
-      'danone',               // Danone SI operations
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekološki', 'organic'],
   },
 
@@ -649,13 +475,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Imlek = Serbia's largest dairy (Danube Foods Group).
     // Mlekara Šabac = second major.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'imlek',         // Serbia's largest dairy
-      'mlekara šabac', 'mlekara sabac', // Second major dairy
-      'danone',        // Danone RS operations
-      'president',     // Lactalis brand available in RS
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organsko', 'organic', 'ekološki'],
   },
 
@@ -664,12 +485,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // BOSNA I HERCEGOVINA — Last verified: March 2026
     // Mlijekoprodukt = major BiH dairy.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'mlijekoprodukt', // Major Bosnian dairy
-      'milkos',         // Regional Bosnian dairy
-      'president',      // Lactalis brand sold in BA
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'ekološki', 'organic'],
   },
 
@@ -678,11 +495,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // CRNA GORA — Last verified: March 2026
     // Small domestic dairy market; mostly imported products.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'president', // Lactalis brand distributed in ME
-      'imlek',     // Serbian dairy distributed in ME
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'ekološki'],
   },
 
@@ -691,12 +505,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // СЕВЕРНА МАКЕДОНИЈА — Last verified: March 2026
     // Bimilk = major Macedonian dairy (Bitola dairy region).
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'bimilk',    // Major Macedonian dairy
-      'pelagonija', // Regional dairy
-      'president', // Lactalis brand in MK
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organic', 'органски'],
   },
 
@@ -705,11 +515,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // SHQIPËRI — Last verified: March 2026
     // Small dairy market with local producers.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'president', // Lactalis brand available in AL
-      'danone',    // Danone products distributed in AL
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['bio', 'organik', 'organic'],
   },
 
@@ -720,15 +527,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Delta = Vivartia group dairy brand (major Greek conglomerate).
     // Olympos = major Greek dairy (part of Friesland — FC connection → yellow).
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'fage',      // Major Greek dairy (international — market milk exposure)
-      'delta',     // Vivartia Group dairy brand
-      'olympos',   // Major GR dairy (FrieslandCampina partnership)
-      'noynoy',    // Vivartia brand
-      'tyras',     // Greek regional dairy
-      'president', // Lactalis brand sold in GR
-    ],
-    'gmo_fish_red': ['mowi', 'nireus', 'thessaloniki aquaculture'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['βιολογικό', 'bio', 'organic'],
   },
 
@@ -737,12 +537,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // ΚΥΠΡΟΣ — Last verified: March 2026
     // Charalambides Christis = Cyprus's dominant dairy (Halloumi, yogurt, butter).
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'charalambides christis', // Cyprus's dominant dairy
-      'president',              // Lactalis brand sold in CY
-      'danone',                 // Danone products distributed
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['βιολογικό', 'bio', 'organic'],
   },
 
@@ -754,18 +550,9 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Land O'Lakes = major US co-op (no confirmed Bovaer) → yellow.
     // Tillamook = Oregon co-op → yellow (market milk exposure).
     // AquaBounty = first FDA-approved GMO Atlantic Salmon producer.
-    'bovaer_red': [
-      'arla', 'lurpak', 'castello', 'apetina',
-    ],
-    'bovaer_yellow': [
-      'dannon', 'danone',       // Danone North America
-      'land o\'lakes', 'land o lakes', // Major US co-op
-      'tillamook',              // Oregon co-op
-      'saputo',                 // Canadian-owned US operations
-      'dean foods',             // Former major US dairy (sold brands post-bankruptcy)
-      'hood',                   // HP Hood — northeast US dairy
-    ],
-    'gmo_fish_red': ['mowi', 'aquabounty'],
+    'bovaer_red': ['arla', 'lurpak'],
+    'bovaer_yellow': ['castello', 'puck', 'apetina'],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'usda organic', 'certified organic'],
   },
 
@@ -775,15 +562,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Agropur = Canada's largest dairy co-op (iGO, Natrel, OKA brands).
     // Saputo = world's third largest dairy, headquartered in Montreal.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'agropur', 'natrel', 'igo', 'oka', // Agropur group
-      'saputo',     // Saputo global — major Canadian dairy
-      'gay lea',    // Ontario dairy co-op
-      'dairyland',  // Saputo CA brand
-      'beatrice',   // Agropur brand
-      'danone',     // Danone Canada
-    ],
-    'gmo_fish_red': ['mowi', 'cermaq', 'cooke aquaculture'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'certifié biologique', 'bio', 'canada organic'],
   },
 
@@ -794,15 +574,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Bega Cheese = publicly listed AU dairy.
     // Fonterra AU operations (anchor, mainland sold in AU).
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'lion', 'dairy farmers', 'pura', // Lion Dairy group
-      'bega',       // Bega Cheese
-      'norco',      // Australian co-op
-      // Fonterra/Anchor removed 2026-10-31: no reliable source -> unknown.
-      'danone',     // Danone AU
-      'pauls',      // Lion/Parmalat brand
-    ],
-    'gmo_fish_red': ['mowi', 'tassal', 'huon aquaculture'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'certified organic', 'australian certified organic', 'ace'],
   },
 
@@ -815,35 +588,22 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Note: NZ is generally cautious about agrichemicals, but scale of
     //   Fonterra means market milk is broadly pooled.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      // Fonterra/Anchor removed 2026-10-31: no reliable source -> unknown.
-      'goodman fielder', 'meadowfresh', 'tararua', // Goodman Fielder group
-      'lewis road',   // Premium NZ brand (market milk)
-      'danone',       // Danone NZ products
-    ],
-    'gmo_fish_red': ['mowi', 'new zealand king salmon'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['organic', 'certified organic', 'bio-gro', 'biogro'],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
   'BR': {
     // BRASIL — Last verified: March 2026
-    // Lactalis Brazil = acquired Elegê and Batavo → RED connection via parent.
+    // Lactalis, Elegê and Batavo removed 2026-11-16: no source beyond the
+    // Italian Parmalat trial -> unknown.
     // Itambé = major Brazilian dairy co-op (CCPR).
     // Piracanjuba = major co-op (Centro-oeste Brazil).
     // Nestlé Brazil dairy (Molico brand) and Danone Brazil.
-    'bovaer_red': [
-      'arla',
-      'lactalis', 'elegê', 'batavo', // Lactalis Brazil group
-    ],
-    'bovaer_yellow': [
-      'itambé',       // CCPR co-op — major Brazilian dairy
-      'piracanjuba',  // Major co-op in Centro-oeste
-      'nestlé', 'molico', // Nestlé Brazil dairy
-      'danone',           // Danone Brazil
-      'pradaria',         // Regional Rio Grande do Sul dairy
-    ],
-    'gmo_fish_red': ['mowi', 'cermaq'],
+    'bovaer_red': ['arla'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgânico', 'organic', 'bio', 'produto orgânico'],
   },
 
@@ -854,14 +614,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // SanCor = major Argentine dairy co-op.
     // Danone Argentina and Nestlé Argentina have market milk exposure.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'la serenísima', 'la serenisima', // Mastellone Hermanos — #1 AR brand
-      'sancor',        // Major AR dairy co-op
-      'danone',        // Danone AR
-      'nestlé',        // Nestlé AR dairy
-      'la paulina',    // Bel Group AR brand
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -871,13 +625,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Colún = Chile's largest dairy co-op (La Unión, Los Ríos).
     // Soprole = major, acquired by Lactalis/Froneri → yellow via parent.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'colún', 'colun',   // Chile's largest dairy co-op
-      'soprole', 'lactalis', // Lactalis subsidiary
-      'nestlé',           // Nestlé CL dairy
-      'danone',           // Danone CL
-    ],
-    'gmo_fish_red': ['mowi', 'cermaq', 'salmones multiexport', 'blumar', 'australis seafoods'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -888,14 +637,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Colanta = major Colombian dairy co-op.
     // Nestlé and Danone have Colombian market milk exposure.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'alpina',    // Colombia's largest dairy
-      'colanta',   // Major Colombian co-op
-      'nestlé',    // Nestlé CO dairy
-      'danone',    // Danone CO
-      'alquería',  // Major Colombian dairy brand
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -905,13 +648,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Gloria = Peru's dominant dairy (Gloria SA, also owns PIL Andina in Bolivia).
     // Laive = major Peruvian dairy.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'gloria',    // Peru's leading dairy (+ Bolivia, Ecuador via Gloria group)
-      'laive',     // Major Peruvian dairy
-      'nestlé',    // Nestlé PE dairy
-      'danone',    // Danone PE
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -921,11 +659,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // CONAPROLE = Uruguay's national dairy co-op (~95% of milk production).
     //   One of the most dominant single co-ops in the world.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'conaprole',  // Uruguay's dominant dairy co-op
-      'lactalis',   // Lactalis Uruguay operations
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -934,12 +669,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // PARAGUAY — Last verified: March 2026
     // Small dairy market; local brands and imports from Argentina/Brazil.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'la serenísima', 'la serenisima', // Argentine brand widely sold in PY
-      'sancor',         // Argentine co-op distributed in PY
-      'nestlé',         // Nestlé PY products
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -949,11 +680,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Lactalis Venezuela (Parmalat VE) → yellow via parent company.
     // Indulac = state-owned dairy.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'lactalis', 'parmalat', // Lactalis VE group
-      'nestlé',               // Nestlé VE dairy
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': ['parmalat'],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -963,13 +691,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // Gloria Group (Peru) has operations in Ecuador via Rey Leche/Floralp.
     // Nestlé and Danone distributed in Ecuador.
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'gloria',    // Gloria Group EC operations
-      'nestlé',    // Nestlé EC dairy
-      'danone',    // Danone EC
-      'rey leche', // Major EC dairy brand
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 
@@ -978,12 +701,8 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
     // BOLIVIA — Last verified: March 2026
     // PIL Andina = Bolivia's largest dairy (controlled by Gloria SA, Peru).
     'bovaer_red': ['arla'],
-    'bovaer_yellow': [
-      'pil andina', 'pil', // Bolivia's dominant dairy (Gloria group)
-      'gloria',            // Gloria SA group brand
-      'nestlé',            // Nestlé BO products
-    ],
-    'gmo_fish_red': ['mowi'],
+    'bovaer_yellow': [],
+    'gmo_fish_red': [],
     'organic_keywords': ['orgánico', 'organic', 'bio'],
   },
 };
@@ -991,24 +710,25 @@ final Map<String, Map<String, List<String>>> riskBrandsByCountry = {
 // Country-specific yellow/watch lists for newer risk dimensions.
 // These are merged into each country response to keep legacy country blocks compact.
 const Map<String, List<String>> gmoSupplyChainYellowByCountry = {
+  // 2026-11-16: Mowi, Lerøy, SalMar, Nordic Seafood, Royal Greenland, Iglo,
+  // followfish, Labeyrie, Bakkafrost, Young's, Pescanova and Icelandic Salmon
+  // moved to unknown (no source in the repo). ICA, Coop, Edeka, Rewe and
+  // Findus likewise. Other names below were outside that list and are unchanged.
   'NO': [
     'fiskemannen',
-    'leroy seafood',
-    'nordic seafood',
-    'royal greenland',
   ],
-  'SE': ['findus', 'ica', 'coop', 'leroy seafood', 'nordic seafood'],
-  'DK': ['nordic seafood', 'royal greenland', 'frozen at sea'],
-  'DE': ['iglo', 'followfish', 'deutsche see', 'edeka', 'rewe'],
-  'NL': ['ah', 'albert heijn', 'plus', 'jumbo', 'iglo'],
-  'BE': ['delhaize', 'colruyt', 'carrefour', 'iglo'],
-  'FR': ['labeyrie', 'findus', 'picard', 'carrefour', 'auchan'],
-  'GB': ['youngs seafood', 'tesco', 'sainsbury', 'waitrose', 'asda'],
-  'IE': ['youngs seafood', 'tesco ireland', 'supervalu', 'dunnes'],
-  'ES': ['findus', 'pescanova', 'carrefour', 'mercadona'],
-  'IT': ['findus', 'esselunga', 'coop italia', 'conad'],
+  'SE': [],
+  'DK': ['frozen at sea'],
+  'DE': ['deutsche see'],
+  'NL': ['ah', 'albert heijn', 'plus', 'jumbo'],
+  'BE': ['delhaize', 'colruyt', 'carrefour'],
+  'FR': ['picard', 'carrefour', 'auchan'],
+  'GB': ['tesco', 'sainsbury', 'waitrose', 'asda'],
+  'IE': ['tesco ireland', 'supervalu', 'dunnes'],
+  'ES': ['carrefour', 'mercadona'],
+  'IT': ['esselunga', 'coop italia', 'conad'],
   'PL': ['lisner', 'biedronka', 'carrefour', 'auchan'],
-  'FI': ['kalaneuvos', 'kesko', 's-group', 'royal greenland'],
+  'FI': ['kalaneuvos', 'kesko', 's-group'],
 };
 
 const Map<String, List<String>> insectSupplyChainYellowByCountry = {
