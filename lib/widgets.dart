@@ -3,6 +3,10 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'ui_safe.dart';
 import 'data/e_numbers.dart';
+import 'data/scan_warning_catalog.dart';
+import 'models/scan_warning.dart';
+import 'services/remote_ngt_suppliers_service.dart';
+import 'widgets/scan_warning_dialog.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Enum for risikonivå
@@ -12,8 +16,13 @@ enum RiskLevel { green, yellow, red, unknown }
 class ProductInfoDialogContent extends StatefulWidget {
   final Map<String, dynamic> info;
   final Function(String) onAddItem;
-  const ProductInfoDialogContent(
-      {required this.info, required this.onAddItem, super.key});
+  final List<NgtSupplierEntry> ngtSuppliers;
+  const ProductInfoDialogContent({
+    required this.info,
+    required this.onAddItem,
+    this.ngtSuppliers = const [],
+    super.key,
+  });
 
   @override
   State<ProductInfoDialogContent> createState() =>
@@ -23,6 +32,114 @@ class ProductInfoDialogContent extends StatefulWidget {
 class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
   final Set<int> _expanded = <int>{};
   final Map<int, bool> _reporting = {};
+  bool _autoPopupScheduled = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || _autoPopupScheduled) return;
+      _autoPopupScheduled = true;
+      final alarms = _resolution()
+          .popupWarnings
+          .where((w) => w.popupLevel != WarningLevel.green)
+          .toList();
+      if (alarms.isEmpty) return;
+      safeShowDialog(context, ScanWarningDialog(warnings: alarms));
+    });
+  }
+
+  bool get _nb {
+    final code =
+        (AppLocalizations.of(context)?.localeName ?? 'nb').toLowerCase();
+    return code == 'nb' || code == 'no';
+  }
+
+  ScanWarningResolution _resolution() {
+    final info = widget.info;
+    String levelName(String key) {
+      final value = info[key];
+      if (value is RiskLevel) return value.name;
+      return 'unknown';
+    }
+
+    final text = [
+      info['navn'],
+      info['merke'],
+      info['ingredienser'],
+      info['etiketter'],
+      info['kategorier'],
+      info['supplyChainText'],
+    ].whereType<Object>().map((e) => e.toString()).join(' ');
+    return resolveScanWarnings(
+      brand: (info['merke'] ?? '').toString(),
+      productText: text,
+      shopCountry: (info['shopCountry'] as String?)?.trim(),
+      bovaerLevel: levelName('bovaerRisk'),
+      gmoLevel: _strongestLevel([
+        levelName('gmoConsumerRisk'),
+        levelName('gmoRisk'),
+        levelName('gmoRegulatoryRisk'),
+      ]),
+      insectLevel: _strongestLevel([
+        levelName('insectConsumerRisk'),
+        levelName('insectRisk'),
+        levelName('insectRegulatoryRisk'),
+      ]),
+      ngtLevel: levelName('ngtRisk'),
+      ngtSuppliers: widget.ngtSuppliers,
+    );
+  }
+
+  String _strongestLevel(List<String> levels) {
+    const rank = {'red': 3, 'yellow': 2, 'green': 1, 'unknown': 0};
+    final sorted = [...levels]
+      ..sort((a, b) => (rank[b] ?? 0).compareTo(rank[a] ?? 0));
+    return sorted.first;
+  }
+
+  List<Widget> _warningExtras(
+    BuildContext context,
+    WarningTopic topic,
+    ScanWarningResolution resolution,
+  ) {
+    final matches =
+        resolution.popupWarnings.where((w) => w.topic == topic).toList();
+    if (matches.isNotEmpty) {
+      return [
+        Align(
+          alignment: Alignment.centerLeft,
+          child: TextButton(
+            onPressed: () =>
+                safeShowDialog(context, ScanWarningDialog(warnings: matches)),
+            child: Text(_nb ? 'Hva, hvem og hvordan' : 'What, who and how'),
+          ),
+        ),
+      ];
+    }
+    if (!resolution.unsourcedTopics.contains(topic)) return const [];
+    final research = researchCitationsFor(topic);
+    return [
+      Padding(
+        padding: const EdgeInsets.only(top: 6),
+        child: Text(
+          _nb ? kNoDocumentedSourceNb : kNoDocumentedSourceEn,
+          style: const TextStyle(fontSize: 12),
+        ),
+      ),
+      if (research.isNotEmpty)
+        Align(
+          alignment: Alignment.centerLeft,
+          child: TextButton(
+            onPressed: () => safeShowDialog(
+              context,
+              ScanWarningDialog.research(entries: research),
+            ),
+            child: Text(_nb ? 'Uavhengig forskning' : 'Independent research'),
+          ),
+        ),
+    ];
+  }
 
   void _toggleExpanded(int i) {
     setState(() {
@@ -381,6 +498,14 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
         isRedOrYellow(info['insectRisk']) ||
         isRedOrYellow(info['insectRegulatoryRisk']) ||
         isRedOrYellow(info['ngtRisk']);
+    final resolution = _resolution();
+    final gmoShownOnConsumer = (info['gmoConsumerRisk'] ?? info['gmoRisk']) !=
+            null &&
+        (info['gmoConsumerRisk'] ?? info['gmoRisk']) != RiskLevel.unknown;
+    final insectShownOnConsumer =
+        (info['insectConsumerRisk'] ?? info['insectRisk']) != null &&
+            (info['insectConsumerRisk'] ?? info['insectRisk']) !=
+                RiskLevel.unknown;
 
     return SizedBox(
         width: double.maxFinite,
@@ -417,7 +542,9 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                   children: [
                     _buildRiskWidget(context, 'Bovaer',
                         info['bovaerRisk'] as RiskLevel? ?? RiskLevel.unknown,
-                        customText: (info['bovaerRiskText'] ?? '').toString()),
+                        customText: (info['bovaerRiskText'] ?? '').toString(),
+                        extras: _warningExtras(
+                            context, WarningTopic.bovaer, resolution)),
                     if (bovaerRiskUrl.isNotEmpty)
                       _sourceLinkButton(
                         context,
@@ -430,7 +557,11 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         info['gmoRegulatoryRisk'] as RiskLevel? ??
                             RiskLevel.unknown,
                         customText:
-                            (info['gmoRegulatoryText'] ?? '').toString()),
+                            (info['gmoRegulatoryText'] ?? '').toString(),
+                        extras: gmoShownOnConsumer
+                            ? const []
+                            : _warningExtras(
+                                context, WarningTopic.gmo, resolution)),
                     _buildRiskWidget(
                         context,
                         'GMO-forbrukerrisiko',
@@ -440,7 +571,11 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                         customText: (info['gmoConsumerText'] ??
                                 info['gmoRiskText'] ??
                                 '')
-                            .toString()),
+                            .toString(),
+                        extras: gmoShownOnConsumer
+                            ? _warningExtras(
+                                context, WarningTopic.gmo, resolution)
+                            : const []),
                     if (gmoRiskUrl.isNotEmpty)
                       _sourceLinkButton(
                         context,
@@ -454,6 +589,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                           RiskLevel.unknown,
                       customText:
                           (info['insectRegulatoryText'] ?? '').toString(),
+                      extras: insectShownOnConsumer
+                          ? const []
+                          : _warningExtras(
+                              context, WarningTopic.insekter, resolution),
                     ),
                     _buildRiskWidget(
                       context,
@@ -465,6 +604,10 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                               info['insectRiskText'] ??
                               '')
                           .toString(),
+                      extras: insectShownOnConsumer
+                          ? _warningExtras(
+                              context, WarningTopic.insekter, resolution)
+                          : const [],
                     ),
                     if (insectRiskUrl.isNotEmpty)
                       _sourceLinkButton(
@@ -477,6 +620,8 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
                       'Skjult GMO (NGT)',
                       info['ngtRisk'] as RiskLevel? ?? RiskLevel.unknown,
                       customText: (info['ngtRiskText'] ?? '').toString(),
+                      extras: _warningExtras(
+                          context, WarningTopic.ngt, resolution),
                     ),
                     if (ngtRiskUrl.isNotEmpty &&
                         (info['ngtRisk'] == RiskLevel.red ||
@@ -953,7 +1098,7 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
   }
 
   Widget _buildRiskWidget(BuildContext context, String title, RiskLevel risk,
-      {String customText = ''}) {
+      {String customText = '', List<Widget> extras = const []}) {
     if (risk == RiskLevel.unknown) return const SizedBox.shrink();
     final icon = risk == RiskLevel.red
         ? Icons.error
@@ -989,13 +1134,18 @@ class _ProductInfoDialogContentState extends State<ProductInfoDialogContent> {
             color: color.withAlpha((0.1 * 255).round()),
             borderRadius: BorderRadius.circular(8),
             border: Border.all(color: color)),
-        child: Row(children: [
-          Icon(icon, color: color),
-          const SizedBox(width: 8),
-          Expanded(
-              child: Text(text,
-                  style: const TextStyle(fontWeight: FontWeight.bold)))
-        ]));
+        child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(children: [
+                Icon(icon, color: color),
+                const SizedBox(width: 8),
+                Expanded(
+                    child: Text(text,
+                        style: const TextStyle(fontWeight: FontWeight.bold)))
+              ]),
+              ...extras,
+            ]));
   }
 
   Color _getNutriScoreColor(String score) {
