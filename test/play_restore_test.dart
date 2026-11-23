@@ -160,6 +160,94 @@ void main() {
     await service.dispose();
   });
 
+  test('Android asks Play only for premium_adfree and offers it', () async {
+    final billing = _FakeBilling();
+    final box = Hive.box('innstillinger');
+    final service = PremiumService(billing: billing, isIOS: false);
+
+    await service.initialize(box);
+
+    expect(PremiumService.removeAdsProductId, 'premium_adfree');
+    expect(billing.lastQuery, {'premium_adfree'});
+    expect(service.products.map((p) => p.id), ['premium_adfree']);
+    expect(service.productIdLabel, 'premium_adfree');
+    await service.dispose();
+  });
+
+  test('restore of the legacy remove-ads id still grants ad-free on Android',
+      () async {
+    final billing = _FakeBilling(
+      ownedOnRestore: [
+        _purchase(PurchaseStatus.restored,
+            productId: PremiumService.legacyRemoveAdsProductId),
+      ],
+    );
+    final box = Hive.box('innstillinger');
+    final service = PremiumService(billing: billing, isIOS: false);
+
+    await service.initialize(box);
+
+    expect(service.isPremiumActive, isTrue);
+    expect(box.get(PremiumService.adsRemovedKey), isTrue);
+    await service.dispose();
+  });
+
+  test('purchase of premium_adfree grants ad-free', () async {
+    final billing = _FakeBilling();
+    final box = Hive.box('innstillinger');
+    final service = PremiumService(billing: billing, isIOS: false);
+
+    await service.initialize(box);
+    billing.emit([_purchase(PurchaseStatus.purchased, productId: 'premium_adfree')]);
+    await _settle();
+
+    expect(service.isPremiumActive, isTrue);
+    expect(box.get(PremiumService.adsRemovedKey), isTrue);
+    await service.dispose();
+  });
+
+  test('iOS asks for both ids and prefers the legacy id when StoreKit has it',
+      () async {
+    final billing = _FakeBilling(
+      catalog: ProductDetailsResponse(
+        productDetails: [
+          _product('premium_adfree'),
+          _product('matsjekk_remove_ads_lifetime'),
+          _product('something_else'),
+        ],
+        notFoundIDs: const [],
+      ),
+    );
+    final box = Hive.box('innstillinger');
+    final service = PremiumService(billing: billing, isIOS: true);
+
+    await service.initialize(box);
+
+    expect(billing.lastQuery,
+        {'matsjekk_remove_ads_lifetime', 'premium_adfree'});
+    expect(service.products.map((p) => p.id), ['matsjekk_remove_ads_lifetime']);
+    expect(service.productIdLabel, 'matsjekk_remove_ads_lifetime / premium_adfree');
+    await service.dispose();
+  });
+
+  test('iOS offers premium_adfree when that is the only id StoreKit returns',
+      () async {
+    final billing = _FakeBilling(
+      catalog: ProductDetailsResponse(
+        productDetails: [_product('premium_adfree')],
+        notFoundIDs: const ['matsjekk_remove_ads_lifetime'],
+      ),
+    );
+    final box = Hive.box('innstillinger');
+    final service = PremiumService(billing: billing, isIOS: true);
+
+    await service.initialize(box);
+
+    expect(service.products.map((p) => p.id), ['premium_adfree']);
+    expect(service.lastMessage, isEmpty);
+    await service.dispose();
+  });
+
   testWidgets('owned screen shows status and restore without a new purchase button',
       (tester) async {
     final box = Hive.box('innstillinger');
@@ -234,7 +322,7 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 50));
 
-    expect(find.textContaining('Play returnerte ikke matsjekk_remove_ads_lifetime'), findsWidgets);
+    expect(find.textContaining('Play returnerte ikke premium_adfree'), findsWidgets);
     expect(find.textContaining('lisens-tester'), findsOneWidget);
     expect(find.text('Kjøp permanent'), findsNothing);
     expect(find.text('Gjenopprett kjøp'), findsOneWidget);
@@ -282,6 +370,17 @@ PurchaseDetails _purchase(PurchaseStatus status, {String? productId}) {
       : null;
 }
 
+ProductDetails _product(String id) {
+  return ProductDetails(
+    id: id,
+    title: 'Remove ads',
+    description: 'Lifetime',
+    price: 'kr 49',
+    rawPrice: 49,
+    currencyCode: 'NOK',
+  );
+}
+
 class _FakeBilling implements StoreBilling {
   _FakeBilling({
     this.available = true,
@@ -301,6 +400,7 @@ class _FakeBilling implements StoreBilling {
 
   int restoreCalls = 0;
   int queryCalls = 0;
+  Set<String>? lastQuery;
 
   void emit(List<PurchaseDetails> purchases) {
     streamController.add(purchases);
@@ -315,6 +415,7 @@ class _FakeBilling implements StoreBilling {
   @override
   Future<ProductDetailsResponse> queryProductDetails(Set<String> identifiers) async {
     queryCalls += 1;
+    lastQuery = identifiers;
     return catalog ??
         ProductDetailsResponse(
           productDetails: [

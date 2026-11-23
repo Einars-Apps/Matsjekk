@@ -79,7 +79,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
               loading: _premiumService.isLoading,
               storeAvailable: _premiumService.isStoreAvailable,
               hasProduct: _premiumService.products.isNotEmpty,
-              productId: PremiumService.removeAdsProductId,
+              productId: _premiumService.productIdLabel,
             ))
               Padding(
                 padding: const EdgeInsets.only(bottom: 8),
@@ -119,8 +119,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Play returnerte ikke ${PremiumService.removeAdsProductId}.',
+                  Text(
+                    'Play returnerte ikke ${_premiumService.productIdLabel}.',
                   ),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(

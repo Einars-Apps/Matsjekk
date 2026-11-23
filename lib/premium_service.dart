@@ -46,14 +46,42 @@ class PluginStoreBilling implements StoreBilling {
 }
 
 class PremiumService {
-  static const String removeAdsProductId = 'matsjekk_remove_ads_lifetime';
+  /// The one-time "Reklamefri opplevelse" product that exists in Play Console.
+  static const String androidRemoveAdsProductId = 'premium_adfree';
+
+  /// The product id every earlier build (Android and iOS 1.1.8+65) asked for.
+  /// It does not exist in Play. It is kept as the preferred iOS id and as an
+  /// accepted entitlement so an earlier purchase under it still removes ads.
+  static const String legacyRemoveAdsProductId = 'matsjekk_remove_ads_lifetime';
+
+  /// Play product id. Kept under this name for existing callers.
+  static const String removeAdsProductId = androidRemoveAdsProductId;
+
+  /// Any of these, purchased or restored, grants the lifetime ad-free right.
+  static const Set<String> adFreeEntitlementIds = {
+    androidRemoveAdsProductId,
+    legacyRemoveAdsProductId,
+  };
   static const String adsRemovedKey = 'adsRemoved';
   static const String premiumActiveKey = adsRemovedKey;
   static const String legacyPremiumActiveKey = 'premiumActive';
 
   final StoreBilling _billing;
+  final bool _isIOS;
 
-  PremiumService({StoreBilling? billing}) : _billing = billing ?? PluginStoreBilling();
+  PremiumService({StoreBilling? billing, bool? isIOS})
+      : _billing = billing ?? PluginStoreBilling(),
+        _isIOS = isIOS ?? Platform.isIOS;
+
+  /// Ids asked from the store. Android asks only for the Play product.
+  /// The App Store id is not confirmed from code or Apple, so iOS asks for
+  /// both and offers whichever StoreKit returns (legacy id first).
+  List<String> get queryProductIds => _isIOS
+      ? const [legacyRemoveAdsProductId, androidRemoveAdsProductId]
+      : const [androidRemoveAdsProductId];
+
+  /// Product id(s) shown in status messages.
+  String get productIdLabel => queryProductIds.join(' / ');
 
   Box? _settingsBox;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
@@ -110,11 +138,18 @@ class PremiumService {
     if (!isStoreAvailable) return;
 
     isLoading = true;
-    final response = await _billing.queryProductDetails(
-      {removeAdsProductId},
-    );
+    final ids = queryProductIds;
+    final response = await _billing.queryProductDetails(ids.toSet());
 
-    products = response.productDetails.toList();
+    final returned = response.productDetails
+        .where((product) => ids.contains(product.id))
+        .toList();
+    // Offer one product: the first id in preference order that the store
+    // returned. On iOS that is the legacy id when StoreKit has it.
+    products = [
+      for (final id in ids)
+        ...returned.where((product) => product.id == id).take(1),
+    ].take(1).toList();
 
     if (response.error != null) {
       lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
@@ -145,7 +180,7 @@ class PremiumService {
   Future<void> _handlePurchaseUpdates(
       List<PurchaseDetails> purchaseDetailsList) async {
     for (final purchaseDetails in purchaseDetailsList) {
-      if (purchaseDetails.productID != removeAdsProductId) {
+      if (!adFreeEntitlementIds.contains(purchaseDetails.productID)) {
         continue;
       }
 
