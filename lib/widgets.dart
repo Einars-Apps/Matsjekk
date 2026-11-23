@@ -1270,13 +1270,13 @@ class _HandlelisteOverlayState extends State<HandlelisteOverlay> {
                         foregroundColor: Colors.white,
                         automaticallyImplyLeading: false,
                         actions: [
-                          if (!widget.premiumActive)
-                            IconButton(
-                                tooltip:
-                                    AppLocalizations.of(context)?.removeAds ??
-                                        'Remove ads',
-                                icon: const Icon(Icons.block),
-                                onPressed: widget.onRemoveAds),
+                          IconButton(
+                              tooltip: widget.premiumActive
+                                  ? 'Annonsefri er aktiv'
+                                  : (AppLocalizations.of(context)?.removeAds ??
+                                      'Remove ads'),
+                              icon: const Icon(Icons.block),
+                              onPressed: widget.onRemoveAds),
                           IconButton(
                               icon: const Icon(Icons.search),
                               onPressed: widget.onShowSearch),

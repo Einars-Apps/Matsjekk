@@ -1,18 +1,19 @@
-import 'dart:io' show Platform;
-
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
+import 'about_version.dart';
 import 'premium_service.dart';
 
 class PremiumScreen extends StatefulWidget {
   final Box innstillingerBox;
   final ValueChanged<bool> onPremiumChanged;
+  final PremiumService? service;
 
   const PremiumScreen({
     super.key,
     required this.innstillingerBox,
     required this.onPremiumChanged,
+    this.service,
   });
 
   @override
@@ -20,7 +21,7 @@ class PremiumScreen extends StatefulWidget {
 }
 
 class _PremiumScreenState extends State<PremiumScreen> {
-  final PremiumService _premiumService = PremiumService();
+  late final PremiumService _premiumService = widget.service ?? PremiumService();
 
   @override
   void initState() {
@@ -73,9 +74,22 @@ class _PremiumScreenState extends State<PremiumScreen> {
               ),
             ),
             const SizedBox(height: 12),
-            const Text(
-              'Kjøp annonsefri versjon',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            for (final line in purchaseStatusLines(
+              entitled: _premiumService.isPremiumActive,
+              loading: _premiumService.isLoading,
+              storeAvailable: _premiumService.isStoreAvailable,
+              hasProduct: _premiumService.products.isNotEmpty,
+              productId: PremiumService.removeAdsProductId,
+            ))
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Text(line),
+              ),
+            Text(
+              _premiumService.isPremiumActive
+                  ? 'Status for eksisterende kjøp'
+                  : 'Kjøp annonsefri versjon',
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 8),
             const Text(
@@ -106,7 +120,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Kunne ikke hente kjøpsprodukter. Sjekk nettverket og prøv igjen.',
+                    'Play returnerte ikke ${PremiumService.removeAdsProductId}.',
                   ),
                   const SizedBox(height: 8),
                   ElevatedButton.icon(
@@ -127,9 +141,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     subtitle: Text(
                       '${product.price} • engangskjøp',
                     ),
-                    trailing: _premiumService.isPremiumActive
-                        ? const Icon(Icons.check_circle, color: Colors.green)
-                        : ElevatedButton(
+                    trailing: offersNewPurchase(
+                      loading: _premiumService.isLoading,
+                      storeAvailable: _premiumService.isStoreAvailable,
+                      hasProduct: true,
+                      entitled: _premiumService.isPremiumActive,
+                    )
+                        ? ElevatedButton(
                             onPressed: () async {
                               await _premiumService.buy(product);
                               if (!mounted) return;
@@ -138,12 +156,15 @@ class _PremiumScreenState extends State<PremiumScreen> {
                               setState(() {});
                             },
                             child: const Text('Kjøp permanent'),
-                          ),
+                          )
+                        : _premiumService.isPremiumActive
+                            ? const Icon(Icons.check_circle, color: Colors.green)
+                            : null,
                   ),
                 ),
               ),
             const SizedBox(height: 8),
-            if (!_premiumService.isLoading && Platform.isIOS)
+            if (!_premiumService.isLoading)
               TextButton.icon(
               onPressed: () async {
                 await _premiumService.restorePurchases();
@@ -154,7 +175,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
               icon: const Icon(Icons.restore),
               label: const Text('Gjenopprett kjøp'),
             ),
-            if (_premiumService.lastMessage.isNotEmpty && _premiumService.products.isNotEmpty)
+            if (_premiumService.lastMessage.isNotEmpty)
               Padding(
                 padding: const EdgeInsets.only(top: 8),
                 child: Text(
