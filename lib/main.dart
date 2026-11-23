@@ -28,7 +28,7 @@ import 'services/remote_ngt_suppliers_service.dart';
 import 'startup.dart';
 
 // --- DEFINISJON AV RISIKO ---
-const List<String> bovaerRedBrands = ['arla', 'apetina', 'aptina'];
+const List<String> bovaerRedBrands = ['arla'];
 const List<String> bovaerYellowBrands = [
   'tine',
   'synnøve',
@@ -37,16 +37,10 @@ const List<String> bovaerYellowBrands = [
   'q-meieriene',
   'kavli'
 ];
-const List<String> gmoFishRedBrands = ['lerøy', 'salmar', 'mowi']; // Eksempler
+// 2026-11-16: named fish and retail brands had no source in the repo.
+const List<String> gmoFishRedBrands = [];
 const List<String> gmoSupplyChainYellowFallback = [
-  'nordic seafood',
-  'royal greenland',
-  'youngs seafood',
-  'labeyrie',
-  'findus',
-  'iglo',
   'fiskemannen',
-  'leroy seafood',
 ];
 const List<String> insectSupplyChainYellowFallback = [
   'protix',
@@ -566,8 +560,14 @@ class _ScannerScreenState extends State<ScannerScreen>
     final remote = _remoteRiskRulesByCountry[countryCode]?[ruleKey];
     if (remote != null) return remote;
 
-    final local = getRiskBrandsForCountry(countryCode)[ruleKey] ?? [];
-    if (local.isNotEmpty) return local;
+    // A known country keeps its own list, including when that list is empty.
+    // Otherwise a reviewed removal (unknown) is filled back in from the
+    // bundled fallback. This does not change Arla-with-unknown-origin:
+    // resolveBovaerProcessorStatus still picks the strictest matching colour.
+    final code = countryCode.toUpperCase();
+    final known = riskBrandsByCountry.containsKey(code);
+    final local = getRiskBrandsForCountry(code)[ruleKey] ?? const <String>[];
+    if (local.isNotEmpty || known) return local;
 
     return fallback;
   }
@@ -1600,10 +1600,10 @@ class _ScannerScreenState extends State<ScannerScreen>
 
     if (lowerBrand.contains('apetina') || lowerBrand.contains('aptina')) {
       return {
-        'risk': RiskLevel.red,
+        'risk': RiskLevel.yellow,
         'text': isNorwegian
-            ? 'HØY RISIKO: Apetina er direkte koblet i intern Bovaer-sporingsliste.'
-            : 'HIGH RISK: Apetina is directly linked in the internal Bovaer tracking list.',
+            ? 'MULIG RISIKO: Apetina er et Arla-merke, men melkens opprinnelse er ikke dokumentert. Sjekk produksjonsdato og landkoden i det ovale stempelet.'
+            : 'POSSIBLE RISK: Apetina is an Arla brand, but the origin of the milk is not documented. Check the production date and the country code in the oval stamp.',
         'url': bovaerUpdateUrl,
       };
     }

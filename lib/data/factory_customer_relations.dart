@@ -35,18 +35,9 @@ const Map<String, List<FactoryCustomerRelation>> factoryCustomerRelationsByCount
       source: 'https://www.tine.no/merkevarer',
     ),
   ],
-  'SE': [
-    FactoryCustomerRelation(
-      factory: 'arla',
-      customer: 'ica',
-      source: 'https://www.arla.com/company/',
-    ),
-    FactoryCustomerRelation(
-      factory: 'arla',
-      customer: 'coop',
-      source: 'https://www.arla.com/company/',
-    ),
-  ],
+  // 2026-11-16: ICA and Coop removed. arla.com/company/ does not document
+  // Bovaer or GMO feed, so those names are unknown.
+  'SE': [],
   'DK': [
     FactoryCustomerRelation(
       factory: 'arla',
@@ -59,18 +50,9 @@ const Map<String, List<FactoryCustomerRelation>> factoryCustomerRelationsByCount
       source: 'https://www.arla.com/company/',
     ),
   ],
-  'DE': [
-    FactoryCustomerRelation(
-      factory: 'arla',
-      customer: 'edeka',
-      source: 'https://www.arla.com/company/',
-    ),
-    FactoryCustomerRelation(
-      factory: 'mueller',
-      customer: 'rewe',
-      source: 'https://www.muellergroup.com/',
-    ),
-  ],
+  // 2026-11-16: Edeka and Rewe removed. The company homepages do not
+  // document Bovaer or GMO feed.
+  'DE': [],
   'NL': [
     FactoryCustomerRelation(
       factory: 'frieslandcampina',
@@ -90,18 +72,9 @@ const Map<String, List<FactoryCustomerRelation>> factoryCustomerRelationsByCount
       source: 'https://www.lactalis.fr/',
     ),
   ],
-  'GB': [
-    FactoryCustomerRelation(
-      factory: 'youngs seafood',
-      customer: 'tesco',
-      source: 'https://www.youngsseafood.co.uk/',
-    ),
-    FactoryCustomerRelation(
-      factory: 'youngs seafood',
-      customer: 'sainsbury',
-      source: 'https://www.youngsseafood.co.uk/',
-    ),
-  ],
+  // 2026-11-16: Young's removed. youngsseafood.co.uk does not document
+  // GMO feed.
+  'GB': [],
   'FI': [
     FactoryCustomerRelation(
       factory: 'valio',

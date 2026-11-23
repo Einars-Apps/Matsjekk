@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-06",
-  "notes": "Factory-to-customer links used as yellow supply-chain signals. Verify before promoting to red.",
+  "updated_at": "2026-11-16",
+  "notes": "Factory-to-customer links used as yellow supply-chain signals. Verify before promoting to red. 2026-11-16: ICA, Coop, Edeka, Rewe and Young's removed. The stored homepages do not document Bovaer use or GMO feed.",
   "countries": {
     "NO": [
       {
@@ -24,18 +24,7 @@
         "source": "https://www.tine.no/merkevarer"
       }
     ],
-    "SE": [
-      {
-        "factory": "arla",
-        "customer": "ica",
-        "source": "https://www.arla.com/company/"
-      },
-      {
-        "factory": "arla",
-        "customer": "coop",
-        "source": "https://www.arla.com/company/"
-      }
-    ],
+    "SE": [],
     "DK": [
       {
         "factory": "arla",
@@ -48,18 +37,7 @@
         "source": "https://www.arla.com/company/"
       }
     ],
-    "DE": [
-      {
-        "factory": "arla",
-        "customer": "edeka",
-        "source": "https://www.arla.com/company/"
-      },
-      {
-        "factory": "mueller",
-        "customer": "rewe",
-        "source": "https://www.muellergroup.com/"
-      }
-    ],
+    "DE": [],
     "NL": [
       {
         "factory": "frieslandcampina",
@@ -79,18 +57,7 @@
         "source": "https://www.lactalis.fr/"
       }
     ],
-    "GB": [
-      {
-        "factory": "youngs seafood",
-        "customer": "tesco",
-        "source": "https://www.youngsseafood.co.uk/"
-      },
-      {
-        "factory": "youngs seafood",
-        "customer": "sainsbury",
-        "source": "https://www.youngsseafood.co.uk/"
-      }
-    ],
+    "GB": [],
     "FI": [
       {
         "factory": "valio",
