@@ -2,7 +2,7 @@ name: mat_sjekk
 description: "Insekt-, Bovaer- og GMO-varsler for bevisste forbrukere."
 publish_to: 'none'
 homepage: https://matsjekk.com/app.html
-version: 1.1.12+3626702
+version: 1.1.12+3626750
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -27,6 +27,8 @@ dependencies:
   # stable that resolves to 0.5.5, which ships Play Billing 9.1.0.
   # 3.2.x resolved in_app_purchase_android 0.4.0+8 / Billing 7.1.1.
   in_app_purchase: ^3.3.1
+  # SHA256withRSA check of Huawei IAP receipts (huawei flavor).
+  pointycastle: ^3.9.1
   package_info_plus: ^9.0.0
   google_mobile_ads: ^5.1.0
 

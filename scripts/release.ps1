@@ -66,10 +66,10 @@ if (-not $SkipAndroid) {
     git checkout HEAD -- lib/gen_l10n lib/l10n 2>$null
 
     Write-Host "Building signed Android App Bundle..." -ForegroundColor Cyan
-    flutter build appbundle --release --build-number=$buildNumber --build-name=$versionName
+    flutter build appbundle --release --flavor play --build-number=$buildNumber --build-name=$versionName
     if ($LASTEXITCODE -ne 0) { throw "flutter build appbundle failed." }
 
-    $aab = Join-Path $repoRoot 'build\app\outputs\bundle\release\app-release.aab'
+    $aab = Join-Path $repoRoot 'build\app\outputs\bundle\playRelease\app-play-release.aab'
     if (-not (Test-Path $aab)) { throw "Expected AAB not found at $aab" }
 
     # --- 4. Verify signature -------------------------------------------------

@@ -66,12 +66,12 @@ $env:MATSJEKK_KEY_PROPERTIES = $propsPath
 $env:MATSJEKK_STORE_FILE_BASE = $appDir
 
 Set-Location -LiteralPath $IsolatedRoot
-& flutter build appbundle --release --build-name=$BuildName --build-number=$BuildNumber
+& flutter build appbundle --release --flavor play --build-name=$BuildName --build-number=$BuildNumber
 if ($LASTEXITCODE -ne 0) {
     throw 'flutter build appbundle failed.'
 }
 
-$aab = Join-Path $IsolatedRoot 'build\app\outputs\bundle\release\app-release.aab'
+$aab = Join-Path $IsolatedRoot 'build\app\outputs\bundle\playRelease\app-play-release.aab'
 if (-not (Test-Path -LiteralPath $aab -PathType Leaf)) {
     throw 'Release AAB was not produced.'
 }

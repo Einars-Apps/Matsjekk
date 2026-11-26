@@ -22,6 +22,7 @@ import 'analytics.dart';
 import 'premium_screen.dart';
 import 'premium_service.dart';
 import 'ad_helper.dart';
+import 'ads_policy.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'config/links.dart';
 import 'services/remote_risk_rules_service.dart';
@@ -112,16 +113,18 @@ void main() async {
       await Hive.openBox('list_positions');
       await Hive.openBox('vare_frekvens');
     },
-    initializeAds: () async {
-      await MobileAds.instance.initialize();
-      // Register the developer's own phone as a test device so it always
-      // shows test ads (prevents accidental self-clicks on real ads).
-      MobileAds.instance.updateRequestConfiguration(
-        RequestConfiguration(
-          testDeviceIds: ['F0FEFF925ABDCC58FEF218271A725244'],
-        ),
-      );
-    },
+    initializeAds: adsEnabled
+        ? () async {
+            await MobileAds.instance.initialize();
+            // Register the developer's own phone as a test device so it always
+            // shows test ads (prevents accidental self-clicks on real ads).
+            MobileAds.instance.updateRequestConfiguration(
+              RequestConfiguration(
+                testDeviceIds: ['F0FEFF925ABDCC58FEF218271A725244'],
+              ),
+            );
+          }
+        : null,
   );
   runApp(const MatvareSjekkApp());
 }
@@ -299,13 +302,13 @@ class _ScannerScreenState extends State<ScannerScreen>
   int _listBannerRetries = 0;
 
   void _loadBanners() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || !adsEnabled) return;
     _loadHomeBanner();
     _loadListBanner();
   }
 
   void _loadHomeBanner() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || !adsEnabled) return;
     _homeBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
@@ -333,7 +336,7 @@ class _ScannerScreenState extends State<ScannerScreen>
   }
 
   void _loadListBanner() {
-    if (_isTestEnv || premiumActive) return;
+    if (_isTestEnv || premiumActive || !adsEnabled) return;
     _listBannerAd = BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
       size: AdSize.banner,
