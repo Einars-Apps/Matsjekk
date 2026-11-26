@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T05:27:12.760323+00:00",
+  "updated_at": "2026-11-26T05:26:54.820452+00:00",
   "source": "google-news-rss-eu-filter",
   "window_days": 1095,
   "items": [
@@ -24,6 +24,17 @@
       "source": "EUR-Lex",
       "id": "bfc963d89535e524",
       "google_news_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbzZwVW83cTBrNkVtZVlCS0FUNkZSVGhhclRtNEJLOENiRWlvRzJoOGhxVm9KMnBhSXZOR1hLUHRGRVl5QWJsMEFSeW5yVW5LODFHMjNURjdvSTBNUk1jQ1hnRURfZlY4NFE5aGJKaTNIZS0yMng3S0Y2aWM4UlVCRWI3czZWa2YyTEZnWGg1dHVUeTlMSFRzUU5oTUlONGhyUlFLdU02YndzWUZX?oc=5"
+    },
+    {
+      "date": "2026-09-07T07:00:00+00:00",
+      "title": "Genetically modified organisms (GMO) - EUR-Lex",
+      "type": "Automatisk oppdaget oppdatering",
+      "topic": "GMO/NGT",
+      "summary": " Genetically modified organisms (GMO) &nbsp;&nbsp; EUR-Lex ",
+      "url": "https://eur-lex.europa.eu/EN/legal-content/glossary/genetically-modified-organisms-gmo.html",
+      "source": "EUR-Lex",
+      "id": "1ddcaf7dd3e1240c",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVVvajctdXRReVU2dEhwN3NlNjYwbW1SQWpuQkU1ZnNjaERPQUZNR1lCZFJwa2lFb21GMjFGSzJ3dExKdzgxY3cyanFNM1hFQlZ3bndqRzM3NGgxdlM5dEw2dkRrbEZpSEhOWTU0Z0RkVnRjd1R6OWI2Z2FBUzZVY0lxSS1GY2t1N05ONjJJUkRGbGFwT3c?oc=5"
     },
     {
       "date": "2026-08-31T07:00:00+00:00",
@@ -79,17 +90,6 @@
       "source": "European Parliament",
       "id": "63e593959e16953d",
       "google_news_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUHBWcjhOb2o5cmtxTmVaZS11Q08xZ3o5RTVNTVRvSHhZNVZJY01uQ3Y0NEJObjJYMEpxYWlzdHdiQ0hOeUplM1dJV1JQOVgtcC1VbW0yQUpTTzJVUW00VU5pSWluTGdJRkVkYlVzRlBzeVJnemZBSHdveEFMbXFGcElwSWx2X2RQeFJzRkd3bG1nTW5CdzFLb0d1X05jM29MMWYyNXQ0Vm14OE9idHZ0SHNJR3BzOWZPRTFIUHZNbGE1b0JmRkVOWW5HdnNhUG5ZbGlnMEZfQXNLNXcwbzJnVEVPWmg2NGM?oc=5"
-    },
-    {
-      "date": "2026-06-09T07:00:00+00:00",
-      "title": "30-06-2026 17:00 STOA workshop: Europe's future after embracing New Genomic Techniques - European Parliament",
-      "type": "Automatisk oppdaget oppdatering",
-      "topic": "GMO/NGT",
-      "summary": " 30-06-2026 17:00 STOA workshop: Europe's future after embracing New Genomic Techniques &nbsp;&nbsp; European Parliament ",
-      "url": "https://www.europarl.europa.eu/thinktank/fr/events/details/stoa-workshop-europe-s-future-after-embr/20260609WKS07221",
-      "source": "European Parliament",
-      "id": "61efeb1ed0f6d805",
-      "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclFMTnZWZTR1SkNSM29YZXFpdGVDbmFnbTJOWHVQXzRYVVhVZjk2Ti1MMkR5ckdsZEpGRmtvbU5sYU1DdXhKUEpNT0NaNVNSS19ESGN2UVZDdURzVk1BOGkyNFlTYzItdkpqT195TDZwM2JpSjJabExTeGNMcnRUQy13UE5UUlRia3B5Zm9lTFgxWGpsOFVLYkNVQ3RFMFhjWnRzRW12R0Y3ZFg0OGlQVUpSaVlJV3M?oc=5"
     },
     {
       "date": "2026-03-11T07:00:00+00:00",
