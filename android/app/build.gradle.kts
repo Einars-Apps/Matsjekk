@@ -48,6 +48,32 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        manifestPlaceholders["huaweiAppId"] = ""
+    }
+
+    // play: Google Play / default. huawei: AppGallery build with HMS IAP and
+    // no Play Billing. Build with --flavor huawei.
+    flavorDimensions += "store"
+    productFlavors {
+        create("play") {
+            dimension = "store"
+            isDefault = true
+        }
+        create("huawei") {
+            dimension = "store"
+            val huaweiProperties = Properties()
+            val huaweiPropertiesFile = rootProject.file("huawei.properties")
+            if (huaweiPropertiesFile.exists()) {
+                huaweiProperties.load(FileInputStream(huaweiPropertiesFile))
+            }
+            val huaweiAppId = huaweiProperties.getProperty("appId") ?: ""
+            manifestPlaceholders["huaweiAppId"] = huaweiAppId
+            buildConfigField("String", "HUAWEI_APP_ID", "\"$huaweiAppId\"")
+        }
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     signingConfigs {
@@ -78,10 +104,9 @@ android {
 gradle.taskGraph.whenReady {
     val needsUploadSignature = allTasks.any { task ->
         val name = task.name
-        name == "bundleRelease" ||
-            name == "assembleRelease" ||
-            name == "signReleaseBundle" ||
-            name.startsWith("packageRelease")
+        // Flavored names too: bundlePlayRelease, assembleHuaweiRelease, ...
+        Regex("^(bundle|assemble|package)\\w*Release\\w*$").matches(name) ||
+            Regex("^sign\\w*ReleaseBundle$").matches(name)
     }
     if (!needsUploadSignature) {
         return@whenReady
@@ -104,3 +129,14 @@ kotlin {
 flutter {
     source = "../.."
 }
+
+dependencies {
+    add("huaweiImplementation", "com.huawei.hms:iap:6.13.0.300")
+}
+
+// The Flutter plugin graph adds in_app_purchase_android (and its Play Billing
+// classes) to every variant. Excluding the library from the huawei flavor
+// breaks R8 and risks NoClassDefFoundError when the registered plugin loads,
+// so the classes stay but are never called on huawei: the huawei manifest
+// removes the BILLING permission, the billing meta-data and both proxy
+// activities, and FlavorStoreBilling routes every purchase to HMS IAP.

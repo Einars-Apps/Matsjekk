@@ -4,6 +4,8 @@ import 'dart:io' show Platform;
 import 'package:hive/hive.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 
+import 'purchases/huawei_store_billing.dart';
+
 /// Play/App Store calls used by [PremiumService]. Production uses
 /// [PluginStoreBilling]. Tests supply a fake so no store is contacted.
 abstract class StoreBilling {
@@ -54,6 +56,11 @@ class PremiumService {
   /// accepted entitlement so an earlier purchase under it still removes ads.
   static const String legacyRemoveAdsProductId = 'matsjekk_remove_ads_lifetime';
 
+  /// AppGallery product id. The non-consumable that already exists (Active)
+  /// in AppGallery Connect IAP for Matsjekk is matsjekk_remove_ads_lifetime,
+  /// so the huawei flavor sells that id. premium_adfree is still accepted.
+  static const String huaweiRemoveAdsProductId = legacyRemoveAdsProductId;
+
   /// Play product id. Kept under this name for existing callers.
   static const String removeAdsProductId = androidRemoveAdsProductId;
 
@@ -70,15 +77,28 @@ class PremiumService {
   final bool _isIOS;
 
   PremiumService({StoreBilling? billing, bool? isIOS})
-      : _billing = billing ?? PluginStoreBilling(),
+      : _billing = billing ??
+            ((isIOS ?? Platform.isIOS) ? PluginStoreBilling() : FlavorStoreBilling()),
         _isIOS = isIOS ?? Platform.isIOS;
+
+  /// True for the AppGallery (huawei flavor) build once the store is resolved.
+  bool get isHuaweiStore {
+    final billing = _billing;
+    return billing is HuaweiStoreBilling ||
+        (billing is FlavorStoreBilling && billing.isHuawei);
+  }
+
+  String get _storeName =>
+      _isIOS ? 'App Store' : (isHuaweiStore ? 'Huawei AppGallery' : 'Google Play');
 
   /// Ids asked from the store. Android asks only for the Play product.
   /// The App Store id is not confirmed from code or Apple, so iOS asks for
   /// both and offers whichever StoreKit returns (legacy id first).
   List<String> get queryProductIds => _isIOS
       ? const [legacyRemoveAdsProductId, androidRemoveAdsProductId]
-      : const [androidRemoveAdsProductId];
+      : (isHuaweiStore
+          ? const [huaweiRemoveAdsProductId]
+          : const [androidRemoveAdsProductId]);
 
   /// Product id(s) shown in status messages.
   String get productIdLabel => queryProductIds.join(' / ');
@@ -154,9 +174,7 @@ class PremiumService {
     if (response.error != null) {
       lastMessage = 'Kunne ikke hente produkter: ${response.error!.message}';
     } else if (products.isEmpty) {
-      lastMessage = Platform.isIOS
-          ? 'Fant ikke kjøpsproduktet. Sjekk App Store-konfigurasjon.'
-          : 'Fant ikke kjøpsproduktet. Sjekk Google Play-konfigurasjon.';
+      lastMessage = 'Fant ikke kjøpsproduktet. Sjekk $_storeName-konfigurasjon.';
     } else {
       lastMessage = '';
     }

@@ -1,0 +1,3 @@
+# Copy to android/huawei.properties. Do not commit that file.
+# appId is the public AppGallery Connect application id, not a client secret.
+appId=
